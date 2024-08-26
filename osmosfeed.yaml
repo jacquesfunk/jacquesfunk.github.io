@@ -3,7 +3,7 @@
 # https://github.com/osmoscraft/osmosfeed/blob/master/docs/osmosfeed-yaml-reference.md
 #########################
 
-cacheUrl: https://jacquesfunk.github.io/jacquesfunk.github.io/cache.json
+cacheUrl: https://jacquesfunk.github.io/cache.json
 sources:
   - href: http://feeds2.feedburner.com/Baseballmusingscom # Get new feature announcement via this feed
   - href: https://siftrss.com/f/13aRaX8yGr5
