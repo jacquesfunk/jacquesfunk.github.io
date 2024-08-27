@@ -5,14 +5,29 @@
 
 cacheUrl: https://jacquesfunk.github.io/cache.json
 sources:
-  - href: http://feeds2.feedburner.com/Baseballmusingscom # Get new feature announcement via this feed
+  - href: http://feeds2.feedburner.com/Baseballmusingscom
   - href: https://siftrss.com/f/13aRaX8yGr5
   - href: https://politicalwire.com/feed/
   - href: https://politepol.com/fd/Vjc601sG0jpO.xml
   - href: https://www.wonkette.com/feed
   - href: https://abovethelaw.com/feed/
   - href: https://www.thepitchkc.com/feed/
-  - href: https://feeds.npr.org/1070/rss.xml
+  - href: https://www.fark.com/fark.rss
+  - href: https://awfulannouncing.com/feed
+  - href: http://bicycleforyourmind.com/feed.rss
+  - href: http://www.cjr.org/feed
+  - href: https://feeds.feedburner.com/CrackedRSS
+  - href: https://blogs.fangraphs.com/feed/
+  - href: https://www.flowstate.fm/feed
+  - href: https://www.splcenter.org/hatewatch/rss.xml
+  - href: http://feeds.feedblitz.com/loweringthebar&x=1
+  - href: https://rss.metafilter.com/metafilter.rss
+  - href: https://feeds.feedburner.com/NiemanJournalismLab
+  - href: https://www.poynter.org/feed/
+  - href: https://www.rightwingwatch.org/feed/
+  - href: http://xkcd.com/rss.xml
+  - href: https://defector.com/feed
+  - href: https://www.scotusblog.com/feed/
 
 # `siteTitle`: Title to use in the browser tab and the machine readable feed output. (optional)
 siteTitle: "Fake News Site"
