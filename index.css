@@ -28,12 +28,12 @@
   /**
    * Components
    */
-  --body-color: var(--black);
+  --body-color: var(--white);
   --body-bg: var(--purple);
   --body-padding: 32px 24px;
   --body-stack-gap: 32px;
 
-  --accordion-content-hover-rail-color: var(--orange);
+  --accordion-content-hover-rail-color: var(--green);
   --accordion-content-rail-color: var(--pink);
   --accordion-marker-color: var(--article-title-color);
   --accordion-marker-expanded-color: var(--pink);
@@ -44,7 +44,7 @@
   --article-image-border-color: var(--pink);
   --article-image-radius: 6px;
   --article-image-shadow: none;
-  --article-reading-time-color: var(--orange);
+  --article-reading-time-color: var(--green);
   --article-stack-gap: 16px;
   --article-summary-color: var(--pink);
   --article-summary-hover-color: var(--orange);
@@ -52,7 +52,7 @@
   --article-title-expanded-color: var(--pink);
 
   --card-bg: var(--purple);
-  --card-border-color: var(--green);
+  --card-border-color: var(--orange);
   --card-padding: 16px;
   --card-radius: 8px;
   --card-shadow: none;
