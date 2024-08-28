@@ -9,7 +9,7 @@
   --green: #04947A; /* green */
   --cyan: #2DE2E6; /* cyan */
   --pink: #D82F86; /* pink */
-  --lightgreen: #00FF15; /* light green */
+  --lightpink: #00FF15; /* light pink */
   --darkpink: #D82F86 /* dark pink */
   --darkblue: #023788; /* dark blue */
   /**
@@ -33,14 +33,14 @@
   --body-stack-gap: 32px;
 
   --accordion-content-hover-rail-color: var(--orange);
-  --accordion-content-rail-color: var(--green);
+  --accordion-content-rail-color: var(--pink);
   --accordion-marker-color: var(--article-title-color);
-  --accordion-marker-expanded-color: var(--green);
+  --accordion-marker-expanded-color: var(--pink);
   --accordion-marker-hover-color: var(--accordion-marker-color);
   --accordion-marker-expanded-hover-color: var(--accordion-marker-color);
   --accordion-rail-indent: 7px;
 
-  --article-image-border-color: var(--green);
+  --article-image-border-color: var(--pink);
   --article-image-radius: 6px;
   --article-image-shadow: none;
   --article-reading-time-color: var(--cyan);
@@ -51,16 +51,16 @@
   --article-title-expanded-color: var(--D82F86);
 
   --card-bg: var(--purple);
-  --card-border-color: var(--green);
+  --card-border-color: var(--pink);
   --card-padding: 16px;
   --card-radius: 8px;
   --card-shadow: none;
   --card-stack-gap: 24px;
 
-  --daily-heading-color: var(--green);
+  --daily-heading-color: var(--pink);
   --daily-heading-hover-color: var(--cyan);
 
-  --footer-color: var(--green);
+  --footer-color: var(--pink);
   --footer-link-hover-color: var(--cyan);
 
   --source-link-color: var(--cyan);
