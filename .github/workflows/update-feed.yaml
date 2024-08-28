@@ -22,7 +22,9 @@ jobs:
       - name: Build the feed
         run: npm run build
       - name: Ensure CNAME file is present
-        run: echo 'www.muneer.top' > ./public/CNAME
+        run: echo 'your-domain.com' > ./public/CNAME
+      - name: Ensure index.css file is present
+        run: cp path/to/index.css ./public/index.css
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
