@@ -12,6 +12,7 @@
   --lightpink: #00FF15; /* light pink */
   --darkpink: #D82F86 /* dark pink */
   --darkblue: #023788; /* dark blue */
+  --white: #000000; /* white */
   /**
    * Typograph
    */
@@ -43,21 +44,21 @@
   --article-image-border-color: var(--pink);
   --article-image-radius: 6px;
   --article-image-shadow: none;
-  --article-reading-time-color: var(--cyan);
+  --article-reading-time-color: var(--orange);
   --article-stack-gap: 16px;
-  --article-summary-color: var(--D82F86);
-  --article-summary-hover-color: var(--darkpink);
-  --article-title-color: var(--D82F86);
-  --article-title-expanded-color: var(--D82F86);
+  --article-summary-color: var(--pink);
+  --article-summary-hover-color: var(--orange);
+  --article-title-color: var(--pink);
+  --article-title-expanded-color: var(--pink);
 
   --card-bg: var(--purple);
-  --card-border-color: var(--pink);
+  --card-border-color: var(--green);
   --card-padding: 16px;
   --card-radius: 8px;
   --card-shadow: none;
   --card-stack-gap: 24px;
 
-  --daily-heading-color: var(--pink);
+  --daily-heading-color: var(--white);
   --daily-heading-hover-color: var(--cyan);
 
   --footer-color: var(--pink);
