@@ -23,10 +23,8 @@ jobs:
         run: npm run build
       - name: Ensure CNAME file is present
         run: echo 'your-domain.com' > ./public/CNAME
-      - name: Ensure index.css file is present
-        run: cp ./index.css
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
