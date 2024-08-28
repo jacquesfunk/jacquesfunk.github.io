@@ -21,10 +21,10 @@ jobs:
         run: npm i
       - name: Build the feed
         run: npm run build
-      - name: Ensure CNAME file is present
-        run: echo 'your-domain.com' > ./public/CNAME
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          cname: www.muneer.top
+          keep_files: true
