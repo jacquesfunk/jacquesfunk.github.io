@@ -22,7 +22,7 @@ jobs:
       - name: Build the feed
         run: npm run build
       - name: Copy index.css from repo to public directory
-        run: cp ./public/index.css ./public/index.css
+        run: cp index.css ./public/index.css
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
