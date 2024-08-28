@@ -57,7 +57,7 @@
   --card-shadow: none;
   --card-stack-gap: 24px;
 
-  --daily-heading-color: var(--white);
+  /**--daily-heading-color: var(--white);*/
   --daily-heading-hover-color: var(--cyan);
 
   --footer-color: var(--pink);
