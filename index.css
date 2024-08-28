@@ -1,28 +1,17 @@
-:root {
   :root {
   /**
    * Palette
-   * Gruvbox dark, medium
-   * Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
    * Synthwave 84 Theme
    */
-  --base00: #282828; /* ---- */
-  --base01: #3c3836; /* --- */
-  --base02: #504945; /* -- */
-  --base03: #665c54; /* - */
-  --base04: #bdae93; /* + */
-  --base05: #d5c4a1; /* ++ */
-  --base06: #ebdbb2; /* +++ */
-  --base07: #fbf1c7; /* ++++ */
-  --base08: #fb4934; /* red */
-  --base09: #fe8019; /* orange */
-  --base0A: #fabd2f; /* yellow */
-  --base0B: #b8bb26; /* green */
-  --base0C: #8ec07c; /* aqua/cyan */
-  --base0D: #83a598; /* blue */
-  --base0E: #d3869b; /* purple */
-  --base0F: #d65d0e; /* brown */
-
+  --white: #000000; /* white */
+  --purple: #301F6E; /* purple */
+  --orange: #F08C00; /* orange */
+  --green: #04947A; /* green */
+  --cyan: #2DE2E6; /* cyan */
+  --pink: #D82F86; /* pink */
+  --lightpink: #00FF15; /* light pink */
+  --darkpink: #D82F86 /* dark pink */
+  --darkblue: #023788; /* dark blue */
   /**
    * Typograph
    */
@@ -38,42 +27,29 @@
   /**
    * Components
    */
-  --body-color: var(--base04);
-  --body-bg: var(--base00);
   --body-color: var(--white);
   --body-bg: var(--purple);
   --body-padding: 32px 24px;
   --body-stack-gap: 32px;
 
-  --accordion-content-hover-rail-color: var(--base04);
-  --accordion-content-rail-color: var(--base03);
   --accordion-content-hover-rail-color: var(--green);
   --accordion-content-rail-color: var(--pink);
   --accordion-marker-color: var(--article-title-color);
-  --accordion-marker-expanded-color: var(--base03);
   --accordion-marker-expanded-color: var(--pink);
   --accordion-marker-hover-color: var(--accordion-marker-color);
   --accordion-marker-expanded-hover-color: var(--accordion-marker-color);
   --accordion-rail-indent: 7px;
 
-  --article-image-border-color: var(--base03);
   --article-image-border-color: var(--pink);
   --article-image-radius: 6px;
   --article-image-shadow: none;
-  --article-reading-time-color: var(--base04);
   --article-reading-time-color: var(--green);
   --article-stack-gap: 16px;
-  --article-summary-color: var(--base05);
-  --article-summary-hover-color: var(--base07);
-  --article-title-color: var(--base0E);
-  --article-title-expanded-color: var(--base0E);
   --article-summary-color: var(--pink);
   --article-summary-hover-color: var(--orange);
   --article-title-color: var(--pink);
   --article-title-expanded-color: var(--pink);
 
-  --card-bg: var(--base01);
-  --card-border-color: var(--base03);
   --card-bg: var(--purple);
   --card-border-color: var(--orange);
   --card-padding: 16px;
@@ -81,20 +57,12 @@
   --card-shadow: none;
   --card-stack-gap: 24px;
 
-  --daily-heading-color: var(--base03);
-  --daily-heading-hover-color: var(--base04);
   --daily-heading-color: var(--white);
   --daily-heading-hover-color: var(--cyan);
 
-  --footer-color: var(--base03);
-  --footer-link-hover-color: var(--base04);
   --footer-color: var(--pink);
   --footer-link-hover-color: var(--cyan);
 
-  --source-link-color: var(--base04);
-  --source-link-hover-color: var(--base07);
-  --source-name-color: var(--base0A);
-  --source-name-hover-color: var(--base07);
   --source-link-color: var(--cyan);
   --source-link-hover-color: var(--darkpink);
   --source-name-color: var(--darkblue);
