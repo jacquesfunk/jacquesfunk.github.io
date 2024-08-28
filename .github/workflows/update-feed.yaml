@@ -5,9 +5,6 @@ on:
     branches:
       - main
   schedule:
-    # Adjust refresh schedule here. By default, it runs once per day.
-    # Syntax reference: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#schedule
-    # Recommended tool: https://crontab.guru/
     - cron: "0 */2 * * *"
 
 jobs:
@@ -24,6 +21,8 @@ jobs:
         run: npm i
       - name: Build the feed
         run: npm run build
+      - name: Ensure CNAME file is present
+        run: echo 'www.muneer.top' > ./public/CNAME
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
