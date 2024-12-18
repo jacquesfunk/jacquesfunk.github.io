@@ -2,10 +2,507 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2024-12-18T14:16:07.526Z</updated>
+    <updated>2024-12-18T16:21:08.259Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Dan Moren on Acorn 8]]></title>
+        <id>https://sixcolors.com/post/2024/12/acorn-8-brings-subject-selection-live-text-data-merge-more/</id>
+        <link href="https://sixcolors.com/post/2024/12/acorn-8-brings-subject-selection-live-text-data-merge-more/"/>
+        <updated>2024-12-18T16:10:27.000Z</updated>
+        <summary type="html"><![CDATA[Dan Moren, writing at Six Colors:
+The newly released Acorn 8 adds a bunch of great
+features to the mix. A few of them will be familiar to Apple
+platform users: subject selection uses machine learning to let
+you quickly isolate and grab the subject of a picture (there’s
+also a corresponding “Remove Background” feature to simplify
+that task) and a Live Text tool allows you to select and copy
+text within an image.
+For me, the star of the show is the fascinating Data Merge, which
+is a bit like Mail Merge for images. If you’ve ever needed to
+create the same image several times but with different information — nametags, for example, or personalized gift cards — this is a
+life-saver. You open your template image, identify your variables,
+then hand Acorn a CSV file with the relevant data and it will
+process through them, assigning text where needed and even putting
+images in assigned layers. It’s the kind of wild automation tool
+that might not be something you need every day, but when you do
+need it, there’s really no replacement.
+The rare sweet spot that Acorn hits is that it’s super-approachable to new and casual users, who just need an image editor sometimes, and super-powerful for power users who want to dig in.
+ ★]]></summary>
+        <author>
+            <name>Daring Fireball</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MacOS 15.2 Breaks the Ability to Create Bootable Startup Drive Backups]]></title>
+        <id>https://www.shirtpocket.com/blog/index.php/shadedgrey/youre_a_mean_one/</id>
+        <link href="https://www.shirtpocket.com/blog/index.php/shadedgrey/youre_a_mean_one/"/>
+        <updated>2024-12-18T16:01:44.000Z</updated>
+        <summary type="html"><![CDATA[Dave Nanian, writing on the Shirt Pocket blog:
+macOS 15.2 was released a few days ago, with a surprise. A
+terrible, awful surprise. Apple broke the replicator. Towards
+the end of replicating the Data volume, seemingly when it’s
+about to copy either Preboot or Recovery, it fails with a
+Resource Busy error.
+In the past, Resource Busy could be worked around by ensuring
+the system was kept awake. But this new bug means, on most
+systems, there’s no fix. It just fails.
+Since Apple took away the ability for 3rd parties (eg, us) to copy
+the OS, and took on the responsibility themselves, it’s been up to
+them to ensure this functionality continues to work. And in that,
+they’ve failed in macOS 15.2. Because this is their code, and
+we’re forced to rely on it to copy the OS, OS copying will not
+work until they fix it. [...]
+For those who may be working for Apple, or have good contacts, the
+bug is FB16090831. A fix would be really helpful, folks.
+This means Shirt Pocket’s outstanding utility SuperDuper can’t make a bootable clone of your startup drive on a machine running MacOS 15.2.0. It’s worth noting that you can still use SuperDuper (or other backup utilities) to clone all of your data, which is, by far, the most essential data in any backup. But bootable startup drives clones are an essential part of many people’s data integrity workflows.
+This bug seems to affect CarbonCopyCloner and Apple’s own Time Machine, too. A bug like this is always unfortunate, but especially around the holidays, when it might take longer than usual to get fixed, even if the issue is escalated within Apple.
+ ★]]></summary>
+        <author>
+            <name>Daring Fireball</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tigers and Twins Winter Meetings Notes]]></title>
+        <id>https://blogs.fangraphs.com/?p=453019</id>
+        <link href="https://blogs.fangraphs.com/tigers-and-twins-winter-meetings-notes/"/>
+        <updated>2024-12-18T16:00:35.000Z</updated>
+        <summary type="html"><![CDATA[Derek Falvey, Scott Harris, A.J. Hinch and Rocco Baldelli address questions from the media.]]></summary>
+        <author>
+            <name>David Laurila</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Saints linebacker Demario Davis leads way in making community activism part of NFL’s growth story]]></title>
+        <id>https://awfulannouncing.com/?p=684143</id>
+        <link href="https://awfulannouncing.com/nfl/saints-linebacker-demario-davis-community-activism.html"/>
+        <updated>2024-12-18T16:00:11.000Z</updated>
+        <summary type="html"><![CDATA[New Orleans Saints linebacker Demario Davis is an All-Pro both on and off the field. And with the NFL more popular than ever before, Davis is hopeful that the work players do in their local communities is always part of the story. At 35, Davis’ career has aged like fine wine. He signed with the Read more...
+The post Saints linebacker Demario Davis leads way in making community activism part of NFL’s growth story appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Matt Yoder</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Christmas Tamales by the Dozen, the Hundreds, the Tens of Thousands]]></title>
+        <id>https://www.eater.com/24322546/christmas-tamales-mexican-restaurants-supermarkets-frozen-tamale-company</id>
+        <link href="https://www.eater.com/24322546/christmas-tamales-mexican-restaurants-supermarkets-frozen-tamale-company"/>
+        <updated>2024-12-18T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Tamales at the California-based Vallarta Supermarkets chain. | Vallarta Supermarkets
+    
+
+  
+For Mexican restaurants and supermarkets, the holidays mean one thing: Tamal season is here
+ It wasn’t until I moved to New York City for college that I realized how much I took the tamales of my childhood holidays for granted. A born-and-raised Southern Californian with a big Mexican American family, I had never known a Christmas without a pile of corn husk-wrapped tamales waiting next to a honey ham and the half dozen other sides my mom and aunts had prepared for us, the corn masa hot and inviting, begging us to dig in. We picked and chose our holiday traditions — I can’t remember the last time my parents successfully corralled my siblings and me to the procession-and-caroling part of a posada c…]]></summary>
+        <author>
+            <name>Eater -  Front Page</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kazoo version of Obra Dinn's "Soldiers of the Sea"]]></title>
+        <id>https://boingboing.net/?p=1045128</id>
+        <link href="https://boingboing.net/2024/12/18/kazoo-version-of-obra-dinns-soldiers-of-the-sea.html"/>
+        <updated>2024-12-18T15:38:52.000Z</updated>
+        <summary type="html"><![CDATA["Soldiers of the Sea" is the spine-tingling shanty that plays in Return of the Obra Dinn when you first encounter a memory showing the worst of what the ship's vanished crew were up against. The contrast of an uplifting work song with "What. — Read the rest 
+The post Kazoo version of Obra Dinn's "Soldiers of the Sea" appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Rob Beschizza</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NFL earns massive combined audience for Sunday’s big slate]]></title>
+        <id>https://awfulannouncing.com/?p=684086</id>
+        <link href="https://awfulannouncing.com/nfl/massive-combined-audience-sunday-double-doubleheader.html"/>
+        <updated>2024-12-18T15:30:54.000Z</updated>
+        <summary type="html"><![CDATA[A pair of high-wattage games in the late afternoon window led the NFL to a huge audience on Sunday. Deploying its first “double-doubleheader” of the season in which both CBS and Fox aired nationally televised games in the 4:25 p.m. ET window, the NFL drew nearly 40 million viewers on Sunday afternoon. The CBS broadcast Read more...
+The post NFL earns massive combined audience for Sunday’s big slate appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Drew Lerner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Boffins trick AI model into giving up its secrets]]></title>
+        <id>https://go.theregister.com/feed/www.theregister.com/2024/12/18/ai_model_reveal_itself/</id>
+        <link href="https://go.theregister.com/feed/www.theregister.com/2024/12/18/ai_model_reveal_itself/"/>
+        <updated>2024-12-18T15:30:13.000Z</updated>
+        <summary type="html"><![CDATA[<h4>All it took to make an Google Edge TPU give up model hyperparameters was specific hardware, a novel attack technique … and several days</h4> <p>Computer scientists from North Carolina State University have devised a way to copy AI models running on Google Edge Tensor Processing Units (TPUs), as used in Google Pixel phones and third-party machine learning accelerators.…</p>]]></summary>
+        <author>
+            <name>The Register - Software</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: QRAnalytica – Track and Optimize QR Code Campaigns]]></title>
+        <id>https://news.ycombinator.com/item?id=42451169</id>
+        <link href="https://qranalytica.com/"/>
+        <updated>2024-12-18T15:23:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://qranalytica.com
+Comments URL: https://news.ycombinator.com/item?id=42451169
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>anithakarri</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Teen Vogue’s Top 10 Op-eds of 2024]]></title>
+        <id>https://www.teenvogue.com/story/best-opinion-pieces-2024</id>
+        <link href="https://www.teenvogue.com/story/best-opinion-pieces-2024"/>
+        <updated>2024-12-18T15:22:25.000Z</updated>
+        <summary type="html"><![CDATA[Thanks for reading!]]></summary>
+        <author>
+            <name>Breaking US, World &amp; College News | Teen Vogue | Teen Vogue</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Practice actual work conversations (with LLM based feedback)]]></title>
+        <id>https://news.ycombinator.com/item?id=42451150</id>
+        <link href="https://prep.coach/"/>
+        <updated>2024-12-18T15:21:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://prep.coach/
+Comments URL: https://news.ycombinator.com/item?id=42451150
+Points: 15
+# Comments: 1]]></summary>
+        <author>
+            <name>onassar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Best Ways to Use Quince in Home Cooking]]></title>
+        <id>https://www.eater.com/24317414/quince-home-cooking-how-to-use</id>
+        <link href="https://www.eater.com/24317414/quince-home-cooking-how-to-use"/>
+        <updated>2024-12-18T15:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Lille Allen/Eater
+    
+
+  
+Whether it’s poached, baked in a tart, or cooked into jam, quince can shine in both sweet and savory dishes 
+ If you have ever tried membrillo — the dense Spanish jam often paired with Manchego on a nice cheese plate, maybe with a handful of Marcona almonds and a glass of Tempranillo – you know the sweet, slightly floral flavor of quince. Its appearance, however, may remain a mystery. The pink hue and uniform slices of quince paste look nothing like the golden, lumpy fruit as it hangs on a tree during the autumn harvest season. 
+At a glance, quince could be mistaken for an heirloom apple or pear, but hold one in your hand and you’ll soon understand a key difference between them – this rock hard fruit cannot be eaten raw. With a little heat and a little patience, …]]></summary>
+        <author>
+            <name>Eater -  Front Page</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Use AI to practice tough conversation]]></title>
+        <id>https://news.ycombinator.com/item?id=42451113</id>
+        <link href="https://www.usearchieai.com/"/>
+        <updated>2024-12-18T15:17:15.000Z</updated>
+        <summary type="html"><![CDATA[The best way to get better at tough conversation (that I run away from) is to practice. I created this to help myself by simulating tough scenarios using AI.
+With Tough Tongue AI, you can stumble, stammer, and say the weirdest stuff—then try again until you nail it. No judgment, no sweaty palms, and definitely no awkward pauses...okay, maybe a few, the AI is still far from perfect, but it’s all part of the fun!
+It has been helpful and given me confidence to have those conversations I've been avoiding! Hope it's of help to you as well :)
+Comments URL: https://news.ycombinator.com/item?id=42451113
+Points: 3
+# Comments: 0]]></summary>
+        <author>
+            <name>ajabhish</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I built a tool for mobile and computer use using local and remote LLMs]]></title>
+        <id>https://news.ycombinator.com/item?id=42451077</id>
+        <link href="https://github.com/BandarLabs/clickclickclick"/>
+        <updated>2024-12-18T15:13:33.000Z</updated>
+        <summary type="html"><![CDATA[Created a tool that lets you use LLMs to automate task across mobile (android) and computer. Currently, this uses screenshots and LLMs support for extracting screen UI elements effectively. This is still a work in progress and attempting to make this work with local models via Ollama (the code is in place with some issues). As of now, Gemini and GPT 4o works the best for finding UI elements and planning the task.
+Some examples that work as of now:
+  1. Use gmail and ask @example.com for lunch next saturday  
+
+ 2.  Start a 3+2 chess game on lichess  
+
+https://github.com/BandarLabs/clickclickclick
+This improves the cost of one automation task from approx. $0.6 via Claude to:
+$0.06 - OpenAI 4o mini as planner + free Gemini flash 1.5 (15 calls/min)
+The Llama vision models will eventually make it 0.
+Comments URL: https://news.ycombinator.com/item?id=42451077
+Points: 1
+# Comments: 2]]></summary>
+        <author>
+            <name>mkagenius</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joe's Blog: Cold, warmer, colder, warmer (WED-12/18)]]></title>
+        <id>https://fox4kc.com/?p=3763177</id>
+        <link href="https://fox4kc.com/email-alerts/joes-weather-blog-email-alerts/joes-blog-cold-warmer-colder-warmer-wed-12-18/"/>
+        <updated>2024-12-18T15:10:50.000Z</updated>
+        <summary type="html"><![CDATA[Cloudy Wednesday morning, becoming mostly sunny this afternoon with highs near 40 degrees]]></summary>
+        <author>
+            <name>Joe Lauria</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Brisk – Cross-Platform C++ GUI Framework: Declarative, Reactive, Fast]]></title>
+        <id>https://news.ycombinator.com/item?id=42450963</id>
+        <link href="https://github.com/brisklib/brisk"/>
+        <updated>2024-12-18T15:01:53.000Z</updated>
+        <summary type="html"><![CDATA[Brisk is an open-source C++ GUI framework with a declarative approach, offering powerful data bindings, GPU-accelerated graphics, and dynamic widget management. It supports macOS, Linux, Windows, and simplifies UI creation with modern paradigms and CSS-like layouts.
+Initially developed for a graphics-intensive project with a complex and dynamic GUI, the framework is currently under active development.
+Comments URL: https://news.ycombinator.com/item?id=42450963
+Points: 3
+# Comments: 1]]></summary>
+        <author>
+            <name>danlcaza</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The 2024 Awfulies: Best & worst sports media moments of the year]]></title>
+        <id>https://awfulannouncing.com/?p=684137</id>
+        <link href="https://awfulannouncing.com/orig/2024-awfulies-best-worst-sports-media-moments-year.html"/>
+        <updated>2024-12-18T15:00:59.000Z</updated>
+        <summary type="html"><![CDATA[This week, we’re celebrating the highs, the lows, the best, and the worst of the year with The Awfulies. Started in 2022 and expanded in 2023, the Awful Announcing staff has cast its votes for who we think should take home the coveted golden microphone. Keep an eye on category and winner reveals all week long. And be sure Read more...
+The post The 2024 Awfulies: Best & worst sports media moments of the year appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Sean Keeley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Orioles Sign NPB Legend Tomoyuki Sugano To One-Year Pact]]></title>
+        <id>https://blogs.fangraphs.com/?p=453071</id>
+        <link href="https://blogs.fangraphs.com/orioles-sign-npb-legend-tomoyuki-sugano-to-one-year-pact/"/>
+        <updated>2024-12-18T15:00:40.000Z</updated>
+        <summary type="html"><![CDATA[My favorite one-year deal of the winter so far asks an interesting question: What does 80-grade command look like without overpowering stuff?]]></summary>
+        <author>
+            <name>Ben Clemens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dodge Mining Camp Cabin in Dodgeville, Wisconsin]]></title>
+        <id>https://www.atlasobscura.com/places/dodge-mining-camp-cabin</id>
+        <link href="https://www.atlasobscura.com/places/dodge-mining-camp-cabin"/>
+        <updated>2024-12-18T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA["Imagine yourself in 1827 … Winter approaches. You are cold and hungry in a strange land… Your priorities: food, shelter, and smelting lead for income to stay alive."
+
+So begins the Iowa County Historical Society's introduction to the Dodge Mining Camp Cabin. Through this log cabin, which is the oldest building in the county, you can experience the hardships and betrayals of the earliest Wisconsin lead miners.
+
+Both the cabin and the city of Dodgeville are named for M. Henry Dodge, a man whose rapacious desire for wealth and power typified the era. In the early 19th century, the area belonged to the Ho-Chunk Nation. The Ho-Chunk and other Indigenous nations had mined the area for lead for centuries, often selling to French and American traders. Lead, at the time, was most valuable for pa…]]></summary>
+        <author>
+            <name>Atlas Obscura - Latest Articles and Places</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Host a Holiday Cookie Swap, According to an Expert]]></title>
+        <id>https://www.eater.com/24319052/holiday-cookie-swap-party-ideas</id>
+        <link href="https://www.eater.com/24319052/holiday-cookie-swap-party-ideas"/>
+        <updated>2024-12-18T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Shutterstock
+    
+
+  
+Holiday cookie swaps are an art form. Here’s everything you need to know to host a good one. 
+ Tis the season for lots of things — hot cocoa, gift shopping, and perhaps most importantly, cookie swaps. These annual exchanges of delicious baked goods have become increasingly popular in recent years, and maybe you’ve been invited to one but aren’t exactly a great baker. Or perhaps you’re interested in hosting your first-ever cookie swap, but have no idea where to start. That’s where Aimee France, a baker and the mind behind the wildly popular Instagram account formerly known as @yungkombucha420, comes in. 
+France first encountered the cookie swap as a child, when her mother would attend a yearly ladies’ nigh. “My mom would always come home with a ton of cookies, and that…]]></summary>
+        <author>
+            <name>Eater -  Front Page</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I spent 4 years bootstrapping a financial planning tool to 30k MAUs]]></title>
+        <id>https://news.ycombinator.com/item?id=42450913</id>
+        <link href="https://projectionlab.com/"/>
+        <updated>2024-12-18T14:57:22.000Z</updated>
+        <summary type="html"><![CDATA[Hey everyone! I'm back with an update on this post [0].
+Last year, I quit my corporate job and went full-time on ProjectionLab, the long-term financial planning app I've been building for the past 4 years, which some of you may recognize. The decision to go all-in felt like a huge leap. But it was the right call, and it's been a good year.
+And without the HN community, it would not have happened. As I mentioned last time [0], the feedback on my original Show HN is THE reason I'm still here working on this. I'm really grateful for that. And I hope the way I’ve grown PL -- staying bootstrapped and focused on users -- resonates with the early supporters who helped to shape it.
+For now I'm still the only engineer, burning the candle at both ends, but luckily I'm not feeling burnt out myself!
+I…]]></summary>
+        <author>
+            <name>scubakid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The No-Win 'Mystery Drone' Clusterfuck]]></title>
+        <id>6762dcfe8709d7000198bc85</id>
+        <link href="https://www.404media.co/the-no-win-mystery-drone-clusterfuck/"/>
+        <updated>2024-12-18T14:43:33.000Z</updated>
+        <summary type="html"><![CDATA[To political grifters boosting their profiles, government inaction is unacceptable, and government action cannot be trusted. There is no acceptable explanation.]]></summary>
+        <author>
+            <name>Jason Koebler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Repositree – Generate the file structure of your repo for your README]]></title>
+        <id>https://news.ycombinator.com/item?id=42450748</id>
+        <link href="https://repositree.vercel.app/"/>
+        <updated>2024-12-18T14:37:41.000Z</updated>
+        <summary type="html"><![CDATA[Have you ever struggled to document your project's file structure for a README file?
+Repositree is here to solve that! With just a few clicks, you can create an organized tree structure, perfect for showcasing your project’s architecture.
+Give it a try and let me know of your feedback! Thanks!
+Comments URL: https://news.ycombinator.com/item?id=42450748
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>abishekvenkat</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Cama Pack – Moisture Monitoring for Raspberry Pi or Arduino]]></title>
+        <id>https://news.ycombinator.com/item?id=42450742</id>
+        <link href="https://github.com/Barqawiz/iot_watering_system"/>
+        <updated>2024-12-18T14:37:00.000Z</updated>
+        <summary type="html"><![CDATA[Home based plant moisture monitoring solutions using Raspberry Pi and Arduino. We created several different dashboards including web hosted options and a custom cell phone application that connects to the Pi through Bluetooth.
+Everything is open source under the MIT license. Would love feedback, contributions!
+Comments URL: https://news.ycombinator.com/item?id=42450742
+Points: 3
+# Comments: 0]]></summary>
+        <author>
+            <name>barqawiz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The potoroo is another long-snouted animal you should know]]></title>
+        <id>https://boingboing.net/?p=1045111</id>
+        <link href="https://boingboing.net/2024/12/18/the-potoroo-is-another-long-snouted-animal-you-should-know.html"/>
+        <updated>2024-12-18T14:34:38.000Z</updated>
+        <summary type="html"><![CDATA[Last year I shared one of the cutest videos on the internet—this double-decking strawberry snacking situation involving a mama potoroo and her baby. It's definitely prime potoroo content, but it left me wanting more—specifically, something more up-close where I could REALLY see the snouted snacking action.  — Read the rest 
+The post The potoroo is another long-snouted animal you should know appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Jennifer Sandlin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: xmllm – Structured LLM streaming output using lenient XML parsing]]></title>
+        <id>https://news.ycombinator.com/item?id=42450702</id>
+        <link href="https://github.com/padolsey/xmllm"/>
+        <updated>2024-12-18T14:31:50.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN. I made a little JS library for streaming structured data from LLMs using leniently-parsed XML as a medium.
+E.g.
+    await simple('fun pet names', {
+      schema: { name: Array(String) },
+      model: 'openrouter:mistralai/ministral-3b'
+    }); // => ["Daisy", "Whiskers", "Rocky"]
+
+When using LLMs, I've ended up gravitating towards boring time-tested XML-esque tag-based delimiters instead of JSON/function-calling for the following reasons:
+- Diverse presence in training corpuses (consider flavours of content commonly adjacent to these syntaxes vs. JSON)
+- HTML was built for fallible humans to write; LLMs are equally fallible. Let them cook [html]!
+- IME better and more consistent adherance than very delicate JSON/YAML etc.
+- Lenient by nature (following Postel's law of being liberal …]]></summary>
+        <author>
+            <name>padolsey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Report: Lee Fitting’s abrupt ESPN departure came after HR investigation into behavior]]></title>
+        <id>https://awfulannouncing.com/?p=684202</id>
+        <link href="https://awfulannouncing.com/espn/lee-fitting-hr-investigation-the-athletic.html"/>
+        <updated>2024-12-18T14:30:19.000Z</updated>
+        <summary type="html"><![CDATA[The timing of Lee Fitting’s departure at ESPN raised plenty of questions, as it came just weeks ahead of the 2023 college football and NFL seasons. But while those questions appeared to have been answered with the ensuing College GameDay Emmy fraud scandal that was made public months later, it appears there was more to Read more...
+The post Report: Lee Fitting’s abrupt ESPN departure came after HR investigation into behavior appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Ben Axelrod</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Racial Orders and American Political Development: International, Intra-Coalitional, and Individual Dimensions]]></title>
+        <id>https://balkin.blogspot.com/2024/12/racial-orders-and-american-political.html</id>
+        <link href="https://balkin.blogspot.com/2024/12/racial-orders-and-american-political.html"/>
+        <updated>2024-12-18T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[For the Balkinization Symposium on Rogers M. Smith and Desmond King, America’s New Racial Battle Lines: Protect versus Repair (University of Chicago Press, 2024).
+Chloe Thurston 
+America’s New Racial Battle Lines: Protect versus Repair is
+the latest installment of a now two-decades-long collaboration between Rogers
+Smith and Desmond King to trace the “deep story” of American racial politics
+that undergirds American political development. Beginning with their 2005
+article “Racial Orders and American Political Development,” (and influenced by
+each of the authors’ earlier work), King and Smith made the case that over
+centuries, American political development has been characterized by competition
+for governing authority and institutional control between two competing racial
+orders: one, commit…]]></summary>
+        <author>
+            <name>Balkinization</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Puppy Chow]]></title>
+        <id>https://www.budgetbytes.com/?p=106645</id>
+        <link href="https://www.budgetbytes.com/puppy-chow/"/>
+        <updated>2024-12-18T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[This Puppy Chow recipe is a budget-friendly treat that’s ridiculously easy to make and is perfect for parties and holiday gatherings!
+The post Puppy Chow appeared first on Budget Bytes.]]></summary>
+        <author>
+            <name>Marsha McDougal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Year Charli XCX Gave Us New Language for Understanding Martha Versus Ina]]></title>
+        <id>https://www.eater.com/24323709/martha-stewart-ina-garten-friendship-charli-xcx-2024-brat-year</id>
+        <link href="https://www.eater.com/24323709/martha-stewart-ina-garten-friendship-charli-xcx-2024-brat-year"/>
+        <updated>2024-12-18T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Was it just a coincidence that both Martha Stewart and Ina Garten had big releases this year? | Lille Allen
+    
+
+  
+Are Martha Stewart and Ina Garten still friends? Girl, it’s so confusing sometimes!
+ In Ina Garten’s new memoir, Be Ready When the Luck Happens, she recounts her first attempt at filming a cooking show, overseen by Martha Stewart’s television production company and seemingly encouraged by Stewart herself: “Martha and I had been friends for several years, and I was writing a column for her magazine,” Garten explains. Stewart had, of course, already proven that it was lucrative to be on TV; while Garten was still on the come-up, Stewart was established.
+Despite Garten’s eventual success with Barefoot Contessa, this initial show did not go well. Garten sent the crew home and vo…]]></summary>
+        <author>
+            <name>Eater -  Front Page</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Digital Clock 5 – modern digital clock application]]></title>
+        <id>https://www.linuxlinks.com/?p=139701</id>
+        <link href="https://www.linuxlinks.com/digital-clock-modern-digital-clock-application/"/>
+        <updated>2024-12-18T14:29:48.000Z</updated>
+        <summary type="html"><![CDATA[Digital Clock 5 is billed as a very customizable and beautiful clock. It lives up to its billing and more besides.
+The post Digital Clock 5 – modern digital clock application appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2020 paper pushing bogus Covid treatment finally retracted]]></title>
+        <id>https://boingboing.net/?p=1045099</id>
+        <link href="https://boingboing.net/2024/12/18/2020-paper-pushing-bogus-covid-treatment-finally-retracted.html"/>
+        <updated>2024-12-18T14:15:00.000Z</updated>
+        <summary type="html"><![CDATA[A 2020 paper that caused a shortage of an anti-malarial drug also used to treat autoimmune disorders like lupus was just retracted by the journal that published it.
+In March of 2020, during the height of the COVID-19 pandemic, the International Journal of Antimicrobial Agents published a study claiming hydroxychloroquine was an effective treatment for the virus. — Read the rest 
+The post 2020 paper pushing bogus Covid treatment finally retracted appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Gail Sherman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Britain's online safety rules come into force, and sites are already shutting down.]]></title>
+        <id>https://boingboing.net/?p=1045116</id>
+        <link href="https://boingboing.net/2024/12/18/britains-online-safety-rules-come-into-force-andl-ocal-sites-are-already-shutting-down.html"/>
+        <updated>2024-12-18T14:14:57.000Z</updated>
+        <summary type="html"><![CDATA[Britain's online safety act, forced through parliament despite all the usual warnings about hasty "think of the children" legislation, is now in force. The overwhelming compliance requirements are already causing local sites to shut down, such as a popular forum for bicyclists. — Read the rest 
+The post Britain's online safety rules come into force, and sites are already shutting down. appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Rob Beschizza</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Built a platform where devs/designers make $20k/mo from their work docs]]></title>
+        <id>https://news.ycombinator.com/item?id=42450517</id>
+        <link href="https://tapflow.co/"/>
+        <updated>2024-12-18T14:08:36.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN,
+I noticed senior tech folks have valuable knowledge in their work docs – processes, templates, guides. This is expertise worth thousands, sitting unused. But they rarely share it: too busy for courses, unsure about value, or overwhelmed by setup.
+I built Tapflow (https://tapflow.co) to fix this:
+- Notion-like editor you already know
+- Drop your content, set price
+- Get instant product page
+- Built-in payments
+Numbers:
+- Some early users made $20k+ from their products
+- 1000+ registered pros, mostly word of mouth, Reddit and PH
+- Profitable, bootstrapped side-project
+Would love feedback:
+- What stops you from sharing your expertise?
+- How would you price your technical knowledge?
+Try it: https://tapflow.co
+Stack:
+Backend: nginx, express.js, Apollo GraphQL, postgreSQL, redis, Stripe
+Frontend: next.js, react-query, GraphQL, Material UI, yoopta wysiwyg Hosting: AWS, DigitalOcean, bunny.net
+Free to use, 10% fee on sales or Pro tier.
+Comments URL: https://news.ycombinator.com/item?id=42450517
+Points: 4
+# Comments: 2]]></summary>
+        <author>
+            <name>hewmax</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ghia Has Mastered the Art of the (Actually) Spicy Winter Mocktail]]></title>
         <id>https://www.eater.com/24320707/ghia-nonalcoholic-christmas-drink-spritz-mocktail</id>
@@ -22,6 +519,19 @@ This non-alcoholic aperitif is what I want to sip at every holiday party this ye
 No peeking! But check out what the Eater Advent Calendar has already revealed.  And check back each day for a new clutch condiment, gadget, or nibble that, yes, makes an amazing gift — but these surprises are just for you.]]></summary>
         <author>
             <name>Eater -  Front Page</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Cora – summarize all of your email with AI]]></title>
+        <id>https://news.ycombinator.com/item?id=42450470</id>
+        <link href="https://cora.computer/##"/>
+        <updated>2024-12-18T14:01:38.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://cora.computer/##
+Comments URL: https://news.ycombinator.com/item?id=42450470
+Points: 1
+# Comments: 1]]></summary>
+        <author>
+            <name>dshipper</name>
         </author>
     </entry>
     <entry>
@@ -77,6 +587,35 @@ Sabrina Imbler: I’m so excited to talk with both of you about Hallmark’s fir
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Stringify.org – encode any text as a JavaScript string]]></title>
+        <id>https://news.ycombinator.com/item?id=42450372</id>
+        <link href="https://stringify.org/"/>
+        <updated>2024-12-18T13:47:56.000Z</updated>
+        <summary type="html"><![CDATA[Do you ever want to embed a super long string in JavaScript, and find yourself escaping quotes or interpolations by hand?
+I find this comes up a lot, particularly when you're doing code generation stuff, because you need to have examples of code for the LLM, and that code often has strings embedded inside it. For example, take a look at the code properties in this JSON array[1].
+Introducing stringify.org, the world's only correct-by-definition JavaScript string encoder website. It uses JSON.stringify, which is the only guaranteed method to output a string that is also valid JavaScript. It's in the spec.
+[1] - https://www.val.town/v/stevekrouse/cerebras_coder_prompts
+Comments URL: https://news.ycombinator.com/item?id=42450372
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>stevekrouse</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Brown noise generator. Ultimate focus mode]]></title>
+        <id>https://news.ycombinator.com/item?id=42450363</id>
+        <link href="https://pagesword.com/brown-noise-generator"/>
+        <updated>2024-12-18T13:46:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://pagesword.com/brown-noise-generator
+Comments URL: https://news.ycombinator.com/item?id=42450363
+Points: 2
+# Comments: 1]]></summary>
+        <author>
+            <name>maxpage</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[ESPN sees massive audience growth for NCAA Volleyball Regionals]]></title>
         <id>https://awfulannouncing.com/?p=684140</id>
         <link href="https://awfulannouncing.com/espn/massive-growth-ncaa-volleyball-regionals.html"/>
@@ -85,6 +624,19 @@ Sabrina Imbler: I’m so excited to talk with both of you about Hallmark’s fir
 The post ESPN sees massive audience growth for NCAA Volleyball Regionals appeared first on Awful Announcing.]]></summary>
         <author>
             <name>Drew Lerner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[One of the Supreme Court's Most Infamous Cases Is as Relevant as Ever]]></title>
+        <id>https://www.thenation.com/?post_type=article&amp;p=534077</id>
+        <link href="https://www.thenation.com/article/society/korematsu-v-united-states-anniversary-80-years/"/>
+        <updated>2024-12-18T13:31:29.000Z</updated>
+        <summary type="html"><![CDATA[Jonathan VanHarmelen
+
+Eighty years ago, Korematsu v. United States upheld the incarceration of Japanese Americans. The racism and hysteria that fueled that decision are still with us today.
+The post One of the Supreme Court's Most Infamous Cases Is as Relevant as Ever appeared first on The Nation.]]></summary>
+        <author>
+            <name>Jonathan VanHarmelen</name>
         </author>
     </entry>
     <entry>
@@ -6638,18 +7190,6 @@ The post chota – micro (3kb) CSS framework appeared first on LinuxLinks.]]></s
 The post Coulr – color box to help developers and designers appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Six feet of cozy cashmere bliss for just $15.97]]></title>
-        <id>https://boingboing.net/?p=1043811</id>
-        <link href="https://boingboing.net/2024/12/13/six-feet-of-cozy-cashmere-bliss-for-just-15-97.html"/>
-        <updated>2024-12-14T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: The Lavisha Cashmere-Blend Shawl is on sale for $15.97 (reg. $50), offering luxurious warmth in a variety of colors—order through December 15 for delivery in time for Christmas.
-Winter is here, and so are the shivers! But you don't have to sacrifice style for warmth when you've got the Lavisha Cashmere-Blend Shawl in your corner. — Read the rest 
-The post Six feet of cozy cashmere bliss for just $15.97 appeared first on Boing Boing.]]></summary>
-        <author>
-            <name>Boing Boing's Shop</name>
         </author>
     </entry>
 </feed>
