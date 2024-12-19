@@ -24,6 +24,16 @@
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
         {
+          "id": "https://www.linuxlinks.com/?p=139754",
+          "author": "Erik Karlsson",
+          "description": "Bluefin is an immutable, developer-focused, Cloud-native Linux distribution that's based on Fedora.\nThe post Bluefin – Fedora based Linux distribution appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/bluefin-fedora-based-linux-distribution/",
+          "publishedOn": "2024-12-19T08:02:39.000Z",
+          "wordCount": 4006,
+          "title": "Bluefin – Fedora based Linux distribution",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2024/04/Linux-Distributions.png"
+        },
+        {
           "id": "https://www.linuxlinks.com/?p=82513",
           "author": "Eilidih Parris",
           "description": "This article examines the best Java micro-frameworks. Micro means the framework is small, with little or no tools and libraries.\nThe post 13 Best Free and Open Source Java Micro-Frameworks appeared first on LinuxLinks.",
@@ -292,16 +302,6 @@
           "wordCount": 4396,
           "title": "sakura – minimal, classless CSS framework / theme",
           "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2024/12/031-front-end.png"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=139549",
-          "author": "Steve Emms",
-          "description": "dupefi is a command-line duplicate file finder designed with Linux philosophy.\nThe post dupefi – duplicate file finder appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/dupefi-duplicate-file-finder/",
-          "publishedOn": "2024-12-14T18:33:25.000Z",
-          "wordCount": 4263,
-          "title": "dupefi – duplicate file finder",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2024/12/016-folders.png"
         }
       ]
     },
@@ -910,6 +910,16 @@
       "feedUrl": "https://www.theregister.com/software/headlines.atom",
       "siteUrl": "https://www.theregister.com/software/",
       "articles": [
+        {
+          "id": "https://go.theregister.com/feed/www.theregister.com/2024/12/19/humanoid_robots_remote_contral/",
+          "author": null,
+          "description": "<h4>Dodgy AI chatbots as brains – what could go wrong?</h4> <p><strong>Feature</strong>  The first telephone call in 1876 was marked by Alexander Graham Bell's request to his assistant, Thomas, \"Mr. Watson, come here. I want to see you.\"…</p>",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2024/12/19/humanoid_robots_remote_contral/",
+          "publishedOn": "2024-12-19T07:30:11.000Z",
+          "wordCount": 2330,
+          "title": "Humanoid robots coming soon, initially under remote control",
+          "imageUrl": "https://regmedia.co.uk/2023/11/15/robot_shutterstock.jpg"
+        },
         {
           "id": "https://go.theregister.com/feed/www.theregister.com/2024/12/18/ai_model_reveal_itself/",
           "author": null,
@@ -4319,16 +4329,6 @@
           "wordCount": 399,
           "title": "Sponsorship Openings at Daring Fireball, End-of-Year and Q1 2025 Edition",
           "imageUrl": null
-        },
-        {
-          "id": "https://daringfireball.net/2024/12/on_the_accountability_of_unnamed_public_relations_spokespeople",
-          "author": null,
-          "description": "This is why it’s more than vanity to put your name on your work, whatever your work is — it shows you take responsibility for its validity.",
-          "link": "https://daringfireball.net/2024/12/on_the_accountability_of_unnamed_public_relations_spokespeople",
-          "publishedOn": "2024-12-14T20:08:32.000Z",
-          "wordCount": 1763,
-          "title": "★ On the Accountability of Unnamed Public Relations Spokespeople",
-          "imageUrl": "https://daringfireball.net/graphics/df-wide-card.png"
         }
       ]
     },
@@ -4650,6 +4650,24 @@
       "siteUrl": "https://blogs.fangraphs.com",
       "articles": [
         {
+          "id": "https://blogs.fangraphs.com/?p=453218",
+          "author": null,
+          "description": "Ben Lindbergh and Meg Rowley banter about the Cody Bellinger trade, the Yankees’ and Cubs’ next moves, Guaranteed Rate Field changing to Rate Field, and the results of MLB’s inquiry into pitcher injuries. Then (31:39) they bring back A’s slugger Brent Rooker to discuss his monster 2024, his work as a World Series correspondent, misconceptions […]",
+          "link": "https://blogs.fangraphs.com/effectively-wild-episode-2259-rated-rooker/",
+          "publishedOn": "2024-12-19T07:25:40.000Z",
+          "wordCount": null,
+          "title": "Effectively Wild Episode 2259: Rated Rooker",
+          "itunes": {
+            "duration": "1:25:55"
+          },
+          "enclosure": {
+            "url": "https://media.blubrry.com/effectively_wild/podcasts.fangraphs.com/EffectivelyWildEpisode2259.mp3",
+            "length": "82480696",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
           "id": "https://blogs.fangraphs.com/?p=453104",
           "author": null,
           "description": "Ben Lindbergh and Meg Rowley banter about the qualifications for being a superstar, the Kyle Tucker trade from the Astros’ and Cubs’ perspectives, the Devin Williams trade from the Yankees’ and Brewers’ perspectives, and various other transactions, including the A’s trading for Jeffrey Springs and the Orioles signing Tomoyuki Sugano, plus thoughts on Caleb Durbin’s […]",
@@ -4674,6 +4692,17 @@
       "feedUrl": "https://blogs.fangraphs.com/feed/",
       "siteUrl": "https://blogs.fangraphs.com",
       "articles": [
+        {
+          "id": "https://blogs.fangraphs.com/?p=453218",
+          "author": "Ben Lindbergh",
+          "description": "Ben Lindbergh and Meg Rowley banter about the Cody Bellinger trade, the Yankees’ and Cubs’ next moves, Guaranteed Rate Field changing to Rate Field, and the results of MLB’s inquiry into pitcher injuries. Then (31:39) they bring back A’s slugger Brent Rooker to discuss his monster 2024, his work as a World Series correspondent, misconceptions […]",
+          "link": "https://blogs.fangraphs.com/effectively-wild-episode-2259-rated-rooker/",
+          "publishedOn": "2024-12-19T07:25:40.000Z",
+          "wordCount": null,
+          "title": "Effectively Wild Episode 2259: Rated Rooker",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://blogs.fangraphs.com/?p=453102",
           "author": "Jay Jaffe",
@@ -4879,16 +4908,6 @@
           "wordCount": 7943,
           "title": "A look at the Royals Organizational Depth: Outfield",
           "imageUrl": "https://i0.wp.com/farmtofountains.com/wp-content/uploads/2024/09/rocc.jpeg"
-        },
-        {
-          "id": "https://farmtofountains.com/?p=6545",
-          "author": "Preston Farr",
-          "description": "Each year I put together my own crop of stat projections for the coming Royals season. As the Royals add or subtract players on their 40-man roster, these projections will be updated. This first iteration comes after the Brady Singer trade, including projections for both India and Joey Wiemer who were acquired in the deal. […]\nThe post 2025 Royals Stat Projections appeared first on Farm to Fountains.",
-          "link": "https://farmtofountains.com/2025-royals-stat-projections/?utm_source=rss&utm_medium=rss&utm_campaign=2025-royals-stat-projections",
-          "publishedOn": "2024-12-14T19:52:43.000Z",
-          "wordCount": 6929,
-          "title": "2025 Royals Stat Projections",
-          "imageUrl": "https://i0.wp.com/farmtofountains.com/wp-content/uploads/2024/12/highlight.png"
         }
       ]
     },
@@ -4940,6 +4959,22 @@
       "feedUrl": "https://www.flowstate.fm/feed",
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
+        {
+          "id": "https://www.flowstate.fm/p/seconds-fascinating-stuff-flow-state",
+          "author": "Flow State",
+          "description": "Today we’re listening to Seconds, an electronic musician based in Los Angeles.",
+          "link": "https://www.flowstate.fm/p/seconds-fascinating-stuff-flow-state",
+          "publishedOn": "2024-12-19T08:01:35.000Z",
+          "wordCount": null,
+          "title": "Seconds - Fascinating Stuff (Flow State Records 009)",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ef89119-9eef-4df7-86a7-af5a5f80ee29_1200x1200.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ef89119-9eef-4df7-86a7-af5a5f80ee29_1200x1200.png"
+        },
         {
           "id": "https://www.flowstate.fm/p/ambient-country-episode-39-dave-harrington",
           "author": "Flow State",
@@ -5069,6 +5104,56 @@
       "feedUrl": "https://hnrss.org/show",
       "siteUrl": "https://news.ycombinator.com/shownew",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=42459317",
+          "author": "protontypes",
+          "description": "Article URL: https://openclimate.fund/\nComments URL: https://news.ycombinator.com/item?id=42459317\nPoints: 1\n# Comments: 0",
+          "link": "https://openclimate.fund/",
+          "publishedOn": "2024-12-19T07:40:12.000Z",
+          "wordCount": 1131,
+          "title": "Show HN: OpenClimate.fund – Funding the digital environmental infrastructure",
+          "imageUrl": "preview_image.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=42459276",
+          "author": "a49ibrahim",
+          "description": "Article URL: https://finjy.com/\nComments URL: https://news.ycombinator.com/item?id=42459276\nPoints: 1\n# Comments: 0",
+          "link": "https://finjy.com/",
+          "publishedOn": "2024-12-19T07:31:13.000Z",
+          "wordCount": 9,
+          "title": "Show HN: I built Finjy to let AI answer questions about your bank transactions",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=42459245",
+          "author": "sog",
+          "description": "Keep-alive is lightweight, cross-platform utility to prevent your system from going to sleep. Perfect for maintaining active connections, downloads, or any process that requires your system to stay awake.\nComments URL: https://news.ycombinator.com/item?id=42459245\nPoints: 1\n# Comments: 0",
+          "link": "https://github.com/stigoleg/keep-alive",
+          "publishedOn": "2024-12-19T07:26:34.000Z",
+          "wordCount": 3089,
+          "title": "Show HN: Keep-alive, utility to prevent your system from going to sleep",
+          "imageUrl": "https://opengraph.githubassets.com/3bd6e44074c9086887b459d3f860fd0e04faf26941cb2067258102f9a19a397b/stigoleg/keep-alive"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=42459237",
+          "author": "Myphz",
+          "description": "I’ve been working on a travel app called Voyalog. The idea came from my own struggles keeping track of trip details—flights, itineraries, places I wanted to visit, and even the random thoughts I had along the way. Nothing out there felt personal enough or flexible enough, so I decided to build it myself.\nWhat makes Voyalog different is how laid-back and flexible it is. It doesn’t try to control every aspect of your trip. You can use it to plan as much or as little as you want. It’s also a super clean way to keep your photos and attachments organized, with free cloud storage included.\nAs a digital nomad and solo developer, I’ve put my heart into this. I’d love to hear your thoughts—whether you find it helpful, see areas for improvement, or even if it’s something you’d actually use. I have plenty of ideas to expand and improve the app, but first, I want to make sure it truly resonates and makes sense for others.\nFor me, the coolest part is how easy it makes reliving your trips. Like instantly pulling up a photo of the amazing ramen you had in Tokyo months ago, instead of digging through thousands of random pictures.\nThe app doesn't even require an account, so you can use it right away. It's only available on Android at the moment.\nIf this sounds interesting, I’d love for you to try it and let me know what you think. Any feedback is appreciated! You can download it from here: https://play.google.com/store/apps/details?id=com.voyalog.ap...\nComments URL: https://news.ycombinator.com/item?id=42459237\nPoints: 2\n# Comments: 0",
+          "link": "https://play.google.com/store/apps/details?id=com.voyalog.app&hl=en_US",
+          "publishedOn": "2024-12-19T07:25:08.000Z",
+          "wordCount": 15230,
+          "title": "Show HN: I developed a super easy travel planning and photo organizer app",
+          "imageUrl": "https://play-lh.googleusercontent.com/mJ9R3jWn8u1nnwlC_aU8baCec7s4rE7_HeNTXM5Nc-s2qs3t-JyA4xjQN0Au-VFV65Q"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=42459007",
+          "author": "parkermiko",
+          "description": "Article URL: https://useonlinenotepad.com\nComments URL: https://news.ycombinator.com/item?id=42459007\nPoints: 2\n# Comments: 0",
+          "link": "https://useonlinenotepad.com/",
+          "publishedOn": "2024-12-19T06:37:43.000Z",
+          "wordCount": 795,
+          "title": "Show HN: Yet Another Online Notepad",
+          "imageUrl": "/assets/images/ogimage.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=42458854",
           "author": "DigitalSea",
