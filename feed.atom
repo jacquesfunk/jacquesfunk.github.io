@@ -2,10 +2,82 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2024-12-19T08:22:11.290Z</updated>
+    <updated>2024-12-19T10:18:33.951Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Food recs: Kansas City's best desserts]]></title>
+        <id>https://www.kcur.org/podcast/up-to-date/2024-12-19/food-recs-kansas-citys-best-desserts</id>
+        <link href="https://www.kcur.org/podcast/up-to-date/2024-12-19/food-recs-kansas-citys-best-desserts"/>
+        <updated>2024-12-19T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Got a sweet tooth for the holidays? Here's a guide to the Kansas City metro's most decadent cakes, divine chocolates, creative baked goods and more treats.]]></summary>
+        <author>
+            <name>Brian Ellison, Claudia Brancart</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[If You’re Pregnant, Here’s What You Should Know About the Medical Procedures That Could Save Your Life]]></title>
+        <id>https://www.propublica.org/article/miscarriage-abortion-bans-dilation-and-curettage-dilation-and-evacuation</id>
+        <link href="https://www.propublica.org/article/miscarriage-abortion-bans-dilation-and-curettage-dilation-and-evacuation"/>
+        <updated>2024-12-19T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Kavitha Surana and Lizzie Presser                
+ProPublica is a nonprofit newsroom that investigates abuses of power. Sign up to receive our biggest stories as soon as they’re published.
+We heard the same story again and again this year: 
+The women were having miscarriages. They were bleeding and in pain.
+They needed a medical procedure to clear their uterus, but their doctors delayed it or didn’t even counsel them about it. Our yearlong investigation found that abortion laws are affecting how physicians treat pregnancy loss and other complications because the procedures used in these cases are also used for abortions. 
+We spoke to women who survived terrifying experiences, and we interviewed family members of those who died without care. They all felt unprepared as they entered emergenc…]]></summary>
+        <author>
+            <name>by Kavitha Surana and Lizzie Presser</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: RAGLite – A Python package for the unhobbling of RAG]]></title>
+        <id>https://news.ycombinator.com/item?id=42459464</id>
+        <link href="https://github.com/superlinear-ai/raglite"/>
+        <updated>2024-12-19T08:11:22.000Z</updated>
+        <summary type="html"><![CDATA[RAGLite is a Python package for building Retrieval-Augmented Generation (RAG) applications.
+RAG applications can be magical when they work well, but anyone who has built one knows how much the output quality depends on the quality of retrieval and augmentation.
+With RAGLite, we set out to unhobble RAG by mapping out all of its subproblems and implementing the best solutions to those subproblems. For example, RAGLite solves the chunking problem by partitioning documents in provably optimal level 4 semantic chunks. Another unique contribution is its optimal closed-form linear query adapter based on the solution to an orthogonal Procrustes problem. Check out the README for more features.
+We'd love to hear your feedback and suggestions, and are happy to answer any questions!
+Comments URL: https://news.ycombinator.com/item?id=42459464
+Points: 12
+# Comments: 0]]></summary>
+        <author>
+            <name>lsorber</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I built PdfDing – A selfhosted PDF manager and viewer]]></title>
+        <id>https://news.ycombinator.com/item?id=42459460</id>
+        <link href="https://github.com/mrmn2/PdfDing"/>
+        <updated>2024-12-19T08:10:49.000Z</updated>
+        <summary type="html"><![CDATA[PdfDing is a selfhosted PDF manager and viewer offering a seamless user experience on multiple devices. Some of its features include:
+  - Remembers current position - continue where you stopped reading on any device
+  - Share PDFs with an external audience via a link or a QR Code. Shared PDFs can be access controlled
+  - Dark Mode, colored themes and custom theme colors
+  - Inverted color mode for reading PDFs
+  - SSO support via OIDC
+
+  - view PDFs seamlessly in the browser of my desktop and mobile devices
+  - every user can upload files
+  - can be self-hosted via Docker
+  - minimal and resource-friendly
+  - SSO support
+
+  - They are using the inbuilt PDF viewer of the browser. This works fine on desktops and laptops but on smartphones it will simply download the PDF file and not display it in the browser.
+  - They are really feature rich and therefore resource-hungry. I did not need fancy AI or OCR. I just wanted to view and organize my PDFs.
+  - The content needs to be curated by an admin user. Normal users are not allowed to add PDFs.
+  - PDFs can not be uploaded via the UI. PDFs can not be uploaded via the UI.
+
+https://github.com/mrmn2/PdfDing
+Comments URL: https://news.ycombinator.com/item?id=42459460
+Points: 4
+# Comments: 0]]></summary>
+        <author>
+            <name>mrmn2</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bluefin – Fedora based Linux distribution]]></title>
         <id>https://www.linuxlinks.com/?p=139754</id>
@@ -8331,61 +8403,6 @@ The post For adventurers that want to see it all: night vision binoculars (yes, 
         <updated>2024-12-14T23:32:03.000Z</updated>
         <summary type="html"><![CDATA[colorette is a tool which lets you easily set your terminal text color and styles.
 The post colorette – set your terminal text color and styles appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Eilidih Parris</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[10 Best Free and Open Source Lightweight Front-End Frameworks]]></title>
-        <id>https://www.linuxlinks.com/?page_id=5944</id>
-        <link href="https://www.linuxlinks.com/lightweightframeworks/"/>
-        <updated>2024-12-14T22:15:18.000Z</updated>
-        <summary type="html"><![CDATA[CSS frameworks represent the building blocks of many diverse web projects. We cover extremely lightweight front-end frameworks and boilerplates.
-The post 10 Best Free and Open Source Lightweight Front-End Frameworks appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Eilidih Parris</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 11 Pro slashed to $18: AI assistant and pro features at 91% off]]></title>
-        <id>https://boingboing.net/?p=1043824</id>
-        <link href="https://boingboing.net/2024/12/14/windows-11-pro-slashed-to-18-ai-assistant-and-pro-features-at-91-off.html"/>
-        <updated>2024-12-14T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: Windows 11 Pro gives you AI-powered tools, pro-grade security, and sleek multitasking for only $17.97 (reg. $199).
-If your current operating system feels like it's stuck in 2005, it's time for an upgrade—and not just any upgrade. Windows 11 Pro is here to turn your computer into a productivity powerhouse for the unbelievable pre-holiday price of $17.97 (regularly $199). — Read the rest 
-The post Windows 11 Pro slashed to $18: AI assistant and pro features at 91% off appeared first on Boing Boing.]]></summary>
-        <author>
-            <name>Boing Boing's Shop</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[More Chip Shots]]></title>
-        <id>https://www.baseballmusings.com/?p=155115</id>
-        <link href="https://www.baseballmusings.com/?p=155115"/>
-        <updated>2024-12-14T21:29:00.000Z</updated>
-        <summary type="html"><![CDATA[I am just loving Chipper Jones’ hitting tips: Hitters….. I give u 10 pitches right down the middle in BP. I tell you I want you to hit every pitch for a homer down the line in left or right. How many do u center up??? At the ML level, they would center up 3 […]]]></summary>
-        <author>
-            <name>pinto@baseballmusings.com (David Pinto)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aurora – Fedora based Linux distribution]]></title>
-        <id>https://www.linuxlinks.com/?p=139536</id>
-        <link href="https://www.linuxlinks.com/aurora-fedora-based-linux-distribution/"/>
-        <updated>2024-12-14T21:26:12.000Z</updated>
-        <summary type="html"><![CDATA[Aurora is a Fedora based Linux distribution. It's billed as a delightful KDE desktop experience for end-users.
-The post Aurora – Fedora based Linux distribution appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Erik Karlsson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[sakura – minimal, classless CSS framework / theme]]></title>
-        <id>https://www.linuxlinks.com/?p=139520</id>
-        <link href="https://www.linuxlinks.com/sakura-minimal-classless-css-framework-theme/"/>
-        <updated>2024-12-14T20:46:16.000Z</updated>
-        <summary type="html"><![CDATA[sakura is a minimal, classless CSS framework / theme. Drop sakura.css into any web page and make an attractive modern website.
-The post sakura – minimal, classless CSS framework / theme appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Eilidih Parris</name>
         </author>
