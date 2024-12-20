@@ -2,10 +2,538 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2024-12-20T16:19:31.981Z</updated>
+    <updated>2024-12-20T18:21:30.624Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Nothing Gets Jim Harbaugh’s Motor Running Like An Obscure Rule]]></title>
+        <id>https://defector.com/?p=176965</id>
+        <link href="https://defector.com/jim-harbaugh-cameron-dicker-fair-catch-kick"/>
+        <updated>2024-12-20T18:17:27.000Z</updated>
+        <summary type="html"><![CDATA[Jim Harbaugh has this look about him that screams dotty uncle—the blinky eyes behind the old-man glasses, the slightly slack jaw, the refusal to employ the newfangled play-sheet-and-face-shield look. He's perfectly cast for a man who thinks Lawrence Welk is the cutting edge.
+Thus, it was right and proper that he be the one to return the fair catch kick to our notice by stealing a last-second three-banger right before halftime of last night's Amazonapalooza in which Harbaugh's Los Angeles Chargers defeated the almost as old but not nearly so physically arresting Sean Payton and the Denver Broncos. An arcane enclave of the rulebook which was successfully employed as recently as 1976, when Harbaugh was spiritually already in his mid-40s, the fair catch kick can be employed only on a fair catch as time expires, or a penalty on a fair catch, which the Broncos' Tremon Smith gifted the Chargers on a punt that Derius Davis tried to collect with no time left on the clock. The 15-yard penalty took the ball from the Charger 38 to the Bronco 47 and offered an untimed play to provide the punishment for the penalty that would otherwise go unpunished—why, you could hear the oldey-timey gears in a million old coaches' heads at the possibilities. “It’s my favorite rule in football,” Harbaugh said.]]></summary>
+        <author>
+            <name>Ray Ratto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Tool to analyze actual EBS usage]]></title>
+        <id>https://news.ycombinator.com/item?id=42473290</id>
+        <link href="https://github.com/simplyblock-io/ebs-volume-usage-exporter"/>
+        <updated>2024-12-20T18:07:32.000Z</updated>
+        <summary type="html"><![CDATA[I’m a founder of simplyblock.io, where we’re building K8s-native storage backend for NVMe. Our tech is mostly aimed to support stateful workloads on Kubernetes. We’re seeing that scalable persistent storage is one of the reasons why people are scared to run state on Kubernetes.
+Anyhow, we talked to people and asked them about the number and sizes of their EBS volumes in EKS, and very few could answer. When asking about their actual usage, in terms of capacity throughput and IOPS, people usually don’t know where to find them. From the ones that checked it, the utilization rate is normally at 20-30%, which is crazy low. That’s mostly because lots of storage is overprovisioned on the database level.
+That’s why we built a small tool to collect the data right in Kubernetes itself. The tool can be deployed into your EKS cluster via a helm chart. It only needs read access permissions. It exports all found EBS volumes to a CSV with their respective usage and performance information.
+We also built a small calculator to provide a fast way to get insight from the CSV. The calculator is a pure in-browser tool and does not upload information to our servers. While we mostly built it for our prospects and customers, we believe it’s a valuable tool for the broader Kubernetes community, and we already think about how to expand the enabled environments and clouds.
+Hope you enjoy it and find it useful! Feedback is appreciated.
+Comments URL: https://news.ycombinator.com/item?id=42473290
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>panrobo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: The SaaS Prince]]></title>
+        <id>https://news.ycombinator.com/item?id=42473286</id>
+        <link href="https://thesaasprince.com/"/>
+        <updated>2024-12-20T18:07:16.000Z</updated>
+        <summary type="html"><![CDATA[I spent my 42nd birthday generating 100% pure AI slop.
+I adapted Machiavelli The Prince to the Silicon Valley context, using Sonnet. It took a 6-hour+ non-strop spree to write a 81 pages, and it's kind of an instructive read!
+Rather than making any line edits, I was able to share high level feedback over the first few chapters and keep regenerating. This process was awesome - I could be extremely ruthlessly critical for hours on end and it didn't hurt Claude's feelings, they just improved, until it was effectively "trained". We're all used to that with objective contexs like coding, but in a subjective context it was a different and really good feeling, like working with an incredibly mature friend in your band.
+Because philosophical texts are short, you can write adaptations that maintain your feedback to the end, making it easier and easier to generate later chapters with no intervention.
+One of the better collaborative experiences I've had! Once we have agents ready, should kind of just adapt all classic philosophical texts to allegories about DHH, AMD, and uh, Quibi.
+Enjoy!
+Comments URL: https://news.ycombinator.com/item?id=42473286
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>kunalgupta</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Here's why Superman is bleeding in the first trailer for the new film]]></title>
+        <id>https://boingboing.net/?p=1045353</id>
+        <link href="https://boingboing.net/2024/12/20/heres-why-superman-is-bleeding-in-the-first-trailer-for-the-new-film.html"/>
+        <updated>2024-12-20T18:03:08.000Z</updated>
+        <summary type="html"><![CDATA[LIKE BOING BOING BUT NOT THE ADS?
+   CLICK HERE TO GO AD-FREE! 
+The first teaser trailer for the new Superman film out July 11 depicts the Man of Steel falling from the sky into the snow, battered, bruised, and bleeding. At a press event attended by Screenrant, the film's director James Gunn revealed why:
+"We do have a battered Superman in the beginning.
+ — Read the rest 
+The post Here's why Superman is bleeding in the first trailer for the new film appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Allan Rose Hill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Timothée Chalamet wants to play TNT’s Ernie Johnson in a biopic]]></title>
+        <id>https://awfulannouncing.com/?p=685136</id>
+        <link href="https://awfulannouncing.com/pop-culture/timothee-chalamet-play-ernie-johnson-biopic.html"/>
+        <updated>2024-12-20T18:00:11.000Z</updated>
+        <summary type="html"><![CDATA[By this point, it’s become well-established that Timothée Chalamet knows ball. But while Chalamet previously showcased his sports bona fides while serving as the guest picker on College GameDay and by waxing poetic about MLS stars, the depths of his sports fandom are still being revealed. That includes an apparent affinity for Inside the NBA‘s Read more...
+The post Timothée Chalamet wants to play TNT’s Ernie Johnson in a biopic appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Ben Axelrod</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Luigi Mangione now at prison known as "Hell on Earth"]]></title>
+        <id>https://boingboing.net/?p=1045329</id>
+        <link href="https://boingboing.net/2024/12/20/luigi-mangione-now-at-prison-known-as-hell-on-earth.html"/>
+        <updated>2024-12-20T17:54:46.000Z</updated>
+        <summary type="html"><![CDATA[Luigi Mangione, arrested earlier this month for killing Healthcare CEO Brian Thompson, is now in Federal custody at Brooklyn's "nightmarish" Metropolitan Detention Center, where Sean "Diddy" Combs currently resides. 
+Also known as "Hell on Earth," the prison is a magnet for "famous felons," reports the Daily Beast, and has been home to the likes of Ghislaine Maxwell, R. — Read the rest 
+The post Luigi Mangione now at prison known as "Hell on Earth" appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Carla Sinclair</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Flights Directly Above Me]]></title>
+        <id>https://news.ycombinator.com/item?id=42473188</id>
+        <link href="https://github.com/jakubsuchy/flights-above-me"/>
+        <updated>2024-12-20T17:52:30.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+aviation enthusiast often use Flightradar24 and other systems to find out what flights are directly above their location at any time. Inspired by a few other projects, I built a basic HTML + Javascript dashboard, that does the same, simulating an old school LED display.
+Enjoy the Github repo!
+How it works:
+Standard HTML page that loads the flightradar data in a specific location box that you specify. Because the free flightradar24 data is browser only, I used a corsproxy to get around loading issues. Everything works with the free versions, but if you hit limits, you can also specify a key to a paid CORS Proxy service.
+Once the data is loaded, JS refreshes it every 30 seconds. The HTML itself is refreshed once an hour, so even a dashboard you don't have access to would be updated from new changes.
+Comments URL: https://news.ycombinator.com/item?id=42473188
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>jcat123</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘Babygirl’ Wants To Know Your Fantasy]]></title>
+        <id>https://defector.com/?p=176871</id>
+        <link href="https://defector.com/babygirl-wants-to-know-your-fantasy"/>
+        <updated>2024-12-20T17:50:31.000Z</updated>
+        <summary type="html"><![CDATA[Babygirl, a movie written and directed by Dutch filmmaker Halina Reijn and starring Nicole Kidman and Harris Dickinson, is about facades. It's also about sex, but less about sex itself and more about what sex says about a person, and the ways we suppress our sexual appetites in order for it to say nothing about us at all. Babygirl, Reijn's second English-language film after 2022's Bodies Bodies Bodies, taps into a conservative cultural moment that is firmly anti-sex while still being in sex's thrall. It is the subject everyone wants to talk about but no one wants to see, or seemingly even have.
+The movie follows tech CEO Romy Mathis (Kidman), an unabashed, all-caps GIRLBOSS who nominally "has it all": a powerful job, a big office, an eager assistant who looks up to her, a seemingly well-adjusted family that includes two daughters and a hot theater director for a husband (Antonio Banderas). But there is a restless beast inside of Romy, and vanilla sex with her husband can't appease it—so much so that Romy often finds herself having to watch dom-play porn in the bathroom afterwards in order to actually reach an orgasm. When a much younger intern for the company arrives, Samuel (Dickinson), she slowly finds herself ensnared in his web, and discovers that he is up for taming that beast. Both in spite and because of the power dynamics and the threat their affair poses to her life and career, they begin an ill-advised relationship that is hot and steamy, but most importantly effective and passionate. Romy finds her sexual needs met for the first time, which, in this movie, is as important as the tension or thriller aspects at play.]]></summary>
+        <author>
+            <name>Israel Daramola</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Even ‘Jeopardy!’ is pilling on the Jets’ misery]]></title>
+        <id>https://awfulannouncing.com/?p=685157</id>
+        <link href="https://awfulannouncing.com/nfl/final-jeopardy-jets-super-bowl.html"/>
+        <updated>2024-12-20T17:40:45.000Z</updated>
+        <summary type="html"><![CDATA[There aren’t many teams in professional sports that have had a more disappointing 2024 than the New York Jets. Ok, except maybe the Chicago Bears. And even the beloved game show Jeopardy! is taking stock of the franchise’s woes. Sports categories and clues on Jeopardy! can always be hit or miss. Ok, it’s mostly misses Read more...
+The post Even ‘Jeopardy!’ is pilling on the Jets’ misery appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Matt Yoder</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In 1964, a dad's photo of his daughter captured a figure in a spacesuit — a mystery that still baffles]]></title>
+        <id>https://boingboing.net/?p=1045338</id>
+        <link href="https://boingboing.net/2024/12/20/in-1964-a-dads-photo-of-his-daughter-captured-a-figure-in-a-spacesuit-a-mystery-that-still-baffles.html"/>
+        <updated>2024-12-20T17:38:09.000Z</updated>
+        <summary type="html"><![CDATA[When firefighter Jim Templeton snapped three photos of his 5-year-old daughter on a marsh in Cumberland, England in 1964, he had no idea he was about to capture one of the strangest images in UFO history. It wasn't until the photos came back from Kodak that he noticed something extraordinary — a figure in what appeared to be a space suit lurking in the background of one shot. — Read the rest 
+The post In 1964, a dad's photo of his daughter captured a figure in a spacesuit — a mystery that still baffles appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Ellsworth Toohey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple called on to ditch AI headline summaries after BBC debacle]]></title>
+        <id>https://go.theregister.com/feed/www.theregister.com/2024/12/20/apple_ai_headline_summaries/</id>
+        <link href="https://go.theregister.com/feed/www.theregister.com/2024/12/20/apple_ai_headline_summaries/"/>
+        <updated>2024-12-20T17:36:33.000Z</updated>
+        <summary type="html"><![CDATA[<h4>'Facts can't be decided by a roll of the dice'</h4> <p>Press freedom advocates are urgin Apple to ditch an "immature" generative AI system that incorrectly summarized a BBC news notification that incorrectly related that suspected UnitedHealthcare CEO shooter Luigi Mangione had killed himself.…</p>]]></summary>
+        <author>
+            <name>The Register - Software</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Police and animal control officers discover that dangerous snake loose inside home was something else]]></title>
+        <id>https://boingboing.net/?p=1045343</id>
+        <link href="https://boingboing.net/2024/12/20/police-and-animal-control-officers-discover-that-dangerous-snake-loose-inside-home-was-something-else.html"/>
+        <updated>2024-12-20T17:35:14.000Z</updated>
+        <summary type="html"><![CDATA[LIKE BOING BOING BUT NOT THE ADS?
+   CLICK HERE TO GO AD-FREE! 
+A resident of Needham, Massachusetts called police "very upset" about a seemingly dangerous snake loose inside the house. The police arrived along with animal control to investigate the sssssscary ssssssituation. — Read the rest 
+The post Police and animal control officers discover that dangerous snake loose inside home was something else appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Allan Rose Hill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft investigating 365 Office activation gremlin]]></title>
+        <id>https://go.theregister.com/feed/www.theregister.com/2024/12/20/microsoft_office_activation_issue/</id>
+        <link href="https://go.theregister.com/feed/www.theregister.com/2024/12/20/microsoft_office_activation_issue/"/>
+        <updated>2024-12-20T17:34:07.000Z</updated>
+        <summary type="html"><![CDATA[<h4>Says it's not sure what the issue is but points at admins tweaking licensing options</h4> <p>It's not just you, there is indeed an activation problem in Microsoft 365 Office triggered by administrators making changes at the licensing level.…</p>]]></summary>
+        <author>
+            <name>The Register - Software</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I Built a Free Car Budget Calculator Using the 20/4/10 Rule]]></title>
+        <id>https://news.ycombinator.com/item?id=42473024</id>
+        <link href="https://budgetforcars.com/"/>
+        <updated>2024-12-20T17:32:27.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://budgetforcars.com
+Comments URL: https://news.ycombinator.com/item?id=42473024
+Points: 4
+# Comments: 2]]></summary>
+        <author>
+            <name>emirhanozsoy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blob-Headed Fish Sets New Standard Of Fishy Blobbiness]]></title>
+        <id>https://defector.com/?p=176910</id>
+        <link href="https://defector.com/blob-headed-fish-sets-new-standard-of-fishy-blobbiness"/>
+        <updated>2024-12-20T17:32:01.000Z</updated>
+        <summary type="html"><![CDATA[In the narrow, highly specialized field of fish with blob-like attributes, one fish has dominated for decades: One would hardly dare imagine a blobbish fish without first thinking of the blobfish. But has a new blobby fish emerged to unseat this age-old champion of blobdom?
+Today, a group of researchers from the nonprofit Conservation International published a report of 27 new species discovered in Alto Mayo, a region in the Peruvian Amazon. Each of the species was a singular delight: the amphibious mouse that dwells in palm swamps called aguajales; the small, stubby chestnut-colored salamander that climbs trees. But as I scrolled through the report, one species was a clear standout—a born star, never readier to accept its place in the spotlight. This, of course, was the blob-headed fish.]]></summary>
+        <author>
+            <name>Sabrina Imbler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Billy Long, Trump’s Nominee to Lead the IRS, Touts a Credential That Tax Experts Say Is Dubious]]></title>
+        <id>https://www.propublica.org/article/billy-long-irs-trump-certified-tax-business-advisor-missouri</id>
+        <link href="https://www.propublica.org/article/billy-long-irs-trump-certified-tax-business-advisor-missouri"/>
+        <updated>2024-12-20T17:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Jeremy Kohler and Alex Mierjeski                
+ProPublica is a nonprofit newsroom that investigates abuses of power. Sign up to receive our biggest stories as soon as they’re published.
+Former U.S. Rep. Billy Long of Missouri, whom President-elect Donald Trump has named his nominee to head the IRS, touts his expertise in tax matters.
+He advertises his credential as a certified tax and business advisor, and he adds CTBA to his name on his X profile. That profile encourages people to message him to “save 40% on your taxes.”
+But tax experts told ProPublica that they have never heard of CTBA as a credential in the tax profession. The designation is offered by a small Florida firm, Excel Empire, which was established just two years ago and only requires attendance at a three-day seminar. That…]]></summary>
+        <author>
+            <name>by Jeremy Kohler and Alex Mierjeski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A guide to ESPN’s College Football Playoff studio coverage]]></title>
+        <id>https://awfulannouncing.com/?p=684958</id>
+        <link href="https://awfulannouncing.com/espn/college-football-playoff-studio-shows.html"/>
+        <updated>2024-12-20T17:20:12.000Z</updated>
+        <summary type="html"><![CDATA[ESPN has rolled out its official plans for extensive studio coverage of the College Football Playoff, and there’s a lot to parse through. The expanded 12-team playoff also means expanded coverage plans for the Worldwide Leader, who will deploy several studio teams across its various networks. ESPN’s flagship college football studio show College GameDay will Read more...
+The post A guide to ESPN’s College Football Playoff studio coverage appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Drew Lerner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Bloom – Building Web Components with Asynchronous Generators]]></title>
+        <id>https://news.ycombinator.com/item?id=42472876</id>
+        <link href="https://webjsx.org/bloom/"/>
+        <updated>2024-12-20T17:17:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://webjsx.org/bloom/
+Comments URL: https://news.ycombinator.com/item?id=42472876
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>jeswin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fossilized "alien plant" from 47 million years ago unlike anything alive today]]></title>
+        <id>https://boingboing.net/?p=1045336</id>
+        <link href="https://boingboing.net/2024/12/20/fossilized-alien-plant-from-47-million-years-ago-unlike-anything-alive-today.html"/>
+        <updated>2024-12-20T17:16:26.000Z</updated>
+        <summary type="html"><![CDATA[LIKE BOING BOING BUT NOT THE ADS?
+   CLICK HERE TO GO AD-FREE! 
+This fossilized plant excavated in Green River Formation, Utah is entirely unlike anything living on Earth today. It lived 47 million years ago and hasn't been seen since. That's why scientists have named the mysterious plant "Othniophyton elongatum," Greek for "elongated alien plant." — Read the rest 
+The post Fossilized "alien plant" from 47 million years ago unlike anything alive today appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Allan Rose Hill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Spotify and Apple Health Data as Art]]></title>
+        <id>https://news.ycombinator.com/item?id=42472828</id>
+        <link href="https://apps.apple.com/us/app/day-by-data/id6737629704"/>
+        <updated>2024-12-20T17:12:24.000Z</updated>
+        <summary type="html"><![CDATA[For the longest time, I've been interested in the idea that the personal data we have logged across platforms can "paint" a pretty clear picture of who we are. And, as individuals, this will reveal fun and maybe sharable stories about us.
+So I made this app, Day by Data, to connect with and visualize your personal data like step count, music listening habits, and more into tiny visualizations and data art right on your iPhone.
+The launch version has a few year-in-steps breakdowns and a few Spotify data-visualizations.
+Over time, the goal is to make more data sources available to connect and empower users to learn from their personal data stored across these platforms. Think data about the food we eat, places we travel, or shows we watch.
+Data accessibility and cleanliness is the hardest part, but I'm always open to different sources and visualization types.
+Let me know what you think and if there are certain data sets you'd like to see visualized!
+Comments URL: https://news.ycombinator.com/item?id=42472828
+Points: 9
+# Comments: 2]]></summary>
+        <author>
+            <name>pcybr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JAWS and the 2025 Hall of Fame Ballot: Brian McCann]]></title>
+        <id>https://blogs.fangraphs.com/?p=453284</id>
+        <link href="https://blogs.fangraphs.com/jaws-and-the-2025-hall-of-fame-ballot-brian-mccann/"/>
+        <updated>2024-12-20T17:00:57.000Z</updated>
+        <summary type="html"><![CDATA[Though he was a seven-time All-Star, McCann was somewhat underappreciated until the value of his elite pitch framing came to light.]]></summary>
+        <author>
+            <name>Jay Jaffe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Eat This Edible: Honeybee’s Queen Bee delivers a high-potency and piquant palate]]></title>
+        <id>https://www.thepitchkc.com/?p=865942</id>
+        <link href="https://www.thepitchkc.com/eat-this-edible-honeybees-queen-bee-delivers-a-high-potency-and-piquant-palate/"/>
+        <updated>2024-12-20T17:00:53.000Z</updated>
+        <summary type="html"><![CDATA[Photo Courtesy of Proper Cannabis In November, Honeybee Edibles—an edible brand underneath the St. Louis-based cannabis company Proper Cannabis—released a new edible in the Missouri market. The gluten-free and vegan Queen Bee is now giving consumers an easier route to their high, compacting 100mg of THC and 100mg CBD into just a couple easy-going bites. Similar to Grön’s MEGA edible...]]></summary>
+        <author>
+            <name>Joe Ellett</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More difficult days ahead for Nike as they re-invest in sports marketing]]></title>
+        <id>https://awfulannouncing.com/?p=685133</id>
+        <link href="https://awfulannouncing.com/sports/nike-sports-marketing-difficult-days.html"/>
+        <updated>2024-12-20T17:00:50.000Z</updated>
+        <summary type="html"><![CDATA[Elliott Hill has been the new CEO of Nike just around 60 days now, taking over for the beleaguered company whose stock is down 27 percent this year, an inverse of the broader market. After a whirlwind tour of Nike offices and meeting athlete and league endorsers, Hill outlined some of his plans on an Read more...
+The post More difficult days ahead for Nike as they re-invest in sports marketing appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Daniel Kaplan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tech bros on Ayahuasca looking for answers]]></title>
+        <id>https://boingboing.net/?p=1045290</id>
+        <link href="https://boingboing.net/2024/12/20/tech-bros-on-ayahuasca-looking-for-answers.html"/>
+        <updated>2024-12-20T16:58:58.000Z</updated>
+        <summary type="html"><![CDATA["You don't need to trip balls in the jungle just to decide you need to quit your stupid tech job."
+   LIKE BOING BOING BUT NOT THE ADS?
+   CLICK HERE TO GO AD-FREE! 
+This video examines enlightened by drug use "founders" and executives of venture-backed businesses. — Read the rest 
+The post Tech bros on Ayahuasca looking for answers appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Jason Weisberger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Beatles reunited last night on stage in London]]></title>
+        <id>https://boingboing.net/?p=1045327</id>
+        <link href="https://boingboing.net/2024/12/20/the-beatles-reunited-last-night-on-stage-in-london.html"/>
+        <updated>2024-12-20T16:54:18.000Z</updated>
+        <summary type="html"><![CDATA[LIKE BOING BOING BUT NOT THE ADS?
+   CLICK HERE TO GO AD-FREE! 
+Last night at London's O2 Arena, Paul McCartney closed out his "Got Back" tour by calling out an old friend to play the skins. Ringo Starr joined McCartney for a rousing medley of songs by the Beatles who broke up 55 years ago. — Read the rest 
+The post The Beatles reunited last night on stage in London appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Allan Rose Hill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Starbucks Workers Plan Strikes for the Next Five Days]]></title>
+        <id>https://www.eater.com/24325909/starbucks-workers-united-strike-2024</id>
+        <link href="https://www.eater.com/24325909/starbucks-workers-united-strike-2024"/>
+        <updated>2024-12-20T16:49:14.000Z</updated>
+        <summary type="html"><![CDATA[Starbucks workers on strike in 2023. | Saul Loeb/AFP via Getty Images
+    
+
+  
+Starbucks Workers United says the company isn’t bargaining in good faith. So they’re rolling out strikes around the country just in time for the holidays.
+ In 2024, Starbucks Workers United (SBWU) grew across the U.S.: In October, the 500th Starbucks location unionized, and now there are over 525 stores in 45 states who have voted to unionize. And in February, Starbucks finally agreed to bargain with the union, but negotiations have stalled — SBWU has accused the company of failing to present a viable economic proposal, despite the company’s insistence that they settle the contract by the end of the year. In response, the union is going on an unfair labor practice strike across the country.
+
+
+Starbucks Workers U…]]></summary>
+        <author>
+            <name>Eater -  Front Page</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Behind the Blog: Posting Through It]]></title>
+        <id>67659cee8709d700019b1396</id>
+        <link href="https://www.404media.co/behind-the-blog-posting-through-it/"/>
+        <updated>2024-12-20T16:45:00.000Z</updated>
+        <summary type="html"><![CDATA[This is Behind the Blog, where we share our behind-the-scenes thoughts about how a few of our top stories of the week came together. This week, we discuss our top games of the year, air traffic control, and posting through it.]]></summary>
+        <author>
+            <name>Samantha Cole</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Iowa's weirdest uprising: The great Cow War of 1931]]></title>
+        <id>https://boingboing.net/?p=1045325</id>
+        <link href="https://boingboing.net/2024/12/20/iowas-weirdest-uprising-the-great-cow-war-of-1931.html"/>
+        <updated>2024-12-20T16:44:29.000Z</updated>
+        <summary type="html"><![CDATA[Pitchfork-wielding farmers charging through tear gas to battle police — this wasn't a typical fall day in 1931 Cedar County, Iowa. It was the climax of the "Iowa Cow War," when 400 angry farmers armed with crude weapons faced off against 65 lawmen in a violent clash over the right to test cattle for tuberculosis. — Read the rest 
+The post Iowa's weirdest uprising: The great Cow War of 1931 appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Ellsworth Toohey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Eric Longenhagen Prospects Chat: 12/20/24]]></title>
+        <id>https://blogs.fangraphs.com/?p=453335</id>
+        <link href="https://blogs.fangraphs.com/eric-longenhagen-prospects-chat-12-20-24/"/>
+        <updated>2024-12-20T16:37:03.000Z</updated>
+        <summary type="html"><![CDATA[Our Prospect Impresario is in Philadelphia for the holidays. Will he draw from the energy of his homeland and be extra salty in chat? Bring a snowball and find out.]]></summary>
+        <author>
+            <name>Eric Longenhagen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Rivet Actors – Durable Objects build with Rust, FoundationDB, Isolates]]></title>
+        <id>https://news.ycombinator.com/item?id=42472519</id>
+        <link href="https://github.com/rivet-gg/rivet"/>
+        <updated>2024-12-20T16:36:33.000Z</updated>
+        <summary type="html"><![CDATA[Hello! We posted a Show HN for Rivet last year for our container orchestration project. In that time, a lot has changed that I think HN will find interesting.
+Rivet is open-source actor infrastructure similar to Cloudflare's Durable Objects. Rivet itself already serves millions of MAU in production using our current container runtime – primarily for multiplayer games – and Rivet Actors are a new extension to support actor-like workloads. Rivet Actor's core primitives are RPC, state, and events.
+Actors are powered by Rust, V8 isolates (supports Deno), and FoundationDB. An architecture diagram is available here for [1]. If you're not familiar with FoundationDB, you're overdue to watch Dave Rosenthal's talk [3]. (I firmly believe it's by far the best permissively licensed database; if only it…]]></summary>
+        <author>
+            <name>NathanFlurry</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[State Court Report: 2024’s Most Significant State Constitutional Cases]]></title>
+        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/zo0itm2l02a776u9ii7h.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/zo0itm2l02a776u9ii7h.html"/>
+        <updated>2024-12-20T16:36:05.982Z</updated>
+        <summary type="html"><![CDATA[State Court Report: 2024’s Most Significant State Constitutional Cases
+
+
+
+
+
+
+/*overriding blue links*/
+.blueLinks a {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+span [x-apple-data-detectors] {
+    color: #000 !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+/*end overriding blue links*/
+#outlook a {
+    padding: 0
+}
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+table, td {
+    border-collapse: collapse;
+    mso-table-lspace: 0;
+    mso-table-rspace: 0
+}
+img {
+    border: 0;
+    height: auto;
+    line-height: 100%;
+    outline: 0;
+    text-decoration: none;
+  …]]></summary>
+        <author>
+            <name>Current Events</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ESPN’s Dan Graziano eviscerates ‘con artist’ and ‘narcissist’ Aaron Rodgers]]></title>
+        <id>https://awfulannouncing.com/?p=685205</id>
+        <link href="https://awfulannouncing.com/espn/dan-graziano-aaron-rodgers-unsportsmanlike-rant.html"/>
+        <updated>2024-12-20T16:30:36.000Z</updated>
+        <summary type="html"><![CDATA[It isn’t often — if ever — that the cast of ESPN Radio’s Unsportsmanlike finds itself speechless. Only that’s exactly what happened on Friday morning, as Dan Graziano engaged in an epic rant regarding Aaron Rodgers. Graziano’s skewering of the 41-year-old quarterback came as the show discussed The Athletic’s recent report regarding the New York Read more...
+The post ESPN’s Dan Graziano eviscerates ‘con artist’ and ‘narcissist’ Aaron Rodgers appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Ben Axelrod</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: TickerBar – A Stock and Crypto Ticker App for macOS]]></title>
+        <id>https://news.ycombinator.com/item?id=42472391</id>
+        <link href="http://tickerbar.app/"/>
+        <updated>2024-12-20T16:19:55.000Z</updated>
+        <summary type="html"><![CDATA[Hi Hacker News,
+I’m excited to share TickerBar, a sleek and simple Stock & Crypto Ticker app for macOS, now available worldwide!
+Download TickerBar: https://itunes.apple.com/app/id6736996373
+Support us on Product Hunt: https://www.producthunt.com/posts/tickerbar
+I’d love to hear your feedback or answer any questions. Thanks for checking it out!
+Comments URL: https://news.ycombinator.com/item?id=42472391
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>skyriser</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Chapter – Real-time lead-gen from public activity (open source)]]></title>
+        <id>https://news.ycombinator.com/item?id=42472258</id>
+        <link href="https://github.com/chapter-gtm/chapter"/>
+        <updated>2024-12-20T16:06:35.000Z</updated>
+        <summary type="html"><![CDATA[Hello HN,
+We’re the cofounders of Chapter: an open source lead sourcing alternative, purpose-built for developer tools. Instead of throwing your credits to enrich static databases, you get daily leads sent to your inbox in real-time as they mention certain keywords publicly, filtered to match your exact ICP, and fully enriched.
+We’re starting with job posts and GitHub as the main two sources for information on tool stack, libraries, engineering size, and more. Since the workflow is triggered through public posts - the data sent is proof that your topic is top of mind for the lead.
+Our website is at https://chapter.show and our Github is here: https://github.com/chapter-gtm/chapter
+We’re focused on helping dev tool companies with sales for three main reasons:
+1) It’s extremely important for…]]></summary>
+        <author>
+            <name>robinyapockets</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: fastapi-injectable – Use FastAPI Depends() anywhere even outside routes]]></title>
+        <id>https://news.ycombinator.com/item?id=42472219</id>
+        <link href="https://github.com/JasperSui/fastapi-injectable"/>
+        <updated>2024-12-20T16:01:53.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN!
+I created fastapi-injectable to solve a common pain point in FastAPI: using Depends() outside of route handlers.
+This has been a long-standing issue in the FastAPI community with a discussion post around it.
+Install with: pip install fastapi-injectable
+The package lets you use FastAPI's dependency injection in:
+- CLI tools
+- Background workers
+- Test fixtures
+- Any non-HTTP context
+Basic example:
+    from typing import Annotated
+
+    from fastapi import Depends
+    from fastapi_injectable import injectable
+
+    class Database:
+        def query(self) -> str:
+            return "data"
+
+    def get_db() -> Database:
+        return Database()
+
+    @injectable
+    def process_data(db: Annotated[Database, Depends(get_db)]) -> str:
+        return db.query()
+
+    # Use it anywhere!
+    result = process_data()
+    print(result) # Output: 'data'
+
+
+The common suggestion for handling dependencies outside FastAPI routes is to use separate DI frameworks like dependency-injector. However, this means:
+1. Managing two different DI systems in your codebase
+2. Learning another framework's patterns
+3. Potentially duplicating dependency logic
+Currently, there's no package that extends FastAPI's native Depends() beyond routes.
+fastapi-injectable solves this by providing a clean API that lets you use FastAPI's dependency injection anywhere.
+Links:
+GitHub: https://github.com/your-username/fastapi-injectable
+Docs: https://fastapi-injectable.readthedocs.io
+PyPI: https://pypi.org/project/fastapi-injectable
+I'd love to hear your feedback and contributions to make this package better! Feel free to open issues or PRs if you have ideas for improvements.
+Comments URL: https://news.ycombinator.com/item?id=42472219
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>suiyang03</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The 2024 Awfulies: The best in sports radio & sports media podcasts]]></title>
         <id>https://awfulannouncing.com/?p=684706</id>
@@ -25,6 +553,22 @@ The post The 2024 Awfulies: The best in sports radio & sports media podcasts app
         <summary type="html"><![CDATA[Will Arenado loosen up his no-trade list and save a mediocre joke that was 10 years in the making?]]></summary>
         <author>
             <name>Michael Baumann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thonsepar in Malpe, India]]></title>
+        <id>https://www.atlasobscura.com/places/thonsepar-st-marys-island</id>
+        <link href="https://www.atlasobscura.com/places/thonsepar-st-marys-island"/>
+        <updated>2024-12-20T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Thonsepar, aka St. Mary's Islands, aka Coconut Island, sits in the Arabian Sea just off the coast of Karnataka state of India. The island is known for its distinctive geological formations, specifically the columnar joints (hexagon-shaped interlocking columns) that protrude from the earth.
+
+The columnar joints vary in height, but the tallest of them measures approximately six meters (20 feet). According to geologists, the columns formed by subvolcanic activity roughly 60 million years ago as Madagascar split off from India.
+
+The shape of these joints is the product of a physical process that can happen as melted lava rock solidifies. As a large amount of molten material cools, it starts to contract, creating cracks in the newly solid surface. The cracks extend down as the rock below the surface continues to cool, resulting in these unique rock formations. You can see similar formations at the Giant's Causeway in Northern Ireland.
+
+Thonsepar was classified as a National Geological Monument in 2001 by the Geological Survey of India.]]></summary>
+        <author>
+            <name>Atlas Obscura - Latest Articles and Places</name>
         </author>
     </entry>
     <entry>
@@ -77,6 +621,52 @@ From classic chocolate chip cookies to ube crinkles and holiday party-worthy lin
 Chocolate Pean…]]></summary>
         <author>
             <name>Eater -  Front Page</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Tired of decision fatigue? Let AI handle your everyday choices]]></title>
+        <id>https://news.ycombinator.com/item?id=42472071</id>
+        <link href="https://diametriclabs.com/"/>
+        <updated>2024-12-20T15:45:24.000Z</updated>
+        <summary type="html"><![CDATA[Sometimes, I'm tired of making decisions from big to small, even though I can.
+The simplest tool would be a Yes/No decision bot that generates random yes/no answers (there are a ton of them online). We know they aren't very useful, but they actually do give you a final decision.
+On the other hand, modern AI tools are great with knowledge retrieval but often leave you with more information but still no clear answer.
+Hence, I built a Solaris, a messaging-based AI assistant that helps users make yes/no decisions through guided conversations. Instead of giving direct answers, it asks thoughtful questions to help users reach their own conclusions, culminating in a final decision.
+It is designed to be a thinking partner - it helps users explore their own decision-making process while maintaining full responsibility for their choices.
+Try it: https://t.me/diametricbot
+I'd love feedback from the HN community on this (somewhat socratic) approach and potential improvements!
+Comments URL: https://news.ycombinator.com/item?id=42472071
+Points: 3
+# Comments: 2]]></summary>
+        <author>
+            <name>katahaha</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: AI Tool to Simplify EU Regulatory Compliance (Solo Founder Journey)]]></title>
+        <id>https://news.ycombinator.com/item?id=42472053</id>
+        <link href="https://news.ycombinator.com/item?id=42472053"/>
+        <updated>2024-12-20T15:43:21.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+I’m a solo founder, and I’ve been working on an AI tool that helps companies and organizations navigate and comply with EU regulations. The platform leverages AI to provide insights, research capabilities, and compliance assistance, aiming to reduce the complexity and time spent dealing with regulatory requirements.
+Compliance with EU regulations (like GDPR, labor laws, and industry-specific rules) can be overwhelming, especially for SMEs and startups. As someone passionate about tech and legal simplification, I saw an opportunity to create a tool that streamlines this process, providing actionable guidance while cutting down costs.
+What the tool does:
+- Uses AI to answer EU regulatory questions.
+- Provides links to legislation articles, so that users can dig deeper when needed.
+- The tool condenses complex legislation into clear summaries, drastically reducing the time needed to understand key topics.
+As the only person behind this project, I wear multiple hats—coding, marketing, business development, and more. I’ve learned a lot, but I know there’s so much more to improve, particularly in product-market fit, user onboarding, and getting the word out.
+I'd love to hear from the HN community on a few topics in particular:
+- Product feedback: Does this solve a real problem for you or someone you know?
+- Marketing advice: What are the best ways to promote a niche AI tool like this?
+- Solo founder tips: For those who’ve been here, what’s your advice on staying productive and scaling effectively?
+I’d love to hear your thoughts, suggestions, or even criticisms. Also, if you’ve had experience dealing with EU regulations, does this tool sound useful? What features would you want to see?
+Here’s the link to the tool: https://eur-lex.ai/
+Thank you, and I’m looking forward to hearing your feedback!
+Comments URL: https://news.ycombinator.com/item?id=42472053
+Points: 7
+# Comments: 2]]></summary>
+        <author>
+            <name>gapeslape</name>
         </author>
     </entry>
     <entry>
@@ -134,6 +724,23 @@ The post DeLinuxCo Workstation – Manjaro spin appeared first on LinuxLinks.]]>
         <summary type="html"><![CDATA[<h4>Remarkably compact, remarkably cross-platform, remarkably long beta period</h4> <p>Beta 6 of Adélie Linux is arriving, just over six years after Beta 1 – but they do say that good things come to those who wait.…</p>]]></summary>
         <author>
             <name>The Register - Software</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Artemis, a Calm Web Reader]]></title>
+        <id>https://news.ycombinator.com/item?id=42471913</id>
+        <link href="https://artemis.jamesg.blog/"/>
+        <updated>2024-12-20T15:28:50.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this year, I made a web reader that only showed a list of post titles, author domains, and links. The reader only updated once per day, so I wouldn't feel compelled to keep checking for new posts.
+I have been using the tool, which I called Artemis, for several months. Every morning, I looked forward to my "morning paper" of blogs I love reading.
+There are no notifications, read vs. unread states, counts of posts, etc. Only the last seven days of posts are available. The colour scheme is changeable. Dark mode is supported. All popular feed formats are supported.
+There is no reading interface to read blog posts; rather, the links take you to the authors' websites. Many of my favourite bloggers put a lot of effort into the design of their blogs and like to change things up; I wanted an experience that embraced that.
+The reader is now available for anyone to use (with invite code "hn").
+Comments URL: https://news.ycombinator.com/item?id=42471913
+Points: 121
+# Comments: 35]]></summary>
+        <author>
+            <name>zerojames</name>
         </author>
     </entry>
     <entry>
@@ -339,6 +946,17 @@ The post Skillet Breakfast Potatoes appeared first on Budget Bytes.]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Earworms for Drafting]]></title>
+        <id>https://www.baseballprospectus.com/?p=95614</id>
+        <link href="https://www.baseballprospectus.com/fantasy/article/95614/earworms-for-drafting/"/>
+        <updated>2024-12-20T14:25:23.000Z</updated>
+        <summary type="html"><![CDATA[Two Dan Campbell projects here and you couldn’t find a spot for “Came Out Swinging?"
+The post Earworms for Drafting appeared first on Baseball Prospectus.]]></summary>
+        <author>
+            <name>Timothy Jackson</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[LG's transparent TV on sale for $60k]]></title>
         <id>https://boingboing.net/?p=1045299</id>
         <link href="https://boingboing.net/2024/12/20/lgs-transparent-tv-on-sale-for-60k.html"/>
@@ -367,6 +985,18 @@ The crowds brave the summer heat and mind-numbing wait times because they are in
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Not Your Average Snow Day: 8 Wild Ways to Experience Winter Fun in Colorado]]></title>
+        <id>https://www.atlasobscura.com/articles/not-your-average-snow-day-8-wild-ways-to-experience-winter-fun-in-colorado</id>
+        <link href="https://www.atlasobscura.com/articles/not-your-average-snow-day-8-wild-ways-to-experience-winter-fun-in-colorado"/>
+        <updated>2024-12-20T14:14:00.000Z</updated>
+        <summary type="html"><![CDATA[If Old Man Winter had an international headquarters, he’d build it in Colorado. As soon as the season’s first snow falls, the state transforms from a summer playground into a frosted garden of pine forest, pearlescent mountains, and rivers lidded in silvery ice. Golf courses and woodland tracks find new life as cross-country ski and snowmobile courses, and waterfalls freeze into vast crystal chandeliers that climbers travel the world to scale. It’s a storybook landscape come to life.
+
+The state’s world-class ski resorts may get a lot of love, but there’s more than one way to experience the breathtaking wonder of a Colorado winter. All you have to do is venture beyond the typical itinerary—and embrace the state’s wilder side. Colorado’s frozen cliffs, glassy ponds, and remote backcountry p…]]></summary>
+        <author>
+            <name>Corey Buhay</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The 2024 Hater’s Guide To The Williams-Sonoma Catalog]]></title>
         <id>https://defector.com/?p=176334</id>
         <link href="https://defector.com/the-2024-haters-guide-to-the-williams-sonoma-catalog"/>
@@ -385,6 +1015,18 @@ There you are! Oh my goodness, look at you! You look so festive! Why don't you l
         <summary type="html"><![CDATA[As this system stands right now, it's a shade below average in terms of both depth and high-end impact.]]></summary>
         <author>
             <name>Eric Longenhagen and Travis Ice</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Western Winter: Your Guide to Colorado’s Cowboy Culture]]></title>
+        <id>https://www.atlasobscura.com/articles/western-winter-your-guide-to-colorado-s-cowboy-culture</id>
+        <link href="https://www.atlasobscura.com/articles/western-winter-your-guide-to-colorado-s-cowboy-culture"/>
+        <updated>2024-12-20T14:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Out West, the cowboy life was—and still is—a year-round affair. A ranch never sleeps, not even in winter. Cattle need to be herded, fences checked, and horses fed, even when the snow swirls around your boots and the temperatures are so cold they frost your eyelashes. There’s a special magic about that time of year—something enchanting about the stark contrast between the white snow and the dark slash of a steam-powered train, between the pale blue sky and the dark shapes of cows huddled contentedly amid the drifting snow. If you want a real taste of the Old West, there’s no better time to make your pilgrimage than winter.
+
+Colorado’s cowboy culture is older than the state itself. In the mid-1800s, cowboys from Texas began driving livestock into Western Colorado. By the late 1800s, well-es…]]></summary>
+        <author>
+            <name>Corey Buhay</name>
         </author>
     </entry>
     <entry>
@@ -587,6 +1229,17 @@ The post TV and Streaming Viewing Picks for December 20, 2024: how to watch Indi
 The post Plasma System Monitor – monitoring tool appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Friday, December 20, 2024]]></title>
+        <id>https://baty.net/journal/2024/12/20/today/</id>
+        <link href="https://baty.net/journal/2024/12/20/today/"/>
+        <updated>2024-12-20T11:44:56.000Z</updated>
+        <summary type="html"><![CDATA[jAlbum is pretty good at creating nice static web photo galleries. I made an elaborate gallery last year. It was nice, but now I can’t find my copy (or settings, originals, etc.) I’m not mad because I have to start over. I’m mad because all I do is organize stuff and despite that, I still can’t find things. Probably because of that, honestly. Anyway, starting over.
+I need some new sources. Everything I read is related to AI or social media or some gadget I simply must buy. I’m bored with all of it.]]></summary>
+        <author>
+            <name>Baty.net</name>
         </author>
     </entry>
     <entry>
@@ -11217,57 +11870,6 @@ The post Waybox – minimalist Wayland compositor appeared first on LinuxLinks.]
         <summary type="html"><![CDATA[<h4>Working for a startup is supposed to end with getting rich overnight, but not like this</h4> <p><strong>Who, Me?</strong>  Welcome once again to Who, Me? The Register's Monday morning feature in which we share tales of technological messes your fellow readers made, and escaped, to give you hope in case you err during the coming week.…</p> <p><!--#include virtual='/data_centre/_whitepaper_textlinks_top.html' --></p>]]></summary>
         <author>
             <name>The Register - Software</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cellebrite Unlocked This Journalist’s Phone. Cops Then Infected it With Malware]]></title>
-        <id>675c4454a2e9af0001247f63</id>
-        <link href="https://www.404media.co/cellebrite-unlocked-this-journalists-phone-cops-then-infected-it-with-malware/"/>
-        <updated>2024-12-16T06:00:44.000Z</updated>
-        <summary type="html"><![CDATA[A new report from Amnesty International reveals multiple cases where Serbian authorities used Cellebrite devices to access targets' mobile phones before loading them with spyware.]]></summary>
-        <author>
-            <name>Joseph Cox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cris Collinsworth, Mike Tirico send well wishes to Randy Moss on SNF]]></title>
-        <id>https://awfulannouncing.com/?p=683006</id>
-        <link href="https://awfulannouncing.com/nbc/cris-collinsworth-mike-tirico-send-well-wishes-randy-moss-snf.html"/>
-        <updated>2024-12-16T05:25:21.000Z</updated>
-        <summary type="html"><![CDATA[On Friday, ESPN’s Randy Moss ended all the speculation about his health on an Instagram Live stream, detailing that a cancerous mass was found in his bile duct between his pancreas and his liver. In the days following this admission, Moss has received countless messages of support from his peers in sports media, including a Read more...
-The post Cris Collinsworth, Mike Tirico send well wishes to Randy Moss on SNF appeared first on Awful Announcing.]]></summary>
-        <author>
-            <name>Reice Shipley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ingram Micro to 'stop doing business' with Broadcom, downgrade to 'limited engagement' on VMware]]></title>
-        <id>https://go.theregister.com/feed/www.theregister.com/2024/12/16/ingram_micro_vmware_broadcom_deal_ends/</id>
-        <link href="https://go.theregister.com/feed/www.theregister.com/2024/12/16/ingram_micro_vmware_broadcom_deal_ends/"/>
-        <updated>2024-12-16T05:01:08.000Z</updated>
-        <summary type="html"><![CDATA[<h4>Giant distributor couldn't do a deal that delivered 'appropriate shareholder return'</h4> <p><strong>Exclusive</strong>  Tech distribution behemoth Ingram Micro will stop doing business with Broadcom and its VMware range in many territories next year.…</p>]]></summary>
-        <author>
-            <name>The Register - Software</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Phase Change]]></title>
-        <id>https://xkcd.com/3025/</id>
-        <link href="https://xkcd.com/3025/"/>
-        <updated>2024-12-16T05:00:00.000Z</updated>
-        <author>
-            <name>xkcd.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jalen Hurts praises Russell Wilson in postgame mic’d up interaction: ‘You paved the way’]]></title>
-        <id>https://awfulannouncing.com/?p=682936</id>
-        <link href="https://awfulannouncing.com/nfl/jalen-hurts-russell-wilson-micd-up-moment.html"/>
-        <updated>2024-12-16T04:20:04.000Z</updated>
-        <summary type="html"><![CDATA[The Philadelphia Eagles extended their winning streak to 10 on Sunday with a 27-13 win over the Pittsburgh Steelers. But after the game, Eagles quarterback Jalen Hurts made it a point to show his respect to Steelers quarterback Russell Wilson in a heartfelt exchange after the game. Hurts put his apparent animosity with A.J. Brown Read more...
-The post Jalen Hurts praises Russell Wilson in postgame mic’d up interaction: ‘You paved the way’ appeared first on Awful Announcing.]]></summary>
-        <author>
-            <name>Reice Shipley</name>
         </author>
     </entry>
 </feed>
