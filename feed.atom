@@ -2,10 +2,110 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2024-12-20T01:14:15.332Z</updated>
+    <updated>2024-12-20T02:49:07.443Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Tony Kornheiser says CFP and NFL scheduling competing games is ‘football on football crime’]]></title>
+        <id>https://awfulannouncing.com/?p=684937</id>
+        <link href="https://awfulannouncing.com/nfl/tony-kornheiser-cfp-nfl-competing-games-football-on-football-crime.html"/>
+        <updated>2024-12-20T02:30:07.000Z</updated>
+        <summary type="html"><![CDATA[The NFL and college football typically go to great lengths not to program against each other. Save for some low-wattage Thursday night college football games on ESPN competing with Thursday Night Football on Amazon, football fans are generally able to watch every important game—college or pro—without worrying about missing another. That can all be thrown Read more...
+The post Tony Kornheiser says CFP and NFL scheduling competing games is ‘football on football crime’ appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Drew Lerner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dan Marino on potential return to broadcasting: ‘I think I could if I wanted to’]]></title>
+        <id>https://awfulannouncing.com/?p=684956</id>
+        <link href="https://awfulannouncing.com/nfl/dan-marino-potential-return-broadcasting.html"/>
+        <updated>2024-12-20T02:00:43.000Z</updated>
+        <summary type="html"><![CDATA[Hall of Fame quarterback Dan Marino last served as an NFL studio analyst over a decade ago. But in a recent interview, he shared that he is still very capable of serving in his old role again if he decides to do so in the future. Marino, of course, served as a studio analyst on Read more...
+The post Dan Marino on potential return to broadcasting: ‘I think I could if I wanted to’ appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Reice Shipley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Gribstream.com – Historical Weather Forecast API]]></title>
+        <id>https://news.ycombinator.com/item?id=42467449</id>
+        <link href="https://gribstream.com/"/>
+        <updated>2024-12-20T01:27:42.000Z</updated>
+        <summary type="html"><![CDATA[Hello! I'd like share about my sideproject https://gribstream.com
+It is an API to extract weather forecasting data from the National Blend of Models (NBM) https://vlab.noaa.gov/web/mdl/nbm and the Global Forecast System (GFS) https://www.ncei.noaa.gov/products/weather-climate-models/gl... . The data is freely available from AWS S3 in grib2 format which can be great but also really hard (and resource intensive) to work with, especially if you want to extract timeseries over long periods of time based on a few coordinates. Being able to query and extract only what you want out of terabytes of data in just an http request is really nice.
+What is cool about this dataset is that it has hourly data with full forecast history so you can use the dataset to train and forecast other parameters and have proper backtesting because you can see the weather "as of" points in time in the past. It has a free tier so you can play with it. There is a long list of upcoming features I intend to implement and I would very much appreciate both feedback on what is currently available and on what features you would be most interested in seeing. Like... I'm not sure if it would be better to support a few other datasets or focus on supporting aggregations.
+Features include:
+- A free tier to help you get started
+- Full history of weather forecasts
+- Extract timeseries for thousands of coordinates, for months at a time, at hourly resolution in a single http request taking only seconds.
+- Supports as-of/time-travel, indispensable for proper backtesting of derivative models
+- Automatic gap filling of any missing data with the next best (most recent) forecast.
+Please try it out and let me know what you think :)
+Comments URL: https://news.ycombinator.com/item?id=42467449
+Points: 6
+# Comments: 2]]></summary>
+        <author>
+            <name>ElPeque</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Your 2024 NFL Week 16 announcing schedule]]></title>
+        <id>https://awfulannouncing.com/?p=684932</id>
+        <link href="https://awfulannouncing.com/schedules/nfl-week-16-announcing-schedule.html"/>
+        <updated>2024-12-20T01:16:00.000Z</updated>
+        <summary type="html"><![CDATA[Here’s a look at the announcing assignments for Week 16 of the NFL season, including a Saturday doubleheader. That includes some discussion of a featured game or games in each slot based on broadcasters, matchups, or both. All times are Eastern. Thursday, Dec. 19 Featured/only game: Denver at LA Chargers Prime Video 8:15 p.m. Al Read more...
+The post Your 2024 NFL Week 16 announcing schedule appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Andrew Bucholtz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gary Williams returning to mornings on Golf Channel]]></title>
+        <id>https://awfulannouncing.com/?p=684830</id>
+        <link href="https://awfulannouncing.com/golf/gary-williams-returning-mornings-golf-channel-5-clubs.html"/>
+        <updated>2024-12-20T01:00:48.000Z</updated>
+        <summary type="html"><![CDATA[Golf Channel is adding some new morning programming to its lineup which will feature the return of a familiar face. Longtime Golf Channel broadcaster Gary Williams will return to the network’s morning lineup as part of a new one-hour morning show titled 5 Clubs on Golf Channel that will debut Monday, Jan. 6th. Williams helped Read more...
+The post Gary Williams returning to mornings on Golf Channel appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Drew Lerner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Gazzetta, read news and links from Mastodon (iPhone, free)]]></title>
+        <id>https://news.ycombinator.com/item?id=42467274</id>
+        <link href="https://apps.apple.com/us/app/gazzetta/id6738706671"/>
+        <updated>2024-12-20T00:49:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://apps.apple.com/us/app/gazzetta/id6738706671
+Comments URL: https://news.ycombinator.com/item?id=42467274
+Points: 3
+# Comments: 1]]></summary>
+        <author>
+            <name>primatologyxyz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Signing Soroka]]></title>
+        <id>https://www.baseballmusings.com/?p=155131</id>
+        <link href="https://www.baseballmusings.com/?p=155131"/>
+        <updated>2024-12-20T00:43:28.000Z</updated>
+        <summary type="html"><![CDATA[The Nationals signed pitcher Mike Soroka to a $9 million, one-year deal and expect him to join the rotation: Soroka’s best season came in 2019, when he went 13-4 with a 2.68 ERA for the Braves and finished second in NL Cy Young voting. Injuries set him back, including twice tearing his right Achilles tendon. […]]]></summary>
+        <author>
+            <name>pinto@baseballmusings.com (David Pinto)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Magic Johnson blames NBA ratings decline on stars yukking it up: ‘They don’t hate each other’]]></title>
+        <id>https://awfulannouncing.com/?p=684839</id>
+        <link href="https://awfulannouncing.com/nba/magic-johnson-blames-ratings-decline-stars.html"/>
+        <updated>2024-12-20T00:40:00.000Z</updated>
+        <summary type="html"><![CDATA[With NBA TV ratings in decline, Magic Johnson believes players from opposing teams need to get back to hating each other. Everybody has a theory on why NBA viewership is down. Commissioner Adam Silver blames the demise of cable television, Shaquille O’Neal faults the three-point shot, Mike Francesa points to load management, Joe Mazzulla blames Read more...
+The post Magic Johnson blames NBA ratings decline on stars yukking it up: ‘They don’t hate each other’ appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Brandon Contes</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Show HN: Show HN: Voice-Controlled Tech Demo for Manipulating Any Webpage]]></title>
         <id>https://news.ycombinator.com/item?id=42467192</id>
@@ -21,6 +121,28 @@ Points: 1
 # Comments: 0]]></summary>
         <author>
             <name>BrandiATMuhkuh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Andrew Marchand and John Ourand both predict Tom Brady will return for second season as Fox NFL analyst]]></title>
+        <id>https://awfulannouncing.com/?p=684872</id>
+        <link href="https://awfulannouncing.com/fox/andrew-marchand-john-ourand-tom-brady-return-second-season-analyst.html"/>
+        <updated>2024-12-20T00:20:04.000Z</updated>
+        <summary type="html"><![CDATA[One and done for Tom Brady at Fox? Not so fast, say sports media insiders Andrew Marchand and John Ourand. In their latest conversation on the Marchand Sports Media podcast, both put a stake in the ground predicting that the new lead NFL on Fox game analyst will return for the second season of his record 10-year, Read more...
+The post Andrew Marchand and John Ourand both predict Tom Brady will return for second season as Fox NFL analyst appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Brendon Kleen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Paul Finebaum: My ‘legacy’ will be showing college football elites ‘where the country really is’]]></title>
+        <id>https://awfulannouncing.com/?p=684841</id>
+        <link href="https://awfulannouncing.com/college-football/paul-finebaum-show-legend-representation.html"/>
+        <updated>2024-12-20T00:00:14.000Z</updated>
+        <summary type="html"><![CDATA[ESPN college football analyst and radio host Paul Finebaum is synonymous with his callers. None more so than an Alabama superfan known as “Legend.” In a new episode of the Pablo Torre Finds Out podcast heading into the College Football Playoff, Finebaum appeared to discuss his connection to those callers and the impact of his radio Read more...
+The post Paul Finebaum: My ‘legacy’ will be showing college football elites ‘where the country really is’ appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Brendon Kleen</name>
         </author>
     </entry>
     <entry>
@@ -53,6 +175,17 @@ The fans of every other team in the NFL that is having a disappointing season 
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Jason Kelce rips anti-flag planting legislation: ‘I don’t like it. I’m not gonna lie’]]></title>
+        <id>https://awfulannouncing.com/?p=684769</id>
+        <link href="https://awfulannouncing.com/college-football/travis-jason-kelce-ohio-flag-planting-bill.html"/>
+        <updated>2024-12-19T23:40:58.000Z</updated>
+        <summary type="html"><![CDATA[An anti-flag planting bill proposed by Ohio state Rep. Josh Williams has earned two more prominent critics — Jason and Travis Kelce. After Michigan’s upset win over Ohio State in November, some of the Wolverines attempted to plant a Michigan flag at midfield at Ohio Stadium — which triggered a fight with some of the Read more...
+The post Jason Kelce rips anti-flag planting legislation: ‘I don’t like it. I’m not gonna lie’ appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Michael Dixon</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Microsoft coughs up yet more Windows 11 24H2 headaches]]></title>
         <id>https://go.theregister.com/feed/www.theregister.com/2024/12/19/windows_11_24h2_issues/</id>
         <link href="https://go.theregister.com/feed/www.theregister.com/2024/12/19/windows_11_24h2_issues/"/>
@@ -63,6 +196,17 @@ The fans of every other team in the NFL that is having a disappointing season 
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[NBA Cup Final viewership down big versus Lakers’ win last year]]></title>
+        <id>https://awfulannouncing.com/?p=684862</id>
+        <link href="https://awfulannouncing.com/nba/cup-final-viewership-down-big.html"/>
+        <updated>2024-12-19T23:20:44.000Z</updated>
+        <summary type="html"><![CDATA[Viewership for the second ever NBA Cup championship game declined significantly compared to last year’s debut, but still proved to be a substantial upgrade versus a normal regular season game. Tuesday’s NBA Cup Final between the Milwaukee Bucks and Oklahoma City Thunder averaged 2.99 million viewers on ABC, per Jon Lewis of Sports Media Watch. Read more...
+The post NBA Cup Final viewership down big versus Lakers’ win last year appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Drew Lerner</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[A new Kansas City program steers residents to mental health or drug care rather than custody]]></title>
         <id>https://www.thepitchkc.com/?p=865975</id>
         <link href="https://www.thepitchkc.com/a-new-kansas-city-program-steers-residents-to-mental-health-or-drug-care-rather-than-custody/"/>
@@ -70,6 +214,28 @@ The fans of every other team in the NFL that is having a disappointing season 
         <summary type="html"><![CDATA[Riders wait for the Prospect Max bus at the 31st Street stop, in the first corridor to be included in the REACH program. (Mili Mansaray/The Beacon) You see someone in the midst of a mental breakdown, or high on drugs. Call 911 and they may get arrested. Things could get worse from there. They might lose their job, their apartment....]]></summary>
         <author>
             <name>Mili Mansaray</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jeff Marek on dismissal from Sportsnet: ‘It was bizarre’]]></title>
+        <id>https://awfulannouncing.com/?p=684796</id>
+        <link href="https://awfulannouncing.com/nhl/jeff-marek-dismissal-sportsnet-bizarre.html"/>
+        <updated>2024-12-19T23:00:12.000Z</updated>
+        <summary type="html"><![CDATA[Five months after an abrupt dismissal from Sportsnet following 13 years with the network, Jeff Marek is excited for the next chapter of his career. One of the most well-known NHL analysts, Marek recently partnered with The Nation Network and the Daily Faceoff to launch his new show, The Sheet. In July, Marek was let Read more...
+The post Jeff Marek on dismissal from Sportsnet: ‘It was bizarre’ appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Brandon Contes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The 2024 Awful Announcing NFL/CFB rules analyst rankings]]></title>
+        <id>https://awfulannouncing.com/?p=684754</id>
+        <link href="https://awfulannouncing.com/nfl/2024-football-rules-analyst-rankings.html"/>
+        <updated>2024-12-19T22:45:09.000Z</updated>
+        <summary type="html"><![CDATA[The votes are in for the top broadcast football rules analysts. We asked Awful Announcing readers to grade nine rules analysts working on NCAA and NFL football broadcasts across a wide selection of networks, and received responses from more than 400 voters, similar to what we received for our scorebug rankings earlier this year. As Read more...
+The post The 2024 Awful Announcing NFL/CFB rules analyst rankings appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Andrew Bucholtz</name>
         </author>
     </entry>
     <entry>
@@ -112,6 +278,17 @@ Points: 1
 # Comments: 0]]></summary>
         <author>
             <name>2403tales</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Mike Tomlin interview nearly gave Erin Andrews a ‘panic attack’]]></title>
+        <id>https://awfulannouncing.com/?p=684751</id>
+        <link href="https://awfulannouncing.com/fox/erin-andrews-mike-tomlin-panic-attack.html"/>
+        <updated>2024-12-19T22:20:10.000Z</updated>
+        <summary type="html"><![CDATA[Mike Tomlin feels like an easy guy to root for, especially for Erin Andrews. Sure, he can come across as abrasive, like he did after the Pittsburgh Steelers’ 27-13 loss to the Philadelphia Eagles in Week 15. Tomlin might’ve told an official to “Get the f*ck” out of his face and snapped at a reporter Read more...
+The post Why Mike Tomlin interview nearly gave Erin Andrews a ‘panic attack’ appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Sam Neumann</name>
         </author>
     </entry>
     <entry>
@@ -10325,40 +10502,6 @@ Navy head coach Brian Newberry knows what I’m talking about. That’s why, up 
 This interview appeared first on Five Books.]]></summary>
         <author>
             <name>Sophie Roell, Editor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hot Cider]]></title>
-        <id>https://www.budgetbytes.com/?p=106195</id>
-        <link href="https://www.budgetbytes.com/hot-cider/"/>
-        <updated>2024-12-15T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[This easy Hot Cider recipe is flavored with cinnamon, orange slices, nutmeg, and maple syrup to create a tangy, delicious, and warming drink!
-The post Hot Cider appeared first on Budget Bytes.]]></summary>
-        <author>
-            <name>Jess Rice</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sunday, December 15, 2024]]></title>
-        <id>https://baty.net/journal/2024/12/15/today/</id>
-        <link href="https://baty.net/journal/2024/12/15/today/"/>
-        <updated>2024-12-15T14:23:03.000Z</updated>
-        <summary type="html"><![CDATA[See how the way I’m doing this blog ruins the archives?…
- 
-Part of my Archives page. Useful, huh?]]></summary>
-        <author>
-            <name>Baty.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Monitorets – system resource monitor]]></title>
-        <id>https://www.linuxlinks.com/?p=139595</id>
-        <link href="https://www.linuxlinks.com/monitorets-system-resource-monitor/"/>
-        <updated>2024-12-15T13:20:06.000Z</updated>
-        <summary type="html"><![CDATA[Monitorets is a small utility application offering a simple and quick view at the usage of several of your computer resources.
-The post Monitorets – system resource monitor appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
         </author>
     </entry>
 </feed>
