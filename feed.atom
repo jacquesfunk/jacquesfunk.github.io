@@ -2,10 +2,164 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2024-12-21T12:28:58.532Z</updated>
+    <updated>2024-12-21T14:13:20.868Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Disney Princesses Are at Risk of Rabies and Fatal Maulings]]></title>
+        <id>6765a55b8709d700019c1bd4</id>
+        <link href="https://www.404media.co/disney-princesses-are-at-risk-of-rabies-and-fatal-maulings-3/"/>
+        <updated>2024-12-21T14:00:38.000Z</updated>
+        <summary type="html"><![CDATA[This week, the creature from the Pangean lagoon, casket shopping for Disney princesses, a horror show in ancient Somerset, and “Martifacts.”]]></summary>
+        <author>
+            <name>Becky Ferreira</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sean McDonough calls out Indiana, questions CFP’s Big Ten bias]]></title>
+        <id>https://awfulannouncing.com/?p=685688</id>
+        <link href="https://awfulannouncing.com/college-football/sean-mcdonough-indiana-big-ten-bias.html"/>
+        <updated>2024-12-21T13:45:07.000Z</updated>
+        <summary type="html"><![CDATA[Sean McDonough wasn’t having it. The veteran announcer, who, alongside Greg McElroy, ranked second in Awful Announcing’s 2024 college football announcer rankings, was in rare form Friday night as he took the Hoosiers to task. In a game that gave him and his partner little to work with, McDonough didn’t hold back, calling it exactly Read more...
+The post Sean McDonough calls out Indiana, questions CFP’s Big Ten bias appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Sam Neumann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NFL social media team deletes Jalen Hurts shoes post after league fines QB]]></title>
+        <id>https://awfulannouncing.com/?p=685601</id>
+        <link href="https://awfulannouncing.com/twitter/social-media-deletes-jalen-hurts-shoes-fine.html"/>
+        <updated>2024-12-21T13:30:45.000Z</updated>
+        <summary type="html"><![CDATA[NFL uniform violations usually fly under the radar in the news, but an infraction involving Jalen Hurts this week raised eyebrows for a bizarre reason. The NFL fined the Philadelphia Eagles quarterback $5,628 for a uniform and equipment violation in last Sunday’s win over the Pittsburgh Steelers. Hurts wore shoes that were mismatched shades of Read more...
+The post NFL social media team deletes Jalen Hurts shoes post after league fines QB appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Arthur Weinstein</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Supergateway – Run MCP stdio servers over SSE]]></title>
+        <id>https://news.ycombinator.com/item?id=42479473</id>
+        <link href="https://github.com/supercorp-ai/supergateway"/>
+        <updated>2024-12-21T13:17:26.000Z</updated>
+        <summary type="html"><![CDATA[Hi guys,
+I’ve just released Supergateway and it allows to use MCP servers with stdio on remote assistants over SSE.
+Now most of MCP servers only support stdio transport and this is problematic if you want remote assistants to access them. MCP spec has SSE transport which works with remote HTTP connections but it is rarely used by MCP server authors. So I’ve created this gateway that allows you to run stdio transport MCP servers and tunnel them via SSE transport.
+It’s very simple to use. Run any stdio MCP server like this:
+npx -y supergateway --stdio "uvx mcp-server-git"
+It’s totally open-source and supports pretty much any MCP server.
+Built this since we have an AI infrastructure platform (https://superinterface.ai) that allows you to use MCP servers in remote assistants and we saw that we cannot really run any community MCP servers without something like this.
+It’s def pretty cool to see remote assistants embedded on a website being able to access these cool MCP servers.
+Let me know what you think!
+/Domas
+Comments URL: https://news.ycombinator.com/item?id=42479473
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>Nedomas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cyborg cockroach production nears one per minute]]></title>
+        <id>https://boingboing.net/?p=1045438</id>
+        <link href="https://boingboing.net/2024/12/21/cyborg-cockroach-production-nears-one-per-minute.html"/>
+        <updated>2024-12-21T13:10:13.000Z</updated>
+        <summary type="html"><![CDATA[Singapore's Nanyang Technological University mass-produces cyborg cockroaches by implanting electronic backpacks into their carapaces. They can "assemble" one in 68 seconds—much faster than manually inserting the gear. The research is to be published as Cyborg Insect Factory: Automatic Assembly System to Build up Insect-computer Hybrid Robot Based on Vision-guided Robotic Arm Manipulation of Custom Bipolar Electrodes. — Read the rest 
+The post Cyborg cockroach production nears one per minute appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Rob Beschizza</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jeremy Schaap calls Boomer and Gunnar Esiason E:60 ‘one of the best things we’ve done’]]></title>
+        <id>https://awfulannouncing.com/?p=685400</id>
+        <link href="https://awfulannouncing.com/espn/jeremy-schaap-boomer-gunnar-esiason-e60-best-things.html"/>
+        <updated>2024-12-21T13:00:51.000Z</updated>
+        <summary type="html"><![CDATA[Boomer and Gunnar Esiason’s work to find a medical miracle against cystic fibrosis is a story Jeremy Schaap is excited to tell on an upcoming edition of E:60. Earlier this week, ESPN announced The Boomer & Gunnar Esiason Story: Second Wind, an E:60 set to premiere at 7 p.m. ET next Tuesday on Christmas Eve. Read more...
+The post Jeremy Schaap calls Boomer and Gunnar Esiason E:60 ‘one of the best things we’ve done’ appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Brandon Contes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NBA team gives lucky child a PlayStation 5, then takes it away backstage]]></title>
+        <id>https://boingboing.net/?p=1045396</id>
+        <link href="https://boingboing.net/2024/12/21/nba-team-gives-lucky-child-a-playstation-5-then-takes-it-away-backstage.html"/>
+        <updated>2024-12-21T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I get that the new console generation is expensive, but this feels excessive. At a recent home game, the Charlotte Hornets hosted a "special segment" in which a few children selected from the audience received various goodies including a signed jersey and a PS5, presumably because no one has ever been excited to receive an Xbox. — Read the rest 
+The post NBA team gives lucky child a PlayStation 5, then takes it away backstage appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Grant St. Clair</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dungeon crawler takes place entirely on a Windows 98 desktop]]></title>
+        <id>https://boingboing.net/?p=1045390</id>
+        <link href="https://boingboing.net/2024/12/21/a-dungeon-crawler-that-takes-place-entirely-on-a-windows-98-desktop.html"/>
+        <updated>2024-12-21T12:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Hey there! It looks like you're trying to put together an indie game using iconic, nostalgic imagery from a bygone millennium. Would you like help with that?
+CLICK HERE TO GET BOING BOING AD-FREE 
+If those words sent a shiver down your spine, you're the target audience for Desktop Survivors 98, an upcoming bullet hell dungeon crawler that pits you against the contents of a Windows 98 desktop – solitaire, work emails and all. — Read the rest 
+The post Dungeon crawler takes place entirely on a Windows 98 desktop appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Grant St. Clair</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Fill, sign, edit PDFs and much more]]></title>
+        <id>https://news.ycombinator.com/item?id=42479334</id>
+        <link href="https://pdfeditify.com/"/>
+        <updated>2024-12-21T12:39:32.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+I built a new and modern PDF Editor. I had been using some online PDF Editors since years and over the period of time I found that most of them were either slow and outdated or bloated with un-necessary features. Another pain point was all of the PDF editors mentioned "Free" but right after you do edits and want to export anything, they ask you to pay. I decided to fix my own itch and built PDF Editify.
+Using PDF Editify, users can fill, sign, edit, redact, annotate PDFs and much more. The free version allows users to export 3 PDFs with unlimited edits per week. We are constantly working on new features, some of which are:
+- Digital Signatures (currently we only support Electronic Signatures) 
+- PDF Templates Catalog 
+- OCR PDFs
+This is my first product and we have good feedback from our users. I would love any questions, comments or feedback from the HN community and any ideas for marketing would be appreciated since I (being a tech guy) really find marketing boring.
+Comments URL: https://news.ycombinator.com/item?id=42479334
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>talha345</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3D-printed harness fixes sea turtle's "bubble butt"]]></title>
+        <id>https://boingboing.net/?p=1045367</id>
+        <link href="https://boingboing.net/2024/12/21/3d-printed-harness-fixes-sea-turtles-bubble-butt.html"/>
+        <updated>2024-12-21T12:36:34.000Z</updated>
+        <summary type="html"><![CDATA[Positive buoyancy syndrome, also known as Bubble Butt, is a serious condition affecting sea turtles. Sea turtles are unfortunately often struck by boats, causing their shells to be deformed. Air bubbles can form in the deformed shell, throwing off their natural buoyancy and making swimming difficult. — Read the rest 
+The post 3D-printed harness fixes sea turtle's "bubble butt" appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Gail Sherman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iFixit's Furby teardown is not for the faint of heart]]></title>
+        <id>https://boingboing.net/?p=1045342</id>
+        <link href="https://boingboing.net/2024/12/21/ifixits-furby-teardown-is-not-for-the-faint-of-heart.html"/>
+        <updated>2024-12-21T12:32:02.000Z</updated>
+        <summary type="html"><![CDATA[iFixit's teardown videos show the inside of your tech, breaking it down to determine how to repair it. However, not all tech survives the teardown process, like this unfortunate Furby.
+CLICK HERE TO GET BOING BOING AD-FREE 
+For its final teardown of 2024, iFixit takes a look inside a Furby, the creepy/cute owl-gremlin robot toy that has seen several reboots since the original was released in 1998. — Read the rest 
+The post iFixit's Furby teardown is not for the faint of heart appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Gail Sherman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Matchroom’s Eddie Hearn sees Fury-Usyk 2 as chance for boxing fans to enjoy ‘real fights’]]></title>
+        <id>https://awfulannouncing.com/?p=685139</id>
+        <link href="https://awfulannouncing.com/boxing/eddie-hearn-matchroom-dazn-fury-usyk-tyson-paul.html"/>
+        <updated>2024-12-21T12:30:12.000Z</updated>
+        <summary type="html"><![CDATA[A discussion of “boxing” can conjure quite different images at the moment. For some, that’s fights like 27-year-old YouTuber Jake Paul’s highly-publicized exhibition defeat of 58-year-old Mike Tyson in November. For others, the interest is more in actual title fights, such as the Oleksandr Usyk vs. Tyson Fury heavyweight title rematch (for the WBC, WBA, Read more...
+The post Matchroom’s Eddie Hearn sees Fury-Usyk 2 as chance for boxing fans to enjoy ‘real fights’ appeared first on Awful Announcing.]]></summary>
+        <author>
+            <name>Andrew Bucholtz</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TV and Streaming Viewing Picks for December 21, 2024 (Part II): how to watch the NFL doubleheader]]></title>
         <id>https://awfulannouncing.com/?p=685682</id>
@@ -26,6 +180,90 @@ The post TV and Streaming Viewing Picks for December 21, 2024 (Part II): how to 
 The post TV and Streaming Viewing Picks for December 21, 2024 (Part I): how to watch the CFP QF tripleheader appeared first on Awful Announcing.]]></summary>
         <author>
             <name>Ken Fang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tree kangaroos: the best animal ASMR on the internet]]></title>
+        <id>https://boingboing.net/?p=1045415</id>
+        <link href="https://boingboing.net/2024/12/21/tree-kangaroos-the-best-animal-asmr-on-the-internet.html"/>
+        <updated>2024-12-21T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Rejoice, dear readers, because I've found the absolutely best animal ASMR on the entire internet! The search is over, as nothing can top tree kangaroos crunching on raw vegetables. The tree kangaroos in question—Paia, Keweng, LaRoo, and Morobe—live at the Rhode Island Zoological Society in Providence. — Read the rest 
+The post Tree kangaroos: the best animal ASMR on the internet appeared first on Boing Boing.]]></summary>
+        <author>
+            <name>Jennifer Sandlin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I built a gamified Chinese idioms learning platform]]></title>
+        <id>https://news.ycombinator.com/item?id=42479163</id>
+        <link href="https://idiomgame.com/en"/>
+        <updated>2024-12-21T11:58:37.000Z</updated>
+        <summary type="html"><![CDATA[I built a simple and fun platform for learning Chinese idioms (成语/chengyu). No registration required, just open and start playing.
+What are Chinese idioms?
+- Four-character expressions that often tell a story or convey profound meaning
+- Essential part of Chinese language and culture
+- Challenging to learn due to their historical context and non-literal meanings
+Features:
+- Three game modes:
+  * Progressive challenges with different difficulty levels
+  * Word chain game (connect idioms using the last character)
+  * Memory matching game with related idioms
+- No registration required, instant access
+- Mobile-friendly, works on all devices
+- Multi-language support (Traditional/Simplified Chinese, English, Japanese, Korean)
+Tech stack:
+Nextjs + React + tailwindcss + Golang
+Try it here: https://idiomgame.com/en
+Looking for feedback on gameplay and user experience.
+Comments URL: https://news.ycombinator.com/item?id=42479163
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>harperhuang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Website That Generates "Pseudo-Chinese (偽中国語)" Text with LLMs]]></title>
+        <id>https://news.ycombinator.com/item?id=42479141</id>
+        <link href="https://dokoyaku.com/nisechuugokugo"/>
+        <updated>2024-12-21T11:53:37.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN! I built a fun little website that generates "Pseudo-Chinese (偽中国語)" using an LLM. It takes your input and transforms it into a sentence composed only of Kanji or Chinese characters, but structured with Japanese grammar. This makes it surprisingly readable to both Japanese and Chinese speakers who can leverage their knowledge of shared characters.
+The inspiration for this project came from another popular Japanese app called "対多." Its developer mentioned struggling to achieve satisfactory "Pseudo-Chinese" generation using ChatGPT. This piqued my curiosity, and I decided to tackle the challenge myself.
+I'd love for you to give it a try and let me know what you think!
+Comments URL: https://news.ycombinator.com/item?id=42479141
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>muryou_aigazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: ChatGPT to Word or PDF – Save Conversations in One Click]]></title>
+        <id>https://news.ycombinator.com/item?id=42479114</id>
+        <link href="https://chromewebstore.google.com/detail/chatgpt-to-word-or-pdf/mjdmggegbkookpcmbdllcnbfboikcbop"/>
+        <updated>2024-12-21T11:44:19.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN!
+I’ve built a Chrome extension called "ChatGPT to Word or PDF' that makes saving ChatGPT conversations super simple.
+With a single click, you can export your ChatGPT responses as a Word or PDF file.
+Why I Built This:
+I found it frustrating to copy-paste ChatGPT conversations into external tools to save or share them. This tool eliminates that hassle by integrating directly into your browser, letting you download files instantly.
+Use Cases:
+- Documenting Ideas: Save brainstorming sessions with ChatGPT for future reference.
+- Client Deliverables: Share neatly formatted responses as Word or PDF files.
+- Study Notes: Keep records of educational prompts and ChatGPT-generated answers.
+- Team Collaboration: Easily share ChatGPT output with teammates in a professional format.
+Key Features:
+- One-click export of ChatGPT responses.
+- Automatically downloads files in your chosen format (Word or PDF).
+- Simple interface – no extra configurations needed.
+Link:
+Check it out here: https://chromewebstore.google.com/detail/chatgpt-to-word-or-...
+I’d love your feedback! What do you think about this? What features or improvements would make this tool more useful for you?
+Comments URL: https://news.ycombinator.com/item?id=42479114
+Points: 2
+# Comments: 1]]></summary>
+        <author>
+            <name>vikramaruchamy</name>
         </author>
     </entry>
     <entry>
@@ -10628,108 +10866,6 @@ Points: 1
 # Comments: 0]]></summary>
         <author>
             <name>three2a88</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SoftBank pledges to pour $100B into US, create 100,000 jobs in Trump's second term]]></title>
-        <id>https://go.theregister.com/feed/www.theregister.com/2024/12/17/softbank_100bn_us_investment_pledge/</id>
-        <link href="https://go.theregister.com/feed/www.theregister.com/2024/12/17/softbank_100bn_us_investment_pledge/"/>
-        <updated>2024-12-17T02:02:10.000Z</updated>
-        <summary type="html"><![CDATA[<h4>Details? Who needs 'em! But AI seems a likely focus</h4> <p>SoftBank CEO Masayoshi Son revealed plans to invest $100 billion in the US and create a minimum of 100,000 jobs in the next four years.…</p>]]></summary>
-        <author>
-            <name>The Register - Software</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adam Schefter is once again defending college football sourcing, this time on Michael Vick/Sacramento State report]]></title>
-        <id>https://awfulannouncing.com/?p=683438</id>
-        <link href="https://awfulannouncing.com/espn/adam-schefter-college-football-report-refuted.html"/>
-        <updated>2024-12-17T02:00:34.000Z</updated>
-        <summary type="html"><![CDATA[Adam Schefter’s foray into college football reporting hit another snag on Monday. Schefter initially reported that Sacramento State was in discussions to hire Michael Vick as its next head football coach, a claim that quickly unraveled under scrutiny. What really raised eyebrows, though, was his assertion that Sacramento State had over $50 million in NIL Read more...
-The post Adam Schefter is once again defending college football sourcing, this time on Michael Vick/Sacramento State report appeared first on Awful Announcing.]]></summary>
-        <author>
-            <name>Sam Neumann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stephen A. Smith: Be resentful against the system, not Caitlin Clark]]></title>
-        <id>https://awfulannouncing.com/?p=683369</id>
-        <link href="https://awfulannouncing.com/wnba/stephen-a-smith-caitlin-clark-sysetm-time-magazine.html"/>
-        <updated>2024-12-17T01:30:50.000Z</updated>
-        <summary type="html"><![CDATA[When Caitlin Clark is at the forefront of the conversation, Stephen A. Smith will wade into the discourse. Last week, Time Magazine named the Indiana Fever guard its Athlete of the Year. In the subsequent article, Clark not only advocated for her fellow WNBA players against Christine Brennan but also acknowledged her own white privilege—something that Read more...
-The post Stephen A. Smith: Be resentful against the system, not Caitlin Clark appeared first on Awful Announcing.]]></summary>
-        <author>
-            <name>Sam Neumann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Travis Hunter blasts ‘clickbait pages,’ defends fiancée amid online backlash]]></title>
-        <id>https://awfulannouncing.com/?p=683395</id>
-        <link href="https://awfulannouncing.com/college-football/travis-hunter-fiancee-criticism.html"/>
-        <updated>2024-12-17T01:00:05.000Z</updated>
-        <summary type="html"><![CDATA[The attacks on Travis Hunter’s fiancée have gone to a weird place — and so has the discourse. Hunter, who was awarded the 90th Heisman Trophy on Saturday night despite some media members leaving him off their ballots altogether, has since had to come to Leanna Lenee’s defense. Lenee has faced criticism for various reasons, Read more...
-The post Travis Hunter blasts ‘clickbait pages,’ defends fiancée amid online backlash appeared first on Awful Announcing.]]></summary>
-        <author>
-            <name>Sam Neumann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Here's how your idea for an app, API, or website can come to life without any coding]]></title>
-        <id>https://boingboing.net/?p=1044586</id>
-        <link href="https://boingboing.net/2024/12/16/heres-how-your-idea-for-an-app-api-or-website-can-come-to-life-without-any-coding.html"/>
-        <updated>2024-12-17T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: You don't need code to build a website, app, or API when you have Twidget, now $39 (reg. $600) for life.
-Have you ever had a "light bulb" moment where you wanted to build an app, website, or API? — Read the rest 
-The post Here's how your idea for an app, API, or website can come to life without any coding appeared first on Boing Boing.]]></summary>
-        <author>
-            <name>Boing Boing's Shop</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Explore the micro-world with this LCD microscope that fits in your pocket]]></title>
-        <id>https://boingboing.net/?p=1044252</id>
-        <link href="https://boingboing.net/2024/12/16/explore-the-micro-world-with-this-lcd-microscope-that-fits-in-your-pocket.html"/>
-        <updated>2024-12-17T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: See nature up close and personal in the new year with this microscope that has a 4-inch LCD screen. It's on sale for $69.97 (reg. $100) until December 22.
-Microscopes quite literally gave us a whole new way of looking at the world, and now you can bring that power anywhere with this portable one. — Read the rest 
-The post Explore the micro-world with this LCD microscope that fits in your pocket appeared first on Boing Boing.]]></summary>
-        <author>
-            <name>Boing Boing's Shop</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Differentially Private Tetris]]></title>
-        <id>https://news.ycombinator.com/item?id=42437163</id>
-        <link href="https://amanpriyanshu.github.io/Differentially-Private-Tetris/"/>
-        <updated>2024-12-17T00:45:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://amanpriyanshu.github.io/Differentially-Private-Tetris/
-Comments URL: https://news.ycombinator.com/item?id=42437163
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>YoOnoAP</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Blade Runner to baking: Syd Mead's amazing gingerbread creations]]></title>
-        <id>https://boingboing.net/?p=1044963</id>
-        <link href="https://boingboing.net/2024/12/16/from-blade-runner-to-baking-syd-meads-amazing-gingerbread-creations.html"/>
-        <updated>2024-12-17T00:38:47.000Z</updated>
-        <summary type="html"><![CDATA[The visionary artist behind Blade Runner and Tron had a surprising holiday hobby: crafting intricate gingerbread castles. In a recently unearthed home video from 1990, Syd Mead (1933-2019) reveals his process for building these edible architectural marvels, combining his professional design skills with confectionery craftsmanship. — Read the rest 
-The post From Blade Runner to baking: Syd Mead's amazing gingerbread creations appeared first on Boing Boing.]]></summary>
-        <author>
-            <name>Mark Frauenfelder</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bill Belichick pitches North Carolina ‘College GameDay’ visit]]></title>
-        <id>https://awfulannouncing.com/?p=683404</id>
-        <link href="https://awfulannouncing.com/espn/bill-belichick-north-carolina-college-gameday-pat-mcafee.html"/>
-        <updated>2024-12-17T00:30:01.000Z</updated>
-        <summary type="html"><![CDATA[The sports world is still digesting Bill Belichick’s stunning decision to become the head coach of North Carolina, but he showed Monday that he already understands one key aspect of his new job. During Belichick’s weekly appearance on The Pat McAfee Show, McAfee said he’d talked with many people in the past week about the Read more...
-The post Bill Belichick pitches North Carolina ‘College GameDay’ visit appeared first on Awful Announcing.]]></summary>
-        <author>
-            <name>Arthur Weinstein</name>
         </author>
     </entry>
 </feed>
