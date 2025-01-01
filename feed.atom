@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-01T16:18:29.855Z</updated>
+    <updated>2025-01-01T18:20:22.787Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Joe's Blog: Major winter storm potential increases (WED-2025)]]></title>
+        <id>https://fox4kc.com/?p=3776402</id>
+        <link href="https://fox4kc.com/email-alerts/joes-weather-blog-email-alerts/joes-blog-major-winter-storm-potential-increases-wed-2025/"/>
+        <updated>2025-01-01T18:19:23.000Z</updated>
+        <summary type="html"><![CDATA[Happy New Year! 2024 will go down as the 16th warmest year in KC weather record history...records go back about 135 years...and the 58th driest year with 34.63" of moisture. It was memorable in some ways too...including the increase in severe weather and tornadoes in the region, some of the big ups and downs, and [...]]]></summary>
+        <author>
+            <name>Joe Lauria</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What Horrible Things Did We Do To Our Penises Last Year?]]></title>
         <id>https://defector.com/?p=175085</id>
@@ -467,17 +477,6 @@ The post TreeTag – personal data manager appeared first on LinuxLinks.]]></sum
 The post ansi-colors – add ANSI colors to terminal text appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Eilidih Parris</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Treemacs – tree layout file explorer for Emacs]]></title>
-        <id>https://www.linuxlinks.com/?p=140102</id>
-        <link href="https://www.linuxlinks.com/treemacs-tree-layout-file-explorer-emacs/"/>
-        <updated>2024-12-28T05:39:26.000Z</updated>
-        <summary type="html"><![CDATA[Treemacs is a file and project explorer similar to NeoTree or vim’s NerdTree, but largely inspired by the Project Explorer in Eclipse. 
-The post Treemacs – tree layout file explorer for Emacs appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
         </author>
     </entry>
 </feed>
