@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-03T08:19:53.653Z</updated>
+    <updated>2025-01-03T10:16:11.999Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ditana – Arch-based Linux distribution]]></title>
+        <id>https://www.linuxlinks.com/?p=140352</id>
+        <link href="https://www.linuxlinks.com/ditana-arch-based-linux-distribution/"/>
+        <updated>2025-01-03T09:51:07.000Z</updated>
+        <summary type="html"><![CDATA[Ditana Linux is a rolling release distro based on Arch Linux with built-in AI.  Ditana prioritizes giving users full control over their system.
+The post Ditana – Arch-based Linux distribution appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Erik Karlsson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[browsr – file explorer in your terminal]]></title>
+        <id>https://www.linuxlinks.com/?p=140347</id>
+        <link href="https://www.linuxlinks.com/browsr-file-explorer-terminal/"/>
+        <updated>2025-01-03T08:44:55.000Z</updated>
+        <summary type="html"><![CDATA[browsr is a a pleasant file explorer in your terminal supporting all filesystems.
+The post browsr – file explorer in your terminal appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Jay – Wayland compositor]]></title>
         <id>https://www.linuxlinks.com/?p=140330</id>
