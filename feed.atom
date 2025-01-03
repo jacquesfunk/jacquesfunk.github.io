@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-03T10:16:11.999Z</updated>
+    <updated>2025-01-03T12:30:49.162Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[rtfetch – Neofetch but in Rust]]></title>
+        <id>https://www.linuxlinks.com/?p=140378</id>
+        <link href="https://www.linuxlinks.com/rtfetch-neofetch-rust/"/>
+        <updated>2025-01-03T11:44:40.000Z</updated>
+        <summary type="html"><![CDATA[rtfetch is a command-line system information tool. It's a clone of neofetch but written in Rust.
+The post rtfetch – Neofetch but in Rust appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ditana – Arch-based Linux distribution]]></title>
         <id>https://www.linuxlinks.com/?p=140352</id>
@@ -517,27 +528,6 @@ The post gg – TUI for small offline games appeared first on LinuxLinks.]]></su
         <updated>2024-12-30T05:00:00.000Z</updated>
         <author>
             <name>xkcd.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aaron Rodgers Incapable Of Throwing Even One Touchdown Pass]]></title>
-        <id>https://defector.com/?p=177374</id>
-        <link href="https://defector.com/aaron-rodgers-incapable-of-throwing-even-one-touchdown-pass"/>
-        <updated>2024-12-29T23:50:12.000Z</updated>
-        <summary type="html"><![CDATA[It's been said many times before, across many different eras, but that doesn't make it any less true: The New York Jets always find new ways to humiliate themselves. Regardless of the circumstances, they really can take any setup and provide it with a proper punchline.]]></summary>
-        <author>
-            <name>Samer Kalaf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Greg Gumbel Kept It All In Perspective]]></title>
-        <id>https://defector.com/?p=177365</id>
-        <link href="https://defector.com/greg-gumbel-kept-it-all-in-perspective"/>
-        <updated>2024-12-29T23:20:55.000Z</updated>
-        <summary type="html"><![CDATA[When Greg Gumbel was named host of the CBS NFL pregame show in 1990, he was viewed as a departure for the network. Brent Musberger had been host of The NFL Today for the past 15 years, and a lot of people were tired of his shtick. He dominated the show, and much of the network's sports coverage. Reporters wondered whether Gumbel, who had previously called NFL games and hosted NCAA men’s basketball tournament coverage for CBS, would be another preempting pregame personality.
-He wasn’t, instead guiding the show in a lower key. Gumbel hosted in the studio with Terry Bradshaw, while Lesley Visser and Pat O’Brien handled features. The new host wanted to be the conductor, not the star. “If Terry stars on that show,” Gumbel told the AP right before starting, “then I’ll have done my job.”]]></summary>
-        <author>
-            <name>Dan McQuade</name>
         </author>
     </entry>
 </feed>
