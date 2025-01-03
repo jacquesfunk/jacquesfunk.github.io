@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-02T22:14:27.812Z</updated>
+    <updated>2025-01-03T01:13:21.932Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Jay – Wayland compositor]]></title>
+        <id>https://www.linuxlinks.com/?p=140330</id>
+        <link href="https://www.linuxlinks.com/jay-wayland-compositor/"/>
+        <updated>2025-01-02T22:58:05.000Z</updated>
+        <summary type="html"><![CDATA[Jay is a Wayland compositor which offers an i3 look and feel.
+The post Jay – Wayland compositor appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Royals Re-Sign Austin Cox To Minors Contract]]></title>
         <id>https://www.mlbtraderumors.com/?p=836513</id>
@@ -569,17 +580,6 @@ Carlsen told the Chess YouTube show Take Take Take that he was in a rush to make
         <summary type="html"><![CDATA[Select portions of the college football world were outraged—big shock there—by Miami quarterback Cam Ward's decision to play only the first half of Saturday's bowl game sponsored by a toaster pastry. In this exhibition, the Hurricanes ended up losing to Iowa State, 42-41.]]></summary>
         <author>
             <name>Samer Kalaf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[fex – command-line file explorer prioritizing quick navigation]]></title>
-        <id>https://www.linuxlinks.com/?p=140108</id>
-        <link href="https://www.linuxlinks.com/fex-command-line-file-explorer-prioritizing-quick-navigation/"/>
-        <updated>2024-12-29T10:22:09.000Z</updated>
-        <summary type="html"><![CDATA[fex is a command-line file explorer inspired by Vim, exa and fzf, built with quick exploration and navigation in mind.
-The post fex – command-line file explorer prioritizing quick navigation appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
         </author>
     </entry>
 </feed>
