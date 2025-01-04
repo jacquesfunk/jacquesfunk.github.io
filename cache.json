@@ -260,16 +260,6 @@
           "wordCount": 4581,
           "title": "zpotify – CLI for controlling Spotify playback",
           "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2022/09/spotify-icon-glow.jpg"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=140264",
-          "author": "Eilidih Parris",
-          "description": "Mr. strings template (SrTemplate) is a library that allows you to render just text templates. It's written in Rust.\nThe post SrTemplate – string template system appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/srtemplate-string-template-system/",
-          "publishedOn": "2024-12-31T05:19:16.000Z",
-          "wordCount": 4455,
-          "title": "SrTemplate – string template system",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2022/05/development-tools.jpg"
         }
       ]
     },
@@ -472,6 +462,21 @@
       "feedUrl": "http://fox4kc.com/category/weather/weather-blog/feed/",
       "siteUrl": "https://fox4kc.com",
       "articles": [
+        {
+          "id": "https://fox4kc.com/?p=3779067",
+          "author": "Joe Lauria",
+          "description": "Winter Storm Blair is moving into the Kansas City metro with sleet, freezing rain and snow creating blizzard-like conditions",
+          "link": "https://fox4kc.com/weather/weather-blog/joes-blog-intense-winter-storm-moves-in-sat-1-4/",
+          "publishedOn": "2025-01-04T16:14:37.000Z",
+          "wordCount": null,
+          "title": "Joe's Blog: Intense winter storm moves in (SAT-1/4)",
+          "enclosure": {
+            "url": "https://fox4kc.com/wp-content/uploads/sites/16/2025/01/Capture_808b9c.png?w=900",
+            "type": "image/png",
+            "length": "175909"
+          },
+          "imageUrl": "https://fox4kc.com/wp-content/uploads/sites/16/2025/01/Capture_808b9c.png?w=900"
+        },
         {
           "id": "https://fox4kc.com/?p=3779067",
           "author": "Joe Lauria",

@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-04T16:17:22.768Z</updated>
+    <updated>2025-01-04T18:19:54.184Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Joe's Blog: Intense winter storm moves in (SAT-1/4)]]></title>
+        <id>https://fox4kc.com/?p=3779067</id>
+        <link href="https://fox4kc.com/weather/weather-blog/joes-blog-intense-winter-storm-moves-in-sat-1-4/"/>
+        <updated>2025-01-04T16:14:37.000Z</updated>
+        <summary type="html"><![CDATA[Winter Storm Blair is moving into the Kansas City metro with sleet, freezing rain and snow creating blizzard-like conditions]]></summary>
+        <author>
+            <name>Joe Lauria</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Joe's Blog: Intense winter storm moves in (SAT-1/4)]]></title>
         <id>https://fox4kc.com/?p=3779067</id>
@@ -603,17 +613,6 @@ The post transgender – minimalistic terminal file explorer appeared first on L
 The post zpotify – CLI for controlling Spotify playback appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Luke Baker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SrTemplate – string template system]]></title>
-        <id>https://www.linuxlinks.com/?p=140264</id>
-        <link href="https://www.linuxlinks.com/srtemplate-string-template-system/"/>
-        <updated>2024-12-31T05:19:16.000Z</updated>
-        <summary type="html"><![CDATA[Mr. strings template (SrTemplate) is a library that allows you to render just text templates. It's written in Rust.
-The post SrTemplate – string template system appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Eilidih Parris</name>
         </author>
     </entry>
 </feed>
