@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-05T08:18:10.290Z</updated>
+    <updated>2025-01-05T10:14:45.362Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Lock – process data with GnuPG]]></title>
+        <id>https://www.linuxlinks.com/?p=140431</id>
+        <link href="https://www.linuxlinks.com/lock-process-data-gnupg/"/>
+        <updated>2025-01-05T09:14:08.000Z</updated>
+        <summary type="html"><![CDATA[Lock is a graphical front-end for GnuPG (GPG) making use of an attractive LibAdwaita GUI.
+The post Lock – process data with GnuPG appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[delicolour – lightweight colour finder]]></title>
+        <id>https://www.linuxlinks.com/?p=140425</id>
+        <link href="https://www.linuxlinks.com/delicolour-lightweight-colour-finder/"/>
+        <updated>2025-01-05T08:22:41.000Z</updated>
+        <summary type="html"><![CDATA[delicolour is a lightweight colour finder written in Python.
+The post delicolour – lightweight colour finder appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[nvim-tree – file explorer for Neovim]]></title>
         <id>https://www.linuxlinks.com/?p=140408</id>
