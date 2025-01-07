@@ -12,6 +12,16 @@
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
         {
+          "id": "https://www.linuxlinks.com/?p=140439",
+          "author": "Steve Emms",
+          "description": "TerminusDM is a powerful cross-platform terminal application download manager built with Rust.\nThe post TerminusDM – cross platform terminal download manager appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/terminusdm-cross-platform-terminal-download-manager/",
+          "publishedOn": "2025-01-07T07:02:31.000Z",
+          "wordCount": 4437,
+          "title": "TerminusDM – cross platform terminal download manager",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2019/02/http-internet.jpg"
+        },
+        {
           "id": "https://www.linuxlinks.com/?p=140512",
           "author": "Erik Karlsson",
           "description": "Help expand our coverage by submitting an active Linux distribution to our compilation. \nThe post Help The Site: Suggest an Active Linux Distribution appeared first on LinuxLinks.",
@@ -270,16 +280,6 @@
           "wordCount": 4649,
           "title": "Jay – Wayland compositor",
           "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2020/07/Compositing-Window-Managers.png"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=140325",
-          "author": "Steve Emms",
-          "description": "Kathará is a lightweight network emulation system based on Docker containers. It's written in Python.\nThe post Kathará – lightweight network emulation system appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/kathara-lightweight-network-emulation-system/",
-          "publishedOn": "2025-01-02T20:04:38.000Z",
-          "wordCount": 4494,
-          "title": "Kathará – lightweight network emulation system",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2023/02/20944989-network.jpg"
         }
       ]
     },
@@ -504,16 +504,6 @@
           "wordCount": 7728,
           "title": "Upsets Aside, The College Football Playoff Is Going According To Plan",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2025/01/GettyImages-2191624714.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=177544",
-          "author": "Sabrina Imbler",
-          "description": "In 2018, the orca Tahlequah, or J35, made headlines for her tour of grief, in which she carried the dead body of her calf for 17 days. The baby, which lived only for half an hour, was female. At the time, she marked the first successful birth in Tahlequah's pod, known as the J Pod, in three years. A baby orca can weigh as much as 300 pounds. But each time the body slid off her snout, Tahlequah dove to retrieve it. Tahlequah swam with her dead calf for at least 1,000 miles before she dropped her body, which had begun to decompose. Many people considered Tahlequah's behavior a display of grief, although some researchers had reservations. (Spoiler: I personally find the most logical explanation to be grief.) \nIn late December 2024, Tahlequah gave birth to another calf, which would have been her third baby to survive, in addition to the 13-year-old Notch, or J47, and the 3-year-old Phoenix, or J57, both male. Tahlequah's new calf, J61, was female, which would have been a boon for the struggling population of southern residents, a culturally distinct population of orcas in the Pacific Northwest that includes J, K, and L pods. On Dec. 24, the Center for Whale Research expressed concern about the health of the calf, which was likely born prematurely. \"J35 is an experienced mother, and we hope that she is able to keep J61 alive through these difficult early days,\" the Center posted on Facebook.",
-          "link": "https://defector.com/tahlequah-grieves-again",
-          "publishedOn": "2025-01-02T19:30:58.000Z",
-          "wordCount": 7049,
-          "title": "Tahlequah Grieves Again",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2025/01/4967449793_d35e612911_k.jpg"
         }
       ]
     },
@@ -647,6 +637,22 @@
       "feedUrl": "https://www.flowstate.fm/feed",
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
+        {
+          "id": "https://www.flowstate.fm/p/flow-state-episode-259",
+          "author": "Flow State",
+          "description": "Today’s episode opens with a Harold Budd track and then moves into new ambient music by Mark Barrott, Seefeel, Bibio, More Eaze, Florian T M Zeisig, and Fennesz.",
+          "link": "https://www.flowstate.fm/p/flow-state-episode-259",
+          "publishedOn": "2025-01-07T08:02:00.000Z",
+          "wordCount": null,
+          "title": "Flow State Episode 259",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/154315671/aba3526a0ea2493dadc78a76317462c7.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "https://www.flowstate.fm/p/brian-eno-guest-rec-from-gary-hustwit",
           "author": "Gary Hustwit",
