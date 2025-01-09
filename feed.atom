@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-09T06:21:40.429Z</updated>
+    <updated>2025-01-09T08:20:11.203Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Mischa Blanos (Interview)]]></title>
+        <id>https://www.flowstate.fm/p/mischa-blanos-interview</id>
+        <link href="https://www.flowstate.fm/p/mischa-blanos-interview"/>
+        <updated>2025-01-09T08:01:49.000Z</updated>
+        <summary type="html"><![CDATA[Today we’re listening to Mischa Blanos, a Romanian pianist and composer from Bucharest.]]></summary>
+        <author>
+            <name>Flow State</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[lsv – Vlang implementation of ls]]></title>
+        <id>https://www.linuxlinks.com/?p=140665</id>
+        <link href="https://www.linuxlinks.com/lsv-vlang-implementation-ls/"/>
+        <updated>2025-01-09T07:16:12.000Z</updated>
+        <summary type="html"><![CDATA[lsv is a modern alternative to ls in the spirit of exa, eza, lsd, pls, natls, ls-go and others.
+The post lsv – Vlang implementation of ls appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[10 Best Free and Open Source Command-Line HTTP Clients]]></title>
         <id>https://www.linuxlinks.com/?page_id=8735</id>
