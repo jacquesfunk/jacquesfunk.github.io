@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-09T16:19:53.688Z</updated>
+    <updated>2025-01-09T18:21:57.575Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[dahliaOS – intuitive Linux distribution]]></title>
+        <id>https://www.linuxlinks.com/?p=140717</id>
+        <link href="https://www.linuxlinks.com/dahliaos-intuitive-linux-distribution/"/>
+        <updated>2025-01-09T17:54:10.000Z</updated>
+        <summary type="html"><![CDATA[dahliaOS is a Linux distribution with a modern user interface, multitasking, advanced networking, security features and respectful privacy.
+The post dahliaOS – intuitive Linux distribution appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Erik Karlsson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Alternatives to popular CLI tools: curl]]></title>
+        <id>https://www.linuxlinks.com/?p=106327</id>
+        <link href="https://www.linuxlinks.com/alternatives-popular-cli-tools-curl/"/>
+        <updated>2025-01-09T16:23:24.000Z</updated>
+        <summary type="html"><![CDATA[We spotlight alternatives tools to curl, a utility for transferring data from or to a server, supporting many protocols.
+The post Alternatives to popular CLI tools: curl appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CuerdOS Linux – distribution of Spanish origin]]></title>
         <id>https://www.linuxlinks.com/?p=140706</id>
@@ -900,17 +922,6 @@ The post Lock – process data with GnuPG appeared first on LinuxLinks.]]></summ
         <updated>2025-01-05T08:22:41.000Z</updated>
         <summary type="html"><![CDATA[delicolour is a lightweight colour finder written in Python.
 The post delicolour – lightweight colour finder appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[nvim-tree – file explorer for Neovim]]></title>
-        <id>https://www.linuxlinks.com/?p=140408</id>
-        <link href="https://www.linuxlinks.com/nvim-tree-file-explorer-neovim/"/>
-        <updated>2025-01-05T06:12:31.000Z</updated>
-        <summary type="html"><![CDATA[nvim-tree.lua is a file explorer / filesystem tree view plugin for Neovim. It's written in Lua.
-The post nvim-tree – file explorer for Neovim appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Steve Emms</name>
         </author>
