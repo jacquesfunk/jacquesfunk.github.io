@@ -24,6 +24,16 @@
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
         {
+          "id": "https://www.linuxlinks.com/?p=113934",
+          "author": "Steve Emms",
+          "description": "We spotlight alternatives tools to Wget, a non-interactive network downloader.\nThe post Alternatives to popular CLI tools: Wget appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/alternatives-popular-cli-tools-wget/",
+          "publishedOn": "2025-01-10T10:09:58.000Z",
+          "wordCount": 4256,
+          "title": "Alternatives to popular CLI tools: Wget",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2023/04/cli-tools-find.png"
+        },
+        {
           "id": "https://www.linuxlinks.com/?page_id=5309",
           "author": "Steve Emms",
           "description": "Web hosting control panels offer an attractive solution to developers and designers that host multiple web sites on virtual private servers and dedicated servers.\nThe post 11 Best Free and Open Source Web Hosting Control Panels appeared first on LinuxLinks.",
@@ -840,16 +850,6 @@
           "wordCount": 4879,
           "title": "Royals To Re-Sign Michael Lorenzen",
           "imageUrl": "https://cdn.mlbtraderumors.com/files/2024/09/USATSI_24191566-1024x720.jpg"
-        },
-        {
-          "id": "https://www.mlbtraderumors.com/?p=836792",
-          "author": "Mark Polishuk",
-          "description": "The Royals announced that utilityman Cavan Biggio has been signed to a minor league contract.  While no mention was made in the team’s official announcement, it can be assumed that Biggio received an invitation to Kansas City’s big league Spring Training camp. K.C. is Biggio’s fifth different organization within the last seven months.  Biggio had…",
-          "link": "https://www.mlbtraderumors.com/2025/01/royals-sign-cavan-biggio-to-minor-league-contract.html",
-          "publishedOn": "2025-01-05T21:50:37.000Z",
-          "wordCount": 3383,
-          "title": "Royals Sign Cavan Biggio To Minor League Contract",
-          "imageUrl": "https://cdn.mlbtraderumors.com/files/2024/08/USATSI_23910906-1024x683.jpg"
         }
       ]
     },
@@ -857,7 +857,28 @@
       "title": "local food",
       "feedUrl": "https://www.kcur.org/tags/local-food.rss",
       "siteUrl": "https://www.kcur.org/tags/local-food",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.kcur.org/podcast/up-to-date/2025-01-10/kc-restaurant-week-2025-deals-where-to-eat-kansas-city",
+          "author": "Steve Kraske, Josh Marvine",
+          "description": "Kansas City Restaurant Week, which runs this year from Jan. 10-19, will give local diners a chance to get out of the house after the blizzard and explore the city's diverse eateries — with special menus and deals. A portion of Restaurant Week proceeds will also support local charity House of Hope.",
+          "link": "https://www.kcur.org/podcast/up-to-date/2025-01-10/kc-restaurant-week-2025-deals-where-to-eat-kansas-city",
+          "publishedOn": "2025-01-10T10:00:00.000Z",
+          "wordCount": 2043,
+          "title": "What's new and exciting for KC Restaurant Week 2025",
+          "imageUrl": "https://npr.brightspotcdn.com/dims4/default/f1b438e/2147483647/strip/true/crop/1800x945+0+248/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fdf%2Ff0%2Fae46835944e2ae5ca6ee213b9a00%2Fofcoursemeal.jpg"
+        },
+        {
+          "id": "https://www.kcur.org/podcast/kansas-city-today/2025-01-10/a-bosnian-bakery-hidden-in-kansas-citys-northland",
+          "author": "Nomin Ujiyediin, Olivia Hewitt",
+          "description": "Step inside the tiny A-frame cottage where local bakery Burek and Cake makes fresh Bosnian baked goods on the daily — and always with love. Owner Fatina Hodzic opened it two years ago and already has a slate of regulars, whom she greets by name.",
+          "link": "https://www.kcur.org/podcast/kansas-city-today/2025-01-10/a-bosnian-bakery-hidden-in-kansas-citys-northland",
+          "publishedOn": "2025-01-10T10:00:00.000Z",
+          "wordCount": 1517,
+          "title": "A Bosnian bakery hidden in Kansas City's Northland",
+          "imageUrl": "https://npr.brightspotcdn.com/dims4/default/ece0eed/2147483647/strip/true/crop/1196x628+0+0/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F41%2F3a%2F2c628900473099d715478badc967%2Fkct-fb-1200x628.jpg"
+        }
+      ]
     },
     {
       "title": "Flow State",
