@@ -24,6 +24,16 @@
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
         {
+          "id": "https://www.linuxlinks.com/?p=140751",
+          "author": "Erik Karlsson",
+          "description": "AnduinOS is a custom Debian-based Linux distribution that aims to facilitate developers transitioning from Windows to Ubuntu.\nThe post AnduinOS – Debian-based Linux operating system appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/anduinos-debian-based-linux-operating-system/",
+          "publishedOn": "2025-01-10T18:40:44.000Z",
+          "wordCount": 4054,
+          "title": "AnduinOS – Debian-based Linux operating system",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2024/04/Linux-Distributions.png"
+        },
+        {
           "id": "https://www.linuxlinks.com/?p=140764",
           "author": "Steve Emms",
           "description": "wxDownload Fast is a multithreaded download manager written using wxWidgets and Aria2. This is written in C++.\nThe post wxDownload Fast – download manager appeared first on LinuxLinks.",
@@ -402,16 +412,6 @@
           "wordCount": 4460,
           "title": "ns-3 – discrete-event network simulator",
           "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2025/01/2794209.png"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=140447",
-          "author": "Steve Emms",
-          "description": "Sly is billed as friendly free and open source image editor that requires no internet connection or preexisting expertise.\nThe post Sly – friendly image editor appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/sly-friendly-image-editor/",
-          "publishedOn": "2025-01-06T07:31:40.000Z",
-          "wordCount": 4501,
-          "title": "Sly – friendly image editor",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2023/04/painting-roller.jpg"
         }
       ]
     },
@@ -420,6 +420,16 @@
       "feedUrl": "http://xkcd.com/rss.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/3036/",
+          "author": null,
+          "description": "",
+          "link": "https://xkcd.com/3036/",
+          "publishedOn": "2025-01-10T05:00:00.000Z",
+          "wordCount": 206,
+          "title": "Chess Zoo",
+          "imageUrl": "https://imgs.xkcd.com/comics/chess_zoo_2x.png"
+        },
         {
           "id": "https://xkcd.com/3035/",
           "author": null,
@@ -437,6 +447,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=178270",
+          "author": "Patrick Redford",
+          "description": "Watching the Orlando Magic lose to the Minnesota Timberwolves on Thursday, in the Magic's final game without their best player, I was reminded of the spring of 2022.",
+          "link": "https://defector.com/injury-luck-is-all-about-timing",
+          "publishedOn": "2025-01-10T18:55:48.000Z",
+          "wordCount": 6593,
+          "title": "Injury Luck Is All About Timing",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2025/01/GettyImages-2192584840.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=178254",
+          "author": "Kathryn Xu",
+          "description": "A part of being home for the holidays is trying to find something to do in the New Jersey suburbs, especially as someone who despises driving but, to be very clear, has developed much more confidence in driving alone. After a couple of weeks of on-the-town reporting and extensive testing of all available entertainment options, I can officially confirm: The best form of entertainment is solving jigsaw puzzles at the municipal library.\nI have visited two local libraries, and this is enough of a sample size to conclude that all suburban libraries must have a communal puzzling–type situation. One (my town's library) had a communal puzzle table with the pieces laid down flat, and another (the neighboring town's library) had a sort of inclined board covered in felt that wooden puzzle pieces stuck to—kinder on the neck but more difficult to slide large chunks of puzzle about. Anyone can work on the puzzle. Once the puzzle is completed, it is swapped out with a new one, which means a theoretically infinite supply of free puzzles. Sounds like a bargain to me!",
+          "link": "https://defector.com/its-puzzling-time",
+          "publishedOn": "2025-01-10T18:30:35.000Z",
+          "wordCount": 6273,
+          "title": "It’s Puzzling Time",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2025/01/puzzlesLibraryetc.jpg"
+        },
         {
           "id": "https://defector.com/?p=178218",
           "author": "Sabrina Imbler",
@@ -993,22 +1023,6 @@
             "type": "audio/mpeg"
           },
           "imageUrl": null
-        },
-        {
-          "id": "https://www.flowstate.fm/p/brian-eno-guest-rec-from-gary-hustwit",
-          "author": "Gary Hustwit",
-          "description": "Welcome back to Flow State.",
-          "link": "https://www.flowstate.fm/p/brian-eno-guest-rec-from-gary-hustwit",
-          "publishedOn": "2025-01-06T08:02:26.000Z",
-          "wordCount": null,
-          "title": "Brian Eno (Guest rec from Gary Hustwit)",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb27690c0-7ea3-4ac5-bce2-772f3700274d_2560x1440.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb27690c0-7ea3-4ac5-bce2-772f3700274d_2560x1440.jpeg"
         }
       ]
     },
