@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-13T08:21:31.811Z</updated>
+    <updated>2025-01-13T10:17:38.366Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[F3OS – Debian-based Linux distribution]]></title>
+        <id>https://www.linuxlinks.com/?p=140854</id>
+        <link href="https://www.linuxlinks.com/f3os-debian-based-linux-distribution/"/>
+        <updated>2025-01-13T09:58:24.000Z</updated>
+        <summary type="html"><![CDATA[F3OS (The Free Family-Friendly Operating System) is a Linux distribution based on Debian Stable that includes DNS-based web filtering
+The post F3OS – Debian-based Linux distribution appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Erik Karlsson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[fingerterm – terminal emulator]]></title>
+        <id>https://www.linuxlinks.com/?p=140858</id>
+        <link href="https://www.linuxlinks.com/fingerterm-terminal-emulator/"/>
+        <updated>2025-01-13T09:27:04.000Z</updated>
+        <summary type="html"><![CDATA[fingerterm is a terminal emulator with a custom virtual keyboard. It is designed for the Nokia N9 and Jolla's Jolla devices.
+The post fingerterm – terminal emulator appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[KMRU (Interview)]]></title>
         <id>https://www.flowstate.fm/p/kmru-interview</id>
@@ -615,28 +637,6 @@ The post Inviska Rename – batch rename utility appeared first on LinuxLinks.]]
         <summary type="html"><![CDATA[These days, the team sending me into wistful aunt mode most often is No. 1 UCLA, whom I last blogged two seasons ago, back when I was still figuring out how to cover regular-season college basketball here and back when their young players were still figuring out how to play college basketball.]]></summary>
         <author>
             <name>Maitreyi Anantharaman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Future Of Fire Cannot Look Like Its Present]]></title>
-        <id>https://defector.com/?p=178091</id>
-        <link href="https://defector.com/the-future-of-fire-cannot-look-like-its-present"/>
-        <updated>2025-01-08T22:14:49.000Z</updated>
-        <summary type="html"><![CDATA[Los Angeles is burning. 
-At least two people are dead and more than 80,000 people have evacuated their homes. The images and videos of the Palisades, Eaton, and Hurst Fires, each of which is currently at zero-percent containment, show a wave of destruction: a vast swath of Pacific Palisades reduced from three dimensions to two; a long line of freeway-side Malibu homes ablaze mere feet away from the indifferent Pacific Ocean; overhead views from airplane window of what looks more like a roiling caldera than the second-most populous city in the U.S.; palm trees atilt at 45-degree angles in the fierce wind; a bulldozer clearing a thicket of Teslas and Mercedes-Benzes, abandoned because the people fleeing in them realized they would have to run for it to survive; power lines snapping like fireworks; two people and a dog in a gorgeous, well-appointed kitchen framed by generous windows offering 270-degree views, views currently showing a ferocious tornado of fire whipping at inhuman speeds right outside. Their voices are soft, in deference to the force of the blaze and to its suddenness.]]></summary>
-        <author>
-            <name>Patrick Redford</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Loc-OS – Linux distribution based on Debian]]></title>
-        <id>https://www.linuxlinks.com/?p=140626</id>
-        <link href="https://www.linuxlinks.com/loc-os-linux-distribution-debian/"/>
-        <updated>2025-01-08T21:27:22.000Z</updated>
-        <summary type="html"><![CDATA[Loc-OS is a Debian-based distribution focused on low resource consumption which makes it useful for older hardware.
-The post Loc-OS – Linux distribution based on Debian appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Erik Karlsson</name>
         </author>
     </entry>
 </feed>
