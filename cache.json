@@ -24,6 +24,16 @@
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
         {
+          "id": "https://www.linuxlinks.com/?p=140928",
+          "author": "Eilidih Parris",
+          "description": "MyNav is a powerful terminal-based workspace navigator and session manager built in Go.\nThe post MyNav – workspace and session management TUI appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/mynav-workspace-session-management-tui/",
+          "publishedOn": "2025-01-14T07:46:51.000Z",
+          "wordCount": 4536,
+          "title": "MyNav – workspace and session management TUI",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2025/01/011-application.png"
+        },
+        {
           "id": "https://www.linuxlinks.com/?p=140818",
           "author": "Erik Karlsson",
           "description": "OSGeoLive is a Linux distribution that lets you to try a wide variety of open source geospatial software without installing anything. \nThe post OSGeoLive – Linux distribution focusing on geospatial software appeared first on LinuxLinks.",
@@ -282,16 +292,6 @@
           "wordCount": 4146,
           "title": "Elive – Debian-based desktop Linux distribution",
           "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2024/04/Linux-Distributions.png"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=140642",
-          "author": "Steve Emms",
-          "description": "Efficient Compression Tool (or ECT) is a C++ file optimizer. It supports PNG, JPEG, GZIP and ZIP files.\nThe post ECT – fast and effective C++ file optimizer appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/ect-fast-effective-file-optimizer/",
-          "publishedOn": "2025-01-09T19:15:05.000Z",
-          "wordCount": 4437,
-          "title": "ECT – fast and effective C++ file optimizer",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2023/10/image-compression-2914476.jpg"
         }
       ]
     },
@@ -496,26 +496,6 @@
           "wordCount": 6745,
           "title": "Notre Dame Derangement Syndrome Is Real",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2025/01/GettyImages-2192550827.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=178039",
-          "author": "David Roth",
-          "description": "While The Distraction is allowed to get as heavy as we want, the idea is mostly to do something goofy or stupid. I reminded myself of that while listening to this week's episode, in which our own Diana Moskovitz breaks down the first weekend of the NFL playoff slate from her home in Los Angeles. We recorded it Tuesday morning, in what turned out to be the last remotely normal-seeming moments of the week in that region. It's a fun episode, but because things have gotten very bad in Los Angeles in the days since we recorded, and because of the extent to which that reality is absent from the episode ... well, this was a good opportunity for me to remind myself that the name of the podcast is The Distraction, and then to say it until I believed it.",
-          "link": "https://defector.com/los-angeles-is-a-football-town-with-diana-moskovitz",
-          "publishedOn": "2025-01-09T20:12:47.000Z",
-          "wordCount": 6163,
-          "title": "Los Angeles Is A Football Town, With Diana Moskovitz",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2025/01/GettyImages-2190302745_36949f.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=178172",
-          "author": "Chris Thompson",
-          "description": "Any time you get Cleveland and Oklahoma City into the first sentence of your blog, you can be reasonably sure that no one from either coast of North America will read it all the way to the end. The pressure's off! I can fill this blog with anything I like! Therefore I am choosing to spend the next several paragraphs sermonizing about the divine skills of Cleveland big man Evan Mobley. Mobley and the Cavaliers prevailed Wednesday night over the visiting Thunder, in a matchup of teams carrying combined 25-game active win streaks. This was a great game, from beginning to end, and if you ignored it because you consider these to be flyover teams, you deserve to feel bad this morning.\nMobley was incredible. Cavaliers head coach Kenny Atkinson is putting him everywhere on the floor and using him in as many ways as possible. The Cavaliers run normal-ish stuff to get the ball moving toward the basket, but Mobley's particular gifts make all the actions a tick or two more dangerous than they'd be if you replaced him with a normal-ish NBA big man. Consider the dribble handoff, or DHO. It's a staple of the modern game, but NBA defenses are getting better at defending it, so that it often feels less like a powerful go-to and more like some shit your team does by lazy habit, or from lack of any better ideas. In a DHO, the ball is passed to a big man up the floor, near the free-throw line. Guards and shooters whir around the arc; the big man takes a hard dribble or two parallel to the free-throw line and hands the ball off to one of his buds, who pulls a sprinting defender into a collision with the big man, and is thus freed to slice down the middle of the floor. All the quick-moving action around the perimeter creates secondary opportunities, but this is the basic action: a big guy lumbering sideways and punching the ball into the tummy of a teammate while absorbing into his own tummy his teammate's defender.",
-          "link": "https://defector.com/evan-mobley-is-the-real-thing",
-          "publishedOn": "2025-01-09T18:34:42.000Z",
-          "wordCount": 8823,
-          "title": "Evan Mobley Is The Real Thing",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2025/01/GettyImages-2193039240.jpg"
         }
       ]
     },
@@ -591,6 +571,22 @@
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
         {
+          "id": "https://www.flowstate.fm/p/flow-state-episode-260",
+          "author": "Flow State",
+          "description": "Today’s episode opens with calm ethereal ambient tracks by Mount Shrine, Fergus Jones et al., Ibukun Sunday, and Bibio.",
+          "link": "https://www.flowstate.fm/p/flow-state-episode-260",
+          "publishedOn": "2025-01-14T08:02:15.000Z",
+          "wordCount": null,
+          "title": "Flow State Episode 260",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/154797458/3c7811ee2d72b927fd158e49f3689220.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
           "id": "https://www.flowstate.fm/p/kmru-interview",
           "author": "Flow State",
           "description": "Today we’re listening to KMRU, a Kenyan electronic musician from Nairobi.",
@@ -638,16 +634,6 @@
           "wordCount": 1888,
           "title": "Raise your glass: Kansas City’s ultimate zero-proof celebration is happening this weekend",
           "imageUrl": "https://www.thepitchkc.com/content/uploads/2025/01/h/d/3ab2f99c-87c1-4d14-8200-435b272b735b-1024x685.jpeg"
-        },
-        {
-          "id": "https://www.thepitchkc.com/?p=866865",
-          "author": "Sarah Sipple",
-          "description": "Art by Cassondra Jones Life in KC is pretty delicious. In fact, there is often so much going on that it can be hard to decide where to go and what to try. That’s where I come in.  I’ve curated this weekly list of events, openings, deals, and celebrations to keep you in-the-know. Cheers! Something New Kansas City Restaurant Week:...",
-          "link": "https://www.thepitchkc.com/kc-sipps-restaurant-closures-and-openings-local-dry-january-options-and-more-food-news/",
-          "publishedOn": "2025-01-09T20:00:54.000Z",
-          "wordCount": 2315,
-          "title": "KC Sipps: Restaurant closures and openings, local Dry January options, and more food news",
-          "imageUrl": "https://www.thepitchkc.com/content/uploads/2023/08/v/i/kc-sipps-1024x538-1.png"
         }
       ]
     }
