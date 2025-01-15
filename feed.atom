@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-15T10:16:03.444Z</updated>
+    <updated>2025-01-15T12:30:53.081Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[havn – fast configurable port scanner]]></title>
+        <id>https://www.linuxlinks.com/?p=141056</id>
+        <link href="https://www.linuxlinks.com/havn-fast-configurable-port-scanner/"/>
+        <updated>2025-01-15T11:44:24.000Z</updated>
+        <summary type="html"><![CDATA[havn is a lightweight self-contained port scanning application using asynchronous Tokio multithreading to deliver fast and reliable results.
+The post havn – fast configurable port scanner appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Moment – Matrix client]]></title>
         <id>https://www.linuxlinks.com/?p=141045</id>
