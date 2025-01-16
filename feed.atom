@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-16T06:21:23.881Z</updated>
+    <updated>2025-01-16T08:19:21.174Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Madlib]]></title>
+        <id>https://www.flowstate.fm/p/madlib-1bf</id>
+        <link href="https://www.flowstate.fm/p/madlib-1bf"/>
+        <updated>2025-01-16T08:02:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we’re listening to Madlib, an American producer from California.]]></summary>
+        <author>
+            <name>Flow State</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bit – modernized git CLI]]></title>
+        <id>https://www.linuxlinks.com/?p=140882</id>
+        <link href="https://www.linuxlinks.com/bit-modernized-git-cli/"/>
+        <updated>2025-01-16T06:58:43.000Z</updated>
+        <summary type="html"><![CDATA[Bit is an experimental modernized git CLI built on top of git that provides happy defaults and other niceties.
+The post Bit – modernized git CLI appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Uno Calculator – port of Windows calculator]]></title>
         <id>https://www.linuxlinks.com/?p=140986</id>
