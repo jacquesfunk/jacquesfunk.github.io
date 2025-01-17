@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-17T08:19:10.036Z</updated>
+    <updated>2025-01-17T10:15:50.283Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[SourceGit – Git GUI client]]></title>
+        <id>https://www.linuxlinks.com/?p=140893</id>
+        <link href="https://www.linuxlinks.com/sourcegit-git-gui-client/"/>
+        <updated>2025-01-17T09:44:22.000Z</updated>
+        <summary type="html"><![CDATA[SourceGit is a lightweight Git desktop client.
+The post SourceGit – Git GUI client appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Shinichi Atobe]]></title>
         <id>https://www.flowstate.fm/p/shinichi-atobe-11c</id>
@@ -734,17 +745,6 @@ The post fingerterm – terminal emulator appeared first on LinuxLinks.]]></summ
         <updated>2025-01-13T05:00:00.000Z</updated>
         <author>
             <name>xkcd.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Play Timer – native-feeling timers]]></title>
-        <id>https://www.linuxlinks.com/?p=140785</id>
-        <link href="https://www.linuxlinks.com/play-timer-native-feeling-timers/"/>
-        <updated>2025-01-12T21:39:58.000Z</updated>
-        <summary type="html"><![CDATA[Play Timer is a timer app with seamless integration accomplished by pretending to be a media player.
-The post Play Timer – native-feeling timers appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
         </author>
     </entry>
 </feed>
