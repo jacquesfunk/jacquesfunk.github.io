@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-19T22:14:38.255Z</updated>
+    <updated>2025-01-20T01:12:34.900Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Eagles Win, Despite Their Best Efforts]]></title>
+        <id>https://defector.com/?p=178995</id>
+        <link href="https://defector.com/eagles-win-despite-their-best-efforts"/>
+        <updated>2025-01-20T00:07:51.000Z</updated>
+        <summary type="html"><![CDATA[The elements were bad in Philadelphia, but the coaching might have been worse. On Sunday, the Eagles played sloppy, self-destructive football and still won.]]></summary>
+        <author>
+            <name>Samer Kalaf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[xcalc – scientific calculator]]></title>
+        <id>https://www.linuxlinks.com/?p=141000</id>
+        <link href="https://www.linuxlinks.com/xcalc-scientific-calculator/"/>
+        <updated>2025-01-19T23:46:02.000Z</updated>
+        <summary type="html"><![CDATA[xcalc is a simple scientific calculator that can emulate a TI-30 or an HP-10C. 
+The post xcalc – scientific calculator appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ecere SDK – software development kit]]></title>
         <id>https://www.linuxlinks.com/?p=140876</id>
@@ -628,17 +649,6 @@ https://www.youtube.com/watch?v=BpZfE1QY1j8]]></summary>
         <summary type="html"><![CDATA[Hammerhead Coffee // Photo By Tiffany Watts Hammerhand Coffee Liberty, Missouri, holds a special charm for me—it’s my hometown, after all. However, this visit wasn’t just a walk down memory lane; it was a flavorful adventure to Hammerhand Coffee with my daughter. Just steps from Liberty’s downtown square, this cozy spot felt like so much more than a coffee shop—it...]]></summary>
         <author>
             <name>Tiffany Watts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[havn – fast configurable port scanner]]></title>
-        <id>https://www.linuxlinks.com/?p=141056</id>
-        <link href="https://www.linuxlinks.com/havn-fast-configurable-port-scanner/"/>
-        <updated>2025-01-15T11:44:24.000Z</updated>
-        <summary type="html"><![CDATA[havn is a lightweight self-contained port scanning application using asynchronous Tokio multithreading to deliver fast and reliable results.
-The post havn – fast configurable port scanner appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
         </author>
     </entry>
 </feed>
