@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-21T10:16:17.994Z</updated>
+    <updated>2025-01-21T12:31:04.799Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[timer-cli – countdown timer]]></title>
+        <id>https://www.linuxlinks.com/?p=140917</id>
+        <link href="https://www.linuxlinks.com/timer-cli-countdown-timer/"/>
+        <updated>2025-01-21T11:24:20.000Z</updated>
+        <summary type="html"><![CDATA[timer-cli is a very simple Python CLI tool to start a countdown timer. 
+The post timer-cli – countdown timer appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Flow State Episode 261]]></title>
         <id>https://www.flowstate.fm/p/flow-state-episode-261</id>
@@ -484,17 +495,6 @@ The post 17 Best Free and Open Source Command-Line Image Compression Tools appea
         <updated>2025-01-17T05:00:00.000Z</updated>
         <author>
             <name>xkcd.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[gdcalc – financial, scientific, statistical and programming calculator]]></title>
-        <id>https://www.linuxlinks.com/?p=140989</id>
-        <link href="https://www.linuxlinks.com/gdcalc-financial-scientific-statistical-programming-calculator/"/>
-        <updated>2025-01-16T23:57:27.000Z</updated>
-        <summary type="html"><![CDATA[gdcalc is a financial, statistics, scientific and programmers calculator with its GUI using GTK.
-The post gdcalc – financial, scientific, statistical and programming calculator appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
         </author>
     </entry>
 </feed>
