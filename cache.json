@@ -12,6 +12,16 @@
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
         {
+          "id": "https://www.linuxlinks.com/?p=141005",
+          "author": "Steve Emms",
+          "description": "calc is yet another CLI calculator written in Rust.\nThe post calc – CLI calculator app and library appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/calc-cli-calculator-app-library/",
+          "publishedOn": "2025-01-22T07:13:15.000Z",
+          "wordCount": 4267,
+          "title": "calc – CLI calculator app and library",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2025/01/029-calculator.png"
+        },
+        {
           "id": "https://www.linuxlinks.com/?p=140957",
           "author": "Steve Emms",
           "description": "read-quickly is a terminal-based program that lets you read plain-text files in blazing speed.\nThe post read-quickly – read plain-text files in blazing speed appeared first on LinuxLinks.",
@@ -160,16 +170,6 @@
           "wordCount": 4078,
           "title": "Dragora – independent Linux distribution",
           "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2024/04/Linux-Distributions.png"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=141144",
-          "author": "Steve Emms",
-          "description": "Barrier is software that mimics the functionality of a KVM switch. \nThe post Barrier – software KVM appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/barrier-software-kvm/",
-          "publishedOn": "2025-01-17T18:51:50.000Z",
-          "wordCount": 4495,
-          "title": "Barrier – software KVM",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2025/01/041-keyboard.png"
         }
       ]
     },
@@ -374,36 +374,6 @@
           "wordCount": 9900,
           "title": "A Thorough Analysis Of This Latest Philly Sports Fan Bullshit",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2025/01/ugly-dumb-screenshot-eagles-fan.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=178885",
-          "author": "Patrick Redford",
-          "description": "Halfway through the first quarter of Oklahoma City's blowout revenge win over the Cavaliers on Thursday, Max Strus hit a corner three to give Cleveland a two-point lead. That bucket would turn out to be quite a lonely one. The Thunder immediately ripped off a 30-2 run, a rugged sequence that highlighted the qualities that make them so great on both sides of the ball. \nConsider that Oklahoma City lost the first game between these teams in large part because of the opponent's dominant duo of bigs, came into this one even smaller thanks to Isaiah Hartenstein's injury, and yet ran away with the win. The Thunder's lack of size, rather than dooming them, forced them to play compounded Thunderball and in the process showed what makes them special. Watch them work, and you'll see a coherent philosophy unifying the ways they operate on both offense and defense, one built around the drive. It is a philosophy of pressure.",
-          "link": "https://defector.com/the-thunder-articulate-a-philosophy-of-pressure",
-          "publishedOn": "2025-01-17T19:54:58.000Z",
-          "wordCount": 7837,
-          "title": "The Thunder Articulate A Philosophy Of Pressure",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2025/01/GettyImages-2193665185.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=178827",
-          "author": "Dave McKenna",
-          "description": "Seems everybody but The Washington Post is writing about how awful things are at The Washington Post. \nBenjamin Mullin of The New York Times reported Thursday, for example, that Post management recently introduced a new motto to motivate the staff, \"Riveting Storytelling for All of America,\" and have set a goal to attract \"200 million paying users\" to the paper's website. The slogan is dumb, and the number is dumber: The paper’s current subscriber count is reportedly around 3 million, and by all accounts plummeting. Not only is 200 million never happening, whoever suggested it should be fired.",
-          "link": "https://defector.com/the-familiarity-and-sadness-of-watching-the-washington-post-go-to-hell",
-          "publishedOn": "2025-01-17T19:16:40.000Z",
-          "wordCount": 8527,
-          "title": "The Familiarity And Sadness Of Watching The Washington Post Go To Hell",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2025/01/GettyImages-1144039284-e1737135458880.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=178912",
-          "author": "Ray Ratto",
-          "description": "America has now gotten all the Cleveland Cavaliers-Oklahoma City Thunder basketball we will be allowed before June, which is both not enough and more than enough to say with some confidence that these are the two most compelling teams in the National Basketball Thing by a healthy margin. Their two games were stay-in-your-chair fascinating, even Thursday night's blowout 'Der win, which followed a game eight days earlier in which the Cavs out-delivered OKC. A case can be made that their matchup is the only one that can save a season of ratings regret and regression, and it raises the same questions that were being asked a decade ago:\nCan the NBA thrive with a championship series with two non-marquee teams? More to the point, a bunch of non-marquee players? And finally, why does that matter?",
-          "link": "https://defector.com/what-could-possibly-be-the-problem-with-more-cavaliers-thunder",
-          "publishedOn": "2025-01-17T18:22:08.000Z",
-          "wordCount": 7930,
-          "title": "What Could Possibly Be The Problem With More Cavaliers-Thunder?",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2025/01/GettyImages-2193156966.jpg"
         }
       ]
     },
@@ -468,6 +438,22 @@
       "feedUrl": "https://www.flowstate.fm/feed",
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
+        {
+          "id": "https://www.flowstate.fm/p/greta-morgan-guest-interview-by-brianna",
+          "author": "Flow State",
+          "description": "Today we have our first guest interview, by Brianna Bartelt, an architect and musician based in NYC.",
+          "link": "https://www.flowstate.fm/p/greta-morgan-guest-interview-by-brianna",
+          "publishedOn": "2025-01-22T08:02:28.000Z",
+          "wordCount": null,
+          "title": "Greta Morgan (Guest interview by Brianna Bartelt)",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F19d97952-110d-44db-8ad3-9c86e6d8159f_1200x1200.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F19d97952-110d-44db-8ad3-9c86e6d8159f_1200x1200.jpeg"
+        },
         {
           "id": "https://www.flowstate.fm/p/flow-state-episode-261",
           "author": "Flow State",
