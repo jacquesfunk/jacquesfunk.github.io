@@ -12,6 +12,16 @@
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
         {
+          "id": "https://www.linuxlinks.com/?p=141084",
+          "author": "Steve Emms",
+          "description": "Commet is a client for Matrix focused on providing a feature rich experience while maintaining a simple interface.\nThe post Commet – chat client powered by Matrix appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/commet-chat-client-matrix/",
+          "publishedOn": "2025-01-22T23:04:28.000Z",
+          "wordCount": 4340,
+          "title": "Commet – chat client powered by Matrix",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2018/06/male-operator-staff-with-team-working-call-center.jpg"
+        },
+        {
           "id": "https://www.linuxlinks.com/?p=140960",
           "author": "Steve Emms",
           "description": "Timet is a command-line tool designed to track your activities by recording the time spent on each task.\nThe post Timet – time tracking gem with time reports appeared first on LinuxLinks.",
@@ -150,16 +160,6 @@
           "wordCount": 4284,
           "title": "tCalc – simple calculator",
           "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2025/01/039-calculator.png"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=140885",
-          "author": "Steve Emms",
-          "description": "GitQlient, pronounced as git+client is a multi-platform Git client originally forked from QGit.\nThe post GitQlient – multi-platform Git client appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/gitqlient-multi-platform-git-client/",
-          "publishedOn": "2025-01-18T12:57:28.000Z",
-          "wordCount": 4352,
-          "title": "GitQlient – multi-platform Git client",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2020/01/Git-Clients.jpg"
         }
       ]
     },
@@ -168,6 +168,16 @@
       "feedUrl": "http://xkcd.com/rss.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/3041/",
+          "author": null,
+          "description": "",
+          "link": "https://xkcd.com/3041/",
+          "publishedOn": "2025-01-22T05:00:00.000Z",
+          "wordCount": 206,
+          "title": "Unit Circle",
+          "imageUrl": "https://imgs.xkcd.com/comics/unit_circle_2x.png"
+        },
         {
           "id": "https://xkcd.com/3040/",
           "author": null,
@@ -530,18 +540,7 @@
       "title": "local food",
       "feedUrl": "https://www.kcur.org/tags/local-food.rss",
       "siteUrl": "https://www.kcur.org/tags/local-food",
-      "articles": [
-        {
-          "id": "https://www.kcur.org/podcast/up-to-date/2025-01-18/food-recs-kansas-citys-best-comfort-food",
-          "author": "Brian Ellison, Claudia Brancart",
-          "description": "We all need a little comfort to get through Kansas City’s frigid winters and polar vortexes. Here’s where to cozy up with a savory rice porridge, flaky pot pies, and a giant, Renaissance Fair-style turkey leg that you’ll actually love.",
-          "link": "https://www.kcur.org/podcast/up-to-date/2025-01-18/food-recs-kansas-citys-best-comfort-food",
-          "publishedOn": "2025-01-18T11:00:00.000Z",
-          "wordCount": 2929,
-          "title": "Food recs: Kansas City's best comfort food",
-          "imageUrl": "https://npr.brightspotcdn.com/dims4/default/88659b2/2147483647/strip/true/crop/1828x960+0+162/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1a%2F5d%2Fb11b1301406b8ff59b5ba7a5d9ae%2Fjims-alley-bar.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Flow State",

@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-22T22:14:29.560Z</updated>
+    <updated>2025-01-23T01:11:30.820Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Commet – chat client powered by Matrix]]></title>
+        <id>https://www.linuxlinks.com/?p=141084</id>
+        <link href="https://www.linuxlinks.com/commet-chat-client-matrix/"/>
+        <updated>2025-01-22T23:04:28.000Z</updated>
+        <summary type="html"><![CDATA[Commet is a client for Matrix focused on providing a feature rich experience while maintaining a simple interface.
+The post Commet – chat client powered by Matrix appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Novak Djokovic Teaches Carlos Alcaraz One More Crucial Lesson]]></title>
         <id>https://defector.com/?p=179339</id>
@@ -184,6 +195,15 @@ The post Timet – time tracking gem with time reports appeared first on LinuxLi
 The post calc – CLI calculator app and library appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unit Circle]]></title>
+        <id>https://xkcd.com/3041/</id>
+        <link href="https://xkcd.com/3041/"/>
+        <updated>2025-01-22T05:00:00.000Z</updated>
+        <author>
+            <name>xkcd.com</name>
         </author>
     </entry>
     <entry>
@@ -559,27 +579,6 @@ The post tCalc – simple calculator appeared first on LinuxLinks.]]></summary>
         <summary type="html"><![CDATA[The Royals announced that utilityman Harold Castro was signed to a minor league contract.  The 31-year-old Castro will get an invitation to Kansas City’s big league spring camp. Castro is no stranger to the AL Central, as he spent his entire pro career (and his first five MLB seasons) with the Tigers before joining the…]]></summary>
         <author>
             <name>Mark Polishuk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitQlient – multi-platform Git client]]></title>
-        <id>https://www.linuxlinks.com/?p=140885</id>
-        <link href="https://www.linuxlinks.com/gitqlient-multi-platform-git-client/"/>
-        <updated>2025-01-18T12:57:28.000Z</updated>
-        <summary type="html"><![CDATA[GitQlient, pronounced as git+client is a multi-platform Git client originally forked from QGit.
-The post GitQlient – multi-platform Git client appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Food recs: Kansas City's best comfort food]]></title>
-        <id>https://www.kcur.org/podcast/up-to-date/2025-01-18/food-recs-kansas-citys-best-comfort-food</id>
-        <link href="https://www.kcur.org/podcast/up-to-date/2025-01-18/food-recs-kansas-citys-best-comfort-food"/>
-        <updated>2025-01-18T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We all need a little comfort to get through Kansas City’s frigid winters and polar vortexes. Here’s where to cozy up with a savory rice porridge, flaky pot pies, and a giant, Renaissance Fair-style turkey leg that you’ll actually love.]]></summary>
-        <author>
-            <name>Brian Ellison, Claudia Brancart</name>
         </author>
     </entry>
 </feed>
