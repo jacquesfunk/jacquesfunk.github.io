@@ -12,6 +12,16 @@
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
         {
+          "id": "https://www.linuxlinks.com/?p=141088",
+          "author": "Steve Emms",
+          "description": "Btrbk is a backup tool for btrfs subvolumes, taking advantage of btrfs specific capabilities to create atomic snapshots.\nThe post Btrbk – backup tool for btrfs subvolumes appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/btrbk-backup-tool-btrfs-subvolumes/",
+          "publishedOn": "2025-01-23T07:17:57.000Z",
+          "wordCount": 4458,
+          "title": "Btrbk – backup tool for btrfs subvolumes",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2020/04/cloud-computing-back-up-download-network.jpg"
+        },
+        {
           "id": "https://www.linuxlinks.com/?p=141084",
           "author": "Steve Emms",
           "description": "Commet is a client for Matrix focused on providing a feature rich experience while maintaining a simple interface.\nThe post Commet – chat client powered by Matrix appeared first on LinuxLinks.",
@@ -150,16 +160,6 @@
           "wordCount": 3974,
           "title": "Salix – Slackware-based Linux distribution",
           "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2024/04/Linux-Distributions.png"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=140997",
-          "author": "Steve Emms",
-          "description": "tCalc is a simple calculator written in core Tcl/Tk. It also has command-line support.\nThe post tCalc – simple calculator appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/tcalc-simple-calculator/",
-          "publishedOn": "2025-01-18T18:46:33.000Z",
-          "wordCount": 4284,
-          "title": "tCalc – simple calculator",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2025/01/039-calculator.png"
         }
       ]
     },
@@ -537,6 +537,22 @@
       "feedUrl": "https://www.flowstate.fm/feed",
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
+        {
+          "id": "https://www.flowstate.fm/p/spyro-gyra",
+          "author": "Flow State",
+          "description": "Today we’re listening to Spyro Gyra, an American jazz fusion band from Buffalo, New York.",
+          "link": "https://www.flowstate.fm/p/spyro-gyra",
+          "publishedOn": "2025-01-23T08:01:48.000Z",
+          "wordCount": null,
+          "title": "Spyro Gyra",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d30281f-472c-4f11-a6fb-17b8d71fab27_880x542.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d30281f-472c-4f11-a6fb-17b8d71fab27_880x542.jpeg"
+        },
         {
           "id": "https://www.flowstate.fm/p/greta-morgan-guest-interview-by-brianna",
           "author": "Flow State",

@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-23T06:21:19.720Z</updated>
+    <updated>2025-01-23T08:20:09.079Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Spyro Gyra]]></title>
+        <id>https://www.flowstate.fm/p/spyro-gyra</id>
+        <link href="https://www.flowstate.fm/p/spyro-gyra"/>
+        <updated>2025-01-23T08:01:48.000Z</updated>
+        <summary type="html"><![CDATA[Today we’re listening to Spyro Gyra, an American jazz fusion band from Buffalo, New York.]]></summary>
+        <author>
+            <name>Flow State</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Btrbk – backup tool for btrfs subvolumes]]></title>
+        <id>https://www.linuxlinks.com/?p=141088</id>
+        <link href="https://www.linuxlinks.com/btrbk-backup-tool-btrfs-subvolumes/"/>
+        <updated>2025-01-23T07:17:57.000Z</updated>
+        <summary type="html"><![CDATA[Btrbk is a backup tool for btrfs subvolumes, taking advantage of btrfs specific capabilities to create atomic snapshots.
+The post Btrbk – backup tool for btrfs subvolumes appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Commet – chat client powered by Matrix]]></title>
         <id>https://www.linuxlinks.com/?p=141084</id>
@@ -558,17 +579,6 @@ The post dijo – habit tracker appeared first on LinuxLinks.]]></summary>
 The post Salix – Slackware-based Linux distribution appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Erik Karlsson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[tCalc – simple calculator]]></title>
-        <id>https://www.linuxlinks.com/?p=140997</id>
-        <link href="https://www.linuxlinks.com/tcalc-simple-calculator/"/>
-        <updated>2025-01-18T18:46:33.000Z</updated>
-        <summary type="html"><![CDATA[tCalc is a simple calculator written in core Tcl/Tk. It also has command-line support.
-The post tCalc – simple calculator appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
         </author>
     </entry>
 </feed>
