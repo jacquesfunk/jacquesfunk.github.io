@@ -12,6 +12,16 @@
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
         {
+          "id": "https://www.linuxlinks.com/?p=141260",
+          "author": "Steve Emms",
+          "description": "turbo-scanner is a port scanner and service detection tool that uses 1000 goroutines at once to scan any hosts IP or FQDN.\nThe post turbo-scanner – port scanner and service detection tool appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/turbo-scanner-port-scanner-service-detection-tool/",
+          "publishedOn": "2025-01-24T16:21:10.000Z",
+          "wordCount": 4337,
+          "title": "turbo-scanner – port scanner and service detection tool",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2017/10/network-security.jpg"
+        },
+        {
           "id": "https://www.linuxlinks.com/?p=141244",
           "author": "Steve Emms",
           "description": "Pix is an image viewer and browser utility which is based on gThumb.\nThe post Pix – image viewer and browser appeared first on LinuxLinks.",
@@ -220,16 +230,6 @@
           "wordCount": 4313,
           "title": "timr – TUI to organize your time",
           "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2025/01/030-wait.png"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=141040",
-          "author": "Steve Emms",
-          "description": "kazv is a convergent Matrix client and instant messaging app using Qt. \nThe post kazv – convergent Matrix client and secure messaging app appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/kazv-convergent-matrix-client-secure-messaging-app/",
-          "publishedOn": "2025-01-20T05:54:53.000Z",
-          "wordCount": 4286,
-          "title": "kazv – convergent Matrix client and secure messaging app",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2018/06/male-operator-staff-with-team-working-call-center.jpg"
         }
       ]
     },
@@ -257,16 +257,6 @@
           "wordCount": 206,
           "title": "Unit Circle",
           "imageUrl": "https://imgs.xkcd.com/comics/unit_circle_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/3040/",
-          "author": null,
-          "description": "",
-          "link": "https://xkcd.com/3040/",
-          "publishedOn": "2025-01-20T05:00:00.000Z",
-          "wordCount": 206,
-          "title": "Chemical Formulas",
-          "imageUrl": "https://imgs.xkcd.com/comics/chemical_formulas_2x.png"
         }
       ]
     },
@@ -675,7 +665,18 @@
       "title": "local food",
       "feedUrl": "https://www.kcur.org/tags/local-food.rss",
       "siteUrl": "https://www.kcur.org/tags/local-food",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.kcur.org/podcast/up-to-date/2025-01-24/kansas-citys-buffalo-bills-bar-embraces-the-allen-mahomes-rivalry",
+          "author": "Steve Kraske, Josh Marvine",
+          "description": "Taps on Main is a Bills Mafia hotspot located in the heart of Chiefs Kingdom. The bar embraces the friendly rivalry between Buffalo and Kansas City as Chiefs and Bills meet in the AFC Championship on Sunday.",
+          "link": "https://www.kcur.org/podcast/up-to-date/2025-01-24/kansas-citys-buffalo-bills-bar-embraces-the-allen-mahomes-rivalry",
+          "publishedOn": "2025-01-24T17:15:53.000Z",
+          "wordCount": 1963,
+          "title": "Kansas City's Buffalo Bills bar embraces the Allen-Mahomes rivalry",
+          "imageUrl": "https://npr.brightspotcdn.com/dims4/default/18db116/2147483647/strip/true/crop/6801x3571+0+483/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa8%2F1b%2F35f1e8ad43e2b1dad74c8c41adc1%2Fap24022138906722.jpg"
+        }
+      ]
     },
     {
       "title": "Flow State",
