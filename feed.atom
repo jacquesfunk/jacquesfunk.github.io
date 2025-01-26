@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-26T16:16:42.918Z</updated>
+    <updated>2025-01-26T18:19:23.600Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[sysz – fzf terminal UI for systemctl]]></title>
+        <id>https://www.linuxlinks.com/?p=141325</id>
+        <link href="https://www.linuxlinks.com/sysz-fzf-terminal-ui-systemctl/"/>
+        <updated>2025-01-26T17:01:43.000Z</updated>
+        <summary type="html"><![CDATA[sysz is an fzf terminal UI for systemctl. This is public domain software.
+The post sysz – fzf terminal UI for systemctl appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Loco – Web or API framework for Rust]]></title>
         <id>https://www.linuxlinks.com/?p=141375</id>
@@ -786,15 +797,6 @@ The post Timet – time tracking gem with time reports appeared first on LinuxLi
 The post calc – CLI calculator app and library appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unit Circle]]></title>
-        <id>https://xkcd.com/3041/</id>
-        <link href="https://xkcd.com/3041/"/>
-        <updated>2025-01-22T05:00:00.000Z</updated>
-        <author>
-            <name>xkcd.com</name>
         </author>
     </entry>
 </feed>
