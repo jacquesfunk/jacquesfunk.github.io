@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-26T20:15:28.762Z</updated>
+    <updated>2025-01-26T22:13:24.394Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Framed – Files and Directories Reusability, Architecture, and Management]]></title>
+        <id>https://www.linuxlinks.com/?p=141404</id>
+        <link href="https://www.linuxlinks.com/framed-files-directories-reusability-architecture-management/"/>
+        <updated>2025-01-26T21:44:02.000Z</updated>
+        <summary type="html"><![CDATA[Framed is a CLI tool that simplifies the organization and management of files and directories in a reusable and architectural manner. 
+The post Framed – Files and Directories Reusability, Architecture, and Management appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[backdown – a deduplicator]]></title>
+        <id>https://www.linuxlinks.com/?p=141401</id>
+        <link href="https://www.linuxlinks.com/backdown-deduplicator/"/>
+        <updated>2025-01-26T20:30:33.000Z</updated>
+        <summary type="html"><![CDATA[Backdown helps you safely and ergonomically remove duplicate files. This is a command-line tool written in Rust.
+The post backdown – a deduplicator appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[16 Best Free and Open Source Graphical Git Clients]]></title>
         <id>https://www.linuxlinks.com/?page_id=4651</id>
@@ -776,17 +798,6 @@ Amid the broader horrors unveiled over inauguration weekend, Trump also launched
         <summary type="html"><![CDATA[The Little Store on Knox // Photo by Tiffany Watts The Little Store on Knox Sometimes, the best coffee shop finds are tucked away in unexpected places. That’s exactly what my friends and I discovered when we decided to visit The Little Store on Knox, a small neighborhood coffee shop in North Kansas City that offers coffee, flowers, and goods...]]></summary>
         <author>
             <name>Tiffany Watts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Timet – time tracking gem with time reports]]></title>
-        <id>https://www.linuxlinks.com/?p=140960</id>
-        <link href="https://www.linuxlinks.com/timet-time-tracking-gem-reports/"/>
-        <updated>2025-01-22T09:31:43.000Z</updated>
-        <summary type="html"><![CDATA[Timet is a command-line tool designed to track your activities by recording the time spent on each task.
-The post Timet – time tracking gem with time reports appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
         </author>
     </entry>
 </feed>
