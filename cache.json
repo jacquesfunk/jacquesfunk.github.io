@@ -4,13 +4,35 @@
       "title": "Royals – FanGraphs Baseball",
       "feedUrl": "https://www.fangraphs.com/blogs/category/teams/royals/feed/",
       "siteUrl": "https://blogs.fangraphs.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blogs.fangraphs.com/?p=455868",
+          "author": "Ben Clemens",
+          "description": "Fly ball pitchers and Kauffman Stadium - name a more iconic duo.",
+          "link": "https://blogs.fangraphs.com/royals-shore-up-bullpen-with-carlos-estevez/",
+          "publishedOn": "2025-01-30T19:00:01.000Z",
+          "wordCount": null,
+          "title": "Royals Shore up Bullpen With Carlos Estévez",
+          "itunes": {},
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "LinuxLinks",
       "feedUrl": "https://www.linuxlinks.com/feed/",
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
+        {
+          "id": "https://www.linuxlinks.com/?p=141523",
+          "author": "Steve Emms",
+          "description": "Evisum is a system monitor using Enlightenment Foundation Libraries (EFL).\nThe post Evisum –  Enlightenment system monitor appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/evisum-enlightenment-system-monitor/",
+          "publishedOn": "2025-01-30T18:55:18.000Z",
+          "wordCount": 4350,
+          "title": "Evisum –  Enlightenment system monitor",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2020/09/Monitoring-System.png"
+        },
         {
           "id": "https://www.linuxlinks.com/?p=141544",
           "author": "Steve Emms",
@@ -440,16 +462,6 @@
           "wordCount": 4331,
           "title": "USBKVM – keyboard, video, and mouse over USB",
           "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2025/01/008-keyboard.png"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=141321",
-          "author": "Steve Emms",
-          "description": "systemctl-tui is a fast, simple TUI for interacting with systemd services and their logs.\nThe post systemctl-tui – interact with systemd services appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/systemctl-tui-interact-systemd-services/",
-          "publishedOn": "2025-01-26T06:56:52.000Z",
-          "wordCount": 4305,
-          "title": "systemctl-tui – interact with systemd services",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2021/11/command-schedulers.png"
         }
       ]
     },
