@@ -12,6 +12,16 @@
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
         {
+          "id": "https://www.linuxlinks.com/?p=141501",
+          "author": "Steve Emms",
+          "description": "mnotify is a simple CLI for the Matrix chat system. It's written in the Rust programming language.\nThe post mnotify – simple Matrix CLI client appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/mnotify-simple-matrix-cli-client/",
+          "publishedOn": "2025-01-29T23:59:45.000Z",
+          "wordCount": 4321,
+          "title": "mnotify – simple Matrix CLI client",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2025/01/mnotify-matrix-help.png"
+        },
+        {
           "id": "https://www.linuxlinks.com/?p=141574",
           "author": "Steve Emms",
           "description": "LXTask is a lightweight and desktop-independent task manager derived from xfce4-taskmanager with all dependencies on xfce removed\nThe post LXTask – lightweight task manager for LXDE appeared first on LinuxLinks.",
@@ -400,36 +410,6 @@
           "wordCount": 4052,
           "title": "Dynebolic – Linux distribution",
           "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2024/04/Linux-Distributions.png"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=141318",
-          "author": "Steve Emms",
-          "description": "GGH is software which recalls your SSH sessions. It also searches your SSH configuration file.\nThe post GGH – recall your SSH sessions appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/ggh-recall-ssh-sessions/",
-          "publishedOn": "2025-01-25T12:59:13.000Z",
-          "wordCount": 4304,
-          "title": "GGH – recall your SSH sessions",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2023/04/ssh-secure-shell-protocol-software.jpg"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=141270",
-          "author": "Steve Emms",
-          "description": "Rage is a video and audio player written using the Enlightenment Foundation Libraries (EFL).\nThe post Rage – simple video and audio player appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/rage-simple-video-audio-player/",
-          "publishedOn": "2025-01-25T11:49:35.000Z",
-          "wordCount": 4468,
-          "title": "Rage – simple video and audio player",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2024/01/005-television.png"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?page_id=2932",
-          "author": "Steve Emms",
-          "description": "One of the basic utilities supplied with any operating system is a desktop calculator. We cover the best graphical tools.\nThe post 19 Best Free and Open Source Linux Graphical Calculators appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/calculators/",
-          "publishedOn": "2025-01-25T11:28:01.000Z",
-          "wordCount": 5479,
-          "title": "19 Best Free and Open Source Linux Graphical Calculators",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2017/12/trigonometry-push-buttons-scientific-calculator-with-focus-sin-button.jpg"
         }
       ]
     },
@@ -438,6 +418,16 @@
       "feedUrl": "http://xkcd.com/rss.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/3044/",
+          "author": null,
+          "description": "",
+          "link": "https://xkcd.com/3044/",
+          "publishedOn": "2025-01-29T05:00:00.000Z",
+          "wordCount": 206,
+          "title": "Humidifier Review",
+          "imageUrl": "https://imgs.xkcd.com/comics/humidifier_review_2x.png"
+        },
         {
           "id": "https://xkcd.com/3043/",
           "author": null,
@@ -455,6 +445,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=179920",
+          "author": "Maitreyi Anantharaman",
+          "description": "An earlier blog called blockbuster trades “rare in the WNBA.” In fact, they happen twice a week now. We regret the error.",
+          "link": "https://defector.com/the-sun-and-mercury-join-the-wnba-trade-fun",
+          "publishedOn": "2025-01-29T22:11:07.000Z",
+          "wordCount": 6908,
+          "title": "The Sun And Mercury Join The WNBA Trade Fun",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2025/01/GettyImages-2172747467.jpg"
+        },
         {
           "id": "https://defector.com/?p=179899",
           "author": "Jen Golbeck",
@@ -803,7 +803,18 @@
       "title": "Kansas City Royals – MLB Trade Rumors",
       "feedUrl": "https://www.mlbtraderumors.com/kansas-city-royals/feed",
       "siteUrl": "https://www.mlbtraderumors.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.mlbtraderumors.com/?p=839760",
+          "author": "Darragh McDonald",
+          "description": "The Royals and right-hander Carlos Estévez are in agreement on a contract, reports Jon Heyman of The New York Post. It’s a two-year deal with a club option, reports Ken Rosenthal of The Athletic. Per Mark Feinsand of MLB.com, the Premier Talent Sports and Entertainment client is expected to make $22MM over two years, which…",
+          "link": "https://www.mlbtraderumors.com/2025/01/royals-to-sign-carlos-estevez.html",
+          "publishedOn": "2025-01-30T00:40:46.000Z",
+          "wordCount": 5562,
+          "title": "Royals To Sign Carlos Estévez",
+          "imageUrl": "https://cdn.mlbtraderumors.com/files/2025/01/USATSI_24255411-1024x683.jpg"
+        }
+      ]
     },
     {
       "title": "local food",
@@ -884,6 +895,22 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F864b9727-5821-4f70-a0da-2d19d7f3d4f5_1200x1200.jpeg"
+        },
+        {
+          "id": "https://www.flowstate.fm/p/ambient-country-episode-10-hayden",
+          "author": "Bob Holmes",
+          "description": "Bob Holmes of SUSS is joined by guitarist Hayden Pedigo.",
+          "link": "https://www.flowstate.fm/p/ambient-country-episode-10-hayden",
+          "publishedOn": "2025-01-25T23:27:00.000Z",
+          "wordCount": null,
+          "title": "Ambient Country Episode 10: Hayden Pedigo (Repost)",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/156055882/01eec212267d897409fbda2f7d1a3a33.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
         }
       ]
     },
