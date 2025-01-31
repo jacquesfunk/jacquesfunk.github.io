@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-31T08:19:24.612Z</updated>
+    <updated>2025-01-31T10:15:50.032Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Kansas City's new Palestinian bakery]]></title>
+        <id>https://www.kcur.org/podcast/kansas-city-today/2025-01-31/kansas-citys-new-palestinian-bakery</id>
+        <link href="https://www.kcur.org/podcast/kansas-city-today/2025-01-31/kansas-citys-new-palestinian-bakery"/>
+        <updated>2025-01-31T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Fans of the desserts at Baba’s Pantry will get to try even more sweet treats in a new, dedicated space right next door. After Kansas City embraced their Palestinian deli, the Kamal family is expanding with Baba's Bakery, which they call a "labor of love."]]></summary>
+        <author>
+            <name>Nomin Ujiyediin, Byron J. Love</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[8 Best Free and Open Source Text-Based Git Clients]]></title>
+        <id>https://www.linuxlinks.com/?p=84829</id>
+        <link href="https://www.linuxlinks.com/best-free-open-source-text-based-git-clients/"/>
+        <updated>2025-01-31T08:48:35.000Z</updated>
+        <summary type="html"><![CDATA[Our recommended text-based Git clients, captured in a legendary LinuxLinks chart. We only feature free and open source software here.
+The post 8 Best Free and Open Source Text-Based Git Clients appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Black Taffy]]></title>
         <id>https://www.flowstate.fm/p/black-taffy</id>
@@ -1019,28 +1040,6 @@ Such is the price of being a newbie—errors happen and then compound themselves
         <updated>2025-01-26T23:47:22.000Z</updated>
         <summary type="html"><![CDATA[MCalc is a calculator for performing simple mathematical operations in all existing number systems.
 The post MCalc – calculator for performing simple mathematical operations appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Framed – Files and Directories Reusability, Architecture, and Management]]></title>
-        <id>https://www.linuxlinks.com/?p=141404</id>
-        <link href="https://www.linuxlinks.com/framed-files-directories-reusability-architecture-management/"/>
-        <updated>2025-01-26T21:44:02.000Z</updated>
-        <summary type="html"><![CDATA[Framed is a CLI tool that simplifies the organization and management of files and directories in a reusable and architectural manner. 
-The post Framed – Files and Directories Reusability, Architecture, and Management appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[backdown – a deduplicator]]></title>
-        <id>https://www.linuxlinks.com/?p=141401</id>
-        <link href="https://www.linuxlinks.com/backdown-deduplicator/"/>
-        <updated>2025-01-26T20:30:33.000Z</updated>
-        <summary type="html"><![CDATA[Backdown helps you safely and ergonomically remove duplicate files. This is a command-line tool written in Rust.
-The post backdown – a deduplicator appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Steve Emms</name>
         </author>
