@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-30T22:14:05.467Z</updated>
+    <updated>2025-01-31T01:11:52.251Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ement.el – Matrix client for Emacs]]></title>
+        <id>https://www.linuxlinks.com/?p=141504</id>
+        <link href="https://www.linuxlinks.com/ement-el-matrix-client-emacs/"/>
+        <updated>2025-01-30T23:18:06.000Z</updated>
+        <summary type="html"><![CDATA[Ement.el is a Matrix client for Emacs. It aims to be simple, fast, featureful, and reliable, while integrating naturally with Emacs.
+The post Ement.el – Matrix client for Emacs appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Movie Studio At The End Of The World, With Will Tavlin]]></title>
         <id>https://defector.com/?p=179939</id>
@@ -1044,17 +1055,6 @@ The post Loco – Web or API framework for Rust appeared first on LinuxLinks.]]>
 The post shallow-backup – Git-integrated backup tool appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PelicanHPC – Linux distribution for high performance computing cluster]]></title>
-        <id>https://www.linuxlinks.com/?p=141362</id>
-        <link href="https://www.linuxlinks.com/pelicanhpc-linux-distribution-high-performance-computing-cluster/"/>
-        <updated>2025-01-26T11:01:54.000Z</updated>
-        <summary type="html"><![CDATA[PelicanHPC is a Debian-Based "iso-hybrid (CD or USB) image that let's you set up a high performance computing cluster in a few minutes.
-The post PelicanHPC – Linux distribution for high performance computing cluster appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Erik Karlsson</name>
         </author>
     </entry>
 </feed>
