@@ -24,6 +24,16 @@
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
         {
+          "id": "https://www.linuxlinks.com/?p=141583",
+          "author": "Erik Karlsson",
+          "description": "The New DSL is a compact Linux distribution tailored for low-spec x86 computers. It packs a lot of applications into a small package. \nThe post Damn Small Linux – Linux distro for older hardware appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/damn-small-linux-linux-distro-older-hardware/",
+          "publishedOn": "2025-01-31T07:01:23.000Z",
+          "wordCount": 3984,
+          "title": "Damn Small Linux – Linux distro for older hardware",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2024/04/Linux-Distributions.png"
+        },
+        {
           "id": "https://www.linuxlinks.com/?page_id=2932",
           "author": "Steve Emms",
           "description": "One of the basic utilities supplied with any operating system is a desktop calculator. We cover the best graphical tools.\nThe post 21 Best Free and Open Source Linux Graphical Calculators appeared first on LinuxLinks.",
@@ -432,16 +442,6 @@
           "wordCount": 4379,
           "title": "backdown – a deduplicator",
           "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2021/10/find-duplicates.png"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?page_id=4651",
-          "author": "Steve Emms",
-          "description": "Git is one of a number of open source revision control systems available for Linux. We recommend the finest GUI-based tools.\nThe post 16 Best Free and Open Source Graphical Git Clients appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/gitclients/",
-          "publishedOn": "2025-01-26T19:56:08.000Z",
-          "wordCount": 4236,
-          "title": "16 Best Free and Open Source Graphical Git Clients",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2020/01/Git-Clients.jpg"
         }
       ]
     },
@@ -985,6 +985,22 @@
       "feedUrl": "https://www.flowstate.fm/feed",
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
+        {
+          "id": "https://www.flowstate.fm/p/black-taffy",
+          "author": "Flow State",
+          "description": "It’s Friday so we’re listening to something slightly more upbeat.",
+          "link": "https://www.flowstate.fm/p/black-taffy",
+          "publishedOn": "2025-01-31T08:02:46.000Z",
+          "wordCount": null,
+          "title": "Black Taffy",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F566b5d40-7026-49d9-a294-9bdb8cd0146b_966x1200.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F566b5d40-7026-49d9-a294-9bdb8cd0146b_966x1200.jpeg"
+        },
         {
           "id": "https://www.flowstate.fm/p/rafael-toral",
           "author": "Flow State",

@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-01-31T06:22:15.465Z</updated>
+    <updated>2025-01-31T08:19:24.612Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Black Taffy]]></title>
+        <id>https://www.flowstate.fm/p/black-taffy</id>
+        <link href="https://www.flowstate.fm/p/black-taffy"/>
+        <updated>2025-01-31T08:02:46.000Z</updated>
+        <summary type="html"><![CDATA[It’s Friday so we’re listening to something slightly more upbeat.]]></summary>
+        <author>
+            <name>Flow State</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Damn Small Linux – Linux distro for older hardware]]></title>
+        <id>https://www.linuxlinks.com/?p=141583</id>
+        <link href="https://www.linuxlinks.com/damn-small-linux-linux-distro-older-hardware/"/>
+        <updated>2025-01-31T07:01:23.000Z</updated>
+        <summary type="html"><![CDATA[The New DSL is a compact Linux distribution tailored for low-spec x86 computers. It packs a lot of applications into a small package. 
+The post Damn Small Linux – Linux distro for older hardware appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Erik Karlsson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[21 Best Free and Open Source Linux Graphical Calculators]]></title>
         <id>https://www.linuxlinks.com/?page_id=2932</id>
@@ -1020,17 +1041,6 @@ The post Framed – Files and Directories Reusability, Architecture, and Managem
         <updated>2025-01-26T20:30:33.000Z</updated>
         <summary type="html"><![CDATA[Backdown helps you safely and ergonomically remove duplicate files. This is a command-line tool written in Rust.
 The post backdown – a deduplicator appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[16 Best Free and Open Source Graphical Git Clients]]></title>
-        <id>https://www.linuxlinks.com/?page_id=4651</id>
-        <link href="https://www.linuxlinks.com/gitclients/"/>
-        <updated>2025-01-26T19:56:08.000Z</updated>
-        <summary type="html"><![CDATA[Git is one of a number of open source revision control systems available for Linux. We recommend the finest GUI-based tools.
-The post 16 Best Free and Open Source Graphical Git Clients appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Steve Emms</name>
         </author>
