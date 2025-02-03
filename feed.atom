@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-02-03T08:20:31.151Z</updated>
+    <updated>2025-02-03T10:16:35.432Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Clear Linux OS – Linux distribution optimized for performance and security]]></title>
+        <id>https://www.linuxlinks.com/?p=141795</id>
+        <link href="https://www.linuxlinks.com/clear-linux-os-linux-distribution-optimized-performance-security/"/>
+        <updated>2025-02-03T09:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Clear Linux OS is an open source, rolling release Linux distribution optimized for performance and security.
+The post Clear Linux OS – Linux distribution optimized for performance and security appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Erik Karlsson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Alternatives to popular CLI tools: grep]]></title>
+        <id>https://www.linuxlinks.com/?p=105280</id>
+        <link href="https://www.linuxlinks.com/alternatives-popular-cli-tools-grep/"/>
+        <updated>2025-02-03T08:36:16.000Z</updated>
+        <summary type="html"><![CDATA[This article spotlights alternative tools to grep, a utility that searches for patterns in each file.
+The post Alternatives to popular CLI tools: grep appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chick Corea & Béla Fleck]]></title>
         <id>https://www.flowstate.fm/p/chick-corea-and-bela-fleck</id>
@@ -753,27 +775,6 @@ The post Armbian – Linux for ARM development boards appeared first on LinuxLin
         <updated>2025-01-29T23:59:45.000Z</updated>
         <summary type="html"><![CDATA[mnotify is a simple CLI for the Matrix chat system. It's written in the Rust programming language.
 The post mnotify – simple Matrix CLI client appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Sun And Mercury Join The WNBA Trade Fun]]></title>
-        <id>https://defector.com/?p=179920</id>
-        <link href="https://defector.com/the-sun-and-mercury-join-the-wnba-trade-fun"/>
-        <updated>2025-01-29T22:11:07.000Z</updated>
-        <summary type="html"><![CDATA[An earlier blog called blockbuster trades “rare in the WNBA.” In fact, they happen twice a week now. We regret the error.]]></summary>
-        <author>
-            <name>Maitreyi Anantharaman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LXTask – lightweight task manager for LXDE]]></title>
-        <id>https://www.linuxlinks.com/?p=141574</id>
-        <link href="https://www.linuxlinks.com/lxtask-lightweight-task-manager-lxde/"/>
-        <updated>2025-01-29T21:01:16.000Z</updated>
-        <summary type="html"><![CDATA[LXTask is a lightweight and desktop-independent task manager derived from xfce4-taskmanager with all dependencies on xfce removed
-The post LXTask – lightweight task manager for LXDE appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Steve Emms</name>
         </author>
