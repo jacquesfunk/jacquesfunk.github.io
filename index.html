@@ -505,11 +505,45 @@ That being said, I am also not shocked at how the match actually went, as Arsena
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-02-02 datetime="2025-02-03T04:37:58.000Z">2025-02-02</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-02-02 datetime="2025-02-03T04:37:58.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-02-02 datetime="2025-02-03T05:00:00.000Z">2025-02-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-02-02 datetime="2025-02-03T05:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >xkcd.com</button>
+                  <a class="source-heading__link" href="https://xkcd.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://xkcd.com/3046/"
+                        open
+                      >
+                        <summary class="article-expander__title">Stromatolites</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://xkcd.com/3046/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://imgs.xkcd.com/comics/stromatolites_2x.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1743,27 +1777,6 @@ The post 10 Best Free and Open Source Linux Speed Reading Tools appeared first o
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.linuxlinks.com/?p&#x3D;141566"
-                        open
-                      >
-                        <summary class="article-expander__title">ScriptHaus – organize scripts and bash one-liners</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.linuxlinks.com/scripthaus-organize-scripts-bash-one-liners/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.linuxlinks.com/wp-content/uploads/2025/01/030-coding-4.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>ScriptHaus lets you run bash, Python, and JS snippets from your Markdown files directly from the command-line. 
-The post ScriptHaus – organize scripts and bash one-liners appeared first on LinuxLinks.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -1964,27 +1977,6 @@ Counterpoint: Paul VI vs. Gonzaga! On Tuesday night I attended this matchup of t
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;179453"
-                        open
-                      >
-                        <summary class="article-expander__title">All The Trains I Rode In China</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/all-the-trains-i-rode-in-china">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2025/01/shanghaiMetro.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>VARIOUS EASTERN LOCALES, China — Relative velocity&#x27;s a hell of a thing. It&#x27;s impossible to conceptualize how fast 300 kilometers per hour is until you&#x27;re on a train that fast. Even then, it&#x27;s primarily visual: Until you look at the window and briefly shock the brain with parallax, a G-class high-speed rail train runs so smoothly that you may as well be held still in space. Then, another train runs in the opposite direction on the adjacent track, and in those few seconds that they pass one another, you can feel it: the brief moment when you go from 300 kilometers per hour in one reference frame to over 500 kilometers per hour in another.
-The math is, at least, a little easier. To drive from Beijing to Rizhao would take roughly seven hours without traffic, over 400 or so miles. The G-class train we took a day after arriving in Beijing, a Fuxing train produced by state-owned rolling stock manufacturer CRRC, made the trip in about four very comfortable hours, much of which I spent on Wikipedia. (The new CR450 rolling stock, designed for operating speeds of 400 kilometers an hour, is expected to enter service this year. CRRC also has a subsidiary based in Massachusetts, with a rather unfortunate record when it comes to delivering on its contracts with various American urban metro systems, like the MBTA and SEPTA.)</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;43
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -2055,8 +2047,8 @@ The math is, at least, a little easier. To drive from Beijing to Rizhao would ta
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/13126211556">
-        <time id="build-timestamp" datetime="2025-02-04T01:11:50.628Z">2025-02-04T01:11:50.628Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/13127254304">
+        <time id="build-timestamp" datetime="2025-02-04T02:41:59.197Z">2025-02-04T02:41:59.197Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
