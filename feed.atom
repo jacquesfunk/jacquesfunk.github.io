@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-02-04T10:16:34.138Z</updated>
+    <updated>2025-02-04T12:31:17.324Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Gum – tool for glamorous shell scripts]]></title>
+        <id>https://www.linuxlinks.com/?p=141845</id>
+        <link href="https://www.linuxlinks.com/gum-tool-glamorous-shell-scripts/"/>
+        <updated>2025-02-04T10:11:20.000Z</updated>
+        <summary type="html"><![CDATA[Gum lets you leverage the power of Bubbles and Lip Gloss in your scripts and aliases without writing any Go code.
+The post Gum – tool for glamorous shell scripts appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[EasyOS – experimental Linux distribution]]></title>
         <id>https://www.linuxlinks.com/?p=141801</id>
@@ -734,17 +745,6 @@ The post 21 Best Free and Open Source Linux Graphical Calculators appeared first
         <updated>2025-01-31T05:00:00.000Z</updated>
         <author>
             <name>xkcd.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ement.el – Matrix client for Emacs]]></title>
-        <id>https://www.linuxlinks.com/?p=141504</id>
-        <link href="https://www.linuxlinks.com/ement-el-matrix-client-emacs/"/>
-        <updated>2025-01-30T23:18:06.000Z</updated>
-        <summary type="html"><![CDATA[Ement.el is a Matrix client for Emacs. It aims to be simple, fast, featureful, and reliable, while integrating naturally with Emacs.
-The post Ement.el – Matrix client for Emacs appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
         </author>
     </entry>
 </feed>
