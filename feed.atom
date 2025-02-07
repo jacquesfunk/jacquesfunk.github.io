@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-02-07T20:16:46.450Z</updated>
+    <updated>2025-02-07T22:14:12.979Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[highlight.js – syntax highlighter]]></title>
+        <id>https://www.linuxlinks.com/?p=141989</id>
+        <link href="https://www.linuxlinks.com/highlight-js-syntax-highlighter/"/>
+        <updated>2025-02-07T21:26:20.000Z</updated>
+        <summary type="html"><![CDATA[highlight.js is a syntax highlighter written in JavaScript. It works in the browser as well as on the server
+The post highlight.js – syntax highlighter appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quickemu – run Linux, macOS, and Windows virtual machines]]></title>
         <id>https://www.linuxlinks.com/?p=142055</id>
@@ -26,6 +37,27 @@ The post Quickemu – run Linux, macOS, and Windows virtual machines appeared fi
 The post QR Scanner – QR scanner/generator app appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Alert: It Is Now Time To Chat With The Defector Staff]]></title>
+        <id>https://defector.com/?p=180806</id>
+        <link href="https://defector.com/alert-it-is-now-time-to-chat-with-the-defector-staff"/>
+        <updated>2025-02-07T18:59:23.000Z</updated>
+        <summary type="html"><![CDATA[It's Friday! The Super Bowl is almost here! Let's chat!]]></summary>
+        <author>
+            <name>Defector Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Time Does “What Time Does The Super Bowl Start?” Start?]]></title>
+        <id>https://defector.com/?p=180482</id>
+        <link href="https://defector.com/what-time-does-what-time-does-the-super-bowl-start-start-3"/>
+        <updated>2025-02-07T18:34:50.000Z</updated>
+        <summary type="html"><![CDATA[I have now done this gag across four websites for 10 years, a time period in which the sweaty behavior I sought to skewer has morphed from a cynical attempt to ride, remora-like, on the prodigious belly of Google search traffic into an almost quaint, bygone phenomenon. It's not so much that publications across digital and traditional media are any less determined to degrade themselves in search of traffic, as it is that "digital media" and "traffic" are themselves largely bygone relics. I am almost nostalgic!
+But only almost! That belly remains surfable, and plenty of news outlets are still determined to surf it. Perhaps as media literacy declines and as social media's utility as a news scraper craters, the public's thirst for knowledge—at least about one specific thing: what time the Super Bowl starts—can only be quenched by conducting a Google search. The funniest thing here is that the first result for any such search is a Google-generated box with the start time and the team logos, negating the primary utility of these sorts of posts.]]></summary>
+        <author>
+            <name>Patrick Redford</name>
         </author>
     </entry>
     <entry>
@@ -207,6 +239,15 @@ Scientists have observed the four populations of chimps in the Taï forest—the
 The post Snal Linux – Arch based live distribution appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Erik Karlsson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Suspension Bridge]]></title>
+        <id>https://xkcd.com/3048/</id>
+        <link href="https://xkcd.com/3048/"/>
+        <updated>2025-02-07T05:00:00.000Z</updated>
+        <author>
+            <name>xkcd.com</name>
         </author>
     </entry>
     <entry>
@@ -1024,28 +1065,6 @@ That being said, I am also not shocked at how the match actually went, as Arsena
         <updated>2025-02-03T12:38:12.000Z</updated>
         <summary type="html"><![CDATA[grype is a vulnerability scanner for container images and filesystems. 
 The post grype – vulnerability scanner appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Clear Linux OS – Linux distribution optimized for performance and security]]></title>
-        <id>https://www.linuxlinks.com/?p=141795</id>
-        <link href="https://www.linuxlinks.com/clear-linux-os-linux-distribution-optimized-performance-security/"/>
-        <updated>2025-02-03T09:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Clear Linux OS is an open source, rolling release Linux distribution optimized for performance and security.
-The post Clear Linux OS – Linux distribution optimized for performance and security appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Erik Karlsson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alternatives to popular CLI tools: grep]]></title>
-        <id>https://www.linuxlinks.com/?p=105280</id>
-        <link href="https://www.linuxlinks.com/alternatives-popular-cli-tools-grep/"/>
-        <updated>2025-02-03T08:36:16.000Z</updated>
-        <summary type="html"><![CDATA[This article spotlights alternative tools to grep, a utility that searches for patterns in each file.
-The post Alternatives to popular CLI tools: grep appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Steve Emms</name>
         </author>

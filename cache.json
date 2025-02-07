@@ -35,6 +35,16 @@
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
         {
+          "id": "https://www.linuxlinks.com/?p=141989",
+          "author": "Steve Emms",
+          "description": "highlight.js is a syntax highlighter written in JavaScript. It works in the browser as well as on the server\nThe post highlight.js – syntax highlighter appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/highlight-js-syntax-highlighter/",
+          "publishedOn": "2025-02-07T21:26:20.000Z",
+          "wordCount": 4658,
+          "title": "highlight.js – syntax highlighter",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2025/02/coding_laptop.jpg"
+        },
+        {
           "id": "https://www.linuxlinks.com/?p=142055",
           "author": "Steve Emms",
           "description": "Quickemu is a wrapper for QEMU that automatically \"does the right thing\" when creating virtual machines.\nThe post Quickemu – run Linux, macOS, and Windows virtual machines appeared first on LinuxLinks.",
@@ -433,26 +443,6 @@
           "wordCount": 4472,
           "title": "grype – vulnerability scanner",
           "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2022/04/vulnerability_03_Converted_Converted_.jpg"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=141795",
-          "author": "Erik Karlsson",
-          "description": "Clear Linux OS is an open source, rolling release Linux distribution optimized for performance and security.\nThe post Clear Linux OS – Linux distribution optimized for performance and security appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/clear-linux-os-linux-distribution-optimized-performance-security/",
-          "publishedOn": "2025-02-03T09:00:02.000Z",
-          "wordCount": 4250,
-          "title": "Clear Linux OS – Linux distribution optimized for performance and security",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2024/04/Linux-Distributions.png"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=105280",
-          "author": "Steve Emms",
-          "description": "This article spotlights alternative tools to grep, a utility that searches for patterns in each file.\nThe post Alternatives to popular CLI tools: grep appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/alternatives-popular-cli-tools-grep/",
-          "publishedOn": "2025-02-03T08:36:16.000Z",
-          "wordCount": 4415,
-          "title": "Alternatives to popular CLI tools: grep",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2023/04/documentation-alternatives.png"
         }
       ]
     },
@@ -461,6 +451,16 @@
       "feedUrl": "http://xkcd.com/rss.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/3048/",
+          "author": null,
+          "description": "",
+          "link": "https://xkcd.com/3048/",
+          "publishedOn": "2025-02-07T05:00:00.000Z",
+          "wordCount": 206,
+          "title": "Suspension Bridge",
+          "imageUrl": "https://imgs.xkcd.com/comics/suspension_bridge_2x.png"
+        },
         {
           "id": "https://xkcd.com/3047/",
           "author": null,
@@ -478,6 +478,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=180806",
+          "author": "Defector Staff",
+          "description": "It's Friday! The Super Bowl is almost here! Let's chat!",
+          "link": "https://defector.com/alert-it-is-now-time-to-chat-with-the-defector-staff",
+          "publishedOn": "2025-02-07T18:59:23.000Z",
+          "wordCount": 4414,
+          "title": "Alert: It Is Now Time To Chat With The Defector Staff",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2023/08/GettyImages-1311663676.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=180482",
+          "author": "Patrick Redford",
+          "description": "I have now done this gag across four websites for 10 years, a time period in which the sweaty behavior I sought to skewer has morphed from a cynical attempt to ride, remora-like, on the prodigious belly of Google search traffic into an almost quaint, bygone phenomenon. It's not so much that publications across digital and traditional media are any less determined to degrade themselves in search of traffic, as it is that \"digital media\" and \"traffic\" are themselves largely bygone relics. I am almost nostalgic!\nBut only almost! That belly remains surfable, and plenty of news outlets are still determined to surf it. Perhaps as media literacy declines and as social media's utility as a news scraper craters, the public's thirst for knowledge—at least about one specific thing: what time the Super Bowl starts—can only be quenched by conducting a Google search. The funniest thing here is that the first result for any such search is a Google-generated box with the start time and the team logos, negating the primary utility of these sorts of posts.",
+          "link": "https://defector.com/what-time-does-what-time-does-the-super-bowl-start-start-3",
+          "publishedOn": "2025-02-07T18:34:50.000Z",
+          "wordCount": 6070,
+          "title": "What Time Does “What Time Does The Super Bowl Start?” Start?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2025/02/GettyImages-2197537169.jpg"
+        },
         {
           "id": "https://defector.com/?p=179030",
           "author": "Luis Paez-Pumar",
