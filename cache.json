@@ -35,6 +35,36 @@
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
         {
+          "id": "https://www.linuxlinks.com/?p=142055",
+          "author": "Steve Emms",
+          "description": "Quickemu is a wrapper for QEMU that automatically \"does the right thing\" when creating virtual machines.\nThe post Quickemu – run Linux, macOS, and Windows virtual machines appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/quickemu-run-linux-macos-windows-virtual-machines/",
+          "publishedOn": "2025-02-07T19:45:09.000Z",
+          "wordCount": 4743,
+          "title": "Quickemu – run Linux, macOS, and Windows virtual machines",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2017/12/hypervisors.jpg"
+        },
+        {
+          "id": "https://www.linuxlinks.com/?p=142016",
+          "author": "Steve Emms",
+          "description": "QR Scanner is a QR code scanner and generator built with Flutter.\nThe post QR Scanner – QR scanner/generator app appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/qr-scanner-code-generator/",
+          "publishedOn": "2025-02-07T19:12:29.000Z",
+          "wordCount": 4563,
+          "title": "QR Scanner – QR scanner/generator app",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2025/02/033-qr-code.png"
+        },
+        {
+          "id": "https://www.linuxlinks.com/?p=142052",
+          "author": "Steve Emms",
+          "description": "Foto is a simple image viewer. It simply shows an image either on a window or in the terminal. It is designed to be used in scripts.\nThe post Foto – simple image viewer appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/foto-simple-image-viewer/",
+          "publishedOn": "2025-02-07T18:31:44.000Z",
+          "wordCount": 4604,
+          "title": "Foto – simple image viewer",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2022/06/beautiful-red-church-vik-village-iceland.jpg"
+        },
+        {
           "id": "https://www.linuxlinks.com/?p=58883",
           "author": "Steve Emms",
           "description": "Here are our recommended console email clients. All free and open source goodness.\nThe post 15 Best Free and Open Source Console Email Clients appeared first on LinuxLinks.",
@@ -423,16 +453,6 @@
           "wordCount": 4415,
           "title": "Alternatives to popular CLI tools: grep",
           "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2023/04/documentation-alternatives.png"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=141809",
-          "author": "Steve Emms",
-          "description": "bower is a curses frontend for the Notmuch email system. There are two main views: the index, and the combined thread/pager.\nThe post bower – curses frontend for the Notmuch email system appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/bower-curses-frontend-notmuch-email/",
-          "publishedOn": "2025-02-03T07:54:38.000Z",
-          "wordCount": 4529,
-          "title": "bower – curses frontend for the Notmuch email system",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2021/05/email-text-keyboard-button.jpg"
         }
       ]
     },
@@ -1053,22 +1073,6 @@
             "type": "audio/mpeg"
           },
           "imageUrl": null
-        },
-        {
-          "id": "https://www.flowstate.fm/p/chick-corea-and-bela-fleck",
-          "author": "Flow State",
-          "description": "Today we’re listening to Chick Corea & Béla Fleck, an American pianist and American banjoist, respectively.",
-          "link": "https://www.flowstate.fm/p/chick-corea-and-bela-fleck",
-          "publishedOn": "2025-02-03T08:02:43.000Z",
-          "wordCount": null,
-          "title": "Chick Corea & Béla Fleck",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe2f8d819-4bd8-439d-992e-948c6cd8abb2_780x570.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe2f8d819-4bd8-439d-992e-948c6cd8abb2_780x570.jpeg"
         }
       ]
     },

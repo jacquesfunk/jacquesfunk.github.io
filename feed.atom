@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-02-07T18:20:55.583Z</updated>
+    <updated>2025-02-07T20:16:46.450Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quickemu – run Linux, macOS, and Windows virtual machines]]></title>
+        <id>https://www.linuxlinks.com/?p=142055</id>
+        <link href="https://www.linuxlinks.com/quickemu-run-linux-macos-windows-virtual-machines/"/>
+        <updated>2025-02-07T19:45:09.000Z</updated>
+        <summary type="html"><![CDATA[Quickemu is a wrapper for QEMU that automatically "does the right thing" when creating virtual machines.
+The post Quickemu – run Linux, macOS, and Windows virtual machines appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QR Scanner – QR scanner/generator app]]></title>
+        <id>https://www.linuxlinks.com/?p=142016</id>
+        <link href="https://www.linuxlinks.com/qr-scanner-code-generator/"/>
+        <updated>2025-02-07T19:12:29.000Z</updated>
+        <summary type="html"><![CDATA[QR Scanner is a QR code scanner and generator built with Flutter.
+The post QR Scanner – QR scanner/generator app appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Foto – simple image viewer]]></title>
+        <id>https://www.linuxlinks.com/?p=142052</id>
+        <link href="https://www.linuxlinks.com/foto-simple-image-viewer/"/>
+        <updated>2025-02-07T18:31:44.000Z</updated>
+        <summary type="html"><![CDATA[Foto is a simple image viewer. It simply shows an image either on a window or in the terminal. It is designed to be used in scripts.
+The post Foto – simple image viewer appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[15 Best Free and Open Source Console Email Clients]]></title>
         <id>https://www.linuxlinks.com/?p=58883</id>
@@ -1013,27 +1046,6 @@ The post Clear Linux OS – Linux distribution optimized for performance and sec
         <updated>2025-02-03T08:36:16.000Z</updated>
         <summary type="html"><![CDATA[This article spotlights alternative tools to grep, a utility that searches for patterns in each file.
 The post Alternatives to popular CLI tools: grep appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chick Corea & Béla Fleck]]></title>
-        <id>https://www.flowstate.fm/p/chick-corea-and-bela-fleck</id>
-        <link href="https://www.flowstate.fm/p/chick-corea-and-bela-fleck"/>
-        <updated>2025-02-03T08:02:43.000Z</updated>
-        <summary type="html"><![CDATA[Today we’re listening to Chick Corea & Béla Fleck, an American pianist and American banjoist, respectively.]]></summary>
-        <author>
-            <name>Flow State</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[bower – curses frontend for the Notmuch email system]]></title>
-        <id>https://www.linuxlinks.com/?p=141809</id>
-        <link href="https://www.linuxlinks.com/bower-curses-frontend-notmuch-email/"/>
-        <updated>2025-02-03T07:54:38.000Z</updated>
-        <summary type="html"><![CDATA[bower is a curses frontend for the Notmuch email system. There are two main views: the index, and the combined thread/pager.
-The post bower – curses frontend for the Notmuch email system appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Steve Emms</name>
         </author>
