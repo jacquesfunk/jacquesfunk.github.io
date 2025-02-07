@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-02-07T06:22:13.683Z</updated>
+    <updated>2025-02-07T08:19:39.591Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Sight Below]]></title>
+        <id>https://www.flowstate.fm/p/the-sight-below</id>
+        <link href="https://www.flowstate.fm/p/the-sight-below"/>
+        <updated>2025-02-07T08:02:19.000Z</updated>
+        <summary type="html"><![CDATA[It’s Friday so we’re listening to something slightly more upbeat.]]></summary>
+        <author>
+            <name>Flow State</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Snal Linux – Arch based live distribution]]></title>
+        <id>https://www.linuxlinks.com/?p=141977</id>
+        <link href="https://www.linuxlinks.com/snal-linux-arch-based-live-distribution/"/>
+        <updated>2025-02-07T07:33:32.000Z</updated>
+        <summary type="html"><![CDATA[Snal Linux is an Arch-based distro intended to be used as a live image from portable media .It uses the i3 window manager and Firefox.
+The post Snal Linux – Arch based live distribution appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Erik Karlsson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Encpipe – encryption tool]]></title>
         <id>https://www.linuxlinks.com/?p=141838</id>
@@ -940,17 +961,6 @@ The post Pygments – generic syntax highlighter appeared first on LinuxLinks.]]
 Things were almost wrapped up with about 30 seconds left on the clock when Love was jawing with Arizona State's BJ Freeman under the hoop during an out of bounds play and, well, Freeman replied ... headfirst. Both were ejected, and Arizona State Coach Bobby Hurley yanked his team from the floor as the final buzzer sounded, bypassing the handshake line and customary pleasantries.]]></summary>
         <author>
             <name>Justin Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kryptor – simple, modern, and secure file encryption and signing tool]]></title>
-        <id>https://www.linuxlinks.com/?p=141727</id>
-        <link href="https://www.linuxlinks.com/kryptor-file-encryption-signing-tool/"/>
-        <updated>2025-02-02T19:27:12.000Z</updated>
-        <summary type="html"><![CDATA[Kryptor lets you encrypt multiple files/directories with a passphrase, symmetric key, or asymmetric keys.
-The post Kryptor – simple, modern, and secure file encryption and signing tool appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
         </author>
     </entry>
 </feed>
