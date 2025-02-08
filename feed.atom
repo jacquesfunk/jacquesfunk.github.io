@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-02-08T10:14:40.631Z</updated>
+    <updated>2025-02-08T12:27:54.386Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[VX Linux – systemd-free Plasma desktop distro]]></title>
+        <id>https://www.linuxlinks.com/?p=142105</id>
+        <link href="https://www.linuxlinks.com/vx-linux-systemd-free-plasma-desktop-distro/"/>
+        <updated>2025-02-08T11:04:46.000Z</updated>
+        <summary type="html"><![CDATA[VX Linux is a pre-configured, secure systemd-free Plasma desktop with focus on convenience, performance and simplicity.
+The post VX Linux – systemd-free Plasma desktop distro appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Erik Karlsson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[qr-backup – paper backup of files using QR codes]]></title>
         <id>https://www.linuxlinks.com/?p=142078</id>
@@ -946,17 +957,6 @@ The post QIV – Quick Image Viewer appeared first on LinuxLinks.]]></summary>
         <summary type="html"><![CDATA[Today’s mix is all music from Ghostly International in honor of their recent reissue of Studio’s 2006 record, West Coast. Thanks to Sam Valenti IV for the assistance (check out his newsletter, Herb Sundays]]></summary>
         <author>
             <name>Flow State</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Minisign – sign files and verify signatures]]></title>
-        <id>https://www.linuxlinks.com/?p=141772</id>
-        <link href="https://www.linuxlinks.com/minisign-sign-files-verify-signatures/"/>
-        <updated>2025-02-03T23:23:16.000Z</updated>
-        <summary type="html"><![CDATA[Minisign is a very simple tool to sign files and verify digital signatures.
-The post Minisign – sign files and verify signatures appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
         </author>
     </entry>
 </feed>
