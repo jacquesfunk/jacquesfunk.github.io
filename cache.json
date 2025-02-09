@@ -35,6 +35,16 @@
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
         {
+          "id": "https://www.linuxlinks.com/?p=142123",
+          "author": "Steve Emms",
+          "description": "BinEd is an editor for binary data (hex viewer/editor). It's written in Java so runs under a wide range of platforms.\nThe post BinEd – binary / hex editor appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/bined-binary-hex-editor/",
+          "publishedOn": "2025-02-09T16:45:19.000Z",
+          "wordCount": 4595,
+          "title": "BinEd – binary / hex editor",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2020/09/hex-editor.jpg"
+        },
+        {
           "id": "https://www.linuxlinks.com/?p=142066",
           "author": "Eilidih Parris",
           "description": "Smart.Framework is a practical, modern and high performance PHP / JavaScript Framework for Web featuring Middlewares and MVC.\nThe post Smart.Framework – PHP and JavaScript web framework appeared first on LinuxLinks.",
@@ -450,16 +460,6 @@
           "wordCount": 206,
           "title": "Suspension Bridge",
           "imageUrl": "https://imgs.xkcd.com/comics/suspension_bridge_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/3047/",
-          "author": null,
-          "description": "",
-          "link": "https://xkcd.com/3047/",
-          "publishedOn": "2025-02-05T05:00:00.000Z",
-          "wordCount": 206,
-          "title": "Rotary Tool",
-          "imageUrl": "https://imgs.xkcd.com/comics/rotary_tool_2x.png"
         }
       ]
     },
@@ -725,6 +725,21 @@
       "feedUrl": "http://fox4kc.com/category/weather/weather-blog/feed/",
       "siteUrl": "https://fox4kc.com",
       "articles": [
+        {
+          "id": "https://fox4kc.com/?p=3819475",
+          "author": "Joe Lauria",
+          "description": "It's Super Bowl Sunday and while New Orleans yesterday hit a record 85° at the airport...here in KC we've dumped back into the colder air today and this cold will be with us for awhile it appears. It's one ingredient to the set-up for multiple snow chances into next weekend. There will be a more [...]",
+          "link": "https://fox4kc.com/email-alerts/joes-weather-blog-email-alerts/joes-blog-snowstorms-likely-in-kc-sun-2-9/",
+          "publishedOn": "2025-02-09T17:48:54.000Z",
+          "wordCount": null,
+          "title": "Joe's Blog: Snowstorm(s?) likely in KC (SUN-2/9)",
+          "enclosure": {
+            "url": "https://fox4kc.com/wp-content/uploads/sites/16/2025/02/Capture_3e8e83.png?w=638",
+            "type": "image/png",
+            "length": "977641"
+          },
+          "imageUrl": "https://fox4kc.com/wp-content/uploads/sites/16/2025/02/Capture_3e8e83.png?w=638"
+        },
         {
           "id": "https://fox4kc.com/?p=3818013",
           "author": "Joe Lauria",
