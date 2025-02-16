@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-02-16T10:14:32.135Z</updated>
+    <updated>2025-02-16T12:30:37.444Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bevy – data-driven game engine]]></title>
+        <id>https://www.linuxlinks.com/?p=142435</id>
+        <link href="https://www.linuxlinks.com/bevy-data-driven-game-engine/"/>
+        <updated>2025-02-16T11:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Bevy is a refreshingly simple data-driven game engine built in Rust
+The post Bevy – data-driven game engine appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Exherbo – Linux distribution for developers, tinkerers, and more]]></title>
         <id>https://www.linuxlinks.com/?p=142420</id>
@@ -735,17 +746,6 @@ The post MystiQ – GUI for FFmpeg appeared first on LinuxLinks.]]></summary>
         <summary type="html"><![CDATA[The Royals announced this afternoon that they’ve hired Ned Yost as a senior advisor to general manager JJ Picollo. Yost, the winningest manager in franchise history, returns to the organization six years after retiring as skipper. “My deep love for the Royals, for Kansas City and for the people there never left,” the 69-year-old said…]]></summary>
         <author>
             <name>Anthony Franco</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Plausible – web analytics software]]></title>
-        <id>https://www.linuxlinks.com/?p=142181</id>
-        <link href="https://www.linuxlinks.com/plausible-web-analytics-software/"/>
-        <updated>2025-02-11T23:53:21.000Z</updated>
-        <summary type="html"><![CDATA[Plausible Analytics is an easy to use, lightweight, open source and privacy-friendly alternative to Google Analytics.
-The post Plausible – web analytics software appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
         </author>
     </entry>
 </feed>
