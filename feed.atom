@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-02-17T08:21:58.822Z</updated>
+    <updated>2025-02-17T10:17:49.341Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[mothur – analyze microbial communities]]></title>
+        <id>https://www.linuxlinks.com/?p=142451</id>
+        <link href="https://www.linuxlinks.com/mothur-analyze-microbial-communities/"/>
+        <updated>2025-02-17T08:49:12.000Z</updated>
+        <summary type="html"><![CDATA[mothur fills the bioinformatics needs of the microbial ecology community. It's software for describing and comparing microbial communities.
+The post mothur – analyze microbial communities appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hollie Kenniff (Interview)]]></title>
         <id>https://www.flowstate.fm/p/hollie-kenniff-interview</id>
@@ -638,17 +649,6 @@ The post Kalba – language learning tool appeared first on LinuxLinks.]]></summ
         <updated>2025-02-12T23:43:38.000Z</updated>
         <summary type="html"><![CDATA[Dippi is a tool which can analyze any display. Input a few details and figure out the aspect ratio, DPI, and details of a particular display.
 The post Dippi – calculate display info like DPI and aspect ratio appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[termv – terminal iptv player]]></title>
-        <id>https://www.linuxlinks.com/?p=142262</id>
-        <link href="https://www.linuxlinks.com/termv-terminal-iptv-player/"/>
-        <updated>2025-02-12T20:40:51.000Z</updated>
-        <summary type="html"><![CDATA[termv is a small bash script that allows you to select an iptv stream using fzf and play it using mpv.
-The post termv – terminal iptv player appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Steve Emms</name>
         </author>
