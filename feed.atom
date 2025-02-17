@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-02-17T10:17:49.341Z</updated>
+    <updated>2025-02-17T12:32:18.707Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Decoder – scan and generate QR codes]]></title>
+        <id>https://www.linuxlinks.com/?p=142378</id>
+        <link href="https://www.linuxlinks.com/decoder-scan-generate-qr-codes/"/>
+        <updated>2025-02-17T12:14:03.000Z</updated>
+        <summary type="html"><![CDATA[Decoder is billed as a fancy yet simple QR Codes scanner and generator. It's written in Rust.
+The post Decoder – scan and generate QR codes appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LinuxConsole – lightweight distribution]]></title>
+        <id>https://www.linuxlinks.com/?p=142415</id>
+        <link href="https://www.linuxlinks.com/linuxconsole-lightweight-distribution/"/>
+        <updated>2025-02-17T11:04:03.000Z</updated>
+        <summary type="html"><![CDATA[LinuxConsole is billed as a lightweight Linux distribution for children and kids. 
+The post LinuxConsole – lightweight distribution appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Erik Karlsson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[mothur – analyze microbial communities]]></title>
         <id>https://www.linuxlinks.com/?p=142451</id>
@@ -640,17 +662,6 @@ The post Kalba – language learning tool appeared first on LinuxLinks.]]></summ
         <summary type="html"><![CDATA[Today we’re listening to Pat Keen, an American multi-instrumentalist from Eau Claire, Wisconsin.]]></summary>
         <author>
             <name>Flow State</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dippi – calculate display info like DPI and aspect ratio]]></title>
-        <id>https://www.linuxlinks.com/?p=142178</id>
-        <link href="https://www.linuxlinks.com/dippi-calculate-display-info/"/>
-        <updated>2025-02-12T23:43:38.000Z</updated>
-        <summary type="html"><![CDATA[Dippi is a tool which can analyze any display. Input a few details and figure out the aspect ratio, DPI, and details of a particular display.
-The post Dippi – calculate display info like DPI and aspect ratio appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
         </author>
     </entry>
 </feed>
