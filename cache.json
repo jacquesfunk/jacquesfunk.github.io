@@ -12,6 +12,16 @@
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
         {
+          "id": "https://www.linuxlinks.com/?p=142581",
+          "author": "Erik Karlsson",
+          "description": "Netrunner is a complete Linux Operating System for PCs, laptops/netbooks and ARM microcomputers.\nThe post Netrunner – Debian-based distribution appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/netrunner-debian-based-distribution/",
+          "publishedOn": "2025-02-18T07:32:14.000Z",
+          "wordCount": 4178,
+          "title": "Netrunner – Debian-based distribution",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2024/04/Linux-Distributions.png"
+        },
+        {
           "id": "https://www.linuxlinks.com/?p=142432",
           "author": "Steve Emms",
           "description": "OutFly is an atmospheric, open world, realistic 3D space game that throws you into the Rings of Jupiter with a sportswear space suit.\nThe post OutFly – 3D space game in the rings of Jupiter appeared first on LinuxLinks.",
@@ -370,26 +380,6 @@
           "wordCount": 4549,
           "title": "Flight – fast, simple, extensible framework for PHP",
           "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2022/05/development-tools.jpg"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=142285",
-          "author": "Steve Emms",
-          "description": "The GreenText Generator CLI is a command-line tool built with Go that lets you create classic greentext with ease.\nThe post greentext – create green-text memes appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/greentext-create-green-text-memes/",
-          "publishedOn": "2025-02-13T19:45:22.000Z",
-          "wordCount": 4586,
-          "title": "greentext – create green-text memes",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2020/11/Utility-Applications.png"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=102521",
-          "author": "Steve Emms",
-          "description": "Electronic circuit simulation uses mathematical models to replicate the behavior of an actual electronic device or circuit. We feature the best GUI tools.\nThe post 7 Best Free and Open Source GUI Electronic Circuit Simulators appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/best-free-open-source-gui-electronic-circuit-simulators/",
-          "publishedOn": "2025-02-13T18:35:34.000Z",
-          "wordCount": 4303,
-          "title": "7 Best Free and Open Source GUI Electronic Circuit Simulators",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2023/03/circuit-board-close-up-with-different-components.jpg"
         }
       ]
     },
@@ -624,16 +614,6 @@
           "wordCount": 6847,
           "title": "How To Describe An Ass-Kicking",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2025/02/GettyImages-2198245970.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=181239",
-          "author": "Drew Magary",
-          "description": "Drew Magary’s Thursday Afternoon NFL Dick Joke Jamboroo runs every Thursday at Defector during the NFL season. Got something you wanna contribute? Email the Roo. And buy Drew’s book, The Night The Lights Went Out, through here.\nThere’s a story about me from my days at Gawker Media that still gets told, which is strange because my old employer set an impossibly high bar for internal war stories. To be indoctrinated into Gawker lore, you usually had to either do a shitload of cocaine or get yourself sued.",
-          "link": "https://defector.com/the-art-of-chilling",
-          "publishedOn": "2025-02-13T18:35:48.000Z",
-          "wordCount": 11755,
-          "title": "The Art Of Chilling",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2025/02/GettyImages-526251330.jpg"
         }
       ]
     },
@@ -737,6 +717,22 @@
       "feedUrl": "https://www.flowstate.fm/feed",
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
+        {
+          "id": "https://www.flowstate.fm/p/flow-state-episode-265",
+          "author": "Flow State",
+          "description": "Today’s episode opens with a track by The Album Leaf from the For LA, Vol.",
+          "link": "https://www.flowstate.fm/p/flow-state-episode-265",
+          "publishedOn": "2025-02-18T08:02:20.000Z",
+          "wordCount": null,
+          "title": "Flow State Episode 265",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/157365983/e83222a9d03bae7866f031f977aa3431.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "https://www.flowstate.fm/p/hollie-kenniff-interview",
           "author": "Flow State",
