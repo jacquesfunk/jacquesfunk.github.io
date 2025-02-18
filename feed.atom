@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-02-18T10:16:58.604Z</updated>
+    <updated>2025-02-18T12:31:02.209Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GSConnect – complete implementation of KDE Connect]]></title>
+        <id>https://www.linuxlinks.com/?p=142494</id>
+        <link href="https://www.linuxlinks.com/gsconnect-complete-implementation-kde-connect/"/>
+        <updated>2025-02-18T10:47:47.000Z</updated>
+        <summary type="html"><![CDATA[GSConnect is a complete implementation of KDE Connect, especially for GNOME Shell with Nautilus, Chrome, and Firefox integration. 
+The post GSConnect – complete implementation of KDE Connect appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[13 Best Free and Open Source Linux Video Converters]]></title>
         <id>https://www.linuxlinks.com/?p=32846</id>
@@ -706,17 +717,6 @@ The post Refine – tweak various aspects of GNOME appeared first on LinuxLinks.
         <updated>2025-02-14T05:00:00.000Z</updated>
         <author>
             <name>xkcd.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Paste69 – pastebin tool]]></title>
-        <id>https://www.linuxlinks.com/?p=142269</id>
-        <link href="https://www.linuxlinks.com/paste69-pastebin-tool/"/>
-        <updated>2025-02-13T23:53:11.000Z</updated>
-        <summary type="html"><![CDATA[Paste69 is a modern, Go-based pastebin service. 
-The post Paste69 – pastebin tool appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
         </author>
     </entry>
 </feed>
