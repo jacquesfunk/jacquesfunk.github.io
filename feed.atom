@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-02-20T10:17:06.266Z</updated>
+    <updated>2025-02-20T12:32:03.934Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[multiClock – track the time around the world]]></title>
+        <id>https://www.linuxlinks.com/?p=142578</id>
+        <link href="https://www.linuxlinks.com/multiclock-track-time-world/"/>
+        <updated>2025-02-20T11:47:12.000Z</updated>
+        <summary type="html"><![CDATA[multiClock is software that lets you track the current time in major financial centres around the globe.
+The post multiClock – track the time around the world appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SME Server – Linux Server distribution for small to medium sized enterprises]]></title>
         <id>https://www.linuxlinks.com/?p=142650</id>
@@ -866,17 +877,6 @@ The post Bevy – data-driven game engine appeared first on LinuxLinks.]]></summ
 The post Exherbo – Linux distribution for developers, tinkerers, and more appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Erik Karlsson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[trrc – ToRRential Card processor]]></title>
-        <id>https://www.linuxlinks.com/?p=142353</id>
-        <link href="https://www.linuxlinks.com/trrc-torrential-card-processor/"/>
-        <updated>2025-02-15T23:31:39.000Z</updated>
-        <summary type="html"><![CDATA[ToRRential Card processor (trrc) is a command-line unix-like program to create anki cards using AnkiConnect plugin
-The post trrc – ToRRential Card processor appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
         </author>
     </entry>
 </feed>
