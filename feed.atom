@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-02-23T16:17:09.215Z</updated>
+    <updated>2025-02-23T18:19:21.344Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Warpinator – share files across the LAN]]></title>
+        <id>https://www.linuxlinks.com/?p=142764</id>
+        <link href="https://www.linuxlinks.com/warpinator-share-files-across-lan/"/>
+        <updated>2025-02-23T16:42:44.000Z</updated>
+        <summary type="html"><![CDATA[Warpinator is software which lets you send and receive files across a local network.
+The post Warpinator – share files across the LAN appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Harper – English grammar checker]]></title>
         <id>https://www.linuxlinks.com/?p=142756</id>
@@ -908,26 +919,6 @@ The post 15 Best Free and Open Source Terminal Session Recording appeared first 
         <summary type="html"><![CDATA[Today we’re listening to Longform Editions, an Australian record label.]]></summary>
         <author>
             <name>Flow State</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KM3NeT]]></title>
-        <id>https://xkcd.com/3053/</id>
-        <link href="https://xkcd.com/3053/"/>
-        <updated>2025-02-19T05:00:00.000Z</updated>
-        <author>
-            <name>xkcd.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Machine Learning in Linux: Software Apps]]></title>
-        <id>https://www.linuxlinks.com/?p=102196</id>
-        <link href="https://www.linuxlinks.com/machine-learning-linux/"/>
-        <updated>2025-02-19T04:49:31.000Z</updated>
-        <summary type="html"><![CDATA[This series looks at practical applications of machine learning from a Linux perspective. We feature free and open source software.
-The post Machine Learning in Linux: Software Apps appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
         </author>
     </entry>
 </feed>
