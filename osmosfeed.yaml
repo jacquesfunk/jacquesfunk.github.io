@@ -7,12 +7,9 @@ cacheUrl: https://jacquesfunk.github.io/cache.json
 sources:
   - href: https://www.fangraphs.com/blogs/category/teams/royals/feed/
   - href: https://www.linuxlinks.com/feed/
-  - href: http://xkcd.com/rss.xml
   - href: https://defector.com/feed
-  - href: http://fox4kc.com/category/weather/weather-blog/feed/
   - href: https://www.mlbtraderumors.com/kansas-city-royals/feed
   - href: https://www.kcur.org/tags/local-food.rss
-  - href: https://www.flowstate.fm/feed
   - href: https://www.thepitchkc.com/category/food-drink/feed/
   
 # `siteTitle`: Title to use in the browser tab and the machine readable feed output. (optional)
@@ -24,4 +21,4 @@ siteTitle: "Fake News Site"
 timezone: America/Chicago
 
 # `cacheMaxDays` Max number of days to keep the feed content in cache. A very large value can increase the initial load time of the site. (optional)
-cacheMaxDays: 5
+cacheMaxDays: 10
