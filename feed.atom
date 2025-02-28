@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2025-02-28T10:17:06.458Z</updated>
+    <updated>2025-02-28T12:31:41.278Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Linux Candy: lifecycler – terminal aquarium]]></title>
+        <id>https://www.linuxlinks.com/?p=143034</id>
+        <link href="https://www.linuxlinks.com/linux-candy-lifecycler-terminal-aquarium/"/>
+        <updated>2025-02-28T11:30:02.000Z</updated>
+        <summary type="html"><![CDATA[lifecycler is an aquarium that runs direct in your terminal. It's free and open source goodness written in Rust.
+The post Linux Candy: lifecycler – terminal aquarium appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[P-Table – terminal TUI scientific program]]></title>
+        <id>https://www.linuxlinks.com/?p=143051</id>
+        <link href="https://www.linuxlinks.com/p-table-terminal-tui-scientific-program/"/>
+        <updated>2025-02-28T10:32:12.000Z</updated>
+        <summary type="html"><![CDATA[P-Table is a beautiful TUI periodic table for Linux terminals coded in C with no extra dependencies.
+The post P-Table – terminal TUI scientific program appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GNOME Crosswords – crossword player and editor]]></title>
         <id>https://www.linuxlinks.com/?p=143161</id>
