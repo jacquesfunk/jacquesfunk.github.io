@@ -2,10 +2,110 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-04-09T02:08:50.238Z</updated>
+    <updated>2026-04-09T05:47:47.525Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[6 Useful Free and Open Source Linux Service Discovery Tools]]></title>
+        <id>https://www.linuxlinks.com/?p=151268</id>
+        <link href="https://www.linuxlinks.com/useful-free-open-source-linux-service-discovery-tools/"/>
+        <updated>2026-04-09T05:40:19.000Z</updated>
+        <summary type="html"><![CDATA[Service discovery is the process of automatically finding devices and services on a computer network. 
+The post 6 Useful Free and Open Source Linux Service Discovery Tools appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[James Dyer: Wiring Flymake Diagnostics into a Follow Mode]]></title>
+        <id>https://www.emacs.dyerdwelling.family/emacs/20260409061315-emacs--wiring-flymake-diagnostics-into-a-follow-mode/</id>
+        <link href="https://www.emacs.dyerdwelling.family/emacs/20260409061315-emacs--wiring-flymake-diagnostics-into-a-follow-mode/"/>
+        <updated>2026-04-09T05:13:00.000Z</updated>
+        <summary type="html"><![CDATA[Flymake has been quietly sitting in my config for years doing exactly what it says on the tin, squiggly lines under things that are wrong, and I mostly left it alone. But recently I noticed I was doing the same little dance over and over: spot a warning, squint at the modeline counter, run `M-x flymake-show-buffer-diagnostics`, scroll through the list to find the thing I was actually looking at, then flip back. Two windows, zero connection between them.
+So I wired it up properly, and while I was in there I gave it a set of keybindings that feel right to my muscle memory.
+
+
+The obvious bindings for stepping through errors are `M-n` and `M-p`, and most people using flymake bind exactly those. The problem is that in my config `M-n` and `M-p` are already taken, they step through simply-annotat…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OneFile – file organiser]]></title>
+        <id>https://www.linuxlinks.com/?p=175130</id>
+        <link href="https://www.linuxlinks.com/onefile-file-organiser/"/>
+        <updated>2026-04-09T04:21:28.000Z</updated>
+        <summary type="html"><![CDATA[OneFile is a Python command-line utility that helps keep cluttered directories tidy by automatically placing files into structured subfolders. 
+The post OneFile – file organiser appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aaron Paul and Bryan Cranston Launch Dos Hombres Tequila, Starting With a $40 Blanco and $50 Reposado]]></title>
+        <id>Aaron Paul and Bryan Cranston Launch Dos Hombres Tequila, Starting With a $40 Blanco and $50 Reposado</id>
+        <link href="https://www.foodandwine.com/dos-hombres-tequila-blanco-reposado-11945782"/>
+        <updated>2026-04-09T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Produced in Amatitán, Jalisco, the tequilas are the work of maestro tequilero Julio Cova at Tequilera Tap Distillery.]]></summary>
+        <author>
+            <name>Gina Pace</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fox Host Accuses Trump of ‘Fantastical Thinking’ on Iran]]></title>
+        <id>https://www.mediaite.com/?p=5716392</id>
+        <link href="https://www.mediaite.com/politics/trump/fox-host-accuses-trump-of-fantastical-thinking-on-iran/"/>
+        <updated>2026-04-09T03:31:31.000Z</updated>
+        <summary type="html"><![CDATA[Fox Business host Gerard Baker had pointed words for President Donald Trump after the president struck a hopeful note about the situation in the Middle East.
+The post Fox Host Accuses Trump of ‘Fantastical Thinking’ on Iran first appeared on Mediaite.]]></summary>
+        <author>
+            <name>Michael Luciano</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RFK Jr. Amends ACIP’s Charter In Attempt To Exert More Control Over Panel Members]]></title>
+        <id>https://www.techdirt.com/?p=535009&amp;preview=true&amp;preview_id=535009</id>
+        <link href="https://www.techdirt.com/2026/04/08/rfk-jr-amends-acips-charter-in-attempt-to-exert-more-control-over-panel-members/"/>
+        <updated>2026-04-09T03:08:00.000Z</updated>
+        <summary type="html"><![CDATA[After RFK Jr. found himself getting a rebuke from the court system over his ACIP reorganization from last year, in which the courts issued a preliminary injunction on the vaccine schedule changes ACIP recommended and staying further work from the panel, I’ve been waiting for the government to appeal the order. That appeal has not […]]]></summary>
+        <author>
+            <name>Timothy Geigner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elie Honig Shreds Trump DOJ’s ‘Bogus Argument’ That Pam Bondi Can’t Comply With Subpoena]]></title>
+        <id>https://www.mediaite.com/?p=5716383</id>
+        <link href="https://www.mediaite.com/media/news/elie-honig-shreds-trump-dojs-bogus-argument-that-pam-bondi-cant-comply-with-subpoena/"/>
+        <updated>2026-04-09T03:00:39.000Z</updated>
+        <summary type="html"><![CDATA[CNN’s Elie Honig shredded President Donald Trump’s Department of Justice for claiming that former Attorney General Pam Bondi does not need to comply with a subpoena to answer questions about the Jeffrey Epstein files. Honig joined guest host John King on Wednesday’s edition of The Source to discuss Bondi’s potential appearance before the House Oversight Committee in compliance with a March subpoena the […]
+The post Elie Honig Shreds Trump DOJ’s ‘Bogus Argument’ That Pam Bondi Can’t Comply With Subpoena first appeared on Mediaite.]]></summary>
+        <author>
+            <name>Willa Pope Robbins</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Senator Says GOP Silence on Trump’s ‘Genocide’ Post Shows ‘Just How Bankrupt the Republican Party Has Become’]]></title>
+        <id>https://www.mediaite.com/?p=5716384</id>
+        <link href="https://www.mediaite.com/media/tv/senator-says-gop-silence-on-trumps-genocide-post-shows-just-how-bankrupt-the-republican-party-has-become/"/>
+        <updated>2026-04-09T02:53:16.000Z</updated>
+        <summary type="html"><![CDATA[Sen. Chris Van Hollen ripped his Republican colleagues on Wednesday night, noting their silence in response to a social media post by President Donald Trump.
+The post Senator Says GOP Silence on Trump’s ‘Genocide’ Post Shows ‘Just How Bankrupt the Republican Party Has Become’  first appeared on Mediaite.]]></summary>
+        <author>
+            <name>Michael Luciano</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘It’s My Show, Pal!’ Chris Cuomo Gives Bill O’Reilly an Earful for Telling Him, ‘Keep Quiet!’]]></title>
+        <id>https://www.mediaite.com/?p=5716377</id>
+        <link href="https://www.mediaite.com/media/news/its-my-show-pal-chris-cuomo-gives-bill-oreilly-an-earful-for-telling-him-keep-quiet/"/>
+        <updated>2026-04-09T02:18:26.000Z</updated>
+        <summary type="html"><![CDATA[NewsNation host Chris Cuomo had strong words for Bill O’Reilly on Wednesday as the two traded blows over the extent of Iran’s nuclear capabilities. O’Reilly joined Cuomo to discuss President Donald Trump’s Tuesday announcement that he had agreed to a two-week pause of hostilities with Iran and how negotiations between the two countries might play out. The host asked O’Reilly about comments made […]
+The post ‘It’s My Show, Pal!’ Chris Cuomo Gives Bill O’Reilly an Earful for Telling Him, ‘Keep Quiet!’ first appeared on Mediaite.]]></summary>
+        <author>
+            <name>Willa Pope Robbins</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Disney reportedly eliminating up to 1,000 jobs under new CEO Josh D’Amaro]]></title>
         <id>https://awfulannouncing.com/?p=871687</id>
@@ -22761,523 +22861,6 @@ Read more at Brand Eating!]]></summary>
         <summary type="html"><![CDATA[Tucked away in Litchfield Park, Arizona, Wildlife World Zoo, Aquarium & Safari Park is one of the most impressive animal destinations in the entire Southwest. With over 200 acres packed with exotic animals, a massive aquarium, safari rides, and hands-on encounters, this place goes way beyond a typical zoo visit. Families, couples, and animal lovers […]]]></summary>
         <author>
             <name>Emma Larkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Costco Hot Dog Themed Bourbon Customers Are Buying Just For The Label]]></title>
-        <id>https://www.thetakeout.com/2135793/costco-hot-dog-themed-bourbon-find-label/</id>
-        <link href="https://www.thetakeout.com/2135793/costco-hot-dog-themed-bourbon-find-label/"/>
-        <updated>2026-03-30T17:47:00.000Z</updated>
-        <summary type="html"><![CDATA[Costco just pulled a hilarious and surprisingly effective marketing stunt by releasing a Costco hot dog-themed bourbon which customers quickly ate up.]]></summary>
-        <author>
-            <name>staff@thetakeout.com (Cassie Womack)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[There’s a New Orange Chicken in the Frozen Aisle and I Tried It]]></title>
-        <id>https://sporked.com/?p=64653</id>
-        <link href="https://sporked.com/article/kroger-orange-chicken-review/"/>
-        <updated>2026-03-30T17:42:42.000Z</updated>
-        <summary type="html"><![CDATA[Oh hey, do you like easy dinners? If you’re into just ripping open a bag and dumping something into a pan or air fryer and having a meal (or at least the main part of a meal) ready to go in a few minutes, good news is that Kroger recently released a bunch of new...]]></summary>
-        <author>
-            <name>Gwynedd Stuart</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Where To Find The Best Airport Food In Every State]]></title>
-        <id>https://www.thetakeout.com/2132446/best-airport-food-every-state/</id>
-        <link href="https://www.thetakeout.com/2132446/best-airport-food-every-state/"/>
-        <updated>2026-03-30T17:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Airport food has long had a reputation for being subpar, but these restaurants are changing the game. Here's where to get the best layover meal across the U.S.]]></summary>
-        <author>
-            <name>staff@thetakeout.com (Anais Aguilera)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jack in the Box names Yum Brands veteran Katelyn Zborowski chief marketing officer]]></title>
-        <id>https://www.nrn.com/quick-service/jack-in-the-box-names-yum-brands-veteran-katelyn-zborowski-chief-marketing-officer</id>
-        <link href="https://www.nrn.com/quick-service/jack-in-the-box-names-yum-brands-veteran-katelyn-zborowski-chief-marketing-officer"/>
-        <updated>2026-03-30T17:38:30.000Z</updated>
-        <summary type="html"><![CDATA[The appointment comes as the chain celebrates its 75th anniversary]]></summary>
-        <author>
-            <name>Bret Thorn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Woman retrofits vending machine to dispense random acts of kindness]]></title>
-        <id>https://www.goodgoodgood.co/articles/random-acts-of-kindness-vending-machine</id>
-        <link href="https://www.goodgoodgood.co/articles/random-acts-of-kindness-vending-machine"/>
-        <updated>2026-03-30T17:22:00.000Z</updated>
-        <summary type="html"><![CDATA[What was once a bait and tackle vending machine has been transformed into a colorful attraction dispensing kindness challenges to strangers.]]></summary>
-        <author>
-            <name>Good Good Good</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Chair Exercises That Build Core Strength Faster Than Planks After 60]]></title>
-        <id>https://www.eatthis.com/?p=916900</id>
-        <link href="https://www.eatthis.com/chair-exercises-build-core-strength-after-60/"/>
-        <updated>2026-03-30T17:00:12.000Z</updated>
-        <summary type="html"><![CDATA[If you’re looking to build a strong, resilient core, look no further than chair workouts....
-The post 5 Chair Exercises That Build Core Strength Faster Than Planks After 60 appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Alexa Mellardo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Best Type Of Fish To Use For Homemade Fish Sandwiches]]></title>
-        <id>https://www.thetakeout.com/2131574/best-fish-for-fish-sandwich/</id>
-        <link href="https://www.thetakeout.com/2131574/best-fish-for-fish-sandwich/"/>
-        <updated>2026-03-30T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[When frying fish for a sandwich, the flavor and texture of the fillet are key. Here are the best varieties of fish to fry up, according to a well-known expert.]]></summary>
-        <author>
-            <name>staff@thetakeout.com (Dennis Lee)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I love  these   looping   GIF   animations  from...]]></title>
-        <id>https://kottke.org/26/03/0048291-i-love-these-looping-gif</id>
-        <link href="https://kottke.org/26/03/0048291-i-love-these-looping-gif"/>
-        <updated>2026-03-30T16:53:24.000Z</updated>
-        <summary type="html"><![CDATA[I love these looping GIF animations from perfectl00p that use Windows 3.1 elements (Minesweeper, Solitaire, SkiFree, Notepad).]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Papa Johns rolls out new toasted sandwiches]]></title>
-        <id>https://www.nrn.com/quick-service/papa-johns-rolls-out-new-toasted-sandwiches</id>
-        <link href="https://www.nrn.com/quick-service/papa-johns-rolls-out-new-toasted-sandwiches"/>
-        <updated>2026-03-30T16:52:27.000Z</updated>
-        <summary type="html"><![CDATA[The menu update comes as management acts to simplify operations]]></summary>
-        <author>
-            <name>Bret Thorn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thieves Just Heisted 12 TONS of Kit Kat Bars, Here’s How It Could Affect You]]></title>
-        <id>https://sporked.com/?p=64646</id>
-        <link href="https://sporked.com/article/kit-kat-heist-europe-march-2026/"/>
-        <updated>2026-03-30T16:46:15.000Z</updated>
-        <summary type="html"><![CDATA[Sure, three paintings by Renoir, Cezanne, and Matisse that are worth millions were just stolen in a heist in Italy. But that’s not important. You can’t eat a painting. What we’re concerned about is much more delicious and much more likely to affect our own lives: A 12-ton shipment of Kit Kat bars was stolen...]]></summary>
-        <author>
-            <name>Justine Sterling</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Add pecans for premium flavor]]></title>
-        <id>https://www.nrn.com/supplier-news/add-pecans-for-premium-flavor</id>
-        <link href="https://www.nrn.com/supplier-news/add-pecans-for-premium-flavor"/>
-        <updated>2026-03-30T16:41:55.000Z</updated>
-        <summary type="html"><![CDATA[Operators can enhance menu items with these buttery rich tree nuts year-round]]></summary>
-        <author>
-            <name>nrn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[10 Harsh Rules Chefs On Hell's Kitchen Must Follow]]></title>
-        <id>https://www.thetakeout.com/2132349/harsh-rules-hells-kitchen-chefs-follow/</id>
-        <link href="https://www.thetakeout.com/2132349/harsh-rules-hells-kitchen-chefs-follow/"/>
-        <updated>2026-03-30T16:40:00.000Z</updated>
-        <summary type="html"><![CDATA[If you thought it was tough being on the receiving end of Gordan Ramsay's ire, there are even more rules for Hell's Kitchen contestants behind the scenes.]]></summary>
-        <author>
-            <name>staff@thetakeout.com (Rachel Sobel)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Florida greenhouse approach helps gardeners grow more with less stress]]></title>
-        <id>https://fastfoodclub.com/?p=134777</id>
-        <link href="https://fastfoodclub.com/p/this-florida-greenhouse-approach-helps-gardeners-grow-more-with-less-stress/"/>
-        <updated>2026-03-30T16:35:00.000Z</updated>
-        <summary type="html"><![CDATA[Tucked away in North Fort Myers, Florida, the ECHO North America Impact Center is changing the way people think about growing food. This incredible nonprofit organization uses creative greenhouse and farming techniques to help gardeners and small-scale farmers succeed even in tough conditions. Whether you are a curious beginner or a seasoned gardener, ECHO offers […]]]></summary>
-        <author>
-            <name>David Coleman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Smashburger named Official Smashburger of the Colorado Rockies for 2026 MLB Season]]></title>
-        <id>https://www.nrn.com/marketing-branding/smashburger-named-official-smashburger-of-the-colorado-rockies-for-2026-mlb-season</id>
-        <link href="https://www.nrn.com/marketing-branding/smashburger-named-official-smashburger-of-the-colorado-rockies-for-2026-mlb-season"/>
-        <updated>2026-03-30T16:34:24.000Z</updated>
-        <summary type="html"><![CDATA[PRESS RELEASE: Fan-focused promotion offers game attendees free burgers and hot dogs when Rockies hit home runs at home games]]></summary>
-        <author>
-            <name>nrn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wendy’s has upgraded its chicken sandwiches]]></title>
-        <id>https://www.nrn.com/quick-service/wendy-s-has-upgraded-its-chicken-sandwiches</id>
-        <link href="https://www.nrn.com/quick-service/wendy-s-has-upgraded-its-chicken-sandwiches"/>
-        <updated>2026-03-30T16:31:30.000Z</updated>
-        <summary type="html"><![CDATA[The change includes a new buttery potato bun, which is also available across the chain’s entire sandwich lineup]]></summary>
-        <author>
-            <name>Alicia Kelso</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 6-Minute Morning Routine That Restores Hip Mobility Faster Than Floor Stretches After 55]]></title>
-        <id>https://www.eatthis.com/?p=916736</id>
-        <link href="https://www.eatthis.com/morning-routine-restores-hip-mobility-after-55/"/>
-        <updated>2026-03-30T16:30:39.000Z</updated>
-        <summary type="html"><![CDATA[If the first few steps in the morning feel stiff and cumbersome, you’re not alone....
-The post The 6-Minute Morning Routine That Restores Hip Mobility Faster Than Floor Stretches After 55 appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Adam Meyer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pushing Education]]></title>
-        <id>https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/pushing-education</id>
-        <link href="https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/pushing-education"/>
-        <updated>2026-03-30T16:28:45.000Z</updated>
-        <summary type="html"><![CDATA[Teachers and Classes]]></summary>
-        <author>
-            <name>Daily Findings | National Affairs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This California breakfast spot serves cinnamon rolls so big people end up talking about them all day]]></title>
-        <id>https://fastfoodclub.com/?p=134760</id>
-        <link href="https://fastfoodclub.com/p/this-california-breakfast-spot-serves-cinnamon-rolls-so-big-people-end-up-talking-about-them-all-day/"/>
-        <updated>2026-03-30T16:27:00.000Z</updated>
-        <summary type="html"><![CDATA[Tucked along the sunny streets of Pismo Beach, California, Old West Cinnamon Rolls has been winning hearts since 1973. With a 4.7-star rating and thousands of glowing reviews, this beloved bakery on Dolliver Street is the kind of place that stops you in your tracks the moment the smell hits you. The rolls are massive, […]]]></summary>
-        <author>
-            <name>Evan Cook</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Texas barbecue spot serves brisket so good people plan road trips around it]]></title>
-        <id>https://fastfoodclub.com/?p=134744</id>
-        <link href="https://fastfoodclub.com/p/this-texas-barbecue-spot-serves-brisket-so-good-people-plan-road-trips-around-it/"/>
-        <updated>2026-03-30T16:18:00.000Z</updated>
-        <summary type="html"><![CDATA[Somewhere on East 11th Street in Austin, Texas, a line forms before the sun gets too high — and it forms for a reason. Franklin Barbecue has become one of the most talked-about BBQ joints in the entire country, drawing fans from every state and even from overseas. People fly in from California, drive from […]]]></summary>
-        <author>
-            <name>Marco Rinaldi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pitch]]></title>
-        <id>https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/pitch</id>
-        <link href="https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/pitch"/>
-        <updated>2026-03-30T16:13:45.000Z</updated>
-        <summary type="html"><![CDATA[Consumers and Marketing]]></summary>
-        <author>
-            <name>Daily Findings | National Affairs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This old-school Florida seafood spot is where locals go when they want the freshest catch without the hype]]></title>
-        <id>https://fastfoodclub.com/?p=134728</id>
-        <link href="https://fastfoodclub.com/p/this-old-school-florida-seafood-spot-is-where-locals-go-when-they-want-the-freshest-catch-without-the-hype/"/>
-        <updated>2026-03-30T16:08:33.000Z</updated>
-        <summary type="html"><![CDATA[Tucked along South Tamiami Trail in Sarasota, Walt’s Fish Market & Restaurant has been a beloved local institution for generations. With a 4.6-star rating from nearly 8,000 reviews, this no-frills seafood spot proves that great food speaks louder than fancy decor. Locals keep coming back because Walt’s delivers the kind of honest, fresh-off-the-boat seafood that […]]]></summary>
-        <author>
-            <name>David Coleman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Red Bull Apple Edition Just Returned, But Not in America]]></title>
-        <id>https://sporked.com/?p=64442</id>
-        <link href="https://sporked.com/article/red-bull-apple-edition-debuts-in-uk/"/>
-        <updated>2026-03-30T16:07:26.000Z</updated>
-        <summary type="html"><![CDATA[Last year, Red Bull fans across the globe were rocked with a brand-first innovation. Red Bull Winter Edition 2025 featured the very first multicolored gradient can design, shattering our ideas of what was possible in energy drink labeling science. Gone are the days of struggling to discern five different concurrently-sold “blue” Red Bull cans; with...]]></summary>
-        <author>
-            <name>Griffin Parker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[If You Can Master These 4 Morning Exercises at 55, You’re Fitter Than Most 45-Year-Olds]]></title>
-        <id>https://www.eatthis.com/?p=916703</id>
-        <link href="https://www.eatthis.com/morning-exercises-fitness-test-after-55/"/>
-        <updated>2026-03-30T16:00:34.000Z</updated>
-        <summary type="html"><![CDATA[When most people think about aging and fitness, they imagine a steep decline in strength...
-The post If You Can Master These 4 Morning Exercises at 55, You’re Fitter Than Most 45-Year-Olds appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Adam Meyer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How To Order Extra Crispy McNuggets At McDonald's — And Why You Might Not Want To]]></title>
-        <id>https://www.thetakeout.com/2131558/how-order-extra-crispy-mcnuggets-mcdonald/</id>
-        <link href="https://www.thetakeout.com/2131558/how-order-extra-crispy-mcnuggets-mcdonald/"/>
-        <updated>2026-03-30T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[There's a trend going viral on social media which has people ordering Chicken McNuggets extra crispy at McDonald's. Here's how to do it, and why you shouldn't.]]></summary>
-        <author>
-            <name>staff@thetakeout.com (Laura Christine Allan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dr Pepper Tic Tac Review]]></title>
-        <id>https://www.theimpulsivebuy.com/wordpress/?p=76517</id>
-        <link href="https://www.theimpulsivebuy.com/wordpress/2026/03/30/dr-pepper-tic-tac-review/"/>
-        <updated>2026-03-30T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It took well over a century, but the good Doctor Pepper has finally released his iconic twenty-three flavored elixir in pill form. That’s right, the long-awaited third flavor in the Soda Tic Tac trilogy is Dr Pepper. I was a fan of the Coke one, but hated the Sprite. If we’re just going off the […]]]></summary>
-        <author>
-            <name>Vin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New at Burger King: Double Candied Maple Bacon, Egg & Cheese Croissan'wich]]></title>
-        <id>https://www.brandeating.com/2026/03/burger-king-new-double-candied-maple-bacon-egg-and-cheese-croissanwich.html</id>
-        <link href="https://www.brandeating.com/2026/03/burger-king-new-double-candied-maple-bacon-egg-and-cheese-croissanwich.html"/>
-        <updated>2026-03-30T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Burger King adds Candied Maple Bacon to its breakfast menu with the arrival of the new Double Candied Maple Bacon, Egg & Cheese Croissan'wich and the new Candied Maple Bacon Burrito Jr.
-
-The Double Candied Maple Bacon, Egg, & Cheese Croissan'wich (pictured) features a double portion of crispy Candied Maple Bacon, eggs, and a slice of American cheese on a toasted croissant. Prices vary with location, but it costs $6.39 near me in Los Angeles.
-The Candied Maple Bacon Burrito Jr. features four half-strips of Candied Maple Bacon, eggs, American cheese, and hash browns wrapped in a flour tortilla. It's priced at $2.99 near me.
-Both breakfast items are available now for a limited time at participating locations nationwide.
-Nutritional Info - Double Candied Maple Bacon, Egg & Cheese Croissan'wich (151g)
-Calories - 440
-Fat - 24g (Saturated Fat - 12g)
-Sodium - 980mg
-Carbs - 37g (Sugar - 12g)
-Protein - 19g
-Nutritional Info - Candied Maple Bacon Burrito Jr. (153g)
-Calories - 430
-Fat - 22g (Saturated Fat - 8g)
-Sodium - 1180mg
-Carbs - 36g (Sugar - 10g)
-Protein - 19g
-Photo via Burger King.
-Read more at Brand Eating!]]></summary>
-        <author>
-            <name>Brand Eating. Your Daily Fast Food Reading.</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Nevada burger joint serves the kind of burgers locals call the best in the state]]></title>
-        <id>https://fastfoodclub.com/?p=134712</id>
-        <link href="https://fastfoodclub.com/p/this-nevada-burger-joint-serves-the-kind-of-burgers-locals-call-the-best-in-the-state/"/>
-        <updated>2026-03-30T15:54:00.000Z</updated>
-        <summary type="html"><![CDATA[Tucked along South Virginia Street in Reno, Nevada, Beefy’s is the kind of place that looks small on the outside but delivers enormous flavor on the inside. With over 1,500 glowing reviews and a 4.5-star rating, this casual burger joint has earned a loyal following of locals who swear it serves the best burgers in […]]]></summary>
-        <author>
-            <name>Sofia Delgado</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Charles Choi: Announcing Anju]]></title>
-        <id>http://yummymelon.com/devnull/announcing-anju.html</id>
-        <link href="http://yummymelon.com/devnull/announcing-anju.html"/>
-        <updated>2026-03-30T15:45:00.000Z</updated>
-        <summary type="html"><![CDATA[The recent post “You don’t not need the mouse” by noa ks speaks to a sentiment that I’ve had for some time. Using the mouse in Emacs can be a good, daresay delightful, experience. Unfortunately though, Emacs has antiquated default settings that presume we’re all still using a 90’s style 3-button workstation mouse. In addition, the overreliance on reusing menu keymaps for both the main and context menus results in poor user experience. I feel strongly that context menus populated this way feel more like an inventory than a thoughtful selection of commands relevant to context.
-Thankfully, Emacs offers the mechanisms to sculpt mouse interactions to contemporary (circa 2026) expectations. Over the past three years, I’ve taken advantage of them to implement the following features:
-Mode Line
-Right mouse click on blank space to pop-up a window management menu
-Left mouse click on buffer name to pop-up a customizable list of buffers
-Double click on blank space to toggle current window to maximize or return to prior window configuration
-Context Menu
-Context-aware commands for selected text (use-region-p)
-Context-aware commands for Org and Dired mode
-Main Menu
-Add Bookmarks menu
-Reorganize Help menu
-Several months ago, I decided these mouse interaction changes should be generalized into a package that others could use. So began the Anju project.
-Today I’m happy to announce that Anju v1.0 is now available on MELPA.
-Learn more details about Anju in its User Guide.
-As Anju is new, I’m always open to constructive feedback on it. Let me know what you think. Work on Anju is ongoing with the plan to keep adding improvements to it over time, in particular with supporting more context menus for different modes.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Tennessee Greenhouse and Garden Center Is Becoming the First Stop for Locals Who Want Rare Plants and Fresh Inspiration]]></title>
-        <id>https://fastfoodclub.com/?p=134696</id>
-        <link href="https://fastfoodclub.com/p/this-tennessee-greenhouse-and-garden-center-is-becoming-the-first-stop-for-locals-who-want-rare-plants-and-fresh-inspiration/"/>
-        <updated>2026-03-30T15:43:23.000Z</updated>
-        <summary type="html"><![CDATA[Tucked along NW Broad Street in Murfreesboro, Tennessee, Martin’s Home & Garden has quietly grown into one of the most beloved plant destinations in the region. Whether you’re hunting for a rare houseplant, stocking up on seasonal flowers, or just looking for a little weekend inspiration, this locally owned gem seems to have it all. […]]]></summary>
-        <author>
-            <name>Caleb Whitaker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Watch eliminates chief operations role]]></title>
-        <id>https://www.nrn.com/family-dining/first-watch-eliminates-chief-operations-role</id>
-        <link href="https://www.nrn.com/family-dining/first-watch-eliminates-chief-operations-role"/>
-        <updated>2026-03-30T15:34:41.000Z</updated>
-        <summary type="html"><![CDATA[The company’s operations leadership will now report directly to CEO Chris Tomasso]]></summary>
-        <author>
-            <name>Alicia Kelso</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dave Pearson: blogmore.el v2.1]]></title>
-        <id>https://blog.davep.org/2026/03/30/blogmore-el-v2-1.html</id>
-        <link href="https://blog.davep.org/2026/03/30/blogmore-el-v2-1.html"/>
-        <updated>2026-03-30T15:20:22.000Z</updated>
-        <summary type="html"><![CDATA[I've given blogmore.el a wee bump
-to v2.1. This release fixes a small problem I noticed today when I tried to
-use it to edit the tags for a post on my
-photoblog: the code
-to find and gather properties from posts didn't handle deeply-nested
-directory hierarchies for the post markdown files. I should have noticed
-this when I first wrote the code, but of course I was so busy testing
-against my primary blog, which only goes one sub-level deep, that I never
-noticed it wasn't going to work deeper.
-So rather than using grep to look for things like foo/**/*.md I swapped
-to a combination of find and grep. Which works, but is slightly (but
-noticeably) slower.
-Then I got to thinking that if I was doing this by hand, on the command
-line, I'd be using ripgrep anyway.
-Given this I might as well use it here. Of course, not everyone who might
-use blogmore.el will have rg installed so it makes sense to look for
-that and use it if it's available, otherwise fall back on find/grep.
-There's still some low-priority cleaning up I want to do around this; an
-obvious change I want to make being one where I want to collapse all cases
-of the same word (Tree vs tree, etc) into one "hit"1. For now though, as
-always, it's working well enough for my needs and this change fixed an
-obvious issue I ran into.
-BlogMore itself takes care of this, but
-it would be nice to have the prompt in blogmore.el also take this into
-account. ↩]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Crumbl Is Bringing Back Their Almost Everything Bagel Cookie—and This Time There’s a Twist]]></title>
-        <id>https://sporked.com/?p=64626</id>
-        <link href="https://sporked.com/article/crumbl-almost-everything-bagel-cookie-2026/"/>
-        <updated>2026-03-30T15:06:23.000Z</updated>
-        <summary type="html"><![CDATA[The king of rotating menus and innovative baked goods, Utah-based Crumbl Cookies has featured a TON of flavors of cookies over the years (our research tells us over 300), many of which we are huge fans of! And today, we’re talking about one of Crumbl’s more polarizing, controversial flavors—Almost Everything Bagel—which is returning this week...]]></summary>
-        <author>
-            <name>Tyler Bowers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Boka Restaurant Group opens Gingie in Chicago]]></title>
-        <id>https://www.nrn.com/independent-restaurants/boka-restaurant-group-opens-gingie-in-chicago</id>
-        <link href="https://www.nrn.com/independent-restaurants/boka-restaurant-group-opens-gingie-in-chicago"/>
-        <updated>2026-03-30T15:02:12.000Z</updated>
-        <summary type="html"><![CDATA[The River North restaurant features the food of Brian Lockwood, consulting chef for ‘The Bear’]]></summary>
-        <author>
-            <name>Bret Thorn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Standing Exercises That Build Thigh Strength Faster Than Lunges After 60]]></title>
-        <id>https://www.eatthis.com/?p=908181</id>
-        <link href="https://www.eatthis.com/standing-exercises-build-thigh-strength-after-60/"/>
-        <updated>2026-03-30T15:00:44.000Z</updated>
-        <summary type="html"><![CDATA[When the conversation about building leg strength strikes up, lunges usually come up right away....
-The post 5 Standing Exercises That Build Thigh Strength Faster Than Lunges After 60 appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Jarrod Nobbe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why You Must Choose Your Bread Wisely When Making A Tuna Melt]]></title>
-        <id>https://www.thetakeout.com/2131496/tuna-melt-bread-tip-best-thickness/</id>
-        <link href="https://www.thetakeout.com/2131496/tuna-melt-bread-tip-best-thickness/"/>
-        <updated>2026-03-30T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A tuna melt is at its best when you pick the ingredients with intention, and the bread is a primary player. Here's what Andrew Zimmern looks for.]]></summary>
-        <author>
-            <name>staff@thetakeout.com (Sarah Sierra-Mohamed)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The quiet Florida island where time seems to slow down in the best possible way]]></title>
-        <id>https://fastfoodclub.com/?p=134680</id>
-        <link href="https://fastfoodclub.com/p/the-quiet-florida-island-where-time-seems-to-slow-down-in-the-best-possible-way/"/>
-        <updated>2026-03-30T14:57:00.000Z</updated>
-        <summary type="html"><![CDATA[Tucked along Florida’s southwest coast, Gasparilla Island is the kind of place that makes you forget your phone exists. Known locally as Boca Grande, this tranquil barrier island stretches about seven miles and feels worlds away from the busy theme parks and crowded resort strips most people associate with Florida. Here, the biggest decisions of […]]]></summary>
-        <author>
-            <name>David Coleman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[20 Foods That Look Questionable – But Always Get Finished First]]></title>
-        <id>https://fastfoodclub.com/?p=134517</id>
-        <link href="https://fastfoodclub.com/p/20-foods-that-look-questionable-but-always-get-finished-first/"/>
-        <updated>2026-03-30T14:57:00.000Z</updated>
-        <summary type="html"><![CDATA[Ever notice how the homeliest dishes disappear first at a party? The ones that look a little messy, oddly shaped, or kind of gloopy tend to draw the biggest crowd once someone takes that first brave scoop. This list celebrates those perfectly imperfect favorites that never fail to get demolished. Grab a plate and lean […]]]></summary>
-        <author>
-            <name>Marco Rinaldi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Arizona town has a down-home restaurant that still feels refreshingly untouched]]></title>
-        <id>https://fastfoodclub.com/?p=134662</id>
-        <link href="https://fastfoodclub.com/p/this-arizona-town-has-a-down-home-restaurant-that-still-feels-refreshingly-untouched/"/>
-        <updated>2026-03-30T14:48:00.000Z</updated>
-        <summary type="html"><![CDATA[Tucked along the famous Whiskey Row in downtown Prescott, Arizona, The Palace Restaurant and Saloon is a place where history and good food come together in the most natural way. Built in the 1870s, this beloved spot is considered the oldest bar and business in the entire state of Arizona. Whether you’re a history buff, […]]]></summary>
-        <author>
-            <name>Emma Larkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This California coastal town is becoming one of the best places to retire without giving up beauty or walkability]]></title>
-        <id>https://fastfoodclub.com/?p=134628</id>
-        <link href="https://fastfoodclub.com/p/this-california-coastal-town-is-becoming-one-of-the-best-places-to-retire-without-giving-up-beauty-or-walkability/"/>
-        <updated>2026-03-30T14:37:00.000Z</updated>
-        <summary type="html"><![CDATA[Tucked along California’s stunning Central Coast, San Luis Obispo — affectionately called SLO — is quietly earning a reputation as one of the best places in the country to retire. With year-round mild weather, walkable streets, vibrant culture, and breathtaking scenery, it offers retirees a lifestyle that feels both relaxed and exciting. Whether you love […]]]></summary>
-        <author>
-            <name>Evan Cook</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Nevada burger spot is serving the kind of burger locals insist belongs at the top of every must-try list]]></title>
-        <id>https://fastfoodclub.com/?p=134615</id>
-        <link href="https://fastfoodclub.com/p/this-nevada-burger-spot-is-serving-the-kind-of-burger-locals-insist-belongs-at-the-top-of-every-must-try-list/"/>
-        <updated>2026-03-30T14:28:00.000Z</updated>
-        <summary type="html"><![CDATA[Tucked along Prater Way in Sparks, Nevada, Scoopers Drive-In has been winning over burger lovers for decades. With a 4.5-star rating from over 2,400 reviews, this retro-style spot is clearly doing something right. From loaded burgers and crispy fries to legendary milkshakes, Scoopers keeps locals coming back again and again. If you have not visited […]]]></summary>
-        <author>
-            <name>Sofia Delgado</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[At this Florida wildlife park, you can get close enough to feed animals most people only see from a distance]]></title>
-        <id>https://fastfoodclub.com/?p=134646</id>
-        <link href="https://fastfoodclub.com/p/at-this-florida-wildlife-park-you-can-get-close-enough-to-feed-animals-most-people-only-see-from-a-distance/"/>
-        <updated>2026-03-30T14:27:31.000Z</updated>
-        <summary type="html"><![CDATA[Tucked away in Kenansville, Florida, Wild Florida Adventure Park is the kind of place that makes you feel like you have stepped into a nature documentary. From feeding a towering giraffe to holding a baby alligator in your hands, the experiences here go way beyond anything you would find at a typical zoo. Families, wildlife […]]]></summary>
-        <author>
-            <name>David Coleman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[22 Meals That Instantly Show You Were Raised on “No Waste” Cooking]]></title>
-        <id>https://fastfoodclub.com/?p=134498</id>
-        <link href="https://fastfoodclub.com/p/22-meals-that-instantly-show-you-were-raised-on-no-waste-cooking/"/>
-        <updated>2026-03-30T14:25:00.000Z</updated>
-        <summary type="html"><![CDATA[If you grew up watching every scrap turn into dinner, these meals will feel like home. They prove flavor does not come from fancy cuts but from a little heat, a little time, and a can-do spirit. You will see how bones, peels, crumbs, and drippings become comfort food that stretches paychecks and warms kitchens. […]]]></summary>
-        <author>
-            <name>Evan Cook</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Trump’s expansion of federal power threatens states’ authority]]></title>
-        <id>https://kansasreflector.com/?post_type=republished&amp;p=58984</id>
-        <link href="https://kansasreflector.com/2026/03/30/repub/how-trumps-expansion-of-federal-power-threatens-states-authority/"/>
-        <updated>2026-03-30T14:24:02.000Z</updated>
-        <summary type="html"><![CDATA[As the United States of America marks its 250th anniversary this year, the relationship between the states and the federal government is approaching a breaking point. Led by a bellicose president, the executive branch has moved to dominate states, resulting in more than a year of escalating confrontations between the two levels of government. President […]]]></summary>
-        <author>
-            <name>Jonathan Shorman, Kevin Hardy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The small Tennessee town where one restaurant became just as famous as the place itself]]></title>
-        <id>https://fastfoodclub.com/?p=134598</id>
-        <link href="https://fastfoodclub.com/p/the-small-tennessee-town-where-one-restaurant-became-just-as-famous-as-the-place-itself/"/>
-        <updated>2026-03-30T14:18:16.000Z</updated>
-        <summary type="html"><![CDATA[Pigeon Forge, Tennessee is known for Dollywood, mountain views, and a busy strip of attractions that draws millions of visitors every year. But tucked beside a quiet creek, one restaurant has quietly built a legend all its own. The Old Mill Restaurant at 164 Old Mill Ave has earned over 32,000 five-star reviews and a […]]]></summary>
-        <author>
-            <name>Caleb Whitaker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Lisp Machines!]]></title>
-        <id>https://irreal.org/blog/?p=13707</id>
-        <link href="https://irreal.org/blog/?p=13707"/>
-        <updated>2026-03-30T14:13:41.000Z</updated>
-        <summary type="html"><![CDATA[history of the Lisp machines from their birth to their demise. They were hundreds—perhaps thousands—of times slower than today’s cheap laptop but they were built by and for hackers and everything was user customizable just as with Emacs. Even the microcode could be reprogrammed. Joe Marshall has a great post that describes his reprogramming the Lisp Machne microcode to break DES.
-
-
-This customizability was a huge benefit that every Emacs user will identify with. If the software didn’t support what you needed it to do, you could simply change it—even at the microcode level—to get the behavior you needed.
-
-
-Ketrainis’ video is 45 minutes, 21 seconds longs so you’ll definitely need to schedule some time but if you have any interest in Lisp Machines, it’s worth your while.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
