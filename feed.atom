@@ -2,10 +2,102 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-04-14T08:00:27.189Z</updated>
+    <updated>2026-04-14T09:43:20.840Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Is Brunch Dead? One of America’s Most Influential Brunch Restaurants Is Closing This Month]]></title>
+        <id>Is Brunch Dead? One of America’s Most Influential Brunch Restaurants Is Closing This Month</id>
+        <link href="https://www.foodandwine.com/brunch-restaurant-milktooth-closing-11949127"/>
+        <updated>2026-04-14T09:30:00.000Z</updated>
+        <summary type="html"><![CDATA[After a 12-year love affair with breakfast fare, Milktooth in Indianapolis calls it quits. In its place, a Southern meat-and-three takes shape.]]></summary>
+        <author>
+            <name>Jolene Ketzenberger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[16 Best Free and Open Source Linux Web Servers]]></title>
+        <id>https://www.linuxlinks.com/?p=58177</id>
+        <link href="https://www.linuxlinks.com/best-free-open-source-web-servers/"/>
+        <updated>2026-04-14T09:27:45.000Z</updated>
+        <summary type="html"><![CDATA[The main function of a web server is to display website content through storing, processing and delivering webpages to users. Here's our verdict on the best free and open source web servers.
+The post 16 Best Free and Open Source Linux Web Servers appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘What the F*ck?!’ Jon Stewart Fears He’s the Dying ‘Leper’ in Trump’s Jesus Meme]]></title>
+        <id>https://www.mediaite.com/?p=5717782</id>
+        <link href="https://www.mediaite.com/media/tv/what-the-fck-jon-stewart-fears-hes-the-dying-leper-in-trumps-jesus-meme/"/>
+        <updated>2026-04-14T09:21:25.000Z</updated>
+        <summary type="html"><![CDATA[Jon Stewart awkwardly noticed that he bore an uncanny resemblance to the bedridden patient being "healed" by President Donald Trump.
+The post ‘What the F*ck?!’ Jon Stewart Fears He’s the Dying ‘Leper’ in Trump’s Jesus Meme first appeared on Mediaite.]]></summary>
+        <author>
+            <name>David Gilmour</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wine vs. Beer vs. Spirits: Which Drink Is Linked to the Lowest Health Risk?]]></title>
+        <id>Wine vs. Beer vs. Spirits: Which Drink Is Linked to the Lowest Health Risk?</id>
+        <link href="https://www.foodandwine.com/wine-vs-beer-vs-spirits-health-risk-study-11948454"/>
+        <updated>2026-04-14T09:01:00.000Z</updated>
+        <summary type="html"><![CDATA[A 13-year study of more than 340,000 adults found that low-to-moderate drinking was associated with markedly different outcomes by beverage type, particularly for cardiovascular mortality.]]></summary>
+        <author>
+            <name>Andi Breitowich</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kansas Republicans go all in on defunding the police as exhausting 2026 session burns itself out]]></title>
+        <id>https://kansasreflector.com/?p=59382</id>
+        <link href="https://kansasreflector.com/2026/04/14/kansas-republicans-go-all-in-on-defunding-the-police-as-exhausting-2026-session-burns-itself-out/"/>
+        <updated>2026-04-14T08:33:48.000Z</updated>
+        <summary type="html"><![CDATA[Forget Ad Astra per Aspera as the official Kansas motto. Bring on Exhaustum et Stultus. Or if you want to translate the Latin into English: Exhausting and Foolish. That’s this journalist’s suggestion after watching the Kansas Legislature go out in a spasm of dysfunction early Saturday, with senators and representatives clashing over yet another doomed […]]]></summary>
+        <author>
+            <name>Clay Wirestone</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Archium Linux – Arch-based distribution]]></title>
+        <id>https://www.linuxlinks.com/?p=176840</id>
+        <link href="https://www.linuxlinks.com/archium-linux-arch-based-distribution/"/>
+        <updated>2026-04-14T08:19:39.000Z</updated>
+        <summary type="html"><![CDATA[Archium Linux is an Arch-based Linux distribution designed to simplify installation and initial system setup
+The post Archium Linux – Arch-based distribution appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Erik Karlsson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dave Pearson: wordcloud.el v1.4]]></title>
+        <id>https://blog.davep.org/2026/04/14/wordcloud-el-v1-4.html</id>
+        <link href="https://blog.davep.org/2026/04/14/wordcloud-el-v1-4.html"/>
+        <updated>2026-04-14T07:47:39.000Z</updated>
+        <summary type="html"><![CDATA[I think I'm mostly caught up with the collection of Emacs
+Lisp packages that need updating and
+tidying, which means yesterday
+evening's clean-up should be one of the last (although I would like to
+revisit a couple and actually improve and extend them at some point).
+As for what I cleaned up yesterday:
+wordcloud.el. This is a package
+that, when run in a buffer, will count the frequency of words in that buffer
+and show the results in a fresh window, complete with the "word cloud"
+differing-font-size effect.
+
+This package is about 10 years old at this point, and I'm struggling to
+remember why I wrote it now. I know I was doing something -- either
+writing something or reviewing it -- and the frequency of some words was
+important. I also remember this doing the job just fine and solving the
+problem I needed to solve.
+Since then it's just sat around in my personal library of stuff I've written
+in Emacs Lisp, not really used. I imagine that's where it's going back to,
+but at least it's cleaned up and should be functional for a long time to
+come.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Tengine – distribution of nginx]]></title>
         <id>https://www.linuxlinks.com/?p=174814</id>
@@ -26414,182 +26506,6 @@ The post Former Army Chief of Staff Canned By Hegseth Pens Farewell Letter: Mili
         <summary type="html"><![CDATA[Dr. Jennifer Lincoln wants everyone to know there is still progress being made in women’s health.]]></summary>
         <author>
             <name>Good Good Good</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[‘Terminated!’: Trump Brags ‘Massive Strike’ Has Killed Iran’s Military Leaders]]></title>
-        <id>https://www.mediaite.com/?p=5715145</id>
-        <link href="https://www.mediaite.com/politics/terminated-trump-brags-massive-strike-has-killed-irans-military-leaders/"/>
-        <updated>2026-04-04T21:41:28.000Z</updated>
-        <summary type="html"><![CDATA[The president shared footage of Tehran ablaze following multiple missile strikes on Saturday, which Trump said killed several top Iranian military officials
-The post ‘Terminated!’: Trump Brags ‘Massive Strike’ Has Killed Iran’s Military Leaders first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Sean James</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trader Joe’s Cookie Dough Ice Cream Bites Are Going Viral—Here’s What to Know]]></title>
-        <id>https://sporked.com/?p=65156</id>
-        <link href="https://sporked.com/article/trader-joes-cookie-dough-ice-cream-bites-early-reviews/"/>
-        <updated>2026-04-04T21:31:34.000Z</updated>
-        <summary type="html"><![CDATA[Every so often Trader Joe’s drops a new item that really sets the internet on fire. This time, it’s the new Cookie Dough Ice Cream Bites. Here’s everything we know about these new Trader Joe’s sweet treats and what people are saying about them so far (stay tuned for the official Sporked review, coming soon). ...]]></summary>
-        <author>
-            <name>Justine Sterling</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Questions swirl around Inter Miami’s decision not to credential journalist Franco Panizo]]></title>
-        <id>https://awfulannouncing.com/?p=869737</id>
-        <link href="https://awfulannouncing.com/mls/inter-miami-not-credential-journalist-franco-panizo.html"/>
-        <updated>2026-04-04T21:30:03.000Z</updated>
-        <summary type="html"><![CDATA[Since its inaugural 2020 season, there hasn’t been an Inter Miami CF home match that journalist Franco Panizo wasn’t credentialed for. Until now.  Panizo, a veteran soccer reporter who has covered the sport for The Athletic and The Sun Sentinel and now runs the Miami Total Futbol newsletter and writes for FourFourTwo, said on X…]]></summary>
-        <author>
-            <name>Sean Keeley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[White House Addresses Trump Walter Reed Rumors on Social Media: ‘Fear Not!’]]></title>
-        <id>https://www.mediaite.com/?p=5715142</id>
-        <link href="https://www.mediaite.com/media/news/white-house-addresses-trump-walter-reed-rumors-on-social-media-fear-not/"/>
-        <updated>2026-04-04T21:14:47.000Z</updated>
-        <summary type="html"><![CDATA[The White House addressed rumors circulating on social media that Donald Trump must be incapacitated because of the early press "lid" called Saturday.
-The post White House Addresses Trump Walter Reed Rumors on Social Media: ‘Fear Not!’ first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Jennifer Bowers Bahney</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Here Are 17 New Items Dropping on Taco Bell Menus Soon]]></title>
-        <id>https://sporked.com/?p=65153</id>
-        <link href="https://sporked.com/article/new-taco-bell-menu-items-april-2026/"/>
-        <updated>2026-04-04T21:11:00.000Z</updated>
-        <summary type="html"><![CDATA[What exactly is going on with Taco Bell in 2026? Is everything okay over there at R&D? Because it feels like the food scientists are working over time. Perhaps they’re just trying to overcompensate for…everything else going on in the world. I guess I shouldn’t complain or even question Taco Bell’s motives because we keep...]]></summary>
-        <author>
-            <name>Justine Sterling</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Brief History of Louis CK's Non-Apologies]]></title>
-        <id>69d1795210d9cd00018e6522</id>
-        <link href="https://www.humorism.xyz/a-brief-history-of-louis-cks-non-apologies/"/>
-        <updated>2026-04-04T21:09:42.000Z</updated>
-        <summary type="html"><![CDATA[Also: the latest on Mark Normand's Netflix tall tale.]]></summary>
-        <author>
-            <name>Seth Simons</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Starbucks Does With Its Leftover Food]]></title>
-        <id>https://www.thetakeout.com/2136171/what-happens-starbucks-leftover-food/</id>
-        <link href="https://www.thetakeout.com/2136171/what-happens-starbucks-leftover-food/"/>
-        <updated>2026-04-04T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Food waste is a big issue that's gotten quite a bit of attention over the last decade. What does Starbucks do with its leftover food to combat food waste?]]></summary>
-        <author>
-            <name>staff@thetakeout.com (Haley McNamara)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tim Dillon Mocks Kristi Noem Over Husband’s Alleged Antics While Dunking on MAGA: ‘The Greatest Con in History!’]]></title>
-        <id>https://www.mediaite.com/?p=5715126</id>
-        <link href="https://www.mediaite.com/media/podcasts/tim-dillon-mocks-kristi-noem-over-husbands-alleged-antics-while-dunking-on-maga-the-greatest-con-in-history/"/>
-        <updated>2026-04-04T20:48:23.000Z</updated>
-        <summary type="html"><![CDATA[Tim Dillon sported an impressive set of massive fake breasts while mocking former DHS chief Kristi Noem's husband and railing against Donald Trump.
-The post Tim Dillon Mocks Kristi Noem Over Husband’s Alleged Antics While Dunking on MAGA: ‘The Greatest Con in History!’ first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Jennifer Bowers Bahney</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[10 Nevada Dessert Spots People Gladly Save Room for Every Time]]></title>
-        <id>https://fastfoodclub.com/?p=139361</id>
-        <link href="https://fastfoodclub.com/p/10-nevada-dessert-spots-people-gladly-save-room-for-every-time/"/>
-        <updated>2026-04-04T20:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Nevada is home to some seriously amazing dessert spots that go way beyond the buffet. From creamy ice cream to freshly baked cakes, the Silver State knows how to satisfy a sweet tooth. Whether you are exploring the bright lights of Las Vegas or the charming streets of Reno, there is always a sweet treat […]]]></summary>
-        <author>
-            <name>Sofia Delgado</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump Reportedly Plots Bigger DOJ Shakeup After Bondi Ouster]]></title>
-        <id>https://www.mediaite.com/?p=5715133</id>
-        <link href="https://www.mediaite.com/politics/trump-reportedly-plots-bigger-doj-shakeup-after-bondi-ouster/"/>
-        <updated>2026-04-04T20:30:46.000Z</updated>
-        <summary type="html"><![CDATA[President Donald Trump is debating whether to make more changes at the Department of Justice following his firing of Attorney General Pam Bondi this week. 
-The post Trump Reportedly Plots Bigger DOJ Shakeup After Bondi Ouster first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Sean James</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dave Portnoy: ‘Caitlin Clark has blocked me and is now not responding’]]></title>
-        <id>https://awfulannouncing.com/?p=869663</id>
-        <link href="https://awfulannouncing.com/barstool/caitlin-clark-blocks-dave-portnoy-fran-mccaffery.html"/>
-        <updated>2026-04-04T20:30:32.000Z</updated>
-        <summary type="html"><![CDATA[Barstool Sports founder Dave Portnoy previously had a cordial relationship with Indiana Fever superstar Caitlin Clark, but it seems like that’s no longer the case, and Portnoy is blaming another Barstool personality over the fallout. Portnoy has attended several Fever games, describing himself as a “huge fan” of the Fever. He also says that he…]]></summary>
-        <author>
-            <name>Kevin Harrish</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[11 California pizza places that stay packed even on the most ordinary weeknights]]></title>
-        <id>https://fastfoodclub.com/?p=139347</id>
-        <link href="https://fastfoodclub.com/p/11-california-pizza-places-that-stay-packed-even-on-the-most-ordinary-weeknights/"/>
-        <updated>2026-04-04T20:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Some pizza places have a kind of magic that keeps people coming back, even on a slow Tuesday night. California is home to some seriously outstanding pizzerias that draw loyal crowds no matter what day it is. From wood-fired crusts to creative toppings, these spots have earned their reputations one slice at a time. If […]]]></summary>
-        <author>
-            <name>Evan Cook</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fox Host Can’t Help But Go Off on Democrat Fighting TSA’s ‘Shoes On Policy’: ‘What?!’]]></title>
-        <id>https://www.mediaite.com/?p=5715107</id>
-        <link href="https://www.mediaite.com/media/tv/fox-host-cant-help-but-go-off-on-democrat-fighting-tsas-shoes-on-policy-what/"/>
-        <updated>2026-04-04T20:24:28.000Z</updated>
-        <summary type="html"><![CDATA[Fox News' Rachel Campos-Duffy couldn't help but editorialize on Saturday when she heard news of a Democrat senator targeting the TSA's "shoes on policy."
-The post Fox Host Can’t Help But Go Off on Democrat Fighting TSA’s ‘Shoes On Policy’: ‘What?!’ first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Zachary Leeman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[10 Arizona Late-Night Eats Locals Count On When the Night Runs Longer Than Expected]]></title>
-        <id>https://fastfoodclub.com/?p=139334</id>
-        <link href="https://fastfoodclub.com/p/10-arizona-late-night-eats-locals-count-on-when-the-night-runs-longer-than-expected/"/>
-        <updated>2026-04-04T20:16:00.000Z</updated>
-        <summary type="html"><![CDATA[Sometimes the night just has a mind of its own, and before you know it, it’s past midnight and your stomach is making its presence known. Arizona has no shortage of spots that keep the lights on and the food coming long after most places have called it quits. Whether you just left a concert, […]]]></summary>
-        <author>
-            <name>Emma Larkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Former 60 Minutes Correspondent Spills the Dirt to Bill O’Reilly About Hating 30-Season CBS Gig]]></title>
-        <id>https://www.mediaite.com/?p=5715102</id>
-        <link href="https://www.mediaite.com/media/former-60-minutes-correspondent-spills-the-dirt-to-bill-oreilly-about-hating-30-season-cbs-gig/"/>
-        <updated>2026-04-04T20:13:14.000Z</updated>
-        <summary type="html"><![CDATA[Former 60 Minutes correspondent Steve Kroft admitted to Bill O'Reilly that he "hated" his 30 season gig and he wouldn't do it again if he had a do-over.
-The post Former 60 Minutes Correspondent Spills the Dirt to Bill O’Reilly About Hating 30-Season CBS Gig first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Zachary Leeman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[8 Texas hotel restaurants that quietly outshine the places around them]]></title>
-        <id>https://fastfoodclub.com/?p=139323</id>
-        <link href="https://fastfoodclub.com/p/8-texas-hotel-restaurants-that-quietly-outshine-the-places-around-them/"/>
-        <updated>2026-04-04T20:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Texas is famous for its bold flavors and big personalities, and its hotel restaurants are no exception. Many travelers walk right past these hidden gems without realizing some of the best meals in the state are being served just steps from the lobby. From Dallas to Galveston, hotel kitchens across Texas are cooking up dishes […]]]></summary>
-        <author>
-            <name>Marco Rinaldi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Cuisine Anthony Bourdain Called 'Outrageous' And 'Appalling']]></title>
-        <id>https://www.thetakeout.com/2136147/anythony-bourdain-american-cuisine-opinion/</id>
-        <link href="https://www.thetakeout.com/2136147/anythony-bourdain-american-cuisine-opinion/"/>
-        <updated>2026-04-04T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Anthony Bourdain was never one to shy away from sharing his bolder opinions, which is why him calling out this particular type of cuisine is so on brand.]]></summary>
-        <author>
-            <name>staff@thetakeout.com (Rolland Judd)</name>
         </author>
     </entry>
 </feed>
