@@ -2,10 +2,108 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-04-17T02:30:06.521Z</updated>
+    <updated>2026-04-17T06:02:01.357Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[3 Free and Open Source CLI ebook Readers]]></title>
+        <id>https://www.linuxlinks.com/?p=108852</id>
+        <link href="https://www.linuxlinks.com/free-open-source-cli-ebook-readers/"/>
+        <updated>2026-04-17T05:25:05.000Z</updated>
+        <summary type="html"><![CDATA[This article showcases CLI ebook readers for Linux. We only feature free and open source software here.
+The post 3 Free and Open Source CLI ebook Readers appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Puzzled – GNOME desktop application for solving daily tile-placement puzzles]]></title>
+        <id>https://www.linuxlinks.com/?p=176286</id>
+        <link href="https://www.linuxlinks.com/puzzled-solving-daily-tile-placement-puzzles/"/>
+        <updated>2026-04-17T04:57:07.000Z</updated>
+        <summary type="html"><![CDATA[Puzzled is a GNOME desktop application for solving daily tile-placement puzzles inspired by Puzzle a Day. 
+The post Puzzled – GNOME desktop application for solving daily tile-placement puzzles appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sacha Chua: Make chapter markers and video time hyperlinks easier to note while I livestream]]></title>
+        <id>https://sachachua.com/blog/2026/04/make-chapter-markers-and-video-time-hyperlinks-easier-to-note-while-i-livestream/</id>
+        <link href="https://sachachua.com/blog/2026/04/make-chapter-markers-and-video-time-hyperlinks-easier-to-note-while-i-livestream/"/>
+        <updated>2026-04-17T04:27:43.000Z</updated>
+        <summary type="html"><![CDATA[Capture timestamps
+[2026-04-16 Thu 10:40] makes more sense to me than using video offsets because they're independent of any editing I might do.
+
+
+
+C-u C-c C-! (org-timestamp-inactive) creates a timestamp with a time. I probably do often enough that I should create a Yasnippet for it:
+
+
+
+
+# -*- mode: snippet -*-
+# name: insert time
+# key: zt
+# --
+`(format-time-string "[%Y-%m-%d %a %H:%M]")`
+
+Org capture templates, like this:
+
+
+
+
+(with-eval-after-load 'org-capture
+  (add-to-list
+   'org-capture-templates
+   `("l" "Timestamp" item
+     (file+headline ,sacha-stream-inbox-file "Timestamps")
+     "- %U %i%?")))
+
+custom Org Mode link type "stream:" which:
+
+
+
+displays the text in a larger font with a QR code for easier copying
+sends the text to the YouTube chat via socialstream.ninja
+adds a times…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘F*** His Ass!’ Congresswoman Rages Against Trump]]></title>
+        <id>https://www.mediaite.com/?p=5718800</id>
+        <link href="https://www.mediaite.com/politics/f-his-ass-congresswoman-rages-against-trump/"/>
+        <updated>2026-04-17T03:21:47.000Z</updated>
+        <summary type="html"><![CDATA[There was nothing dovish about comments by Rep. Sydney Kamlager-Dove on Thursday as she went on a tirade against President Donald Trump.
+The post ‘F*** His Ass!’ Congresswoman Rages Against Trump  first appeared on Mediaite.]]></summary>
+        <author>
+            <name>Michael Luciano</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rockstar On Latest Potential Hack & Information Leak: Meh, We Don’t Care]]></title>
+        <id>https://www.techdirt.com/?p=535278&amp;preview=true&amp;preview_id=535278</id>
+        <link href="https://www.techdirt.com/2026/04/16/rockstar-on-latest-potential-hack-information-leak-meh-we-dont-care/"/>
+        <updated>2026-04-17T02:59:46.000Z</updated>
+        <summary type="html"><![CDATA[Several years ago, Rockstar Games suffered an intrusion into its corporate network. During that intrusion, a trove of data, files, and information about the in-development and unfinished Grand Theft Auto 6 game was exfiltrated. Under monetary threat of that data leaking, Rockstar completely lost its mind and went on a DMCA takedown campaign to try […]]]></summary>
+        <author>
+            <name>Timothy Geigner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘The President Is Correct, The Pope Is Wrong’: Hannity Suggests Leo Has ‘Totally Lost Sight of the True Meaning of the Bible’]]></title>
+        <id>https://www.mediaite.com/?p=5718799</id>
+        <link href="https://www.mediaite.com/media/news/the-president-is-correct-the-pope-is-wrong-hannity-suggests-leo-has-totally-lost-sight-of-the-true-meaning-of-the-bible/"/>
+        <updated>2026-04-17T02:48:40.000Z</updated>
+        <summary type="html"><![CDATA[Fox News host Sean Hannity dedicated a portion of his Thursday show to deliver a message to Pope Leo XIV, suggesting he and others at the Vatican had “totally lost sight of the true meaning of the bible and its teachings.” The host directly introduced the Hannity segment as “a message to the Vatican,” noting his words were “specifically for […]
+The post ‘The President Is Correct, The Pope Is Wrong’: Hannity Suggests Leo Has ‘Totally Lost Sight of the True Meaning of the Bible’ first appeared on Mediaite.]]></summary>
+        <author>
+            <name>Willa Pope Robbins</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[‘Who the Hell Wrote That?’ Trump Stops Mid-Speech To Say He Doesn’t Know What a ‘Corner Store’ Is]]></title>
         <id>https://www.mediaite.com/?p=5718789</id>
@@ -28886,903 +28984,6 @@ The post Democrat Trump Tried to Indict Over ‘Illegal Orders’ Video Doubles 
 The post CNN Analyst Hits Trump Over Blown Deadlines — Says It’s ‘Easier To Believe’ Iran Than Trump first appeared on Mediaite.]]></summary>
         <author>
             <name>Tommy Christopher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Newsmax Guy Will Have You Know That He Voted For War Crimes And Easter Sunday Expletives]]></title>
-        <id>https://www.wonkette.com/p/newsmax-guy-will-have-you-know-that</id>
-        <link href="https://www.wonkette.com/p/newsmax-guy-will-have-you-know-that"/>
-        <updated>2026-04-07T18:01:32.000Z</updated>
-        <summary type="html"><![CDATA[Yeah. We know.]]></summary>
-        <author>
-            <name>Robyn Pennacchia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Michael Kay scolds Yankees fans for ‘F*ck Juan Soto’ chant: ‘Shame on all of you’]]></title>
-        <id>https://awfulannouncing.com/?p=870983</id>
-        <link href="https://awfulannouncing.com/mlb/michael-kay-yankees-juan-soto-chant.html"/>
-        <updated>2026-04-07T18:00:14.000Z</updated>
-        <summary type="html"><![CDATA[Michael Kay has spoken again as the authoritative opinion on all things Juan Soto, and he wants New York Yankees fans to know they should be ashamed of themselves. Kay has spent much of the last year telling Yankees fans, Mets fans, and even Soto himself how they should be handling the outfielder’s decision to…]]></summary>
-        <author>
-            <name>Brandon Contes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Cold Creamy Dessert That Deserves A Dollop Of Lemon Curd]]></title>
-        <id>https://www.thetakeout.com/2138065/ice-cream-lemon-curd-upgrade/</id>
-        <link href="https://www.thetakeout.com/2138065/ice-cream-lemon-curd-upgrade/"/>
-        <updated>2026-04-07T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[When you're craving tart and rich lemon curd, look beyond scones and tarts. Instead, add lemon curd to this creamy, cold, and classic dessert.]]></summary>
-        <author>
-            <name>staff@thetakeout.com (Laura Christine Allan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SPOTTED: Fat Boy Waffle Cone and Strawberry Shortcake Ice Cream Sandwich Pops]]></title>
-        <id>https://www.theimpulsivebuy.com/wordpress/?p=76674</id>
-        <link href="https://www.theimpulsivebuy.com/wordpress/2026/04/07/spotted-fat-boy-waffle-cone-and-strawberry-shortcake-ice-cream-sandwich-pops/"/>
-        <updated>2026-04-07T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Waffle Cone one features a vanilla ice cream sandwich with caramel swirls dipped in a chocolaty coating and rolled in waffle cone pieces. The Strawberry Cheesecake version is a cheesecake flavored ice cream sandwich with a strawberry swirl dipped in a white coating and rolled in graham cracker crumbles. (Spotted by Robbie at Walmart.) […]]]></summary>
-        <author>
-            <name>Marvo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tourists in Hawaii encouraged to borrow shelter dogs to take on 'field trips' during vacation]]></title>
-        <id>https://www.goodgoodgood.co/articles/hawaii-shelter-lets-tourists-borrow-dogs</id>
-        <link href="https://www.goodgoodgood.co/articles/hawaii-shelter-lets-tourists-borrow-dogs"/>
-        <updated>2026-04-07T17:59:00.000Z</updated>
-        <summary type="html"><![CDATA[For the pet lovers who are homesick from their own furry friends, there are ample opportunities to give back, all while snuggling up with a pup.]]></summary>
-        <author>
-            <name>Good Good Good</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New AG Todd Blanche Fumes Over Question About ‘Weaponization’ of DOJ Against Trump Enemies]]></title>
-        <id>https://www.mediaite.com/?p=5715782</id>
-        <link href="https://www.mediaite.com/politics/new-ag-todd-blanche-fumes-over-question-about-weaponization-of-doj-against-trump-enemies/"/>
-        <updated>2026-04-07T17:58:00.000Z</updated>
-        <summary type="html"><![CDATA[Acting Attorney General Todd Blanche went off on when he was asked about the "weaponization" of the Justice Department against President Donald Trump's enemies. 
-The post New AG Todd Blanche Fumes Over Question About ‘Weaponization’ of DOJ Against Trump Enemies first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Sean James</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The New York Times Got Played By A Telehealth Scam And Called It The Future Of AI]]></title>
-        <id>https://www.techdirt.com/?p=534971</id>
-        <link href="https://www.techdirt.com/2026/04/07/the-new-york-times-got-played-by-a-telehealth-scam-and-called-it-the-future-of-ai/"/>
-        <updated>2026-04-07T17:52:20.000Z</updated>
-        <summary type="html"><![CDATA[Since the New York Times published its semi-viral big profile of Medvi last week — the “AI-powered” telehealth startup that it breathlessly described as a “$1.8 billion company” supposedly run by just two brothers — I’ve had multiple friends and family members send me the article with some version of the same message: “Can you […]]]></summary>
-        <author>
-            <name>Mike Masnick</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Daily Deal: Costco 1-Year Gold Star Membership + $20 Digital Costco Shop Card]]></title>
-        <id>https://www.techdirt.com/?p=535002&amp;preview=true&amp;preview_id=535002</id>
-        <link href="https://www.techdirt.com/2026/04/07/daily-deal-costco-1-year-gold-star-membership-20-digital-costco-shop-card-3/"/>
-        <updated>2026-04-07T17:47:00.000Z</updated>
-        <summary type="html"><![CDATA[Costco is your one-stop shop for everything you want and offers a wide range of merchandise that will likely cover all of your shopping needs! With hundreds of locations across the country, Costco is the ideal place to shop without the hassle of having to run numerous errands around town. A Gold Star Membership includes a FREE […]]]></summary>
-        <author>
-            <name>Daily Deal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[U.S. News Rankings Lose Prestige, Retain Iron Grip On Legal Academia’s Soul]]></title>
-        <id>https://abovethelaw.com/?p=1181713</id>
-        <link href="https://abovethelaw.com/2026/04/u-s-news-rankings-lose-prestige-retain-iron-grip-on-legal-academias-soul/"/>
-        <updated>2026-04-07T17:42:00.000Z</updated>
-        <summary type="html"><![CDATA[Admissions officers admit rankings are broken.
-The post U.S. News Rankings Lose Prestige, Retain Iron Grip On Legal Academia’s Soul appeared first on Above the Law.]]></summary>
-        <author>
-            <name>Kathryn Rubino</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On CNN, Daily Wire’s Mark Glesne says Defense Secretary Pete Hegesth is “supported” in “praying for overwhelming violence”]]></title>
-        <id>b34a7a0e-ca96-4506-aed6-a7bfb63556e8</id>
-        <link href="https://www.mediamatters.org/cnn/cnn-daily-wires-mark-glesne-says-defense-secretary-pete-hegesth-supported-praying-overwhelming"/>
-        <updated>2026-04-07T17:41:25.000Z</updated>
-        <summary type="html"><![CDATA[On April 7, CNN hosted Mark Glesne, whom CNN identified as an ordained pastor and Marine Corps veteran, to discuss religious rhetoric in recent public statements by President Donald Trump and Secretary of Defense Pete Hegseth. According to LinkedIn and what appears to be Glesne’s personal website, Glesne serves as vice president of marketing, consumer products at The Daily Wire.]]></summary>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stuart Holden torched for hawking expensive World Cup hospitality packages]]></title>
-        <id>https://awfulannouncing.com/?p=870970</id>
-        <link href="https://awfulannouncing.com/fox/stuart-holden-torched-world-cup-hospitality-packages.html"/>
-        <updated>2026-04-07T17:30:28.000Z</updated>
-        <summary type="html"><![CDATA[The World Cup comes to North America this summer, but good luck trying to get a ticket to see a match with ticket prices approaching the level of Taylor Swift concerts. FIFA’s response to the uproar is not to release more tickets or bring costs down, but rather to employ lead Fox Sports soccer analyst…]]></summary>
-        <author>
-            <name>Matt Yoder</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump threatens ‘a whole civilization will die’ in Iran; Schumer calls him ‘extremely sick’]]></title>
-        <id>https://kansasreflector.com/?post_type=republished&amp;p=59187</id>
-        <link href="https://kansasreflector.com/2026/04/07/repub/trump-threatens-a-whole-civilization-will-die-in-iran-schumer-calls-him-extremely-sick/"/>
-        <updated>2026-04-07T17:30:27.000Z</updated>
-        <summary type="html"><![CDATA[WASHINGTON — President Donald Trump continued to escalate his rhetoric against Iran Tuesday, even as some Republicans in Congress began to back away from his declarations, threatening that “A whole civilization will die tonight, never to be brought back again.” “I don’t want that to happen, but it probably will,” he wrote on his social […]]]></summary>
-        <author>
-            <name>Ashley Murray</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[s3tui – simple S3 CLI client for file transfers]]></title>
-        <id>https://www.linuxlinks.com/?p=175104</id>
-        <link href="https://www.linuxlinks.com/s3tui-simple-s3-cli-client-file-transfers/"/>
-        <updated>2026-04-07T17:22:43.000Z</updated>
-        <summary type="html"><![CDATA[s3tui is a terminal-based file transfer client for Amazon S3 and S3-compatible object storage.
-The post s3tui – simple S3 CLI client for file transfers appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Iraqi Terrorist Organization Frees Kidnapped American Journalist Shelly Kittleson]]></title>
-        <id>https://www.mediaite.com/?p=5715770</id>
-        <link href="https://www.mediaite.com/media/iraqi-terrorist-organization-frees-kidnapped-american-journalist-shelly-kittleson/"/>
-        <updated>2026-04-07T17:04:59.000Z</updated>
-        <summary type="html"><![CDATA[The Iranian-backed terrorist group Kataib Hezbollah in Iraq has released American journalist Shelly Kittleson on Tuesday, one week after she was kidnapped
-The post Iraqi Terrorist Organization Frees Kidnapped American Journalist Shelly Kittleson first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Sean James</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Acknowledging Trump’s derangement is the first step]]></title>
-        <id>https://presswatchers.org/?p=10731</id>
-        <link href="https://presswatchers.org/2026/04/acknowledging-trumps-derangement-is-the-first-step/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=acknowledging-trumps-derangement-is-the-first-step"/>
-        <updated>2026-04-07T17:03:02.000Z</updated>
-        <summary type="html"><![CDATA[The second step is asking how can he be stopped
-The post Acknowledging Trump’s derangement is the first step appeared first on Press Watch.]]></summary>
-        <author>
-            <name>Dan Froomkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Congratulations To Pam Bondi… Let The Bar Disciplinary Investigation Commence!]]></title>
-        <id>https://abovethelaw.com/?p=1181720</id>
-        <link href="https://abovethelaw.com/2026/04/congratulations-to-pam-bondi-let-the-bar-disciplinary-investigation-commence/"/>
-        <updated>2026-04-07T17:03:00.000Z</updated>
-        <summary type="html"><![CDATA[Our annual bracket challenge ends in another landslide.
-The post Congratulations To Pam Bondi… Let The Bar Disciplinary Investigation Commence! appeared first on Above the Law.]]></summary>
-        <author>
-            <name>Joe Patrice</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3 Morning Exercises Build Core Strength Faster Than Planks After 50]]></title>
-        <id>https://www.eatthis.com/?p=928939</id>
-        <link href="https://www.eatthis.com/morning-core-exercises-after-50-better-than-planks/"/>
-        <updated>2026-04-07T17:00:36.000Z</updated>
-        <summary type="html"><![CDATA[Many famous fitness icons believe in the power of morning exercise. Actor and fitness enthusiast...
-The post 3 Morning Exercises Build Core Strength Faster Than Planks After 50 appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Alexa Mellardo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Troy Aikman said the quiet part out loud]]></title>
-        <id>https://awfulannouncing.com/?p=870956</id>
-        <link href="https://awfulannouncing.com/nfl/troy-aikman-quiet-part-out-loud.html"/>
-        <updated>2026-04-07T17:00:32.000Z</updated>
-        <summary type="html"><![CDATA[This originally appeared in Tuesday morning’s edition of The A Block, Awful Announcing’s daily newsletter with the latest sports media news, commentary, and analysis. Sign up here and be the first to know everything going on in the sports media world. Troy Aikman has been the NFL’s lead Monday Night Football analyst for four seasons. Every…]]></summary>
-        <author>
-            <name>Sam Neumann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Air Fryer Myth That's Costing You Big]]></title>
-        <id>https://www.thetakeout.com/2138095/air-fryer-myth-expensive-better-cost/</id>
-        <link href="https://www.thetakeout.com/2138095/air-fryer-myth-expensive-better-cost/"/>
-        <updated>2026-04-07T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The market is saturated with air fryers, as they're a common kitchen appliance these days, but when shopping for one, do you have to consider this myth?]]></summary>
-        <author>
-            <name>staff@thetakeout.com (Jonathan Kesh)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bannon guest on Trump Iran threats: "You're going to blow up civilian infrastructure, which might be a war crime. You're going to kill civilians, otherwise innocent, who probably — definitely a war crime."]]></title>
-        <id>202039e4-e40f-47e7-a610-50eab799bd77</id>
-        <link href="https://www.mediamatters.org/us-iran-relations/bannon-guest-trump-iran-threats-youre-going-blow-civilian-infrastructure-which"/>
-        <updated>2026-04-07T16:51:29.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[22 Everyday Foods That Might Be Draining Your Energy Without You Realizing It]]></title>
-        <id>https://fastfoodclub.com/?p=141128</id>
-        <link href="https://fastfoodclub.com/p/22-everyday-foods-that-might-be-draining-your-energy-without-you-realizing-it/"/>
-        <updated>2026-04-07T16:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Ever wonder why you feel exhausted even after you have eaten? Some everyday favorites can spike your blood sugar, mess with your hormones, and leave you yawning before lunch. The sneaky part is that many of these foods look harmless or even helpful. Spot them early, make simple swaps, and you will feel steady energy […]]]></summary>
-        <author>
-            <name>Sofia Delgado</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Top Trump Spox Declares ‘Only the President Knows… What He Will Do’]]></title>
-        <id>https://www.mediaite.com/?p=5715749</id>
-        <link href="https://www.mediaite.com/media/news/top-trump-spox-declares-only-the-president-knows-what-he-will-do/"/>
-        <updated>2026-04-07T16:48:54.000Z</updated>
-        <summary type="html"><![CDATA[White House Press Secretary Karoline Leavitt on Tuesday claimed only President Donald Trump knows what he'll do at the deadline he set for Iran to make a deal.
-The post Top Trump Spox Declares ‘Only the President Knows… What He Will Do’ first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Ahmad Austin Jr.</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Steve Bannon: "The enemy inside our gate is a hundred times a bigger problem for this country than what is happening in Tehran"]]></title>
-        <id>b85b7274-e657-44d7-8877-51b7947199a3</id>
-        <link href="https://www.mediamatters.org/us-iran-relations/steve-bannon-enemy-inside-our-gate-hundred-times-bigger-problem-country-what"/>
-        <updated>2026-04-07T16:42:18.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twins showcase SNF-style intro with dozens of fans in attendance]]></title>
-        <id>https://awfulannouncing.com/?p=870950</id>
-        <link href="https://awfulannouncing.com/local-networks/twins-showcase-snf-style-intro-small-attendance.html"/>
-        <updated>2026-04-07T16:40:12.000Z</updated>
-        <summary type="html"><![CDATA[A Sunday Night Football stylized lineup introduction sounds like a fun thing for a baseball team to do to add some spice to an early April regular season game. But when you’re the Minnesota Twins playing at home to one of the smallest turnouts in franchise history, it begins to lose its luster. The trouble…]]></summary>
-        <author>
-            <name>Matt Yoder</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Every Bread From The Whole Foods Bakery Ranked Worst To Best]]></title>
-        <id>https://www.thetakeout.com/2140429/every-bread-whole-foods-bakery-ranked-worst-best/</id>
-        <link href="https://www.thetakeout.com/2140429/every-bread-whole-foods-bakery-ranked-worst-best/"/>
-        <updated>2026-04-07T16:40:00.000Z</updated>
-        <summary type="html"><![CDATA[A loaf of the staff of life might cost you an arm and a leg at Whole Foods. We assembled a wide cross section to determine which is worth the cost.]]></summary>
-        <author>
-            <name>staff@thetakeout.com (Fletcher Huntley)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fox War Reporter Reacts in Real Time to Trump ‘Civilization Will Die’ Threat With Alarming Questions]]></title>
-        <id>https://www.mediaite.com/?p=5715729</id>
-        <link href="https://www.mediaite.com/media/tv/fox-war-reporter-reacts-in-real-time-to-trump-civilization-will-die-threat-with-alarming-questions/"/>
-        <updated>2026-04-07T16:35:57.000Z</updated>
-        <summary type="html"><![CDATA[Fox's Trey Yingst reacted in real time to President Donald Trump's threat to destroy "a whole civilization" with several alarming questions.
-The post Fox War Reporter Reacts in Real Time to Trump ‘Civilization Will Die’ Threat With Alarming Questions first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Tommy Christopher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump Joins Vance Rally in Hungary to Campaign for Viktor Orban: ‘The United States Is With Him All the Way!’]]></title>
-        <id>https://www.mediaite.com/?p=5715710</id>
-        <link href="https://www.mediaite.com/politics/trump-joins-vance-rally-in-hungary-to-campaign-for-viktor-orban-the-united-states-is-with-him-all-the-way/"/>
-        <updated>2026-04-07T16:31:22.000Z</updated>
-        <summary type="html"><![CDATA[President Trump called JD Vance while he was in the middle of giving a speech in Hungary to praise the country's Prime Minister Viktor Orban on Tuesday
-The post Trump Joins Vance Rally in Hungary to Campaign for Viktor Orban: ‘The United States Is With Him All the Way!’ first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Sean James</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[If You Can Hold a Wall Sit This Long After 60, Your Leg Strength Is Stronger Than 90% of Your Peers]]></title>
-        <id>https://www.eatthis.com/?p=928411</id>
-        <link href="https://www.eatthis.com/wall-sit-after-60-leg-strength-test/"/>
-        <updated>2026-04-07T16:30:16.000Z</updated>
-        <summary type="html"><![CDATA[Walk into any gym or even just watch people move through a busy day, and...
-The post If You Can Hold a Wall Sit This Long After 60, Your Leg Strength Is Stronger Than 90% of Your Peers appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Jarrod Nobbe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Solar Eclipse From the Far Side of the Moon]]></title>
-        <id>https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon</id>
-        <link href="https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon"/>
-        <updated>2026-04-07T16:30:00.000Z</updated>
-        <summary type="html"><![CDATA[This shot from Artemis II of the Moon eclipsing the Sun is one of the most breathtaking astronomical photos I’ve ever seen. Holy shit.
-Captured by the Artemis II crew during their lunar flyby on April 6, 2026, this image shows the Moon fully eclipsing the Sun. From the crew’s perspective, the Moon appears large enough to completely block the Sun, creating nearly 54 minutes of totality and extending the view far beyond what is possible from Earth.
-
-	
-Thanks to KDO reader Scott for pointing me to NASA’s Flickr account, which is possibly the easiest way to look at photos taken by the Artemis II mission. Like this one:
-
-And this one — then maybe I’ll stop (maybe):
-
-
- 
-
-        
-         
-Tags: artemis · astronomy · Moon · NASA · photography]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Royals vs. Guardians Game 11 Thread]]></title>
-        <id>https://www.royalsreview.com/kansas-city-royals-discussion/96500/royals-vs-guardians-game-11-thread</id>
-        <link href="https://www.royalsreview.com/kansas-city-royals-discussion/96500/royals-vs-guardians-game-11-thread"/>
-        <updated>2026-04-07T16:30:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s my first regular season gamethread of the year. We’ve made it! Last week’s Tuesday was an off day, so it’s the first Tuesday game of the year. Honored to be back. Now, we will all be watching this one from the comfort of our homes and, let’s be honest, offices. But if you made [&#8230;]]]></summary>
-        <author>
-            <name>Royals Review</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[White House Shuts Down Nuke Talk After Incendiary Trump Threat Sparks Uproar]]></title>
-        <id>https://www.mediaite.com/?p=5715750</id>
-        <link href="https://www.mediaite.com/online/white-house-shuts-down-nuke-talk-after-incendiary-trump-threat-sparks-uproar/"/>
-        <updated>2026-04-07T16:25:41.000Z</updated>
-        <summary type="html"><![CDATA[The White House responded after comments by Vance in Hungary sparked uproar online in the wake of the Trump's incendiary threat against Iran.
-The post White House Shuts Down Nuke Talk After Incendiary Trump Threat Sparks Uproar first appeared on Mediaite.]]></summary>
-        <author>
-            <name>David Gilmour</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[23 Foods That Used to Be Occasional Treats – But Are Now Everyday Habits in America]]></title>
-        <id>https://fastfoodclub.com/?p=141083</id>
-        <link href="https://fastfoodclub.com/p/23-foods-that-used-to-be-occasional-treats-but-are-now-everyday-habits-in-america/"/>
-        <updated>2026-04-07T16:25:00.000Z</updated>
-        <summary type="html"><![CDATA[Many of us grew up saving certain sweets for birthdays or road trips. Somewhere along the way, those once in a while treats slipped into our everyday routines. The shift feels convenient, but it can quietly drain energy, budgets, and joy. Here are the beloved favorites that turned habitual, plus simple ways to make them […]]]></summary>
-        <author>
-            <name>Evan Cook</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump’s Office Of Legal Counsel Says Trump Doesn’t Need To Follow The Presidential Records Rules]]></title>
-        <id>https://www.techdirt.com/?p=534797&amp;preview=true&amp;preview_id=534797</id>
-        <link href="https://www.techdirt.com/2026/04/07/trumps-office-of-legal-counsel-says-trump-doesnt-need-to-follow-the-presidential-records-rules/"/>
-        <updated>2026-04-07T16:24:20.000Z</updated>
-        <summary type="html"><![CDATA[Leave it to the president that makes us nostalgic for Nixon-era corruption to claim that a law Nixon made necessary is no longer a law. The Presidential Records Act was summoned into existence by Nixon’s resignation and his subsequent efforts to destroy records generated by his office as he was fumbling his way towards impeachment. […]]]></summary>
-        <author>
-            <name>Tim Cushing</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Uh Oh, BIG MAGA FIGHT Over Iran, And Tucker Carlson Is ... Correct.]]></title>
-        <id>https://www.wonkette.com/p/uh-oh-big-maga-fight-over-iran-and</id>
-        <link href="https://www.wonkette.com/p/uh-oh-big-maga-fight-over-iran-and"/>
-        <updated>2026-04-07T16:23:02.000Z</updated>
-        <summary type="html"><![CDATA[You do not under any circumstance have to hand it to Tucker Carlson.]]></summary>
-        <author>
-            <name>Evan Hurst</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Joey McGuire not happy about potential Friday night game on Fox]]></title>
-        <id>https://awfulannouncing.com/?p=870677</id>
-        <link href="https://awfulannouncing.com/college-football/texas-tech-joey-mcguire-upset-potential-friday-night-game-fox.html"/>
-        <updated>2026-04-07T16:20:15.000Z</updated>
-        <summary type="html"><![CDATA[Texas Tech Red Raiders head football coach Joey McGuire, fresh off an appearance in the College Football Playoff, isn’t thrilled about the idea of his team opening its season on a Friday night. The Red Raiders are currently slated to host the Houston Cougars on Saturday, Sept. 19, but there’s a strong possibility the game…]]></summary>
-        <author>
-            <name>Qwame Skinner</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[‘Mass Destruction’: Fox Anchor Warns ‘Trump Does Not Bluff’ as Iran Deadline Rapidly Approaches]]></title>
-        <id>https://www.mediaite.com/?p=5715725</id>
-        <link href="https://www.mediaite.com/media/tv/mass-destruction-fox-anchor-warns-trump-does-not-bluff-as-iran-deadline-rapidly-approaches/"/>
-        <updated>2026-04-07T16:16:47.000Z</updated>
-        <summary type="html"><![CDATA[Fox News anchor Harris Faulkner proclaimed that President Trump "does not bluff" as she warned Iran ahead of a grim 8 p.m. deadline where the president threatened "a civilization will die tonight."
-The post ‘Mass Destruction’: Fox Anchor Warns ‘Trump Does Not Bluff’ as Iran Deadline Rapidly Approaches first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Tom Durante</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This 10-Minute Test Shows Where You’re Losing Cases]]></title>
-        <id>https://abovethelaw.com/?p=1181642</id>
-        <link href="https://abovethelaw.com/2026/04/this-10-minute-test-shows-where-youre-losing-cases/"/>
-        <updated>2026-04-07T16:16:00.000Z</updated>
-        <summary type="html"><![CDATA[[Sponsored] Most firms are leaving money on the table. Don’t be one of them. 
-The post This 10-Minute Test Shows Where You’re Losing Cases appeared first on Above the Law.]]></summary>
-        <author>
-            <name>wlim</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This simple Arizona spot is known for its huge, delicious cheeseburgers]]></title>
-        <id>https://fastfoodclub.com/?p=141600</id>
-        <link href="https://fastfoodclub.com/p/this-simple-arizona-spot-is-known-for-its-huge-delicious-cheeseburgers/"/>
-        <updated>2026-04-07T16:13:00.000Z</updated>
-        <summary type="html"><![CDATA[Tucked into the hillside town of Jerome, Arizona, the Haunted Hamburger is the kind of place that sticks with you long after the last bite. With a 4.6-star rating from over 7,000 reviews, this quirky burger joint has earned its reputation as a must-visit destination. The massive portions, stunning valley views, and friendly staff make […]]]></summary>
-        <author>
-            <name>Emma Larkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New York Times Journalist Maggie Haberman to Drop New Trump Exposé ‘Regime Change’ With Jonathan Swan in June]]></title>
-        <id>https://www.mediaite.com/?p=5715652</id>
-        <link href="https://www.mediaite.com/media/news/new-york-times-journalist-maggie-haberman-to-drop-new-trump-expose-regime-change-with-jonathan-swan-in-june/"/>
-        <updated>2026-04-07T16:12:31.000Z</updated>
-        <summary type="html"><![CDATA[Haberman and Swan have been working for more than two years to produce a deeply reported account of Trump’s presidency, based on roughly 1,000 interviews.
-The post New York Times Journalist Maggie Haberman to Drop New Trump Exposé ‘Regime Change’ With Jonathan Swan in June first appeared on Mediaite.]]></summary>
-        <author>
-            <name>David Gilmour</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[‘Who Are Those People?’ Fox’s Lawrence Jones Grills Far-Left Dem Over Claim Voters Are ‘Sad’ Ayatollah Is Dead]]></title>
-        <id>https://www.mediaite.com/?p=5715705</id>
-        <link href="https://www.mediaite.com/media/tv/who-are-those-people-foxs-lawrence-jones-grills-far-left-dem-over-claim-voters-are-sad-ayatollah-is-dead/"/>
-        <updated>2026-04-07T16:09:17.000Z</updated>
-        <summary type="html"><![CDATA[Fox's Lawrence Jones pressed Michigan Senate Abdul El-Sayed for an answer to who could possibly be "sad" about Iranian Supreme Leader Ali Khamenei being killed
-The post ‘Who Are Those People?’ Fox’s Lawrence Jones Grills Far-Left Dem Over Claim Voters Are ‘Sad’ Ayatollah Is Dead first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Sean James</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kanye West Banned From Entering the UK, Keir Starmer Confirms: ‘Should Have Never Been Invited’]]></title>
-        <id>https://www.mediaite.com/?p=5715707</id>
-        <link href="https://www.mediaite.com/media/entertainment/kanye-west-banned-from-entering-the-uk-keir-starmer-confirms-should-have-never-been-invited/"/>
-        <updated>2026-04-07T16:07:48.000Z</updated>
-        <summary type="html"><![CDATA[UK Prime Minister Keir Starmer on Tuesday confirmed that Kanye West had been banned from entering the country in response to his numerous controversies.
-The post Kanye West Banned From Entering the UK, Keir Starmer Confirms: ‘Should Have Never Been Invited’ first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Ahmad Austin Jr.</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A unique Florida shipwreck museum that feels like the 1850s]]></title>
-        <id>https://fastfoodclub.com/?p=141616</id>
-        <link href="https://fastfoodclub.com/p/a-unique-florida-shipwreck-museum-that-feels-like-the-1850s/"/>
-        <updated>2026-04-07T16:06:21.000Z</updated>
-        <summary type="html"><![CDATA[Hidden at 1 Whitehead Street in Key West, Florida, the Key West Shipwreck Museum is one of the most fascinating stops on the island. Step inside and you are instantly transported back to the 1850s, when brave salvagers known as wreckers risked their lives to recover treasure from sunken ships. The museum brings this thrilling […]]]></summary>
-        <author>
-            <name>David Coleman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I missed that author Tracy Kidder  died a few weeks ago ....]]></title>
-        <id>https://kottke.org/26/04/0048691-i-missed-that-author-trac</id>
-        <link href="https://kottke.org/26/04/0048691-i-missed-that-author-trac"/>
-        <updated>2026-04-07T16:03:51.000Z</updated>
-        <summary type="html"><![CDATA[I missed that author Tracy Kidder died a few weeks ago. Kidder wrote the excellent The Soul of a New Machine, which won a National Book Award and a Pulitzer Prize.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 7-Minute Daily Routine That Restores Upper-Body Strength Faster Than Weights After 60]]></title>
-        <id>https://www.eatthis.com/?p=929415</id>
-        <link href="https://www.eatthis.com/7-minute-routine-restore-upper-body-strength-after-60/"/>
-        <updated>2026-04-07T16:00:53.000Z</updated>
-        <summary type="html"><![CDATA[If you’re in your 60s and feel as though your upper-body isn’t as strong as...
-The post The 7-Minute Daily Routine That Restores Upper-Body Strength Faster Than Weights After 60 appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Alexa Mellardo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kenny Beecham, Enjoy Basketball teaming up with NBA on original content, alt-casts, and NBA TV appearances]]></title>
-        <id>https://awfulannouncing.com/?p=870967</id>
-        <link href="https://awfulannouncing.com/nba/kenny-beecham-enjoy-basketball-partnership.html"/>
-        <updated>2026-04-07T16:00:13.000Z</updated>
-        <summary type="html"><![CDATA[Kenny Beecham has spent the better part of a decade building Enjoy Basketball into something the NBA media landscape mostly wasn’t — positive, fan-first, and deliberately uninterested in the conflict that drives clicks everywhere else. That philosophy fit in a signoff — enjoy the basketball — and eventually became the name of a company. It…]]></summary>
-        <author>
-            <name>Sam Neumann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How A Quarter Can Tell You If Frozen Food Is Safe To Eat (Seriously)]]></title>
-        <id>https://www.thetakeout.com/2138106/use-quarter-frozen-food-safety/</id>
-        <link href="https://www.thetakeout.com/2138106/use-quarter-frozen-food-safety/"/>
-        <updated>2026-04-07T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[If you're planning on leaving your home for any extended amount of time, you can use this simple trick to make sure your food is safe upon your return.]]></summary>
-        <author>
-            <name>staff@thetakeout.com (Laura Christine Allan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[REVIEW: Ben & Jerry’s Honey Graham Latte Ice Cream]]></title>
-        <id>https://www.theimpulsivebuy.com/wordpress/?p=76671</id>
-        <link href="https://www.theimpulsivebuy.com/wordpress/2026/04/07/ben-jerrys-honey-graham-latte-ice-cream-review/"/>
-        <updated>2026-04-07T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[For its latest spring-time limited batch, Ben & Jerry’s is once again leaning into one of the brand’s undeniable strengths: coffee. Honey Graham Latte combines caramel coffee ice cream with honey graham cracker swirls and crunchy cinnamon swirls. I won’t lie, when this flavor announcement showed up in my inbox, I was extremely excited. I […]]]></summary>
-        <author>
-            <name>Sean</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Royals are learning from their losses]]></title>
-        <id>https://www.royalsreview.com/kansas-city-royals-analysis/96452/the-royals-are-learning-from-their-losses</id>
-        <link href="https://www.royalsreview.com/kansas-city-royals-analysis/96452/the-royals-are-learning-from-their-losses"/>
-        <updated>2026-04-07T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[After the team&#8217;s first full week, plus a little, the Royals are 5-5. That&#8217;s not where they want to be, but there are some positive takeaways from that first week. The losses still count, but they were never going to go 162-0. Even the most optimistic Royals fan can&#8217;t look at this team and expect [&#8230;]]]></summary>
-        <author>
-            <name>Royals Review</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Karthik On Repeat Mode]]></title>
-        <id>https://irreal.org/blog/?p=13727</id>
-        <link href="https://irreal.org/blog/?p=13727"/>
-        <updated>2026-04-07T15:59:32.000Z</updated>
-        <summary type="html"><![CDATA[I wrote about repeat mode. My take was that it was a way repeating certain commands without having to retype their, possibly, complex prefixes. All of that is true but as Karthik informed me in a comment, there is much, much more to repeat mode than simply repeating commands.
-
-
-It is a way, he says, of grouping a set of related commands together into a sort of mode. Thus, there is more to Ctrl+x } than simply repeating the enlarge window command. Once you type Ctrl+x you can type any of {, }, ^, v to resize the window in any direction. The Ctrl+x enables a keymap with those four single keys to resize the current window, defining, in effect, a “resize window mode”.
-
-
-Four years ago, Karthik wrote a long post that explains all this and, at least on an intuitive level, how it works. My first thought was to add an update to my post that pointed to Karthik’s and I did that but then I thought that his post was so good that I should devote a new post to it so that anyone who missed it the first time would see it.
-
-
-Repeat mode really is an excellent facility—Karthik says it’s a cornerstone of his Emacs usage—and every Emacser should be familiar with it. If nothing else, it’s worth enabling repeat mode so that you can use the built in repeat maps. You can see what they are by running the command describe-repeat-maps.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump’s Threat to Destroy Iran Shows a President Reduced to ZERO Options]]></title>
-        <id>https://www.mediaite.com/?p=5715727</id>
-        <link href="https://www.mediaite.com/opinion/trumps-threat-to-destroy-iran-shows-a-president-reduced-to-zero-options/"/>
-        <updated>2026-04-07T15:55:27.000Z</updated>
-        <summary type="html"><![CDATA[Trump's threat to destroy an entire Iranian civilization isn't bluster. It's the Madman Theory with a share button, and a confession that options have run out.
-The post Trump’s Threat to Destroy Iran Shows a President Reduced to ZERO Options first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Colby Hall</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JD Vance Claims Ukraine Has Attempted to Rig US Elections in Presser With Putin Ally]]></title>
-        <id>https://www.mediaite.com/?p=5715740</id>
-        <link href="https://www.mediaite.com/politics/jd-vance-claims-ukraine-has-attempted-to-rig-us-elections-in-presser-with-putin-ally/"/>
-        <updated>2026-04-07T15:51:27.000Z</updated>
-        <summary type="html"><![CDATA[JD Vance vowed during the presser that Hungary's Viktor Orban “is, of course, going to win” the general election on Sunday.
-The post JD Vance Claims Ukraine Has Attempted to Rig US Elections in Presser With Putin Ally first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Alex Griffing</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Domino's releases a new Slice Sauce, and a watch collection]]></title>
-        <id>https://www.nrn.com/quick-service/domino-s-releases-a-new-slice-sauce-and-a-watch-collection</id>
-        <link href="https://www.nrn.com/quick-service/domino-s-releases-a-new-slice-sauce-and-a-watch-collection"/>
-        <updated>2026-04-07T15:50:14.000Z</updated>
-        <summary type="html"><![CDATA[The fast-food pizza chain is launching a sauce for customers to dip their pizzas in and is also giving those who buy its premium pizzas access to buy from a collection of high-end watches]]></summary>
-        <author>
-            <name>Jonathan Maze</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Between Hegseth and the Fox Cabinet, no restraints on Trump’s war crimes plan]]></title>
-        <id>754a8446-7050-479c-a6bf-3bdaf586003e</id>
-        <link href="https://www.mediamatters.org/pete-hegseth/between-hegseth-and-fox-cabinet-no-restraints-trumps-war-crimes-plan"/>
-        <updated>2026-04-07T15:50:08.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[21 Budget-Friendly Foods Americans Still Rely On Week After Week]]></title>
-        <id>https://fastfoodclub.com/?p=141033</id>
-        <link href="https://fastfoodclub.com/p/21-budget-friendly-foods-americans-still-rely-on-week-after-week/"/>
-        <updated>2026-04-07T15:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Stretching the grocery budget does not mean sacrificing comfort, flavor, or nutrition. With the right staples, you can build quick meals that actually taste good and keep everyone satisfied. These are the humble heroes you reach for on busy nights, at the end of the month, or whenever prices spike. Keep this list handy and […]]]></summary>
-        <author>
-            <name>David Coleman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[20 Arizona landmarks that are even more breathtaking in real life]]></title>
-        <id>https://fastfoodclub.com/?p=141577</id>
-        <link href="https://fastfoodclub.com/p/20-arizona-landmarks-that-are-even-more-breathtaking-in-real-life/"/>
-        <updated>2026-04-07T15:44:00.000Z</updated>
-        <summary type="html"><![CDATA[Arizona is a state that seems almost too beautiful to be real. From towering red rock formations to ancient cliff dwellings, its landscapes look like they were painted by someone with a wild imagination. Photos online give you a glimpse, but nothing truly prepares you for the moment you stand in front of these places […]]]></summary>
-        <author>
-            <name>Emma Larkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[‘8 PM Is Happening!’ Trump Doubles Down in Call With Fox’s Baier]]></title>
-        <id>https://www.mediaite.com/?p=5715731</id>
-        <link href="https://www.mediaite.com/media/news/8-pm-is-happening-trump-doubles-down-in-call-with-foxs-baier/"/>
-        <updated>2026-04-07T15:41:53.000Z</updated>
-        <summary type="html"><![CDATA["He says he doesn't want to do it, but he is at this hour sticking to it and saying it might be likely if they don't come to the table."
-The post ‘8 PM Is Happening!’ Trump Doubles Down in Call With Fox’s Baier first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Alex Griffing</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Restaurant chains serve up deals to ease pain of tax season]]></title>
-        <id>https://www.nrn.com/marketing-branding/restaurant-chains-serve-up-deals-to-ease-the-pain-of-tax-season</id>
-        <link href="https://www.nrn.com/marketing-branding/restaurant-chains-serve-up-deals-to-ease-the-pain-of-tax-season"/>
-        <updated>2026-04-07T15:35:57.000Z</updated>
-        <summary type="html"><![CDATA[Promotions from Qdoba, Corner Bakery, Church's and more are designed to give customers a break, while also highlighting new offerings and services.]]></summary>
-        <author>
-            <name>Joe Guszkowski</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A 15-acre Florida waterpark that features the country’s largest man-made lagoon]]></title>
-        <id>https://fastfoodclub.com/?p=141561</id>
-        <link href="https://fastfoodclub.com/p/a-15-acre-florida-waterpark-that-features-the-countrys-largest-man-made-lagoon/"/>
-        <updated>2026-04-07T15:33:00.000Z</updated>
-        <summary type="html"><![CDATA[Tucked away in Orlando, Florida, Discovery Cove is one of the most unique waterparks in the entire country. Spread across 15 lush acres, it is home to the largest man-made lagoon in the United States, where guests can snorkel, swim, and explore like never before. Unlike crowded theme parks, Discovery Cove limits daily attendance so […]]]></summary>
-        <author>
-            <name>David Coleman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jones Day Gets Hacked While FBI Busy Planning Kash Patel’s Next Vacation]]></title>
-        <id>https://abovethelaw.com/?p=1181702</id>
-        <link href="https://abovethelaw.com/2026/04/jones-day-gets-hacked-while-fbi-busy-planning-kash-patels-next-vacation/"/>
-        <updated>2026-04-07T15:33:00.000Z</updated>
-        <summary type="html"><![CDATA[Hacking group throws in Epstein files crack for good measure.
-The post Jones Day Gets Hacked While FBI Busy Planning Kash Patel’s Next Vacation appeared first on Above the Law.]]></summary>
-        <author>
-            <name>Joe Patrice</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[B.J. Lieberman finds work-life balance in Columbus, Ohio]]></title>
-        <id>https://www.nrn.com/independent-restaurants/b-j-lieberman-finds-work-life-balance-in-columbus-ohio</id>
-        <link href="https://www.nrn.com/independent-restaurants/b-j-lieberman-finds-work-life-balance-in-columbus-ohio"/>
-        <updated>2026-04-07T15:32:04.000Z</updated>
-        <summary type="html"><![CDATA[Menu Talk: The chef and restaurateur operates Metsi’s and Ginger Rabbit]]></summary>
-        <author>
-            <name>Bret Thorn, Patricia Cobe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[‘One Shining Moment’ was almost a Super Bowl song]]></title>
-        <id>https://awfulannouncing.com/?p=870926</id>
-        <link href="https://awfulannouncing.com/cbs/one-shining-moment-super-bowl-song.html"/>
-        <updated>2026-04-07T15:30:51.000Z</updated>
-        <summary type="html"><![CDATA[No piece of music is quite identifiable with a sport as One Shining Moment is with college basketball. But the March Madness anthem that is celebrating nearly 40 years of treasured memories was the result of a serendipitous time crunch at Super Bowl XXI. One Shining Moment was written and performed by David Barrett in…]]></summary>
-        <author>
-            <name>Matt Yoder</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[‘Disturbing’: Larry Sabato Gobsmacked by Governor’s Plummeting Approval Rating]]></title>
-        <id>https://www.mediaite.com/?p=5715695</id>
-        <link href="https://www.mediaite.com/media/news/disturbing-larry-sabato-gobsmacked-by-governors-plummeting-approval-rating/"/>
-        <updated>2026-04-07T15:29:42.000Z</updated>
-        <summary type="html"><![CDATA[Political analyst Larry Sabato was gobsmacked by a new poll showing Virginia Governor Abigail Spanberger's (D) approval rating plummeting.
-The post ‘Disturbing’: Larry Sabato Gobsmacked by Governor’s Plummeting Approval Rating first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Isaac Schorr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Domino’s Introduces New Slice Sauce]]></title>
-        <id>https://www.fastfoodpost.com/?p=23894</id>
-        <link href="https://www.fastfoodpost.com/dominos-introduces-new-slice-sauce/"/>
-        <updated>2026-04-07T15:29:00.000Z</updated>
-        <summary type="html"><![CDATA[Domino’s is offering a new way to enjoy every pizza bite you take with the introduction of its premium black-and-gold packaged Slice Sauce starting April 7, 2026. Designed for dunking, dipping, or drizzling, Slice Sauce is a creamy, zesty dip with a hint of Parmesan that pairs perfectly with the brand’s most popular pizzas. To […]
-The post Domino’s Introduces New Slice Sauce appeared first on The Fast Food Post.]]></summary>
-        <author>
-            <name>G. Ramsay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A small-town California restaurant known for what many say are the best steaks]]></title>
-        <id>https://fastfoodclub.com/?p=141545</id>
-        <link href="https://fastfoodclub.com/p/a-small-town-california-restaurant-known-for-what-many-say-are-the-best-steaks/"/>
-        <updated>2026-04-07T15:28:00.000Z</updated>
-        <summary type="html"><![CDATA[Tucked away in the quiet town of Winters, California, Buckhorn Steakhouse has been winning hearts and appetites for decades. Sitting right at 2 Main St inside a historic former hotel, this beloved restaurant serves up classic steakhouse dishes that keep locals and out-of-towners coming back again and again. With a 4.6-star rating from nearly 1,800 […]]]></summary>
-        <author>
-            <name>Evan Cook</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[22 Foods That Are Hard to Give Up – Even When Trying to Eat Healthier]]></title>
-        <id>https://fastfoodclub.com/?p=140986</id>
-        <link href="https://fastfoodclub.com/p/22-foods-that-are-hard-to-give-up-even-when-trying-to-eat-healthier/"/>
-        <updated>2026-04-07T15:25:00.000Z</updated>
-        <summary type="html"><![CDATA[Some foods feel woven into everyday joy, which makes ditching them surprisingly tough when you are trying to eat better. The smell, the crunch, the creamy bite they all trigger memories and quick comfort. You do not have to quit everything to make progress. Learn the smarter swaps and boundaries that let you enjoy favorites […]]]></summary>
-        <author>
-            <name>Sofia Delgado</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An underrated state park in Texas where $5 gets you a full day of swimming and hiking]]></title>
-        <id>https://fastfoodclub.com/?p=141525</id>
-        <link href="https://fastfoodclub.com/p/an-underrated-state-park-in-texas-where-5-gets-you-a-full-day-of-swimming-and-hiking/"/>
-        <updated>2026-04-07T15:17:00.000Z</updated>
-        <summary type="html"><![CDATA[Tucked away in the Texas Hill Country near Johnson City, Pedernales Falls State Park is one of the state’s best-kept secrets. For just $5 per person, you get access to stunning limestone waterfalls, refreshing river swimming, and miles of scenic hiking trails spread across 5,200 acres. Whether you are planning a solo adventure, a family […]]]></summary>
-        <author>
-            <name>Marco Rinaldi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CNN’s Abby Phillip Calls BS on Scott Jennings in Brawl Over Trump ‘War Crime’ Threats: ‘So He’s Lying?’]]></title>
-        <id>https://www.mediaite.com/?p=5715689</id>
-        <link href="https://www.mediaite.com/media/tv/cnns-abby-phillip-calls-bs-on-scott-jennings-in-brawl-over-trump-war-crime-threats-so-hes-lying/"/>
-        <updated>2026-04-07T15:14:28.000Z</updated>
-        <summary type="html"><![CDATA[CNN anchor Abby Phillip called BS on CNN GOP analyst Scott Jennings in a brawl over Trump’s threats against Iran, which many say would constitute "war crimes."
-The post CNN’s Abby Phillip Calls BS on Scott Jennings in Brawl Over Trump ‘War Crime’ Threats: ‘So He’s Lying?’ first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Tommy Christopher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hollywood, Ending  is John Green&#8217;s forthcoming...]]></title>
-        <id>https://kottke.org/26/04/0048694-hollywood-ending-is-john-</id>
-        <link href="https://kottke.org/26/04/0048694-hollywood-ending-is-john-"/>
-        <updated>2026-04-07T15:11:40.000Z</updated>
-        <summary type="html"><![CDATA[Hollywood, Ending is John Green’s forthcoming book, “a deeply observed novel about the tension between a public and a private life, and finding your safe someone to hold onto”.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Happy Death Of Civilization Day, Everybody!]]></title>
-        <id>https://www.wonkette.com/p/happy-death-of-civilization-day-everybody</id>
-        <link href="https://www.wonkette.com/p/happy-death-of-civilization-day-everybody"/>
-        <updated>2026-04-07T15:11:07.000Z</updated>
-        <summary type="html"><![CDATA[If this is it, please let me know...]]></summary>
-        <author>
-            <name>Marcie Jones</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Nevada shop serves homemade ice cream that’s worth traveling for]]></title>
-        <id>https://fastfoodclub.com/?p=141513</id>
-        <link href="https://fastfoodclub.com/p/this-nevada-shop-serves-homemade-ice-cream-thats-worth-traveling-for/"/>
-        <updated>2026-04-07T15:07:04.000Z</updated>
-        <summary type="html"><![CDATA[Tucked along US Highway 95A in Fernley, Nevada, Steve’s Homemade Ice Cream is the kind of place that makes you pull over and stay a while. With a 4.8-star rating from hundreds of loyal fans, this small-town shop has earned a big reputation. From creamy scoops to classic sundaes, every visit feels like a sweet […]]]></summary>
-        <author>
-            <name>Sofia Delgado</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pricing Power]]></title>
-        <id>https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/pricing-power</id>
-        <link href="https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/pricing-power"/>
-        <updated>2026-04-07T15:06:21.000Z</updated>
-        <summary type="html"><![CDATA[Stocks and Funds]]></summary>
-        <author>
-            <name>Daily Findings | National Affairs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Democratic Lawmakers Ramp Up Their 25th Amendment Push After Trump’s ‘A Civilization Will Die Tonight’ Threat to Iran]]></title>
-        <id>https://www.mediaite.com/?p=5715702</id>
-        <link href="https://www.mediaite.com/politics/democratic-lawmakers-ramp-up-their-25th-amendment-push-after-trumps-a-civilization-will-die-tonight-threat-to-iran/"/>
-        <updated>2026-04-07T15:04:33.000Z</updated>
-        <summary type="html"><![CDATA[Democratic lawmakers ramped up their calls for President Donald Trump to be removed from office under the 25th Amendment on Tuesday.
-The post Democratic Lawmakers Ramp Up Their 25th Amendment Push After Trump’s ‘A Civilization Will Die Tonight’ Threat to Iran first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Charlie Nash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Wall Exercises That Rebuild Knee Strength Faster Than Floor Exercises After 60]]></title>
-        <id>https://www.eatthis.com/?p=930721</id>
-        <link href="https://www.eatthis.com/wall-exercises-rebuild-knee-strength-after-60/"/>
-        <updated>2026-04-07T15:00:54.000Z</updated>
-        <summary type="html"><![CDATA[Knee strength after 60 often declines due to reduced muscle support, not just joint wear....
-The post 5 Wall Exercises That Rebuild Knee Strength Faster Than Floor Exercises After 60 appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Tyler Read</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Benny Johnson: "The Middle East becomes a trap for great empires. ... How many empires must fall in this sandpit? This oblivion. I don't want that to be us."]]></title>
-        <id>db01ac64-dde4-46ee-9176-71b5aed57f15</id>
-        <link href="https://www.mediamatters.org/us-iran-relations/benny-johnson-middle-east-becomes-trap-great-empires-how-many-empires-must-fall"/>
-        <updated>2026-04-07T15:00:14.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[With Michael Malone headed to UNC, ESPN again searching for NBA coverage answers]]></title>
-        <id>https://awfulannouncing.com/?p=870559</id>
-        <link href="https://awfulannouncing.com/espn/michael-malone-north-carolina-searching-answers-nba-coverage.html"/>
-        <updated>2026-04-07T15:00:08.000Z</updated>
-        <summary type="html"><![CDATA[Before being hired as the next head men’s basketball coach at North Carolina this week, Michael Malone was one of the bigger surprises in NBA broadcasting to come along in recent years. Malone jumped from the Denver Nuggets bench to ESPN studio coverage last postseason, then signed on with the Worldwide Leader on a more…]]></summary>
-        <author>
-            <name>Brendon Kleen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Unique Connecticut Seafood Pizza You Won't Find Anywhere Else]]></title>
-        <id>https://www.thetakeout.com/2138041/connecticut-seafood-pizza-white-clam/</id>
-        <link href="https://www.thetakeout.com/2138041/connecticut-seafood-pizza-white-clam/"/>
-        <updated>2026-04-07T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ever heard of seafood pizza? Odds are, you probably haven't - unless you live in Connecticut, that is. Discover what makes this New England pie so unique.]]></summary>
-        <author>
-            <name>staff@thetakeout.com (Joe Hoeffner)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JUST IN: Iran Ends Direct Talks With US After Trump Threatens to Destroy ‘Whole Civilization’]]></title>
-        <id>https://www.mediaite.com/?p=5715706</id>
-        <link href="https://www.mediaite.com/media/news/just-in-iran-ends-direct-talks-with-us-after-trump-threatens-to-destroy-whole-civilization/"/>
-        <updated>2026-04-07T14:54:21.000Z</updated>
-        <summary type="html"><![CDATA[Iran reportedly cut off all direct communication with the U.S. after Trump’s shock post to Truth Social vowing to destroy Iran’s “whole civilization”
-The post JUST IN: Iran Ends Direct Talks With US After Trump Threatens to Destroy ‘Whole Civilization’ first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Alex Griffing</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[23 Foods Americans Still Eat All the Time – Even When They Know They Should Cut Back]]></title>
-        <id>https://fastfoodclub.com/?p=141164</id>
-        <link href="https://fastfoodclub.com/p/23-foods-americans-still-eat-all-the-time-even-when-they-know-they-should-cut-back/"/>
-        <updated>2026-04-07T14:53:00.000Z</updated>
-        <summary type="html"><![CDATA[You already know some favorites should be occasional treats, yet they keep finding a spot on the plate. Convenience, nostalgia, and bold flavors make them hard to resist, even when the label tells a different story. This list is a friendly nudge to look closer while still honoring the comfort these foods bring. Keep reading […]]]></summary>
-        <author>
-            <name>Caleb Whitaker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cyberattacks On Law Firms Are Rising. Here’s What’s Driving It.]]></title>
-        <id>https://abovethelaw.com/?p=1181708</id>
-        <link href="https://abovethelaw.com/2026/04/cyberattacks-on-law-firms-are-rising-heres-whats-driving-it/"/>
-        <updated>2026-04-07T14:49:00.000Z</updated>
-        <summary type="html"><![CDATA[The real question isn't whether firms will be targeted, but whether they are prepared. 
-The post Cyberattacks On Law Firms Are Rising. Here’s What’s Driving It. appeared first on Above the Law.]]></summary>
-        <author>
-            <name>Michael C. Maschke, Sharon D. Nelson, and John W. Simek</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tim Pool: "If Trump does not fire on Iran, assuming Iran says no deal, we will see the emperor has no clothes.  Now my concern is that Donald Trump is not a man who can allow that to happen."]]></title>
-        <id>d42037ab-814b-4d99-8711-9a2ed3fe9a3a</id>
-        <link href="https://www.mediamatters.org/us-iran-relations/tim-pool-if-trump-does-not-fire-iran-assuming-iran-says-no-deal-we-will-see"/>
-        <updated>2026-04-07T14:41:07.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Andrew Ross Sorkin Warns Trump’s Threatened Iran Strikes Would Spike Oil Prices ‘Threefold’]]></title>
-        <id>https://www.mediaite.com/?p=5715697</id>
-        <link href="https://www.mediaite.com/media/tv/andrew-ross-sorkin-warns-trumps-threatened-iran-strikes-would-spike-oil-prices-threefold/"/>
-        <updated>2026-04-07T14:40:11.000Z</updated>
-        <summary type="html"><![CDATA[Sorkin predicted the price of oil will rise for a long time if the president carries out his threats and loses the Strait of Hormuz.
-The post Andrew Ross Sorkin Warns Trump’s Threatened Iran Strikes Would Spike Oil Prices ‘Threefold’ first appeared on Mediaite.]]></summary>
-        <author>
-            <name>David Gilmour</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 11 Best Ways To Use Canned Chickpeas For An Easy Meal, According To Chefs]]></title>
-        <id>https://www.thetakeout.com/2140387/best-canned-chickpea-easy-meal/</id>
-        <link href="https://www.thetakeout.com/2140387/best-canned-chickpea-easy-meal/"/>
-        <updated>2026-04-07T14:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Garbanzo beans are a common ingredient in recipes for dishes prepared across the globe. These experts shine a light on their versatility.]]></summary>
-        <author>
-            <name>staff@thetakeout.com (James Hornung)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pair of GOP anti-abortion bills draw vetoes from Democratic Kansas governor]]></title>
-        <id>https://kansasreflector.com/?p=59179</id>
-        <link href="https://kansasreflector.com/2026/04/07/pair-of-gop-anti-abortion-bills-draw-vetoes-from-democratic-kansas-governor/"/>
-        <updated>2026-04-07T14:34:55.000Z</updated>
-        <summary type="html"><![CDATA[Gov. Laura Kelly surprised no one by vetoing anti-abortion bills passed by the Legislature, while GOP leadership vows to override the Democratic governor.]]></summary>
-        <author>
-            <name>Tim Carpenter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A huge Arizona thrift store where $35 fills your cart]]></title>
-        <id>https://fastfoodclub.com/?p=141497</id>
-        <link href="https://fastfoodclub.com/p/a-huge-arizona-thrift-store-where-35-fills-your-cart/"/>
-        <updated>2026-04-07T14:31:00.000Z</updated>
-        <summary type="html"><![CDATA[If you love finding great deals on name-brand clothing without spending a fortune, Uptown Cheapskate Chandler in Arizona is the place to be. Located at 3454 W Chandler Blvd, this thrift store is packed with designer pieces, trendy styles, and gently used gems that won’t empty your wallet. Shoppers rave about filling their carts for […]]]></summary>
-        <author>
-            <name>Emma Larkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Andrew Marchand disputes idea that ESPN sees Ian Rapoport as Adam Schefter’s successor]]></title>
-        <id>https://awfulannouncing.com/?p=870595</id>
-        <link href="https://awfulannouncing.com/espn/andrew-marchand-disputes-ian-rapoport-adam-schefter-successor.html"/>
-        <updated>2026-04-07T14:30:54.000Z</updated>
-        <summary type="html"><![CDATA[As NFL Network insider Ian Rapoport plays out the clock on his current contract with his new employers at ESPN, all eyes are on if and how Rapoport can coexist with Adam Schefter, the top dog at ESPN and Rapoport’s longtime competitor for NFL news. Multiple reports indicate ESPN plans to keep Rapoport and maintain…]]></summary>
-        <author>
-            <name>Brendon Kleen</name>
         </author>
     </entry>
 </feed>
