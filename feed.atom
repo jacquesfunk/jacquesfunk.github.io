@@ -2,10 +2,104 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-04-21T06:01:22.981Z</updated>
+    <updated>2026-04-21T09:24:50.742Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Frame – desktop media conversion utility]]></title>
+        <id>https://www.linuxlinks.com/?p=175052</id>
+        <link href="https://www.linuxlinks.com/frame-desktop-media-conversion-utility/"/>
+        <updated>2026-04-21T09:19:56.000Z</updated>
+        <summary type="html"><![CDATA[Frame is a desktop media conversion utility that provides a native graphical interface for FFmpeg.
+The post Frame – desktop media conversion utility appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Not Even The Power Of Grayskull Can Save Denny's Masters Of The Universe Menu]]></title>
+        <id>https://www.thetakeout.com/2153272/dennys-masters-of-universe-menu-review/</id>
+        <link href="https://www.thetakeout.com/2153272/dennys-masters-of-universe-menu-review/"/>
+        <updated>2026-04-21T08:39:08.000Z</updated>
+        <summary type="html"><![CDATA[Denny's new Masters of the Universe menu includes a He-Man Battle Burger and a Skeletor shake, but are the limited-time items worthy of Eternia?]]></summary>
+        <author>
+            <name>staff@thetakeout.com (Timothy Rawles)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why didn’t the Kansas Legislature fix property taxes? Because GOP leaders were too cheap.]]></title>
+        <id>https://kansasreflector.com/?p=59484</id>
+        <link href="https://kansasreflector.com/2026/04/21/why-didnt-the-kansas-legislature-fix-property-taxes-because-gop-leaders-were-too-cheap/"/>
+        <updated>2026-04-21T08:33:58.000Z</updated>
+        <summary type="html"><![CDATA[Surprise! I’m back with an extra-special, bonus installment of Statehouse Scraps. No, the Kansas Legislature didn’t come back into session for extra days of loosey-goosey lawmaking and overripe overrides. But we ended up having too many dangling threads of stories to neatly trim off last week. I’ll keep this column galumphing along for long enough […]]]></summary>
+        <author>
+            <name>Clay Wirestone</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10 Useful Free and Open Source Linux WhatsApp Clients]]></title>
+        <id>https://www.linuxlinks.com/?p=154042</id>
+        <link href="https://www.linuxlinks.com/useful-free-open-source-linux-whatsapp-clients/"/>
+        <updated>2026-04-21T07:00:30.000Z</updated>
+        <summary type="html"><![CDATA[WhatsApp is a popular, free messaging, social media, and voice-over-IP service that lets users send text, voice messages, and video messages
+The post 10 Useful Free and Open Source Linux WhatsApp Clients appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[James Dyer: Highlighting git changes in a buffer with diff-hl]]></title>
+        <id>https://www.emacs.dyerdwelling.family/emacs/20260421070329-emacs--getting-diff-hl-just-right/</id>
+        <link href="https://www.emacs.dyerdwelling.family/emacs/20260421070329-emacs--getting-diff-hl-just-right/"/>
+        <updated>2026-04-21T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lately I’ve found myself wanting a better, more fine-grained view of what’s going on in a file under git. For some reason, my default workflow has been to keep jumping in and out of project-vc-dir to check changes. It gets the job done, but honestly it’s a bit of a hassle.
+
+
+What I really wanted was something right there in the buffer. Not a full-on inline diff (that gets messy fast I would guess), but just a small visual hint, something that lets me “see” what’s changed without breaking my flow.
+Turns out, that’s exactly what diff-hl does!
+It’s super lightweight and just highlights changes in the fringe. Nothing flashy but just enough to keep you aware of what you’ve modified. Once you start using it, it feels kind of weird not having it.
+One thing I really like is how nicely it plays with the built-in VC tools, move to a buffer position that aligns with a highlighted change, hit C-x v = and it jumps straight to the relevant hunk in the diff. No friction, no extra thinking, it just works.
+Here’s the setup I’m using:
+(use-package diff-hl
+:ensure t
+:hook (dired-mode . diff-hl-dired-mode)
+:config
+(global-diff-hl-mode 1)
+(diff-hl-flydiff-mode 1)
+(unless (display-graphic-p)
+(diff-hl-margin-mode 1)))
+
+By default, diff-hl-mode only updates when you save the file. That’s okay, but enabling diff-hl-flydiff-mode makes it update as you type, which feels more intuitive.
+Oh, and that dired-mode hook? That turns on diff-hl-dired-mode, which gives you a quick visual overview of changed files right inside dired. It’s one of those small touches that ends up being surprisingly useful.
+If you’ve got repeat-mode enabled, you can also hop through changes with C-x v ] and C-x v [, which makes reviewing edits really smooth.
+I am enjoying diff-hl and is quietly improving my workflow without getting in my way. Simple, fast, and just really nice to have.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wayland Color Picker GTK4 – sample colours]]></title>
+        <id>https://www.linuxlinks.com/?p=174808</id>
+        <link href="https://www.linuxlinks.com/wayland-color-picker-gtk4-sample-colours/"/>
+        <updated>2026-04-21T06:58:35.000Z</updated>
+        <summary type="html"><![CDATA[Wayland Color Picker GTK4 is a GTK4 application for Wayland desktops that lets you sample colours from anywhere on the screen. 
+The post Wayland Color Picker GTK4 – sample colours appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[24 Best Free and Open Source Graphical YouTube Tools Bypassing the Web-Only Barrier]]></title>
+        <id>https://www.linuxlinks.com/?page_id=10008</id>
+        <link href="https://www.linuxlinks.com/excellent-youtube-tools-bypassing-web-barrier/"/>
+        <updated>2026-04-21T06:41:40.000Z</updated>
+        <summary type="html"><![CDATA[Innovative developers have created applications that allow you to bypass the web-only barrier of YouTube. We recommend the best tools.
+The post 24 Best Free and Open Source Graphical YouTube Tools Bypassing the Web-Only Barrier appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Trump FCC Chair Brendan Carr to Attend WHCD Amid Growing Outrage From Journalists at Attacks on Free Speech]]></title>
         <id>https://www.mediaite.com/?p=5719599</id>
@@ -26349,307 +26443,6 @@ The post ‘Just This Lifeboat Hanging On’: Artemis II Astronauts Speak Of The
         <summary type="html"><![CDATA[Florida gardeners know the struggle of finding plants that can take the heat and humidity without throwing a fit. The good news is that plenty of flowering shrubs actually thrive in those sticky, swampy conditions that would wilt most plants. Whether you have a sunny backyard or a shady corner, there is something on this […]]]></summary>
         <author>
             <name>David Coleman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A stunning Arizona state park perfect for unplugging]]></title>
-        <id>https://fastfoodclub.com/?p=146182</id>
-        <link href="https://fastfoodclub.com/p/a-stunning-arizona-state-park-perfect-for-unplugging/"/>
-        <updated>2026-04-11T21:15:56.000Z</updated>
-        <summary type="html"><![CDATA[Tucked along the sparkling shores of Lake Havasu in Arizona, Cattail Cove State Park is the kind of place that makes you forget your phone even exists. Spanning over 2,000 acres, this lakeside gem offers camping, hiking, boating, swimming, and so much more. Whether you are planning a family road trip or a solo escape, […]]]></summary>
-        <author>
-            <name>David Coleman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A charming Florida beach town made for a relaxing weekend]]></title>
-        <id>https://fastfoodclub.com/?p=146166</id>
-        <link href="https://fastfoodclub.com/p/a-charming-florida-beach-town-made-for-a-relaxing-weekend/"/>
-        <updated>2026-04-11T21:08:49.000Z</updated>
-        <summary type="html"><![CDATA[Tucked along the Gulf of Mexico, the Florida Panhandle is one of the most beautiful and relaxing stretches of coastline in the entire country. With sugar-white sand beaches, calm emerald waters, and charming small towns, it feels like a place where time slows down just for you. Whether you are looking for a quiet escape […]]]></summary>
-        <author>
-            <name>David Coleman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mark Jones plans to stay with Kings ‘a long, long time’ after leaving ESPN]]></title>
-        <id>https://awfulannouncing.com/?p=872836</id>
-        <link href="https://awfulannouncing.com/nba/mark-jones-sacramento-kings-future-leaving-espn.html"/>
-        <updated>2026-04-11T21:00:49.000Z</updated>
-        <summary type="html"><![CDATA[Mark Jones is leaving ESPN after 36 years, but he isn’t done. Barry Jackson of the Miami Herald reports that Jones left by choice, that he simply felt it was time, and that ESPN told him he could have stayed if he wanted. “Mark has made an enduring impact at ESPN since 1990, serving as…]]></summary>
-        <author>
-            <name>Sam Neumann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[7 Easy Costco Appetizers That Will Be A Hit At Your Next Party]]></title>
-        <id>https://www.thetakeout.com/2143135/costco-frozen-appetizers-parties/</id>
-        <link href="https://www.thetakeout.com/2143135/costco-frozen-appetizers-parties/"/>
-        <updated>2026-04-11T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Looking for quick, delicious appetizers for your next party that won't break the bank? Costco has you covered. Discover seven of the chain's best appetizers.]]></summary>
-        <author>
-            <name>staff@thetakeout.com (Dylan Murray)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Court Accepts Trump Argument That Ballroom Construction Is Matter of National Security]]></title>
-        <id>https://www.mediaite.com/?p=5717222</id>
-        <link href="https://www.mediaite.com/media/news/court-accepts-trump-argument-that-ballroom-construction-is-matter-of-national-security/"/>
-        <updated>2026-04-11T20:51:50.000Z</updated>
-        <summary type="html"><![CDATA[An appeals court has accepted Donald Trump's argument that continuing his massive ballroom project was a matter of national security.
-The post Court Accepts Trump Argument That Ballroom Construction Is Matter of National Security first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Jennifer Bowers Bahney</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CNN Guest Expert Claims Iran Has ‘More Leverage’ Amid Crucial Peace Meeting With JD Vance]]></title>
-        <id>https://www.mediaite.com/?p=5717218</id>
-        <link href="https://www.mediaite.com/media/tv/cnn-guest-expert-claims-iran-has-more-leverage-amid-crucial-peace-meeting-with-jd-vance/"/>
-        <updated>2026-04-11T20:46:01.000Z</updated>
-        <summary type="html"><![CDATA[CNN guest Trita Parsi claimed Iran's theocratic leaders believe they hold "far more leverage" heading into a big meeting with Vice President Vance in Pakistan
-The post CNN Guest Expert Claims Iran Has ‘More Leverage’ Amid Crucial Peace Meeting With JD Vance first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Sean James</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ActivityWatch – automated time tracking application]]></title>
-        <id>https://www.linuxlinks.com/?p=176160</id>
-        <link href="https://www.linuxlinks.com/activitywatch-automated-time-tracking-application/"/>
-        <updated>2026-04-11T20:34:39.000Z</updated>
-        <summary type="html"><![CDATA[ActivityWatch is automated time tracking  recording showing time spent on your devices while keeping the collected data on your own machine. 
-The post ActivityWatch – automated time tracking application appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[‘Say One More Thing!’ Alex Jones Threatens To Go Nuclear on Trump Over Mocking Comments]]></title>
-        <id>https://www.mediaite.com/?p=5717201</id>
-        <link href="https://www.mediaite.com/media/podcasts/say-one-more-thing-alex-jones-threatens-to-go-nuclear-on-trump-over-mocking-comments/"/>
-        <updated>2026-04-11T20:28:41.000Z</updated>
-        <summary type="html"><![CDATA[Conservative host and noted conspiracy theorist Alex Jones went "scorched-earth" on Donald Trump over comments the president made belittling the podcaster.
-The post ‘Say One More Thing!’ Alex Jones Threatens To Go Nuclear on Trump Over Mocking Comments first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Jennifer Bowers Bahney</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mediaite’s Colby Hall Goes Deep on ‘Blood Feud’ With Mark Levin and His ‘Bullsh*ttery’]]></title>
-        <id>https://www.mediaite.com/?p=5717215</id>
-        <link href="https://www.mediaite.com/media/podcasts/mediaites-colby-hall-goes-deep-on-blood-feud-with-mark-levin-and-his-bullshttery/"/>
-        <updated>2026-04-11T20:23:46.000Z</updated>
-        <summary type="html"><![CDATA[Mediaite founding editor Colby Hall went deep on his ongoing "blood feud" with MAGA star Mark Levin in an interview with comedian Pete Dominick.
-The post Mediaite’s Colby Hall Goes Deep on ‘Blood Feud’ With Mark Levin and His ‘Bullsh*ttery’ first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Zachary Leeman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JJ Redick calls out media for doubting Lakers this season]]></title>
-        <id>https://awfulannouncing.com/?p=872821</id>
-        <link href="https://awfulannouncing.com/nba/jj-redick-calls-out-media-for-doubting-lakers-this-season.html"/>
-        <updated>2026-04-11T20:00:19.000Z</updated>
-        <summary type="html"><![CDATA[The Los Angeles Lakers defeated the Phoenix Suns on Friday to guarantee a top-four spot in the Western Conference playoffs. And head coach JJ Redick wanted to make sure that he was proving the doubters wrong in doing so. It’s been a dramatic year in Tinseltown. The future status of LeBron James looks uncertain. Reports…]]></summary>
-        <author>
-            <name>Matt Yoder</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When Your Baked Potato Hits This Temperature, It's Done]]></title>
-        <id>https://www.thetakeout.com/2145086/temperature-baked-potato-done/</id>
-        <link href="https://www.thetakeout.com/2145086/temperature-baked-potato-done/"/>
-        <updated>2026-04-11T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Baked potatoes take a while to cook, and the time varies by the size of the spud. For best results, check that the internal temperature hits this mark.]]></summary>
-        <author>
-            <name>staff@thetakeout.com (Laura Christine Allan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Manhattan DA Launches Sexual Assault Probe Against Eric Swalwell]]></title>
-        <id>https://www.mediaite.com/?p=5717207</id>
-        <link href="https://www.mediaite.com/politics/manhattan-da-launches-sexual-assault-probe-against-eric-swalwell/"/>
-        <updated>2026-04-11T19:43:49.000Z</updated>
-        <summary type="html"><![CDATA[The Manhattan DA’s office has launched a sexual assault probe into Rep. Eric Swalwell (D-CA) after a woman accused him of raping her in a NYC hotel in 2024
-The post Manhattan DA Launches Sexual Assault Probe Against Eric Swalwell first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Sean James</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CNN’s Smerconish Hits at Remove Trump Crowd in Lengthy Defense: ‘Madness IS the Method’]]></title>
-        <id>https://www.mediaite.com/?p=5717196</id>
-        <link href="https://www.mediaite.com/media/tv/cnns-smerconish-hits-at-remove-trump-crowd-in-lengthy-defense-madness-is-the-method/"/>
-        <updated>2026-04-11T19:43:00.000Z</updated>
-        <summary type="html"><![CDATA[CNN's Michael Smerconish argued Trump's critics don't understand he plays the "madman card in public" to keep foreign enemies on their toes
-The post CNN’s Smerconish Hits at Remove Trump Crowd in Lengthy Defense: ‘Madness IS the Method’ first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Sean James</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NASA Chief Tells Fox Trump Is Always Reminding Him Moon Is Just the Opening Act, ‘Stars and Stripes’ Taking Over Mars Next]]></title>
-        <id>https://www.mediaite.com/?p=5717192</id>
-        <link href="https://www.mediaite.com/media/tv/nasa-chief-tells-fox-trump-is-always-reminding-him-moon-is-just-the-opening-act-stars-and-stripes-taking-over-mars-next/"/>
-        <updated>2026-04-11T19:40:16.000Z</updated>
-        <summary type="html"><![CDATA[NASA Administrator Jacob Isaacman gave his first post-Artemis II mission interview to Fox and he made it clear that President Trump wants Americans on Mars.
-The post NASA Chief Tells Fox Trump Is Always Reminding Him Moon Is Just the Opening Act, ‘Stars and Stripes’ Taking Over Mars Next first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Zachary Leeman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[14 Puerto Rican Foods You Should Never Pass Up]]></title>
-        <id>https://www.thetakeout.com/2143865/puerto-rican-foods-never-pass-up/</id>
-        <link href="https://www.thetakeout.com/2143865/puerto-rican-foods-never-pass-up/"/>
-        <updated>2026-04-11T19:40:00.000Z</updated>
-        <summary type="html"><![CDATA[You've heard of mofongo and know there are plenty of fruits in Puerto Rico, but the island's cuisine is a rich blend of root vegetables, sofritos, and cultures.]]></summary>
-        <author>
-            <name>staff@thetakeout.com (Melanie Andrade)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Game threads XV &#8211; White Sox at Royals]]></title>
-        <id>https://www.royalsreview.com/kansas-city-royals-game-information/96790/game-threads-xv-white-sox-at-royals</id>
-        <link href="https://www.royalsreview.com/kansas-city-royals-game-information/96790/game-threads-xv-white-sox-at-royals"/>
-        <updated>2026-04-11T19:40:00.000Z</updated>
-        <summary type="html"><![CDATA[The Royals finally came through with a win last night after Kris Bubic absolutely shoved for seven innings and Matt Strahm and Lucas Erceg did their jobs for an inning each. Today would be a really fun day to just absolutely kick some White Sox butt, though. Make us all feel a bit better about [&#8230;]]]></summary>
-        <author>
-            <name>Royals Review</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anna Paulina Luna Makes Case For Kicking Eric Swalwell Out of Congress: ‘Wouldn’t Recommend’ Democrats ‘Protect This Kind of Garbage’]]></title>
-        <id>https://www.mediaite.com/?p=5717183</id>
-        <link href="https://www.mediaite.com/media/news/anna-paulina-luna-makes-case-for-kicking-eric-swalwell-out-of-congress-wouldnt-recommend-democrats-protect-this-kind-of-garbage/"/>
-        <updated>2026-04-11T19:31:28.000Z</updated>
-        <summary type="html"><![CDATA[Anna Paulina Luna is calling for the expulsion of Eric Swalwell from Congress now that several former staffers have come forward to accuse him of sex crimes.
-The post Anna Paulina Luna Makes Case For Kicking Eric Swalwell Out of Congress: ‘Wouldn’t Recommend’ Democrats ‘Protect This Kind of Garbage’ first appeared on Mediaite.]]></summary>
-        <author>
-            <name>Jennifer Bowers Bahney</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Could Fox’s hardball tactics land it the NFL’s new five-game package?]]></title>
-        <id>https://awfulannouncing.com/?p=872839</id>
-        <link href="https://awfulannouncing.com/fox/nfl-five-game-package.html"/>
-        <updated>2026-04-11T19:30:34.000Z</updated>
-        <summary type="html"><![CDATA[Fox wants in on the NFL’s five-game standalone package for the 2026 season. According to Pro Football Talk’s Mike Florio, YouTube, Netflix, and Fox are all in play for the mini-slate, which the NFL has been shopping as it renegotiates its broader media rights landscape. The league has presented bidders with a menu of more…]]></summary>
-        <author>
-            <name>Sam Neumann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[13 Best Free and Open Source Linux Graphical IRC Clients]]></title>
-        <id>https://www.linuxlinks.com/?page_id=386</id>
-        <link href="https://www.linuxlinks.com/bestirc/"/>
-        <updated>2026-04-11T19:26:16.000Z</updated>
-        <summary type="html"><![CDATA[Internet Relay Chat (IRC) is a form of real-time Internet text messaging (chat) or synchronous conferencing. We recommend the best free and open source graphical IRC clients.
-The post 13 Best Free and Open Source Linux Graphical IRC Clients appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Your Iran Israel Lebanon Clusterfuque Update!]]></title>
-        <id>https://www.wonkette.com/p/your-iran-israel-lebanon-clusterfuque</id>
-        <link href="https://www.wonkette.com/p/your-iran-israel-lebanon-clusterfuque"/>
-        <updated>2026-04-11T19:00:28.000Z</updated>
-        <summary type="html"><![CDATA[JD Vance to the rescue?]]></summary>
-        <author>
-            <name>Gary Legum</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gary Cohen ‘very surprised’ to see Mets’ game stories focused on Brett Baty’s defense]]></title>
-        <id>https://awfulannouncing.com/?p=872806</id>
-        <link href="https://awfulannouncing.com/mlb/gary-cohen-mets-defensive-narrative-brett-baty-diamondbacks.html"/>
-        <updated>2026-04-11T19:00:24.000Z</updated>
-        <summary type="html"><![CDATA[Gary Cohen wasn’t in the booth Thursday as the Mets’ offense sputtered through a 7-1 loss to the Diamondbacks at Citi Field. But even if he had been, New York’s longtime television voice wouldn’t have pinned the night on Brett Baty. If you read any of the game stories from the Mets’ beat following Thursday’s…]]></summary>
-        <author>
-            <name>Sam Neumann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Andy Warhol Loved This Canned Staple So Much, He Ate It Every Day For 20 Years]]></title>
-        <id>https://www.thetakeout.com/2141649/andy-warhol-campbells-soup-lunch-twenty-years/</id>
-        <link href="https://www.thetakeout.com/2141649/andy-warhol-campbells-soup-lunch-twenty-years/"/>
-        <updated>2026-04-11T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The famed artist Andy Warhol was known for repetitive images in his art work. It turns out, he also didn't mind having repetitive meals for lunch.]]></summary>
-        <author>
-            <name>staff@thetakeout.com (Laura Christine Allan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Game Jam Winner Spotlight: As I Lay Flying]]></title>
-        <id>https://www.techdirt.com/?p=535187&amp;preview=true&amp;preview_id=535187</id>
-        <link href="https://www.techdirt.com/2026/04/11/game-jam-winner-spotlight-as-i-lay-flying/"/>
-        <updated>2026-04-11T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s time for the third in our series of spotlight posts looking at the winners of our eighth annual public domain game jam, Gaming Like It’s 1930! We’ve already covered the Best Adaptation and Best Deep Cut winners, and this week we’re looking at the winner of Best Visuals: As I Lay Flying by Geouug. […]]]></summary>
-        <author>
-            <name>Leigh Beadon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A breathtaking Arizona overlook that looks almost unreal]]></title>
-        <id>https://fastfoodclub.com/?p=146150</id>
-        <link href="https://fastfoodclub.com/p/a-breathtaking-arizona-overlook-that-looks-almost-unreal/"/>
-        <updated>2026-04-11T18:57:38.000Z</updated>
-        <summary type="html"><![CDATA[Tucked just off Highway 89 near Page, Arizona, Wahweap Overlook is one of those places that makes you stop and wonder if you wandered into a painting. From its elevated perch, the view stretches across Lake Powell, red rock canyons, and the distant Glen Canyon Dam in a way that feels almost too beautiful to […]]]></summary>
-        <author>
-            <name>Emma Larkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[14 beautiful Tennessee towns with lower costs and a relaxed lifestyle]]></title>
-        <id>https://fastfoodclub.com/?p=146131</id>
-        <link href="https://fastfoodclub.com/p/14-beautiful-tennessee-towns-with-lower-costs-and-a-relaxed-lifestyle/"/>
-        <updated>2026-04-11T18:54:36.000Z</updated>
-        <summary type="html"><![CDATA[Tennessee is full of surprises, and not just in its big cities. Tucked between rolling hills, river valleys, and scenic mountains are small towns where life moves a little slower and your dollar stretches a whole lot further. From the Cumberland Plateau to the banks of the Tennessee River, these communities offer genuine charm, friendly […]]]></summary>
-        <author>
-            <name>Caleb Whitaker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dirty Dew Is FINALLY Showing Up in Stores (and There’s Even More Good News)]]></title>
-        <id>https://sporked.com/?p=65550</id>
-        <link href="https://sporked.com/article/mountain-dew-news-dirty-dew-is-finally-here/"/>
-        <updated>2026-04-11T18:54:34.000Z</updated>
-        <summary type="html"><![CDATA[Dirty Dew is like that classmate you had a crush on in middle school that was embarrassed to show you any affection. First, they spent a year teasing us with leaks and whispers about the release. Then, they gave us an exclusive taste this past December, but wouldn’t actually commit to a hard launch date....]]></summary>
-        <author>
-            <name>Vinz Karl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[11 simple Florida steakhouses known for their legendary status]]></title>
-        <id>https://fastfoodclub.com/?p=146119</id>
-        <link href="https://fastfoodclub.com/p/11-simple-florida-steakhouses-known-for-their-legendary-status/"/>
-        <updated>2026-04-11T18:50:26.000Z</updated>
-        <summary type="html"><![CDATA[Florida is home to some of the most beloved steakhouses in the entire country. From Tampa to West Palm Beach, these spots have been feeding loyal fans for decades with incredible cuts of meat and unforgettable atmospheres. Some have been around since before your grandparents were born, and others have earned their legendary status in […]]]></summary>
-        <author>
-            <name>David Coleman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Laser – simple CD ripper for the GNOME desktop]]></title>
-        <id>https://www.linuxlinks.com/?p=175721</id>
-        <link href="https://www.linuxlinks.com/laser-simple-cd-ripper-gnome-desktop/"/>
-        <updated>2026-04-11T18:49:46.000Z</updated>
-        <summary type="html"><![CDATA[Laser is a simple CD ripper for the GNOME desktop. It offers a straightforward graphical interface for extracting audio tracks from compact discs to common audio formats, while integrating metadata lookup and artwork handling so albums can be archived with
-The post Laser – simple CD ripper for the GNOME desktop appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[International Pringles Flavors We Wish We Could Eat Here in the U.S.]]></title>
-        <id>https://sporked.com/?p=65552</id>
-        <link href="https://sporked.com/article/international-pringles-flavors/"/>
-        <updated>2026-04-11T18:33:51.000Z</updated>
-        <summary type="html"><![CDATA[In my neck of the woods, more and more stores are popping up that import international snacks. And not just snacks that only exist in other countries—American snacks that get released in totally different flavors in other countries. Flavors that are gate-kept from us. But hey, maybe the palate of the average American just isn’t...]]></summary>
-        <author>
-            <name>Vinz Karl</name>
         </author>
     </entry>
 </feed>
