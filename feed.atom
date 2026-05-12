@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-05-12T21:23:24.834Z</updated>
+    <updated>2026-05-12T22:59:07.617Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Applebee’s All-You-Can-Eat Promotion Is Back—with Two New Margaritas]]></title>
+        <id>https://sporked.com/?p=68729</id>
+        <link href="https://sporked.com/article/applebees-all-you-can-eat-promotion-new-margaritas/"/>
+        <updated>2026-05-12T22:13:31.000Z</updated>
+        <summary type="html"><![CDATA[Want unlimited boneless wings, riblets, or shrimp? Here’s how to get them! If there’s two things that Applebee’s is known for, it’s appetizers and big, sweet drinks. Well, they’re focusing on both of those for a new summer promotion that offers plenty of both. Applebee’s is bringing back their beloved All You Can Eat deal...]]></summary>
+        <author>
+            <name>Jon Gutierrez</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[D.C.-area Vietnamese chain Roll Play plans to expand]]></title>
+        <id>https://www.nrn.com/fast-casual/d-c-area-vietnamese-chain-roll-play-plans-to-expand</id>
+        <link href="https://www.nrn.com/fast-casual/d-c-area-vietnamese-chain-roll-play-plans-to-expand"/>
+        <updated>2026-05-12T21:19:38.000Z</updated>
+        <summary type="html"><![CDATA[The fast-casual concept, part of Happy Endings Hospitality, grosses $5 million per location]]></summary>
+        <author>
+            <name>Bret Thorn</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Subway Launches New 6-Inch Deli Faves for $3.99 Each]]></title>
         <id>https://www.fastfoodpost.com/?p=23963</id>
@@ -1164,6 +1184,30 @@ The post There’s an Easy Way to Tell That Trump’s Judicial Nominees Don’t 
 The post git-fixup – command-line helper for Git users appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thanos Apollo: The Most Emacs Bzr Saga]]></title>
+        <id>https://thanosapollo.org/posts/bzr-saga/</id>
+        <link href="https://thanosapollo.org/posts/bzr-saga/"/>
+        <updated>2026-05-11T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Since I had no interesting books to read today, nor interesting films
+to watch, I decided to scavenge for the most intriguing content one
+can find online.  I ended up reading the Linux kernel mailing lists,
+but those discussions seemed to be 18+, so I settled for the
+comparatively civil emacs-devel.
+For those unfamiliar, emacs-devel is the primary development
+discussion list for GNU Emacs – where design decisions get made,
+patches get reviewed, and occasionally where people spend 200 messages
+arguing about version control software.  This is the story of that
+last one.
+2008: “This question is over and decided”
+In March 2008, Emacs was migrating from CVS (yes, CVS) to something
+more “modern”. The two contenders were Git and Bazaar.
+Git, created by Linus Torvalds for the Linux kernel.
+Bazaar …]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -9707,59 +9751,6 @@ The post 5 Best “Hand-Breaded” Country Fried Steaks at Leading Chain Restaur
 The post 3 Chain Restaurants With the Best Wagyu Burgers, According to Chefs appeared first on Eat This Not That.]]></summary>
         <author>
             <name>Heather Newgen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 2 New Olipop Flavors Sound BERRY Delicious]]></title>
-        <id>https://sporked.com/?p=67670</id>
-        <link href="https://sporked.com/article/new-olipop-flavors-may-2026/"/>
-        <updated>2026-05-03T10:54:00.000Z</updated>
-        <summary type="html"><![CDATA[I think of Olipop as the brand that originated the prebiotic soda trend. Hey, the folks at Poppi and Culture Pop might argue that point, but Olipop was definitely the first “healthy” soda I ever tried—and it’s probably the one I’m most familiar with considering I’ve tasted 17 flavors. And hey, I’m about to be...]]></summary>
-        <author>
-            <name>Gwynedd Stuart</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Chain Restaurants Fans Say Have the Best “Crunchy” Fried Fish Sliders]]></title>
-        <id>https://www.eatthis.com/?p=942506</id>
-        <link href="https://www.eatthis.com/best-crunchy-fried-fish-sliders-seafood-chains/"/>
-        <updated>2026-05-03T10:30:07.000Z</updated>
-        <summary type="html"><![CDATA[If you’re craving a fish sandwich but want something more bite-sized than the usual restaurant...
-The post 5 Chain Restaurants Fans Say Have the Best “Crunchy” Fried Fish Sliders appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Ferozan Mast</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mini EQ – compact system-wide parametric equalizer]]></title>
-        <id>https://www.linuxlinks.com/?p=179293</id>
-        <link href="https://www.linuxlinks.com/mini-eq-compact-system-wide-parametric-equalizer/"/>
-        <updated>2026-05-03T10:11:55.000Z</updated>
-        <summary type="html"><![CDATA[Mini EQ is a compact system-wide parametric equalizer for Linux desktops using PipeWire.
-The post Mini EQ – compact system-wide parametric equalizer appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Research Links Certain Rice Varieties to Better Blood Sugar Control and Reduced Inflammation]]></title>
-        <id>New Research Links Certain Rice Varieties to Better Blood Sugar Control and Reduced Inflammation</id>
-        <link href="https://www.foodandwine.com/good-fats-in-pigmented-rice-hokkaido-university-study-11961740"/>
-        <updated>2026-05-03T10:01:00.000Z</updated>
-        <summary type="html"><![CDATA[The findings suggest certain less-refined types retain more bioactive lipids, including FAHMFAs and LNAPEs, that may support metabolic health and anti-inflammatory activity.]]></summary>
-        <author>
-            <name>Korin Miller</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[12 Chain Restaurants Fans Say Have the Best Hamburgers]]></title>
-        <id>https://www.eatthis.com/?p=942485</id>
-        <link href="https://www.eatthis.com/chain-restaurants-best-hamburgers/"/>
-        <updated>2026-05-03T10:00:53.000Z</updated>
-        <summary type="html"><![CDATA[I love a good hamburger, whether I am rushing through the drive-thru at a fast-food...
-The post 12 Chain Restaurants Fans Say Have the Best Hamburgers appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Leah Groth</name>
         </author>
     </entry>
 </feed>
