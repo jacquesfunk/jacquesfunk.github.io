@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-05-12T22:59:07.617Z</updated>
+    <updated>2026-05-13T02:55:33.099Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[You Only See These Moon Pies Once in a Blue Moon, but Dollar Tree Has Them]]></title>
+        <id>https://sporked.com/?p=68723</id>
+        <link href="https://sporked.com/article/rare-moon-pies-spotted-at-dollar-tree/"/>
+        <updated>2026-05-13T00:22:46.000Z</updated>
+        <summary type="html"><![CDATA[If you’re a bargain hunter with a healthy sense of adventure, there are two especially wonderful things about Dollar Tree. First of all, their selection of fun drinks can’t be beat. But we also love that you can often buy interesting snacks in smaller sizes that are perfect when you want to try something new...]]></summary>
+        <author>
+            <name>Vinz Karl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sunsetr – automatic blue-light filter]]></title>
+        <id>https://www.linuxlinks.com/?p=176058</id>
+        <link href="https://www.linuxlinks.com/sunsetr-automatic-blue-light-filter/"/>
+        <updated>2026-05-13T00:18:27.000Z</updated>
+        <summary type="html"><![CDATA[sunsetr is a blue-light filter for Wayland to reduce eye strain by shifting displays from neutral daylight tones to warmer evening settings. 
+The post sunsetr – automatic blue-light filter appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kroger’s Paid Membership Sounds Great—Until You Notice One Catch]]></title>
+        <id>https://sporked.com/?p=68747</id>
+        <link href="https://sporked.com/article/kroger-boost-membership-breakdown/"/>
+        <updated>2026-05-12T23:23:10.000Z</updated>
+        <summary type="html"><![CDATA[Professional grocery shoppers weigh in!]]></summary>
+        <author>
+            <name>Ariana Losch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[git-smart – small collection of Git helper commands]]></title>
+        <id>https://www.linuxlinks.com/?p=181330</id>
+        <link href="https://www.linuxlinks.com/git-smart-small-collection-helper-commands/"/>
+        <updated>2026-05-12T22:59:30.000Z</updated>
+        <summary type="html"><![CDATA[git-smart is a small collection of Git helper commands that try to make common repository tasks safer and more informative.
+The post git-smart – small collection of Git helper commands appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Applebee’s All-You-Can-Eat Promotion Is Back—with Two New Margaritas]]></title>
         <id>https://sporked.com/?p=68729</id>
@@ -14,6 +56,16 @@
         <summary type="html"><![CDATA[Want unlimited boneless wings, riblets, or shrimp? Here’s how to get them! If there’s two things that Applebee’s is known for, it’s appetizers and big, sweet drinks. Well, they’re focusing on both of those for a new summer promotion that offers plenty of both. Applebee’s is bringing back their beloved All You Can Eat deal...]]></summary>
         <author>
             <name>Jon Gutierrez</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sales grow at Black Rock Coffee Bar, despite some bad weather]]></title>
+        <id>https://www.nrn.com/restaurant-finance/sales-grow-at-black-rock-coffee-bar-despite-some-bad-weather</id>
+        <link href="https://www.nrn.com/restaurant-finance/sales-grow-at-black-rock-coffee-bar-despite-some-bad-weather"/>
+        <updated>2026-05-12T22:08:48.000Z</updated>
+        <summary type="html"><![CDATA[The coffee chain said that “strategic densification” in its crucial Phoenix market also created some same-store sales headwinds]]></summary>
+        <author>
+            <name>Jonathan Maze</name>
         </author>
     </entry>
     <entry>
@@ -9606,151 +9658,6 @@ The post 4 Standing Exercises That Restore Muscle Tone Faster Than Gym Machines 
 The post 4 Daily Exercises That Firm Belly Overhang Faster Than Gym Workouts After 60 appeared first on Eat This Not That.]]></summary>
         <author>
             <name>Alexa Mellardo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Prot’s New Org-to-buffer Package]]></title>
-        <id>https://irreal.org/blog/?p=13784</id>
-        <link href="https://irreal.org/blog/?p=13784"/>
-        <updated>2026-05-03T14:42:33.000Z</updated>
-        <summary type="html"><![CDATA[buffer-to-pdf. It does just what its name suggests. It takes the current Emacs buffer and exports it to PDF preserving things like theme, and font characteristics.
-
-
-It’s easy to use. You simply call buffer-to-pdf and you get a PDF of your current buffer. You can specify the orientation—portrait, landscape, or current window—for the output but that’s the only choice you have to make.
-
-
-The most complicated thing about the package is its pagination. If you have an Org file, each headline is a new page. The idea is to turn it the org file into a set of slides. Again, this all happens automatically.
-
-
-For a simple text file, buffer-to-pdf paginates at screen borders. That seems like a natural thing to do and allows a certain amount of control over where the page breaks occur by adjusting the window size.
-
-
-Finally, you can specify explicit page breaks by inserting a form feed (^L). Prot’s video doesn’t make clear how the form feeds interact with the window boundary heuristic but, as Prot says, the best way of thinking about buffer-to-pdf is as a screen capture that produces a PDF. It’s a perfect way to share an Emacs buffer with someone else.
-
-
-If you’re interested in this package, take a look at Prot’s video at the above link. You can check out the package’s Git repository here.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nerdlog – remote-first terminal log viewer]]></title>
-        <id>https://www.linuxlinks.com/?p=174840</id>
-        <link href="https://www.linuxlinks.com/nerdlog-remote-first-terminal-log-viewer/"/>
-        <updated>2026-05-03T14:22:19.000Z</updated>
-        <summary type="html"><![CDATA[Nerdlog is a remote-first terminal log viewer designed to help you inspect logs from one or more machines through a single interface.
-The post Nerdlog – remote-first terminal log viewer appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Must-have Orders at Zaxby’s, According to Chefs]]></title>
-        <id>https://www.eatthis.com/?p=942425</id>
-        <link href="https://www.eatthis.com/zaxbys-must-have-orders-chefs/"/>
-        <updated>2026-05-03T14:00:44.000Z</updated>
-        <summary type="html"><![CDATA[Zaxby’s is a fast-food staple in the Southeast known for its crispy chicken, bold sauces,...
-The post 5 Must-have Orders at Zaxby’s, According to Chefs appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Heather Newgen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[4 Best “Crispy Cod” Baskets at Chain Restaurants]]></title>
-        <id>https://www.eatthis.com/?p=942433</id>
-        <link href="https://www.eatthis.com/best-crispy-cod-baskets-seafood-chains/"/>
-        <updated>2026-05-03T13:00:32.000Z</updated>
-        <summary type="html"><![CDATA[Crispy fried cod is the perfect fish for meals like classic fish and chips or...
-The post 4 Best “Crispy Cod” Baskets at Chain Restaurants appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Ferozan Mast</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Best “Southern Style” Fried Chicken Baskets at Popular BBQ Chains]]></title>
-        <id>https://www.eatthis.com/?p=942411</id>
-        <link href="https://www.eatthis.com/best-southern-fried-chicken-bbq-chains/"/>
-        <updated>2026-05-03T12:15:54.000Z</updated>
-        <summary type="html"><![CDATA[Many BBQ chains offer surprisingly delicious fried chicken, whether wings, tenders, or whole chickens cooked...
-The post 5 Best “Southern Style” Fried Chicken Baskets at Popular BBQ Chains appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Ferozan Mast</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[4 Best “Mile-High” Roast Beef Sandwiches at Famous Sandwich Chains]]></title>
-        <id>https://www.eatthis.com/?p=942573</id>
-        <link href="https://www.eatthis.com/best-roast-beef-sandwiches-chains/"/>
-        <updated>2026-05-03T12:00:06.000Z</updated>
-        <summary type="html"><![CDATA[Many chains offer decent roast beef sandwiches, but what about the sandwiches so packed with...
-The post 4 Best “Mile-High” Roast Beef Sandwiches at Famous Sandwich Chains appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Ferozan Mast</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KDE Material You Colors – wallpaper-driven theming tool for KDE Plasma]]></title>
-        <id>https://www.linuxlinks.com/?p=175487</id>
-        <link href="https://www.linuxlinks.com/kde-material-you-colors-wallpaper-driven-theming-tool/"/>
-        <updated>2026-05-03T11:46:34.000Z</updated>
-        <summary type="html"><![CDATA[KDE Material You Colors is a wallpaper-driven theming tool for KDE Plasma that generates Material You inspired light and dark colour schemes.
-The post KDE Material You Colors – wallpaper-driven theming tool for KDE Plasma appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3 Restaurant Chains for the Best Jambalaya, According to Chefs]]></title>
-        <id>https://www.eatthis.com/?p=942565</id>
-        <link href="https://www.eatthis.com/best-restaurant-chains-jambalaya-chefs/"/>
-        <updated>2026-05-03T11:45:01.000Z</updated>
-        <summary type="html"><![CDATA[Jambalaya stands out for its bold, layered flavors and all-in-one comfort, combining seasoned rice with...
-The post 3 Restaurant Chains for the Best Jambalaya, According to Chefs appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Heather Newgen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[6 Seafood Chains Serving the Best Fried Oysters and Spicy Remoulade]]></title>
-        <id>https://www.eatthis.com/?p=942556</id>
-        <link href="https://www.eatthis.com/best-seafood-chains-fried-oysters-remoulade/"/>
-        <updated>2026-05-03T11:30:38.000Z</updated>
-        <summary type="html"><![CDATA[Spicy remoulade is the perfect accompaniment to fried oysters, with the tangy sauce perfectly complementing...
-The post 6 Seafood Chains Serving the Best Fried Oysters and Spicy Remoulade appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Ferozan Mast</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Costco Has Something New in the Seafood Section—and You’re Gonna Need a Bib for This]]></title>
-        <id>https://sporked.com/?p=67359</id>
-        <link href="https://sporked.com/article/costco-seafood-boil-news/"/>
-        <updated>2026-05-03T11:21:00.000Z</updated>
-        <summary type="html"><![CDATA[Just when you thought Costco couldn’t make life any easier, they go and outdo themselves. The latest mealtime hack to hit their stores is a seafood boil that’s ready to roll right out of the bag. No more waiting in line at your local boil-and-bag spot. You don’t even need to rig up a gargantuan...]]></summary>
-        <author>
-            <name>Vinz Karl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Best “Hand-Breaded” Country Fried Steaks at Leading Chain Restaurants]]></title>
-        <id>https://www.eatthis.com/?p=942546</id>
-        <link href="https://www.eatthis.com/best-hand-breaded-country-fried-steaks-chains/"/>
-        <updated>2026-05-03T11:15:12.000Z</updated>
-        <summary type="html"><![CDATA[Country fried steak is one of the most popular diner foods at any time of...
-The post 5 Best “Hand-Breaded” Country Fried Steaks at Leading Chain Restaurants appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Ferozan Mast</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3 Chain Restaurants With the Best Wagyu Burgers, According to Chefs]]></title>
-        <id>https://www.eatthis.com/?p=942449</id>
-        <link href="https://www.eatthis.com/best-chain-wagyu-burgers-chefs/"/>
-        <updated>2026-05-03T11:00:14.000Z</updated>
-        <summary type="html"><![CDATA[Americans love burgers, and there’s no shortage of places to grab one. You can find...
-The post 3 Chain Restaurants With the Best Wagyu Burgers, According to Chefs appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Heather Newgen</name>
         </author>
     </entry>
 </feed>
