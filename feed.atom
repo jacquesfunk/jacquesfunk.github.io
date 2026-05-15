@@ -2,10 +2,109 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-05-15T03:23:27.566Z</updated>
+    <updated>2026-05-15T06:54:03.810Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Fusion – self-hosted friendly RSS reader]]></title>
+        <id>https://www.linuxlinks.com/?p=175840</id>
+        <link href="https://www.linuxlinks.com/fusion-self-hosted-friendly-rss-reader/"/>
+        <updated>2026-05-15T05:27:10.000Z</updated>
+        <summary type="html"><![CDATA[Fusion is a lightweight RSS reader designed for self-hosting. It provides a responsive web interface for following RSS and Atom feeds.
+The post Fusion – self-hosted friendly RSS reader appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Re-energized Civil Rights Movement Cranks Up This Weekend]]></title>
+        <id>https://thedemocraticstrategist.org/?p=39767</id>
+        <link href="https://thedemocraticstrategist.org/2026/05/re-energized-civil-rights-movement-cranks-up-this-weekend/"/>
+        <updated>2026-05-15T05:15:47.000Z</updated>
+        <summary type="html"><![CDATA[From “The New Civil Rights Movement Starts Now” at The Contrarian: Democracy is not a spectator sport. Whether you want to exercise your right to vote, join a protest, call your elected officials, run for office, or keep tabs on the week’s hottest issues and protests, The Contrarian has you covered. Here are our top... Read more »]]></summary>
+        <author>
+            <name>staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[22 Best Free and Open Source Linux Debuggers]]></title>
+        <id>https://www.linuxlinks.com/?page_id=2237</id>
+        <link href="https://www.linuxlinks.com/debuggers/"/>
+        <updated>2026-05-15T05:04:54.000Z</updated>
+        <summary type="html"><![CDATA[Debugging is the process of removing bugs.  We recommend our favorite debuggers.
+The post 22 Best Free and Open Source Linux Debuggers appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Erik Karlsson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stan – Haskell STatic ANalyser]]></title>
+        <id>https://www.linuxlinks.com/?p=176227</id>
+        <link href="https://www.linuxlinks.com/stan-haskell-static-analyser/"/>
+        <updated>2026-05-15T03:44:40.000Z</updated>
+        <summary type="html"><![CDATA[Stan uses GHC-generated HIE files to inspect source code, identify code that could be improved, and offer guidance.
+The post Stan – Haskell STatic ANalyser appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amin Bandali: FFS code review and Emacs extensibility with Protesilaos]]></title>
+        <id>https://kelar.org/~bandali/gnu/emacs/ffs-emacs-ext-prot.html</id>
+        <link href="https://kelar.org/~bandali/gnu/emacs/ffs-emacs-ext-prot.html"/>
+        <updated>2026-05-15T02:55:33.000Z</updated>
+        <summary type="html"><![CDATA[Prot as an Emacs coach to help
+with doing review passes over my upcoming ffs package as I work on
+polishing and documenting it in preparation for offering it for
+inclusion in GNU ELPA.
+
+
+
+Today we had our third session where we started by reviewing and
+talking about my recent changes to ffs, then ventured to other
+Emacs-related topics with the overarching theme of the flexibility
+and extensibility of GNU Emacs, including display-buffer-alist,
+keyboard macros, defining a custom ox-bhtml Org export backend
+derived from Org's ox-html for ultimate flexibility when exporting
+my site's pages from Org to HTML, Org capture, plain text files and
+Emacs's diary and how it compares to org-agenda, and keeping a
+journal with the help of Emacs.
+
+
+
+Here is the video recording of our session, which I share with Prot's
+permission:
+
+
+
+
+
+Sorry, this embedded video will not work,
+because your web browser does not support HTML5 video.
+[ please watch the video in your favourite streaming media player ]​
+
+
+
+
+You can view or download the full-resolution video from the Internet
+Archive.
+
+
+
+Lastly, here is the snippet Prot shared for having Isearch treat space
+as a wildcard, helpful for more easily matching multiple parts of a
+line:
+
+
+
+(setq search-whitespace-regexp ".*?")
+(setq isearch-lax-whitespace t)
+(setq isearch-regexp-lax-whitespace nil)]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[git-who – command-line Git analysis tool]]></title>
         <id>https://www.linuxlinks.com/?p=181675</id>
@@ -15,6 +114,41 @@
 The post git-who – command-line Git analysis tool appeared first on LinuxLinks.]]></summary>
         <author>
             <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Protesilaos: Emacs coaching with Amin Bandali about ffs, display-buffer-alist, Org, and more]]></title>
+        <id>https://protesilaos.com/codelog/2026-05-15-emacs-amin-bandali-ffs-display-buffer-org-capture/</id>
+        <link href="https://protesilaos.com/codelog/2026-05-15-emacs-amin-bandali-ffs-display-buffer-org-capture/"/>
+        <updated>2026-05-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Yesterday I met with Amin Bandali to talk about Emacs. Amin asked me
+if he could record the session, which I agreed to. The video is
+available on Amin’s website: https://kelar.org/~bandali/gnu/emacs/ffs-emacs-ext-prot.html.
+We started with a review of the latest changes to the ffs package
+that Amin has been developing. We had looked into it before and wanted
+to check on its current state.
+Amin then asked me about the display-buffer-alist, which I had
+mentioned before. To me, this is the single most important variable
+for making Emacs feel more like your own. The reason is that it allows
+you to control the placement of buffers to match your expectations. I
+demonstrated some of the main ideas.
+Another nice little feature is the built-in isearch. I explained how
+it is especially helpful while recording keyboard macros. Though it is
+nice to use in general. One tweak for it is to display a counter with
+its matches. Another is to change how it treats spaces, so that it can
+match any character in-between. This is not as flexible as, say,
+consult-line (from the consult package) when combined with
+vertico and orderless. Though it still has its uses.
+[ I have lots of little extras for isearch, but those should be
+  good for most users. ]
+Amin told me about rediscovering the value of Org in the context of
+statically generating his website. He showed me the custom Org HTML
+export backend he has been working on. Org has so many nice features
+which can be used independent of each other. In this light, we also
+discussed the diary compared to the Org agenda.
+Find all of Amin’s publications on his website: https://kelar.org/~bandali/.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -2033,6 +2167,17 @@ The post 25 Best Free and Open Source Terminal-Based Password Managers appeared 
         <summary type="html"><![CDATA[The guys at “Pod Save America” have a mission for Democrats, especially 2026 candidates. It is to make the Republicans, particularly their candidates, repeatedly own Trump’s ballroom. The Pod guys insist, with good reason, that the ballroom is the perfect symbol to highlight GOP arrogance and coddling the super-wealthy. Trump’s Ballroom may be the biggest... Read more »]]></summary>
         <author>
             <name>J.P. Green</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[drgn – programmable debugger]]></title>
+        <id>https://www.linuxlinks.com/?p=176039</id>
+        <link href="https://www.linuxlinks.com/drgn-programmable-debugger/"/>
+        <updated>2026-05-13T03:14:11.000Z</updated>
+        <summary type="html"><![CDATA[drgn is a programmable debugger that puts scripting at the centre of the debugging workflow.
+The post drgn – programmable debugger appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
         </author>
     </entry>
     <entry>
@@ -9113,392 +9258,6 @@ The post CPU Info – presents detailed hardware and software information appear
         <link href="https://www.mediamatters.org/immigration/right-wing-media-figures-are-calling-strip-away-citizenship-large-swaths-americans"/>
         <updated>2026-05-05T18:56:01.000Z</updated>
         <summary type="html"><![CDATA[Right-wing media figures are pushing to revoke citizenship from some naturalized Americans, and the Trump administration is ramping up its denaturalization efforts.]]></summary>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Popeyes Just Dropped Two New Honey BBQ Sandwiches—Here’s What Early Reviews Are Saying]]></title>
-        <id>https://sporked.com/?p=67855</id>
-        <link href="https://sporked.com/article/new-popeyes-honey-bbq-sandwiches-2026/"/>
-        <updated>2026-05-05T18:29:20.000Z</updated>
-        <summary type="html"><![CDATA[Hot on the heels of their recent One Piece collaboration, Popeyes has announced that their adding two new honey BBQ sandwiches to their menu, as well as bringing back their limited-time chicken wraps as a permanent menu item. They’re available now! What are the two new honey BBQ Sandwiches? The new sandwiches feature a crispy,...]]></summary>
-        <author>
-            <name>Jon Gutierrez</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[32 restaurant executives on the move in April including new CEOs at Denny’s, Jeni’s, and Bagels &amp; Co.]]></title>
-        <id>https://www.nrn.com/restaurant-executives/32-restaurant-executives-on-the-move-in-april-including-new-ceos-at-denny-s-jeni-s-and-bagels-co-</id>
-        <link href="https://www.nrn.com/restaurant-executives/32-restaurant-executives-on-the-move-in-april-including-new-ceos-at-denny-s-jeni-s-and-bagels-co-"/>
-        <updated>2026-05-05T18:18:21.000Z</updated>
-        <summary type="html"><![CDATA[The month also brought a wave of finance and development hires, high-profile brand and digital appointments, and board refreshes]]></summary>
-        <author>
-            <name>Leigh Anne Zinsmeister</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MTG Is Spilling Tea About Trump, And We'll Allow It]]></title>
-        <id>https://www.wonkette.com/p/mtg-is-spilling-tea-about-trump-and</id>
-        <link href="https://www.wonkette.com/p/mtg-is-spilling-tea-about-trump-and"/>
-        <updated>2026-05-05T18:15:24.000Z</updated>
-        <summary type="html"><![CDATA[You don't have to hand it to her, but you can watch MAGA tear itself apart.]]></summary>
-        <author>
-            <name>Evan Hurst</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Charlie Holland: Emacs Completion Showcase with VOMPECCC (video)]]></title>
-        <id>https://www.chiply.dev/post-vompeccc-showcase</id>
-        <link href="https://www.chiply.dev/post-vompeccc-showcase"/>
-        <updated>2026-05-05T18:15:00.000Z</updated>
-        <summary type="html"><![CDATA[1. About   emacs completion workflows
-
-
-Figure 1: JPEG produced with DALL-E 3
-first, Incremental Completing Read (ICR), explains what modern completion actually is, and how Emacs exposes it as a programmable substrate rather than a closed UI.  The second introduced the VOMPECCC stack of eight packages covering the six orthogonal concerns of a complete completion system.  The third toured spot, a Spotify client built as a thin shim on top of those packages.  And the fourth built a produce picker from scratch, demonstrating the specific features that each VOMPECCC package provides.
-
-
-
-This post is the practical complement to all the other posts.  Here, we showcase over a dozen workflows I use every day.  Most are powered entirely by features that ship in the box with the VOMPECCC packages, a…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Omaha station reports on higher fuel costs driving up flower prices for Mother's Day: "If you're buying flowers for mom this Sunday, that bouquet cost more than it did last year, and the price hikes aren't done yet"]]></title>
-        <id>bd986c77-2207-4a81-b77b-4cb82396b721</id>
-        <link href="https://www.mediamatters.org/fuel-files-rising-gasoline-oil-and-fertilizer-prices/omaha-station-reports-higher-fuel-costs"/>
-        <updated>2026-05-05T18:02:11.000Z</updated>
-        <summary type="html"><![CDATA[This post is part of a series chronicling news coverage of rising fuel prices in the United States. See more here.]]></summary>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SPOTTED: Oreo Limited Edition Firecracker Pop Cookies]]></title>
-        <id>https://www.theimpulsivebuy.com/wordpress/?p=77221</id>
-        <link href="https://www.theimpulsivebuy.com/wordpress/2026/05/05/spotted-oreo-limited-edition-firecracker-pop-cookies/"/>
-        <updated>2026-05-05T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s surprising Oreo didn’t add popping candy to this. (Spotted by Malcolm C at Walmart.) If you spotted something new, send your photos to theimpulsivebuy@gmail.com.]]></summary>
-        <author>
-            <name>Marvo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Is Everyone Talking About Refreshers? Here’s What a Refresher Actually Is]]></title>
-        <id>https://sporked.com/?p=67909</id>
-        <link href="https://sporked.com/article/what-is-a-refresher/"/>
-        <updated>2026-05-05T17:56:04.000Z</updated>
-        <summary type="html"><![CDATA[Sure, lemonade is a summer classic but capitalism shows no mercy towards your neighbor’s elementary school daughter and her budding lemonade stand. Little Sarah’s naive, budding entrepreneurial spirit doesn’t stand a chance against the crushing reality of marketing dollars and the trending fruity beverage of the year: the refresher. The what? Glad you asked.  What...]]></summary>
-        <author>
-            <name>Hebba Gouda</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[K8 News reports on rising costs impacting a meal delivery program for Arkansas seniors]]></title>
-        <id>3306c7e7-13e9-4ade-a182-af679eebd8f2</id>
-        <link href="https://www.mediamatters.org/fuel-files-rising-gasoline-oil-and-fertilizer-prices/k8-news-reports-rising-costs-impacting-meal"/>
-        <updated>2026-05-05T17:50:16.000Z</updated>
-        <summary type="html"><![CDATA[This post is part of a series chronicling news coverage of rising prices in the United States. See more here.]]></summary>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Pennsylvania NBC station reports rising fuel prices are making school buses more expensive to run]]></title>
-        <id>bced1471-3fb9-4ebc-881c-6b22bdc1e65c</id>
-        <link href="https://www.mediamatters.org/fuel-files-rising-gasoline-oil-and-fertilizer-prices/pennsylvania-nbc-station-reports-rising-fuel"/>
-        <updated>2026-05-05T17:43:52.000Z</updated>
-        <summary type="html"><![CDATA[This post is part of a series chronicling news coverage of rising gas prices in the United States. See more here.]]></summary>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The New Liquid I.V. Flavor Tastes Like Candy—Is That a Good Thing?]]></title>
-        <id>https://sporked.com/?p=67983</id>
-        <link href="https://sporked.com/article/liquid-iv-sugar-free-cherry-ring-pop-review/"/>
-        <updated>2026-05-05T17:40:44.000Z</updated>
-        <summary type="html"><![CDATA[When do you typically drink Liquid I.V.? Jury’s out on whether anyone really ever needs to replenish electrolytes unless they’re barfing, pooping, or sweating their brains out, but if you’re like me, we can agree that a tall glass of an electrolyte drink really hits the spot after a night of heavy drinking. (When I’m...]]></summary>
-        <author>
-            <name>Gwynedd Stuart</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fox anchor asks if magistrate judge in the White House correspondents dinner shooting is "becoming an assassin apologist"]]></title>
-        <id>8c826082-1a80-4721-951b-05f789de7971</id>
-        <link href="https://www.mediamatters.org/outnumbered/fox-anchor-asks-if-magistrate-judge-white-house-correspondents-dinner-shooting-becoming"/>
-        <updated>2026-05-05T17:32:25.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Caribou Coffee launches Everyday Value Menu with items starting at $2]]></title>
-        <id>https://www.nrn.com/quick-service/caribou-coffee-launches-everyday-value-menu-with-items-starting-at-2</id>
-        <link href="https://www.nrn.com/quick-service/caribou-coffee-launches-everyday-value-menu-with-items-starting-at-2"/>
-        <updated>2026-05-05T17:24:39.000Z</updated>
-        <summary type="html"><![CDATA[The new menu features coffee, a breakfast sandwich, muffin and more, all for less than $4 each]]></summary>
-        <author>
-            <name>Patricia Cobe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Caribou Coffee launches Everyday Value Menu with items starting at $2]]></title>
-        <id>https://www.nrn.com/menu-trends/caribou-coffee-launches-everyday-value-menu-with-items-starting-at-2</id>
-        <link href="https://www.nrn.com/menu-trends/caribou-coffee-launches-everyday-value-menu-with-items-starting-at-2"/>
-        <updated>2026-05-05T17:24:39.000Z</updated>
-        <summary type="html"><![CDATA[The new menu features coffee, a breakfast sandwich, muffin and more, all for less than $4 each]]></summary>
-        <author>
-            <name>Patricia Cobe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Watch gets a lift from new menu and marketing]]></title>
-        <id>https://www.nrn.com/family-dining/first-watch-gets-a-lift-from-new-menu-and-marketing</id>
-        <link href="https://www.nrn.com/family-dining/first-watch-gets-a-lift-from-new-menu-and-marketing"/>
-        <updated>2026-05-05T17:10:03.000Z</updated>
-        <summary type="html"><![CDATA[Same-store sales rose 2.8% at the family-dining chain as customers spent more across a refreshed menu]]></summary>
-        <author>
-            <name>Joe Guszkowski</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[revive – linter for Go]]></title>
-        <id>https://www.linuxlinks.com/?p=175651</id>
-        <link href="https://www.linuxlinks.com/revive-linter-go/"/>
-        <updated>2026-05-05T17:08:53.000Z</updated>
-        <summary type="html"><![CDATA[revive is a fast, configurable static analysis framework for Go that’s designed as a drop-in replacement for golint. 
-The post revive – linter for Go appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Over 50? If You Can Do These 5 Strength Drills, You’re in Good Shape]]></title>
-        <id>https://www.eatthis.com/?p=939451</id>
-        <link href="https://www.eatthis.com/functional-strength-drills-fitness-test-after-50/"/>
-        <updated>2026-05-05T17:00:51.000Z</updated>
-        <summary type="html"><![CDATA[When you reach middle-age, it’s crucial to maintain strength. Doing so can enable you to...
-The post Over 50? If You Can Do These 5 Strength Drills, You’re in Good Shape appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Alexa Mellardo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KFC Launches Bucket of the Day Deals Lineup Alongside Honey Chili Crisp and Jalapeño Ranch Sauces]]></title>
-        <id>https://www.fastfoodpost.com/?p=23950</id>
-        <link href="https://www.fastfoodpost.com/kfc-launches-bucket-of-the-day-deals-lineup-alongside-honey-chili-crisp-and-jalapeno-ranch-sauces/"/>
-        <updated>2026-05-05T16:53:16.000Z</updated>
-        <summary type="html"><![CDATA[With summer just around the corner, KFC today announced the evolution of its popular $10 Tuesday deal into a new “Bucket of the Day” daily deals offering, giving fans a $10 bucket every weekday starting this week. Featuring four different $10 bucket meal options, including the returning nuggets bucket on Fridays to close out the […]
-The post KFC Launches Bucket of the Day Deals Lineup Alongside Honey Chili Crisp and Jalapeño Ranch Sauces appeared first on The Fast Food Post.]]></summary>
-        <author>
-            <name>G. Ramsay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mountain Dew Star Spangled Splash Is Coming Back, But Now It’s Frozen]]></title>
-        <id>https://sporked.com/?p=67957</id>
-        <link href="https://sporked.com/article/star-spangled-splash-froster-circle-k-2026/"/>
-        <updated>2026-05-05T16:50:37.000Z</updated>
-        <summary type="html"><![CDATA[Mountain Dew is feeling very patriotic this year (as is Gatorade, Monster, Chobani, Pillsbury, and pretty much every other food and drinks brand out there). As we come ever closer to the 250th anniversary of the United States of America, Mtn Dew is going hard with products that feel in keeping with the vibe around...]]></summary>
-        <author>
-            <name>Jay Wilson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Trump’s Lawsuits Abuse the Settlement Process]]></title>
-        <id>https://ballsandstrikes.org/?p=18159</id>
-        <link href="https://ballsandstrikes.org/law-politics/how-trumps-lawsuits-abuse-the-settlement-process/"/>
-        <updated>2026-05-05T16:38:36.000Z</updated>
-        <summary type="html"><![CDATA[Judges have the power to reject “settlements” that are not in the public interest. The question is whether they choose to exercise it.
-The post How Trump’s Lawsuits Abuse the <span class="dewidow">Settlement Process</span> appeared first on Balls and Strikes.]]></summary>
-        <author>
-            <name>Steve Kennedy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Simple Exercises That Reshape Your Body Faster Than Ab Workouts After 60]]></title>
-        <id>https://www.eatthis.com/?p=941766</id>
-        <link href="https://www.eatthis.com/simple-exercises-reshape-body-after-60/"/>
-        <updated>2026-05-05T16:30:45.000Z</updated>
-        <summary type="html"><![CDATA[After 60, training needs to support how you actually move day-to-day. Muscle tends to decline...
-The post 5 Simple Exercises That Reshape Your Body Faster Than Ab Workouts After 60 appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Jarrod Nobbe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Curtis McHale: The gravitational pull of familiar tools]]></title>
-        <id>https://curtismchale.ca/2026/05/05/the-gravitational-pull-of-familiar-tools</id>
-        <link href="https://curtismchale.ca/2026/05/05/the-gravitational-pull-of-familiar-tools"/>
-        <updated>2026-05-05T16:26:00.000Z</updated>
-        <summary type="html"><![CDATA[I understand the gravitational pull of Emacs though for me it's been Vim/Neovim. I've spent entire year trying out tools like VSCode and Atom and sure they had some features that were neat, but they were never Neovim.
-It's been at least 5 years since I tried another editor for coding though after realizing that I'd just go back to Neovim, which brings me to my Emacs adventures. I tried nvim-orgmode and it sort of worked but had issues that I was never able to work through. Then I went back to Todoist for a bit and missed orgmode, even if it was a hobbled form in Neovim.
-This led me to Emacs and orgmode which I've been loving for about a year now. Still I keep wondering if I should move my coding workflow to Emacs and abandon Neovim?
-There is a pull to just use one tool.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cool spaces and great chefs inspire Philadelphia-Based Defined Hospitality]]></title>
-        <id>https://www.nrn.com/independent-restaurants/cool-spaces-and-great-chefs-inspire-philadelphia-based-defined-hospitality</id>
-        <link href="https://www.nrn.com/independent-restaurants/cool-spaces-and-great-chefs-inspire-philadelphia-based-defined-hospitality"/>
-        <updated>2026-05-05T16:19:29.000Z</updated>
-        <summary type="html"><![CDATA[How this group takes a behind-the-scenes approach and lets chefs and restaurants take the spotlight]]></summary>
-        <author>
-            <name>Gloria Dawson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Greg Gutfeld Thinks Women Would Be More 'Fulfilled' Staying At Home With Kids And Doing Porn]]></title>
-        <id>https://www.wonkette.com/p/greg-gutfeld-thinks-women-would-be</id>
-        <link href="https://www.wonkette.com/p/greg-gutfeld-thinks-women-would-be"/>
-        <updated>2026-05-05T16:15:48.000Z</updated>
-        <summary type="html"><![CDATA[Pass!]]></summary>
-        <author>
-            <name>Robyn Pennacchia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Signature: An exclusive interview with Whataburger CEO Debbie Stroud]]></title>
-        <id>https://www.nrn.com/restaurant-executives/signature-an-exclusive-interview-with-whataburger-ceo-debbie-stroud</id>
-        <link href="https://www.nrn.com/restaurant-executives/signature-an-exclusive-interview-with-whataburger-ceo-debbie-stroud"/>
-        <updated>2026-05-05T16:14:40.000Z</updated>
-        <summary type="html"><![CDATA[With more than three decades of foodservice leadership under her belt, Stroud is now shepherding the 50,000-member family that is Whataburger into the future with pride, care, and love]]></summary>
-        <author>
-            <name>Sam Oches</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Curtis McHale: Emacs Carnival: May I recommend...]]></title>
-        <id>https://curtismchale.ca/2026/05/05/emacs-carnival-may-i-recommend</id>
-        <link href="https://curtismchale.ca/2026/05/05/emacs-carnival-may-i-recommend"/>
-        <updated>2026-05-05T16:11:00.000Z</updated>
-        <summary type="html"><![CDATA[This month's carnival topic is "may I recommend...". I'm too new to Emacs to recommend some fancy package or an interesting workflow so I'll reach back to my 20+ years doing software and finding tools.
-May I recommend....keep it simple. Don't grab 50 new things from some video or blog post that some creator put up. People do that because it looks cool and then they over complicate their systems and abandon them. They layer complexity that looks cool over a system that already is working for them to solve problems they don't have with solutions often produced by people whose job is to get a new piece of content out that will go viral and pay their bills.
-Many times it doesn't even seem like the creator uses the system at all, it just looked cool and had the proper keywords for what's popular right now.
-I say, identify a problem you actually have. Spend some time researching options. Try out a few of them to see what works. Then stop messing around with your system and get work done.
-I always hear about the carnival from Sacha]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Emacs Keyboard Ergonomics]]></title>
-        <id>https://irreal.org/blog/?p=13788</id>
-        <link href="https://irreal.org/blog/?p=13788"/>
-        <updated>2026-05-05T16:05:03.000Z</updated>
-        <summary type="html"><![CDATA[excellent post on keyboard ergonomics for Emacs users. He considers various strategies for making Emacs commands easier to use and less likely to cause RSI damage. He considers everything from split keyboards to evil-mode.
-
-
-He says he has both a split keyboard and a keyboard with a normal form factor. He says that the split keyboard is not a magic solution and that what works best for him is to configure “one shot modifiers” where the modifier is simply pressed—but not held down—before the key it modifies. So, to use his example, Ctrl+x is typed by tapping the Ctrl key and then the x key.
-
-
-Along with that he suggests ordering the modifier keys in a way you find comfortable. The most important thing, he says, is to keep the Ctrl key close to the space bar so that you can use your thumb to press it. It’s also important to have the modifier keys located symmetrically so that, for example, you can use either hand for the Ctrl key.
-
-
-As for the common advice to map Caps Lock  to Ctrl, Prot says that’s okay but that it encourages the bad habit of always using your left pinky for Ctrl.
-
-
-There’s a lot more information in Prot’s post—including how to configure one shot modifiers—so be sure to take a look at it.
-
-
-I’ve been incredibly lucky. I use a standard keyboard, map Caps Lock to Ctrl and don’t have any symmetric modifier keys. Nonetheless, I haven’t suffered any RSI problems despite spending the majority of my day at the keyboard. But, as I say, I’m lucky. The smart thing to do is to read and head Prot’s advice.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Benny Johnson condemns the "cowards" in South Carolina for not redrawing the state's congressional map]]></title>
-        <id>1f95aea5-e5ad-44ea-9ae9-a5fda969c150</id>
-        <link href="https://www.mediamatters.org/benny-johnson/benny-johnson-condemns-cowards-south-carolina-not-redrawing-states-congressional-map"/>
-        <updated>2026-05-05T16:04:37.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPAW – Python package for density-functional theory calculations]]></title>
-        <id>https://www.linuxlinks.com/?p=175218</id>
-        <link href="https://www.linuxlinks.com/gpaw-density-functional-theory-calculations/"/>
-        <updated>2026-05-05T16:01:20.000Z</updated>
-        <summary type="html"><![CDATA[GPAW provides density-functional theory calculations based on the projector-augmented wave method and the Atomic Simulation Environment. 
-The post GPAW – Python package for density-functional theory calculations appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Steve Emms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How two independent restaurants are managing a high-cost environment]]></title>
-        <id>https://www.nrn.com/independent-restaurants/how-two-independent-restaurants-are-managing-a-high-cost-environment</id>
-        <link href="https://www.nrn.com/independent-restaurants/how-two-independent-restaurants-are-managing-a-high-cost-environment"/>
-        <updated>2026-05-05T16:01:08.000Z</updated>
-        <summary type="html"><![CDATA[Chicago’s Adalina Prime and Atlanta’s Talat Market are finding savings from labor optimization to fixing equipment in-house]]></summary>
-        <author>
-            <name>Alicia Kelso</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Wall Exercises That Build Balance Faster Than Yoga After 60]]></title>
-        <id>https://www.eatthis.com/?p=942878</id>
-        <link href="https://www.eatthis.com/wall-exercises-build-balance-after-60/"/>
-        <updated>2026-05-05T16:00:17.000Z</updated>
-        <summary type="html"><![CDATA[Yoga can be excellent for improving mobility, core strength, breathing, and body awareness. For many...
-The post 5 Wall Exercises That Build Balance Faster Than Yoga After 60 appeared first on Eat This Not That.]]></summary>
-        <author>
-            <name>Jarrod Nobbe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We’re Pretty Sure Peach Sprite Tea Is Coming to Kroger]]></title>
-        <id>https://sporked.com/?p=67760</id>
-        <link href="https://sporked.com/article/peach-sprite-tea-kroger-rumor/"/>
-        <updated>2026-05-05T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Sprite + Tea was divisive to say the least. This TikTok-trend-inspired release turned heads last year when it dropped in both full sugar and an absurdly rare zero-sugar. The tea-flavored soda must have sold well, because Sprite + Tea is expanding globally this year with Green Tea and Jasmine Tea variants. While I haven’t heard...]]></summary>
-        <author>
-            <name>Griffin Parker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[REVIEW: Nutella Peanut Spread]]></title>
-        <id>https://www.theimpulsivebuy.com/wordpress/?p=77267</id>
-        <link href="https://www.theimpulsivebuy.com/wordpress/2026/05/05/nutella-peanut-spread-review/"/>
-        <updated>2026-05-05T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[For the first time in over 60 years, Nutella has a new flavor. No, it’s not following the last decade’s trend of endless wild creations like Cotton Candy Oreo, Cappuccino Lay’s, or hot dog’d pizza crusts, but rather, a more nuanced, fitting addition: peanut. The classic Italian spread made of hazelnuts, sugar, palm oil, skimmed […]]]></summary>
-        <author>
-            <name>Sean</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Refreshers and Crafted Sodas Arrive at McDonald's]]></title>
-        <id>https://www.brandeating.com/2026/05/mcdonalds-new-refreshers-and-crafted-sodas.html</id>
-        <link href="https://www.brandeating.com/2026/05/mcdonalds-new-refreshers-and-crafted-sodas.html"/>
-        <updated>2026-05-05T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[McDonald's adds new Refreshers and crafted sodas to its McCafe menu as it enters a crowded specialty beverage field.
-
-The new beverage lineup includes popular inclusions such as cold foam, freeze-dried fruit, and popping boba. At launch, there are six drinks, including:
-- Strawberry Watermelon Refresher - Lemonade with strawberry and watermelon flavors, plus freeze-dried strawberries.
-- Mango Pineapple Refresher - Lemonade mixed with mango flavor, pineapple flavor, and strawberry popping boba.
-- Blackberry Passion Fruit Refresher - Lemonade mixed with blackberry flavor, passion fruilt flavor, and freeze-dried dragon fruit.
-- Sprite Berry Blast - Sprite mixed with blue raspberry syrup, topped with cold foam.
-- Orange Dream - Hi-C Orange Lavaburst mixed with vanilla syrup, topped with cold foam.
-- Dirty Dr Pepper - Dr Pepper mixed with vanilla syrup, topped with cold foam.
-Similar to other chains, McDonald's Refreshers are caffeinated with green coffee extract.
-Prices vary, but a medium-sized Refresher costs $3.99 at my local McDonald's here in Los Angeles, while the same-sized crafted soda costs $3.79. For comparison, a medium fountain soda costs $2.49.
-Photo via McDonald's.
-Read more at Brand Eating!]]></summary>
-        <author>
-            <name>Brand Eating. Your Daily Fast Food Reading.</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fox’s ”nuke” justification for the Iran war — and the higher prices it's wrought — has collapsed]]></title>
-        <id>009cd51e-47fa-47ea-a4e6-eebf011c3992</id>
-        <link href="https://www.mediamatters.org/fox-news/foxs-nuke-justification-iran-war-and-higher-prices-its-wrought-has-collapsed"/>
-        <updated>2026-05-05T15:49:59.000Z</updated>
         <author>
             <name>Media Matters for America</name>
         </author>
