@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-05-16T19:01:50.801Z</updated>
+    <updated>2026-05-16T20:43:16.014Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[git-secrets – prevent adding secrets into git repositories]]></title>
+        <id>https://www.linuxlinks.com/?p=182097</id>
+        <link href="https://www.linuxlinks.com/git-secrets-prevent-adding-secrets-git-repositories/"/>
+        <updated>2026-05-16T20:33:14.000Z</updated>
+        <summary type="html"><![CDATA[git-secrets is a CLI utility that helps avoid committing passwords, access keys, and other sensitive credentials to Git repositories. 
+The post git-secrets – prevent adding secrets into git repositories appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Happy National Sea Monkeys Day! Hope Your Sea Monkeys Worked Out, Because Mine Did Not.]]></title>
+        <id>https://www.wonkette.com/p/happy-national-sea-monkeys-day-hope</id>
+        <link href="https://www.wonkette.com/p/happy-national-sea-monkeys-day-hope"/>
+        <updated>2026-05-16T19:31:01.000Z</updated>
+        <summary type="html"><![CDATA[Still mad about it.]]></summary>
+        <author>
+            <name>Robyn Pennacchia</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ken Paxton Bullying Children's Hospital Into 'De-Transitioning' Trans Kids. Next Up: Unabortioning, Maybe?]]></title>
         <id>https://www.wonkette.com/p/paxtons-purge-texas-hospital-bullied</id>
@@ -9094,43 +9115,6 @@ The post Alternatives to popular CLI tools: cksum appeared first on LinuxLinks.]
         <summary type="html"><![CDATA[Scientists say the flower’s proteins can withstand high heat and help stabilize mixtures, making them a promising fit for sauces, baked goods, and dairy alternatives.]]></summary>
         <author>
             <name>Stacey Leasca</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dave Pearson: blogmore.el v4.4.0]]></title>
-        <id>https://blog.davep.org/2026/05/07/blogmore-el-v4-4-0.html</id>
-        <link href="https://blog.davep.org/2026/05/07/blogmore-el-v4-4-0.html"/>
-        <updated>2026-05-07T08:05:10.000Z</updated>
-        <summary type="html"><![CDATA[I've released an update to
-blogmore.el, my
-Emacs package that helps me out when writing this blog. I've
-added two commands to this version which help me be lazier than ever.
-The first is blogmore-become-like. When run, this prompts for another post
-and, once selected, it sets this post's category and tags to be the same
-as the other one. I added this because I'm often writing an occasional
-series of posts that are all about the same project, and so I always find
-myself copying and pasting those frontmatter properties from another post.
-The second command I've added is blogmore-toggle-image-centre. Built into
-BlogMore is a little bit of styling that will
-ensure an image is placed in the centre of the page, if the URL for the
-image has #centre on the end. This means that, for most images I add, I
-have to go and edit the URL to add that. Now I can just run a single command
-when the cursor is on an image and it'll add (or remove, if it's already
-there) that styling hint.
-In both cases, I've added the commands to the transient menu too.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[11 Best Free and Open Source Go Linter Tools]]></title>
-        <id>https://www.linuxlinks.com/?p=156156</id>
-        <link href="https://www.linuxlinks.com/best-free-open-source-go-linter-tools/"/>
-        <updated>2026-05-07T07:19:42.000Z</updated>
-        <summary type="html"><![CDATA[This article picks some useful tools to help you fix Go code. 
-The post 11 Best Free and Open Source Go Linter Tools appeared first on LinuxLinks.]]></summary>
-        <author>
-            <name>Eilidih Parris</name>
         </author>
     </entry>
 </feed>

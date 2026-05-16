@@ -4833,6 +4833,16 @@
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
         {
+          "id": "https://www.linuxlinks.com/?p=182097",
+          "author": "Steve Emms",
+          "description": "git-secrets is a CLI utility that helps avoid committing passwords, access keys, and other sensitive credentials to Git repositories. \nThe post git-secrets – prevent adding secrets into git repositories appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/git-secrets-prevent-adding-secrets-git-repositories/",
+          "publishedOn": "2026-05-16T20:33:14.000Z",
+          "wordCount": 3138,
+          "title": "git-secrets – prevent adding secrets into git repositories",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2020/01/Git-Clients.jpg"
+        },
+        {
           "id": "https://www.linuxlinks.com/?p=182013",
           "author": "Steve Emms",
           "description": "mdx uses the MangaDex API to fetch content and can save chapters in formats suitable for comic book readers, e-readers.\nThe post mdx – download manga tool appeared first on LinuxLinks.",
@@ -6271,16 +6281,6 @@
           "wordCount": 3325,
           "title": "Alternatives to popular CLI tools: cksum",
           "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2023/04/documentation-alternatives.png"
-        },
-        {
-          "id": "https://www.linuxlinks.com/?p=156156",
-          "author": "Eilidih Parris",
-          "description": "This article picks some useful tools to help you fix Go code. \nThe post 11 Best Free and Open Source Go Linter Tools appeared first on LinuxLinks.",
-          "link": "https://www.linuxlinks.com/best-free-open-source-go-linter-tools/",
-          "publishedOn": "2026-05-07T07:19:42.000Z",
-          "wordCount": 3161,
-          "title": "11 Best Free and Open Source Go Linter Tools",
-          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2024/05/921-coding.jpg"
         }
       ]
     },
@@ -7046,6 +7046,22 @@
       "feedUrl": "https://www.wonkette.com/feed",
       "siteUrl": "https://www.wonkette.com",
       "articles": [
+        {
+          "id": "https://www.wonkette.com/p/happy-national-sea-monkeys-day-hope",
+          "author": "Robyn Pennacchia",
+          "description": "Still mad about it.",
+          "link": "https://www.wonkette.com/p/happy-national-sea-monkeys-day-hope",
+          "publishedOn": "2026-05-16T19:31:01.000Z",
+          "wordCount": null,
+          "title": "Happy National Sea Monkeys Day! Hope Your Sea Monkeys Worked Out, Because Mine Did Not.",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!Wbbq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34013c3a-5eda-454f-8526-3c17edbec78f_1536x1024.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!Wbbq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34013c3a-5eda-454f-8526-3c17edbec78f_1536x1024.png"
+        },
         {
           "id": "https://www.wonkette.com/p/paxtons-purge-texas-hospital-bullied",
           "author": "Doktor Zoom",
@@ -8306,16 +8322,6 @@
           "wordCount": 1428,
           "title": "Irreal: Grove",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.davep.org/2026/05/07/blogmore-el-v4-4-0.html",
-          "author": null,
-          "description": "I've released an update to\nblogmore.el, my\nEmacs package that helps me out when writing this blog. I've\nadded two commands to this version which help me be lazier than ever.\nThe first is blogmore-become-like. When run, this prompts for another post\nand, once selected, it sets this post's category and tags to be the same\nas the other one. I added this because I'm often writing an occasional\nseries of posts that are all about the same project, and so I always find\nmyself copying and pasting those frontmatter properties from another post.\nThe second command I've added is blogmore-toggle-image-centre. Built into\nBlogMore is a little bit of styling that will\nensure an image is placed in the centre of the page, if the URL for the\nimage has #centre on the end. This means that, for most images I add, I\nhave to go and edit the URL to add that. Now I can just run a single command\nwhen the cursor is on an image and it'll add (or remove, if it's already\nthere) that styling hint.\nIn both cases, I've added the commands to the transient menu too.",
-          "link": "https://blog.davep.org/2026/05/07/blogmore-el-v4-4-0.html",
-          "publishedOn": "2026-05-07T08:05:10.000Z",
-          "wordCount": 234,
-          "title": "Dave Pearson: blogmore.el v4.4.0",
-          "imageUrl": "https://blog.davep.org/icons/android-chrome-512x512.png"
         }
       ]
     },
