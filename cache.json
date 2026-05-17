@@ -4426,6 +4426,16 @@
       "siteUrl": "https://www.linuxlinks.com/",
       "articles": [
         {
+          "id": "https://www.linuxlinks.com/?p=182107",
+          "author": "Steve Emms",
+          "description": "cz-git is a Commitizen adapter and command-line tool for composing structured Git commit messages. \nThe post cz-git – Commitizen adapter and command-line tool appeared first on LinuxLinks.",
+          "link": "https://www.linuxlinks.com/cz-git-commitizen-adapter-command-line-tool/",
+          "publishedOn": "2026-05-17T13:42:48.000Z",
+          "wordCount": 3148,
+          "title": "cz-git – Commitizen adapter and command-line tool",
+          "imageUrl": "https://www.linuxlinks.com/wp-content/uploads/2020/01/Git-Clients.jpg"
+        },
+        {
           "id": "https://www.linuxlinks.com/?p=182252",
           "author": "Steve Emms",
           "description": "AeroFTP is a cross-platform desktop file transfer client that starts with FTP and extends into a broader file management platform. \nThe post AeroFTP – cross-platform desktop file transfer client that starts with FTP appeared first on LinuxLinks.",
@@ -7297,6 +7307,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://list.orgmode.org/87qznaw4sa.fsf@gmail.com",
+          "author": null,
+          "description": "[request] flags:--- replies:0",
+          "link": "https://list.orgmode.org/87qznaw4sa.fsf@gmail.com",
+          "publishedOn": "2026-05-17T13:21:09.000Z",
+          "wordCount": 301,
+          "title": "Org Mode requests: [FR] Tracking Habits with Alternate Calendar",
+          "imageUrl": null
+        },
+        {
+          "id": "https://sachachua.com/blog/2026/05/may-14-sacha-prot-and-philip-kaludercic-talk-emacs-newcomer-experience/",
+          "author": null,
+          "description": "Philip Kaludercic wanted to continue the conversation from YE24: Sacha and Prot Talk Emacs - Newbies/Starter Kits. He's spent a lot of time thinking about this as one of the main contributors to newcomers-presets.\n\n\n\n\n\n\n\nView in the Internet Archive, watch or comment on YouTube, read the transcript online, download the transcript, or e-mail me.\n\n\n\n\n\nRelated links\nChapters\nTranscript\nChat\nSome types of new users to think about\nSketching out their learning journey\nOther notes\nSome screenshots of a fresh Emacs\nTrying pkal's Emacs Configuration Generator\nRelated links\nA proposal for a \"beginners\" (user-option) theme - Philip Kaludercic\nRe: some file-related options to consider for newcomers-presets - Philip Kaludercic\nA newcomer's feedback on newcomer presets - Abdulnafe Toulaimat\nEmacs Config…",
+          "link": "https://sachachua.com/blog/2026/05/may-14-sacha-prot-and-philip-kaludercic-talk-emacs-newcomer-experience/",
+          "publishedOn": "2026-05-17T13:21:07.000Z",
+          "wordCount": 14746,
+          "title": "Sacha Chua: YE29: Sacha, Prot, and Philip Kaludercic Talk Emacs: Newcomer Experience",
+          "imageUrl": null
+        },
+        {
           "id": "https://list.orgmode.org/CAO48Bk-hzrwXe4jOZYnhv5B12AvdTJ39E8fdAkTQRgBGuq3J9A@mail.gmail.com",
           "author": null,
           "description": "[request] flags:--- replies:2",
@@ -7654,16 +7684,6 @@
           "publishedOn": "2026-05-08T14:10:46.000Z",
           "wordCount": 1326,
           "title": "Irreal: The Emacs 31 Branch Has Been Created",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kelar.org/~bandali/gnu/emacs/ffs-code-review-prot.html",
-          "author": null,
-          "description": "Prot as an Emacs coach to help\nwith doing review passes over my upcoming ffs package as I work on\npolishing and documenting it in preparation for offering it for\ninclusion in GNU ELPA.\n\n\n\nYesterday we had our second session focused on ffs, which I recorded\nand share publicly with everyone with Prot's permission, so that\nothers can also benefit from Prot's insights and experience as we\ndiscuss various aspects of Emacs package development with the concrete\nexample of ffs.\n\n\n\nHere is the video recording of our session:\n\n\n\n\n\nSorry, this embedded video will not work,\nbecause your web browser does not support HTML5 video.\n[ please watch the video in your favourite streaming media player ]​\n\n\n\n\nYou can view or download the full-resolution video from the Internet\nArchive.\n\n\n\nI addressed most of Prot's feedback about ffs from our first\nsession, and I'll be working on the changes we discussed in this\nsession in the next days.\n\n\n\nIn the last third of the video we switched topics to discuss a few\nEmacs-related tangents including adding a 'padding' effect for the\nmode line and its constructs, and distilling and separating the\neasily-reusable package-like parts of one's Emacs configuration from\nthe actual configuration of those parts (e.g. the distinction of\nprot-lisp and prot-emacs-modules in Prot's Emacs configuration).\n\n\n\nFor mode line padding, here is the snippet I'm using with Prot's\ndoric-themes:\n\n\n\n(doric-themes-with-colors\n  (custom-set-faces\n   `(mode-line\n     ((t :box (:line-width 6 :color ,bg-shadow-intense))))\n   `(mode-line-inactive\n     ((t :box (:line-width 6 :color ,bg-shadow-subtle))))\n   `(mode-line-highlight\n     ((t :box (:color ,bg-shadow-intense))))))",
-          "link": "https://kelar.org/~bandali/gnu/emacs/ffs-code-review-prot.html",
-          "publishedOn": "2026-05-08T02:10:33.000Z",
-          "wordCount": 302,
-          "title": "Amin Bandali: FFS code review with Protesilaos",
           "imageUrl": null
         }
       ]

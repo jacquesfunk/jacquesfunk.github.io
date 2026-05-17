@@ -2,10 +2,68 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-05-17T13:17:38.470Z</updated>
+    <updated>2026-05-17T14:54:31.045Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[cz-git – Commitizen adapter and command-line tool]]></title>
+        <id>https://www.linuxlinks.com/?p=182107</id>
+        <link href="https://www.linuxlinks.com/cz-git-commitizen-adapter-command-line-tool/"/>
+        <updated>2026-05-17T13:42:48.000Z</updated>
+        <summary type="html"><![CDATA[cz-git is a Commitizen adapter and command-line tool for composing structured Git commit messages. 
+The post cz-git – Commitizen adapter and command-line tool appeared first on LinuxLinks.]]></summary>
+        <author>
+            <name>Steve Emms</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Org Mode requests: [FR] Tracking Habits with Alternate Calendar]]></title>
+        <id>https://list.orgmode.org/87qznaw4sa.fsf@gmail.com</id>
+        <link href="https://list.orgmode.org/87qznaw4sa.fsf@gmail.com"/>
+        <updated>2026-05-17T13:21:09.000Z</updated>
+        <summary type="html"><![CDATA[[request] flags:--- replies:0]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sacha Chua: YE29: Sacha, Prot, and Philip Kaludercic Talk Emacs: Newcomer Experience]]></title>
+        <id>https://sachachua.com/blog/2026/05/may-14-sacha-prot-and-philip-kaludercic-talk-emacs-newcomer-experience/</id>
+        <link href="https://sachachua.com/blog/2026/05/may-14-sacha-prot-and-philip-kaludercic-talk-emacs-newcomer-experience/"/>
+        <updated>2026-05-17T13:21:07.000Z</updated>
+        <summary type="html"><![CDATA[Philip Kaludercic wanted to continue the conversation from YE24: Sacha and Prot Talk Emacs - Newbies/Starter Kits. He's spent a lot of time thinking about this as one of the main contributors to newcomers-presets.
+
+
+
+
+
+
+
+View in the Internet Archive, watch or comment on YouTube, read the transcript online, download the transcript, or e-mail me.
+
+
+
+
+
+Related links
+Chapters
+Transcript
+Chat
+Some types of new users to think about
+Sketching out their learning journey
+Other notes
+Some screenshots of a fresh Emacs
+Trying pkal's Emacs Configuration Generator
+Related links
+A proposal for a "beginners" (user-option) theme - Philip Kaludercic
+Re: some file-related options to consider for newcomers-presets - Philip Kaludercic
+A newcomer's feedback on newcomer presets - Abdulnafe Toulaimat
+Emacs Config…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Government-Owned Grocery Stores Aren’t New — Could They Work Today?]]></title>
         <id>Government-Owned Grocery Stores Aren’t New — Could They Work Today?</id>
@@ -8243,76 +8301,6 @@ The post octoscope – terminal dashboard for GitHub accounts appeared first on 
         <summary type="html"><![CDATA[The whiskey is bottled at 117.7 proof and aged for at least seven years in new oak, ex-bourbon, and two types of sherry casks.]]></summary>
         <author>
             <name>David Thomas Tao</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amin Bandali: FFS code review with Protesilaos]]></title>
-        <id>https://kelar.org/~bandali/gnu/emacs/ffs-code-review-prot.html</id>
-        <link href="https://kelar.org/~bandali/gnu/emacs/ffs-code-review-prot.html"/>
-        <updated>2026-05-08T02:10:33.000Z</updated>
-        <summary type="html"><![CDATA[Prot as an Emacs coach to help
-with doing review passes over my upcoming ffs package as I work on
-polishing and documenting it in preparation for offering it for
-inclusion in GNU ELPA.
-
-
-
-Yesterday we had our second session focused on ffs, which I recorded
-and share publicly with everyone with Prot's permission, so that
-others can also benefit from Prot's insights and experience as we
-discuss various aspects of Emacs package development with the concrete
-example of ffs.
-
-
-
-Here is the video recording of our session:
-
-
-
-
-
-Sorry, this embedded video will not work,
-because your web browser does not support HTML5 video.
-[ please watch the video in your favourite streaming media player ]​
-
-
-
-
-You can view or download the full-resolution video from the Internet
-Archive.
-
-
-
-I addressed most of Prot's feedback about ffs from our first
-session, and I'll be working on the changes we discussed in this
-session in the next days.
-
-
-
-In the last third of the video we switched topics to discuss a few
-Emacs-related tangents including adding a 'padding' effect for the
-mode line and its constructs, and distilling and separating the
-easily-reusable package-like parts of one's Emacs configuration from
-the actual configuration of those parts (e.g. the distinction of
-prot-lisp and prot-emacs-modules in Prot's Emacs configuration).
-
-
-
-For mode line padding, here is the snippet I'm using with Prot's
-doric-themes:
-
-
-
-(doric-themes-with-colors
-  (custom-set-faces
-   `(mode-line
-     ((t :box (:line-width 6 :color ,bg-shadow-intense))))
-   `(mode-line-inactive
-     ((t :box (:line-width 6 :color ,bg-shadow-subtle))))
-   `(mode-line-highlight
-     ((t :box (:color ,bg-shadow-intense))))))]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
