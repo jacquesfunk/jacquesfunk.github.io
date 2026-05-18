@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-05-18T21:11:21.048Z</updated>
+    <updated>2026-05-18T23:00:23.263Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Confusion reigns ahead of Alabama’s post-gerrymander primary]]></title>
+        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/d575lae86n3oktyhut74.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/d575lae86n3oktyhut74.html"/>
+        <updated>2026-05-18T22:05:29.449Z</updated>
+        <summary type="html"><![CDATA[Confusion reigns ahead of Alabama’s post-gerrymander primary
+    
+    
+    
+    
+    
+
+
+
+
+
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+
+
+    
+  
+    
+      
+      96
+ …]]></summary>
+        <author>
+            <name>Current Events</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Marcin Borkowski: Marking today’s files in Dired]]></title>
+        <id>https://mbork.pl/2026-05-18_Marking_today%e2%80%99s_files_in_Dired</id>
+        <link href="https://mbork.pl/2026-05-18_Marking_today%e2%80%99s_files_in_Dired"/>
+        <updated>2026-05-18T21:01:00.000Z</updated>
+        <summary type="html"><![CDATA[As anyone reading my blog knows, I’m a big fan of Dired. One of its killer features is the set of marking commands, which allow marking files based on their extensions, names (regex-based), contents (also regex-based). There is also a “universal marking command”, dired-mark-sexp, which allows the user to provide an Elisp expression serving as a predicate and marks all files satisfying that predicate. What’s even more, you can use several symbols in that predicate, like size or name (head to the docs to learn more). What I found lacking is an easy (that is, not requiring me to type a convoluted expression each time) way to mark “recently modified” files.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Oklahoma Newspaper Deletes Column Comparing Thunder To Israel]]></title>
         <id>https://defector.com/?p=222921</id>
@@ -224,6 +263,24 @@ Kill the Newsletter! feed settings]]></summary>
 In January, Trump, two of his sons, and the Trump Organ…]]></summary>
         <author>
             <name>Patrick Redford</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sacha Chua: 2026-05-18 Emacs news]]></title>
+        <id>https://sachachua.com/blog/2026/05/2026-05-18-emacs-news/</id>
+        <link href="https://sachachua.com/blog/2026/05/2026-05-18-emacs-news/"/>
+        <updated>2026-05-18T17:59:27.000Z</updated>
+        <summary type="html"><![CDATA[oantolin's tip about using Eww. It's always interesting to see what people can do when they apply Emacs's power and composability to all sorts of things, including evaluating code snippets from webpages. Outside Emacs, there was a lively conversation on HN about personal software. Enjoy!
+
+
+
+Upcoming events (iCal file, Org):
+
+M-x Research: TBA https://m-x-research.github.io/ Wed May 20 0800 America/Vancouver - 1000 America/Chicago - 1100 America/Toronto - 1500 Etc/GMT - 1700 Europe/Berlin - 2030 Asia/Kolkata - 2300 Asia/Singapore
+Emacs APAC: Emacs APAC meetup (virtual) https://emacs-apac.gitlab.io/announcements/ Sat May 23 0130 America/Vancouver - 0330 America/Chicago - 0430 America/Toronto - 0830 Etc/GMT - 1030 Europe/Berlin - 1400 Asia/Kolkata - 1630 Asia/Singapore
+Emacs Berlin: Emacs-Ber…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
