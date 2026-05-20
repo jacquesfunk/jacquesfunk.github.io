@@ -1254,6 +1254,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://batsov.com/articles/2026/05/20/neat-a-language-agnostic-nrepl-client-for-emacs/",
+          "author": null,
+          "description": "I think I’ll take my REPL neat \n– Bozier\nLast week I announced Port,\na small prepl client for Emacs. Today I’m following it up with another small\nEmacs package. Meet neat, a tiny, deliberately\nlanguage-agnostic nREPL client.\nWhy?\nFor years I’ve been hearing some version of the same request: “could CIDER work\nwith my non-Clojure nREPL server?”. Babashka, Basilisp, nREPL-CLR, even some\nhomegrown servers people built on top of nREPL for languages I’d never heard\nof.1 The answer was always the same kind of squishy “sort of, in theory, with\ncaveats”, because while bare nREPL is genuinely language-agnostic, CIDER is\nnot. CIDER was built for Clojure and assumes Clojure pretty much everywhere.\nI always thought the right answer was “let’s gradually make CIDER more\nlanguage-agnostic.” That’s the kin…",
+          "link": "https://batsov.com/articles/2026/05/20/neat-a-language-agnostic-nrepl-client-for-emacs/",
+          "publishedOn": "2026-05-20T06:00:00.000Z",
+          "wordCount": 1713,
+          "title": "Bozhidar Batsov: neat: a language-agnostic nREPL client for Emacs",
+          "imageUrl": "https://batsov.com/assets/img/og-image.png"
+        },
+        {
           "id": "https://blog.davep.org/2026/05/19/next-gh-pr-el-v1-0-0.html",
           "author": null,
           "description": "Pretty much every project that I actively maintain on my GitHub\naccount has a change log of some description. For\na long time now, whenever I add a new entry to the log, I'll include a link\nto the PR that implements that change. Inevitably, this results in me adding\nthe ChangeLog entry, creating the PR, then doing a follow-up change and\ncommit now that I know the PR number, which allows me to add the link.\nSo I've created next-gh-pr.el to\nsave me just a little time and let me be just a little more lazy. Inside it\nI've currently got a next-gh-pr-insert-markdown-link command which, when\nrun, as you might imagine, inserts a link to the next likely PR URL as\nMarkdown.\nWorking out the next URL is simple enough: get the latest issue and PR\nnumber, take whichever is the highest, and add 1. There is the wrinkle that\ndiscussions also cause this number to bump, and getting the latest\ndiscussion number is a little extra faff that I can't be bothered with right\nnow, but my projects very seldom have discussions taking place anyway.",
@@ -2310,6 +2320,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/772x148nuww63kymo6bi.html",
+          "author": null,
+          "description": "This Man, This Alien They Call Wemby96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-decoration: inherit !important; font-size: inherit …",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/772x148nuww63kymo6bi.html",
+          "publishedOn": "2026-05-20T10:13:35.165Z",
+          "wordCount": 2464,
+          "title": "This Man, This Alien They Call Wemby",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/9ttjw6k5b0q3mh8z3fp2.html",
           "author": null,
           "description": "I-70 Let Down\n@media (max-width: 1024px) {\n  .typography .pullquote-align-left,\n  .typography.editor .pullquote-align-left,\n  .typography .pullquote-align-right,\n  .typography.editor .pullquote-align-right,\n  .typography .pullquote-align-wide,\n  .typography.editor .pullquote-align-wide,\n  .typography .pullquote-align-center,\n  .typography.editor .pullquote-align-center {\n    float: none;\n    margin: 0 auto;\n    width: 100%;\n    max-width: 100%;\n  }\n}\n@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {\n  .typography .markup table.image-wrapper img,\n  .typography.editor .markup table.image-wrapper img,\n  .typography .markup table.kindle-wrapper img,\n  .typography.editor .markup table.kindle-wrapper img {\n    max-width: 550px;\n  }\n}\n@media (min-width: 1024px) {\n  .typograp…",
@@ -2497,6 +2517,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/salon-amanda-marcotte.xml",
       "siteUrl": "https://www.salon.com/writer/amanda_marcotte",
       "articles": [
+        {
+          "id": "https://www.salon.com/2026/05/20/white-house-ballroom-is-turning-into-a-symbol-of-trumps-failures/-full",
+          "author": null,
+          "description": "The surest sign that a MAGA leader knows they screwed up? When they try to pass off the stupid thing they said as a “joke.” But the right-wing podcaster Eric Metaxas was not joking at Sunday’s Rededicate 250 event on the National Mall when he said, “It’s hard to believe that it would take two centuries for the Lord to raise up a great man to bring that ballroom finally to stand where it needs to stand. It’s extraordinary.” \nHe had gotten a laugh a moment before when he mocked President James Madison for not having a ballroom when the White House was burned by the British during the War of 1812. But when Metaxas praised Donald Trump and claimed that God’s providence is on the president and his ballooning ballroom project, the crowd’s cheering was loud — and serious.\n“For God so loved the wo…",
+          "link": "https://www.salon.com/2026/05/20/white-house-ballroom-is-turning-into-a-symbol-of-trumps-failures/",
+          "publishedOn": "2026-05-20T10:45:07.000Z",
+          "wordCount": 2916,
+          "title": "White House ballroom is turning into a symbol of Trump’s failures",
+          "imageUrl": "https://www.salon.com/app/uploads/2026/05/Donald-Trump-2277123891-e1779250183838.jpg"
+        },
         {
           "id": "https://www.salon.com/2026/05/18/the-real-reason-rfk-jr-is-coming-for-your-antidepressants/-full",
           "author": null,

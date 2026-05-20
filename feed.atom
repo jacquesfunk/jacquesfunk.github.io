@@ -2,10 +2,66 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-05-20T07:41:28.098Z</updated>
+    <updated>2026-05-20T10:48:42.805Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[White House ballroom is turning into a symbol of Trump’s failures]]></title>
+        <id>https://www.salon.com/2026/05/20/white-house-ballroom-is-turning-into-a-symbol-of-trumps-failures/-full</id>
+        <link href="https://www.salon.com/2026/05/20/white-house-ballroom-is-turning-into-a-symbol-of-trumps-failures/"/>
+        <updated>2026-05-20T10:45:07.000Z</updated>
+        <summary type="html"><![CDATA[The surest sign that a MAGA leader knows they screwed up? When they try to pass off the stupid thing they said as a “joke.” But the right-wing podcaster Eric Metaxas was not joking at Sunday’s Rededicate 250 event on the National Mall when he said, “It’s hard to believe that it would take two centuries for the Lord to raise up a great man to bring that ballroom finally to stand where it needs to stand. It’s extraordinary.” 
+He had gotten a laugh a moment before when he mocked President James Madison for not having a ballroom when the White House was burned by the British during the War of 1812. But when Metaxas praised Donald Trump and claimed that God’s providence is on the president and his ballooning ballroom project, the crowd’s cheering was loud — and serious.
+“For God so loved the wo…]]></summary>
+        <author>
+            <name>Amanda Marcotte - Salon.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This Man, This Alien They Call Wemby]]></title>
+        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/772x148nuww63kymo6bi.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/772x148nuww63kymo6bi.html"/>
+        <updated>2026-05-20T10:13:35.165Z</updated>
+        <summary type="html"><![CDATA[This Man, This Alien They Call Wemby96
+  :root { color-scheme: light; supported-color-schemes: light; }
+  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }
+  .body { word-wrap: normal; word-spacing:normal; }
+  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }
+  img { border: 0; outline: none; }
+  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }
+  td, a, span {  mso-line-height-rule: exactly; }
+  #root [x-apple-data-detectors=true],
+  a[x-apple-data-detectors=true],
+  #MessageViewBody a { color: inherit !important; text-decoration: inherit !important; font-size: inherit …]]></summary>
+        <author>
+            <name>Misc Newsletters</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bozhidar Batsov: neat: a language-agnostic nREPL client for Emacs]]></title>
+        <id>https://batsov.com/articles/2026/05/20/neat-a-language-agnostic-nrepl-client-for-emacs/</id>
+        <link href="https://batsov.com/articles/2026/05/20/neat-a-language-agnostic-nrepl-client-for-emacs/"/>
+        <updated>2026-05-20T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I think I’ll take my REPL neat 
+– Bozier
+Last week I announced Port,
+a small prepl client for Emacs. Today I’m following it up with another small
+Emacs package. Meet neat, a tiny, deliberately
+language-agnostic nREPL client.
+Why?
+For years I’ve been hearing some version of the same request: “could CIDER work
+with my non-Clojure nREPL server?”. Babashka, Basilisp, nREPL-CLR, even some
+homegrown servers people built on top of nREPL for languages I’d never heard
+of.1 The answer was always the same kind of squishy “sort of, in theory, with
+caveats”, because while bare nREPL is genuinely language-agnostic, CIDER is
+not. CIDER was built for Clojure and assumes Clojure pretty much everywhere.
+I always thought the right answer was “let’s gradually make CIDER more
+language-agnostic.” That’s the kin…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Republican Kleptocracy Must Pay Up in November]]></title>
         <id>https://thedemocraticstrategist.org/?p=39790</id>
