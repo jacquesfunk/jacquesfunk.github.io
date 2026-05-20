@@ -2,10 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-05-19T23:00:49.069Z</updated>
+    <updated>2026-05-20T03:28:24.433Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Sean Hannity praises "agreement" between DOJ and Trump, calls it a "patriotic amount" of money]]></title>
+        <id>58013491-8a4c-4185-9153-b92fb2678a32</id>
+        <link href="https://www.mediamatters.org/sean-hannity/sean-hannity-praises-agreement-between-doj-and-trump-calls-it-patriotic-amount-money"/>
+        <updated>2026-05-20T01:38:32.000Z</updated>
+        <author>
+            <name>Media Matters for America</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sean Hannity: There are medications that cost "a thousand times more than what you'd pay in Europe or Canada because they have a socialized healthcare system"]]></title>
         <id>dfce83bd-8f9c-4b9f-8018-0b888ff89154</id>
@@ -4136,67 +4145,6 @@ Beyond raw hardware optimization, building from source enables dropping decades 
         <summary type="html"><![CDATA[[request] flags:--- replies:0 topic:ox-md]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Personal Keybindings]]></title>
-        <id>https://irreal.org/blog/?p=13799</id>
-        <link href="https://irreal.org/blog/?p=13799"/>
-        <updated>2026-05-10T14:52:57.000Z</updated>
-        <summary type="html"><![CDATA[interesting post on the describe-personal-keybindings command. The idea is that the command lists the keybindings that you have set in your configuration. It’s convenient, mbork says, for checking that new Emacs releases haven’t stolen one of your bindings. It’s also interesting to see what bindings you’ve added and what, if anything, they’ve replaced.
-
-
-But there’s a catch. In order for a personal keybinding to show up, it must have been set with the bind-key macro. That’s a problem for those of us who are long term users. Those who use use-package exclusively have no problem since the :bind command  uses bind-key automatically but bindings set with, say, define-key will not appear in the describe-personal-keybindings output.
-
-
-That’s inspired mbork to refactor his init.el to use use-pacjkage and for stand-alone bindings, the bind-key macro.
-
-
-The minions are insisting that I mention what they consider the best part of mbork’s post. That, of course, concerned dark mode. Mbork begins his post by mentioning a Web app that provides a Web based cheat sheet of Emacs commands. Mbork says it’s a cool command but not for him because
-
-
-
-if I were to create something like that, it would run in Emacs and not in the browser, it would definitely mention transpose-.* commands, and it would never be dark-mode-only;-).
-
-
-
-The minions haven’t been causing much trouble lately so I thought it only fair to indulge their desire to get mbork’s dislike of dark mode on the record.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Einar Mostad: Speed improvement hack for dired with EWW]]></title>
-        <id>https://einar.codeberg.page/speed_improvement_hack_for_dired_with_eww.html</id>
-        <link href="https://einar.codeberg.page/speed_improvement_hack_for_dired_with_eww.html"/>
-        <updated>2026-05-10T14:47:00.000Z</updated>
-        <summary type="html"><![CDATA[Joshua Blaise wrote about his eww setup and use, I read it with interest and stole most of his ideas for my own config. The important one for this little hack is that I set up URLs with endings like .mp3, .mp4, .m4v, .mkv etc to launch in mpv when browsing to them. This makes watching videos and listening to audio content easy with EWW. EWW is also good for browsing local files where the URL is file:// and so forth.
-
-
-
-In dired, I usually launch external programs for photo editing, media playback etc by pressing & with point on a file name. This brings up the completing-read interface in the minibuffer which asks me if I would like to use dired's guess as to which program to use (which I have set to guess xdg-open first) or something else. I press return and then mpv, gimp, darktable or wh…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[imaginary phones and shitty swimming pools: how Preznit Fuckwit grifts America]]></title>
-        <id>https://www.jefftiedrich.com/p/imaginary-phones-and-shitty-swimming</id>
-        <link href="https://www.jefftiedrich.com/p/imaginary-phones-and-shitty-swimming"/>
-        <updated>2026-05-10T13:55:22.000Z</updated>
-        <summary type="html"><![CDATA[and Péter Magyar gets sworn in as Hungary’s PM]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Putin Is Losing, and Everybody Around Him Knows It]]></title>
-        <id>https://www.dworkinsubstack.com/p/putin-is-losing-and-everybody-around</id>
-        <link href="https://www.dworkinsubstack.com/p/putin-is-losing-and-everybody-around"/>
-        <updated>2026-05-10T13:03:46.000Z</updated>
-        <summary type="html"><![CDATA[Inside the collapse]]></summary>
-        <author>
-            <name>Scott Dworkin</name>
         </author>
     </entry>
 </feed>

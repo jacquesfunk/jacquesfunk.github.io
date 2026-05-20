@@ -166,22 +166,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!v0B2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88668ffa-8bae-48f6-b808-37cb922ad70a_1280x960.jpeg"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/imaginary-phones-and-shitty-swimming",
-          "author": "Jeff Tiedrich",
-          "description": "and Péter Magyar gets sworn in as Hungary’s PM",
-          "link": "https://www.jefftiedrich.com/p/imaginary-phones-and-shitty-swimming",
-          "publishedOn": "2026-05-10T13:55:22.000Z",
-          "wordCount": null,
-          "title": "imaginary phones and shitty swimming pools: how Preznit Fuckwit grifts America",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!byP6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5a09fe5-44f1-4f97-bb59-61983770491f_1200x644.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!byP6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5a09fe5-44f1-4f97-bb59-61983770491f_1200x644.png"
         }
       ]
     },
@@ -437,22 +421,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/92fbbc33-ec45-4f2b-9ea9-b63900493227_1320x660.jpeg"
-        },
-        {
-          "id": "https://www.dworkinsubstack.com/p/putin-is-losing-and-everybody-around",
-          "author": "Scott Dworkin",
-          "description": "Inside the collapse",
-          "link": "https://www.dworkinsubstack.com/p/putin-is-losing-and-everybody-around",
-          "publishedOn": "2026-05-10T13:03:46.000Z",
-          "wordCount": null,
-          "title": "Putin Is Losing, and Everybody Around Him Knows It",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/53a0c374-1327-491b-a7c1-9423451fe4da_1320x660.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/53a0c374-1327-491b-a7c1-9423451fe4da_1320x660.jpeg"
         }
       ]
     },
@@ -461,6 +429,16 @@
       "feedUrl": "https://www.mediamatters.org/rss.xml",
       "siteUrl": "https://www.mediamatters.org/",
       "articles": [
+        {
+          "id": "58013491-8a4c-4185-9153-b92fb2678a32",
+          "author": "Media Matters for America",
+          "description": "",
+          "link": "https://www.mediamatters.org/sean-hannity/sean-hannity-praises-agreement-between-doj-and-trump-calls-it-patriotic-amount-money",
+          "publishedOn": "2026-05-20T01:38:32.000Z",
+          "wordCount": 539,
+          "title": "Sean Hannity praises \"agreement\" between DOJ and Trump, calls it a \"patriotic amount\" of money",
+          "imageUrl": "https://www.mediamatters.org/sites/default/files/FNCHD_Hannity_2026-05-19-09_00_00-PM-2.jpg"
+        },
         {
           "id": "dfce83bd-8f9c-4b9f-8018-0b888ff89154",
           "author": "Media Matters for America",
@@ -1663,26 +1641,6 @@
           "publishedOn": "2026-05-11T03:15:59.000Z",
           "wordCount": 243,
           "title": "Org Mode requests: [FR] ox-md: Export custom-id search strings (::#) as anchors",
-          "imageUrl": null
-        },
-        {
-          "id": "https://irreal.org/blog/?p=13799",
-          "author": null,
-          "description": "interesting post on the describe-personal-keybindings command. The idea is that the command lists the keybindings that you have set in your configuration. It’s convenient, mbork says, for checking that new Emacs releases haven’t stolen one of your bindings. It’s also interesting to see what bindings you’ve added and what, if anything, they’ve replaced.\n\n\nBut there’s a catch. In order for a personal keybinding to show up, it must have been set with the bind-key macro. That’s a problem for those of us who are long term users. Those who use use-package exclusively have no problem since the :bind command  uses bind-key automatically but bindings set with, say, define-key will not appear in the describe-personal-keybindings output.\n\n\nThat’s inspired mbork to refactor his init.el to use use-pacjkage and for stand-alone bindings, the bind-key macro.\n\n\nThe minions are insisting that I mention what they consider the best part of mbork’s post. That, of course, concerned dark mode. Mbork begins his post by mentioning a Web app that provides a Web based cheat sheet of Emacs commands. Mbork says it’s a cool command but not for him because\n\n\n\nif I were to create something like that, it would run in Emacs and not in the browser, it would definitely mention transpose-.* commands, and it would never be dark-mode-only;-).\n\n\n\nThe minions haven’t been causing much trouble lately so I thought it only fair to indulge their desire to get mbork’s dislike of dark mode on the record.",
-          "link": "https://irreal.org/blog/?p=13799",
-          "publishedOn": "2026-05-10T14:52:57.000Z",
-          "wordCount": 1420,
-          "title": "Irreal: Personal Keybindings",
-          "imageUrl": null
-        },
-        {
-          "id": "https://einar.codeberg.page/speed_improvement_hack_for_dired_with_eww.html",
-          "author": null,
-          "description": "Joshua Blaise wrote about his eww setup and use, I read it with interest and stole most of his ideas for my own config. The important one for this little hack is that I set up URLs with endings like .mp3, .mp4, .m4v, .mkv etc to launch in mpv when browsing to them. This makes watching videos and listening to audio content easy with EWW. EWW is also good for browsing local files where the URL is file:// and so forth.\n\n\n\nIn dired, I usually launch external programs for photo editing, media playback etc by pressing & with point on a file name. This brings up the completing-read interface in the minibuffer which asks me if I would like to use dired's guess as to which program to use (which I have set to guess xdg-open first) or something else. I press return and then mpv, gimp, darktable or wh…",
-          "link": "https://einar.codeberg.page/speed_improvement_hack_for_dired_with_eww.html",
-          "publishedOn": "2026-05-10T14:47:00.000Z",
-          "wordCount": 613,
-          "title": "Einar Mostad: Speed improvement hack for dired with EWW",
           "imageUrl": null
         }
       ]
