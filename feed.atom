@@ -2,10 +2,70 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-05-21T03:34:32.507Z</updated>
+    <updated>2026-05-21T07:50:58.724Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Political Strategy Notes]]></title>
+        <id>https://thedemocraticstrategist.org/?p=39799</id>
+        <link href="https://thedemocraticstrategist.org/2026/05/political-strategy-notes-970/"/>
+        <updated>2026-05-21T05:08:31.000Z</updated>
+        <summary type="html"><![CDATA[From “Poll: Trump’s election orders would mass disenfranchise working-class voters” by Jordan Zakarin at More Perfect Union: “President Donald Trump’s executive orders on election administration would create significant — and in many cases, insurmountable — barriers for working- and middle- class Americans to voting, according to a new poll from More Perfect Union and Blue... Read more »]]></summary>
+        <author>
+            <name>J.P. Green</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Protesilaos: Emacs: ef-arcadia and ef-atlantis are part of the ef-themes]]></title>
+        <id>https://protesilaos.com/codelog/2026-05-21-emacs-ef-arcadia-ef-atlantis-themes/</id>
+        <link href="https://protesilaos.com/codelog/2026-05-21-emacs-ef-arcadia-ef-atlantis-themes/"/>
+        <updated>2026-05-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I have added two new themes to the current development target of my
+ef-themes package. Screenshots are available below. Remember that
+the themes are highly customisable: you can change practically
+everything about them.
+ef-arcadia is a light theme with a verdant, humid aesthetic.
+ef-atlantis is a dark theme with an aquatic feel.
+Both deliver the familiar colourfulness and good legibility of the
+ef-themes.
+Always click to enlarge the image for best results.
+ef-arcadia
+
+
+
+
+ef-atlantis
+
+
+
+
+Coming in version 2.2.0 (next stable release)
+The character of each theme is well defined. I may still make some
+refinements.
+Remember that since version 2.0.0, the ef-themes are built on top
+of my modus-themes. This means that they are highly customisable,
+support a wide range of packages and face groups, and are extensively
+tested down to the finest details.
+Enjoy!
+The ef-themes are a collection of light and dark themes for GNU
+Emacs that provide colourful (“pretty”) yet legible options for users
+who want something with a bit more flair than the modus-themes (also
+designed by me).
+Package name (GNU ELPA): ef-themes
+Official manual: https://protesilaos.com/emacs/ef-themes
+Change log: https://protesilaos.com/emacs/ef-themes-changelog
+Sample pictures: https://protesilaos.com/emacs/ef-themes-pictures
+Git repositories:
+    
+GitHub: https://github.com/protesilaos/ef-themes
+GitLab: https://gitlab.com/protesilaos/ef-themes
+Backronym: Eclectic Fashion in Themes Hides Exaggerated Markings,
+Embellishments, and Sparkles.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DOJ has escalated its attack on trans care for minors. Where could it be headed next?]]></title>
         <id>https://www.lawdork.com/p/doj-has-escalated-its-attack-on-trans</id>
@@ -4515,112 +4575,6 @@ Bazaar …]]></summary>
         <id>8cdf7b14-f659-47df-8730-c895cce3eb8b</id>
         <link href="https://www.mediamatters.org/fuel-files-rising-gasoline-oil-and-fertilizer-prices/ohios-13action-news-reports-auto-repair"/>
         <updated>2026-05-11T19:52:19.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Daily Wire host says Martin Luther King Jr.'s "fake pastor voice" sounds "phony and ridiculous"]]></title>
-        <id>d1a20e92-48b7-482d-9049-0c541a4e757b</id>
-        <link href="https://www.mediamatters.org/matt-walsh/daily-wire-host-says-martin-luther-king-jrs-fake-pastor-voice-sounds-phony-and"/>
-        <updated>2026-05-11T19:29:26.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MAHA influencers voice support for FDA's Makary as his job floats in limbo]]></title>
-        <id>0f4bb87f-c82d-4fe6-b971-b67596016087</id>
-        <link href="https://www.mediamatters.org/robert-f-kennedy-rfk-jr/maha-influencers-voice-support-fdas-makary-his-job-floats-limbo"/>
-        <updated>2026-05-11T18:59:24.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Org Mode requests: [FR BARK] Add ability to set a summary]]></title>
-        <id>https://list.orgmode.org/CH3PR84MB342422B026DC65B7EAF5B2DEC5382@ch3pr84mb3424.namprd84.prod.outlook.com</id>
-        <link href="https://list.orgmode.org/CH3PR84MB342422B026DC65B7EAF5B2DEC5382@ch3pr84mb3424.namprd84.prod.outlook.com"/>
-        <updated>2026-05-11T18:33:20.000Z</updated>
-        <summary type="html"><![CDATA[[request] flags:--- replies:1 topic:BARK]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Org Mode requests: [FR BARK] Add ability to set a summary]]></title>
-        <id>https://list.orgmode.org/CH3PR84MB342422B026DC65B7EAF5B2DEC5382@CH3PR84MB3424.NAMPRD84.PROD.OUTLOOK.COM</id>
-        <link href="https://list.orgmode.org/CH3PR84MB342422B026DC65B7EAF5B2DEC5382@CH3PR84MB3424.NAMPRD84.PROD.OUTLOOK.COM"/>
-        <updated>2026-05-11T18:33:20.000Z</updated>
-        <summary type="html"><![CDATA[[request] flags:--- replies:0 topic:BARK]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Charles Choi: Enhancing Elisp Development with Context Menus]]></title>
-        <id>http://yummymelon.com/devnull/enhancing-elisp-development-with-context-menus.html</id>
-        <link href="http://yummymelon.com/devnull/enhancing-elisp-development-with-context-menus.html"/>
-        <updated>2026-05-11T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As celebrated as Emacs is for its programmability, I find the actual process of developing Emacs Lisp (Elisp) to be quite underwhelming. Developing in Elisp has meant learning its libraries and idioms, which is to be expected. What I really don’t care for though are the arcane keybindings associated with doing basic things like evaluating, navigating (Xref), and debugging (especially debugging). While I’ve already committed to muscle memory most of said keybindings, I’d argue that having a mouse-based “point and click” interface is beneficial for both novice and experienced Elisp developers alike, as it lets one focus on the code and not on recalling the right key incantation all the time.
-The addition of context-menu-mode in Emacs 28 has provided the opportunity to build a mouse-based UI …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fight, don't fold]]></title>
-        <id>244b308f-9b5e-4559-961a-00a475755ae0</id>
-        <link href="https://www.mediamatters.org/justice-civil-liberties/fight-dont-fold"/>
-        <updated>2026-05-11T17:35:40.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Central Pennsylvania's Fox43 investigates how rising fuel costs are impacting local first responders]]></title>
-        <id>690f22d8-d5ee-4bb2-8ab1-60106f4b57b1</id>
-        <link href="https://www.mediamatters.org/fuel-files-rising-gasoline-oil-and-fertilizer-prices/central-pennsylvanias-fox43-investigates-how"/>
-        <updated>2026-05-11T17:31:53.000Z</updated>
-        <summary type="html"><![CDATA[This post is part of a series chronicling news coverage of rising gas prices in the United States. See more here.]]></summary>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[They Made The Trump Regime Blink]]></title>
-        <id>https://www.dworkinsubstack.com/p/they-made-the-trump-regime-blink</id>
-        <link href="https://www.dworkinsubstack.com/p/they-made-the-trump-regime-blink"/>
-        <updated>2026-05-11T17:09:17.000Z</updated>
-        <summary type="html"><![CDATA[A photographer stopped the border wall, a whistleblower forced ICE to fold, and Hungary rejects Trump’s blueprint]]></summary>
-        <author>
-            <name>Scott Dworkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[California's ABC30 Action News speaks to a farmer and ag transporter paying $20k more a month on diesel: "I worry every day we're going to go broke"]]></title>
-        <id>7c8e5a7d-4281-4272-aecf-d7bae9152482</id>
-        <link href="https://www.mediamatters.org/fuel-files-rising-gasoline-oil-and-fertilizer-prices/californias-abc30-action-news-speaks-farmer"/>
-        <updated>2026-05-11T17:05:35.000Z</updated>
-        <summary type="html"><![CDATA[This post is part of a series chronicling news coverage of rising gas prices in the United States. See more here.]]></summary>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fox analyst Jack Keane calls on Trump to "return to full combat operations and finish what we started" in Iran]]></title>
-        <id>6d634a25-d452-4fb8-9d48-bee80a1b5ce8</id>
-        <link href="https://www.mediamatters.org/us-iran-relations/fox-analyst-jack-keane-calls-trump-return-full-combat-operations-and-finish-what"/>
-        <updated>2026-05-11T16:54:28.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Great American Road Trip takes the Fox cabinet through the looking glass]]></title>
-        <id>49d0dcb3-add7-4668-b671-5f68621e3826</id>
-        <link href="https://www.mediamatters.org/fox-news/great-american-road-trip-takes-fox-cabinet-through-looking-glass"/>
-        <updated>2026-05-11T15:51:10.000Z</updated>
         <author>
             <name>Media Matters for America</name>
         </author>
