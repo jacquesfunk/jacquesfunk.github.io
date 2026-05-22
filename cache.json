@@ -1169,6 +1169,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/hwtx6ymgpxtv5t95n5z5.html",
+          "author": null,
+          "description": "Tulsi Gabbard, who probed 2020 election conspiracies, resigns \n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/hwtx6ymgpxtv5t95n5z5.html",
+          "publishedOn": "2026-05-22T22:04:35.291Z",
+          "wordCount": 1541,
+          "title": "Tulsi Gabbard, who probed 2020 election conspiracies, resigns",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/ttmslr92hruvrrivd1o5.html",
           "author": null,
           "description": "96\n\n\n\n\n\n\nNewsletter: 5.22.26\n\n\nimg{-ms-interpolation-mode:bicubic;}\ntable, td{mso-table-lspace:0pt;mso-table-rspace:0pt;}\n.mceStandardButton, .mceStandardButton td, .mceStandardButton td a{mso-hide:all!important;}\np, a, li, td, blockquote{mso-line-height-rule:exactly;}\np, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}\n.mcnPreviewText{display:none!important;}\n.bodyCell{margin:0 auto;padding:0;width:100%;}\n.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;}\n.ReadMsgBody, .ExternalClass{width:100%;}\na[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inherit!important;font-weight:inherit!important;li…",
@@ -1794,16 +1804,6 @@
           "wordCount": 8300,
           "title": "Charlie Holland: May I recommend&#x2026; understanding Emacs's patterns",
           "imageUrl": "http://sveltekit-prerender/images/emacs-carnival-may-banner.jpeg"
-        },
-        {
-          "id": "https://emacs.dyerdwelling.family/emacs/20260512184707-emacs--a-tiny-nohup-keeping-media-alive-when-emacs-exits/",
-          "author": null,
-          "description": "W in dired, which is bound to dired-do-async-shell-command, type mpv (or accept the default guess that my dired-guess-shell-alist-user provides for video files), and the video starts playing.  Great.  But when I close Emacs, the video dies too.  The whole point of an async command is that it runs in the background, right?, so why does it disappear when Emacs goes away?, this is most perplexing!\n\n\n\n\n\n\n\n\n\nNow I should say, the answer is obvious in retrospect, but it took me a little while to actually stop and think about it properly.  The command dired-do-async-shell-command adds a trailing & to the shell command and passes it to async-shell-command, which creates a shell process - Emacs is the parent of that shell, and the shell is the parent of mpv.  When Emacs exits, it kills its child pr…",
-          "link": "https://emacs.dyerdwelling.family/emacs/20260512184707-emacs--a-tiny-nohup-keeping-media-alive-when-emacs-exits/",
-          "publishedOn": "2026-05-13T09:53:00.000Z",
-          "wordCount": 593,
-          "title": "James Dyer: A Tiny Nohup: Keeping Media Alive When Emacs Exits",
-          "imageUrl": "https://emacs.dyerdwelling.family/static/emacs/20260512184707-emacs--A-Tiny-Nohup-Keeping-Media-Alive-When-Emacs-Exits.jpg"
         }
       ]
     },
@@ -3089,16 +3089,6 @@
           "wordCount": 2887,
           "title": "The Christian right hijacks America’s 250th",
           "imageUrl": "https://www.salon.com/app/uploads/2021/07/american-clag-christian-cross-0723211.jpg"
-        },
-        {
-          "id": "https://www.salon.com/2026/05/13/assassination-conspiracy-theories-blame-trump/-full",
-          "author": null,
-          "description": "Let’s be clear up front: There is no evidence that Donald Trump has staged any of the three high-profile attempts on his life in the past two years.\nI’ll likely get some angry reader feedback to that assertion because a lot of people believe at least one of the would-be assassinations — and quite possibly all three — were false flag operations. A new survey from NewsGuard shows that 54% of Americans are open to the theory that at least one of the attacks was staged, with only 38% saying definitively they believe all three were real. When asked about each separate assault — the 2024 shooting that grazed Trump’s ear at a Pennsylvania campaign stop, the arrest of the armed man at the president’s West Palm Beach golf course later that year and the recent incident at the White House Corresponde…",
-          "link": "https://www.salon.com/2026/05/13/assassination-conspiracy-theories-blame-trump/",
-          "publishedOn": "2026-05-13T10:45:29.000Z",
-          "wordCount": 2702,
-          "title": "Assassination conspiracy theories? Blame Trump",
-          "imageUrl": "https://www.salon.com/app/uploads/2026/05/Donald-Trump-2275847180.jpg"
         }
       ]
     },

@@ -2,10 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-05-22T21:08:33.974Z</updated>
+    <updated>2026-05-22T22:57:43.763Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Tulsi Gabbard, who probed 2020 election conspiracies, resigns]]></title>
+        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/hwtx6ymgpxtv5t95n5z5.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/hwtx6ymgpxtv5t95n5z5.html"/>
+        <updated>2026-05-22T22:04:35.291Z</updated>
+        <summary type="html"><![CDATA[Tulsi Gabbard, who probed 2020 election conspiracies, resigns 
+    
+    
+    
+    
+    
+
+
+
+
+
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+
+
+    
+  
+    
+      
+      96…]]></summary>
+        <author>
+            <name>Current Events</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Royals Sign Luke Jackson, Génesis Cabrera To Minor League Deals]]></title>
         <id>https://www.mlbtraderumors.com/?p=896611</id>
@@ -5161,37 +5189,6 @@ Maybe it's more of a mantra, or perhaps even a haunting brain spasm at the momen
 
 
 In this post, I'll discuss, among others, two core patterns that make Emacs easy…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Assassination conspiracy theories? Blame Trump]]></title>
-        <id>https://www.salon.com/2026/05/13/assassination-conspiracy-theories-blame-trump/-full</id>
-        <link href="https://www.salon.com/2026/05/13/assassination-conspiracy-theories-blame-trump/"/>
-        <updated>2026-05-13T10:45:29.000Z</updated>
-        <summary type="html"><![CDATA[Let’s be clear up front: There is no evidence that Donald Trump has staged any of the three high-profile attempts on his life in the past two years.
-I’ll likely get some angry reader feedback to that assertion because a lot of people believe at least one of the would-be assassinations — and quite possibly all three — were false flag operations. A new survey from NewsGuard shows that 54% of Americans are open to the theory that at least one of the attacks was staged, with only 38% saying definitively they believe all three were real. When asked about each separate assault — the 2024 shooting that grazed Trump’s ear at a Pennsylvania campaign stop, the arrest of the armed man at the president’s West Palm Beach golf course later that year and the recent incident at the White House Corresponde…]]></summary>
-        <author>
-            <name>Amanda Marcotte - Salon.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[James Dyer: A Tiny Nohup: Keeping Media Alive When Emacs Exits]]></title>
-        <id>https://emacs.dyerdwelling.family/emacs/20260512184707-emacs--a-tiny-nohup-keeping-media-alive-when-emacs-exits/</id>
-        <link href="https://emacs.dyerdwelling.family/emacs/20260512184707-emacs--a-tiny-nohup-keeping-media-alive-when-emacs-exits/"/>
-        <updated>2026-05-13T09:53:00.000Z</updated>
-        <summary type="html"><![CDATA[W in dired, which is bound to dired-do-async-shell-command, type mpv (or accept the default guess that my dired-guess-shell-alist-user provides for video files), and the video starts playing.  Great.  But when I close Emacs, the video dies too.  The whole point of an async command is that it runs in the background, right?, so why does it disappear when Emacs goes away?, this is most perplexing!
-
-
-
-
-
-
-
-
-
-Now I should say, the answer is obvious in retrospect, but it took me a little while to actually stop and think about it properly.  The command dired-do-async-shell-command adds a trailing & to the shell command and passes it to async-shell-command, which creates a shell process - Emacs is the parent of that shell, and the shell is the parent of mpv.  When Emacs exits, it kills its child pr…]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>
