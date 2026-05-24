@@ -1306,6 +1306,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://taonaw.com/2026/05/24/i-wrote-about-harper-before.html",
+          "author": null,
+          "description": "I wrote about Harper before, but I wanted to expand now that I have it working on Kubuntu with a couple of more options.\nHarper is good in two scenarios for me: first, when I want something quick and I don’t feel like starting a browser with Grammarly in it, and second, when I write a personal email and the idea of my words going to some AI grammar bot somewhere makes my skin crawl. Otherwise, for my blog (which is public anyway) and work email (I don’t care about those) Grammarly is definitely better.\nThe issue with Linux is that the makers of Harper geared it toward macOS (Homebrew) and Arch Linux, among other things. It was made for programmers by programmers, and these guys don’t bother with Ubuntu-like distros. Fair, but up until recently it meant I had to jump through hoops.\nThe quic…",
+          "link": "https://taonaw.com/2026/05/24/i-wrote-about-harper-before.html",
+          "publishedOn": "2026-05-24T15:09:50.000Z",
+          "wordCount": 932,
+          "title": "TAONAW - Emacs and Org Mode:",
+          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/05/24/5883295.png"
+        },
+        {
+          "id": "https://irreal.org/blog/?p=13829",
+          "author": null,
+          "description": "fonts used by the various federal courts of appeal. For those of you who don’t know, the courts are very strict about the written format of their decisions and of the briefs filed with them. Not only is there a fixed and rigid format, the font used is also specified. Failure to adhere to the standard is prima facie reason for rejecting the filing. That said, each district has it’s own standards and choice of font. Some of those are particularly ugly versions of Courier and others are beautiful fonts such as Century Schoolbook and Equity.\n\n\nThe Supreme Court—which used to insist on hot-metal typeset documents—uses Century Schoolbook. Take a look at Gruber’s post for the interesting details.\n\n\nNone of this would be Irreal fodder except for a thread on the TUHS mailing list about LaTeX versus Troff for typesetting. Some of the discussion involved the difference between the input languages but a surprising amount talked about fonts as if Troff was still being run on a C/\ndoes have a distinctive look.\n\n\nI wrote two books for a major publisher and typeset them using Troff so at the time I could probably have been considered a Troff expert. Then I started using Lisp and partly as a result I moved to Emacs. Since then, I do all my writing in Org mode, which, of course, uses LaTeX for producing typeset output.\n\n\nSadly, these days I can’t be considered an expert in either Troff or LaTeX but it doesn’t really matter because Emacs has me covered. I simply write in Org mode and get great results for printed  content. I still know enough LaTeX to tweak my results if I need to so I have the best of both worlds: the ease of Org and the power of LaTeX.",
+          "link": "https://irreal.org/blog/?p=13829",
+          "publishedOn": "2026-05-24T14:43:57.000Z",
+          "wordCount": 1565,
+          "title": "Irreal: Fonts and Typesetters",
+          "imageUrl": null
+        },
+        {
           "id": "https://jamesendreshowell.com/2026-05-23-match-emacs-and-gnome-light-dark-theme.html",
           "author": null,
           "description": "2026 May 23\n\nLight or dark? GNOME side\ncolor-scheme and you can set read and set it from the command line. You can read it from the command line (default light theme is called default)\n\n\n$ gsettings get org.gnome.desktop.interface color-scheme | tr -d \"'\"\ndefault\n\n\n\nand you can set it from the command line (default dark theme is called prefer-dark)\n\n\n$ gsettings set org.gnome.desktop.interface color-scheme prefer-dark\n\n\n\nwill change it to dark.\n\n\n\n(You can also set other preferred GNOME themes this way.)\n\n\n\n\nLight or dark? Emacs side\nProtesilaos has published a gazillion pretty themes, but I prefer his modus-themes for their visual simplicity and also for their UI amenities. For example you can set one light theme (modus-operandi family) and one dark theme (modus-vivendi family) and toggle…",
@@ -1962,6 +1982,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=223609",
+          "author": "Chris Thompson",
+          "description": "It will comfort New York Giants fans not at all to learn that quarterback Jaxson Dart did not chitter like a raccoon, or bark like a walrus, or vocalize in the manner of any other wild creature, when reached on Saturday by teammate Abdul Carter. A little bit of gibberish might even have been encouraging: Carter and Dart, after all, were clearing the air about the latter having spent a portion of his Friday at a right-wing political rally in Rockland County, New York, introducing Donald Trump to the stage beneath a large sign reading \"New York Welcomes President Donald J. Trump.\" Evidence of a dissociative episode would've softened some of that drearily familiar but still very acute misery of learning that someone you've rooted for is an enthusiastic MAGA freak.\nSadly, Carter confirmed that Dart has not started clucking like a chicken. \"We spoke earlier as Men,\" he announced in a tweet, hours after posting his disapproval of Dart's appearance at the rally. Dart really did the shit: Friday afternoon, with \"Eye of the Tiger\" blaring from the sound system and hundreds of smartphone cameras trained on the dais, Dart strutted up to the microphone, be-mulleted, and addressed the audience in the manner of a thoroughly pre-gamed sixth-year college senior who has just entered a dark and noisy house party and is still trying to figure out if any of his buddies are in the crowd. The speech was not very inspired.\n\nhttps://bsky.app/profile/atrupar.com/post/3mmhowtz3wd2m",
+          "link": "https://defector.com/shocker-jaxson-dart-is-a-trump-guy",
+          "publishedOn": "2026-05-24T16:42:15.000Z",
+          "wordCount": 5229,
+          "title": "Shocker: Jaxson Dart Is A Trump Guy",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-2277147670.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=223597",
+          "author": "Lauren Theisen",
+          "description": "The Carolina Hurricanes have long known what they've been missing: a dynamite top-line presence (or two) who could force a breakthrough with sheer skill when the team's fundamentally sound play wasn't doing enough to give them an advantage late in the postseason. The underlying engine of the Canes was running without a hitch—this is their eighth straight year with a playoff series win. But in order to beat the very best of the best in the second- and third rounds, which they have yet to do in the Rod Brind'Amour era, there was no way around the fact that the Canes needed more talent.\nThat's easier said than done, of course. Carolina tried their best to just go out and get a superstar when they traded for Mikko Rantanen last year, but they quickly had to annul the marriage after just 13 gam…",
+          "link": "https://defector.com/nikolaj-ehlers-rewrote-the-hurricanes-old-script",
+          "publishedOn": "2026-05-24T16:08:29.000Z",
+          "wordCount": 6198,
+          "title": "Nikolaj Ehlers Rewrote The Hurricanes’ Old Script",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-22773827901-1-e1779635884266.jpg"
+        },
         {
           "id": "https://defector.com/?p=223586",
           "author": "Chris Thompson",
