@@ -24,6 +24,22 @@
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
         {
+          "id": "https://www.jefftiedrich.com/p/president-lucy-declares-strait-of",
+          "author": "Jeff Tiedrich",
+          "description": "what exactly is going on?",
+          "link": "https://www.jefftiedrich.com/p/president-lucy-declares-strait-of",
+          "publishedOn": "2026-05-24T11:47:33.000Z",
+          "wordCount": null,
+          "title": "President Lucy Declares Strait of Football Open",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!b4jd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe3a6251b-1b4e-476f-aa02-e5b2ff1a52fe_1456x884.webp",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!b4jd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe3a6251b-1b4e-476f-aa02-e5b2ff1a52fe_1456x884.webp"
+        },
+        {
           "id": "https://www.jefftiedrich.com/p/this-week-in-stupid-may-23-edition",
           "author": "Jeff Tiedrich",
           "description": "Jesus stops it, Donny flops it, and so much more...",
@@ -1632,16 +1648,6 @@
           "wordCount": 265,
           "title": "Amin Bandali: FFS code review and Emacs extensibility with Protesilaos",
           "imageUrl": null
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-05-15-emacs-amin-bandali-ffs-display-buffer-org-capture/",
-          "author": null,
-          "description": "Yesterday I met with Amin Bandali to talk about Emacs. Amin asked me\nif he could record the session, which I agreed to. The video is\navailable on Amin’s website: https://kelar.org/~bandali/gnu/emacs/ffs-emacs-ext-prot.html.\nWe started with a review of the latest changes to the ffs package\nthat Amin has been developing. We had looked into it before and wanted\nto check on its current state.\nAmin then asked me about the display-buffer-alist, which I had\nmentioned before. To me, this is the single most important variable\nfor making Emacs feel more like your own. The reason is that it allows\nyou to control the placement of buffers to match your expectations. I\ndemonstrated some of the main ideas.\nAnother nice little feature is the built-in isearch. I explained how\nit is especially helpful while recording keyboard macros. Though it is\nnice to use in general. One tweak for it is to display a counter with\nits matches. Another is to change how it treats spaces, so that it can\nmatch any character in-between. This is not as flexible as, say,\nconsult-line (from the consult package) when combined with\nvertico and orderless. Though it still has its uses.\n[ I have lots of little extras for isearch, but those should be\n  good for most users. ]\nAmin told me about rediscovering the value of Org in the context of\nstatically generating his website. He showed me the custom Org HTML\nexport backend he has been working on. Org has so many nice features\nwhich can be used independent of each other. In this light, we also\ndiscussed the diary compared to the Org agenda.\nFind all of Amin’s publications on his website: https://kelar.org/~bandali/.",
-          "link": "https://protesilaos.com/codelog/2026-05-15-emacs-amin-bandali-ffs-display-buffer-org-capture/",
-          "publishedOn": "2026-05-15T00:00:00.000Z",
-          "wordCount": 408,
-          "title": "Protesilaos: Emacs coaching with Amin Bandali about ffs, display-buffer-alist, Org, and more",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         }
       ]
     },
