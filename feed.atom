@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-05-25T19:27:50.839Z</updated>
+    <updated>2026-05-25T21:05:23.211Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Marcin Borkowski: Ignoring pdfs when auto-reverting files]]></title>
+        <id>https://mbork.pl/2026-05-25_Ignoring_pdfs_when_auto-reverting_files</id>
+        <link href="https://mbork.pl/2026-05-25_Ignoring_pdfs_when_auto-reverting_files"/>
+        <updated>2026-05-25T19:25:17.000Z</updated>
+        <summary type="html"><![CDATA[I quite like the global Auto Revert mode. It is especially useful when I something else than Emacs sometimes changes my files. (I bet some readers immediately thought about the now-fashionable agentic coding, but plain old git switch is enough!) It has one drawback, however. I hardly ever use TeX nowadays, but when I do, I use pdf-tools. Auto Revert mode doesn’t play nice with pdfs open in Emacs, often trying to revert them before TeX finishes writing to them, which results in ugly flickering.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TAONAW - Emacs and Org Mode: Journelly and OSM for Emacs are good together]]></title>
         <id>https://taonaw.com/2026/05/25/journelly-and-osm-for-emacs.html</id>

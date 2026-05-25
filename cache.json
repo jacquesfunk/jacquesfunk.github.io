@@ -1184,6 +1184,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://mbork.pl/2026-05-25_Ignoring_pdfs_when_auto-reverting_files",
+          "author": null,
+          "description": "I quite like the global Auto Revert mode. It is especially useful when I something else than Emacs sometimes changes my files. (I bet some readers immediately thought about the now-fashionable agentic coding, but plain old git switch is enough!) It has one drawback, however. I hardly ever use TeX nowadays, but when I do, I use pdf-tools. Auto Revert mode doesn’t play nice with pdfs open in Emacs, often trying to revert them before TeX finishes writing to them, which results in ugly flickering.",
+          "link": "https://mbork.pl/2026-05-25_Ignoring_pdfs_when_auto-reverting_files",
+          "publishedOn": "2026-05-25T19:25:17.000Z",
+          "wordCount": 315,
+          "title": "Marcin Borkowski: Ignoring pdfs when auto-reverting files",
+          "imageUrl": null
+        },
+        {
           "id": "https://taonaw.com/2026/05/25/journelly-and-osm-for-emacs.html",
           "author": null,
           "description": "I mentioned OSM for emacs briefly before, but I haven’t played with it much. That’s because the maps never showed up correctly in the buffer: the map tiles were not aligned correctly and some appeared blank.\nAs it turns out, someone else had this problem and also found the culprit: visual-line-mode. I have it turned on by default as the majority of my work in Emacs involves org-mode and I need my lines wrapped in the buffer. With visual-line-mode disabled, OSM works as expected, including zooming in and out. Good stuff.\nNow that I fixed OSM, I was wondering about something else I wanted to do for a while: having Journelly’s latitude and longitude fed automatically to OSM in Emacs, so I can view the location on a map.\nJournelly captures locations and weather information for each note and stores those under properties, like so:\nPROPERTIES:\n:LATITUDE: ##.##########\n:LONGITUDE: ##.##########\n:WEATHER_TEMPERATURE: 62.1°F\n:WEATHER_CONDITION: Cloudy\n:WEATHER_SYMBOL: cloud\n:END:\n\nThe OSM function that calls for those is osm-goto.\nSo what we need is a simple function to feed the properties values directly:\n(defun jtr-goto-from-properties ()\n(interactive)\n(let ((lat (org-entry-get (point) \"LATITUDE\"))\n(lon (org-entry-get (point) \"LONGITUDE\")))\n(if (and lat lon)\n(osm-goto (string-to-number lat) (string-to-number lon) osm-default-zoom)\n(message \"No LATITUDE/LONGITUDE properties found on this entry\"))))\n\nThis is an interactive function that I use when I’m standing on the header in Journelly I want to see on a map. It’s quick and works well. Now I can use my Journelly entries, which are already in org-mode, as a base for a post with a map tile inside Emacs. OSM doesn’t have a native function to export an image, but since I usually want to annotate the image anyway before I make a post out of it, a regular screen-capture app is a good solution, at least for now.",
