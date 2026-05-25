@@ -1184,6 +1184,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://taonaw.com/2026/05/25/journelly-and-osm-for-emacs.html",
+          "author": null,
+          "description": "I mentioned OSM for emacs briefly before, but I haven’t played with it much. That’s because the maps never showed up correctly in the buffer: the map tiles were not aligned correctly and some appeared blank.\nAs it turns out, someone else had this problem and also found the culprit: visual-line-mode. I have it turned on by default as the majority of my work in Emacs involves org-mode and I need my lines wrapped in the buffer. With visual-line-mode disabled, OSM works as expected, including zooming in and out. Good stuff.\nNow that I fixed OSM, I was wondering about something else I wanted to do for a while: having Journelly’s latitude and longitude fed automatically to OSM in Emacs, so I can view the location on a map.\nJournelly captures locations and weather information for each note and stores those under properties, like so:\nPROPERTIES:\n:LATITUDE: ##.##########\n:LONGITUDE: ##.##########\n:WEATHER_TEMPERATURE: 62.1°F\n:WEATHER_CONDITION: Cloudy\n:WEATHER_SYMBOL: cloud\n:END:\n\nThe OSM function that calls for those is osm-goto.\nSo what we need is a simple function to feed the properties values directly:\n(defun jtr-goto-from-properties ()\n(interactive)\n(let ((lat (org-entry-get (point) \"LATITUDE\"))\n(lon (org-entry-get (point) \"LONGITUDE\")))\n(if (and lat lon)\n(osm-goto (string-to-number lat) (string-to-number lon) osm-default-zoom)\n(message \"No LATITUDE/LONGITUDE properties found on this entry\"))))\n\nThis is an interactive function that I use when I’m standing on the header in Journelly I want to see on a map. It’s quick and works well. Now I can use my Journelly entries, which are already in org-mode, as a base for a post with a map tile inside Emacs. OSM doesn’t have a native function to export an image, but since I usually want to annotate the image anyway before I make a post out of it, a regular screen-capture app is a good solution, at least for now.",
+          "link": "https://taonaw.com/2026/05/25/journelly-and-osm-for-emacs.html",
+          "publishedOn": "2026-05-25T17:55:54.000Z",
+          "wordCount": 732,
+          "title": "TAONAW - Emacs and Org Mode: Journelly and OSM for Emacs are good together",
+          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/05/25/5885385.png"
+        },
+        {
+          "id": "https://sachachua.com/blog/2026/05/2026-05-25-emacs-news/",
+          "author": null,
+          "description": "Looking closer at Claude Generated Lisp Code. (Spoiler: people write nicer code.)\n\n\n\nHelp wanted:\n\nDemo site for a proposed re-design of the GNU ELPA (emacs-devel, Reddit) - feedback wanted\n\nUpcoming events (iCal file, Org):\n\nEmacs Berlin: Emacs-Berlin Hybrid Meetup https://emacs-berlin.org/ Wed May 27 1000 America/Vancouver - 1200 America/Chicago - 1300 America/Toronto - 1700 Etc/GMT - 1900 Europe/Berlin - 2230 Asia/Kolkata – Thu May 28 0100 Asia/Singapore\nEmacsSF (in person): coffee.el in SF https://www.meetup.com/emacs-sf/events/314950692/ Sat May 30 1100 America/Los_Angeles\nEmacs.si (in person): Emacs.si meetup #6 2026 (v #živo) https://dogodki.kompot.si/events/67d716c3-6c04-4530-9c1a-f67aa44d31bc Mon Jun 1 1900 CET\nEmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/31480995…",
+          "link": "https://sachachua.com/blog/2026/05/2026-05-25-emacs-news/",
+          "publishedOn": "2026-05-25T16:45:39.000Z",
+          "wordCount": 886,
+          "title": "Sacha Chua: 2026-05-25 Emacs news",
+          "imageUrl": null
+        },
+        {
           "id": "https://whhone.com/posts/refining-org-mode-deadlines/",
           "author": null,
           "description": "Table of Contents\nA New Prioritization Hierarchy\n\nDefault Org Agenda View\nCustomized Org Agenda View\nTrick 1: Visual Deadlines with Custom Leaders\nTrick 2: Expanding the Warning Window to a Month\nConclusion\nA New Prioritization Hierarchy\ntask management workflow, my day-to-day focus was heavily centered around scheduled dates and TODO states. Today, my prioritization hierarchy has fundamentally evolved to:\n\n\n\n\nDeadline + Priority > Schedule > TODO States\n\n\n\n\nDeadlines + Priorities represent my primary focus. Deadlines show what must be delivered and when, while priorities help determine which deadline to tackle first. Together, they serve as the main driver for my planning.\nScheduled dates are reserved for habits, recurring chores, or temporary \"snoozing\" (hiding tasks until they need to b…",
@@ -1551,16 +1571,6 @@
           "publishedOn": "2026-05-16T14:29:54.000Z",
           "wordCount": 1453,
           "title": "Irreal: Emacs As An Effortless Bloom",
-          "imageUrl": null
-        },
-        {
-          "id": "https://list.orgmode.org/87wlx3hmwl.fsf@gmail.com",
-          "author": null,
-          "description": "[request] flags:--- replies:0 topic:org-colview",
-          "link": "https://list.orgmode.org/87wlx3hmwl.fsf@gmail.com",
-          "publishedOn": "2026-05-16T06:46:34.000Z",
-          "wordCount": 570,
-          "title": "Org Mode requests: [RFC] org-colview: Where should a new COLUMNS keyword be inserted?",
           "imageUrl": null
         }
       ]
