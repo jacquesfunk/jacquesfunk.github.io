@@ -22,11 +22,272 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-05-27 datetime="2026-05-27T17:01:03.000Z">2026-05-27</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-05-27 datetime="2026-05-27T17:01:03.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-05-27 datetime="2026-05-27T19:08:23.468Z">2026-05-27</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-05-27 datetime="2026-05-27T19:08:23.468Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Emacslife</button>
+                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://ray-on-emacs.blogspot.com/2026/05/emacs-view-commands.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Raymond Zeitler: Emacs view- Commands</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ray-on-emacs.blogspot.com/2026/05/emacs-view-commands.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>A kind reader suggested I try the 
+    view-lossage
+  
+  command to display a
+list of recent keystrokes.  This would be helpful for those times when
+I press a key accidentally and don&#x27;t know what I did (as described in
+&quot;zap-to-char M-z&quot;).
+The output resembles what you&#x27;d get from 
+    edit-kbd-macro
+  
+  (assuming
+that a keyboard macro had been defined). This provides an alternate
+way to define a keyboard macro -- just select the desired portion of
+the output and invoke  read-kbd-macro .  At this point you can &quot;play
+back&quot; those keystrokes with C-x e.
+After I understood  view-lossage ,  I skimmed through the
+  list of commands that start with  view-  (by doing  M-x view- TAB
+  ). The commands  view-buffer ,  
+    view-file (and variants that view in another 
+    buffer ,  window ,  frame )
+    provide a safe (read-only) way to examine the contents of a buffer
+    or file.
+Entering  M-x view-file-other-frame .emacs  allows me to
+display my init file in a new Emacs frame and close it (by pressing
+&quot;q&quot;) when I&#x27;m done with it.  And then I don&#x27;t have to worry about
+changing it inadvertently.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13836"
+                        open
+                      >
+                        <summary class="article-expander__title">Irreal: Rejecting Emacs Bankruptcy</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13836">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>this post by Case Duckworth about Emacs bankruptcy but this post isn’t really about Duckworth’s post. Rather, it’s about the whole notion of Emacs bankruptcy and whether it’s something we should embrace as a routine activity. Some writers view it as part of the cycle of our Emacs life and recommend it as a regular activity.
+
+
+As I wrote last year, my init.el is an organic entity that grows and adapts as my needs change. Sometimes I delete configurations or packages that I no longer use but most often I add a configuration or package as my needs change or I learn something new. I’ve put a lot of work into evolving my configuration and I can’t think of any reason that I’d want to abandon all that work and start over. Much better to fix the parts that need fixing and save the parts that are working.
+
+
+My configuration is by no means a carefully considered project that has grown according to some master plan. Rather, it has evolved to meet my changing needs and newfound knowledge. Sometimes there are experiments that don’t work out and when that happens, I simply delete the offending lines and keep going.
+
+
+At no point have I ever felt the need to just quit and start over. That strikes me as crazy. It is, I suppose, an Emacs specific example of the urge to scrap an existing system and rewrite it. As Joel says, that always ends in tears.
+
+
+The TL;DR is that I reject the idea of Emacs bankruptcy and think that in almost every case, you should too.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.chiply.dev/post-emacs-space-tree"
+                        open
+                      >
+                        <summary class="article-expander__title">Charlie Holland: space-tree: Workspace Management Trees in Emacs</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.chiply.dev/post-emacs-space-tree">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="http://sveltekit-prerender/images/space-tree-banner.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>1. TLDR   tldr
+space-tree is a tree-based workspace manager for Emacs.  Workspaces are a battle-tested UX concept across operating systems, but in Emacs and most OSes alike, they&#x27;re flat: you get a row, a grid, or a numbered list, but never a workspace inside a workspace.  My requirements for a workspace manager were arbitrary-depth nesting, no naming tax, no mandatory persistence, no per-workspace buffer scoping, and a build that leans on Emacs&#x27;s existing window-state primitives.  The cognitive-psychology case for hierarchical organization turns out to be unusually robust: working-memory ceilings (Cowan 2001), expert chunking (Chase &amp; Simon 1973), and direct gains in recall (Bower et al. 1969) all support the idea that a user-authored tree is easier to hold in mind than the same work flat…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;40
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Misc Newsletters</button>
+                  <a class="source-heading__link" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/0bv5kehtfjgd85cdlpba.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Ask a Manager - new articles</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/0bv5kehtfjgd85cdlpba.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>96
+            
+        
+        
+        
+        
+        
+        Ask a Manager - new articles
+
+    
+		p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		.mcnPreviewText{
+			display:none !important;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^&#x3D;tel],a[href^&#x3D;sms]{
+			color:i…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/zxdvumfr3x0vfvv6jtzf.html"
+                        open
+                      >
+                        <summary class="article-expander__title">It&#x27;s ok to talk about why you&#x27;re awesome ⭐️</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/zxdvumfr3x0vfvv6jtzf.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>.ck-link { text-decoration: underline; }
+@media only screen { .email * { word-break: break-word; } }
+@media screen and (max-width: 384px) { .mail-message-content { width: 414px !important; } }
+@media only screen and (max-width:600px) { .ck-mobile-font-size { font-size:50px !important; }  }
+
+
+
+
+          
+            Here&#x27;s how to brag about yourself in a way that&#x27;s appealing to your recruiter
+          
+
+          
+             ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/wsu3kcqizx1myqfbuz23.html"
+                        open
+                      >
+                        <summary class="article-expander__title">It’s OffBallFC Launch Day, We Have An Arsenal Of Goods</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/wsu3kcqizx1myqfbuz23.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>It’s OffBallFC Launch Day, We Have An Arsenal Of Goods96
+  :root { color-scheme: light; supported-color-schemes: light; }
+  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }
+  .body { word-wrap: normal; word-spacing:normal; }
+  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }
+  img { border: 0; outline: none; }
+  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }
+  td, a, span {  mso-line-height-rule: exactly; }
+  #root [x-apple-data-detectors&#x3D;true],
+  a[x-apple-data-detectors&#x3D;true],
+  #MessageViewBody a { color: inherit !important; text-decoration: inherit !important; f…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -38,6 +299,66 @@
                   <a class="source-heading__link" href="https://www.mediamatters.org/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="69085881-e956-4d3e-86b8-2885b7877e75"
+                        open
+                      >
+                        <summary class="article-expander__title">Daily Wire host says that voting for a presidential ticket of Alexandria Ocasio-Cortez and Bernie Sanders &quot;would be metaphorically its own form of terrorism&quot;</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.mediamatters.org/matt-walsh/daily-wire-host-says-voting-presidential-ticket-alexandria-ocasio-cortez-and-bernie">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.mediamatters.org/sites/default/files/Screenshot%202026-05-27%20at%202.46.00%E2%80%AFPM.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="42dd6a04-d24f-4ccb-9108-b429ca6f203e"
+                        open
+                      >
+                        <summary class="article-expander__title">Fox anchor stunned by Trump&#x27;s threat to blow up Oman: &quot;Not quite sure what that was all about&quot;</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.mediamatters.org/fox-news/fox-anchor-stunned-trumps-threat-blow-oman-not-quite-sure-what-was-all-about">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.mediamatters.org/sites/default/files/johnrobertsiranoman.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="8671746d-49df-4533-8f2b-8faafa4131e3"
+                        open
+                      >
+                        <summary class="article-expander__title">​4 News Now in Spokane, Washington, reports rising grocery and gas prices are causing customers to eat out less, and restaurant owners are “feeling the squeeze”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.mediamatters.org/fuel-files-rising-gasoline-oil-and-fertilizer-prices/4-news-now-spokane-washington-reports-rising">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.mediamatters.org/sites/default/files/Screenshot%202026-05-27%20123757.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>This post is part of a series chronicling news coverage of rising prices in the United States. See more here.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -197,6 +518,48 @@ In 2025, ABC, CBS, and NBC aired just 2 environmental justice segments combined,
                   <a class="source-heading__link" href="https://defector.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://defector.com/?p&#x3D;223833"
+                        open
+                      >
+                        <summary class="article-expander__title">How Do I Talk About Parenting If My Baby Has Been Pretty Chill So Far?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/how-do-i-talk-about-parenting-if-my-baby-has-been-pretty-chill-so-far">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-103748881.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Welcome back to Minor Dilemmas, where a member of Defector&#x27;s Parents Council will answer your questions on surviving family life. Have a question? Email us at minordilemmas@defector.com.
+This week, Giri answers a question about how to talk with other parents about having an easier-than-expected experience raising a baby.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;22
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://defector.com/?p&#x3D;223871"
+                        open
+                      >
+                        <summary class="article-expander__title">Getting Kicked Out Of The Comedian Run, With Gavin Matts</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/getting-kicked-out-of-the-comedian-run-with-gavin-matts">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-287544.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>This week on Nothing But Respect, we were thrilled to be joined by the comedian and actor Gavin Matts. You may know him from his special Progression, or his work on the TV series Hacks or Ramy, though we know him primarily as a ball-knower and British Columbian of distinction. We had a long, fun conversation about Gavin&#x27;s love for the New York Knicks, the relocation of the Vancouver Grizzlies that forced him into Roninhood, how he got kicked out of the NYC comedian run (which previous NBR guest Devon Walker talked about in January), his scouting report on Ramy Youssef&#x27;s game, and how he tried to get into the White Men Can&#x27;t Jump remake. It was a fun one!
+You can find Nothing But Respect in Apple Podcasts or whatever podcast app you use. Follow the show on Instagram, and contact the Broke Jumper Tip Line at (347) 380-6426. Thanks for listening!</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -465,72 +828,6 @@ The post Federal Judges Uninterested In Supreme Court’s Excuses For Alabama’
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Emacslife</button>
-                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13836"
-                        open
-                      >
-                        <summary class="article-expander__title">Irreal: Rejecting Emacs Bankruptcy</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13836">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>this post by Case Duckworth about Emacs bankruptcy but this post isn’t really about Duckworth’s post. Rather, it’s about the whole notion of Emacs bankruptcy and whether it’s something we should embrace as a routine activity. Some writers view it as part of the cycle of our Emacs life and recommend it as a regular activity.
-
-
-As I wrote last year, my init.el is an organic entity that grows and adapts as my needs change. Sometimes I delete configurations or packages that I no longer use but most often I add a configuration or package as my needs change or I learn something new. I’ve put a lot of work into evolving my configuration and I can’t think of any reason that I’d want to abandon all that work and start over. Much better to fix the parts that need fixing and save the parts that are working.
-
-
-My configuration is by no means a carefully considered project that has grown according to some master plan. Rather, it has evolved to meet my changing needs and newfound knowledge. Sometimes there are experiments that don’t work out and when that happens, I simply delete the offending lines and keep going.
-
-
-At no point have I ever felt the need to just quit and start over. That strikes me as crazy. It is, I suppose, an Emacs specific example of the urge to scrap an existing system and rewrite it. As Joel says, that always ends in tears.
-
-
-The TL;DR is that I reject the idea of Emacs bankruptcy and think that in almost every case, you should too.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.chiply.dev/post-emacs-space-tree"
-                        open
-                      >
-                        <summary class="article-expander__title">Charlie Holland: space-tree: Workspace Management Trees in Emacs</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.chiply.dev/post-emacs-space-tree">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://sveltekit-prerender/images/space-tree-banner.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>1. TLDR   tldr
-space-tree is a tree-based workspace manager for Emacs.  Workspaces are a battle-tested UX concept across operating systems, but in Emacs and most OSes alike, they&#x27;re flat: you get a row, a grid, or a numbered list, but never a workspace inside a workspace.  My requirements for a workspace manager were arbitrary-depth nesting, no naming tax, no mandatory persistence, no per-workspace buffer scoping, and a build that leans on Emacs&#x27;s existing window-state primitives.  The cognitive-psychology case for hierarchical organization turns out to be unusually robust: working-memory ceilings (Cowan 2001), expert chunking (Chase &amp; Simon 1973), and direct gains in recall (Bower et al. 1969) all support the idea that a user-authored tree is easier to hold in mind than the same work flat…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;40
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >everyone is entitled to my own opinion</button>
                   <a class="source-heading__link" href="https://www.jefftiedrich.com">Open</a>
                 </h3>
@@ -580,81 +877,6 @@ space-tree is a tree-based workspace manager for Emacs.  Workspaces are a battle
                               <img src="https://substack-post-media.s3.amazonaws.com/public/images/56148649-e002-41a9-b1b1-6e02bfb55779_1290x715.jpeg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Four wins the regime didn’t see coming</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Misc Newsletters</button>
-                  <a class="source-heading__link" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/zxdvumfr3x0vfvv6jtzf.html"
-                        open
-                      >
-                        <summary class="article-expander__title">It&#x27;s ok to talk about why you&#x27;re awesome ⭐️</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/zxdvumfr3x0vfvv6jtzf.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>.ck-link { text-decoration: underline; }
-@media only screen { .email * { word-break: break-word; } }
-@media screen and (max-width: 384px) { .mail-message-content { width: 414px !important; } }
-@media only screen and (max-width:600px) { .ck-mobile-font-size { font-size:50px !important; }  }
-
-
-
-
-          
-            Here&#x27;s how to brag about yourself in a way that&#x27;s appealing to your recruiter
-          
-
-          
-             ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/wsu3kcqizx1myqfbuz23.html"
-                        open
-                      >
-                        <summary class="article-expander__title">It’s OffBallFC Launch Day, We Have An Arsenal Of Goods</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/wsu3kcqizx1myqfbuz23.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>It’s OffBallFC Launch Day, We Have An Arsenal Of Goods96
-  :root { color-scheme: light; supported-color-schemes: light; }
-  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }
-  .body { word-wrap: normal; word-spacing:normal; }
-  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }
-  img { border: 0; outline: none; }
-  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }
-  td, a, span {  mso-line-height-rule: exactly; }
-  #root [x-apple-data-detectors&#x3D;true],
-  a[x-apple-data-detectors&#x3D;true],
-  #MessageViewBody a { color: inherit !important; text-decoration: inherit !important; f…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -10808,8 +11030,8 @@ But reading the article should disabuse anyone of the notion that Kennedy has si
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/26526930055">
-        <time id="build-timestamp" datetime="2026-05-27T17:18:06.037Z">2026-05-27T17:18:06.037Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/26536043810">
+        <time id="build-timestamp" datetime="2026-05-27T20:13:05.857Z">2026-05-27T20:13:05.857Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

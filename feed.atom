@@ -2,10 +2,162 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-05-27T17:18:06.065Z</updated>
+    <updated>2026-05-27T20:13:05.899Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: Emacs view- Commands]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/05/emacs-view-commands.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/05/emacs-view-commands.html"/>
+        <updated>2026-05-27T19:08:23.468Z</updated>
+        <summary type="html"><![CDATA[A kind reader suggested I try the 
+    view-lossage
+  
+  command to display a
+list of recent keystrokes.  This would be helpful for those times when
+I press a key accidentally and don't know what I did (as described in
+"zap-to-char M-z").
+The output resembles what you'd get from 
+    edit-kbd-macro
+  
+  (assuming
+that a keyboard macro had been defined). This provides an alternate
+way to define a keyboard macro -- just select the desired portion of
+the output and invoke  read-kbd-macro .  At this point you can "play
+back" those keystrokes with C-x e.
+After I understood  view-lossage ,  I skimmed through the
+  list of commands that start with  view-  (by doing  M-x view- TAB
+  ). The commands  view-buffer ,  
+    view-file (and variants that view in another 
+    buffer ,  window ,  frame )
+    provide a safe (read-only) way to examine the contents of a buffer
+    or file.
+Entering  M-x view-file-other-frame .emacs  allows me to
+display my init file in a new Emacs frame and close it (by pressing
+"q") when I'm done with it.  And then I don't have to worry about
+changing it inadvertently.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask a Manager - new articles]]></title>
+        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/0bv5kehtfjgd85cdlpba.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/0bv5kehtfjgd85cdlpba.html"/>
+        <updated>2026-05-27T19:05:28.086Z</updated>
+        <summary type="html"><![CDATA[96
+            
+        
+        
+        
+        
+        
+        Ask a Manager - new articles
+
+    
+		p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		.mcnPreviewText{
+			display:none !important;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=tel],a[href^=sms]{
+			color:i…]]></summary>
+        <author>
+            <name>Misc Newsletters</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Daily Wire host says that voting for a presidential ticket of Alexandria Ocasio-Cortez and Bernie Sanders "would be metaphorically its own form of terrorism"]]></title>
+        <id>69085881-e956-4d3e-86b8-2885b7877e75</id>
+        <link href="https://www.mediamatters.org/matt-walsh/daily-wire-host-says-voting-presidential-ticket-alexandria-ocasio-cortez-and-bernie"/>
+        <updated>2026-05-27T18:58:08.000Z</updated>
+        <author>
+            <name>Media Matters for America</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Do I Talk About Parenting If My Baby Has Been Pretty Chill So Far?]]></title>
+        <id>https://defector.com/?p=223833</id>
+        <link href="https://defector.com/how-do-i-talk-about-parenting-if-my-baby-has-been-pretty-chill-so-far"/>
+        <updated>2026-05-27T18:31:15.000Z</updated>
+        <summary type="html"><![CDATA[Welcome back to Minor Dilemmas, where a member of Defector's Parents Council will answer your questions on surviving family life. Have a question? Email us at minordilemmas@defector.com.
+This week, Giri answers a question about how to talk with other parents about having an easier-than-expected experience raising a baby.]]></summary>
+        <author>
+            <name>Giri Nathan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fox anchor stunned by Trump's threat to blow up Oman: "Not quite sure what that was all about"]]></title>
+        <id>42dd6a04-d24f-4ccb-9108-b429ca6f203e</id>
+        <link href="https://www.mediamatters.org/fox-news/fox-anchor-stunned-trumps-threat-blow-oman-not-quite-sure-what-was-all-about"/>
+        <updated>2026-05-27T17:52:06.000Z</updated>
+        <author>
+            <name>Media Matters for America</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[​4 News Now in Spokane, Washington, reports rising grocery and gas prices are causing customers to eat out less, and restaurant owners are “feeling the squeeze”]]></title>
+        <id>8671746d-49df-4533-8f2b-8faafa4131e3</id>
+        <link href="https://www.mediamatters.org/fuel-files-rising-gasoline-oil-and-fertilizer-prices/4-news-now-spokane-washington-reports-rising"/>
+        <updated>2026-05-27T17:33:27.000Z</updated>
+        <summary type="html"><![CDATA[This post is part of a series chronicling news coverage of rising prices in the United States. See more here.]]></summary>
+        <author>
+            <name>Media Matters for America</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Getting Kicked Out Of The Comedian Run, With Gavin Matts]]></title>
+        <id>https://defector.com/?p=223871</id>
+        <link href="https://defector.com/getting-kicked-out-of-the-comedian-run-with-gavin-matts"/>
+        <updated>2026-05-27T17:22:06.000Z</updated>
+        <summary type="html"><![CDATA[This week on Nothing But Respect, we were thrilled to be joined by the comedian and actor Gavin Matts. You may know him from his special Progression, or his work on the TV series Hacks or Ramy, though we know him primarily as a ball-knower and British Columbian of distinction. We had a long, fun conversation about Gavin's love for the New York Knicks, the relocation of the Vancouver Grizzlies that forced him into Roninhood, how he got kicked out of the NYC comedian run (which previous NBR guest Devon Walker talked about in January), his scouting report on Ramy Youssef's game, and how he tried to get into the White Men Can't Jump remake. It was a fun one!
+You can find Nothing But Respect in Apple Podcasts or whatever podcast app you use. Follow the show on Instagram, and contact the Broke Jumper Tip Line at (347) 380-6426. Thanks for listening!]]></summary>
+        <author>
+            <name>Patrick Redford</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[News Center Maine reports that many vendors at local farmers' markets "say they've had to increase prices" due to high fuel costs]]></title>
         <id>e99f5264-a7a0-4109-b383-d390da551bb4</id>

@@ -490,6 +490,36 @@
       "siteUrl": "https://www.mediamatters.org/",
       "articles": [
         {
+          "id": "69085881-e956-4d3e-86b8-2885b7877e75",
+          "author": "Media Matters for America",
+          "description": "",
+          "link": "https://www.mediamatters.org/matt-walsh/daily-wire-host-says-voting-presidential-ticket-alexandria-ocasio-cortez-and-bernie",
+          "publishedOn": "2026-05-27T18:58:08.000Z",
+          "wordCount": 829,
+          "title": "Daily Wire host says that voting for a presidential ticket of Alexandria Ocasio-Cortez and Bernie Sanders \"would be metaphorically its own form of terrorism\"",
+          "imageUrl": "https://www.mediamatters.org/sites/default/files/Screenshot%202026-05-27%20at%202.46.00%E2%80%AFPM.png"
+        },
+        {
+          "id": "42dd6a04-d24f-4ccb-9108-b429ca6f203e",
+          "author": "Media Matters for America",
+          "description": "",
+          "link": "https://www.mediamatters.org/fox-news/fox-anchor-stunned-trumps-threat-blow-oman-not-quite-sure-what-was-all-about",
+          "publishedOn": "2026-05-27T17:52:06.000Z",
+          "wordCount": 555,
+          "title": "Fox anchor stunned by Trump's threat to blow up Oman: \"Not quite sure what that was all about\"",
+          "imageUrl": "https://www.mediamatters.org/sites/default/files/johnrobertsiranoman.jpg"
+        },
+        {
+          "id": "8671746d-49df-4533-8f2b-8faafa4131e3",
+          "author": "Media Matters for America",
+          "description": "This post is part of a series chronicling news coverage of rising prices in the United States. See more here.",
+          "link": "https://www.mediamatters.org/fuel-files-rising-gasoline-oil-and-fertilizer-prices/4-news-now-spokane-washington-reports-rising",
+          "publishedOn": "2026-05-27T17:33:27.000Z",
+          "wordCount": 855,
+          "title": "​4 News Now in Spokane, Washington, reports rising grocery and gas prices are causing customers to eat out less, and restaurant owners are “feeling the squeeze”",
+          "imageUrl": "https://www.mediamatters.org/sites/default/files/Screenshot%202026-05-27%20123757.png"
+        },
+        {
           "id": "e99f5264-a7a0-4109-b383-d390da551bb4",
           "author": "Media Matters for America",
           "description": "This post is part of a series chronicling news coverage of rising prices in the United States. See more here.",
@@ -1404,6 +1434,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://ray-on-emacs.blogspot.com/2026/05/emacs-view-commands.html",
+          "author": null,
+          "description": "A kind reader suggested I try the \n    view-lossage\n  \n  command to display a\nlist of recent keystrokes.  This would be helpful for those times when\nI press a key accidentally and don't know what I did (as described in\n\"zap-to-char M-z\").\nThe output resembles what you'd get from \n    edit-kbd-macro\n  \n  (assuming\nthat a keyboard macro had been defined). This provides an alternate\nway to define a keyboard macro -- just select the desired portion of\nthe output and invoke  read-kbd-macro .  At this point you can \"play\nback\" those keystrokes with C-x e.\nAfter I understood  view-lossage ,  I skimmed through the\n  list of commands that start with  view-  (by doing  M-x view- TAB\n  ). The commands  view-buffer ,  \n    view-file (and variants that view in another \n    buffer ,  window ,  frame )\n    provide a safe (read-only) way to examine the contents of a buffer\n    or file.\nEntering  M-x view-file-other-frame .emacs  allows me to\ndisplay my init file in a new Emacs frame and close it (by pressing\n\"q\") when I'm done with it.  And then I don't have to worry about\nchanging it inadvertently.",
+          "link": "https://ray-on-emacs.blogspot.com/2026/05/emacs-view-commands.html",
+          "publishedOn": "2026-05-27T19:08:23.468Z",
+          "wordCount": 1901,
+          "title": "Raymond Zeitler: Emacs view- Commands",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=13836",
           "author": null,
           "description": "this post by Case Duckworth about Emacs bankruptcy but this post isn’t really about Duckworth’s post. Rather, it’s about the whole notion of Emacs bankruptcy and whether it’s something we should embrace as a routine activity. Some writers view it as part of the cycle of our Emacs life and recommend it as a regular activity.\n\n\nAs I wrote last year, my init.el is an organic entity that grows and adapts as my needs change. Sometimes I delete configurations or packages that I no longer use but most often I add a configuration or package as my needs change or I learn something new. I’ve put a lot of work into evolving my configuration and I can’t think of any reason that I’d want to abandon all that work and start over. Much better to fix the parts that need fixing and save the parts that are working.\n\n\nMy configuration is by no means a carefully considered project that has grown according to some master plan. Rather, it has evolved to meet my changing needs and newfound knowledge. Sometimes there are experiments that don’t work out and when that happens, I simply delete the offending lines and keep going.\n\n\nAt no point have I ever felt the need to just quit and start over. That strikes me as crazy. It is, I suppose, an Emacs specific example of the urge to scrap an existing system and rewrite it. As Joel says, that always ends in tears.\n\n\nThe TL;DR is that I reject the idea of Emacs bankruptcy and think that in almost every case, you should too.",
@@ -2157,6 +2197,26 @@
       "siteUrl": "https://defector.com/",
       "articles": [
         {
+          "id": "https://defector.com/?p=223833",
+          "author": "Giri Nathan",
+          "description": "Welcome back to Minor Dilemmas, where a member of Defector's Parents Council will answer your questions on surviving family life. Have a question? Email us at minordilemmas@defector.com.\nThis week, Giri answers a question about how to talk with other parents about having an easier-than-expected experience raising a baby.",
+          "link": "https://defector.com/how-do-i-talk-about-parenting-if-my-baby-has-been-pretty-chill-so-far",
+          "publishedOn": "2026-05-27T18:31:15.000Z",
+          "wordCount": 6532,
+          "title": "How Do I Talk About Parenting If My Baby Has Been Pretty Chill So Far?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-103748881.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=223871",
+          "author": "Patrick Redford",
+          "description": "This week on Nothing But Respect, we were thrilled to be joined by the comedian and actor Gavin Matts. You may know him from his special Progression, or his work on the TV series Hacks or Ramy, though we know him primarily as a ball-knower and British Columbian of distinction. We had a long, fun conversation about Gavin's love for the New York Knicks, the relocation of the Vancouver Grizzlies that forced him into Roninhood, how he got kicked out of the NYC comedian run (which previous NBR guest Devon Walker talked about in January), his scouting report on Ramy Youssef's game, and how he tried to get into the White Men Can't Jump remake. It was a fun one!\nYou can find Nothing But Respect in Apple Podcasts or whatever podcast app you use. Follow the show on Instagram, and contact the Broke Jumper Tip Line at (347) 380-6426. Thanks for listening!",
+          "link": "https://defector.com/getting-kicked-out-of-the-comedian-run-with-gavin-matts",
+          "publishedOn": "2026-05-27T17:22:06.000Z",
+          "wordCount": 4183,
+          "title": "Getting Kicked Out Of The Comedian Run, With Gavin Matts",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-287544.jpg"
+        },
+        {
           "id": "https://defector.com/?p=223744",
           "author": "Sabrina Imbler",
           "description": "There comes a time in every skeleton's death when, upon their being discovered in a grave hugging another skeleton, modern people start foaming at the mouth guessing at what that relationship might have been. This is understandable and quite defensible from my perspective as a modern person. An embrace is a gesture that transcends however many centuries might separate us. Of course we might wonder who these two people were to each other. We might want to know the nature of their love.\nThis is of course an assumption. An embrace is not proof of love, but it is a powerful suggestion of it. In archaeology, people buried in double and multiple burials are often interpreted as having some kind of connection, whether through social or family ties. An adult buried with a child might be interpreted to be the grave of a mother and a son, for example, and a double burial of two adults, male and female, is often interpreted to be a couple.\nBut sometimes assumptions are overturned by evidence. In 2024, a paper that extracted ancient DNA from the skeletal material in Pompeii's plaster casts challenged several traditional interpretations. For example, the casts of an adult with a golden bracelet and a child sitting on their lap, traditionally assumed to be a mother and child, were revealed to belong to an adult male who was not related to the child. And the smaller of two people who died in an embrace, traditionally interpreted as sisters or lovers, was revealed to be a man who was unrelated to the other skeleton. This suggests this man might have died embracing another man or a tall woman, both of which are certainly more exciting options than sisters.",
@@ -2873,6 +2933,16 @@
       "feedUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
+        {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/0bv5kehtfjgd85cdlpba.html",
+          "author": null,
+          "description": "96\n            \n        \n        \n        \n        \n        \n        Ask a Manager - new articles\n\n    \n\t\tp{\n\t\t\tmargin:10px 0;\n\t\t\tpadding:0;\n\t\t}\n\t\ttable{\n\t\t\tborder-collapse:collapse;\n\t\t}\n\t\th1,h2,h3,h4,h5,h6{\n\t\t\tdisplay:block;\n\t\t\tmargin:0;\n\t\t\tpadding:0;\n\t\t}\n\t\timg,a img{\n\t\t\tborder:0;\n\t\t\theight:auto;\n\t\t\toutline:none;\n\t\t\ttext-decoration:none;\n\t\t}\n\t\tbody,#bodyTable,#bodyCell{\n\t\t\theight:100%;\n\t\t\tmargin:0;\n\t\t\tpadding:0;\n\t\t\twidth:100%;\n\t\t}\n\t\t.mcnPreviewText{\n\t\t\tdisplay:none !important;\n\t\t}\n\t\t#outlook a{\n\t\t\tpadding:0;\n\t\t}\n\t\timg{\n\t\t\t-ms-interpolation-mode:bicubic;\n\t\t}\n\t\ttable{\n\t\t\tmso-table-lspace:0pt;\n\t\t\tmso-table-rspace:0pt;\n\t\t}\n\t\t.ReadMsgBody{\n\t\t\twidth:100%;\n\t\t}\n\t\t.ExternalClass{\n\t\t\twidth:100%;\n\t\t}\n\t\tp,a,li,td,blockquote{\n\t\t\tmso-line-height-rule:exactly;\n\t\t}\n\t\ta[href^=tel],a[href^=sms]{\n\t\t\tcolor:i…",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/0bv5kehtfjgd85cdlpba.html",
+          "publishedOn": "2026-05-27T19:05:28.086Z",
+          "wordCount": 934,
+          "title": "Ask a Manager - new articles",
+          "imageUrl": null
+        },
         {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/zxdvumfr3x0vfvv6jtzf.html",
           "author": null,
