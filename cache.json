@@ -490,6 +490,26 @@
       "siteUrl": "https://www.mediamatters.org/",
       "articles": [
         {
+          "id": "05ec646c-40f3-4f6c-91df-ca26de735ff7",
+          "author": "Media Matters for America",
+          "description": "",
+          "link": "https://www.mediamatters.org/angelo-carusone/deadline-white-house-angelo-carusone-explains-trumps-growing-rift-manosphere",
+          "publishedOn": "2026-05-27T21:46:50.000Z",
+          "wordCount": 1273,
+          "title": "On Deadline: White House, Angelo Carusone explains Trump's growing rift with the manosphere",
+          "imageUrl": "https://www.mediamatters.org/sites/default/files/MSNOWHD_Deadline_%20White%20House_2026-05-27-04_00_00-PM_0.jpg"
+        },
+        {
+          "id": "3836b0c7-8ac0-4103-bdfe-ed1f2cbc38a5",
+          "author": "Media Matters for America",
+          "description": "The myth that wealthier residents will flee higher-tax cities and states en masse for lower-tax locations has been debunked time and time again by researchers, but right-wing media outlets have repeatedly claimed that higher taxes on the rich that are being implemented by New York City Mayor Zohran Mamdani and New York Gov. Kathy Hochul will cause an exodus of millionaires.",
+          "link": "https://www.mediamatters.org/fox-news/right-wing-media-go-bat-new-yorks-richest-pushing-debunked-myth-higher-taxes-will-cause",
+          "publishedOn": "2026-05-27T20:13:31.000Z",
+          "wordCount": 2463,
+          "title": "Right-wing media go to bat for New York's richest by pushing a debunked myth that higher taxes will cause millionaires to flee",
+          "imageUrl": "https://cloudfront.mediamatters.org/static/D8Image/2024/02/13/img_1449.png"
+        },
+        {
           "id": "69085881-e956-4d3e-86b8-2885b7877e75",
           "author": "Media Matters for America",
           "description": "",
@@ -1076,6 +1096,26 @@
       "feedUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
+        {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/e8yrsrwv61n74ivpfbe6.html",
+          "author": null,
+          "description": "Ken Paxton’s crusade to overturn the 2020 election\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n    \n …",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/e8yrsrwv61n74ivpfbe6.html",
+          "publishedOn": "2026-05-27T22:04:51.939Z",
+          "wordCount": 1328,
+          "title": "Ken Paxton’s crusade to overturn the 2020 election",
+          "imageUrl": null
+        },
+        {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/ai4kri2bgzvknplq0714.html",
+          "author": null,
+          "description": "96\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:670px){.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.social_block .social-table{display:inline-block!important}}\nsup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-1…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/ai4kri2bgzvknplq0714.html",
+          "publishedOn": "2026-05-27T22:01:56.723Z",
+          "wordCount": 613,
+          "title": "New Ethics Complaint Filed Against Pam Bondi Alleges Pattern of Serious Misconduct and Violations as Attorney General",
+          "imageUrl": null
+        },
         {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/fe72tugal1fx5ldy1w7c.html",
           "author": null,
@@ -1852,16 +1892,6 @@
           "wordCount": 345,
           "title": "Charles Choi: Using the Mouse for Emacs Rectangle Commands",
           "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
-        },
-        {
-          "id": "https://emacs.dyerdwelling.family/emacs/20260518114325-emacs--vc-mode-meets-magit-or-why-i-finally-gave-in/",
-          "author": null,
-          "description": "C-x v bindings.  I never really felt the need for Magit, honestly.  VC-mode just works, right?\n\n\n\n\n\n\n\n\n\nUntil it does not.  Or rather, until you need something that is not quite available. As vc-mode is source code control agnostic then there were always going to be some limitations and my git usage is now starting to become a little more advanced.\n\n\n\nRecently I hit a divergent branch situation, remote had moved on, I had local commits, and git refused to push, I reached for C-x v m (vc-merge) to pull in the upstream changes, and that worked fine as a merge.  But what if I wanted a rebase instead?  Clean linear history, no merge commits?\n\n\n\nTurns out there is no vc-rebase at all in Emacs!  You can use vc-pull and it will rebase if pull.rebase is set in your git config (I think, although I …",
-          "link": "https://emacs.dyerdwelling.family/emacs/20260518114325-emacs--vc-mode-meets-magit-or-why-i-finally-gave-in/",
-          "publishedOn": "2026-05-18T10:43:00.000Z",
-          "wordCount": 549,
-          "title": "James Dyer: VC-Mode Meets Magit - or Why I Finally Gave In!",
-          "imageUrl": "https://emacs.dyerdwelling.family/static/emacs/20260518114325-emacs--VC-Mode-Meets-Magit-or-Why-I-Finally-Gave-In.jpg"
         }
       ]
     },
@@ -1870,6 +1900,16 @@
       "feedUrl": "https://thedemocraticstrategist.org/feed/",
       "siteUrl": "https://thedemocraticstrategist.org",
       "articles": [
+        {
+          "id": "https://thedemocraticstrategist.org/?p=39838",
+          "author": "Ed Kilgore",
+          "description": "I’m old enough to remember when Texas was a Democratic state, and am happy to report that the extremism of the Lone Star GOP could make it highly competitive this November, as I explained at New York: For people of a certain vintage, or students of history, the idea of Texas being an absolute wasteland... Read more »",
+          "link": "https://thedemocraticstrategist.org/2026/05/paxton-demolition-of-cornyn-opens-door-for-democrat-talarico/",
+          "publishedOn": "2026-05-27T23:15:04.000Z",
+          "wordCount": 2907,
+          "title": "Paxton Demolition of Cornyn Opens Door for Democrat Talarico",
+          "imageUrl": null
+        },
         {
           "id": "https://thedemocraticstrategist.org/?p=39831",
           "author": "staff",
@@ -3092,16 +3132,6 @@
           "wordCount": 3398,
           "title": "I-70 Let Down",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/8nsrbrgvammk7lnc0nbm.html",
-          "author": null,
-          "description": "The Other World Cup You Need To Know About96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-decoration: inherit !important; font-size: in…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/8nsrbrgvammk7lnc0nbm.html",
-          "publishedOn": "2026-05-18T10:36:39.980Z",
-          "wordCount": 2332,
-          "title": "The Other World Cup You Need To Know About",
-          "imageUrl": null
         }
       ]
     },
@@ -3250,16 +3280,6 @@
           "wordCount": 2916,
           "title": "White House ballroom is turning into a symbol of Trump’s failures",
           "imageUrl": "https://www.salon.com/app/uploads/2026/05/Donald-Trump-2277123891-e1779250183838.jpg"
-        },
-        {
-          "id": "https://www.salon.com/2026/05/18/the-real-reason-rfk-jr-is-coming-for-your-antidepressants/-full",
-          "author": null,
-          "description": "The siren call was apparently irresistible. “Kennedy Starts a Push to Help Americans Quit Antidepressants,” read a New York Times headline from early May — phrasing that seemed to normalize Robert F. Kennedy Jr., the anti-science, roadkill enthusiast who is currently running the Department of Health and Human Services, and to assume that he wants to help everyday Americans.\nBut reading the article should disabuse anyone of the notion that Kennedy has sincere, much less helpful, motivations in shepherding an event called the “Mental Health and Overmedicalization Summit,” held by the MAHA Institute, a far-right group organized to wage war on responsible healthcare systems. “No major medical organizations were represented at the gathering,” Times reporter Ellen Barry noted, and it’s not a sur…",
-          "link": "https://www.salon.com/2026/05/18/the-real-reason-rfk-jr-is-coming-for-your-antidepressants/",
-          "publishedOn": "2026-05-18T10:45:08.000Z",
-          "wordCount": 2953,
-          "title": "The real reason RFK Jr. is coming for your antidepressants",
-          "imageUrl": "https://www.salon.com/app/uploads/2025/09/RFK-Jr.-2233024599.jpg"
         }
       ]
     },
