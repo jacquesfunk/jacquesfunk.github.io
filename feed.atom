@@ -2,10 +2,232 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-05-28T11:37:44.806Z</updated>
+    <updated>2026-05-28T15:50:47.733Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[After 40 Years, The Guys Who Made ‘Heavy Metal Parking Lot’ Are Almost Famous]]></title>
+        <id>https://defector.com/?p=223566</id>
+        <link href="https://defector.com/after-40-years-the-guys-who-made-heavy-metal-parking-lot-are-almost-famous"/>
+        <updated>2026-05-28T15:40:55.000Z</updated>
+        <summary type="html"><![CDATA[Don’t tell Jeff Krulik he’s famous, especially if anybody's around.
+“I’ll be with somebody and they’ll say to somebody, ‘Hey, this is the guy who made Heavy Metal Parking Lot!” says Krulik. “And I know what’s coming next: A blank stare."
+"It's humbling," says Krulik, who really is one of the guys who made Heavy Metal Parking Lot. But he is grateful for whatever renown he's gotten from the enduring, adored-by-all-who've-seen-it 1986 guerilla documentary. It all started 40 years ago this weekend, when he and buddy (and fellow budding indie filmmaker) John Heyn showed up early to a Judas Priest show at the Capital Centre with a video camera borrowed from the local public access TV station and their eyes wide open. They rolled tape while cruising outside the Largo, Md., arena, capturing gaggles of great unwashed metalheads in their element. Period-piece characters now known by the film’s faithful fans as “Graham of Dope” “DC101 Guy,” “Zebraman,” and “The Girl in the White Dress,” all of whom make Beavis & Butthead look preppy and lucid, spewed unscripted, unintentionally hilarious and unforgettable dirtball verse at a rat-a-tat-tat rate throughout the movie's 16 minutes. Rick Ballard, who appeared in Parking Lot as a teen Priest obsessive then grew up to have a career in TV and run his own record label, hailed the movie in a 2016 interview as “the Citizen Kane of wasted teenage metalness.”]]></summary>
+        <author>
+            <name>Dave McKenna</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clarence Thomas Ponders Whether West Coast Driver’s Licenses Could Justify Civil War]]></title>
+        <id>https://ballsandstrikes.org/?p=18305</id>
+        <link href="https://ballsandstrikes.org/scotus/clarence-thomas-florida-california-washington-civil-war-drivers-licenses/"/>
+        <updated>2026-05-28T15:32:32.000Z</updated>
+        <summary type="html"><![CDATA[With increasing frequency, the conservative justices are using language that is indistinguishable from a Tucker Carlson monologue.
+The post Clarence Thomas Ponders Whether West Coast Driver’s Licenses Could Justify <span class="dewidow">Civil War</span> appeared first on Balls and Strikes.]]></summary>
+        <author>
+            <name>Jay Willis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On The 11th Hour, Angelo Carusone discusses meek media reaction to Trump's "two weeks" dodge: "There needs to be a lot more doggedness and consistency and persistence and not letting him hijack the narrative"]]></title>
+        <id>d9753426-6e2f-476f-9752-83e0ea32f6e7</id>
+        <link href="https://www.mediamatters.org/angelo-carusone/11th-hour-angelo-carusone-discusses-meek-media-reaction-trumps-two-weeks-dodge"/>
+        <updated>2026-05-28T15:04:47.000Z</updated>
+        <author>
+            <name>Media Matters for America</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Canadiens Have A Weird Fetish For Not Shooting The Puck And They’re Making It Everybody’s Problem]]></title>
+        <id>https://defector.com/?p=223981</id>
+        <link href="https://defector.com/the-canadiens-have-a-weird-fetish-for-not-shooting-the-puck-and-theyre-making-it-everybodys-problem"/>
+        <updated>2026-05-28T15:03:43.000Z</updated>
+        <summary type="html"><![CDATA[The Montreal Canadiens have chosen an odd and ill-advised moment to test out a new, advanced, and almost transcendental hockey analytics notion. Either that, or the Carolina Hurricanes are putting together the first five-game sweep in history.
+Either way, we're getting something we've never seen before, and we're only going to get one more chance, Friday night in Raleigh, to see it. That is, unless the Canadiens manage to perfect their new signature move: scoring without shooting. It's only worked once so far, and that by accident, but head coach Martin St. Louis has fallen in love with the concept and has watched his lads lose their last three games in pursuit of it. Indeed, it can be said that the idea, which was sparked by their Game 7 win over Tampa Bay in the first round, has been the…]]></summary>
+        <author>
+            <name>Ray Ratto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[James Talarico is a boss]]></title>
+        <id>https://www.jefftiedrich.com/p/james-talarico-is-a-boss</id>
+        <link href="https://www.jefftiedrich.com/p/james-talarico-is-a-boss"/>
+        <updated>2026-05-28T14:58:35.000Z</updated>
+        <summary type="html"><![CDATA[and Ken Paxton fucking sucks]]></summary>
+        <author>
+            <name>Jeff Tiedrich</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Irreal: Zap-to-char Backwards]]></title>
+        <id>https://irreal.org/blog/?p=13838</id>
+        <link href="https://irreal.org/blog/?p=13838"/>
+        <updated>2026-05-28T14:47:00.000Z</updated>
+        <summary type="html"><![CDATA[Ray on Emacs, Raymond Zeitler has a very nice post on using zap-to-char in reverse. He—hypothetically—was typing some text, inadvertently leaned on a key, and ended up with a long string of a repeated character at the end of his text. Something like this:
+
+senteeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+
+
+Here’s what I didn’t know. You can cause zap-to-char to delete characters to the left by giving it negative count argument. So in Zeitler’s example, he erases the string of e​s by calling zap-to-char as Meta+- Meta+z t.
+
+
+But that’s not quite right. The problem is that it will also erase the t, which I assume was not his intention. Fortunately, there’s an easy solution that I wrote about almost 14 years ago. The problem with zap-to-char is that it does what you want it to only about half the time. The rest of the time you don’t want to delete the target character; you want to delete up to but not including that character. It turns out that Emacs has a command, zap-up-to-char, to do that but it’s not bound to any shortcut1. I have it bound to Meta+Z. It also honors the negative count argument so the correct solution for Zeitler’s problem is Meta+- Meta+Z t.
+
+
+The mistake aside, this is a great post because it tells me—and maybe you—something I didn’t know: you can zap backwards.
+
+
+Footnotes: 
+1 
+
+
+
+Happily, it’s now autoloaded by default so you no longer have to worry about that.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trump Sics DOJ on Famed Victim of His Sexual Abuse]]></title>
+        <id>https://talkingpointsmemo.com/?p=1548239</id>
+        <link href="https://talkingpointsmemo.com/morning-memo/trump-sics-doj-on-famed-victim-of-his-sexual-abuse"/>
+        <updated>2026-05-28T14:45:29.000Z</updated>
+        <summary type="html"><![CDATA[There Is No Bottom I wish I could say we have reached the nadir of President Trump’s abuse of his...]]></summary>
+        <author>
+            <name>David Kurtz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘The Vivisectors’ Is A Brilliant Novel In Any Reality]]></title>
+        <id>https://defector.com/?p=223935</id>
+        <link href="https://defector.com/the-vivisectors-missouri-williams-review"/>
+        <updated>2026-05-28T14:39:00.000Z</updated>
+        <summary type="html"><![CDATA[The specifics are a little difficult to pin down, but that’s true of most things surrounding novelist, filmmaker, and playwright Missouri Williams. Here are the facts I’ve been able to piece together: At some point in her young adulthood, Williams began to have seizures. In a 2025 interview with TriQuarterly, Williams said that the episodes began after she had moved to “a new city with a new language” (location and tongue unspecified), and while she was working in a cafe while trying to learn more than simple phrases. As she put it: “I spent a lot of time getting orders wrong, being reprimanded without quite understanding why. It was useful to feel so stupid.” Around this time, misfires in her temporal lobe began to incite epileptic episodes. These issues in the part of the brain responsible for language and memory completely destabilized Williams. Already struggling to get a foothold in her new surroundings, she then began to forget words in her native English. She found that she was thinking entire sentences backward. She made woozy, tenuous connections between ideas and objects. “Everything suggested everything else in the strangest of ways,” she said.
+Unable to hold onto words, ideas, or memories, Williams began an obsessive cataloging. She built a network of complex sentences that would circle back and collapse in on themselves like murmurating birds. It was as if each word was “driven by the need to confirm each and every thing that had preceded them,” as she wrote for Granta in 2022. Soon these sentences began to pile up, and eventually she was able to shape many of them into a book.
+The Doloriad, Williams's award-winning 2022 debut, reached an instant sort of cult-classic status, partially for its body-horror grotesqueries, but also for its undeniable beauty and off-kilter theology. The book suggests that as one gets closer to Christ, His wounds open up on your body. The Divine and The Gross often coexist.]]></summary>
+        <author>
+            <name>James Webster</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tim Pool: "Trump is weak"]]></title>
+        <id>a89acc96-e4be-4243-bffb-26f58ce3fa2b</id>
+        <link href="https://www.mediamatters.org/tim-pool/tim-pool-trump-weak"/>
+        <updated>2026-05-28T14:30:52.000Z</updated>
+        <author>
+            <name>Media Matters for America</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trump Rejected By Own Judges, South Carolina Voters Stopped The Steal, and Sen. Andy Kim Holds The Line Against ICE]]></title>
+        <id>https://www.dworkinsubstack.com/p/ice-pepper-sprayed-a-sitting-us-senator</id>
+        <link href="https://www.dworkinsubstack.com/p/ice-pepper-sprayed-a-sitting-us-senator"/>
+        <updated>2026-05-28T14:18:33.000Z</updated>
+        <summary type="html"><![CDATA[The regime tried to silence four groups of Americans. They got louder instead]]></summary>
+        <author>
+            <name>Scott Dworkin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BREAKING: Federal judge refuses to block Trump executive order on mail voting — for now]]></title>
+        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/prp1q93ivy14uy0rl5c7.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/prp1q93ivy14uy0rl5c7.html"/>
+        <updated>2026-05-28T13:52:02.896Z</updated>
+        <summary type="html"><![CDATA[BREAKING: Federal judge refuses to block Trump executive order on mail voting — for now96
+  :root { color-scheme: light; supported-color-schemes: light; }
+  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }
+  .body { word-wrap: normal; word-spacing:normal; }
+  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }
+  img { border: 0; outline: none; }
+  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }
+  td, a, span {  mso-line-height-rule: exactly; }
+  #root [x-apple-data-detectors=true],
+  a[x-apple-data-detectors=true],
+  #MessageViewBody a { color: inherit !important; text-…]]></summary>
+        <author>
+            <name>Misc Newsletters</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Students For Trump Co-Founder Arrested On Domestic Violence Charges, Allegedly Yelled “Do You Want To Die Today?”]]></title>
+        <id>https://defector.com/?p=223947</id>
+        <link href="https://defector.com/students-for-trump-chairman-ryan-fournier-arrest-domestic-violence"/>
+        <updated>2026-05-28T13:48:23.000Z</updated>
+        <summary type="html"><![CDATA[Ryan Fournier, the co-founder and chairman of the group Students for Trump, was arrested early Tuesday morning in Washington, D.C., after he allegedly assaulted and threatened a woman, according to documents obtained by Defector. The Metropolitan Police Department charged Fournier with simple assault and attempted threats to do bodily harm. According to the affidavit, the…]]></summary>
+        <author>
+            <name>Samer Kalaf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[All too familiar]]></title>
+        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/b3m312q8ex0emt7r7lw5.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/b3m312q8ex0emt7r7lw5.html"/>
+        <updated>2026-05-28T12:42:50.219Z</updated>
+        <summary type="html"><![CDATA[96
+        All too familiar
+        
+@media only screen and (max-width: 620px) {
+  table.body {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  table.body .content {
+    padding: 0 !important;
+  }
+
+  table.body .container {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  table.body .main {
+    border-spacing: 10px 0 !important;
+    border-left-width: 0 !important;
+    border-radius: 0 !important;
+    border-right-width: 0 !important;
+  }
+
+  table.body .img-responsive {
+    height: auto !important;
+    max-width: 100% !important;
+    width: auto !important;
+  }
+}
+@media all {
+  .ExternalClass {
+    width: 100%;
+  }
+
+  .ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+    line-height: 100%;
+  }
+
+  .apple-link a {
+  …]]></summary>
+        <author>
+            <name>Misc Newsletters</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Check out our most browsed books this month!]]></title>
+        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1fdw66hfkrht8r7sff9w.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1fdw66hfkrht8r7sff9w.html"/>
+        <updated>2026-05-28T12:34:24.014Z</updated>
+        <summary type="html"><![CDATA[96
+
+
+*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}.row-4 .column-1 .block-3 .button:hover,.row-4 .column-2 .block-3 .button:hover,.row-4 .column-3 .block-3 .button:hover,.row-5 .column-1 .block-3 .button:hover,.row-5 .column-2 .block-3 .button:hover,.row-5 .column-3 .block-3 .button:hover,.row-7 .column-2 .block-2 .button:hover{background-color:#16688b!important;border-bottom:0 solid transparent!important;border-left:0 solid transparent!important;border-right:0 solid transp…]]></summary>
+        <author>
+            <name>Misc Newsletters</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA['I pray that God kills him' sounds pretty extreme to me, GOPRex Huppke]]></title>
         <id>https://www.usatoday.com/story/opinion/columnist/2026/05/28/paxton-attacks-talarico-extreme-republicans/90278221007/-full</id>
@@ -205,6 +427,18 @@ Under normal circumstances, these polls would presage the mythical blue wave, wi
         <summary type="html"><![CDATA[A district judge who conducted an affair in their chambers, lied about it, and threw a clerk under the bus deserved more than a "private reprimand."]]></summary>
         <author>
             <name>Steve Vladeck</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trump’s first big vindictive prosecution just went up in smoke]]></title>
+        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/i55ipbs25kds0cn55br1.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/i55ipbs25kds0cn55br1.html"/>
+        <updated>2026-05-28T10:20:52.210Z</updated>
+        <summary type="html"><![CDATA[96
+
+*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}#converted-body .list_block ol,#converted-body .list_block ul,.body [class~=x_list_block] ol,.body [class~=x_list_block] ul,u+.body .list_block ol,u+.body .list_block ul{padding-left:20px} @media (max-width:620px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size…]]></summary>
+        <author>
+            <name>Current Events</name>
         </author>
     </entry>
     <entry>
@@ -5365,95 +5599,6 @@ https://youtu.be/pnTboPwMKiw?si=RBwq993ghh7FNuik&t=984]]></summary>
         <summary type="html"><![CDATA[Donald Trump’s second term has devolved into what critics describe as one of the most brazen eras of presidential self-dealing in American history. Promises of fiscal responsibility and “draining the swamp” have given way to taxpayer-funded luxuries, legally dubious settlements funneled to supporters, family crypto schemes that allegedly rug-pulled billions from supporters, and apparent insider...]]></summary>
         <author>
             <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Document: Read Trump's "settlement" with the Trump admin to create a nearly $2 billion slush fund that Trump ultimately controls]]></title>
-        <id>https://www.lawdork.com/p/document-read-trumps-settlement-with</id>
-        <link href="https://www.lawdork.com/p/document-read-trumps-settlement-with"/>
-        <updated>2026-05-19T02:37:39.000Z</updated>
-        <summary type="html"><![CDATA[Associate Attorney General Stanley Woodward and Frank Bisignano, the chief executive officer of the I.R.S., signed Monday's “settlement agreement.”]]></summary>
-        <author>
-            <name>Chris Geidner</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dana Loesch tells Fox News viewers to travel to Los Angeles to vote for Spencer Pratt for mayor]]></title>
-        <id>4679487b-0fb1-4265-9ff5-263b984b1036</id>
-        <link href="https://www.mediamatters.org/jesse-watters/dana-loesch-tells-fox-news-viewers-travel-los-angeles-vote-spencer-pratt-mayor"/>
-        <updated>2026-05-19T01:02:00.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jakub Nowak: New Job: Jira Integration]]></title>
-        <id>https://www.cyan.sh/blog/posts/new-job-jira-integration.html</id>
-        <link href="https://www.cyan.sh/blog/posts/new-job-jira-integration.html"/>
-        <updated>2026-05-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[org-jira for the first time.
-
-
-
-You can see the config I've written around it here.
-This works basically exactly as expected, although I have had to do something a bit hacky to keep the API token properly stored.
-Storing the key on MacOS as recommended in the readme wasn't working for me, so instead I've stored it as a generic password.
-When launching Jira, this password is fetched into the kill ring to be pasted into the prompt if needed.
-This is kind of terrible, but it does work well enough.
-
-
-
-(when (equal system-type 'darwin)
-  (kill-new
-   (string-trim-right (shell-command-to-string (concat "security find-generic-password -a \""
-                                                     jiralib-user "\" -s \"jira\" -w")))))
-
-
-
-
-You should be careful when storing the API token with add-gene…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Trump IRS Lawsuit Settlement Will Use Your Tax Dollars to Make January 6ers Rich]]></title>
-        <id>https://ballsandstrikes.org/?p=18262</id>
-        <link href="https://ballsandstrikes.org/law-politics/trump-irs-settlement-enrich-january-6-rioters/"/>
-        <updated>2026-05-18T23:41:42.000Z</updated>
-        <summary type="html"><![CDATA[The president designed his settlement with the IRS to do something he could not otherwise accomplish—and to shield his actions from judicial review and congressional oversight.
-The post The Trump IRS Lawsuit Settlement Will Use Your Tax Dollars to Make January <span class="dewidow">6ers Rich</span> appeared first on Balls and Strikes.]]></summary>
-        <author>
-            <name>Jay Willis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Confusion reigns ahead of Alabama’s post-gerrymander primary]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/d575lae86n3oktyhut74.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/d575lae86n3oktyhut74.html"/>
-        <updated>2026-05-18T22:05:29.449Z</updated>
-        <summary type="html"><![CDATA[Confusion reigns ahead of Alabama’s post-gerrymander primary
-    
-    
-    
-    
-    
-
-
-
-
-
-a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
-
-
-    
-  
-    
-      
-      96
- …]]></summary>
-        <author>
-            <name>Current Events</name>
         </author>
     </entry>
 </feed>
