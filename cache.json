@@ -480,6 +480,26 @@
       "siteUrl": "https://www.mediamatters.org/",
       "articles": [
         {
+          "id": "71431d7d-2740-4408-8082-434ca73db2f2",
+          "author": "Media Matters for America",
+          "description": "",
+          "link": "https://www.mediamatters.org/ben-shapiro/ben-shapiro-i-think-theres-actually-moral-question-whether-you-should-buy-home-new-york",
+          "publishedOn": "2026-05-28T17:24:30.000Z",
+          "wordCount": 638,
+          "title": "Ben Shapiro: \"I think there's actually a moral question as to whether you should buy a home in New York at this point unless you have to\"",
+          "imageUrl": "https://www.mediamatters.org/sites/default/files/Screenshot%202026-05-28%20at%2012.10.32%E2%80%AFPM.png"
+        },
+        {
+          "id": "70a1494e-d9b5-4be0-8537-64f27e7bbce6",
+          "author": "Media Matters for America",
+          "description": "This post is part of a series chronicling news coverage of rising prices in the United States. See more here.",
+          "link": "https://www.mediamatters.org/fuel-files-rising-gasoline-oil-and-fertilizer-prices/jacksons-action-news-jax-explores-how-how",
+          "publishedOn": "2026-05-28T16:32:14.000Z",
+          "wordCount": 967,
+          "title": "Jacksonville's Action News Jax explores how grocery prices are driving more people to food distribution centers",
+          "imageUrl": "https://www.mediamatters.org/sites/default/files/unnamed.png"
+        },
+        {
           "id": "d9753426-6e2f-476f-9752-83e0ea32f6e7",
           "author": "Media Matters for America",
           "description": "",
@@ -1047,6 +1067,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/7susav6sju30qniwx0px.html",
+          "author": null,
+          "description": "Some Glimmers of Hope in the GOP's Bleak Bid to Disenfranchise Black and Dem Voters#outlook a { padding:0; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0 !important; } .nl2go_preheader { display: none !important; mso-hide:all !important; mso-line-height-rule: exactly; visibility: hidden !important; line-height: 0px !important; font-size: 0px !important; } body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; } a …",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/7susav6sju30qniwx0px.html",
+          "publishedOn": "2026-05-28T18:16:11.340Z",
+          "wordCount": 2948,
+          "title": "Some Glimmers of Hope in the GOP's Bleak  Bid to Disenfranchise Black and Dem  Voters",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/i55ipbs25kds0cn55br1.html",
           "author": null,
           "description": "96\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}#converted-body .list_block ol,#converted-body .list_block ul,.body [class~=x_list_block] ol,.body [class~=x_list_block] ul,u+.body .list_block ol,u+.body .list_block ul{padding-left:20px} @media (max-width:620px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size…",
@@ -1413,6 +1443,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "http://yummymelon.com/devnull/anju-v150-update.html",
+          "author": null,
+          "description": "Heads up for readers of this blog who are using Anju or are mouse-curious Emacs users. I’ve recently released the v1.5.0 update for it, now available on MELPA.\nMany new features and enhancements are in this update as outlined below:\nContext Menus\nEnhancements to selected text\nQuery Replace (Regexp)…\nEnhancements to Org mode support\nHeadline\nChange to Body\nSort…\nItem\nCycle Bullet…\nSort…\nTable\nSort…\nCopy as…\nLink…\nAdded support for Makefile mode\nAdded support for Info mode\nAdded support for Compilation/Grep mode\nMain Menu\nTools menu enhancements\nGlobal Org Commands\nMacro Recorder\nEdit › Delete menu enhancement\nDelete Duplicate Lines\nUsers who work with both Org mode and Markdown formatted text should find interest in the Copy as… capability added to the Org mode context menu. This feature lets one use Org mode as the primary means of authoring text, exporting to Markdown (or another format) using a right-click mouse copy action.\n\nThanks to Marcin Borkowski whose post “Org-mode to Markdown via the clipboard”, inspired this feature.\nAnju also provides a complementary command “Paste Markdown as Org” for Org mode which lets one paste copied Markdown text into an Org file, doing the conversion of Markdown to Org under the hood using pandoc.\n\nIn summary, this is a big release with many changes. I invite you to explore all the links above to see what’s available in Anju.",
+          "link": "http://yummymelon.com/devnull/anju-v150-update.html",
+          "publishedOn": "2026-05-28T17:00:00.000Z",
+          "wordCount": 302,
+          "title": "Charles Choi: Anju v1.5.0 Update",
+          "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
+        },
         {
           "id": "https://irreal.org/blog/?p=13838",
           "author": null,
@@ -1939,16 +1979,6 @@
           "wordCount": 2227,
           "title": "Republican Kleptocracy Must Pay Up in November",
           "imageUrl": null
-        },
-        {
-          "id": "https://thedemocraticstrategist.org/?p=39782",
-          "author": "J.P. Green",
-          "description": "In “Billionaire Trump’s Secret Trading Spree Alarms Wall Street,” Laura Eposito writes at Daily Beast: “Donald Trump’s Wall Street side hustle is starting to look like a full-time job…During the first three months of 2026, the billionaire president pocketed tens of millions of dollars through 3,700 investment trades involving companies with direct ties to his... Read more »",
-          "link": "https://thedemocraticstrategist.org/2026/05/political-strategy-notes-969/",
-          "publishedOn": "2026-05-19T05:16:18.000Z",
-          "wordCount": 3113,
-          "title": "Political Strategy Notes",
-          "imageUrl": null
         }
       ]
     },
@@ -2176,6 +2206,36 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=223976",
+          "author": "Giri Nathan",
+          "description": "Going into Roland-Garros, there was clear consensus: The greatest threat to Jannik Sinner was the Sun itself. It's the type of snappy one-liner that gets slung on the TV broadcast a dozen times a day, but it wound up prescient as the No. 1 seed melted down Thursday in a stupefying second-round loss to Juan Manuel Cerundolo.\n\nhttps://www.youtube.com/watch?v=Spv9oa4rwUQ\n\n\nOutside of celestial bodies, the top men's player wasn't slated to face much of a threat at the clay Slam. His rival Carlos Alcaraz had recently announced that he would sit out the summer to recover from a wrist injury. Part-time tennis player Novak Djokovic had barely clocked in for work since his impressive win over Sinner in Australia in January. In the meantime, Sinner had regained the No. 1 ranking, stomped the tour, and racked up records. When he arrived in Paris, he was winding down one of the best clay seasons in tennis history, having swept the three Masters titles, a feat previously achieved by only Rafael Nadal. Along the way, Sinner dropped only one set. Zooming out slightly further, Sinner had strung together six Masters titles in a row, which had never been done. He became the second player to complete the full set of nine Masters trophies, and he accomplished it seven years faster than Djokovic. I could bore you with even more, but I'll leave you with this simple number: Sinner had a 30-match win streak heading into his second-round match at Roland-Garros. I expected that number to extend to 36, and for him to lift the title that brutally eluded him by just one point last season.",
+          "link": "https://defector.com/jannik-sinner-gets-too-close-to-the-sun-falls-early-in-french-open",
+          "publishedOn": "2026-05-28T17:31:04.000Z",
+          "wordCount": 7072,
+          "title": "Jannik Sinner Gets Too Close To The Sun, Falls Early In French Open",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-2278627977-e1779986104324.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=223969",
+          "author": "Chris Thompson",
+          "description": "James Wood is a pretty good leadoff hitter. Rookie Nationals manager Blake Butera, a disturbingly young fellow who looks like he should be one of the nine guys in this video, moved Wood to the top of Washington's lineup back in the spring, gradually swapping the places of Wood and former leadoff guy C.J. Abrams, who is now Washington's regular cleanup hitter. Wood is good at leadoff stuff: He leads the National League in walks and on-base percentage, and has successfully stolen 10 bags in 11 tries. Because he gets on base a lot, and because Abrams is thriving behind him, Wood leads the majors pretty comfortably in runs scored. The Nationals, in fact, lead all MLB teams in runs.\nAll you care about is dingers. Wah wah wah, show me the dingers, you are wailing, smacking your sippy cup onto your tray table and shooting milk everywhere. Dingers are only one part of the game! Fine, here's a dinger:\n\nhttps://bsky.app/profile/nationals.com/post/3mms3clnza22y",
+          "link": "https://defector.com/james-wood-will-mightily-thwap-the-baseball-in-whichever-direction-he-pleases",
+          "publishedOn": "2026-05-28T17:06:38.000Z",
+          "wordCount": 7003,
+          "title": "James Wood Will Mightily Thwap The Baseball In Whichever Direction He Pleases",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-2277502157.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=223926",
+          "author": "David Roth",
+          "description": "The New York Jets have been pretty uniformly terrible on the field under the ownership of Woody Johnson, but the organization has lately been recognized as an innovative and industry-leading presence in integrating video game rankings and loutish patrician antics into its front-office processes. That hybrid approach has admittedly not yet borne fruit in terms of top-line indicators like wins, or recording even one interception over a 17-game season, but this sort of work takes time and evolves alongside the technology available. A team must accumulate some more abstract wins off the field before those successes show up in the standings.\nThis work is not glamorous or public, but as New York Jets Chief Analytics and Data Officer Iwao Fusillo told Sports Business Journal, he's already seeing results despite just joining the organization in January after a long career in corporate America. The Jets organization, he said, has already made strides, because \"91 percent of the Jets’ front office now uses Microsoft Copilot on a day-to-day basis—up from 'a handful' about a hundred days ago—with users averaging two-to-three prompts per day.\"\nHow should Jets fans feel about the fact that a large and suspiciously precise percentage of the front office is now firing questions into the widely loathed and overwhelmingly unreliable AI modality in Microsoft's office technology? My friend, I am not in the business of telling Jets fans how to feel about things, and as a rule seek to limit engagement in that area to the extent possible. But it seems clear that Fusillo is pleased with the adoption of this bummy technology so far. \"I call that level one, or horizon one,\" Fusillo told SBJ, \"which is adoption.\" (The additional two levels, or horizons, have to do with \"deeper levels of workflow automation,\" SBJ's Rob Schaefer explained.)",
+          "link": "https://defector.com/the-new-york-jets-will-now-try-being-ai-first",
+          "publishedOn": "2026-05-28T16:01:29.000Z",
+          "wordCount": 7198,
+          "title": "The New York Jets Will Now Try Being “AI-First”",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-2234229884.jpg"
+        },
         {
           "id": "https://defector.com/?p=223566",
           "author": "Dave McKenna",
@@ -3125,16 +3185,6 @@
           "publishedOn": "2026-05-23T03:32:15.000Z",
           "wordCount": 940,
           "title": "Family Guy | MOST OFFENSIVE MOMENTS",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=2737",
-          "author": "Schill",
-          "description": "Donald Trump’s second term has devolved into what critics describe as one of the most brazen eras of presidential self-dealing in American history. Promises of fiscal responsibility and “draining the swamp” have given way to taxpayer-funded luxuries, legally dubious settlements funneled to supporters, family crypto schemes that allegedly rug-pulled billions from supporters, and apparent insider...",
-          "link": "https://stuffthatinterestsme.net/2737-2/",
-          "publishedOn": "2026-05-19T04:59:21.000Z",
-          "wordCount": 6044,
-          "title": "Untitled",
           "imageUrl": null
         }
       ]
