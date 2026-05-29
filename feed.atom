@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-05-28T23:15:03.521Z</updated>
+    <updated>2026-05-29T03:29:43.059Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[On The Weeknight, Angelo Carusone discusses right-wing media's reaction to Trump's weaponization fund]]></title>
+        <id>b0358afa-c9eb-4b88-a382-b5465e4f3f29</id>
+        <link href="https://www.mediamatters.org/angelo-carusone/weeknight-angelo-carusone-discusses-right-wing-medias-reaction-trumps-weaponization"/>
+        <updated>2026-05-28T23:45:08.000Z</updated>
+        <author>
+            <name>Media Matters for America</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fox's Martha MacCallum on potential Iran peace deal: "It doesn't feel like we're any closer than we were before"]]></title>
+        <id>770997a8-5ef9-4037-b7b9-768d493e24eb</id>
+        <link href="https://www.mediamatters.org/fox-news/foxs-martha-maccallum-potential-iran-peace-deal-it-doesnt-feel-were-any-closer-we-were"/>
+        <updated>2026-05-28T23:30:31.000Z</updated>
+        <author>
+            <name>Media Matters for America</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nick Fuentes on the Trump administration: “Why can’t it just be fighting our actual enemies? Women, Hasan Piker, illegal immigrants, African migrants, the Jews.”]]></title>
         <id>468d74e8-c26e-4ad9-9191-9873efcfb5ac</id>
@@ -5660,156 +5678,6 @@ https://www.youtube.com/watch?v=K2riVtF8ynE
 In any other game, on any other night, with any other teammate, Harper would be the story coming out of Game 1. Having come off the bench for most of the season and all of the playoffs so far, the rookie from Rutgers notched his first postseason start on Monday, thanks to a late scratch for De'Aaron Fox (ankle soreness). And what a time for that to happen: Game 1, on the road, against the defending champions. The Spurs were very patient with Harper this season, letting him grow without overexerting him (he only averaged 22 minutes per game in the regular season, a figure that only increased to around 25 minutes through the first two rounds of the playoffs). That patience, and Harper's growth not just as a scorer but as an all-around star-in-the-making, paid off on Monday: 24 points, 11 rebounds, six assists, and a ludicrous seven steals. Even that stat line doesn't do a complete job of hyping up the best game of Harper's young career.]]></summary>
         <author>
             <name>Luis Paez-Pumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Marking Recently Modified Files In Dired]]></title>
-        <id>https://irreal.org/blog/?p=13818</id>
-        <link href="https://irreal.org/blog/?p=13818"/>
-        <updated>2026-05-19T15:10:36.000Z</updated>
-        <summary type="html"><![CDATA[to write some code to implement the missing feature.
-
-
-The code, which you can see at his post, is pretty simple and easy to follow. What wasn’t so easy were some annoying design decisions. For example, what constitutes the current day? Is it 24 hours ago until now or is it the previous midnight until now? And by the way, should that be UTC or local time?
-
-
-The natural interface is to specify the number of previous days you want to mark as a prefix argument but that leaves open the question of how to unmark the last n days. The natural solution—and the one mbork chose—is to use a negative n to mean “unmark the last n days”. So positive n, mark files modified in the last n days; negative n unmark file modified in the last n days. What about 0? Mbork made the arbitrary decision to have that mean mark files modified in the last 60 minutes.
-
-
-There are a couple of other nuances that you can read about in mbork’s post. The real takeaway for me is how tricky it can be to get the small details right. That seems especially true when you’re dealing with time calculations. Questions like, “What, exactly, does ‘yesterday’ mean” turn out to be a lot harder to answer than they first seem. Take a look at mbork’s post to see what I mean.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Picking Through the Wreckage From the Worst Day of Trump II So Far]]></title>
-        <id>https://talkingpointsmemo.com/?p=1547398</id>
-        <link href="https://talkingpointsmemo.com/morning-memo/picking-through-the-wreckage-from-the-worst-day-of-trump-ii-so-far"/>
-        <updated>2026-05-19T14:59:09.000Z</updated>
-        <summary type="html"><![CDATA[Not Possible in a Functioning Democracy A whirlwind of developments closed the deal yesterday on what is arguably the single...]]></summary>
-        <author>
-            <name>David Kurtz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How To Dress To Change Your Life]]></title>
-        <id>https://defector.com/?p=222889</id>
-        <link href="https://defector.com/how-to-dress-to-change-your-life"/>
-        <updated>2026-05-19T14:57:19.000Z</updated>
-        <summary type="html"><![CDATA[For the first time in six years, I have closets.
-At the Brooklyn apartment I just moved out of, all available evidence points to them just screwing up the blueprint. My bedroom was twice the height of a normal bedroom, and there's no reason why they shouldn't have extended the other bedroom, a flight of stairs up, over my room. There was a secret, unfinished space above the kitchen, accessible by vent, which we only discovered five years into our residence thanks to a beeping smoke detector. And there wasn't a single closet anywhere in the apartment. I kept my clothes in a bulky wardrobe assembled out of canvas and poles: hangers in the middle, other stuff sorted into compartments on either side. I stuffed as much as I could into that thing, and by the end I think the only thing keeping it from falling over was that it was wedged between two sturdy pieces of furniture.
-Moving to my new spot in Queens, I was excited to store my clothes in a place that didn't constantly carry the threat of structural failure. But the thing about changing apartments is that it forces you to reckon with the physical mass of the things you own. When I first moved within New York City, all of my stuff fit inside my dad's SUV. When I moved into my last place, it required two trips. This time—probably the last occasion I'll ever move without a dedicated van of some sort—it took three. Some of this is because I now actually own real furniture, but I can't deny that my clothes collection has grown astronomically over the last several years. As I organized outfits in my new bedroom—and reluctantly resigned certain pieces to boxes under the bed—I had the chance to listen to the stories they told, about me then and about me now.]]></summary>
-        <author>
-            <name>Lauren Theisen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[the January 6 rioters are about to get millions, and We the People can go fuck ourselves]]></title>
-        <id>https://www.jefftiedrich.com/p/the-january-6-rioters-are-about-to</id>
-        <link href="https://www.jefftiedrich.com/p/the-january-6-rioters-are-about-to"/>
-        <updated>2026-05-19T14:43:01.000Z</updated>
-        <summary type="html"><![CDATA[why do we even have laws, if some shithead gets to ignore them?]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Eurovision Is Running Out Of Time]]></title>
-        <id>https://defector.com/?p=222846</id>
-        <link href="https://defector.com/eurovision-is-running-out-of-time"/>
-        <updated>2026-05-19T14:38:58.000Z</updated>
-        <summary type="html"><![CDATA[This weekend, history repeated itself on the unnecessarily pyrotechnic stage of Eurovision as singers from Israel and another country waited to hear which would be crowned the winner of the increasingly contentious song contest. In the end, the Bulgarian banger "Bangaranga" by singer Dara edged out Israel's "Michelle" by singer Noam Bettan. Last year, Austrian singer JJ served as a similar spoiler with his operatic "Wasted Love." Now Eurovision, it would seem, plans to proceed as if everything were normal, announcing the competition will take place next year in Bulgaria. But, of course, something is rotten in the state of Eurovision, a competition where many fans find themselves in the harrowing position of rooting not for their favorite song, but for anyone but Israel.
-In recent years, ar…]]></summary>
-        <author>
-            <name>Sabrina Imbler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump Just Handed Us The Evidence That Should End His Failed Presidency, ICE Agent Indicted In Minnesota, and Voters Reject GOP Governor]]></title>
-        <id>https://www.dworkinsubstack.com/p/trump-just-handed-us-the-evidence</id>
-        <link href="https://www.dworkinsubstack.com/p/trump-just-handed-us-the-evidence"/>
-        <updated>2026-05-19T14:35:47.000Z</updated>
-        <summary type="html"><![CDATA[Plus, small town takes the regime to court]]></summary>
-        <author>
-            <name>Scott Dworkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Who Can Keep Up With Chennedy Carter?]]></title>
-        <id>https://defector.com/?p=222884</id>
-        <link href="https://defector.com/who-can-keep-up-with-chennedy-carter"/>
-        <updated>2026-05-19T14:17:33.000Z</updated>
-        <summary type="html"><![CDATA[Short answer: no one yet. Chennedy Carter has been everything the Las Vegas Aces imagined she could be when they signed the 27-year-old guard to a one-year deal this offseason, a signing that marked her return to the WNBA after a 2025 spent playing in China and Mexico. In Carter's first five games of the year, she’s scored 97 points, a league record for a player coming off the bench. She wrecks whole defenses with what Aces head coach Becky Hammon called “eye-popping” speed, “especially if you haven't really seen it or you haven't seen it in a while.”
-
-https://www.youtube.com/shorts/6KwwOS4Gnvg
-
-
-That is indeed the experience of watching Carter for the first time in a long time. At points in Sunday's Aces-Dream game, an 85-84 Vegas win in Atlanta, even the camera seemed like it was struggling to keep pace. Speed aside, there may not be a deeper bag than Carter's in the WNBA. She can pull up on a dime, snake her way through clusters of defenders on her way downhill, or cross over the very athletic Allisha Gray (see above). The depths of that bag have been tested by some of the gnarliest spacing situations the WNBA can offer a young downhill scorer. In Chicago, she’d managed 17.5 points per game despite sharing the paint with two non-shooting bigs. She simply doesn’t need much help. In a 20-point game on 7-of-13 shooting in her 21 minutes, only two of her buckets were assisted.]]></summary>
-        <author>
-            <name>Maitreyi Anantharaman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unlock a Free Month of WIRED, Then Just $2/Month]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/g3bjn57cmxukkxxo8zq4.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/g3bjn57cmxukkxxo8zq4.html"/>
-        <updated>2026-05-19T14:12:46.262Z</updated>
-        <summary type="html"><![CDATA[Subscribe for breaking news and exclusive benefits    
-
-
-
-
-
-
-
-
-
-
-/* resets */
-p {margin:0px;margin-bottom:0px;padding:0px;}
-table {border-spacing:0;}
-table, td {border-collapse:collapse;}
-* {-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-size-adjust: none !important;-ms-text-size-adjust: none !important;-webkit-text-size-adjust: none !important;}
-/* end resets */
-/* outlook / hotmail */
-.ExternalClass{width:100%;}
-table, td {mso-table-lspace:0pt;mso-table-rspace:0pt;}
-img{-ms-interpolation-mode:bicubic;}
-.ReadMsgBody {width: 100%;}
-/* end outlook / hotmail */
-/* gmail */
-u + #body a {color: inherit;text-decoration: none;font-size: inherit;font-family: inherit;font-weight: inherit;line-height: inherit;}
-img + div {display: none!important;}
-/* end gmail */
-/* ios…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My God, Victor Wembanyama]]></title>
-        <id>https://defector.com/?p=222978</id>
-        <link href="https://defector.com/my-god-victor-wembanyama"/>
-        <updated>2026-05-19T13:31:28.000Z</updated>
-        <summary type="html"><![CDATA[Late in Monday night's Game 1 of the Western Conference Finals, a beleaguered Shai Gilgeous-Alexander dribbled tentatively into the mouth of San Antonio's defensive zone. That zone had been total hell for the two-time reigning MVP. Now, with the Thunder down four points inside the final minute of the game's second overtime period, Gilgeous-Alexander was pretty well wasted. He'd played 50 minutes of intensely frustrating basketball; he'd been guarded by approximately 78 different sturdy and long-armed Spurs, often by two or three at a time; with few exceptions, every time he'd carved out a sliver of attacking space, he'd looked up and seen Victor damn Wembanyama looming up in front of the basket. He'd tried floaters, and step-backs, largely to no avail; he'd tried hesitations and Nash dribbles, to even less avail; he'd tried kick-outs to the corner, a really striking number of which had been deflected or intercepted by opportunistic Spurs defenders. That was his night: waves of pesky guards and sturdy wings, zipping around in impossible numbers, and backed always by that huge menacing Frenchman.
-That Frenchman, by the way, was putting the finishing touches on the defining performance of his still-young career. He would finish the Spurs' 122-115 victory with 41 points, 24 rebounds, and three blocks. Moments before Gilgeous-Alexander embarked on the aforementioned drive, Wembanyama had snatched an entry pass, tossed away Oklahoma City's best defender, pirouetted in the paint, and smashed a two-handed dunk, through a foul, directly in the mug of the home team's best rim protector. Minutes before that, he had sent the game into its second overtime by rising up for and burying an audacious 28-footer in semi-transition.
-
-https://www.youtube.com/watch?v=5gHzi6r5TbE]]></summary>
-        <author>
-            <name>Chris Thompson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Canadiens Must Be Blessed]]></title>
-        <id>https://defector.com/?p=222980</id>
-        <link href="https://defector.com/the-canadiens-must-be-blessed"/>
-        <updated>2026-05-19T13:09:22.000Z</updated>
-        <summary type="html"><![CDATA[It is a perfectly reasonable assessment of the Montreal Canadiens that they are recipients of a long and lingering tongue kiss from the gods. It is equally rational to remind Habs fans in their moment of glorious triumph that the gods are treacherously profligate trollops who distribute their drooly favors indiscriminately and without a moment's thought for whomever they kissed last. 
-But that's tomorrow's broken heart. In the immediate moment, the hyperplucky Habs are the charmed ones, and rarely more so than Monday night in the seventh game of the Eastern Conference semifinals against Buffalo, in Buffalo, before the most beloved and never rewarded fan base on the continent. Months of indomitable Sabre-hood boiled down to one last superb performance foiled in the end by the impish Alex Newhook. 
-
-https://youtu.be/pnTboPwMKiw?si=RBwq993ghh7FNuik&t=984]]></summary>
-        <author>
-            <name>Ray Ratto</name>
         </author>
     </entry>
 </feed>
