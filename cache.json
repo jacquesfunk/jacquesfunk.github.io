@@ -1314,6 +1314,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://donovan-ratefison.mg/2026/05/31/My-Ancestors-Were-Writing-Lisp/",
+          "author": null,
+          "description": "I’ve been hard on Lisp lately.\nLast time I wrote here, I called it a curse — a language so powerful that everyone who touches it ends up building their own private dialect, until no one can quite understand anyone else. A small Tower of Babel, assembled out of parentheses. I still think that’s true.\nBut I left something out of that post, because it didn’t fit the argument I was making. The same Lisp idea that scatters programmers did the opposite thing to me, once. It didn’t scatter anything. It pulled something very old back together.\nIt gave me back my ancestors.\nLet me explain, because it sounds like more than it is.\nI’m not a Lisp programmer by trade. I just love the elegance of the thing — I’ve lived inside Emacs for years, written my own Elisp, poked at Clojure enough to feel what ma…",
+          "link": "https://donovan-ratefison.mg/2026/05/31/My-Ancestors-Were-Writing-Lisp/",
+          "publishedOn": "2026-05-31T00:00:00.000Z",
+          "wordCount": 2197,
+          "title": "Donovan R.: 💭 My Ancestors Were Writing Lisp",
+          "imageUrl": null
+        },
+        {
           "id": "https://tusharhero.codeberg.page/may-i-recommend-these-lesser-known-org-modes.html",
           "author": null,
           "description": "~373 words. ~1 minutes.\n\n\n \n  tags:   emacs\nMay I recommend…, I would like\nto recommend two cool org minor modes I discovered recently, in the\norder of me discovering them.\n\n \n org-num-mode\n  * 1 heading\n ** 1.1 subheading\n *** 1.1.1 subsubheading\n ** 1.2 subheading\n * 2 heading\n\n org-toggle-pretty-entities\nprettify-mode does). You can get a list of all available\nentities(symbols) using  org-entities-help. BTW, it is also possible to\ndefine your own in  org-entities-user.\n\n\n \n 1_1 a_b^q q_p p^q\n\n1 a b q q p p q\nC-x 8 RET\n(insert UTF-8 character, for those who are not aware)?\", you can't do\na superscript q or subscript q, since those symbols don't exist! Which\nis why I chose q for my demo above.\n\n\n \nC-x 8 RET, and that reminds me,\nthere is a similar feature to this which actually inserts UTF-8\ncharacters into your buffers,  C-x RET C-\\ TeX RET. Then you just type\nthe TeX markup as you normally would, and it inserts the actual\nsymbols, but this too has the same problems as with directly inserting\nsymbols, some symbols are simply not available.\n\n\n \nq q I want.\nAlso, org automatically exports it correctly when exporting to HTML!",
@@ -2645,16 +2655,6 @@
           "publishedOn": "2026-05-22T17:03:09.211Z",
           "wordCount": 246,
           "title": "Summer Reading up to 90% off",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/162j3fr2fbm2h1gy5t7t.html",
-          "author": null,
-          "description": "The Prank Wars Have Come To F1 96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-decoration: inherit !important; font-size: inherit !impo…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/162j3fr2fbm2h1gy5t7t.html",
-          "publishedOn": "2026-05-22T10:33:25.512Z",
-          "wordCount": 2104,
-          "title": "The Prank Wars Have Come To F1",
           "imageUrl": null
         }
       ]
