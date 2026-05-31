@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-05-31T07:44:37.062Z</updated>
+    <updated>2026-05-31T10:14:55.429Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -69,6 +69,60 @@
         <summary type="html"><![CDATA[Royals catcher Carter Jensen was shifted to the leadoff spot on Saturday with the club searching for offensive production. The young backstop came through with an RBI single and a two-run homer. Kansas City scored six runs in the contest after having put up a total of five runs in four games this week. “I […]]]></summary>
         <author>
             <name>Charlie Wright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[tusharhero: May I recommend: lesser known org-modes]]></title>
+        <id>https://tusharhero.codeberg.page/may-i-recommend-these-lesser-known-org-modes.html</id>
+        <link href="https://tusharhero.codeberg.page/may-i-recommend-these-lesser-known-org-modes.html"/>
+        <updated>2026-05-30T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[~373 words. ~1 minutes.
+
+
+ 
+  tags:   emacs
+May I recommend…, I would like
+to recommend two cool org minor modes I discovered recently, in the
+order of me discovering them.
+
+ 
+ org-num-mode
+  * 1 heading
+ ** 1.1 subheading
+ *** 1.1.1 subsubheading
+ ** 1.2 subheading
+ * 2 heading
+
+ org-toggle-pretty-entities
+prettify-mode does). You can get a list of all available
+entities(symbols) using  org-entities-help. BTW, it is also possible to
+define your own in  org-entities-user.
+
+
+ 
+ 1_1 a_b^q q_p p^q
+
+1 a b q q p p q
+C-x 8 RET
+(insert UTF-8 character, for those who are not aware)?", you can't do
+a superscript q or subscript q, since those symbols don't exist! Which
+is why I chose q for my demo above.
+
+
+ 
+C-x 8 RET, and that reminds me,
+there is a similar feature to this which actually inserts UTF-8
+characters into your buffers,  C-x RET C-\ TeX RET. Then you just type
+the TeX markup as you normally would, and it inserts the actual
+symbols, but this too has the same problems as with directly inserting
+symbols, some symbols are simply not available.
+
+
+ 
+q q I want.
+Also, org automatically exports it correctly when exporting to HTML!]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -4903,145 +4957,6 @@ Expanded Shortcuts support. This is going to be useful to the heavy user of macO
 The post Republicans Sound Like They’re Getting Nervous About Supreme <span class="dewidow">Court Expansion</span> appeared first on Balls and Strikes.]]></summary>
         <author>
             <name>Madiba K. Dennie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump’s flailing DOJ loses two more voter roll cases]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/nwrjxiunm8647lqdf234.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/nwrjxiunm8647lqdf234.html"/>
-        <updated>2026-05-21T22:06:04.205Z</updated>
-        <summary type="html"><![CDATA[Trump’s flailing DOJ loses two more voter roll cases
-    
-    
-    
-    
-    
-
-
-
-
-
-a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
-
-
-    
-  
-    
-      
-      96
-    
-    …]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A 5-4 SCOTUS rejects Alabama's effort to make executing intellectually disabled people easier]]></title>
-        <id>https://www.lawdork.com/p/scotus-alabama-death-penalty-smith-dig</id>
-        <link href="https://www.lawdork.com/p/scotus-alabama-death-penalty-smith-dig"/>
-        <updated>2026-05-21T21:52:25.000Z</updated>
-        <summary type="html"><![CDATA[Lower courts tossed out Joseph Clifton Smith's death sentence after a finding him to be intellectually disabled. That decision stands, but SCOTUS refused to stop two other execution efforts.]]></summary>
-        <author>
-            <name>Chris Geidner</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nick Fuentes: Chinese people “are just, like, soulless” and “like bug people”]]></title>
-        <id>44b68152-0787-4ee4-82bc-a39e27d385e6</id>
-        <link href="https://www.mediamatters.org/nick-fuentes/nick-fuentes-chinese-people-are-just-soulless-and-bug-people"/>
-        <updated>2026-05-21T21:33:51.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amin Bandali: ffs 0.2.2 released]]></title>
-        <id>https://kelar.org/~bandali/gnu/emacs/ffs-0.2.2.html</id>
-        <link href="https://kelar.org/~bandali/gnu/emacs/ffs-0.2.2.html"/>
-        <updated>2026-05-21T21:33:33.000Z</updated>
-        <summary type="html"><![CDATA[ffs provides a minor mode for simple plain text presentations in
-Emacs, where the slides are separated using the page-delimiter, by
-default the form feed character (^L).
-
-
-
-I wrote ffs in early 2022 for my LibrePlanet 2022 presentation the
-Net beyond the Web, and earlier this year decided to polish it towards
-being a proper package and submit it to GNU ELPA.  The manual still
-needs some more work, but the overall package is in pretty good shape
-so I submitted for inclusion in GNU ELPA.
-
-
-
-Package name (GNU ELPA): ffs
-Official manual: https://kelar.org/~bandali/gnu/emacs/ffs.html
-Change log: https://kelar.org/~bandali/gnu/emacs/ffs-changelog.html
-Git repository: https://git.kelar.org/~bandali/ffs
-Backronyms: fabulous foolproof slides - for freedom's sake -
-ffs flips slides
-ffs and I owe a d…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MAHA and wellness advocates sound the alarm after the primary defeat of Rep. Thomas Massie]]></title>
-        <id>ffb11ad2-007e-4b1b-99c4-c5fb90495f1f</id>
-        <link href="https://www.mediamatters.org/congress/maha-and-wellness-advocates-sound-alarm-after-primary-defeat-rep-thomas-massie"/>
-        <updated>2026-05-21T20:54:32.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Dallas Wings Can Find A Bucket Anywhere]]></title>
-        <id>https://defector.com/?p=223395</id>
-        <link href="https://defector.com/the-dallas-wings-can-find-a-bucket-anywhere"/>
-        <updated>2026-05-21T20:54:19.000Z</updated>
-        <summary type="html"><![CDATA[It’s great how little you have to think about Paige Bueckers. This isn’t the same as not caring about her. The scads of cheers she gets during player intros, even on the road, are proof that she’s cared about very much. She just happens to be the sort of player whose competence speaks for itself, whose game demands no further tinkering or accommodation. Play her with a big lineup or a small one. Play her at the one, two, or three. Play her off the ball, or on it. Play her in a box, with a fox, in a house, with a mouse. Her versatility lets the Dallas Wings be whatever they want to be. 
-What they’ve been so far this year is one of the WNBA's most potent offenses. With playmakers at every spot, these Wings are moving, cutting, sharing the ball, and scoring from everywhere, well enough to rank second in the league in offensive rating. On Wednesday night in Chicago, they put up 99 points on a respectable Sky defense and notched their third win of the season. Five games in, they’re already in good position to beat last year’s win total of 10.
-Conspiracy theories abounded when the Wings bypassed the bigs in this year's draft and used the first overall pick on Azzi Fudd, a much-needed source of shooting and strength in the backcourt, and who, yes, has said in the past that she’s dating Bueckers. The easy explanation is that they’d already made the frontcourt the focus of their free agency when they signed Alanna Smith and Jessica Shepard, both formerly of the Minnesota Lynx. Smith hasn’t shaken her habit of picking up awful fouls, and she’s looked a little out of whack since breaking her nose in the preseason.]]></summary>
-        <author>
-            <name>Maitreyi Anantharaman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Megyn Kelly caller: "Trump has single-handedly crushed the Republican Party"]]></title>
-        <id>9d774919-db72-43b5-b241-a80b9229820f</id>
-        <link href="https://www.mediamatters.org/megyn-kelly/megyn-kelly-caller-trump-has-single-handedly-crushed-republican-party"/>
-        <updated>2026-05-21T20:46:45.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Megyn Kelly on The Odyssey film: "Who decided it would be a good idea to make a movie out of the book no one wanted to read and no one enjoyed in high school?"]]></title>
-        <id>adec79e1-4a2e-4a66-8cce-865292fc1e7a</id>
-        <link href="https://www.mediamatters.org/megyn-kelly/megyn-kelly-odyssey-film-who-decided-it-would-be-good-idea-make-movie-out-book-no-one"/>
-        <updated>2026-05-21T20:19:45.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Song Of The Puzzlesmith, With Ian Livengood]]></title>
-        <id>https://defector.com/?p=223305</id>
-        <link href="https://defector.com/song-of-the-puzzlesmith-with-ian-livengood"/>
-        <updated>2026-05-21T20:08:45.000Z</updated>
-        <summary type="html"><![CDATA[It is important to have a silly little morning brain thing. Aside from the studies attesting to how beneficial these puzzles and games can be for your cognitive abilities, I just think it's nice to have something fun to do to get your brain stretched out before you put it to work in the significantly less amusing ways that each day requires. We have done a full weeklong collaboration with the people behind my silly little morning brain thing of choice, and this week Drew and I spoke to the person behind Drew's favorite pick: Ian Livengood, editor at New York Times Games and the man who oversees Drew's beloved Pips.
-We did talk about Pips, which Drew truly loves, but for the most part our conversation focused more on the broader mysteries surrounding puzzles and games and things of that nature. Where do these games come from? Why do they beta-test them in Canada? Is the term "Games Jam" better or worse than "Ideas Party?" We talked about how this business works and how the people who come up with these games think of them, what they're trying to do, what makes the brains of people who can Think In Puzzle different, and figuring out that you are that type of person. There's some silly stuff in there—the word "zarfs" gets said a bunch, the idea of a 28 Days Later disease setting on your phone is floated, and a digression about the Argentinian specialist who devises the hardest logic puzzles in the world was especially gratifying—but Drew is a pretty serious puzzle sicko, and I am interested in how different types of brains work. Ian, for his part, was great company, and very patient with my general questions and Drew's extremely specific Wordle gripes.]]></summary>
-        <author>
-            <name>David Roth</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Patrick Byrne hopes “there's a few shekels for me” from Trump's weaponization fund]]></title>
-        <id>b5515076-35c3-4194-8537-c1a493b32aeb</id>
-        <link href="https://www.mediamatters.org/voter-fraud-and-suppression/patrick-byrne-hopes-theres-few-shekels-me-trumps-weaponization-fund"/>
-        <updated>2026-05-21T19:52:16.000Z</updated>
-        <summary type="html"><![CDATA[According to reporting, Patrick Byrne, a “multimillionaire and prominent election denier” and “one of corporate America’s most vocal proponents” of President Donald Trump's falsehoods about the 2020 election, “often pushed conspiracy theories and found himself ensnared in controversy — long before the former chief executive of online retailer Overstock promoted Donald Trump’s baseless claims of a rigged election.”]]></summary>
-        <author>
-            <name>Media Matters for America</name>
         </author>
     </entry>
 </feed>
