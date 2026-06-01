@@ -450,6 +450,46 @@
       "siteUrl": "https://www.mediamatters.org/",
       "articles": [
         {
+          "id": "cecf66d0-6420-475d-b1d3-2633751d8f1d",
+          "author": "Media Matters for America",
+          "description": "",
+          "link": "https://www.mediamatters.org/fox-news/trumps-fox-news-cabinet-fracturing-over-whether-or-how-end-iran-war",
+          "publishedOn": "2026-06-01T18:20:44.000Z",
+          "wordCount": 1674,
+          "title": "Trump's Fox News cabinet is fracturing over whether or how to end the Iran war",
+          "imageUrl": "https://www.mediamatters.org/sites/default/files/IMG_1725.png"
+        },
+        {
+          "id": "5c5680f4-e470-4d14-ac84-83850e05c5da",
+          "author": "Media Matters for America",
+          "description": "",
+          "link": "https://www.mediamatters.org/megyn-kelly/megyn-kelly-iran-deal-has-completely-fallen-apart-its-fucking-mess",
+          "publishedOn": "2026-06-01T18:17:39.000Z",
+          "wordCount": 484,
+          "title": "Megyn Kelly: \"The Iran deal has completely fallen apart. ... It's a fucking mess.\"",
+          "imageUrl": "https://www.mediamatters.org/sites/default/files/The%20Megyn%20Kelly%20Show%20II.jpg"
+        },
+        {
+          "id": "7dfaedca-0582-478e-87dc-cc2567083d32",
+          "author": "Media Matters for America",
+          "description": "This post is part of a series chronicling news coverage of rising prices in the United States. See more here.",
+          "link": "https://www.mediamatters.org/fuel-files-rising-gasoline-oil-and-fertilizer-prices/houston-texas-kprc-2-news-another-painful",
+          "publishedOn": "2026-06-01T16:50:07.000Z",
+          "wordCount": 825,
+          "title": "Houston, Texas' KPRC 2 News: \"Another painful inflation wave is headed for the grocery store\"",
+          "imageUrl": "https://www.mediamatters.org/sites/default/files/Screenshot%202026-06-01%20114302.png"
+        },
+        {
+          "id": "48c6e368-b0c9-4e75-934a-37bfa7682ec0",
+          "author": "Media Matters for America",
+          "description": "",
+          "link": "https://www.mediamatters.org/fox-business/fox-business-panel-suggests-democratic-voters-la-are-stupid-new-york-voters-who-voted",
+          "publishedOn": "2026-06-01T16:43:50.000Z",
+          "wordCount": 824,
+          "title": "Fox Business panel suggests Democratic voters in LA are \"as stupid as New York voters who voted in Mamdani\"",
+          "imageUrl": "https://www.mediamatters.org/sites/default/files/FBNHD_Mornings%20With%20Maria%20Bartiromo_2026-06-01-06_00_01-AM-3.jpg"
+        },
+        {
           "id": "52a76459-824d-4d92-ab1c-391fad77ea8c",
           "author": "Media Matters for America",
           "description": "",
@@ -1264,6 +1304,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://sachachua.com/blog/2026/05/emacs-carnival-may-2026-may-i-recommend/",
+          "author": null,
+          "description": "[2026-06-01 Mon]: Thanks to everyone who participated! I've included the links below.\n\n\n\n\n\nIt's May and I like puns, so I'm going to suggest \"May I\nrecommend…\" as our Emacs Carnival theme this month, building on\nlively conversations about people's favourite packages on lobste.rs,\nReddit, and Hacker News. Let's go beyond packages and talk workflows,\ntips, practices, perspectives… whatever you'd recommend!\n\n\n\nIt was pretty nice having a wiki page that people could edit without\nneeding to wait for me, so if you write about this topic, feel free to\nedit the wiki page and add your link. If you run into problems doing\nthat, please e-mail me and I can add the link for you.\n\n\n\nPeople have already started sharing their recommendations:\n\n\n\nMay Emacs Carnival, Carlos Pajuelo\nMay I Recommend EWM, Dilip\nWhat we talk about when we talk about recommending Emacs packages, David Dimagid\nMay I recommend… escaping the minibuffer, Alessio Vanni\nMay I recommend… vibemacsing?, by Giampaolo Guiducci\nMay I recommend… to only add items to your init files you understand and document?, by MartinStemplinger\nMay I recommend… Stop messing around and get work done., by Curtis McHale\nMay I recommend declaring bankruptcy from time to time, by Case Duckworth\nMay I recommend eww for Emacs's innovative UI?, by Omar Antolín Camarena\nMay I recommend… understanding Emacs's patterns, by Charlie Holland\nMay I recommend using your thumbs on Meanwhiling\nMay I recommend thinking of Emacs as your Fortress of Solitude, by Martin Sosic\nSacha and Prot Talk Emacs: May I Recommend…\nMay I recommend… Treating Emacs as Emacs, by SouthFox\nMay I recommend: lesser known org-modes, by tusharhero\nMay I Recommend: org2blog, journaling & reading hacks, by Wenshan Ren\nMay I recommend… less stretching for your common commands, by Neil M\nView Org source for this post\nYou can e-mail me at sacha@sachachua.com.",
+          "link": "https://sachachua.com/blog/2026/05/emacs-carnival-may-2026-may-i-recommend/",
+          "publishedOn": "2026-06-01T16:50:38.000Z",
+          "wordCount": 457,
+          "title": "Sacha Chua: Emacs Carnival May 2026 wrap-up: \"May I recommend...\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=13846",
           "author": null,
           "description": "using EWW to avoid paywalls and my experiments to see if it really worked. As I reported, it did in a surprising number of cases. But as I also wrote, I’m not that interested in avoiding paywalls so I didn’t expect to get much out of the experiment other than satisfying my idle curiosity.\n\n\nIt turns out though that I discovered using EWW could be very restful. As I wrote in that last post,\n\n\n\nThe other thing I learned is that reading content with EWW can be a very restful experience. No ads, no blinkenlights, and sometimes, no paywall either. I didn’t try running EWW with eww-readable but that would probably make the experience even more restful.\n\n\n\nMy normal procedure is to read my feeds with Elfeed—the world’s best RSS reader—and to display the original Web page in the same buffer with elfeed-webkit. That gives me a browser like view of the page. The problem is, my ad blocker doesn’t work with elfeed-webkit so I get all the trash and abuse one gets with a default page load1.\n\n\nDuring my experiment I discovered that calling EWW when a site gets out of control is an excellent solution. The latest version of elfeed makes this easy so if I site becomes too obnoxious, I simply switch to EWW and invoke eww-readable with R to provide a quiet and restful wall of text (complete with the accompanying pictures).\n\n\nIt’s amazing how much junk we just take for granted when all we want to do is read an article or post. EWW takes away a lot of the sting. No, it’s still not going to replace the browser but it’s an excellent companion to it.\n\n\nFootnotes: \n1 \n\n\n\nJohn Gruber has an excellent screed on one part of this default behavior. There are plenty of others.",
@@ -1301,6 +1351,16 @@
           "publishedOn": "2026-05-31T22:35:02.000Z",
           "wordCount": 1218,
           "title": "Sacha Chua: Karthik's notes on Emacs Chat 24: Omar Antolin Camarena",
+          "imageUrl": null
+        },
+        {
+          "id": "https://cestlaz.zamansky.net/posts/giant-play/",
+          "author": null,
+          "description": "Giant\n\n\n\nThis past Friday, I had the chance to see \"Giant,\" the play written by\nMark Rosenblatt. A few friends asked for my take on social media so I thought I'd write my thoughts up here.\napology.\nJohn Lithgow\n\nFilicity Crosland\n\nRachael Stirling - Dahl's mistress, fiance, and later wife. \n\nTom Maschler\n\nElliot Levey - Executive at Dahl's publishing company. England based. A Jew who's family fled Vienna after Nazi annexation when he was five.\n\nJessie Stone\n\nAya Cash - Sales employee of Dahl's publishing company. Also Jewish. Based in America.\n\nHallie\n\nStella Everett - Domestic employee of the Dahl's\n\nWally Suanders\n\nDavid Manis - Groundskeeper for the Dahl's.\n\nWhile the meeting depicted in the play was fictional, Dahl, Crosland, and Maschler did indeed exist though I have no idea if Crosland or Maschler's depictions were in any was based in their real personalities. Stone was created for the play and I'm not sure about the last two.",
+          "link": "https://cestlaz.zamansky.net/posts/giant-play/",
+          "publishedOn": "2026-05-31T15:41:10.000Z",
+          "wordCount": 958,
+          "title": "Mike Zamansky: Giant - Antisemitism, antizionism, and Roald Dahl",
           "imageUrl": null
         },
         {
@@ -1602,16 +1662,6 @@
           "wordCount": 1496,
           "title": "Irreal: Giving RSI The Thumb",
           "imageUrl": null
-        },
-        {
-          "id": "https://emacs-apac.gitlab.io/announcements/may-2026/",
-          "author": null,
-          "description": "This month’s Emacs Asia-Pacific (APAC)\nvirtual meetup is scheduled for Saturday, May\n23, 2026 with BigBlueButton and #emacs\non Libera Chat IRC. The timing will be 1400 to 1500 IST.\nThe meetup might get extended by 30 minutes if there is any talk, this\npage will be updated accordingly.\nIf you would like to give a demo or talk (maximum 20 minutes) on GNU\nEmacs or any variant, please contact bhavin192 on Libera Chat with\nyour talk details:",
-          "link": "https://emacs-apac.gitlab.io/announcements/may-2026/",
-          "publishedOn": "2026-05-23T06:53:58.000Z",
-          "wordCount": 215,
-          "title": "Emacs APAC: Announcing Emacs Asia-Pacific (APAC) virtual meetup, Saturday, May 23, 2026",
-          "imageUrl": null
         }
       ]
     },
@@ -1707,6 +1757,16 @@
       "feedUrl": "https://ballsandstrikes.org/feed",
       "siteUrl": "https://ballsandstrikes.org/",
       "articles": [
+        {
+          "id": "https://ballsandstrikes.org/?p=18322",
+          "author": "Elizabeth Wilkins, Molly Coleman",
+          "description": "The court’s decision to strike down voter-approved district maps is not just a story about democracy. It’s a story of how state courts too often protect entrenched power.\nThe post The Virginia Supreme Court Has Been a Thorn In the Side of Working People For a <span class=\"dewidow\">Long Time</span> appeared first on Balls and Strikes.",
+          "link": "https://ballsandstrikes.org/guest-essay/virginia-supreme-court-worker-power/",
+          "publishedOn": "2026-06-01T17:09:34.000Z",
+          "wordCount": 1875,
+          "title": "The Virginia Supreme Court Has Been a Thorn In the Side of Working People For a Long Time",
+          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2026/06/Screenshot-2026-06-01-at-10.07.56-AM-1200x630.png"
+        },
         {
           "id": "https://ballsandstrikes.org/?p=18316",
           "author": "Madiba K. Dennie",
@@ -1912,6 +1972,66 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=224259",
+          "author": "Tom Ley",
+          "description": "It's almost time for the World Cup. Before the tournament, we'll be previewing each of the top 15 teams by FIFA rankings that made the tournament. Why the top 15? Because that's how many we needed to do in order for the USMNT to make the cut. You can read all of our previews here.\nThe World Cup is too big and important to require its participants to seek any extra sources of motivation. You don't step onto the field of the planet's biggest sporting event with desires as petty as \"proving the haters wrong\" filling your head, because no hater can exceed the meaning of a World Cup. But if there is one team coming into this year's tournament that might be able to find some extra motivation elsewhere, it's Senegal.",
+          "link": "https://defector.com/senegals-bringing-a-good-team-and-some-nasty-vibes-to-the-world-cup",
+          "publishedOn": "2026-06-01T19:30:44.000Z",
+          "wordCount": 8441,
+          "title": "Senegal’s Bringing A Good Team And Some Nasty Vibes To The World Cup",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2256426315.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=224313",
+          "author": "Giri Nathan",
+          "description": "Three drop shots, three aces—that's a sequence that I'll never forget. Nineteen-year-old Joao Fonseca wrapped up his upset of Novak Djokovic in scandalous style. Friday's third-round match at Roland-Garros had the gravity of a classic final: the shot-making, the comeback from two sets down, the nearly five-hour span, and especially the intergenerational warfare, as the youth brought revolutionary firepower to bear on a historically great elder.\nDjokovic will never see a clearer path to major title No. 25. He had been advancing through a wide-open draw devoid of the two junior nemeses who finally managed to wrench the sport out of his hands: Carlos Alcaraz, out with injury, and Jannik Sinner, downed by cramps in the second round. Instead Djokovic was taken down early by a colossal talent from an even younger cohort. His perfect 18-0 record when playing teenage opponents at the majors ended when Fonseca polished off a 4-6, 4-6, 6-3, 7-5, 7-5 victory. It was only the second time in Djokovic's career that he had lost a match from two sets up.\nTennis arguably reveals an individual's composure under pressure with even higher fidelity than do team sports, because of the magic of shot selection. Every time a player sees the ball coming at him, only he can choose a reply. The bravery (or cowardice) of that choice will come to define him, both in that particular match and general reputation. Simply flip to \"Zverev, Alexander\" for the cautionary tale here. Fonseca was already known for his tendency to go big, and we'll never need more conclusive proof than his performance in the tensest moments of this match, played against a 39-year-old whose own mind has been tempered like steel over the last two decades, and who clearly delights in unraveling less experienced opponents.",
+          "link": "https://defector.com/joao-fonseca-has-created-more-chaos-at-the-french-open",
+          "publishedOn": "2026-06-01T19:11:24.000Z",
+          "wordCount": 7041,
+          "title": "Joao Fonseca Has Created More Chaos At The French Open",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2279111403-e1780335516675.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=224380",
+          "author": "Tom Ley",
+          "description": "Nick Bilton, the dumb, dull, and severely underqualified former tech journalist who is now running 60 Minutes at the behest of Bari Weiss, had his first meeting with his new colleagues on Monday. It ended with him more or less being chased out of the room.\nYou can tell a lot about how much a boss is hated by his colleagues based on how quickly the details of a specific staff meeting leak to the press. In this case, news of Bilton eating shit made its way to various media reporters pretty much as it was happening, and it wasn't long before The New York Times and other outlets had obtained full audio recordings of the meeting. The results are in: Everyone at 60 Minutes already hates this goof's guts.\nThe highlight of the meeting was a confrontation between Bilton and longtime 60 Minutes correspondent Scott Pelley. Pelley is instantly recognizable as the guy from the show who has a square jaw and stentorian voice, which makes him the ideal person to mix it up with a twerp like Bilton. This is a gravitas mismatch on par with James Harden finding himself switched onto Jalen Brunson in isolation.",
+          "link": "https://defector.com/boring-dunce-nick-bilton-hounded-out-of-first-meeting-with-60-minutes-staffers",
+          "publishedOn": "2026-06-01T18:53:19.000Z",
+          "wordCount": 4516,
+          "title": "Boring Dunce Nick Bilton Hounded Out Of First Meeting With ’60 Minutes’ Staffers",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-611482142_b116ae.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=224286",
+          "author": "Israel Daramola",
+          "description": "Going into the third season of Euphoria, the much-delayed, much-discussed, maybe final season of the hit HBO series, a friend roped me into catching up on the show's first two seasons. I had avoided the show during its initial run and the peak of its hype machine, mainly because the internet discourse had been so exhausting, ping-ponging between rational conversations about on-set mistreatment, exploitation of young actors, and the inflated ego of the nepo baby at the helm, to brain-melting conversations like \"Is the graphic depiction of the sex lives of minors OK when it's 25-year-olds playing teenagers?\" The series practically exists to trigger the worst kinds of online discussions imaginable, which, unsurprisingly, has helped it become HBO's biggest hit since Game of Thrones. It's the t…",
+          "link": "https://defector.com/rip-to-euphoria-hbos-dumbest-show",
+          "publishedOn": "2026-06-01T18:35:20.000Z",
+          "wordCount": 7611,
+          "title": "RIP To ‘Euphoria,’ HBO’s Dumbest Show",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/maude-apatow-and-zendaya-sit-on-top-of-laundry-machines-in-euphoria-season-3.avif.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=224273",
+          "author": "Alex Sujong Laughlin",
+          "description": "In my early twenties, a huge part of my job was to convince older journalists in my newsroom to use social media. This is the kind of job that only a young person could have, not just because of my total facility with the social media apps I was proselytizing, but also because only someone with the hubris of an undeveloped prefrontal cortex could summon the confidence to tell a Pulitzer Prize-winning critic that her journalism would be immeasurably improved by her posting on Snapchat. I sincerely believed that, by the way. \nI rarely managed to convince anyone to view social media as more than a chore; most of them saw it as a pedestrian medium that watered down ideas and discourse. It was a poison to our industry, a threat to everything they held dear. This was wild to me. The internet was clearly where the most interesting conversations were happening, and anyone who wanted to continue to have a career in media must accept that, and adapt. It turns out we were both right. \nI promised myself I would never become one of them. And then one year became 10, and I aged out of the demographic whose consumption habits drove the Next Big Thing. I think I first heard of video podcasts in 2018; my sister, who was in high school at the time, mentioned a podcast she “watched” and I laughed at the anachronism. But as the years passed, they went from a strange, niche idea to the dominant mode of the industry I’ve spent my entire career in.",
+          "link": "https://defector.com/try-hard-is-back-now-in-video-form",
+          "publishedOn": "2026-06-01T17:40:32.000Z",
+          "wordCount": 6109,
+          "title": "‘Try Hard’ Is Back, Now In Video Form",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/bonus-ep-youtube-thumbnail.png"
+        },
+        {
+          "id": "https://defector.com/?p=221906",
+          "author": "Patrick Redford",
+          "description": "It's almost time for the World Cup. Before the tournament, we'll be previewing each of the top 15 teams by FIFA rankings that made the tournament. Why the top 15? Because that's how many we needed to do in order for the USMNT to make the cut. \nThe story of the past decade of American soccer has been the eastward migration of the nation's best young players out of MLS purgatory and into the best teams and developmental academies in the world. That story is supposed to have a happy ending for the national team, or at least some positive plot developments. So far it has not, though the Jürgen Klinsmann prophecy has yet to be really tested. That's what's at stake in this 2026 World Cup: a resolution. One moment, one goal, one game goes your way, and everything is different. This is the competition that matters.",
+          "link": "https://defector.com/the-usmnt-is-still-stuck-in-the-middle",
+          "publishedOn": "2026-06-01T16:27:31.000Z",
+          "wordCount": 8443,
+          "title": "The USMNT Is Still Stuck In The Middle",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-2268368456.jpg"
+        },
         {
           "id": "https://defector.com/?p=224277",
           "author": "Nicholas Russell",
