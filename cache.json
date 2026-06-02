@@ -1452,6 +1452,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://list.orgmode.org/87y0h22b8c.fsf@gmail.com",
+          "author": null,
+          "description": "[request] flags:--- replies:0",
+          "link": "https://list.orgmode.org/87y0h22b8c.fsf@gmail.com",
+          "publishedOn": "2026-05-29T20:48:35.000Z",
+          "wordCount": 654,
+          "title": "Org Mode requests: [RFC] Make org-clock idle resolution prompts easier to read",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=13840",
           "author": null,
           "description": "global-auto-revert so that any file open in Emacs that gets changed by an external process has the changes reflected in the Emacs buffer.\n\n\nSometimes, though, you don’t want that to happen. Mbork gives the example of viewing a PDF file while LaTeX is updating it. The question is: how to prevent auto revert from updating certain modes.\n\n\nThat turns out to be pretty easy. As usual, Emacs has us covered. The global-auto-revert-ignore-modes variable lists all the modes that should be ignored by auto revert. You can check mbork’s post for the details but it’s really quite simple: you list the modes that auto revert should ignore and that’s it.\n\n\nThis is, really, a niche concern but if you have it, mbork’s post tells you how to avoid it.",
@@ -1670,26 +1680,6 @@
           "wordCount": 2557,
           "title": "Raymond Zeitler: Emacs -- It's Worth Revealing Oneself For",
           "imageUrl": null
-        },
-        {
-          "id": "https://jamesendreshowell.com/2026-05-23-match-emacs-and-gnome-light-dark-theme.html",
-          "author": null,
-          "description": "2026 May 23\n\nLight or dark? GNOME side\ncolor-scheme and you can set read and set it from the command line. You can read it from the command line (default light theme is called default)\n\n\n$ gsettings get org.gnome.desktop.interface color-scheme | tr -d \"'\"\ndefault\n\n\n\nand you can set it from the command line (default dark theme is called prefer-dark)\n\n\n$ gsettings set org.gnome.desktop.interface color-scheme prefer-dark\n\n\n\nwill change it to dark.\n\n\n\n(You can also set other preferred GNOME themes this way.)\n\n\n\n\nLight or dark? Emacs side\nProtesilaos has published a gazillion pretty themes, but I prefer his modus-themes for their visual simplicity and also for their UI amenities. For example you can set one light theme (modus-operandi family) and one dark theme (modus-vivendi family) and toggle…",
-          "link": "https://jamesendreshowell.com/2026-05-23-match-emacs-and-gnome-light-dark-theme.html",
-          "publishedOn": "2026-05-23T19:23:00.000Z",
-          "wordCount": 525,
-          "title": "James Endres Howell: Match Emacs and GNOME light/dark theme",
-          "imageUrl": "https://jamesendreshowell.com/static/education-of-james-endres-howell.png"
-        },
-        {
-          "id": "https://kelar.org/~bandali/life/thinking-with-prot.html",
-          "author": null,
-          "description": "Prot as a coach to help review\nmy new ffs package for GNU Emacs as I worked on preparing it for\ninclusion in GNU ELPA, as well as discussing other Emacs- and\nlife-related topics.\n\n\n\nIn our nearly 2-hour conversation, we discussed at length and in depth\nvarious aspects of life in the current times.  For instance, feeling\noverwhelmed in the face of innumerable things happening at once, with\ntechnology changing our perception and making events feel proximate\nand imminent.\n\n\n\nWe talked about seasonality and rhythms in life, including in relation\nto burnout and knowing our own limitations, and descriptive vs\nprescriptive thinking when reflecting on the expectations we may place\non our self when comparing our self to others through the lens of our\nnecessarily-incomplete impressions and glimpses …",
-          "link": "https://kelar.org/~bandali/life/thinking-with-prot.html",
-          "publishedOn": "2026-05-23T17:30:00.000Z",
-          "wordCount": 536,
-          "title": "Amin Bandali: Thinking about life - chat with Protesilaos",
-          "imageUrl": null
         }
       ]
     },
@@ -1698,6 +1688,16 @@
       "feedUrl": "https://thedemocraticstrategist.org/feed/",
       "siteUrl": "https://thedemocraticstrategist.org",
       "articles": [
+        {
+          "id": "https://thedemocraticstrategist.org/?p=39851",
+          "author": "J.P. Green",
+          "description": "In “James Talarico has an obligation to win. Ken Paxton is a terrible candidate, but don’t take anything for granted,” Matthew Yglesias writes at slowboring.com: “Ken Paxton defeated incumbent John Cornyn last week to become the G.O.P. nominee for a Texas U.S. Senate seat…This was one of those races where I wasn’t sure which outcome I... Read more »",
+          "link": "https://thedemocraticstrategist.org/2026/06/political-strategy-notes-973/",
+          "publishedOn": "2026-06-02T05:17:05.000Z",
+          "wordCount": 3006,
+          "title": "Political Strategy Notes",
+          "imageUrl": null
+        },
         {
           "id": "https://thedemocraticstrategist.org/?p=39848",
           "author": "staff",
