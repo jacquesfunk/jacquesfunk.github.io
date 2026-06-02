@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-06-01T23:26:28.605Z</updated>
+    <updated>2026-06-02T03:52:33.632Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Charles Choi: Opening macOS Finder Folders in Emacs with Scrim]]></title>
+        <id>http://yummymelon.com/devnull/opening-macos-finder-folders-in-emacs-with-scrim.html</id>
+        <link href="http://yummymelon.com/devnull/opening-macos-finder-folders-in-emacs-with-scrim.html"/>
+        <updated>2026-06-02T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR
+If you use both Scrim and Emacs on macOS, you can “Open in Emacs” a file or directory from Finder via the “Quick Actions” context menu. This is implemented as a macOS Shortcut, shared as an iCloud link:
+“Open in Emacs” Shortcut iCloud Link
+Motivation
+I find macOS drag-and-drop operations from Finder to Emacs (in particular, the NS variant) to be frustratingly inconsistent.
+Dragging a file or folder from Finder to a non-Dired buffer will visit it.
+Not always! This behavior can be mode-specific.
+Dragging a file or folder from Finder to a Dired buffer will copy it.
+Dragging a file or folder from Finder to the Emacs icon in the Dock will visit it in a new frame.
+Add to that, drag-and-drop isn’t graceful with a long traversal path on a large screen.
+Ultimately, what I want is a single con…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On The Weeknight, Angelo Carusone discusses the conservative takeover of media infrastructure]]></title>
+        <id>82e9b89d-ea98-4e36-a197-5794d46b80b3</id>
+        <link href="https://www.mediamatters.org/angelo-carusone/weeknight-angelo-carusone-discusses-conservative-takeover-media-infrastructure"/>
+        <updated>2026-06-02T01:08:09.000Z</updated>
+        <author>
+            <name>Media Matters for America</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Could Trump's White House UFC fight get derailed by scary bugs?Rex Huppke]]></title>
         <id>https://www.usatoday.com/story/opinion/columnist/2026/06/01/ufc-white-house-bugs-dana-white/90347036007/-full</id>
@@ -631,6 +660,56 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         <summary type="html"><![CDATA[The justices have 26 cases outstanding. Even the best-case scenario isn't great. Also: Trump's slush fund "settlement" is getting court scrutiny. And, for paid subscribers: Closing my tabs.]]></summary>
         <author>
             <name>Chris Geidner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amin Bandali: Free software activities in May 2026]]></title>
+        <id>https://kelar.org/~bandali/news/fsa-202605.html</id>
+        <link href="https://kelar.org/~bandali/news/fsa-202605.html"/>
+        <updated>2026-06-01T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[GNU & FSF
+GNU Emacs:
+
+
+ffs-0.2.2: I finally polished and published my ffs package for
+GNU Emacs on GNU ELPA.  Many thanks to Protesilaos for rounds of
+code review and feedback for improving and polishing the package
+in preparation for submission to GNU ELPA.
+bug#81101: Trying to visit https://www.emacswiki.org in EWW
+I noticed it fails with a Somebody wants you to give them money
+error due to the anti-bot challenge being served with a HTTP 402
+(Payment Required) response.  So I landed a patch 12eec781ed6 to
+no longer do that.  Thanks to Emacs comaintainer Sean Whitton
+for reviewing and approving my proposed patch.
+bug#81107: I noticed that in EWW, unlike <input type="submit">
+HTML buttons, <button> elements were not tab-stoppable, leading
+to poorer usability and accessibility.  So I landed a patch
+ec3d662de0b to fix that.  Thanks to Emacs comaintainer Eli
+Zaretskii for reviewing, providing feedback, and accepting my
+proposed change.
+Emacs Chat with Sacha Chua: I joined Sacha for a new episode of
+her Emacs Chat podcast, where we talked about Emacs and life.
+I gave a quick tour of my Emacs configuration, discussing at
+length my configurations for EXWM (Emacs X Window Manager) among
+other topics like Emacs's facility for visually indicating buffer
+boundaries in the fringe by setting indicate-buffer-boundaries
+and my convenience configuration macros.
+
+
+maintainers@: I started the next long-overdue round of emails to GNU
+package maintainers to confirm the contact information we have on
+file for them and get a brief status update about their packages.
+Emails are sent in small batches to keep the workload of handling
+the responses manageable for assistant GNUisances.
+GNU Spotlight: I prepared and sent the May GNU Spotlight to the FSF
+campaigns team for publication on the FSF's community blog and the
+monthly Free Software Supporter newsletter.
+Debian
+#1120837: ITP: expected-lite – expected objects for C++11 and later
+#1137609: ITP: sobjectizer – C++ implementation of Actor,
+Publish-Subscribe, and CSP models]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -5246,149 +5325,6 @@ on our self when comparing our self to others through the lens of our
 necessarily-incomplete impressions and glimpses …]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Giving RSI The Thumb]]></title>
-        <id>https://irreal.org/blog/?p=13827</id>
-        <link href="https://irreal.org/blog/?p=13827"/>
-        <updated>2026-05-23T15:07:47.000Z</updated>
-        <summary type="html"><![CDATA[thinks that one-shot modifiers are the answer. Others recommend using a split keyboard or simply mapping Caps Lock to Ctrl.
-
-
-A post over at meanwhiling has another suggestion: use your thumbs. That’s also familiar advice but the post goes into specific details. Those details, in a nutshell, are to map the two keys nearest to either side of the space bar to Ctrl and the two keys next to those to Meta.
-
-
-That setup has the advantages that
-
-
-Both the Ctrl and Meta keys can be pressed with a thumb
-There is a Ctrl and Meta key on both sides of the keyboard so you never have to press the modifier and target key with the same hand.
-Hyper and Super. I use both of those, especially Hyper, all the time so I need them easily accessible. That’s made easier for me because I don’t mind using the same hand for the modifier and target keys. I still use Caps Lock for Ctrl and my thumbs for everything else. If my pinky ever starts complaining about Ctrl I’ll probably just swap Ctrl and Super. I’d do that anyway except for muscle memory and the fact that my hands don’t hurt.
-
-
-I do think using your thumbs for your most used modifiers make sense and modern keyboards make that pretty easy to set up.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[this week in stupid: May 23 edition]]></title>
-        <id>https://www.jefftiedrich.com/p/this-week-in-stupid-may-23-edition</id>
-        <link href="https://www.jefftiedrich.com/p/this-week-in-stupid-may-23-edition"/>
-        <updated>2026-05-23T14:49:17.000Z</updated>
-        <summary type="html"><![CDATA[Jesus stops it, Donny flops it, and so much more...]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Roundup: Great News That’s Bad For Trump]]></title>
-        <id>https://www.dworkinsubstack.com/p/roundup-great-news-thats-bad-for</id>
-        <link href="https://www.dworkinsubstack.com/p/roundup-great-news-thats-bad-for"/>
-        <updated>2026-05-23T14:18:50.000Z</updated>
-        <summary type="html"><![CDATA[The week’s 8 biggest wins]]></summary>
-        <author>
-            <name>Scott Dworkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5-Nugget Saturday, May 23, 2026]]></title>
-        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1h7dz7yfmjlgs6n3fofh.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1h7dz7yfmjlgs6n3fofh.html"/>
-        <updated>2026-05-23T14:01:37.887Z</updated>
-        <summary type="html"><![CDATA[body,a{word-break:break-word;}.feed__title a{text-decoration:underline;}img[data-emoji]{height:1.2em;width:1.2em;vertical-align:middle;}table{border-collapse:collapse;}.headline h1,.paragraph h1,.text-element h1{line-height:1.5;margin:0.5em 0;}.headline h2,.paragraph h2,.text-element h2{line-height:1.5;margin:0.5em 0;}.headline h3,.paragraph h3,.text-element h3{line-height:1.5;margin:0.5em 0;}.headline h4,.paragraph h4,.text-element h4{font-size:20px;line-height:1.5;margin:0.5em
-0;}.headline h5,.paragraph h5,.text-element h5{font-size:18px;line-height:1.5;margin:0.5em 0;}.headline h6,.paragraph h6,.text-element h6{font-size:16px;line-height:1.5;margin:0.5em 0;}.headline p,.paragraph p,.text-element p{line-height:1.5;margin:0;}.headline div,.paragraph div,.text-element div{line-height:1.5;m…]]></summary>
-        <author>
-            <name>Misc Newsletters</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Experience India with The Nation]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/a64xvqhlwpsmw5y3zmtw.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/a64xvqhlwpsmw5y3zmtw.html"/>
-        <updated>2026-05-23T14:00:10.764Z</updated>
-        <summary type="html"><![CDATA[96
-
-*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}#converted-body .list_block ol,#converted-body .list_block ul,.body [class~=x_list_block] ol,.body [class~=x_list_block] ul,u+.body .list_block ol,u+.body .list_block ul{padding-left:20px} @media (max-width:620px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[America’s 911 system is in the throes of its own emergency]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/so1qdvhie8oo7329lmud.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/so1qdvhie8oo7329lmud.html"/>
-        <updated>2026-05-23T12:15:59.459Z</updated>
-        <summary type="html"><![CDATA[96
-            
-        
-        
-        
-        
-        
-        America’s 911 system is in the throes of its own emergency
-
-    
-		p{
-			margin:10px 0;
-			padding:0;
-		}
-		table{
-			border-collapse:collapse;
-		}
-		h1,h2,h3,h4,h5,h6{
-			display:block;
-			margin:0;
-			padding:0;
-		}
-		img,a img{
-			border:0;
-			height:auto;
-			outline:none;
-			text-decoration:none;
-		}
-		body,#bodyTable,#bodyCell{
-			height:100%;
-			margin:0;
-			padding:0;
-			width:100%;
-		}
-		.mcnPreviewText{
-			display:none !important;
-		}
-		#outlook a{
-			padding:0;
-		}
-		img{
-			-ms-interpolation-mode:bicubic;
-		}
-		table{
-			mso-table-lspace:0pt;
-			mso-table-rspace:0pt;
-		}
-		.ReadMsgBody{
-			width:100%;
-		}
-		.ExternalClass{
-			width:100%;
-		}
-		p,a,li,td,blockquote{
-			mso-line-height-rule:exactly;
-		}
-		a[href^…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What’s Going on With Trump’s Big Fascistic Arch Near the National Mall?]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/1vuxtdf9tmtmxi9tirk4.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/1vuxtdf9tmtmxi9tirk4.html"/>
-        <updated>2026-05-23T12:01:27.408Z</updated>
-        <summary type="html"><![CDATA[What’s Going on With Trump’s Big Fascistic Arch Near the National Mall?#outlook a { padding:0; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0 !important; } .nl2go_preheader { display: none !important; mso-hide:all !important; mso-line-height-rule: exactly; visibility: hidden !important; line-height: 0px !important; font-size: 0px !important; } body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; } a img { border…]]></summary>
-        <author>
-            <name>Current Events</name>
         </author>
     </entry>
 </feed>

@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-06-01 datetime="2026-06-01T23:26:01.037Z">2026-06-01</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-06-01 datetime="2026-06-01T23:26:01.037Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-06-01 datetime="2026-06-02T02:00:00.000Z">2026-06-01</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-06-01 datetime="2026-06-02T02:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -34,27 +34,204 @@
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Rex Huppke | USA TODAY</button>
-                  <a class="source-heading__link" href="https://www.usatoday.com/staff/6878775001/rex-huppke/">Open</a>
+                  >Planet Emacslife</button>
+                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.usatoday.com/story/opinion/columnist/2026/06/01/ufc-white-house-bugs-dana-white/90347036007/-full"
+                        data-accordion-key="http://yummymelon.com/devnull/opening-macos-finder-folders-in-emacs-with-scrim.html"
                         open
                       >
-                        <summary class="article-expander__title">Could Trump&#x27;s White House UFC fight get derailed by scary bugs?Rex Huppke</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.usatoday.com/story/opinion/columnist/2026/06/01/ufc-white-house-bugs-dana-white/90347036007/">
+                        <summary class="article-expander__title">Charles Choi: Opening macOS Finder Folders in Emacs with Scrim</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://yummymelon.com/devnull/opening-macos-finder-folders-in-emacs-with-scrim.html">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/26/USAT/90261787007-2270432351.jpg?crop&#x3D;2576,1449,x857,y389&amp;width&#x3D;2576&amp;height&#x3D;1449&amp;format&#x3D;pjpg&amp;auto&#x3D;webp" loading="lazy" class="media-object__media article-image" />
+                              <img src="http://yummymelon.com/devnull/images/opengraph-default.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>The upcoming White House UFC fight will feature some manly mixed-martial-arts men and man-o-sphere macho maniacs who, in a world of beta men, fear nothing. 
-Well, almost nothing. Turns out they’re a little afraid of bugs.
-Dana White, noted tough guy and head of the Ultimate Fighting Championship, recently said he’s concerned about the event, which falls on Trump’s June 14 birthday. (Maybe the president will have a bouncy house there as well!)
-White isn’t worried about strong men clobbering the snot out of each other in an octagonal cage. No, he said, a recent visit to the Rose Garden with the president showed him something truly scary: “He invited me to dinner there. The amount of gnats that are flying around, I&#x27;m like, &#x27;Holy (expletive).&#x27; As soon as I got on the plane, I got on the phone …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
+                              <span>TL;DR
+If you use both Scrim and Emacs on macOS, you can “Open in Emacs” a file or directory from Finder via the “Quick Actions” context menu. This is implemented as a macOS Shortcut, shared as an iCloud link:
+“Open in Emacs” Shortcut iCloud Link
+Motivation
+I find macOS drag-and-drop operations from Finder to Emacs (in particular, the NS variant) to be frustratingly inconsistent.
+Dragging a file or folder from Finder to a non-Dired buffer will visit it.
+Not always! This behavior can be mode-specific.
+Dragging a file or folder from Finder to a Dired buffer will copy it.
+Dragging a file or folder from Finder to the Emacs icon in the Dock will visit it in a new frame.
+Add to that, drag-and-drop isn’t graceful with a long traversal path on a large screen.
+Ultimately, what I want is a single con…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://sachachua.com/blog/2026/06/transcript-of-chat-with-matei-candea-about-emacs-and-ai/"
+                        open
+                      >
+                        <summary class="article-expander__title">Sacha Chua: Transcript of chat with Matei Candea about Emacs and AI</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://sachachua.com/blog/2026/06/transcript-of-chat-with-matei-candea-about-emacs-and-ai/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>AI and scholarship: a manifesto | University of Cambridge
+Emacs and Vim in the Age of AI | (think)
+The Emacsification of Software — Quarrelsome (HN)
+The Lisp Curse
+EmacsConf
+EmacsWiki: Usergroups
+Emacs calendar
+
+
+Matei is an anthropologist; ethnographic research
+
+Matei:  I&#x27;m an anthropologist. What I actually do for work is to do ethnographic research, to interview people. I&#x27;ve written a lot about scientific communities. For instance, I&#x27;ve written articles on behavioral scientists who work with animals and how they think about knowledge and technology and stuff. Completely independently of that, I kind of got into Emacs and got really excited. About four years later, I was, like, wait a minute, why don&#x27;t I do an ethnography of Emacs as a community? 
+Sacha:  Really cool people. 
+Matei:  Rig…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;29
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://sachachua.com/blog/2026/05/emacs-carnival-may-2026-may-i-recommend/"
+                        open
+                      >
+                        <summary class="article-expander__title">Sacha Chua: Emacs Carnival May 2026 wrap-up: &quot;May I recommend...&quot;</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://sachachua.com/blog/2026/05/emacs-carnival-may-2026-may-i-recommend/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>[2026-06-01 Mon]: Thanks to everyone who participated! I&#x27;ve included the links below.
+
+
+
+
+
+It&#x27;s May and I like puns, so I&#x27;m going to suggest &quot;May I
+recommend…&quot; as our Emacs Carnival theme this month, building on
+lively conversations about people&#x27;s favourite packages on lobste.rs,
+Reddit, and Hacker News. Let&#x27;s go beyond packages and talk workflows,
+tips, practices, perspectives… whatever you&#x27;d recommend!
+
+
+
+It was pretty nice having a wiki page that people could edit without
+needing to wait for me, so if you write about this topic, feel free to
+edit the wiki page and add your link. If you run into problems doing
+that, please e-mail me and I can add the link for you.
+
+
+
+People have already started sharing their recommendations:
+
+
+
+May Emacs Carnival, Carlos Pajuelo
+May I Recommend EWM, Dilip
+What we talk about when we talk about recommending Emacs packages, David Dimagid
+May I recommend… escaping the minibuffer, Alessio Vanni
+May I recommend… vibemacsing?, by Giampaolo Guiducci
+May I recommend… to only add items to your init files you understand and document?, by MartinStemplinger
+May I recommend… Stop messing around and get work done., by Curtis McHale
+May I recommend declaring bankruptcy from time to time, by Case Duckworth
+May I recommend eww for Emacs&#x27;s innovative UI?, by Omar Antolín Camarena
+May I recommend… understanding Emacs&#x27;s patterns, by Charlie Holland
+May I recommend using your thumbs on Meanwhiling
+May I recommend thinking of Emacs as your Fortress of Solitude, by Martin Sosic
+Sacha and Prot Talk Emacs: May I Recommend…
+May I recommend… Treating Emacs as Emacs, by SouthFox
+May I recommend: lesser known org-modes, by tusharhero
+May I Recommend: org2blog, journaling &amp; reading hacks, by Wenshan Ren
+May I recommend… less stretching for your common commands, by Neil M
+View Org source for this post
+You can e-mail me at sacha@sachachua.com.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13846"
+                        open
+                      >
+                        <summary class="article-expander__title">Irreal: My Growing Appreciation For EWW</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13846">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>using EWW to avoid paywalls and my experiments to see if it really worked. As I reported, it did in a surprising number of cases. But as I also wrote, I’m not that interested in avoiding paywalls so I didn’t expect to get much out of the experiment other than satisfying my idle curiosity.
+
+
+It turns out though that I discovered using EWW could be very restful. As I wrote in that last post,
+
+
+
+The other thing I learned is that reading content with EWW can be a very restful experience. No ads, no blinkenlights, and sometimes, no paywall either. I didn’t try running EWW with eww-readable but that would probably make the experience even more restful.
+
+
+
+My normal procedure is to read my feeds with Elfeed—the world’s best RSS reader—and to display the original Web page in the same buffer with elfeed-webkit. That gives me a browser like view of the page. The problem is, my ad blocker doesn’t work with elfeed-webkit so I get all the trash and abuse one gets with a default page load1.
+
+
+During my experiment I discovered that calling EWW when a site gets out of control is an excellent solution. The latest version of elfeed makes this easy so if I site becomes too obnoxious, I simply switch to EWW and invoke eww-readable with R to provide a quiet and restful wall of text (complete with the accompanying pictures).
+
+
+It’s amazing how much junk we just take for granted when all we want to do is read an article or post. EWW takes away a lot of the sting. No, it’s still not going to replace the browser but it’s an excellent companion to it.
+
+
+Footnotes: 
+1 
+
+
+
+John Gruber has an excellent screed on one part of this default behavior. There are plenty of others.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://sachachua.com/blog/2026/06/2026-06-01-emacs-news/"
+                        open
+                      >
+                        <summary class="article-expander__title">Sacha Chua: 2026-06-01 Emacs news</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://sachachua.com/blog/2026/06/2026-06-01-emacs-news/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>May I recommend&quot;, very cool! Looking for something to write about next? Check out the June theme Underappreciated Emacs Built-ins hosted by Ross A. Baker.
+
+
+
+Help wanted:
+
+elfeed getting ready for 4.0 release, bug reports welcome (@minad@mastodon.world)
+Help wanted: testing canvas patch on Windows and Mac OS (@divyaranjan@mathstodon.xyz)
+
+Upcoming events (iCal file, Org):
+
+Emacs.si (in person): Emacs.si meetup #6 2026 (v #živo) https://dogodki.kompot.si/events/67d716c3-6c04-4530-9c1a-f67aa44d31bc Mon Jun 1 1900 CET
+Emacs Paris: S: Emacs workshop in Paris (online) https://emacs-doctor.com/ Thu Jun 4 0830 America/Vancouver - 1030 America/Chicago - 1130 America/Toronto - 1530 Etc/GMT - 1730 Europe/Berlin - 2100 Asia/Kolkata - 2330 Asia/Singapore
+EmacsATX: Emacs Social https://www.meetup.com/e…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -75,6 +252,26 @@ White isn’t worried about strong men clobbering the snot out of each other in 
                   <a class="source-heading__link" href="https://www.mediamatters.org/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="82e9b89d-ea98-4e36-a197-5794d46b80b3"
+                        open
+                      >
+                        <summary class="article-expander__title">On The Weeknight, Angelo Carusone discusses the conservative takeover of media infrastructure</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.mediamatters.org/angelo-carusone/weeknight-angelo-carusone-discusses-conservative-takeover-media-infrastructure">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.mediamatters.org/sites/default/files/MSNOWHD_The%20Weeknight_2026-06-01-07_00_01-PM.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -269,6 +466,43 @@ White isn’t worried about strong men clobbering the snot out of each other in 
                             <span class="media-object__text">
                               <span>No content preview</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Rex Huppke | USA TODAY</button>
+                  <a class="source-heading__link" href="https://www.usatoday.com/staff/6878775001/rex-huppke/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.usatoday.com/story/opinion/columnist/2026/06/01/ufc-white-house-bugs-dana-white/90347036007/-full"
+                        open
+                      >
+                        <summary class="article-expander__title">Could Trump&#x27;s White House UFC fight get derailed by scary bugs?Rex Huppke</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.usatoday.com/story/opinion/columnist/2026/06/01/ufc-white-house-bugs-dana-white/90347036007/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/26/USAT/90261787007-2270432351.jpg?crop&#x3D;2576,1449,x857,y389&amp;width&#x3D;2576&amp;height&#x3D;1449&amp;format&#x3D;pjpg&amp;auto&#x3D;webp" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The upcoming White House UFC fight will feature some manly mixed-martial-arts men and man-o-sphere macho maniacs who, in a world of beta men, fear nothing. 
+Well, almost nothing. Turns out they’re a little afraid of bugs.
+Dana White, noted tough guy and head of the Ultimate Fighting Championship, recently said he’s concerned about the event, which falls on Trump’s June 14 birthday. (Maybe the president will have a bouncy house there as well!)
+White isn’t worried about strong men clobbering the snot out of each other in an octagonal cage. No, he said, a recent visit to the Rose Garden with the president showed him something truly scary: “He invited me to dinner there. The amount of gnats that are flying around, I&#x27;m like, &#x27;Holy (expletive).&#x27; As soon as I got on the plane, I got on the phone …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -662,190 +896,6 @@ Defector crosswords, launched in partnership with our friends at AVCX, run ever
 It’s been a long time since the Knicks have gotten this close to a ring. An awful long time, with an awful lot of awful teams. And Dolan, who has controlled day-to-day operations of the organization since the turn of the century, has been blamed for the last two-and-a-half decades of that awfulness. That means that John Madden&#x27;s alleged description of winning as a &quot;great deodorant” could soon be put to a test. Because few owners in sports have stunk like Dolan.
 There aren&#x27;t enough pixels to retell everything Dolan did along the way to becoming an enemy of his own team’s fans. But any list of his ungreatest hits would include:</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;25
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Emacslife</button>
-                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://sachachua.com/blog/2026/06/transcript-of-chat-with-matei-candea-about-emacs-and-ai/"
-                        open
-                      >
-                        <summary class="article-expander__title">Sacha Chua: Transcript of chat with Matei Candea about Emacs and AI</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://sachachua.com/blog/2026/06/transcript-of-chat-with-matei-candea-about-emacs-and-ai/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>AI and scholarship: a manifesto | University of Cambridge
-Emacs and Vim in the Age of AI | (think)
-The Emacsification of Software — Quarrelsome (HN)
-The Lisp Curse
-EmacsConf
-EmacsWiki: Usergroups
-Emacs calendar
-
-
-Matei is an anthropologist; ethnographic research
-
-Matei:  I&#x27;m an anthropologist. What I actually do for work is to do ethnographic research, to interview people. I&#x27;ve written a lot about scientific communities. For instance, I&#x27;ve written articles on behavioral scientists who work with animals and how they think about knowledge and technology and stuff. Completely independently of that, I kind of got into Emacs and got really excited. About four years later, I was, like, wait a minute, why don&#x27;t I do an ethnography of Emacs as a community? 
-Sacha:  Really cool people. 
-Matei:  Rig…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;29
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://sachachua.com/blog/2026/05/emacs-carnival-may-2026-may-i-recommend/"
-                        open
-                      >
-                        <summary class="article-expander__title">Sacha Chua: Emacs Carnival May 2026 wrap-up: &quot;May I recommend...&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://sachachua.com/blog/2026/05/emacs-carnival-may-2026-may-i-recommend/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>[2026-06-01 Mon]: Thanks to everyone who participated! I&#x27;ve included the links below.
-
-
-
-
-
-It&#x27;s May and I like puns, so I&#x27;m going to suggest &quot;May I
-recommend…&quot; as our Emacs Carnival theme this month, building on
-lively conversations about people&#x27;s favourite packages on lobste.rs,
-Reddit, and Hacker News. Let&#x27;s go beyond packages and talk workflows,
-tips, practices, perspectives… whatever you&#x27;d recommend!
-
-
-
-It was pretty nice having a wiki page that people could edit without
-needing to wait for me, so if you write about this topic, feel free to
-edit the wiki page and add your link. If you run into problems doing
-that, please e-mail me and I can add the link for you.
-
-
-
-People have already started sharing their recommendations:
-
-
-
-May Emacs Carnival, Carlos Pajuelo
-May I Recommend EWM, Dilip
-What we talk about when we talk about recommending Emacs packages, David Dimagid
-May I recommend… escaping the minibuffer, Alessio Vanni
-May I recommend… vibemacsing?, by Giampaolo Guiducci
-May I recommend… to only add items to your init files you understand and document?, by MartinStemplinger
-May I recommend… Stop messing around and get work done., by Curtis McHale
-May I recommend declaring bankruptcy from time to time, by Case Duckworth
-May I recommend eww for Emacs&#x27;s innovative UI?, by Omar Antolín Camarena
-May I recommend… understanding Emacs&#x27;s patterns, by Charlie Holland
-May I recommend using your thumbs on Meanwhiling
-May I recommend thinking of Emacs as your Fortress of Solitude, by Martin Sosic
-Sacha and Prot Talk Emacs: May I Recommend…
-May I recommend… Treating Emacs as Emacs, by SouthFox
-May I recommend: lesser known org-modes, by tusharhero
-May I Recommend: org2blog, journaling &amp; reading hacks, by Wenshan Ren
-May I recommend… less stretching for your common commands, by Neil M
-View Org source for this post
-You can e-mail me at sacha@sachachua.com.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13846"
-                        open
-                      >
-                        <summary class="article-expander__title">Irreal: My Growing Appreciation For EWW</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13846">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>using EWW to avoid paywalls and my experiments to see if it really worked. As I reported, it did in a surprising number of cases. But as I also wrote, I’m not that interested in avoiding paywalls so I didn’t expect to get much out of the experiment other than satisfying my idle curiosity.
-
-
-It turns out though that I discovered using EWW could be very restful. As I wrote in that last post,
-
-
-
-The other thing I learned is that reading content with EWW can be a very restful experience. No ads, no blinkenlights, and sometimes, no paywall either. I didn’t try running EWW with eww-readable but that would probably make the experience even more restful.
-
-
-
-My normal procedure is to read my feeds with Elfeed—the world’s best RSS reader—and to display the original Web page in the same buffer with elfeed-webkit. That gives me a browser like view of the page. The problem is, my ad blocker doesn’t work with elfeed-webkit so I get all the trash and abuse one gets with a default page load1.
-
-
-During my experiment I discovered that calling EWW when a site gets out of control is an excellent solution. The latest version of elfeed makes this easy so if I site becomes too obnoxious, I simply switch to EWW and invoke eww-readable with R to provide a quiet and restful wall of text (complete with the accompanying pictures).
-
-
-It’s amazing how much junk we just take for granted when all we want to do is read an article or post. EWW takes away a lot of the sting. No, it’s still not going to replace the browser but it’s an excellent companion to it.
-
-
-Footnotes: 
-1 
-
-
-
-John Gruber has an excellent screed on one part of this default behavior. There are plenty of others.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://sachachua.com/blog/2026/06/2026-06-01-emacs-news/"
-                        open
-                      >
-                        <summary class="article-expander__title">Sacha Chua: 2026-06-01 Emacs news</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://sachachua.com/blog/2026/06/2026-06-01-emacs-news/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>May I recommend&quot;, very cool! Looking for something to write about next? Check out the June theme Underappreciated Emacs Built-ins hosted by Ross A. Baker.
-
-
-
-Help wanted:
-
-elfeed getting ready for 4.0 release, bug reports welcome (@minad@mastodon.world)
-Help wanted: testing canvas patch on Windows and Mac OS (@divyaranjan@mathstodon.xyz)
-
-Upcoming events (iCal file, Org):
-
-Emacs.si (in person): Emacs.si meetup #6 2026 (v #živo) https://dogodki.kompot.si/events/67d716c3-6c04-4530-9c1a-f67aa44d31bc Mon Jun 1 1900 CET
-Emacs Paris: S: Emacs workshop in Paris (online) https://emacs-doctor.com/ Thu Jun 4 0830 America/Vancouver - 1030 America/Chicago - 1130 America/Toronto - 1530 Etc/GMT - 1730 Europe/Berlin - 2100 Asia/Kolkata - 2330 Asia/Singapore
-EmacsATX: Emacs Social https://www.meetup.com/e…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1275,6 +1325,65 @@ The president regularly nods off on camera during public meetings. He appeared 
                   <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kelar.org/~bandali/news/fsa-202605.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Amin Bandali: Free software activities in May 2026</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kelar.org/~bandali/news/fsa-202605.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>GNU &amp; FSF
+GNU Emacs:
+
+
+ffs-0.2.2: I finally polished and published my ffs package for
+GNU Emacs on GNU ELPA.  Many thanks to Protesilaos for rounds of
+code review and feedback for improving and polishing the package
+in preparation for submission to GNU ELPA.
+bug#81101: Trying to visit https://www.emacswiki.org in EWW
+I noticed it fails with a Somebody wants you to give them money
+error due to the anti-bot challenge being served with a HTTP 402
+(Payment Required) response.  So I landed a patch 12eec781ed6 to
+no longer do that.  Thanks to Emacs comaintainer Sean Whitton
+for reviewing and approving my proposed patch.
+bug#81107: I noticed that in EWW, unlike 
+HTML buttons,  elements were not tab-stoppable, leading
+to poorer usability and accessibility.  So I landed a patch
+ec3d662de0b to fix that.  Thanks to Emacs comaintainer Eli
+Zaretskii for reviewing, providing feedback, and accepting my
+proposed change.
+Emacs Chat with Sacha Chua: I joined Sacha for a new episode of
+her Emacs Chat podcast, where we talked about Emacs and life.
+I gave a quick tour of my Emacs configuration, discussing at
+length my configurations for EXWM (Emacs X Window Manager) among
+other topics like Emacs&#x27;s facility for visually indicating buffer
+boundaries in the fringe by setting indicate-buffer-boundaries
+and my convenience configuration macros.
+
+
+maintainers@: I started the next long-overdue round of emails to GNU
+package maintainers to confirm the contact information we have on
+file for them and get a brief status update about their packages.
+Emails are sent in small batches to keep the workload of handling
+the responses manageable for assistant GNUisances.
+GNU Spotlight: I prepared and sent the May GNU Spotlight to the FSF
+campaigns team for publication on the FSF&#x27;s community blog and the
+monthly Free Software Supporter newsletter.
+Debian
+#1120837: ITP: expected-lite – expected objects for C++11 and later
+#1137609: ITP: sobjectizer – C++ implementation of Actor,
+Publish-Subscribe, and CSP models</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -9947,266 +10056,6 @@ necessarily-incomplete impressions and glimpses …</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13827"
-                        open
-                      >
-                        <summary class="article-expander__title">Irreal: Giving RSI The Thumb</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13827">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>thinks that one-shot modifiers are the answer. Others recommend using a split keyboard or simply mapping Caps Lock to Ctrl.
-
-
-A post over at meanwhiling has another suggestion: use your thumbs. That’s also familiar advice but the post goes into specific details. Those details, in a nutshell, are to map the two keys nearest to either side of the space bar to Ctrl and the two keys next to those to Meta.
-
-
-That setup has the advantages that
-
-
-Both the Ctrl and Meta keys can be pressed with a thumb
-There is a Ctrl and Meta key on both sides of the keyboard so you never have to press the modifier and target key with the same hand.
-Hyper and Super. I use both of those, especially Hyper, all the time so I need them easily accessible. That’s made easier for me because I don’t mind using the same hand for the modifier and target keys. I still use Caps Lock for Ctrl and my thumbs for everything else. If my pinky ever starts complaining about Ctrl I’ll probably just swap Ctrl and Super. I’d do that anyway except for muscle memory and the fact that my hands don’t hurt.
-
-
-I do think using your thumbs for your most used modifiers make sense and modern keyboards make that pretty easy to set up.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >everyone is entitled to my own opinion</button>
-                  <a class="source-heading__link" href="https://www.jefftiedrich.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.jefftiedrich.com/p/this-week-in-stupid-may-23-edition"
-                        open
-                      >
-                        <summary class="article-expander__title">this week in stupid: May 23 edition</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.jefftiedrich.com/p/this-week-in-stupid-may-23-edition">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substackcdn.com/image/fetch/$s_!PvDZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81686b08-0880-4e66-a915-0bebed516bc7_606x361.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Jesus stops it, Donny flops it, and so much more...</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Dworkin Report</button>
-                  <a class="source-heading__link" href="https://www.dworkinsubstack.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.dworkinsubstack.com/p/roundup-great-news-thats-bad-for"
-                        open
-                      >
-                        <summary class="article-expander__title">Roundup: Great News That’s Bad For Trump</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dworkinsubstack.com/p/roundup-great-news-thats-bad-for">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substack-post-media.s3.amazonaws.com/public/images/f5c08de9-3842-4baf-a7ff-dfa67693e2ca_1200x628.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The week’s 8 biggest wins</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Misc Newsletters</button>
-                  <a class="source-heading__link" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1h7dz7yfmjlgs6n3fofh.html"
-                        open
-                      >
-                        <summary class="article-expander__title">5-Nugget Saturday, May 23, 2026</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1h7dz7yfmjlgs6n3fofh.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>body,a{word-break:break-word;}.feed__title a{text-decoration:underline;}img[data-emoji]{height:1.2em;width:1.2em;vertical-align:middle;}table{border-collapse:collapse;}.headline h1,.paragraph h1,.text-element h1{line-height:1.5;margin:0.5em 0;}.headline h2,.paragraph h2,.text-element h2{line-height:1.5;margin:0.5em 0;}.headline h3,.paragraph h3,.text-element h3{line-height:1.5;margin:0.5em 0;}.headline h4,.paragraph h4,.text-element h4{font-size:20px;line-height:1.5;margin:0.5em
-0;}.headline h5,.paragraph h5,.text-element h5{font-size:18px;line-height:1.5;margin:0.5em 0;}.headline h6,.paragraph h6,.text-element h6{font-size:16px;line-height:1.5;margin:0.5em 0;}.headline p,.paragraph p,.text-element p{line-height:1.5;margin:0;}.headline div,.paragraph div,.text-element div{line-height:1.5;m…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Current Events</button>
-                  <a class="source-heading__link" href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/a64xvqhlwpsmw5y3zmtw.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Experience India with The Nation</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/a64xvqhlwpsmw5y3zmtw.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>96
-
-*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}#converted-body .list_block ol,#converted-body .list_block ul,.body [class~&#x3D;x_list_block] ol,.body [class~&#x3D;x_list_block] ul,u+.body .list_block ol,u+.body .list_block ul{padding-left:20px} @media (max-width:620px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/so1qdvhie8oo7329lmud.html"
-                        open
-                      >
-                        <summary class="article-expander__title">America’s 911 system is in the throes of its own emergency</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/so1qdvhie8oo7329lmud.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>96
-            
-        
-        
-        
-        
-        
-        America’s 911 system is in the throes of its own emergency
-
-    
-		p{
-			margin:10px 0;
-			padding:0;
-		}
-		table{
-			border-collapse:collapse;
-		}
-		h1,h2,h3,h4,h5,h6{
-			display:block;
-			margin:0;
-			padding:0;
-		}
-		img,a img{
-			border:0;
-			height:auto;
-			outline:none;
-			text-decoration:none;
-		}
-		body,#bodyTable,#bodyCell{
-			height:100%;
-			margin:0;
-			padding:0;
-			width:100%;
-		}
-		.mcnPreviewText{
-			display:none !important;
-		}
-		#outlook a{
-			padding:0;
-		}
-		img{
-			-ms-interpolation-mode:bicubic;
-		}
-		table{
-			mso-table-lspace:0pt;
-			mso-table-rspace:0pt;
-		}
-		.ReadMsgBody{
-			width:100%;
-		}
-		.ExternalClass{
-			width:100%;
-		}
-		p,a,li,td,blockquote{
-			mso-line-height-rule:exactly;
-		}
-		a[href^…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/1vuxtdf9tmtmxi9tirk4.html"
-                        open
-                      >
-                        <summary class="article-expander__title">What’s Going on With Trump’s Big Fascistic Arch Near the National Mall?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/1vuxtdf9tmtmxi9tirk4.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>What’s Going on With Trump’s Big Fascistic Arch Near the National Mall?#outlook a { padding:0; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0 !important; } .nl2go_preheader { display: none !important; mso-hide:all !important; mso-line-height-rule: exactly; visibility: hidden !important; line-height: 0px !important; font-size: 0px !important; } body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; } a img { border…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -10214,8 +10063,8 @@ I do think using your thumbs for your most used modifiers make sense and modern 
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/26788269254">
-        <time id="build-timestamp" datetime="2026-06-01T23:26:28.576Z">2026-06-01T23:26:28.576Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/26797242686">
+        <time id="build-timestamp" datetime="2026-06-02T03:52:33.600Z">2026-06-02T03:52:33.600Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
