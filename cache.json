@@ -2060,46 +2060,6 @@
           "wordCount": 275,
           "title": "Sacha Chua: May 28 Thu: Sacha and Prot Talk Emacs: May I recommend...",
           "imageUrl": null
-        },
-        {
-          "id": "https://mbork.pl/2026-05-25_Ignoring_pdfs_when_auto-reverting_files",
-          "author": null,
-          "description": "I quite like the global Auto Revert mode. It is especially useful when I something else than Emacs sometimes changes my files. (I bet some readers immediately thought about the now-fashionable agentic coding, but plain old git switch is enough!) It has one drawback, however. I hardly ever use TeX nowadays, but when I do, I use pdf-tools. Auto Revert mode doesn’t play nice with pdfs open in Emacs, often trying to revert them before TeX finishes writing to them, which results in ugly flickering.",
-          "link": "https://mbork.pl/2026-05-25_Ignoring_pdfs_when_auto-reverting_files",
-          "publishedOn": "2026-05-25T19:25:17.000Z",
-          "wordCount": 315,
-          "title": "Marcin Borkowski: Ignoring pdfs when auto-reverting files",
-          "imageUrl": null
-        },
-        {
-          "id": "https://taonaw.com/2026/05/25/journelly-and-osm-for-emacs.html",
-          "author": null,
-          "description": "I mentioned OSM for emacs briefly before, but I haven’t played with it much. That’s because the maps never showed up correctly in the buffer: the map tiles were not aligned correctly and some appeared blank.\nAs it turns out, someone else had this problem and also found the culprit: visual-line-mode. I have it turned on by default as the majority of my work in Emacs involves org-mode and I need my lines wrapped in the buffer. With visual-line-mode disabled, OSM works as expected, including zooming in and out. Good stuff.\nNow that I fixed OSM, I was wondering about something else I wanted to do for a while: having Journelly’s latitude and longitude fed automatically to OSM in Emacs, so I can view the location on a map.\nJournelly captures locations and weather information for each note and stores those under properties, like so:\nPROPERTIES:\n:LATITUDE: ##.##########\n:LONGITUDE: ##.##########\n:WEATHER_TEMPERATURE: 62.1°F\n:WEATHER_CONDITION: Cloudy\n:WEATHER_SYMBOL: cloud\n:END:\n\nThe OSM function that calls for those is osm-goto.\nSo what we need is a simple function to feed the properties values directly:\n(defun jtr-goto-from-properties ()\n(interactive)\n(let ((lat (org-entry-get (point) \"LATITUDE\"))\n(lon (org-entry-get (point) \"LONGITUDE\")))\n(if (and lat lon)\n(osm-goto (string-to-number lat) (string-to-number lon) osm-default-zoom)\n(message \"No LATITUDE/LONGITUDE properties found on this entry\"))))\n\nThis is an interactive function that I use when I’m standing on the header in Journelly I want to see on a map. It’s quick and works well. Now I can use my Journelly entries, which are already in org-mode, as a base for a post with a map tile inside Emacs. OSM doesn’t have a native function to export an image, but since I usually want to annotate the image anyway before I make a post out of it, a regular screen-capture app is a good solution, at least for now.",
-          "link": "https://taonaw.com/2026/05/25/journelly-and-osm-for-emacs.html",
-          "publishedOn": "2026-05-25T17:55:54.000Z",
-          "wordCount": 732,
-          "title": "TAONAW - Emacs and Org Mode: Journelly and OSM for Emacs are good together",
-          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/05/25/5885385.png"
-        },
-        {
-          "id": "https://sachachua.com/blog/2026/05/2026-05-25-emacs-news/",
-          "author": null,
-          "description": "Looking closer at Claude Generated Lisp Code. (Spoiler: people write nicer code.)\n\n\n\nHelp wanted:\n\nDemo site for a proposed re-design of the GNU ELPA (emacs-devel, Reddit) - feedback wanted\n\nUpcoming events (iCal file, Org):\n\nEmacs Berlin: Emacs-Berlin Hybrid Meetup https://emacs-berlin.org/ Wed May 27 1000 America/Vancouver - 1200 America/Chicago - 1300 America/Toronto - 1700 Etc/GMT - 1900 Europe/Berlin - 2230 Asia/Kolkata – Thu May 28 0100 Asia/Singapore\nEmacsSF (in person): coffee.el in SF https://www.meetup.com/emacs-sf/events/314950692/ Sat May 30 1100 America/Los_Angeles\nEmacs.si (in person): Emacs.si meetup #6 2026 (v #živo) https://dogodki.kompot.si/events/67d716c3-6c04-4530-9c1a-f67aa44d31bc Mon Jun 1 1900 CET\nEmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/31480995…",
-          "link": "https://sachachua.com/blog/2026/05/2026-05-25-emacs-news/",
-          "publishedOn": "2026-05-25T16:45:39.000Z",
-          "wordCount": 886,
-          "title": "Sacha Chua: 2026-05-25 Emacs news",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/05/emacs-and-wordle.html",
-          "author": null,
-          "description": "Did you know that \"EMACS\" is a valid Wordle word?  Check it out:",
-          "link": "https://ray-on-emacs.blogspot.com/2026/05/emacs-and-wordle.html",
-          "publishedOn": "2026-05-25T16:14:56.206Z",
-          "wordCount": 1740,
-          "title": "Raymond Zeitler: Emacs and Wordle",
-          "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEiSAllcFfHWqKq92yjoo0gJ1EirMFDGgI2XogGkKTIzKavmyW8e-nQCej2FTBZacamDrlcp4lUE5GitQw3LV7FuF_jCkpi7KylsLYFYLTb3QZ5RMQCAsNnHu06cfssAoPv_R9zbD6bnkJq7AiH7_CL72hHbBeH3lEiQOAWxcFggHho2LZsdTgOtar5xKTo=w1200-h630-p-k-no-nu"
         }
       ]
     },
@@ -2108,6 +2068,16 @@
       "feedUrl": "https://thedemocraticstrategist.org/feed/",
       "siteUrl": "https://thedemocraticstrategist.org",
       "articles": [
+        {
+          "id": "https://thedemocraticstrategist.org/?p=39860",
+          "author": "J.P. Green",
+          "description": "From “Rare rebuke for president as four House Republicans side with Democrats to pass war powers resolution. Vote sends resolution to the US Senate, where the chamber must promptly take up the measure under law – key US politics stories from Wednesday, 3 June at a glance” by Guardian Staff at The Guardian. “The US... Read more »",
+          "link": "https://thedemocraticstrategist.org/2026/06/political-strategy-notes-974/",
+          "publishedOn": "2026-06-04T05:14:49.000Z",
+          "wordCount": 3153,
+          "title": "Political Strategy Notes",
+          "imageUrl": null
+        },
         {
           "id": "https://thedemocraticstrategist.org/?p=39858",
           "author": "staff",

@@ -22,6 +22,53 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-06-04 datetime="2026-06-04T05:14:49.000Z">2026-06-04</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-06-04 datetime="2026-06-04T05:14:49.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The Democratic Strategist</button>
+                  <a class="source-heading__link" href="https://thedemocraticstrategist.org">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thedemocraticstrategist.org/?p&#x3D;39860"
+                        open
+                      >
+                        <summary class="article-expander__title">Political Strategy Notes</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thedemocraticstrategist.org/2026/06/political-strategy-notes-974/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>From “Rare rebuke for president as four House Republicans side with Democrats to pass war powers resolution. Vote sends resolution to the US Senate, where the chamber must promptly take up the measure under law – key US politics stories from Wednesday, 3 June at a glance” by Guardian Staff at The Guardian. “The US... Read more »</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-06-03 datetime="2026-06-03T23:45:31.000Z">2026-06-03</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-06-03 datetime="2026-06-03T23:45:31.000Z"></time>
           </button>
@@ -11785,119 +11832,6 @@ You can e-mail me at sacha@sachachua.com.</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://mbork.pl/2026-05-25_Ignoring_pdfs_when_auto-reverting_files"
-                        open
-                      >
-                        <summary class="article-expander__title">Marcin Borkowski: Ignoring pdfs when auto-reverting files</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://mbork.pl/2026-05-25_Ignoring_pdfs_when_auto-reverting_files">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I quite like the global Auto Revert mode. It is especially useful when I something else than Emacs sometimes changes my files. (I bet some readers immediately thought about the now-fashionable agentic coding, but plain old git switch is enough!) It has one drawback, however. I hardly ever use TeX nowadays, but when I do, I use pdf-tools. Auto Revert mode doesn’t play nice with pdfs open in Emacs, often trying to revert them before TeX finishes writing to them, which results in ugly flickering.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://taonaw.com/2026/05/25/journelly-and-osm-for-emacs.html"
-                        open
-                      >
-                        <summary class="article-expander__title">TAONAW - Emacs and Org Mode: Journelly and OSM for Emacs are good together</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://taonaw.com/2026/05/25/journelly-and-osm-for-emacs.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://s3.amazonaws.com/micro.blog/opengraph/2026/05/25/5885385.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I mentioned OSM for emacs briefly before, but I haven’t played with it much. That’s because the maps never showed up correctly in the buffer: the map tiles were not aligned correctly and some appeared blank.
-As it turns out, someone else had this problem and also found the culprit: visual-line-mode. I have it turned on by default as the majority of my work in Emacs involves org-mode and I need my lines wrapped in the buffer. With visual-line-mode disabled, OSM works as expected, including zooming in and out. Good stuff.
-Now that I fixed OSM, I was wondering about something else I wanted to do for a while: having Journelly’s latitude and longitude fed automatically to OSM in Emacs, so I can view the location on a map.
-Journelly captures locations and weather information for each note and stores those under properties, like so:
-PROPERTIES:
-:LATITUDE: ##.##########
-:LONGITUDE: ##.##########
-:WEATHER_TEMPERATURE: 62.1°F
-:WEATHER_CONDITION: Cloudy
-:WEATHER_SYMBOL: cloud
-:END:
-
-The OSM function that calls for those is osm-goto.
-So what we need is a simple function to feed the properties values directly:
-(defun jtr-goto-from-properties ()
-(interactive)
-(let ((lat (org-entry-get (point) &quot;LATITUDE&quot;))
-(lon (org-entry-get (point) &quot;LONGITUDE&quot;)))
-(if (and lat lon)
-(osm-goto (string-to-number lat) (string-to-number lon) osm-default-zoom)
-(message &quot;No LATITUDE/LONGITUDE properties found on this entry&quot;))))
-
-This is an interactive function that I use when I’m standing on the header in Journelly I want to see on a map. It’s quick and works well. Now I can use my Journelly entries, which are already in org-mode, as a base for a post with a map tile inside Emacs. OSM doesn’t have a native function to export an image, but since I usually want to annotate the image anyway before I make a post out of it, a regular screen-capture app is a good solution, at least for now.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://sachachua.com/blog/2026/05/2026-05-25-emacs-news/"
-                        open
-                      >
-                        <summary class="article-expander__title">Sacha Chua: 2026-05-25 Emacs news</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://sachachua.com/blog/2026/05/2026-05-25-emacs-news/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Looking closer at Claude Generated Lisp Code. (Spoiler: people write nicer code.)
-
-
-
-Help wanted:
-
-Demo site for a proposed re-design of the GNU ELPA (emacs-devel, Reddit) - feedback wanted
-
-Upcoming events (iCal file, Org):
-
-Emacs Berlin: Emacs-Berlin Hybrid Meetup https://emacs-berlin.org/ Wed May 27 1000 America/Vancouver - 1200 America/Chicago - 1300 America/Toronto - 1700 Etc/GMT - 1900 Europe/Berlin - 2230 Asia/Kolkata – Thu May 28 0100 Asia/Singapore
-EmacsSF (in person): coffee.el in SF https://www.meetup.com/emacs-sf/events/314950692/ Sat May 30 1100 America/Los_Angeles
-Emacs.si (in person): Emacs.si meetup #6 2026 (v #živo) https://dogodki.kompot.si/events/67d716c3-6c04-4530-9c1a-f67aa44d31bc Mon Jun 1 1900 CET
-EmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/31480995…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://ray-on-emacs.blogspot.com/2026/05/emacs-and-wordle.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Raymond Zeitler: Emacs and Wordle</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://ray-on-emacs.blogspot.com/2026/05/emacs-and-wordle.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/a/AVvXsEiSAllcFfHWqKq92yjoo0gJ1EirMFDGgI2XogGkKTIzKavmyW8e-nQCej2FTBZacamDrlcp4lUE5GitQw3LV7FuF_jCkpi7KylsLYFYLTb3QZ5RMQCAsNnHu06cfssAoPv_R9zbD6bnkJq7AiH7_CL72hHbBeH3lEiQOAWxcFggHho2LZsdTgOtar5xKTo&#x3D;w1200-h630-p-k-no-nu" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Did you know that &quot;EMACS&quot; is a valid Wordle word?  Check it out:</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -12004,8 +11938,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/26929442285">
-        <time id="build-timestamp" datetime="2026-06-04T03:54:01.015Z">2026-06-04T03:54:01.015Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/26939824970">
+        <time id="build-timestamp" datetime="2026-06-04T08:20:10.048Z">2026-06-04T08:20:10.048Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
