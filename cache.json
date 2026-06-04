@@ -490,6 +490,46 @@
       "siteUrl": "https://www.mediamatters.org/",
       "articles": [
         {
+          "id": "644c5fcb-0048-47ec-a8f7-6da2570f4b44",
+          "author": "Media Matters for America",
+          "description": "",
+          "link": "https://www.mediamatters.org/blazetv/theblazes-allie-beth-stuckey-says-obergefell-created-slippery-slope-was-way-more-slippery",
+          "publishedOn": "2026-06-04T19:41:06.000Z",
+          "wordCount": 914,
+          "title": "TheBlaze's Allie Beth Stuckey says Obergefell created a “slippery slope” that “was way more slippery than any of us could have ever thought”",
+          "imageUrl": "https://www.mediamatters.org/sites/default/files/2026-06-01-Relatable%20with%20Allie%20Beth%20Stuckey%20thumbnail.png"
+        },
+        {
+          "id": "9a19f9ad-48e5-4e50-a0f9-5522cfa6865a",
+          "author": "Media Matters for America",
+          "description": "",
+          "link": "https://www.mediamatters.org/angelo-carusone/dean-obeidallah-show-angelo-carusone-discusses-chaos-cbs-and-what-it-tells-us-about",
+          "publishedOn": "2026-06-04T19:04:39.000Z",
+          "wordCount": 1713,
+          "title": "On The Dean Obeidallah Show, Angelo Carusone discusses the chaos at CBS and what it tells us about changes coming to CNN",
+          "imageUrl": "https://www.mediamatters.org/sites/default/files/angelo_0.png"
+        },
+        {
+          "id": "6784b7ed-558f-4052-981b-dc40ce7a8495",
+          "author": "Media Matters for America",
+          "description": "",
+          "link": "https://www.mediamatters.org/ben-shapiro/ben-shapiro-bill-pultes-dni-appointment-just-dumb-its-throwaway-position-has-no-actual",
+          "publishedOn": "2026-06-04T17:47:31.000Z",
+          "wordCount": 511,
+          "title": "Ben Shapiro: Bill Pulte's DNI appointment is \"just dumb,\" but \"it's a throwaway position that has no actual real role in the American government\"",
+          "imageUrl": "https://www.mediamatters.org/sites/default/files/Screenshot%202026-06-04%20at%201.38.46%E2%80%AFPM.png"
+        },
+        {
+          "id": "6e0c17c1-04af-4e3e-beec-6f9a4858023b",
+          "author": "Media Matters for America",
+          "description": "",
+          "link": "https://www.mediamatters.org/ben-shapiro/ben-shapiro-sake-america-knicks-must-lose",
+          "publishedOn": "2026-06-04T17:04:13.000Z",
+          "wordCount": 541,
+          "title": "Ben Shapiro: \"For the sake of America, the Knicks must lose\"",
+          "imageUrl": "https://www.mediamatters.org/sites/default/files/Screenshot%202026-06-04%20at%2012.33.24%E2%80%AFPM.png"
+        },
+        {
           "id": "5d70c55e-6868-4b5d-9f51-b9c8de919052",
           "author": "Media Matters for America",
           "description": "This post is part of a series chronicling news coverage of rising prices in the United States. See more here.",
@@ -1754,6 +1794,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "http://yummymelon.com/devnull/revisiting-emacs-keyboard-macros-with-a-mouse.html",
+          "author": null,
+          "description": "“No-code automation” has been in Emacs far longer than its usage as a term of art. Better known as keyboard macros, this feature has allowed Emacs users to achieve their bespoke needs for decades, all without needing to know a whit about Lisp. I can testify to this personally: though I’ve been using Emacs since the early 90’s, only in the past three years has writing Elisp played any part in it. For most of my Emacs journey, I got by with just making keyboard macros.\nIf you’re unfamiliar with them, here are two links you should get to know:\nThe official Emacs manual for keyboard macros ((emacs) Keyboard Macros)\nMickey Petersen’s post - “Keyboard Macros are Misunderstood”\nMy addition to the knowledge of those posts is to boost this fact: mouse events can also be captured by a keyboard macro. If you know where a command is in a menu, you can also record clicking on it. I think the ability to combine both keyboard and mouse events in a keyboard macro is compelling, so much so that I decided to emphasize this in Anju.\nThe recent Anju v1.5.0 release added the menu “Tools › Macro Recorder” to the menu bar as shown below.\n\nWith this, mouse enthusiasts can create and run keyboard macros without need to recall keybindings or deal with inconsistent command naming, as observed in Petersen’s post.\nOne thing that I TILed about keyboard macros in building this menu was the command list-keyboard-macros (see (emacs) Kmacro menu). This command is available in the “Macro Recorder” menu as the item “List macros”. This lets you manage multiple keyboard macros that have been defined during a session.\nIf this interests you, I invite you install Anju from MELPA and give it a try. Let me know what you think!",
+          "link": "http://yummymelon.com/devnull/revisiting-emacs-keyboard-macros-with-a-mouse.html",
+          "publishedOn": "2026-06-04T16:35:00.000Z",
+          "wordCount": 381,
+          "title": "Charles Choi: Revisiting Emacs Keyboard Macros with a Mouse",
+          "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
+        },
+        {
           "id": "https://irreal.org/blog/?p=13853",
           "author": null,
           "description": "inhibit-mouse package available. As the name suggests, it disables the mouse while you’re using Emacs. I’ve written about inhibit-mouse before. As I said in my previous post my first thought was that I don’t need this because I’ve already trained myself not to use the mouse while I’m in Emacs.\n\n\nThe thing is, though, that I mainly use my laptop—a MacBook Pro—which has a trackpad for mouse operations. Since I often use my laptop on my lap while sitting on the couch, it’s easy to inadvertently touch the trackpad with my palm and change focus from one window to another. Turning off the mouse would eliminate that from happening. Still, I do use my trackpad to scroll Web pages and emails that are displayed with WebKit because there’s no other decent way of doing so. Happily, inhibit-mouse is very configurable and you can, in particular, disable it’s use in any major modes you like. That may solve my WebKit problem.\n\n\nInhibit-mouse is a reimagining of Steve Purcell’s disable-mouse package. Cherti claims inhibit-mouse has some advantages—such as being more efficient—over disable-mouse. Take a look at the repository to see what they are.\n\n\nIf you’re looking for a way to banish the mouse from your Emacs experience, this seems like a good way of doing so. You can even leave a couple of escape hatches if you need to.",
@@ -2024,6 +2074,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://sachachua.com/blog/2026/05/may-28-sacha-and-prot-talk-emacs-may-i-recommend/",
+          "author": null,
+          "description": "Prot about the May 2026 Emacs Carnival theme \"May I recommend\".\nIt was a joint braindump of quick recommendations for people at different points in their Emacs journey, building on our conversation about newbies/starter kits and the newcomer experience all the way up to power users, Emacs Lisp coders, and package developers.\n\nVideo not supported. Thumbnail:\n\n\n\n\nView in the Internet Archive, watch or comment on YouTube, read the transcript online, download the audio or the transcript, or e-mail me.\n\n\n\nRelated links\n\n\n\nEmacsWiki: CarnivalMay2026: \"May I Recommend…\"\nTop (GNU Emacs Manual)\nTop (The Org Manual)\nTop (Programming in Emacs Lisp)\nTop (GNU Emacs Lisp Reference Manual)\nMastering Emacs\nEmacs Lisp Elements | Protesilaos\nBookmarks (GNU Emacs Manual)\nKeyboard Macros (GNU Emacs Manual)\nHo…",
+          "link": "https://sachachua.com/blog/2026/05/may-28-sacha-and-prot-talk-emacs-may-i-recommend/",
+          "publishedOn": "2026-05-29T19:00:42.000Z",
+          "wordCount": 11436,
+          "title": "Sacha Chua: Yay Emacs 32: Sacha and Prot Talk Emacs: May I recommend...",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=13840",
           "author": null,
           "description": "global-auto-revert so that any file open in Emacs that gets changed by an external process has the changes reflected in the Emacs buffer.\n\n\nSometimes, though, you don’t want that to happen. Mbork gives the example of viewing a PDF file while LaTeX is updating it. The question is: how to prevent auto revert from updating certain modes.\n\n\nThat turns out to be pretty easy. As usual, Emacs has us covered. The global-auto-revert-ignore-modes variable lists all the modes that should be ignored by auto revert. You can check mbork’s post for the details but it’s really quite simple: you list the modes that auto revert should ignore and that’s it.\n\n\nThis is, really, a niche concern but if you have it, mbork’s post tells you how to avoid it.",
@@ -2288,6 +2348,16 @@
       "siteUrl": "https://ballsandstrikes.org/",
       "articles": [
         {
+          "id": "https://ballsandstrikes.org/?p=18336",
+          "author": "Jay Willis",
+          "description": "Long before Trump’s diatribes about the “fake news media,” Scalia was lashing out at journalists who wrote about him in ways he did not like.\nThe post Scalia Cheney Scandal: Antonin Scalia Believed He Was Entitled to <span class=\"dewidow\">Your Trust</span> appeared first on Balls and Strikes.",
+          "link": "https://ballsandstrikes.org/ethics-accountability/scalia-cheney-hunting-trip-stevens-papers/",
+          "publishedOn": "2026-06-04T17:48:31.000Z",
+          "wordCount": 2110,
+          "title": "Scalia Cheney Scandal: Antonin Scalia Believed He Was Entitled to Your Trust",
+          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2026/06/GettyImages-128061862-1200x630.jpg"
+        },
+        {
           "id": "https://ballsandstrikes.org/?p=18334",
           "author": "Madiba K. Dennie",
           "description": "The White House’s proposed nondisclosure agreement for federal employees places great weight on the fact that the Supreme Court also wants to keep you in the dark.\nThe post The Proposed Trump NDA Is Following John Roberts’s <span class=\"dewidow\">Bad Example</span> appeared first on Balls and Strikes.",
@@ -2364,6 +2434,22 @@
       "feedUrl": "https://www.stevevladeck.com/feed/",
       "siteUrl": "https://www.stevevladeck.com",
       "articles": [
+        {
+          "id": "https://www.stevevladeck.com/p/decision-day-summary-june-4-2026",
+          "author": "Steve Vladeck",
+          "description": "Our fourth new video bonus for paid subscribers walks through the three rulings in argued cases that the Supreme Court handed down on Thursday, June 4, 2026.",
+          "link": "https://www.stevevladeck.com/p/decision-day-summary-june-4-2026",
+          "publishedOn": "2026-06-04T18:09:24.000Z",
+          "wordCount": null,
+          "title": "Decision Day Summary: June 4, 2026",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-video.s3.amazonaws.com/video_upload/post/200651988/c702113c-e5b2-430b-b602-1712e0b1c315/transcoded-00001.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-video.s3.amazonaws.com/video_upload/post/200651988/c702113c-e5b2-430b-b602-1712e0b1c315/transcoded-00001.png"
+        },
         {
           "id": "https://www.stevevladeck.com/p/bonus-230-justice-barretts-vote-in",
           "author": "Steve Vladeck",
@@ -2554,6 +2640,46 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=224771",
+          "author": "David Roth",
+          "description": "It's not the sort of anxiety that haunts you, or maybe it just rates below too many of my other haunting anxieties to register. But as a non-soccer person, the quadrennial arrival of the World Cup has a peculiar and not altogether unpleasant anxiety about it; a bunch of stuff is about to happen that I do not really know anything about, and I am going to put myself happily in that wave's way and not know what hit me. I'm fine with that, for the most part, and this year's 48-team World Cup field is sufficiently vast and varied that I couldn't learn everything about it if I wanted to, our own stellar collection of team previews notwithstanding. For the true soccer dunce, the key is to learn enough to enjoy yourself, but not so much that you get stressed out. It was with that in mind that Drew and I welcomed Leander Schaerlaeckens, Guardian columnist and author of the excellent new book The Long Game: U.S. Men's Soccer And Its Savage, Four-Decade Journey To The Top, Or Thereabouts, to this week's episode.\nI am biased, of course, but I'd call this episode a success on those terms. After the usual goofery—remembering some salient scenes from The Insider, me singing in a Scott Stapp voice, Drew chastising me for referring to Long Island Cryptkeeper Bill O'Reilly a \"friend of the pod\"—we turned to soccer around the six-minute mark and pretty much stayed there for the rest of the hour. Even and maybe especially as a confirmed soccer dunce—one of two on the pod, as Drew cheerfully allowed—the result was pretty fascinating stuff. Leander knows a lot and explains it patiently, and he answered our questions on the possible positive and negative effects of this year's new and much bigger field, where national soccer styles come from (and whether that question can be answered without doing major cultural essentialism maneuvers), and where the USMNT as a team fits into the current firmament of international soccer both in terms of quality and style.",
+          "link": "https://defector.com/the-dutch-style-of-pickup-soccer-and-a-dog-named-jeff-with-leander-schaerlaeckens",
+          "publishedOn": "2026-06-04T19:29:41.000Z",
+          "wordCount": 6128,
+          "title": "The Dutch Style Of Pickup Soccer And A Dog Named Jeff, With Leander Schaerlaeckens",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2278494659.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=224820",
+          "author": "Veronica de Souza",
+          "description": "Welcome back to Make It Nice, Defector’s best interior design advice column. Today we have a bathroom color dilemma, a backyard makeover, and someone wondering if they’re DIYing too close to the sun.\nGB asks: \nI own an older townhouse type of condo in the southeast. So, heat and humidity are a foundational concern for the topic I'm going to get into. I've lived here about 3 years, and the room that has always driven me craziest is the bathroom. There is one full bathroom, and it looks like it was renovated relatively recently and not particularly well. I hate the shower and the sink and wish I had the budget, the time, the guts, or some combination to rip the entire thing out and do a full reno, but I do not believe I do.\nWithout the right mix to feel like I could completely renovate it, I…",
+          "link": "https://defector.com/make-it-nice-bathrooms-backyards-and-diy-ambitions",
+          "publishedOn": "2026-06-04T18:19:10.000Z",
+          "wordCount": 8419,
+          "title": "Make It Nice: Bathrooms, Backyards, And DIY Ambitions",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/1000001425.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=224797",
+          "author": "Giri Nathan",
+          "description": "Even a Knicks fan would concede that Karl-Anthony Towns has his demons. They all stem from the whistle. During the regular season, the Knicks center was among the NBA's most foul-prone players, racking up 3.4 per game. He led the league outright with 65 total offensive fouls. I don't think this is all his fault. Officials seem to assume the worst intentions on his part, and overlook when he himself gets clobbered on defense. I don't think I've ever seen a superstar given less leeway by the refs. But yes—it is also sort of his fault, too. Sometimes his limbs appear to flop around autonomously, as though he had the decentralized nervous system of an octopus, and in the course of that flopping they strike an opposing player in an illegal way. If you choose to blame \"Karl-Anthony Towns\" for wh…",
+          "link": "https://defector.com/karl-anthony-towns-was-calm",
+          "publishedOn": "2026-06-04T17:38:28.000Z",
+          "wordCount": 6239,
+          "title": "Karl-Anthony Towns Was Calm",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/KAT-calm.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=224796",
+          "author": "Kathryn Xu",
+          "description": "In the top of the seventh inning Wednesday night, with Cristopher Sánchez sitting at 81 pitches and his Philadelphia Phillies leading the Padres 1-0, San Diego's Jackson Merrill hit a single into the gap through left field, scoring Ty France and tying the game. This ended Sánchez's scoreless streak, which had lasted 50.2 shutout innings spread over more than a month. After the run scored, the Phillies fans in the stadium gave Sánchez a minute-long standing ovation. In a stunning display of the human element in the modern pitch-clock and ABS era, umpire Hunter Wendelstedt stepped out during the ovation and made sure home plate was clean.\nWhile Sánchez had a good run at the longest scoreless streak of any pitcher in MLB history, he didn't quite get there. He will simply have to settle for ha…",
+          "link": "https://defector.com/cristopher-sanchez-gave-up-a-run",
+          "publishedOn": "2026-06-04T17:20:45.000Z",
+          "wordCount": 5781,
+          "title": "Cristopher Sánchez Gave Up A Run",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/cristopherSanchezStreak.jpg"
+        },
         {
           "id": "https://defector.com/?p=223921",
           "author": "Patrick Redford",
@@ -3716,6 +3842,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/04/iran-war-republicans-trump/90405036007/-full",
+          "author": "Rex Huppke",
+          "description": "Throughout the Trump years, Republican lawmakers devolved into invertebrates, conducting the people’s business in Congress like a pack of gelatinous meat sacks only capable of nodding along to the reckless whims and babbling nonsense of their leader.\nBut now, with midterm elections approaching and President Donald Trump’s approval rating rivaling that of syphilis, GOP lawmakers are starting to show the faintest signs of embryonic spines.\nOn June 3, the House passed a Democratic-led resolution to end the war in Iran. Four Republicans voted with the Democrats, a small but still remarkable rebuke of a president whose party members generally fight over who gets to agree with him more.\nFor Trump, any Republican defying him on Iran war is a 'bad Republican'\n\nPredictably, Trump responded on socia…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/04/iran-war-republicans-trump/90405036007/",
+          "publishedOn": "2026-06-04T20:03:47.372Z",
+          "wordCount": 4080,
+          "title": "GOP bucks Trump on Iran. As midterms near, he better get used to it.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/04/USAT/90401127007-2278938645.jpg?crop=8255,4645,x0,y429&width=3200&height=1801&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/03/bill-pulte-national-intelligence-trump/90370886007/-full",
           "author": "Rex Huppke",
