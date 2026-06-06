@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-06-06T06:51:38.591Z</updated>
+    <updated>2026-06-06T10:02:54.879Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -6200,136 +6200,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-1…]]></summary>
         <author>
             <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On Deadline: White House, Angelo Carusone explains Trump's growing rift with the manosphere]]></title>
-        <id>05ec646c-40f3-4f6c-91df-ca26de735ff7</id>
-        <link href="https://www.mediamatters.org/angelo-carusone/deadline-white-house-angelo-carusone-explains-trumps-growing-rift-manosphere"/>
-        <updated>2026-05-27T21:46:50.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Right-wing media go to bat for New York's richest by pushing a debunked myth that higher taxes will cause millionaires to flee]]></title>
-        <id>3836b0c7-8ac0-4103-bdfe-ed1f2cbc38a5</id>
-        <link href="https://www.mediamatters.org/fox-news/right-wing-media-go-bat-new-yorks-richest-pushing-debunked-myth-higher-taxes-will-cause"/>
-        <updated>2026-05-27T20:13:31.000Z</updated>
-        <summary type="html"><![CDATA[The myth that wealthier residents will flee higher-tax cities and states en masse for lower-tax locations has been debunked time and time again by researchers, but right-wing media outlets have repeatedly claimed that higher taxes on the rich that are being implemented by New York City Mayor Zohran Mamdani and New York Gov. Kathy Hochul will cause an exodus of millionaires.]]></summary>
-        <author>
-            <name>Media Matters for America</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raymond Zeitler: Emacs view- Commands]]></title>
-        <id>https://ray-on-emacs.blogspot.com/2026/05/emacs-view-commands.html</id>
-        <link href="https://ray-on-emacs.blogspot.com/2026/05/emacs-view-commands.html"/>
-        <updated>2026-05-27T19:08:23.468Z</updated>
-        <summary type="html"><![CDATA[A kind reader suggested I try the 
-    view-lossage
-  
-  command to display a
-list of recent keystrokes.  This would be helpful for those times when
-I press a key accidentally and don't know what I did (as described in
-"zap-to-char M-z").
-The output resembles what you'd get from 
-    edit-kbd-macro
-  
-  (assuming
-that a keyboard macro had been defined). This provides an alternate
-way to define a keyboard macro -- just select the desired portion of
-the output and invoke  read-kbd-macro .  At this point you can "play
-back" those keystrokes with C-x e.
-After I understood  view-lossage ,  I skimmed through the
-  list of commands that start with  view-  (by doing  M-x view- TAB
-  ). The commands  view-buffer ,  
-    view-file (and variants that view in another 
-    buffer ,  window ,  frame )
-    provide a safe (read-only) way to examine the contents of a buffer
-    or file.
-Entering  M-x view-file-other-frame .emacs  allows me to
-display my init file in a new Emacs frame and close it (by pressing
-"q") when I'm done with it.  And then I don't have to worry about
-changing it inadvertently.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask a Manager - new articles]]></title>
-        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/0bv5kehtfjgd85cdlpba.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/0bv5kehtfjgd85cdlpba.html"/>
-        <updated>2026-05-27T19:05:28.086Z</updated>
-        <summary type="html"><![CDATA[96
-            
-        
-        
-        
-        
-        
-        Ask a Manager - new articles
-
-    
-		p{
-			margin:10px 0;
-			padding:0;
-		}
-		table{
-			border-collapse:collapse;
-		}
-		h1,h2,h3,h4,h5,h6{
-			display:block;
-			margin:0;
-			padding:0;
-		}
-		img,a img{
-			border:0;
-			height:auto;
-			outline:none;
-			text-decoration:none;
-		}
-		body,#bodyTable,#bodyCell{
-			height:100%;
-			margin:0;
-			padding:0;
-			width:100%;
-		}
-		.mcnPreviewText{
-			display:none !important;
-		}
-		#outlook a{
-			padding:0;
-		}
-		img{
-			-ms-interpolation-mode:bicubic;
-		}
-		table{
-			mso-table-lspace:0pt;
-			mso-table-rspace:0pt;
-		}
-		.ReadMsgBody{
-			width:100%;
-		}
-		.ExternalClass{
-			width:100%;
-		}
-		p,a,li,td,blockquote{
-			mso-line-height-rule:exactly;
-		}
-		a[href^=tel],a[href^=sms]{
-			color:i…]]></summary>
-        <author>
-            <name>Misc Newsletters</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Daily Wire host says that voting for a presidential ticket of Alexandria Ocasio-Cortez and Bernie Sanders "would be metaphorically its own form of terrorism"]]></title>
-        <id>69085881-e956-4d3e-86b8-2885b7877e75</id>
-        <link href="https://www.mediamatters.org/matt-walsh/daily-wire-host-says-voting-presidential-ticket-alexandria-ocasio-cortez-and-bernie"/>
-        <updated>2026-05-27T18:58:08.000Z</updated>
-        <author>
-            <name>Media Matters for America</name>
         </author>
     </entry>
 </feed>
