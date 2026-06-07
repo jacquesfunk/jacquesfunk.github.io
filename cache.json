@@ -836,16 +836,6 @@
           "wordCount": 1448,
           "title": "Judge lets Trump’s anti-voting order stand, for now",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/7susav6sju30qniwx0px.html",
-          "author": null,
-          "description": "Some Glimmers of Hope in the GOP's Bleak Bid to Disenfranchise Black and Dem Voters#outlook a { padding:0; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0 !important; } .nl2go_preheader { display: none !important; mso-hide:all !important; mso-line-height-rule: exactly; visibility: hidden !important; line-height: 0px !important; font-size: 0px !important; } body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; } a …",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/7susav6sju30qniwx0px.html",
-          "publishedOn": "2026-05-28T18:16:11.340Z",
-          "wordCount": 2948,
-          "title": "Some Glimmers of Hope in the GOP's Bleak  Bid to Disenfranchise Black and Dem  Voters",
-          "imageUrl": null
         }
       ]
     },
@@ -1223,56 +1213,6 @@
           "wordCount": 538,
           "title": "Kemal: Brainiac v2.0 released",
           "imageUrl": "https://write.moxnet.eu/img/avatars/k.png"
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/05/emacs-its-worth-revealing-oneself-for.html",
-          "author": null,
-          "description": "\"...how can people keep up with what you're learning?\"1\n\nI've always kept a low profile on the Internet.  It can be a\n  scary place!  But I've been asked to show glimpses of my online\n  work to the people I was meeting in real life.\n\nI agreed to chat with Sacha Chua about Emacs and Life\n  (but not the Universe -- that'll be next time).  Emacs is worth\n  revealing oneself for.  If people really do want to keep up\n  with what I'm learning, they can visit here.\n\nMy init file2 shows only a small aspect of how I have Emacs\n  configured.  You'll want to see an example of my org file(s),\n  my diary file, and the Lisp I have tucked away under my home\n  directory.\n\nAside from Emacs, my workflow relies on Vivaldi and LibreOffice, so\n  I'll try to show what I'm doing with them, as well.  Perhaps I\n  can provide screen recordings, too!\n\n\"Sometimes it just takes somebody saying, your stuff is\n  interesting. I'm telling you, your stuff is interesting.\"3\n\nThank you, again, Sacha!\n\n\n1Sacha Chua, https://sachachua.com/blog/#ID-ec23-transcript\n2https://www.emacswiki.org/emacs/RaymondZeitler\n3Sacha Chua, ibid.",
-          "link": "https://ray-on-emacs.blogspot.com/2026/05/emacs-its-worth-revealing-oneself-for.html",
-          "publishedOn": "2026-05-28T17:07:20.129Z",
-          "wordCount": null,
-          "title": "Raymond Zeitler: Emacs -- It's Worth Revealing Oneself For",
-          "imageUrl": null
-        },
-        {
-          "id": "http://yummymelon.com/devnull/anju-v150-update.html",
-          "author": null,
-          "description": "Heads up for readers of this blog who are using Anju or are mouse-curious Emacs users. I’ve recently released the v1.5.0 update for it, now available on MELPA.\nMany new features and enhancements are in this update as outlined below:\nContext Menus\nEnhancements to selected text\nQuery Replace (Regexp)…\nEnhancements to Org mode support\nHeadline\nChange to Body\nSort…\nItem\nCycle Bullet…\nSort…\nTable\nSort…\nCopy as…\nLink…\nAdded support for Makefile mode\nAdded support for Info mode\nAdded support for Compilation/Grep mode\nMain Menu\nTools menu enhancements\nGlobal Org Commands\nMacro Recorder\nEdit › Delete menu enhancement\nDelete Duplicate Lines\nUsers who work with both Org mode and Markdown formatted text should find interest in the Copy as… capability added to the Org mode context menu. This feature lets one use Org mode as the primary means of authoring text, exporting to Markdown (or another format) using a right-click mouse copy action.\n\nThanks to Marcin Borkowski whose post “Org-mode to Markdown via the clipboard”, inspired this feature.\nAnju also provides a complementary command “Paste Markdown as Org” for Org mode which lets one paste copied Markdown text into an Org file, doing the conversion of Markdown to Org under the hood using pandoc.\n\nIn summary, this is a big release with many changes. I invite you to explore all the links above to see what’s available in Anju.",
-          "link": "http://yummymelon.com/devnull/anju-v150-update.html",
-          "publishedOn": "2026-05-28T17:00:00.000Z",
-          "wordCount": 302,
-          "title": "Charles Choi: Anju v1.5.0 Update",
-          "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/05/zap-to-char-m-z.html",
-          "author": null,
-          "description": "Sometimes I discover an Emacs feature after an accidental\n  keystroke.  If I can remember the keystroke, I'll invoke the\n  keystroke help (C-h k) to learn about it.  Or sometimes the prompt\n  in the mode line will suggest the function's name.\nToday, the keystroke was M-z\n  , which is bound to the function\n  zap-to-char.\nIt seems to be ideal if, like me, you doze briefly while typing a\n  senteeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\nOops, there I go again!\nTo fix that I can just press M-- M-z t\n  to delete all the trailing \"e\" characters.\nNote that M--\n  is invoked by holding down the Alt key\n  while pressing hyphen.  It defines a negative prefix argument,\n  which instructs zap-to-char to \"go backward,\" deleting all\n  characters from point to the specified character (\"t\").  I'm not\n  sure how or why you'd want the default \"forward\" behavior.\nWhat accidental keystroke have you discovered recently?",
-          "link": "https://ray-on-emacs.blogspot.com/2026/05/zap-to-char-m-z.html",
-          "publishedOn": "2026-05-28T16:30:37.052Z",
-          "wordCount": 3330,
-          "title": "Raymond Zeitler: zap-to-char M-z",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/05/emacs-and-wordle.html",
-          "author": null,
-          "description": "Did you know that \"EMACS\" is a valid\n  Wordle\n   word?  Check it out:",
-          "link": "https://ray-on-emacs.blogspot.com/2026/05/emacs-and-wordle.html",
-          "publishedOn": "2026-05-28T16:21:20.680Z",
-          "wordCount": 2499,
-          "title": "Raymond Zeitler: Emacs and Wordle",
-          "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEiSAllcFfHWqKq92yjoo0gJ1EirMFDGgI2XogGkKTIzKavmyW8e-nQCej2FTBZacamDrlcp4lUE5GitQw3LV7FuF_jCkpi7KylsLYFYLTb3QZ5RMQCAsNnHu06cfssAoPv_R9zbD6bnkJq7AiH7_CL72hHbBeH3lEiQOAWxcFggHho2LZsdTgOtar5xKTo=w1200-h630-p-k-no-nu"
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/05/emacs-view-commands.html",
-          "author": null,
-          "description": "A kind reader suggested I try the view-lossage command to display a\nlist of recent keystrokes.  This would be helpful for those times when\nI press a key accidentally and don't know what I did (as described in\n\"zap-to-char M-z\").\nThe output resembles what you'd get from edit-kbd-macro (assuming\nthat a keyboard macro had been defined). This provides an alternate\nway to define a keyboard macro -- just select the desired portion of\nthe output and invoke read-kbd-macro.  At this point you can \"play\nback\" those keystrokes with C-x e.\nAfter I understood view-lossage,  I skimmed through the\n  list of commands that start with view- (by doing M-x view- TAB). The commands view-buffer,  view-file(and variants that view in another buffer, window, frame)\n    provide a safe (read-only) way to examine the contents of a buffer\n    or file.\nEntering M-x view-file-other-frame .emacs allows me to\ndisplay my init file in a new Emacs frame and close it (by pressing\n\"q\") when I'm done with it.  And then I don't have to worry about\nchanging it inadvertently.",
-          "link": "https://ray-on-emacs.blogspot.com/2026/05/emacs-view-commands.html",
-          "publishedOn": "2026-05-28T16:14:29.129Z",
-          "wordCount": 2652,
-          "title": "Raymond Zeitler: Emacs view- Commands",
-          "imageUrl": null
         }
       ]
     },
@@ -2795,36 +2735,6 @@
           "wordCount": 5665,
           "title": "The Lost City Of Bing Bong, With David Grann",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-2278219106.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=223976",
-          "author": "Giri Nathan",
-          "description": "Going into Roland-Garros, there was clear consensus: The greatest threat to Jannik Sinner was the Sun itself. It's the type of snappy one-liner that gets slung on the TV broadcast a dozen times a day, but it wound up prescient as the No. 1 seed melted down Thursday in a stupefying second-round loss to Juan Manuel Cerundolo.\n\nhttps://www.youtube.com/watch?v=Spv9oa4rwUQ\n\n\nOutside of celestial bodies, the top men's player wasn't slated to face much of a threat at the clay Slam. His rival Carlos Alcaraz had recently announced that he would sit out the summer to recover from a wrist injury. Part-time tennis player Novak Djokovic had barely clocked in for work since his impressive win over Sinner in Australia in January. In the meantime, Sinner had regained the No. 1 ranking, stomped the tour, and racked up records. When he arrived in Paris, he was winding down one of the best clay seasons in tennis history, having swept the three Masters titles, a feat previously achieved by only Rafael Nadal. Along the way, Sinner dropped only one set. Zooming out slightly further, Sinner had strung together six Masters titles in a row, which had never been done. He became the second player to complete the full set of nine Masters trophies, and he accomplished it seven years faster than Djokovic. I could bore you with even more, but I'll leave you with this simple number: Sinner had a 30-match win streak heading into his second-round match at Roland-Garros. I expected that number to extend to 36, and for him to lift the title that brutally eluded him by just one point last season.",
-          "link": "https://defector.com/jannik-sinner-gets-too-close-to-the-sun-falls-early-in-french-open",
-          "publishedOn": "2026-05-28T17:31:04.000Z",
-          "wordCount": 7072,
-          "title": "Jannik Sinner Gets Too Close To The Sun, Falls Early In French Open",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-2278627977-e1779986104324.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=223969",
-          "author": "Chris Thompson",
-          "description": "James Wood is a pretty good leadoff hitter. Rookie Nationals manager Blake Butera, a disturbingly young fellow who looks like he should be one of the nine guys in this video, moved Wood to the top of Washington's lineup back in the spring, gradually swapping the places of Wood and former leadoff guy C.J. Abrams, who is now Washington's regular cleanup hitter. Wood is good at leadoff stuff: He leads the National League in walks and on-base percentage, and has successfully stolen 10 bags in 11 tries. Because he gets on base a lot, and because Abrams is thriving behind him, Wood leads the majors pretty comfortably in runs scored. The Nationals, in fact, lead all MLB teams in runs.\nAll you care about is dingers. Wah wah wah, show me the dingers, you are wailing, smacking your sippy cup onto your tray table and shooting milk everywhere. Dingers are only one part of the game! Fine, here's a dinger:\n\nhttps://bsky.app/profile/nationals.com/post/3mms3clnza22y",
-          "link": "https://defector.com/james-wood-will-mightily-thwap-the-baseball-in-whichever-direction-he-pleases",
-          "publishedOn": "2026-05-28T17:06:38.000Z",
-          "wordCount": 7003,
-          "title": "James Wood Will Mightily Thwap The Baseball In Whichever Direction He Pleases",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-2277502157.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=223926",
-          "author": "David Roth",
-          "description": "The New York Jets have been pretty uniformly terrible on the field under the ownership of Woody Johnson, but the organization has lately been recognized as an innovative and industry-leading presence in integrating video game rankings and loutish patrician antics into its front-office processes. That hybrid approach has admittedly not yet borne fruit in terms of top-line indicators like wins, or recording even one interception over a 17-game season, but this sort of work takes time and evolves alongside the technology available. A team must accumulate some more abstract wins off the field before those successes show up in the standings.\nThis work is not glamorous or public, but as New York Jets Chief Analytics and Data Officer Iwao Fusillo told Sports Business Journal, he's already seeing results despite just joining the organization in January after a long career in corporate America. The Jets organization, he said, has already made strides, because \"91 percent of the Jets’ front office now uses Microsoft Copilot on a day-to-day basis—up from 'a handful' about a hundred days ago—with users averaging two-to-three prompts per day.\"\nHow should Jets fans feel about the fact that a large and suspiciously precise percentage of the front office is now firing questions into the widely loathed and overwhelmingly unreliable AI modality in Microsoft's office technology? My friend, I am not in the business of telling Jets fans how to feel about things, and as a rule seek to limit engagement in that area to the extent possible. But it seems clear that Fusillo is pleased with the adoption of this bummy technology so far. \"I call that level one, or horizon one,\" Fusillo told SBJ, \"which is adoption.\" (The additional two levels, or horizons, have to do with \"deeper levels of workflow automation,\" SBJ's Rob Schaefer explained.)",
-          "link": "https://defector.com/the-new-york-jets-will-now-try-being-ai-first",
-          "publishedOn": "2026-05-28T16:01:29.000Z",
-          "wordCount": 7198,
-          "title": "The New York Jets Will Now Try Being “AI-First”",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-2234229884.jpg"
         }
       ]
     },
@@ -2833,6 +2743,16 @@
       "feedUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
+        {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/d01xmb48ypfev5w6y694.html",
+          "author": null,
+          "description": "96\n        Weekly Scorecard: May 30 - Jun. 5, 2026\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    line-height: 100%;\n  …",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/d01xmb48ypfev5w6y694.html",
+          "publishedOn": "2026-06-07T03:57:18.709Z",
+          "wordCount": 2905,
+          "title": "Weekly Scorecard: May 30 - Jun. 5, 2026",
+          "imageUrl": null
+        },
         {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/yh4mymr2yl0q53d8pqss.html",
           "author": null,
