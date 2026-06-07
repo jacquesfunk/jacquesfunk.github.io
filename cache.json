@@ -154,22 +154,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!6Jax!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45a3f4f3-e96f-483d-8e59-bffc16659d11_860x485.jpeg"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/james-talarico-is-a-boss",
-          "author": "Jeff Tiedrich",
-          "description": "and Ken Paxton fucking sucks",
-          "link": "https://www.jefftiedrich.com/p/james-talarico-is-a-boss",
-          "publishedOn": "2026-05-28T14:58:35.000Z",
-          "wordCount": null,
-          "title": "James Talarico is a boss",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!sG_I!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9871f937-fa46-4897-82f7-fc7f1c111b6a_1200x630.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!sG_I!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9871f937-fa46-4897-82f7-fc7f1c111b6a_1200x630.jpeg"
         }
       ]
     },
@@ -284,16 +268,6 @@
           "wordCount": 3323,
           "title": "BREAKING: Judge Blocks Anti-Weaponization Fund",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/05/GettyImages-2254309164.jpg?w=804"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1548239",
-          "author": "David Kurtz",
-          "description": "There Is No Bottom I wish I could say we have reached the nadir of President Trump’s abuse of his...",
-          "link": "https://talkingpointsmemo.com/morning-memo/trump-sics-doj-on-famed-victim-of-his-sexual-abuse",
-          "publishedOn": "2026-05-28T14:45:29.000Z",
-          "wordCount": 3486,
-          "title": "Trump Sics DOJ on Famed Victim of His Sexual Abuse",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/05/GettyImages-2166919011.jpg?w=804"
         }
       ]
     },
@@ -445,22 +419,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/5d130bfa-9c04-474b-b3bb-310da36b60b4_3600x1890.png"
-        },
-        {
-          "id": "https://www.dworkinsubstack.com/p/ice-pepper-sprayed-a-sitting-us-senator",
-          "author": "Scott Dworkin",
-          "description": "The regime tried to silence four groups of Americans. They got louder instead",
-          "link": "https://www.dworkinsubstack.com/p/ice-pepper-sprayed-a-sitting-us-senator",
-          "publishedOn": "2026-05-28T14:18:33.000Z",
-          "wordCount": null,
-          "title": "Trump Rejected By Own Judges, South Carolina Voters Stopped The Steal, and Sen. Andy Kim Holds The Line Against ICE",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/bdbb6c2b-1325-44e8-a169-0006c5a40bcd_3600x2025.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/bdbb6c2b-1325-44e8-a169-0006c5a40bcd_3600x2025.png"
         }
       ]
     },
@@ -897,6 +855,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://sachachua.com/blog/2026/06/emacs-pdf-view-replace-current-page-with-file-using-pdftk/",
+          "author": null,
+          "description": "pdf-tools and PDFtk.\n\n\n\n\n;;;###autoload\n(defun sacha-pdf-view-replace-current-page-with-file (file)\n  \"Replace the current page in PDF View with FILE.\nRequires pdftk.\"\n  (interactive \"FFile to insert: \")\n  (let ((temp-file (concat (make-temp-name \"pdf-view\") \".pdf\")))\n    (call-process\n     \"pdftk\"\n     nil nil nil\n     (concat \"A=\" (expand-file-name (buffer-file-name)))\n     (concat \"B=\" (expand-file-name file))\n     \"cat\"\n     (format \"A%d-%d\"\n             1\n             (1- (pdf-view-current-page)))\n     \"B\"\n     (format \"A%d-end\"\n             (1+ (pdf-view-current-page)))\n     \"output\"\n     temp-file)\n    (rename-file temp-file (buffer-file-name) t)))\n\nThis is part of my Emacs configuration.\nView Org source for this post\nYou can e-mail me at sacha@sachachua.com.",
+          "link": "https://sachachua.com/blog/2026/06/emacs-pdf-view-replace-current-page-with-file-using-pdftk/",
+          "publishedOn": "2026-06-07T00:35:27.000Z",
+          "wordCount": 243,
+          "title": "Sacha Chua: Emacs PDF View: Replace current page with file using PDFtk",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ray-on-emacs.blogspot.com/2026/06/follow-on-to-exeln.html",
+          "author": null,
+          "description": "Sebastián Monía1 offered some alternatives to\nthe exeln function that I posted on June\n4.2\nFirst, he pointed out that there's no need to\nbind asynch with the let function. Instead he\nsuggested that I use (when arg \"&\") to append the\nampersand when there's a prefix argument.\nThus, shell-command can be called this way:\n(shell-command (concat\n                (buffer-substring\n                 (line-beginning-position) (line-end-position))\n                (when arg \"&\")))\n\n\nSecond, call async-shell-command rather\n  than shell-command with the \"&\" as suggested\n  in shell-command's doc string, which says, \"You can\n  also use async-shell-command that automatically adds\n  '&'.\"3\nThird, use thing-at-point from the built-in\n  thingatpt.el library to return the line at point rather\n  than calling buffer-substring.\n(defun exeln (arg)\n  \"Execute current line as a shell command.\nWith prefix ARG, run asynchronously.\"\n  (interactive \"P\")\n  (funcall (if arg\n               #'async-shell-command\n             #'shell-command)\n           (thing-at-point 'line t)))\n\n\nAnd although he didn't mention it explicitly, he reworded the doc\n  string -- it blends in seamlessly with the native functions' doc strings.\nI set out to contribute to the Emacs community, but I'm getting so\n  much more out of it than I expected!  Thank you again, Sebastián Monía!\n1 https://site.sebasmonia.com/\n2 exeln-execute-line.html\n3 GNU Emacs online shell-command help",
+          "link": "https://ray-on-emacs.blogspot.com/2026/06/follow-on-to-exeln.html",
+          "publishedOn": "2026-06-06T23:41:48.603Z",
+          "wordCount": 2674,
+          "title": "Raymond Zeitler: Follow-on to exeln",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=13858",
           "author": null,
           "description": "the first Emacs 31 pretest, emacs.31.0.90, is available for download. It’s been almost two years since the first Emacs 30 pretest came out so we’re pretty much on schedule for our yearly major release.\n\n\nAs always, Irreal wants to give a huge shout out of thanks to all the developers who work so hard to keep the Emacs development bandwagon rolling. They do all this for free so we each owe them a word of thanks and, as I always say, the drinks are on us if we find ourselves in the same bar as one of them.\n\n\nWhitton’s post has all the details concerning downloading and verifying the latest tarball. If you don’t mind living on the edge, give it a try and report any problems.",
@@ -1295,16 +1273,6 @@
           "wordCount": 2652,
           "title": "Raymond Zeitler: Emacs view- Commands",
           "imageUrl": null
-        },
-        {
-          "id": "https://irreal.org/blog/?p=13838",
-          "author": null,
-          "description": "Ray on Emacs, Raymond Zeitler has a very nice post on using zap-to-char in reverse. He—hypothetically—was typing some text, inadvertently leaned on a key, and ended up with a long string of a repeated character at the end of his text. Something like this:\n\nsenteeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\n\n\nHere’s what I didn’t know. You can cause zap-to-char to delete characters to the left by giving it negative count argument. So in Zeitler’s example, he erases the string of e​s by calling zap-to-char as Meta+- Meta+z t.\n\n\nBut that’s not quite right. The problem is that it will also erase the t, which I assume was not his intention. Fortunately, there’s an easy solution that I wrote about almost 14 years ago. The problem with zap-to-char is that it does what you want it to only about half the time. The rest of the time you don’t want to delete the target character; you want to delete up to but not including that character. It turns out that Emacs has a command, zap-up-to-char, to do that but it’s not bound to any shortcut1. I have it bound to Meta+Z. It also honors the negative count argument so the correct solution for Zeitler’s problem is Meta+- Meta+Z t.\n\n\nThe mistake aside, this is a great post because it tells me—and maybe you—something I didn’t know: you can zap backwards.\n\n\nFootnotes: \n1 \n\n\n\nHappily, it’s now autoloaded by default so you no longer have to worry about that.",
-          "link": "https://irreal.org/blog/?p=13838",
-          "publishedOn": "2026-05-28T14:47:00.000Z",
-          "wordCount": 1463,
-          "title": "Irreal: Zap-to-char Backwards",
-          "imageUrl": null
         }
       ]
     },
@@ -1679,16 +1647,6 @@
           "wordCount": 2056,
           "title": "In the NAIJ Case, the Supreme Court Pretends Trump Is a Normal President",
           "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2022/03/GettyImages-1282403922-scaled.jpg"
-        },
-        {
-          "id": "https://ballsandstrikes.org/?p=18305",
-          "author": "Jay Willis",
-          "description": "With increasing frequency, the conservative justices are using language that is indistinguishable from a Tucker Carlson monologue.\nThe post Clarence Thomas Ponders Whether West Coast Driver’s Licenses Could Justify <span class=\"dewidow\">Civil War</span> appeared first on Balls and Strikes.",
-          "link": "https://ballsandstrikes.org/scotus/clarence-thomas-florida-california-washington-civil-war-drivers-licenses/",
-          "publishedOn": "2026-05-28T15:32:32.000Z",
-          "wordCount": 2081,
-          "title": "Clarence Thomas Ponders Whether West Coast Driver’s Licenses Could Justify Civil War",
-          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2025/09/GettyImages-2194969562-1200x630.jpg"
         }
       ]
     },
@@ -1760,22 +1718,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-video.s3.amazonaws.com/video_upload/post/199659242/112d1c20-b474-4485-9b77-bf60d060c901/transcoded-00001.png"
-        },
-        {
-          "id": "https://www.stevevladeck.com/p/bonus-229-conduct-unbecoming",
-          "author": "Steve Vladeck",
-          "description": "A district judge who conducted an affair in their chambers, lied about it, and threw a clerk under the bus deserved more than a \"private reprimand.\"",
-          "link": "https://www.stevevladeck.com/p/bonus-229-conduct-unbecoming",
-          "publishedOn": "2026-05-28T11:18:55.000Z",
-          "wordCount": null,
-          "title": "Bonus 229: Conduct Unbecoming",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!BjUF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc26c0f8f-e067-472b-800e-f6c912e43fe0_1350x875.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!BjUF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc26c0f8f-e067-472b-800e-f6c912e43fe0_1350x875.jpeg"
         }
       ]
     },
@@ -1879,6 +1821,333 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!erhy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21fabf90-6311-4504-b63a-fe82b7c81b26_1888x1262.png"
+        }
+      ]
+    },
+    {
+      "title": "Hopium Chronicles By Simon Rosenberg",
+      "feedUrl": "https://www.hopiumchronicles.com/feed",
+      "siteUrl": "https://www.hopiumchronicles.com",
+      "articles": [
+        {
+          "id": "https://www.hopiumchronicles.com/p/reality-check-trump-has-the-worst",
+          "author": "Simon Rosenberg",
+          "description": "Today, 230pm ET - The US Men's National Soccer Team plays Germany in their last warm up before the World Cup kicks off this week. Going to be a big match!",
+          "link": "https://www.hopiumchronicles.com/p/reality-check-trump-has-the-worst",
+          "publishedOn": "2026-06-06T16:30:56.000Z",
+          "wordCount": null,
+          "title": "Reality Check - Trump Has The Worst Jobs Record Since Hoover",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!qPmg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23b7f7bb-3ae2-467d-8149-40eae723d2e3_972x747.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!qPmg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23b7f7bb-3ae2-467d-8149-40eae723d2e3_972x747.png"
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/the-house-rebukes-trump-on-ukraine",
+          "author": "Simon Rosenberg",
+          "description": "Our new subscription sale and drive got off to a great start yesterday. Welcome new subscribers!!!!!!!!!!!!!!!!!",
+          "link": "https://www.hopiumchronicles.com/p/the-house-rebukes-trump-on-ukraine",
+          "publishedOn": "2026-06-05T14:25:26.000Z",
+          "wordCount": null,
+          "title": "The House Rebukes Trump On Ukraine, Senate Rs Shower ICE With Love And Money, The Capital Is Drowning In Corruption",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/26e8cec3-f064-4ffd-8cc1-87d17dac0746_772x369.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/26e8cec3-f064-4ffd-8cc1-87d17dac0746_772x369.png"
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/fri-1145am-et-hopium-founding-members",
+          "author": "Simon Rosenberg",
+          "description": "Note new time just for this week",
+          "link": "https://www.hopiumchronicles.com/p/fri-1145am-et-hopium-founding-members",
+          "publishedOn": "2026-06-04T23:06:08.000Z",
+          "wordCount": null,
+          "title": "Fri, 1145am ET - Hopium Founding Members Most Fridays Get Together",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!37-v!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f20f590-9302-478e-bd88-c6075152cc42_861x345.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!37-v!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f20f590-9302-478e-bd88-c6075152cc42_861x345.png"
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/meet-iowa-state-auditor-rob-sand",
+          "author": "Simon Rosenberg",
+          "description": "In Iowa Democrats now have a fighting chance to retake the Governor's mansion, a US Senate seat, and 3 US house seats. It's become one of our most important battleground states this cycle",
+          "link": "https://www.hopiumchronicles.com/p/meet-iowa-state-auditor-rob-sand",
+          "publishedOn": "2026-06-04T22:45:26.000Z",
+          "wordCount": null,
+          "title": "Meet State Auditor Rob Sand, Our Impressive Candidate Running For Governor Of Iowa",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/200669660/02f1edbb7f43c4e7ea6e973c123e3aa1.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/trump-is-in-a-period-of-profound",
+          "author": "Simon Rosenberg",
+          "description": "The House rebuked Trump on both Iran and Ukraine yesterday. It was another day of remarkable losses for our ailing, addled, failure-in-chief....",
+          "link": "https://www.hopiumchronicles.com/p/trump-is-in-a-period-of-profound",
+          "publishedOn": "2026-06-04T14:50:27.000Z",
+          "wordCount": null,
+          "title": "Trump Is In A Period Of Profound Political Decline, Democrats Are Fielding Strong Candidates Across The Country (New Video, Written Analysis)",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/200605299/6ef08632d0b033e252ffc3b7a245d6a0.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-02d",
+          "author": "Simon Rosenberg",
+          "description": "Breaking News - House votes to rein in Trump's failed war!!!!!!!!!!!!!!!!/Welcome New Subscribers!!!!!!!!!!!!!!!!!",
+          "link": "https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-02d",
+          "publishedOn": "2026-06-03T21:55:59.000Z",
+          "wordCount": null,
+          "title": "Last Call - Tonight, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together (correct link)",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!OP0l!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78f3ec5c-3f54-4b1b-9a57-42abd54764c7_770x513.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!OP0l!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78f3ec5c-3f54-4b1b-9a57-42abd54764c7_770x513.jpeg"
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-f58",
+          "author": "Simon Rosenberg",
+          "description": "Welcome New Subscribers!!!!!!!!!!!!!!!!!",
+          "link": "https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-f58",
+          "publishedOn": "2026-06-03T21:31:20.000Z",
+          "wordCount": null,
+          "title": "Last Call - Tonight, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!OP0l!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78f3ec5c-3f54-4b1b-9a57-42abd54764c7_770x513.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!OP0l!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78f3ec5c-3f54-4b1b-9a57-42abd54764c7_770x513.jpeg"
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/turek-wins-in-iowa-and-bennett-wins",
+          "author": "Simon Rosenberg",
+          "description": "Paid subscribers gather tonight at 7pm ET to review the election returns, and talk about what comes next......",
+          "link": "https://www.hopiumchronicles.com/p/turek-wins-in-iowa-and-bennett-wins",
+          "publishedOn": "2026-06-03T14:20:27.000Z",
+          "wordCount": null,
+          "title": "Turek Wins In Iowa and Bennett Wins in NJ-07, Bass & Becerra Seem Ready To Advance, The Supremes Rip Their Hoods Off (Again), Slava Ukraini!!!",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/ad7355df-80d6-4afd-83c4-9886331a0212_1536x1152.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/ad7355df-80d6-4afd-83c4-9886331a0212_1536x1152.jpeg"
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/bennett-wins-in-nj-7-turek-wins-in",
+          "author": "Simon Rosenberg",
+          "description": "Meet two of our most important new Democratic primary winners from tonight's elections....",
+          "link": "https://www.hopiumchronicles.com/p/bennett-wins-in-nj-7-turek-wins-in",
+          "publishedOn": "2026-06-03T03:05:54.000Z",
+          "wordCount": null,
+          "title": "Bennett Wins In NJ-7, Turek Wins In Iowa",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!lXSm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e701049-12c6-46f9-b045-139b1234387d_642x588.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!lXSm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e701049-12c6-46f9-b045-139b1234387d_642x588.png"
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/meet-bob-harvie-our-experienced-proven",
+          "author": "Simon Rosenberg",
+          "description": "PA-01 is one of four great opportunities we have to flip House seats in Pennsylvania this year",
+          "link": "https://www.hopiumchronicles.com/p/meet-bob-harvie-our-experienced-proven",
+          "publishedOn": "2026-06-02T18:16:02.000Z",
+          "wordCount": null,
+          "title": "Meet Bob Harvie, Our Experienced, Proven Vote-Getter Fighting To Flip PA-01 Blue",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/199764561/4665d029c4c1e0ea7284ebf60fabab5a.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/trumpism-feels-increasingly-broken",
+          "author": "Simon Rosenberg",
+          "description": "We have primaries today in California, Iowa, Montana, New Jersey, New Mexico, and South Dakota - good luck everyone!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1",
+          "link": "https://www.hopiumchronicles.com/p/trumpism-feels-increasingly-broken",
+          "publishedOn": "2026-06-02T14:15:06.000Z",
+          "wordCount": null,
+          "title": "Trumpism Feels Increasingly Broken, And He Weakened And Diminished",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/2fb58bfc-1f82-4d7b-8bec-84015a514634_876x640.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/2fb58bfc-1f82-4d7b-8bec-84015a514634_876x640.png"
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/meet-bob-brooks-our-terrific-candidate",
+          "author": "Simon Rosenberg",
+          "description": "PA-07 is one of our best pick up opportunities in the country this year, and Bob Brooks is one of our very best candidates.....",
+          "link": "https://www.hopiumchronicles.com/p/meet-bob-brooks-our-terrific-candidate",
+          "publishedOn": "2026-06-01T21:35:22.000Z",
+          "wordCount": null,
+          "title": "Meet Bob Brooks, Our Terrific Candidate Working To Flip PA-07 Blue",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/200162150/1be15f11f66be6e9650b768ef4e950ec.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/notes-on-ossoff-platner-trumps-ongoing",
+          "author": "Simon Rosenberg",
+          "description": "Big week ahead in Washington - we need to be very loud everyone",
+          "link": "https://www.hopiumchronicles.com/p/notes-on-ossoff-platner-trumps-ongoing",
+          "publishedOn": "2026-06-01T14:16:16.000Z",
+          "wordCount": null,
+          "title": "Notes On Ossoff, Platner, Trump's Ongoing Meltdown, And The Importance Of Investing And Winning Everywhere",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/youtube/w_728,c_limit/czbhRAfxhj8",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/youtube/w_728,c_limit/czbhRAfxhj8"
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/wed-june-3rd-7pm-et-our-weekly-hopium",
+          "author": "Simon Rosenberg",
+          "description": "Welcome new subscribers!",
+          "link": "https://www.hopiumchronicles.com/p/wed-june-3rd-7pm-et-our-weekly-hopium",
+          "publishedOn": "2026-06-01T13:05:25.000Z",
+          "wordCount": null,
+          "title": "Wed, June 3rd, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!oKw3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F54a2c712-6569-44bf-bf23-f61d6b8ae90a_1125x1518.webp",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!oKw3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F54a2c712-6569-44bf-bf23-f61d6b8ae90a_1125x1518.webp"
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/sunday-hopium-after-a-terrible-week",
+          "author": "Simon Rosenberg",
+          "description": "Our community hit an important milestone this week - $10m raised for battleground candidates and party committees - thank you all!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "link": "https://www.hopiumchronicles.com/p/sunday-hopium-after-a-terrible-week",
+          "publishedOn": "2026-05-31T16:15:30.000Z",
+          "wordCount": null,
+          "title": "Sunday Hopium - After A Terrible Week Full Of Consequential Losses Trump Completely Loses It On Social Media",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!OgBn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feacda6c4-d192-474c-b69f-34615c8374fc_733x501.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!OgBn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feacda6c4-d192-474c-b69f-34615c8374fc_733x501.png"
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/congress-returns-monday-with-trump",
+          "author": "Simon Rosenberg",
+          "description": "With Trump faltering it is time for us to be very, very aggressive now my friends....",
+          "link": "https://www.hopiumchronicles.com/p/congress-returns-monday-with-trump",
+          "publishedOn": "2026-05-30T15:15:27.000Z",
+          "wordCount": null,
+          "title": "Congress Returns Monday With Trump Diminished, Wildly Unpopular, And Failing On Many Fronts",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/507a7d5d-ebe2-44fa-a6cb-ee16bec13280_275x183.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/507a7d5d-ebe2-44fa-a6cb-ee16bec13280_275x183.jpeg"
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/friday-happy-hour-john-cornyns-parable",
+          "author": "Simon Rosenberg",
+          "description": "Turns out we are ending another one of those weeks on all sorts of up notes!!!!!!!!!!!!!",
+          "link": "https://www.hopiumchronicles.com/p/friday-happy-hour-john-cornyns-parable",
+          "publishedOn": "2026-05-29T20:30:39.000Z",
+          "wordCount": null,
+          "title": "Friday Happy Hour - John Cornyn's Parable Of The Scorpion And The Frog",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!8E5j!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feaedaa42-ee14-4ff4-aace-3ad64aa37ba0_1284x1284.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!8E5j!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feaedaa42-ee14-4ff4-aace-3ad64aa37ba0_1284x1284.png"
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/new-economic-data-confirms-trump",
+          "author": "Simon Rosenberg",
+          "description": "Join our new campaign to help Rebecca Bennett flips NJ-7 blue!",
+          "link": "https://www.hopiumchronicles.com/p/new-economic-data-confirms-trump",
+          "publishedOn": "2026-05-29T14:15:56.000Z",
+          "wordCount": null,
+          "title": "New Economic Data Confirms Trump Has Failed The American People",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!GPpF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa8347a61-ed00-4f05-827c-47f23c513b3e_792x696.webp",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!GPpF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa8347a61-ed00-4f05-827c-47f23c513b3e_792x696.webp"
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/fri-1pm-et-hopium-founding-members-297",
+          "author": "Simon Rosenberg",
+          "description": "We sure do have lots to discuss tomorrow!",
+          "link": "https://www.hopiumchronicles.com/p/fri-1pm-et-hopium-founding-members-297",
+          "publishedOn": "2026-05-28T23:00:45.000Z",
+          "wordCount": null,
+          "title": "Fri, 1pm ET - Hopium Founding Members Most Fridays Get Together",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!Rsnb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa733e9a4-7abb-48cc-bb82-9f62b4e895bc_1080x618.webp",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!Rsnb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa733e9a4-7abb-48cc-bb82-9f62b4e895bc_1080x618.webp"
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/meet-rebecca-bennett-running-hard",
+          "author": "Simon Rosenberg",
+          "description": "Navy pilot, Wharton MBA, health care innovator, Mom, and after she wins in November a Member of Congress from New Jersey’s 7th District",
+          "link": "https://www.hopiumchronicles.com/p/meet-rebecca-bennett-running-hard",
+          "publishedOn": "2026-05-28T21:45:59.000Z",
+          "wordCount": null,
+          "title": "Meet Rebecca Bennett, Running Hard To Flip NJ-7 Blue",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/199635390/1fa9fac881a101a2438b96f1c0f05750.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
         }
       ]
     },
@@ -2566,36 +2835,6 @@
           "wordCount": 6569,
           "title": "After 40 Years, The Guys Who Made ‘Heavy Metal Parking Lot’ Are Almost Famous",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/image-19.png"
-        },
-        {
-          "id": "https://defector.com/?p=223981",
-          "author": "Ray Ratto",
-          "description": "The Montreal Canadiens have chosen an odd and ill-advised moment to test out a new, advanced, and almost transcendental hockey analytics notion. Either that, or the Carolina Hurricanes are putting together the first five-game sweep in history.\nEither way, we're getting something we've never seen before, and we're only going to get one more chance, Friday night in Raleigh, to see it. That is, unless the Canadiens manage to perfect their new signature move: scoring without shooting. It's only worked once so far, and that by accident, but head coach Martin St. Louis has fallen in love with the concept and has watched his lads lose their last three games in pursuit of it. Indeed, it can be said that the idea, which was sparked by their Game 7 win over Tampa Bay in the first round, has been the…",
-          "link": "https://defector.com/the-canadiens-have-a-weird-fetish-for-not-shooting-the-puck-and-theyre-making-it-everybodys-problem",
-          "publishedOn": "2026-05-28T15:03:43.000Z",
-          "wordCount": 6290,
-          "title": "The Canadiens Have A Weird Fetish For Not Shooting The Puck And They’re Making It Everybody’s Problem",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-2278542279.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=223935",
-          "author": "James Webster",
-          "description": "The specifics are a little difficult to pin down, but that’s true of most things surrounding novelist, filmmaker, and playwright Missouri Williams. Here are the facts I’ve been able to piece together: At some point in her young adulthood, Williams began to have seizures. In a 2025 interview with TriQuarterly, Williams said that the episodes began after she had moved to “a new city with a new language” (location and tongue unspecified), and while she was working in a cafe while trying to learn more than simple phrases. As she put it: “I spent a lot of time getting orders wrong, being reprimanded without quite understanding why. It was useful to feel so stupid.” Around this time, misfires in her temporal lobe began to incite epileptic episodes. These issues in the part of the brain responsible for language and memory completely destabilized Williams. Already struggling to get a foothold in her new surroundings, she then began to forget words in her native English. She found that she was thinking entire sentences backward. She made woozy, tenuous connections between ideas and objects. “Everything suggested everything else in the strangest of ways,” she said.\nUnable to hold onto words, ideas, or memories, Williams began an obsessive cataloging. She built a network of complex sentences that would circle back and collapse in on themselves like murmurating birds. It was as if each word was “driven by the need to confirm each and every thing that had preceded them,” as she wrote for Granta in 2022. Soon these sentences began to pile up, and eventually she was able to shape many of them into a book.\nThe Doloriad, Williams's award-winning 2022 debut, reached an instant sort of cult-classic status, partially for its body-horror grotesqueries, but also for its undeniable beauty and off-kilter theology. The book suggests that as one gets closer to Christ, His wounds open up on your body. The Divine and The Gross often coexist.",
-          "link": "https://defector.com/the-vivisectors-missouri-williams-review",
-          "publishedOn": "2026-05-28T14:39:00.000Z",
-          "wordCount": 9937,
-          "title": "‘The Vivisectors’ Is A Brilliant Novel In Any Reality",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-2239878752.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=223947",
-          "author": "Samer Kalaf",
-          "description": "Ryan Fournier, the co-founder and chairman of the group Students for Trump, was arrested early Tuesday morning in Washington, D.C., after he allegedly assaulted and threatened a woman, according to documents obtained by Defector. The Metropolitan Police Department charged Fournier with simple assault and attempted threats to do bodily harm. According to the affidavit, the…",
-          "link": "https://defector.com/students-for-trump-chairman-ryan-fournier-arrest-domestic-violence",
-          "publishedOn": "2026-05-28T13:48:23.000Z",
-          "wordCount": 6046,
-          "title": "Students For Trump Co-Founder Arrested On Domestic Violence Charges, Allegedly Yelled “Do You Want To Die Today?”",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-1230413836.jpg"
         }
       ]
     },
@@ -2802,36 +3041,6 @@
           "publishedOn": "2026-05-29T10:56:40.003Z",
           "wordCount": 3033,
           "title": "I Talked To Mina Kimes About Games As The New Social Network",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/prp1q93ivy14uy0rl5c7.html",
-          "author": null,
-          "description": "BREAKING: Federal judge refuses to block Trump executive order on mail voting — for now96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/prp1q93ivy14uy0rl5c7.html",
-          "publishedOn": "2026-05-28T13:52:02.896Z",
-          "wordCount": 1505,
-          "title": "BREAKING: Federal judge refuses to block Trump executive order on mail voting — for now",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/b3m312q8ex0emt7r7lw5.html",
-          "author": null,
-          "description": "96\n        All too familiar\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    line-height: 100%;\n  }\n\n  .apple-link a {\n  …",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/b3m312q8ex0emt7r7lw5.html",
-          "publishedOn": "2026-05-28T12:42:50.219Z",
-          "wordCount": 2408,
-          "title": "All too familiar",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1fdw66hfkrht8r7sff9w.html",
-          "author": null,
-          "description": "96\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}.row-4 .column-1 .block-3 .button:hover,.row-4 .column-2 .block-3 .button:hover,.row-4 .column-3 .block-3 .button:hover,.row-5 .column-1 .block-3 .button:hover,.row-5 .column-2 .block-3 .button:hover,.row-5 .column-3 .block-3 .button:hover,.row-7 .column-2 .block-2 .button:hover{background-color:#16688b!important;border-bottom:0 solid transparent!important;border-left:0 solid transparent!important;border-right:0 solid transp…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1fdw66hfkrht8r7sff9w.html",
-          "publishedOn": "2026-05-28T12:34:24.014Z",
-          "wordCount": null,
-          "title": "Check out our most browsed books this month!",
           "imageUrl": null
         }
       ]

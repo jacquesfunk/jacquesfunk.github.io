@@ -2,10 +2,97 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-06-06T23:02:39.650Z</updated>
+    <updated>2026-06-07T03:36:29.603Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Sacha Chua: Emacs PDF View: Replace current page with file using PDFtk]]></title>
+        <id>https://sachachua.com/blog/2026/06/emacs-pdf-view-replace-current-page-with-file-using-pdftk/</id>
+        <link href="https://sachachua.com/blog/2026/06/emacs-pdf-view-replace-current-page-with-file-using-pdftk/"/>
+        <updated>2026-06-07T00:35:27.000Z</updated>
+        <summary type="html"><![CDATA[pdf-tools and PDFtk.
+
+
+
+
+;;;###autoload
+(defun sacha-pdf-view-replace-current-page-with-file (file)
+  "Replace the current page in PDF View with FILE.
+Requires pdftk."
+  (interactive "FFile to insert: ")
+  (let ((temp-file (concat (make-temp-name "pdf-view") ".pdf")))
+    (call-process
+     "pdftk"
+     nil nil nil
+     (concat "A=" (expand-file-name (buffer-file-name)))
+     (concat "B=" (expand-file-name file))
+     "cat"
+     (format "A%d-%d"
+             1
+             (1- (pdf-view-current-page)))
+     "B"
+     (format "A%d-end"
+             (1+ (pdf-view-current-page)))
+     "output"
+     temp-file)
+    (rename-file temp-file (buffer-file-name) t)))
+
+This is part of my Emacs configuration.
+View Org source for this post
+You can e-mail me at sacha@sachachua.com.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: Follow-on to exeln]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/06/follow-on-to-exeln.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/06/follow-on-to-exeln.html"/>
+        <updated>2026-06-06T23:41:48.603Z</updated>
+        <summary type="html"><![CDATA[Sebastián Monía1 offered some alternatives to
+the exeln function that I posted on June
+4.2
+First, he pointed out that there's no need to
+bind asynch with the let function. Instead he
+suggested that I use (when arg "&") to append the
+ampersand when there's a prefix argument.
+Thus, shell-command can be called this way:
+(shell-command (concat
+                (buffer-substring
+                 (line-beginning-position) (line-end-position))
+                (when arg "&")))
+
+
+Second, call async-shell-command rather
+  than shell-command with the "&" as suggested
+  in shell-command's doc string, which says, "You can
+  also use async-shell-command that automatically adds
+  '&'."3
+Third, use thing-at-point from the built-in
+  thingatpt.el library to return the line at point rather
+  than calling buffer-substring.
+(defun exeln (arg)
+  "Execute current line as a shell command.
+With prefix ARG, run asynchronously."
+  (interactive "P")
+  (funcall (if arg
+               #'async-shell-command
+             #'shell-command)
+           (thing-at-point 'line t)))
+
+
+And although he didn't mention it explicitly, he reworded the doc
+  string -- it blends in seamlessly with the native functions' doc strings.
+I set out to contribute to the Emacs community, but I'm getting so
+  much more out of it than I expected!  Thank you again, Sebastián Monía!
+1 https://site.sebasmonia.com/
+2 exeln-execute-line.html
+3 GNU Emacs online shell-command help]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Discover your dream tour - Morocco, Columbia, India await!]]></title>
         <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/yjl3ivm133yb794xc3wo.html</id>
@@ -19,6 +106,16 @@ sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-te
 It’s not too late to reserve your space today ‌ ‌ ‌ ‌…]]></summary>
         <author>
             <name>Current Events</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reality Check - Trump Has The Worst Jobs Record Since Hoover]]></title>
+        <id>https://www.hopiumchronicles.com/p/reality-check-trump-has-the-worst</id>
+        <link href="https://www.hopiumchronicles.com/p/reality-check-trump-has-the-worst"/>
+        <updated>2026-06-06T16:30:56.000Z</updated>
+        <summary type="html"><![CDATA[Today, 230pm ET - The US Men's National Soccer Team plays Germany in their last warm up before the World Cup kicks off this week. Going to be a big match!]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
         </author>
     </entry>
     <entry>
@@ -468,6 +565,16 @@ Ah, the Netherlands. Pain and misery comes for all but one team at the World Cup
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The House Rebukes Trump On Ukraine, Senate Rs Shower ICE With Love And Money, The Capital Is Drowning In Corruption]]></title>
+        <id>https://www.hopiumchronicles.com/p/the-house-rebukes-trump-on-ukraine</id>
+        <link href="https://www.hopiumchronicles.com/p/the-house-rebukes-trump-on-ukraine"/>
+        <updated>2026-06-05T14:25:26.000Z</updated>
+        <summary type="html"><![CDATA[Our new subscription sale and drive got off to a great start yesterday. Welcome new subscribers!!!!!!!!!!!!!!!!!]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Homer’s Odyssey, now in paperback]]></title>
         <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/swlklrbf5ueg74hdb4s3.html</id>
         <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/swlklrbf5ueg74hdb4s3.html"/>
@@ -663,6 +770,26 @@ Trump, who is reportedly growing ever more impatient with the vice president, wa
         <summary type="html"><![CDATA[There is a report that doctors referred Aaron Judge to a thoracic outlet syndrome surgery and diagnosis specialist. He’s looking at the imaging to see if anything is there.]]></summary>
         <author>
             <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fri, 1145am ET - Hopium Founding Members Most Fridays Get Together]]></title>
+        <id>https://www.hopiumchronicles.com/p/fri-1145am-et-hopium-founding-members</id>
+        <link href="https://www.hopiumchronicles.com/p/fri-1145am-et-hopium-founding-members"/>
+        <updated>2026-06-04T23:06:08.000Z</updated>
+        <summary type="html"><![CDATA[Note new time just for this week]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meet State Auditor Rob Sand, Our Impressive Candidate Running For Governor Of Iowa]]></title>
+        <id>https://www.hopiumchronicles.com/p/meet-iowa-state-auditor-rob-sand</id>
+        <link href="https://www.hopiumchronicles.com/p/meet-iowa-state-auditor-rob-sand"/>
+        <updated>2026-06-04T22:45:26.000Z</updated>
+        <summary type="html"><![CDATA[In Iowa Democrats now have a fighting chance to retake the Governor's mansion, a US Senate seat, and 3 US house seats. It's become one of our most important battleground states this cycle]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
         </author>
     </entry>
     <entry>
@@ -930,6 +1057,16 @@ The code of conduct, which was updated on June 2, has removed the prior guidance
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Trump Is In A Period Of Profound Political Decline, Democrats Are Fielding Strong Candidates Across The Country (New Video, Written Analysis)]]></title>
+        <id>https://www.hopiumchronicles.com/p/trump-is-in-a-period-of-profound</id>
+        <link href="https://www.hopiumchronicles.com/p/trump-is-in-a-period-of-profound"/>
+        <updated>2026-06-04T14:50:27.000Z</updated>
+        <summary type="html"><![CDATA[The House rebuked Trump on both Iran and Ukraine yesterday. It was another day of remarkable losses for our ailing, addled, failure-in-chief....]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Cue Up the Mother of All Confirmation Battles]]></title>
         <id>https://talkingpointsmemo.com/?p=1548808</id>
         <link href="https://talkingpointsmemo.com/morning-memo/cue-up-the-mother-of-all-confirmation-battles"/>
@@ -1191,6 +1328,26 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       9…]]></summary>
         <author>
             <name>Current Events</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Last Call - Tonight, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together (correct link)]]></title>
+        <id>https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-02d</id>
+        <link href="https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-02d"/>
+        <updated>2026-06-03T21:55:59.000Z</updated>
+        <summary type="html"><![CDATA[Breaking News - House votes to rein in Trump's failed war!!!!!!!!!!!!!!!!/Welcome New Subscribers!!!!!!!!!!!!!!!!!]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Last Call - Tonight, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together]]></title>
+        <id>https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-f58</id>
+        <link href="https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-f58"/>
+        <updated>2026-06-03T21:31:20.000Z</updated>
+        <summary type="html"><![CDATA[Welcome New Subscribers!!!!!!!!!!!!!!!!!]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
         </author>
     </entry>
     <entry>
@@ -1483,6 +1640,16 @@ Pulte has been serving as director of the Federal Housing Finance Agency, though
 Pulte pushed the Justice Department to launch mortgage-fraud invest…]]></summary>
         <author>
             <name>Rex Huppke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Turek Wins In Iowa and Bennett Wins in NJ-07, Bass & Becerra Seem Ready To Advance, The Supremes Rip Their Hoods Off (Again), Slava Ukraini!!!]]></title>
+        <id>https://www.hopiumchronicles.com/p/turek-wins-in-iowa-and-bennett-wins</id>
+        <link href="https://www.hopiumchronicles.com/p/turek-wins-in-iowa-and-bennett-wins"/>
+        <updated>2026-06-03T14:20:27.000Z</updated>
+        <summary type="html"><![CDATA[Paid subscribers gather tonight at 7pm ET to review the election returns, and talk about what comes next......]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
         </author>
     </entry>
     <entry>
@@ -1874,6 +2041,16 @@ This post is more speculative than useful, so carry that pinch of salt with you 
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Bennett Wins In NJ-7, Turek Wins In Iowa]]></title>
+        <id>https://www.hopiumchronicles.com/p/bennett-wins-in-nj-7-turek-wins-in</id>
+        <link href="https://www.hopiumchronicles.com/p/bennett-wins-in-nj-7-turek-wins-in"/>
+        <updated>2026-06-03T03:05:54.000Z</updated>
+        <summary type="html"><![CDATA[Meet two of our most important new Democratic primary winners from tonight's elections....]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Early Cycle Watch]]></title>
         <id>https://www.baseballmusings.com/?p=160307</id>
         <link href="https://www.baseballmusings.com/?p=160307"/>
@@ -2013,6 +2190,16 @@ Your letters:
 Capn Po:]]></summary>
         <author>
             <name>Drew Magary</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meet Bob Harvie, Our Experienced, Proven Vote-Getter Fighting To Flip PA-01 Blue]]></title>
+        <id>https://www.hopiumchronicles.com/p/meet-bob-harvie-our-experienced-proven</id>
+        <link href="https://www.hopiumchronicles.com/p/meet-bob-harvie-our-experienced-proven"/>
+        <updated>2026-06-02T18:16:02.000Z</updated>
+        <summary type="html"><![CDATA[PA-01 is one of four great opportunities we have to flip House seats in Pennsylvania this year]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
         </author>
     </entry>
     <entry>
@@ -2212,6 +2399,16 @@ Should Billy be masturbating? If so, how much? These questions served as the bas
         <summary type="html"><![CDATA[The resistance delivers]]></summary>
         <author>
             <name>Scott Dworkin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trumpism Feels Increasingly Broken, And He Weakened And Diminished]]></title>
+        <id>https://www.hopiumchronicles.com/p/trumpism-feels-increasingly-broken</id>
+        <link href="https://www.hopiumchronicles.com/p/trumpism-feels-increasingly-broken"/>
+        <updated>2026-06-02T14:15:06.000Z</updated>
+        <summary type="html"><![CDATA[We have primaries today in California, Iowa, Montana, New Jersey, New Mexico, and South Dakota - good luck everyone!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
         </author>
     </entry>
     <entry>
@@ -2603,6 +2800,16 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Meet Bob Brooks, Our Terrific Candidate Working To Flip PA-07 Blue]]></title>
+        <id>https://www.hopiumchronicles.com/p/meet-bob-brooks-our-terrific-candidate</id>
+        <link href="https://www.hopiumchronicles.com/p/meet-bob-brooks-our-terrific-candidate"/>
+        <updated>2026-06-01T21:35:22.000Z</updated>
+        <summary type="html"><![CDATA[PA-07 is one of our best pick up opportunities in the country this year, and Bob Brooks is one of our very best candidates.....]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[What The Fuck Are The Rams Doing?]]></title>
         <id>https://defector.com/?p=224424</id>
         <link href="https://defector.com/what-the-fuck-are-the-rams-doing"/>
@@ -2918,6 +3125,16 @@ Defector crosswords, launched in partnership with our friends at AVCX, run ever
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Notes On Ossoff, Platner, Trump's Ongoing Meltdown, And The Importance Of Investing And Winning Everywhere]]></title>
+        <id>https://www.hopiumchronicles.com/p/notes-on-ossoff-platner-trumps-ongoing</id>
+        <link href="https://www.hopiumchronicles.com/p/notes-on-ossoff-platner-trumps-ongoing"/>
+        <updated>2026-06-01T14:16:16.000Z</updated>
+        <summary type="html"><![CDATA[Big week ahead in Washington - we need to be very loud everyone]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[MLB Owners Want A Salary Cap Because They Want To Cash Out]]></title>
         <id>https://defector.com/?p=224207</id>
         <link href="https://defector.com/mlb-owners-want-a-salary-cap-because-they-want-to-cash-out"/>
@@ -2958,6 +3175,16 @@ Emacs Paris: S: Emacs workshop in Paris (online) https://emacs-doctor.com/ Thu J
 EmacsATX: Emacs Social https://www.meetup.com/e…]]></summary>
         <author>
             <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wed, June 3rd, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together]]></title>
+        <id>https://www.hopiumchronicles.com/p/wed-june-3rd-7pm-et-our-weekly-hopium</id>
+        <link href="https://www.hopiumchronicles.com/p/wed-june-3rd-7pm-et-our-weekly-hopium"/>
+        <updated>2026-06-01T13:05:25.000Z</updated>
+        <summary type="html"><![CDATA[Welcome new subscribers!]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
         </author>
     </entry>
     <entry>
@@ -3325,6 +3552,16 @@ Twenty-five homers is significantly fewer than 42, but it is also not a small en
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Sunday Hopium - After A Terrible Week Full Of Consequential Losses Trump Completely Loses It On Social Media]]></title>
+        <id>https://www.hopiumchronicles.com/p/sunday-hopium-after-a-terrible-week</id>
+        <link href="https://www.hopiumchronicles.com/p/sunday-hopium-after-a-terrible-week"/>
+        <updated>2026-05-31T16:15:30.000Z</updated>
+        <summary type="html"><![CDATA[Our community hit an important milestone this week - $10m raised for battleground candidates and party committees - thank you all!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Playing A Baseball Simulator Made Me A Fanatic Again]]></title>
         <id>https://defector.com/?p=224239</id>
         <link href="https://defector.com/playing-a-baseball-simulator-made-me-a-fanatic-again"/>
@@ -3650,6 +3887,16 @@ D…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Congress Returns Monday With Trump Diminished, Wildly Unpopular, And Failing On Many Fronts]]></title>
+        <id>https://www.hopiumchronicles.com/p/congress-returns-monday-with-trump</id>
+        <link href="https://www.hopiumchronicles.com/p/congress-returns-monday-with-trump"/>
+        <updated>2026-05-30T15:15:27.000Z</updated>
+        <summary type="html"><![CDATA[With Trump faltering it is time for us to be very, very aggressive now my friends....]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Month in Review: We’re fighting back against the Christian Nationalist Jubilee]]></title>
         <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/sbbh6vk1f157nxbdfpdb.html</id>
         <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/sbbh6vk1f157nxbdfpdb.html"/>
@@ -3939,6 +4186,16 @@ u/oantolin on Reddit
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Friday Happy Hour - John Cornyn's Parable Of The Scorpion And The Frog]]></title>
+        <id>https://www.hopiumchronicles.com/p/friday-happy-hour-john-cornyns-parable</id>
+        <link href="https://www.hopiumchronicles.com/p/friday-happy-hour-john-cornyns-parable"/>
+        <updated>2026-05-29T20:30:39.000Z</updated>
+        <summary type="html"><![CDATA[Turns out we are ending another one of those weeks on all sorts of up notes!!!!!!!!!!!!!]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[An embarrassing week for the Royals]]></title>
         <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/292m1ffgzrzuwhhgcc8h.html</id>
         <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/292m1ffgzrzuwhhgcc8h.html"/>
@@ -4202,6 +4459,16 @@ This is, really, a niche concern but if you have it, mbork’s post tells you ho
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New Economic Data Confirms Trump Has Failed The American People]]></title>
+        <id>https://www.hopiumchronicles.com/p/new-economic-data-confirms-trump</id>
+        <link href="https://www.hopiumchronicles.com/p/new-economic-data-confirms-trump"/>
+        <updated>2026-05-29T14:15:56.000Z</updated>
+        <summary type="html"><![CDATA[Join our new campaign to help Rebecca Bennett flips NJ-7 blue!]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[All Eyes on Bondi]]></title>
         <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/gbz0x9yjt7zqyssnllhw.html</id>
         <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/gbz0x9yjt7zqyssnllhw.html"/>
@@ -4349,6 +4616,16 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Fri, 1pm ET - Hopium Founding Members Most Fridays Get Together]]></title>
+        <id>https://www.hopiumchronicles.com/p/fri-1pm-et-hopium-founding-members-297</id>
+        <link href="https://www.hopiumchronicles.com/p/fri-1pm-et-hopium-founding-members-297"/>
+        <updated>2026-05-28T23:00:45.000Z</updated>
+        <summary type="html"><![CDATA[We sure do have lots to discuss tomorrow!]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Judge lets Trump’s anti-voting order stand, for now]]></title>
         <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/v3oq0s22izww2ckd0ozv.html</id>
         <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/v3oq0s22izww2ckd0ozv.html"/>
@@ -4377,6 +4654,16 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 …]]></summary>
         <author>
             <name>Current Events</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meet Rebecca Bennett, Running Hard To Flip NJ-7 Blue]]></title>
+        <id>https://www.hopiumchronicles.com/p/meet-rebecca-bennett-running-hard</id>
+        <link href="https://www.hopiumchronicles.com/p/meet-rebecca-bennett-running-hard"/>
+        <updated>2026-05-28T21:45:59.000Z</updated>
+        <summary type="html"><![CDATA[Navy pilot, Wharton MBA, health care innovator, Mom, and after she wins in November a Member of Congress from New Jersey’s 7th District]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
         </author>
     </entry>
     <entry>
@@ -4630,198 +4917,6 @@ How should Jets fans feel about the fact that a large and suspiciously precise p
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Clarence Thomas Ponders Whether West Coast Driver’s Licenses Could Justify Civil War]]></title>
-        <id>https://ballsandstrikes.org/?p=18305</id>
-        <link href="https://ballsandstrikes.org/scotus/clarence-thomas-florida-california-washington-civil-war-drivers-licenses/"/>
-        <updated>2026-05-28T15:32:32.000Z</updated>
-        <summary type="html"><![CDATA[With increasing frequency, the conservative justices are using language that is indistinguishable from a Tucker Carlson monologue.
-The post Clarence Thomas Ponders Whether West Coast Driver’s Licenses Could Justify <span class="dewidow">Civil War</span> appeared first on Balls and Strikes.]]></summary>
-        <author>
-            <name>Jay Willis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Canadiens Have A Weird Fetish For Not Shooting The Puck And They’re Making It Everybody’s Problem]]></title>
-        <id>https://defector.com/?p=223981</id>
-        <link href="https://defector.com/the-canadiens-have-a-weird-fetish-for-not-shooting-the-puck-and-theyre-making-it-everybodys-problem"/>
-        <updated>2026-05-28T15:03:43.000Z</updated>
-        <summary type="html"><![CDATA[The Montreal Canadiens have chosen an odd and ill-advised moment to test out a new, advanced, and almost transcendental hockey analytics notion. Either that, or the Carolina Hurricanes are putting together the first five-game sweep in history.
-Either way, we're getting something we've never seen before, and we're only going to get one more chance, Friday night in Raleigh, to see it. That is, unless the Canadiens manage to perfect their new signature move: scoring without shooting. It's only worked once so far, and that by accident, but head coach Martin St. Louis has fallen in love with the concept and has watched his lads lose their last three games in pursuit of it. Indeed, it can be said that the idea, which was sparked by their Game 7 win over Tampa Bay in the first round, has been the…]]></summary>
-        <author>
-            <name>Ray Ratto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[James Talarico is a boss]]></title>
-        <id>https://www.jefftiedrich.com/p/james-talarico-is-a-boss</id>
-        <link href="https://www.jefftiedrich.com/p/james-talarico-is-a-boss"/>
-        <updated>2026-05-28T14:58:35.000Z</updated>
-        <summary type="html"><![CDATA[and Ken Paxton fucking sucks]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Zap-to-char Backwards]]></title>
-        <id>https://irreal.org/blog/?p=13838</id>
-        <link href="https://irreal.org/blog/?p=13838"/>
-        <updated>2026-05-28T14:47:00.000Z</updated>
-        <summary type="html"><![CDATA[Ray on Emacs, Raymond Zeitler has a very nice post on using zap-to-char in reverse. He—hypothetically—was typing some text, inadvertently leaned on a key, and ended up with a long string of a repeated character at the end of his text. Something like this:
-
-senteeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-
-
-Here’s what I didn’t know. You can cause zap-to-char to delete characters to the left by giving it negative count argument. So in Zeitler’s example, he erases the string of e​s by calling zap-to-char as Meta+- Meta+z t.
-
-
-But that’s not quite right. The problem is that it will also erase the t, which I assume was not his intention. Fortunately, there’s an easy solution that I wrote about almost 14 years ago. The problem with zap-to-char is that it does what you want it to only about half the time. The rest of the time you don’t want to delete the target character; you want to delete up to but not including that character. It turns out that Emacs has a command, zap-up-to-char, to do that but it’s not bound to any shortcut1. I have it bound to Meta+Z. It also honors the negative count argument so the correct solution for Zeitler’s problem is Meta+- Meta+Z t.
-
-
-The mistake aside, this is a great post because it tells me—and maybe you—something I didn’t know: you can zap backwards.
-
-
-Footnotes: 
-1 
-
-
-
-Happily, it’s now autoloaded by default so you no longer have to worry about that.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump Sics DOJ on Famed Victim of His Sexual Abuse]]></title>
-        <id>https://talkingpointsmemo.com/?p=1548239</id>
-        <link href="https://talkingpointsmemo.com/morning-memo/trump-sics-doj-on-famed-victim-of-his-sexual-abuse"/>
-        <updated>2026-05-28T14:45:29.000Z</updated>
-        <summary type="html"><![CDATA[There Is No Bottom I wish I could say we have reached the nadir of President Trump’s abuse of his...]]></summary>
-        <author>
-            <name>David Kurtz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[‘The Vivisectors’ Is A Brilliant Novel In Any Reality]]></title>
-        <id>https://defector.com/?p=223935</id>
-        <link href="https://defector.com/the-vivisectors-missouri-williams-review"/>
-        <updated>2026-05-28T14:39:00.000Z</updated>
-        <summary type="html"><![CDATA[The specifics are a little difficult to pin down, but that’s true of most things surrounding novelist, filmmaker, and playwright Missouri Williams. Here are the facts I’ve been able to piece together: At some point in her young adulthood, Williams began to have seizures. In a 2025 interview with TriQuarterly, Williams said that the episodes began after she had moved to “a new city with a new language” (location and tongue unspecified), and while she was working in a cafe while trying to learn more than simple phrases. As she put it: “I spent a lot of time getting orders wrong, being reprimanded without quite understanding why. It was useful to feel so stupid.” Around this time, misfires in her temporal lobe began to incite epileptic episodes. These issues in the part of the brain responsible for language and memory completely destabilized Williams. Already struggling to get a foothold in her new surroundings, she then began to forget words in her native English. She found that she was thinking entire sentences backward. She made woozy, tenuous connections between ideas and objects. “Everything suggested everything else in the strangest of ways,” she said.
-Unable to hold onto words, ideas, or memories, Williams began an obsessive cataloging. She built a network of complex sentences that would circle back and collapse in on themselves like murmurating birds. It was as if each word was “driven by the need to confirm each and every thing that had preceded them,” as she wrote for Granta in 2022. Soon these sentences began to pile up, and eventually she was able to shape many of them into a book.
-The Doloriad, Williams's award-winning 2022 debut, reached an instant sort of cult-classic status, partially for its body-horror grotesqueries, but also for its undeniable beauty and off-kilter theology. The book suggests that as one gets closer to Christ, His wounds open up on your body. The Divine and The Gross often coexist.]]></summary>
-        <author>
-            <name>James Webster</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump Rejected By Own Judges, South Carolina Voters Stopped The Steal, and Sen. Andy Kim Holds The Line Against ICE]]></title>
-        <id>https://www.dworkinsubstack.com/p/ice-pepper-sprayed-a-sitting-us-senator</id>
-        <link href="https://www.dworkinsubstack.com/p/ice-pepper-sprayed-a-sitting-us-senator"/>
-        <updated>2026-05-28T14:18:33.000Z</updated>
-        <summary type="html"><![CDATA[The regime tried to silence four groups of Americans. They got louder instead]]></summary>
-        <author>
-            <name>Scott Dworkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BREAKING: Federal judge refuses to block Trump executive order on mail voting — for now]]></title>
-        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/prp1q93ivy14uy0rl5c7.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/prp1q93ivy14uy0rl5c7.html"/>
-        <updated>2026-05-28T13:52:02.896Z</updated>
-        <summary type="html"><![CDATA[BREAKING: Federal judge refuses to block Trump executive order on mail voting — for now96
-  :root { color-scheme: light; supported-color-schemes: light; }
-  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }
-  .body { word-wrap: normal; word-spacing:normal; }
-  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }
-  img { border: 0; outline: none; }
-  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }
-  td, a, span {  mso-line-height-rule: exactly; }
-  #root [x-apple-data-detectors=true],
-  a[x-apple-data-detectors=true],
-  #MessageViewBody a { color: inherit !important; text-…]]></summary>
-        <author>
-            <name>Misc Newsletters</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Students For Trump Co-Founder Arrested On Domestic Violence Charges, Allegedly Yelled “Do You Want To Die Today?”]]></title>
-        <id>https://defector.com/?p=223947</id>
-        <link href="https://defector.com/students-for-trump-chairman-ryan-fournier-arrest-domestic-violence"/>
-        <updated>2026-05-28T13:48:23.000Z</updated>
-        <summary type="html"><![CDATA[Ryan Fournier, the co-founder and chairman of the group Students for Trump, was arrested early Tuesday morning in Washington, D.C., after he allegedly assaulted and threatened a woman, according to documents obtained by Defector. The Metropolitan Police Department charged Fournier with simple assault and attempted threats to do bodily harm. According to the affidavit, the…]]></summary>
-        <author>
-            <name>Samer Kalaf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All too familiar]]></title>
-        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/b3m312q8ex0emt7r7lw5.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/b3m312q8ex0emt7r7lw5.html"/>
-        <updated>2026-05-28T12:42:50.219Z</updated>
-        <summary type="html"><![CDATA[96
-        All too familiar
-        
-@media only screen and (max-width: 620px) {
-  table.body {
-    width: 100%;
-    min-width: 100%;
-  }
-
-  table.body .content {
-    padding: 0 !important;
-  }
-
-  table.body .container {
-    padding: 0 !important;
-    width: 100% !important;
-  }
-
-  table.body .main {
-    border-spacing: 10px 0 !important;
-    border-left-width: 0 !important;
-    border-radius: 0 !important;
-    border-right-width: 0 !important;
-  }
-
-  table.body .img-responsive {
-    height: auto !important;
-    max-width: 100% !important;
-    width: auto !important;
-  }
-}
-@media all {
-  .ExternalClass {
-    width: 100%;
-  }
-
-  .ExternalClass,
-.ExternalClass p,
-.ExternalClass span,
-.ExternalClass font,
-.ExternalClass td,
-.ExternalClass div {
-    line-height: 100%;
-  }
-
-  .apple-link a {
-  …]]></summary>
-        <author>
-            <name>Misc Newsletters</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Check out our most browsed books this month!]]></title>
-        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1fdw66hfkrht8r7sff9w.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1fdw66hfkrht8r7sff9w.html"/>
-        <updated>2026-05-28T12:34:24.014Z</updated>
-        <summary type="html"><![CDATA[96
-
-
-*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}.row-4 .column-1 .block-3 .button:hover,.row-4 .column-2 .block-3 .button:hover,.row-4 .column-3 .block-3 .button:hover,.row-5 .column-1 .block-3 .button:hover,.row-5 .column-2 .block-3 .button:hover,.row-5 .column-3 .block-3 .button:hover,.row-7 .column-2 .block-2 .button:hover{background-color:#16688b!important;border-bottom:0 solid transparent!important;border-left:0 solid transparent!important;border-right:0 solid transp…]]></summary>
-        <author>
-            <name>Misc Newsletters</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA['I pray that God kills him' sounds pretty extreme to me, GOPRex Huppke]]></title>
         <id>https://www.usatoday.com/story/opinion/columnist/2026/05/28/paxton-attacks-talarico-extreme-republicans/90278221007/-full</id>
         <link href="https://www.usatoday.com/story/opinion/columnist/2026/05/28/paxton-attacks-talarico-extreme-republicans/90278221007/"/>
@@ -5010,16 +5105,6 @@ If you want people to read your work, and I do, you must pay tribute to the SEO 
 Under normal circumstances, these polls would presage the mythical blue wave, with Democrats seizing control of both the House and Senate in this fall’s midterms…]]></summary>
         <author>
             <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bonus 229: Conduct Unbecoming]]></title>
-        <id>https://www.stevevladeck.com/p/bonus-229-conduct-unbecoming</id>
-        <link href="https://www.stevevladeck.com/p/bonus-229-conduct-unbecoming"/>
-        <updated>2026-05-28T11:18:55.000Z</updated>
-        <summary type="html"><![CDATA[A district judge who conducted an affair in their chambers, lied about it, and threw a clerk under the bus deserved more than a "private reprimand."]]></summary>
-        <author>
-            <name>Steve Vladeck</name>
         </author>
     </entry>
 </feed>

@@ -22,11 +22,155 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-06-06 datetime="2026-06-06T19:00:59.000Z">2026-06-06</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-06-06 datetime="2026-06-06T19:00:59.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-06-06 datetime="2026-06-07T00:35:27.000Z">2026-06-06</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-06-06 datetime="2026-06-07T00:35:27.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Emacslife</button>
+                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://sachachua.com/blog/2026/06/emacs-pdf-view-replace-current-page-with-file-using-pdftk/"
+                        open
+                      >
+                        <summary class="article-expander__title">Sacha Chua: Emacs PDF View: Replace current page with file using PDFtk</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://sachachua.com/blog/2026/06/emacs-pdf-view-replace-current-page-with-file-using-pdftk/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>pdf-tools and PDFtk.
+
+
+
+
+;;;###autoload
+(defun sacha-pdf-view-replace-current-page-with-file (file)
+  &quot;Replace the current page in PDF View with FILE.
+Requires pdftk.&quot;
+  (interactive &quot;FFile to insert: &quot;)
+  (let ((temp-file (concat (make-temp-name &quot;pdf-view&quot;) &quot;.pdf&quot;)))
+    (call-process
+     &quot;pdftk&quot;
+     nil nil nil
+     (concat &quot;A&#x3D;&quot; (expand-file-name (buffer-file-name)))
+     (concat &quot;B&#x3D;&quot; (expand-file-name file))
+     &quot;cat&quot;
+     (format &quot;A%d-%d&quot;
+             1
+             (1- (pdf-view-current-page)))
+     &quot;B&quot;
+     (format &quot;A%d-end&quot;
+             (1+ (pdf-view-current-page)))
+     &quot;output&quot;
+     temp-file)
+    (rename-file temp-file (buffer-file-name) t)))
+
+This is part of my Emacs configuration.
+View Org source for this post
+You can e-mail me at sacha@sachachua.com.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://ray-on-emacs.blogspot.com/2026/06/follow-on-to-exeln.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Raymond Zeitler: Follow-on to exeln</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ray-on-emacs.blogspot.com/2026/06/follow-on-to-exeln.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Sebastián Monía1 offered some alternatives to
+the exeln function that I posted on June
+4.2
+First, he pointed out that there&#x27;s no need to
+bind asynch with the let function. Instead he
+suggested that I use (when arg &quot;&amp;&quot;) to append the
+ampersand when there&#x27;s a prefix argument.
+Thus, shell-command can be called this way:
+(shell-command (concat
+                (buffer-substring
+                 (line-beginning-position) (line-end-position))
+                (when arg &quot;&amp;&quot;)))
+
+
+Second, call async-shell-command rather
+  than shell-command with the &quot;&amp;&quot; as suggested
+  in shell-command&#x27;s doc string, which says, &quot;You can
+  also use async-shell-command that automatically adds
+  &#x27;&amp;&#x27;.&quot;3
+Third, use thing-at-point from the built-in
+  thingatpt.el library to return the line at point rather
+  than calling buffer-substring.
+(defun exeln (arg)
+  &quot;Execute current line as a shell command.
+With prefix ARG, run asynchronously.&quot;
+  (interactive &quot;P&quot;)
+  (funcall (if arg
+               #&#x27;async-shell-command
+             #&#x27;shell-command)
+           (thing-at-point &#x27;line t)))
+
+
+And although he didn&#x27;t mention it explicitly, he reworded the doc
+  string -- it blends in seamlessly with the native functions&#x27; doc strings.
+I set out to contribute to the Emacs community, but I&#x27;m getting so
+  much more out of it than I expected!  Thank you again, Sebastián Monía!
+1 https://site.sebasmonia.com/
+2 exeln-execute-line.html
+3 GNU Emacs online shell-command help</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13858"
+                        open
+                      >
+                        <summary class="article-expander__title">Irreal: Emacs 31.0.90 Pretest</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13858">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>the first Emacs 31 pretest, emacs.31.0.90, is available for download. It’s been almost two years since the first Emacs 30 pretest came out so we’re pretty much on schedule for our yearly major release.
+
+
+As always, Irreal wants to give a huge shout out of thanks to all the developers who work so hard to keep the Emacs development bandwagon rolling. They do all this for free so we each owe them a word of thanks and, as I always say, the drinks are on us if we find ourselves in the same bar as one of them.
+
+
+Whitton’s post has all the details concerning downloading and verifying the latest tarball. If you don’t mind living on the edge, give it a try and report any problems.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -209,6 +353,38 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hopium Chronicles By Simon Rosenberg</button>
+                  <a class="source-heading__link" href="https://www.hopiumchronicles.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/reality-check-trump-has-the-worst"
+                        open
+                      >
+                        <summary class="article-expander__title">Reality Check - Trump Has The Worst Jobs Record Since Hoover</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/reality-check-trump-has-the-worst">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/$s_!qPmg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23b7f7bb-3ae2-467d-8149-40eae723d2e3_972x747.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Today, 230pm ET - The US Men&#x27;s National Soccer Team plays Germany in their last warm up before the World Cup kicks off this week. Going to be a big match!</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Amanda Marcotte - Salon.com</button>
                   <a class="source-heading__link" href="https://www.salon.com/writer/amanda_marcotte">Open</a>
                 </h3>
@@ -229,45 +405,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 Last but certainly not least, “Standing Room Only” host and Senior Writer Amanda Marcotte has made no secret about her love for music and concerts (hello, the theme of her newsletter and show!). In particular, the “Encore” section of her show reve…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Emacslife</button>
-                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13858"
-                        open
-                      >
-                        <summary class="article-expander__title">Irreal: Emacs 31.0.90 Pretest</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13858">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>the first Emacs 31 pretest, emacs.31.0.90, is available for download. It’s been almost two years since the first Emacs 30 pretest came out so we’re pretty much on schedule for our yearly major release.
-
-
-As always, Irreal wants to give a huge shout out of thanks to all the developers who work so hard to keep the Emacs development bandwagon rolling. They do all this for free so we each owe them a word of thanks and, as I always say, the drinks are on us if we find ourselves in the same bar as one of them.
-
-
-Whitton’s post has all the details concerning downloading and verifying the latest tarball. If you don’t mind living on the edge, give it a try and report any problems.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1092,6 +1229,38 @@ And by doing that, we&#x27;ve both saved ourselves the proverbial thousand words
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hopium Chronicles By Simon Rosenberg</button>
+                  <a class="source-heading__link" href="https://www.hopiumchronicles.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/the-house-rebukes-trump-on-ukraine"
+                        open
+                      >
+                        <summary class="article-expander__title">The House Rebukes Trump On Ukraine, Senate Rs Shower ICE With Love And Money, The Capital Is Drowning In Corruption</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/the-house-rebukes-trump-on-ukraine">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substack-post-media.s3.amazonaws.com/public/images/26e8cec3-f064-4ffd-8cc1-87d17dac0746_772x369.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Our new subscription sale and drive got off to a great start yesterday. Welcome new subscribers!!!!!!!!!!!!!!!!!</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Misc Newsletters</button>
                   <a class="source-heading__link" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml">Open</a>
                 </h3>
@@ -1455,6 +1624,72 @@ Trump, who is reportedly growing ever more impatient with the vice president, wa
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hopium Chronicles By Simon Rosenberg</button>
+                  <a class="source-heading__link" href="https://www.hopiumchronicles.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/fri-1145am-et-hopium-founding-members"
+                        open
+                      >
+                        <summary class="article-expander__title">Fri, 1145am ET - Hopium Founding Members Most Fridays Get Together</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/fri-1145am-et-hopium-founding-members">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/$s_!37-v!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f20f590-9302-478e-bd88-c6075152cc42_861x345.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Note new time just for this week</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/meet-iowa-state-auditor-rob-sand"
+                        open
+                      >
+                        <summary class="article-expander__title">Meet State Auditor Rob Sand, Our Impressive Candidate Running For Governor Of Iowa</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/meet-iowa-state-auditor-rob-sand">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>In Iowa Democrats now have a fighting chance to retake the Governor&#x27;s mansion, a US Senate seat, and 3 US house seats. It&#x27;s become one of our most important battleground states this cycle</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/trump-is-in-a-period-of-profound"
+                        open
+                      >
+                        <summary class="article-expander__title">Trump Is In A Period Of Profound Political Decline, Democrats Are Fielding Strong Candidates Across The Country (New Video, Written Analysis)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/trump-is-in-a-period-of-profound">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>The House rebuked Trump on both Iran and Ukraine yesterday. It was another day of remarkable losses for our ailing, addled, failure-in-chief....</span>
                             </span>
                           </div>
                         </a>
@@ -2760,6 +2995,74 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hopium Chronicles By Simon Rosenberg</button>
+                  <a class="source-heading__link" href="https://www.hopiumchronicles.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-02d"
+                        open
+                      >
+                        <summary class="article-expander__title">Last Call - Tonight, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together (correct link)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-02d">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/$s_!OP0l!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78f3ec5c-3f54-4b1b-9a57-42abd54764c7_770x513.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Breaking News - House votes to rein in Trump&#x27;s failed war!!!!!!!!!!!!!!!!/Welcome New Subscribers!!!!!!!!!!!!!!!!!</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-f58"
+                        open
+                      >
+                        <summary class="article-expander__title">Last Call - Tonight, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-f58">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/$s_!OP0l!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78f3ec5c-3f54-4b1b-9a57-42abd54764c7_770x513.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Welcome New Subscribers!!!!!!!!!!!!!!!!!</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/turek-wins-in-iowa-and-bennett-wins"
+                        open
+                      >
+                        <summary class="article-expander__title">Turek Wins In Iowa and Bennett Wins in NJ-07, Bass &amp; Becerra Seem Ready To Advance, The Supremes Rip Their Hoods Off (Again), Slava Ukraini!!!</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/turek-wins-in-iowa-and-bennett-wins">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substack-post-media.s3.amazonaws.com/public/images/ad7355df-80d6-4afd-83c4-9886331a0212_1536x1152.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Paid subscribers gather tonight at 7pm ET to review the election returns, and talk about what comes next......</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Defector</button>
                   <a class="source-heading__link" href="https://defector.com/">Open</a>
                 </h3>
@@ -3691,6 +3994,73 @@ He did as many takes as we needed from him. He ad-libbed off the script I’d wr
                               <img src="https://substackcdn.com/image/fetch/$s_!4RD6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda2cb165-193b-45b2-aa4a-e4e717b8e450_1224x810.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>The court&#x27;s split ruling would protect current trans service members from discharge but allow the Trump admin to keep new trans recruits from joining the military during litigation.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hopium Chronicles By Simon Rosenberg</button>
+                  <a class="source-heading__link" href="https://www.hopiumchronicles.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/bennett-wins-in-nj-7-turek-wins-in"
+                        open
+                      >
+                        <summary class="article-expander__title">Bennett Wins In NJ-7, Turek Wins In Iowa</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/bennett-wins-in-nj-7-turek-wins-in">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/$s_!lXSm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e701049-12c6-46f9-b045-139b1234387d_642x588.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Meet two of our most important new Democratic primary winners from tonight&#x27;s elections....</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/meet-bob-harvie-our-experienced-proven"
+                        open
+                      >
+                        <summary class="article-expander__title">Meet Bob Harvie, Our Experienced, Proven Vote-Getter Fighting To Flip PA-01 Blue</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/meet-bob-harvie-our-experienced-proven">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>PA-01 is one of four great opportunities we have to flip House seats in Pennsylvania this year</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/trumpism-feels-increasingly-broken"
+                        open
+                      >
+                        <summary class="article-expander__title">Trumpism Feels Increasingly Broken, And He Weakened And Diminished</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/trumpism-feels-increasingly-broken">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substack-post-media.s3.amazonaws.com/public/images/2fb58bfc-1f82-4d7b-8bec-84015a514634_876x640.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>We have primaries today in California, Iowa, Montana, New Jersey, New Mexico, and South Dakota - good luck everyone!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1</span>
                             </span>
                           </div>
                         </a>
@@ -5303,6 +5673,73 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hopium Chronicles By Simon Rosenberg</button>
+                  <a class="source-heading__link" href="https://www.hopiumchronicles.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/meet-bob-brooks-our-terrific-candidate"
+                        open
+                      >
+                        <summary class="article-expander__title">Meet Bob Brooks, Our Terrific Candidate Working To Flip PA-07 Blue</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/meet-bob-brooks-our-terrific-candidate">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>PA-07 is one of our best pick up opportunities in the country this year, and Bob Brooks is one of our very best candidates.....</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/notes-on-ossoff-platner-trumps-ongoing"
+                        open
+                      >
+                        <summary class="article-expander__title">Notes On Ossoff, Platner, Trump&#x27;s Ongoing Meltdown, And The Importance Of Investing And Winning Everywhere</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/notes-on-ossoff-platner-trumps-ongoing">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/youtube/w_728,c_limit/czbhRAfxhj8" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Big week ahead in Washington - we need to be very loud everyone</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/wed-june-3rd-7pm-et-our-weekly-hopium"
+                        open
+                      >
+                        <summary class="article-expander__title">Wed, June 3rd, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/wed-june-3rd-7pm-et-our-weekly-hopium">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/$s_!oKw3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F54a2c712-6569-44bf-bf23-f61d6b8ae90a_1125x1518.webp" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Welcome new subscribers!</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Defector</button>
                   <a class="source-heading__link" href="https://defector.com/">Open</a>
                 </h3>
@@ -6440,6 +6877,38 @@ https://www.youtube.com/watch?v&#x3D;tRnJRQmVMTg</span>
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hopium Chronicles By Simon Rosenberg</button>
+                  <a class="source-heading__link" href="https://www.hopiumchronicles.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/sunday-hopium-after-a-terrible-week"
+                        open
+                      >
+                        <summary class="article-expander__title">Sunday Hopium - After A Terrible Week Full Of Consequential Losses Trump Completely Loses It On Social Media</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/sunday-hopium-after-a-terrible-week">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/$s_!OgBn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feacda6c4-d192-474c-b69f-34615c8374fc_733x501.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Our community hit an important milestone this week - $10m raised for battleground candidates and party committees - thank you all!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >The Dworkin Report</button>
                   <a class="source-heading__link" href="https://www.dworkinsubstack.com">Open</a>
                 </h3>
@@ -7087,6 +7556,38 @@ D…</span>
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hopium Chronicles By Simon Rosenberg</button>
+                  <a class="source-heading__link" href="https://www.hopiumchronicles.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/congress-returns-monday-with-trump"
+                        open
+                      >
+                        <summary class="article-expander__title">Congress Returns Monday With Trump Diminished, Wildly Unpopular, And Failing On Many Fronts</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/congress-returns-monday-with-trump">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substack-post-media.s3.amazonaws.com/public/images/507a7d5d-ebe2-44fa-a6cb-ee16bec13280_275x183.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>With Trump faltering it is time for us to be very, very aggressive now my friends....</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >The Dworkin Report</button>
                   <a class="source-heading__link" href="https://www.dworkinsubstack.com">Open</a>
                 </h3>
@@ -7697,6 +8198,56 @@ Enjoy and keep hacking!</span>
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hopium Chronicles By Simon Rosenberg</button>
+                  <a class="source-heading__link" href="https://www.hopiumchronicles.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/friday-happy-hour-john-cornyns-parable"
+                        open
+                      >
+                        <summary class="article-expander__title">Friday Happy Hour - John Cornyn&#x27;s Parable Of The Scorpion And The Frog</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/friday-happy-hour-john-cornyns-parable">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/$s_!8E5j!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feaedaa42-ee14-4ff4-aace-3ad64aa37ba0_1284x1284.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Turns out we are ending another one of those weeks on all sorts of up notes!!!!!!!!!!!!!</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/new-economic-data-confirms-trump"
+                        open
+                      >
+                        <summary class="article-expander__title">New Economic Data Confirms Trump Has Failed The American People</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/new-economic-data-confirms-trump">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/$s_!GPpF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa8347a61-ed00-4f05-827c-47f23c513b3e_792x696.webp" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Join our new campaign to help Rebecca Bennett flips NJ-7 blue!</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Defector</button>
                   <a class="source-heading__link" href="https://defector.com/">Open</a>
                 </h3>
@@ -8088,11 +8639,60 @@ The post In the NAIJ Case, the Supreme Court Pretends Trump Is a Normal Presiden
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-05-28 datetime="2026-05-28T22:03:15.504Z">2026-05-28</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-05-28 datetime="2026-05-28T22:03:15.504Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-05-28 datetime="2026-05-28T23:00:45.000Z">2026-05-28</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-05-28 datetime="2026-05-28T23:00:45.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hopium Chronicles By Simon Rosenberg</button>
+                  <a class="source-heading__link" href="https://www.hopiumchronicles.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/fri-1pm-et-hopium-founding-members-297"
+                        open
+                      >
+                        <summary class="article-expander__title">Fri, 1pm ET - Hopium Founding Members Most Fridays Get Together</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/fri-1pm-et-hopium-founding-members-297">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/$s_!Rsnb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa733e9a4-7abb-48cc-bb82-9f62b4e895bc_1080x618.webp" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>We sure do have lots to discuss tomorrow!</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/meet-rebecca-bennett-running-hard"
+                        open
+                      >
+                        <summary class="article-expander__title">Meet Rebecca Bennett, Running Hard To Flip NJ-7 Blue</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/meet-rebecca-bennett-running-hard">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Navy pilot, Wharton MBA, health care innovator, Mom, and after she wins in November a Member of Congress from New Jersey’s 7th District</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -8190,24 +8790,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                               <img src="https://substack-video.s3.amazonaws.com/video_upload/post/199659242/112d1c20-b474-4485-9b77-bf60d060c901/transcoded-00001.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Our third new video bonus for paid subscribers walks through the three rulings in argued cases that the Supreme Court handed down on Thursday, May 28, 2026.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.stevevladeck.com/p/bonus-229-conduct-unbecoming"
-                        open
-                      >
-                        <summary class="article-expander__title">Bonus 229: Conduct Unbecoming</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.stevevladeck.com/p/bonus-229-conduct-unbecoming">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substackcdn.com/image/fetch/$s_!BjUF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc26c0f8f-e067-472b-800e-f6c912e43fe0_1350x875.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>A district judge who conducted an affair in their chambers, lied about it, and threw a clerk under the bus deserved more than a &quot;private reprimand.&quot;</span>
                             </span>
                           </div>
                         </a>
@@ -8389,69 +8971,6 @@ How should Jets fans feel about the fact that a large and suspiciously precise p
 “I’ll be with somebody and they’ll say to somebody, ‘Hey, this is the guy who made Heavy Metal Parking Lot!” says Krulik. “And I know what’s coming next: A blank stare.&quot;
 &quot;It&#x27;s humbling,&quot; says Krulik, who really is one of the guys who made Heavy Metal Parking Lot. But he is grateful for whatever renown he&#x27;s gotten from the enduring, adored-by-all-who&#x27;ve-seen-it 1986 guerilla documentary. It all started 40 years ago this weekend, when he and buddy (and fellow budding indie filmmaker) John Heyn showed up early to a Judas Priest show at the Capital Centre with a video camera borrowed from the local public access TV station and their eyes wide open. They rolled tape while cruising outside the Largo, Md., arena, capturing gaggles of great unwashed metalheads in their element. Period-piece characters now known by the film’s faithful fans as “Graham of Dope” “DC101 Guy,” “Zebraman,” and “The Girl in the White Dress,” all of whom make Beavis &amp; Butthead look preppy and lucid, spewed unscripted, unintentionally hilarious and unforgettable dirtball verse at a rat-a-tat-tat rate throughout the movie&#x27;s 16 minutes. Rick Ballard, who appeared in Parking Lot as a teen Priest obsessive then grew up to have a career in TV and run his own record label, hailed the movie in a 2016 interview as “the Citizen Kane of wasted teenage metalness.”</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;22
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;223981"
-                        open
-                      >
-                        <summary class="article-expander__title">The Canadiens Have A Weird Fetish For Not Shooting The Puck And They’re Making It Everybody’s Problem</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/the-canadiens-have-a-weird-fetish-for-not-shooting-the-puck-and-theyre-making-it-everybodys-problem">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-2278542279.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The Montreal Canadiens have chosen an odd and ill-advised moment to test out a new, advanced, and almost transcendental hockey analytics notion. Either that, or the Carolina Hurricanes are putting together the first five-game sweep in history.
-Either way, we&#x27;re getting something we&#x27;ve never seen before, and we&#x27;re only going to get one more chance, Friday night in Raleigh, to see it. That is, unless the Canadiens manage to perfect their new signature move: scoring without shooting. It&#x27;s only worked once so far, and that by accident, but head coach Martin St. Louis has fallen in love with the concept and has watched his lads lose their last three games in pursuit of it. Indeed, it can be said that the idea, which was sparked by their Game 7 win over Tampa Bay in the first round, has been the…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;223935"
-                        open
-                      >
-                        <summary class="article-expander__title">‘The Vivisectors’ Is A Brilliant Novel In Any Reality</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/the-vivisectors-missouri-williams-review">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-2239878752.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The specifics are a little difficult to pin down, but that’s true of most things surrounding novelist, filmmaker, and playwright Missouri Williams. Here are the facts I’ve been able to piece together: At some point in her young adulthood, Williams began to have seizures. In a 2025 interview with TriQuarterly, Williams said that the episodes began after she had moved to “a new city with a new language” (location and tongue unspecified), and while she was working in a cafe while trying to learn more than simple phrases. As she put it: “I spent a lot of time getting orders wrong, being reprimanded without quite understanding why. It was useful to feel so stupid.” Around this time, misfires in her temporal lobe began to incite epileptic episodes. These issues in the part of the brain responsible for language and memory completely destabilized Williams. Already struggling to get a foothold in her new surroundings, she then began to forget words in her native English. She found that she was thinking entire sentences backward. She made woozy, tenuous connections between ideas and objects. “Everything suggested everything else in the strangest of ways,” she said.
-Unable to hold onto words, ideas, or memories, Williams began an obsessive cataloging. She built a network of complex sentences that would circle back and collapse in on themselves like murmurating birds. It was as if each word was “driven by the need to confirm each and every thing that had preceded them,” as she wrote for Granta in 2022. Soon these sentences began to pile up, and eventually she was able to shape many of them into a book.
-The Doloriad, Williams&#x27;s award-winning 2022 debut, reached an instant sort of cult-classic status, partially for its body-horror grotesqueries, but also for its undeniable beauty and off-kilter theology. The book suggests that as one gets closer to Christ, His wounds open up on your body. The Divine and The Gross often coexist.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;33
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;223947"
-                        open
-                      >
-                        <summary class="article-expander__title">Students For Trump Co-Founder Arrested On Domestic Violence Charges, Allegedly Yelled “Do You Want To Die Today?”</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/students-for-trump-chairman-ryan-fournier-arrest-domestic-violence">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-1230413836.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Ryan Fournier, the co-founder and chairman of the group Students for Trump, was arrested early Tuesday morning in Washington, D.C., after he allegedly assaulted and threatened a woman, according to documents obtained by Defector. The Metropolitan Police Department charged Fournier with simple assault and attempted threats to do bodily harm. According to the affidavit, the…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -8656,305 +9175,6 @@ display my init file in a new Emacs frame and close it (by pressing
 changing it inadvertently.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;9
                                   min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13838"
-                        open
-                      >
-                        <summary class="article-expander__title">Irreal: Zap-to-char Backwards</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13838">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Ray on Emacs, Raymond Zeitler has a very nice post on using zap-to-char in reverse. He—hypothetically—was typing some text, inadvertently leaned on a key, and ended up with a long string of a repeated character at the end of his text. Something like this:
-
-senteeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-
-
-Here’s what I didn’t know. You can cause zap-to-char to delete characters to the left by giving it negative count argument. So in Zeitler’s example, he erases the string of e​s by calling zap-to-char as Meta+- Meta+z t.
-
-
-But that’s not quite right. The problem is that it will also erase the t, which I assume was not his intention. Fortunately, there’s an easy solution that I wrote about almost 14 years ago. The problem with zap-to-char is that it does what you want it to only about half the time. The rest of the time you don’t want to delete the target character; you want to delete up to but not including that character. It turns out that Emacs has a command, zap-up-to-char, to do that but it’s not bound to any shortcut1. I have it bound to Meta+Z. It also honors the negative count argument so the correct solution for Zeitler’s problem is Meta+- Meta+Z t.
-
-
-The mistake aside, this is a great post because it tells me—and maybe you—something I didn’t know: you can zap backwards.
-
-
-Footnotes: 
-1 
-
-
-
-Happily, it’s now autoloaded by default so you no longer have to worry about that.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Balls and Strikes</button>
-                  <a class="source-heading__link" href="https://ballsandstrikes.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://ballsandstrikes.org/?p&#x3D;18305"
-                        open
-                      >
-                        <summary class="article-expander__title">Clarence Thomas Ponders Whether West Coast Driver’s Licenses Could Justify Civil War</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://ballsandstrikes.org/scotus/clarence-thomas-florida-california-washington-civil-war-drivers-licenses/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://ballsandstrikes.org/wp-content/uploads/2025/09/GettyImages-2194969562-1200x630.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>With increasing frequency, the conservative justices are using language that is indistinguishable from a Tucker Carlson monologue.
-The post Clarence Thomas Ponders Whether West Coast Driver’s Licenses Could Justify Civil War appeared first on Balls and Strikes.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >everyone is entitled to my own opinion</button>
-                  <a class="source-heading__link" href="https://www.jefftiedrich.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.jefftiedrich.com/p/james-talarico-is-a-boss"
-                        open
-                      >
-                        <summary class="article-expander__title">James Talarico is a boss</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.jefftiedrich.com/p/james-talarico-is-a-boss">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substackcdn.com/image/fetch/$s_!sG_I!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9871f937-fa46-4897-82f7-fc7f1c111b6a_1200x630.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>and Ken Paxton fucking sucks</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Morning Memo – TPM – Talking Points Memo</button>
-                  <a class="source-heading__link" href="https://talkingpointsmemo.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://talkingpointsmemo.com/?p&#x3D;1548239"
-                        open
-                      >
-                        <summary class="article-expander__title">Trump Sics DOJ on Famed Victim of His Sexual Abuse</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://talkingpointsmemo.com/morning-memo/trump-sics-doj-on-famed-victim-of-his-sexual-abuse">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://talkingpointsmemo.com/wp-content/uploads/2026/05/GettyImages-2166919011.jpg?w&#x3D;804" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>There Is No Bottom I wish I could say we have reached the nadir of President Trump’s abuse of his...</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Dworkin Report</button>
-                  <a class="source-heading__link" href="https://www.dworkinsubstack.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.dworkinsubstack.com/p/ice-pepper-sprayed-a-sitting-us-senator"
-                        open
-                      >
-                        <summary class="article-expander__title">Trump Rejected By Own Judges, South Carolina Voters Stopped The Steal, and Sen. Andy Kim Holds The Line Against ICE</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dworkinsubstack.com/p/ice-pepper-sprayed-a-sitting-us-senator">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substack-post-media.s3.amazonaws.com/public/images/bdbb6c2b-1325-44e8-a169-0006c5a40bcd_3600x2025.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The regime tried to silence four groups of Americans. They got louder instead</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Misc Newsletters</button>
-                  <a class="source-heading__link" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/prp1q93ivy14uy0rl5c7.html"
-                        open
-                      >
-                        <summary class="article-expander__title">BREAKING: Federal judge refuses to block Trump executive order on mail voting — for now</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/prp1q93ivy14uy0rl5c7.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BREAKING: Federal judge refuses to block Trump executive order on mail voting — for now96
-  :root { color-scheme: light; supported-color-schemes: light; }
-  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }
-  .body { word-wrap: normal; word-spacing:normal; }
-  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }
-  img { border: 0; outline: none; }
-  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }
-  td, a, span {  mso-line-height-rule: exactly; }
-  #root [x-apple-data-detectors&#x3D;true],
-  a[x-apple-data-detectors&#x3D;true],
-  #MessageViewBody a { color: inherit !important; text-…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/b3m312q8ex0emt7r7lw5.html"
-                        open
-                      >
-                        <summary class="article-expander__title">All too familiar</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/b3m312q8ex0emt7r7lw5.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>96
-        All too familiar
-        
-@media only screen and (max-width: 620px) {
-  table.body {
-    width: 100%;
-    min-width: 100%;
-  }
-
-  table.body .content {
-    padding: 0 !important;
-  }
-
-  table.body .container {
-    padding: 0 !important;
-    width: 100% !important;
-  }
-
-  table.body .main {
-    border-spacing: 10px 0 !important;
-    border-left-width: 0 !important;
-    border-radius: 0 !important;
-    border-right-width: 0 !important;
-  }
-
-  table.body .img-responsive {
-    height: auto !important;
-    max-width: 100% !important;
-    width: auto !important;
-  }
-}
-@media all {
-  .ExternalClass {
-    width: 100%;
-  }
-
-  .ExternalClass,
-.ExternalClass p,
-.ExternalClass span,
-.ExternalClass font,
-.ExternalClass td,
-.ExternalClass div {
-    line-height: 100%;
-  }
-
-  .apple-link a {
-  …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1fdw66hfkrht8r7sff9w.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Check out our most browsed books this month!</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1fdw66hfkrht8r7sff9w.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>96
-
-
-*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}.row-4 .column-1 .block-3 .button:hover,.row-4 .column-2 .block-3 .button:hover,.row-4 .column-3 .block-3 .button:hover,.row-5 .column-1 .block-3 .button:hover,.row-5 .column-2 .block-3 .button:hover,.row-5 .column-3 .block-3 .button:hover,.row-7 .column-2 .block-2 .button:hover{background-color:#16688b!important;border-bottom:0 solid transparent!important;border-left:0 solid transparent!important;border-right:0 solid transp…</span>
                             </span>
                           </div>
                         </a>
@@ -9322,8 +9542,8 @@ Under normal circumstances, these polls would presage the mythical blue wave, wi
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/27076320975">
-        <time id="build-timestamp" datetime="2026-06-06T23:02:39.617Z">2026-06-06T23:02:39.617Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/27081667200">
+        <time id="build-timestamp" datetime="2026-06-07T03:36:29.571Z">2026-06-07T03:36:29.571Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
