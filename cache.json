@@ -897,6 +897,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://bicycleforyourmind.com/much-ado-about-emacs-014",
+          "author": null,
+          "description": "Emacs\nOrg-Mode and the Capture System\nOrg-mode has a capture system. You can be in any file in Emacs and invoke the capture system. Press a few keys and add text to a org heading in any file that you have set up a capture for.\nIt is easy to set it up. Firstly you assign a keyboard command to the capture system. In my case,\n:bind (\"C-c c\" . org-capture)\nOrg-capture\nYou get this.\nJournal Entry\nYou press a key. Let’s say you want to add a journal entry. Press j and get this.\nType what you want to say in the buffer and when done, press ⌃C ⌃C. This saves the additions to the journal and closes the buffer. Leaving you in the buffer you were in before you invoked the capture function.\nMy setup for the journal capture looks like this:\n(\"j\" \"journal\" entry (file+datetree \"~/Dropbox/org/diary2026.or…",
+          "link": "https://bicycleforyourmind.com/much-ado-about-emacs-014",
+          "publishedOn": "2026-06-07T07:00:00.000Z",
+          "wordCount": null,
+          "title": "Bicycle for Your Mind: Much Ado About Emacs 014",
+          "imageUrl": null
+        },
+        {
           "id": "https://sachachua.com/blog/2026/06/emacs-pdf-view-replace-current-page-with-file-using-pdftk/",
           "author": null,
           "description": "pdf-tools and PDFtk.\n\n\n\n\n;;;###autoload\n(defun sacha-pdf-view-replace-current-page-with-file (file)\n  \"Replace the current page in PDF View with FILE.\nRequires pdftk.\"\n  (interactive \"FFile to insert: \")\n  (let ((temp-file (concat (make-temp-name \"pdf-view\") \".pdf\")))\n    (call-process\n     \"pdftk\"\n     nil nil nil\n     (concat \"A=\" (expand-file-name (buffer-file-name)))\n     (concat \"B=\" (expand-file-name file))\n     \"cat\"\n     (format \"A%d-%d\"\n             1\n             (1- (pdf-view-current-page)))\n     \"B\"\n     (format \"A%d-end\"\n             (1+ (pdf-view-current-page)))\n     \"output\"\n     temp-file)\n    (rename-file temp-file (buffer-file-name) t)))\n\nThis is part of my Emacs configuration.\nView Org source for this post\nYou can e-mail me at sacha@sachachua.com.",
@@ -2140,6 +2150,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=224961",
+          "author": "Israel Daramola",
+          "description": "On Saturday, the Minnesota Lynx continued their early season dominance by beating the Seattle Storm for a seventh straight win. Natasha Howard has been excellent and provided 27 points in the game, but a big part of why this team looks like a monster despite their ostensible superstar being out, is the excellent play and cool demeanor of Olivia Miles, who put in 19 points, 6 assists, and 6 rebounds against the Storm. This came just three nights after setting a WNBA rookie record of eight 3s in a win over the Golden State Valkyries. Prior to that game, her 3-point percentage was the weakest part of her game, but that's the thing about Miles, who is already starting to gain the 'Magic' moniker for the way she sees the court. She's making leaps every game, she keeps getting better and playing smarter. She's got a big afro, slightly smaller now than it was before, and those Horace Grant-wraparound goggles. It a look that should read as dorky, and yet she is the coolest looking person on the court and I am ready to pledge complete fealty to her already.\n\nhttps://www.youtube.com/watch?v=54wNMOupgJA\n\n\nNo amount of stat-listing really captures how much fun it is to watch her on the court. In my colleague Maitreyi Anantharaman's blog about her, she described her as the ultimate NCAA tournament player: \"Campy, goofy, stylish, a little chaotic.\" Someone that attacks the rim in unique ways, capable of insane no look passes, and a maker of decision that seem like they won't work but consistently do. These are the same reasons that made her prospects in the pro leagues a lot more tenuous and uncertain, despite being thought of as a top-3 draft pick back in 2025. Through a combination of landing on the right team and being given the keys to run the offense for the Lynx, she's found a scenario for translating her college game to the  WNBA. She has been the best rookie to watch so far and a big part of why the Lynx look like a juggernaut even while Napheesa Collier is on the bench still recovering from ankle surgery.",
+          "link": "https://defector.com/i-have-been-olivia-miles-pilled",
+          "publishedOn": "2026-06-07T19:17:07.000Z",
+          "wordCount": 5145,
+          "title": "I Have Been Olivia Miles-Pilled",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2279149580.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=224964",
+          "author": "Ray Ratto",
+          "description": "Well, the National Hockey League has hopelessly screwed itself now. It has unwittingly but in a very real sense created a Stanley Cup Final so wonderfully bizarre and delightfully absurd that the first game that ends up normal could absolutely result in its Toronto offices burned to the ground and as soon as the Knicks parade ends, burning their New York offices to the ground as well. The NHL would totally deserve that result because you cannot keep ratcheting up the improbability game after game and then, once the suckers are hooked, give the people \"normal\" hockey. People react poorly to bait-and-switch at tavern-watching level.\nPut more simply, you cannot give people this or this or most amazingly, this  and then just dump a regular old game on them once you've grabbed them. Bait-and-switch will never have had gained such a bad reputation.\n\nhttps://www.youtube.com/watch?v=tcsakQhf93U",
+          "link": "https://defector.com/the-hurricanes-took-vegas-to-the-brink-and-the-rest-of-us-got-hockey-nirvana",
+          "publishedOn": "2026-06-07T18:35:59.000Z",
+          "wordCount": 6581,
+          "title": "The Hurricanes Took Vegas To The Brink And The Rest Of Us Got Hockey Nirvana",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2280260217.jpg"
+        },
         {
           "id": "https://defector.com/?p=224957",
           "author": "Israel Daramola",
