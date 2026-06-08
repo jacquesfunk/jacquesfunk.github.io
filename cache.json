@@ -825,6 +825,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.chiply.dev/post-svg-line",
+          "author": null,
+          "description": "1. TLDR\nmode-line, header-line, tab-bar, and tab-line), but each imposes different, inconsistent limits on multi-line layout, alignment, icons, and interactivity.  svg-line (see code on GitHub) solves this by rendering them as SVG images, and normalizes a rich feature set across all status bars with a consistent configuration.  svg-line works by defining a small rendering engine built on Emacs's native SVG support.  Configuring status bars is easy: you simply write one :content function and call svg-line-activate.  You can see my custom configuration of mode-line, header-line, tab-line, and tab-bar in my Emacs config.\n\n\n\n\n\n\n\n\n\n\nFigure 1: Every *-line in this frame is one SVG image drawn by svg-line.\n2. About\nmode-line, the header-line, the tab-bar, and the tab-line (*-lines for short).  Th…",
+          "link": "https://www.chiply.dev/post-svg-line",
+          "publishedOn": "2026-06-08T11:58:29.000Z",
+          "wordCount": 5443,
+          "title": "Charlie Holland: svg-line: Better Status Bars for Emacs",
+          "imageUrl": "https://www.chiply.dev/images/svg-line-annotated.png"
+        },
+        {
           "id": "https://irreal.org/blog/?p=13860",
           "author": null,
           "description": "The Art Of Not Asking Why describes a problem—and its resolution—that I didn’t know existed. The TL;DR is that photographs taken with an iPhone are always captured in landscape mode but Apple’s software detects portrait photos and corrects the orientation on the fly.\n\n\nThat leads to the problem: when iPhone portrait mode photos are shown on Linux using Org mode they are shown in landscape mode. You can get the details from JTR’s post.\n\n\nThe fix is pretty easy. He uses the mogrify tool of ImageMagick to auto-orient the photos based on their EXIF data. Since he’s viewing these photos in Org mode he wants an easy way of making the conversion from within Emacs. That’s a perfect job for Álvaro Ramírez’s dwim-shell-command, which JTR uses.\n\n\nTake a look at the code and see how simple it is. Even if you aren’t an Elisp expert, it’s easy to do things like this with dwim-shell-command right from Emacs.",
@@ -1163,16 +1173,6 @@
           "wordCount": null,
           "title": "Bicycle for Your Mind: Links of Note 2026-05-30",
           "imageUrl": null
-        },
-        {
-          "id": "https://sachachua.com/blog/2026/05/may-29-emacs-chat-with-omar-antolin-camarena/",
-          "author": null,
-          "description": "[2026-05-31 Sun]: Updated transcript and added a link to Karthik's notes.\n\n\n\n\n\nI chatted with Omar Antolín Camarena about Emacs, keyboard macros, temporary buffers, Embark, and other workflow tips.\n\nVideo not supported. Thumbnail:\n\n\n\n\nView in the Internet Archive, read the transcript online, watch or comment on YouTube, download the audio or the transcript, or e-mail me.\n\n\n\nRelated links:\n\n\n\nOmar Antolín Camarena: a researcher at Instituto de Matemáticas, UNAM in Mexico City\nM-x apropos Emacs\noantolin/emacs-config: My personal Emacs configuration · GitHub\noantolin/placeholder: Emacs package to treat any buffer as a template with placeholders to fill-in · GitHub\noantolin (Omar Antolín Camarena) · GitHub\nOmar Antolín (@oantolin@mathstodon.xyz) - Mathstodon\nu/oantolin on Reddit\n#Emacs #Embark…",
-          "link": "https://sachachua.com/blog/2026/05/may-29-emacs-chat-with-omar-antolin-camarena/",
-          "publishedOn": "2026-05-29T22:02:50.000Z",
-          "wordCount": 11226,
-          "title": "Sacha Chua: Emacs Chat 24: Omar Antolin Camarena",
-          "imageUrl": null
         }
       ]
     },
@@ -1181,6 +1181,46 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160371",
+          "author": "David Pinto",
+          "description": "Every Monday Baseball Musings compares league offense for the current season to the previous season through the same number of full weeks. Through ten full weeks, the 2026 season generated 8.88 runs per game compared to 8.59 runs per game in 2025. The 0.3 runs per game increase comes from a rise in walks and […]",
+          "link": "https://www.baseballmusings.com/?p=160371",
+          "publishedOn": "2026-06-08T12:41:54.000Z",
+          "wordCount": 7755,
+          "title": "Weekly Look at Offense",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160369",
+          "author": "David Pinto",
+          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.337, 0.736 — Brandon Marsh batting at Patrick Corbin. 0.337, 0.742 — Luis Arraez batting vs. Miles Mikolas. 0.333, 0.729 — Jung Hoo Lee batting vs. Miles Mikolas. 0.300, 0.684 — Casey Schmitt batting vs. Miles Mikolas. 0.290, 0.706 — Ernie Clement batting […]",
+          "link": "https://www.baseballmusings.com/?p=160369",
+          "publishedOn": "2026-06-08T11:44:23.000Z",
+          "wordCount": 7923,
+          "title": "Beat the Streak Picks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160367",
+          "author": "David Pinto",
+          "description": "Yordan Alvarez of the Astros stayed on top of the Baseball Musings Batter Rankings with a single and a walk in a 5-0 Athletics win. A little more than a point behind him stands Yandy Diaz of the Rays, one for four in a 4-1 Marlins win. His teammate, Junior Caminero, ranks fourth after posting […]",
+          "link": "https://www.baseballmusings.com/?p=160367",
+          "publishedOn": "2026-06-08T11:11:50.000Z",
+          "wordCount": 7689,
+          "title": "Best Batter Today",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160364",
+          "author": "David Pinto",
+          "description": "",
+          "link": "https://www.baseballmusings.com/?p=160364",
+          "publishedOn": "2026-06-08T10:32:35.000Z",
+          "wordCount": 7459,
+          "title": "Monday Update",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160362",
           "author": "David Pinto",
@@ -1586,6 +1626,22 @@
       "siteUrl": "https://www.stevevladeck.com",
       "articles": [
         {
+          "id": "https://www.stevevladeck.com/p/231-the-death-of-purcells-principle",
+          "author": "Steve Vladeck",
+          "description": "There is no coherent defense of the \"Purcell principle\" that can be rationalized with the Supreme Court's recent behavior in the AL and LA redistricting cases.",
+          "link": "https://www.stevevladeck.com/p/231-the-death-of-purcells-principle",
+          "publishedOn": "2026-06-08T11:24:03.000Z",
+          "wordCount": null,
+          "title": "231. The Death of Purcell's \"Principle\"",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!j4BV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9b1af57f-0852-4482-99ca-bd54a00ea1ae_1920x1080.avif",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!j4BV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9b1af57f-0852-4482-99ca-bd54a00ea1ae_1920x1080.avif"
+        },
+        {
           "id": "https://www.stevevladeck.com/p/decision-day-summary-june-4-2026",
           "author": "Steve Vladeck",
           "description": "Our fourth new video bonus for paid subscribers walks through the three rulings in argued cases that the Supreme Court handed down on Thursday, June 4, 2026.",
@@ -1719,22 +1775,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!uGiz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6a92c04-6a6a-42cb-908f-659c3224feaa_2082x1532.png"
-        },
-        {
-          "id": "https://www.lawdork.com/p/federal-judge-ends-kennedy-center-name-change",
-          "author": "Chris Geidner",
-          "description": "“Congress gave the Kennedy Center its name, and only Congress can change it.” Trump responded ... as one would expect.",
-          "link": "https://www.lawdork.com/p/federal-judge-ends-kennedy-center-name-change",
-          "publishedOn": "2026-05-29T22:53:24.000Z",
-          "wordCount": null,
-          "title": "Federal judge ends Kennedy Center name change, bars two-year closure plans for now",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!A9fq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fca497469-6edb-4760-9c19-0dd731d262a6.heic",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!A9fq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fca497469-6edb-4760-9c19-0dd731d262a6.heic"
         }
       ]
     },
@@ -2038,6 +2078,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=225014",
+          "author": "Tom Ley",
+          "description": "Recently fired 60 Minutes correspondent Scott Pelley sat down with The New York Times over the weekend for a lengthy interview about the end of his tenure at CBS News, which Bari Weiss has been speedily destroying with her incompetence. Pelley had a few things to say that confirmed Weiss, already one of the worst operators in the history of network TV, has no idea what she's doing.\nAfter he was fired with cause for daring to speak up to newly installed executive producer Nick Bilton in a staff meeting, Pelley released a statement in which he claimed that he had recently been instructed to \"inject falsehoods and bias into a politically sensitive story.\" During his interview with the Times, Pelley revealed that he was referring to Weiss's attempts to meddle with his report on the killings of Renee Good and Alex Pretti by ICE agents in Minneapolis. From the interview:\nIt’s Sunday; we’re going on the air that night. And in the case of stories that are, as we say, crashing, our deadline on Sunday is noon. So, we work on all of these things. We get the piece approved by everyone. And about four hours after our deadline, Bari Weiss sends an email to my boss, Tanya Simon. Two of the things in the email include, can we make the protesters look more violent? Now, I’m paraphrasing. I don’t have the quote, but that’s what was communicated to me. And the other thing, Renee Good’s car. You need to describe her as driving toward the officer.",
+          "link": "https://defector.com/bari-weiss-even-worse-at-her-job-than-previously-imagined",
+          "publishedOn": "2026-06-08T13:00:18.000Z",
+          "wordCount": 6159,
+          "title": "Bari Weiss Even Worse At Her Job Than Previously Imagined",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-1665941317.jpg"
+        },
         {
           "id": "https://defector.com/?p=224985",
           "author": "Justin Ellis",
@@ -2873,6 +2923,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/salon-amanda-marcotte.xml",
       "siteUrl": "https://www.salon.com/writer/amanda_marcotte",
       "articles": [
+        {
+          "id": "https://www.salon.com/2026/06/08/even-in-purple-colorado-republicans-cant-find-a-normal-candidate/-full",
+          "author": null,
+          "description": "Victor Marx says the first time he participated in killing a man, he was merely 7 years old. He says he was forced by his stepfather, but also would like folks to believe he’s killed many, many times since then — though he refuses to say how many people — but of course, only for the greater good. According to him, the military empowered him to order strikes that killed 70 ISIS fighters. He has also claimed he rescued over 45,000 women and children from slavery around the world, like something from a high-stakes action movie. He later pulled that number off his All Things Possible Ministries website when called out on it. He bragged that he’s led over 130 missions in over 30 nations, but claimed ignorance when asked for details of these daring rescues. He performs exorcisms over the phone, …",
+          "link": "https://www.salon.com/2026/06/08/even-in-purple-colorado-republicans-cant-find-a-normal-candidate/",
+          "publishedOn": "2026-06-08T10:45:45.000Z",
+          "wordCount": 1989,
+          "title": "Even in purple Colorado, Republicans can’t find a normal candidate",
+          "imageUrl": "https://www.salon.com/app/uploads/2026/06/colorado-governor-race-GettyImages-2278818352.jpg"
+        },
         {
           "id": "https://www.salon.com/2026/06/06/what-salons-djs-are-spinning-this-summer/-full",
           "author": null,

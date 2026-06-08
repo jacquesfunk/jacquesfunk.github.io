@@ -2,10 +2,105 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-06-08T08:53:15.368Z</updated>
+    <updated>2026-06-08T14:05:27.473Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bari Weiss Even Worse At Her Job Than Previously Imagined]]></title>
+        <id>https://defector.com/?p=225014</id>
+        <link href="https://defector.com/bari-weiss-even-worse-at-her-job-than-previously-imagined"/>
+        <updated>2026-06-08T13:00:18.000Z</updated>
+        <summary type="html"><![CDATA[Recently fired 60 Minutes correspondent Scott Pelley sat down with The New York Times over the weekend for a lengthy interview about the end of his tenure at CBS News, which Bari Weiss has been speedily destroying with her incompetence. Pelley had a few things to say that confirmed Weiss, already one of the worst operators in the history of network TV, has no idea what she's doing.
+After he was fired with cause for daring to speak up to newly installed executive producer Nick Bilton in a staff meeting, Pelley released a statement in which he claimed that he had recently been instructed to "inject falsehoods and bias into a politically sensitive story." During his interview with the Times, Pelley revealed that he was referring to Weiss's attempts to meddle with his report on the killings of Renee Good and Alex Pretti by ICE agents in Minneapolis. From the interview:
+It’s Sunday; we’re going on the air that night. And in the case of stories that are, as we say, crashing, our deadline on Sunday is noon. So, we work on all of these things. We get the piece approved by everyone. And about four hours after our deadline, Bari Weiss sends an email to my boss, Tanya Simon. Two of the things in the email include, can we make the protesters look more violent? Now, I’m paraphrasing. I don’t have the quote, but that’s what was communicated to me. And the other thing, Renee Good’s car. You need to describe her as driving toward the officer.]]></summary>
+        <author>
+            <name>Tom Ley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Look at Offense]]></title>
+        <id>https://www.baseballmusings.com/?p=160371</id>
+        <link href="https://www.baseballmusings.com/?p=160371"/>
+        <updated>2026-06-08T12:41:54.000Z</updated>
+        <summary type="html"><![CDATA[Every Monday Baseball Musings compares league offense for the current season to the previous season through the same number of full weeks. Through ten full weeks, the 2026 season generated 8.88 runs per game compared to 8.59 runs per game in 2025. The 0.3 runs per game increase comes from a rise in walks and […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Charlie Holland: svg-line: Better Status Bars for Emacs]]></title>
+        <id>https://www.chiply.dev/post-svg-line</id>
+        <link href="https://www.chiply.dev/post-svg-line"/>
+        <updated>2026-06-08T11:58:29.000Z</updated>
+        <summary type="html"><![CDATA[1. TLDR
+mode-line, header-line, tab-bar, and tab-line), but each imposes different, inconsistent limits on multi-line layout, alignment, icons, and interactivity.  svg-line (see code on GitHub) solves this by rendering them as SVG images, and normalizes a rich feature set across all status bars with a consistent configuration.  svg-line works by defining a small rendering engine built on Emacs's native SVG support.  Configuring status bars is easy: you simply write one :content function and call svg-line-activate.  You can see my custom configuration of mode-line, header-line, tab-line, and tab-bar in my Emacs config.
+
+
+
+
+
+
+
+
+
+
+Figure 1: Every *-line in this frame is one SVG image drawn by svg-line.
+2. About
+mode-line, the header-line, the tab-bar, and the tab-line (*-lines for short).  Th…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beat the Streak Picks]]></title>
+        <id>https://www.baseballmusings.com/?p=160369</id>
+        <link href="https://www.baseballmusings.com/?p=160369"/>
+        <updated>2026-06-08T11:44:23.000Z</updated>
+        <summary type="html"><![CDATA[The Log5 Method yields these top projected hit averages versus starting pitchers: 0.337, 0.736 — Brandon Marsh batting at Patrick Corbin. 0.337, 0.742 — Luis Arraez batting vs. Miles Mikolas. 0.333, 0.729 — Jung Hoo Lee batting vs. Miles Mikolas. 0.300, 0.684 — Casey Schmitt batting vs. Miles Mikolas. 0.290, 0.706 — Ernie Clement batting […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[231. The Death of Purcell's "Principle"]]></title>
+        <id>https://www.stevevladeck.com/p/231-the-death-of-purcells-principle</id>
+        <link href="https://www.stevevladeck.com/p/231-the-death-of-purcells-principle"/>
+        <updated>2026-06-08T11:24:03.000Z</updated>
+        <summary type="html"><![CDATA[There is no coherent defense of the "Purcell principle" that can be rationalized with the Supreme Court's recent behavior in the AL and LA redistricting cases.]]></summary>
+        <author>
+            <name>Steve Vladeck</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best Batter Today]]></title>
+        <id>https://www.baseballmusings.com/?p=160367</id>
+        <link href="https://www.baseballmusings.com/?p=160367"/>
+        <updated>2026-06-08T11:11:50.000Z</updated>
+        <summary type="html"><![CDATA[Yordan Alvarez of the Astros stayed on top of the Baseball Musings Batter Rankings with a single and a walk in a 5-0 Athletics win. A little more than a point behind him stands Yandy Diaz of the Rays, one for four in a 4-1 Marlins win. His teammate, Junior Caminero, ranks fourth after posting […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Even in purple Colorado, Republicans can’t find a normal candidate]]></title>
+        <id>https://www.salon.com/2026/06/08/even-in-purple-colorado-republicans-cant-find-a-normal-candidate/-full</id>
+        <link href="https://www.salon.com/2026/06/08/even-in-purple-colorado-republicans-cant-find-a-normal-candidate/"/>
+        <updated>2026-06-08T10:45:45.000Z</updated>
+        <summary type="html"><![CDATA[Victor Marx says the first time he participated in killing a man, he was merely 7 years old. He says he was forced by his stepfather, but also would like folks to believe he’s killed many, many times since then — though he refuses to say how many people — but of course, only for the greater good. According to him, the military empowered him to order strikes that killed 70 ISIS fighters. He has also claimed he rescued over 45,000 women and children from slavery around the world, like something from a high-stakes action movie. He later pulled that number off his All Things Possible Ministries website when called out on it. He bragged that he’s led over 130 missions in over 30 nations, but claimed ignorance when asked for details of these daring rescues. He performs exorcisms over the phone, …]]></summary>
+        <author>
+            <name>Amanda Marcotte - Salon.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Monday Update]]></title>
+        <id>https://www.baseballmusings.com/?p=160364</id>
+        <link href="https://www.baseballmusings.com/?p=160364"/>
+        <updated>2026-06-08T10:32:35.000Z</updated>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Athletics Interested In Kris Bubic]]></title>
         <id>https://www.mlbtraderumors.com/?p=898613</id>
@@ -5174,16 +5269,6 @@ Note: Thanks to Photo by Baku Kerimbekova: https://www.pexels.com/photo/cozy-flu
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Federal judge ends Kennedy Center name change, bars two-year closure plans for now]]></title>
-        <id>https://www.lawdork.com/p/federal-judge-ends-kennedy-center-name-change</id>
-        <link href="https://www.lawdork.com/p/federal-judge-ends-kennedy-center-name-change"/>
-        <updated>2026-05-29T22:53:24.000Z</updated>
-        <summary type="html"><![CDATA[“Congress gave the Kennedy Center its name, and only Congress can change it.” Trump responded ... as one would expect.]]></summary>
-        <author>
-            <name>Chris Geidner</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Louisiana just erased a majority-Black district]]></title>
         <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/wscqnt84m0mq2t8v7xiz.html</id>
         <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/wscqnt84m0mq2t8v7xiz.html"/>
@@ -5212,44 +5297,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
      …]]></summary>
         <author>
             <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sacha Chua: Emacs Chat 24: Omar Antolin Camarena]]></title>
-        <id>https://sachachua.com/blog/2026/05/may-29-emacs-chat-with-omar-antolin-camarena/</id>
-        <link href="https://sachachua.com/blog/2026/05/may-29-emacs-chat-with-omar-antolin-camarena/"/>
-        <updated>2026-05-29T22:02:50.000Z</updated>
-        <summary type="html"><![CDATA[[2026-05-31 Sun]: Updated transcript and added a link to Karthik's notes.
-
-
-
-
-
-I chatted with Omar Antolín Camarena about Emacs, keyboard macros, temporary buffers, Embark, and other workflow tips.
-
-Video not supported. Thumbnail:
-
-
-
-
-View in the Internet Archive, read the transcript online, watch or comment on YouTube, download the audio or the transcript, or e-mail me.
-
-
-
-Related links:
-
-
-
-Omar Antolín Camarena: a researcher at Instituto de Matemáticas, UNAM in Mexico City
-M-x apropos Emacs
-oantolin/emacs-config: My personal Emacs configuration · GitHub
-oantolin/placeholder: Emacs package to treat any buffer as a template with placeholders to fill-in · GitHub
-oantolin (Omar Antolín Camarena) · GitHub
-Omar Antolín (@oantolin@mathstodon.xyz) - Mathstodon
-u/oantolin on Reddit
-#Emacs #Embark…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
