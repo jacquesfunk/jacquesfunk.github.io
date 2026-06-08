@@ -2,10 +2,230 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-06-08T14:05:27.473Z</updated>
+    <updated>2026-06-08T18:25:08.294Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Games of the Day]]></title>
+        <id>https://www.baseballmusings.com/?p=160373</id>
+        <link href="https://www.baseballmusings.com/?p=160373"/>
+        <updated>2026-06-08T17:52:48.000Z</updated>
+        <summary type="html"><![CDATA[The Yankees visit the Guardians with Will Warren facing Gavin Williams. The two starters own nearly identical ERAs, 3.22 for Warren, 3.20 for Williams, with Williams pitching more innings. The two are even in walk rate, with Warren better at preventing home runs and Williams better at recording strikeouts. Cristopher Sanchez tries to continue his […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Portugal Belongs To Cristiano Ronaldo For A Little Bit Longer]]></title>
+        <id>https://defector.com/?p=225060</id>
+        <link href="https://defector.com/portugal-belongs-to-cristiano-ronaldo-for-a-little-bit-longer"/>
+        <updated>2026-06-08T17:48:52.000Z</updated>
+        <summary type="html"><![CDATA[It's almost time for the World Cup. Before the tournament, we'll be previewing each of the top 15 teams by FIFA rankings that made the tournament. Why the top 15? Because that's how many we needed to do in order for the USMNT to make the cut. You can read all of our previews here.
+You're watching to see if Cristiano Ronaldo at age 41 is still worth watching. You know you are. You're trying to force-feed a LeBron James comparison into your cerebral cortex because you know what happened in the past, but have no idea about the future except that 41-year-olds are unreliable predictors. So you make up reasons why Portugal's chances at a deep run are dependent upon Ronaldo's résumé, when in fact we won't see Portugal's true mettle as the fifth-rated team in this tournament until they have escaped a deeply rudimentary group with Colombia, the Democratic Republic of Congo, and Uzbekistan. Historically, Colombia is a formidable knockout stage team, though it missed out entirely in 2022. Uzbekistan is at its first Mundial ever and the DRC has only made one, in 1974 when the country was known as Zaire, and lost all three matches. President Mobutu Sese Seko offered to jail them all when they returned. So that's fun. Against this field, we will learn little, but your Ronaldo fixation will be dealt with next month, so be patient.]]></summary>
+        <author>
+            <name>Ray Ratto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Border Security Theatrics Are Rising At History’s Stupidest World Cup]]></title>
+        <id>https://defector.com/?p=225025</id>
+        <link href="https://defector.com/border-security-theatrics-are-rising-at-historys-stupidest-world-cup"/>
+        <updated>2026-06-08T17:07:48.000Z</updated>
+        <summary type="html"><![CDATA[For a World Cup host nation, the soccer is largely incidental. Even more obviously disposable are soaring ideas of bringing the international community together in a peaceful celebration of yadda yadda. In the case of the United States under the Trump administration, the point of hosting a World Cup is security theater. The nation's ideals have been whittled all the way down to the most petty shit imaginable: Hosting a World Cup forces the world to come to us when most would rather not, forces allies and enemies alike to grovel and flatter and suffer and whine at our caprice, all while we sit there with a finger jammed in our nose and our dick flopping out. It's a show not of strength but of power, something that tickles the groins of the coalition of landlords and aspiring landlords that …]]></summary>
+        <author>
+            <name>Chris Thompson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: Emacs and the Numeric Keypad]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/06/emacs-and-numeric-keypad.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/06/emacs-and-numeric-keypad.html"/>
+        <updated>2026-06-08T15:51:22.851Z</updated>
+        <summary type="html"><![CDATA[If you have a numeric keypad1, try this in the *scratch* buffer:
+enable numlock and press the zero on the numeric keyboard
+(Num-0). Then press the zero located between the alpha keys and the
+  function keys (0). Okay, you see 00, no big deal.
+Why do I bring this up?  Emacs interprets Num-0 keypress as <kp-0> while it interprets 0 as
+0.  This means that you could bind Num-0 to a function without
+affecting the other 0. You could configure Num-0 to insert "zero" by
+entering and evaluating this in the *scratch* buffer:
+(keymap-local-set "<kp-0>" #'(lambda () (interactive) (insert "zero")))
+
+
+ 
+That's a trivial example, of course.  But it implies that you can
+      have ten more keys to play with.  Similarly, the arithmetic
+      operator keys on the numeric keyboard differ from the "regular
+      ones" that are grouped with the alpha keys.  They can be bound
+      to functions, referenced
+      as <kp-add>, <kp-subtract>, <kp-multiply>, <kp-divide>.  But
+      these also accept the standard C- M- S- modifier keys, which
+      gives you twelve more possibilities.  This is true also for the
+      Insert key <kp-insert> and the Delete key <kp-delete> that
+      double as Num-0 and Num-., respectively.
+I have a "Calc" key above the numeric keypad.  Unfortunately I
+can't seem to use it for anything in Emacs -- it opens the OS's
+calc.exe program regardless of what modifiers I use with it.  This is
+a shame because it would be the ideal mapping for M-x calc.  Perhaps
+this can be altered in BIOS.
+But I do use my Win key as a modifier (sometimes). And I've heard
+that the Caps Lock key can be repurposed.  These are topics for
+  other posts.
+https://en.wikipedia.org/wiki/Numeric_keypad]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Forget A Generation, Morocco Is Simply Golden]]></title>
+        <id>https://defector.com/?p=224929</id>
+        <link href="https://defector.com/forget-a-generation-morocco-is-simply-golden"/>
+        <updated>2026-06-08T15:25:17.000Z</updated>
+        <summary type="html"><![CDATA[It's almost time for the World Cup. Before the tournament, we'll be previewing each of the top 15 teams by FIFA rankings that made the tournament. Why the top 15? Because that's how many we needed to do in order for the USMNT to make the cut. You can read all of our previews here.
+From a distance, it might be tempting to fit Morocco's recent rocket-ship rise up the global soccer hierarchy into the familiar story of the golden generation. To be fair, when a smaller and/or relatively unheralded country experiences this kind of ascent, it often is indeed thanks to the efforts of an especially fecund generation whose players reach maturity around the same time and take the country places it has never been before. But though Morocco's leap has been quick and massive—after missing the first five World Cups of this millennium, the Atlas Lions qualified in 2018 for the first time in 20 years, then made it to the semifinals four years later, and now enter this one with legitimate hopes of matching and maybe even surpassing that feat—the story here does not in fact mirror that of, say, Belgium. There's no single, solid core of similarly aged players responsible for this rise. And that might be the most important message they could send this summer: that Morocco is not only here, but here for good.]]></summary>
+        <author>
+            <name>Billy Haisley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trump's Incredible Meltdown, Rigging Elections, And The "Majority Illusion"]]></title>
+        <id>https://www.hopiumchronicles.com/p/trumps-incredible-meltdown-rigging</id>
+        <link href="https://www.hopiumchronicles.com/p/trumps-incredible-meltdown-rigging"/>
+        <updated>2026-06-08T15:15:49.000Z</updated>
+        <summary type="html"><![CDATA[2pm ET Today - Colette Delawalla joins us live to talk about Stand Up For Science's new campaign, "Stop Vought. Save Science"]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Crossword, June 8: Double Teams]]></title>
+        <id>https://defector.com/?p=225027</id>
+        <link href="https://defector.com/the-crossword-june-8-double-teams"/>
+        <updated>2026-06-08T15:01:57.000Z</updated>
+        <summary type="html"><![CDATA[Don’t hide from our Monday crossword! This week's puzzle was constructed by Aidan Deshong, and edited by Hoang-Kim Vu. Aidan Deshong is a college student originally from Los Angeles. His greatest athletic achievement was winning his high school’s lettuce speed-eating contest
+Defector crosswords, launched in partnership with our friends at AVCX, run every Monday. If you’re interested in submitting a puzzle to us, you can read our guidelines HERE. The AVCX, an independent puzzles and games outlet, invites you to subscribe, or sample the goods with a two-month free trial: "With an AVCX subscription, you get access to weekly themed and themeless crosswords, minis, cryptics, and trivia, by email or in your favorite app. We have no corporate overlord, and we publish top-flight stuff only. We also pay our people fairly, always. Check us out."]]></summary>
+        <author>
+            <name>Maitreyi Anantharaman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Donald Trump’s Birthday Plans Have Made Washington D.C. Hideous And Depressing]]></title>
+        <id>https://defector.com/?p=224870</id>
+        <link href="https://defector.com/donald-trumps-birthday-plans-have-made-washington-d-c-hideous-and-depressing"/>
+        <updated>2026-06-08T14:55:01.000Z</updated>
+        <summary type="html"><![CDATA[I went by the White House a few times in the last couple weeks to check out the UFC cage and other projects in the neighborhood related to Donald Trump's debacle of a sestercentennial celebration, called Freedom 250, and his “Safe and Beautiful Initiative,” a relentless plan that will alter and shittify D.C. physically and otherwise permanently and for no reason more obvious than “Because he can.” Yeah, Trump’s beautifying the Nation's Capital the way Sherman beautified Atlanta.
+I hadn’t been to the city’s sightseeing epicenter in months before the latest binge of field trips, which were inspired by photos circulating of garish staging for the June 14 MMA event/Trump birthday party towering over the White House grounds. It's so much worse in person. 
+Trump and UFC are claiming 3,000 invitees will pay as much as $1.5 million to be on the South Lawn on Trump’s birthday to see the fights in person. The latest buzz, however, is that non-political celebs would rather rearrange their sock drawers than attend Trump's shindig. The promoter claims another 85,000 fans will show up to the Ellipse, a formerly beautiful green space between the White House and the National Mall, to watch on big screen televisions. (There’s no way in hell that many folks will go to a UFC watch party.)]]></summary>
+        <author>
+            <name>Dave McKenna</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Irreal: Elfeed 4.0.0]]></title>
+        <id>https://irreal.org/blog/?p=13862</id>
+        <link href="https://irreal.org/blog/?p=13862"/>
+        <updated>2026-06-08T14:46:14.000Z</updated>
+        <summary type="html"><![CDATA[Elfeed, has announced the release of Elfeed 4.0.0. You can read the Change File to see what’s new but the most important point for me is that the maintainership of Elfeed has successfully transitioned from Chris Wellons to Mendler.
+
+
+When Wellons announced his retirement from the Emacs ecosphere, I, and I’m sure others, had a moment of apprehension. We all wondered if anyone could fill Wellons’ large shoes. I’m happy to say that Mendler has shown himself up to the task and is doing a great job moving Elfeed forward.
+
+
+As I’ve said before, I consider Elfeed an almost perfect RSS reader. It’s easy to configure it to operate the way you need it to. One of Mendler’s changes that I really like is the ability to pop into EWW if you need to. I use it from the default Elfeed text buffer but also from the WebKit mediated display if there are too many ads and blinkenlights on the default page. As I’ve said before, I have a growing appreciation of EWW and am a bit surprised to find it becoming one of my go to tools.
+
+
+The important point, though, is that if you’re an Emacs user who has an RSS feed, you should definitely try out Elfeed. You won’t, believe me, want to go back.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DOJ to Courts: Don’t You Dare Touch the Already-Dead Slush Fund]]></title>
+        <id>https://talkingpointsmemo.com/?p=1549061</id>
+        <link href="https://talkingpointsmemo.com/morning-memo/doj-to-courts-dont-you-dare-touch-the-doa-slush-fund"/>
+        <updated>2026-06-08T14:32:25.000Z</updated>
+        <summary type="html"><![CDATA[The Week Ahead A big week ahead for the “anti-weaponization” slush fund that President Trump and his Justice Department insist...]]></summary>
+        <author>
+            <name>David Kurtz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[colicky piss-baby melts down, stumbles off the set of Meet the Press]]></title>
+        <id>https://www.jefftiedrich.com/p/colicky-piss-baby-melts-down-stumbles</id>
+        <link href="https://www.jefftiedrich.com/p/colicky-piss-baby-melts-down-stumbles"/>
+        <updated>2026-06-08T14:30:08.000Z</updated>
+        <summary type="html"><![CDATA[boo fucking hoo, Donny]]></summary>
+        <author>
+            <name>Jeff Tiedrich</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cat Fitzpatrick On Writing Transsexuals Into Iambic Pentameter]]></title>
+        <id>https://defector.com/?p=224567</id>
+        <link href="https://defector.com/cat-fitzpatrick-on-writing-transsexuals-into-iambic-pentameter"/>
+        <updated>2026-06-08T14:25:55.000Z</updated>
+        <summary type="html"><![CDATA[Although Plato's Symposium is best remembered as a Socratic dialogue, it was also, at its core, a story about a dinner party. In Athens, symposia consisted of a lavish banquet followed by a lot of drinking, during which time the guests would deliver speeches. Like many dinner parties, the Symposium is famously crashed by a drunken guy (Alcibiades) who derails the conversation but is, at least, quite entertaining.
+Although Plato's symposiasts are rather queer, at least in the Grecian way, none of them are trans. Luckily, poet and Littlepuss Press editor Cat Fitzpatrick offers a very trans symposium in her new book, The Dinner Party, whose title poem concerns a riotous debate about love amongst a gaggle of transsexuals supping on Vichyssoise and vegan cassoulet. After the soup comes out, Cam…]]></summary>
+        <author>
+            <name>Sabrina Imbler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Delaney Hall Strike Is Exposing a Massive Thirteenth Amendment Crisis]]></title>
+        <id>https://ballsandstrikes.org/?p=18345</id>
+        <link href="https://ballsandstrikes.org/law-politics/delaney-hall-strike-thirteenth-amendment/"/>
+        <updated>2026-06-08T14:22:41.000Z</updated>
+        <summary type="html"><![CDATA[The Thirteenth Amendment prohibits slavery, except “as a punishment for crime.” But people in immigration detention haven’t been convicted of anything—and are still being forced to work for nothing.
+The post The Delaney Hall Strike Is Exposing a Massive Thirteenth <span class="dewidow">Amendment Crisis</span> appeared first on Balls and Strikes.]]></summary>
+        <author>
+            <name>Madiba K. Dennie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ossoff Exposed The “Mar-a-Lago Mafia’s” $1.6 Billion Deal, A Trump Judge Referred DOJ Lawyers For Disciplinary Action, and Thousands Of Immigrants Freed From Limbo]]></title>
+        <id>https://www.dworkinsubstack.com/p/ossoff-exposed-the-mar-a-lago-mafias</id>
+        <link href="https://www.dworkinsubstack.com/p/ossoff-exposed-the-mar-a-lago-mafias"/>
+        <updated>2026-06-08T14:19:19.000Z</updated>
+        <summary type="html"><![CDATA[Plus, Jerome Powell and Minneapolis/St. Paul win Profiles in Courage Awards]]></summary>
+        <author>
+            <name>Scott Dworkin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AU’s groundbreaking new lawsuit]]></title>
+        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/zw3dhdrjexpc97dzhjqo.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/zw3dhdrjexpc97dzhjqo.html"/>
+        <updated>2026-06-08T14:02:26.225Z</updated>
+        <summary type="html"><![CDATA[96
+
+
+*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:620px){.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.social_block .social-table{display:inline-block!important}}
+sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-1…]]></summary>
+        <author>
+            <name>Current Events</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Trump administration’s multiple investigations of the 2020 election may have more to do with 2026]]></title>
+        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/f1xtz258ynhqxvdakf9i.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/f1xtz258ynhqxvdakf9i.html"/>
+        <updated>2026-06-08T13:52:43.366Z</updated>
+        <summary type="html"><![CDATA[The Trump administration’s multiple investigations of the 2020 election may have more to do with 202696
+  :root { color-scheme: light; supported-color-schemes: light; }
+  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }
+  .body { word-wrap: normal; word-spacing:normal; }
+  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }
+  img { border: 0; outline: none; }
+  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }
+  td, a, span {  mso-line-height-rule: exactly; }
+  #root [x-apple-data-detectors=true],
+  a[x-apple-data-detectors=true],
+  #MessageViewBody a { color: inherit !im…]]></summary>
+        <author>
+            <name>Misc Newsletters</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bari Weiss Even Worse At Her Job Than Previously Imagined]]></title>
         <id>https://defector.com/?p=225014</id>
@@ -26,6 +246,62 @@ It’s Sunday; we’re going on the air that night. And in the case of stories t
         <summary type="html"><![CDATA[Every Monday Baseball Musings compares league offense for the current season to the previous season through the same number of full weeks. Through ten full weeks, the 2026 season generated 8.88 runs per game compared to 8.59 runs per game in 2025. The 0.3 runs per game increase comes from a rise in walks and […]]]></summary>
         <author>
             <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[That was close!]]></title>
+        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/p793p36nzsfu648w1bix.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/p793p36nzsfu648w1bix.html"/>
+        <updated>2026-06-08T12:40:32.008Z</updated>
+        <summary type="html"><![CDATA[96
+        That was close!
+        
+@media only screen and (max-width: 620px) {
+  table.body {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  table.body .content {
+    padding: 0 !important;
+  }
+
+  table.body .container {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  table.body .main {
+    border-spacing: 10px 0 !important;
+    border-left-width: 0 !important;
+    border-radius: 0 !important;
+    border-right-width: 0 !important;
+  }
+
+  table.body .img-responsive {
+    height: auto !important;
+    max-width: 100% !important;
+    width: auto !important;
+  }
+}
+@media all {
+  .ExternalClass {
+    width: 100%;
+  }
+
+  .ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+    line-height: 100%;
+  }
+
+  .apple-link a {
+   …]]></summary>
+        <author>
+            <name>Misc Newsletters</name>
         </author>
     </entry>
     <entry>
@@ -99,6 +375,62 @@ mode-line, the header-line, the tab-bar, and the tab-line (*-lines for short).  
         <updated>2026-06-08T10:32:35.000Z</updated>
         <author>
             <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Heartbroken is not hopeless]]></title>
+        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0kl7zef6qtfvkpi2rhsi.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0kl7zef6qtfvkpi2rhsi.html"/>
+        <updated>2026-06-08T10:03:42.907Z</updated>
+        <summary type="html"><![CDATA[Heartbroken is not hopeless
+    
+    
+    
+    
+    
+
+
+
+
+
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+
+
+    
+  
+    
+      
+      96
+    
+    
+      
+    
+  
+  
+  
+   …]]></summary>
+        <author>
+            <name>Current Events</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Nova Boys Are Everything Right With The Knicks]]></title>
+        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1lx7thsgrtbdanrbu94l.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1lx7thsgrtbdanrbu94l.html"/>
+        <updated>2026-06-08T10:01:55.798Z</updated>
+        <summary type="html"><![CDATA[The Nova Boys Are Everything Right With The Knicks96
+  :root { color-scheme: light; supported-color-schemes: light; }
+  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }
+  .body { word-wrap: normal; word-spacing:normal; }
+  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }
+  img { border: 0; outline: none; }
+  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }
+  td, a, span {  mso-line-height-rule: exactly; }
+  #root [x-apple-data-detectors=true],
+  a[x-apple-data-detectors=true],
+  #MessageViewBody a { color: inherit !important; text-decoration: inherit !important; font-…]]></summary>
+        <author>
+            <name>Misc Newsletters</name>
         </author>
     </entry>
     <entry>
@@ -5246,57 +5578,6 @@ macosxguru at the gmail thingie.
 Note: Thanks to Photo by Baku Kerimbekova: https://www.pexels.com/photo/cozy-fluffy-cat-sleeping-on-bed-linen-32157260/]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NEW: USPS proposal to carry out Trump’s executive order could create new barriers to mail voting]]></title>
-        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/abdlg7y5pgfdko20ozbv.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/abdlg7y5pgfdko20ozbv.html"/>
-        <updated>2026-05-29T23:31:44.527Z</updated>
-        <summary type="html"><![CDATA[NEW: USPS proposal to carry out Trump’s executive order could create new barriers to mail voting96
-  :root { color-scheme: light; supported-color-schemes: light; }
-  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }
-  .body { word-wrap: normal; word-spacing:normal; }
-  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }
-  img { border: 0; outline: none; }
-  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }
-  td, a, span {  mso-line-height-rule: exactly; }
-  #root [x-apple-data-detectors=true],
-  a[x-apple-data-detectors=true],
-  #MessageViewBody a { color: inherit !importa…]]></summary>
-        <author>
-            <name>Misc Newsletters</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Louisiana just erased a majority-Black district]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/wscqnt84m0mq2t8v7xiz.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/wscqnt84m0mq2t8v7xiz.html"/>
-        <updated>2026-05-29T22:04:29.738Z</updated>
-        <summary type="html"><![CDATA[Louisiana is erasing a majority-Black district
-    
-    
-    
-    
-    
-
-
-
-
-
-a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
-
-
-    
-  
-    
-      
-      96
-    
-    
-     …]]></summary>
-        <author>
-            <name>Current Events</name>
         </author>
     </entry>
 </feed>
