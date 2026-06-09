@@ -2,10 +2,133 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-06-09T14:47:55.787Z</updated>
+    <updated>2026-06-09T18:03:19.988Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[I'm glad Spencer Pratt lost. Let's Make Stupidity Embarrassing Again.Rex Huppke]]></title>
+        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/09/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90468552007/-full</id>
+        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/09/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90468552007/"/>
+        <updated>2026-06-09T18:02:48.488Z</updated>
+        <summary type="html"><![CDATA[Former reality TV star Spencer Pratt is out of the Los Angeles mayoral race for two reasons.
+First, and most important, he got fewer votes than two other candidates, incumbent Los Angeles Mayor Karen Bass and LA City Councilwoman Nithya Raman, who will now face off against each other. Second, he’s an unqualified dipstick whom a majority of Los Angelenos understood wasn’t qualified for the job.
+Pratt was endorsed by President Donald Trump and hailed by some MAGA Republicans as a rising star, a political outsider with a winning populist message.
+That was, in a word, wrong.
+
+The Free Press, the conservative publication founded by Bari Weiss, who is presently busy ruining CBS News, ran a piece in May that posed the question: “How did Spencer Pratt, reality TV star and ‘healing’ crystal salesma…]]></summary>
+        <author>
+            <name>Rex Huppke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[’60 Minutes’ Was A Good Show]]></title>
+        <id>https://defector.com/?p=225171</id>
+        <link href="https://defector.com/60-minutes-was-a-good-show"/>
+        <updated>2026-06-09T17:40:06.000Z</updated>
+        <summary type="html"><![CDATA[Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGATE, and buy Drew’s books while you’re at it. Today, we're talking 60 Minutes, LLMs, sandwiches, great history class movies, and more.
+Your letters:
+Kevin:]]></summary>
+        <author>
+            <name>Drew Magary</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Games of the Day]]></title>
+        <id>https://www.baseballmusings.com/?p=160379</id>
+        <link href="https://www.baseballmusings.com/?p=160379"/>
+        <updated>2026-06-09T17:38:14.000Z</updated>
+        <summary type="html"><![CDATA[The Red Sox face the Rays in St. Petersburg with Payton Tolle taking on Nick Martinez. The two own nearly identical ERAs, Tolle at 2.28, Martinez at 2.29. Tolle strikes out batters at a much higher rate, 9.70 per 9 IP compared to 5.35 per 9 IP for Martinez. Martinez only walks 1.66 per 9 […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sacha Chua: From DC Toedt: Copy Org Mode as Markdown]]></title>
+        <id>https://sachachua.com/blog/2026/06/from-dc-toedt-copy-org-mode-as-markdown/</id>
+        <link href="https://sachachua.com/blog/2026/06/from-dc-toedt-copy-org-mode-as-markdown/"/>
+        <updated>2026-06-09T15:49:08.000Z</updated>
+        <summary type="html"><![CDATA[Marcin Borkowski: 2021-05-02 Org-mode to Markdown via the clipboard
+Marcel Kapfer - Copy an Org Mode region as Markdown
+Reddit
+Reddit
+(defun my/org-to-markdown-clipboard ()
+  "Export org region (or buffer) to Markdown and copy to clipboard.
+With no active region, exports the whole buffer."
+  (interactive)
+  (require 'ox-md)
+  (let* ((text (if (use-region-p)
+                   (buffer-substring-no-properties (region-beginning)
+(region-end))
+                 (buffer-substring-no-properties (point-min) (point-max))))
+         (md (org-export-string-as text 'md t '(:with-toc nil
+                                                :with-author nil
+                                                :with-date nil
+                                                :with-title nil))))
+    (kill-new md)
+    (message "Markdown copied (%d chars)" (length md))))
+(with-eval-after-load 'org
+  (define-key org-mode-map (kbd "C-c m") #'my/org-to-markdown-clipboard))
+
+View Org source for this post
+You can e-mail me at sacha@sachachua.com.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Argentina Is Cool, Calm, Collected, And Ready To Repeat As World Champs]]></title>
+        <id>https://defector.com/?p=224790</id>
+        <link href="https://defector.com/argentina-is-cool-calm-collected-and-ready-to-repeat-as-world-champs"/>
+        <updated>2026-06-09T15:32:00.000Z</updated>
+        <summary type="html"><![CDATA[It's almost time for the World Cup. Before the tournament, we'll be previewing each of the top 15 teams by FIFA rankings that made the tournament. Why the top 15? Because that's how many we needed to do in order for the USMNT to make the cut. You can read all of our previews here.
+Every country heading into the World Cup faces pressure, but not in equal amounts. For a side like Brazil, who hasn't won the World Cup in an unacceptable 24 years and hasn't even made it to the semis in either of the last two tournaments, the pressure can be suffocating. That's the type of pressure Argentina had heading into 2022, but thanks to one of the greatest soccer matches of all time coming out in Argentina's favor, the level of pressure heading into the 2026 edition has to be at a decades-long low.]]></summary>
+        <author>
+            <name>Luis Paez-Pumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making Diseases And Parasites Great Again, Pratt Crashes Out In LA, Talarico Leads By 3 In New Texas Poll]]></title>
+        <id>https://www.hopiumchronicles.com/p/making-diseases-and-parasites-great</id>
+        <link href="https://www.hopiumchronicles.com/p/making-diseases-and-parasites-great"/>
+        <updated>2026-06-09T15:30:48.000Z</updated>
+        <summary type="html"><![CDATA[I'll be joining Stuart Stevens live at Noon ET today over at Lincoln Square - lots to talk about!]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mike Babcock Is Proof That No One Is Too Weird To Get Hired In The NHL]]></title>
+        <id>https://defector.com/?p=225164</id>
+        <link href="https://defector.com/mike-babcock-is-proof-that-no-one-is-too-weird-to-get-hired-in-the-nhl"/>
+        <updated>2026-06-09T15:04:03.000Z</updated>
+        <summary type="html"><![CDATA[The National Hockey League is no more prone to imitation than any other species of parrot, particularly when something that seems counterintuitive works out well. It is for that reason and that reason only that the news out of Edmonton this day is not as gobsmacking at it seems.
+Wait, Edmonton? What the hell does Edmonton have to do with anything, and why should it pull one's attention from what may be the most weirdly compelling Stanley Cup Finals in decades? Well, grab some pine, meat, and belt up, because we have finally reached the throbbing nucleus of organizational WTF-ness. While the Final is in Vegas and being minded by noted former-and-future head coach John Tortorella, the Oilers are about to hire Mike Babcock, the Captain Philip Francis Queeg of coaches, who is noted in the distant past for guiding championship teams in Detroit and noted more recently for destroying his reputation through a series of bizarre psychological gambits against players that helped get him fired from one job and forced him to resign from another.
+And because hockey management is an inward-facing phenomenon along the lines of the Habsburg dynasty, the Babcock hire ties directly into these Finals. In other words, you couldn't make this up, and if you could, you should check into a mushroom detox center.]]></summary>
+        <author>
+            <name>Ray Ratto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Federal Judge Blocked The Regime’s Food Blackmail, A Kennedy Center Drummer Beat Trump’s Million-Dollar Lawsuit, and 20 States Sank His $100,000 Tax]]></title>
+        <id>https://www.dworkinsubstack.com/p/a-federal-judge-blocked-the-regimes</id>
+        <link href="https://www.dworkinsubstack.com/p/a-federal-judge-blocked-the-regimes"/>
+        <updated>2026-06-09T15:00:55.000Z</updated>
+        <summary type="html"><![CDATA[Plus, another Dan Sullivan just entered the race for Senate in Alaska]]></summary>
+        <author>
+            <name>Scott Dworkin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Most Important Nomination the Senate Has Ever Considered]]></title>
+        <id>https://talkingpointsmemo.com/?p=1549154</id>
+        <link href="https://talkingpointsmemo.com/morning-memo/the-most-important-nomination-the-senate-has-ever-considered"/>
+        <updated>2026-06-09T14:53:48.000Z</updated>
+        <summary type="html"><![CDATA[How Far Is Too Far? By formally nominating Todd Blanche as attorney general, President Trump set the stage for a...]]></summary>
+        <author>
+            <name>David Kurtz</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New Yorkers agree: go Knicks and fuck Trump]]></title>
         <id>https://www.jefftiedrich.com/p/new-yorkers-agree-go-knicks-and-fuck</id>
@@ -5767,61 +5890,6 @@ Saturday's Champions League final did buck one trend, though, as Arsenal was not
 https://www.youtube.com/watch?v=tRnJRQmVMTg]]></summary>
         <author>
             <name>Luis Paez-Pumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weekly Scorecard: May 23 - 29, 2026]]></title>
-        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/hehvlmpt8mo0y77pvpnp.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/hehvlmpt8mo0y77pvpnp.html"/>
-        <updated>2026-05-31T04:26:34.167Z</updated>
-        <summary type="html"><![CDATA[96
-        Weekly Scorecard: May 23 - 29, 2026
-        
-@media only screen and (max-width: 620px) {
-  table.body {
-    width: 100%;
-    min-width: 100%;
-  }
-
-  table.body .content {
-    padding: 0 !important;
-  }
-
-  table.body .container {
-    padding: 0 !important;
-    width: 100% !important;
-  }
-
-  table.body .main {
-    border-spacing: 10px 0 !important;
-    border-left-width: 0 !important;
-    border-radius: 0 !important;
-    border-right-width: 0 !important;
-  }
-
-  table.body .img-responsive {
-    height: auto !important;
-    max-width: 100% !important;
-    width: auto !important;
-  }
-}
-@media all {
-  .ExternalClass {
-    width: 100%;
-  }
-
-  .ExternalClass,
-.ExternalClass p,
-.ExternalClass span,
-.ExternalClass font,
-.ExternalClass td,
-.ExternalClass div {
-    line-height: 100%;
-  }
-
- …]]></summary>
-        <author>
-            <name>Misc Newsletters</name>
         </author>
     </entry>
 </feed>

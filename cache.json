@@ -226,6 +226,16 @@
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://talkingpointsmemo.com/?p=1549154",
+          "author": "David Kurtz",
+          "description": "How Far Is Too Far? By formally nominating Todd Blanche as attorney general, President Trump set the stage for a...",
+          "link": "https://talkingpointsmemo.com/morning-memo/the-most-important-nomination-the-senate-has-ever-considered",
+          "publishedOn": "2026-06-09T14:53:48.000Z",
+          "wordCount": 2943,
+          "title": "The Most Important Nomination the Senate Has Ever Considered",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/06/GettyImages-2154742600-e1781014724995.jpg?w=804"
+        },
+        {
           "id": "https://talkingpointsmemo.com/?p=1549061",
           "author": "David Kurtz",
           "description": "The Week Ahead A big week ahead for the “anti-weaponization” slush fund that President Trump and his Justice Department insist...",
@@ -292,6 +302,22 @@
       "feedUrl": "https://www.dworkinsubstack.com/feed",
       "siteUrl": "https://www.dworkinsubstack.com",
       "articles": [
+        {
+          "id": "https://www.dworkinsubstack.com/p/a-federal-judge-blocked-the-regimes",
+          "author": "Scott Dworkin",
+          "description": "Plus, another Dan Sullivan just entered the race for Senate in Alaska",
+          "link": "https://www.dworkinsubstack.com/p/a-federal-judge-blocked-the-regimes",
+          "publishedOn": "2026-06-09T15:00:55.000Z",
+          "wordCount": null,
+          "title": "A Federal Judge Blocked The Regime’s Food Blackmail, A Kennedy Center Drummer Beat Trump’s Million-Dollar Lawsuit, and 20 States Sank His $100,000 Tax",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/b34144f2-c012-4a10-948b-09f3c195d36d_3600x2025.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/b34144f2-c012-4a10-948b-09f3c195d36d_3600x2025.png"
+        },
         {
           "id": "https://www.dworkinsubstack.com/p/ossoff-exposed-the-mar-a-lago-mafias",
           "author": "Scott Dworkin",
@@ -841,6 +867,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://sachachua.com/blog/2026/06/from-dc-toedt-copy-org-mode-as-markdown/",
+          "author": null,
+          "description": "Marcin Borkowski: 2021-05-02 Org-mode to Markdown via the clipboard\nMarcel Kapfer - Copy an Org Mode region as Markdown\nReddit\nReddit\n(defun my/org-to-markdown-clipboard ()\n  \"Export org region (or buffer) to Markdown and copy to clipboard.\nWith no active region, exports the whole buffer.\"\n  (interactive)\n  (require 'ox-md)\n  (let* ((text (if (use-region-p)\n                   (buffer-substring-no-properties (region-beginning)\n(region-end))\n                 (buffer-substring-no-properties (point-min) (point-max))))\n         (md (org-export-string-as text 'md t '(:with-toc nil\n                                                :with-author nil\n                                                :with-date nil\n                                                :with-title nil))))\n    (kill-new md)\n    (message \"Markdown copied (%d chars)\" (length md))))\n(with-eval-after-load 'org\n  (define-key org-mode-map (kbd \"C-c m\") #'my/org-to-markdown-clipboard))\n\nView Org source for this post\nYou can e-mail me at sacha@sachachua.com.",
+          "link": "https://sachachua.com/blog/2026/06/from-dc-toedt-copy-org-mode-as-markdown/",
+          "publishedOn": "2026-06-09T15:49:08.000Z",
+          "wordCount": 304,
+          "title": "Sacha Chua: From DC Toedt: Copy Org Mode as Markdown",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.davep.org/2026/06/09/blogmore-el-v4-7-0.html",
           "author": null,
           "description": "A quick update to blogmore.el.\nHaving recently added series support to\nBlogMore it made sense that I then add a\nquick way of adding a post to a series in the package.\n\nYou can, of course, set a new one too, but the idea here (as with categories\nand tags) is that you can quickly find back an existing series and add the\ncurrent post to it.\nAlso, as with tags, the expectation is that either a single series is being\nused, or if more than one series is in play for a post they'll be listed as\na comma-separated list. The issue here is that while BlogMore supports this:\nseries:\n  - Some series of posts\n  - Some other series of posts\n  - Yet another series of posts\n\n\n\nthe frontmatter-handling code in blogmore.el isn't very sophisticated at\nall; it doesn't actually handle it as actual YAML, instead just treating it\nas a set of key/value pairs separated by a colon.\nAt some point soon I want to give blogmore.el a revamp and base all of the\nfrontmatter-handling code on something like\nyaml.el. I did do some experimenting\nlast night to drop it in and handle proper lists. It worked well enough, but\nI abandoned the work as I realised I really wanted to start again from\nscratch and build blogmore.el from the bottom up using that package.\nSome time soon...",
@@ -1227,6 +1263,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160379",
+          "author": "David Pinto",
+          "description": "The Red Sox face the Rays in St. Petersburg with Payton Tolle taking on Nick Martinez. The two own nearly identical ERAs, Tolle at 2.28, Martinez at 2.29. Tolle strikes out batters at a much higher rate, 9.70 per 9 IP compared to 5.35 per 9 IP for Martinez. Martinez only walks 1.66 per 9 […]",
+          "link": "https://www.baseballmusings.com/?p=160379",
+          "publishedOn": "2026-06-09T17:38:14.000Z",
+          "wordCount": 7612,
+          "title": "Games of the Day",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160385",
           "author": "David Pinto",
@@ -1926,6 +1972,22 @@
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
         {
+          "id": "https://www.hopiumchronicles.com/p/making-diseases-and-parasites-great",
+          "author": "Simon Rosenberg",
+          "description": "I'll be joining Stuart Stevens live at Noon ET today over at Lincoln Square - lots to talk about!",
+          "link": "https://www.hopiumchronicles.com/p/making-diseases-and-parasites-great",
+          "publishedOn": "2026-06-09T15:30:48.000Z",
+          "wordCount": null,
+          "title": "Making Diseases And Parasites Great Again, Pratt Crashes Out In LA, Talarico Leads By 3 In New Texas Poll",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/df843315-0e37-4c01-af9c-13671902427d_316x172.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/df843315-0e37-4c01-af9c-13671902427d_316x172.jpeg"
+        },
+        {
           "id": "https://www.hopiumchronicles.com/p/stop-vought-save-science-a-call-to",
           "author": "Simon Rosenberg",
           "description": "We have a little more than a month to kill dangerous new OMB regs",
@@ -2236,6 +2298,36 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=225171",
+          "author": "Drew Magary",
+          "description": "Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGATE, and buy Drew’s books while you’re at it. Today, we're talking 60 Minutes, LLMs, sandwiches, great history class movies, and more.\nYour letters:\nKevin:",
+          "link": "https://defector.com/60-minutes-was-a-good-show",
+          "publishedOn": "2026-06-09T17:40:06.000Z",
+          "wordCount": 14978,
+          "title": "’60 Minutes’ Was A Good Show",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/60-minutes-logo.png"
+        },
+        {
+          "id": "https://defector.com/?p=224790",
+          "author": "Luis Paez-Pumar",
+          "description": "It's almost time for the World Cup. Before the tournament, we'll be previewing each of the top 15 teams by FIFA rankings that made the tournament. Why the top 15? Because that's how many we needed to do in order for the USMNT to make the cut. You can read all of our previews here.\nEvery country heading into the World Cup faces pressure, but not in equal amounts. For a side like Brazil, who hasn't won the World Cup in an unacceptable 24 years and hasn't even made it to the semis in either of the last two tournaments, the pressure can be suffocating. That's the type of pressure Argentina had heading into 2022, but thanks to one of the greatest soccer matches of all time coming out in Argentina's favor, the level of pressure heading into the 2026 edition has to be at a decades-long low.",
+          "link": "https://defector.com/argentina-is-cool-calm-collected-and-ready-to-repeat-as-world-champs",
+          "publishedOn": "2026-06-09T15:32:00.000Z",
+          "wordCount": 9882,
+          "title": "Argentina Is Cool, Calm, Collected, And Ready To Repeat As World Champs",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-1461661313.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=225164",
+          "author": "Ray Ratto",
+          "description": "The National Hockey League is no more prone to imitation than any other species of parrot, particularly when something that seems counterintuitive works out well. It is for that reason and that reason only that the news out of Edmonton this day is not as gobsmacking at it seems.\nWait, Edmonton? What the hell does Edmonton have to do with anything, and why should it pull one's attention from what may be the most weirdly compelling Stanley Cup Finals in decades? Well, grab some pine, meat, and belt up, because we have finally reached the throbbing nucleus of organizational WTF-ness. While the Final is in Vegas and being minded by noted former-and-future head coach John Tortorella, the Oilers are about to hire Mike Babcock, the Captain Philip Francis Queeg of coaches, who is noted in the distant past for guiding championship teams in Detroit and noted more recently for destroying his reputation through a series of bizarre psychological gambits against players that helped get him fired from one job and forced him to resign from another.\nAnd because hockey management is an inward-facing phenomenon along the lines of the Habsburg dynasty, the Babcock hire ties directly into these Finals. In other words, you couldn't make this up, and if you could, you should check into a mushroom detox center.",
+          "link": "https://defector.com/mike-babcock-is-proof-that-no-one-is-too-weird-to-get-hired-in-the-nhl",
+          "publishedOn": "2026-06-09T15:04:03.000Z",
+          "wordCount": 7921,
+          "title": "Mike Babcock Is Proof That No One Is Too Weird To Get Hired In The NHL",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-1186381414.jpg"
+        },
         {
           "id": "https://defector.com/?p=225061",
           "author": "Heather Wei-Xi Chen",
@@ -3142,16 +3234,6 @@
           "wordCount": 2172,
           "title": "France Looks Like Hogwarts And You Can Call Me Lil Yachty",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/hehvlmpt8mo0y77pvpnp.html",
-          "author": null,
-          "description": "96\n        Weekly Scorecard: May 23 - 29, 2026\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    line-height: 100%;\n  }\n\n …",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/hehvlmpt8mo0y77pvpnp.html",
-          "publishedOn": "2026-05-31T04:26:34.167Z",
-          "wordCount": 3489,
-          "title": "Weekly Scorecard: May 23 - 29, 2026",
-          "imageUrl": null
         }
       ]
     },
@@ -3288,6 +3370,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/09/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90468552007/-full",
+          "author": "Rex Huppke",
+          "description": "Former reality TV star Spencer Pratt is out of the Los Angeles mayoral race for two reasons.\nFirst, and most important, he got fewer votes than two other candidates, incumbent Los Angeles Mayor Karen Bass and LA City Councilwoman Nithya Raman, who will now face off against each other. Second, he’s an unqualified dipstick whom a majority of Los Angelenos understood wasn’t qualified for the job.\nPratt was endorsed by President Donald Trump and hailed by some MAGA Republicans as a rising star, a political outsider with a winning populist message.\nThat was, in a word, wrong.\n\nThe Free Press, the conservative publication founded by Bari Weiss, who is presently busy ruining CBS News, ran a piece in May that posed the question: “How did Spencer Pratt, reality TV star and ‘healing’ crystal salesma…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/09/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90468552007/",
+          "publishedOn": "2026-06-09T18:02:48.488Z",
+          "wordCount": 4179,
+          "title": "I'm glad Spencer Pratt lost. Let's Make Stupidity Embarrassing Again.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/08/USAT/90456119007-20260531-t-212845-z-2098431618-rc-2-hklaldt-0-w-rtrmadp-3-usaelectioncaliforniapratt.JPG?crop=6493,3653,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/-full",
           "author": "Rex Huppke",
