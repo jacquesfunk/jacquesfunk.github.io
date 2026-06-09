@@ -806,26 +806,6 @@
           "wordCount": 573,
           "title": "Limited Time: Get 1 Month Free, Then $2/Month",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/ioi12ij2epbbse2n588v.html",
-          "author": null,
-          "description": "96\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:620px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}}\nsup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-10% } \n\nD…",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/ioi12ij2epbbse2n588v.html",
-          "publishedOn": "2026-05-30T16:00:12.277Z",
-          "wordCount": 487,
-          "title": "Uncover India’s beauty: Taj Mahal, Amber Fort, golden dunes of Rajasthan",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/sbbh6vk1f157nxbdfpdb.html",
-          "author": null,
-          "description": "96\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}#converted-body .list_block ol,#converted-body .list_block ul,.body [class~=x_list_block] ol,.body [class~=x_list_block] ul,u+.body .list_block ol,u+.body .list_block ul{padding-left:20px} @media (max-width:620px){.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!…",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/sbbh6vk1f157nxbdfpdb.html",
-          "publishedOn": "2026-05-30T15:02:17.488Z",
-          "wordCount": 2153,
-          "title": "Month in Review: We’re fighting back against the Christian Nationalist Jubilee",
-          "imageUrl": null
         }
       ]
     },
@@ -834,6 +814,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://sachachua.com/blog/2026/06/june-11-sacha-and-prot-talk-emacs-built-ins/",
+          "author": null,
+          "description": "Prot about the Emacs Carnival June 2026 topic Underappreciated Emacs Built-ins. Thanks to Ross A. Baker for hosting the carnival!\n\n\n\n\nWatch on YouTube\n\n\n\n<2026-06-11 Thu 10:30>–<2026-06-11 Thu 11:30> (America/Toronto) = Thu Jun 11 1030H EDT / 0930H CDT / 0830H MDT / 0730H PDT / 1430H UTC / 1630H CEST / 1730H EEST / 2000H IST / 2230H +08 / 2330H JST\n\nView Org source for this post\nYou can e-mail me at sacha@sachachua.com.",
+          "link": "https://sachachua.com/blog/2026/06/june-11-sacha-and-prot-talk-emacs-built-ins/",
+          "publishedOn": "2026-06-09T02:51:39.000Z",
+          "wordCount": 193,
+          "title": "Sacha Chua: June 11: Sacha and Prot Talk Emacs: Built-ins",
+          "imageUrl": null
+        },
         {
           "id": "https://sachachua.com/blog/2026/06/2026-06-08-emacs-news/",
           "author": null,
@@ -1202,16 +1192,6 @@
           "publishedOn": "2026-05-31T00:00:00.000Z",
           "wordCount": 2197,
           "title": "Donovan R.: 💭 My Ancestors Were Writing Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://tusharhero.codeberg.page/may-i-recommend-these-lesser-known-org-modes.html",
-          "author": null,
-          "description": "~373 words. ~1 minutes.\n\n\n \n  tags:   emacs\nMay I recommend…, I would like\nto recommend two cool org minor modes I discovered recently, in the\norder of me discovering them.\n\n \n org-num-mode\n  * 1 heading\n ** 1.1 subheading\n *** 1.1.1 subsubheading\n ** 1.2 subheading\n * 2 heading\n\n org-toggle-pretty-entities\nprettify-mode does). You can get a list of all available\nentities(symbols) using  org-entities-help. BTW, it is also possible to\ndefine your own in  org-entities-user.\n\n\n \n 1_1 a_b^q q_p p^q\n\n1 a b q q p p q\nC-x 8 RET\n(insert UTF-8 character, for those who are not aware)?\", you can't do\na superscript q or subscript q, since those symbols don't exist! Which\nis why I chose q for my demo above.\n\n\n \nC-x 8 RET, and that reminds me,\nthere is a similar feature to this which actually inserts UTF-8\ncharacters into your buffers,  C-x RET C-\\ TeX RET. Then you just type\nthe TeX markup as you normally would, and it inserts the actual\nsymbols, but this too has the same problems as with directly inserting\nsymbols, some symbols are simply not available.\n\n\n \nq q I want.\nAlso, org automatically exports it correctly when exporting to HTML!",
-          "link": "https://tusharhero.codeberg.page/may-i-recommend-these-lesser-known-org-modes.html",
-          "publishedOn": "2026-05-30T18:30:00.000Z",
-          "wordCount": 384,
-          "title": "tusharhero: May I recommend: lesser known org-modes",
           "imageUrl": null
         }
       ]
@@ -2182,22 +2162,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!OgBn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feacda6c4-d192-474c-b69f-34615c8374fc_733x501.png"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/congress-returns-monday-with-trump",
-          "author": "Simon Rosenberg",
-          "description": "With Trump faltering it is time for us to be very, very aggressive now my friends....",
-          "link": "https://www.hopiumchronicles.com/p/congress-returns-monday-with-trump",
-          "publishedOn": "2026-05-30T15:15:27.000Z",
-          "wordCount": null,
-          "title": "Congress Returns Monday With Trump Diminished, Wildly Unpopular, And Failing On Many Fronts",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/507a7d5d-ebe2-44fa-a6cb-ee16bec13280_275x183.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/507a7d5d-ebe2-44fa-a6cb-ee16bec13280_275x183.jpeg"
         }
       ]
     },
@@ -3229,6 +3193,16 @@
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
         {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/-full",
+          "author": "Rex Huppke",
+          "description": "A couple years ago, my wife and oldest son began experimenting with Medjool dates. I wasn’t happy about it.\nI’ve tried dates in many forms, and never liked them. They look like legless cockroaches. They are, in my estimation, overly ambitious raisins. Nobody likes an overly ambitious raisin.\n\nTragically, my family’s addiction to these ancient stone fruits grew worse, to the point I couldn’t trust any baked good that appeared in the kitchen, as it was likely date-tainted. Gone were the days of normal muffins or oatmeal bars. All I heard was “These are sweetened with dates!” and “The dates give these such a great texture!” and other such excited mumbo-jumbo.\nMy son is addicted to dates and I've never been more ashamed\nNot long ago, my wonderful adult son – whose father raised him with the ho…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/",
+          "publishedOn": "2026-06-09T07:45:15.141Z",
+          "wordCount": 4562,
+          "title": "Stop trying to make dates happen. Have you even tried a Twinkie?Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/06/USAT/90431895007-getty-images-2213158027.jpg?crop=2118,1192,x0,y0&width=2118&height=1192&format=pjpg&auto=webp"
+        },
+        {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/05/28/paxton-attacks-talarico-extreme-republicans/90278221007/-full",
           "author": "Rex Huppke",
           "description": "Republicans like newly minted U.S. Senate nominee Ken Paxton of Texas would like to you to know, in no uncertain terms, that Democrats are a pack of wild, tongue-wagging extremists out to destroy America.\nSetting aside the fact that Republicans presently in power seem to be doing a perfectly good job on the “destroying America” front – and on the “being tongue-wagging extremists” front, as well – let’s consider how Paxton spoke about his opponent, Democratic state Rep. James Talarico, following the Republican’s primary victory May 26.\nIn quick succession, Paxton, 63, referred to the 37-year-old Democrat as “Tofu Talarico,” “James Tala-freako” and “Low-T Talarico.” Paxton then added, ominously: “But no matter what you call him, let me tell you this, James Talarico is a threat to everything …",
@@ -3727,16 +3701,6 @@
           "wordCount": 4690,
           "title": "'The Mandalorian and Grogu' is the only good thing in this worldRex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/20/USAT/90174551007-thndff-000470-2.jpg?crop=4095,2304,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/-full",
-          "author": "Rex Huppke",
-          "description": "Billionaire Jeff Bezos has boldly put forth a challenge to Americans.\nIn a May 20 interview with CNBC, he referenced a hypothetical New York City school teacher and said, “You could double the taxes I pay, and it's not going to help that teacher in Queens. I promise you.”\nPromises from billionaires will be worth about as much as cash in the post-apocalyptic wasteland we’ll soon inhabit, thanks to all the billionaires. (I’m guessing the primary currency will be potable water and locally sourced rich-people meat.)\nSo I’ll respond to Mr. Bezos with this: “You say doubling your taxes won’t help regular Americans. Well, sir, that’s a risk I’m willing to take. What say we quintuple your taxes and see what shakes out?”\nI say let's raise Jeff Bezos' taxes and see how it all works out\n\n\"If people w…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/",
-          "publishedOn": "2026-05-30T17:02:10.789Z",
-          "wordCount": 4230,
-          "title": "Bezos says raising his taxes won't help. It's a risk we should take.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/04/13/USAT/89587769007-2239610155.jpg?crop=5095,2866,x0,y764&width=3200&height=1801&format=pjpg&auto=webp"
         }
       ]
     },

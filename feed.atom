@@ -2,10 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-06-09T02:58:21.054Z</updated>
+    <updated>2026-06-09T07:45:50.318Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Stop trying to make dates happen. Have you even tried a Twinkie?Rex Huppke]]></title>
+        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/-full</id>
+        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/"/>
+        <updated>2026-06-09T07:45:15.141Z</updated>
+        <summary type="html"><![CDATA[A couple years ago, my wife and oldest son began experimenting with Medjool dates. I wasn’t happy about it.
+I’ve tried dates in many forms, and never liked them. They look like legless cockroaches. They are, in my estimation, overly ambitious raisins. Nobody likes an overly ambitious raisin.
+
+Tragically, my family’s addiction to these ancient stone fruits grew worse, to the point I couldn’t trust any baked good that appeared in the kitchen, as it was likely date-tainted. Gone were the days of normal muffins or oatmeal bars. All I heard was “These are sweetened with dates!” and “The dates give these such a great texture!” and other such excited mumbo-jumbo.
+My son is addicted to dates and I've never been more ashamed
+Not long ago, my wonderful adult son – whose father raised him with the ho…]]></summary>
+        <author>
+            <name>Rex Huppke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sacha Chua: June 11: Sacha and Prot Talk Emacs: Built-ins]]></title>
+        <id>https://sachachua.com/blog/2026/06/june-11-sacha-and-prot-talk-emacs-built-ins/</id>
+        <link href="https://sachachua.com/blog/2026/06/june-11-sacha-and-prot-talk-emacs-built-ins/"/>
+        <updated>2026-06-09T02:51:39.000Z</updated>
+        <summary type="html"><![CDATA[Prot about the Emacs Carnival June 2026 topic Underappreciated Emacs Built-ins. Thanks to Ross A. Baker for hosting the carnival!
+
+
+
+
+Watch on YouTube
+
+
+
+<2026-06-11 Thu 10:30>–<2026-06-11 Thu 11:30> (America/Toronto) = Thu Jun 11 1030H EDT / 0930H CDT / 0830H MDT / 0730H PDT / 1430H UTC / 1630H CEST / 1730H EEST / 2000H IST / 2230H +08 / 2330H JST
+
+View Org source for this post
+You can e-mail me at sacha@sachachua.com.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Vegas Week]]></title>
         <id>https://www.baseballmusings.com/?p=160377</id>
@@ -5605,114 +5642,6 @@ Let me explain, because it sounds like more than it is.
 I’m not a Lisp programmer by trade. I just love the elegance of the thing — I’ve lived inside Emacs for years, written my own Elisp, poked at Clojure enough to feel what ma…]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[tusharhero: May I recommend: lesser known org-modes]]></title>
-        <id>https://tusharhero.codeberg.page/may-i-recommend-these-lesser-known-org-modes.html</id>
-        <link href="https://tusharhero.codeberg.page/may-i-recommend-these-lesser-known-org-modes.html"/>
-        <updated>2026-05-30T18:30:00.000Z</updated>
-        <summary type="html"><![CDATA[~373 words. ~1 minutes.
-
-
- 
-  tags:   emacs
-May I recommend…, I would like
-to recommend two cool org minor modes I discovered recently, in the
-order of me discovering them.
-
- 
- org-num-mode
-  * 1 heading
- ** 1.1 subheading
- *** 1.1.1 subsubheading
- ** 1.2 subheading
- * 2 heading
-
- org-toggle-pretty-entities
-prettify-mode does). You can get a list of all available
-entities(symbols) using  org-entities-help. BTW, it is also possible to
-define your own in  org-entities-user.
-
-
- 
- 1_1 a_b^q q_p p^q
-
-1 a b q q p p q
-C-x 8 RET
-(insert UTF-8 character, for those who are not aware)?", you can't do
-a superscript q or subscript q, since those symbols don't exist! Which
-is why I chose q for my demo above.
-
-
- 
-C-x 8 RET, and that reminds me,
-there is a similar feature to this which actually inserts UTF-8
-characters into your buffers,  C-x RET C-\ TeX RET. Then you just type
-the TeX markup as you normally would, and it inserts the actual
-symbols, but this too has the same problems as with directly inserting
-symbols, some symbols are simply not available.
-
-
- 
-q q I want.
-Also, org automatically exports it correctly when exporting to HTML!]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bezos says raising his taxes won't help. It's a risk we should take.Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/"/>
-        <updated>2026-05-30T17:02:10.789Z</updated>
-        <summary type="html"><![CDATA[Billionaire Jeff Bezos has boldly put forth a challenge to Americans.
-In a May 20 interview with CNBC, he referenced a hypothetical New York City school teacher and said, “You could double the taxes I pay, and it's not going to help that teacher in Queens. I promise you.”
-Promises from billionaires will be worth about as much as cash in the post-apocalyptic wasteland we’ll soon inhabit, thanks to all the billionaires. (I’m guessing the primary currency will be potable water and locally sourced rich-people meat.)
-So I’ll respond to Mr. Bezos with this: “You say doubling your taxes won’t help regular Americans. Well, sir, that’s a risk I’m willing to take. What say we quintuple your taxes and see what shakes out?”
-I say let's raise Jeff Bezos' taxes and see how it all works out
-
-"If people w…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Uncover India’s beauty: Taj Mahal, Amber Fort, golden dunes of Rajasthan]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/ioi12ij2epbbse2n588v.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/ioi12ij2epbbse2n588v.html"/>
-        <updated>2026-05-30T16:00:12.277Z</updated>
-        <summary type="html"><![CDATA[96
-
-*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:620px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}}
-sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-10% } 
-
-D…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Congress Returns Monday With Trump Diminished, Wildly Unpopular, And Failing On Many Fronts]]></title>
-        <id>https://www.hopiumchronicles.com/p/congress-returns-monday-with-trump</id>
-        <link href="https://www.hopiumchronicles.com/p/congress-returns-monday-with-trump"/>
-        <updated>2026-05-30T15:15:27.000Z</updated>
-        <summary type="html"><![CDATA[With Trump faltering it is time for us to be very, very aggressive now my friends....]]></summary>
-        <author>
-            <name>Simon Rosenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Month in Review: We’re fighting back against the Christian Nationalist Jubilee]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/sbbh6vk1f157nxbdfpdb.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/sbbh6vk1f157nxbdfpdb.html"/>
-        <updated>2026-05-30T15:02:17.488Z</updated>
-        <summary type="html"><![CDATA[96
-
-
-*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}#converted-body .list_block ol,#converted-body .list_block ul,.body [class~=x_list_block] ol,.body [class~=x_list_block] ul,u+.body .list_block ol,u+.body .list_block ul{padding-left:20px} @media (max-width:620px){.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!…]]></summary>
-        <author>
-            <name>Current Events</name>
         </author>
     </entry>
 </feed>
