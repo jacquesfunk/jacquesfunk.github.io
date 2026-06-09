@@ -815,6 +815,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://blog.davep.org/2026/06/09/blogmore-el-v4-7-0.html",
+          "author": null,
+          "description": "A quick update to blogmore.el.\nHaving recently added series support to\nBlogMore it made sense that I then add a\nquick way of adding a post to a series in the package.\n\nYou can, of course, set a new one too, but the idea here (as with categories\nand tags) is that you can quickly find back an existing series and add the\ncurrent post to it.\nAlso, as with tags, the expectation is that either a single series is being\nused, or if more than one series is in play for a post they'll be listed as\na comma-separated list. The issue here is that while BlogMore supports this:\nseries:\n  - Some series of posts\n  - Some other series of posts\n  - Yet another series of posts\n\n\n\nthe frontmatter-handling code in blogmore.el isn't very sophisticated at\nall; it doesn't actually handle it as actual YAML, instead just treating it\nas a set of key/value pairs separated by a colon.\nAt some point soon I want to give blogmore.el a revamp and base all of the\nfrontmatter-handling code on something like\nyaml.el. I did do some experimenting\nlast night to drop it in and handle proper lists. It worked well enough, but\nI abandoned the work as I realised I really wanted to start again from\nscratch and build blogmore.el from the bottom up using that package.\nSome time soon...",
+          "link": "https://blog.davep.org/2026/06/09/blogmore-el-v4-7-0.html",
+          "publishedOn": "2026-06-09T07:42:40.000Z",
+          "wordCount": 418,
+          "title": "Dave Pearson: blogmore.el v4.7.0",
+          "imageUrl": "https://blog.davep.org/attachments/2026/06/09/select-a-series.webp"
+        },
+        {
           "id": "https://sachachua.com/blog/2026/06/june-11-sacha-and-prot-talk-emacs-built-ins/",
           "author": null,
           "description": "Prot about the Emacs Carnival June 2026 topic Underappreciated Emacs Built-ins. Thanks to Ross A. Baker for hosting the carnival!\n\n\n\n\nWatch on YouTube\n\n\n\n<2026-06-11 Thu 10:30>–<2026-06-11 Thu 11:30> (America/Toronto) = Thu Jun 11 1030H EDT / 0930H CDT / 0830H MDT / 0730H PDT / 1430H UTC / 1630H CEST / 1730H EEST / 2000H IST / 2230H +08 / 2330H JST\n\nView Org source for this post\nYou can e-mail me at sacha@sachachua.com.",
@@ -1201,6 +1211,36 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160385",
+          "author": "David Pinto",
+          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.333, 0.723 — Otto Lopez batting vs. Zac Gallen. 0.306, 0.702 — Xavier Edwards batting vs. Zac Gallen. 0.292, 0.708 — Jung Hoo Lee batting vs. Andrew Alvarez. 0.292, 0.697 — Troy Johnston batting vs. Colin Rea. 0.290, 0.679 — Luis Garcia Jr. […]",
+          "link": "https://www.baseballmusings.com/?p=160385",
+          "publishedOn": "2026-06-09T10:57:26.000Z",
+          "wordCount": 7986,
+          "title": "Beat the Streak Picks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160383",
+          "author": "David Pinto",
+          "description": "Yandy Diaz of the Rays uses a one for three with a home run and a walk to open up a five point lead in the Baseball Musings Batter Rankings. His teammate, Junior Caminero, singled and walked in a 3-1 win over the Red Sox and stands in fifth place. The Dodgers sat idle on […]",
+          "link": "https://www.baseballmusings.com/?p=160383",
+          "publishedOn": "2026-06-09T10:19:13.000Z",
+          "wordCount": 7822,
+          "title": "Best Batter Today",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160381",
+          "author": "David Pinto",
+          "description": "",
+          "link": "https://www.baseballmusings.com/?p=160381",
+          "publishedOn": "2026-06-09T10:00:18.000Z",
+          "wordCount": 7457,
+          "title": "Tuesday Update",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160377",
           "author": "David Pinto",
@@ -3192,6 +3232,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/-full",
+          "author": "Rex Huppke",
+          "description": "Billionaire Jeff Bezos has boldly put forth a challenge to Americans.\nIn a May 20 interview with CNBC, he referenced a hypothetical New York City school teacher and said, “You could double the taxes I pay, and it's not going to help that teacher in Queens. I promise you.”\nPromises from billionaires will be worth about as much as cash in the post-apocalyptic wasteland we’ll soon inhabit, thanks to all the billionaires. (I’m guessing the primary currency will be potable water and locally sourced rich-people meat.)\nSo I’ll respond to Mr. Bezos with this: “You say doubling your taxes won’t help regular Americans. Well, sir, that’s a risk I’m willing to take. What say we quintuple your taxes and see what shakes out?”\nI say let's raise Jeff Bezos' taxes and see how it all works out\n\n\"If people w…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/",
+          "publishedOn": "2026-06-09T11:13:01.899Z",
+          "wordCount": 4287,
+          "title": "Bezos says raising his taxes won't help. It's a risk we should take.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/04/13/USAT/89587769007-2239610155.jpg?crop=5095,2866,x0,y764&width=3200&height=1801&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/-full",
           "author": "Rex Huppke",

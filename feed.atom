@@ -2,10 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-06-09T07:45:50.318Z</updated>
+    <updated>2026-06-09T11:13:14.224Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bezos says raising his taxes won't help. It's a risk we should take.Rex Huppke]]></title>
+        <id>https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/-full</id>
+        <link href="https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/"/>
+        <updated>2026-06-09T11:13:01.899Z</updated>
+        <summary type="html"><![CDATA[Billionaire Jeff Bezos has boldly put forth a challenge to Americans.
+In a May 20 interview with CNBC, he referenced a hypothetical New York City school teacher and said, “You could double the taxes I pay, and it's not going to help that teacher in Queens. I promise you.”
+Promises from billionaires will be worth about as much as cash in the post-apocalyptic wasteland we’ll soon inhabit, thanks to all the billionaires. (I’m guessing the primary currency will be potable water and locally sourced rich-people meat.)
+So I’ll respond to Mr. Bezos with this: “You say doubling your taxes won’t help regular Americans. Well, sir, that’s a risk I’m willing to take. What say we quintuple your taxes and see what shakes out?”
+I say let's raise Jeff Bezos' taxes and see how it all works out
+
+"If people w…]]></summary>
+        <author>
+            <name>Rex Huppke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beat the Streak Picks]]></title>
+        <id>https://www.baseballmusings.com/?p=160385</id>
+        <link href="https://www.baseballmusings.com/?p=160385"/>
+        <updated>2026-06-09T10:57:26.000Z</updated>
+        <summary type="html"><![CDATA[The Log5 Method yields these top projected hit averages versus starting pitchers: 0.333, 0.723 — Otto Lopez batting vs. Zac Gallen. 0.306, 0.702 — Xavier Edwards batting vs. Zac Gallen. 0.292, 0.708 — Jung Hoo Lee batting vs. Andrew Alvarez. 0.292, 0.697 — Troy Johnston batting vs. Colin Rea. 0.290, 0.679 — Luis Garcia Jr. […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best Batter Today]]></title>
+        <id>https://www.baseballmusings.com/?p=160383</id>
+        <link href="https://www.baseballmusings.com/?p=160383"/>
+        <updated>2026-06-09T10:19:13.000Z</updated>
+        <summary type="html"><![CDATA[Yandy Diaz of the Rays uses a one for three with a home run and a walk to open up a five point lead in the Baseball Musings Batter Rankings. His teammate, Junior Caminero, singled and walked in a 3-1 win over the Red Sox and stands in fifth place. The Dodgers sat idle on […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tuesday Update]]></title>
+        <id>https://www.baseballmusings.com/?p=160381</id>
+        <link href="https://www.baseballmusings.com/?p=160381"/>
+        <updated>2026-06-09T10:00:18.000Z</updated>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Stop trying to make dates happen. Have you even tried a Twinkie?Rex Huppke]]></title>
         <id>https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/-full</id>
@@ -19,6 +64,43 @@ My son is addicted to dates and I've never been more ashamed
 Not long ago, my wonderful adult son – whose father raised him with the ho…]]></summary>
         <author>
             <name>Rex Huppke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dave Pearson: blogmore.el v4.7.0]]></title>
+        <id>https://blog.davep.org/2026/06/09/blogmore-el-v4-7-0.html</id>
+        <link href="https://blog.davep.org/2026/06/09/blogmore-el-v4-7-0.html"/>
+        <updated>2026-06-09T07:42:40.000Z</updated>
+        <summary type="html"><![CDATA[A quick update to blogmore.el.
+Having recently added series support to
+BlogMore it made sense that I then add a
+quick way of adding a post to a series in the package.
+
+You can, of course, set a new one too, but the idea here (as with categories
+and tags) is that you can quickly find back an existing series and add the
+current post to it.
+Also, as with tags, the expectation is that either a single series is being
+used, or if more than one series is in play for a post they'll be listed as
+a comma-separated list. The issue here is that while BlogMore supports this:
+series:
+  - Some series of posts
+  - Some other series of posts
+  - Yet another series of posts
+
+
+
+the frontmatter-handling code in blogmore.el isn't very sophisticated at
+all; it doesn't actually handle it as actual YAML, instead just treating it
+as a set of key/value pairs separated by a colon.
+At some point soon I want to give blogmore.el a revamp and base all of the
+frontmatter-handling code on something like
+yaml.el. I did do some experimenting
+last night to drop it in and handle proper lists. It worked well enough, but
+I abandoned the work as I realised I really wanted to start again from
+scratch and build blogmore.el from the bottom up using that package.
+Some time soon...]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
