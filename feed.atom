@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Site</title>
-    <updated>2026-06-10T03:35:57.678Z</updated>
+    <updated>2026-06-10T08:06:21.377Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[James Dyer: The Hidden Git Stash Keys in Emacs VC Directory Mode]]></title>
+        <id>https://emacs.dyerdwelling.family/emacs/20260610061920-emacs--the-hidden-git-stash-keys-in-emacs-vc-directory-mode/</id>
+        <link href="https://emacs.dyerdwelling.family/emacs/20260610061920-emacs--the-hidden-git-stash-keys-in-emacs-vc-directory-mode/"/>
+        <updated>2026-06-10T05:19:00.000Z</updated>
+        <summary type="html"><![CDATA[vc-dir and vc-mode led me into wanting to delete a stash (not to pop). There are "z" keybindings in vc-dir:
+
+
+
+z c	vc-git-stash
+z p	vc-git-stash-pop
+z s	vc-git-stash-snapshot
+
+
+vc-dir you get a rather nice little Stash section tacked on at the bottom listing all your stashes:
+
+
+
+
+
+
+
+
+
+I genuinely assumed I was missing something obvious, so I did the sensible Emacs thing and hit C-h m to describe the mode, scrolled through the whole keymap, and, nothing about stashes at all.
+
+
+
+Well how about C-h b (describe-bindings)?, initially nothing!, however I stumbled on a solution, if the point is on a stash name, the following is exposed!
+
+
+
+C-k	vc-git-stash-delete-at-point
+RET	vc-git-stash-show-at-point
+=	vc-git-stash-show-at-point
+A	vc-git-stash-apply-at-point
+C	vc-git-stash
+P	vc-git-stash-pop-at…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Steven Spielberg's new film is his best in decades]]></title>
         <id>https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php-full</id>
@@ -24,6 +66,16 @@
         <summary type="html"><![CDATA[Judge Emily Marks on Tuesday barred Alabama from using nitrogen gas to suffocate Jeffery Lee to death Thursday.]]></summary>
         <author>
             <name>Chris Geidner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Debut Walk Off]]></title>
+        <id>https://www.baseballmusings.com/?p=160390</id>
+        <link href="https://www.baseballmusings.com/?p=160390"/>
+        <updated>2026-06-10T02:55:58.000Z</updated>
+        <summary type="html"><![CDATA[Braden Montgomery of the White Sox beats the Braves with a two-run homer in the bottom of the tenth inning, making the final score 6-5. He goes two for five with three RBI in his first major league game, and emerges as the hero. It’s a fantastic start to his MLB career as the White […]]]></summary>
+        <author>
+            <name>David Pinto</name>
         </author>
     </entry>
     <entry>
@@ -75,6 +127,16 @@ img + div {display: none!important;}
 body{-webkit…]]></summary>
         <author>
             <name>Current Events</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Majors Time]]></title>
+        <id>https://www.baseballmusings.com/?p=160388</id>
+        <link href="https://www.baseballmusings.com/?p=160388"/>
+        <updated>2026-06-09T23:07:52.000Z</updated>
+        <summary type="html"><![CDATA[The White Sox call up prospect Braden Montgomery. He gets the start in rightfield against the Braves. At seasonal age 23, he batted .314/.422/.548 at AA and AAA this season, with a career minor league OBP of .381. White Sox right fielders hit .190/.269/.282 so far this season, so Montgomery probably will do somewhat better. […]]]></summary>
+        <author>
+            <name>David Pinto</name>
         </author>
     </entry>
     <entry>
@@ -627,6 +689,21 @@ Watch on YouTube
 
 View Org source for this post
 You can e-mail me at sacha@sachachua.com.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Protesilaos: Emacs live with Sacha Chua about ‘Underappreciated Built-ins’ on Thursday 11 June 17:30 Europe/Athens]]></title>
+        <id>https://protesilaos.com/codelog/2026-06-09-emacs-live-sacha-chua-built-ins/</id>
+        <link href="https://protesilaos.com/codelog/2026-06-09-emacs-live-sacha-chua-built-ins/"/>
+        <updated>2026-06-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Raw link: https://www.youtube.com/watch?v=yuJYEua0ZwA
+I will join Sacha’s live stream this Thursday to talk about
+underappreciated features that are built into Emacs. There are a lot
+of nice things that are available out-of-the-box (plus many packages
+that build on top of them). I am looking forward to it!
+The video will be recorded for future reference.]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>
@@ -5966,77 +6043,6 @@ will let you pick the major mode you want.
 I have some additional customizations to try to automagically pick a
 major mode based on what I have selected:
 https://github.com/karthink/.emacs.d/blob/3deed38c0e02e95fdfab6812c494b1736b945a1e/lisp/utilities.el#L36…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fernando Tatis Jr. Finally Hit A Damn Homer]]></title>
-        <id>https://defector.com/?p=224243</id>
-        <link href="https://defector.com/fernando-tatis-jr-finally-hit-a-damn-homer"/>
-        <updated>2026-05-31T16:36:22.000Z</updated>
-        <summary type="html"><![CDATA[Baseball is the only sport that regularly produces the following thought in my head: Does everyone who is good at baseball actually kind of suck at baseball? The existence of Shohei Ohtani makes it impossible to ever answer with a definitive "yes," but the question lingers still.
-Related to this matter is the plight of Fernando Tatis Jr. Not so long ago, he was a young Padres shortstop showing signs of becoming the best player in the league. He produced 6.7 bWAR across 143 games in his first two seasons, and then broke out in year three with 42 homers, a .975 OPS, and 6.6 bWAR. But then, oops, he got suspended for taking PEDs and missed the entirety of the 2022 season. Since then, he's remained a highly productive if slightly less powerful player in the seasons. He hasn't hit more than 25 homers in a season since his suspension, but he played 155 games last year and finished with 6.1 bWAR.
-Twenty-five homers is significantly fewer than 42, but it is also not a small enough number to have signaled that Tatis would start the 2026 MLB season swinging a damn noodle bat. Coming into Saturday's game against the Nationals, Tatis had gone 55 games without hitting a homer, and was in the midst of the longest homer-less streak (238 plate appearances) of any player in the league. That humiliating streak mercifully ended yesterday when he clobbered a pitch 451 feet into the left-field seats.]]></summary>
-        <author>
-            <name>Tom Ley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sunday Hopium - After A Terrible Week Full Of Consequential Losses Trump Completely Loses It On Social Media]]></title>
-        <id>https://www.hopiumchronicles.com/p/sunday-hopium-after-a-terrible-week</id>
-        <link href="https://www.hopiumchronicles.com/p/sunday-hopium-after-a-terrible-week"/>
-        <updated>2026-05-31T16:15:30.000Z</updated>
-        <summary type="html"><![CDATA[Our community hit an important milestone this week - $10m raised for battleground candidates and party committees - thank you all!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]]></summary>
-        <author>
-            <name>Simon Rosenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Playing A Baseball Simulator Made Me A Fanatic Again]]></title>
-        <id>https://defector.com/?p=224239</id>
-        <link href="https://defector.com/playing-a-baseball-simulator-made-me-a-fanatic-again"/>
-        <updated>2026-05-31T15:55:15.000Z</updated>
-        <summary type="html"><![CDATA[When I was a kid, I loved baseball. I loved playing it, I loved watching it, and I really loved attending games. Some of my favorite memories of growing up in Miami came at the old Dolphins/Marlins stadium, a truly horrible place to watch any sporting event, but also one that was a mere 10 minute drive from my home. I went to countless Marlins games in the summer of 2003, watching them slowly put things together into what would eventually be an improbable second World Series title that fall. (I was lucky enough to attend Game 5 of that World Series, back when tickets were merely expensive and not expensive.) Baseball's constant motion kept me grounded in the rudderless months of Miami summer, when the heat is so stifling that you could get tickets behind home plate for Sunday afternoon gam…]]></summary>
-        <author>
-            <name>Luis Paez-Pumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mike Zamansky: Giant - Antisemitism, antizionism, and Roald Dahl]]></title>
-        <id>https://cestlaz.zamansky.net/posts/giant-play/</id>
-        <link href="https://cestlaz.zamansky.net/posts/giant-play/"/>
-        <updated>2026-05-31T15:41:10.000Z</updated>
-        <summary type="html"><![CDATA[Giant
-
-
-
-This past Friday, I had the chance to see "Giant," the play written by
-Mark Rosenblatt. A few friends asked for my take on social media so I thought I'd write my thoughts up here.
-apology.
-John Lithgow
-
-Filicity Crosland
-
-Rachael Stirling - Dahl's mistress, fiance, and later wife. 
-
-Tom Maschler
-
-Elliot Levey - Executive at Dahl's publishing company. England based. A Jew who's family fled Vienna after Nazi annexation when he was five.
-
-Jessie Stone
-
-Aya Cash - Sales employee of Dahl's publishing company. Also Jewish. Based in America.
-
-Hallie
-
-Stella Everett - Domestic employee of the Dahl's
-
-Wally Suanders
-
-David Manis - Groundskeeper for the Dahl's.
-
-While the meeting depicted in the play was fictional, Dahl, Crosland, and Maschler did indeed exist though I have no idea if Crosland or Maschler's depictions were in any was based in their real personalities. Stone was created for the play and I'm not sure about the last two.]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>

@@ -855,6 +855,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://emacs.dyerdwelling.family/emacs/20260610061920-emacs--the-hidden-git-stash-keys-in-emacs-vc-directory-mode/",
+          "author": null,
+          "description": "vc-dir and vc-mode led me into wanting to delete a stash (not to pop). There are \"z\" keybindings in vc-dir:\n\n\n\nz c\tvc-git-stash\nz p\tvc-git-stash-pop\nz s\tvc-git-stash-snapshot\n\n\nvc-dir you get a rather nice little Stash section tacked on at the bottom listing all your stashes:\n\n\n\n\n\n\n\n\n\nI genuinely assumed I was missing something obvious, so I did the sensible Emacs thing and hit C-h m to describe the mode, scrolled through the whole keymap, and, nothing about stashes at all.\n\n\n\nWell how about C-h b (describe-bindings)?, initially nothing!, however I stumbled on a solution, if the point is on a stash name, the following is exposed!\n\n\n\nC-k\tvc-git-stash-delete-at-point\nRET\tvc-git-stash-show-at-point\n=\tvc-git-stash-show-at-point\nA\tvc-git-stash-apply-at-point\nC\tvc-git-stash\nP\tvc-git-stash-pop-at…",
+          "link": "https://emacs.dyerdwelling.family/emacs/20260610061920-emacs--the-hidden-git-stash-keys-in-emacs-vc-directory-mode/",
+          "publishedOn": "2026-06-10T05:19:00.000Z",
+          "wordCount": 639,
+          "title": "James Dyer: The Hidden Git Stash Keys in Emacs VC Directory Mode",
+          "imageUrl": "https://emacs.dyerdwelling.family/static/emacs/20260610061920-emacs--The-Hidden-Git-Stash-Keys-in-Emacs-VC-Directory-Mode.jpg"
+        },
+        {
           "id": "https://taonaw.com/2026/06/09/sometimes-you-just-gotta-laugh.html",
           "author": null,
           "description": "Sometimes you just gotta laugh at yourself.\nInterview with an Emacs Enthusiast in 2023 with Emerald McS., PhD\nPeople don’t quit Emacs. They just die at some point.\nBrilliant.",
@@ -903,6 +913,16 @@
           "wordCount": 193,
           "title": "Sacha Chua: June 11: Sacha and Prot Talk Emacs: Built-ins",
           "imageUrl": null
+        },
+        {
+          "id": "https://protesilaos.com/codelog/2026-06-09-emacs-live-sacha-chua-built-ins/",
+          "author": null,
+          "description": "Raw link: https://www.youtube.com/watch?v=yuJYEua0ZwA\nI will join Sacha’s live stream this Thursday to talk about\nunderappreciated features that are built into Emacs. There are a lot\nof nice things that are available out-of-the-box (plus many packages\nthat build on top of them). I am looking forward to it!\nThe video will be recorded for future reference.",
+          "link": "https://protesilaos.com/codelog/2026-06-09-emacs-live-sacha-chua-built-ins/",
+          "publishedOn": "2026-06-09T00:00:00.000Z",
+          "wordCount": 204,
+          "title": "Protesilaos: Emacs live with Sacha Chua about ‘Underappreciated Built-ins’ on Thursday 11 June 17:30 Europe/Athens",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         },
         {
           "id": "https://sachachua.com/blog/2026/06/2026-06-08-emacs-news/",
@@ -1253,16 +1273,6 @@
           "wordCount": 1218,
           "title": "Sacha Chua: Karthik's notes on Emacs Chat 24: Omar Antolin Camarena",
           "imageUrl": null
-        },
-        {
-          "id": "https://cestlaz.zamansky.net/posts/giant-play/",
-          "author": null,
-          "description": "Giant\n\n\n\nThis past Friday, I had the chance to see \"Giant,\" the play written by\nMark Rosenblatt. A few friends asked for my take on social media so I thought I'd write my thoughts up here.\napology.\nJohn Lithgow\n\nFilicity Crosland\n\nRachael Stirling - Dahl's mistress, fiance, and later wife. \n\nTom Maschler\n\nElliot Levey - Executive at Dahl's publishing company. England based. A Jew who's family fled Vienna after Nazi annexation when he was five.\n\nJessie Stone\n\nAya Cash - Sales employee of Dahl's publishing company. Also Jewish. Based in America.\n\nHallie\n\nStella Everett - Domestic employee of the Dahl's\n\nWally Suanders\n\nDavid Manis - Groundskeeper for the Dahl's.\n\nWhile the meeting depicted in the play was fictional, Dahl, Crosland, and Maschler did indeed exist though I have no idea if Crosland or Maschler's depictions were in any was based in their real personalities. Stone was created for the play and I'm not sure about the last two.",
-          "link": "https://cestlaz.zamansky.net/posts/giant-play/",
-          "publishedOn": "2026-05-31T15:41:10.000Z",
-          "wordCount": 958,
-          "title": "Mike Zamansky: Giant - Antisemitism, antizionism, and Roald Dahl",
-          "imageUrl": null
         }
       ]
     },
@@ -1271,6 +1281,26 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160390",
+          "author": "David Pinto",
+          "description": "Braden Montgomery of the White Sox beats the Braves with a two-run homer in the bottom of the tenth inning, making the final score 6-5. He goes two for five with three RBI in his first major league game, and emerges as the hero. It’s a fantastic start to his MLB career as the White […]",
+          "link": "https://www.baseballmusings.com/?p=160390",
+          "publishedOn": "2026-06-10T02:55:58.000Z",
+          "wordCount": 7534,
+          "title": "Debut Walk Off",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160388",
+          "author": "David Pinto",
+          "description": "The White Sox call up prospect Braden Montgomery. He gets the start in rightfield against the Braves. At seasonal age 23, he batted .314/.422/.548 at AA and AAA this season, with a career minor league OBP of .381. White Sox right fielders hit .190/.269/.282 so far this season, so Montgomery probably will do somewhat better. […]",
+          "link": "https://www.baseballmusings.com/?p=160388",
+          "publishedOn": "2026-06-09T23:07:52.000Z",
+          "wordCount": 7591,
+          "title": "Majors Time",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160379",
           "author": "David Pinto",
@@ -2330,22 +2360,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!oKw3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F54a2c712-6569-44bf-bf23-f61d6b8ae90a_1125x1518.webp"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/sunday-hopium-after-a-terrible-week",
-          "author": "Simon Rosenberg",
-          "description": "Our community hit an important milestone this week - $10m raised for battleground candidates and party committees - thank you all!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-          "link": "https://www.hopiumchronicles.com/p/sunday-hopium-after-a-terrible-week",
-          "publishedOn": "2026-05-31T16:15:30.000Z",
-          "wordCount": null,
-          "title": "Sunday Hopium - After A Terrible Week Full Of Consequential Losses Trump Completely Loses It On Social Media",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!OgBn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feacda6c4-d192-474c-b69f-34615c8374fc_733x501.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!OgBn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feacda6c4-d192-474c-b69f-34615c8374fc_733x501.png"
         }
       ]
     },
@@ -3103,26 +3117,6 @@
           "wordCount": 7370,
           "title": "To Boo Or Not To Boo? That’s The Question, Knicks Fans",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-2232589391.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=224243",
-          "author": "Tom Ley",
-          "description": "Baseball is the only sport that regularly produces the following thought in my head: Does everyone who is good at baseball actually kind of suck at baseball? The existence of Shohei Ohtani makes it impossible to ever answer with a definitive \"yes,\" but the question lingers still.\nRelated to this matter is the plight of Fernando Tatis Jr. Not so long ago, he was a young Padres shortstop showing signs of becoming the best player in the league. He produced 6.7 bWAR across 143 games in his first two seasons, and then broke out in year three with 42 homers, a .975 OPS, and 6.6 bWAR. But then, oops, he got suspended for taking PEDs and missed the entirety of the 2022 season. Since then, he's remained a highly productive if slightly less powerful player in the seasons. He hasn't hit more than 25 homers in a season since his suspension, but he played 155 games last year and finished with 6.1 bWAR.\nTwenty-five homers is significantly fewer than 42, but it is also not a small enough number to have signaled that Tatis would start the 2026 MLB season swinging a damn noodle bat. Coming into Saturday's game against the Nationals, Tatis had gone 55 games without hitting a homer, and was in the midst of the longest homer-less streak (238 plate appearances) of any player in the league. That humiliating streak mercifully ended yesterday when he clobbered a pitch 451 feet into the left-field seats.",
-          "link": "https://defector.com/fernando-tatis-jr-finally-hit-a-damn-homer",
-          "publishedOn": "2026-05-31T16:36:22.000Z",
-          "wordCount": 5096,
-          "title": "Fernando Tatis Jr. Finally Hit A Damn Homer",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-2278321976.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=224239",
-          "author": "Luis Paez-Pumar",
-          "description": "When I was a kid, I loved baseball. I loved playing it, I loved watching it, and I really loved attending games. Some of my favorite memories of growing up in Miami came at the old Dolphins/Marlins stadium, a truly horrible place to watch any sporting event, but also one that was a mere 10 minute drive from my home. I went to countless Marlins games in the summer of 2003, watching them slowly put things together into what would eventually be an improbable second World Series title that fall. (I was lucky enough to attend Game 5 of that World Series, back when tickets were merely expensive and not expensive.) Baseball's constant motion kept me grounded in the rudderless months of Miami summer, when the heat is so stifling that you could get tickets behind home plate for Sunday afternoon gam…",
-          "link": "https://defector.com/playing-a-baseball-simulator-made-me-a-fanatic-again",
-          "publishedOn": "2026-05-31T15:55:15.000Z",
-          "wordCount": 8911,
-          "title": "Playing A Baseball Simulator Made Me A Fanatic Again",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/3D_game.png"
         }
       ]
     },
