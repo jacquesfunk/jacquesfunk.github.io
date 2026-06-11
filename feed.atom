@@ -2,10 +2,109 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-06-11T08:45:49.829Z</updated>
+    <updated>2026-06-11T13:57:23.782Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How To Watch The World Cup]]></title>
+        <id>https://defector.com/?p=225023</id>
+        <link href="https://defector.com/how-to-watch-the-world-cup"/>
+        <updated>2026-06-11T13:38:58.000Z</updated>
+        <summary type="html"><![CDATA[With 104 games over the next six weeks, and with the United States (along with Canada and Mexico) hosting, the World Cup will be all-encompassing for the near future. Soccer is a very easy sport to get drawn into, especially during a World Cup, but the complexity of the game lives below the surface. Sure, you can enter the tournament with minimal knowledge and still appreciate the appeal of a well-hit ball that flies into the top corner, but my hope is that I can break down some of the intricacies of soccer a little, in order to give you a head start on impressing the half-drunk hooligans you might encounter at your local watering hole between now and the final on July 19. Worst case, this guide will serve as an ode to one specific USMNT player I have been a fan of for years, and that feels worth it to me right there.
+There's a famous quote, almost certainly apocryphal, about former Spain and Barcelona midfielder Sergio Busquets that will be helpful here. Supposedly said by World Cup–winning Spanish manager Vicente del Bosque, it goes like this: "If you watch the game, you don't see Busquets. But if you watch Busquets, you see the whole game." It's a little pat, and again almost definitely did not originate from Del Bosque himself, but it still gets at a truth about soccer, which is that most of what's important in the game happens away from the ball. With that in mind, I want to introduce you to what I will call the Busquets Method, a way to understand what happens and why by looking away from where your eye is most naturally drawn.]]></summary>
+        <author>
+            <name>Luis Paez-Pumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Hand Of God Is In New York]]></title>
+        <id>https://defector.com/?p=225568</id>
+        <link href="https://defector.com/the-hand-of-god-is-in-new-york"/>
+        <updated>2026-06-11T13:00:27.000Z</updated>
+        <summary type="html"><![CDATA[Some games get you thinking about a higher power. Not because it seems like some cosmic force has put a thumb on the scale in favor of one side or the other, but because the game in question produces a result so unlikely, so ornately designed, that it can only have occurred exactly as it did.
+Game 4 of the NBA Finals has me feeling like one of those Kansas creationists who point to a bacterial flagellum and start shouting about the presence of God in the creation of life. How else could something this unlikely, this beautiful, this fate-altering have happened? The Knicks won, 107-106, after erasing a 29-point deficit. They were down 76-49 at halftime. They trailed by 20 with 9:33 to play in the fourth quarter. How? How? How?
+The Knicks' performance in the first half was just as strange and stultifying as their second half was miraculous. An ill omen seemed to have wrapped itself around Madison Square Garden when Karl-Anthony Towns picked up his second foul—the result of an incredibly bold challenge by Spurs coach Mitch Johnson—barely a minute into the game. The Knicks' success in this series has felt inextricably linked with Towns's ability to stay focused and on the floor, as he's their best defensive matchup for Victor Wembanyama and their most efficient offensive hub, and here he had been removed from the game basically before it started.]]></summary>
+        <author>
+            <name>Tom Ley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Charlie Holland: Emacs SVG Benchmark Reveals Gaming-Caliber Frame Rates]]></title>
+        <id>https://www.chiply.dev/post-emacs-svg-benchmark</id>
+        <link href="https://www.chiply.dev/post-emacs-svg-benchmark"/>
+        <updated>2026-06-11T12:10:09.000Z</updated>
+        <summary type="html"><![CDATA[1. TLDR
+svg-line package (demo), really is several times heavier than the native text engine.  The skeptics were right.  But it doesn't matter in practice: even a fully-repainted 3000-pixel ultrawide bar holds ~77 fps, and a thin inline animation rasterizing a fresh frame every tick runs at 130–520 fps.  To put that into perspective, this is still well above the 60 fps that high-frame-rate games target.  More than enough for a text editor if you ask me!
+
+
+
+I got two real take-aways from this benchmark.  First, the rendering cost of SVG scales with the SVG's pixel area, not with what's drawn on it (text and icons cost the same as you'll see).  Second, in any real Emacs config the bottleneck is the content query (I'm looking at you, git), not the renderer (I'm looking at you, SVG, with doe e…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bonus 232: The Term of the Summary Reversal]]></title>
+        <id>https://www.stevevladeck.com/p/bonus-231-the-term-of-the-summary</id>
+        <link href="https://www.stevevladeck.com/p/bonus-231-the-term-of-the-summary"/>
+        <updated>2026-06-11T11:21:08.000Z</updated>
+        <summary type="html"><![CDATA[The Court has issued eight summary reversals this term, after two last term and none the term before, raising questions about how the justices see their role.]]></summary>
+        <author>
+            <name>Steve Vladeck</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Surprise Sox]]></title>
+        <id>https://www.baseballmusings.com/?p=160412</id>
+        <link href="https://www.baseballmusings.com/?p=160412"/>
+        <updated>2026-06-11T10:48:37.000Z</updated>
+        <summary type="html"><![CDATA[I bet you didn’t think it would be the White Sox that would be the Chicago team in first place at this point of the season. The offense is second to the Yankees in runs per game at 4.75 R/G. Their pitching and defense allow 4.60 runs per game. That’s not a big difference, it’s […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beat the Streak Picks]]></title>
+        <id>https://www.baseballmusings.com/?p=160410</id>
+        <link href="https://www.baseballmusings.com/?p=160410"/>
+        <updated>2026-06-11T10:37:18.000Z</updated>
+        <summary type="html"><![CDATA[The Log5 Method yields these top projected hit averages versus starting pitchers: 0.311, 0.717 — Otto Lopez batting vs. Merrill Kelly. 0.285, 0.686 — Troy Johnston batting vs. Edward Cabrera. 0.283, 0.688 — Michael Harris II batting at Anthony Kay. 0.281, 0.688 — Xavier Edwards batting vs. Merrill Kelly. 0.268, 0.669 — Riley Greene batting […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best Batter Today]]></title>
+        <id>https://www.baseballmusings.com/?p=160408</id>
+        <link href="https://www.baseballmusings.com/?p=160408"/>
+        <updated>2026-06-11T10:11:35.000Z</updated>
+        <summary type="html"><![CDATA[Yandy Diaz of the Rays grew his lead in the Baseball Musings Batter Rankings with a three for five in a 7-5 win over the Red Sox. Shohei Ohtani of the Dodgers gave up a few runs on the mound but homered in five plate appearances to remain in second place. He owns a .527 […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Trump DOJ’s threats against California is a bluff.]]></title>
+        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/9xtkadf97p5vqp4vvupl.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/9xtkadf97p5vqp4vvupl.html"/>
+        <updated>2026-06-11T10:08:18.240Z</updated>
+        <summary type="html"><![CDATA[96
+
+*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}#converted-body .list_block ol,#converted-body .list_block ul,.body [class~=x_list_block] ol,.body [class~=x_list_block] ul,u+.body .list_block ol,u+.body .list_block ul{padding-left:20px} @media (max-width:620px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size…]]></summary>
+        <author>
+            <name>Current Events</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thursday Update]]></title>
+        <id>https://www.baseballmusings.com/?p=160406</id>
+        <link href="https://www.baseballmusings.com/?p=160406"/>
+        <updated>2026-06-11T09:52:40.000Z</updated>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[By the GOP's own metrics, life was better under BidenRex Huppke]]></title>
         <id>https://www.usatoday.com/story/opinion/columnist/2026/06/11/trump-love-inflation-republicans-biden/90490777007/-full</id>
@@ -30,6 +129,23 @@ When Biden – overseer of t…]]></summary>
         <summary type="html"><![CDATA[Bryce Eldridge of the Giants hit a walk-off grand slam against the Nationals this afternoon, setting a record: He is now the youngest player in Major League Baseball to smack a walk-off grand slam. As reported by Maria Guardado of MLB.com, he surpassed the previous record holder Roberto Clemente who set the record in July […]]]></summary>
         <author>
             <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Alvaro Ramirez: agent-shell 0.55 updates]]></title>
+        <id>https://xenodium.com/agent-shell-0-55-updates</id>
+        <link href="https://xenodium.com/agent-shell-0-55-updates"/>
+        <updated>2026-06-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It's been a little while since my last agent-shell update, so let's go through the latest highlights as of v0.55.
+What's agent-shell?
+agent-shell is a native Emacs mode to interact with AI agents powered by ACP (Agent Client Protocol).
+Picking up where I left off
+If you noticed slower project activity in April, this is why. I'm getting better at the new 24-hour job, so I've resumed working on agent-shell.
+I'm still chipping away at the backlog that built up while I was away, but if there's anything in particular you'd like me to look at, feel free to ping.
+Anthropic, Google, and why ACP matters
+With Anthropic's SDK subscription support changing, Google's Gemini CLI deprecation, and Antigravity's unclear support for the Agent Client Protocol (ACP), vendor-neutral tools matter more than ever…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -5952,108 +6068,6 @@ Add to that, drag-and-drop isn’t graceful with a long traversal path on a larg
 Ultimately, what I want is a single con…]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Waning Walks]]></title>
-        <id>https://www.baseballmusings.com/?p=160294</id>
-        <link href="https://www.baseballmusings.com/?p=160294"/>
-        <updated>2026-06-02T00:09:09.000Z</updated>
-        <summary type="html"><![CDATA[While walks are up overall this season, they have been coming down steadily on a week by week basis. This spreadsheet shows walk and strikeout percentage (percentage of plate appearances) by season week. Note that while strikeouts vary week to week they bounce around more than they decline. Walks coming down in my mind indicates […]]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jakub Nowak: Radical Builtins]]></title>
-        <id>https://www.cyan.sh/blog/posts/radical-builtins.html</id>
-        <link href="https://www.cyan.sh/blog/posts/radical-builtins.html"/>
-        <updated>2026-06-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Underappreciated Emacs Builtins.
-There is a lot of functionality in default vanilla Emacs that is certainly less talked about.
-I'm going to constrain myself to talking about specific functions that exist, instead of overarching themes like portability.
-
-
-
-Regional Commands
-Buffer Narrowing
-Indirect Buffers
-narrow-indirect package speeds up this process a bit, but all of this functionality is built in by default.
-
-
-
-
-
-Register
-Directory Local Variables
-a whole eval hook to play with.
-Some example uses of this are to automatically log in to AWS when the project is opened, or automatically starting the project for debugging, etc.
-
-
-
-
-
-Tramp
-sudo, but it works great for accessing files inside of Docker containers too (useful when working with devcontainers), and that functionality extends to:
-…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Could Trump's White House UFC fight get derailed by scary bugs?Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/01/ufc-white-house-bugs-dana-white/90347036007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/01/ufc-white-house-bugs-dana-white/90347036007/"/>
-        <updated>2026-06-01T23:26:01.037Z</updated>
-        <summary type="html"><![CDATA[The upcoming White House UFC fight will feature some manly mixed-martial-arts men and man-o-sphere macho maniacs who, in a world of beta men, fear nothing. 
-Well, almost nothing. Turns out they’re a little afraid of bugs.
-Dana White, noted tough guy and head of the Ultimate Fighting Championship, recently said he’s concerned about the event, which falls on Trump’s June 14 birthday. (Maybe the president will have a bouncy house there as well!)
-White isn’t worried about strong men clobbering the snot out of each other in an octagonal cage. No, he said, a recent visit to the Rose Garden with the president showed him something truly scary: “He invited me to dinner there. The amount of gnats that are flying around, I'm like, 'Holy (expletive).' As soon as I got on the plane, I got on the phone …]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Black voters urge SCOTUS to reject Alabama’s last-minute bid to revive intentionally racist map]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/iot7jlqumchumxqqvj82.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/iot7jlqumchumxqqvj82.html"/>
-        <updated>2026-06-01T22:07:19.055Z</updated>
-        <summary type="html"><![CDATA[Black voters urge SCOTUS to reject Alabama’s last-minute bid to revive intentionally racist map
-    
-    
-    
-    
-    
-
-
-
-
-
-a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1p…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meet Bob Brooks, Our Terrific Candidate Working To Flip PA-07 Blue]]></title>
-        <id>https://www.hopiumchronicles.com/p/meet-bob-brooks-our-terrific-candidate</id>
-        <link href="https://www.hopiumchronicles.com/p/meet-bob-brooks-our-terrific-candidate"/>
-        <updated>2026-06-01T21:35:22.000Z</updated>
-        <summary type="html"><![CDATA[PA-07 is one of our best pick up opportunities in the country this year, and Bob Brooks is one of our very best candidates.....]]></summary>
-        <author>
-            <name>Simon Rosenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What The Fuck Are The Rams Doing?]]></title>
-        <id>https://defector.com/?p=224424</id>
-        <link href="https://defector.com/what-the-fuck-are-the-rams-doing"/>
-        <updated>2026-06-01T20:49:33.000Z</updated>
-        <summary type="html"><![CDATA[The Rams just traded for Cleveland Browns superstar pass rusher Myles Garrett. But before you ooh and ahh at the prospect of the NFL’s reigning Defensive Player of the Year joining Sean McVay’s superteam-in-waiting, you should probably consider what Los Angeles gave up to acquire him. Cue a wince: According to multiple reports, the Rams are giving up Jared Verse, a 2027 first-round pick, a 2028 second-round pick, and a 2029 third-round pick.
-This is a move that harkens back to the 2021 offseason, when Los Angeles GM Les Snead—with the blessing of head coach McVay—traded QB Jared Goff plus two first-round picks to the Detroit Lions in exchange for QB Matthew Stafford. That trade, as you now know, resulted in the Rams winning a Super Bowl, with Snead basking in his win-now approach to team building by wearing a “Fuck Them Picks” T-shirt after the fact. This time around, with Stafford locked in for two more years, Snead decided to fuck them picks again, and to fuck Jared Verse for good measure.
-Snead and McVay hit the jackpot going against the grain five years ago, but the circumstances are different this time around. For one, when they traded for Stafford, they acquired a future Hall of Famer at the most important position in the sport. History also tells us that, in aggregate, giving away all of your draft picks is still really fucking stupid. Now, over the past few years, Snead was able to make up for the loss of those picks by grabbing the likes of Byron Young, Kobie Turner, Braden Fiske, Puka Nacua, and Verse with his remaining picks. Verse was the 2024 Defensive Rookie of the Year, Young rates as an even better pass rusher than Verse, and Nacua—despite being a world-class moron—is arguably the best wideout in football. Those draft picks by Snead are the reason that L.A. has remained in serious contention as Stafford has neared the end of his career.]]></summary>
-        <author>
-            <name>Drew Magary</name>
         </author>
     </entry>
 </feed>

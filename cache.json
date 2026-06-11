@@ -448,6 +448,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/9xtkadf97p5vqp4vvupl.html",
+          "author": null,
+          "description": "96\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}#converted-body .list_block ol,#converted-body .list_block ul,.body [class~=x_list_block] ol,.body [class~=x_list_block] ul,u+.body .list_block ol,u+.body .list_block ul{padding-left:20px} @media (max-width:620px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/9xtkadf97p5vqp4vvupl.html",
+          "publishedOn": "2026-06-11T10:08:18.240Z",
+          "wordCount": 1616,
+          "title": "The Trump DOJ’s threats against California is a bluff.",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/e4glsm2x92xk7eka3kxi.html",
           "author": null,
           "description": "My father would have been booing, too\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n    \n      \n    \n  …",
@@ -856,16 +866,6 @@
           "wordCount": 2514,
           "title": "Jess Craven and father_karine posted new notes",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/iot7jlqumchumxqqvj82.html",
-          "author": null,
-          "description": "Black voters urge SCOTUS to reject Alabama’s last-minute bid to revive intentionally racist map\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1p…",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/iot7jlqumchumxqqvj82.html",
-          "publishedOn": "2026-06-01T22:07:19.055Z",
-          "wordCount": 1466,
-          "title": "Black voters urge SCOTUS to reject Alabama’s last-minute bid to revive intentionally racist map",
-          "imageUrl": null
         }
       ]
     },
@@ -874,6 +874,26 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://www.chiply.dev/post-emacs-svg-benchmark",
+          "author": null,
+          "description": "1. TLDR\nsvg-line package (demo), really is several times heavier than the native text engine.  The skeptics were right.  But it doesn't matter in practice: even a fully-repainted 3000-pixel ultrawide bar holds ~77 fps, and a thin inline animation rasterizing a fresh frame every tick runs at 130–520 fps.  To put that into perspective, this is still well above the 60 fps that high-frame-rate games target.  More than enough for a text editor if you ask me!\n\n\n\nI got two real take-aways from this benchmark.  First, the rendering cost of SVG scales with the SVG's pixel area, not with what's drawn on it (text and icons cost the same as you'll see).  Second, in any real Emacs config the bottleneck is the content query (I'm looking at you, git), not the renderer (I'm looking at you, SVG, with doe e…",
+          "link": "https://www.chiply.dev/post-emacs-svg-benchmark",
+          "publishedOn": "2026-06-11T12:10:09.000Z",
+          "wordCount": 5065,
+          "title": "Charlie Holland: Emacs SVG Benchmark Reveals Gaming-Caliber Frame Rates",
+          "imageUrl": null
+        },
+        {
+          "id": "https://xenodium.com/agent-shell-0-55-updates",
+          "author": null,
+          "description": "It's been a little while since my last agent-shell update, so let's go through the latest highlights as of v0.55.\nWhat's agent-shell?\nagent-shell is a native Emacs mode to interact with AI agents powered by ACP (Agent Client Protocol).\nPicking up where I left off\nIf you noticed slower project activity in April, this is why. I'm getting better at the new 24-hour job, so I've resumed working on agent-shell.\nI'm still chipping away at the backlog that built up while I was away, but if there's anything in particular you'd like me to look at, feel free to ping.\nAnthropic, Google, and why ACP matters\nWith Anthropic's SDK subscription support changing, Google's Gemini CLI deprecation, and Antigravity's unclear support for the Agent Client Protocol (ACP), vendor-neutral tools matter more than ever…",
+          "link": "https://xenodium.com/agent-shell-0-55-updates",
+          "publishedOn": "2026-06-11T00:00:00.000Z",
+          "wordCount": 2939,
+          "title": "Alvaro Ramirez: agent-shell 0.55 updates",
+          "imageUrl": "https://xenodium.com/share.png"
+        },
         {
           "id": "https://irreal.org/blog/?p=13866",
           "author": null,
@@ -1233,16 +1253,6 @@
           "wordCount": 878,
           "title": "Charles Choi: Opening macOS Finder Folders in Emacs with Scrim",
           "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
-        },
-        {
-          "id": "https://www.cyan.sh/blog/posts/radical-builtins.html",
-          "author": null,
-          "description": "Underappreciated Emacs Builtins.\nThere is a lot of functionality in default vanilla Emacs that is certainly less talked about.\nI'm going to constrain myself to talking about specific functions that exist, instead of overarching themes like portability.\n\n\n\nRegional Commands\nBuffer Narrowing\nIndirect Buffers\nnarrow-indirect package speeds up this process a bit, but all of this functionality is built in by default.\n\n\n\n\n\nRegister\nDirectory Local Variables\na whole eval hook to play with.\nSome example uses of this are to automatically log in to AWS when the project is opened, or automatically starting the project for debugging, etc.\n\n\n\n\n\nTramp\nsudo, but it works great for accessing files inside of Docker containers too (useful when working with devcontainers), and that functionality extends to:\n…",
-          "link": "https://www.cyan.sh/blog/posts/radical-builtins.html",
-          "publishedOn": "2026-06-02T00:00:00.000Z",
-          "wordCount": null,
-          "title": "Jakub Nowak: Radical Builtins",
-          "imageUrl": null
         }
       ]
     },
@@ -1251,6 +1261,46 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160412",
+          "author": "David Pinto",
+          "description": "I bet you didn’t think it would be the White Sox that would be the Chicago team in first place at this point of the season. The offense is second to the Yankees in runs per game at 4.75 R/G. Their pitching and defense allow 4.60 runs per game. That’s not a big difference, it’s […]",
+          "link": "https://www.baseballmusings.com/?p=160412",
+          "publishedOn": "2026-06-11T10:48:37.000Z",
+          "wordCount": 7654,
+          "title": "Surprise Sox",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160410",
+          "author": "David Pinto",
+          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.311, 0.717 — Otto Lopez batting vs. Merrill Kelly. 0.285, 0.686 — Troy Johnston batting vs. Edward Cabrera. 0.283, 0.688 — Michael Harris II batting at Anthony Kay. 0.281, 0.688 — Xavier Edwards batting vs. Merrill Kelly. 0.268, 0.669 — Riley Greene batting […]",
+          "link": "https://www.baseballmusings.com/?p=160410",
+          "publishedOn": "2026-06-11T10:37:18.000Z",
+          "wordCount": 7911,
+          "title": "Beat the Streak Picks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160408",
+          "author": "David Pinto",
+          "description": "Yandy Diaz of the Rays grew his lead in the Baseball Musings Batter Rankings with a three for five in a 7-5 win over the Red Sox. Shohei Ohtani of the Dodgers gave up a few runs on the mound but homered in five plate appearances to remain in second place. He owns a .527 […]",
+          "link": "https://www.baseballmusings.com/?p=160408",
+          "publishedOn": "2026-06-11T10:11:35.000Z",
+          "wordCount": 7697,
+          "title": "Best Batter Today",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160406",
+          "author": "David Pinto",
+          "description": "",
+          "link": "https://www.baseballmusings.com/?p=160406",
+          "publishedOn": "2026-06-11T09:52:40.000Z",
+          "wordCount": 7459,
+          "title": "Thursday Update",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160404",
           "author": "David Pinto",
@@ -1770,16 +1820,6 @@
           "wordCount": null,
           "title": "Tuesday Update",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160294",
-          "author": "David Pinto",
-          "description": "While walks are up overall this season, they have been coming down steadily on a week by week basis. This spreadsheet shows walk and strikeout percentage (percentage of plate appearances) by season week. Note that while strikeouts vary week to week they bounce around more than they decline. Walks coming down in my mind indicates […]",
-          "link": "https://www.baseballmusings.com/?p=160294",
-          "publishedOn": "2026-06-02T00:09:09.000Z",
-          "wordCount": null,
-          "title": "Waning Walks",
-          "imageUrl": null
         }
       ]
     },
@@ -1855,6 +1895,22 @@
       "feedUrl": "https://www.stevevladeck.com/feed/",
       "siteUrl": "https://www.stevevladeck.com",
       "articles": [
+        {
+          "id": "https://www.stevevladeck.com/p/bonus-231-the-term-of-the-summary",
+          "author": "Steve Vladeck",
+          "description": "The Court has issued eight summary reversals this term, after two last term and none the term before, raising questions about how the justices see their role.",
+          "link": "https://www.stevevladeck.com/p/bonus-231-the-term-of-the-summary",
+          "publishedOn": "2026-06-11T11:21:08.000Z",
+          "wordCount": null,
+          "title": "Bonus 232: The Term of the Summary Reversal",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!B-p4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F806b9a96-f806-4125-9b67-0b9b398f2a9a_850x480.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!B-p4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F806b9a96-f806-4125-9b67-0b9b398f2a9a_850x480.jpeg"
+        },
         {
           "id": "https://www.stevevladeck.com/p/232-and-then-there-were-23ish",
           "author": "Steve Vladeck",
@@ -2364,22 +2420,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/2fb58bfc-1f82-4d7b-8bec-84015a514634_876x640.png"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/meet-bob-brooks-our-terrific-candidate",
-          "author": "Simon Rosenberg",
-          "description": "PA-07 is one of our best pick up opportunities in the country this year, and Bob Brooks is one of our very best candidates.....",
-          "link": "https://www.hopiumchronicles.com/p/meet-bob-brooks-our-terrific-candidate",
-          "publishedOn": "2026-06-01T21:35:22.000Z",
-          "wordCount": null,
-          "title": "Meet Bob Brooks, Our Terrific Candidate Working To Flip PA-07 Blue",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://api.substack.com/feed/podcast/200162150/1be15f11f66be6e9650b768ef4e950ec.mp3",
-            "length": "0",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
@@ -2388,6 +2428,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=225023",
+          "author": "Luis Paez-Pumar",
+          "description": "With 104 games over the next six weeks, and with the United States (along with Canada and Mexico) hosting, the World Cup will be all-encompassing for the near future. Soccer is a very easy sport to get drawn into, especially during a World Cup, but the complexity of the game lives below the surface. Sure, you can enter the tournament with minimal knowledge and still appreciate the appeal of a well-hit ball that flies into the top corner, but my hope is that I can break down some of the intricacies of soccer a little, in order to give you a head start on impressing the half-drunk hooligans you might encounter at your local watering hole between now and the final on July 19. Worst case, this guide will serve as an ode to one specific USMNT player I have been a fan of for years, and that feels worth it to me right there.\nThere's a famous quote, almost certainly apocryphal, about former Spain and Barcelona midfielder Sergio Busquets that will be helpful here. Supposedly said by World Cup–winning Spanish manager Vicente del Bosque, it goes like this: \"If you watch the game, you don't see Busquets. But if you watch Busquets, you see the whole game.\" It's a little pat, and again almost definitely did not originate from Del Bosque himself, but it still gets at a truth about soccer, which is that most of what's important in the game happens away from the ball. With that in mind, I want to introduce you to what I will call the Busquets Method, a way to understand what happens and why by looking away from where your eye is most naturally drawn.",
+          "link": "https://defector.com/how-to-watch-the-world-cup",
+          "publishedOn": "2026-06-11T13:38:58.000Z",
+          "wordCount": 8429,
+          "title": "How To Watch The World Cup",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2234278701.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=225568",
+          "author": "Tom Ley",
+          "description": "Some games get you thinking about a higher power. Not because it seems like some cosmic force has put a thumb on the scale in favor of one side or the other, but because the game in question produces a result so unlikely, so ornately designed, that it can only have occurred exactly as it did.\nGame 4 of the NBA Finals has me feeling like one of those Kansas creationists who point to a bacterial flagellum and start shouting about the presence of God in the creation of life. How else could something this unlikely, this beautiful, this fate-altering have happened? The Knicks won, 107-106, after erasing a 29-point deficit. They were down 76-49 at halftime. They trailed by 20 with 9:33 to play in the fourth quarter. How? How? How?\nThe Knicks' performance in the first half was just as strange and stultifying as their second half was miraculous. An ill omen seemed to have wrapped itself around Madison Square Garden when Karl-Anthony Towns picked up his second foul—the result of an incredibly bold challenge by Spurs coach Mitch Johnson—barely a minute into the game. The Knicks' success in this series has felt inextricably linked with Towns's ability to stay focused and on the floor, as he's their best defensive matchup for Victor Wembanyama and their most efficient offensive hub, and here he had been removed from the game basically before it started.",
+          "link": "https://defector.com/the-hand-of-god-is-in-new-york",
+          "publishedOn": "2026-06-11T13:00:27.000Z",
+          "wordCount": 7222,
+          "title": "The Hand Of God Is In New York",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2280993521.jpg"
+        },
         {
           "id": "https://defector.com/?p=225527",
           "author": "Abigail Segel",
@@ -3127,16 +3187,6 @@
           "wordCount": 6442,
           "title": "How Did A C-Tier WWE Guy From Germany Become One Of The Most Popular Luchadores In Mexico?",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2235160363.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=224424",
-          "author": "Drew Magary",
-          "description": "The Rams just traded for Cleveland Browns superstar pass rusher Myles Garrett. But before you ooh and ahh at the prospect of the NFL’s reigning Defensive Player of the Year joining Sean McVay’s superteam-in-waiting, you should probably consider what Los Angeles gave up to acquire him. Cue a wince: According to multiple reports, the Rams are giving up Jared Verse, a 2027 first-round pick, a 2028 second-round pick, and a 2029 third-round pick.\nThis is a move that harkens back to the 2021 offseason, when Los Angeles GM Les Snead—with the blessing of head coach McVay—traded QB Jared Goff plus two first-round picks to the Detroit Lions in exchange for QB Matthew Stafford. That trade, as you now know, resulted in the Rams winning a Super Bowl, with Snead basking in his win-now approach to team building by wearing a “Fuck Them Picks” T-shirt after the fact. This time around, with Stafford locked in for two more years, Snead decided to fuck them picks again, and to fuck Jared Verse for good measure.\nSnead and McVay hit the jackpot going against the grain five years ago, but the circumstances are different this time around. For one, when they traded for Stafford, they acquired a future Hall of Famer at the most important position in the sport. History also tells us that, in aggregate, giving away all of your draft picks is still really fucking stupid. Now, over the past few years, Snead was able to make up for the loss of those picks by grabbing the likes of Byron Young, Kobie Turner, Braden Fiske, Puka Nacua, and Verse with his remaining picks. Verse was the 2024 Defensive Rookie of the Year, Young rates as an even better pass rusher than Verse, and Nacua—despite being a world-class moron—is arguably the best wideout in football. Those draft picks by Snead are the reason that L.A. has remained in serious contention as Stafford has neared the end of his career.",
-          "link": "https://defector.com/what-the-fuck-are-the-rams-doing",
-          "publishedOn": "2026-06-01T20:49:33.000Z",
-          "wordCount": 5697,
-          "title": "What The Fuck Are The Rams Doing?",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2232737453.jpg"
         }
       ]
     },
@@ -4009,16 +4059,6 @@
           "wordCount": 4227,
           "title": "Don't call Trump’s Freedom 250 concert ‘Wouldstink.’ That’s mean.Rex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/01/USAT/90357319007-getty-images-2278656908.jpg?crop=1022,576,x0,y52&width=1022&height=576&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/01/ufc-white-house-bugs-dana-white/90347036007/-full",
-          "author": "Rex Huppke",
-          "description": "The upcoming White House UFC fight will feature some manly mixed-martial-arts men and man-o-sphere macho maniacs who, in a world of beta men, fear nothing. \nWell, almost nothing. Turns out they’re a little afraid of bugs.\nDana White, noted tough guy and head of the Ultimate Fighting Championship, recently said he’s concerned about the event, which falls on Trump’s June 14 birthday. (Maybe the president will have a bouncy house there as well!)\nWhite isn’t worried about strong men clobbering the snot out of each other in an octagonal cage. No, he said, a recent visit to the Rose Garden with the president showed him something truly scary: “He invited me to dinner there. The amount of gnats that are flying around, I'm like, 'Holy (expletive).' As soon as I got on the plane, I got on the phone …",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/01/ufc-white-house-bugs-dana-white/90347036007/",
-          "publishedOn": "2026-06-01T23:26:01.037Z",
-          "wordCount": 4345,
-          "title": "Could Trump's White House UFC fight get derailed by scary bugs?Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/26/USAT/90261787007-2270432351.jpg?crop=2576,1449,x857,y389&width=2576&height=1449&format=pjpg&auto=webp"
         }
       ]
     },
