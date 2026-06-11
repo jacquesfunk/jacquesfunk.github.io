@@ -500,6 +500,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/6g6dr55gt8g8f9lpsxeu.html",
+          "author": null,
+          "description": "A Seasoned Big Liar May Soon be Running Elections in Nevada#outlook a { padding:0; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0 !important; } .nl2go_preheader { display: none !important; mso-hide:all !important; mso-line-height-rule: exactly; visibility: hidden !important; line-height: 0px !important; font-size: 0px !important; } body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; } a img { border:none; } tab…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/6g6dr55gt8g8f9lpsxeu.html",
+          "publishedOn": "2026-06-11T18:07:04.647Z",
+          "wordCount": 3162,
+          "title": "A Seasoned Big Liar May Soon be Running Elections in Nevada",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/gn61ynztko46zcphsv1c.html",
           "author": null,
           "description": "96\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:620px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.row-2 .column-1 .block-1.text_block td.pad{padding:5px 20px 10px 20px!important}.row-5 .column-1 .bl…",
@@ -947,6 +957,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://blog.davep.org/2026/06/11/blogmore-el-v5-1-0.html",
+          "author": null,
+          "description": "A quick little update to\nblogmore.el to fix a couple of\nissues introduced by the new YAML-parsing approach to reading frontmatter;\nboth pretty much stemming from how falsy values are handled.\nSimply put, both boolean false values, and also empty values (something\nthat could commonly happen with tags and series) would end up showing up\nin the frontmatter as null. This release handles that situation.\nAlso, under the hood, I cleaned up some repeated boilerplate related to how\nthe cached dump calls to BlogMore took place.\nThe code for categories, tags and series data was almost exactly the same,\nsave for the actual name of the thing being dumped. So I turned it all into\na macro:\n(defmacro blogmore--cache-dump (dump-name)\n  \"Generate a function to get DUMP-NAME from BlogMore, with caching.\"\n  (let ((cache-name (intern (format \"blogmore--current-%s-cache\" dump-name)))\n        (getter-name (intern (format \"blogmore--current-%s\" dump-name))))\n    `(progn\n       (defvar ,cache-name nil\n         ,(format \"Cache for the list of %s from existing posts.\" dump-name))\n       (defun ,getter-name ()\n         ,(format \"Get a list of %s from existing posts.\" dump-name)\n         (or ,cache-name (setq ,cache-name (blogmore--list-of ,(symbol-name dump-name))))))))\n\n\n\nand now the defvar that creates the variable that holds the cache, and the\ndefun that creates the getter function for the data, are reduced to this\nfor all three collections of values:\n(blogmore--cache-dump categories)\n(blogmore--cache-dump tags)\n(blogmore--cache-dump series)\n\n\n\nSure, I probably could have done all of this in a single global, a central\ngetter function, and a hash\ntable,\nbut the macro approach feels so much more elegant, and more... lispy.",
+          "link": "https://blog.davep.org/2026/06/11/blogmore-el-v5-1-0.html",
+          "publishedOn": "2026-06-11T18:06:24.000Z",
+          "wordCount": 438,
+          "title": "Dave Pearson: blogmore.el v5.1.0",
+          "imageUrl": "https://blog.davep.org/icons/android-chrome-512x512.png"
+        },
+        {
           "id": "https://lars.ingebrigtsen.no/2026/06/11/web-scraping-is-getting-harder-all-the-time/",
           "author": null,
           "description": "And it’s understandable — things are getting worse and worse all the time, and anybody who is running a web site (that has interesting information) is under constant attack from badly programmed AI scrapers.\nBut where does that leave us li’l smol peeps who are just scrapin’ a li’l data for ourselves so that we don’t have to type as much?\nI’ve got two small use cases that have been torpedoed by this arms race lately — I use the imdb search to find the data on movies I’ve ripped from blu rays that I’ve bought.  And I use the Goodreads search when I’m entering (manually) e-books that I’ve bought into the Emacs package for that.  (Physical books have ISBNs printed in bar code form, so I can use various APIs for that and don’t need to resort to anything as tawdry as web scraping.)\nThese are just minor convenience things I’ve gotten used to over the years, so I could give them up…  or I could go raging, raging against the dying of the open web.\nGuess what I chose!\n\nThe result is on Microsoft Github.\nThe idea is:\nFirst try to fetch the URL using the normal, fast method.\n\nIf this fails, use Selenium headless.  This involves spinning up a web browser and then dumping the resulting DOM.\n\nIf this fails, spin up Selenium and a web browser window.  This will allow the user to click around a bit, answering any challenges.\n\nIn 2) and 3), fetch-dom will save and reuse cookies, so that\nSo this requires a Python/Selenium installation that works, and\nfetch-dom is synchronous by default, but is asynchronous if you give it the :callback keyword parameter.\nThis seems to work for my use cases — things usually work automatically, but once in a while it pops up a browser window, and I click a bit, and then things work headlessly for a while again.\n*sigh*\nThese are the days of your life…",
@@ -1354,16 +1374,6 @@
           "publishedOn": "2026-06-02T14:13:04.078Z",
           "wordCount": null,
           "title": "Raymond Zeitler: Change Emacs Cursor to Indicate Overwrite Mode",
-          "imageUrl": null
-        },
-        {
-          "id": "https://bicycleforyourmind.com/much_ado_about_emacs_013",
-          "author": null,
-          "description": "Emacs\nUpdate\nThings have slowed on the Emacs front. I am not tweaking the init file every day and trying to get things just right. It is a good state to be in. There are no pain-points in the use of Emacs which has been bugging me and after all this time, it is a relief. Don’t get me wrong. I love tweaking. I love discovering new packages and trying them out. That is fun for me. But the basic configuration is stable, I understand it, I am trying to incorporate it into my muscle memory and things are peaceful.\nThat doesn’t mean I haven’t discovered a few nice things from the last time I wrote one of these articles. Here we go.\nanddo.el\nI found A Super Simple Todo Package For Emacs – Random Thoughts. The GitHub repo is larsmagne/anddo.el: A very simple todo package for Emacs.\nThis is a simpl…",
-          "link": "https://bicycleforyourmind.com/much_ado_about_emacs_013",
-          "publishedOn": "2026-06-02T07:00:00.000Z",
-          "wordCount": null,
-          "title": "Bicycle for Your Mind: Much Ado About Emacs 013",
           "imageUrl": null
         }
       ]
@@ -2224,6 +2234,22 @@
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
         {
+          "id": "https://www.hopiumchronicles.com/p/fri-1pm-et-hopium-founding-members-ca9",
+          "author": "Simon Rosenberg",
+          "description": "We sure do have lots to talk about!",
+          "link": "https://www.hopiumchronicles.com/p/fri-1pm-et-hopium-founding-members-ca9",
+          "publishedOn": "2026-06-11T18:15:32.000Z",
+          "wordCount": null,
+          "title": "Fri, 1pm ET - Hopium Founding Members Most Fridays Get Together",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!0ynm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F196536ea-f8f6-4d19-9a0d-f175db275093_879x703.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!0ynm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F196536ea-f8f6-4d19-9a0d-f175db275093_879x703.png"
+        },
+        {
           "id": "https://www.hopiumchronicles.com/p/trump-desperate-men-do-desperate",
           "author": "Simon Rosenberg",
           "description": "Another gauge of inflation - PPI - came in really hot today.........",
@@ -2566,6 +2592,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=225602",
+          "author": "Giri Nathan",
+          "description": "The sounds coming out of me were causing the sleeping baby to stir, so I had to remove myself from the premises. But I had just seen the hand of god steal Game 4 in the greatest comeback in NBA Finals history, giving the New York Knicks a 3-1 series lead, and I was in a city full of fellow witnesses making similarly feral sounds.\nEarlier in the fourth quarter, while the San Antonio Spurs' lead over the Knicks hovered around 15, I laid catatonic on the sofa during a timeout; my wife was threatening to tell my friends that I had almost drifted asleep during my team's Finals run. At that juncture, I was mentally steeling myself for a tied series and trying to look at the bright spots in this loss: Jalen Brunson finally found some freedom, and the dual point guard lineups I'd clamored for allowed Jose Alvarado to shoulder some of the ball-handling. Soon enough I was on all fours, slapping the floor, laughing hysterically. There was movement on the baby monitor.\nCans from the fridge, then off into the howling night. I have been watching every game of this series in my own home, sober as OG Anunoby in a franchise-altering moment, too anxious to enter society. My broadcast stream Wednesday night had a tiny delay. Until I turned up the sound on my TV to mask it, the ambient roar of my city kept giving me a sneak preview of future elation—which is fun, like how people might read the Wikipedia entry for a horror movie they’re about to watch. Clawing out of a 29-point hole is basically a horror movie in reverse.",
+          "link": "https://defector.com/one-euphoric-night-in-the-city-of-og-anunoby",
+          "publishedOn": "2026-06-11T18:58:28.000Z",
+          "wordCount": 8333,
+          "title": "One Euphoric Night In The City Of OG Anunoby",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/night-of-og-anunoby-1-e1781200843451.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=225565",
+          "author": "David Roth",
+          "description": "There are many people who are capable of watching dramatic sporting events in crowded bars and enjoying themselves. You may be one of them, and you have almost certainly seen them out there erupting in celebration at big moments, or just chanting \"U-P-S\" at a UPS truck because they don't know what else to do with themselves. The NBA playoffs are great for these people, and the subset that have given themselves to the New York Knicks have been having a pretty incredible time of it as of late. But this is not the only type of fan that exists, and this week we welcomed a different type of fan onto the podcast—our resident Knicks diehard Giri Nathan, who has watched his lifelong fan dream come to the very edge of realization while sitting on the floor of his apartment, nursing a seltzer and trying not to wake up his baby with OG Anunoby-inspired ululations. The sickos matter, too.\nWe recorded the episode around midday on Wednesday, as is our custom, which means that the events of that evening's implausible Game 4 were not covered. In their place, we have an assessment of what the first three games illustrated about these two fascinating teams, and also of what the series has done to Giri's emotional state. There is a good deal of vibe assessment and basketball analysis, a retrospectively unavoidable amount of Robert Kraft voice, and a consideration of the oafish security theater that surrounded both Game 3's accursed presidential visit and, for reasons that have not been specified, also Game 4. But there's a lot of basketball talk, too, including Giri's prescient Jose Alvarado prophecy, a consideration of the specific officiating problems and broader officiating challenges of these NBA Finals, and how the game is struggling to keep up with the emerging foul-all-the-time-on-every-play exploit.",
+          "link": "https://defector.com/guttural-fan-noises-and-exceptional-risottos-with-giri-nathan",
+          "publishedOn": "2026-06-11T17:56:54.000Z",
+          "wordCount": 5570,
+          "title": "Guttural Fan Noises And Exceptional Risottos, With Giri Nathan",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2280587363.jpg"
+        },
         {
           "id": "https://defector.com/?p=225313",
           "author": "Sabrina Imbler",

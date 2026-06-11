@@ -2,10 +2,100 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-06-11T17:37:26.069Z</updated>
+    <updated>2026-06-11T20:20:21.794Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[One Euphoric Night In The City Of OG Anunoby]]></title>
+        <id>https://defector.com/?p=225602</id>
+        <link href="https://defector.com/one-euphoric-night-in-the-city-of-og-anunoby"/>
+        <updated>2026-06-11T18:58:28.000Z</updated>
+        <summary type="html"><![CDATA[The sounds coming out of me were causing the sleeping baby to stir, so I had to remove myself from the premises. But I had just seen the hand of god steal Game 4 in the greatest comeback in NBA Finals history, giving the New York Knicks a 3-1 series lead, and I was in a city full of fellow witnesses making similarly feral sounds.
+Earlier in the fourth quarter, while the San Antonio Spurs' lead over the Knicks hovered around 15, I laid catatonic on the sofa during a timeout; my wife was threatening to tell my friends that I had almost drifted asleep during my team's Finals run. At that juncture, I was mentally steeling myself for a tied series and trying to look at the bright spots in this loss: Jalen Brunson finally found some freedom, and the dual point guard lineups I'd clamored for allowed Jose Alvarado to shoulder some of the ball-handling. Soon enough I was on all fours, slapping the floor, laughing hysterically. There was movement on the baby monitor.
+Cans from the fridge, then off into the howling night. I have been watching every game of this series in my own home, sober as OG Anunoby in a franchise-altering moment, too anxious to enter society. My broadcast stream Wednesday night had a tiny delay. Until I turned up the sound on my TV to mask it, the ambient roar of my city kept giving me a sneak preview of future elation—which is fun, like how people might read the Wikipedia entry for a horror movie they’re about to watch. Clawing out of a 29-point hole is basically a horror movie in reverse.]]></summary>
+        <author>
+            <name>Giri Nathan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fri, 1pm ET - Hopium Founding Members Most Fridays Get Together]]></title>
+        <id>https://www.hopiumchronicles.com/p/fri-1pm-et-hopium-founding-members-ca9</id>
+        <link href="https://www.hopiumchronicles.com/p/fri-1pm-et-hopium-founding-members-ca9"/>
+        <updated>2026-06-11T18:15:32.000Z</updated>
+        <summary type="html"><![CDATA[We sure do have lots to talk about!]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Seasoned Big Liar May Soon be Running Elections in Nevada]]></title>
+        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/6g6dr55gt8g8f9lpsxeu.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/6g6dr55gt8g8f9lpsxeu.html"/>
+        <updated>2026-06-11T18:07:04.647Z</updated>
+        <summary type="html"><![CDATA[A Seasoned Big Liar May Soon be Running Elections in Nevada#outlook a { padding:0; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0 !important; } .nl2go_preheader { display: none !important; mso-hide:all !important; mso-line-height-rule: exactly; visibility: hidden !important; line-height: 0px !important; font-size: 0px !important; } body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; } a img { border:none; } tab…]]></summary>
+        <author>
+            <name>Current Events</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dave Pearson: blogmore.el v5.1.0]]></title>
+        <id>https://blog.davep.org/2026/06/11/blogmore-el-v5-1-0.html</id>
+        <link href="https://blog.davep.org/2026/06/11/blogmore-el-v5-1-0.html"/>
+        <updated>2026-06-11T18:06:24.000Z</updated>
+        <summary type="html"><![CDATA[A quick little update to
+blogmore.el to fix a couple of
+issues introduced by the new YAML-parsing approach to reading frontmatter;
+both pretty much stemming from how falsy values are handled.
+Simply put, both boolean false values, and also empty values (something
+that could commonly happen with tags and series) would end up showing up
+in the frontmatter as null. This release handles that situation.
+Also, under the hood, I cleaned up some repeated boilerplate related to how
+the cached dump calls to BlogMore took place.
+The code for categories, tags and series data was almost exactly the same,
+save for the actual name of the thing being dumped. So I turned it all into
+a macro:
+(defmacro blogmore--cache-dump (dump-name)
+  "Generate a function to get DUMP-NAME from BlogMore, with caching."
+  (let ((cache-name (intern (format "blogmore--current-%s-cache" dump-name)))
+        (getter-name (intern (format "blogmore--current-%s" dump-name))))
+    `(progn
+       (defvar ,cache-name nil
+         ,(format "Cache for the list of %s from existing posts." dump-name))
+       (defun ,getter-name ()
+         ,(format "Get a list of %s from existing posts." dump-name)
+         (or ,cache-name (setq ,cache-name (blogmore--list-of ,(symbol-name dump-name))))))))
+
+
+
+and now the defvar that creates the variable that holds the cache, and the
+defun that creates the getter function for the data, are reduced to this
+for all three collections of values:
+(blogmore--cache-dump categories)
+(blogmore--cache-dump tags)
+(blogmore--cache-dump series)
+
+
+
+Sure, I probably could have done all of this in a single global, a central
+getter function, and a hash
+table,
+but the macro approach feels so much more elegant, and more... lispy.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Guttural Fan Noises And Exceptional Risottos, With Giri Nathan]]></title>
+        <id>https://defector.com/?p=225565</id>
+        <link href="https://defector.com/guttural-fan-noises-and-exceptional-risottos-with-giri-nathan"/>
+        <updated>2026-06-11T17:56:54.000Z</updated>
+        <summary type="html"><![CDATA[There are many people who are capable of watching dramatic sporting events in crowded bars and enjoying themselves. You may be one of them, and you have almost certainly seen them out there erupting in celebration at big moments, or just chanting "U-P-S" at a UPS truck because they don't know what else to do with themselves. The NBA playoffs are great for these people, and the subset that have given themselves to the New York Knicks have been having a pretty incredible time of it as of late. But this is not the only type of fan that exists, and this week we welcomed a different type of fan onto the podcast—our resident Knicks diehard Giri Nathan, who has watched his lifelong fan dream come to the very edge of realization while sitting on the floor of his apartment, nursing a seltzer and trying not to wake up his baby with OG Anunoby-inspired ululations. The sickos matter, too.
+We recorded the episode around midday on Wednesday, as is our custom, which means that the events of that evening's implausible Game 4 were not covered. In their place, we have an assessment of what the first three games illustrated about these two fascinating teams, and also of what the series has done to Giri's emotional state. There is a good deal of vibe assessment and basketball analysis, a retrospectively unavoidable amount of Robert Kraft voice, and a consideration of the oafish security theater that surrounded both Game 3's accursed presidential visit and, for reasons that have not been specified, also Game 4. But there's a lot of basketball talk, too, including Giri's prescient Jose Alvarado prophecy, a consideration of the specific officiating problems and broader officiating challenges of these NBA Finals, and how the game is struggling to keep up with the emerging foul-all-the-time-on-every-play exploit.]]></summary>
+        <author>
+            <name>David Roth</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Kyle Isbel Diagnosed With Grade 3 Plantar Fascia Tear]]></title>
         <id>https://www.mlbtraderumors.com/?p=899049</id>
@@ -6370,22 +6460,6 @@ Let's go backward. There's a high-stakes wrestling war happening in Mexico, pitt
         <updated>2026-06-02T09:21:19.000Z</updated>
         <author>
             <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bicycle for Your Mind: Much Ado About Emacs 013]]></title>
-        <id>https://bicycleforyourmind.com/much_ado_about_emacs_013</id>
-        <link href="https://bicycleforyourmind.com/much_ado_about_emacs_013"/>
-        <updated>2026-06-02T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Emacs
-Update
-Things have slowed on the Emacs front. I am not tweaking the init file every day and trying to get things just right. It is a good state to be in. There are no pain-points in the use of Emacs which has been bugging me and after all this time, it is a relief. Don’t get me wrong. I love tweaking. I love discovering new packages and trying them out. That is fun for me. But the basic configuration is stable, I understand it, I am trying to incorporate it into my muscle memory and things are peaceful.
-That doesn’t mean I haven’t discovered a few nice things from the last time I wrote one of these articles. Here we go.
-anddo.el
-I found A Super Simple Todo Package For Emacs – Random Thoughts. The GitHub repo is larsmagne/anddo.el: A very simple todo package for Emacs.
-This is a simpl…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
