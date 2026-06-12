@@ -866,16 +866,6 @@
           "wordCount": 1448,
           "title": "Tina Peters is out of prison — and she definitely isn’t sorry",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/zdr8gamfff16fuphyhy4.html",
-          "author": null,
-          "description": "What we’re watching in California’s primaries\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n    \n      …",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/zdr8gamfff16fuphyhy4.html",
-          "publishedOn": "2026-06-02T22:03:55.970Z",
-          "wordCount": 1343,
-          "title": "What we’re watching in California’s primaries",
-          "imageUrl": null
         }
       ]
     },
@@ -884,6 +874,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://blog.davep.org/2026/06/12/blogmore-el-v5-2-0.html",
+          "author": null,
+          "description": "Another quick update to\nblogmore.el, again to fix an issue\nI've run into with the new frontmatter-handling code. This time it's to\naddress an actual crash that could happen if a property was available but\nempty. For example, if a post had frontmatter that looked like this:\ntitle: \"blogmore.el v5.2.0\"\ndate: \"2026-06-12 08:31:15+0100\"\ncategory: Emacs\ntags:\n\n\n\nAnd I then went to use blogmore-add-tag, I'd get a crash saying:\nWrong type argument: sequencep, :null\n\n\n\nThe reason being that tags was being parsed with a value of :null,\nrather than (as before) having a value of nil (which of course meant I had\na nice empty list to do things with). It was an easy enough fix.\nAt this point I think I've managed to shake out any serious issues with the\nproper YAML-parsing approach to frontmatter, as I've used it to write a\nhandful of posts now.",
+          "link": "https://blog.davep.org/2026/06/12/blogmore-el-v5-2-0.html",
+          "publishedOn": "2026-06-12T07:31:15.000Z",
+          "wordCount": 352,
+          "title": "Dave Pearson: blogmore.el v5.2.0",
+          "imageUrl": "https://blog.davep.org/icons/android-chrome-512x512.png"
+        },
         {
           "id": "https://blog.davep.org/2026/06/11/blogmore-el-v5-1-0.html",
           "author": null,
@@ -1263,16 +1263,6 @@
           "wordCount": 4354,
           "title": "Charlie Holland: Beyond ICR: Incremental 'Suggesting' Read in Emacs",
           "imageUrl": null
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/06/change-emacs-cursor-to-indicate.html",
-          "author": null,
-          "description": "The text editor I'd used for 20 years on an MS-DOS platform would\nchange the shape of the cursor to distinguish between insert mode and\noverwrite mode. A filled rectangle (or box, in Emacs terms) indicated\noverwrite mode; an underscore (hbar), insert mode.  It's a nice way to\nmake overwrite mode obvious.\nThe video starts out with Emacs in Insert Mode.  Then Overwrite\nMode is activated, which changes cursor-type from hbar to box.  The\nword \"Overwrite\" replaces \"Insert\" to demonstrate the effect.\n\n\nIncidentally, you might enjoy listening to some sound while playing\nback the video.  One of my favorites is \"Forest\nVoice\" from https://mynoise.net,\nby Dr. Stéphane Pigeon.\nAnyway, here's a function to implement that behavior in Emacs:\n(defun zeit-change-cursor-shape ()\n  \"Set cursor shape depending on overwrite mode.\nWhen overwrite-mode is nil (off), set cursor-type to hbar.\nOtherwise, set it to box.\"\n  (interactive)\n  (if (not overwrite-mode)\n      (setq cursor-type 'hbar)\n    (setq cursor-type 'box)))\n\n(add-hook 'overwrite-mode-hook 'zeit-change-cursor-shape)\n\n\n\n2026-06-02 Add add-hook  as suggested by @Howitzer105mm@pdx.social\n2026-06-02 Move hook outside function",
-          "link": "https://ray-on-emacs.blogspot.com/2026/06/change-emacs-cursor-to-indicate.html",
-          "publishedOn": "2026-06-02T23:00:38.304Z",
-          "wordCount": 2778,
-          "title": "Raymond Zeitler: Change Emacs Cursor to Indicate Overwrite Mode",
-          "imageUrl": null
         }
       ]
     },
@@ -1281,6 +1271,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160420",
+          "author": "David Pinto",
+          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.312, 0.695 — Andrew Vaughn batting vs. Andrew Painter. 0.309, 0.699 — Jackson Chourio batting vs. Andrew Painter. 0.295, 0.679 — Christian Yelich batting vs. Andrew Painter. 0.295, 0.674 — William Contreras batting vs. Andrew Painter. 0.294, 0.696 — Nick Gonzales batting vs. […]",
+          "link": "https://www.baseballmusings.com/?p=160420",
+          "publishedOn": "2026-06-12T10:17:49.000Z",
+          "wordCount": 7935,
+          "title": "Beat the Streak Picks",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160418",
           "author": "David Pinto",
@@ -1809,16 +1809,6 @@
           "publishedOn": "2026-06-03T09:13:03.000Z",
           "wordCount": null,
           "title": "Wednesday Update",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160307",
-          "author": "David Pinto",
-          "description": "Matt Vierling of the Tigers owns a double and a triple through five innings. That’s the tough part of the cycle as Detroit plays at the Rays with a 5-0 lead. Vierling doesn’t have much home run power, so that might be the tough hit for him tonight. the Tigers offense appears to be coming […]",
-          "link": "https://www.baseballmusings.com/?p=160307",
-          "publishedOn": "2026-06-03T00:16:07.000Z",
-          "wordCount": null,
-          "title": "Early Cycle Watch",
           "imageUrl": null
         }
       ]
@@ -3172,6 +3162,26 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/5gbdmk9rc1osgonb6vjh.html",
+          "author": null,
+          "description": "96\n        Wacha Way: The dynamic duo saves the day...and the bullpen\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    li…",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/5gbdmk9rc1osgonb6vjh.html",
+          "publishedOn": "2026-06-12T12:20:27.978Z",
+          "wordCount": 3141,
+          "title": "Wacha Way: The dynamic duo saves the day...and the bullpen",
+          "imageUrl": null
+        },
+        {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/39s1kobl3afabvum1plh.html",
+          "author": null,
+          "description": "Are These Knicks Fans For Real?96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-decoration: inherit !important; font-size: inherit !impo…",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/39s1kobl3afabvum1plh.html",
+          "publishedOn": "2026-06-12T10:22:34.130Z",
+          "wordCount": 3396,
+          "title": "Are These Knicks Fans For Real?",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/srg8uixdsjzadwmmkpju.html",
           "author": null,
           "description": "World Cup Preview96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-decoration: inherit !important; font-size: inherit !important; font-fa…",
@@ -3448,6 +3458,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/salon-amanda-marcotte.xml",
       "siteUrl": "https://www.salon.com/writer/amanda_marcotte",
       "articles": [
+        {
+          "id": "https://www.salon.com/2026/06/12/tpusas-new-message-to-girls-hate-yourself/-full",
+          "author": null,
+          "description": "Turning Point USA was co-founded by Charlie Kirk and its fundraising apparatus since his death has centered around fading MAGA fantasies that he will be a movement-reviving martyr. So it was a little surprising that one of the speakers at TPUSA’s Women’s Leadership Summit in San Antonio, Texas, Alex Clark, spoke about how Kirk made her feel bad about herself. Speaking last weekend to a crowd of largely high school and college-aged attendees, the host TPUSA’s “Culture Apothecary” remembered the cruelty of Kirk’s talk at last year’s summit, in which he shamed women who aren’t married by 30, suggesting they are old maids who likely would never find a husband.\n“I was sitting in the audience and it stung a little bit,” Clark, 33, confessed. “I was sitting there as a woman in her 30s who very mu…",
+          "link": "https://www.salon.com/2026/06/12/tpusas-new-message-to-girls-hate-yourself/",
+          "publishedOn": "2026-06-12T10:45:15.000Z",
+          "wordCount": 1947,
+          "title": "TPUSA’s new message to girls: Hate yourself",
+          "imageUrl": "https://www.salon.com/app/uploads/2026/06/alex-clark-GettyImages-2220158875.jpg"
+        },
         {
           "id": "https://www.salon.com/2026/06/10/pete-hegseths-mormon-diss-explodes-a-maga-myth/-full",
           "author": null,
@@ -4044,16 +4064,6 @@
           "wordCount": 4300,
           "title": "I'm as qualified to be director of national intelligence as Bill PulteRex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2025/11/09/USAT/87182998007-2202323696.jpg?crop=8191,4609,x0,y427&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/02/freedom-250-music-milli-vanilli-trump/90359130007/-full",
-          "author": "Rex Huppke",
-          "description": "When the musical lineup for President Donald Trump’s Freedom 250 celebration was announced, I was fired up.\nThe list of performers for what’s billed as “The Great American State Fair,” a 16-day event on the National Mall starting June 25, included: Milli Vanilli, Young MC, C+C Music Factory, Morris Day and The Time, and Poison lead singer Bret Michaels.\nBecause I love Trump and America, and because my brain rejects information that runs contrary to my ideological beliefs, I considered that lineup a victory for conservatives and proof that we are culturally relevant.\nRude liberals keep attacking the Freedom 250 music lineup\n\nBut the lefties out there were quick to suggest Milli Vanilli and company would make a perfect lineup for an off-night county fair B-stage. Nasty comedian John Oliver, …",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/02/freedom-250-music-milli-vanilli-trump/90359130007/",
-          "publishedOn": "2026-06-02T18:08:42.991Z",
-          "wordCount": 4227,
-          "title": "Don't call Trump’s Freedom 250 concert ‘Wouldstink.’ That’s mean.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/01/USAT/90357319007-getty-images-2278656908.jpg?crop=1022,576,x0,y52&width=1022&height=576&format=pjpg&auto=webp"
         }
       ]
     },
@@ -4210,16 +4220,6 @@
           "publishedOn": "2026-06-03T03:58:01.649Z",
           "wordCount": 177,
           "title": "A Gen X review of Gen Z phenomenon 'Backrooms'",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/sf-culture/article/stephen-colbert-final-show-22266912.php-full",
-          "author": null,
-          "description": "I met Stephen Colbert a quarter century ago. He was a correspondent for Jon Stewart’s “Daily Show” at the time, I was a junior copywriter at a New York ad agency. We were testing out a radio ad campaign for one of our biggest clients, and our producer scored Colbert to be the voice-over for some of the test spots. Colbert came into the studio for two straight days — being paid at scale, which is basically the established minimum wage for members of the Screen Actors Guild — and blew the goddamn doors off the place. \n\nHe did as many takes as we needed from him. He ad-libbed off the script I’d written, inventing a shady friend of his named Spider whom he knew would just love getting AT&T Wireless’ friends and family plan for only $19.99 a month. He was as brilliant that day as he’d been on n…",
-          "link": "https://www.sfgate.com/sf-culture/article/stephen-colbert-final-show-22266912.php",
-          "publishedOn": "2026-06-02T18:08:03.309Z",
-          "wordCount": 177,
-          "title": "Stephen Colbert's brilliant, bittersweet finale",
           "imageUrl": null
         }
       ]
