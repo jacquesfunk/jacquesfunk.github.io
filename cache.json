@@ -211,16 +211,6 @@
           "wordCount": 2138,
           "title": "Royals Select Josh Rojas",
           "imageUrl": "https://cdn.mlbtraderumors.com/files/2026/06/josh-rojas-infielder-1024x636.jpg"
-        },
-        {
-          "id": "https://www.mlbtraderumors.com/?p=897961",
-          "author": "Darragh McDonald",
-          "description": "The Royals have claimed outfielder Matthew Lugo off waivers from the Angels, according to announcements from both clubs. The Halos had designated him for assignment last week. The Royals have optioned him to Triple-A Omaha. Additionally, the Royals announced that they have selected the contract of right-hander Beck Way and optioned right-hander Eli Morgan. Kansas […]",
-          "link": "https://www.mlbtraderumors.com/2026/06/royals-claim-matthew-lugo-select-beck-way.html",
-          "publishedOn": "2026-06-02T20:05:41.000Z",
-          "wordCount": 2939,
-          "title": "Royals Claim Matthew Lugo, Select Beck Way",
-          "imageUrl": "https://cdn.mlbtraderumors.com/files/2026/05/Matthew_Lugo_Angels-1024x683.jpg"
         }
       ]
     },
@@ -886,16 +876,6 @@
           "wordCount": 1343,
           "title": "What we’re watching in California’s primaries",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/oaotpbktq5dty0mqndip.html",
-          "author": null,
-          "description": "96\n\n\n\n\n\n\nWe’re willing to cut through the noise.\n\n\nimg{-ms-interpolation-mode:bicubic;}\ntable, td{mso-table-lspace:0pt;mso-table-rspace:0pt;}\n.mceStandardButton, .mceStandardButton td, .mceStandardButton td a{mso-hide:all!important;}\np, a, li, td, blockquote{mso-line-height-rule:exactly;}\np, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}\n.mcnPreviewText{display:none!important;}\n.bodyCell{margin:0 auto;padding:0;width:100%;}\n.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;}\n.ReadMsgBody, .ExternalClass{width:100%;}\na[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inherit!important;font-weight:…",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/oaotpbktq5dty0mqndip.html",
-          "publishedOn": "2026-06-02T16:22:35.271Z",
-          "wordCount": 1510,
-          "title": "We’re willing to cut through the noise.",
-          "imageUrl": null
         }
       ]
     },
@@ -1285,23 +1265,13 @@
           "imageUrl": null
         },
         {
-          "id": "https://list.orgmode.org/87ldcwzpmj.fsf@gmail.com",
+          "id": "https://ray-on-emacs.blogspot.com/2026/06/change-emacs-cursor-to-indicate.html",
           "author": null,
-          "description": "[request] flags:--- replies:0 topic:org-colview",
-          "link": "https://list.orgmode.org/87ldcwzpmj.fsf@gmail.com",
-          "publishedOn": "2026-06-02T19:52:36.000Z",
-          "wordCount": 457,
-          "title": "Org Mode requests: [RFC] org-colview: Remove hard-coded summary depth limit",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curtismchale.ca/2026/06/02/i-like-this-tweak-to-org-mode-deadlines",
-          "author": null,
-          "description": "This is an excellent little tweak to org-mode deadlines. I added it and it makes them look just a bit nicer.",
-          "link": "https://curtismchale.ca/2026/06/02/i-like-this-tweak-to-org-mode-deadlines",
-          "publishedOn": "2026-06-02T16:30:00.000Z",
-          "wordCount": 87,
-          "title": "Curtis McHale: I like this tweak to org-mode deadlines",
+          "description": "The text editor I'd used for 20 years on an MS-DOS platform would\nchange the shape of the cursor to distinguish between insert mode and\noverwrite mode. A filled rectangle (or box, in Emacs terms) indicated\noverwrite mode; an underscore (hbar), insert mode.  It's a nice way to\nmake overwrite mode obvious.\nThe video starts out with Emacs in Insert Mode.  Then Overwrite\nMode is activated, which changes cursor-type from hbar to box.  The\nword \"Overwrite\" replaces \"Insert\" to demonstrate the effect.\n\n\nIncidentally, you might enjoy listening to some sound while playing\nback the video.  One of my favorites is \"Forest\nVoice\" from https://mynoise.net,\nby Dr. Stéphane Pigeon.\nAnyway, here's a function to implement that behavior in Emacs:\n(defun zeit-change-cursor-shape ()\n  \"Set cursor shape depending on overwrite mode.\nWhen overwrite-mode is nil (off), set cursor-type to hbar.\nOtherwise, set it to box.\"\n  (interactive)\n  (if (not overwrite-mode)\n      (setq cursor-type 'hbar)\n    (setq cursor-type 'box)))\n\n(add-hook 'overwrite-mode-hook 'zeit-change-cursor-shape)\n\n\n\n2026-06-02 Add add-hook  as suggested by @Howitzer105mm@pdx.social\n2026-06-02 Move hook outside function",
+          "link": "https://ray-on-emacs.blogspot.com/2026/06/change-emacs-cursor-to-indicate.html",
+          "publishedOn": "2026-06-02T23:00:38.304Z",
+          "wordCount": 2778,
+          "title": "Raymond Zeitler: Change Emacs Cursor to Indicate Overwrite Mode",
           "imageUrl": null
         }
       ]
@@ -1907,16 +1877,6 @@
           "wordCount": 1615,
           "title": "The Proposed Trump NDA Is Following John Roberts’s Bad Example",
           "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2025/01/GettyImages-2194365178-1200x630.jpg"
-        },
-        {
-          "id": "https://ballsandstrikes.org/?p=18328",
-          "author": "Patrick McNeil",
-          "description": "Many of the president’s second-term nominees share his commitment to resegregating institutions across the federal government.\nThe post Katie Lane Confirmed: How Trump Is Making the Federal Judiciary <span class=\"dewidow\">White Again</span> appeared first on Balls and Strikes.",
-          "link": "https://ballsandstrikes.org/nominations/katie-lane-confirmed-trump-judges/",
-          "publishedOn": "2026-06-02T19:06:38.000Z",
-          "wordCount": 1886,
-          "title": "Katie Lane Confirmed: How Trump Is Making the Federal Judiciary White Again",
-          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2026/06/Screenshot-2026-06-02-at-9.24.02-AM-1200x630.png"
         }
       ]
     },
@@ -2123,22 +2083,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!S8Vl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faadb9c44-dd6d-4861-a73d-ae0755051e19_1142x620.png"
-        },
-        {
-          "id": "https://www.lawdork.com/p/trump-and-hegseths-anti-trans-military",
-          "author": "Chris Geidner",
-          "description": "The court's split ruling would protect current trans service members from discharge but allow the Trump admin to keep new trans recruits from joining the military during litigation.",
-          "link": "https://www.lawdork.com/p/trump-and-hegseths-anti-trans-military",
-          "publishedOn": "2026-06-02T19:06:49.000Z",
-          "wordCount": null,
-          "title": "Trump and Hegseth's anti-trans military policy is based on unconstitutional animus, D.C. Circuit rules",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!4RD6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda2cb165-193b-45b2-aa4a-e4e717b8e450_1224x810.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!4RD6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda2cb165-193b-45b2-aa4a-e4e717b8e450_1224x810.png"
         }
       ]
     },
@@ -2482,22 +2426,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!lXSm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e701049-12c6-46f9-b045-139b1234387d_642x588.png"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/meet-bob-harvie-our-experienced-proven",
-          "author": "Simon Rosenberg",
-          "description": "PA-01 is one of four great opportunities we have to flip House seats in Pennsylvania this year",
-          "link": "https://www.hopiumchronicles.com/p/meet-bob-harvie-our-experienced-proven",
-          "publishedOn": "2026-06-02T18:16:02.000Z",
-          "wordCount": null,
-          "title": "Meet Bob Harvie, Our Experienced, Proven Vote-Getter Fighting To Flip PA-01 Blue",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://api.substack.com/feed/podcast/199764561/4665d029c4c1e0ea7284ebf60fabab5a.mp3",
-            "length": "0",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
@@ -3235,56 +3163,6 @@
           "wordCount": 6070,
           "title": "Vegas Squeezed The Canes And Got The Juice",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2279528017.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=224489",
-          "author": "Drew Magary",
-          "description": "Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGATE, and buy Drew’s books while you’re at it. Today, we're talking gambling, World Cup loyalties, griddles, window seat etiquette, and more.\nYour letters:\nCapn Po:",
-          "link": "https://defector.com/there-are-more-brendan-sorsbys-to-come",
-          "publishedOn": "2026-06-02T18:36:11.000Z",
-          "wordCount": 14752,
-          "title": "There Are More Brendan Sorsbys To Come",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2249255036.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=224468",
-          "author": "Patrick Redford",
-          "description": "By racing the Giro d'Italia, Jonas Vingegaard chose to court the most pressure possible. Not only would he face the unrelenting scrutiny of being the sole favorite for the race, whatever he did would be judged against his archrival Tadej Pogacar's authoritative 2024 Giro. If any of the other challengers for the Giro ever got a wheel past him at any point, he'd face serious questions about whether trying the Giro–Tour de France double represented a brush with hubris. Even if he bested them, if he did not also banish the ghost of Pogacar in the process, he'd have offered further evidence to skeptics that beating Pogacar this summer in France and beyond was outside of his abilities.\nIt's worth remembering this pressure, because it seems like such a distant worry after the nearly perfect Giro …",
-          "link": "https://defector.com/jonas-vingegaard-rides-free",
-          "publishedOn": "2026-06-02T17:05:54.000Z",
-          "wordCount": 6781,
-          "title": "Jonas Vingegaard Rides Free",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2278513406.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=223721",
-          "author": "Luis Paez-Pumar",
-          "description": "It's almost time for the World Cup. Before the tournament, we'll be previewing each of the top 15 teams by FIFA rankings that made the tournament. Why the top 15? Because that's how many we needed to do in order for the USMNT to make the cut. You can read all of our previews here.\nColombia comes into the 2026 World Cup as one of the hungriest teams in the field. After missing the 2022 edition of the tournament, Los Cafeteros are back, having breezed through the hardest qualifying test in the entire world: CONMEBOL’s grinding 18-match crucible, which Colombia finished in third place, eight points safe of the intercontinental playoff spot. Along the way, Colombia beat both Argentina and Brazil at home, the first time it had toppled the latter in World Cup qualifying history, and also added a runner-up finish at the 2024 Copa América, taking Argentina deep into extra time before losing to a 112th minute winner. In other words, despite the disappointment of the last World Cup cycle, this is an experienced and battle-tested side, one coming into the 2026 tournament with plenty of talent in a starting XI that can compete with anyone.",
-          "link": "https://defector.com/colombias-almost-too-old-for-this-shit",
-          "publishedOn": "2026-06-02T16:45:16.000Z",
-          "wordCount": 7860,
-          "title": "Colombia’s Almost Too Old For This Shit",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/05/GettyImages-2268469143.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=224384",
-          "author": "Patrick Redford",
-          "description": "The great Hanif Abdurraqib joined us this week on Nothing But Respect. You are probably familiar with Abdurraqib's work as a poet, author, journalist, and subject of a Giri Nathan profile, which was timed to the release of Abdurraqib's 2024 book, There's Always This Year: On Basketball and Ascension.\nWe talked a bit about the book, a good amount about his beloved Minnesota Timberwolves, and a lot about the forthcoming NBA Finals between the Knicks and Spurs. I also asked Abdurraqib to give us his own scouting report, which he generously provided. This was a fun one!\n\nhttps://art19.com/shows/nothing-but-respect/episodes/3f32c963-2f70-4be5-9a6d-fa95bcb693ce",
-          "link": "https://defector.com/one-must-imagine-sisyphus-dunking-with-hanif-abdurraqib",
-          "publishedOn": "2026-06-02T16:18:41.000Z",
-          "wordCount": 4091,
-          "title": "One Must Imagine Sisyphus Dunking, With Hanif Abdurraqib",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2275907684.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=224508",
-          "author": "Ray Ratto",
-          "description": "Hoopheads across the nation begin their annual vigil Wednesday in anticipation of receiving the thing they most crave in all the world—a new team to admire, love, fear, and hate simultaneously. And you can't really blame them for their baffled antipathies. Their favorite sport is both defined and repelled by dynastic teams and the silly little debates they shape, which are always on the menu as a kind of bland and ubiquitous comfort food, the sort of tastes-the-same-everywhere sludge you can eat and regret along any of the nation's highways. And these fans are starving for it; they haven't had that level of reliability in this sport in nearly a decade now.\nBut they live in hope, and dread, that a new dynasty is upon us, this one governed by Wemby The First (and so far Only) and sure to run…",
-          "link": "https://defector.com/theres-no-such-thing-as-an-inevitable-team-in-the-nba",
-          "publishedOn": "2026-06-02T16:01:07.000Z",
-          "wordCount": 7589,
-          "title": "There’s No Such Thing As An Inevitable Team In The NBA",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2278989070.jpg"
         }
       ]
     },
@@ -3538,16 +3416,6 @@
           "publishedOn": "2026-06-08T20:00:50.005Z",
           "wordCount": 2254,
           "title": "Important Good Internet announcement",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/9hhf5cmj4ae7sr9fz5h8.html",
-          "author": null,
-          "description": "Polars 1.41, Email, Great Docs, and More\n      body,#bodyTable,#bodyCell{\n      height:100% !important;\n      margin:0;\n      padding:0;\n      width:100% !important;\n      }\n      table{\n      border-collapse:collapse;\n      }\n      img,a img{\n      border:0;\n      outline:none;\n      text-decoration:none;\n      }\n      h1,h2,h3,h4,h5,h6{\n      margin:0;\n      padding:0;\n      }\n      p{\n      margin:1em 0;\n      padding:0;\n      }\n      a{\n      word-wrap:break-word;\n      }\n      .mcnPreviewText{\n      display:none !important;\n      }\n      .ReadMsgBody{\n      width:100%;\n      }\n      .ExternalClass{\n      width:100%;\n      }\n      .ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{\n      line-height:100%;\n      }\n      table,td{…",
-          "link": "https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/9hhf5cmj4ae7sr9fz5h8.html",
-          "publishedOn": "2026-06-02T20:06:08.322Z",
-          "wordCount": 1416,
-          "title": "Polars 1.41, Email, Great Docs, and More",
           "imageUrl": null
         }
       ]
