@@ -917,6 +917,16 @@
           "imageUrl": "https://blog.davep.org/attachments/2026/06/13/darker-emacs.webp"
         },
         {
+          "id": "https://protesilaos.com/codelog/2026-06-13-emacs-flat-dired-for-regexp-since-days/",
+          "author": null,
+          "description": "When we call dired from Lisp, we can pass it a list of files instead\nof a directory. This gives us a fully fledged Dired buffer for those\nfiles. My most common use-case is to produce flat listing, so that I\ndo not have to go searching in exactly which directory some file is\n(e.g. in the Downloads folder there is some zip archive that I\ndownloaded with a bunch of files in a complex structure).\nA flat Dired listing\nFor a while now I have been using my own command to create a Dired\nbuffer from the current directory (which can always be updated on\ndemand with M-x cd). It is prot-dired-search-flat-list. Here is\nthe code:\n\n(defvar prot-dired-regexp-history nil\n  \"Minibuffer history of `prot-dired-regexp-prompt'.\")\n\n(defun prot-dired-regexp-prompt ()\n  (let ((default (car prot-dired-regexp-histor…",
+          "link": "https://protesilaos.com/codelog/2026-06-13-emacs-flat-dired-for-regexp-since-days/",
+          "publishedOn": "2026-06-13T00:00:00.000Z",
+          "wordCount": 662,
+          "title": "Protesilaos: Emacs: flat Dired listing for REGEXP, optionally up to DAYS since last modification",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
+        {
           "id": "https://blog.davep.org/2026/06/12/simplifying-my-mode-line.html",
           "author": null,
           "description": "Every so often I get the urge to change how Emacs looks. Ever since I\nfinally fell to the dark\nside, my Emacs\nhas stayed looking pretty much the same. I like how it looks, but I do keep\nhaving this urge to find a darker theme, and to also make things just a wee\nbit more minimal.\nAt one point I was very much about, and in favour of, having as much\ninformation as possible in the mode\nline.\nEventually I realised I didn't use that much and tried to declutter\nsomewhat, mostly cleaning up minor mode information with\ndiminish.\nEven then though, I had this feeling that there was still more information\nin the mode line than I really needed.\nSo, just now, as an experiment, I've decided to start fairly clean. I've\ndropped powerline and instead\ndecided to have a play with\nmood-line. Rather than use on…",

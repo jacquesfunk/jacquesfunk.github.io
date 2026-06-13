@@ -665,6 +665,166 @@ Pulte pushed the Justice Department to launch mortgage-fraud invest…</span>
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Emacslife</button>
+                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://protesilaos.com/codelog/2026-06-13-emacs-flat-dired-for-regexp-since-days/"
+                        open
+                      >
+                        <summary class="article-expander__title">Protesilaos: Emacs: flat Dired listing for REGEXP, optionally up to DAYS since last modification</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://protesilaos.com/codelog/2026-06-13-emacs-flat-dired-for-regexp-since-days/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://protesilaos.com/assets/images/brand/protesilaos-logo.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>When we call dired from Lisp, we can pass it a list of files instead
+of a directory. This gives us a fully fledged Dired buffer for those
+files. My most common use-case is to produce flat listing, so that I
+do not have to go searching in exactly which directory some file is
+(e.g. in the Downloads folder there is some zip archive that I
+downloaded with a bunch of files in a complex structure).
+A flat Dired listing
+For a while now I have been using my own command to create a Dired
+buffer from the current directory (which can always be updated on
+demand with M-x cd). It is prot-dired-search-flat-list. Here is
+the code:
+
+(defvar prot-dired-regexp-history nil
+  &quot;Minibuffer history of &#x60;prot-dired-regexp-prompt&#x27;.&quot;)
+
+(defun prot-dired-regexp-prompt ()
+  (let ((default (car prot-dired-regexp-histor…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.davep.org/2026/06/12/simplifying-my-mode-line.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Dave Pearson: Simplifying my mode line</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.davep.org/2026/06/12/simplifying-my-mode-line.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.davep.org/attachments/2026/06/12/mood-line-emacs.webp" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Every so often I get the urge to change how Emacs looks. Ever since I
+finally fell to the dark
+side, my Emacs
+has stayed looking pretty much the same. I like how it looks, but I do keep
+having this urge to find a darker theme, and to also make things just a wee
+bit more minimal.
+At one point I was very much about, and in favour of, having as much
+information as possible in the mode
+line.
+Eventually I realised I didn&#x27;t use that much and tried to declutter
+somewhat, mostly cleaning up minor mode information with
+diminish.
+Even then though, I had this feeling that there was still more information
+in the mode line than I really needed.
+So, just now, as an experiment, I&#x27;ve decided to start fairly clean. I&#x27;ve
+dropped powerline and instead
+decided to have a play with
+mood-line. Rather than use on…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13871"
+                        open
+                      >
+                        <summary class="article-expander__title">Irreal: AsciiDoc In Emacs</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13871">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>announcing a couple of new Emacs modes for AsciiDoc. In the usual Batsov way, he’s significantly improved the support for AsciiDoc in Emacs. He loves AsciiDoc but found it hard to use in Emacs because the support was so bad.
+
+
+I’ve never used AsciiDoc so I don’t know why Batsov prefers it to Org mode. Org mode can be and has been used to produce first class technical documentation. If needed, it can bring to bear all the power of LaTeX to produce a polished product.
+
+
+As far as I can see, the only reason not to use Org mode is because you’re not an Emacs user or are collaborating on a document with someone who isn’t. It offers everything you’re apt to need short of bringing in a heavyweight dedicated document preparation system. I’m sure Irreal readers not as ignorant as I about the situation can tell us why we should prefer AsciiDoc. Our lines are open.
+
+
+If you are an AsciiDoc user, Batsov’s two new modes are sure to be a blessing. The update to adoc-mode is designed to work with all versions of Emacs and updates the regex-based font-locking to the current AsciiDoc grammar. It’s perfect for an AsciiDoc user who’s running an older version of Emacs. Asciidoc-mode is the more modern solution using tree-sitter to handle things like font-locking but it only runs on Emacs 30.1+.
+
+
+Take a look at Batsov’s post for the details on the two modes. And if you know why an Org mode user should care, leave a comment.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.davep.org/2026/06/12/blogmore-el-v5-2-0.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Dave Pearson: blogmore.el v5.2.0</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.davep.org/2026/06/12/blogmore-el-v5-2-0.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.davep.org/icons/android-chrome-512x512.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Another quick update to
+blogmore.el, again to fix an issue
+I&#x27;ve run into with the new frontmatter-handling code. This time it&#x27;s to
+address an actual crash that could happen if a property was available but
+empty. For example, if a post had frontmatter that looked like this:
+title: &quot;blogmore.el v5.2.0&quot;
+date: &quot;2026-06-12 08:31:15+0100&quot;
+category: Emacs
+tags:
+
+
+
+And I then went to use blogmore-add-tag, I&#x27;d get a crash saying:
+Wrong type argument: sequencep, :null
+
+
+
+The reason being that tags was being parsed with a value of :null,
+rather than (as before) having a value of nil (which of course meant I had
+a nice empty list to do things with). It was an easy enough fix.
+At this point I think I&#x27;ve managed to shake out any serious issues with the
+proper YAML-parsing approach to frontmatter, as I&#x27;ve used it to write a
+handful of posts now.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Current Events</button>
                   <a class="source-heading__link" href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml">Open</a>
                 </h3>
@@ -1004,130 +1164,6 @@ He did as many takes as we needed from him. He ad-libbed off the script I’d wr
   a[x-apple-data-detectors&#x3D;true],
   #MessageViewBody a { color: inherit !important; text-decoration: inherit !important; font-size: inherit !impo…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Emacslife</button>
-                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.davep.org/2026/06/12/simplifying-my-mode-line.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Dave Pearson: Simplifying my mode line</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.davep.org/2026/06/12/simplifying-my-mode-line.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.davep.org/attachments/2026/06/12/mood-line-emacs.webp" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Every so often I get the urge to change how Emacs looks. Ever since I
-finally fell to the dark
-side, my Emacs
-has stayed looking pretty much the same. I like how it looks, but I do keep
-having this urge to find a darker theme, and to also make things just a wee
-bit more minimal.
-At one point I was very much about, and in favour of, having as much
-information as possible in the mode
-line.
-Eventually I realised I didn&#x27;t use that much and tried to declutter
-somewhat, mostly cleaning up minor mode information with
-diminish.
-Even then though, I had this feeling that there was still more information
-in the mode line than I really needed.
-So, just now, as an experiment, I&#x27;ve decided to start fairly clean. I&#x27;ve
-dropped powerline and instead
-decided to have a play with
-mood-line. Rather than use on…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13871"
-                        open
-                      >
-                        <summary class="article-expander__title">Irreal: AsciiDoc In Emacs</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13871">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>announcing a couple of new Emacs modes for AsciiDoc. In the usual Batsov way, he’s significantly improved the support for AsciiDoc in Emacs. He loves AsciiDoc but found it hard to use in Emacs because the support was so bad.
-
-
-I’ve never used AsciiDoc so I don’t know why Batsov prefers it to Org mode. Org mode can be and has been used to produce first class technical documentation. If needed, it can bring to bear all the power of LaTeX to produce a polished product.
-
-
-As far as I can see, the only reason not to use Org mode is because you’re not an Emacs user or are collaborating on a document with someone who isn’t. It offers everything you’re apt to need short of bringing in a heavyweight dedicated document preparation system. I’m sure Irreal readers not as ignorant as I about the situation can tell us why we should prefer AsciiDoc. Our lines are open.
-
-
-If you are an AsciiDoc user, Batsov’s two new modes are sure to be a blessing. The update to adoc-mode is designed to work with all versions of Emacs and updates the regex-based font-locking to the current AsciiDoc grammar. It’s perfect for an AsciiDoc user who’s running an older version of Emacs. Asciidoc-mode is the more modern solution using tree-sitter to handle things like font-locking but it only runs on Emacs 30.1+.
-
-
-Take a look at Batsov’s post for the details on the two modes. And if you know why an Org mode user should care, leave a comment.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.davep.org/2026/06/12/blogmore-el-v5-2-0.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Dave Pearson: blogmore.el v5.2.0</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.davep.org/2026/06/12/blogmore-el-v5-2-0.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.davep.org/icons/android-chrome-512x512.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Another quick update to
-blogmore.el, again to fix an issue
-I&#x27;ve run into with the new frontmatter-handling code. This time it&#x27;s to
-address an actual crash that could happen if a property was available but
-empty. For example, if a post had frontmatter that looked like this:
-title: &quot;blogmore.el v5.2.0&quot;
-date: &quot;2026-06-12 08:31:15+0100&quot;
-category: Emacs
-tags:
-
-
-
-And I then went to use blogmore-add-tag, I&#x27;d get a crash saying:
-Wrong type argument: sequencep, :null
-
-
-
-The reason being that tags was being parsed with a value of :null,
-rather than (as before) having a value of nil (which of course meant I had
-a nice empty list to do things with). It was an easy enough fix.
-At this point I think I&#x27;ve managed to shake out any serious issues with the
-proper YAML-parsing approach to frontmatter, as I&#x27;ve used it to write a
-handful of posts now.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -11329,8 +11365,8 @@ http…</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/27473680076">
-        <time id="build-timestamp" datetime="2026-06-13T17:21:32.061Z">2026-06-13T17:21:32.061Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/27476630132">
+        <time id="build-timestamp" datetime="2026-06-13T19:23:42.260Z">2026-06-13T19:23:42.260Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-06-13T17:21:32.077Z</updated>
+    <updated>2026-06-13T19:23:42.297Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -266,6 +266,32 @@ Pulte pushed the Justice Department to launch mortgage-fraud invest…]]></summa
         <summary type="html"><![CDATA[The Royals placed starter Seth Lugo on the seven-day concussion injured list this evening. Righty Eli Morgan is up from Triple-A Omaha to provide an extra bullpen arm for the time being. It was a scary scene on Wednesday when Lugo was struck in the face by a comebacker hit by Brandon Nimmo. The ball came off […]]]></summary>
         <author>
             <name>Anthony Franco</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Protesilaos: Emacs: flat Dired listing for REGEXP, optionally up to DAYS since last modification]]></title>
+        <id>https://protesilaos.com/codelog/2026-06-13-emacs-flat-dired-for-regexp-since-days/</id>
+        <link href="https://protesilaos.com/codelog/2026-06-13-emacs-flat-dired-for-regexp-since-days/"/>
+        <updated>2026-06-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When we call dired from Lisp, we can pass it a list of files instead
+of a directory. This gives us a fully fledged Dired buffer for those
+files. My most common use-case is to produce flat listing, so that I
+do not have to go searching in exactly which directory some file is
+(e.g. in the Downloads folder there is some zip archive that I
+downloaded with a bunch of files in a complex structure).
+A flat Dired listing
+For a while now I have been using my own command to create a Dired
+buffer from the current directory (which can always be updated on
+demand with M-x cd). It is prot-dired-search-flat-list. Here is
+the code:
+
+(defvar prot-dired-regexp-history nil
+  "Minibuffer history of `prot-dired-regexp-prompt'.")
+
+(defun prot-dired-regexp-prompt ()
+  (let ((default (car prot-dired-regexp-histor…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
