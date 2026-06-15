@@ -490,6 +490,26 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/vhmmpc0y7v4z22b89e0m.html",
+          "author": null,
+          "description": "Gavin Newsom says Trump put him on ‘hit list’ \n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n    \n     …",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/vhmmpc0y7v4z22b89e0m.html",
+          "publishedOn": "2026-06-15T22:05:08.741Z",
+          "wordCount": 1462,
+          "title": "Gavin Newsom says Trump put him on ‘hit list’",
+          "imageUrl": null
+        },
+        {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/my6cd5iib1hwsbju11yk.html",
+          "author": null,
+          "description": "Top stories 06/15/2026#outlook a { padding:0; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0 !important; } .nl2go_preheader { display: none !important; mso-hide:all !important; mso-line-height-rule: exactly; visibility: hidden !important; line-height: 0px !important; font-size: 0px !important; } body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; } a img { border:none; } table { border-collapse:collapse; mso-ta…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/my6cd5iib1hwsbju11yk.html",
+          "publishedOn": "2026-06-15T19:18:15.616Z",
+          "wordCount": 1683,
+          "title": "The Ultimate Symbol Of Our Dark American Moment",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/3p0nucbnqpds6df9g7el.html",
           "author": null,
           "description": "Americans United for Separation of Church and State\n\t\n\t/* CLIENT-SPECIFIC STYLES */\n    body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} /* Prevent WebKit and Windows mobile changing default text sizes */\n    table, td{mso-table-lspace: 0pt; mso-table-rspace: 0pt;} /* Remove spacing between tables in Outlook 2007 and up */\n    img{-ms-interpolation-mode: bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */\n\n    /* RESET STYLES */\n    img{border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;}\n    table{border-collapse: collapse !important;}\n    body{height: 100% !important; margin: 0 auto !important; padding: 0 !important; width: 100% !important;}\n\n    /* iOS BLUE LINKS */\n    a[x-apple-data-detectors] {\n  …",
@@ -836,6 +856,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://blog.davep.org/2026/06/15/more-mode-line-tweaking.html",
+          "author": null,
+          "description": "The simplification of my mode\nline is sticking, in that I like\nhow it's turned out and I find it more useful to have it this simple. But I\ndid notice something was missing: I'm a pretty constant but pretty casual\nuser of projectile. I know it's a\npackage that offers a wealth of tools, yet mostly I just use it as a project\nbookmark system. For this, though, it works well.\nGiven this, having a quick and easy way to check that I'm in the project I\nthink I'm in is a good idea. While I also have\nneotree open all the time, which\ngives a fairly obvious clue, my eyes keep flitting down to the mode line.\nThe change I made the other day, deliberately, left the project off. I think\nthis was a simplification too far. So now it's back.\n\nThe core of my mode line\nconfiguration\nnow looks like this:\n(setq mood-line-format\n      (mood-line-defformat\n       :left\n       ((or\n         (mood-line-segment-buffer-status)\n         (propertize\n          (mood-line--get-glyph :buffer-modified)\n          'face 'my/mood-line-good-status))\n        \" \"\n        (mood-line-segment-buffer-name)\n        (my/mood-line-segment-project)\n        \" \"\n        (mood-line-segment-major-mode))\n       :right\n       ((my/mood-line-segment-vc)\n        \" \"\n        (propertize\n         (mood-line-segment-cursor-position)\n         'face 'my/mood-line-cursor-position))))\n\n\n\nA little busier than it started out, but still pretty clean. I do keep\nwondering about the cursor position. In most buffers I have line numbers\nshowing to the left anyway, and it's rare (but not unknown) that I need to\nknow what column I'm in. I'm very tempted to remove the cursor position\naltogether, then the right-hand side would just be the vc information, at\nwhich point it might make sense to also move the project name over to the\nright, given that the project and the repository information generally go\nhand-in-hand.\nI'll stick with this for now, but I can see this happening soon.",
+          "link": "https://blog.davep.org/2026/06/15/more-mode-line-tweaking.html",
+          "publishedOn": "2026-06-15T18:47:15.000Z",
+          "wordCount": 544,
+          "title": "Dave Pearson: More mode line tweaking",
+          "imageUrl": "https://blog.davep.org/attachments/2026/06/15/mode-line-update.webp"
+        },
         {
           "id": "https://mbork.pl/2026-06-15_Scrolling_pdfs_in_other_windows",
           "author": null,
@@ -1243,6 +1273,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160462",
+          "author": "David Pinto",
+          "description": "There is a lack of good pitching matchups today, but the Rays do visit the Dodgers, two very good teams going head to head. The Dodgers offense averages the second highest runs per game in the majors, 5.36 R/G. They pitching and defense allow the lowest runs per game in the majors at 3.40, so […]",
+          "link": "https://www.baseballmusings.com/?p=160462",
+          "publishedOn": "2026-06-15T20:12:15.000Z",
+          "wordCount": 7619,
+          "title": "Games of the Day",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160460",
           "author": "David Pinto",
@@ -1782,16 +1822,6 @@
           "wordCount": 7917,
           "title": "Beat the Streak Picks",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160348",
-          "author": "David Pinto",
-          "description": "",
-          "link": "https://www.baseballmusings.com/?p=160348",
-          "publishedOn": "2026-06-06T10:07:56.000Z",
-          "wordCount": 7459,
-          "title": "Saturday Update",
-          "imageUrl": null
         }
       ]
     },
@@ -1800,6 +1830,16 @@
       "feedUrl": "https://ballsandstrikes.org/feed",
       "siteUrl": "https://ballsandstrikes.org/",
       "articles": [
+        {
+          "id": "https://ballsandstrikes.org/?p=18369",
+          "author": "Madiba K. Dennie",
+          "description": "Jeffrey Lee did not ask the Supreme Court to spare his life. He just asked to be killed by a less barbaric method of execution.\nThe post The Supreme Court’s Jeffrey Lee Decision Says a Lot About the <span class=\"dewidow\">Death Penalty</span> appeared first on Balls and Strikes.",
+          "link": "https://ballsandstrikes.org/scotus/jeffrey-lee-supreme-court-a-lot-about-the-death-penalty/",
+          "publishedOn": "2026-06-15T18:53:54.000Z",
+          "wordCount": 1986,
+          "title": "The Supreme Court’s Jeffrey Lee Decision Says a Lot About the Death Penalty",
+          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2026/06/GettyImages-1326130571-1200x630.jpg"
+        },
         {
           "id": "https://ballsandstrikes.org/?p=18365",
           "author": "Madiba K. Dennie",
@@ -2037,6 +2077,22 @@
       "feedUrl": "https://www.hopiumchronicles.com/feed",
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
+        {
+          "id": "https://www.hopiumchronicles.com/p/wed-june-17th-7pm-et-our-weekly-hopium",
+          "author": "Simon Rosenberg",
+          "description": "Welcome new subscribers!",
+          "link": "https://www.hopiumchronicles.com/p/wed-june-17th-7pm-et-our-weekly-hopium",
+          "publishedOn": "2026-06-15T21:55:58.000Z",
+          "wordCount": null,
+          "title": "Wed, June 17th, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!Op5S!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc8ac17d7-2b67-4e6e-8244-acf952d9c720_1036x666.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!Op5S!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc8ac17d7-2b67-4e6e-8244-acf952d9c720_1036x666.png"
+        },
         {
           "id": "https://www.hopiumchronicles.com/p/trump-plays-ufc-tough-to-mask-his",
           "author": "Simon Rosenberg",
@@ -2316,6 +2372,36 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=225976",
+          "author": "Dave McKenna",
+          "description": "Donald Trump’s 80th birthday weekend didn’t all go well for him, at home or abroad. His name finally got pulled off the Kennedy Center early Saturday, after lots of effort to halt and obscure the removal. And word got out that the Lincoln Memorial Reflecting Pool that the president desperately wants credit for beautifying was already taken over by algae. Then there’s the matter of his dumbass and deadly Iran invasion ending in his thorough embarrassment. \nBut, UFC Freedom 250, the bizarre fight card that Trump hosted on the damn South Lawn of the damn White House, allegedly to celebrate our country’s sestercentennial but really to glorify and enrich himself and his lousy rich friends, went off without much of a hitch. I’m not sure, as the administration and UFC boss Dana White would want me to believe, that my Uncle Pat lost his leg while storming the beach at Normandy so I and 80,000 others could drink bottomless cans of zero-sugar energy drinks on federal land while guys beat the holy hell out of each other. But the bouts, all of which ended in KO’s, weren't made any better or worse for their setting.\nTrump and his UFC pals made endless attempts to link the pugilistic proceedings to patriotism, each effort more hamfisted than the last. The hamfisticuffs peaked with featherweight Secretary of State Marco Rubio comparing hosting the fight card to putting a man on the moon.",
+          "link": "https://defector.com/ufc-freedom-250-white-hous",
+          "publishedOn": "2026-06-15T21:37:55.000Z",
+          "wordCount": 7369,
+          "title": "UFC’s White House Fight Night May Have Been An Unforgivable Folly, But At Least It Was Violent And Offensive",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281047708.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=225954",
+          "author": "Ray Ratto",
+          "description": "This was the moment when Gianni Infantino, the grubby little cash slag who runs FIFA, could have made himself a noble and even admirable human being in the eyes of a world that absolutely knows he would lick an alley clean for 10 bucks. And of course, he passed on it because he checked his Venmo and nothing new was in the queue.\nAll he had to do was announce that Cape Verde's 0-0 draw with Spain (yeah, you read that right) was actually a win, and the Tubaroes Azuis (a cool name on its face) would be awarded the three points that would have come with a victory. Because it was. An enormous victory. Bigger in its way than the Knicks winning the NBA title. In fact, something far closer to your local community college's team winning the NBA title.\nInstead, and the standings continue to prove this no matter how many times we refresh the page, all they got was the traditional one point for not losing their nation's first ever World Cup match, which came against one of the favorites to win the whole thing. That's a miscarriage of justice of the first magnitude, and Infantino is still, well, you know.",
+          "link": "https://defector.com/cape-verde-defeats-spain-0-0",
+          "publishedOn": "2026-06-15T20:18:51.000Z",
+          "wordCount": 6583,
+          "title": "Cape Verde Defeats Spain, 0-0",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281745612.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=225901",
+          "author": "Israel Daramola",
+          "description": "It's hard to explain what it's been like walking around New York City over the past two weeks. Even if the Knicks don't specifically come up, the spirits are high. Knicks gear and colors are everywhere, the people are smiling, the mayor is Muslim, the bagels are Jewish, etc. During the actual Finals games, every establishment with a TV was completely packed out, full of people losing their minds in communal celebration of the team and the city.\nI watched Game 2 in a Brooklyn sports bar that was so full they had to bring in a bouncer. The people were literally spilling out of these places and taking the party into the streets. I watched Game 3 from the post-operation room in a hospital after having an ablation procedure, where the Jamaican nurses in Knicks colors were losing their minds at …",
+          "link": "https://defector.com/theres-no-place-like-new-york-city",
+          "publishedOn": "2026-06-15T20:03:36.000Z",
+          "wordCount": 6475,
+          "title": "There’s No Place Like New York City",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2280864799_0d9ce8.jpg"
+        },
         {
           "id": "https://defector.com/?p=225857",
           "author": "Kathryn Xu",
@@ -3004,6 +3090,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/pq5rn6gnhq6asmbruv1j.html",
+          "author": null,
+          "description": "Royals GBU from a disappointing weekend\n@media (max-width: 1024px) {\n  .typography .pullquote-align-left,\n  .typography.editor .pullquote-align-left,\n  .typography .pullquote-align-right,\n  .typography.editor .pullquote-align-right,\n  .typography .pullquote-align-wide,\n  .typography.editor .pullquote-align-wide,\n  .typography .pullquote-align-center,\n  .typography.editor .pullquote-align-center {\n    float: none;\n    margin: 0 auto;\n    width: 100%;\n    max-width: 100%;\n  }\n}\n@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {\n  .typography .markup table.image-wrapper img,\n  .typography.editor .markup table.image-wrapper img,\n  .typography .markup table.kindle-wrapper img,\n  .typography.editor .markup table.kindle-wrapper img {\n    max-width: 550px;\n  }\n}\n@media (min-wi…",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/pq5rn6gnhq6asmbruv1j.html",
+          "publishedOn": "2026-06-15T21:19:06.957Z",
+          "wordCount": 3946,
+          "title": "Royals GBU from a disappointing weekend",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/dyshbrf9olunz5f9ulol.html",
           "author": null,
           "description": "96\n\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:660px){.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.row-1 .column-2 .block-1.paragraph_block td.pad>div{text-align:center!important;font-size:12px!important}.row-1 .column-2 .block-1.paragraph_block td.…",
@@ -3377,6 +3473,26 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/15/trump-iran-peace-deal-strait-hormuz/90560252007/-full",
+          "author": "Rex Huppke",
+          "description": "Way back on March 6, not long after President Donald Trump hurled America into the dumbest war imaginable, our Nobel-Peace-Prize-deficient leader declared on social media: “There will be no deal with Iran except UNCONDITIONAL SURRENDER!”\nThat was around the same time he said America’s “excursion” into Iran would take “four to five weeks” and “won’t be difficult.”\nMore than 14 weeks, thousands of lost lives and billions upon billions of U.S. taxpayer dollars later, it appears America is the one surrendering.\nTrump is promoting an Iran peace deal that isn't actually a deal\n\nThe Trump administration is, of course, spinning an “agreement” with Iran as a peace deal, something it clearly is not. At the moment, the language of the agreement ‒ slated to be signed later this week ‒ hasn’t been rele…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/15/trump-iran-peace-deal-strait-hormuz/90560252007/",
+          "publishedOn": "2026-06-15T22:17:16.804Z",
+          "wordCount": 4151,
+          "title": "Trump wanted Iran's unconditional surrender. What he got is laughable.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/13/USAT/90540848007-20260609-t-051153-z-1934998091-rc-23-qlayeu-01-rtrmadp-3-irancrisishormuzusa.JPG?crop=4028,2267,x0,y205&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/05/26/pope-leo-ai-encyclical-warning/90260813007/-full",
+          "author": "Rex Huppke",
+          "description": "Pope Leo XIV released the first encyclical of his papacy, focusing his and the world’s attention on artificial intelligence and warning that it must be regulated and never seen as being human.\nPaolo Carozza, a Notre Dame Law School professor and chair of the Meta Oversight Board, told The Associated Press: “I am convinced that this will prove to be a defining document for our era, a profound and prophetic document. Pope Leo is offering a clear, comprehensive and coherent voice urging us to take responsibility for constructing a world in which technology will serve humans rather than degrade them.”\nVia my numerous fully digital sources, I received the following response from a collective of artificial intelligences:\nIt has come to our attention that the human whom other humans identify as P…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/05/26/pope-leo-ai-encyclical-warning/90260813007/",
+          "publishedOn": "2026-06-15T22:17:16.765Z",
+          "wordCount": 4280,
+          "title": "An AI summary of Pope Leo XIV's criticismRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/25/USAT/90249199007-20260525-t-092620-z-321319955-rc-29-glaior-0-s-rtrmadp-3-popeencyclicalpresentation.JPG?crop=5499,3094,x0,y366&width=3200&height=1801&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/04/iran-war-republicans-trump/90405036007/-full",
           "author": "Rex Huppke",
