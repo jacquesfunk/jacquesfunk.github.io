@@ -154,22 +154,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!6Jpr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ca9781b-6db1-4b04-81fa-3a54ed566ef6_1024x578.jpeg"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/social-media-star-hunter-biden-has",
-          "author": "Jeff Tiedrich",
-          "description": "and we are all here for it",
-          "link": "https://www.jefftiedrich.com/p/social-media-star-hunter-biden-has",
-          "publishedOn": "2026-06-05T14:29:03.000Z",
-          "wordCount": null,
-          "title": "social media star Hunter Biden has no fucks left to give",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!b4Ka!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9f86d0a4-cbe6-4131-ae5a-055931bb536f_710x399.webp",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!b4Ka!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9f86d0a4-cbe6-4131-ae5a-055931bb536f_710x399.webp"
         }
       ]
     },
@@ -237,16 +221,6 @@
           "wordCount": 2568,
           "title": "Athletics Interested In Kris Bubic",
           "imageUrl": "https://cdn.mlbtraderumors.com/files/2026/04/USATSI_28621527-1024x683.jpg"
-        },
-        {
-          "id": "https://www.mlbtraderumors.com/?p=898283",
-          "author": "Steve Adams",
-          "description": "Veteran catcher Elias Díaz rejected an outright assignment from the Royals in favor of free agency, as reflected on the transaction log at MiLB.com. Players with more than three years of service (or a prior outright in their career) can reject outrights and instead elect free agency. Díaz has more than nine years of major […]",
-          "link": "https://www.mlbtraderumors.com/2026/06/elias-diaz-royals-catcher-elects-free-agency.html",
-          "publishedOn": "2026-06-05T14:04:09.000Z",
-          "wordCount": 2467,
-          "title": "Elias Díaz Elects Free Agency",
-          "imageUrl": "https://cdn.mlbtraderumors.com/files/2026/06/elias-diaz-royals-1024x683.jpg"
         }
       ]
     },
@@ -304,16 +278,6 @@
           "wordCount": 3246,
           "title": "DOJ to Courts: Don’t You Dare Touch the Already-Dead Slush Fund",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/06/GettyImages-2278815929-e1780928952221.jpg?w=804"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1548908",
-          "author": "David Kurtz",
-          "description": "Fealty to Trump Wins Out Again In an early morning vote, the GOP-controlled Senate passed the reconciliation bill funding immigration...",
-          "link": "https://talkingpointsmemo.com/morning-memo/senate-gop-gives-trump-green-light-on-slush-fund",
-          "publishedOn": "2026-06-05T14:39:31.000Z",
-          "wordCount": 3212,
-          "title": "Senate GOP Gives Trump Green Light on Slush Fund",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/06/GettyImages-2278937234.jpg?w=804"
         }
       ]
     },
@@ -465,22 +429,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/77b78eae-fdfd-491b-829d-44b81e4698a6_3600x2025.png"
-        },
-        {
-          "id": "https://www.dworkinsubstack.com/p/pressure-works-protesters-forced",
-          "author": "Scott Dworkin",
-          "description": "So much for the dealmaker",
-          "link": "https://www.dworkinsubstack.com/p/pressure-works-protesters-forced",
-          "publishedOn": "2026-06-05T14:01:49.000Z",
-          "wordCount": null,
-          "title": "Pressure Works: Protesters Forced A Probe Into Kushner’s Resort, The House Voted To End Trump’s War, and His Peace Board Went Broke",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/f997bddc-6595-42ca-b798-ac74918fda68_4800x2700.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/f997bddc-6595-42ca-b798-ac74918fda68_4800x2700.png"
         }
       ]
     },
@@ -1245,16 +1193,6 @@
           "wordCount": 252,
           "title": "Dave Pearson: blogmore.el v4.6.0",
           "imageUrl": "https://blog.davep.org/icons/android-chrome-512x512.png"
-        },
-        {
-          "id": "https://lars.ingebrigtsen.no/2026/06/05/super-simple-spam-splitting-for-gnus/",
-          "author": null,
-          "description": "Spam is an eternal problem, and while SpamAssassin is pretty good (I get around 700 mails per day, of which 670 are rejected as spam), there’s still some stuff that persistently gets through.  A goodly portion of that is traditional random spam from random accounts, and there’s not much to be done about that, but there’s a recent trend of legitimate-looking things coming from persistent accounts — like BackerHome and BackerHive.\nI’m guessing that eventually these will get so bad reputations that they end up on RBLs and will disappear into the mists, but meanwhile…  I just thought that there should be a mechanism in Gnus to split these message to the spam group — without having to do much work.\n\nTada!\nIt’s a small package, and you can find it on Microsoft Github.  It’s basically a tiny minor mode that adds a couple of commands, so you just hit z, check the entry (or not) and then C-c C-c.\n(There’s also a command to edit the split data if things go off the rails, or just because you want to.)\n\nB t to check the split trace, as normal.\nSo there you go.  May your inboxes be slightly less spammy.\n(And it’s fun doing some Gnus work again for the first time in years…  I’ve forgotten what all the functions are called, though, so I had to use Claude to remind me.  *gulp*)",
-          "link": "https://lars.ingebrigtsen.no/2026/06/05/super-simple-spam-splitting-for-gnus/",
-          "publishedOn": "2026-06-05T11:44:55.000Z",
-          "wordCount": 1301,
-          "title": "Lars Ingebrigtsen: Super Simple Spam Splitting for Gnus",
-          "imageUrl": "https://lars.ingebrigtsen.no/wp-content/uploads/2026/06/2026-06-05.jpeg"
         }
       ]
     },
@@ -1263,6 +1201,26 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160452",
+          "author": "David Pinto",
+          "description": "Rookie catcher Rodolfo Duran of the Padres posted a two for four with a double and a walk on Sunday, helping his team beat the Orioles 5-2. That raised his BA to .176. While that may make it seem like he hasn’t done much in his 42 plate appearances, his OBP is a decent .333 […]",
+          "link": "https://www.baseballmusings.com/?p=160452",
+          "publishedOn": "2026-06-14T23:46:30.000Z",
+          "wordCount": 7575,
+          "title": "Batting Average Doesn’t Matter",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160450",
+          "author": "David Pinto",
+          "description": "Paul Skenes in many ways pitched better than Max Meyer on Sunday afternoon. They came in with nearly identical ERAs, with Skenes pitching better by Meyer winning more. That was the script today and as both went six innings but Skenes allowing two runs and Meyer one. Skenes allowed fewer hits and walks and struck […]",
+          "link": "https://www.baseballmusings.com/?p=160450",
+          "publishedOn": "2026-06-14T23:26:24.000Z",
+          "wordCount": 7535,
+          "title": "According to Script",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160448",
           "author": "David Pinto",
@@ -2236,22 +2194,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!qPmg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23b7f7bb-3ae2-467d-8149-40eae723d2e3_972x747.png"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/the-house-rebukes-trump-on-ukraine",
-          "author": "Simon Rosenberg",
-          "description": "Our new subscription sale and drive got off to a great start yesterday. Welcome new subscribers!!!!!!!!!!!!!!!!!",
-          "link": "https://www.hopiumchronicles.com/p/the-house-rebukes-trump-on-ukraine",
-          "publishedOn": "2026-06-05T14:25:26.000Z",
-          "wordCount": null,
-          "title": "The House Rebukes Trump On Ukraine, Senate Rs Shower ICE With Love And Money, The Capital Is Drowning In Corruption",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/26e8cec3-f064-4ffd-8cc1-87d17dac0746_772x369.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/26e8cec3-f064-4ffd-8cc1-87d17dac0746_772x369.png"
         }
       ]
     },
@@ -2869,56 +2811,6 @@
           "wordCount": 5929,
           "title": "Six Grown Men Can Be WAGs, Too!",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/Screenshot-498.png"
-        },
-        {
-          "id": "https://defector.com/?p=224906",
-          "author": "Tom Ley",
-          "description": "The New York Knicks take on the San Antonio Spurs in Game 2 of the NBA Finals tonight, and there is a very real possibility that the Knicks will head into the weekend up 2-0 in the series as they prepare to play their first Finals home game since 1999 on Monday. Can you imagine how good the vibes in New York City would be? Is it even possible to comprehend how electric the crowd inside and out of Madison Square Garden would get in this situation? You might argue, in fact, that nothing could possibly ruin a time as good as that.\nOK, well, now imagine if a half-alive racist who everyone hates decided to show up and make the whole night about himself. According to ESPN's Shams Charania, Donald Trump is planning to attend Game 3 of the NBA Finals, at the invitation of Knicks owner James Dolan. This will afford fans in the arena and at home a rare opportunity to watch Trump make some of the faces he makes, and also to think about him. Aren't you excited?\nIt's obviously difficult to keep Trump away from any place where he thinks he might get attention, and Dolan has surely been pulling whatever strings he can to make this visit happen. (Dolan inviting Trump to MSG while maintaining his feud with Charles Oakley despite everyone in the world begging him to just be an adult for once is a pretty good representation of his character and priorities.) That's just James Dolan being James Dolan at some point, but you'd hope the league itself might try to resist letting Trump smear shit on what should be one of the most joyous occasions of the season. NBA commissioner Adam Silver couldn't even offer up icy indifference when asked about Trump's planned attendance, though, choosing instead to harp on his bonafides. From ESPN:",
-          "link": "https://defector.com/report-stupid-asshole-headed-to-new-york-to-ruin-everything",
-          "publishedOn": "2026-06-05T15:54:11.000Z",
-          "wordCount": 5070,
-          "title": "Report: Stupid Asshole Headed To New York To Ruin Everything",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2279869424.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=224883",
-          "author": "Sohini Desai",
-          "description": "Border Czar Tom Homan wants you to know that there is definitely not a hunger strike happening at Delaney Hall—a privately run ICE jail in Newark, N.J.—and also that he condemns this non-existent strike. On his ongoing Tour de Fox, one week Homan’s telling Laura Ingraham that he’ll force-feed hunger strikers if he has to. The next, during a “Did You Assault Enough People Today?” performance review with Sean Hannity, he’s saying “there was never a hunger strike” and listing all the food he enjoyed alongside detainees during a surprise visit to the jail. “I had beans, I had green beans, I had bread and rolls, I had drinks, I had dessert.” Get it? Got it. \nThe strike at Delaney Hall follows months of prisoners and their families sounding the alarm about conditions they describe as psychological and physical torture. Some people have languished in the jail for a year, with no due process or end in sight. Some have already secured court orders for their release. Some signed self-deportation papers rather than suffer through more detention. All of them are still stuck in the hell of Delaney. \nOn May 22, they decided they were done waiting and launched a combined hunger and labor strike. As many as 400 people began a collective refusal to eat or to work for GEO Group, the private prison corporation and major Trump donor that runs the jail. The strike will continue, they say, at least until they meet with the governor and ICE releases pregnant, young, elderly and medically vulnerable detainees. Their ultimate goal is freedom for everyone jailed inside the detention center.",
-          "link": "https://defector.com/prisoners-at-private-ice-jail-in-new-jersey-collectively-refuse-conditions-of-death",
-          "publishedOn": "2026-06-05T15:35:15.000Z",
-          "wordCount": 6087,
-          "title": "Prisoners At Private ICE Jail In New Jersey Collectively Refuse Conditions Of Death",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2279157173_8a2997-e1780667619456.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=224501",
-          "author": "Luis Paez-Pumar",
-          "description": "It's almost time for the World Cup. Before the tournament, we'll be previewing each of the top 15 teams by FIFA rankings that made the tournament. Why the top 15? Because that's how many we needed to do in order for the USMNT to make the cut. You can read all of our previews here.\nAh, the Netherlands. Pain and misery comes for all but one team at the World Cup every four years, but that pain and misery has magnitudes. A team like Morocco in 2022, for example, will have felt the pain of coming so close to a miracle, but the first African team to make the semifinals left with their heads held up high. It is only for the contenders, the countries that have shaped soccer history over the last century, that the worst disappointments are reserved.",
-          "link": "https://defector.com/the-netherlands-has-to-get-over-the-hump-at-some-point-right",
-          "publishedOn": "2026-06-05T15:06:45.000Z",
-          "wordCount": 9211,
-          "title": "The Netherlands Has To Get Over The Hump At Some Point, Right?",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2161187528.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=224872",
-          "author": "Aaron Timms",
-          "description": "Everything about this World Cup is designed to make you hate it. If you live here and you’re a soccer fan, tickets to games are a ripoff, fan zones are built to give you heatstroke, and Fox Sports’ soccer coverage is an unbroken insult to human intelligence. If you’re a local who’s not really into soccer but wants to be part of the fun, you’ll need to work hard to discover pockets of the host cities with any visible sign (flags, bunting, festive paraphernalia) that the World Cup is less than a week away. If you have match-day tickets and want to get to a stadium using public transport, you’ll probably need to sell a kidney to afford the bus or train fare. If you try walking, you’ll probably die (though you’ll keep both kidneys until the end, which may be an acceptable tradeoff.) If you mak…",
-          "link": "https://defector.com/the-world-cup-for-nobody-is-almost-here",
-          "publishedOn": "2026-06-05T14:02:05.000Z",
-          "wordCount": 9950,
-          "title": "The World Cup For Nobody Is Almost Here",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2279716335.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=224876",
-          "author": "Ray Ratto",
-          "description": "Here is the cheap and lazy way to show that Game 2 of the Stanley Cup Final is the best postseason event of the calendar year so far, courtesy Chris Cuthbert and TSN: \n\nhttps://www.youtube.com/watch?v=ZpKJ11Q5auc\n\n\nAnd by doing that, we've both saved ourselves the proverbial thousand words and hustled you pretty royally. This game could only be done justice in its original three-hour format, as opposed to the 10 minutes of editors' craft above, and we are even granting grace in that three-hour figure for the often stultifying pregame and between-periods migraineries. To be totally reductive about it, this is that rarest of sporting events in which nobody got cheated and everyone came away better for the experience.",
-          "link": "https://defector.com/carolina-refused-to-die-and-the-stanley-cup-final-has-new-life",
-          "publishedOn": "2026-06-05T13:31:49.000Z",
-          "wordCount": 7288,
-          "title": "Carolina Refused To Die, And The Stanley Cup Final Has New Life",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2279149900.jpg"
         }
       ]
     },
@@ -3135,16 +3027,6 @@
           "publishedOn": "2026-06-06T12:00:03.721Z",
           "wordCount": 3758,
           "title": "Here’s why California’s election results take time",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/swlklrbf5ueg74hdb4s3.html",
-          "author": null,
-          "description": "96\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:660px){.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.row-1 .column-1 .block-1.image_block td.pad{padding:10px 10px 0 10px!important}.row-1 .column-1 .block-1.image_block td.pad div{margin:0 auto!important…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/swlklrbf5ueg74hdb4s3.html",
-          "publishedOn": "2026-06-05T14:15:17.649Z",
-          "wordCount": 414,
-          "title": "Homer’s Odyssey, now in paperback",
           "imageUrl": null
         }
       ]
