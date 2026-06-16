@@ -857,6 +857,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://blog.davep.org/2026/06/16/become-el-v1-4-0.html",
+          "author": null,
+          "description": "In the last month or so, as I've mentioned a few times before, I've been\ntrying to tidy up some of my older personal Emacs Lisp\npackages. I thought I'd updated all the ones I commonly use, but it turns\nout I hadn't. Somehow I'd missed\nbecome.el.\nThis is another one of those packages whose content started out as ad-hoc\ncommands, added to the ~/.emacs that first started to emerge as I got to\nknow Emacs on OS/2 and then GNU/Linux back in the mid-1990s. I think it was\nback in 20161, when I did a big revamp of my Emacs\nenvironment, that I moved\nall of those roughly-related commands out into their own file.\nHonestly, I think I can dump most of them now. There's stuff in there for\nquickly and easily converting buffers between \"DOS format\" and \"Unix format\"\n(from back when I was still working a lo…",
+          "link": "https://blog.davep.org/2026/06/16/become-el-v1-4-0.html",
+          "publishedOn": "2026-06-16T15:19:59.000Z",
+          "wordCount": 644,
+          "title": "Dave Pearson: become.el v1.4.0",
+          "imageUrl": "https://blog.davep.org/icons/android-chrome-512x512.png"
+        },
+        {
           "id": "https://irreal.org/blog/?p=13880",
           "author": null,
           "description": "Ctrl+Meta+v and Ctrl+Meta+Shift+v shortcuts for pdf-tools. Sadly, these don’t work for scrolling PDFs but as mbork says, “… [I]t’s Emacs, so it shouldn’t be difficult…”. And, indeed, it isn’t.\n\n\nHis idea is simple. If the buffer in the other window isn’t a PDF, return nil. Otherwise simply call pdf-view-scroll-up-or-next-page or pdf-view-scroll-down-or-previous-page. Finally, he simply advises scroll-other-window and scroll-other-window-down to run his code first and skip the normal code unless his code returns nil. Take a look at his post for the code. As I said, it’s easy to understand.\n\n\nThe important takeaway from this, according to mbork, is how easy and understandable the solution is. The lesson, as it often is, is that if Emacs isn’t doing what you need, it’s usually pretty easy to make it do so.",
@@ -865,6 +875,16 @@
           "wordCount": 1380,
           "title": "Irreal: Scrolling PDFs In Other Windows",
           "imageUrl": null
+        },
+        {
+          "id": "https://metaredux.com/posts/2026/06/16/cider-1-22.html",
+          "author": null,
+          "description": "Great news, everyone - CIDER 1.22 (“São Miguel”) is finally out!\nAnd “finally” is the operative word here. This release took me way longer than\nI wanted it to, but that’s because I decided to stop kicking a few cans down the\nroad and finally tackle some long-standing problems that had been bugging me for\nyears:\nSession and connection management - the logic for figuring out which REPL a\nbuffer is associated with had grown into something I could barely follow myself.\nThe decoupling of nREPL from CIDER’s UI layer - a piece of technical debt so\nold it predates most of you reading this (the tracking issue, #1099, is from 2017).\nA full audit of the codebase and the documentation, hunting for\ninconsistencies, dead code, broken menu entries, and gaps in the docs.\nNone of this is the kind of work t…",
+          "link": "https://metaredux.com/posts/2026/06/16/cider-1-22.html",
+          "publishedOn": "2026-06-16T09:00:00.000Z",
+          "wordCount": 1744,
+          "title": "Meta Redux: CIDER 1.22 (“São Miguel”)",
+          "imageUrl": "https://metaredux.com/assets/og-image.png"
         },
         {
           "id": "https://ray-on-emacs.blogspot.com/2026/06/emacs-carnival-diary-part-1.html",
@@ -1117,6 +1137,16 @@
           "imageUrl": "https://blog.davep.org/attachments/2026/06/10/blogmore-menu.webp"
         },
         {
+          "id": "https://list.orgmode.org/CAL1eYuJMqwZNPxnoGhWGSp63=Gg1iToHzKrcgVdpJfWhiS83kg@mail.gmail.com",
+          "author": null,
+          "description": "[request] flags:--- replies:1 topic:add",
+          "link": "https://list.orgmode.org/CAL1eYuJMqwZNPxnoGhWGSp63=Gg1iToHzKrcgVdpJfWhiS83kg@mail.gmail.com",
+          "publishedOn": "2026-06-10T08:51:21.000Z",
+          "wordCount": 312,
+          "title": "Org Mode requests: [FR] add :company-doc-buffer, :company-kind etc properties for pcomplete in org-mode",
+          "imageUrl": null
+        },
+        {
           "id": "https://emacs.dyerdwelling.family/emacs/20260610061920-emacs--the-hidden-git-stash-keys-in-emacs-vc-directory-mode/",
           "author": null,
           "description": "vc-dir and vc-mode led me into wanting to delete a stash (not to pop). There are \"z\" keybindings in vc-dir:\n\n\n\nz c\tvc-git-stash\nz p\tvc-git-stash-pop\nz s\tvc-git-stash-snapshot\n\n\nvc-dir you get a rather nice little Stash section tacked on at the bottom listing all your stashes:\n\n\n\n\n\n\n\n\n\nI genuinely assumed I was missing something obvious, so I did the sensible Emacs thing and hit C-h m to describe the mode, scrolled through the whole keymap, and, nothing about stashes at all.\n\n\n\nWell how about C-h b (describe-bindings)?, initially nothing!, however I stumbled on a solution, if the point is on a stash name, the following is exposed!\n\n\n\nC-k\tvc-git-stash-delete-at-point\nRET\tvc-git-stash-show-at-point\n=\tvc-git-stash-show-at-point\nA\tvc-git-stash-apply-at-point\nC\tvc-git-stash\nP\tvc-git-stash-pop-at…",
@@ -1244,16 +1274,6 @@
           "publishedOn": "2026-06-07T14:12:28.000Z",
           "wordCount": 1403,
           "title": "Irreal: Correcting The Orientation of macOS Photos on Linux",
-          "imageUrl": null
-        },
-        {
-          "id": "https://bicycleforyourmind.com/much-ado-about-emacs-014",
-          "author": null,
-          "description": "Emacs\nOrg-Mode and the Capture System\nOrg-mode has a capture system. You can be in any file in Emacs and invoke the capture system. Press a few keys and add text to a org heading in any file that you have set up a capture for.\nIt is easy to set it up. Firstly you assign a keyboard command to the capture system. In my case,\n:bind (\"C-c c\" . org-capture)\nOrg-capture\nYou get this.\nJournal Entry\nYou press a key. Let’s say you want to add a journal entry. Press j and get this.\nType what you want to say in the buffer and when done, press ⌃C ⌃C. This saves the additions to the journal and closes the buffer. Leaving you in the buffer you were in before you invoked the capture function.\nMy setup for the journal capture looks like this:\n(\"j\" \"journal\" entry (file+datetree \"~/Dropbox/org/diary2026.or…",
-          "link": "https://bicycleforyourmind.com/much-ado-about-emacs-014",
-          "publishedOn": "2026-06-07T07:00:00.000Z",
-          "wordCount": null,
-          "title": "Bicycle for Your Mind: Much Ado About Emacs 014",
           "imageUrl": null
         }
       ]
@@ -1851,6 +1871,16 @@
       "siteUrl": "https://ballsandstrikes.org/",
       "articles": [
         {
+          "id": "https://ballsandstrikes.org/?p=18377",
+          "author": "Denny Carter",
+          "description": "The Republican Party is getting nervous about the midterms. The Republican justices on the Supreme Court are doing what they can to help.\nThe post The Roberts Court Is Trying to Stop the <span class=\"dewidow\">Political Pendulum</span> appeared first on Balls and Strikes.",
+          "link": "https://ballsandstrikes.org/law-politics/roberts-court-political-pendulum/",
+          "publishedOn": "2026-06-16T15:33:07.000Z",
+          "wordCount": 2243,
+          "title": "The Roberts Court Is Trying to Stop the Political Pendulum",
+          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2026/06/GettyImages-1431389414-1200x630.jpg"
+        },
+        {
           "id": "https://ballsandstrikes.org/?p=18369",
           "author": "Madiba K. Dennie",
           "description": "Jeffrey Lee did not ask the Supreme Court to spare his life. He just asked to be killed by a less barbaric method of execution.\nThe post The Supreme Court’s Jeffrey Lee Decision Says a Lot About the <span class=\"dewidow\">Death Penalty</span> appeared first on Balls and Strikes.",
@@ -2392,6 +2422,66 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=226087",
+          "author": "Sarah Borus",
+          "description": "For one night, you could be forgiven if your failing eyes confused Pete Crow-Armstrong for the ghost of Hack Wilson stepping up to the plate at Wrigley Field. Actually, scratch that. Most nights you could be forgiven for confusing Pete Crow-Armstrong with a ghost. Frankly, I’m not quite convinced that he isn’t, especially with some of the defensive gaffes he made earlier this season, where the ball seemed to slip through his fingers as if he was fighting to remain on the plane of the living. But I digress.\nLast night, PCA became the 13th player in Cubs history to complete a cycle, hitting a single, a double, a triple, and a homer in one game. But PCA only took four plate appearances to complete the achievement, and he did so in a way no other Cub has done before. \n\nhttps://www.youtube.com/watch?v=9UlEIBrbMgM",
+          "link": "https://defector.com/the-cubs-are-riding-the-worlds-bumpiest-roller-coaster",
+          "publishedOn": "2026-06-16T19:11:40.000Z",
+          "wordCount": 5332,
+          "title": "The Cubs Are Riding The World’s Bumpiest Roller Coaster",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281799364_f6f0e1-e1781635512295.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=226017",
+          "author": "Drew Magary",
+          "description": "Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGATE, and buy Drew’s books while you’re at it. Today, we're talking Graham Platner (ugh), the World Cup, imperfect movies, and more.\nPROGRAMMING NOTE: I'm off to the beach next week. But we'll have a guest host manning the post to answer all of your Funbag questions while I'm out, so go ahead and email them here. Who will be our mystery writer? I do not know. Why? I cannot say. How? I do not know how to answer that. Let's move on.\nYour letters:",
+          "link": "https://defector.com/whats-the-ideal-target-for-a-heist",
+          "publishedOn": "2026-06-16T18:54:41.000Z",
+          "wordCount": 15423,
+          "title": "What’s The Ideal Target For A Heist?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-3398717.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=226083",
+          "author": "Lauren Theisen",
+          "description": "For nearly as long as Canadian homes have had televisions, hockey fans have been able to spend their Saturday nights watching the country's teams on the public broadcast channel CBC. Initially a branding for CBC's radio coverage of the NHL, Hockey Night In Canada debuted on TV in 1952, and since then it's become a national institution—think Monday Night Football crossed with Jeopardy!, times two. But starting next season, the Saturday night hockey tradition will be a shell of its old self, because the games will be entirely behind a paywall. No more CBC broadcasts that you can pick up with just an antenna, or free over the internet within the country's borders. It'll be just cable and streaming games exclusively on the Rogers Media–owned Sportsnet.\n\nhttps://bsky.app/profile/rickspringhetti.bsky.social/post/3mog5cp2l322m\n\n\nThis disappointing news is a long time in the making. While CBC has carried these games for generations, they've been doing so for over a decade as a kind of hanger-on while live sports rights fees zoom past the territory of the embattled budgets of public broadcasters. In 2014, Sportsnet began its multi-billion dollar contract to broadcast the NHL nationally in Canada, and in doing so they worked out a simulcast agreement with CBC for Hockey Night and their NHL playoff coverage to quiet any outcry about taking away such a beloved program. With an even more lucrative deal about to begin next season, however, there is no such reverence for the old way of watching. On Saturday nights, or during the postseason, it's now Sportsnet or bust. And while CBC is trying to positively spin the change as an opportunity for them to broadcast other sports, potentially making ad money that doesn't go straight to Rogers, I'm more than a little dubious at any implication that they're happy about their last ties to their most iconic program being severed. It feels like justifying getting dumped by saying \"Well, now I can focus more on my painting.\"",
+          "link": "https://defector.com/the-original-hockey-night-in-canada-takes-its-dying-breath",
+          "publishedOn": "2026-06-16T17:48:59.000Z",
+          "wordCount": 5715,
+          "title": "The Original ‘Hockey Night In Canada’ Takes Its Dying Breath",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-1235784788_46f7c8-e1781630510430.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=226028",
+          "author": "Luis Paez-Pumar",
+          "description": "For many players, just lacing up the boots and throwing on the national team jersey for a World Cup match marks the pinnacle of their career. Even in an expanded tournament field of 48 teams, the percentage of the population that gets to say they played in a World Cup is astronomically low, and so simply being there is reason for celebration. Just see how much one goal in a 7-1 loss meant for Curacao, or what a stunning draw against Spain meant to Cape Verde. It's the World Cup, and everyone wants to be a part of it, to soak in the world's attention, and to make their mark.\nThis is all to say that the Iran national team should be flying high after not just playing in the World Cup on Monday night, but taking part in the best match of the tournament so far, a 2-2 draw against New Zealand that had gorgeous goals, back-and-forth trips to the fireworks factory, and the kind of white-knuckle intensity that is unique to this tournament. Twice, Iran went down a goal, and twice it tied the game back up, the second time from one of the best and most accurate crosses you will ever see, with Ramin Rezaeian finding Mohammad Mohebi's head in the box in perfect position to equalize.\nThe match, which took place in Los Angeles, was a beautiful thing to watch, a reward for the late-night soccer sickos (at least on the East Coast and beyond) who love the World Cup almost as much as the players. Following that draw, and the crucial point that goes with it, Iran should have been able to celebrate as a team and with their fans. Instead, the other side of this specific World Cup reared its ugly, embarrassing head.",
+          "link": "https://defector.com/iran-forced-out-of-u-s-immediately-after-playing-best-match-of-world-cup",
+          "publishedOn": "2026-06-16T16:43:31.000Z",
+          "wordCount": 6690,
+          "title": "Iran Forced Out Of U.S. Immediately After Playing Best Match Of World Cup",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281210475.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=226027",
+          "author": "Giri Nathan",
+          "description": "SAN ANTONIO — \"Wow … more Knicks fans?\" said a local child, dejectedly, as he rounded a corner on the River Walk, only to encounter a cheerful man wearing a \"Nueva York\" edition David Lee jersey. Saturday morning, before Game 5 of the NBA Finals, this child's Spurs team still had life in it yet. But from the tone of his voice, it was clear that he had lost some emotional battle already.\nPresumably this child had heard the visiting fans calling out \"Knicks in five\" from the guided river boat tours, like a flotilla of insurgents. He'd seen them traveling in packs on foot, downing margaritas, turning his sweltering city walkable by force of will. He knew the enemy was in his midst and there was nothing to be done about it. When I heard his voice, I began to consider the comic-book supervillainous aspect of a fanbase that can simply pick up and drop a borough's worth of its bravest—or most unwell, or least fiscally responsible—soldiers onto any city in the country.\nThen I remembered that the Knicks still had a game to win. If turning a road game into a home game by sheer invasion would help finish the job, after 53 years of waiting, then so be it. Sorry to that child. He'll get his in time.",
+          "link": "https://defector.com/the-circus-came-to-san-antonio",
+          "publishedOn": "2026-06-16T15:54:38.000Z",
+          "wordCount": 9654,
+          "title": "The Circus Came To San Antonio",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281537680-e1781623703450.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=226007",
+          "author": "Patrick Redford",
+          "description": "The New York Knicks are NBA champions. That meant Harry and I had to bring back regular guest Giri Nathan onto Nothing But Respect to talk about what it felt like to watch his team win a championship, Jalen Brunson's big-ass head, and James Dolan's performance on the championship podium. Unlike last time around, his power did not cut out at the last second, so this was a real success! Everyone should also please go read Giri's excellent Finals coverage.\nYou can find Nothing But Respect in Apple Podcasts or whatever podcast app you use. Follow the show on Instagram, and contact the Broke Jumper Tip Line at (347) 380-6426. Thanks for listening!",
+          "link": "https://defector.com/fancyfree-is-the-center-of-the-world-with-giri-nathan",
+          "publishedOn": "2026-06-16T15:21:53.000Z",
+          "wordCount": 4086,
+          "title": "FancyFree Is The Center Of The World, With Giri Nathan",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281475652.jpg"
+        },
         {
           "id": "https://defector.com/?p=226016",
           "author": "Tom Ley",
@@ -3367,16 +3457,6 @@
           "publishedOn": "2026-06-08T10:01:55.798Z",
           "wordCount": 2327,
           "title": "The Nova Boys Are Everything Right With The Knicks",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/d01xmb48ypfev5w6y694.html",
-          "author": null,
-          "description": "96\n        Weekly Scorecard: May 30 - Jun. 5, 2026\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    line-height: 100%;\n  …",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/d01xmb48ypfev5w6y694.html",
-          "publishedOn": "2026-06-07T03:57:18.709Z",
-          "wordCount": 2905,
-          "title": "Weekly Scorecard: May 30 - Jun. 5, 2026",
           "imageUrl": null
         }
       ]
