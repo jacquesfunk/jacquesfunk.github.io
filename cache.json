@@ -607,6 +607,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://rahuljuliato.com/posts/emacs-31-around-the-corner",
+          "author": null,
+          "description": "Karthik Chikmagalur recently published another of his excellent\n\"Even More Batteries Included with Emacs\"\nposts, digging into lesser-known features that already ship with Emacs\ntoday. I wanted to write its mirror image. His post covers the\nbatteries already in the box. Mine covers the ones arriving in Emacs\n31.\nEmacs 31 isn't out yet, but I've been building it from both emacs-31\nbranch and master and daily driving it for months. Every time\nsomething new and useful lands, I fold it into Emacs\nSolo, my no-external-packages\nconfig, and mark it with a small ; EMACS-31 comment so I remember to\nrevisit it once the release is official.\nThis post walks those breadcrumbs. Every change below is one I'm\ntouching in my config right now, with a note on what it does and why I\nkeep it. None of it require…",
+          "link": "https://rahuljuliato.com/posts/emacs-31-around-the-corner",
+          "publishedOn": "2026-06-18T03:41:00.000Z",
+          "wordCount": 6042,
+          "title": "Rahul Juliato: Emacs 31 Is Around the Corner: The Changes I'm Already Daily Driving",
+          "imageUrl": "/assets/blog/posts/emacs-31-around-the-corner.png"
+        },
+        {
           "id": "https://irreal.org/blog/?p=13882",
           "author": null,
           "description": "Ray on Emacs, Raymond Zeitler writes about the Emacs Diary for the June Emacs Carnival. The June topic is underappreciated Emacs built-ins and for Zeitler that’s Emacs Diary. He was a little disconcerted at first by being offered a blank screen for each entry. He wondered where his previous material went but he came to appreciate the fresh start that that blank buffer gave him. He goes on to describes some of the functions and capabilities of Diary.\n\n\nI recently started keeping a personal journal too and considered using Diary—it was, of course, going to be written in Emacs in any event—but decided to simply use Org mode instead. I have an Org capture template to start a new entry—just like Zeitler’s method—but I can, of course, just bring up the journal Org file directly to see or edit anything.\n\n\nI’ve found that this works well for me. I don’t write in my journal everyday, just when something worth recording happens, so I don’t care about things like when the sun rose or set, what the temperature was on that day; just what happened that I felt was worth remembering. Of course, if I did care about such things it would be easy to arrange to add them.\n\n\nOr I could just use Diary. That’s the beauty of Emacs: you can make it do pretty much whatever you need it to and very often what you need is already there.",
@@ -995,26 +1005,6 @@
           "wordCount": 204,
           "title": "Protesilaos: Emacs live with Sacha Chua about ‘Underappreciated Built-ins’ on Thursday 11 June 17:30 Europe/Athens",
           "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
-        },
-        {
-          "id": "https://sachachua.com/blog/2026/06/2026-06-08-emacs-news/",
-          "author": null,
-          "description": "Emacs Built-ins appreciation month! I'm coming to appreciate the menu bar more. What built-ins do you appreciate? Write about it and send Ross a link!\n\n\n\nEmacs updates:\n\nEmacs 31.0.90 pretest is available (Reddit, Linux Compatible, Irreal)\n\nUpcoming events (iCal file, Org):\n\nEmacs Berlin: In-Person-Only Emacs-Berlin Stammtisch https://emacs-berlin.org/ Tue Jun 9 1900 Europe/Berlin\nOrgMeetup (virtual) https://orgmode.org/worg/orgmeetup.html Wed Jun 10 0900 America/Vancouver - 1100 America/Chicago - 1200 America/Toronto - 1600 Etc/GMT - 1800 Europe/Berlin - 2130 Asia/Kolkata – Thu Jun 11 0000 Asia/Singapore\nAtelier Emacs Montpellier (in person) https://lebib.org/date/atelier-emacs Fri Jun 12 1800 Europe/Paris\nM-x Research: TBA https://m-x-research.github.io/ Wed Jun 17 0800 America/Vancouver…",
-          "link": "https://sachachua.com/blog/2026/06/2026-06-08-emacs-news/",
-          "publishedOn": "2026-06-08T18:36:11.000Z",
-          "wordCount": 1180,
-          "title": "Sacha Chua: 2026-06-08 Emacs news",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/06/emacs-and-numeric-keypad.html",
-          "author": null,
-          "description": "If you have a numeric keypad1, try this in the *scratch* buffer:\nenable numlock and press the zero on the numeric keyboard\n(Num-0). Then press the zero located between the alpha keys and the\n  function keys (0). Okay, you see 00, no big deal.\nWhy do I bring this up?  Emacs interprets Num-0 keypress as <kp-0> while it interprets 0 as\n0.  This means that you could bind Num-0 to a function without\naffecting the other 0. You could configure Num-0 to insert \"zero\" by\nentering and evaluating this in the *scratch* buffer:\n(keymap-local-set \"<kp-0>\" #'(lambda () (interactive) (insert \"zero\")))\n\n\n \nThat's a trivial example, of course.  But it implies that you can\n      have ten more keys to play with.  Similarly, the arithmetic\n      operator keys on the numeric keyboard differ from the \"regular\n      ones\" that are grouped with the alpha keys.  They can be bound\n      to functions, referenced\n      as <kp-add>, <kp-subtract>, <kp-multiply>, <kp-divide>.  But\n      these also accept the standard C- M- S- modifier keys, which\n      gives you twelve more possibilities.  This is true also for the\n      Insert key <kp-insert> and the Delete key <kp-delete> that\n      double as Num-0 and Num-., respectively.\nI have a \"Calc\" key above the numeric keypad.  Unfortunately I\ncan't seem to use it for anything in Emacs -- it opens the OS's\ncalc.exe program regardless of what modifiers I use with it.  This is\na shame because it would be the ideal mapping for M-x calc.  Perhaps\nthis can be altered in BIOS.\nBut I do use my Win key as a modifier (sometimes). And I've heard\nthat the Caps Lock key can be repurposed.  These are topics for\n  other posts.\nhttps://en.wikipedia.org/wiki/Numeric_keypad",
-          "link": "https://ray-on-emacs.blogspot.com/2026/06/emacs-and-numeric-keypad.html",
-          "publishedOn": "2026-06-08T15:51:22.851Z",
-          "wordCount": 2773,
-          "title": "Raymond Zeitler: Emacs and the Numeric Keypad",
-          "imageUrl": null
         }
       ]
     },
@@ -1562,16 +1552,6 @@
           "wordCount": 7669,
           "title": "Wood Adjustment",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160373",
-          "author": "David Pinto",
-          "description": "The Yankees visit the Guardians with Will Warren facing Gavin Williams. The two starters own nearly identical ERAs, 3.22 for Warren, 3.20 for Williams, with Williams pitching more innings. The two are even in walk rate, with Warren better at preventing home runs and Williams better at recording strikeouts. Cristopher Sanchez tries to continue his […]",
-          "link": "https://www.baseballmusings.com/?p=160373",
-          "publishedOn": "2026-06-08T17:52:48.000Z",
-          "wordCount": 7577,
-          "title": "Games of the Day",
-          "imageUrl": null
         }
       ]
     },
@@ -1829,22 +1809,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!Q3EX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa3a4df99-79cd-4084-ad7b-8a96b97037a8_2006x1448.png"
-        },
-        {
-          "id": "https://www.lawdork.com/p/trump-admin-trans-prison-transfer-policy-blocked",
-          "author": "Chris Geidner",
-          "description": "\"[I]t is fundamentally unreasonable for prison officials to respond to serious risks ... by intentionally creating those risks and offering to treat them after they predictably occur.\"",
-          "link": "https://www.lawdork.com/p/trump-admin-trans-prison-transfer-policy-blocked",
-          "publishedOn": "2026-06-08T19:58:32.000Z",
-          "wordCount": null,
-          "title": "Federal judge blocks Trump admin's effort to move 14 trans women to men's prisons",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!0EUb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bbe6b59-2188-465e-80de-767283a48551_1684x792.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!0EUb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bbe6b59-2188-465e-80de-767283a48551_1684x792.png"
         }
       ]
     },
@@ -2943,56 +2907,6 @@
           "wordCount": 5308,
           "title": "Judge Reinstates Brendan Sorsby To Texas Tech, Says QB Will Miss Just Two Games",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2257992870-e1780951258952.jpeg"
-        },
-        {
-          "id": "https://defector.com/?p=225069",
-          "author": "Sarah Borus",
-          "description": "In the third inning of the Brewers' 7-1 win over the Rockies on Saturday, Milwaukee pitcher Jacob Misiorowski threw a four-seam fastball low and outside to Kyle Karros for a ball. The pitch was special and routine all at once. Its measured velocity of 103.7 mph makes it the fastest pitch by a starter in official recorded history. But the speed of that fastball has somehow become business as usual for the Brewers' 24-year-old ace.\nIn this game alone, Misiorowski threw the 58 fastest pitches of the game, and 45 of those pitches were above 101 mph—another record. When Brewers manager Pat Murphy looked like he was going to the bullpen after his starter allowed runners on the corners with only one out in the 7th, Misiorowski refused, shaking his head and saying \"No\" in the direction of the dugout. Then he proceeded to pitch back-to-back strikeouts, hurling a 101-mph fastball on his 98th pitch of the game.\n\nhttps://www.youtube.com/watch?v=6EJKeC18FqI",
-          "link": "https://defector.com/jacob-misiorowski-is-throwing-so-damn-hard",
-          "publishedOn": "2026-06-08T19:42:21.000Z",
-          "wordCount": 4720,
-          "title": "Jacob Misiorowski Is Throwing So Damn Hard",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2279656774_b9a91a-e1780947082145.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=225049",
-          "author": "Giri Nathan",
-          "description": "I can't say that \"amount of that dog in them\" has always factored into my evaluation of a tennis prospect, but it should, and with Mirra Andreeva, it was always the central factor. In civilian life, being well-adjusted as a good thing, but in tennis, its opposite can be a kind of performance enhancing drug.\nBack at the 2024 Australian Open, Andreeva was a 16-year-old flying into the fourth round. To get there, she had to make a dramatic comeback from 1-5 down in the third set. During the match she bit her own arm in anger. Noted grit-possessor Andy Murray admired her grit as he watched on TV. Andreeva played astounding tennis, and more astounding still is what she said after, when most players would have been awash in gratitude.  “Fourth round is nothing,\" she said afterwards. \"Maybe if I …",
-          "link": "https://defector.com/mirra-andreeva-did-the-inevitable",
-          "publishedOn": "2026-06-08T19:24:38.000Z",
-          "wordCount": 6312,
-          "title": "Mirra Andreeva Did The Inevitable",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2279550298.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=225024",
-          "author": "Kathryn Xu",
-          "description": "I am sorry to report that despite the FIA extending the program yet another year, the Monaco Experiment is still a failure. The battle between engineers trying to \"make cars fast\" and \"let cars pass\" has, at least in Monaco, resulted in racing that allows for neither and resists outside intervention. Last year's double pit stop experiment proved futile; this Sunday showed that the new regulations and slightly smaller cars still could not provide for better racing. If there is entertainment, it needs to come from racing so atrocious to watch it loops right back around to \"fun,\" or other sessions, or, depending on your media diet, inane celebrity hullabaloo. This is why I propose we rename the Monaco Grand Prix to something more apt. The Monaco Qualifying Prix, perhaps. More like Monaco Gran…",
-          "link": "https://defector.com/monaco-will-always-be-like-this",
-          "publishedOn": "2026-06-08T18:33:27.000Z",
-          "wordCount": 7035,
-          "title": "Monaco Will Always Be Like This",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/kimiAntonelliMonaco.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=225060",
-          "author": "Ray Ratto",
-          "description": "It's almost time for the World Cup. Before the tournament, we'll be previewing each of the top 15 teams by FIFA rankings that made the tournament. Why the top 15? Because that's how many we needed to do in order for the USMNT to make the cut. You can read all of our previews here.\nYou're watching to see if Cristiano Ronaldo at age 41 is still worth watching. You know you are. You're trying to force-feed a LeBron James comparison into your cerebral cortex because you know what happened in the past, but have no idea about the future except that 41-year-olds are unreliable predictors. So you make up reasons why Portugal's chances at a deep run are dependent upon Ronaldo's résumé, when in fact we won't see Portugal's true mettle as the fifth-rated team in this tournament until they have escaped a deeply rudimentary group with Colombia, the Democratic Republic of Congo, and Uzbekistan. Historically, Colombia is a formidable knockout stage team, though it missed out entirely in 2022. Uzbekistan is at its first Mundial ever and the DRC has only made one, in 1974 when the country was known as Zaire, and lost all three matches. President Mobutu Sese Seko offered to jail them all when they returned. So that's fun. Against this field, we will learn little, but your Ronaldo fixation will be dealt with next month, so be patient.",
-          "link": "https://defector.com/portugal-belongs-to-cristiano-ronaldo-for-a-little-bit-longer",
-          "publishedOn": "2026-06-08T17:48:52.000Z",
-          "wordCount": 5703,
-          "title": "Portugal Belongs To Cristiano Ronaldo For A Little Bit Longer",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2279583863.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=225025",
-          "author": "Chris Thompson",
-          "description": "For a World Cup host nation, the soccer is largely incidental. Even more obviously disposable are soaring ideas of bringing the international community together in a peaceful celebration of yadda yadda. In the case of the United States under the Trump administration, the point of hosting a World Cup is security theater. The nation's ideals have been whittled all the way down to the most petty shit imaginable: Hosting a World Cup forces the world to come to us when most would rather not, forces allies and enemies alike to grovel and flatter and suffer and whine at our caprice, all while we sit there with a finger jammed in our nose and our dick flopping out. It's a show not of strength but of power, something that tickles the groins of the coalition of landlords and aspiring landlords that …",
-          "link": "https://defector.com/border-security-theatrics-are-rising-at-historys-stupidest-world-cup",
-          "publishedOn": "2026-06-08T17:07:48.000Z",
-          "wordCount": 7663,
-          "title": "Border Security Theatrics Are Rising At History’s Stupidest World Cup",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2249526695.jpg"
         }
       ]
     },
@@ -3230,16 +3144,6 @@
           "wordCount": 2262,
           "title": "DANNIJOPRO And The Therapeutic Power Of Merch",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/i4x3rz2m2yaryj1h8csa.html",
-          "author": null,
-          "description": "A 5-5 road trip, time to celebrate?\n@media (max-width: 1024px) {\n  .typography .pullquote-align-left,\n  .typography.editor .pullquote-align-left,\n  .typography .pullquote-align-right,\n  .typography.editor .pullquote-align-right,\n  .typography .pullquote-align-wide,\n  .typography.editor .pullquote-align-wide,\n  .typography .pullquote-align-center,\n  .typography.editor .pullquote-align-center {\n    float: none;\n    margin: 0 auto;\n    width: 100%;\n    max-width: 100%;\n  }\n}\n@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {\n  .typography .markup table.image-wrapper img,\n  .typography.editor .markup table.image-wrapper img,\n  .typography .markup table.kindle-wrapper img,\n  .typography.editor .markup table.kindle-wrapper img {\n    max-width: 550px;\n  }\n}\n@media (min-width:…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/i4x3rz2m2yaryj1h8csa.html",
-          "publishedOn": "2026-06-08T18:56:33.102Z",
-          "wordCount": 4401,
-          "title": "A 5-5 road trip, time to celebrate?",
-          "imageUrl": null
         }
       ]
     },
@@ -3266,16 +3170,6 @@
           "publishedOn": "2026-06-09T20:06:24.616Z",
           "wordCount": 1413,
           "title": "sleep(), Polars Workflows, Iterators, and More",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/rzmx7qvck58zfo7ysatu.html",
-          "author": null,
-          "description": "96\n        Important Good Internet announcement\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    line-height: 100%;\n  }\n\n…",
-          "link": "https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/rzmx7qvck58zfo7ysatu.html",
-          "publishedOn": "2026-06-08T20:00:50.005Z",
-          "wordCount": 2254,
-          "title": "Important Good Internet announcement",
           "imageUrl": null
         }
       ]

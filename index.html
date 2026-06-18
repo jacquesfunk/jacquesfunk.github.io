@@ -22,11 +22,123 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-06-17 datetime="2026-06-17T22:50:54.000Z">2026-06-17</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-06-17 datetime="2026-06-17T22:50:54.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-06-17 datetime="2026-06-18T03:41:00.000Z">2026-06-17</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-06-17 datetime="2026-06-18T03:41:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Emacslife</button>
+                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://rahuljuliato.com/posts/emacs-31-around-the-corner"
+                        open
+                      >
+                        <summary class="article-expander__title">Rahul Juliato: Emacs 31 Is Around the Corner: The Changes I&#x27;m Already Daily Driving</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://rahuljuliato.com/posts/emacs-31-around-the-corner">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="/assets/blog/posts/emacs-31-around-the-corner.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Karthik Chikmagalur recently published another of his excellent
+&quot;Even More Batteries Included with Emacs&quot;
+posts, digging into lesser-known features that already ship with Emacs
+today. I wanted to write its mirror image. His post covers the
+batteries already in the box. Mine covers the ones arriving in Emacs
+31.
+Emacs 31 isn&#x27;t out yet, but I&#x27;ve been building it from both emacs-31
+branch and master and daily driving it for months. Every time
+something new and useful lands, I fold it into Emacs
+Solo, my no-external-packages
+config, and mark it with a small ; EMACS-31 comment so I remember to
+revisit it once the release is official.
+This post walks those breadcrumbs. Every change below is one I&#x27;m
+touching in my config right now, with a note on what it does and why I
+keep it. None of it require…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;20
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13882"
+                        open
+                      >
+                        <summary class="article-expander__title">Irreal: Ray On Diary</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13882">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Ray on Emacs, Raymond Zeitler writes about the Emacs Diary for the June Emacs Carnival. The June topic is underappreciated Emacs built-ins and for Zeitler that’s Emacs Diary. He was a little disconcerted at first by being offered a blank screen for each entry. He wondered where his previous material went but he came to appreciate the fresh start that that blank buffer gave him. He goes on to describes some of the functions and capabilities of Diary.
+
+
+I recently started keeping a personal journal too and considered using Diary—it was, of course, going to be written in Emacs in any event—but decided to simply use Org mode instead. I have an Org capture template to start a new entry—just like Zeitler’s method—but I can, of course, just bring up the journal Org file directly to see or edit anything.
+
+
+I’ve found that this works well for me. I don’t write in my journal everyday, just when something worth recording happens, so I don’t care about things like when the sun rose or set, what the temperature was on that day; just what happened that I felt was worth remembering. Of course, if I did care about such things it would be easy to arrange to add them.
+
+
+Or I could just use Diary. That’s the beauty of Emacs: you can make it do pretty much whatever you need it to and very often what you need is already there.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.chiply.dev/post-june-emacs-carnival"
+                        open
+                      >
+                        <summary class="article-expander__title">Charlie Holland: Juneau Something? Emacs Teaches You How to Fish!</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.chiply.dev/post-june-emacs-carnival">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.chiply.dev/images/june-fish-banner-2.avif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>1. TLDR   tldr
+
+
+
+
+
+The folks who &#x27;grok&#x27; Emacs aren&#x27;t wizards.  They don&#x27;t learn Emacs, per se, but instead they learn the handful of built-in commands for asking Emacs about Emacs.  Those same commands work on themselves, so once you know them you can teach yourself everything else you need to know about Emacs.  This post tours that machinery (the C-h help family, apropos, Info, xref, describe- and friends) by following the questions a curious beginner typically asks, and ends by fishing a built-in game out of Emacs and reading its source with that machinery.  Emacs teaches itself in this way.  In other words, Emacs doesn&#x27;t give you a fish, it teaches you how to fish!
+
+
+
+
+
+
+
+
+2. About   emacs carnival builtins
+learning craft over the weakness of receiving crafts.  Some nagging feeling tel…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;41
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -727,84 +839,6 @@ This week, Chris answers a question about how to help your child get good at thi
                               <span>Major League Baseball will never get through a season without a Pride Night controversy. If that becomes the goal, then the only sure option is to eliminate the promotion altogether. That may not be the worst idea: The cowards and vampires who run the league and its teams don&#x27;t deserve the simple goodwill that comes from saying &quot;gesundheit&quot; to a stranger on a bus, let alone the presumption of human decency that might otherwise belong to those who in sincere good faith open their doors to a marginalized group. All-devouring billionaire demigods are no more committed to dignity and equality in this context than in any other. The very moment they can get away with it, the very moment prevailing winds make it strategically advisable, MLB&#x27;s owners will host Eat The Homeless Nights.
 On the other…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Emacslife</button>
-                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13882"
-                        open
-                      >
-                        <summary class="article-expander__title">Irreal: Ray On Diary</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13882">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Ray on Emacs, Raymond Zeitler writes about the Emacs Diary for the June Emacs Carnival. The June topic is underappreciated Emacs built-ins and for Zeitler that’s Emacs Diary. He was a little disconcerted at first by being offered a blank screen for each entry. He wondered where his previous material went but he came to appreciate the fresh start that that blank buffer gave him. He goes on to describes some of the functions and capabilities of Diary.
-
-
-I recently started keeping a personal journal too and considered using Diary—it was, of course, going to be written in Emacs in any event—but decided to simply use Org mode instead. I have an Org capture template to start a new entry—just like Zeitler’s method—but I can, of course, just bring up the journal Org file directly to see or edit anything.
-
-
-I’ve found that this works well for me. I don’t write in my journal everyday, just when something worth recording happens, so I don’t care about things like when the sun rose or set, what the temperature was on that day; just what happened that I felt was worth remembering. Of course, if I did care about such things it would be easy to arrange to add them.
-
-
-Or I could just use Diary. That’s the beauty of Emacs: you can make it do pretty much whatever you need it to and very often what you need is already there.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.chiply.dev/post-june-emacs-carnival"
-                        open
-                      >
-                        <summary class="article-expander__title">Charlie Holland: Juneau Something? Emacs Teaches You How to Fish!</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.chiply.dev/post-june-emacs-carnival">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.chiply.dev/images/june-fish-banner-2.avif" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>1. TLDR   tldr
-
-
-
-
-
-The folks who &#x27;grok&#x27; Emacs aren&#x27;t wizards.  They don&#x27;t learn Emacs, per se, but instead they learn the handful of built-in commands for asking Emacs about Emacs.  Those same commands work on themselves, so once you know them you can teach yourself everything else you need to know about Emacs.  This post tours that machinery (the C-h help family, apropos, Info, xref, describe- and friends) by following the questions a curious beginner typically asks, and ends by fishing a built-in game out of Emacs and reading its source with that machinery.  Emacs teaches itself in this way.  In other words, Emacs doesn&#x27;t give you a fish, it teaches you how to fish!
-
-
-
-
-
-
-
-
-2. About   emacs carnival builtins
-learning craft over the weakness of receiving crafts.  Some nagging feeling tel…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;41
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -10626,87 +10660,6 @@ The video will be recorded for future reference.</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://sachachua.com/blog/2026/06/2026-06-08-emacs-news/"
-                        open
-                      >
-                        <summary class="article-expander__title">Sacha Chua: 2026-06-08 Emacs news</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://sachachua.com/blog/2026/06/2026-06-08-emacs-news/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Emacs Built-ins appreciation month! I&#x27;m coming to appreciate the menu bar more. What built-ins do you appreciate? Write about it and send Ross a link!
-
-
-
-Emacs updates:
-
-Emacs 31.0.90 pretest is available (Reddit, Linux Compatible, Irreal)
-
-Upcoming events (iCal file, Org):
-
-Emacs Berlin: In-Person-Only Emacs-Berlin Stammtisch https://emacs-berlin.org/ Tue Jun 9 1900 Europe/Berlin
-OrgMeetup (virtual) https://orgmode.org/worg/orgmeetup.html Wed Jun 10 0900 America/Vancouver - 1100 America/Chicago - 1200 America/Toronto - 1600 Etc/GMT - 1800 Europe/Berlin - 2130 Asia/Kolkata – Thu Jun 11 0000 Asia/Singapore
-Atelier Emacs Montpellier (in person) https://lebib.org/date/atelier-emacs Fri Jun 12 1800 Europe/Paris
-M-x Research: TBA https://m-x-research.github.io/ Wed Jun 17 0800 America/Vancouver…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://ray-on-emacs.blogspot.com/2026/06/emacs-and-numeric-keypad.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Raymond Zeitler: Emacs and the Numeric Keypad</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://ray-on-emacs.blogspot.com/2026/06/emacs-and-numeric-keypad.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>If you have a numeric keypad1, try this in the *scratch* buffer:
-enable numlock and press the zero on the numeric keyboard
-(Num-0). Then press the zero located between the alpha keys and the
-  function keys (0). Okay, you see 00, no big deal.
-Why do I bring this up?  Emacs interprets Num-0 keypress as  while it interprets 0 as
-0.  This means that you could bind Num-0 to a function without
-affecting the other 0. You could configure Num-0 to insert &quot;zero&quot; by
-entering and evaluating this in the *scratch* buffer:
-(keymap-local-set &quot;&quot; #&#x27;(lambda () (interactive) (insert &quot;zero&quot;)))
-
-
- 
-That&#x27;s a trivial example, of course.  But it implies that you can
-      have ten more keys to play with.  Similarly, the arithmetic
-      operator keys on the numeric keyboard differ from the &quot;regular
-      ones&quot; that are grouped with the alpha keys.  They can be bound
-      to functions, referenced
-      as , , , .  But
-      these also accept the standard C- M- S- modifier keys, which
-      gives you twelve more possibilities.  This is true also for the
-      Insert key  and the Delete key  that
-      double as Num-0 and Num-., respectively.
-I have a &quot;Calc&quot; key above the numeric keypad.  Unfortunately I
-can&#x27;t seem to use it for anything in Emacs -- it opens the OS&#x27;s
-calc.exe program regardless of what modifiers I use with it.  This is
-a shame because it would be the ideal mapping for M-x calc.  Perhaps
-this can be altered in BIOS.
-But I do use my Win key as a modifier (sometimes). And I&#x27;ve heard
-that the Caps Lock key can be repurposed.  These are topics for
-  other posts.
-https://en.wikipedia.org/wiki/Numeric_keypad</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -10753,25 +10706,6 @@ https://en.wikipedia.org/wiki/Numeric_keypad</span>
                             <span class="media-object__text">
                               <span>Just Baseball posts a good article on the adjustment James Wood made on breaking pitches. They make a good point about how he doesn’t need to be great against them: Notably, Wood has not made these gains by eliminating the swing-and-miss from his game. In some respects, the opposite is true. He is still whiffing […]</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.baseballmusings.com/?p&#x3D;160373"
-                        open
-                      >
-                        <summary class="article-expander__title">Games of the Day</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.baseballmusings.com/?p&#x3D;160373">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The Yankees visit the Guardians with Will Warren facing Gavin Williams. The two starters own nearly identical ERAs, 3.22 for Warren, 3.20 for Williams, with Williams pitching more innings. The two are even in walk rate, with Warren better at preventing home runs and Williams better at recording strikeouts. Cristopher Sanchez tries to continue his […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -10899,278 +10833,6 @@ Sorsby asked for the injunction on the grounds that gambling is a mental illness
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;225069"
-                        open
-                      >
-                        <summary class="article-expander__title">Jacob Misiorowski Is Throwing So Damn Hard</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/jacob-misiorowski-is-throwing-so-damn-hard">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2279656774_b9a91a-e1780947082145.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In the third inning of the Brewers&#x27; 7-1 win over the Rockies on Saturday, Milwaukee pitcher Jacob Misiorowski threw a four-seam fastball low and outside to Kyle Karros for a ball. The pitch was special and routine all at once. Its measured velocity of 103.7 mph makes it the fastest pitch by a starter in official recorded history. But the speed of that fastball has somehow become business as usual for the Brewers&#x27; 24-year-old ace.
-In this game alone, Misiorowski threw the 58 fastest pitches of the game, and 45 of those pitches were above 101 mph—another record. When Brewers manager Pat Murphy looked like he was going to the bullpen after his starter allowed runners on the corners with only one out in the 7th, Misiorowski refused, shaking his head and saying &quot;No&quot; in the direction of the dugout. Then he proceeded to pitch back-to-back strikeouts, hurling a 101-mph fastball on his 98th pitch of the game.
-
-https://www.youtube.com/watch?v&#x3D;6EJKeC18FqI</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;225049"
-                        open
-                      >
-                        <summary class="article-expander__title">Mirra Andreeva Did The Inevitable</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/mirra-andreeva-did-the-inevitable">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2279550298.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I can&#x27;t say that &quot;amount of that dog in them&quot; has always factored into my evaluation of a tennis prospect, but it should, and with Mirra Andreeva, it was always the central factor. In civilian life, being well-adjusted as a good thing, but in tennis, its opposite can be a kind of performance enhancing drug.
-Back at the 2024 Australian Open, Andreeva was a 16-year-old flying into the fourth round. To get there, she had to make a dramatic comeback from 1-5 down in the third set. During the match she bit her own arm in anger. Noted grit-possessor Andy Murray admired her grit as he watched on TV. Andreeva played astounding tennis, and more astounding still is what she said after, when most players would have been awash in gratitude.  “Fourth round is nothing,&quot; she said afterwards. &quot;Maybe if I …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;225024"
-                        open
-                      >
-                        <summary class="article-expander__title">Monaco Will Always Be Like This</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/monaco-will-always-be-like-this">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/kimiAntonelliMonaco.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I am sorry to report that despite the FIA extending the program yet another year, the Monaco Experiment is still a failure. The battle between engineers trying to &quot;make cars fast&quot; and &quot;let cars pass&quot; has, at least in Monaco, resulted in racing that allows for neither and resists outside intervention. Last year&#x27;s double pit stop experiment proved futile; this Sunday showed that the new regulations and slightly smaller cars still could not provide for better racing. If there is entertainment, it needs to come from racing so atrocious to watch it loops right back around to &quot;fun,&quot; or other sessions, or, depending on your media diet, inane celebrity hullabaloo. This is why I propose we rename the Monaco Grand Prix to something more apt. The Monaco Qualifying Prix, perhaps. More like Monaco Gran…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;23
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;225060"
-                        open
-                      >
-                        <summary class="article-expander__title">Portugal Belongs To Cristiano Ronaldo For A Little Bit Longer</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/portugal-belongs-to-cristiano-ronaldo-for-a-little-bit-longer">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2279583863.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>It&#x27;s almost time for the World Cup. Before the tournament, we&#x27;ll be previewing each of the top 15 teams by FIFA rankings that made the tournament. Why the top 15? Because that&#x27;s how many we needed to do in order for the USMNT to make the cut. You can read all of our previews here.
-You&#x27;re watching to see if Cristiano Ronaldo at age 41 is still worth watching. You know you are. You&#x27;re trying to force-feed a LeBron James comparison into your cerebral cortex because you know what happened in the past, but have no idea about the future except that 41-year-olds are unreliable predictors. So you make up reasons why Portugal&#x27;s chances at a deep run are dependent upon Ronaldo&#x27;s résumé, when in fact we won&#x27;t see Portugal&#x27;s true mettle as the fifth-rated team in this tournament until they have escaped a deeply rudimentary group with Colombia, the Democratic Republic of Congo, and Uzbekistan. Historically, Colombia is a formidable knockout stage team, though it missed out entirely in 2022. Uzbekistan is at its first Mundial ever and the DRC has only made one, in 1974 when the country was known as Zaire, and lost all three matches. President Mobutu Sese Seko offered to jail them all when they returned. So that&#x27;s fun. Against this field, we will learn little, but your Ronaldo fixation will be dealt with next month, so be patient.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;225025"
-                        open
-                      >
-                        <summary class="article-expander__title">Border Security Theatrics Are Rising At History’s Stupidest World Cup</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/border-security-theatrics-are-rising-at-historys-stupidest-world-cup">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2249526695.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>For a World Cup host nation, the soccer is largely incidental. Even more obviously disposable are soaring ideas of bringing the international community together in a peaceful celebration of yadda yadda. In the case of the United States under the Trump administration, the point of hosting a World Cup is security theater. The nation&#x27;s ideals have been whittled all the way down to the most petty shit imaginable: Hosting a World Cup forces the world to come to us when most would rather not, forces allies and enemies alike to grovel and flatter and suffer and whine at our caprice, all while we sit there with a finger jammed in our nose and our dick flopping out. It&#x27;s a show not of strength but of power, something that tickles the groins of the coalition of landlords and aspiring landlords that …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Tech</button>
-                  <a class="source-heading__link" href="https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m.xml">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/rzmx7qvck58zfo7ysatu.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Important Good Internet announcement</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/rzmx7qvck58zfo7ysatu.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>96
-        Important Good Internet announcement
-        
-@media only screen and (max-width: 620px) {
-  table.body {
-    width: 100%;
-    min-width: 100%;
-  }
-
-  table.body .content {
-    padding: 0 !important;
-  }
-
-  table.body .container {
-    padding: 0 !important;
-    width: 100% !important;
-  }
-
-  table.body .main {
-    border-spacing: 10px 0 !important;
-    border-left-width: 0 !important;
-    border-radius: 0 !important;
-    border-right-width: 0 !important;
-  }
-
-  table.body .img-responsive {
-    height: auto !important;
-    max-width: 100% !important;
-    width: auto !important;
-  }
-}
-@media all {
-  .ExternalClass {
-    width: 100%;
-  }
-
-  .ExternalClass,
-.ExternalClass p,
-.ExternalClass span,
-.ExternalClass font,
-.ExternalClass td,
-.ExternalClass div {
-    line-height: 100%;
-  }
-
-…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Law Dork</button>
-                  <a class="source-heading__link" href="https://www.lawdork.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.lawdork.com/p/trump-admin-trans-prison-transfer-policy-blocked"
-                        open
-                      >
-                        <summary class="article-expander__title">Federal judge blocks Trump admin&#x27;s effort to move 14 trans women to men&#x27;s prisons</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.lawdork.com/p/trump-admin-trans-prison-transfer-policy-blocked">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substackcdn.com/image/fetch/$s_!0EUb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bbe6b59-2188-465e-80de-767283a48551_1684x792.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>&quot;[I]t is fundamentally unreasonable for prison officials to respond to serious risks ... by intentionally creating those risks and offering to treat them after they predictably occur.&quot;</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Misc Newsletters</button>
-                  <a class="source-heading__link" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/i4x3rz2m2yaryj1h8csa.html"
-                        open
-                      >
-                        <summary class="article-expander__title">A 5-5 road trip, time to celebrate?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/i4x3rz2m2yaryj1h8csa.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>A 5-5 road trip, time to celebrate?
-@media (max-width: 1024px) {
-  .typography .pullquote-align-left,
-  .typography.editor .pullquote-align-left,
-  .typography .pullquote-align-right,
-  .typography.editor .pullquote-align-right,
-  .typography .pullquote-align-wide,
-  .typography.editor .pullquote-align-wide,
-  .typography .pullquote-align-center,
-  .typography.editor .pullquote-align-center {
-    float: none;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 100%;
-  }
-}
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .typography .markup table.image-wrapper img,
-  .typography.editor .markup table.image-wrapper img,
-  .typography .markup table.kindle-wrapper img,
-  .typography.editor .markup table.kindle-wrapper img {
-    max-width: 550px;
-  }
-}
-@media (min-width:…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -11178,8 +10840,8 @@ You&#x27;re watching to see if Cristiano Ronaldo at age 41 is still worth watchi
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/27735463951">
-        <time id="build-timestamp" datetime="2026-06-18T03:51:12.650Z">2026-06-18T03:51:12.650Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/27747722426">
+        <time id="build-timestamp" datetime="2026-06-18T08:45:16.163Z">2026-06-18T08:45:16.163Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
