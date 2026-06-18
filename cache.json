@@ -266,6 +266,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/mjuh8ra3n3lj82c00fhs.html",
+          "author": null,
+          "description": "What you can do about Trump’s anti-mail voting order \n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n   …",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/mjuh8ra3n3lj82c00fhs.html",
+          "publishedOn": "2026-06-18T22:03:16.382Z",
+          "wordCount": 1350,
+          "title": "What you can do about Trump’s anti-mail voting order",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/a7sopubodnkdl8pdwj03.html",
           "author": null,
           "description": "‘Straight Up Intimidation’: The Latest on the FBI Raid of an Ohio Voter Registration Group#outlook a { padding:0; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0 !important; } .nl2go_preheader { display: none !important; mso-hide:all !important; mso-line-height-rule: exactly; visibility: hidden !important; line-height: 0px !important; font-size: 0px !important; } body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubi…",
@@ -673,6 +683,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.chiply.dev/post-ask-emacs",
+          "author": null,
+          "description": "1. Two Keys   emacs help\n\n\n\n\n\nLearning Emacs is not about scouring through documents and memorizing facts.\n\n\n\nThose who use Emacs fluently know that the real skill is knowing how to ask Emacs about Emacs.  The answer to any question you might have about Emacs lives behind just two keys: M-x and C-h.  If you internalize those, plus a handful of command prefixes for the auto-discovery commands, Emacs will teach you whatever you need to know, on demand.\n\n\n\n\n2. Start with M-x   mx\nM-x (that's Alt-x) runs any command by name.  That's cool, but what makes it really special is that it lets you auto-complete command names. \n\n\n\nPress M-x, type in some input, press TAB (for 'complete this input') and Emacs filters the entire list of commands based on your input:\n\n\n\n\n\n\n\n\n\nThere are two important cons…",
+          "link": "https://www.chiply.dev/post-ask-emacs",
+          "publishedOn": "2026-06-18T21:38:26.000Z",
+          "wordCount": 4044,
+          "title": "Charlie Holland: Emacs Teaches Emacs: The Missing README",
+          "imageUrl": "https://www.chiply.dev/images/june-fish-banner-2.avif"
+        },
+        {
           "id": "https://irreal.org/blog/?p=13884",
           "author": null,
           "description": "June’s Emacs Carnival about underappreciated Emacs builtins. His post is about the Emacs help system and how you can use it to learn everything about Emacs. It’s a commonplace to say that Emacs is self-documenting but that’s little more than a slogan. Holland takes a long look at what that actually means.\n\n\nHe begins by noting that the help system is self-recursive is the sense that you can ask the help system about the help system. You simply call the help-for-help command intuitively bound to Ctrl+h Ctrl+h. If you’ve never tried it, try it now. It gives you a nice listing of every help command.\n\n\nOnce you invoke help for a certain command or variable, you get a buffer containing a description of the command or variable as well as links to related commands/variables and the source code of the command so you can see exactly what it does and how it does it. You can discover what command a shortcut calls or what the shortcut for a command is with a simple help call.\n\n\nThere are a bunch of other aspects to the help system. You can, for example, get a listing of what your last commands were, complete information about the character at point, the current value of a variable, the current mode, and lots more.\n\n\nFor discovery, there are the apropos command and its siblings to help you find what you’re looking for even if you have no idea of its name. You merely need to have a general description of what it does. Fuzzy completion on command invocation (Meta+x) helps you find the right command even if you have only a vague idea of its name.\n\n\nHoplland’s post is long and has a lot of information but it’s one that every Emacs n00b—or more experienced user, for that matter—should read. In Holland’s terminology, it’s the first node in the Emacs knowledge graph.",
@@ -1059,6 +1079,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160500",
+          "author": "David Pinto",
+          "description": "MLB proposed really terrible ideas for the draft. They’ll cut the number of rounds, the amount of money, set an age limit of 20, and extend the draft to international amateurs. What continues to get me is the response of the MLBPA. The MLBPA says in a statement that MLB’s proposals today re: amateur and […]",
+          "link": "https://www.baseballmusings.com/?p=160500",
+          "publishedOn": "2026-06-18T22:47:22.000Z",
+          "wordCount": 7644,
+          "title": "Drafty Idea",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160497",
           "author": "David Pinto",
@@ -1587,36 +1617,6 @@
           "publishedOn": "2026-06-09T17:38:14.000Z",
           "wordCount": 7612,
           "title": "Games of the Day",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160385",
-          "author": "David Pinto",
-          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.333, 0.723 — Otto Lopez batting vs. Zac Gallen. 0.306, 0.702 — Xavier Edwards batting vs. Zac Gallen. 0.292, 0.708 — Jung Hoo Lee batting vs. Andrew Alvarez. 0.292, 0.697 — Troy Johnston batting vs. Colin Rea. 0.290, 0.679 — Luis Garcia Jr. […]",
-          "link": "https://www.baseballmusings.com/?p=160385",
-          "publishedOn": "2026-06-09T10:57:26.000Z",
-          "wordCount": 7986,
-          "title": "Beat the Streak Picks",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160383",
-          "author": "David Pinto",
-          "description": "Yandy Diaz of the Rays uses a one for three with a home run and a walk to open up a five point lead in the Baseball Musings Batter Rankings. His teammate, Junior Caminero, singled and walked in a 3-1 win over the Red Sox and stands in fifth place. The Dodgers sat idle on […]",
-          "link": "https://www.baseballmusings.com/?p=160383",
-          "publishedOn": "2026-06-09T10:19:13.000Z",
-          "wordCount": 7822,
-          "title": "Best Batter Today",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160381",
-          "author": "David Pinto",
-          "description": "",
-          "link": "https://www.baseballmusings.com/?p=160381",
-          "publishedOn": "2026-06-09T10:00:18.000Z",
-          "wordCount": 7457,
-          "title": "Tuesday Update",
           "imageUrl": null
         }
       ]
@@ -2268,6 +2268,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=226443",
+          "author": "Samer Kalaf",
+          "description": "Money can't buy happiness, and it seems money plus an NBA title doesn't necessarily buy charisma. The New York Knicks held their championship parade and rally in Manhattan on Thursday, and although not everyone could get in to see the actual procession, there were plenty of fans celebrating in the area. Last week's good vibes kept rolling; Jerome \"Junkyard Dog\" Williams was in attendance. But for a moment, the ceremony at City Hall functioned as an inescapable reminder that James Dolan owns this team, and that means he gets some mic time whenever they appear as a group to celebrate their triumph. In less than two minutes, he was able to briefly derail the festivities like a heinous fart at happy hour.\n\nhttps://www.youtube.com/watch?v=eE0zd5IpfAw\n\n\nDolan began his remarks with a comment about the younger Knicks fans in the crowd, but because he can't deliver a line, it came off as a weird dig about their sincere love for the team. \"Thank you for waiting 53 years, although I have to say: When I look out over the Knick fans here, you all don't look older than 53 years,\" he said. \"Some of you weren't waiting 53—you weren't born yet. But we're very, very happy to have brought you a championship.\" Is it their fault for not being born earlier?",
+          "link": "https://defector.com/turd-makes-brief-appearance-in-punch-bowl",
+          "publishedOn": "2026-06-18T21:32:39.000Z",
+          "wordCount": 5362,
+          "title": "Turd Makes Brief Appearance In Punch Bowl",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2282236740-e1781814049964.jpg"
+        },
         {
           "id": "https://defector.com/?p=226356",
           "author": "David Roth",
