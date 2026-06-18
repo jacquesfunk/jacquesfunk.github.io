@@ -266,6 +266,26 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/a7sopubodnkdl8pdwj03.html",
+          "author": null,
+          "description": "‘Straight Up Intimidation’: The Latest on the FBI Raid of an Ohio Voter Registration Group#outlook a { padding:0; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0 !important; } .nl2go_preheader { display: none !important; mso-hide:all !important; mso-line-height-rule: exactly; visibility: hidden !important; line-height: 0px !important; font-size: 0px !important; } body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubi…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/a7sopubodnkdl8pdwj03.html",
+          "publishedOn": "2026-06-18T18:03:05.932Z",
+          "wordCount": 3203,
+          "title": "‘Straight Up Intimidation’: The Latest on the FBI Raid of an Ohio Voter Registration Group",
+          "imageUrl": null
+        },
+        {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/kppck92no8sp15cakbp6.html",
+          "author": null,
+          "description": "96\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:620px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.row-2 .column-1 .block-4.button_block td.pad{padding:12px 12px 2px 12px!important}.row-2 .column-1 .…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/kppck92no8sp15cakbp6.html",
+          "publishedOn": "2026-06-18T17:35:44.350Z",
+          "wordCount": 721,
+          "title": "We’re halfway through our June campaign but less than halfway to our goal",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/sy4o4b4yesxm8q6uyu2j.html",
           "author": null,
           "description": "96\n\n\n\n\n\n\nAmerica’s 250th Shouldn’t Be Used as Trump’s Personal Rally\n\n\nimg{-ms-interpolation-mode:bicubic;}\ntable, td{mso-table-lspace:0pt;mso-table-rspace:0pt;}\n.mceStandardButton, .mceStandardButton td, .mceStandardButton td a{mso-hide:all!important;}\np, a, li, td, blockquote{mso-line-height-rule:exactly;}\np, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}\n.mcnPreviewText{display:none!important;}\n.bodyCell{margin:0 auto;padding:0;width:100%;}\n.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;}\n.ReadMsgBody, .ExternalClass{width:100%;}\na[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inherit!im…",
@@ -1031,16 +1051,6 @@
           "wordCount": 304,
           "title": "Sacha Chua: From DC Toedt: Copy Org Mode as Markdown",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.davep.org/2026/06/09/blogmore-el-v4-7-0.html",
-          "author": null,
-          "description": "A quick update to blogmore.el.\nHaving recently added series support to\nBlogMore it made sense that I then add a\nquick way of adding a post to a series in the package.\n\nYou can, of course, set a new one too, but the idea here (as with categories\nand tags) is that you can quickly find back an existing series and add the\ncurrent post to it.\nAlso, as with tags, the expectation is that either a single series is being\nused, or if more than one series is in play for a post they'll be listed as\na comma-separated list. The issue here is that while BlogMore supports this:\nseries:\n  - Some series of posts\n  - Some other series of posts\n  - Yet another series of posts\n\n\n\nthe frontmatter-handling code in blogmore.el isn't very sophisticated at\nall; it doesn't actually handle it as actual YAML, instead just treating it\nas a set of key/value pairs separated by a colon.\nAt some point soon I want to give blogmore.el a revamp and base all of the\nfrontmatter-handling code on something like\nyaml.el. I did do some experimenting\nlast night to drop it in and handle proper lists. It worked well enough, but\nI abandoned the work as I realised I really wanted to start again from\nscratch and build blogmore.el from the bottom up using that package.\nSome time soon...",
-          "link": "https://blog.davep.org/2026/06/09/blogmore-el-v4-7-0.html",
-          "publishedOn": "2026-06-09T07:42:40.000Z",
-          "wordCount": 418,
-          "title": "Dave Pearson: blogmore.el v4.7.0",
-          "imageUrl": "https://blog.davep.org/attachments/2026/06/09/select-a-series.webp"
         }
       ]
     },
@@ -1781,6 +1791,22 @@
       "siteUrl": "https://www.lawdork.com",
       "articles": [
         {
+          "id": "https://www.lawdork.com/p/scotus-hemani-marijuana-guns",
+          "author": "Chris Geidner",
+          "description": "There were no dissents, but the four divergent opinions on Thursday show continuing disagreement over how to judge the constitutionality of gun regulations.",
+          "link": "https://www.lawdork.com/p/scotus-hemani-marijuana-guns",
+          "publishedOn": "2026-06-18T19:05:09.000Z",
+          "wordCount": null,
+          "title": "Justices rule feds' prosecution of marijuana user for gun possession violates Second Amendment",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!sPNF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F289fdca6-b8c1-480e-a2e9-258d7009e29a.heic",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!sPNF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F289fdca6-b8c1-480e-a2e9-258d7009e29a.heic"
+        },
+        {
           "id": "https://www.lawdork.com/p/trans-prisoners-medical-care-dc-circuit-lamberth",
           "author": "Chris Geidner",
           "description": "A D.C. Circuit ruling would have allowed the Trump admin's anti-trans policy to go into effect, but a new district court injunction issued hours later blocked the policy yet again.",
@@ -1899,6 +1925,38 @@
       "feedUrl": "https://www.hopiumchronicles.com/feed",
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
+        {
+          "id": "https://www.hopiumchronicles.com/p/meet-johnny-garcia-our-terrific-candidate",
+          "author": "Simon Rosenberg",
+          "description": "With our help Garcia beat Maureen Galindo in the primary run-off. Now he is working hard to win the general - and we need to help him again!",
+          "link": "https://www.hopiumchronicles.com/p/meet-johnny-garcia-our-terrific-candidate",
+          "publishedOn": "2026-06-18T20:20:31.000Z",
+          "wordCount": null,
+          "title": "Meet Johnny Garcia, Our Terrific Candidate Fighting To Turn TX-35 Blue",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/202591149/d13fc479788812ceb7ece1f095b0c4f0.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.hopiumchronicles.com/p/fri-june-19-1pm-et-hopium-founding",
+          "author": "Simon Rosenberg",
+          "description": "Watch new video of the massive Ukrainian today on Moscow - Slava Ukraini!!!!!!!!!",
+          "link": "https://www.hopiumchronicles.com/p/fri-june-19-1pm-et-hopium-founding",
+          "publishedOn": "2026-06-18T19:30:38.000Z",
+          "wordCount": null,
+          "title": "Fri, June 19, 1pm ET - Hopium Founding Members Most Fridays Get Together",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/5d9666a5-710f-44c3-84fa-8013d3fecf18_487x682.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/5d9666a5-710f-44c3-84fa-8013d3fecf18_487x682.png"
+        },
         {
           "id": "https://www.hopiumchronicles.com/p/trumps-presidency-has-been-a-catastrophe",
           "author": "Simon Rosenberg",
@@ -2210,6 +2268,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=226356",
+          "author": "David Roth",
+          "description": "There's no sense in dancing around it: The sports vibes are pretty damn good at the moment. New Yorkers celebrated a long-awaited championship in the streets with a minimum of property damage and a surfeit of giddiness. The World Cup is already attempting to redeem its shameful and odious origins by delivering some of the most potent sports spectacle on Earth, and communities of all kinds are rallying around the spirited overage of it all. The positive vibrations that emanate from groups of good-natured people getting together to do fun stuff are overwhelming, so much so that Drew and I knew what we needed to do. We needed to get Ray Ratto on the podcast to straighten this shit out, and quickly.\nIt is not a well-kept secret that Ray, for all his gruffness and singular knack for compound literary burns, is an incredibly kind and pleasant human being, and even he has not been immune to the happy surprises that this World Cup has already delivered in bulk. But we eased into things on the grumpy end of the pool, with a discussion of The Alexis Lalas Experience, which is already threatening to tip over Fox's World Cup studio show under the weight of its smirking villain's thudding trollishness. We would return to soccer later in the show, but beginning with some familiar annoyances helped to level-set nicely.",
+          "link": "https://defector.com/feeling-those-good-sports-feelings-with-ray-ratto",
+          "publishedOn": "2026-06-18T18:51:49.000Z",
+          "wordCount": 5812,
+          "title": "Feeling Those Good Sports Feelings, With Ray Ratto",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281969376.jpg"
+        },
         {
           "id": "https://defector.com/?p=226380",
           "author": "Luis Paez-Pumar",
