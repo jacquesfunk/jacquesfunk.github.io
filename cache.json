@@ -278,6 +278,26 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/shxh6fdzc30parkos5us.html",
+          "author": null,
+          "description": "19 red flag anti-voting candidates on the ballot this November \n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      9…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/shxh6fdzc30parkos5us.html",
+          "publishedOn": "2026-06-19T22:06:00.647Z",
+          "wordCount": 762,
+          "title": "19 red flag anti-voting candidates on the ballot this November",
+          "imageUrl": null
+        },
+        {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/nrzimfuvoxgu9pl46r83.html",
+          "author": null,
+          "description": "96\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:670px){.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.social_block .social-table{display:inline-block!important}}\nsup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-1…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/nrzimfuvoxgu9pl46r83.html",
+          "publishedOn": "2026-06-19T21:26:01.946Z",
+          "wordCount": 492,
+          "title": "Action Alert: Oppose Postal Service Interference with Voting by Mail",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/rn1t8tgsa8ou7yhm4dpv.html",
           "author": null,
           "description": "The week USPS followed Trump’s orders \n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n    \n      \n    \n …",
@@ -1013,16 +1033,6 @@
           "wordCount": null,
           "title": "Chris Maiorana: When tmux is your window manager",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.davep.org/2026/06/10/blogmore-el-v5-0-0.html",
-          "author": null,
-          "description": "When I released blogmore.el v4.7.0\nyesterday I finished off by saying that it was my intention, at some point,\nto rework the frontmatter-handling code so that it did proper YAML parsing.\nAs often happens with these sorts of things, \"some point\" ended up being\nthat evening.\nI've rewritten everything to do with handling properties in the frontmatter\nso that it now uses yaml.el. This has a\nnumber of knock-on effects. The first and most obvious effect is that\nanything that is a list/array in the frontmatter is actually properly\ntreated as a list. A good example here is tags. Now you can have your tags\nlook like:\ntags: [BlogMore, Emacs, \"Emacs Lisp\", Lisp, \"blogmore.el\", coding]\n\n\n\nor:\ntags:\n  - BlogMore\n  - Emacs\n  - Emacs Lisp\n  - Lisp\n  - blogmore.el\n  - coding\n\n\n\nand blogmore.el will still …",
-          "link": "https://blog.davep.org/2026/06/10/blogmore-el-v5-0-0.html",
-          "publishedOn": "2026-06-10T09:22:12.000Z",
-          "wordCount": 860,
-          "title": "Dave Pearson: blogmore.el v5.0.0",
-          "imageUrl": "https://blog.davep.org/attachments/2026/06/10/blogmore-menu.webp"
         }
       ]
     },
@@ -1549,36 +1559,6 @@
           "publishedOn": "2026-06-10T10:57:28.000Z",
           "wordCount": 7561,
           "title": "Shots at the Red Sox",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160396",
-          "author": "David Pinto",
-          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.328, 0.692 — Carson Kelly batting at Michael Lorenzen. 0.318, 0.698 — Nico Hoerner batting at Michael Lorenzen. 0.316, 0.722 — Brandon Marsh batting at Max Scherzer. 0.310, 0.706 — Miguel Andujar batting vs. Brady Singer. 0.309, 0.677 — Alex Bregman batting at […]",
-          "link": "https://www.baseballmusings.com/?p=160396",
-          "publishedOn": "2026-06-10T10:50:35.000Z",
-          "wordCount": 7948,
-          "title": "Beat the Streak Picks",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160394",
-          "author": "David Pinto",
-          "description": "Yandy Diaz of the Rays holds a five point lead in the Baseball Musings Batter Rankings. He singled and walked in a 4-3 win over the Red Sox, the Rays maintaining first place in the AL East by percentage points. Shohei Ohtani of the Dodgers sits in second place after a double and a walk […]",
-          "link": "https://www.baseballmusings.com/?p=160394",
-          "publishedOn": "2026-06-10T10:19:45.000Z",
-          "wordCount": 7731,
-          "title": "Best Batter Today",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160392",
-          "author": "David Pinto",
-          "description": "",
-          "link": "https://www.baseballmusings.com/?p=160392",
-          "publishedOn": "2026-06-10T09:57:35.000Z",
-          "wordCount": 7459,
-          "title": "Wednesday Update",
           "imageUrl": null
         }
       ]
@@ -3366,16 +3346,6 @@
           "wordCount": 1947,
           "title": "TPUSA’s new message to girls: Hate yourself",
           "imageUrl": "https://www.salon.com/app/uploads/2026/06/alex-clark-GettyImages-2220158875.jpg"
-        },
-        {
-          "id": "https://www.salon.com/2026/06/10/pete-hegseths-mormon-diss-explodes-a-maga-myth/-full",
-          "author": null,
-          "description": "Pete Hegseth is not a coherent thinker. This was demonstrated yet again on the D-Day anniversary event in France, where the defense secretary gave a speech that was supposed to be anti-Nazi but ended up employing a metaphor that made the Nazis sound like the victims in WWII. Hegseth claims he wants military promotions based on merit, but has systematically blocked promotions of people are more qualified than he’ll ever be, for no other seeming reason than they aren’t white men. And, of course, he keeps saying the U.S. has won the Iran war, which still has no end in sight, while also begging for more time and money to wage it.\nSo it’s no surprise that the famously incompetent Donald Trump appointee recently claimed to be “simplifying” the military’s religious coding system, but only ended u…",
-          "link": "https://www.salon.com/2026/06/10/pete-hegseths-mormon-diss-explodes-a-maga-myth/",
-          "publishedOn": "2026-06-10T10:45:49.000Z",
-          "wordCount": 2053,
-          "title": "Pete Hegseth’s Mormon diss explodes a MAGA myth",
-          "imageUrl": "https://www.salon.com/app/uploads/2026/06/pete-hegseth-GettyImages-2278850276.jpg"
         }
       ]
     },
