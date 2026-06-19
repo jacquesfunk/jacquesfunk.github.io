@@ -22,11 +22,44 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-06-18 datetime="2026-06-18T22:47:22.000Z">2026-06-18</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-06-18 datetime="2026-06-18T22:47:22.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-06-18 datetime="2026-06-19T01:31:51.000Z">2026-06-18</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-06-18 datetime="2026-06-19T01:31:51.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Stuff That Interests Me</button>
+                  <a class="source-heading__link" href="https://stuffthatinterestsme.net">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://stuffthatinterestsme.net/?p&#x3D;2803"
+                        open
+                      >
+                        <summary class="article-expander__title">Top 100 New Wave Songs</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://stuffthatinterestsme.net/top-100-new-wave-songs/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>** 2 Things before I start.  I generally try to avoid making articles multiple pages, it pisses me off too having to click. But this article is 25,000 words and has 100 videos, so on one page it would take a million years to load and probably crash my server.  Second thing, for Tear For...</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -10704,48 +10737,6 @@ The whole spec is short enough to read in an afternoon, and people hav…</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://sachachua.com/blog/2026/06/from-dc-toedt-copy-org-mode-as-markdown/"
-                        open
-                      >
-                        <summary class="article-expander__title">Sacha Chua: From DC Toedt: Copy Org Mode as Markdown</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://sachachua.com/blog/2026/06/from-dc-toedt-copy-org-mode-as-markdown/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Marcin Borkowski: 2021-05-02 Org-mode to Markdown via the clipboard
-Marcel Kapfer - Copy an Org Mode region as Markdown
-Reddit
-Reddit
-(defun my/org-to-markdown-clipboard ()
-  &quot;Export org region (or buffer) to Markdown and copy to clipboard.
-With no active region, exports the whole buffer.&quot;
-  (interactive)
-  (require &#x27;ox-md)
-  (let* ((text (if (use-region-p)
-                   (buffer-substring-no-properties (region-beginning)
-(region-end))
-                 (buffer-substring-no-properties (point-min) (point-max))))
-         (md (org-export-string-as text &#x27;md t &#x27;(:with-toc nil
-                                                :with-author nil
-                                                :with-date nil
-                                                :with-title nil))))
-    (kill-new md)
-    (message &quot;Markdown copied (%d chars)&quot; (length md))))
-(with-eval-after-load &#x27;org
-  (define-key org-mode-map (kbd &quot;C-c m&quot;) #&#x27;my/org-to-markdown-clipboard))
-
-View Org source for this post
-You can e-mail me at sacha@sachachua.com.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -10859,88 +10850,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             <span class="media-object__text">
                               <span>Top stories 06/09/2026#outlook a { padding:0; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0 !important; } .nl2go_preheader { display: none !important; mso-hide:all !important; mso-line-height-rule: exactly; visibility: hidden !important; line-height: 0px !important; font-size: 0px !important; } body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; } a img { border:none; } table { border-collapse:collapse; mso-ta…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/bcqnfksesggpxsu3jzu3.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Off to a slow start…</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/bcqnfksesggpxsu3jzu3.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>96
-
-
-
-
-
-
-Off to a slow start…
-
-
-img{-ms-interpolation-mode:bicubic;}
-table, td{mso-table-lspace:0pt;mso-table-rspace:0pt;}
-.mceStandardButton, .mceStandardButton td, .mceStandardButton td a{mso-hide:all!important;}
-p, a, li, td, blockquote{mso-line-height-rule:exactly;}
-p, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
-.mcnPreviewText{display:none!important;}
-.bodyCell{margin:0 auto;padding:0;width:100%;}
-.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;}
-.ReadMsgBody, .ExternalClass{width:100%;}
-a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inherit!important;font-weight:inherit!important;l…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/bdo0khpeoynelaf3o8w0.html"
-                        open
-                      >
-                        <summary class="article-expander__title">father_karine and Jess Craven posted new notes</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/bdo0khpeoynelaf3o8w0.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Email from Substack
-@media (max-width: 1024px) {
-  .typography .pullquote-align-left,
-  .typography.editor .pullquote-align-left,
-  .typography .pullquote-align-right,
-  .typography.editor .pullquote-align-right,
-  .typography .pullquote-align-wide,
-  .typography.editor .pullquote-align-wide,
-  .typography .pullquote-align-center,
-  .typography.editor .pullquote-align-center {
-    float: none;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 100%;
-  }
-}
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .typography .markup table.image-wrapper img,
-  .typography.editor .markup table.image-wrapper img,
-  .typography .markup table.kindle-wrapper img,
-  .typography.editor .markup table.kindle-wrapper img {
-    max-width: 550px;
-  }
-}
-@media (min-width: 1024px) {
-  .ty…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -11092,117 +11001,6 @@ Kevin:</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;224790"
-                        open
-                      >
-                        <summary class="article-expander__title">Argentina Is Cool, Calm, Collected, And Ready To Repeat As World Champs</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/argentina-is-cool-calm-collected-and-ready-to-repeat-as-world-champs">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-1461661313.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>It&#x27;s almost time for the World Cup. Before the tournament, we&#x27;ll be previewing each of the top 15 teams by FIFA rankings that made the tournament. Why the top 15? Because that&#x27;s how many we needed to do in order for the USMNT to make the cut. You can read all of our previews here.
-Every country heading into the World Cup faces pressure, but not in equal amounts. For a side like Brazil, who hasn&#x27;t won the World Cup in an unacceptable 24 years and hasn&#x27;t even made it to the semis in either of the last two tournaments, the pressure can be suffocating. That&#x27;s the type of pressure Argentina had heading into 2022, but thanks to one of the greatest soccer matches of all time coming out in Argentina&#x27;s favor, the level of pressure heading into the 2026 edition has to be at a decades-long low.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;33
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;225164"
-                        open
-                      >
-                        <summary class="article-expander__title">Mike Babcock Is Proof That No One Is Too Weird To Get Hired In The NHL</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/mike-babcock-is-proof-that-no-one-is-too-weird-to-get-hired-in-the-nhl">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-1186381414.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The National Hockey League is no more prone to imitation than any other species of parrot, particularly when something that seems counterintuitive works out well. It is for that reason and that reason only that the news out of Edmonton this day is not as gobsmacking at it seems.
-Wait, Edmonton? What the hell does Edmonton have to do with anything, and why should it pull one&#x27;s attention from what may be the most weirdly compelling Stanley Cup Finals in decades? Well, grab some pine, meat, and belt up, because we have finally reached the throbbing nucleus of organizational WTF-ness. While the Final is in Vegas and being minded by noted former-and-future head coach John Tortorella, the Oilers are about to hire Mike Babcock, the Captain Philip Francis Queeg of coaches, who is noted in the distant past for guiding championship teams in Detroit and noted more recently for destroying his reputation through a series of bizarre psychological gambits against players that helped get him fired from one job and forced him to resign from another.
-And because hockey management is an inward-facing phenomenon along the lines of the Habsburg dynasty, the Babcock hire ties directly into these Finals. In other words, you couldn&#x27;t make this up, and if you could, you should check into a mushroom detox center.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;225061"
-                        open
-                      >
-                        <summary class="article-expander__title">‘Off Campus’ Can’t Sell The Hockey Player Fantasy</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/off-campus-cant-sell-the-hockey-player-fantasy">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/off-campus-season-1-poster-with-garrett-and-hannah-1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In October 2024, about a year before Heated Rivalry was greenlit by studio producers in Canada, Amazon Prime Video announced that it was adapting the popular hockey romance book series Off Campus. Set at a fictional Ivy League school called “Briar University,” author Elle Kennedy&#x27;s series follows four rakish men’s hockey players on the Briar U team as they meet the women who convince them to commit to a relationship.
-With Amazon Prime Video already riding a wave of romance show success with The Summer I Turned Pretty, optioning Kennedy’s Off Campus made sense. Around 2023, hockey romance, a niche subset of the romance genre, began to surge in popularity on BookTok. Romance readers everywhere became obsessed—some to the point that they started showing up to NHL games and borderline sexually harassing players during warmups. It seemed like every other day, some romance imprint was announcing yet another hockey romance novel, often taking gleeful advantage of the punny titling opportunities offered by the word “puck.” Kennedy was one of the early pioneers of hockey romance, publishing the first book in the series, The Deal, in 2015. The series has sold millions of copies, and like Netflix’s Bridgerton, each book focuses on a different hockey player on the Briar team, which makes for an easy book-per-season cadence. 
-I read The Deal in high school, and learned that Kennedy’s writing has all the markers of a 2010s heterosexual romance that leaves you feeling like you might have sent the women’s rights movement back by a decade. She also doesn’t seem to have a good grasp of how and when NHL prospects are drafted, which irked me. Garrett Graham, the main love interest in The Deal, is hailed as a top college player and he spends a lot of time thinking about how he’ll declare for the draft after his senior year of college—which doesn’t make sense because he would lose draft eligibility by age 20.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;225136"
-                        open
-                      >
-                        <summary class="article-expander__title">Washed-Up Clown Spencer Pratt Will Not Be The Mayor of Los Angeles</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/washed-up-clown-spencer-pratt-will-not-be-the-mayor-of-los-angeles">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2278612817_0522a8-e1780954231390.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Spencer Pratt will not be the mayor of Los Angeles. There should be no need to utter this sentence, much like “You do not have to swallow a rhino whole, tonight” or “Human shit will not rain down from the sky.” Well, of course not. Should I have been worried about that? 
-According to more than a few self-styled Serious Thinkers—perhaps still haunted by the shock they experienced on the night of Nov. 8, 2016—who insisted on treating Pratt’s mayoral primary run as a legitimate rebuke of status quo politics: Yes. The Free Press worked harder than anyone has ever worked before to imbue Pratt&#x27;s candidacy with a sense of “woke Democrats just might lose because of woke” verve.  
-
-https://bsky.app/profile/passantino.bsky.social/post/3mnqlfoemb42g</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;23
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;225148"
-                        open
-                      >
-                        <summary class="article-expander__title">The Knicks Stopped Moving And Died</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/the-knicks-stopped-moving-and-died">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2280602734.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Despite plenty of cause to fear that the NBA Finals would be derailed by Donald Trump&#x27;s attendance and the resultant security apparatus that turned Madison Square Garden into a cage within a cage within a cage, Knicks fans showed up early Monday night, packed the house, booed the President, and watched their team lose a frustrating Game 3, 115-111.
-So much of the story of Game 3 concerns the various, overlapping off-court spectacles framing the game—the chirring that&#x27;s emanated from a New York City totally entranced by its team&#x27;s now-snapped 13-game playoff win streak; the multiple associates of Jeffrey Epstein who took in the game from premium seats; the outrageous price of tickets for both normal people and the countless celebrities in attendance—and not just because they are so significant on the merits. The game at the center of all this simultaneously felt elevated to a new plane of competitive fervor by the baying crowd, and also slightly warped on account of being the object of such intense, idiosyncratic focus.
-
-https://www.youtube.com/watch?v&#x3D;UH1fAm8Enok</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -11305,24 +11103,6 @@ https://www.youtube.com/watch?v&#x3D;UH1fAm8Enok</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.hopiumchronicles.com/p/making-diseases-and-parasites-great"
-                        open
-                      >
-                        <summary class="article-expander__title">Making Diseases And Parasites Great Again, Pratt Crashes Out In LA, Talarico Leads By 3 In New Texas Poll</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/making-diseases-and-parasites-great">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substack-post-media.s3.amazonaws.com/public/images/df843315-0e37-4c01-af9c-13671902427d_316x172.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I&#x27;ll be joining Stuart Stevens live at Noon ET today over at Lincoln Square - lots to talk about!</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -11362,124 +11142,6 @@ The Free Press, the conservative publication founded by Bari Weiss, who is prese
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/-full"
-                        open
-                      >
-                        <summary class="article-expander__title">Bezos says raising his taxes won&#x27;t help. It&#x27;s a risk we should take.Rex Huppke</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.usatoday.com/gcdn/authoring/authoring-images/2026/04/13/USAT/89587769007-2239610155.jpg?crop&#x3D;5095,2866,x0,y764&amp;width&#x3D;3200&amp;height&#x3D;1801&amp;format&#x3D;pjpg&amp;auto&#x3D;webp" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Billionaire Jeff Bezos has boldly put forth a challenge to Americans.
-In a May 20 interview with CNBC, he referenced a hypothetical New York City school teacher and said, “You could double the taxes I pay, and it&#x27;s not going to help that teacher in Queens. I promise you.”
-Promises from billionaires will be worth about as much as cash in the post-apocalyptic wasteland we’ll soon inhabit, thanks to all the billionaires. (I’m guessing the primary currency will be potable water and locally sourced rich-people meat.)
-So I’ll respond to Mr. Bezos with this: “You say doubling your taxes won’t help regular Americans. Well, sir, that’s a risk I’m willing to take. What say we quintuple your taxes and see what shakes out?”
-I say let&#x27;s raise Jeff Bezos&#x27; taxes and see how it all works out
-
-&quot;If people w…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/-full"
-                        open
-                      >
-                        <summary class="article-expander__title">Stop trying to make dates happen. Have you even tried a Twinkie?Rex Huppke</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/06/USAT/90431895007-getty-images-2213158027.jpg?crop&#x3D;2118,1192,x0,y0&amp;width&#x3D;2118&amp;height&#x3D;1192&amp;format&#x3D;pjpg&amp;auto&#x3D;webp" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>A couple years ago, my wife and oldest son began experimenting with Medjool dates. I wasn’t happy about it.
-I’ve tried dates in many forms, and never liked them. They look like legless cockroaches. They are, in my estimation, overly ambitious raisins. Nobody likes an overly ambitious raisin.
-
-Tragically, my family’s addiction to these ancient stone fruits grew worse, to the point I couldn’t trust any baked good that appeared in the kitchen, as it was likely date-tainted. Gone were the days of normal muffins or oatmeal bars. All I heard was “These are sweetened with dates!” and “The dates give these such a great texture!” and other such excited mumbo-jumbo.
-My son is addicted to dates and I&#x27;ve never been more ashamed
-Not long ago, my wonderful adult son – whose father raised him with the ho…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Dworkin Report</button>
-                  <a class="source-heading__link" href="https://www.dworkinsubstack.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.dworkinsubstack.com/p/a-federal-judge-blocked-the-regimes"
-                        open
-                      >
-                        <summary class="article-expander__title">A Federal Judge Blocked The Regime’s Food Blackmail, A Kennedy Center Drummer Beat Trump’s Million-Dollar Lawsuit, and 20 States Sank His $100,000 Tax</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dworkinsubstack.com/p/a-federal-judge-blocked-the-regimes">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substack-post-media.s3.amazonaws.com/public/images/b34144f2-c012-4a10-948b-09f3c195d36d_3600x2025.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Plus, another Dan Sullivan just entered the race for Senate in Alaska</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Balls and Strikes</button>
-                  <a class="source-heading__link" href="https://ballsandstrikes.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://ballsandstrikes.org/?p&#x3D;18353"
-                        open
-                      >
-                        <summary class="article-expander__title">The Supreme Court Hasn’t Ruled On Birthright Citizenship. Trump May Be Deporting Newborn Citizens Anyway</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://ballsandstrikes.org/scotus/birthright-citizenship-missing-girls-and-babies/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://ballsandstrikes.org/wp-content/uploads/2025/05/GettyImages-2214713970-1200x630.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The Trump administration is refusing to answer questions about the health and safety of undocumented young mothers—and their newborn U.S. citizens—in its custody.
-The post The Supreme Court Hasn’t Ruled On Birthright Citizenship. Trump May Be Deporting Newborn Citizens Anyway appeared first on Balls and Strikes.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -11487,8 +11149,8 @@ The post The Supreme Court Hasn’t Ruled On Birthright Citizenship. Trump May B
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/27796169925">
-        <time id="build-timestamp" datetime="2026-06-18T23:44:24.834Z">2026-06-18T23:44:24.834Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/27804844223">
+        <time id="build-timestamp" datetime="2026-06-19T04:11:13.339Z">2026-06-19T04:11:13.339Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

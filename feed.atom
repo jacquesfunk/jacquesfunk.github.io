@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-06-18T23:44:24.871Z</updated>
+    <updated>2026-06-19T04:11:13.370Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Top 100 New Wave Songs]]></title>
+        <id>https://stuffthatinterestsme.net/?p=2803</id>
+        <link href="https://stuffthatinterestsme.net/top-100-new-wave-songs/"/>
+        <updated>2026-06-19T01:31:51.000Z</updated>
+        <summary type="html"><![CDATA[** 2 Things before I start.  I generally try to avoid making articles multiple pages, it pisses me off too having to click. But this article is 25,000 words and has 100 videos, so on one page it would take a million years to load and probably crash my server.  Second thing, for Tear For...]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Drafty Idea]]></title>
         <id>https://www.baseballmusings.com/?p=160500</id>
@@ -5933,226 +5943,6 @@ Kevin:]]></summary>
         <summary type="html"><![CDATA[The Red Sox face the Rays in St. Petersburg with Payton Tolle taking on Nick Martinez. The two own nearly identical ERAs, Tolle at 2.28, Martinez at 2.29. Tolle strikes out batters at a much higher rate, 9.70 per 9 IP compared to 5.35 per 9 IP for Martinez. Martinez only walks 1.66 per 9 […]]]></summary>
         <author>
             <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sacha Chua: From DC Toedt: Copy Org Mode as Markdown]]></title>
-        <id>https://sachachua.com/blog/2026/06/from-dc-toedt-copy-org-mode-as-markdown/</id>
-        <link href="https://sachachua.com/blog/2026/06/from-dc-toedt-copy-org-mode-as-markdown/"/>
-        <updated>2026-06-09T15:49:08.000Z</updated>
-        <summary type="html"><![CDATA[Marcin Borkowski: 2021-05-02 Org-mode to Markdown via the clipboard
-Marcel Kapfer - Copy an Org Mode region as Markdown
-Reddit
-Reddit
-(defun my/org-to-markdown-clipboard ()
-  "Export org region (or buffer) to Markdown and copy to clipboard.
-With no active region, exports the whole buffer."
-  (interactive)
-  (require 'ox-md)
-  (let* ((text (if (use-region-p)
-                   (buffer-substring-no-properties (region-beginning)
-(region-end))
-                 (buffer-substring-no-properties (point-min) (point-max))))
-         (md (org-export-string-as text 'md t '(:with-toc nil
-                                                :with-author nil
-                                                :with-date nil
-                                                :with-title nil))))
-    (kill-new md)
-    (message "Markdown copied (%d chars)" (length md))))
-(with-eval-after-load 'org
-  (define-key org-mode-map (kbd "C-c m") #'my/org-to-markdown-clipboard))
-
-View Org source for this post
-You can e-mail me at sacha@sachachua.com.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Argentina Is Cool, Calm, Collected, And Ready To Repeat As World Champs]]></title>
-        <id>https://defector.com/?p=224790</id>
-        <link href="https://defector.com/argentina-is-cool-calm-collected-and-ready-to-repeat-as-world-champs"/>
-        <updated>2026-06-09T15:32:00.000Z</updated>
-        <summary type="html"><![CDATA[It's almost time for the World Cup. Before the tournament, we'll be previewing each of the top 15 teams by FIFA rankings that made the tournament. Why the top 15? Because that's how many we needed to do in order for the USMNT to make the cut. You can read all of our previews here.
-Every country heading into the World Cup faces pressure, but not in equal amounts. For a side like Brazil, who hasn't won the World Cup in an unacceptable 24 years and hasn't even made it to the semis in either of the last two tournaments, the pressure can be suffocating. That's the type of pressure Argentina had heading into 2022, but thanks to one of the greatest soccer matches of all time coming out in Argentina's favor, the level of pressure heading into the 2026 edition has to be at a decades-long low.]]></summary>
-        <author>
-            <name>Luis Paez-Pumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Making Diseases And Parasites Great Again, Pratt Crashes Out In LA, Talarico Leads By 3 In New Texas Poll]]></title>
-        <id>https://www.hopiumchronicles.com/p/making-diseases-and-parasites-great</id>
-        <link href="https://www.hopiumchronicles.com/p/making-diseases-and-parasites-great"/>
-        <updated>2026-06-09T15:30:48.000Z</updated>
-        <summary type="html"><![CDATA[I'll be joining Stuart Stevens live at Noon ET today over at Lincoln Square - lots to talk about!]]></summary>
-        <author>
-            <name>Simon Rosenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mike Babcock Is Proof That No One Is Too Weird To Get Hired In The NHL]]></title>
-        <id>https://defector.com/?p=225164</id>
-        <link href="https://defector.com/mike-babcock-is-proof-that-no-one-is-too-weird-to-get-hired-in-the-nhl"/>
-        <updated>2026-06-09T15:04:03.000Z</updated>
-        <summary type="html"><![CDATA[The National Hockey League is no more prone to imitation than any other species of parrot, particularly when something that seems counterintuitive works out well. It is for that reason and that reason only that the news out of Edmonton this day is not as gobsmacking at it seems.
-Wait, Edmonton? What the hell does Edmonton have to do with anything, and why should it pull one's attention from what may be the most weirdly compelling Stanley Cup Finals in decades? Well, grab some pine, meat, and belt up, because we have finally reached the throbbing nucleus of organizational WTF-ness. While the Final is in Vegas and being minded by noted former-and-future head coach John Tortorella, the Oilers are about to hire Mike Babcock, the Captain Philip Francis Queeg of coaches, who is noted in the distant past for guiding championship teams in Detroit and noted more recently for destroying his reputation through a series of bizarre psychological gambits against players that helped get him fired from one job and forced him to resign from another.
-And because hockey management is an inward-facing phenomenon along the lines of the Habsburg dynasty, the Babcock hire ties directly into these Finals. In other words, you couldn't make this up, and if you could, you should check into a mushroom detox center.]]></summary>
-        <author>
-            <name>Ray Ratto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Federal Judge Blocked The Regime’s Food Blackmail, A Kennedy Center Drummer Beat Trump’s Million-Dollar Lawsuit, and 20 States Sank His $100,000 Tax]]></title>
-        <id>https://www.dworkinsubstack.com/p/a-federal-judge-blocked-the-regimes</id>
-        <link href="https://www.dworkinsubstack.com/p/a-federal-judge-blocked-the-regimes"/>
-        <updated>2026-06-09T15:00:55.000Z</updated>
-        <summary type="html"><![CDATA[Plus, another Dan Sullivan just entered the race for Senate in Alaska]]></summary>
-        <author>
-            <name>Scott Dworkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[‘Off Campus’ Can’t Sell The Hockey Player Fantasy]]></title>
-        <id>https://defector.com/?p=225061</id>
-        <link href="https://defector.com/off-campus-cant-sell-the-hockey-player-fantasy"/>
-        <updated>2026-06-09T14:20:16.000Z</updated>
-        <summary type="html"><![CDATA[In October 2024, about a year before Heated Rivalry was greenlit by studio producers in Canada, Amazon Prime Video announced that it was adapting the popular hockey romance book series Off Campus. Set at a fictional Ivy League school called “Briar University,” author Elle Kennedy's series follows four rakish men’s hockey players on the Briar U team as they meet the women who convince them to commit to a relationship.
-With Amazon Prime Video already riding a wave of romance show success with The Summer I Turned Pretty, optioning Kennedy’s Off Campus made sense. Around 2023, hockey romance, a niche subset of the romance genre, began to surge in popularity on BookTok. Romance readers everywhere became obsessed—some to the point that they started showing up to NHL games and borderline sexually harassing players during warmups. It seemed like every other day, some romance imprint was announcing yet another hockey romance novel, often taking gleeful advantage of the punny titling opportunities offered by the word “puck.” Kennedy was one of the early pioneers of hockey romance, publishing the first book in the series, The Deal, in 2015. The series has sold millions of copies, and like Netflix’s Bridgerton, each book focuses on a different hockey player on the Briar team, which makes for an easy book-per-season cadence. 
-I read The Deal in high school, and learned that Kennedy’s writing has all the markers of a 2010s heterosexual romance that leaves you feeling like you might have sent the women’s rights movement back by a decade. She also doesn’t seem to have a good grasp of how and when NHL prospects are drafted, which irked me. Garrett Graham, the main love interest in The Deal, is hailed as a top college player and he spends a lot of time thinking about how he’ll declare for the draft after his senior year of college—which doesn’t make sense because he would lose draft eligibility by age 20.]]></summary>
-        <author>
-            <name>Heather Wei-Xi Chen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Off to a slow start…]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/bcqnfksesggpxsu3jzu3.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/bcqnfksesggpxsu3jzu3.html"/>
-        <updated>2026-06-09T14:04:15.224Z</updated>
-        <summary type="html"><![CDATA[96
-
-
-
-
-
-
-Off to a slow start…
-
-
-img{-ms-interpolation-mode:bicubic;}
-table, td{mso-table-lspace:0pt;mso-table-rspace:0pt;}
-.mceStandardButton, .mceStandardButton td, .mceStandardButton td a{mso-hide:all!important;}
-p, a, li, td, blockquote{mso-line-height-rule:exactly;}
-p, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
-.mcnPreviewText{display:none!important;}
-.bodyCell{margin:0 auto;padding:0;width:100%;}
-.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;}
-.ReadMsgBody, .ExternalClass{width:100%;}
-a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inherit!important;font-weight:inherit!important;l…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Washed-Up Clown Spencer Pratt Will Not Be The Mayor of Los Angeles]]></title>
-        <id>https://defector.com/?p=225136</id>
-        <link href="https://defector.com/washed-up-clown-spencer-pratt-will-not-be-the-mayor-of-los-angeles"/>
-        <updated>2026-06-09T13:38:58.000Z</updated>
-        <summary type="html"><![CDATA[Spencer Pratt will not be the mayor of Los Angeles. There should be no need to utter this sentence, much like “You do not have to swallow a rhino whole, tonight” or “Human shit will not rain down from the sky.” Well, of course not. Should I have been worried about that? 
-According to more than a few self-styled Serious Thinkers—perhaps still haunted by the shock they experienced on the night of Nov. 8, 2016—who insisted on treating Pratt’s mayoral primary run as a legitimate rebuke of status quo politics: Yes. The Free Press worked harder than anyone has ever worked before to imbue Pratt's candidacy with a sense of “woke Democrats just might lose because of woke” verve.  
-
-https://bsky.app/profile/passantino.bsky.social/post/3mnqlfoemb42g]]></summary>
-        <author>
-            <name>Sohini Desai</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[father_karine and Jess Craven posted new notes]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/bdo0khpeoynelaf3o8w0.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/bdo0khpeoynelaf3o8w0.html"/>
-        <updated>2026-06-09T13:15:13.414Z</updated>
-        <summary type="html"><![CDATA[Email from Substack
-@media (max-width: 1024px) {
-  .typography .pullquote-align-left,
-  .typography.editor .pullquote-align-left,
-  .typography .pullquote-align-right,
-  .typography.editor .pullquote-align-right,
-  .typography .pullquote-align-wide,
-  .typography.editor .pullquote-align-wide,
-  .typography .pullquote-align-center,
-  .typography.editor .pullquote-align-center {
-    float: none;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 100%;
-  }
-}
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .typography .markup table.image-wrapper img,
-  .typography.editor .markup table.image-wrapper img,
-  .typography .markup table.kindle-wrapper img,
-  .typography.editor .markup table.kindle-wrapper img {
-    max-width: 550px;
-  }
-}
-@media (min-width: 1024px) {
-  .ty…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Supreme Court Hasn’t Ruled On Birthright Citizenship. Trump May Be Deporting Newborn Citizens Anyway]]></title>
-        <id>https://ballsandstrikes.org/?p=18353</id>
-        <link href="https://ballsandstrikes.org/scotus/birthright-citizenship-missing-girls-and-babies/"/>
-        <updated>2026-06-09T13:06:14.000Z</updated>
-        <summary type="html"><![CDATA[The Trump administration is refusing to answer questions about the health and safety of undocumented young mothers—and their newborn U.S. citizens—in its custody.
-The post The Supreme Court Hasn’t Ruled On Birthright Citizenship. Trump May Be Deporting Newborn <span class="dewidow">Citizens Anyway</span> appeared first on Balls and Strikes.]]></summary>
-        <author>
-            <name>Madiba K. Dennie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Knicks Stopped Moving And Died]]></title>
-        <id>https://defector.com/?p=225148</id>
-        <link href="https://defector.com/the-knicks-stopped-moving-and-died"/>
-        <updated>2026-06-09T13:00:33.000Z</updated>
-        <summary type="html"><![CDATA[Despite plenty of cause to fear that the NBA Finals would be derailed by Donald Trump's attendance and the resultant security apparatus that turned Madison Square Garden into a cage within a cage within a cage, Knicks fans showed up early Monday night, packed the house, booed the President, and watched their team lose a frustrating Game 3, 115-111.
-So much of the story of Game 3 concerns the various, overlapping off-court spectacles framing the game—the chirring that's emanated from a New York City totally entranced by its team's now-snapped 13-game playoff win streak; the multiple associates of Jeffrey Epstein who took in the game from premium seats; the outrageous price of tickets for both normal people and the countless celebrities in attendance—and not just because they are so significant on the merits. The game at the center of all this simultaneously felt elevated to a new plane of competitive fervor by the baying crowd, and also slightly warped on account of being the object of such intense, idiosyncratic focus.
-
-https://www.youtube.com/watch?v=UH1fAm8Enok]]></summary>
-        <author>
-            <name>Patrick Redford</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bezos says raising his taxes won't help. It's a risk we should take.Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/"/>
-        <updated>2026-06-09T11:13:01.899Z</updated>
-        <summary type="html"><![CDATA[Billionaire Jeff Bezos has boldly put forth a challenge to Americans.
-In a May 20 interview with CNBC, he referenced a hypothetical New York City school teacher and said, “You could double the taxes I pay, and it's not going to help that teacher in Queens. I promise you.”
-Promises from billionaires will be worth about as much as cash in the post-apocalyptic wasteland we’ll soon inhabit, thanks to all the billionaires. (I’m guessing the primary currency will be potable water and locally sourced rich-people meat.)
-So I’ll respond to Mr. Bezos with this: “You say doubling your taxes won’t help regular Americans. Well, sir, that’s a risk I’m willing to take. What say we quintuple your taxes and see what shakes out?”
-I say let's raise Jeff Bezos' taxes and see how it all works out
-
-"If people w…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stop trying to make dates happen. Have you even tried a Twinkie?Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/"/>
-        <updated>2026-06-09T07:45:15.141Z</updated>
-        <summary type="html"><![CDATA[A couple years ago, my wife and oldest son began experimenting with Medjool dates. I wasn’t happy about it.
-I’ve tried dates in many forms, and never liked them. They look like legless cockroaches. They are, in my estimation, overly ambitious raisins. Nobody likes an overly ambitious raisin.
-
-Tragically, my family’s addiction to these ancient stone fruits grew worse, to the point I couldn’t trust any baked good that appeared in the kitchen, as it was likely date-tainted. Gone were the days of normal muffins or oatmeal bars. All I heard was “These are sweetened with dates!” and “The dates give these such a great texture!” and other such excited mumbo-jumbo.
-My son is addicted to dates and I've never been more ashamed
-Not long ago, my wonderful adult son – whose father raised him with the ho…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
         </author>
     </entry>
 </feed>
