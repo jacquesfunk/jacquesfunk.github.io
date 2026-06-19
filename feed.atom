@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-06-19T15:12:46.893Z</updated>
+    <updated>2026-06-19T17:56:12.536Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The week USPS followed Trump’s orders]]></title>
+        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/rn1t8tgsa8ou7yhm4dpv.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/rn1t8tgsa8ou7yhm4dpv.html"/>
+        <updated>2026-06-19T16:06:36.822Z</updated>
+        <summary type="html"><![CDATA[The week USPS followed Trump’s orders 
+    
+    
+    
+    
+    
+
+
+
+
+
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+
+
+    
+  
+    
+      
+      96
+    
+    
+      
+    
+ …]]></summary>
+        <author>
+            <name>Current Events</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Trump’s Worst Week Yet]]></title>
         <id>https://www.dworkinsubstack.com/p/trumps-worst-week-yet</id>
@@ -6079,58 +6112,6 @@ and blogmore.el will still …]]></summary>
         <summary type="html"><![CDATA[[request] flags:--- replies:1 topic:add]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[James Dyer: The Hidden Git Stash Keys in Emacs VC Directory Mode]]></title>
-        <id>https://emacs.dyerdwelling.family/emacs/20260610061920-emacs--the-hidden-git-stash-keys-in-emacs-vc-directory-mode/</id>
-        <link href="https://emacs.dyerdwelling.family/emacs/20260610061920-emacs--the-hidden-git-stash-keys-in-emacs-vc-directory-mode/"/>
-        <updated>2026-06-10T05:19:00.000Z</updated>
-        <summary type="html"><![CDATA[vc-dir and vc-mode led me into wanting to delete a stash (not to pop). There are "z" keybindings in vc-dir:
-
-
-
-z c	vc-git-stash
-z p	vc-git-stash-pop
-z s	vc-git-stash-snapshot
-
-
-vc-dir you get a rather nice little Stash section tacked on at the bottom listing all your stashes:
-
-
-
-
-
-
-
-
-
-I genuinely assumed I was missing something obvious, so I did the sensible Emacs thing and hit C-h m to describe the mode, scrolled through the whole keymap, and, nothing about stashes at all.
-
-
-
-Well how about C-h b (describe-bindings)?, initially nothing!, however I stumbled on a solution, if the point is on a stash name, the following is exposed!
-
-
-
-C-k	vc-git-stash-delete-at-point
-RET	vc-git-stash-show-at-point
-=	vc-git-stash-show-at-point
-A	vc-git-stash-apply-at-point
-C	vc-git-stash
-P	vc-git-stash-pop-at…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Steven Spielberg's new film is his best in decades]]></title>
-        <id>https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php-full</id>
-        <link href="https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php"/>
-        <updated>2026-06-10T03:35:41.145Z</updated>
-        <summary type="html"><![CDATA[I put a question to my SFGATE colleagues just the other day that had them mulling for a bit: What’s the last great movie that Steven Spielberg directed? I’m not talking about a merely good film. The old man can put together a competent picture anytime he likes. I’m talking about an all-timer of a Spielberg movie, something that belongs up there with his best work, which includes “Jaws,” “Raiders of the Lost Ark,” “E.T.,” “Schindler’s List” and … you get the idea. When you’re a director who’s made not just one of the greatest movies of all time but several of them, audience members like me hope for (and oftentimes expect) greatness from you with every subsequent project. Such is the standard that Spielberg, father of the modern blockbuster, set for himself. It’s also a standard that, in my …]]></summary>
-        <author>
-            <name>Drew Magary, Columnist - SFGATE</name>
         </author>
     </entry>
 </feed>

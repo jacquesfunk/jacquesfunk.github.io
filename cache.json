@@ -278,6 +278,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/rn1t8tgsa8ou7yhm4dpv.html",
+          "author": null,
+          "description": "The week USPS followed Trump’s orders \n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n    \n      \n    \n …",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/rn1t8tgsa8ou7yhm4dpv.html",
+          "publishedOn": "2026-06-19T16:06:36.822Z",
+          "wordCount": 1520,
+          "title": "The week USPS followed Trump’s orders",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/z1hathskw6rmwf07dbbo.html",
           "author": null,
           "description": "Welcome to the BIGGEST stories in tech and beyond\n\n* {\n-webkit-font-smoothing: antialiased;\n-moz-osx-font-smoothing: grayscale;\n}\nbody {\nmargin: 0 !important;\npadding: 0 !important;\n-webkit-text-size-adjust: 100% !important;\n-ms-text-size-adjust: 100% !important;\n-webkit-font-smoothing: antialiased !important;\n}\np {\n/* padding: 0 !important; */\nmargin: 0 !important;\n}\ntable {\nborder-collapse: collapse;\nmso-table-lspace: 0px;\nmso-table-rspace: 0px;\npadding: 0;\n}\ntable td {\nborder-collapse: collapse;\n}\ntd,\na,\nspan {\nborder-collapse: collapse;\nmso-line-height-rule: exactly;\n}\nh1 {\nmargin: 0;\npadding: 0;\n}\nh1 {\nfont-size: 100%;\nfont-weight: normal;\n}\n.ReadMsgBody {\nwidth: 100%;\n}\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td {\nline-height: 100%\n}\n.appleLinks a {…",
@@ -1023,16 +1033,6 @@
           "wordCount": 312,
           "title": "Org Mode requests: [FR] add :company-doc-buffer, :company-kind etc properties for pcomplete in org-mode",
           "imageUrl": null
-        },
-        {
-          "id": "https://emacs.dyerdwelling.family/emacs/20260610061920-emacs--the-hidden-git-stash-keys-in-emacs-vc-directory-mode/",
-          "author": null,
-          "description": "vc-dir and vc-mode led me into wanting to delete a stash (not to pop). There are \"z\" keybindings in vc-dir:\n\n\n\nz c\tvc-git-stash\nz p\tvc-git-stash-pop\nz s\tvc-git-stash-snapshot\n\n\nvc-dir you get a rather nice little Stash section tacked on at the bottom listing all your stashes:\n\n\n\n\n\n\n\n\n\nI genuinely assumed I was missing something obvious, so I did the sensible Emacs thing and hit C-h m to describe the mode, scrolled through the whole keymap, and, nothing about stashes at all.\n\n\n\nWell how about C-h b (describe-bindings)?, initially nothing!, however I stumbled on a solution, if the point is on a stash name, the following is exposed!\n\n\n\nC-k\tvc-git-stash-delete-at-point\nRET\tvc-git-stash-show-at-point\n=\tvc-git-stash-show-at-point\nA\tvc-git-stash-apply-at-point\nC\tvc-git-stash\nP\tvc-git-stash-pop-at…",
-          "link": "https://emacs.dyerdwelling.family/emacs/20260610061920-emacs--the-hidden-git-stash-keys-in-emacs-vc-directory-mode/",
-          "publishedOn": "2026-06-10T05:19:00.000Z",
-          "wordCount": 639,
-          "title": "James Dyer: The Hidden Git Stash Keys in Emacs VC Directory Mode",
-          "imageUrl": "https://emacs.dyerdwelling.family/static/emacs/20260610061920-emacs--The-Hidden-Git-Stash-Keys-in-Emacs-VC-Directory-Mode.jpg"
         }
       ]
     },
@@ -4059,16 +4059,6 @@
           "publishedOn": "2026-06-12T16:43:25.088Z",
           "wordCount": 177,
           "title": "Stephen Colbert's brilliant, bittersweet finale",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php-full",
-          "author": null,
-          "description": "I put a question to my SFGATE colleagues just the other day that had them mulling for a bit: What’s the last great movie that Steven Spielberg directed? I’m not talking about a merely good film. The old man can put together a competent picture anytime he likes. I’m talking about an all-timer of a Spielberg movie, something that belongs up there with his best work, which includes “Jaws,” “Raiders of the Lost Ark,” “E.T.,” “Schindler’s List” and … you get the idea. When you’re a director who’s made not just one of the greatest movies of all time but several of them, audience members like me hope for (and oftentimes expect) greatness from you with every subsequent project. Such is the standard that Spielberg, father of the modern blockbuster, set for himself. It’s also a standard that, in my …",
-          "link": "https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php",
-          "publishedOn": "2026-06-10T03:35:41.145Z",
-          "wordCount": 177,
-          "title": "Steven Spielberg's new film is his best in decades",
           "imageUrl": null
         }
       ]
