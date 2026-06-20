@@ -685,6 +685,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=13889",
+          "author": null,
+          "description": "on what’s coming in Emacs 31. Juliato doesn’t mind living on the edge and has been tracking and using Emacs from the Master and emacs-31 branches. He says he likes to know “what’s in the box” and the way to learn what’s coming is to is to live in it. That’s a little too exciting for me and perhaps for you but Juliato’s post gives us a view of what to expect.\n\n\nThe list is a long one and his post reflects that. It’s a lengthy post but it does a good job of describing what to expect. The thing he’s happiest about is that with this release tree-sitter “just works”. Now installing new grammars is pretty much automatic and there are grammars for more languages.\n\n\nFor those of you who have to—or for some reason, choose to—use Markdown instead of Org mode, the new markdown-ts-mode will be a welcome addition. The new mode has an Org mode feel so Org users will feel comfortable using it.\n\n\nFor those of you who like the completion system making your mind up for you, there are many enhancements to eager completion. That definitely not something I would want; I hate having the system change what I’m typing without my asking for it.\n\n\nThere are several other changes. Check out Juliato’s post for the details. It looks to be a nice release with plenty of improvements. People like Juliato help the development process by thoroughly testing new features for bugs and for suggested improvements.\n\n\nThe minions are insisting that I let you know that you can and should view Juliato’s post in light mode by flipping the switch at the top of the page. Sorry for the boring announcement but none of us wants to deal with disgruntled minions.",
+          "link": "https://irreal.org/blog/?p=13889",
+          "publishedOn": "2026-06-20T14:24:26.000Z",
+          "wordCount": 1545,
+          "title": "Irreal: Changes Coming In Emacs 31",
+          "imageUrl": null
+        },
+        {
           "id": "https://emacsredux.com/blog/2026/06/20/essential-structured-navigation-and-editing-commands/",
           "author": null,
           "description": "Most of us learn Emacs one motion at a time – C-f for a character, M-f\nfor a word, C-n for a line. Useful, but those commands don’t know anything\nabout the structure of your code. Emacs has a whole other family of commands\nthat operate on balanced expressions and definitions instead, and once they\nbecome muscle memory they’re hard to give up.\nLisp hackers know these commands intimately – they’re the foundation\nparedit builds on. What’s less appreciated is that they\nwork in plenty of other languages too. I’ve been leaning on them heavily while\nbuilding neocaml, my tree-sitter package\nfor OCaml programming, so I’ll use OCaml for the examples here. The commands themselves are\ngeneral, though, and most of what follows applies to any structure-aware major\nmode.\nSexps and defuns\nTwo terms show u…",
@@ -1001,6 +1011,46 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160521",
+          "author": "David Pinto",
+          "description": "The Brewers and Braves present another great pitching matchup as Kyle Harrison faces Chris Sale. Harrison took his walks and strikeouts to the next level this season, adding over 1.5 K per 9 IP versus his career average and bring his BB per 9 down about .5 per 9 IP. Only Tarik Skubal and Paul […]",
+          "link": "https://www.baseballmusings.com/?p=160521",
+          "publishedOn": "2026-06-20T14:58:03.000Z",
+          "wordCount": 7632,
+          "title": "Games of the Day",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160519",
+          "author": "David Pinto",
+          "description": "In his fifth season in the majors, Corbin Carroll tied the Diamondbacks franchise record for triples with 52. (Story.) He reached that mark in about 850 fewer plate appearances than Stephen Drew. Carroll plays 2026 at seasonal age 25, the first season of his prime years. He might easily post another 60 triples by the […]",
+          "link": "https://www.baseballmusings.com/?p=160519",
+          "publishedOn": "2026-06-20T14:09:53.000Z",
+          "wordCount": 7553,
+          "title": "Triples Record",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160517",
+          "author": "David Pinto",
+          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.303, 0.709 — Ernie Clement batting at Colin Rea. 0.302, 0.720 — Jake Mangum batting at Tomoyuki Sugano. 0.302, 0.713 — Yandy Diaz batting vs. Cade Cavalli. 0.298, 0.704 — Nick Gonzales batting at Tomoyuki Sugano. 0.289, 0.677 — Byron Buxton batting at […]",
+          "link": "https://www.baseballmusings.com/?p=160517",
+          "publishedOn": "2026-06-20T11:22:40.000Z",
+          "wordCount": 7952,
+          "title": "Beat the Streak Picks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160515",
+          "author": "David Pinto",
+          "description": "Yandy Diaz of the Rays returned to the top five of the Baseball Musings Batter Rankings. His two for four in a 5-2 win over the Nationals put him in fifth place and raised his OBP to .398. Bryan Reynolds of the Pirates did not start against the Rockies Friday night, and remained in first […]",
+          "link": "https://www.baseballmusings.com/?p=160515",
+          "publishedOn": "2026-06-20T10:54:28.000Z",
+          "wordCount": 7708,
+          "title": "Best Batter Today",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160512",
           "author": "David Pinto",
@@ -1500,16 +1550,6 @@
           "wordCount": 7459,
           "title": "Thursday Update",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160404",
-          "author": "David Pinto",
-          "description": "Bryce Eldridge of the Giants hit a walk-off grand slam against the Nationals this afternoon, setting a record: He is now the youngest player in Major League Baseball to smack a walk-off grand slam. As reported by Maria Guardado of MLB.com, he surpassed the previous record holder Roberto Clemente who set the record in July […]",
-          "link": "https://www.baseballmusings.com/?p=160404",
-          "publishedOn": "2026-06-11T01:59:13.000Z",
-          "wordCount": 7584,
-          "title": "Good Company",
-          "imageUrl": null
         }
       ]
     },
@@ -1749,6 +1789,22 @@
       "feedUrl": "https://www.hopiumchronicles.com/feed",
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
+        {
+          "id": "https://www.hopiumchronicles.com/p/the-us-mens-soccer-team-inspires",
+          "author": "Simon Rosenberg",
+          "description": "\"Football is life\"",
+          "link": "https://www.hopiumchronicles.com/p/the-us-mens-soccer-team-inspires",
+          "publishedOn": "2026-06-20T14:55:59.000Z",
+          "wordCount": null,
+          "title": "The US Men's Soccer Team Wins, Inspires, And Brings Our Embattled Nation Together",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/14dfcce3-2991-4510-a0b7-f9bf3354bf09_640x427.avif",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/14dfcce3-2991-4510-a0b7-f9bf3354bf09_640x427.avif"
+        },
         {
           "id": "https://www.hopiumchronicles.com/p/the-iran-deal-wobbles-obamas-library",
           "author": "Simon Rosenberg",
@@ -2715,6 +2771,16 @@
       "feedUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
+        {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/gckkg691zqep76jj0bn5.html",
+          "author": null,
+          "description": "body,a{word-break:break-word;}.feed__title a{text-decoration:underline;}img[data-emoji]{height:1.2em;width:1.2em;vertical-align:middle;}table{border-collapse:collapse;}.headline h1,.paragraph h1,.text-element h1{line-height:1.5;margin:0.5em 0;}.headline h2,.paragraph h2,.text-element h2{line-height:1.5;margin:0.5em 0;}.headline h3,.paragraph h3,.text-element h3{line-height:1.5;margin:0.5em 0;}.headline h4,.paragraph h4,.text-element h4{font-size:20px;line-height:1.5;margin:0.5em\n0;}.headline h5,.paragraph h5,.text-element h5{font-size:18px;line-height:1.5;margin:0.5em 0;}.headline h6,.paragraph h6,.text-element h6{font-size:16px;line-height:1.5;margin:0.5em 0;}.headline p,.paragraph p,.text-element p{line-height:1.5;margin:0;}.headline div,.paragraph div,.text-element div{line-height:1.5;m…",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/gckkg691zqep76jj0bn5.html",
+          "publishedOn": "2026-06-20T14:05:53.979Z",
+          "wordCount": 954,
+          "title": "5-Nugget Saturday, June 20, 2026",
+          "imageUrl": null
+        },
         {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/0jh1ngiicnqirlvxnwz7.html",
           "author": null,
