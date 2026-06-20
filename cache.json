@@ -1003,16 +1003,6 @@
           "wordCount": 5065,
           "title": "Charlie Holland: Emacs SVG Benchmark Reveals Gaming-Caliber Frame Rates",
           "imageUrl": null
-        },
-        {
-          "id": "https://batsov.com/articles/2026/06/11/emacs-loves-asciidoc/",
-          "author": null,
-          "description": "Regular readers know I have a soft spot for\nAsciiDoc – I’ve written about it more than once, and\nit’s the markup behind the documentation of most of my bigger OSS projects\n(CIDER, nREPL, Projectile, RuboCop). It hits a sweet spot Markdown never quite\nreaches: rich enough for proper technical writing (admonitions, includes, real\ntables, cross-references), without dragging in the full ceremony of something\nlike DocBook.\nThere was just one problem, and it nagged at me for years: editing AsciiDoc in\nEmacs was never much fun.\nBackground\nFor years the only real option was adoc-mode, and it was showing its age. The\nfont-locking was uneven, it predated modern Asciidoctor syntax, and it lagged\nfar behind what markdown-mode (and org-mode) offered. So I’d catch myself\nreaching for Markdown in situati…",
-          "link": "https://batsov.com/articles/2026/06/11/emacs-loves-asciidoc/",
-          "publishedOn": "2026-06-11T06:00:00.000Z",
-          "wordCount": 1162,
-          "title": "Bozhidar Batsov: Emacs loves AsciiDoc",
-          "imageUrl": "https://batsov.com/assets/img/og-image.png"
         }
       ]
     },

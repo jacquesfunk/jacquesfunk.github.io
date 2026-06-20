@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-06-20T17:25:47.735Z</updated>
+    <updated>2026-06-20T19:24:33.091Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -5693,29 +5693,6 @@ Republicans cared about inflation when Biden was president
 When Biden – overseer of t…]]></summary>
         <author>
             <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bozhidar Batsov: Emacs loves AsciiDoc]]></title>
-        <id>https://batsov.com/articles/2026/06/11/emacs-loves-asciidoc/</id>
-        <link href="https://batsov.com/articles/2026/06/11/emacs-loves-asciidoc/"/>
-        <updated>2026-06-11T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Regular readers know I have a soft spot for
-AsciiDoc – I’ve written about it more than once, and
-it’s the markup behind the documentation of most of my bigger OSS projects
-(CIDER, nREPL, Projectile, RuboCop). It hits a sweet spot Markdown never quite
-reaches: rich enough for proper technical writing (admonitions, includes, real
-tables, cross-references), without dragging in the full ceremony of something
-like DocBook.
-There was just one problem, and it nagged at me for years: editing AsciiDoc in
-Emacs was never much fun.
-Background
-For years the only real option was adoc-mode, and it was showing its age. The
-font-locking was uneven, it predated modern Asciidoctor syntax, and it lagged
-far behind what markdown-mode (and org-mode) offered. So I’d catch myself
-reaching for Markdown in situati…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
