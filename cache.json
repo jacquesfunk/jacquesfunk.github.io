@@ -111,6 +111,22 @@
       "siteUrl": "https://www.dworkinsubstack.com",
       "articles": [
         {
+          "id": "https://www.dworkinsubstack.com/p/slotkin-moves-to-block-troops-at",
+          "author": "Scott Dworkin",
+          "description": "Plus, what are Trump’s 22 doctors hiding? Rep. Raskin demands answers",
+          "link": "https://www.dworkinsubstack.com/p/slotkin-moves-to-block-troops-at",
+          "publishedOn": "2026-06-21T13:45:59.000Z",
+          "wordCount": null,
+          "title": "Slotkin Moves To Block Troops At The Polls, Obama Leaves Trump Off The Guest List, and Public Pressure Forces The Regime To Abandon Its Attack On Ocean Science",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/e20e438d-b863-49ac-ad3d-6e46ace506d7_3600x2025.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/e20e438d-b863-49ac-ad3d-6e46ace506d7_3600x2025.png"
+        },
+        {
           "id": "https://www.dworkinsubstack.com/p/eight-wins-great-for-us-horrible",
           "author": "Scott Dworkin",
           "description": "Real people. Real fights. Real victories.",
@@ -261,6 +277,26 @@
       "feedUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
+        {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/a89ju4nm9xytaqvsqv4c.html",
+          "author": null,
+          "description": "Unlock every story, every issue, and every big idea   \n\n\n\n\n\n\n\n\n\n\n/* resets */\np {margin:0px;margin-bottom:0px;padding:0px;}\ntable {border-spacing:0;}\ntable, td {border-collapse:collapse;}\n* {-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-size-adjust: none !important;-ms-text-size-adjust: none !important;-webkit-text-size-adjust: none !important;}\n/* end resets */\n/* outlook / hotmail */\n.ExternalClass{width:100%;}\ntable, td {mso-table-lspace:0pt;mso-table-rspace:0pt;}\nimg{-ms-interpolation-mode:bicubic;}\n.ReadMsgBody {width: 100%;}\n/* end outlook / hotmail */\n/* gmail */\nu + #body a {color: inherit;text-decoration: none;font-size: inherit;font-family: inherit;font-weight: inherit;line-height: inherit;}\nimg + div {display: none!important;}\n/* end gmail */\n/* ios…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/a89ju4nm9xytaqvsqv4c.html",
+          "publishedOn": "2026-06-21T14:06:18.825Z",
+          "wordCount": null,
+          "title": "What's Next Is Already Here—Unlock WIRED for $2/Month",
+          "imageUrl": null
+        },
+        {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/e6nenikej7fw0q2wnk8g.html",
+          "author": null,
+          "description": "My one request\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n    \n      \n    \n  \n  \n  \n    ul > li {\n  …",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/e6nenikej7fw0q2wnk8g.html",
+          "publishedOn": "2026-06-21T13:55:37.411Z",
+          "wordCount": 642,
+          "title": "My one request",
+          "imageUrl": null
+        },
         {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/vw56t17toff9i25jh4y7.html",
           "author": null,
@@ -609,6 +645,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=13891",
+          "author": null,
+          "description": "post on Emacs Help that I wrote about the other day. It’s a reconsidered, condensed version of the original post. As Holland puts it,\n\n\n\nThis is a condensed version of my very long June Emacs Carnival post on the same topic. I wanted to make this as I felt it would be more intuitive for beginners, who are most likely to benefit from learning Emacs’s auto-discovery features.\n\n\n\nIt actually is more useful both for n00bs and experienced users alike. The best example of that is his explicit calling out of what he calls “the prefix trick”. The idea is that there are a handful of prefixes that begin many help commands.  One example is describe- that begins all the help commands that describe something: describe-function, describe-variable, etc. The “trick” is that you can type Meta+x describe and then Tab to get a list of all the describe commands. That’s something that most of us know implicitly but it’s useful to have it pointed out explicitly.\n\n\nThe other useful fact, which I wasn’t aware of, is that Meta+x which-key-show-top-level will show all the commands without a prefix.\n\n\nThe point of Holland’s followup is that you don’t need to memorize a lot of arcana to use the Emacs Help system. If you know the prefixes to use with Meta+x and Ctrl+h Ctrl+h to bring up the Help cheat sheet, you’re good to go.",
+          "link": "https://irreal.org/blog/?p=13891",
+          "publishedOn": "2026-06-21T15:05:16.000Z",
+          "wordCount": 1472,
+          "title": "Irreal: Let Emacs Teach You Emacs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://protesilaos.com/codelog/2026-06-21-emacs-modus-themes-5-3-0/",
+          "author": null,
+          "description": "I just published the latest stable release of the Modus\nthemes. The change log\nentry is reproduced further below. For any questions, you are welcome\nto contact me. I will now work to\napply these same changes to emacs.git, so please wait a little longer\nfor the updates to trickle down to you.\nPackage name (GNU ELPA): modus-themes (also built into Emacs 28+)\nOfficial manual: https://protesilaos.com/emacs/modus-themes\nChange log: https://protesilaos.com/emacs/modus-themes-changelog\nColour palette: https://protesilaos.com/emacs/modus-themes-colors\nSample pictures: https://protesilaos.com/emacs/modus-themes-pictures\nGit repositories:\n    \nGitHub: https://github.com/protesilaos/modus-themes\nGitLab: https://gitlab.com/protesilaos/modus-themes\nBackronym: My Old Display Unexpectedly Sharpened … the…",
+          "link": "https://protesilaos.com/codelog/2026-06-21-emacs-modus-themes-5-3-0/",
+          "publishedOn": "2026-06-21T00:00:00.000Z",
+          "wordCount": 1114,
+          "title": "Protesilaos: Emacs: modus-themes version 5.3.0",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
+        {
           "id": "https://irreal.org/blog/?p=13889",
           "author": null,
           "description": "on what’s coming in Emacs 31. Juliato doesn’t mind living on the edge and has been tracking and using Emacs from the Master and emacs-31 branches. He says he likes to know “what’s in the box” and the way to learn what’s coming is to is to live in it. That’s a little too exciting for me and perhaps for you but Juliato’s post gives us a view of what to expect.\n\n\nThe list is a long one and his post reflects that. It’s a lengthy post but it does a good job of describing what to expect. The thing he’s happiest about is that with this release tree-sitter “just works”. Now installing new grammars is pretty much automatic and there are grammars for more languages.\n\n\nFor those of you who have to—or for some reason, choose to—use Markdown instead of Org mode, the new markdown-ts-mode will be a welcome addition. The new mode has an Org mode feel so Org users will feel comfortable using it.\n\n\nFor those of you who like the completion system making your mind up for you, there are many enhancements to eager completion. That definitely not something I would want; I hate having the system change what I’m typing without my asking for it.\n\n\nThere are several other changes. Check out Juliato’s post for the details. It looks to be a nice release with plenty of improvements. People like Juliato help the development process by thoroughly testing new features for bugs and for suggested improvements.\n\n\nThe minions are insisting that I let you know that you can and should view Juliato’s post in light mode by flipping the switch at the top of the page. Sorry for the boring announcement but none of us wants to deal with disgruntled minions.",
@@ -865,6 +921,26 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160532",
+          "author": "David Pinto",
+          "description": "Payton Tolle of the Rec Sox visits Logan Gilbert of the Mariners. The rookie Tolle shows great control, striking out 60 and walking just 16 batters in 58 1/3 innings. Gilbert stayed consistent after his rookie season, with ERAs usually between 3.20 and 3.50. He keeps his walks low as well, averaging 1.96 per 9 […]",
+          "link": "https://www.baseballmusings.com/?p=160532",
+          "publishedOn": "2026-06-21T15:06:41.000Z",
+          "wordCount": 7590,
+          "title": "Games of the Day",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160530",
+          "author": "David Pinto",
+          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.344, 0.740 — Jake Mangum batting at Michael Lorenzen. 0.337, 0.720 — Nick Gonzales batting at Michael Lorenzen. 0.324, 0.731 — Jung Hoo Lee batting at Ryan Gusto. 0.324, 0.704 — Ryan O’Hearn batting at Michael Lorenzen. 0.320, 0.735 — Luis Arraez batting […]",
+          "link": "https://www.baseballmusings.com/?p=160530",
+          "publishedOn": "2026-06-21T12:39:15.000Z",
+          "wordCount": 7950,
+          "title": "Beat the Streak Picks",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160528",
           "author": "David Pinto",
@@ -1364,26 +1440,6 @@
           "wordCount": 7935,
           "title": "Beat the Streak Picks",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160418",
-          "author": "David Pinto",
-          "description": "The Rays took off Thursday, so Yandy Diaz remains in first place, but Junior Caminero moved back into the top five as Bryan Reynolds posted a one for five to drop a few points. Shohei Ohtani of the Dodgers went two for two with two walks and a home run, For second place, but left […]",
-          "link": "https://www.baseballmusings.com/?p=160418",
-          "publishedOn": "2026-06-12T02:52:39.000Z",
-          "wordCount": 7614,
-          "title": "Best Batter Today",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160416",
-          "author": "David Pinto",
-          "description": "",
-          "link": "https://www.baseballmusings.com/?p=160416",
-          "publishedOn": "2026-06-12T02:38:57.000Z",
-          "wordCount": 7462,
-          "title": "Friday Update",
-          "imageUrl": null
         }
       ]
     },
@@ -1583,22 +1639,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!-c-S!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e33b16f-7ef9-490e-8449-b1d741b21a91.heic"
-        },
-        {
-          "id": "https://www.lawdork.com/p/scotus-alabama-nitrogen-gas-execution",
-          "author": "Chris Geidner",
-          "description": "Two lower courts had earlier refused Alabama's request to let the state proceed with its plans to use the method of execution declared unconstitutional on Tuesday.",
-          "link": "https://www.lawdork.com/p/scotus-alabama-nitrogen-gas-execution",
-          "publishedOn": "2026-06-12T01:56:13.000Z",
-          "wordCount": null,
-          "title": "Breaking: Supreme Court rejects Alabama's request to let it kill Jeffery Lee with nitrogen gas this week",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!9hLN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82f5d6be-8601-4cdd-9e7c-0b582f3c0e92.heic",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!9hLN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82f5d6be-8601-4cdd-9e7c-0b582f3c0e92.heic"
         }
       ]
     },
@@ -1854,6 +1894,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=226494",
+          "author": "Ray Ratto",
+          "description": "We can cancel the last 66 games of the World Cup right now and fast forward to the final, because we've seen all we have a right to see. Put Curacao and Cape Verde in the final, make it The Revenge Of The Postage Stamp Nations and call it a win. The final may take three days before we get a goal, but that's still a far more economical system than the one we have.\nNot that the other games haven't had their moments, mind you. It's actually been quite the dandy pigpile so far, with the big names, the about to be big names (hello Deniz Undav and Brian Brobbey) and the Dutch royal family flying all over hell trying to catch games for each one of their constituencies. You have, we dare say it, been entertained.\nBut the Blue Sharks and Blue Wave (serendipity is where you find it) have easily been the most charming of the 48 sides simply by being their wonderfully goofy selves. Cape Verde shut out the mighty Spanish (while in fairness being shut out themselves) and 40-year-old goalkeeper Vozinha, who turned away seven shots, increased the size of his Instagram audience 400 times (it sits at nearly 15 million as we type), only to be outdone by Curacao's 37-year-old Eloy Room, who made either a record or near-record 15 saves in a 0-0 draw with Ecuador. The ambiguity comes because FIFA, which has a nasty habit of inflating numbers across its many interests, lists the U.S.'s Tim Howard with 16 saves against Belgium in 2014 while ESPN and other noodges insist that one of the 16 shots was actually off target. If you want to look up which shot it was, you go right ahead. We're still enjoying the delicious up-yours-Fox audacity of Japan-Tunisia being played at midnight Eastern and have no time for your silly pedantry.",
+          "link": "https://defector.com/eloy-room-saved-a-place-for-himself-and-curacao-in-world-cup-history",
+          "publishedOn": "2026-06-21T13:48:04.000Z",
+          "wordCount": 5763,
+          "title": "Eloy Room Saved A Place For Himself And Curacao In World Cup History",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2282556911.jpg"
+        },
         {
           "id": "https://defector.com/?p=226481",
           "author": "Billy Haisley",
@@ -2846,6 +2896,26 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/11/knicks-nba-finals-rigged-trump-republicans/90506946007/-full",
+          "author": "Rex Huppke",
+          "description": "OK, so the NBA expects patriots like myself to believe that the liberal New York Knicks miraculously won Game 4 of the NBA Finals after the REAL AMERICANS on the San Antonio Spurs were up by 29 points in the third quarter?\nYeah, right. Much like the recent California elections, which Republican leaders from President Donald Trump to House Speaker Mike Johnson convinced me were rigged, I’m calling BS on the Knicks' so-called victory. And I’m demanding congressional Republicans launch an immediate investigation into this obviously diabolical NBA game interference.\nOn “Meet the Press” recently, President Trump plainly stated that California officials were “cheating on the election.” Journalist Kristen Welker asked for evidence to support that claim, and Trump said: “All I have to do is look.”…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/11/knicks-nba-finals-rigged-trump-republicans/90506946007/",
+          "publishedOn": "2026-06-21T15:49:20.395Z",
+          "wordCount": 4363,
+          "title": "Republicans must investigate the Knicks Game 4 win. RIGGED!Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/11/USAT/90505113007-og-anunoby-karl-anthony-towns.jpg?crop=3187,1793,x218,y104&width=3187&height=1793&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/01/ufc-white-house-bugs-dana-white/90347036007/-full",
+          "author": "Rex Huppke",
+          "description": "The upcoming White House UFC fight will feature some manly mixed-martial-arts men and man-o-sphere macho maniacs who, in a world of beta men, fear nothing. \nWell, almost nothing. Turns out they’re a little afraid of bugs.\nDana White, noted tough guy and head of the Ultimate Fighting Championship, recently said he’s concerned about the event, which falls on Trump’s June 14 birthday. (Maybe the president will have a bouncy house there as well!)\nWhite isn’t worried about strong men clobbering the snot out of each other in an octagonal cage. No, he said, a recent visit to the Rose Garden with the president showed him something truly scary: “He invited me to dinner there. The amount of gnats that are flying around, I'm like, 'Holy (expletive).' As soon as I got on the plane, I got on the phone …",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/01/ufc-white-house-bugs-dana-white/90347036007/",
+          "publishedOn": "2026-06-21T15:49:20.374Z",
+          "wordCount": 4401,
+          "title": "Could Trump's White House UFC fight get derailed by scary bugs?Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/26/USAT/90261787007-2270432351.jpg?crop=2576,1449,x857,y389&width=2576&height=1449&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/11/trump-love-inflation-republicans-biden/90490777007/-full",
           "author": "Rex Huppke",
