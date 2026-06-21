@@ -9605,48 +9605,6 @@ Take a look at Batsov’s post for the details on the two modes. And if you know
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.davep.org/2026/06/12/blogmore-el-v5-2-0.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Dave Pearson: blogmore.el v5.2.0</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.davep.org/2026/06/12/blogmore-el-v5-2-0.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.davep.org/icons/android-chrome-512x512.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Another quick update to
-blogmore.el, again to fix an issue
-I&#x27;ve run into with the new frontmatter-handling code. This time it&#x27;s to
-address an actual crash that could happen if a property was available but
-empty. For example, if a post had frontmatter that looked like this:
-title: &quot;blogmore.el v5.2.0&quot;
-date: &quot;2026-06-12 08:31:15+0100&quot;
-category: Emacs
-tags:
-
-
-
-And I then went to use blogmore-add-tag, I&#x27;d get a crash saying:
-Wrong type argument: sequencep, :null
-
-
-
-The reason being that tags was being parsed with a value of :null,
-rather than (as before) having a value of nil (which of course meant I had
-a nice empty list to do things with). It was an easy enough fix.
-At this point I think I&#x27;ve managed to shake out any serious issues with the
-proper YAML-parsing approach to frontmatter, as I&#x27;ve used it to write a
-handful of posts now.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -10473,8 +10431,8 @@ The post The Trump DOJ’s Disparate Impact Changes Are About Putting Black Peop
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/27915003576">
-        <time id="build-timestamp" datetime="2026-06-21T19:28:06.063Z">2026-06-21T19:28:06.063Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/27917607147">
+        <time id="build-timestamp" datetime="2026-06-21T21:12:27.034Z">2026-06-21T21:12:27.034Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

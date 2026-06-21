@@ -913,16 +913,6 @@
           "wordCount": 1479,
           "title": "Irreal: AsciiDoc In Emacs",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.davep.org/2026/06/12/blogmore-el-v5-2-0.html",
-          "author": null,
-          "description": "Another quick update to\nblogmore.el, again to fix an issue\nI've run into with the new frontmatter-handling code. This time it's to\naddress an actual crash that could happen if a property was available but\nempty. For example, if a post had frontmatter that looked like this:\ntitle: \"blogmore.el v5.2.0\"\ndate: \"2026-06-12 08:31:15+0100\"\ncategory: Emacs\ntags:\n\n\n\nAnd I then went to use blogmore-add-tag, I'd get a crash saying:\nWrong type argument: sequencep, :null\n\n\n\nThe reason being that tags was being parsed with a value of :null,\nrather than (as before) having a value of nil (which of course meant I had\na nice empty list to do things with). It was an easy enough fix.\nAt this point I think I've managed to shake out any serious issues with the\nproper YAML-parsing approach to frontmatter, as I've used it to write a\nhandful of posts now.",
-          "link": "https://blog.davep.org/2026/06/12/blogmore-el-v5-2-0.html",
-          "publishedOn": "2026-06-12T07:31:15.000Z",
-          "wordCount": 352,
-          "title": "Dave Pearson: blogmore.el v5.2.0",
-          "imageUrl": "https://blog.davep.org/icons/android-chrome-512x512.png"
         }
       ]
     },

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-06-21T19:28:06.098Z</updated>
+    <updated>2026-06-21T21:12:27.063Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -5452,38 +5452,6 @@ Carolina slowly but su…]]></summary>
         <summary type="html"><![CDATA[The Log5 Method yields these top projected hit averages versus starting pitchers: 0.312, 0.695 — Andrew Vaughn batting vs. Andrew Painter. 0.309, 0.699 — Jackson Chourio batting vs. Andrew Painter. 0.295, 0.679 — Christian Yelich batting vs. Andrew Painter. 0.295, 0.674 — William Contreras batting vs. Andrew Painter. 0.294, 0.696 — Nick Gonzales batting vs. […]]]></summary>
         <author>
             <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dave Pearson: blogmore.el v5.2.0]]></title>
-        <id>https://blog.davep.org/2026/06/12/blogmore-el-v5-2-0.html</id>
-        <link href="https://blog.davep.org/2026/06/12/blogmore-el-v5-2-0.html"/>
-        <updated>2026-06-12T07:31:15.000Z</updated>
-        <summary type="html"><![CDATA[Another quick update to
-blogmore.el, again to fix an issue
-I've run into with the new frontmatter-handling code. This time it's to
-address an actual crash that could happen if a property was available but
-empty. For example, if a post had frontmatter that looked like this:
-title: "blogmore.el v5.2.0"
-date: "2026-06-12 08:31:15+0100"
-category: Emacs
-tags:
-
-
-
-And I then went to use blogmore-add-tag, I'd get a crash saying:
-Wrong type argument: sequencep, :null
-
-
-
-The reason being that tags was being parsed with a value of :null,
-rather than (as before) having a value of nil (which of course meant I had
-a nice empty list to do things with). It was an easy enough fix.
-At this point I think I've managed to shake out any serious issues with the
-proper YAML-parsing approach to frontmatter, as I've used it to write a
-handful of posts now.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
