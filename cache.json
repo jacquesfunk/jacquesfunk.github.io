@@ -268,6 +268,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/1ut1l5nuswjycncd4gch.html",
+          "author": null,
+          "description": "2 important pro-voter rulings happened today\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n    \n      \n…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/1ut1l5nuswjycncd4gch.html",
+          "publishedOn": "2026-06-22T22:03:45.451Z",
+          "wordCount": null,
+          "title": "2 important pro-voter rulings happened today",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/zmlpzl1zma2oy36j8eho.html",
           "author": null,
           "description": "DOJ's losing streak just might save the midterms\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n    \n   …",
@@ -605,6 +615,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://ray-on-emacs.blogspot.com/2026/06/emacs-carnival-diary-part-2.html",
+          "author": null,
+          "description": "As I wrote earlier, I consider diary to be an underappreciated\n  Emacs built-in.\nI got interested in it again when I wanted to schedule a recurring\n  meeting in Org for the third Tuesday of every month.  I saw on\n  Reddit that some folks use diary-float in place of the usual active\n  timestamp to achieve this.  So I added this after the meeting header\n  to make it work:\n  * Third Tuesday of the Month Club\n  SCHEDULED: <(%%diary-float t 2 3) 19:00-20:00>\n\n\nI have five meetings that use this method of automatic scheduling.\n  I like this approach because of its simplicity and elegance.\n  Unfortunately, it doesn't behave the same way as a recurring task.\nWhen I mark a recurring task as complete, Org reschedules it for the\n  next date on which it should occur.  And it changes DONE to TODO to\n  …",
+          "link": "https://ray-on-emacs.blogspot.com/2026/06/emacs-carnival-diary-part-2.html",
+          "publishedOn": "2026-06-22T21:31:52.553Z",
+          "wordCount": 2979,
+          "title": "Raymond Zeitler: Emacs Carnival: diary, Part 2",
+          "imageUrl": null
+        },
+        {
           "id": "https://list.orgmode.org/87zf0me6so.fsf@gmail.com",
           "author": null,
           "description": "[request] flags:--- replies:0",
@@ -883,16 +903,6 @@
           "wordCount": null,
           "title": "Bicycle for Your Mind: Separate Writing and Formatting",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.davep.org/2026/06/13/it-got-darker.html",
-          "author": null,
-          "description": "By pure coincidence, it's six years ago\ntomorrow that I\nfinally, after years of running Emacs with a bright\nwhite background, moved to using a dark theme. It took a little bit of\ngetting used to but eventually I got very comfortable with it, and since\nthen have run everything I can in a dark mode too.\nOn occasion, in the last year or so, I've had this urge to move to something\ndarker. Also, in part, it's an urge to change things up a little. I felt it\nwas time for a refresh of how my Emacs looks. I've tried a few themes, but\nnone have ever stuck. When trying them I've run into various issues:\nIt just didn't look nice at all\nToo many other things I use in Emacs didn't get themed\nIt looked like there was going to be too much work to do to really theme\n  things well\nIt caused Emacs to crash1\n…",
-          "link": "https://blog.davep.org/2026/06/13/it-got-darker.html",
-          "publishedOn": "2026-06-13T09:49:48.000Z",
-          "wordCount": 855,
-          "title": "Dave Pearson: It got darker",
-          "imageUrl": "https://blog.davep.org/attachments/2026/06/13/darker-emacs.webp"
         }
       ]
     },
@@ -1440,26 +1450,6 @@
           "wordCount": 7973,
           "title": "Beat the Streak Picks",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160428",
-          "author": "David Pinto",
-          "description": "Yordan Alvarez of the Astros posted the best game score of the day, an 81, to move into third place in the Baseball Musings Batter Rankings. He went three for five with two home runs, both hit in a nine run first inning, Alvarez driving in six of the runs with an early two-run shot […]",
-          "link": "https://www.baseballmusings.com/?p=160428",
-          "publishedOn": "2026-06-13T10:46:59.000Z",
-          "wordCount": 7674,
-          "title": "Best Batter Today",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160426",
-          "author": "David Pinto",
-          "description": "",
-          "link": "https://www.baseballmusings.com/?p=160426",
-          "publishedOn": "2026-06-13T10:22:02.000Z",
-          "wordCount": 7459,
-          "title": "Saturday Update",
-          "imageUrl": null
         }
       ]
     },
@@ -1468,6 +1458,16 @@
       "feedUrl": "https://ballsandstrikes.org/feed",
       "siteUrl": "https://ballsandstrikes.org/",
       "articles": [
+        {
+          "id": "https://ballsandstrikes.org/?p=18415",
+          "author": "Madiba K. Dennie",
+          "description": "Nothing gets the administration’s attention quite like efforts to make amends for discrimination against Black people.\nThe post Trump’s DOJ Spent Juneteenth Trying to Stop Black People In Evanston From <span class=\"dewidow\">Getting Reparations</span> appeared first on Balls and Strikes.",
+          "link": "https://ballsandstrikes.org/law-politics/evanston-reparations-trump-doj-happy-juneteenth/",
+          "publishedOn": "2026-06-22T22:57:08.000Z",
+          "wordCount": 1975,
+          "title": "Trump’s DOJ Spent Juneteenth Trying to Stop Black People In Evanston From Getting Reparations",
+          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2026/06/GettyImages-2282755847-1200x630.jpg"
+        },
         {
           "id": "https://ballsandstrikes.org/?p=18411",
           "author": "Steve Kennedy",
@@ -1596,6 +1596,22 @@
       "feedUrl": "https://www.lawdork.com/feed",
       "siteUrl": "https://www.lawdork.com",
       "articles": [
+        {
+          "id": "https://www.lawdork.com/p/does-doj-even-know-how-to-issue-subpoenas",
+          "author": "Chris Geidner",
+          "description": "Judge Patrick Schiltz quashed federal grand jury subpoenas issued against Minnesota officials. The move echoes the quashed Federal Reserve and trans care subpoenas.",
+          "link": "https://www.lawdork.com/p/does-doj-even-know-how-to-issue-subpoenas",
+          "publishedOn": "2026-06-22T22:26:16.000Z",
+          "wordCount": null,
+          "title": "Does DOJ even know how to issue subpoenas for a proper purpose these days?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/433c2e54-49b9-4c59-9b57-17a7f584ea1c_1566x940.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/433c2e54-49b9-4c59-9b57-17a7f584ea1c_1566x940.png"
+        },
         {
           "id": "https://www.lawdork.com/p/reflecting-pool-four-years-of-law-dork",
           "author": "Chris Geidner",
@@ -1978,6 +1994,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=226627",
+          "author": "Giri Nathan",
+          "description": "After a few months of cheeky silence and misdirection, plus an experiment on the doubles court, Serena Williams is completing her comeback to professional tennis. The 44-year-old has accepted a wild card into the singles main draw at Wimbledon, which begins next week, causing the traditionally stodgy tournament to post heatedly about the occasion.\nWilliams retired from competition after a third-round appearance at the 2022 U.S. Open. Her first-round match at Wimbledon will mark her first professional singles match since that day. She won the grass-court major seven times, most recently in 2016. In her last appearance in 2022, she lost in the first round.\nWhen Williams reentered the anti-doping testing pool at the end of 2025, I thought we were about to witness an extremely effortful marketing campaign for the telehealth company her husband Alexis Ohanian invests in, and the GLP-1 drugs it prescribes. Since her original retirement, she has appeared regularly in ads for the company, and credited the drugs with losing 34 pounds before her return to competition.",
+          "link": "https://defector.com/serena-williams-is-coming-back-as-a-wild-card-at-wimbledon",
+          "publishedOn": "2026-06-22T21:06:13.000Z",
+          "wordCount": 5039,
+          "title": "Serena Williams Is Coming Back As A  Wild Card At Wimbledon",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281315356.jpg"
+        },
         {
           "id": "https://defector.com/?p=226632",
           "author": "Sarah Borus",
@@ -2854,16 +2880,6 @@
           "wordCount": 906,
           "title": "5-Nugget Saturday, June 13, 2026",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/42u55hujihsiqyb6dr5g.html",
-          "author": null,
-          "description": "Trump’s moves to erect voting hurdles face race against the clock96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-decoration: inherit !i…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/42u55hujihsiqyb6dr5g.html",
-          "publishedOn": "2026-06-13T11:02:15.821Z",
-          "wordCount": 3033,
-          "title": "Trump’s moves to erect voting hurdles face race against the clock",
-          "imageUrl": null
         }
       ]
     },
@@ -3624,6 +3640,26 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a71668930/trump-tim-walz-federal-judge/",
+          "author": null,
+          "description": "The president has pulled out all the stops to hobble the Minnesota governor’s political career for good.",
+          "link": "https://www.esquire.com/news-politics/politics/a71668930/trump-tim-walz-federal-judge/",
+          "publishedOn": "2026-06-22T21:19:08.000Z",
+          "wordCount": 25688,
+          "title": "Donald Trump Must Really, Really Hate Tim Walz",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/e48bba4a-fdb7-4567-9a2c-24db6846af5b.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
+        },
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a71667801/world-cup-soccer-america-250/",
+          "author": null,
+          "description": "Try as it may, the administration’s ceaseless ruination of our country hasn’t dampened the joy that comes with hosting the world’s most boisterous sporting event.",
+          "link": "https://www.esquire.com/news-politics/politics/a71667801/world-cup-soccer-america-250/",
+          "publishedOn": "2026-06-22T20:50:48.000Z",
+          "wordCount": 24845,
+          "title": "Holy Hell, Did We Need This World Cup or What?",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/05504234-eade-49c2-ad9e-9693eb2a98c5.jpeg?crop=1xw:0.757218844985xh;center,top&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a71667651/reflecting-pool-trump-bacteria-ducks/",
           "author": null,
