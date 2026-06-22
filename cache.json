@@ -253,22 +253,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/9a83afc7-9549-4cf1-b32e-70d503d671fd_3600x2025.png"
-        },
-        {
-          "id": "https://www.dworkinsubstack.com/p/stadium-workers-beat-ice-at-world",
-          "author": "Scott Dworkin",
-          "description": "Plus, MAGA’s invincibility myth dies in Iowa and South Carolina",
-          "link": "https://www.dworkinsubstack.com/p/stadium-workers-beat-ice-at-world",
-          "publishedOn": "2026-06-12T14:57:40.000Z",
-          "wordCount": null,
-          "title": "Stadium Workers Beat ICE At World Cup, Trump Regime’s Secret Epstein Panic Exposed, and Republicans Defect To Stop Congressman’s Dangerous Nuclear Reactor Deal",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/134cb939-c396-4055-963a-2131b32abfd2_3600x1884.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/134cb939-c396-4055-963a-2131b32abfd2_3600x1884.png"
         }
       ]
     },
@@ -705,6 +689,16 @@
           "imageUrl": "https://www.chiply.dev/images/june-fish-banner-2.avif"
         },
         {
+          "id": "https://sachachua.com/blog/2026/06/emacs-chat-with-ross-a-baker/",
+          "author": null,
+          "description": "[2026-06-19 Fri]: Added transcript.\n\n\n\n\n\nI chatted with Ross Baker about Emacs (including running Emacs 28), his Emacs config, and life.\n\nVideo not supported. Thumbnail:\n\n\n\n\nView in the Internet Archive, watch or comment on YouTube, read the transcript online, download the transcript, or e-mail me.\n\n\n\nRelated links:\n\n\n\nBlog\n\nPosts tagged #emacs\nRoss A. Baker: Take Two: Coming Home to Emacs\n\nEmacs config\n\nEmacs Early Init\nKhlav Kalash Emacs\nCrab Juice Emacs\nStarter Emacs configuration\n\nmatthewbauer/bauer: An Emacs+Nix IDE · GitHub\nRoss A. Baker: Multilingualism in a Global Web (DE, ES)\nhttps://sachachua.com/emacs-chat\n\n\nChapters\n\n0:00 Opening\n0:46 What Ross does\n2:06 How Ross got into Emacs, used other editors, and then came back to Emacs\n4:58 Config focusing on built-ins\n10:12 simple-order…",
+          "link": "https://sachachua.com/blog/2026/06/emacs-chat-with-ross-a-baker/",
+          "publishedOn": "2026-06-18T18:28:45.000Z",
+          "wordCount": 11951,
+          "title": "Sacha Chua: Emacs Chat 26: Ross A. Baker",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=13884",
           "author": null,
           "description": "June’s Emacs Carnival about underappreciated Emacs builtins. His post is about the Emacs help system and how you can use it to learn everything about Emacs. It’s a commonplace to say that Emacs is self-documenting but that’s little more than a slogan. Holland takes a long look at what that actually means.\n\n\nHe begins by noting that the help system is self-recursive is the sense that you can ask the help system about the help system. You simply call the help-for-help command intuitively bound to Ctrl+h Ctrl+h. If you’ve never tried it, try it now. It gives you a nice listing of every help command.\n\n\nOnce you invoke help for a certain command or variable, you get a buffer containing a description of the command or variable as well as links to related commands/variables and the source code of the command so you can see exactly what it does and how it does it. You can discover what command a shortcut calls or what the shortcut for a command is with a simple help call.\n\n\nThere are a bunch of other aspects to the help system. You can, for example, get a listing of what your last commands were, complete information about the character at point, the current value of a variable, the current mode, and lots more.\n\n\nFor discovery, there are the apropos command and its siblings to help you find what you’re looking for even if you have no idea of its name. You merely need to have a general description of what it does. Fuzzy completion on command invocation (Meta+x) helps you find the right command even if you have only a vague idea of its name.\n\n\nHoplland’s post is long and has a lot of information but it’s one that every Emacs n00b—or more experienced user, for that matter—should read. In Holland’s terminology, it’s the first node in the Emacs knowledge graph.",
@@ -903,16 +897,6 @@
           "wordCount": 629,
           "title": "Dave Pearson: Simplifying my mode line",
           "imageUrl": "https://blog.davep.org/attachments/2026/06/12/mood-line-emacs.webp"
-        },
-        {
-          "id": "https://irreal.org/blog/?p=13871",
-          "author": null,
-          "description": "announcing a couple of new Emacs modes for AsciiDoc. In the usual Batsov way, he’s significantly improved the support for AsciiDoc in Emacs. He loves AsciiDoc but found it hard to use in Emacs because the support was so bad.\n\n\nI’ve never used AsciiDoc so I don’t know why Batsov prefers it to Org mode. Org mode can be and has been used to produce first class technical documentation. If needed, it can bring to bear all the power of LaTeX to produce a polished product.\n\n\nAs far as I can see, the only reason not to use Org mode is because you’re not an Emacs user or are collaborating on a document with someone who isn’t. It offers everything you’re apt to need short of bringing in a heavyweight dedicated document preparation system. I’m sure Irreal readers not as ignorant as I about the situation can tell us why we should prefer AsciiDoc. Our lines are open.\n\n\nIf you are an AsciiDoc user, Batsov’s two new modes are sure to be a blessing. The update to adoc-mode is designed to work with all versions of Emacs and updates the regex-based font-locking to the current AsciiDoc grammar. It’s perfect for an AsciiDoc user who’s running an older version of Emacs. Asciidoc-mode is the more modern solution using tree-sitter to handle things like font-locking but it only runs on Emacs 30.1+.\n\n\nTake a look at Batsov’s post for the details on the two modes. And if you know why an Org mode user should care, leave a comment.",
-          "link": "https://irreal.org/blog/?p=13871",
-          "publishedOn": "2026-06-12T14:22:51.000Z",
-          "wordCount": 1479,
-          "title": "Irreal: AsciiDoc In Emacs",
-          "imageUrl": null
         }
       ]
     },
@@ -1561,6 +1545,22 @@
       "siteUrl": "https://www.lawdork.com",
       "articles": [
         {
+          "id": "https://www.lawdork.com/p/reflecting-pool-four-years-of-law-dork",
+          "author": "Chris Geidner",
+          "description": "It's a difficult time, but I'm extremely grateful that so many of you trust me to be a part of helping you to understand what is happening.",
+          "link": "https://www.lawdork.com/p/reflecting-pool-four-years-of-law-dork",
+          "publishedOn": "2026-06-22T00:41:20.000Z",
+          "wordCount": null,
+          "title": "Reflecting on four years of Law Dork",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!lVbM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F112643c5-4abd-47d2-806e-c8716ccf9660_2020x1144.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!lVbM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F112643c5-4abd-47d2-806e-c8716ccf9660_2020x1144.png"
+        },
+        {
           "id": "https://www.lawdork.com/p/scotus-hemani-marijuana-guns",
           "author": "Chris Geidner",
           "description": "There were no dissents, but the four divergent opinions on Thursday show continuing disagreement over how to judge the constitutionality of gun regulations.",
@@ -1886,22 +1886,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/3fa367dd-7975-4658-9b3c-6e6ea760b08e_1920x1080.webp"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/pulte-falls-talarico-launches-spanish",
-          "author": "Simon Rosenberg",
-          "description": "The US Men's Team plays Paraguay tonight at 9pm ET - Big Day!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-          "link": "https://www.hopiumchronicles.com/p/pulte-falls-talarico-launches-spanish",
-          "publishedOn": "2026-06-12T15:46:02.000Z",
-          "wordCount": null,
-          "title": "Pulte Falls, Talarico Launches Spanish-Language World Cup Ad, A New Politics Of Virtue",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://api.substack.com/feed/podcast/201736504/e264296dbb38ec5c26318c0be7426b85.mp3",
-            "length": "0",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
@@ -2509,46 +2493,6 @@
           "wordCount": 5804,
           "title": "Formula 1 Stewards After Massive Mishap Mangles Monaco: Oopsie Daisy!",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/pierreGaslyIsackHadjarStewards.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=225665",
-          "author": "Luis Paez-Pumar",
-          "description": "One thing that's always fun at a World Cup is a good old-fashioned clash of styles. With so many different teams, and so many different managers and tactics and players, no two sides play quite alike, and so a central tension of any match becomes the stylistic conflict. Imagine my delight when it took only the second match of this tournament to find what could very well prove the summer's starkest contrast of styles, as South Korea's Real Hooper Shit ran headfirst into the Czechia set piece wall and, somehow some way, came out ahead 2-1, thanks to the power of having better players playing better.\n\nhttps://www.youtube.com/watch?v=ztKvwczBmqk\n\n\nBoth of these teams have well-established identities, and given that it was the first match of the tournament for both, there was no reason to veer from the default gameplan just yet. For South Korea, that meant a wide-open 3-4-2-1 formation that gave the side's technical players plenty of space and options with which to work their magic. For Czechia, it meant almost the exact opposite, despite an almost exactly equivalent 3-4-2-1 formation; the Czechs were rigid and compact, aiming to utilize not so much individual brilliance but more the blunt-force instrument of crosses and set pieces.",
-          "link": "https://defector.com/south-koreas-ballers-stole-the-show",
-          "publishedOn": "2026-06-12T15:56:07.000Z",
-          "wordCount": 7367,
-          "title": "South Korea’s Ballers Stole The Show",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281160007.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=225664",
-          "author": "Giri Nathan",
-          "description": "Knicks mania is in the air, but how does that affect local businesses beyond the obvious cases, like bars packed out on random weeknights? Beer is a constant, but what about print media? To find out, I stopped by Casa Magazines, a well-loved corner store in the West Village where you can procure pretty much anything printed, from the daily tabloids to esoteric small-batch fare. I spoke to content strategist Tammy David and staffer Mirza Ayan Baig about how the New York Knicks' Finals run has changed business at the store.\nThe Knicks had also been in the postseason the previous three years, but it wasn't until they earned a Finals berth that buyer behavior began to drastically change. Customers walked in not seeking out a particular publication, but the team in general.\n\"Sometimes they were like, 'Do you have any New York Knicks?' 'No.' It's like looking for gum or vape—they move on to the next,\" David said. The Knicks covers of the New York Post and New York Daily News, with their classically brash headlines, were selling out within an hour of the store's 8 a.m. opening, sometimes even within 15 minutes. They were so sought after that ahead of Game 4, David put on social media an instructional video for customers to grasp where in the (very small) store the tabloids are stocked, minimizing confusion. But as popular as the tabloids are, Casa's biggest explosion in sales was a weekly magazine. The cover of the New Yorker's June 1 issue is a Mark Ulriksen illustration of Jalen Brunson, flexing over a lineup of storied Knicks. That was the one.",
-          "link": "https://defector.com/the-knicks-finals-run-has-even-made-print-media-hot",
-          "publishedOn": "2026-06-12T15:39:31.000Z",
-          "wordCount": 6054,
-          "title": "The Knicks’ Finals Run Has Even Made Print Media Hot",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/casa-magazines-baig.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=225596",
-          "author": "Billy Haisley",
-          "description": "It's time for the World Cup. We've been previewing each of the top 15 teams by FIFA rankings that made the tournament. Why the top 15? Because that's how many we needed to do in order for the USMNT to make the cut. You can read all of our previews here.\nAs the largest event humanity has ever come up with, it's safe to say that the World Cup is a big deal. In some way or other the tournament connects to literally everything, from politics, to culture, to war, to art, to philosophy, to biology, to economics, and on and on. As such, it can sometimes get overlooked that, on its most fundamental level, the World Cup is just a collection of soccer games. And the simplest explanation of a game of soccer is that the team with the best players usually wins. That is why Spain is the clear favorite. At this World Cup, Spain has the best players.",
-          "link": "https://defector.com/spain-has-the-best-is-the-best",
-          "publishedOn": "2026-06-12T14:20:35.000Z",
-          "wordCount": 10616,
-          "title": "Spain Has The Best, Is The Best",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2280599925.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=225653",
-          "author": "Ray Ratto",
-          "description": "Well, it had to happen eventually. We'd been putting it off and pushing it back and wallowing earhole-deep in the adrenaline rush of it all, bouncing from Las Vegas to San Antonio to Raleigh to Manhattan in a poker game in which we'd finally reached the rarefied land of the eight-bet, but in our vacant, decrepit, spider-encrusted souls we all knew it would end up here: A normal game, played normally, with normal deeds, normal screeds and a normal result. Hardly seemed worth it in the end. Then again, after 10 full days of increasingly preposterous in-play behaviors and performances by the Golden Knights, Spurs, Hurricanes, and Knicks, something and someone had to give. And Thursday night, in Game 5 of the Stanley Cup Final, that something and someone was the Knights.\nCarolina slowly but su…",
-          "link": "https://defector.com/in-unprecedented-development-carolina-wins-normal-game",
-          "publishedOn": "2026-06-12T13:02:47.000Z",
-          "wordCount": 5985,
-          "title": "In Unprecedented Development, Carolina Wins Normal Game",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281154731.jpg"
         }
       ]
     },
@@ -2785,16 +2729,6 @@
           "publishedOn": "2026-06-12T18:33:01.765Z",
           "wordCount": 4040,
           "title": "Royals GBU",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/5gbdmk9rc1osgonb6vjh.html",
-          "author": null,
-          "description": "96\n        Wacha Way: The dynamic duo saves the day...and the bullpen\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    li…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/5gbdmk9rc1osgonb6vjh.html",
-          "publishedOn": "2026-06-12T12:20:27.978Z",
-          "wordCount": 3141,
-          "title": "Wacha Way: The dynamic duo saves the day...and the bullpen",
           "imageUrl": null
         }
       ]
@@ -3715,16 +3649,6 @@
           "wordCount": 25095,
           "title": "I’m Starting to Think the White House UFC Fight Was All Just a Weird Crypto Scam",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/9e65ef91-cca5-49ec-b2ba-2fe0e2c8e08c.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71571150/iran-ceasefire-agreement-trump-vance/",
-          "author": null,
-          "description": "Luckily, Vice President J Divan Vance isn’t on vacation this weekend, so he’ll reportedly fill in for the president on Sunday to sign the terms.",
-          "link": "https://www.esquire.com/news-politics/politics/a71571150/iran-ceasefire-agreement-trump-vance/",
-          "publishedOn": "2026-06-12T14:58:16.000Z",
-          "wordCount": 32239,
-          "title": "Trump’s Too Busy with His UFC Birthday Party to Sign a Ceasefire Agreement with Iran",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/b93eb37e-bd1b-4ae1-952c-f5c2d299fe77.jpeg?crop=1xw:0.750101337657xh;center,top&resize=1200:*"
         }
       ]
     }
