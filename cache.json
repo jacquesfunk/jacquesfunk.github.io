@@ -243,22 +243,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/f5d08dc5-1d40-42c8-aca2-3f5e971397c6_3600x2025.png"
-        },
-        {
-          "id": "https://www.dworkinsubstack.com/p/great-news-thats-brutal-for-trump",
-          "author": "Scott Dworkin",
-          "description": "Proof resistance works",
-          "link": "https://www.dworkinsubstack.com/p/great-news-thats-brutal-for-trump",
-          "publishedOn": "2026-06-13T14:08:56.000Z",
-          "wordCount": null,
-          "title": "Great News That’s Brutal For Trump: 8 Wins In 7 Days",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/9a83afc7-9549-4cf1-b32e-70d503d671fd_3600x2025.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/9a83afc7-9549-4cf1-b32e-70d503d671fd_3600x2025.png"
         }
       ]
     },
@@ -586,26 +570,6 @@
           "wordCount": 1519,
           "title": "The FBI’s raid on free and fair elections",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0e55oo28nxuw51pcs53i.html",
-          "author": null,
-          "description": "96\n            \n        \n        \n        \n        \n        \n        We’re replaying the Civil War, but the turf this time is the US government\n\n    \n\t\tp{\n\t\t\tmargin:10px 0;\n\t\t\tpadding:0;\n\t\t}\n\t\ttable{\n\t\t\tborder-collapse:collapse;\n\t\t}\n\t\th1,h2,h3,h4,h5,h6{\n\t\t\tdisplay:block;\n\t\t\tmargin:0;\n\t\t\tpadding:0;\n\t\t}\n\t\timg,a img{\n\t\t\tborder:0;\n\t\t\theight:auto;\n\t\t\toutline:none;\n\t\t\ttext-decoration:none;\n\t\t}\n\t\tbody,#bodyTable,#bodyCell{\n\t\t\theight:100%;\n\t\t\tmargin:0;\n\t\t\tpadding:0;\n\t\t\twidth:100%;\n\t\t}\n\t\t.mcnPreviewText{\n\t\t\tdisplay:none !important;\n\t\t}\n\t\t#outlook a{\n\t\t\tpadding:0;\n\t\t}\n\t\timg{\n\t\t\t-ms-interpolation-mode:bicubic;\n\t\t}\n\t\ttable{\n\t\t\tmso-table-lspace:0pt;\n\t\t\tmso-table-rspace:0pt;\n\t\t}\n\t\t.ReadMsgBody{\n\t\t\twidth:100%;\n\t\t}\n\t\t.ExternalClass{\n\t\t\twidth:100%;\n\t\t}\n\t\tp,a,li,td,blockquote{\n\t\t\tmso-line-height-rule:exactl…",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0e55oo28nxuw51pcs53i.html",
-          "publishedOn": "2026-06-13T12:16:34.148Z",
-          "wordCount": 1616,
-          "title": "We’re replaying the Civil War, but the turf this time is the US government",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/oi6vlb3v9i508bkzcufi.html",
-          "author": null,
-          "description": "What’s Really Going on With All the Celebrities Trying to Pinkwash AI#outlook a { padding:0; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0 !important; } .nl2go_preheader { display: none !important; mso-hide:all !important; mso-line-height-rule: exactly; visibility: hidden !important; line-height: 0px !important; font-size: 0px !important; } body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; } a img { border:n…",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/oi6vlb3v9i508bkzcufi.html",
-          "publishedOn": "2026-06-13T12:02:52.388Z",
-          "wordCount": 3478,
-          "title": "What’s Really Going on With All the Celebrities Trying to Pinkwash AI",
-          "imageUrl": null
         }
       ]
     },
@@ -614,6 +578,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://xenodium.com/ytr-youtube-radio-for-emacs",
+          "author": null,
+          "description": "I've been a happy ready-player user for some time now. I consider the Emacs package fairly feature-complete, for my needs anyway. Well almost.\nWhile I've successfully migrated most of my music-listening to offline playback, there are the odd times when I enjoy streaming YouTube audio. I've pondered extending ready-player for this use case, but its current approach is fairly file-driven. For starters, it uses dired as a core abstraction.\nBefore venturing on a major refactoring, without even knowing if an Emacs streaming flow would stick, I decided to build a new package. Coincidentally, this enables me to experiment with the package UX without being restricted by ready-player's needs. And so that's what I did in my new YouTube radio package ytr.\nytr really is fairly experimental. I'm currently driving its development purely on current needs. Let's see where it goes. It borrows lots from ready-player, but its UX presents itself more as a widget. I'm kinda liking the experience. There isn't much to it: you add a channel URL, and its content metadata is automatically pulled and presented as a child frame. I've also sprinkled in some eye candy (animations), reminiscing about the Winamp days. Beware, these sweets require running on Emacs GUI.\nytr is powered by mpv and yt-dlp, the real streaming workhorses doing the heavy lifting.\n\nytr is available on GitHub if you're keen to check it out. Keep in mind this is a brand new package and a first iteration, so it may need some improvements. If you give it a try, I'd love to hear how you got on. I've only tested on macOS so far.\nMake it sustainable, sponsor the effort\nLiking ytr? Would like to see it evolve? Consider sponsoring the effort.",
+          "link": "https://xenodium.com/ytr-youtube-radio-for-emacs",
+          "publishedOn": "2026-06-23T00:00:00.000Z",
+          "wordCount": 680,
+          "title": "Alvaro Ramirez: ytr: YouTube radio for Emacs",
+          "imageUrl": "https://xenodium.com/share.png"
+        },
         {
           "id": "https://ray-on-emacs.blogspot.com/2026/06/emacs-carnival-diary-part-2.html",
           "author": null,
@@ -1420,36 +1394,6 @@
           "wordCount": 7570,
           "title": "Forty Five for Yamamoto",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160434",
-          "author": "David Pinto",
-          "description": "The Yankees send Cam Schlittler against the Blue Jays and Kevin Gausman in a mid-afternoon game. Schlittler started 14 games this season, the same as in 2025, his rookie year. He lowered his ERA by over a run, pitched nine more innings, cut his walks by more than half, and cut his home runs in […]",
-          "link": "https://www.baseballmusings.com/?p=160434",
-          "publishedOn": "2026-06-13T14:40:46.000Z",
-          "wordCount": 7672,
-          "title": "Games of the Day",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160432",
-          "author": "David Pinto",
-          "description": "Jacob Misiorowski posted a game score of 100 in his one-hitter against the Phillies Friday night. That was the 10th game score of 100 this century. Max Scherzer holds the high score of 104 with a 17 K no-hitter on 10/3/2015. Clayton Kershaw posted a 102 with a 15 K no-hitter on 6/8/2014. Matt Cain […]",
-          "link": "https://www.baseballmusings.com/?p=160432",
-          "publishedOn": "2026-06-13T14:15:13.000Z",
-          "wordCount": 7543,
-          "title": "The Hundred Club",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160430",
-          "author": "David Pinto",
-          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.354, 0.748 — Jacob Wilson batting vs. Kyle Freeland. 0.332, 0.709 — Carlos Cortes batting vs. Kyle Freeland. 0.328, 0.706 — Shea Langeliers batting vs. Kyle Freeland. 0.306, 0.683 — Nick Kurtz batting vs. Kyle Freeland. 0.304, 0.671 — Henry Bolte batting vs. […]",
-          "link": "https://www.baseballmusings.com/?p=160430",
-          "publishedOn": "2026-06-13T11:23:50.000Z",
-          "wordCount": 7973,
-          "title": "Beat the Streak Picks",
-          "imageUrl": null
         }
       ]
     },
@@ -1970,22 +1914,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!8lLZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8cbbc501-7b35-4e9d-8784-f105bfbd4f48_3840x2560.jpeg"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/the-usmnts-incredible-win-the-president",
-          "author": "Simon Rosenberg",
-          "description": "Many thanks to those who've stepped up for our Independence Day subscription drive!",
-          "link": "https://www.hopiumchronicles.com/p/the-usmnts-incredible-win-the-president",
-          "publishedOn": "2026-06-13T14:45:57.000Z",
-          "wordCount": null,
-          "title": "The USMNT's Incredible Performance, \"The President Has Turned Into A Clown,\" Meaty Pods For Your Weekend Viewing And Listening Pleasure",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/3fa367dd-7975-4658-9b3c-6e6ea760b08e_1920x1080.webp",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/3fa367dd-7975-4658-9b3c-6e6ea760b08e_1920x1080.webp"
         }
       ]
     },
@@ -2869,16 +2797,6 @@
           "publishedOn": "2026-06-14T14:24:29.476Z",
           "wordCount": 2802,
           "title": "House: Here for It, #362",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/8firhzkhjawuhlcc201u.html",
-          "author": null,
-          "description": "body,a{word-break:break-word;}.feed__title a{text-decoration:underline;}img[data-emoji]{height:1.2em;width:1.2em;vertical-align:middle;}table{border-collapse:collapse;}.headline h1,.paragraph h1,.text-element h1{line-height:1.5;margin:0.5em 0;}.headline h2,.paragraph h2,.text-element h2{line-height:1.5;margin:0.5em 0;}.headline h3,.paragraph h3,.text-element h3{line-height:1.5;margin:0.5em 0;}.headline h4,.paragraph h4,.text-element h4{font-size:20px;line-height:1.5;margin:0.5em\n0;}.headline h5,.paragraph h5,.text-element h5{font-size:18px;line-height:1.5;margin:0.5em 0;}.headline h6,.paragraph h6,.text-element h6{font-size:16px;line-height:1.5;margin:0.5em 0;}.headline p,.paragraph p,.text-element p{line-height:1.5;margin:0;}.headline div,.paragraph div,.text-element div{line-height:1.5;m…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/8firhzkhjawuhlcc201u.html",
-          "publishedOn": "2026-06-13T14:13:36.345Z",
-          "wordCount": 906,
-          "title": "5-Nugget Saturday, June 13, 2026",
           "imageUrl": null
         }
       ]

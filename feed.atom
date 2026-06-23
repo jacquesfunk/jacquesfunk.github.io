@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-06-22T23:18:21.905Z</updated>
+    <updated>2026-06-23T03:27:48.269Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Alvaro Ramirez: ytr: YouTube radio for Emacs]]></title>
+        <id>https://xenodium.com/ytr-youtube-radio-for-emacs</id>
+        <link href="https://xenodium.com/ytr-youtube-radio-for-emacs"/>
+        <updated>2026-06-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I've been a happy ready-player user for some time now. I consider the Emacs package fairly feature-complete, for my needs anyway. Well almost.
+While I've successfully migrated most of my music-listening to offline playback, there are the odd times when I enjoy streaming YouTube audio. I've pondered extending ready-player for this use case, but its current approach is fairly file-driven. For starters, it uses dired as a core abstraction.
+Before venturing on a major refactoring, without even knowing if an Emacs streaming flow would stick, I decided to build a new package. Coincidentally, this enables me to experiment with the package UX without being restricted by ready-player's needs. And so that's what I did in my new YouTube radio package ytr.
+ytr really is fairly experimental. I'm currently driving its development purely on current needs. Let's see where it goes. It borrows lots from ready-player, but its UX presents itself more as a widget. I'm kinda liking the experience. There isn't much to it: you add a channel URL, and its content metadata is automatically pulled and presented as a child frame. I've also sprinkled in some eye candy (animations), reminiscing about the Winamp days. Beware, these sweets require running on Emacs GUI.
+ytr is powered by mpv and yt-dlp, the real streaming workhorses doing the heavy lifting.
+
+ytr is available on GitHub if you're keen to check it out. Keep in mind this is a brand new package and a first iteration, so it may need some improvements. If you give it a try, I'd love to hear how you got on. I've only tested on macOS so far.
+Make it sustainable, sponsor the effort
+Liking ytr? Would like to see it evolve? Consider sponsoring the effort.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Trump’s DOJ Spent Juneteenth Trying to Stop Black People In Evanston From Getting Reparations]]></title>
         <id>https://ballsandstrikes.org/?p=18415</id>
@@ -5253,141 +5271,6 @@ I do two kinds of writing. The first kind is stream of consciousness writing. I 
         <link href="https://www.baseballmusings.com/?p=160438"/>
         <updated>2026-06-14T01:28:33.000Z</updated>
         <summary type="html"><![CDATA[Yoshinobu Yamamoto of the Dodges almost tied a record in his perfect game bid on Saturday: Dating to Yamamoto’s previous start, against the Angels, he retired 45 straight batters, one shy of the major league record set by Yusmeiro Petit in 2014. LATimes.com He lost the perfect game in the eighth on a Mookie Betts error […]]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The USMNT's Incredible Performance, "The President Has Turned Into A Clown," Meaty Pods For Your Weekend Viewing And Listening Pleasure]]></title>
-        <id>https://www.hopiumchronicles.com/p/the-usmnts-incredible-win-the-president</id>
-        <link href="https://www.hopiumchronicles.com/p/the-usmnts-incredible-win-the-president"/>
-        <updated>2026-06-13T14:45:57.000Z</updated>
-        <summary type="html"><![CDATA[Many thanks to those who've stepped up for our Independence Day subscription drive!]]></summary>
-        <author>
-            <name>Simon Rosenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Games of the Day]]></title>
-        <id>https://www.baseballmusings.com/?p=160434</id>
-        <link href="https://www.baseballmusings.com/?p=160434"/>
-        <updated>2026-06-13T14:40:46.000Z</updated>
-        <summary type="html"><![CDATA[The Yankees send Cam Schlittler against the Blue Jays and Kevin Gausman in a mid-afternoon game. Schlittler started 14 games this season, the same as in 2025, his rookie year. He lowered his ERA by over a run, pitched nine more innings, cut his walks by more than half, and cut his home runs in […]]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Hundred Club]]></title>
-        <id>https://www.baseballmusings.com/?p=160432</id>
-        <link href="https://www.baseballmusings.com/?p=160432"/>
-        <updated>2026-06-13T14:15:13.000Z</updated>
-        <summary type="html"><![CDATA[Jacob Misiorowski posted a game score of 100 in his one-hitter against the Phillies Friday night. That was the 10th game score of 100 this century. Max Scherzer holds the high score of 104 with a 17 K no-hitter on 10/3/2015. Clayton Kershaw posted a 102 with a 15 K no-hitter on 6/8/2014. Matt Cain […]]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5-Nugget Saturday, June 13, 2026]]></title>
-        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/8firhzkhjawuhlcc201u.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/8firhzkhjawuhlcc201u.html"/>
-        <updated>2026-06-13T14:13:36.345Z</updated>
-        <summary type="html"><![CDATA[body,a{word-break:break-word;}.feed__title a{text-decoration:underline;}img[data-emoji]{height:1.2em;width:1.2em;vertical-align:middle;}table{border-collapse:collapse;}.headline h1,.paragraph h1,.text-element h1{line-height:1.5;margin:0.5em 0;}.headline h2,.paragraph h2,.text-element h2{line-height:1.5;margin:0.5em 0;}.headline h3,.paragraph h3,.text-element h3{line-height:1.5;margin:0.5em 0;}.headline h4,.paragraph h4,.text-element h4{font-size:20px;line-height:1.5;margin:0.5em
-0;}.headline h5,.paragraph h5,.text-element h5{font-size:18px;line-height:1.5;margin:0.5em 0;}.headline h6,.paragraph h6,.text-element h6{font-size:16px;line-height:1.5;margin:0.5em 0;}.headline p,.paragraph p,.text-element p{line-height:1.5;margin:0;}.headline div,.paragraph div,.text-element div{line-height:1.5;m…]]></summary>
-        <author>
-            <name>Misc Newsletters</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Great News That’s Brutal For Trump: 8 Wins In 7 Days]]></title>
-        <id>https://www.dworkinsubstack.com/p/great-news-thats-brutal-for-trump</id>
-        <link href="https://www.dworkinsubstack.com/p/great-news-thats-brutal-for-trump"/>
-        <updated>2026-06-13T14:08:56.000Z</updated>
-        <summary type="html"><![CDATA[Proof resistance works]]></summary>
-        <author>
-            <name>Scott Dworkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We’re replaying the Civil War, but the turf this time is the US government]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0e55oo28nxuw51pcs53i.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0e55oo28nxuw51pcs53i.html"/>
-        <updated>2026-06-13T12:16:34.148Z</updated>
-        <summary type="html"><![CDATA[96
-            
-        
-        
-        
-        
-        
-        We’re replaying the Civil War, but the turf this time is the US government
-
-    
-		p{
-			margin:10px 0;
-			padding:0;
-		}
-		table{
-			border-collapse:collapse;
-		}
-		h1,h2,h3,h4,h5,h6{
-			display:block;
-			margin:0;
-			padding:0;
-		}
-		img,a img{
-			border:0;
-			height:auto;
-			outline:none;
-			text-decoration:none;
-		}
-		body,#bodyTable,#bodyCell{
-			height:100%;
-			margin:0;
-			padding:0;
-			width:100%;
-		}
-		.mcnPreviewText{
-			display:none !important;
-		}
-		#outlook a{
-			padding:0;
-		}
-		img{
-			-ms-interpolation-mode:bicubic;
-		}
-		table{
-			mso-table-lspace:0pt;
-			mso-table-rspace:0pt;
-		}
-		.ReadMsgBody{
-			width:100%;
-		}
-		.ExternalClass{
-			width:100%;
-		}
-		p,a,li,td,blockquote{
-			mso-line-height-rule:exactl…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What’s Really Going on With All the Celebrities Trying to Pinkwash AI]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/oi6vlb3v9i508bkzcufi.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/oi6vlb3v9i508bkzcufi.html"/>
-        <updated>2026-06-13T12:02:52.388Z</updated>
-        <summary type="html"><![CDATA[What’s Really Going on With All the Celebrities Trying to Pinkwash AI#outlook a { padding:0; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0 !important; } .nl2go_preheader { display: none !important; mso-hide:all !important; mso-line-height-rule: exactly; visibility: hidden !important; line-height: 0px !important; font-size: 0px !important; } body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; } a img { border:n…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beat the Streak Picks]]></title>
-        <id>https://www.baseballmusings.com/?p=160430</id>
-        <link href="https://www.baseballmusings.com/?p=160430"/>
-        <updated>2026-06-13T11:23:50.000Z</updated>
-        <summary type="html"><![CDATA[The Log5 Method yields these top projected hit averages versus starting pitchers: 0.354, 0.748 — Jacob Wilson batting vs. Kyle Freeland. 0.332, 0.709 — Carlos Cortes batting vs. Kyle Freeland. 0.328, 0.706 — Shea Langeliers batting vs. Kyle Freeland. 0.306, 0.683 — Nick Kurtz batting vs. Kyle Freeland. 0.304, 0.671 — Henry Bolte batting vs. […]]]></summary>
         <author>
             <name>David Pinto</name>
         </author>
