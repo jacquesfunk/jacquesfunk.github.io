@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-06-23T07:47:51.661Z</updated>
+    <updated>2026-06-23T11:15:19.007Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Beat the Streak Picks]]></title>
+        <id>https://www.baseballmusings.com/?p=160552</id>
+        <link href="https://www.baseballmusings.com/?p=160552"/>
+        <updated>2026-06-23T11:04:03.000Z</updated>
+        <summary type="html"><![CDATA[The Log5 Method yields these top projected hit averages versus starting pitchers: 0.339, 0.733 — Jung Hoo Lee batting vs. Aaron Civale. 0.337, 0.740 — Luis Arraez batting vs. Aaron Civale. 0.315, 0.702 — Casey Schmitt batting vs. Aaron Civale. 0.315, 0.726 — Jake Mangum batting vs. George Kirby. 0.314, 0.715 — Michael Harris II […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best Batter Today]]></title>
+        <id>https://www.baseballmusings.com/?p=160550</id>
+        <link href="https://www.baseballmusings.com/?p=160550"/>
+        <updated>2026-06-23T10:34:33.000Z</updated>
+        <summary type="html"><![CDATA[The top five in the Baseball Musings Batter Rankings did not change due to Monday’s games. Pete Crow-Armstrong and the Cubs rested due to rain, and he remains number one. Shohei Ohtani of the Dodgers homered and walked in a 2-1 win over the Twins. He is three homers away from 300. He ranks third […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[One Day in America]]></title>
+        <id>http://www.esquire.com/news-politics/a71427015/one-day-in-america/</id>
+        <link href="https://www.esquire.com/news-politics/a71427015/one-day-in-america/"/>
+        <updated>2026-06-23T10:13:24.000Z</updated>
+        <summary type="html"><![CDATA[Thirty-eight glimpses of a day 250 years in the making.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tuesday Update]]></title>
+        <id>https://www.baseballmusings.com/?p=160548</id>
+        <link href="https://www.baseballmusings.com/?p=160548"/>
+        <updated>2026-06-23T10:08:24.000Z</updated>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Andros Fenollosa: How I built a GPU backend for Emacs]]></title>
+        <id>http://en.andros.dev/blog/4b707a03/how-i-built-a-gpu-backend-for-emacs/</id>
+        <link href="http://en.andros.dev/blog/4b707a03/how-i-built-a-gpu-backend-for-emacs/"/>
+        <updated>2026-06-23T09:33:09.000Z</updated>
+        <summary type="html"><![CDATA[A few months ago I became obsessed with a silly question: why does my Emacs, on a laptop with a perfectly capable GPU, draw all of its text using the CPU? And that led to others: why can't I play a video inside a buffer? Why can't I have animated cursor effects? Why can't I cross-fade between buffers? I needed to satisfy my curiosity, so I started digging.
+I started reading the code, with an AI as my companion. I discovered that every glyph, every underline, every scroll is recomputed and repainted by the processor. Emacs's redisplay engine (xdisp.c) was born in an era when there was no other option, and it is tuned to the millimeter for exactly that. And nobody had managed to slip a GPU underneath without rewriting half of Emacs... until recently.
+So I decided to try. What began as a week…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I'm as qualified to be director of national intelligence as Bill PulteRex Huppke]]></title>
         <id>https://www.usatoday.com/story/opinion/columnist/2026/06/03/bill-pulte-national-intelligence-trump/90370886007/-full</id>
