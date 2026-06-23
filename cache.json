@@ -24,6 +24,16 @@
       "siteUrl": "https://www.mlbtraderumors.com",
       "articles": [
         {
+          "id": "https://www.mlbtraderumors.com/?p=900693",
+          "author": "Darragh McDonald",
+          "description": "Royals manager Matt Quatraro says that left-hander Cole Ragans will likely require some kind of surgery on his elbow. “We anticipate it being a surgical procedure,” Quatraro said, per Jaylon T. Thompson of the Kansas City Star. “We don’t know, as of right now, what it means. He’s got to see another doctor as well, […]",
+          "link": "https://www.mlbtraderumors.com/2026/06/cole-ragans-likely-to-undergo-elbow-surgery.html",
+          "publishedOn": "2026-06-23T21:15:14.000Z",
+          "wordCount": 2234,
+          "title": "Cole Ragans Likely To Undergo Elbow Surgery",
+          "imageUrl": "https://cdn.mlbtraderumors.com/files/2026/05/ColeRagans-2026-1024x677.jpg"
+        },
+        {
           "id": "https://www.mlbtraderumors.com/?p=900665",
           "author": "Steve Adams",
           "description": "The Royals announced Tuesday that third baseman Maikel Garcia has been placed on the 10-day injured list due to a muscle strain in his left hand. Veteran infielder Josh Rojas was recalled from Triple-A in his place. Garcia has been trying to play through discomfort in his hand for some time now but apparently reached […]",
@@ -267,6 +277,16 @@
       "feedUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
+        {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/5nakds2om616o1aesiwa.html",
+          "author": null,
+          "description": "‘Desperate’ Trump wants to blackmail states to purge voters\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n  …",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/5nakds2om616o1aesiwa.html",
+          "publishedOn": "2026-06-23T22:04:57.357Z",
+          "wordCount": 1377,
+          "title": "‘Desperate’ Trump wants to blackmail states to purge voters",
+          "imageUrl": null
+        },
         {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/317dpuvdx4idtfo9gjm4.html",
           "author": null,
@@ -625,6 +645,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://ray-on-emacs.blogspot.com/2026/06/link-diary-event-to-org-heading.html",
+          "author": null,
+          "description": "Suppose you want to schedule a recurring meeting in the diary, yet\n  you want to access an org heading for note-taking and clocking time.\n  You can add a link to that org heading in the description of the\n  diary event.\nHere's how I'd do it:\nPlace point on the desired Org heading\nInvoke org-store-link, which might be bound to C-c l\nIn the diary file...\n    \nAdd the date expression for the corresponding event.  In\n      this example, we'll schedule an event that occurs from 7pm to\n      8pm on the third Tuesday of every month.\n      \n%%(diary-float t 2 3) 19:00-20:00\nAdd a space and then the link as the event description with M-x org-insert-link\n      \nNote that C-c C-l might not bound to org-insert-link in diary-mode\n\n    \nThat's it!",
+          "link": "https://ray-on-emacs.blogspot.com/2026/06/link-diary-event-to-org-heading.html",
+          "publishedOn": "2026-06-23T19:38:40.369Z",
+          "wordCount": 2668,
+          "title": "Raymond Zeitler: Link diary Event to Org Heading",
+          "imageUrl": null
+        },
+        {
           "id": "https://randyridenour.net/posts/2026-06-23-toggle-ghostel.html",
           "author": null,
           "description": "Eat and toggle-term.el for terminal emulation in Emacs. After seeing some recommendations for Ghostel, I decided to give it a try, especially since I use Ghostty as my terminal emulator on the Mac anyway. All the reports were correct, Ghostel works like a charm, but I didn’t have as smooth a toggle experience as I had with Eat. Before switching back, I wondered if I really needed to install a package just to toggle the Ghostel buffer. It turns out that writing a simple toggle function was fairly easy.\n\n\n\nThe first function returns the name of the ghostel buffer if there is one. The second function starts ghostel if there is no existing ghostel buffer, switches to the buffer if there is one, and buries the ghostel buffer if it is currently the active buffer. I had to use bind-key* to override the ghostel key-map. \n\n\n\n\n(defun rlr/ghostel-buffer ()\n  \"Return the active ghostel buffer, or nil if none exists.\"\n  (seq-find (lambda (buf)\n              (string-match-p \"\\\\*ghostel:\" (buffer-name buf)))\n            (buffer-list)))\n\n(defun rlr/ghostel-toggle ()\n  (interactive)\n  (let ((buf (rlr/ghostel-buffer)))\n    (cond\n     ((not buf)\n      (ghostel))\n     ((eq (current-buffer) buf)\n      (bury-buffer))\n     (t\n      (switch-to-buffer buf)))))\n\n(bind-key* \"<f2>\" 'rlr/ghostel-toggle)\n\nEmacs",
@@ -941,6 +971,26 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160558",
+          "author": "David Pinto",
+          "description": "The Reds activated Elly De La Cruz from the illjured list. When he played this season the Reds record stands at 30-28. The are 7-12 without him. That puts them last in the NL Central and the only team in that division under .500. Cruz is easily having the best offensive season of his career, […]",
+          "link": "https://www.baseballmusings.com/?p=160558",
+          "publishedOn": "2026-06-23T21:51:11.000Z",
+          "wordCount": 7529,
+          "title": "Cruz Returns",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160556",
+          "author": "David Pinto",
+          "description": "Tom Tango examines how good pitchers, catchers, and batters are at using ABS challenges strategically.",
+          "link": "https://www.baseballmusings.com/?p=160556",
+          "publishedOn": "2026-06-23T21:32:42.000Z",
+          "wordCount": 7471,
+          "title": "Strategic Challenges",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160554",
           "author": "David Pinto",
@@ -1440,36 +1490,6 @@
           "wordCount": 7618,
           "title": "Games of the Day",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160446",
-          "author": "David Pinto",
-          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.306, 0.715 — Yandy Diaz batting at Grayson Rodriguez. 0.305, 0.722 — Jacob Wilson batting vs. Tomoyuki Sugano. 0.292, 0.687 — Dominic Canzone batting at Miles Mikolas. 0.287, 0.718 — Luis Arraez batting vs. Ryan Rolison. 0.286, 0.708 — Jung Hoo Lee batting […]",
-          "link": "https://www.baseballmusings.com/?p=160446",
-          "publishedOn": "2026-06-14T11:04:42.000Z",
-          "wordCount": 7960,
-          "title": "Beat the Streak Picks",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160444",
-          "author": "David Pinto",
-          "description": "Shohei Ohtani moved into first place in the Baseball Musings Batter Rankings. He homered and walked three times in a 7-1 win over the White Sox, Chicago falling 1/2 game behind Cleveland in the AL Central. Looks like Ohtani’s knee injury the other day was indeed minor. His teammate, Max Muncy, posted the highest game […]",
-          "link": "https://www.baseballmusings.com/?p=160444",
-          "publishedOn": "2026-06-14T10:26:34.000Z",
-          "wordCount": 7703,
-          "title": "Best Batter Today",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160442",
-          "author": "David Pinto",
-          "description": "",
-          "link": "https://www.baseballmusings.com/?p=160442",
-          "publishedOn": "2026-06-14T09:45:24.000Z",
-          "wordCount": 7461,
-          "title": "Sunday Update",
-          "imageUrl": null
         }
       ]
     },
@@ -1478,6 +1498,16 @@
       "feedUrl": "https://ballsandstrikes.org/feed",
       "siteUrl": "https://ballsandstrikes.org/",
       "articles": [
+        {
+          "id": "https://ballsandstrikes.org/?p=18419",
+          "author": "Madiba K. Dennie",
+          "description": "The conservatives on the Court often posture as great defenders of religious rights. In reality, they only care about the religious rights of some people. \nThe post Landor: The Supreme Court Just Empowered Prison Guards to Violate Religious Rights <span class=\"dewidow\">With Impunity</span> appeared first on Balls and Strikes.",
+          "link": "https://ballsandstrikes.org/scotus/landor-supreme-court-opinion-recap/",
+          "publishedOn": "2026-06-23T20:55:59.000Z",
+          "wordCount": 2116,
+          "title": "Landor: The Supreme Court Just Empowered Prison Guards to Violate Religious Rights With Impunity",
+          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2022/02/GettyImages-1204098864-scaled.jpg"
+        },
         {
           "id": "https://ballsandstrikes.org/?p=18415",
           "author": "Madiba K. Dennie",
@@ -1735,6 +1765,22 @@
       "feedUrl": "https://www.hopiumchronicles.com/feed",
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
+        {
+          "id": "https://www.hopiumchronicles.com/p/breaking-news-in-a-huge-global-humiliation",
+          "author": "Simon Rosenberg",
+          "description": "“Both houses have now said this war is illegal without our authorization\" - Senator Tim Kaine",
+          "link": "https://www.hopiumchronicles.com/p/breaking-news-in-a-huge-global-humiliation",
+          "publishedOn": "2026-06-23T21:30:43.000Z",
+          "wordCount": null,
+          "title": "Breaking News - Trump Loses Senate Iran War Powers Vote. The Rebukes, Losses, Humiliations Just Keep Coming",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!FZCF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65cbb19f-1eb9-4ba7-bcdc-f8230b598a7f_1015x676.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!FZCF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65cbb19f-1eb9-4ba7-bcdc-f8230b598a7f_1015x676.png"
+        },
         {
           "id": "https://www.hopiumchronicles.com/p/lets-show-bob-brooks-pa-7-some-love",
           "author": "Simon Rosenberg",
@@ -2014,6 +2060,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=226823",
+          "author": "Tom Ley",
+          "description": "For a little while there, it looked like Texas Tech quarterback Brendan Sorsby was going to wriggle out of this jam. After committing the historically career-ending sin of gambling on his own team, he won a preliminary injunction against the NCAA, overturning their ruling that made him ineligible to play college football. When Texas Tech's embarrassing PR campaign wasn't enough to fend off further legal challenges from the NCAA and the Big 12, Sorsby decided to hit the eject button and head for the NFL via the supplemental draft. Well, so much for that.\nSorsby received a letter from the NFL on Tuesday, informing him that the league will not be holding a supplemental draft this year. That leaves him ineligible to play college football and unable to enter the NFL until the 2027 draft. The NF…",
+          "link": "https://defector.com/nfl-tells-brendan-sorsby-hes-not-their-problem-right-now",
+          "publishedOn": "2026-06-23T20:06:26.000Z",
+          "wordCount": 5891,
+          "title": "NFL Tells Brendan Sorsby He’s Not Their Problem Right Now",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2258369743.jpg"
+        },
         {
           "id": "https://defector.com/?p=226765",
           "author": "Ray Ratto",
@@ -3009,6 +3065,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/gvsi1d5lsiq6cb8ifb86.html",
+          "author": null,
+          "description": "Pluggy, ABCs, Scrapy Extensions, and More\n      body,#bodyTable,#bodyCell{\n      height:100% !important;\n      margin:0;\n      padding:0;\n      width:100% !important;\n      }\n      table{\n      border-collapse:collapse;\n      }\n      img,a img{\n      border:0;\n      outline:none;\n      text-decoration:none;\n      }\n      h1,h2,h3,h4,h5,h6{\n      margin:0;\n      padding:0;\n      }\n      p{\n      margin:1em 0;\n      padding:0;\n      }\n      a{\n      word-wrap:break-word;\n      }\n      .mcnPreviewText{\n      display:none !important;\n      }\n      .ReadMsgBody{\n      width:100%;\n      }\n      .ExternalClass{\n      width:100%;\n      }\n      .ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{\n      line-height:100%;\n      }\n      table,td…",
+          "link": "https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/gvsi1d5lsiq6cb8ifb86.html",
+          "publishedOn": "2026-06-23T20:05:31.818Z",
+          "wordCount": 1463,
+          "title": "Pluggy, ABCs, Scrapy Extensions, and More",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/a94f56q5nft8p98zuimw.html",
           "author": null,
           "description": "JIT Delayed, Sandboxes, OpenRouter, and More\n      body,#bodyTable,#bodyCell{\n      height:100% !important;\n      margin:0;\n      padding:0;\n      width:100% !important;\n      }\n      table{\n      border-collapse:collapse;\n      }\n      img,a img{\n      border:0;\n      outline:none;\n      text-decoration:none;\n      }\n      h1,h2,h3,h4,h5,h6{\n      margin:0;\n      padding:0;\n      }\n      p{\n      margin:1em 0;\n      padding:0;\n      }\n      a{\n      word-wrap:break-word;\n      }\n      .mcnPreviewText{\n      display:none !important;\n      }\n      .ReadMsgBody{\n      width:100%;\n      }\n      .ExternalClass{\n      width:100%;\n      }\n      .ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{\n      line-height:100%;\n      }\n      table…",
@@ -3810,6 +3876,16 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a71684619/trump-reflecting-pool-vandals/",
+          "author": null,
+          "description": "No one has done more damage to the thing than the president himself.",
+          "link": "https://www.esquire.com/news-politics/politics/a71684619/trump-reflecting-pool-vandals/",
+          "publishedOn": "2026-06-23T21:09:12.000Z",
+          "wordCount": 24760,
+          "title": "Trump Really Thinks There Are Shadowy Vandals Trying to Destroy the Already Botched Reflecting Pool",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/b49f441d-2833-4b4f-8b4f-83c233033d18.jpeg?crop=1xw:0.749925350851xh;center,top&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a71682526/trump-priest-private-equity-executive-prison/",
           "author": null,
