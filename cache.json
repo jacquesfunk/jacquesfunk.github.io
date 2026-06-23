@@ -91,6 +91,22 @@
       "siteUrl": "https://www.dworkinsubstack.com",
       "articles": [
         {
+          "id": "https://www.dworkinsubstack.com/p/regime-hit-from-all-sides-265-million",
+          "author": "Scott Dworkin",
+          "description": "Plus, DOJ lawyers got caught lying in court again",
+          "link": "https://www.dworkinsubstack.com/p/regime-hit-from-all-sides-265-million",
+          "publishedOn": "2026-06-23T15:44:27.000Z",
+          "wordCount": null,
+          "title": "Regime Hit From All Sides: $265 Million Pulled From Bank Financing Trump’s Detention Machine, Montana Forced A Vote To Ban Dark Money, and Two Judges Blocked Him Cold",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/a4dd7032-5383-48d2-b929-3d2ec4c19e43_1200x675.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/a4dd7032-5383-48d2-b929-3d2ec4c19e43_1200x675.png"
+        },
+        {
           "id": "https://www.dworkinsubstack.com/p/trumps-losing-control-his-38-billion",
           "author": "Scott Dworkin",
           "description": "A grandmother killed a $38 billion detention scheme, 49 states blocked his agenda, and even his closest European ally refused to stay silent",
@@ -589,6 +605,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://randyridenour.net/posts/2026-06-23-toggle-ghostel.html",
+          "author": null,
+          "description": "Eat and toggle-term.el for terminal emulation in Emacs. After seeing some recommendations for Ghostel, I decided to give it a try, especially since I use Ghostty as my terminal emulator on the Mac anyway. All the reports were correct, Ghostel works like a charm, but I didn’t have as smooth a toggle experience as I had with Eat. Before switching back, I wondered if I really needed to install a package just to toggle the Ghostel buffer. It turns out that writing a simple toggle function was fairly easy.\n\n\n\nThe first function returns the name of the ghostel buffer if there is one. The second function starts ghostel if there is no existing ghostel buffer, switches to the buffer if there is one, and buries the ghostel buffer if it is currently the active buffer. I had to use bind-key* to override the ghostel key-map. \n\n\n\n\n(defun rlr/ghostel-buffer ()\n  \"Return the active ghostel buffer, or nil if none exists.\"\n  (seq-find (lambda (buf)\n              (string-match-p \"\\\\*ghostel:\" (buffer-name buf)))\n            (buffer-list)))\n\n(defun rlr/ghostel-toggle ()\n  (interactive)\n  (let ((buf (rlr/ghostel-buffer)))\n    (cond\n     ((not buf)\n      (ghostel))\n     ((eq (current-buffer) buf)\n      (bury-buffer))\n     (t\n      (switch-to-buffer buf)))))\n\n(bind-key* \"<f2>\" 'rlr/ghostel-toggle)\n\nEmacs",
+          "link": "https://randyridenour.net/posts/2026-06-23-toggle-ghostel.html",
+          "publishedOn": "2026-06-23T15:36:00.000Z",
+          "wordCount": 267,
+          "title": "Randy Ridenour: Toggle Ghostel",
+          "imageUrl": null
+        },
+        {
+          "id": "https://irreal.org/blog/?p=13895",
+          "author": null,
+          "description": "ytr, to do that. As usual, he built ytr to scratch and itch and is using it to experiment with its UI with the long term goal of possibly integrating it into his music player, ready-player.\n\n\nYtr is still at an early stage of development and will probably change as Ramírez gets more experience with it. It’s not yet in MELPA, of course, but you can get a copy from its GitHub repository where you’ll find installation instructions as well as a command summary.\n\n\nIf you have any interest in playing YouTube radio from within Emacs, take a look at Ramírez’s post and the ytr GitHub repository.",
+          "link": "https://irreal.org/blog/?p=13895",
+          "publishedOn": "2026-06-23T15:09:57.000Z",
+          "wordCount": 1457,
+          "title": "Irreal: YouTube Radio Player",
+          "imageUrl": null
+        },
+        {
           "id": "http://en.andros.dev/blog/4b707a03/how-i-built-a-gpu-backend-for-emacs/",
           "author": null,
           "description": "A few months ago I became obsessed with a silly question: why does my Emacs, on a laptop with a perfectly capable GPU, draw all of its text using the CPU? And that led to others: why can't I play a video inside a buffer? Why can't I have animated cursor effects? Why can't I cross-fade between buffers? I needed to satisfy my curiosity, so I started digging.\nI started reading the code, with an AI as my companion. I discovered that every glyph, every underline, every scroll is recomputed and repainted by the processor. Emacs's redisplay engine (xdisp.c) was born in an era when there was no other option, and it is tuned to the millimeter for exactly that. And nobody had managed to slip a GPU underneath without rewriting half of Emacs... until recently.\nSo I decided to try. What began as a week…",
@@ -597,6 +633,16 @@
           "wordCount": 3376,
           "title": "Andros Fenollosa: How I built a GPU backend for Emacs",
           "imageUrl": "https://img.andros.dev/nBgRNg17UB_JOm4H0xVbgc4r7Pg=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_94e69e19.png"
+        },
+        {
+          "id": "https://sachachua.com/blog/2026/06/2026-06-22-emacs-news/",
+          "author": null,
+          "description": "force-directed graphs\n(Reddit) and text-based mindmaps (Reddit, lobste.rs) were pretty cool.\nEnjoy!\n\n\n\nEmacs 31:\n\nEmacs 31 Is Around the Corner: The Changes I'm Already Daily Driving (Reddit, HN, lobste.rs, Irreal)\n\nUpcoming events (iCal file, Org):\n\nEmacs Berlin: Emacs-Berlin Hybrid Meetup https://emacs-berlin.org/ Wed Jun 24 1000 America/Vancouver - 1200 America/Chicago - 1300 America/Toronto - 1700 Etc/GMT - 1900 Europe/Berlin - 2230 Asia/Kolkata – Thu Jun 25 0100 Asia/Singapore\nEmacs APAC: Emacs APAC meetup (virtual) https://emacs-apac.gitlab.io/announcements/ Sat Jun 27 0130 America/Vancouver - 0330 America/Chicago - 0430 America/Toronto - 0830 Etc/GMT - 1030 Europe/Berlin - 1400 Asia/Kolkata - 1630 Asia/Singapore\nEmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/315091677…",
+          "link": "https://sachachua.com/blog/2026/06/2026-06-22-emacs-news/",
+          "publishedOn": "2026-06-23T02:30:26.000Z",
+          "wordCount": 1074,
+          "title": "Sacha Chua: 2026-06-22 Emacs news",
+          "imageUrl": null
         },
         {
           "id": "https://xenodium.com/ytr-youtube-radio-for-emacs",
@@ -905,6 +951,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160554",
+          "author": "David Pinto",
+          "description": "The Yankees lost three in a row and the Tigers won four in a row as Carlos Rodon takes on Casey Mize in Detroit. Rodon makes his eighth start of the season, averaging just a little over five innings per start. He’s doing his usual good job of limiting hits, but walked 20 batters in […]",
+          "link": "https://www.baseballmusings.com/?p=160554",
+          "publishedOn": "2026-06-23T17:24:25.000Z",
+          "wordCount": 7740,
+          "title": "Games of the Day",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160552",
           "author": "David Pinto",
@@ -1571,6 +1627,22 @@
       "siteUrl": "https://www.lawdork.com",
       "articles": [
         {
+          "id": "https://www.lawdork.com/p/this-is-what-a-6-3-supreme-court",
+          "author": "Chris Geidner",
+          "description": "On a rainy Tuesday in Washington, D.C., the reality of today's high court was abundantly clear as the court handed down four 6-3 decisions moving the law to the right.",
+          "link": "https://www.lawdork.com/p/this-is-what-a-6-3-supreme-court",
+          "publishedOn": "2026-06-23T17:37:43.000Z",
+          "wordCount": null,
+          "title": "This is what a 6-3 Supreme Court looks like",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!eU8t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56407e91-1d3f-492f-98a3-68e934a150d4_2018x1540.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!eU8t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56407e91-1d3f-492f-98a3-68e934a150d4_2018x1540.png"
+        },
+        {
           "id": "https://www.lawdork.com/p/does-doj-even-know-how-to-issue-subpoenas",
           "author": "Chris Geidner",
           "description": "Judge Patrick Schiltz quashed federal grand jury subpoenas issued against Minnesota officials. The move echoes the quashed Federal Reserve and trans care subpoenas.",
@@ -1673,6 +1745,22 @@
       "feedUrl": "https://www.hopiumchronicles.com/feed",
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
+        {
+          "id": "https://www.hopiumchronicles.com/p/lets-show-bob-brooks-pa-7-some-love",
+          "author": "Simon Rosenberg",
+          "description": "People are voting in Maryland, New York, South Carolina, and Utah today......",
+          "link": "https://www.hopiumchronicles.com/p/lets-show-bob-brooks-pa-7-some-love",
+          "publishedOn": "2026-06-23T15:15:58.000Z",
+          "wordCount": null,
+          "title": "Let's Show Bob Brooks (PA-7) Some Love Today, Trump's Failed War Keeps Failing, Talarico's 1st General Election Ad",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/1997bbba-b000-4298-99a9-82b93539b700_3600x2400.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/1997bbba-b000-4298-99a9-82b93539b700_3600x2400.jpeg"
+        },
         {
           "id": "https://www.hopiumchronicles.com/p/wed-june-24th-7pm-et-our-weekly-hopium",
           "author": "Simon Rosenberg",
@@ -1936,6 +2024,56 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=226754",
+          "author": "Patrick Redford",
+          "description": "As if they were trying to win the 2019 NBA Championship seven years too late, the horrible Washington Wizards made two of the most interesting moves at the deadline last year, relieving the Dallas Mavericks of Anthony Davis in exchange for basically one good first-round pick and taking Trae Young off of the Atlanta Hawks' hands for some expiring contracts. Despite Young's considerable flaws, the deal was a fine one for the Wizards, since they didn't surrender any real assets, happily allowing the Hawks to salary-dump their former franchise cornerstone. But after what the Wizards did this week, the trade looks more like a disaster than a happy flier.\nA day before they will make the first overall pick in Tuesday night's draft, the Wizards reportedly signed Young to a four-year, $212 million deal. Signing a tiny, perpetually injured, rapidly obsolescing point guard in a league that is increasingly hostile to that player type's existence is, to put it charitably, a bad idea, as is extending a player that a rival team salary-dumped. \nIf you squint to the point of shutting your eyes and seeing photonegative stars, you can make an argument that Jalen Brunson's Finals MVP run marked a turning point in the saga of the tiny guard, disproving the Hammon Corollary once and for all and justifying 53 million American dollars per season for a guy who stands 6-foot-0 and somehow defends a foot shorter. The Brunson comparison falls apart instantly under examination, as Brunson is a non-disastrous defender who is also capable of using his body to create space. Is Trae Young bashing people out of the way with his battering-ram head? No. His only relationship to contact is seeking fouls that the league has legislated out of the game.",
+          "link": "https://defector.com/trae-youngs-bizarre-new-deal-is-the-wrong-kind-of-hedge",
+          "publishedOn": "2026-06-23T17:28:46.000Z",
+          "wordCount": 5927,
+          "title": "Trae Young’s Bizarre New Deal Is The Wrong Kind Of Hedge",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2269297328.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=226770",
+          "author": "Patrick Redford",
+          "description": "The first round of the NBA Draft is tonight! Who will go first overall? Will any of the top four teams deviate from consensus? In what order will the huge swarm of point guards go after the fourth pick? On this week's Nothing But Respect, we answer some of these questions, but we also get into larger-order matters of draft philosophy, scouting, and why draft people use such crazy language. Our guest this week was David Lee, the writer and analyst, not the former NBA All-Star.\nWe also discussed Harry's new podcast/magazine project, TRANCHE 001. He put together five one-off podcast episodes with smart, interesting people from around the internet on such topics as the Palantir chore coat, Chaotic Good and the question of the Geese psy-op that drove people crazy, and the history of the word \"based.\" It's only $5, which is a steal.",
+          "link": "https://defector.com/a-sickos-guide-to-the-nba-draft-with-david-lee",
+          "publishedOn": "2026-06-23T16:54:41.000Z",
+          "wordCount": 4404,
+          "title": "A Sicko’s Guide To The NBA Draft, With David Lee",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-88687284.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=226700",
+          "author": "Luis Paez-Pumar",
+          "description": "Thanks to the luck of the draw and the blessing of the soccer gods, Monday was the second matchday of this World Cup in which all three of Lionel Messi, Kylian Mbappé, and Erling Haaland took the field in back-to-back-to-back matches. Thanks to sheer superhuman talent on display from the trio, Monday was also the second matchday of this World Cup in which all three of Lionel Messi, Kylian Mbappé, and Erling Haaland scored at least two goals each. \nIf the World Cup is a global celebration of soccer, then the 2026 World Cup Golden Boot race is a localized celebration of superstardom, a triple showdown that could even blossom into a four-way melee (Harry Kane plays his second game on Tuesday after scoring a brace of his own in his first against Croatia) heading into the final group stage round. Just when one guy has seemed to pull ahead, the other two have caught up immediately after, and only one goal separates the current leader from his two much younger challengers.\nThat current leader is, of course, Messi. After picking up two more goals on Monday against Austria, he has scored all five of Argentina's goals at this World Cup. Noted Messi worshipper Billy Haisley already covered the D10S's feats, so I will instead just highlight Messi's touch to control the ball ahead of Monday's second goal, and then move on. But seriously, what a touch:",
+          "link": "https://defector.com/the-golden-boot-race-has-already-gotten-ridiculous",
+          "publishedOn": "2026-06-23T16:31:45.000Z",
+          "wordCount": 6845,
+          "title": "The Golden Boot Race Has Already Gotten Ridiculous",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2282327956.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=226572",
+          "author": "Sabrina Imbler",
+          "description": "For half a century, a house on the coast in southern Lebanon has kept vigil over Al-Mansouri beach and the blue Mediterranean waters beyond. Mona Khalil's grandfather built the house in the 1970s, around seven miles from the border with Israel. A decade later, the Khalil family fled the Lebanese Civil War and left the house behind. Khalil eventually settled in the Netherlands and found work as a porcelain restorer. In 1999, on a visit to her grandparents' old home, Khalil walked along the shores, a beer in hand, when she heard a soft crunch. She watched, mesmerized, as a sea turtle lugged herself across the sand to lay her eggs, each soft and white and big as a ping-pong ball.\nThis turtle altered the course of Khalil's life. After she learned Lebanon's sea turtles were under threat, she devoted her days to protecting them. The following year, Khalil moved back into the house, which she painted tangerine—a tribute to the safe haven she had found in the Netherlands—and transformed into a conservation hub with a partner, a woman named Habiba Fayed. This became the Orange House Project, a bed and breakfast where guests could help clean litter off the beach, watch for turtle tracks, and monitor nests. In a 2017 interview, Khalil vowed to continue this work \"as long as God gives me life.\"\nEarlier this month, on June 4, an Israeli airstrike hit the Orange House and grievously wounded Khalil and burned another woman. On June 19, the 76-year-old Khalil died of her injuries, one of the 4,175 people killed in Israeli attacks across Lebanon since March 2. (Lebanon's health ministry does not distinguish between civilian and combatant deaths.)",
+          "link": "https://defector.com/mona-khalil-who-devoted-her-life-to-protecting-turtles-killed-by-israeli-airstrike",
+          "publishedOn": "2026-06-23T16:11:19.000Z",
+          "wordCount": 9659,
+          "title": "Mona Khalil, Who Devoted Her Life To Protecting Turtles, Killed By Israeli Airstrike",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-141991594.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=226703",
+          "author": "Lauren Theisen",
+          "description": "If there is a funnier MLB broadcast duo than Jason Benetti and Andy Dirks, I am not familiar with their work. Regardless of how the Tigers are playing, you can guarantee that Benetti will arrive at the booth ready to pepper his play-by-play with clever one-liners, deep-cut references and an extended bit or two. Of all his rotating partners in his couple years calling Detroit baseball, the modest, folksy Dirks has proven the most able and game to follow along with Benetti and—perhaps occasionally—egg him on.\nEven by my high standards for these two, the bottom of the fourth in Monday's Tigers-Yankees game was pretty hilarious. After the first hitter of the inning, the Yankee defense took notice of the ballpark's tiny second-base \"dirt cam,\" which for whatever reason had made itself conspicuous. The production crew gave viewers a dirt-eye view of the Yankees' curiosity, and then their attempt to bury the camera. The televised soundtrack to their attack on dirt cam was Benetti and Dirks voicing the anxieties of the persecuted camera, then eventually just making the sounds kids make when they bang action figures together.\nNote that, while Benetti usually gets more of the credit for the broadcast's humor, it's the former player Dirks who initially speaks in first person as the dirt cam.",
+          "link": "https://defector.com/tiny-innocent-dirt-cam-menaced-by-confused-goliaths",
+          "publishedOn": "2026-06-23T14:59:15.000Z",
+          "wordCount": 4422,
+          "title": "Tiny, Innocent Dirt Cam Menaced By Confused Goliaths",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/Screenshot-504.png"
+        },
         {
           "id": "https://defector.com/?p=226420",
           "author": "Bekah Waalkes",
