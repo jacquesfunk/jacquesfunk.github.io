@@ -609,6 +609,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://batsov.com/articles/2026/06/24/neocaml-0-9-repl-completion-and-robustness/",
+          "author": null,
+          "description": "It’s been a couple of months since the last neocaml\nrelease, and the reason is simple — for a while there I was genuinely out of ideas.\nBack when I shipped 0.6\nI declared (again!) that I was done with new features, and this time I almost meant\nit. But ideas have a way of creeping back in, and 0.9 turned out to be a meaty\nrelease. Here are the highlights.\nA much nicer REPL experience\nThe biggest chunk of work went into the REPL (toplevel) integration. I’m well aware\nthat the OCaml toplevel isn’t terribly popular with seasoned OCaml developers — most\nof them reach for a proper build and a debugger instead. But I think newcomers get a\nlot of mileage out of a REPL, and (no surprise to anyone who’s followed my work) I’m\na Lisper at heart with a real soft spot for interactive development. Clojur…",
+          "link": "https://batsov.com/articles/2026/06/24/neocaml-0-9-repl-completion-and-robustness/",
+          "publishedOn": "2026-06-24T07:00:00.000Z",
+          "wordCount": 1645,
+          "title": "Bozhidar Batsov: Neocaml 0.9: A Better REPL, Completion, and More Robustness",
+          "imageUrl": "https://batsov.com/assets/img/og-image.png"
+        },
+        {
           "id": "https://ray-on-emacs.blogspot.com/2026/06/link-diary-event-to-org-heading.html",
           "author": null,
           "description": "Suppose you want to schedule a recurring meeting in the diary, yet\n  you want to access an org heading for note-taking and clocking time.\n  You can add a link to that org heading in the description of the\n  diary event.\nHere's how I'd do it:\nPlace point on the desired Org heading\nInvoke org-store-link, which might be bound to C-c l\nIn the diary file...\n    \nAdd the date expression for the corresponding event.  In\n      this example, we'll schedule an event that occurs from 7pm to\n      8pm on the third Tuesday of every month.\n      \n%%(diary-float t 2 3) 19:00-20:00\nAdd a space and then the link as the event description with M-x org-insert-link\n      \nNote that C-c C-l might not bound to org-insert-link in diary-mode\n\n    \nThat's it!",
@@ -2687,16 +2697,6 @@
           "wordCount": 5629,
           "title": "The Hurricanes’ Dominance Required Years Of Disappointment",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281068402.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=225844",
-          "author": "Ray Ratto",
-          "description": "There were a number of intriguing discoveries to be made from the first round of matches in Group D of the World Cup, or as it is coming to be known, the Group Of Deaf. Such was the torrent of nearly hysterical praise directed at the United States team after its nearly ritualistic beating of Paraguay Friday night. No U.S. team had ever been so demonstratively superior in World Cup history, and no team had the level of semi-journalistic and marketing hysteria driving home that point. In other words, a 4-1 victory has rarely looked so 4-1.\n\nhttps://www.youtube.com/watch?v=BXD1_mhODBU\n\n\nBut the problem of making judgments based on one match worth of data is that it provides less useful information than one thinks. For instance, what if the quiet reveal from that match is actually that Paraguay isn't very good at all. To be sure, the Americans looked and played as though they were physically more imposing and demonstrably quicker both on and off the ball, almost as if the game were too easy for them. But we know from our reading that the U.S. is typically more devoted to grind-it-out games that are hard on the eye as well as the scoreboard, so it is wise to take their Day 2 victory with the proper amount of salt. Say, a metric ton.",
-          "link": "https://defector.com/the-usmnt-won-with-flair-can-it-win-a-grind",
-          "publishedOn": "2026-06-14T15:34:29.000Z",
-          "wordCount": 6053,
-          "title": "The USMNT Won With Flair. Can It Win A Grind?",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281464364.jpg"
         }
       ]
     },
@@ -2924,16 +2924,6 @@
           "wordCount": 2354,
           "title": "This One Is Nothing But Knicks, Baby",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/268mviinxfmtilvdlard.html",
-          "author": null,
-          "description": "96\n        Weekly Scorecard: Jun. 6 - 12, 2026\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    line-height: 100%;\n  }\n\n …",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/268mviinxfmtilvdlard.html",
-          "publishedOn": "2026-06-14T16:35:30.859Z",
-          "wordCount": 3401,
-          "title": "Weekly Scorecard: Jun. 6 - 12, 2026",
-          "imageUrl": null
         }
       ]
     },
@@ -2969,6 +2959,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=2817",
+          "author": "Schill",
+          "description": "Few songs hit as hard as “People Who Died.” Released by the Jim Carroll Band in 1980, it sounds like a punk rock explosion—fast, loud, angry, and almost chaotic. But underneath the guitars and the shouted chorus is something far more personal. The song is a memorial. Every verse is a tombstone. Every name represents...",
+          "link": "https://stuffthatinterestsme.net/the-real-stories-behind-jim-carrolls-people-who-died/",
+          "publishedOn": "2026-06-24T05:39:49.000Z",
+          "wordCount": 3235,
+          "title": "The Real Stories Behind Jim Carroll’s “People Who Died”",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=2808",
           "author": "Schill",

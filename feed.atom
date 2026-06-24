@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-06-24T03:29:24.554Z</updated>
+    <updated>2026-06-24T07:39:30.909Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bozhidar Batsov: Neocaml 0.9: A Better REPL, Completion, and More Robustness]]></title>
+        <id>https://batsov.com/articles/2026/06/24/neocaml-0-9-repl-completion-and-robustness/</id>
+        <link href="https://batsov.com/articles/2026/06/24/neocaml-0-9-repl-completion-and-robustness/"/>
+        <updated>2026-06-24T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s been a couple of months since the last neocaml
+release, and the reason is simple — for a while there I was genuinely out of ideas.
+Back when I shipped 0.6
+I declared (again!) that I was done with new features, and this time I almost meant
+it. But ideas have a way of creeping back in, and 0.9 turned out to be a meaty
+release. Here are the highlights.
+A much nicer REPL experience
+The biggest chunk of work went into the REPL (toplevel) integration. I’m well aware
+that the OCaml toplevel isn’t terribly popular with seasoned OCaml developers — most
+of them reach for a proper build and a debugger instead. But I think newcomers get a
+lot of mileage out of a REPL, and (no surprise to anyone who’s followed my work) I’m
+a Lisper at heart with a real soft spot for interactive development. Clojur…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Real Stories Behind Jim Carroll’s “People Who Died”]]></title>
+        <id>https://stuffthatinterestsme.net/?p=2817</id>
+        <link href="https://stuffthatinterestsme.net/the-real-stories-behind-jim-carrolls-people-who-died/"/>
+        <updated>2026-06-24T05:39:49.000Z</updated>
+        <summary type="html"><![CDATA[Few songs hit as hard as “People Who Died.” Released by the Jim Carroll Band in 1980, it sounds like a punk rock explosion—fast, loud, angry, and almost chaotic. But underneath the guitars and the shouted chorus is something far more personal. The song is a memorial. Every verse is a tombstone. Every name represents...]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Blue is impatient. The Supreme Court is taking its time.]]></title>
         <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/kppxxie5ge0kvbbr2lrn.html</id>
@@ -5558,76 +5589,6 @@ But even though most Republicans have quietly moved on, Vance is still hoping to
         <summary type="html"><![CDATA[There are still 20 argued cases awaiting action, with 19 opinions expected. Also: Talking with TPM about Trump's anti-trans attacks. And, for paid subscribers: Closing my tabs.]]></summary>
         <author>
             <name>Chris Geidner</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weekly Scorecard: Jun. 6 - 12, 2026]]></title>
-        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/268mviinxfmtilvdlard.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/268mviinxfmtilvdlard.html"/>
-        <updated>2026-06-14T16:35:30.859Z</updated>
-        <summary type="html"><![CDATA[96
-        Weekly Scorecard: Jun. 6 - 12, 2026
-        
-@media only screen and (max-width: 620px) {
-  table.body {
-    width: 100%;
-    min-width: 100%;
-  }
-
-  table.body .content {
-    padding: 0 !important;
-  }
-
-  table.body .container {
-    padding: 0 !important;
-    width: 100% !important;
-  }
-
-  table.body .main {
-    border-spacing: 10px 0 !important;
-    border-left-width: 0 !important;
-    border-radius: 0 !important;
-    border-right-width: 0 !important;
-  }
-
-  table.body .img-responsive {
-    height: auto !important;
-    max-width: 100% !important;
-    width: auto !important;
-  }
-}
-@media all {
-  .ExternalClass {
-    width: 100%;
-  }
-
-  .ExternalClass,
-.ExternalClass p,
-.ExternalClass span,
-.ExternalClass font,
-.ExternalClass td,
-.ExternalClass div {
-    line-height: 100%;
-  }
-
- …]]></summary>
-        <author>
-            <name>Misc Newsletters</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The USMNT Won With Flair. Can It Win A Grind?]]></title>
-        <id>https://defector.com/?p=225844</id>
-        <link href="https://defector.com/the-usmnt-won-with-flair-can-it-win-a-grind"/>
-        <updated>2026-06-14T15:34:29.000Z</updated>
-        <summary type="html"><![CDATA[There were a number of intriguing discoveries to be made from the first round of matches in Group D of the World Cup, or as it is coming to be known, the Group Of Deaf. Such was the torrent of nearly hysterical praise directed at the United States team after its nearly ritualistic beating of Paraguay Friday night. No U.S. team had ever been so demonstratively superior in World Cup history, and no team had the level of semi-journalistic and marketing hysteria driving home that point. In other words, a 4-1 victory has rarely looked so 4-1.
-
-https://www.youtube.com/watch?v=BXD1_mhODBU
-
-
-But the problem of making judgments based on one match worth of data is that it provides less useful information than one thinks. For instance, what if the quiet reveal from that match is actually that Paraguay isn't very good at all. To be sure, the Americans looked and played as though they were physically more imposing and demonstrably quicker both on and off the ball, almost as if the game were too easy for them. But we know from our reading that the U.S. is typically more devoted to grind-it-out games that are hard on the eye as well as the scoreboard, so it is wise to take their Day 2 victory with the proper amount of salt. Say, a metric ton.]]></summary>
-        <author>
-            <name>Ray Ratto</name>
         </author>
     </entry>
     <entry>
