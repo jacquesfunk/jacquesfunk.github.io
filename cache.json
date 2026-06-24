@@ -268,6 +268,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/gsw8yltsg47c01nnp2vb.html",
+          "author": null,
+          "description": "Mail-in voting is under attack — here's what you can do\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n …",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/gsw8yltsg47c01nnp2vb.html",
+          "publishedOn": "2026-06-24T14:34:30.330Z",
+          "wordCount": 1305,
+          "title": "Mail-in voting is under attack — here's what you can do",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/6wu22kc0cho897p4x1tx.html",
           "author": null,
           "description": "This is a paid, sponsored e-mail from MSI United States ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\t\n\n\n         This is a paid, sponsored e-mail from MSI United States; not an endorsement or a reflection of the editorial policy of The Nation or TheNation.com. We depend on advertisers like this to help fund our independent journalism. Thank you for your support. \n     \n    \n\n\n\n\n\n\n\n\n\n96\n\n\n\n\n\n\n*|MC:SUBJECT|*\n\np{\nmargin:10px 0;\npadding:0;\n}\ntable{\nborder-collapse:collaps…",
@@ -634,6 +644,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "http://yummymelon.com/devnull/scheduling-future-tasks-in-emacs.html",
+          "author": null,
+          "description": "Back when I had to run a lot of long-running simulations on Unix systems, I became an ardent user of the at command, which lets one schedule a program to run at a future date. I also used at to schedule different notifications, like sending a message to a pager (yer, how quaint).\nMoving to macOS (nee OS X) changed that, as it disabled by default the at command due to battery life management. As I was unwilling to give up battery life for at, I learned to live without it. That was, until I learned that Emacs had run-at-time.\nThe run-at-time command does as it says on the tin: it will run a function at some future specification of time.\n\n\n1\n\n(run-at-time TIME REPEAT FUNCTION &rest ARGS)\n\n\n\n\n\nThat specification of time is “natural language-like” in that multiple string representations of time…",
+          "link": "http://yummymelon.com/devnull/scheduling-future-tasks-in-emacs.html",
+          "publishedOn": "2026-06-24T19:25:00.000Z",
+          "wordCount": 583,
+          "title": "Charles Choi: Scheduling Future Tasks in Emacs",
+          "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
+        },
         {
           "id": "https://www.chiply.dev/post-svg-margin",
           "author": null,
@@ -1657,6 +1677,22 @@
       "siteUrl": "https://www.lawdork.com",
       "articles": [
         {
+          "id": "https://www.lawdork.com/p/doj-trans-care-grand-jury-subpoena-tro",
+          "author": "Chris Geidner",
+          "description": "Judge Failla found that DOJ’s request “shocks the conscience” by seeking the “most personal and sensitive information a medical provider could hold” without justifying its need.",
+          "link": "https://www.lawdork.com/p/doj-trans-care-grand-jury-subpoena-tro",
+          "publishedOn": "2026-06-24T19:20:33.000Z",
+          "wordCount": null,
+          "title": "Breaking: Federal judge blocks DOJ from seeking NYC trans care information via grand jury subpoena",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!rYrH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa02d8a47-f5c4-453d-a0de-458708d229e5_1724x1096.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!rYrH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa02d8a47-f5c4-453d-a0de-458708d229e5_1724x1096.png"
+        },
+        {
           "id": "https://www.lawdork.com/p/this-is-what-a-6-3-supreme-court",
           "author": "Chris Geidner",
           "description": "On a rainy Tuesday in Washington, D.C., the reality of today's high court was abundantly clear as the court handed down four 6-3 decisions moving the law to the right.",
@@ -1759,6 +1795,22 @@
       "feedUrl": "https://www.hopiumchronicles.com/feed",
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
+        {
+          "id": "https://www.hopiumchronicles.com/p/rebecca-cooke-wi-03-checks-in-with",
+          "author": "Simon Rosenberg",
+          "description": "“That’s what is different… we’ve had leaders really emerge that have lived these failed policies and they want to fight… you can’t manufacture that kind of authenticity.\"",
+          "link": "https://www.hopiumchronicles.com/p/rebecca-cooke-wi-03-checks-in-with",
+          "publishedOn": "2026-06-24T18:15:31.000Z",
+          "wordCount": null,
+          "title": "Rebecca Cooke (WI-03) Checks In With The Hopium Community",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/203288509/c2585e7ac43024d752eef30db2a36a30.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "https://www.hopiumchronicles.com/p/big-night-for-mamdani-house-dems",
           "author": "Simon Rosenberg",
@@ -2054,6 +2106,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=226918",
+          "author": "Brandy Jensen",
+          "description": "Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. Today, we're talking money, U2, lasagna, and more.\nHello! I'm happy to be back guest-hosting the Funbag while Drew is off. Let's get to it.",
+          "link": "https://defector.com/should-i-sell-my-ludicrously-valuable-world-cup-ticket",
+          "publishedOn": "2026-06-24T18:57:37.000Z",
+          "wordCount": 7601,
+          "title": "Should I Sell My Ludicrously Valuable World Cup Ticket?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2282108073.jpg"
+        },
         {
           "id": "https://defector.com/?p=225751",
           "author": "Sarah Borus",
@@ -2831,6 +2893,16 @@
       "feedUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
+        {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/c8rg5j29lr5mogajtimm.html",
+          "author": null,
+          "description": "96\n            \n        \n        \n        \n        \n        \n        Ask a Manager - new articles\n\n    \n\t\tp{\n\t\t\tmargin:10px 0;\n\t\t\tpadding:0;\n\t\t}\n\t\ttable{\n\t\t\tborder-collapse:collapse;\n\t\t}\n\t\th1,h2,h3,h4,h5,h6{\n\t\t\tdisplay:block;\n\t\t\tmargin:0;\n\t\t\tpadding:0;\n\t\t}\n\t\timg,a img{\n\t\t\tborder:0;\n\t\t\theight:auto;\n\t\t\toutline:none;\n\t\t\ttext-decoration:none;\n\t\t}\n\t\tbody,#bodyTable,#bodyCell{\n\t\t\theight:100%;\n\t\t\tmargin:0;\n\t\t\tpadding:0;\n\t\t\twidth:100%;\n\t\t}\n\t\t.mcnPreviewText{\n\t\t\tdisplay:none !important;\n\t\t}\n\t\t#outlook a{\n\t\t\tpadding:0;\n\t\t}\n\t\timg{\n\t\t\t-ms-interpolation-mode:bicubic;\n\t\t}\n\t\ttable{\n\t\t\tmso-table-lspace:0pt;\n\t\t\tmso-table-rspace:0pt;\n\t\t}\n\t\t.ReadMsgBody{\n\t\t\twidth:100%;\n\t\t}\n\t\t.ExternalClass{\n\t\t\twidth:100%;\n\t\t}\n\t\tp,a,li,td,blockquote{\n\t\t\tmso-line-height-rule:exactly;\n\t\t}\n\t\ta[href^=tel],a[href^=sms]{\n\t\t\tcolor:i…",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/c8rg5j29lr5mogajtimm.html",
+          "publishedOn": "2026-06-24T19:05:51.081Z",
+          "wordCount": 1081,
+          "title": "Ask a Manager - new articles",
+          "imageUrl": null
+        },
         {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/5lgr6svhig46v49hdpre.html",
           "author": null,

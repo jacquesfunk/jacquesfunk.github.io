@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-06-24 datetime="2026-06-24T17:04:09.000Z">2026-06-24</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-06-24 datetime="2026-06-24T17:04:09.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-06-24 datetime="2026-06-24T19:25:00.000Z">2026-06-24</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-06-24 datetime="2026-06-24T19:25:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -34,25 +34,308 @@
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Balls and Strikes</button>
-                  <a class="source-heading__link" href="https://ballsandstrikes.org/">Open</a>
+                  >Planet Emacslife</button>
+                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://ballsandstrikes.org/?p&#x3D;18425"
+                        data-accordion-key="http://yummymelon.com/devnull/scheduling-future-tasks-in-emacs.html"
                         open
                       >
-                        <summary class="article-expander__title">The Supreme Court’s Opinion Day Ritual Helps Conceal the Justices’ Favorite Lie</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://ballsandstrikes.org/ethics-accountability/supreme-court-opinion-day-ritual-conceal-favorite-lie/">
+                        <summary class="article-expander__title">Charles Choi: Scheduling Future Tasks in Emacs</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://yummymelon.com/devnull/scheduling-future-tasks-in-emacs.html">
                           <div class="article-summary-box-inner media-object">
-                              <img src="http://ballsandstrikes.org/wp-content/uploads/2026/06/GettyImages-479110300-1200x630.jpg" loading="lazy" class="media-object__media article-image" />
+                              <img src="http://yummymelon.com/devnull/images/opengraph-default.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>The justices could be more transparent about when they will decide which case. They just choose not to do it.
-The post The Supreme Court’s Opinion Day Ritual Helps Conceal the Justices’ Favorite Lie appeared first on Balls and Strikes.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
+                              <span>Back when I had to run a lot of long-running simulations on Unix systems, I became an ardent user of the at command, which lets one schedule a program to run at a future date. I also used at to schedule different notifications, like sending a message to a pager (yer, how quaint).
+Moving to macOS (nee OS X) changed that, as it disabled by default the at command due to battery life management. As I was unwilling to give up battery life for at, I learned to live without it. That was, until I learned that Emacs had run-at-time.
+The run-at-time command does as it says on the tin: it will run a function at some future specification of time.
+
+
+1
+
+(run-at-time TIME REPEAT FUNCTION &amp;rest ARGS)
+
+
+
+
+
+That specification of time is “natural language-like” in that multiple string representations of time…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.chiply.dev/post-svg-margin"
+                        open
+                      >
+                        <summary class="article-expander__title">Charlie Holland: svg-margin: Better Gutters for Emacs</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.chiply.dev/post-svg-margin">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.chiply.dev/images/svg-margin-annotated.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>1. TLDR
+fringe and margin, the thin gutters beside the buffer text.  The fringe gives you a single monochrome mark per side, and the margin can technically hold more, but getting several independent sources to share one line cleanly is surprisingly hard to pull off in the plain text rendering that the margin uses out-of-the-box.
+
+
+
+svg-margin (code on GitHub) fixes this by rendering indicators as SVG in the window margins, so any number of independent &quot;providers&quot; present text, icon glyphs, and clickable markers side by side on one line.  Like my svg-line package, it overlays SVGs onto built-in UI components (the margin in this case) by leveraging Emacs&#x27;s built-in SVG support.  My personal config channels many sources to it, including VC, flycheck, evil marks, Org elements, whitespace indic…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;21
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://batsov.com/articles/2026/06/24/neocaml-0-9-repl-completion-and-robustness/"
+                        open
+                      >
+                        <summary class="article-expander__title">Bozhidar Batsov: Neocaml 0.9: A Better REPL, Completion, and More Robustness</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://batsov.com/articles/2026/06/24/neocaml-0-9-repl-completion-and-robustness/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://batsov.com/assets/img/og-image.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>It’s been a couple of months since the last neocaml
+release, and the reason is simple — for a while there I was genuinely out of ideas.
+Back when I shipped 0.6
+I declared (again!) that I was done with new features, and this time I almost meant
+it. But ideas have a way of creeping back in, and 0.9 turned out to be a meaty
+release. Here are the highlights.
+A much nicer REPL experience
+The biggest chunk of work went into the REPL (toplevel) integration. I’m well aware
+that the OCaml toplevel isn’t terribly popular with seasoned OCaml developers — most
+of them reach for a proper build and a debugger instead. But I think newcomers get a
+lot of mileage out of a REPL, and (no surprise to anyone who’s followed my work) I’m
+a Lisper at heart with a real soft spot for interactive development. Clojur…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Law Dork</button>
+                  <a class="source-heading__link" href="https://www.lawdork.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.lawdork.com/p/doj-trans-care-grand-jury-subpoena-tro"
+                        open
+                      >
+                        <summary class="article-expander__title">Breaking: Federal judge blocks DOJ from seeking NYC trans care information via grand jury subpoena</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.lawdork.com/p/doj-trans-care-grand-jury-subpoena-tro">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/$s_!rYrH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa02d8a47-f5c4-453d-a0de-458708d229e5_1724x1096.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Judge Failla found that DOJ’s request “shocks the conscience” by seeking the “most personal and sensitive information a medical provider could hold” without justifying its need.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Misc Newsletters</button>
+                  <a class="source-heading__link" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/c8rg5j29lr5mogajtimm.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Ask a Manager - new articles</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/c8rg5j29lr5mogajtimm.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>96
+            
+        
+        
+        
+        
+        
+        Ask a Manager - new articles
+
+    
+		p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		.mcnPreviewText{
+			display:none !important;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^&#x3D;tel],a[href^&#x3D;sms]{
+			color:i…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/5lgr6svhig46v49hdpre.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Jac hammers the Rays</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/5lgr6svhig46v49hdpre.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>96
+        Jac hammers the Rays
+        
+@media only screen and (max-width: 620px) {
+  table.body {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  table.body .content {
+    padding: 0 !important;
+  }
+
+  table.body .container {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  table.body .main {
+    border-spacing: 10px 0 !important;
+    border-left-width: 0 !important;
+    border-radius: 0 !important;
+    border-right-width: 0 !important;
+  }
+
+  table.body .img-responsive {
+    height: auto !important;
+    max-width: 100% !important;
+    width: auto !important;
+  }
+}
+@media all {
+  .ExternalClass {
+    width: 100%;
+  }
+
+  .ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+    line-height: 100%;
+  }
+
+  .apple-link a …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/m7x0cy83hza7mip95cd3.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Katie Nolan Tells Me Why We’re So Hard On The USMNT</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/m7x0cy83hza7mip95cd3.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Katie Nolan Tells Me Why We’re So Hard On The USMNT96
+  :root { color-scheme: light; supported-color-schemes: light; }
+  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }
+  .body { word-wrap: normal; word-spacing:normal; }
+  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }
+  img { border: 0; outline: none; }
+  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }
+  td, a, span {  mso-line-height-rule: exactly; }
+  #root [x-apple-data-detectors&#x3D;true],
+  a[x-apple-data-detectors&#x3D;true],
+  #MessageViewBody a { color: inherit !important; text-decoration: inherit !important; font…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -73,6 +356,27 @@ The post The Supreme Court’s Opinion Day Ritual Helps Conceal the Justices’ 
                   <a class="source-heading__link" href="https://defector.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://defector.com/?p&#x3D;226918"
+                        open
+                      >
+                        <summary class="article-expander__title">Should I Sell My Ludicrously Valuable World Cup Ticket?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/should-i-sell-my-ludicrously-valuable-world-cup-ticket">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2282108073.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. Today, we&#x27;re talking money, U2, lasagna, and more.
+Hello! I&#x27;m happy to be back guest-hosting the Funbag while Drew is off. Let&#x27;s get to it.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;25
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -221,6 +525,23 @@ It was 95 degrees with 57 percent humidity when I arrived. The air around the ja
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/rebecca-cooke-wi-03-checks-in-with"
+                        open
+                      >
+                        <summary class="article-expander__title">Rebecca Cooke (WI-03) Checks In With The Hopium Community</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/rebecca-cooke-wi-03-checks-in-with">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>“That’s what is different… we’ve had leaders really emerge that have lived these failed policies and they want to fight… you can’t manufacture that kind of authenticity.&quot;</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.hopiumchronicles.com/p/big-night-for-mamdani-house-dems"
                         open
                       >
@@ -229,6 +550,41 @@ It was 95 degrees with 57 percent humidity when I arrived. The air around the ja
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>Hopium paid subscribers gather tonight at 7pm ET/All eyes on the Senate GOP lunch at 1pm today</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Balls and Strikes</button>
+                  <a class="source-heading__link" href="https://ballsandstrikes.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://ballsandstrikes.org/?p&#x3D;18425"
+                        open
+                      >
+                        <summary class="article-expander__title">The Supreme Court’s Opinion Day Ritual Helps Conceal the Justices’ Favorite Lie</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ballsandstrikes.org/ethics-accountability/supreme-court-opinion-day-ritual-conceal-favorite-lie/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="http://ballsandstrikes.org/wp-content/uploads/2026/06/GettyImages-479110300-1200x630.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The justices could be more transparent about when they will decide which case. They just choose not to do it.
+The post The Supreme Court’s Opinion Day Ritual Helps Conceal the Justices’ Favorite Lie appeared first on Balls and Strikes.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -284,6 +640,45 @@ It was 95 degrees with 57 percent humidity when I arrived. The air around the ja
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/gsw8yltsg47c01nnp2vb.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Mail-in voting is under attack — here&#x27;s what you can do</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/gsw8yltsg47c01nnp2vb.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Mail-in voting is under attack — here&#x27;s what you can do
+    
+    
+    
+    
+    
+
+
+
+
+
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:&#x27;›&#x27;;padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+
+
+    
+  
+    
+      
+      96
+    
+ …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/6wu22kc0cho897p4x1tx.html"
                         open
                       >
@@ -323,183 +718,6 @@ padding:0;
 table{
 border-collapse:collaps…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Misc Newsletters</button>
-                  <a class="source-heading__link" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/5lgr6svhig46v49hdpre.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Jac hammers the Rays</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/5lgr6svhig46v49hdpre.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>96
-        Jac hammers the Rays
-        
-@media only screen and (max-width: 620px) {
-  table.body {
-    width: 100%;
-    min-width: 100%;
-  }
-
-  table.body .content {
-    padding: 0 !important;
-  }
-
-  table.body .container {
-    padding: 0 !important;
-    width: 100% !important;
-  }
-
-  table.body .main {
-    border-spacing: 10px 0 !important;
-    border-left-width: 0 !important;
-    border-radius: 0 !important;
-    border-right-width: 0 !important;
-  }
-
-  table.body .img-responsive {
-    height: auto !important;
-    max-width: 100% !important;
-    width: auto !important;
-  }
-}
-@media all {
-  .ExternalClass {
-    width: 100%;
-  }
-
-  .ExternalClass,
-.ExternalClass p,
-.ExternalClass span,
-.ExternalClass font,
-.ExternalClass td,
-.ExternalClass div {
-    line-height: 100%;
-  }
-
-  .apple-link a …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/m7x0cy83hza7mip95cd3.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Katie Nolan Tells Me Why We’re So Hard On The USMNT</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/m7x0cy83hza7mip95cd3.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Katie Nolan Tells Me Why We’re So Hard On The USMNT96
-  :root { color-scheme: light; supported-color-schemes: light; }
-  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }
-  .body { word-wrap: normal; word-spacing:normal; }
-  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }
-  img { border: 0; outline: none; }
-  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }
-  td, a, span {  mso-line-height-rule: exactly; }
-  #root [x-apple-data-detectors&#x3D;true],
-  a[x-apple-data-detectors&#x3D;true],
-  #MessageViewBody a { color: inherit !important; text-decoration: inherit !important; font…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Emacslife</button>
-                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.chiply.dev/post-svg-margin"
-                        open
-                      >
-                        <summary class="article-expander__title">Charlie Holland: svg-margin: Better Gutters for Emacs</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.chiply.dev/post-svg-margin">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.chiply.dev/images/svg-margin-annotated.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>1. TLDR
-fringe and margin, the thin gutters beside the buffer text.  The fringe gives you a single monochrome mark per side, and the margin can technically hold more, but getting several independent sources to share one line cleanly is surprisingly hard to pull off in the plain text rendering that the margin uses out-of-the-box.
-
-
-
-svg-margin (code on GitHub) fixes this by rendering indicators as SVG in the window margins, so any number of independent &quot;providers&quot; present text, icon glyphs, and clickable markers side by side on one line.  Like my svg-line package, it overlays SVGs onto built-in UI components (the margin in this case) by leveraging Emacs&#x27;s built-in SVG support.  My personal config channels many sources to it, including VC, flycheck, evil marks, Org elements, whitespace indic…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://batsov.com/articles/2026/06/24/neocaml-0-9-repl-completion-and-robustness/"
-                        open
-                      >
-                        <summary class="article-expander__title">Bozhidar Batsov: Neocaml 0.9: A Better REPL, Completion, and More Robustness</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://batsov.com/articles/2026/06/24/neocaml-0-9-repl-completion-and-robustness/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://batsov.com/assets/img/og-image.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>It’s been a couple of months since the last neocaml
-release, and the reason is simple — for a while there I was genuinely out of ideas.
-Back when I shipped 0.6
-I declared (again!) that I was done with new features, and this time I almost meant
-it. But ideas have a way of creeping back in, and 0.9 turned out to be a meaty
-release. Here are the highlights.
-A much nicer REPL experience
-The biggest chunk of work went into the REPL (toplevel) integration. I’m well aware
-that the OCaml toplevel isn’t terribly popular with seasoned OCaml developers — most
-of them reach for a proper build and a debugger instead. But I think newcomers get a
-lot of mileage out of a REPL, and (no surprise to anyone who’s followed my work) I’m
-a Lisper at heart with a real soft spot for interactive development. Clojur…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -11178,8 +11396,8 @@ But even though most Republicans have quietly moved on, Vance is still hoping to
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/28118550481">
-        <time id="build-timestamp" datetime="2026-06-24T17:53:19.961Z">2026-06-24T17:53:19.961Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/28125000999">
+        <time id="build-timestamp" datetime="2026-06-24T19:44:31.813Z">2026-06-24T19:44:31.813Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

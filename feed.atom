@@ -2,10 +2,131 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-06-24T17:53:19.996Z</updated>
+    <updated>2026-06-24T19:44:31.837Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Charles Choi: Scheduling Future Tasks in Emacs]]></title>
+        <id>http://yummymelon.com/devnull/scheduling-future-tasks-in-emacs.html</id>
+        <link href="http://yummymelon.com/devnull/scheduling-future-tasks-in-emacs.html"/>
+        <updated>2026-06-24T19:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Back when I had to run a lot of long-running simulations on Unix systems, I became an ardent user of the at command, which lets one schedule a program to run at a future date. I also used at to schedule different notifications, like sending a message to a pager (yer, how quaint).
+Moving to macOS (nee OS X) changed that, as it disabled by default the at command due to battery life management. As I was unwilling to give up battery life for at, I learned to live without it. That was, until I learned that Emacs had run-at-time.
+The run-at-time command does as it says on the tin: it will run a function at some future specification of time.
+
+
+1
+
+(run-at-time TIME REPEAT FUNCTION &rest ARGS)
+
+
+
+
+
+That specification of time is “natural language-like” in that multiple string representations of time…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Breaking: Federal judge blocks DOJ from seeking NYC trans care information via grand jury subpoena]]></title>
+        <id>https://www.lawdork.com/p/doj-trans-care-grand-jury-subpoena-tro</id>
+        <link href="https://www.lawdork.com/p/doj-trans-care-grand-jury-subpoena-tro"/>
+        <updated>2026-06-24T19:20:33.000Z</updated>
+        <summary type="html"><![CDATA[Judge Failla found that DOJ’s request “shocks the conscience” by seeking the “most personal and sensitive information a medical provider could hold” without justifying its need.]]></summary>
+        <author>
+            <name>Chris Geidner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask a Manager - new articles]]></title>
+        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/c8rg5j29lr5mogajtimm.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/c8rg5j29lr5mogajtimm.html"/>
+        <updated>2026-06-24T19:05:51.081Z</updated>
+        <summary type="html"><![CDATA[96
+            
+        
+        
+        
+        
+        
+        Ask a Manager - new articles
+
+    
+		p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		.mcnPreviewText{
+			display:none !important;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=tel],a[href^=sms]{
+			color:i…]]></summary>
+        <author>
+            <name>Misc Newsletters</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Should I Sell My Ludicrously Valuable World Cup Ticket?]]></title>
+        <id>https://defector.com/?p=226918</id>
+        <link href="https://defector.com/should-i-sell-my-ludicrously-valuable-world-cup-ticket"/>
+        <updated>2026-06-24T18:57:37.000Z</updated>
+        <summary type="html"><![CDATA[Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. Today, we're talking money, U2, lasagna, and more.
+Hello! I'm happy to be back guest-hosting the Funbag while Drew is off. Let's get to it.]]></summary>
+        <author>
+            <name>Brandy Jensen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rebecca Cooke (WI-03) Checks In With The Hopium Community]]></title>
+        <id>https://www.hopiumchronicles.com/p/rebecca-cooke-wi-03-checks-in-with</id>
+        <link href="https://www.hopiumchronicles.com/p/rebecca-cooke-wi-03-checks-in-with"/>
+        <updated>2026-06-24T18:15:31.000Z</updated>
+        <summary type="html"><![CDATA[“That’s what is different… we’ve had leaders really emerge that have lived these failed policies and they want to fight… you can’t manufacture that kind of authenticity."]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Supreme Court’s Opinion Day Ritual Helps Conceal the Justices’ Favorite Lie]]></title>
         <id>https://ballsandstrikes.org/?p=18425</id>
@@ -82,6 +203,36 @@ This won't survive very close scrutiny. For one thing, all three of the offendin
         <summary type="html"><![CDATA[Plus: the vaccine study they tried to bury just got out anyway]]></summary>
         <author>
             <name>Scott Dworkin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mail-in voting is under attack — here's what you can do]]></title>
+        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/gsw8yltsg47c01nnp2vb.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/gsw8yltsg47c01nnp2vb.html"/>
+        <updated>2026-06-24T14:34:30.330Z</updated>
+        <summary type="html"><![CDATA[Mail-in voting is under attack — here's what you can do
+    
+    
+    
+    
+    
+
+
+
+
+
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+
+
+    
+  
+    
+      
+      96
+    
+ …]]></summary>
+        <author>
+            <name>Current Events</name>
         </author>
     </entry>
     <entry>
