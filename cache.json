@@ -252,6 +252,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/6wu22kc0cho897p4x1tx.html",
+          "author": null,
+          "description": "This is a paid, sponsored e-mail from MSI United States ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\t\n\n\n         This is a paid, sponsored e-mail from MSI United States; not an endorsement or a reflection of the editorial policy of The Nation or TheNation.com. We depend on advertisers like this to help fund our independent journalism. Thank you for your support. \n     \n    \n\n\n\n\n\n\n\n\n\n96\n\n\n\n\n\n\n*|MC:SUBJECT|*\n\np{\nmargin:10px 0;\npadding:0;\n}\ntable{\nborder-collapse:collaps…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/6wu22kc0cho897p4x1tx.html",
+          "publishedOn": "2026-06-24T14:25:11.649Z",
+          "wordCount": 1991,
+          "title": "Tiny IUD. Big Impact",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/kppxxie5ge0kvbbr2lrn.html",
           "author": null,
           "description": "Blue is impatient. The Supreme Court is taking its time. \n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    …",
@@ -609,6 +619,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.chiply.dev/post-svg-margin",
+          "author": null,
+          "description": "1. TLDR\nfringe and margin, the thin gutters beside the buffer text.  The fringe gives you a single monochrome mark per side, and the margin can technically hold more, but getting several independent sources to share one line cleanly is surprisingly hard to pull off in the plain text rendering that the margin uses out-of-the-box.\n\n\n\nsvg-margin (code on GitHub) fixes this by rendering indicators as SVG in the window margins, so any number of independent \"providers\" present text, icon glyphs, and clickable markers side by side on one line.  Like my svg-line package, it overlays SVGs onto built-in UI components (the margin in this case) by leveraging Emacs's built-in SVG support.  My personal config channels many sources to it, including VC, flycheck, evil marks, Org elements, whitespace indic…",
+          "link": "https://www.chiply.dev/post-svg-margin",
+          "publishedOn": "2026-06-24T11:22:06.000Z",
+          "wordCount": 6224,
+          "title": "Charlie Holland: svg-margin: Better Gutters for Emacs",
+          "imageUrl": "https://www.chiply.dev/images/svg-margin-annotated.png"
+        },
+        {
           "id": "https://batsov.com/articles/2026/06/24/neocaml-0-9-repl-completion-and-robustness/",
           "author": null,
           "description": "It’s been a couple of months since the last neocaml\nrelease, and the reason is simple — for a while there I was genuinely out of ideas.\nBack when I shipped 0.6\nI declared (again!) that I was done with new features, and this time I almost meant\nit. But ideas have a way of creeping back in, and 0.9 turned out to be a meaty\nrelease. Here are the highlights.\nA much nicer REPL experience\nThe biggest chunk of work went into the REPL (toplevel) integration. I’m well aware\nthat the OCaml toplevel isn’t terribly popular with seasoned OCaml developers — most\nof them reach for a proper build and a debugger instead. But I think newcomers get a\nlot of mileage out of a REPL, and (no surprise to anyone who’s followed my work) I’m\na Lisper at heart with a real soft spot for interactive development. Clojur…",
@@ -935,6 +955,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160564",
+          "author": "David Pinto",
+          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.325, 0.708 — Ceddanne Rafaela batting at Kyle Freeland. 0.322, 0.723 — Brandon Marsh batting at Miles Mikolas. 0.321, 0.719 — Ernie Clement batting vs. Mike Burrows. 0.314, 0.694 — Wilyer Abreu batting at Kyle Freeland. 0.306, 0.683 — Willson Contreras batting at […]",
+          "link": "https://www.baseballmusings.com/?p=160564",
+          "publishedOn": "2026-06-24T11:01:27.000Z",
+          "wordCount": 8056,
+          "title": "Beat the Streak Picks",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160562",
           "author": "David Pinto",
@@ -1444,26 +1474,6 @@
           "wordCount": 7464,
           "title": "Monday Update",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160452",
-          "author": "David Pinto",
-          "description": "Rookie catcher Rodolfo Duran of the Padres posted a two for four with a double and a walk on Sunday, helping his team beat the Orioles 5-2. That raised his BA to .176. While that may make it seem like he hasn’t done much in his 42 plate appearances, his OBP is a decent .333 […]",
-          "link": "https://www.baseballmusings.com/?p=160452",
-          "publishedOn": "2026-06-14T23:46:30.000Z",
-          "wordCount": 7575,
-          "title": "Batting Average Doesn’t Matter",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160450",
-          "author": "David Pinto",
-          "description": "Paul Skenes in many ways pitched better than Max Meyer on Sunday afternoon. They came in with nearly identical ERAs, with Skenes pitching better by Meyer winning more. That was the script today and as both went six innings but Skenes allowing two runs and Meyer one. Skenes allowed fewer hits and walks and struck […]",
-          "link": "https://www.baseballmusings.com/?p=160450",
-          "publishedOn": "2026-06-14T23:26:24.000Z",
-          "wordCount": 7535,
-          "title": "According to Script",
-          "imageUrl": null
         }
       ]
     },
@@ -1715,22 +1725,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!yyiB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9f64508-214e-4ff6-82fb-4e370f65c9ff_1604x900.png"
-        },
-        {
-          "id": "https://www.lawdork.com/p/whats-left-from-scotus",
-          "author": "Chris Geidner",
-          "description": "There are still 20 argued cases awaiting action, with 19 opinions expected. Also: Talking with TPM about Trump's anti-trans attacks. And, for paid subscribers: Closing my tabs.",
-          "link": "https://www.lawdork.com/p/whats-left-from-scotus",
-          "publishedOn": "2026-06-14T22:54:36.000Z",
-          "wordCount": null,
-          "title": "What's left from SCOTUS, and when to expect it",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!qUF3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0337f97d-48d1-4659-8feb-d803dea56871_2072x1488.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!qUF3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0337f97d-48d1-4659-8feb-d803dea56871_2072x1488.png"
         }
       ]
     },
@@ -2018,6 +2012,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=226779",
+          "author": "Sohini Desai",
+          "description": "In 2018, I became convinced that flamenco had South Asian origins. I hadn’t listened to much flamenco, if any at all, until my roommate Jake introduced me to Rosalía. I watched her dance—using her feet to strike the ground, making an instrument of her body, raising her arms in intricate flourishes—and I thought … I’ve seen this before. It looked so Indian to me. \nJake and I used to argue about it whenever we watched her music videos, which means we argued about it constantly. Me: “Romani people are from Rajasthan and there is no flamenco without Romani people!” Him: “Bitch, you can’t even spell flamenco.” We didn’t go anywhere without first downing black cherry White Claws and watching the “Con Altura” music video, mimicking her stomps on the brown carpet of our living room. I think I still have the whole thing memorized. \nEven though Rosalía experienced success early in her career—her debut album was beloved by critics—it took some time for pop fans to catch up. I remember going to Lollapalooza in 2019 and begging my high school friend to ditch a white rapper named “Yung Gravy” and come with me to catch Rosalía instead. She did, and she thanked me afterwards.",
+          "link": "https://defector.com/eight-years-of-rituals-with-rosalia",
+          "publishedOn": "2026-06-24T13:50:55.000Z",
+          "wordCount": 9711,
+          "title": "Eight Years Of Rituals With Rosalía",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2266934040_642efd-e1782238496287.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=226751",
+          "author": "E.Y. Zhao",
+          "description": "NEWARK, N.J. — I went to Delaney Hall, a privately run ICE jail in Newark, New Jersey, for the second time on June 12, three weeks after 300-plus detainees initiated a hunger and labor strike. The strikers’ demands include an audience with Governor Mikie Sherrill, the release of vulnerable inmates, better living conditions, the end of pressure tactics to sign self-deportation orders, and progressive release and fair reviews of their immigration cases.\nIt was 95 degrees with 57 percent humidity when I arrived. The air around the jail smelled of sewage and animal fat rendering plants. They used to make Agent Orange here. Inside Delaney, behind barriers, fences, barbed wire, and enforced windows that bleach the silhouettes of prisoners to nuclear shadow, there is no air conditioning. At the t…",
+          "link": "https://defector.com/two-nights-outside-ices-new-jersey-concentration-camp",
+          "publishedOn": "2026-06-24T13:02:03.000Z",
+          "wordCount": 11158,
+          "title": "Two Nights Outside ICE’s New Jersey Concentration Camp",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281417375.jpg"
+        },
         {
           "id": "https://defector.com/?p=226823",
           "author": "Tom Ley",
@@ -2735,6 +2749,16 @@
       "feedUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
+        {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/5lgr6svhig46v49hdpre.html",
+          "author": null,
+          "description": "96\n        Jac hammers the Rays\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    line-height: 100%;\n  }\n\n  .apple-link a …",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/5lgr6svhig46v49hdpre.html",
+          "publishedOn": "2026-06-24T12:29:18.658Z",
+          "wordCount": 3385,
+          "title": "Jac hammers the Rays",
+          "imageUrl": null
+        },
         {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/m7x0cy83hza7mip95cd3.html",
           "author": null,
