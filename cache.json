@@ -82,16 +82,6 @@
           "wordCount": 2390,
           "title": "MLBTR Podcast: The Giants Prepare To Sell, Milwaukee’s Extension Strategy, And The Busy AL Central",
           "imageUrl": "https://cdn.mlbtraderumors.com/files/2026/06/Buster_Posey_Giants-copy-2-1024x683.jpg"
-        },
-        {
-          "id": "https://www.mlbtraderumors.com/?p=899621",
-          "author": "Darragh McDonald",
-          "description": "The Royals have acquired right-hander Connor Seabold from the Blue Jays, according to announcements from both clubs. The Jays, who designated Seabold for assignment last week, receive minor league righty Denis Samudio and cash considerations. Kansas City transferred righty Carlos Estévez to the 60-day injured list in a corresponding 40-man move. Seabold is out of […]",
-          "link": "https://www.mlbtraderumors.com/2026/06/royals-acquire-connor-seabold.html",
-          "publishedOn": "2026-06-15T18:14:31.000Z",
-          "wordCount": 1970,
-          "title": "Royals Acquire Connor Seabold",
-          "imageUrl": "https://cdn.mlbtraderumors.com/files/2026/03/connor-seabold-blue-jays-2026-1024x664.jpg"
         }
       ]
     },
@@ -243,22 +233,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/56cefe24-d52a-479d-aa4a-d94a31dddab9_1200x675.png"
-        },
-        {
-          "id": "https://www.dworkinsubstack.com/p/trumps-name-comes-down-the-truth",
-          "author": "Scott Dworkin",
-          "description": "Plus, Ms. Rachel goes to Washington to end family detentions",
-          "link": "https://www.dworkinsubstack.com/p/trumps-name-comes-down-the-truth",
-          "publishedOn": "2026-06-15T15:41:36.000Z",
-          "wordCount": null,
-          "title": "Trump’s Name Comes Down. The Truth Goes Back Up.",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/cede5c96-b204-4732-baff-03bda5a80019_3600x2025.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/cede5c96-b204-4732-baff-03bda5a80019_3600x2025.png"
         }
       ]
     },
@@ -626,16 +600,6 @@
           "wordCount": 1462,
           "title": "Gavin Newsom says Trump put him on ‘hit list’",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/my6cd5iib1hwsbju11yk.html",
-          "author": null,
-          "description": "Top stories 06/15/2026#outlook a { padding:0; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0 !important; } .nl2go_preheader { display: none !important; mso-hide:all !important; mso-line-height-rule: exactly; visibility: hidden !important; line-height: 0px !important; font-size: 0px !important; } body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; } a img { border:none; } table { border-collapse:collapse; mso-ta…",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/my6cd5iib1hwsbju11yk.html",
-          "publishedOn": "2026-06-15T19:18:15.616Z",
-          "wordCount": 1683,
-          "title": "The Ultimate Symbol Of Our Dark American Moment",
-          "imageUrl": null
         }
       ]
     },
@@ -952,26 +916,6 @@
           "publishedOn": "2026-06-16T03:38:44.378Z",
           "wordCount": 3561,
           "title": "Raymond Zeitler: Emacs Carnival: diary, Part 1",
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.davep.org/2026/06/15/more-mode-line-tweaking.html",
-          "author": null,
-          "description": "The simplification of my mode\nline is sticking, in that I like\nhow it's turned out and I find it more useful to have it this simple. But I\ndid notice something was missing: I'm a pretty constant but pretty casual\nuser of projectile. I know it's a\npackage that offers a wealth of tools, yet mostly I just use it as a project\nbookmark system. For this, though, it works well.\nGiven this, having a quick and easy way to check that I'm in the project I\nthink I'm in is a good idea. While I also have\nneotree open all the time, which\ngives a fairly obvious clue, my eyes keep flitting down to the mode line.\nThe change I made the other day, deliberately, left the project off. I think\nthis was a simplification too far. So now it's back.\n\nThe core of my mode line\nconfiguration\nnow looks like this:\n(setq mood-line-format\n      (mood-line-defformat\n       :left\n       ((or\n         (mood-line-segment-buffer-status)\n         (propertize\n          (mood-line--get-glyph :buffer-modified)\n          'face 'my/mood-line-good-status))\n        \" \"\n        (mood-line-segment-buffer-name)\n        (my/mood-line-segment-project)\n        \" \"\n        (mood-line-segment-major-mode))\n       :right\n       ((my/mood-line-segment-vc)\n        \" \"\n        (propertize\n         (mood-line-segment-cursor-position)\n         'face 'my/mood-line-cursor-position))))\n\n\n\nA little busier than it started out, but still pretty clean. I do keep\nwondering about the cursor position. In most buffers I have line numbers\nshowing to the left anyway, and it's rare (but not unknown) that I need to\nknow what column I'm in. I'm very tempted to remove the cursor position\naltogether, then the right-hand side would just be the vc information, at\nwhich point it might make sense to also move the project name over to the\nright, given that the project and the repository information generally go\nhand-in-hand.\nI'll stick with this for now, but I can see this happening soon.",
-          "link": "https://blog.davep.org/2026/06/15/more-mode-line-tweaking.html",
-          "publishedOn": "2026-06-15T18:47:15.000Z",
-          "wordCount": 544,
-          "title": "Dave Pearson: More mode line tweaking",
-          "imageUrl": "https://blog.davep.org/attachments/2026/06/15/mode-line-update.webp"
-        },
-        {
-          "id": "https://mbork.pl/2026-06-15_Scrolling_pdfs_in_other_windows",
-          "author": null,
-          "description": "I have written about pdf-tools quite a few times – it’s a fantastic Emacs package for viewing and annotating pdfs without leaving the comfort of Emacs. It is not ideal, though – or at least, not ideal for me. One feature of Emacs I often use is the scroll-other-window command (bound to C-M-v), and its sibling scroll-other-window-down (C-M-S-v). They are extremely useful for example when reading documentation or watching live Markdown preview, and I wish they worked with the TeX and pdf-tools duo, too. Well, it’s Emacs, so it shouldn’t be difficult to make them!",
-          "link": "https://mbork.pl/2026-06-15_Scrolling_pdfs_in_other_windows",
-          "publishedOn": "2026-06-15T16:05:33.000Z",
-          "wordCount": 354,
-          "title": "Marcin Borkowski: Scrolling pdfs in other windows",
           "imageUrl": null
         }
       ]
@@ -1557,16 +1501,6 @@
           "wordCount": 2243,
           "title": "The Roberts Court Is Trying to Stop the Political Pendulum",
           "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2026/06/GettyImages-1431389414-1200x630.jpg"
-        },
-        {
-          "id": "https://ballsandstrikes.org/?p=18369",
-          "author": "Madiba K. Dennie",
-          "description": "Jeffrey Lee did not ask the Supreme Court to spare his life. He just asked to be killed by a less barbaric method of execution.\nThe post The Supreme Court’s Jeffrey Lee Decision Says a Lot About the <span class=\"dewidow\">Death Penalty</span> appeared first on Balls and Strikes.",
-          "link": "https://ballsandstrikes.org/scotus/jeffrey-lee-supreme-court-a-lot-about-the-death-penalty/",
-          "publishedOn": "2026-06-15T18:53:54.000Z",
-          "wordCount": 1986,
-          "title": "The Supreme Court’s Jeffrey Lee Decision Says a Lot About the Death Penalty",
-          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2026/06/GettyImages-1326130571-1200x630.jpg"
         }
       ]
     },
@@ -2769,66 +2703,6 @@
           "wordCount": 6475,
           "title": "There’s No Place Like New York City",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2280864799_0d9ce8.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=225857",
-          "author": "Kathryn Xu",
-          "description": "It is easy to get lost in the scope of things when it comes to Sir Lewis Hamilton. There are the championships (seven, depending on how you count) and the race wins (106) and the longevity (19 years and counting), and his victory at the 2026 Barcelona Grand Prix this Sunday only added to that already unwieldy list of records. Lewis Hamilton's first race win in a Ferrari! Lewis Hamilton, age 41, adding his name to the list of oldest F1 race winners!\nBut put aside the legacy for one moment, and just focus on the race itself. If there was a romantic quality to Hamilton's last victory, which took place nearly two years ago at Silverstone—a masterclass but also a miracle; a frantic wet weather classic at his home race; a welcome surprise—Barcelona, by comparison, was frighteningly mundane. In terms of the race situation, the only confounding factor was the sweltering heat; it was also Barcelona, which may as well be permanently subtitled \"frighteningly mundane.\" Fortune was kind to Hamilton throughout, but only as much as it is to most race winners. And he won anyway.\nOr, in other words, the greatest surprise of Hamilton's victory was that it was barely a surprise at all. That would have been unfathomable during the ground-effect era and especially during Hamilton's miserable, miserable, miserable first year at Ferrari, which felt so much like an omen of the end. But given a new set of regulations and a new race engineer and the (presumably) second-best car on the grid, Hamilton has, like a perennial, somehow come back into bloom. After two consecutive P2 finishes and Mercedes' power-unit reliability issues, it was only a matter of time before Hamilton would get a victory of his own. And here, in Barcelona, was the proof: Lewis Hamilton is doing Lewis Hamilton things again.",
-          "link": "https://defector.com/lewis-hamilton-is-still-lewis-hamilton",
-          "publishedOn": "2026-06-15T18:11:25.000Z",
-          "wordCount": 7579,
-          "title": "Lewis Hamilton Is Still Lewis Hamilton",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/lewisHamiltonMYGOATMYGOATMYGOAT.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=225898",
-          "author": "Patrick Redford",
-          "description": "Soccer is all about momentum. The distinguishing aspect of its competitive structure is that it's unsegmented, with a simple, 15-minute halftime bisecting two 45-minute blocks. The neophyte might see a goalless desert stippled with oases distributed seemingly at random and out of nowhere, but the joy of watching soccer is that the shifting sands of the game operate on the invisible logic of momentum.  As the 20 field players fight and scrap for every meter of turf, patterns of play emerge, and eventually, things make sense. \nUntil the 2026 World Cup, that is. This World Cup has seen the debut of mandatory three-minute hydration breaks, interspersed at the midpoint of each half, at the 22nd and 67th minutes. While the breaks themselves are not new, their ubiquity is. The new rule was rolled out following last summer's infernal Club World Cup, a dress rehearsal for the real thing played in oven-like conditions that dozens of participants criticized as straight-up unhealthful. In that tournament, referees were deputized to stop matches in order to give everyone water breaks if the weather was too punishing.\nThis time around, every single match will stop twice, whether it's 71 degrees and breezy in Santa Clara or 101 and punishingly humid in Houston. Keeping players safe in extreme temperatures is important, and competitions and organizers must adapt as climate change makes summer sporting events increasingly dangerous. That said, if you think FIFA is doing this for any other reason than to make money, you likely are the sort of person who calls it the \"FIFA World Cup\" at every turn and cheers when your favorite brand makes a cool commercial. In practice, the hydration breaks serve as timeouts against which broadcasters can sell ads. I have watched the first week's worth of games on Fox, which cuts away for a long block of commercials every time.",
-          "link": "https://defector.com/fifas-hydration-breaks-break-the-essence-of-the-game",
-          "publishedOn": "2026-06-15T17:50:07.000Z",
-          "wordCount": 5738,
-          "title": "FIFA’s Hydration Breaks Break The Essence Of The Game",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281470830.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=225878",
-          "author": "Albert Burneko",
-          "description": "Victor Wembanyama is maybe just kind of a corny guy. I think we are all going to have to get accustomed to that. His taste in reading material could scarcely be more embarrassing shy of, like, pickup-artist instruction manuals. He seems to go out of his way to cultivate a public Man of Sophistication image, which is among other things hilariously at odds with what he's reading. He can be tediously smug when things are going well—the \"I'm in your head!\" thing from Game 4 will endure like a tattoo on his forehead forever—and the rest of the time has developed an ugly penchant for dirty shit that is unbefitting a world-class athlete and, again, makes for an unflattering contrast with the whole Serene Warrior Monk thing. Two weeks ago the 2026 NBA Finals seemed like they might be his coronatio…",
-          "link": "https://defector.com/whither-wemby",
-          "publishedOn": "2026-06-15T17:29:57.000Z",
-          "wordCount": 8700,
-          "title": "Whither Wemby?",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/wembus-laid-low.jpeg"
-        },
-        {
-          "id": "https://defector.com/?p=225875",
-          "author": "Lauren Theisen",
-          "description": "The story of the 2026 Stanley Cup champion Carolina Hurricanes is that of a team that made a lot of smart decisions over a period of many years and was eventually rewarded. Sebastian Aho, drafted in the second round in 2015, has been the foundational forward ever since they started making the playoffs as likeable upstarts back in 2018-19. Head coach Rod Brind'Amour, whose first year on the job coincided with the beginning of their playoff appearance streak, has spearheaded and maintained an effective and attractive style of play in which Carolina consistently outworks their opposition to earn the majority of a game's chances. And while there was no obvious path through the second- and third-round roadblocks that the Canes continuously hit, the more recent moves that they made—signing Nikol…",
-          "link": "https://defector.com/brandon-bussi-filled-the-hurricanes-last-hole",
-          "publishedOn": "2026-06-15T17:08:25.000Z",
-          "wordCount": 5926,
-          "title": "Brandon Bussi Filled The Hurricanes’ Last Hole",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281031566_jpg_75.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=225896",
-          "author": "Alex Sujong Laughlin",
-          "description": "Despite its apparent ubiquity, the career of \"online influencer\" is so young that the first generation of people to use that title are not only still working, but still young.\nIngrid Nilsen was one of the very first beauty and lifestyle YouTubers, and the work she did in her late teens and early 20s created the blueprint for what the industry has become today. A few of her highlights: She was the first online creator to work with CoverGirl, and she interviewed President Obama. Her coming-out video in 2015 went mega viral, and she invented Vlogmas, which is a daily vlogging challenge still used by thousands of creators every December.\nShe had more than 3 million YouTube subscribers, and in 2020, she quit.",
-          "link": "https://defector.com/why-star-youtube-influencer-ingrid-nilsen-quit-her-job",
-          "publishedOn": "2026-06-15T16:48:57.000Z",
-          "wordCount": 4559,
-          "title": "Why Star YouTube Influencer Ingrid Nilsen Quit Her Job",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/ingrid-youtube-thumbnail.png"
-        },
-        {
-          "id": "https://defector.com/?p=225876",
-          "author": "Luis Paez-Pumar",
-          "description": "The expanded field at the 2026 World Cup is, from a competitive standpoint, a disaster. Upping the team count from 32 to 48 has robbed the best part of any World Cup, the group stage, of its famous intensity and tension. Even an extra round of knockout games won't salvage things, given that eight third-place teams will qualify for that, and there surely won't be eight good third-place teams. The expansion of the field is a blatant money grab by FIFA, and it's a real disappointment to see the way that the World Cup has been warped by greed.\nNow try telling that to Curacao, which scored its first-ever World Cup goal in its first-ever World Cup match against none other than Germany. Try telling that team, and that fanbase, that this is all terrible and bad for the sport:\n\nhttps://youtu.be/taI5dp_0C0Y?si=aLEEOOvKbRtzkl2S&t=105",
-          "link": "https://defector.com/curacao-will-never-forget-the-one-in-7-1",
-          "publishedOn": "2026-06-15T16:30:51.000Z",
-          "wordCount": 6588,
-          "title": "Curacao Will Never Forget The One In 7-1",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281625320.jpg"
         }
       ]
     },
@@ -3046,26 +2920,6 @@
           "wordCount": 3946,
           "title": "Royals GBU from a disappointing weekend",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/dyshbrf9olunz5f9ulol.html",
-          "author": null,
-          "description": "96\n\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:660px){.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.row-1 .column-2 .block-1.paragraph_block td.pad>div{text-align:center!important;font-size:12px!important}.row-1 .column-2 .block-1.paragraph_block td.…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/dyshbrf9olunz5f9ulol.html",
-          "publishedOn": "2026-06-15T16:27:29.145Z",
-          "wordCount": 621,
-          "title": "Book recommendations for dad",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/bu52z433rhhc4usyfwls.html",
-          "author": null,
-          "description": "YOU'RE INVITED: Will the midterms happen? Your election questions, answered96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-decoration: …",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/bu52z433rhhc4usyfwls.html",
-          "publishedOn": "2026-06-15T16:01:27.125Z",
-          "wordCount": 1474,
-          "title": "YOU'RE INVITED: Will the midterms happen? Your election questions, answered",
-          "imageUrl": null
         }
       ]
     },
@@ -3202,6 +3056,46 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/14/ufc-white-house-trump-birthday/90524389007/-full",
+          "author": "Rex Huppke",
+          "description": "A more proper title for the heavily sponsored UFC Freedom 250 fight desecrating the White House lawn on June 14 would be: \"Donald Trump’s Sad Little Mandatory Birthday Party.\"\nAfter all, while the event is cloaked in America’s 250th anniversary iconography, it’s happening on the president’s 80th birthday, it’s a mixed-martial-arts company run by one of his friends, and Trump is the one who foisted the garish event nobody asked for on the American people. \nNow we have a 92-foot-tall “claw” structure in front of the People’s House, covered in corporate logos ranging from Bud Light to Polymarket and promoting everything from nicotine pouches to crypto.\nTo be clear, I have no problem with the UFC. I’m always happy to watch sweaty people kick and punch the tuna salad out of each other for my en…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/14/ufc-white-house-trump-birthday/90524389007/",
+          "publishedOn": "2026-06-25T07:40:20.393Z",
+          "wordCount": 4139,
+          "title": "Trump’s White House UFC fight highlights a selfish, failing presidencyRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/12/USAT/90522314007-usatsi-29180456.jpg?crop=8248,4640,x0,y427&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/04/iran-war-republicans-trump/90405036007/-full",
+          "author": "Rex Huppke",
+          "description": "Throughout the Trump years, Republican lawmakers devolved into invertebrates, conducting the people’s business in Congress like a pack of gelatinous meat sacks only capable of nodding along to the reckless whims and babbling nonsense of their leader.\nBut now, with midterm elections approaching and President Donald Trump’s approval rating rivaling that of syphilis, GOP lawmakers are starting to show the faintest signs of embryonic spines.\nOn June 3, the House passed a Democratic-led resolution to end the war in Iran. Four Republicans voted with the Democrats, a small but still remarkable rebuke of a president whose party members generally fight over who gets to agree with him more.\nFor Trump, any Republican defying him on Iran war is a 'bad Republican'\n\nPredictably, Trump responded on socia…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/04/iran-war-republicans-trump/90405036007/",
+          "publishedOn": "2026-06-25T07:40:19.924Z",
+          "wordCount": 4102,
+          "title": "GOP bucks Trump on Iran. As midterms near, he better get used to it.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/04/USAT/90401127007-2278938645.jpg?crop=8255,4645,x0,y429&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columns/2026/06/14/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90506066007/-full",
+          "author": "Rex Huppke",
+          "description": "Former reality TV star Spencer Pratt is out of the Los Angeles mayoral race for two reasons.\nFirst, and most important, he got fewer votes than two other candidates, incumbent Los Angeles Mayor Karen Bass and LA City Councilwoman Nithya Raman, who will now face off against each other. Second, he’s an unqualified dipstick whom a majority of Los Angelenos understood wasn’t qualified for the job.\nPratt was endorsed by President Donald Trump and hailed by some MAGA Republicans as a rising star, a political outsider with a winning populist message.\nThat was, in a word, wrong.\n\nThe Free Press, the conservative publication founded by Bari Weiss, who is presently busy ruining CBS News, ran a piece in May that posed the question: “How did Spencer Pratt, reality TV star and ‘healing’ crystal salesma…",
+          "link": "https://www.usatoday.com/story/opinion/columns/2026/06/14/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90506066007/",
+          "publishedOn": "2026-06-25T07:40:19.780Z",
+          "wordCount": 3647,
+          "title": "Pratt seemed like rising GOP star before he lost | OpinionRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/08/USAT/90456119007-20260531-t-212845-z-2098431618-rc-2-hklaldt-0-w-rtrmadp-3-usaelectioncaliforniapratt.JPG?crop=6493,3653,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/24/affordable-housing-bill-trump-save-act/90678062007/-full",
+          "author": "Rex Huppke",
+          "description": "President Donald Trump, in a tantrum that would make a 3-year-old blush, kneecapped his own party and canceled an affordable housing bill signing, saying it “pales in comparison” with an election bill. The one that would benefit one person: Donald Trump.\nThe June 24 mess was a perfect encapsulation of the president’s second term, a foolish act by a man focused only on celebrating or protecting himself.\nRepublicans had celebrated the bipartisan housing bill, which focuses on lowering housing costs at a time when the word “affordability” is at the top of voters’ minds. The signing would have been a key moment for GOP lawmakers to claim they care about affordability and show they can work with Democrats to get things done.\nBut no. Trump derailed the messaging with a social media post cancelin…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/24/affordable-housing-bill-trump-save-act/90678062007/",
+          "publishedOn": "2026-06-25T07:40:19.540Z",
+          "wordCount": 3959,
+          "title": "Trump spikes affordable housing bill signing, like a selfish babyRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/24/USAT/90680555007-20260624-t-173339-z-1392060828-rc-2-h-0-mar-5-of-9-rtrmadp-3-usatrump.JPG?crop=4702,2645,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/24/tucker-carlson-gop-republican-party-trump/90662057007/-full",
           "author": "Rex Huppke",
