@@ -945,6 +945,16 @@
           "imageUrl": "https://www.chiply.dev/images/june-fish-banner-2.avif"
         },
         {
+          "id": "https://ray-on-emacs.blogspot.com/2026/06/emacs-carnival-diary-part-1.html",
+          "author": null,
+          "description": "When I adopted Emacs in July of 2000, I hunkered down to learn the\n  keybindings.  But after I learned the basics1 I started\n  to RTFM (C-h r), and I was instantly drawn to the\n  Calendar/Diary2 node, which I consider to be an\n  underappreciated Emacs built-in, and, therefore, the topic of Emacs\n  Carnival for June 2026.\nBack then I mistook \"diary\" to mean a blank-page-confidant into\n    which we write our thoughts, fears, ambitions or even just what we\n    had for dinner last night.  At that time I'd been writing in\n    a journal for about 24 years (yes, since 1976, on and off), so my head\n    swelled with ideas of using Emacs for a revamped computerized\n    version.  I imagined being able to forward-search-regexp\n  in order\n    to find, for example, that weird dream I wrote about in whic…",
+          "link": "https://ray-on-emacs.blogspot.com/2026/06/emacs-carnival-diary-part-1.html",
+          "publishedOn": "2026-06-17T02:25:30.843Z",
+          "wordCount": 3699,
+          "title": "Raymond Zeitler: Emacs Carnival: diary, Part 1",
+          "imageUrl": null
+        },
+        {
           "id": "https://protesilaos.com/codelog/2026-06-17-emacs-testing-doric-themes-common-colour-values/",
           "author": null,
           "description": "The doric-themes are the minimalist counterpart of my modus-themes\nand ef-themes. They define few colours and exercise restraint in how\nthey customise faces. This means that there rarely is a context that\nhas red, green, yellow, blue, magenta, and cyan. Those are reserved\nfor cases where colour-coding is needed. Whereas with my other themes\ncolour is used with the dual intent of establish rhythm and order in\naddition to any colour-coding.\nBecause of this, it is difficult for me to test the relevant values.\nEach Doric theme defines entries in its palette like fg-red and\nbg-blue. So I decided to write a small snippet that shows text which\nuses those colours in context.\nThe idea is to create faces that get the appropriate :foreground and\n:background attributes with their proper values. Then w…",
@@ -973,16 +983,6 @@
           "wordCount": 1380,
           "title": "Irreal: Scrolling PDFs In Other Windows",
           "imageUrl": null
-        },
-        {
-          "id": "https://metaredux.com/posts/2026/06/16/cider-1-22.html",
-          "author": null,
-          "description": "Great news, everyone - CIDER 1.22 (“São Miguel”) is finally out!\nAnd “finally” is the operative word here. This release took me way longer than\nI wanted it to, but that’s because I decided to stop kicking a few cans down the\nroad and finally tackle some long-standing problems that had been bugging me for\nyears:\nSession and connection management - the logic for figuring out which REPL a\nbuffer is associated with had grown into something I could barely follow myself.\nThe decoupling of nREPL from CIDER’s UI layer - a piece of technical debt so\nold it predates most of you reading this (the tracking issue, #1099, is from 2017).\nA full audit of the codebase and the documentation, hunting for\ninconsistencies, dead code, broken menu entries, and gaps in the docs.\nNone of this is the kind of work t…",
-          "link": "https://metaredux.com/posts/2026/06/16/cider-1-22.html",
-          "publishedOn": "2026-06-16T09:00:00.000Z",
-          "wordCount": 1744,
-          "title": "Meta Redux: CIDER 1.22 (“São Miguel”)",
-          "imageUrl": "https://metaredux.com/assets/og-image.png"
         }
       ]
     },
@@ -2086,6 +2086,46 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=226906",
+          "author": "Sabrina Imbler",
+          "description": "Imagine you are seated at a table. A guy sits across from you. He is vaguely humanoid, with a long torso and two arms raised in fist-like clubs. His full name is Edible Agent, but we will call him Eddie and use he/him pronouns. There's something about Eddie that makes you feel at ease. Maybe it's his fragrance, which reminds you of apple juice, of childhood. Maybe it's his two black eyes that gaze upon you without judgment. You decide to unburden yourself to him. You tell him that you've been making mistakes at work, and you are so afraid of your boss's criticism that you have developed stomach pain. \"Fear will only bar the path you are meant to walk,\" Eddie tells you, wiggling his edible arms to show you he understands. You tell him that to cope with your stress, you've been drinking every day. \"There is no solace for those who seek refuge in dependence,\" Eddie tells you, wiggling once again. When you tell him that you can find no other way to deal with this burden, Eddie tells you to confront the problem, to contemplate your next step forward. \"Only by tempering oneself and holding fast to one's convictions can one overcome the burdens one bears,\" Eddie says, wiggling. This encounter changes you profoundly. Then comes the question: After all you have been through together, would you eat Eddie?\nFor many participants in a study recently published in PLOS One, the answer was yes—but rather reluctantly. (Turn on subtitles to understand the conversation with edible Eddie.)\n\nhttps://youtu.be/0_hgrf0pi2Y?si=_gDxOGlOXUGyMvyL&t=15\nTurn on subtitles to understand the conversation with edible Eddie.",
+          "link": "https://defector.com/would-you-eat-this-guy-what-if-he-were-god-or-a-baby",
+          "publishedOn": "2026-06-25T20:03:48.000Z",
+          "wordCount": 6453,
+          "title": "Would You Eat This Guy? What If He Were God, Or A Baby?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/Screenshot-2026-06-25-at-11.46.28-AM.png"
+        },
+        {
+          "id": "https://defector.com/?p=226954",
+          "author": "David Roth",
+          "description": "Drew is at the beach, the sun is high and hot in the sky, and all the major sports events are either over or in the early going. If there was ever going to be a moment to give the podcast over to a discussion of podcast industry dysfunction, conquering the fear of failure, and the goings-on among the cadre of horned-up half-sociopaths on Love Island USA, this was it. I knew what had to be done, and so I made the call. Or I sent the Slack message, and then I sent a second one, and then sometime later Kelsey and Alex joined me to talk about real-life stuff and reality TV stuff for what turned out to be a pretty delightful 64 minutes.\nAll of which is to say that, despite my early statement to the contrary, we are not breaking down the NBA draft's winners and losers. Instead we spent the first half of the episode talking about Alex's fantastic Try Hard podcast, the second season of which began last week, and which is also making the move to video. We talked about why she chose to do that, and why so many other podcasts have been doing it—a trend that Alex has written about in the past, but which she understands a bit differently from the inside. Some of this was about the mortifying ideal of being known and the rigors of making yourself into an on-camera performer, but a lot of it was about the way the internet works and doesn't work now, from the daunting challenge of finding places where real people are looking for new things to the weirdnesses of \"authenticity\" as a selling point. We also discussed what celebrity podcasts are for and why they have proliferated in the ways they have, and what they reflect about an industry that seems not to understand or respect its own business very well. I forgot Mitch Hedberg's name in this segment, for which I apologize, although I did manage to paraphrase one of my favorite lines of his accurately enough.",
+          "link": "https://defector.com/folkways-of-the-contemporary-sex-idiot-with-kelsey-mckinney-and-alex-sujong-laughlin",
+          "publishedOn": "2026-06-25T19:42:21.000Z",
+          "wordCount": 6311,
+          "title": "Folkways Of The Contemporary Sex Idiot, With Kelsey McKinney And Alex Sujong Laughlin",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/MelanieAndCoreyLoveIsland.png"
+        },
+        {
+          "id": "https://defector.com/?p=227026",
+          "author": "Patrick Redford",
+          "description": "SAN FRANCISCO — On Wednesday night I attended a Major League Baseball game for the first time since the final game the Athletics played in the Oakland Coliseum. I have all but stopped paying attention to the sport, less in active protest than as a casualty of no longer being able to pay like nine dollars to be inside of a major-league ballpark (OK, fine, \"major-league\" \"ballpark\") within 30 minutes, though the existence of the geographically unmoored Athletics is omnidirectionally repulsive. It was an existence I was confronted with, as my friend Adam wanted to go to a Giants game, and it just so happened that the one game that fit both of our schedules was Giants–A's. Fine.\nOf the many ways the Athletics are currently giving me low-grade psychic damage, the primary one is that they did not disappear when they left Oakland. They remain a pitching, hitting symbol of team owner John Fisher's blithe cruelty toward the Town and the malignant indifference of commissioner Rob Manfred and MLB. When I see the team's logo, I think of the people who loved the Oakland Athletics, the dozens of crying fans I saw at that last game, the guy who brought a photo of his dead cousin to the game because baseball was something they always shared.\nOn Wednesday night, the stadium was packed with tons of A's fans, as well as plenty of split-logo hats and 1989 World Series gear. It was a strange experience, seeing the masses animated by a sense of denial and nostalgia, proudly wearing their green and gold as if the Oakland Athletics still existed. It's like wearing a dead guy's clothes to watch him be reanimated, Frankenstein-style. It was sad. The loudest cheer of the night was for the displayed final score of Mexico's 3-0 World Cup win over Czechia.",
+          "link": "https://defector.com/the-athletics-are-an-abomination",
+          "publishedOn": "2026-06-25T19:20:54.000Z",
+          "wordCount": 5515,
+          "title": "The Athletics Are An Abomination",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/IMG_7637.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=226964",
+          "author": "Defector Staff",
+          "description": "Everyone's favorite summer sport is back in full swing. The country is tuning in. There are tears. There are shrieks of joy. There is a surprising and concerning amount of toe-sucking! Love Island USA, in its eighth season, has now aired three full weeks of episodes. With tonight's episode, the show will be halfway through the mid-season twist known as Casa Amor. Now seems like as good a time as any to check in with our bravest soldiers: the members of the Defector Staff who willingly sacrifice their time and sanity to watch five-to-seven hours of this damn television show every week.\nFirst off, who are your Sweeties this season? \nLuis Paez-Pumar: I only have one sweetie, and it is Trinity. This is not a bold take, but it is my truth. When I watch the small amount of reality TV I watch—mostly Survivor, The Traitors, and various cooking/baking shows—I value confessional skills quite highly, and Trinity is by far the best on this cast at that. This also translates to real-time commentary (“Oh, she bad” during the Casa Amor girls reveal…she was so real for that one). During a season that has lacked entertainment for a variety of reasons, Trinity has been the shining light.",
+          "link": "https://defector.com/what-do-we-think-about-this-season-of-love-island-usa",
+          "publishedOn": "2026-06-25T18:46:17.000Z",
+          "wordCount": 12893,
+          "title": "What Do We Think About This Season Of ‘Love Island USA’?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/NUP_210650_02172.jpg"
+        },
         {
           "id": "https://defector.com/?p=226984",
           "author": "Sarah Borus",
@@ -3912,6 +3952,26 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a71734198/pete-hegseth-flu-mandate-restored-outbreak-military/",
+          "author": null,
+          "description": "Pete Hegseth is one smart cookie, isn’t he?",
+          "link": "https://www.esquire.com/news-politics/politics/a71734198/pete-hegseth-flu-mandate-restored-outbreak-military/",
+          "publishedOn": "2026-06-25T21:26:54.000Z",
+          "wordCount": 26375,
+          "title": "Remember When the Pentagon Scrapped Its Flu Shot Mandate? Well, Now There’s an Outbreak on a Military Base.",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/7c165413-479b-4536-90a7-4fa3014b7f5d.jpeg?crop=1xw:0.750095310713xh;center,top&resize=1200:*"
+        },
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a71734069/scotus-migrants-temporary-protected-status/",
+          "author": null,
+          "description": "The Trump administration is jumping for joy, and we should all be disgusted.",
+          "link": "https://www.esquire.com/news-politics/politics/a71734069/scotus-migrants-temporary-protected-status/",
+          "publishedOn": "2026-06-25T20:57:15.000Z",
+          "wordCount": 25438,
+          "title": "The Supreme Court Just Okayed a Heartless Order to Kick Legal Migrants out of Our Country",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/abf8dfbf-d4b6-4034-b939-3470c9581e29.jpeg?crop=1xw:0.75xh;0xw,0.25xh&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a71718225/trump-bipartisan-housing-bill-warren/",
           "author": null,
