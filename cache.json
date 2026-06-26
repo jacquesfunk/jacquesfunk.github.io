@@ -957,16 +957,6 @@
           "wordCount": 3699,
           "title": "Raymond Zeitler: Emacs Carnival: diary, Part 1",
           "imageUrl": null
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-06-17-emacs-testing-doric-themes-common-colour-values/",
-          "author": null,
-          "description": "The doric-themes are the minimalist counterpart of my modus-themes\nand ef-themes. They define few colours and exercise restraint in how\nthey customise faces. This means that there rarely is a context that\nhas red, green, yellow, blue, magenta, and cyan. Those are reserved\nfor cases where colour-coding is needed. Whereas with my other themes\ncolour is used with the dual intent of establish rhythm and order in\naddition to any colour-coding.\nBecause of this, it is difficult for me to test the relevant values.\nEach Doric theme defines entries in its palette like fg-red and\nbg-blue. So I decided to write a small snippet that shows text which\nuses those colours in context.\nThe idea is to create faces that get the appropriate :foreground and\n:background attributes with their proper values. Then w…",
-          "link": "https://protesilaos.com/codelog/2026-06-17-emacs-testing-doric-themes-common-colour-values/",
-          "publishedOn": "2026-06-17T00:00:00.000Z",
-          "wordCount": 441,
-          "title": "Protesilaos: Emacs: testing common colour values with the doric-themes",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         }
       ]
     },
@@ -1462,6 +1452,16 @@
       "feedUrl": "https://ballsandstrikes.org/feed",
       "siteUrl": "https://ballsandstrikes.org/",
       "articles": [
+        {
+          "id": "https://ballsandstrikes.org/?p=18453",
+          "author": "Quinn Yeargain",
+          "description": "The justice’s reference to the “spirit of Aloha” betrays his contempt for the very idea of taking Hawaii’s history and legal traditions seriously.\nThe post Samuel Alito’s Jab at Hawaiian Culture Is Red Meat For <span class=\"dewidow\">Online Conservatives</span> appeared first on Balls and Strikes.",
+          "link": "https://ballsandstrikes.org/scotus/samuel-alito-culture-hawaii-jab/",
+          "publishedOn": "2026-06-26T12:00:11.000Z",
+          "wordCount": 2148,
+          "title": "Samuel Alito’s Jab at Hawaiian Culture Is Red Meat For Online Conservatives",
+          "imageUrl": "https://ballsandstrikes.org/wp-content/uploads/2022/10/GettyImages-1431382186-scaled.jpg"
+        },
         {
           "id": "https://ballsandstrikes.org/?p=18444",
           "author": "Madiba K. Dennie",
@@ -2086,6 +2086,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=227117",
+          "author": "Patrick Sauer",
+          "description": "Late in the morning of June 13, as most New York City sports fans were mapping out their plans for watching Game 5 of the NBA Finals, I was on the A train headed away from the Brooklyn neighborhood I've called home for 17 years. I was on my way to Aqueduct Racetrack, post time 1:10 p.m. \nAt the end of the month, after 132 years of equine action, Aqueduct will no longer run horses. The first race took place on Sept. 27, 1894, on a track operated by the Queens County Jockey Club, in a facility named for its locale, where water was delivered to New York City from the Hempstead Long Island Plain. At one point, Aqueduct was a place where people came to soak in the glitz and glamor of the Sport of Kings. When it finally closes its doors after the 5:44  p.m. post time on June 28, nobody but a dwindling crowd of regulars is likely to even notice.\nThe story of Aqueduct's slow demise is not much different from any fading racetrack's. Off-track betting gave way to TV simulcasts, which gave way to legalized mobile sports gambling. There's just not much reason to come to a place like this, even for chronic gamblers or horse-racing obsessives.",
+          "link": "https://defector.com/a-final-day-at-aqueduct-new-yorks-forlorn-and-forgotten-racetrack",
+          "publishedOn": "2026-06-26T13:02:28.000Z",
+          "wordCount": 17230,
+          "title": "A Final Day At Aqueduct, New York’s Forlorn And Forgotten Racetrack",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2089857287.jpg"
+        },
         {
           "id": "https://defector.com/?p=226906",
           "author": "Sabrina Imbler",
@@ -2764,6 +2774,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/i380rgmko6tdjii7k3e1.html",
+          "author": null,
+          "description": "96\n        Royals on the wrong side of a near no-hitter\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    line-height: 100…",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/i380rgmko6tdjii7k3e1.html",
+          "publishedOn": "2026-06-26T12:41:24.451Z",
+          "wordCount": 2592,
+          "title": "Royals on the wrong side of a near no-hitter",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/xgc4s2rpvnpvskgkugbf.html",
           "author": null,
           "description": "Jayson Tatum Loves His Grandma96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-decoration: inherit !important; font-size: inherit !impor…",
@@ -3009,16 +3029,6 @@
           "wordCount": 1463,
           "title": "Pluggy, ABCs, Scrapy Extensions, and More",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/a94f56q5nft8p98zuimw.html",
-          "author": null,
-          "description": "JIT Delayed, Sandboxes, OpenRouter, and More\n      body,#bodyTable,#bodyCell{\n      height:100% !important;\n      margin:0;\n      padding:0;\n      width:100% !important;\n      }\n      table{\n      border-collapse:collapse;\n      }\n      img,a img{\n      border:0;\n      outline:none;\n      text-decoration:none;\n      }\n      h1,h2,h3,h4,h5,h6{\n      margin:0;\n      padding:0;\n      }\n      p{\n      margin:1em 0;\n      padding:0;\n      }\n      a{\n      word-wrap:break-word;\n      }\n      .mcnPreviewText{\n      display:none !important;\n      }\n      .ReadMsgBody{\n      width:100%;\n      }\n      .ExternalClass{\n      width:100%;\n      }\n      .ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{\n      line-height:100%;\n      }\n      table…",
-          "link": "https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/a94f56q5nft8p98zuimw.html",
-          "publishedOn": "2026-06-16T20:07:27.375Z",
-          "wordCount": 1495,
-          "title": "JIT Delayed, Sandboxes, OpenRouter, and More",
-          "imageUrl": null
         }
       ]
     },
@@ -3055,16 +3065,6 @@
           "publishedOn": "2026-06-19T01:31:51.000Z",
           "wordCount": 5300,
           "title": "Top 100 New Wave Songs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=2789",
-          "author": "Schill",
-          "description": "Music has always been a magnet for outsized egos, chaotic personalities, and larger-than-life characters. While genius often walks hand-in-hand with flaws, some artists have elevated bad behavior, entitlement, volatility, and outright toxicity to legendary status. From rock legends throwing tantrums and inciting riots to modern stars entangled in repeated scandals and public meltdowns, the industry...",
-          "link": "https://stuffthatinterestsme.net/the-30-biggest-douchebags-in-music-history/",
-          "publishedOn": "2026-06-16T23:37:25.000Z",
-          "wordCount": 4310,
-          "title": "The 30 Biggest Douchebags in Music History",
           "imageUrl": null
         }
       ]
