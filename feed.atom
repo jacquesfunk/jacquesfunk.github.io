@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-06-27T21:02:05.348Z</updated>
+    <updated>2026-06-27T23:01:16.263Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: Preventing Errant Navigation]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/06/preventing-errant-navigation.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/06/preventing-errant-navigation.html"/>
+        <updated>2026-06-27T22:17:17.917Z</updated>
+        <summary type="html"><![CDATA[I often press C-<end> or C-<next>
+  accidentally.  It's annoying and disorientating because I lose my
+      place in the document as well as my train of thought.  I think
+      of them (a bit dramatically) as "Deadly Navigation Keys." But I
+      discovered two valuable Emacs features to make it easy to
+      recover from them (or prevent them) as a result.
+The first valuable feature is that C-<end> (which is bound to
+    end-of-buffer) sets the mark at the cursor location prior to
+    setting point to the end of the buffer.  (I only just realized
+    this after seeing the message "Mark set" in the minibuffer about
+    fifty times.)
+There's an almost-applicable saying, "What goes up, must come
+    down," except in this case I'd say, "What gets pushed, may be
+    popped."  A simple invocati…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Before marriage, there was the nearly 20-year fight over sodomy laws]]></title>
+        <id>https://www.lawdork.com/p/before-marriage-there-was-the-nearly</id>
+        <link href="https://www.lawdork.com/p/before-marriage-there-was-the-nearly"/>
+        <updated>2026-06-27T21:02:04.000Z</updated>
+        <summary type="html"><![CDATA[In 2003, the Supreme Court overturned its 1986 decision upholding sodomy laws. Both cases have a lot to teach us in and about this moment.]]></summary>
+        <author>
+            <name>Chris Geidner</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bill Pulte unqualified as head of national intelligence | OpinionRex Huppke]]></title>
         <id>https://www.usatoday.com/story/opinion/columns/2026/06/07/bill-pulte-national-intelligence-trump/90446444007/-full</id>
@@ -5613,34 +5646,12 @@ The pool does look less blue and more glow-in-the-dark Slurpee, but that was pro
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Stephen Miller was close to realizing his scariest idea]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/1n1dfos4u8t6sj28fto0.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/1n1dfos4u8t6sj28fto0.html"/>
-        <updated>2026-06-18T10:08:13.716Z</updated>
-        <summary type="html"><![CDATA[96
-
-*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}#converted-body .list_block ol,#converted-body .list_block ul,.body [class~=x_list_block] ol,.body [class~=x_list_block] ul,u+.body .list_block ol,u+.body .list_block ul{padding-left:20px} @media (max-width:620px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Thursday Update]]></title>
         <id>https://www.baseballmusings.com/?p=160491</id>
         <link href="https://www.baseballmusings.com/?p=160491"/>
         <updated>2026-06-18T10:07:20.000Z</updated>
         <author>
             <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Route 66 Is Turning 100 This Year. It Still Has Stories to Tell About America.]]></title>
-        <id>http://www.esquire.com/news-politics/a71559320/route-66-anniversary/</id>
-        <link href="https://www.esquire.com/news-politics/a71559320/route-66-anniversary/"/>
-        <updated>2026-06-18T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The country’s legendary main street celebrates its centennial against the backdrop of the nation’s 250th birthday. Could there be a better time for a road trip?]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
         </author>
     </entry>
 </feed>

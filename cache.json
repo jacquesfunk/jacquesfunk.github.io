@@ -656,16 +656,6 @@
           "wordCount": 1497,
           "title": "Running out of time",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/1n1dfos4u8t6sj28fto0.html",
-          "author": null,
-          "description": "96\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}#converted-body .list_block ol,#converted-body .list_block ul,.body [class~=x_list_block] ol,.body [class~=x_list_block] ul,u+.body .list_block ol,u+.body .list_block ul{padding-left:20px} @media (max-width:620px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size…",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/1n1dfos4u8t6sj28fto0.html",
-          "publishedOn": "2026-06-18T10:08:13.716Z",
-          "wordCount": 1888,
-          "title": "Stephen Miller was close to realizing his scariest idea",
-          "imageUrl": null
         }
       ]
     },
@@ -674,6 +664,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://ray-on-emacs.blogspot.com/2026/06/preventing-errant-navigation.html",
+          "author": null,
+          "description": "I often press C-<end> or C-<next>\n  accidentally.  It's annoying and disorientating because I lose my\n      place in the document as well as my train of thought.  I think\n      of them (a bit dramatically) as \"Deadly Navigation Keys.\" But I\n      discovered two valuable Emacs features to make it easy to\n      recover from them (or prevent them) as a result.\nThe first valuable feature is that C-<end> (which is bound to\n    end-of-buffer) sets the mark at the cursor location prior to\n    setting point to the end of the buffer.  (I only just realized\n    this after seeing the message \"Mark set\" in the minibuffer about\n    fifty times.)\nThere's an almost-applicable saying, \"What goes up, must come\n    down,\" except in this case I'd say, \"What gets pushed, may be\n    popped.\"  A simple invocati…",
+          "link": "https://ray-on-emacs.blogspot.com/2026/06/preventing-errant-navigation.html",
+          "publishedOn": "2026-06-27T22:17:17.917Z",
+          "wordCount": 2937,
+          "title": "Raymond Zeitler: Preventing Errant Navigation",
+          "imageUrl": null
+        },
         {
           "id": "https://irreal.org/blog/?p=13905",
           "author": null,
@@ -1696,6 +1696,22 @@
       "feedUrl": "https://www.lawdork.com/feed",
       "siteUrl": "https://www.lawdork.com",
       "articles": [
+        {
+          "id": "https://www.lawdork.com/p/before-marriage-there-was-the-nearly",
+          "author": "Chris Geidner",
+          "description": "In 2003, the Supreme Court overturned its 1986 decision upholding sodomy laws. Both cases have a lot to teach us in and about this moment.",
+          "link": "https://www.lawdork.com/p/before-marriage-there-was-the-nearly",
+          "publishedOn": "2026-06-27T21:02:04.000Z",
+          "wordCount": null,
+          "title": "Before marriage, there was the nearly 20-year fight over sodomy laws",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!z7Ft!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0b673ea-4fb7-4571-8586-805f580a7df8_1918x1222.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!z7Ft!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0b673ea-4fb7-4571-8586-805f580a7df8_1918x1222.png"
+        },
         {
           "id": "https://www.lawdork.com/p/thursday-was-sam-alitos-big-decision",
           "author": "Chris Geidner",
@@ -3892,16 +3908,6 @@
           "wordCount": 36582,
           "title": "The 10 Best Presidents of the United States, Ranked",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/a460bb99-346e-4a92-b218-4137844563fc.jpg?crop=1xw:1.0xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/a71559320/route-66-anniversary/",
-          "author": null,
-          "description": "The country’s legendary main street celebrates its centennial against the backdrop of the nation’s 250th birthday. Could there be a better time for a road trip?",
-          "link": "https://www.esquire.com/news-politics/a71559320/route-66-anniversary/",
-          "publishedOn": "2026-06-18T10:00:00.000Z",
-          "wordCount": 39963,
-          "title": "Route 66 Is Turning 100 This Year. It Still Has Stories to Tell About America.",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/ac98b57e-7328-4b75-ade7-9139689dcaea.jpg?crop=1xw:1.0xh;center,top&resize=1200:*"
         }
       ]
     }
