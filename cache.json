@@ -232,6 +232,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/m16uc4annw1xon5kglep.html",
+          "author": null,
+          "description": "My one request\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n    \n      \n    \n  \n  \n  \n    ul > li {\n  …",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/m16uc4annw1xon5kglep.html",
+          "publishedOn": "2026-06-28T10:48:02.680Z",
+          "wordCount": 823,
+          "title": "This week the Supreme Court will release its final eight opinions. Here is your guide.",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/fg5ypdnfuw7voczw213v.html",
           "author": null,
           "description": "96\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}#converted-body .list_block ol,#converted-body .list_block ul,.body [class~=x_list_block] ol,.body [class~=x_list_block] ul,u+.body .list_block ol,u+.body .list_block ul{padding-left:20px} @media (max-width:620px){.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!…",
@@ -589,6 +599,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.cyan.sh/blog/posts/new-package-gomuks-el.html",
+          "author": null,
+          "description": "Gomuks, which is a Matrix client written in Go.\nTypically, Gomuks runs a web app client for Matrix, which connects to the Gomuks backend via a websocket.\nMy wrapper, gomuks.el, connects to the websocket and acts as a full (well, rudimentary) Matrix client inside Emacs.\n\n\n\nWhy make this?\nement.el, and are probably wondering why I can't use it.\nThe simple answer is that ement.el doesn't handle encryption natively, instead requiring pantalaimon.\nNow, I've already had mixed success with pantalaimon in the past (which is why I was using the Gomuks TUI), but the repo for it has been archived as of earlier this year so I don't think it's wise to rely on it.\nAs a side note, I'm not actually sure why it was archived; I assume the matrix org just didn't want to maintain it anymore, which is fair enough, but I would have liked some explanation on the readme at least.\nAnyway, Gomuks already handles encryption, and so gomuks.el does as well.\n\n\n\n\n\nWhat state is it in?\nusable, in the sense that I will use it and add features to it as I need them, but it is far from the quality of ement.el or the myriad of IRC clients in Emacs.\n\n\n\nBasically all I have at the moment is live state synchronisation (without handling edit/delete events) and sending messages (only textual).\nThe GUI is horrible, because I don't know how to use EWOC so I'm not, and it smells of programmer design.\nIf you intend to use this, expect lots of unexpected jank.\n\n\n\nThat being said, I think the code is fairly high quality and well documented, so it should be fairly easy to modify and understand.\n\n\n\n\n\nContributing\nbirdt_@cyan.sh.",
+          "link": "https://www.cyan.sh/blog/posts/new-package-gomuks-el.html",
+          "publishedOn": "2026-06-28T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Jakub Nowak: New Package: Gomuks.el",
+          "imageUrl": null
+        },
+        {
           "id": "https://protesilaos.com/codelog/2026-06-28-emacs-doric-tiger-doric-lion/",
           "author": null,
           "description": "I just added two new themes to my minimalist doric-themes package.\ndoric-tiger is a light theme, while doric-lion is dark. Both use\norange and yellow colours. Below are sample screenshots.\ndoric-tiger\n\n\n\n\ndoric-lion\n\n\n\n\nPart of development\nThe new themes will be available in version 1.2.0. I think they\nalready are well defined and may not need furter changes. Though I\nwill continue to test—and possibly tweak—them over the course of\nthe next two weeks or so.\nSources\nThe Doric themes use few colours and will appear monochromatic in many\ncontexts. They are my most minimalist themes. Styles involve the\ncareful use of typographic features and subtleties in colour gradients\nto establish a consistent rhythm.\nIf you want maximalist themes in terms of colour, check my ef-themes\npackage. For something in-between, which I would consider the best\n“default theme” for a text editor, opt for my modus-themes.\nPackage name (GNU ELPA): doric-themes\nSample pictures: https://protesilaos.com/emacs/doric-themes-pictures\nGit repository: https://github.com/protesilaos/doric-themes\nBackronym: Doric Only Really Intensifies Conservatively … themes.",
@@ -875,6 +895,26 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160616",
+          "author": "David Pinto",
+          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.327, 0.728 — Otto Lopez batting at Kyle Leahy. 0.311, 0.723 — Jake Mangum batting vs. Brady Singer. 0.308, 0.718 — Yandy Diaz batting vs. Merrill Kelly. 0.296, 0.695 — Nick Gonzales batting vs. Brady Singer. 0.296, 0.698 — Xavier Edwards batting at […]",
+          "link": "https://www.baseballmusings.com/?p=160616",
+          "publishedOn": "2026-06-28T11:17:29.000Z",
+          "wordCount": 7960,
+          "title": "Beat the Streak Picks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160612",
+          "author": "David Pinto",
+          "description": "The Rays take control of the top five of the Baseball Musings Batter Rankings as Jonathan Aranda joins Yandy Diaz and Junior Caminero in the group. Diaz singled and walked in the 4-2 win over the Diamondbacks to hold first place. Camiero homered in four trips, his sixth dinger in his last five games to […]",
+          "link": "https://www.baseballmusings.com/?p=160612",
+          "publishedOn": "2026-06-28T10:32:53.000Z",
+          "wordCount": 7720,
+          "title": "Best Batter Today",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160610",
           "author": "David Pinto",
@@ -1383,16 +1423,6 @@
           "publishedOn": "2026-06-19T10:16:17.000Z",
           "wordCount": 7461,
           "title": "Juneteenth Update",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160500",
-          "author": "David Pinto",
-          "description": "MLB proposed really terrible ideas for the draft. They’ll cut the number of rounds, the amount of money, set an age limit of 20, and extend the draft to international amateurs. What continues to get me is the response of the MLBPA. The MLBPA says in a statement that MLB’s proposals today re: amateur and […]",
-          "link": "https://www.baseballmusings.com/?p=160500",
-          "publishedOn": "2026-06-18T22:47:22.000Z",
-          "wordCount": 7644,
-          "title": "Drafty Idea",
           "imageUrl": null
         }
       ]
@@ -2718,16 +2748,6 @@
           "wordCount": 1679,
           "title": "Olivia Rodrigo Might Have the Greatest Guest List in Modern Music",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=2803",
-          "author": "Schill",
-          "description": "** 2 Things before I start.  I generally try to avoid making articles multiple pages, it pisses me off too having to click. But this article is 25,000 words and has 100 videos, so on one page it would take a million years to load and probably crash my server.  Second thing, for Tear For...",
-          "link": "https://stuffthatinterestsme.net/top-100-new-wave-songs/",
-          "publishedOn": "2026-06-19T01:31:51.000Z",
-          "wordCount": 5300,
-          "title": "Top 100 New Wave Songs",
-          "imageUrl": null
         }
       ]
     },
@@ -2779,6 +2799,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/18/reflecting-pool-algae-green-trump/90595811007/-full",
+          "author": "Rex Huppke",
+          "description": "The good news about the Lincoln Memorial Reflecting Pool turning greener than Kermit the Frog’s keister is President Donald Trump finally has a swamp to drain.\nI’m kidding, there’s nothing funny about algae breaking out all over the Reflecting Pool immediately after President I’m-A-Builder dumped $14.2 million into beautifying the Washington, DC, landmark so it would appear “American Flag Blue.”\nIn fact, shame on the Reflecting Pool for allowing itself it to seem like a failure just as the president agrees to a deal with Iran that also sounds like a failure. Nobody likes a giant, shallow pool that understands how metaphors work.\nTrump should change America's colors to match the green Reflecting Pool\n\nThe pool does look less blue and more glow-in-the-dark Slurpee, but that was probably part…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/18/reflecting-pool-algae-green-trump/90595811007/",
+          "publishedOn": "2026-06-28T13:43:21.991Z",
+          "wordCount": 4128,
+          "title": "Trump's algae-rich Reflecting Pool smells of RFK Jr. to meRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/17/USAT/90588188007-2281921326.jpg?crop=4565,2568,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/28/centrist-democrat-mamdani-progressive-socialist/90681634007/-full",
           "author": "Rex Huppke",
