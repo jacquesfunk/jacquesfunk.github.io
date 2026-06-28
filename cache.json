@@ -580,16 +580,6 @@
           "wordCount": 1896,
           "title": "ICYMI: How Trump Made America’s 250th All About Himself",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/mjuh8ra3n3lj82c00fhs.html",
-          "author": null,
-          "description": "What you can do about Trump’s anti-mail voting order \n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n   …",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/mjuh8ra3n3lj82c00fhs.html",
-          "publishedOn": "2026-06-18T22:03:16.382Z",
-          "wordCount": 1350,
-          "title": "What you can do about Trump’s anti-mail voting order",
-          "imageUrl": null
         }
       ]
     },
@@ -598,6 +588,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://protesilaos.com/codelog/2026-06-28-emacs-doric-tiger-doric-lion/",
+          "author": null,
+          "description": "I just added two new themes to my minimalist doric-themes package.\ndoric-tiger is a light theme, while doric-lion is dark. Both use\norange and yellow colours. Below are sample screenshots.\ndoric-tiger\n\n\n\n\ndoric-lion\n\n\n\n\nPart of development\nThe new themes will be available in version 1.2.0. I think they\nalready are well defined and may not need furter changes. Though I\nwill continue to test—and possibly tweak—them over the course of\nthe next two weeks or so.\nSources\nThe Doric themes use few colours and will appear monochromatic in many\ncontexts. They are my most minimalist themes. Styles involve the\ncareful use of typographic features and subtleties in colour gradients\nto establish a consistent rhythm.\nIf you want maximalist themes in terms of colour, check my ef-themes\npackage. For something in-between, which I would consider the best\n“default theme” for a text editor, opt for my modus-themes.\nPackage name (GNU ELPA): doric-themes\nSample pictures: https://protesilaos.com/emacs/doric-themes-pictures\nGit repository: https://github.com/protesilaos/doric-themes\nBackronym: Doric Only Really Intensifies Conservatively … themes.",
+          "link": "https://protesilaos.com/codelog/2026-06-28-emacs-doric-tiger-doric-lion/",
+          "publishedOn": "2026-06-28T00:00:00.000Z",
+          "wordCount": 271,
+          "title": "Protesilaos: Emacs: new ‘doric-tiger’ and ‘doric-lion’ for the ‘doric-themes’",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
         {
           "id": "https://ray-on-emacs.blogspot.com/2026/06/preventing-errant-navigation.html",
           "author": null,
@@ -867,16 +867,6 @@
           "wordCount": 1877,
           "title": "Emacs Redux: Essential Structured Navigation and Editing Commands",
           "imageUrl": "https://emacsredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://www.chiply.dev/post-ask-emacs",
-          "author": null,
-          "description": "1. Two Keys   emacs help\n\n\n\n\n\nLearning Emacs is not about scouring through documents and memorizing facts.\n\n\n\nThose who use Emacs fluently know that the real skill is knowing how to ask Emacs about Emacs.  The answer to any question you might have about Emacs lives behind just two keys: M-x and C-h.  If you internalize those, plus a handful of command prefixes for the auto-discovery commands, Emacs will teach you whatever you need to know, on demand.\n\n\n\n\n2. Start with M-x   mx\nM-x (that's Alt-x) runs any command by name.  That's cool, but what makes it really special is that it lets you auto-complete command names. \n\n\n\nPress M-x, type in some input, press TAB (for 'complete this input') and Emacs filters the entire list of commands based on your input:\n\n\n\n\n\n\n\n\n\nThere are two important cons…",
-          "link": "https://www.chiply.dev/post-ask-emacs",
-          "publishedOn": "2026-06-18T21:38:26.000Z",
-          "wordCount": 4044,
-          "title": "Charlie Holland: Emacs Teaches Emacs: The Missing README",
-          "imageUrl": "https://www.chiply.dev/images/june-fish-banner-2.avif"
         }
       ]
     },
@@ -885,6 +875,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160610",
+          "author": "David Pinto",
+          "description": "",
+          "link": "https://www.baseballmusings.com/?p=160610",
+          "publishedOn": "2026-06-28T09:47:28.000Z",
+          "wordCount": 7471,
+          "title": "Sunday Update",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160608",
           "author": "David Pinto",
@@ -1880,22 +1880,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/3927ed77-8318-43f1-99d4-53d1c5bc620f_1000x563.webp"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/meet-johnny-garcia-our-terrific-candidate",
-          "author": "Simon Rosenberg",
-          "description": "With our help Garcia beat Maureen Galindo in the primary run-off. Now he is working hard to win the general - and we need to help him again!",
-          "link": "https://www.hopiumchronicles.com/p/meet-johnny-garcia-our-terrific-candidate",
-          "publishedOn": "2026-06-18T20:20:31.000Z",
-          "wordCount": null,
-          "title": "Meet Johnny Garcia, Our Terrific Candidate Fighting To Turn TX-35 Blue",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://api.substack.com/feed/podcast/202591149/d13fc479788812ceb7ece1f095b0c4f0.mp3",
-            "length": "0",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
@@ -2473,16 +2457,6 @@
           "wordCount": 8781,
           "title": "John Early’s Secret Is Total Commitment",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/MADDIES-SECRET.png"
-        },
-        {
-          "id": "https://defector.com/?p=226443",
-          "author": "Samer Kalaf",
-          "description": "Money can't buy happiness, and it seems money plus an NBA title doesn't necessarily buy charisma. The New York Knicks held their championship parade and rally in Manhattan on Thursday, and although not everyone could get in to see the actual procession, there were plenty of fans celebrating in the area. Last week's good vibes kept rolling; Jerome \"Junkyard Dog\" Williams was in attendance. But for a moment, the ceremony at City Hall functioned as an inescapable reminder that James Dolan owns this team, and that means he gets some mic time whenever they appear as a group to celebrate their triumph. In less than two minutes, he was able to briefly derail the festivities like a heinous fart at happy hour.\n\nhttps://www.youtube.com/watch?v=eE0zd5IpfAw\n\n\nDolan began his remarks with a comment about the younger Knicks fans in the crowd, but because he can't deliver a line, it came off as a weird dig about their sincere love for the team. \"Thank you for waiting 53 years, although I have to say: When I look out over the Knick fans here, you all don't look older than 53 years,\" he said. \"Some of you weren't waiting 53—you weren't born yet. But we're very, very happy to have brought you a championship.\" Is it their fault for not being born earlier?",
-          "link": "https://defector.com/turd-makes-brief-appearance-in-punch-bowl",
-          "publishedOn": "2026-06-18T21:32:39.000Z",
-          "wordCount": 5362,
-          "title": "Turd Makes Brief Appearance In Punch Bowl",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2282236740-e1781814049964.jpg"
         }
       ]
     },
@@ -2805,6 +2779,26 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/28/centrist-democrat-mamdani-progressive-socialist/90681634007/-full",
+          "author": "Rex Huppke",
+          "description": "Hello, I am a centrist Democrat who is terrified that progressive liberal candidates keep winning primary elections.\nI am also terrified of my own shadow, but this is somehow worse.\nSuddenly, voters are being won over by liberal candidates ‒ even a few who are democratic socialists! ‒ who aren’t afraid to lean into populist messages with passion and an apparent drive to actually do things that will make people’s lives better. What is that all about? Since when did the things voters want become so important?\nFollowing the embrace of New York City’s popular democratic socialist Mayor Zohran Mamdani, two democratic socialist candidates and one progressive candidate won their recent congressional primary races. I immediately took to my living room's fainting couch. (Like most centrist Democrat…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/28/centrist-democrat-mamdani-progressive-socialist/90681634007/",
+          "publishedOn": "2026-06-28T10:26:05.996Z",
+          "wordCount": 4541,
+          "title": "Centrist Democrat: I fear my party is moving so far left it might winRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/24/USAT/90679404007-mamdani-6.JPG?crop=3995,2249,x3,y219&width=3200&height=1802&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columns/2026/06/28/reflecting-pool-algae-trump-arrests/90707054007/-full",
+          "author": "Rex Huppke",
+          "description": "Hello America-loving tourist, and welcome to the beautiful, algae-free Lincoln Memorial Reflecting Pool, brought to you by President Donald J. Trump, the only man powerful enough to make the Reflecting Pool Great Again.\nYou’ll notice the pool is surrounded by armed soldiers hoping you don't look at the water. That is for your safety and the safety of the newly refurbished Reflecting Pool, which is glistening and perfect and not at all covered with a thick layer of algae and stray chunks of American-flag-blue paint the media would have you believe exists.\nBefore we begin our tour of this remarkable national landmark, I’ll remind everyone that there is no looking at the remarkable national landmark.\nIf you didn’t receive blackout goggles when you bought your ticket for the tour, please keep …",
+          "link": "https://www.usatoday.com/story/opinion/columns/2026/06/28/reflecting-pool-algae-trump-arrests/90707054007/",
+          "publishedOn": "2026-06-28T10:26:05.955Z",
+          "wordCount": 3528,
+          "title": "Rules for Reflecting Pool: Don't look, don't touch | OpinionRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90653162007-20260621-t-185812-z-1716186844-rc-2-fyla-6-yu-5-g-rtrmadp-3-usa-250-reflectingpool.JPG?crop=3427,1928,x0,y178&width=3200&height=1801&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columns/2026/06/07/bill-pulte-national-intelligence-trump/90446444007/-full",
           "author": "Rex Huppke",
@@ -3294,16 +3288,6 @@
           "wordCount": 4300,
           "title": "Bezos says raising his taxes won't help. It's a risk we should take.Rex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/04/13/USAT/89587769007-2239610155.jpg?crop=5095,2866,x0,y764&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/18/reflecting-pool-algae-green-trump/90595811007/-full",
-          "author": "Rex Huppke",
-          "description": "The good news about the Lincoln Memorial Reflecting Pool turning greener than Kermit the Frog’s keister is President Donald Trump finally has a swamp to drain.\nI’m kidding, there’s nothing funny about algae breaking out all over the Reflecting Pool immediately after President I’m-A-Builder dumped $14.2 million into beautifying the Washington, DC, landmark so it would appear “American Flag Blue.”\nIn fact, shame on the Reflecting Pool for allowing itself it to seem like a failure just as the president agrees to a deal with Iran that also sounds like a failure. Nobody likes a giant, shallow pool that understand how metaphors work.\nTrump should change America's colors to match the green Reflecting Pool\n\nThe pool does look less blue and more glow-in-the-dark Slurpee, but that was probably part …",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/18/reflecting-pool-algae-green-trump/90595811007/",
-          "publishedOn": "2026-06-18T12:50:07.166Z",
-          "wordCount": 4162,
-          "title": "Trump's algae-rich Reflecting Pool smells of RFK Jr. to meRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/17/USAT/90588188007-2281921326.jpg?crop=4565,2568,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
         }
       ]
     },
@@ -3598,16 +3582,6 @@
           "wordCount": 42766,
           "title": "My Weekend Getaway with the Proud Boys",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/4d3ea397-67c2-4987-8486-355d134767e5.jpeg?crop=1xw:0.75xh;0xw,0.116xh&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71629286/leaked-memos-stephen-miller-habeus-corpus/",
-          "author": null,
-          "description": "The ghoulish deputy chief of staff remains the untrammeled id of the entire administration.",
-          "link": "https://www.esquire.com/news-politics/politics/a71629286/leaked-memos-stephen-miller-habeus-corpus/",
-          "publishedOn": "2026-06-18T20:36:27.000Z",
-          "wordCount": 32910,
-          "title": "Secret Memos Reveal Stephen Miller’s Disturbing Eagerness to Destroy Our Constitutional Rights",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/14111534-afd0-4751-aa1a-8235ea228963.jpeg?crop=1xw:0.715xh;0xw,0.216xh&resize=1200:*"
         }
       ]
     }
