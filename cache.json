@@ -625,6 +625,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=13907",
+          "author": null,
+          "description": "a useful post that describes how to solve a niche problem involving Emacs diary and Org mode. The problem is you have an event scheduled in your diary and you want access to an Org heading for clocking and note taking.\n\n\nIt turns out that it’s pretty easy to arrange that. Take a look at Zeitler’s post to see the exact recipe.",
+          "link": "https://irreal.org/blog/?p=13907",
+          "publishedOn": "2026-06-28T14:33:03.000Z",
+          "wordCount": 1306,
+          "title": "Irreal: Linking A Diary Event To An Org Heading",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.cyan.sh/blog/posts/new-package-gomuks-el.html",
           "author": null,
           "description": "Gomuks, which is a Matrix client written in Go.\nTypically, Gomuks runs a web app client for Matrix, which connects to the Gomuks backend via a websocket.\nMy wrapper, gomuks.el, connects to the websocket and acts as a full (well, rudimentary) Matrix client inside Emacs.\n\n\n\nWhy make this?\nement.el, and are probably wondering why I can't use it.\nThe simple answer is that ement.el doesn't handle encryption natively, instead requiring pantalaimon.\nNow, I've already had mixed success with pantalaimon in the past (which is why I was using the Gomuks TUI), but the repo for it has been archived as of earlier this year so I don't think it's wise to rely on it.\nAs a side note, I'm not actually sure why it was archived; I assume the matrix org just didn't want to maintain it anymore, which is fair enough, but I would have liked some explanation on the readme at least.\nAnyway, Gomuks already handles encryption, and so gomuks.el does as well.\n\n\n\n\n\nWhat state is it in?\nusable, in the sense that I will use it and add features to it as I need them, but it is far from the quality of ement.el or the myriad of IRC clients in Emacs.\n\n\n\nBasically all I have at the moment is live state synchronisation (without handling edit/delete events) and sending messages (only textual).\nThe GUI is horrible, because I don't know how to use EWOC so I'm not, and it smells of programmer design.\nIf you intend to use this, expect lots of unexpected jank.\n\n\n\nThat being said, I think the code is fairly high quality and well documented, so it should be fairly easy to modify and understand.\n\n\n\n\n\nContributing\nbirdt_@cyan.sh.",
@@ -1714,6 +1724,22 @@
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
         {
+          "id": "https://www.hopiumchronicles.com/p/another-powerful-ossoff-speech-jo",
+          "author": "Simon Rosenberg",
+          "description": "Tuesday is the last day of the quarter - let's rally for our candidates everybody!!!!!!!!!!!!!!!!!!!!",
+          "link": "https://www.hopiumchronicles.com/p/another-powerful-ossoff-speech-jo",
+          "publishedOn": "2026-06-28T15:30:16.000Z",
+          "wordCount": null,
+          "title": "Another Powerful Ossoff Speech, Jo Mendoza's Inspiring New Ad, Heather Cox Richardson Joins Us Tomorrow At 2pm ET",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/youtube/w_728,c_limit/T8sJgHZ6Dso",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/youtube/w_728,c_limit/T8sJgHZ6Dso"
+        },
+        {
           "id": "https://www.hopiumchronicles.com/p/winning-in-an-evolving-battlefield",
           "author": "Simon Rosenberg",
           "description": "Heather Cox Richardson will be here Monday, Marc Elias Wednesday",
@@ -1944,6 +1970,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=227244",
+          "author": "Dave McKenna",
+          "description": "BROOKLYN — Boots Ennis survived the toughest round of his career, then KO’d game but overmatched champ Xander Zayas in a beautifully brutal Saturday night title fight at Barclays Center.\nWhen Ennis put Zayas on the canvas for the third time of the bout, Zayas's corner decided to save him from himself and threw in the towel with 1:12 left in the seventh round. With the win, Ennis took Zayas's WBO and WBA super welterweight belts and remained undefeated at 36-0. The Philly fighter also greatly advanced his pursuit of imaginary but highly coveted titles like “the face of boxing” and “pound-for-pound champ.”\n\nhttps://www.youtube.com/watch?v=cb_jO5KUCuw",
+          "link": "https://defector.com/boots-ennis-kos-zayas-in-brooklyn-thriller",
+          "publishedOn": "2026-06-28T16:48:52.000Z",
+          "wordCount": 6282,
+          "title": "Boots Ennis KO’s Zayas In Brooklyn Thriller",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2283654646.jpg"
+        },
         {
           "id": "https://defector.com/?p=227196",
           "author": "Maitreyi Anantharaman",
