@@ -548,16 +548,6 @@
           "wordCount": 492,
           "title": "Action Alert: Oppose Postal Service Interference with Voting by Mail",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/rn1t8tgsa8ou7yhm4dpv.html",
-          "author": null,
-          "description": "The week USPS followed Trump’s orders \n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n    \n      \n    \n …",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/rn1t8tgsa8ou7yhm4dpv.html",
-          "publishedOn": "2026-06-19T16:06:36.822Z",
-          "wordCount": 1520,
-          "title": "The week USPS followed Trump’s orders",
-          "imageUrl": null
         }
       ]
     },
@@ -574,6 +564,16 @@
           "publishedOn": "2026-06-29T02:40:43.489Z",
           "wordCount": 2809,
           "title": "Raymond Zeitler: Emacs disabled Commands",
+          "imageUrl": null
+        },
+        {
+          "id": "https://monadicsheep.org/blog/call-for-canvas-patch-testers.html",
+          "author": null,
+          "description": "by Tushar\n2026 June 29\n emacs canvas\n\nThe Canvas patch is almost done.  Except that we need more testing,\nspecifically for its MS Windows port.  (Though testers on other\noperating systems like GNU/Linux and MacOS are also welcome.)\n\n\n\nSince we don't have any computers running MS Windows, we are not sure\nif the code is actually correct.\n\n\n\nPlease follow the following instructions for testing it on MS Windows.\nYou can discuss the results or ask us questions at MonadicSheep Emacs\nFork's Issue tracker, #phi-mu-lambda on Libera IRC (open webchat in\nbrowser), or on the fediverse (tag the post with #emacs).\n\n\n1. Building GNU Emacs on MS Windows\nInstall MSYS2 by following the official instructions\nmentioned there.\nOpen a MSYS2 UCRT64 session terminal.\n\nIn the bash prompt, run the following command to get the canvas\npatch source code.\n\n\ngit clone https://codeberg.org/MonadicSheep/emacs\n\n\n\ncd emacs/\n\n\n\nmake\n\n\n\n./src/emacs\n\n\n\n\n\n\n2. Testing\n*scratch* (Using C-c C-c keybinding).\n\n\n(defun make-rect (width height pixel)\n  (make-vector (* width height) pixel))\n\n(setq rect-canvas-vec (make-rect 250 250 #xFFFF0000))\n(setq rect-canvas `(image :type canvas\n                          :data-width 250\n                          :data-height 250\n                          :data ,rect-canvas-vec))\n(insert (propertize \"#\" 'display rect-canvas))\n\n(defvar rect-canvas-timer nil)\n(let ((i 0))\n  (setq rect-canvas-timer\n        (run-with-timer\n         0 0.016\n         (lambda ()\n           (if (< i (* 20 250))\n               (progn\n                 (aset rect-canvas-vec (+ (* 115 250) i) #xFF0000FF)\n                 (canvas-refresh rect-canvas t)\n                 (setq i (1+ i)))\n             (cancel-timer rect-canvas-timer))))))",
+          "link": "https://monadicsheep.org/blog/call-for-canvas-patch-testers.html",
+          "publishedOn": "2026-06-29T00:00:00.000Z",
+          "wordCount": 294,
+          "title": "Monadic Sheep: Canvas patch: we need testers!",
           "imageUrl": null
         },
         {
@@ -1391,26 +1391,6 @@
           "publishedOn": "2026-06-20T01:06:29.000Z",
           "wordCount": 7583,
           "title": "The Wheels on Verlander",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160508",
-          "author": "David Pinto",
-          "description": "The Blue Jays try to reach .500 as they send Kevin Gausman against Ben Brown in Chicago in a Friday afternoon game. Gausman limited both hits and walks this season with a 1.03 WHIP. Ten of the 74 hits against him did leave the yard. Brown brings a 1.74 ERA into the game, but his […]",
-          "link": "https://www.baseballmusings.com/?p=160508",
-          "publishedOn": "2026-06-19T12:54:13.000Z",
-          "wordCount": 7658,
-          "title": "Games of the Day",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160506",
-          "author": "David Pinto",
-          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.354, 0.747 — Jake Mangum batting at Kyle Freeland. 0.349, 0.733 — Nick Gonzales batting at Kyle Freeland. 0.339, 0.719 — Ryan O’Hearn batting at Kyle Freeland. 0.314, 0.691 — Spencer Horwitz batting at Kyle Freeland. 0.312, 0.687 — Bryan Reynolds batting at […]",
-          "link": "https://www.baseballmusings.com/?p=160506",
-          "publishedOn": "2026-06-19T11:31:02.000Z",
-          "wordCount": 7917,
-          "title": "Beat the Streak Picks",
           "imageUrl": null
         }
       ]

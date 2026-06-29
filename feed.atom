@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-06-29T03:46:11.007Z</updated>
+    <updated>2026-06-29T08:57:53.805Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -56,6 +56,90 @@ April Fool's Day.]]></summary>
         <summary type="html"><![CDATA[The next, but not last, decision day is Monday. Also: A reporter's privilege case on the shadow docket. And, for paid subscribers: Closing my tabs.]]></summary>
         <author>
             <name>Chris Geidner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Monadic Sheep: Canvas patch: we need testers!]]></title>
+        <id>https://monadicsheep.org/blog/call-for-canvas-patch-testers.html</id>
+        <link href="https://monadicsheep.org/blog/call-for-canvas-patch-testers.html"/>
+        <updated>2026-06-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[by Tushar
+2026 June 29
+ emacs canvas
+
+The Canvas patch is almost done.  Except that we need more testing,
+specifically for its MS Windows port.  (Though testers on other
+operating systems like GNU/Linux and MacOS are also welcome.)
+
+
+
+Since we don't have any computers running MS Windows, we are not sure
+if the code is actually correct.
+
+
+
+Please follow the following instructions for testing it on MS Windows.
+You can discuss the results or ask us questions at MonadicSheep Emacs
+Fork's Issue tracker, #phi-mu-lambda on Libera IRC (open webchat in
+browser), or on the fediverse (tag the post with #emacs).
+
+
+1. Building GNU Emacs on MS Windows
+Install MSYS2 by following the official instructions
+mentioned there.
+Open a MSYS2 UCRT64 session terminal.
+
+In the bash prompt, run the following command to get the canvas
+patch source code.
+
+
+git clone https://codeberg.org/MonadicSheep/emacs
+
+
+
+cd emacs/
+
+
+
+make
+
+
+
+./src/emacs
+
+
+
+
+
+
+2. Testing
+*scratch* (Using C-c C-c keybinding).
+
+
+(defun make-rect (width height pixel)
+  (make-vector (* width height) pixel))
+
+(setq rect-canvas-vec (make-rect 250 250 #xFFFF0000))
+(setq rect-canvas `(image :type canvas
+                          :data-width 250
+                          :data-height 250
+                          :data ,rect-canvas-vec))
+(insert (propertize "#" 'display rect-canvas))
+
+(defvar rect-canvas-timer nil)
+(let ((i 0))
+  (setq rect-canvas-timer
+        (run-with-timer
+         0 0.016
+         (lambda ()
+           (if (< i (* 20 250))
+               (progn
+                 (aset rect-canvas-vec (+ (* 115 250) i) #xFF0000FF)
+                 (canvas-refresh rect-canvas t)
+                 (setq i (1+ i)))
+             (cancel-timer rect-canvas-timer))))))]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -5116,59 +5200,6 @@ sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-te
         <summary type="html"><![CDATA[I put a question to my SFGATE colleagues just the other day that had them mulling for a bit: What’s the last great movie that Steven Spielberg directed? I’m not talking about a merely good film. The old man can put together a competent picture anytime he likes. I’m talking about an all-timer of a Spielberg movie, something that belongs up there with his best work, which includes “Jaws,” “Raiders of the Lost Ark,” “E.T.,” “Schindler’s List” and … you get the idea. When you’re a director who’s made not just one of the greatest movies of all time but several of them, audience members like me hope for (and oftentimes expect) greatness from you with every subsequent project. Such is the standard that Spielberg, father of the modern blockbuster, set for himself. It’s also a standard that, in my …]]></summary>
         <author>
             <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The week USPS followed Trump’s orders]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/rn1t8tgsa8ou7yhm4dpv.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/rn1t8tgsa8ou7yhm4dpv.html"/>
-        <updated>2026-06-19T16:06:36.822Z</updated>
-        <summary type="html"><![CDATA[The week USPS followed Trump’s orders 
-    
-    
-    
-    
-    
-
-
-
-
-
-a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
-
-
-    
-  
-    
-      
-      96
-    
-    
-      
-    
- …]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Games of the Day]]></title>
-        <id>https://www.baseballmusings.com/?p=160508</id>
-        <link href="https://www.baseballmusings.com/?p=160508"/>
-        <updated>2026-06-19T12:54:13.000Z</updated>
-        <summary type="html"><![CDATA[The Blue Jays try to reach .500 as they send Kevin Gausman against Ben Brown in Chicago in a Friday afternoon game. Gausman limited both hits and walks this season with a 1.03 WHIP. Ten of the 74 hits against him did leave the yard. Brown brings a 1.74 ERA into the game, but his […]]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beat the Streak Picks]]></title>
-        <id>https://www.baseballmusings.com/?p=160506</id>
-        <link href="https://www.baseballmusings.com/?p=160506"/>
-        <updated>2026-06-19T11:31:02.000Z</updated>
-        <summary type="html"><![CDATA[The Log5 Method yields these top projected hit averages versus starting pitchers: 0.354, 0.747 — Jake Mangum batting at Kyle Freeland. 0.349, 0.733 — Nick Gonzales batting at Kyle Freeland. 0.339, 0.719 — Ryan O’Hearn batting at Kyle Freeland. 0.314, 0.691 — Spencer Horwitz batting at Kyle Freeland. 0.312, 0.687 — Bryan Reynolds batting at […]]]></summary>
-        <author>
-            <name>David Pinto</name>
         </author>
     </entry>
 </feed>

@@ -93,6 +93,99 @@ April Fool&#x27;s Day.</span>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://monadicsheep.org/blog/call-for-canvas-patch-testers.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Monadic Sheep: Canvas patch: we need testers!</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://monadicsheep.org/blog/call-for-canvas-patch-testers.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>by Tushar
+2026 June 29
+ emacs canvas
+
+The Canvas patch is almost done.  Except that we need more testing,
+specifically for its MS Windows port.  (Though testers on other
+operating systems like GNU/Linux and MacOS are also welcome.)
+
+
+
+Since we don&#x27;t have any computers running MS Windows, we are not sure
+if the code is actually correct.
+
+
+
+Please follow the following instructions for testing it on MS Windows.
+You can discuss the results or ask us questions at MonadicSheep Emacs
+Fork&#x27;s Issue tracker, #phi-mu-lambda on Libera IRC (open webchat in
+browser), or on the fediverse (tag the post with #emacs).
+
+
+1. Building GNU Emacs on MS Windows
+Install MSYS2 by following the official instructions
+mentioned there.
+Open a MSYS2 UCRT64 session terminal.
+
+In the bash prompt, run the following command to get the canvas
+patch source code.
+
+
+git clone https://codeberg.org/MonadicSheep/emacs
+
+
+
+cd emacs/
+
+
+
+make
+
+
+
+./src/emacs
+
+
+
+
+
+
+2. Testing
+*scratch* (Using C-c C-c keybinding).
+
+
+(defun make-rect (width height pixel)
+  (make-vector (* width height) pixel))
+
+(setq rect-canvas-vec (make-rect 250 250 #xFFFF0000))
+(setq rect-canvas &#x60;(image :type canvas
+                          :data-width 250
+                          :data-height 250
+                          :data ,rect-canvas-vec))
+(insert (propertize &quot;#&quot; &#x27;display rect-canvas))
+
+(defvar rect-canvas-timer nil)
+(let ((i 0))
+  (setq rect-canvas-timer
+        (run-with-timer
+         0 0.016
+         (lambda ()
+           (if (&lt; i (* 20 250))
+               (progn
+                 (aset rect-canvas-vec (+ (* 115 250) i) #xFF0000FF)
+                 (canvas-refresh rect-canvas t)
+                 (setq i (1+ i)))
+             (cancel-timer rect-canvas-timer))))))</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://irreal.org/blog/?p&#x3D;13907"
                         open
                       >
@@ -9544,44 +9637,6 @@ He cares deeply about hosting a raucous UFC fight on the White House lawn on his
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.baseballmusings.com/?p&#x3D;160508"
-                        open
-                      >
-                        <summary class="article-expander__title">Games of the Day</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.baseballmusings.com/?p&#x3D;160508">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The Blue Jays try to reach .500 as they send Kevin Gausman against Ben Brown in Chicago in a Friday afternoon game. Gausman limited both hits and walks this season with a 1.03 WHIP. Ten of the 74 hits against him did leave the yard. Brown brings a 1.74 ERA into the game, but his […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.baseballmusings.com/?p&#x3D;160506"
-                        open
-                      >
-                        <summary class="article-expander__title">Beat the Streak Picks</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.baseballmusings.com/?p&#x3D;160506">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The Log5 Method yields these top projected hit averages versus starting pitchers: 0.354, 0.747 — Jake Mangum batting at Kyle Freeland. 0.349, 0.733 — Nick Gonzales batting at Kyle Freeland. 0.339, 0.719 — Ryan O’Hearn batting at Kyle Freeland. 0.314, 0.691 — Spencer Horwitz batting at Kyle Freeland. 0.312, 0.687 — Bryan Reynolds batting at […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9690,48 +9745,6 @@ sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-te
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/rn1t8tgsa8ou7yhm4dpv.html"
-                        open
-                      >
-                        <summary class="article-expander__title">The week USPS followed Trump’s orders</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/rn1t8tgsa8ou7yhm4dpv.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The week USPS followed Trump’s orders 
-    
-    
-    
-    
-    
-
-
-
-
-
-a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:&#x27;›&#x27;;padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
-
-
-    
-  
-    
-      
-      96
-    
-    
-      
-    
- …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9772,8 +9785,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/28347221294">
-        <time id="build-timestamp" datetime="2026-06-29T03:46:10.982Z">2026-06-29T03:46:10.982Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/28360414473">
+        <time id="build-timestamp" datetime="2026-06-29T08:57:53.773Z">2026-06-29T08:57:53.773Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
