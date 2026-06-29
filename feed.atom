@@ -2,10 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-06-28T23:01:07.820Z</updated>
+    <updated>2026-06-29T03:46:11.007Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: Emacs disabled Commands]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/06/emacs-disabled-commands.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/06/emacs-disabled-commands.html"/>
+        <updated>2026-06-29T02:40:43.489Z</updated>
+        <summary type="html"><![CDATA[It's possible to configure Emacs to prompt the user before calling
+a function, thereby "disabling" a function.  The function isn't
+totally inaccessible -- Emacs will let you run it if you want it
+to.  I chose to do this with scroll-left, scroll-right,
+scroll-up-command and scroll-down-command as
+explained in the previous post.
+Most keypresses call self-insert-command, which is itself a
+function.  So what would happen if self-insert-command were
+disabled?
+It turns out to be not as debilitating as you'd think -- only the
+alpha-numeric and punctuation keys are affected.  When a modifier
+is used with a key (M-x, for example), there is no interruption.
+Likewise, the TAB key is allowed to pass, which makes completion
+easier.
+When Emacs inhibits self-insert-command, it prevents the keypress
+from having its intended effect.  It will say that the command is
+disabled because many users find it confusing.  Then you'll have
+the options of:
+
+(n) Not running the command
+(y) Run the command and don't ask again
+SPC Run the command just one time to try it
+(!) Enable the command and all other disabled commands
+The n, y, SPC and ! keys are not inhibited at this point, so the
+  user doesn't get trapped in a set of recursive prompts.
+So to invoke org-agenda, I'd press M-x
+o.  Then I'd press SPC to enable
+the self-insert-command for "o."  Then I'd press r
+followed by SPC, and so on.  My keypresses are M-x o r g - a g
+TAB ENTER.
+Thus, adding (put 'self-insert-command 'disabled t)
+to a cube-mate's init file is a harmless prank, something to try on
+April Fool's Day.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Eight Supreme Court cases remaining]]></title>
+        <id>https://www.lawdork.com/p/eight-supreme-court-cases-remaining</id>
+        <link href="https://www.lawdork.com/p/eight-supreme-court-cases-remaining"/>
+        <updated>2026-06-29T00:21:07.000Z</updated>
+        <summary type="html"><![CDATA[The next, but not last, decision day is Monday. Also: A reporter's privilege case on the shadow docket. And, for paid subscribers: Closing my tabs.]]></summary>
+        <author>
+            <name>Chris Geidner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wed, July 1st, 630pm ET - Our Weekly Hopium Paid Subscriber Get Together]]></title>
+        <id>https://www.hopiumchronicles.com/p/wed-july-1st-630pm-et-our-weekly</id>
+        <link href="https://www.hopiumchronicles.com/p/wed-july-1st-630pm-et-our-weekly"/>
+        <updated>2026-06-28T23:31:25.000Z</updated>
+        <summary type="html"><![CDATA[A reminder - Heather Cox Richardson is joining us live at 2pm ET tomorrow!]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Dublin Pulls Off Comeback To Beat Galway In All-Ireland Quarterfinal]]></title>
         <id>https://defector.com/?p=227256</id>
@@ -272,6 +334,16 @@ If you didn’t receive blackout goggles when you bought your ticket for the tou
         <updated>2026-06-28T09:47:28.000Z</updated>
         <author>
             <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hristos N. Triantafillou: Ten Years Of Emacs]]></title>
+        <id>https://www.hristos.co/blog/ten-years-of-emacs/</id>
+        <link href="https://www.hristos.co/blog/ten-years-of-emacs/"/>
+        <updated>2026-06-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This post is a reflection on over ten years of Emacs usage. Why did I even start using it? How has my usage changed over the years? What's the future looking like? I'll discuss this and a whole lot more. It's a spiritual successor to my  post.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -5080,140 +5152,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Trump’s Worst Week Yet]]></title>
-        <id>https://www.dworkinsubstack.com/p/trumps-worst-week-yet</id>
-        <link href="https://www.dworkinsubstack.com/p/trumps-worst-week-yet"/>
-        <updated>2026-06-19T15:02:13.000Z</updated>
-        <summary type="html"><![CDATA[A humiliating surrender, a wind ban in ruins, and a GOP power grab collapses in Georgia]]></summary>
-        <author>
-            <name>Scott Dworkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I Can No Longer Accept Being Condescended To By The Little Game On My Phone]]></title>
-        <id>https://defector.com/?p=226363</id>
-        <link href="https://defector.com/i-can-no-longer-accept-being-condescended-to-by-the-little-game-on-my-phone"/>
-        <updated>2026-06-19T15:01:00.000Z</updated>
-        <summary type="html"><![CDATA[I got got by Connections this week. This is a rare occurrence, because I have a big strong brain that can make distinctions that other brains often cannot. So when I lose Connections, I feel great shame. I have disgraced not only my own legacy, but that of my family's as well. I did not live up to my standard playing Connections, and that will haunt me for a good long time, maybe even into lunch today.
-So what the fuck are you, The New York Times games app, to tell me this shit?
-PICTURED: A lie.]]></summary>
-        <author>
-            <name>Drew Magary</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Iran Deal Wobbles, Obama's Library Opens, OMG The Reflecting Pool, Inspiration From Juneteenth, And Slava Ukraini!!!!!!!]]></title>
-        <id>https://www.hopiumchronicles.com/p/the-iran-deal-wobbles-obamas-library</id>
-        <link href="https://www.hopiumchronicles.com/p/the-iran-deal-wobbles-obamas-library"/>
-        <updated>2026-06-19T14:51:03.000Z</updated>
-        <summary type="html"><![CDATA[The US Men's soccer team plays Australia at 3pm ET today - be sure to watch and cheer them on!]]></summary>
-        <author>
-            <name>Simon Rosenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Welcome to the BIGGEST stories in tech and beyond]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/z1hathskw6rmwf07dbbo.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/z1hathskw6rmwf07dbbo.html"/>
-        <updated>2026-06-19T14:47:29.469Z</updated>
-        <summary type="html"><![CDATA[Welcome to the BIGGEST stories in tech and beyond
-
-* {
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-}
-body {
-margin: 0 !important;
-padding: 0 !important;
--webkit-text-size-adjust: 100% !important;
--ms-text-size-adjust: 100% !important;
--webkit-font-smoothing: antialiased !important;
-}
-p {
-/* padding: 0 !important; */
-margin: 0 !important;
-}
-table {
-border-collapse: collapse;
-mso-table-lspace: 0px;
-mso-table-rspace: 0px;
-padding: 0;
-}
-table td {
-border-collapse: collapse;
-}
-td,
-a,
-span {
-border-collapse: collapse;
-mso-line-height-rule: exactly;
-}
-h1 {
-margin: 0;
-padding: 0;
-}
-h1 {
-font-size: 100%;
-font-weight: normal;
-}
-.ReadMsgBody {
-width: 100%;
-}
-.ExternalClass p,
-.ExternalClass span,
-.ExternalClass font,
-.ExternalClass td {
-line-height: 100%
-}
-.appleLinks a {…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Looking For A Job Has Become An Alienating Humiliation Ritual]]></title>
-        <id>https://defector.com/?p=226034</id>
-        <link href="https://defector.com/looking-for-a-job-has-become-an-alienating-humiliation-ritual"/>
-        <updated>2026-06-19T14:30:51.000Z</updated>
-        <summary type="html"><![CDATA[The most haunting entry in Search Work: A Collective Inquiry into the Job Hunt, a recently published anthology edited by Rachel Meade Smith, is also the most vulnerable: a collection of emails between games journalist and author David Wolinsky and anyone who can possibly help him find work. The tone and tenor of the missives will feel instantly familiar to readers who have ever found themselves in a similar position. In the messages, Wolinsky is eager, kind, honest about his situation and what he's willing to do and, most importantly, open to opportunity, however it may present itself. Reading through the entries, which are sprinkled throughout the collection's essays, graphics, and other ephemera, it's clear that the process of how we find work is broken.
-Wolinsky sends many followups that never waver in their tone—unflinchingly polite and casual with just enough urgency to show that he cares—toeing the line between follow-through and desperation. What Wolinsky, and the other contributors to the book, are really looking for is humanity and connection, two components that are, in 2026, absolutely necessary to a successful job search and seemingly in short supply.
-Looking for work has always been tough, but in 2026 it feels abysmal. It is a daily humiliation ritual. Toggling back and forth between job boards, cover letters, and four different versions of your own résumé, tailored specifically to listings that may not even be real, tests your own fortitude and tolerance for pain. The slog of seeking employment—looking at your email, closing your email, refreshing it, repeat—is its own kind of labor that is only rewarded when you achieve what feels impossible, which is getting a fucking job.]]></summary>
-        <author>
-            <name>Megan C. Reynolds</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Salvador Perez’s Carrying Tool Is Gone]]></title>
-        <id>https://blogs.fangraphs.com/?p=492803</id>
-        <link href="https://blogs.fangraphs.com/salvador-perezs-carrying-tool-is-gone/"/>
-        <updated>2026-06-19T14:00:32.000Z</updated>
-        <summary type="html"><![CDATA[The end might not be nigh so much as it's already here.]]></summary>
-        <author>
-            <name>Michael Baumann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Here’s A World Cup Weekend Open Thread]]></title>
-        <id>https://defector.com/?p=226447</id>
-        <link href="https://defector.com/heres-a-world-cup-weekend-open-thread"/>
-        <updated>2026-06-19T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hopefully you, like us, have the day off today. And hopefully you, like us, have plans to watch lots of World Cup soccer this weekend. While you do that, feel free to chat away in this open thread.]]></summary>
-        <author>
-            <name>Defector Staff</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[John Early’s Secret Is Total Commitment]]></title>
-        <id>https://defector.com/?p=226292</id>
-        <link href="https://defector.com/john-earlys-secret-is-total-commitment"/>
-        <updated>2026-06-19T13:01:08.000Z</updated>
-        <summary type="html"><![CDATA[John Early has one of the most expressive faces of any actor working today. You've almost certainly seen it. The 38-year-old comedian, born and raised in Nashville, has had many small breaks into the zeitgeist over the past decade or so. His voice might also be familiar to you: He's worked on a gamut of animated shows including Bob's Burgers, Tuca & Bertie, The Great North, and Summer Camp Island (a personal favorite). He appeared most recently and prominently in the A24 comedy Eternity, but also in Tim Robinson's I Think You Should Leave, Julio Torres' Los Espookys, and the wildly underrated HBO series Search Party. It's this latter show where I first saw Early, not by actually watching an episode, but from clips circulating on Twitter. 
-Indeed, this is how I came to be familiar with seve…]]></summary>
-        <author>
-            <name>Nicholas Russell</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Games of the Day]]></title>
         <id>https://www.baseballmusings.com/?p=160508</id>
         <link href="https://www.baseballmusings.com/?p=160508"/>
@@ -5224,19 +5162,6 @@ Indeed, this is how I came to be familiar with seve…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Celebrate Juneteenth and the opening of the Obama Presidential Center]]></title>
-        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/9t5d6ot9dmzv9nj1rcff.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/9t5d6ot9dmzv9nj1rcff.html"/>
-        <updated>2026-06-19T12:33:44.001Z</updated>
-        <summary type="html"><![CDATA[96
-
-
-*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:660px){.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.row-1 .column-1 .block-1.image_block td.pad{padding:10px 10px 0 10px!important}.row-1 .column-1 .block-1.image_block td.pad div{margin:0 auto!important}.row-1 .column-2 .block-1.paragra…]]></summary>
-        <author>
-            <name>Misc Newsletters</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Beat the Streak Picks]]></title>
         <id>https://www.baseballmusings.com/?p=160506</id>
         <link href="https://www.baseballmusings.com/?p=160506"/>
@@ -5244,113 +5169,6 @@ Indeed, this is how I came to be familiar with seve…]]></summary>
         <summary type="html"><![CDATA[The Log5 Method yields these top projected hit averages versus starting pitchers: 0.354, 0.747 — Jake Mangum batting at Kyle Freeland. 0.349, 0.733 — Nick Gonzales batting at Kyle Freeland. 0.339, 0.719 — Ryan O’Hearn batting at Kyle Freeland. 0.314, 0.691 — Spencer Horwitz batting at Kyle Freeland. 0.312, 0.687 — Bryan Reynolds batting at […]]]></summary>
         <author>
             <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Georgia’s stunning gerrymander plot twist]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/g0vjm52ab4cbmf9blgpi.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/g0vjm52ab4cbmf9blgpi.html"/>
-        <updated>2026-06-19T11:04:32.156Z</updated>
-        <summary type="html"><![CDATA[Georgia’s stunning gerrymander plot twist 
-    
-    
-    
-    
-    
-
-
-
-
-
-a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
-
-
-    
-  
-    
-      
-      96
-    
-    
-      
-  …]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ICYMI: How Trump Made America’s 250th All About Himself]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/bv6z9ji9t76skkanu8iy.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/bv6z9ji9t76skkanu8iy.html"/>
-        <updated>2026-06-19T11:01:44.854Z</updated>
-        <summary type="html"><![CDATA[96
-
-
-
-
-
-
-ICYMI: How Trump Made America’s 250th All About Himself
-
-
-img{-ms-interpolation-mode:bicubic;}
-table, td{mso-table-lspace:0pt;mso-table-rspace:0pt;}
-.mceStandardButton, .mceStandardButton td, .mceStandardButton td a{mso-hide:all!important;}
-p, a, li, td, blockquote{mso-line-height-rule:exactly;}
-p, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
-.mcnPreviewText{display:none!important;}
-.bodyCell{margin:0 auto;padding:0;width:100%;}
-.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;}
-.ReadMsgBody, .ExternalClass{width:100%;}
-a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inherit!import…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I'm glad Spencer Pratt lost. Let's Make Stupidity Embarrassing Again.Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/09/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90468552007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/09/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90468552007/"/>
-        <updated>2026-06-19T10:24:26.842Z</updated>
-        <summary type="html"><![CDATA[Former reality TV star Spencer Pratt is out of the Los Angeles mayoral race for two reasons.
-First, and most important, he got fewer votes than two other candidates, incumbent Los Angeles Mayor Karen Bass and LA City Councilwoman Nithya Raman, who will now face off against each other. Second, he’s an unqualified dipstick whom a majority of Los Angelenos understood wasn’t qualified for the job.
-Pratt was endorsed by President Donald Trump and hailed by some MAGA Republicans as a rising star, a political outsider with a winning populist message.
-That was, in a word, wrong.
-
-The Free Press, the conservative publication founded by Bari Weiss, who is presently busy ruining CBS News, ran a piece in May that posed the question: “How did Spencer Pratt, reality TV star and ‘healing’ crystal salesma…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stop trying to make dates happen. Have you even tried a Twinkie?Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/"/>
-        <updated>2026-06-19T10:23:37.839Z</updated>
-        <summary type="html"><![CDATA[A couple years ago, my wife and oldest son began experimenting with Medjool dates. I wasn’t happy about it.
-I’ve tried dates in many forms, and never liked them. They look like legless cockroaches. They are, in my estimation, overly ambitious raisins. Nobody likes an overly ambitious raisin.
-
-Tragically, my family’s addiction to these ancient stone fruits grew worse, to the point I couldn’t trust any baked good that appeared in the kitchen, as it was likely date-tainted. Gone were the days of normal muffins or oatmeal bars. All I heard was “These are sweetened with dates!” and “The dates give these such a great texture!” and other such excited mumbo-jumbo.
-My son is addicted to dates and I've never been more ashamed
-Not long ago, my wonderful adult son – whose father raised him with the ho…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bezos says raising his taxes won't help. It's a risk we should take.Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/"/>
-        <updated>2026-06-19T10:23:37.803Z</updated>
-        <summary type="html"><![CDATA[Billionaire Jeff Bezos has boldly put forth a challenge to Americans.
-In a May 20 interview with CNBC, he referenced a hypothetical New York City school teacher and said, “You could double the taxes I pay, and it's not going to help that teacher in Queens. I promise you.”
-Promises from billionaires will be worth about as much as cash in the post-apocalyptic wasteland we’ll soon inhabit, thanks to all the billionaires. (I’m guessing the primary currency will be potable water and locally sourced rich-people meat.)
-So I’ll respond to Mr. Bezos with this: “You say doubling your taxes won’t help regular Americans. Well, sir, that’s a risk I’m willing to take. What say we quintuple your taxes and see what shakes out?”
-I say let's raise Jeff Bezos' taxes and see how it all works out
-
-"If people w…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
         </author>
     </entry>
 </feed>
