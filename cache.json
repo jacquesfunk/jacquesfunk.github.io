@@ -50,16 +50,6 @@
           "wordCount": 2432,
           "title": "Royals Sign Matt Moore To Minors Contract",
           "imageUrl": "https://cdn.mlbtraderumors.com/files/2025/02/matt-moore-reliever-1024x690.jpg"
-        },
-        {
-          "id": "https://www.mlbtraderumors.com/?p=900221",
-          "author": "Anthony Franco",
-          "description": "AL MVP candidate Bobby Witt Jr. is dealing with a Grade 1 sprain of the medial collateral ligament (MCL) in his right knee. Witt is not available for tonight’s game against the Cardinals. There’s a rare Saturday off day tomorrow because Kansas City will host a World Cup match between Ecuador and Curacao in the evening. […]",
-          "link": "https://www.mlbtraderumors.com/2026/06/bobby-witt-jr-out-of-lineup-with-mcl-sprain.html",
-          "publishedOn": "2026-06-20T00:47:32.000Z",
-          "wordCount": 2226,
-          "title": "Bobby Witt Jr. Out Of Lineup With MCL Sprain",
-          "imageUrl": "https://cdn.mlbtraderumors.com/files/2026/06/USATSI_29227760-1024x683.jpg"
         }
       ]
     },
@@ -567,6 +557,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://protesilaos.com/codelog/2026-06-29-emacs-fontaine-3-1-0/",
+          "author": null,
+          "description": "Fontaine allows the user to define detailed font configurations and set\nthem on demand.  For example, one can have a regular-editing preset\nand another for presentation-mode (these are arbitrary, user-defined\nsymbols): the former uses small fonts which are optimised for writing,\nwhile the latter applies typefaces that are pleasant to read at\ncomfortable point sizes.\nPackage name (GNU ELPA): fontaine\nOfficial manual: https://protesilaos.com/emacs/fontaine\nChange log: https://protesilaos.com/emacs/fontaine-changelog\nGit repositories:\n    \nGitHub: https://github.com/protesilaos/fontaine\nGitLab: https://gitlab.com/protesilaos/fontaine\nBackronym: Fonts, Ornaments, and Neat Typography Are Irrelevant in Non-graphical Emacs.\nBelow are the release notes.\nVersion 3.1.0 on 2026-06-29\nThis is a small release that includes internal refinements as well as\ntwo user-facing changes:\nThe user option fontaine-presets accepts an optional\n:line-spacing entry, which corresponds to the line-spacing\nvariable. As of Emacs version 31, line-spacing can be bound to a\ncons cell to set the space above and below. Fontaine now handles\nthis as intended.\nBy default, changing the font size has the effect of resizing the\nframe. This is because of the original value of the variable\nframe-inhibit-implied-resize. Fontaine is now designed to always\ninhibit frame resizing, regardless of frame-inhibit-implied-resize.",
+          "link": "https://protesilaos.com/codelog/2026-06-29-emacs-fontaine-3-1-0/",
+          "publishedOn": "2026-06-29T00:00:00.000Z",
+          "wordCount": 284,
+          "title": "Protesilaos: Emacs: fontaine version 3.1.0",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
+        {
           "id": "https://monadicsheep.org/blog/call-for-canvas-patch-testers.html",
           "author": null,
           "description": "by Tushar\n2026 June 29\n emacs canvas\n\nThe Canvas patch is almost done.  Except that we need more testing,\nspecifically for its MS Windows port.  (Though testers on other\noperating systems like GNU/Linux and MacOS are also welcome.)\n\n\n\nSince we don't have any computers running MS Windows, we are not sure\nif the code is actually correct.\n\n\n\nPlease follow the following instructions for testing it on MS Windows.\nYou can discuss the results or ask us questions at MonadicSheep Emacs\nFork's Issue tracker, #phi-mu-lambda on Libera IRC (open webchat in\nbrowser), or on the fediverse (tag the post with #emacs).\n\n\n1. Building GNU Emacs on MS Windows\nInstall MSYS2 by following the official instructions\nmentioned there.\nOpen a MSYS2 UCRT64 session terminal.\n\nIn the bash prompt, run the following command to get the canvas\npatch source code.\n\n\ngit clone https://codeberg.org/MonadicSheep/emacs\n\n\n\ncd emacs/\n\n\n\nmake\n\n\n\n./src/emacs\n\n\n\n\n\n\n2. Testing\n*scratch* (Using C-c C-c keybinding).\n\n\n(defun make-rect (width height pixel)\n  (make-vector (* width height) pixel))\n\n(setq rect-canvas-vec (make-rect 250 250 #xFFFF0000))\n(setq rect-canvas `(image :type canvas\n                          :data-width 250\n                          :data-height 250\n                          :data ,rect-canvas-vec))\n(insert (propertize \"#\" 'display rect-canvas))\n\n(defvar rect-canvas-timer nil)\n(let ((i 0))\n  (setq rect-canvas-timer\n        (run-with-timer\n         0 0.016\n         (lambda ()\n           (if (< i (* 20 250))\n               (progn\n                 (aset rect-canvas-vec (+ (* 115 250) i) #xFF0000FF)\n                 (canvas-refresh rect-canvas t)\n                 (setq i (1+ i)))\n             (cancel-timer rect-canvas-timer))))))",
@@ -893,6 +893,46 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160626",
+          "author": "David Pinto",
+          "description": "Every Monday Baseball Musings compares the offense of the current season to the previous season through the same number of full weeks. Through thirteen full weeks MLB games produced 8.96 runs per game compared to 8.73 runs per game in 2025. Home runs are up ever so slightly, 0.06 per game. Strikeouts rose a bit, […]",
+          "link": "https://www.baseballmusings.com/?p=160626",
+          "publishedOn": "2026-06-29T12:25:11.000Z",
+          "wordCount": 7648,
+          "title": "Weekly Look at Offense",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160624",
+          "author": "David Pinto",
+          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.313, 0.724 — Jake Mangum batting at Aaron Nola. 0.302, 0.702 — Nick Gonzales batting at Aaron Nola. 0.300, 0.709 — Jeremy Pena batting vs. Zebby Matthews. 0.299, 0.715 — Otto Lopez batting at Sean Sullivan. 0.294, 0.685 — Ceddanne Rafaela batting vs. […]",
+          "link": "https://www.baseballmusings.com/?p=160624",
+          "publishedOn": "2026-06-29T11:28:46.000Z",
+          "wordCount": 7917,
+          "title": "Beat the Streak Picks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160622",
+          "author": "David Pinto",
+          "description": "Junior Caminero of the Rays hit another home run on Sunday. His three for three with a walk provided a game score of 77, tied for third highest on the day and he moves into first place in the Baseball Musings Batter Rankings. He homered in four straight games and five of his last six. […]",
+          "link": "https://www.baseballmusings.com/?p=160622",
+          "publishedOn": "2026-06-29T11:03:07.000Z",
+          "wordCount": 7754,
+          "title": "Best Batter Today",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160620",
+          "author": "David Pinto",
+          "description": "",
+          "link": "https://www.baseballmusings.com/?p=160620",
+          "publishedOn": "2026-06-29T10:11:29.000Z",
+          "wordCount": 7477,
+          "title": "Monday Update",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160618",
           "author": "David Pinto",
@@ -1382,16 +1422,6 @@
           "wordCount": 7461,
           "title": "Saturday Update",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160510",
-          "author": "David Pinto",
-          "description": "Justin Verlander seems to admit he is done. He injured his hamstring while recovering from a hip injury, extending his time on the illjured list by weeks: The setback led to Verlander making a sad but honest admission. “I’ve always said I want to play until the wheels fall off. And I don’t know, maybe […]",
-          "link": "https://www.baseballmusings.com/?p=160510",
-          "publishedOn": "2026-06-20T01:06:29.000Z",
-          "wordCount": 7583,
-          "title": "The Wheels on Verlander",
-          "imageUrl": null
         }
       ]
     },
@@ -1497,6 +1527,22 @@
       "feedUrl": "https://www.stevevladeck.com/feed/",
       "siteUrl": "https://www.stevevladeck.com",
       "articles": [
+        {
+          "id": "https://www.stevevladeck.com/p/235-hypothetical-jurisdiction-in",
+          "author": "Steve Vladeck",
+          "description": "Justice Alito's TPS opinion offered a new theory of how courts can resolve \"interim\" appeals. Fortunately, Justices Gorsuch and Barrett refused to endorse it.",
+          "link": "https://www.stevevladeck.com/p/235-hypothetical-jurisdiction-in",
+          "publishedOn": "2026-06-29T11:04:09.000Z",
+          "wordCount": null,
+          "title": "235. Hypothetical Jurisdiction in Mullin v. Doe",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!SLrt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72478798-12e1-4e00-983b-3dd97edb371e_2048x1365.webp",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!SLrt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72478798-12e1-4e00-983b-3dd97edb371e_2048x1365.webp"
+        },
         {
           "id": "https://www.stevevladeck.com/p/decision-day-summary-june-25-2026",
           "author": "Steve Vladeck",
@@ -1918,6 +1964,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=227272",
+          "author": "Tom Ley",
+          "description": "The NBA offseason presents a pit that must be filled with trade rumors, free-agency drama, and delirium-inducing podcast segments. It takes a lot of slop to fill that pit to the brim, which is how you end up with Jaylen Brown and an ESPN dope conspiring to dust off a tiresome conversation about the place of analytics in the NBA.\nBrown very much appears to be on the trading block, which is a weird place to be for a guy who has won a Finals MVP and is coming off the best individual season of his career, but here we are. It was widely reported that the Celtics dangled Brown for Giannis Antetokounmpo before the Greek Freak was ultimately shipped off to Miami, and I guess once you dangle a guy of Brown's stature and temperament, you can't just undangle him. Type \"Jaylen Brown\" into Google or your social media platform of choice and you will be blasted by a dozen or so reports, from NBA insiders you've barely heard of, about which teams are angling to pry Brown away from the Celtics. \nOne of those insiders is, I guess, Bobby Marks of ESPN. If you don't immediately recognize his name, you might recognize his schtick: He's the guy who appears across various NBA podcasts to remind listeners what a specific player's salary number is, and assure you that nothing good will ever happen to your team because of how close it is to the second apron. I assume this is what Marks was doing when he made an appearance on the Sirius XM NBA show over the weekend, but he also got little bit out over his skis and shared that an \"analytics guy\" from an NBA team had told him that he views Brown as \"the seventh-best player on a team.\"",
+          "link": "https://defector.com/weve-got-a-whole-jaylen-brown-situation-on-our-hands",
+          "publishedOn": "2026-06-29T13:00:36.000Z",
+          "wordCount": 6206,
+          "title": "We’ve Got A Whole Jaylen Brown Situation On Our Hands",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2273398755.jpg"
+        },
         {
           "id": "https://defector.com/?p=227256",
           "author": "Dave McKenna",
@@ -2733,6 +2789,16 @@
       "siteUrl": "https://www.salon.com/writer/amanda_marcotte",
       "articles": [
         {
+          "id": "https://www.salon.com/2026/06/29/nuclear-family-month-shows-that-maga-is-still-coming-for-same-sex-marriage/-full",
+          "author": null,
+          "description": "In recent years, Republican propaganda has quietly moved away from loud condemnation of the gay community to focusing the most overt hate on trans people. Donald Trump even has a few token gay men in his closest circles, such as Treasury Secretary Scott Bessent, who has two children with his husband. Marriage equality was legalized in all 50 states by the Supreme Court 11 years ago in Obergefell v. Hodges, and it has often been tempting to assume that the GOP has largely given up on trying to restigmatize, much less ban, gay marriage.\nAfter all, the main argument Republicans had against marriage equality was that it was a threat to straight marriage. A 2015 amicus brief arguing against same-sex marriage, for instance, said that legalizing same-sex marriage would teach people that “society …",
+          "link": "https://www.salon.com/2026/06/29/nuclear-family-month-shows-that-maga-is-still-coming-for-same-sex-marriage/",
+          "publishedOn": "2026-06-29T10:45:46.000Z",
+          "wordCount": 1930,
+          "title": "“Nuclear Family Month” shows that MAGA is still coming for same-sex marriage",
+          "imageUrl": "https://www.salon.com/app/uploads/2026/06/Pride-Flag-2282035992.jpg"
+        },
+        {
           "id": "https://www.salon.com/2026/06/26/tucker-carlson-is-not-leaving-the-gop-he-wants-to-take-it-over/-full",
           "author": null,
           "description": "Tucker Carlson knows how to get attention. The former Fox News host-turned-powerhouse podcaster got explosive headlines after telling a Canadian podcast “Can’t Be Censored” last week that “there’s no chance I would support the Republican Party” in the upcoming midterms.\nMainstream news outlets portrayed this move in laudatory terms. Carlson is an opponent of the Iran war, so the coverage made it seem like he’s moderating his politics. Words like “disillusioned” were invoked, along with his criticisms of Donald Trump for ignoring the economic woes caused by the war.\nThis is a lovely fable of a longtime Republican loyalist breaking with his party because it’s grown too extreme and out-of-touch. Add a hopeful note about how this could demobilize conservative voters for the midterms, and watch…",
@@ -3413,6 +3479,16 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/a71472366/stephen-breyer-supreme-court-justice-interview-what-ive-learned/",
+          "author": null,
+          "description": "Supreme Court justice, retired; 87; Cambridge, Massachusetts.",
+          "link": "https://www.esquire.com/news-politics/a71472366/stephen-breyer-supreme-court-justice-interview-what-ive-learned/",
+          "publishedOn": "2026-06-29T13:31:48.000Z",
+          "wordCount": 59325,
+          "title": "What I’ve Learned: Stephen Breyer",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/98517bff-bd2b-4db6-b256-54009eb9cc11.jpg?crop=1xw:0.333xh;0xw,0.304xh&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a71749934/scotus-racism-temporary-protected-status-ruling/",
           "author": null,
