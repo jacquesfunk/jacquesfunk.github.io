@@ -573,6 +573,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://mbork.pl/2026-06-29_opening_pdfs_in_pdf-tools",
+          "author": null,
+          "description": "As I wrote many times, I use pdf-tools as main pdf viewer. I thought that one thing that would be nice is being able to open pdfs in it from outside Emacs. For example, texdoc could use it instead of Evince (which is pretty nice, but it’s not Emacs!).",
+          "link": "https://mbork.pl/2026-06-29_opening_pdfs_in_pdf-tools",
+          "publishedOn": "2026-06-29T19:27:57.000Z",
+          "wordCount": 208,
+          "title": "Marcin Borkowski: opening pdfs in pdf-tools",
+          "imageUrl": null
+        },
+        {
+          "id": "https://sachachua.com/blog/2026/06/2026-06-29-emacs-news/",
+          "author": null,
+          "description": "Help wanted:\n\nEmacsConf - 2026 - Call for Participation\nMonadic Sheep: Canvas patch: we need testers! (lobste.rs, emacs-devel)\n\nUpcoming events (iCal file, Org):\n\nEmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/315091677/ Thu Jul 2 1600 America/Vancouver - 1800 America/Chicago - 1900 America/Toronto - 2300 Etc/GMT – Fri Jul 3 0100 Europe/Berlin - 0430 Asia/Kolkata - 0700 Asia/Singapore\nM-x Research: TBA https://m-x-research.github.io/ Fri Jul 3 0800 America/Vancouver - 1000 America/Chicago - 1100 America/Toronto - 1500 Etc/GMT - 1700 Europe/Berlin - 2030 Asia/Kolkata - 2300 Asia/Singapore\nEmacs.si (in person): Emacs.si meetup #7 2026 (v #živo) https://dogodki.kompot.si/events/88d59360-d89a-42cc-b567-ed39ac5186fb Mon Jul 6 1900 CET\nOrgMeetup (virtual) https://orgmode.org/worg/…",
+          "link": "https://sachachua.com/blog/2026/06/2026-06-29-emacs-news/",
+          "publishedOn": "2026-06-29T17:04:18.000Z",
+          "wordCount": 909,
+          "title": "Sacha Chua: 2026-06-29 Emacs news",
+          "imageUrl": null
+        },
+        {
           "id": "https://ray-on-emacs.blogspot.com/2026/06/emacs-disabled-commands.html",
           "author": null,
           "description": "It's possible to configure Emacs to prompt the user before calling\na function, thereby \"disabling\" a function.  The function isn't\ntotally inaccessible -- Emacs will let you run it if you want it\nto.  I chose to do this with scroll-left, scroll-right,\nscroll-up-command and scroll-down-command as\nexplained in the previous post.\nMost keypresses call self-insert-command, which is itself a\nfunction.  So what would happen if self-insert-command were\ndisabled?\nIt turns out to be not as debilitating as you'd think -- only the\nalpha-numeric and punctuation keys are affected.  When a modifier\nis used with a key (M-x, for example), there is no interruption.\nLikewise, the TAB key is allowed to pass, which makes completion\neasier.\nWhen Emacs inhibits self-insert-command, it prevents the keypress\nfrom having its intended effect.  It will say that the command is\ndisabled because many users find it confusing.  Then you'll have\nthe options of:\n\n(n) Not running the command\n(y) Run the command and don't ask again\nSPC Run the command just one time to try it\n(!) Enable the command and all other disabled commands\nThe n, y, SPC and ! keys are not inhibited at this point, so the\n  user doesn't get trapped in a set of recursive prompts.\nSo to invoke org-agenda, I'd press M-x\no.  Then I'd press SPC to enable\nthe self-insert-command for \"o.\"  Then I'd press r\nfollowed by SPC, and so on.  My keypresses are M-x o r g - a g\nTAB ENTER.\nThus, adding (put 'self-insert-command 'disabled t)\nto a cube-mate's init file is a harmless prank, something to try on\nApril Fool's Day.",
@@ -901,16 +921,6 @@
           "wordCount": 1545,
           "title": "Irreal: Changes Coming In Emacs 31",
           "imageUrl": null
-        },
-        {
-          "id": "https://emacsredux.com/blog/2026/06/20/essential-structured-navigation-and-editing-commands/",
-          "author": null,
-          "description": "Most of us learn Emacs one motion at a time – C-f for a character, M-f\nfor a word, C-n for a line. Useful, but those commands don’t know anything\nabout the structure of your code. Emacs has a whole other family of commands\nthat operate on balanced expressions and definitions instead, and once they\nbecome muscle memory they’re hard to give up.\nLisp hackers know these commands intimately – they’re the foundation\nparedit builds on. What’s less appreciated is that they\nwork in plenty of other languages too. I’ve been leaning on them heavily while\nbuilding neocaml, my tree-sitter package\nfor OCaml programming, so I’ll use OCaml for the examples here. The commands themselves are\ngeneral, though, and most of what follows applies to any structure-aware major\nmode.\nSexps and defuns\nTwo terms show u…",
-          "link": "https://emacsredux.com/blog/2026/06/20/essential-structured-navigation-and-editing-commands/",
-          "publishedOn": "2026-06-20T07:00:00.000Z",
-          "wordCount": 1877,
-          "title": "Emacs Redux: Essential Structured Navigation and Editing Commands",
-          "imageUrl": "https://emacsredux.com/assets/og-image.png"
         }
       ]
     },
@@ -919,6 +929,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160628",
+          "author": "David Pinto",
+          "description": "The Rangers take on the Guardians in Cleveland with Tyler Alexander and Parker Messick on the mound. Alexander is nearly perfect as an opener. In two inning, he did not allow a hit or a walk, just one hit batsman. Messick, a traditional starter, owns a 2.67 ERA in 94 1/3 innings. He allowed just […]",
+          "link": "https://www.baseballmusings.com/?p=160628",
+          "publishedOn": "2026-06-29T18:57:21.000Z",
+          "wordCount": 7598,
+          "title": "Games of the Day",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160626",
           "author": "David Pinto",
@@ -1456,6 +1476,16 @@
       "feedUrl": "https://ballsandstrikes.org/feed",
       "siteUrl": "https://ballsandstrikes.org/",
       "articles": [
+        {
+          "id": "https://ballsandstrikes.org/?p=18469",
+          "author": "Jay Willis",
+          "description": "The dissenting opinion in Watson v. Republican National Committee reveals just how deeply election denialism is now embedded in the conservative consciousness. \n \nThe post Watson v RNC: Samuel Alito, the Supreme Court’s Leading Voter Fraud <span class=\"dewidow\">Conspiracy Theorist</span> appeared first on Balls and Strikes.",
+          "link": "https://ballsandstrikes.org/scotus/watson-v-rnc-alito-dissent-voter-fraud/",
+          "publishedOn": "2026-06-29T20:26:14.000Z",
+          "wordCount": 2296,
+          "title": "Watson v RNC: Samuel Alito, the Supreme Court’s Leading Voter Fraud Conspiracy Theorist",
+          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2021/12/GettyImages-1134321073-scaled.jpg"
+        },
         {
           "id": "https://ballsandstrikes.org/?p=18453",
           "author": "Quinn Yeargain",
@@ -2006,6 +2036,36 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=227340",
+          "author": "Diana Moskovitz",
+          "description": "Bail for NFL cornerback Terrion Arnold, who has been charged with four counts of kidnapping and four counts of armed robbery, was set Monday at $1 million. Just a few hours after the hearing ended, the Detroit Lions cut Arnold, a former first-round pick who was set to enter his third season in the league. \nAt the court hearing, prosecutors in Hillsborough County, Fla., had asked a judge to hold Arnold in jail without bail, but chief judge Christopher C. Sabella denied their request. Sabella also said Arnold could not contact his codefendants, had to surrender his passport, and Arnold must stay at home unless he is leaving for legal appointments or work.\nSabella rejected a request from prosecutors to have Arnold wear an ankle monitor, saying, per USA Today, \"I suspect that Mr. Arnold has a paparazzi monitor. If he's late for practice, ESPN will let us know.\"",
+          "link": "https://defector.com/lions-cut-terrion-arnold-after-judge-sets-bail-in-criminal-case-at-1-million",
+          "publishedOn": "2026-06-29T20:57:43.000Z",
+          "wordCount": 6627,
+          "title": "Lions Cut Terrion Arnold After Judge Sets Bail In Criminal Case At $1 Million",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2179893578-smaller-e1782748180471.jpeg"
+        },
+        {
+          "id": "https://defector.com/?p=227401",
+          "author": "Ray Ratto",
+          "description": "Don't panic: We're about to discuss Draymond Green, but not because of his taste for provocation or his general Draymond-hood. It's just a little item ahead of NBA free agency opening Tuesday afternoon, which means there may be less here than meets the eye, but just enough to meet the funny bone.\nGreen will reportedly decline his $27 million player option for 2027, days after Golden State Warriors general manager Mike Dunleavy Jr. said the team was optimistic that he would return. OK, that's a little odd, but nothing to endanger your delicates over. It's the only thing we really know.\nBut Green's decision offers the tantalizing notion that he might even consider leaving the only NBA team he's ever known, even though the more likely outcome is that he's taking a pay cut to bring in some new old blood. The Athletic suspects Green might re-up in Golden State anyway, while ESPN suggests it might be part of a byzantine plan for the Warriors to sign LeBron James to the $15.1 million midlevel exception, and somehow find a way to relitigate the 2016 NBA Finals all within one team.",
+          "link": "https://defector.com/its-time-to-daydream-about-lebron-on-the-warriors",
+          "publishedOn": "2026-06-29T19:28:25.000Z",
+          "wordCount": 5341,
+          "title": "It’s Time To Daydream About LeBron On The Warriors",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2260468032.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=227342",
+          "author": "Alex Sujong Laughlin",
+          "description": "Last week, my husband and I hosted a group of friends and acquaintances to celebrate our one-year anniversary of living in Lancaster, Pennsylvania. We marked the occasion by eating snacks and talking about our respective art practices. At one point, the group went around and said how they knew us, and I watched with amusement as most people told versions of the same story: me walking up to them at work, at the coffee shop, at the farmer's market, and introducing myself.\nI do not think of myself as a particularly social person. I am in bed with a book most nights by 8:00 p.m., and one of the ways my clinical anxiety manifests itself is through being afraid of new people. Maybe my saving grace is the fact that I was forced to move across the country every 2-3 years growing up with my military family. Against the odds, I've turned into a person who is able to establish roots in new places with relative ease.\nBut even with a lifetime of practice, the prospect of Making Friends As An Adult often feels daunting. Do you know how many times I have cried in the last three years over shallow roots, loneliness, and a lack of community? More than five, for sure! Many adults lack the social infrastructure that places them alongside potential friends by default—things like church or Elks Lodge or whatever. Add in working remotely, and it can be very easy to go several days without speaking to another person. How are you supposed to find your people?",
+          "link": "https://defector.com/there-is-no-simple-trick-to-making-friends-as-an-adult",
+          "publishedOn": "2026-06-29T18:31:43.000Z",
+          "wordCount": 4999,
+          "title": "There Is No Simple Trick To Making Friends As An Adult",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2158015152_d7d208.jpg"
+        },
         {
           "id": "https://defector.com/?p=226039",
           "author": "Patrick Redford",
@@ -3611,6 +3671,16 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a71773792/trump-federal-trade-commission-firing-slaughter-supreme-court/",
+          "author": null,
+          "description": "The Supreme Court just loves giving our loony overlord whatever he wants. Or so it seems.",
+          "link": "https://www.esquire.com/news-politics/politics/a71773792/trump-federal-trade-commission-firing-slaughter-supreme-court/",
+          "publishedOn": "2026-06-29T19:39:10.000Z",
+          "wordCount": 60047,
+          "title": "The President Is Dangerously Close to Gaining an Executive Power Not Seen in Almost 100 Years",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/bcba5731-0b1c-4e37-b6ca-e15e66ba329f.jpeg?crop=1xw:0.749633967789xh;center,top&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a71770074/supreme-court-police-force-trump/",
           "author": null,
