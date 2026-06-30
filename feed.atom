@@ -2,10 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-06-30T21:27:36.700Z</updated>
+    <updated>2026-06-30T23:11:22.953Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[NRSC v FEC: The Conservative Justices Keep Selling Democracy To Highest Bidder]]></title>
+        <id>https://ballsandstrikes.org/?p=18493</id>
+        <link href="https://ballsandstrikes.org/scotus/nrsc-v-fec-opinion-recap-highest-bidder/"/>
+        <updated>2026-06-30T23:02:31.000Z</updated>
+        <summary type="html"><![CDATA[No free speech rights are quite as important to Brett Kavanaugh as those of political parties and the billionaires who fund them.
+The post NRSC v FEC: The Conservative Justices Keep Selling Democracy To <span class="dewidow">Highest Bidder</span> appeared first on Balls and Strikes.]]></summary>
+        <author>
+            <name>Madiba K. Dennie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Decision Day Summary: June 30, 2026]]></title>
+        <id>https://www.stevevladeck.com/p/decision-day-summary-june-30-2026</id>
+        <link href="https://www.stevevladeck.com/p/decision-day-summary-june-30-2026"/>
+        <updated>2026-06-30T22:21:00.000Z</updated>
+        <summary type="html"><![CDATA[Our latest video bonus for paid subscribers walks through the three rulings in four argued cases that the Supreme Court handed down on Tuesday, June 30, 2026.]]></summary>
+        <author>
+            <name>Steve Vladeck</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Supreme Court's conservatives OK trans sports bans]]></title>
+        <id>https://www.lawdork.com/p/scotus-trans-sports-bans</id>
+        <link href="https://www.lawdork.com/p/scotus-trans-sports-bans"/>
+        <updated>2026-06-30T22:06:22.000Z</updated>
+        <summary type="html"><![CDATA[Kavanaugh wrote the court's opinion, but Sotomayor dissented to explain for the liberal trio what the court got wrong about equal protection law.]]></summary>
+        <author>
+            <name>Chris Geidner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why the birthright citizenship fight isn’t over yet]]></title>
+        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/jjsvgxet26uv4z8dslwz.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/jjsvgxet26uv4z8dslwz.html"/>
+        <updated>2026-06-30T22:03:34.215Z</updated>
+        <summary type="html"><![CDATA[Why the birthright citizenship fight isn’t over yet
+    
+    
+    
+    
+    
+
+
+
+
+
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+
+
+    
+  
+    
+      
+      96
+    
+    
+…]]></summary>
+        <author>
+            <name>Current Events</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I’m Thoroughly Baffled that Members of the Supreme Court Want to Gut Birthright Citizenship]]></title>
         <id>http://www.esquire.com/news-politics/politics/a71786887/scotus-birthright-citizenship-decision/</id>
@@ -14,6 +76,28 @@
         <summary type="html"><![CDATA[A recent decision deemed the 14th Amendment safe for now, but with three dissenting nitwits still on the bench, we can never be too sure.]]></summary>
         <author>
             <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: Create Date Books, Planners and Calendars with Emacs]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/06/create-date-books-planners-and.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/06/create-date-books-planners-and.html"/>
+        <updated>2026-06-30T21:05:58.956Z</updated>
+        <summary type="html"><![CDATA[Diary was my pick for this month's Emacs Carnival.  But in fact it's
+  part of a larger set of functions under the calendar group.  Another
+  set of functions allows you to create pocket date books, desk planners and wall
+  calendars if you have access to a printer.  The function names begin
+  with cal-tex-cursor and cal-html-cursor, and they can be found in
+  cal-tex.el and cal-html.el, respectively.
+The "tex" and "html" in the function names describe the output
+  formats, LaTeX and, well, HTML; "cursor" describes one way of
+  defining their inputs (from the position of the cursor in the
+  calendar buffer).  They're further subdivided into layouts such as
+  day, week, month and year.  My favorite is
+  cal-tex-cursor-week-iso.
+Open the calendar (M-x calendar).  Observe that the cursor is a…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -5840,15 +5924,6 @@ But the Blue Sharks and Blue Wave (serendipity is where you find it) have easily
         <link href="https://www.baseballmusings.com/?p=160528"/>
         <updated>2026-06-21T12:07:15.000Z</updated>
         <summary type="html"><![CDATA[Kyle Schwarber of the Phillies posted the highest game score of the day and of the season as he went four for five with three home runs in a 15-3 win over the Mets. His game score of 95 is the third game score of at least 90 this month and the sixth of the […]]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sunday Update]]></title>
-        <id>https://www.baseballmusings.com/?p=160526</id>
-        <link href="https://www.baseballmusings.com/?p=160526"/>
-        <updated>2026-06-21T10:37:32.000Z</updated>
         <author>
             <name>David Pinto</name>
         </author>
