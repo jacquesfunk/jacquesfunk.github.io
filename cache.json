@@ -875,26 +875,6 @@
           "wordCount": 1472,
           "title": "Irreal: Let Emacs Teach You Emacs",
           "imageUrl": null
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-06-21-emacs-ef-themes-2-2-0/",
-          "author": null,
-          "description": "The ef-themes are a collection of light and dark themes for GNU\nEmacs that provide colourful (“pretty”) yet legible options for users\nwho want something with a bit more flair than the modus-themes (also\ndesigned by me).\nPackage name (GNU ELPA): ef-themes\nOfficial manual: https://protesilaos.com/emacs/ef-themes\nChange log: https://protesilaos.com/emacs/ef-themes-changelog\nSample pictures: https://protesilaos.com/emacs/ef-themes-pictures\nGit repositories:\n    \nGitHub: https://github.com/protesilaos/ef-themes\nGitLab: https://gitlab.com/protesilaos/ef-themes\nBackronym: Eclectic Fashion in Themes Hides Exaggerated Markings,\nEmbellishments, and Sparkles.\nBelow are the release notes.\nVersion 2.2.0 on 2026-06-21\nThis version contains two new themes and several stylistic refinements\nto existing items in the collection.\nEnjoy ef-arcadia and ef-atlantis themes\nef-arcadia is a light theme with a green, humid feel. ef-atlantis\nis a dark theme with aquatic colours.\nImproved style for company and corfu popups\nI have revised the colour that each theme applies to the popup\nbackground. It should now be more consistent with all other elements\non display.\nThanks to aikrahguzar for suggesting a review in issue 70:\nhttps://github.com/protesilaos/ef-themes/issues/70.\nThe current line highlight for completions is easier to spot\nThis is the background of the selected candidate in the minibuffer\nwhile using the vertico package (among other similar interfaces).\nThe colours I am now using are more consistent with their context and\nalso work better as part of a popup completion interface, as noted\nabove.\nPalette refinements for several themes\nI have made subtle changes to a few colour values. These are fine\ndetails. The overarching goal is to be consistent throughout.",
-          "link": "https://protesilaos.com/codelog/2026-06-21-emacs-ef-themes-2-2-0/",
-          "publishedOn": "2026-06-21T00:00:00.000Z",
-          "wordCount": 346,
-          "title": "Protesilaos: Emacs: ef-themes version 2.2.0",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-06-21-emacs-modus-themes-5-3-0/",
-          "author": null,
-          "description": "I just published the latest stable release of the Modus\nthemes. The change log\nentry is reproduced further below. For any questions, you are welcome\nto contact me. I will now work to\napply these same changes to emacs.git, so please wait a little longer\nfor the updates to trickle down to you.\nPackage name (GNU ELPA): modus-themes (also built into Emacs 28+)\nOfficial manual: https://protesilaos.com/emacs/modus-themes\nChange log: https://protesilaos.com/emacs/modus-themes-changelog\nColour palette: https://protesilaos.com/emacs/modus-themes-colors\nSample pictures: https://protesilaos.com/emacs/modus-themes-pictures\nGit repositories:\n    \nGitHub: https://github.com/protesilaos/modus-themes\nGitLab: https://gitlab.com/protesilaos/modus-themes\nBackronym: My Old Display Unexpectedly Sharpened … the…",
-          "link": "https://protesilaos.com/codelog/2026-06-21-emacs-modus-themes-5-3-0/",
-          "publishedOn": "2026-06-21T00:00:00.000Z",
-          "wordCount": 1114,
-          "title": "Protesilaos: Emacs: modus-themes version 5.3.0",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         }
       ]
     },
@@ -903,6 +883,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160634",
+          "author": "David Pinto",
+          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.370, 0.759 — Otto Lopez batting at Tanner Gordon. 0.339, 0.733 — Xavier Edwards batting at Tanner Gordon. 0.320, 0.710 — Michael Harris II batting vs. Matthew Liberatore. 0.317, 0.699 — Javier Sanoja batting at Tanner Gordon. 0.317, 0.737 — Luis Arraez batting […]",
+          "link": "https://www.baseballmusings.com/?p=160634",
+          "publishedOn": "2026-06-30T11:29:58.000Z",
+          "wordCount": 8027,
+          "title": "Beat the Streak Picks",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160632",
           "author": "David Pinto",
@@ -1538,6 +1528,22 @@
       "siteUrl": "https://www.stevevladeck.com",
       "articles": [
         {
+          "id": "https://www.stevevladeck.com/p/236-three-thoughts-heading-into-the",
+          "author": "Steve Vladeck",
+          "description": "A quick post reflecting on (some of) the news the Supreme Court made on Monday and (some of) the news we expect from the justices later today.",
+          "link": "https://www.stevevladeck.com/p/236-three-thoughts-heading-into-the",
+          "publishedOn": "2026-06-30T11:03:07.000Z",
+          "wordCount": null,
+          "title": "236. Three Thoughts Heading into the Last Decision Day of the Term",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/4a200267-1a37-4023-a76c-6a50c6f7ce32_4800x3200.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/4a200267-1a37-4023-a76c-6a50c6f7ce32_4800x3200.jpeg"
+        },
+        {
           "id": "https://www.stevevladeck.com/p/decision-day-summary-june-29-2026",
           "author": "Steve Vladeck",
           "description": "Our latest video bonus for paid subscribers walks through the four rulings in argued cases that the Supreme Court handed down on Monday, June 29, 2026.",
@@ -1759,6 +1765,22 @@
       "feedUrl": "https://www.hopiumchronicles.com/feed",
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
+        {
+          "id": "https://www.hopiumchronicles.com/p/its-the-end-of-the-quarter-lets-rally",
+          "author": "Simon Rosenberg",
+          "description": "It is a year of opportunity for Democrats but only if we seize it, together!!!!!!!!!!!!",
+          "link": "https://www.hopiumchronicles.com/p/its-the-end-of-the-quarter-lets-rally",
+          "publishedOn": "2026-06-30T13:40:34.000Z",
+          "wordCount": null,
+          "title": "It's The End Of The Quarter - Let's Rally For Our Courageous Candidates Across The Country!",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/57eaa3b5-ba31-4fa2-92d3-e9077acd0d3b_1093x586.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/57eaa3b5-ba31-4fa2-92d3-e9077acd0d3b_1093x586.png"
+        },
         {
           "id": "https://www.hopiumchronicles.com/p/a-conversation-with-heather-cox-richardson",
           "author": "Simon Rosenberg",
@@ -2022,6 +2044,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=227441",
+          "author": "Tom Ley",
+          "description": "A recent New York Times story about former NFL insider Dianna Russini resurfaced an anecdote that Russini had previously shared on a podcast earlier this year. The story went like this: Russini was pulled over for texting and driving, and attempted to talk her way out of the ticket by telling the cop that she had only been texting because she was trying to break the news that Sean McDermott had just been fired by the Buffalo Bills. When that didn't work, she asked the officer who his favorite team was, and then FaceTimed the coach of that team. From the Times:\n“I FaceTime the head coach,” she said, without naming him. “Head coach is in his office. He said, ‘What’s up?’ I go, ‘I just got pulled over and I just wanted you to meet my friend, Officer Joe.’”\nThe coach helped her get out of the ticket by telling the officer, “You should let her go, she’s a good citizen,” Ms. Russini said. \nAs it turns out, that's not what happened. Adam Herbets of The Center Square obtained the bodycam footage from the traffic stop in question, and it shows that Russini was embellishing quite a bit while relaying this story to her podcast pals.",
+          "link": "https://defector.com/one-of-dianna-russinis-funny-little-stories-was-a-big-fat-fib",
+          "publishedOn": "2026-06-30T13:55:59.000Z",
+          "wordCount": 4599,
+          "title": "One Of Dianna Russini’s Funny Little Stories Was A Big Fat Fib",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-1035794412.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=227429",
+          "author": "Luis Paez-Pumar",
+          "description": "For the first time in history, Germany has lost a penalty shootout at the World Cup. A highly anticipated potential round of 16 matchup between Germany and France has been put on ice, and instead it is Paraguay that advanced on Monday, after a 1-1 draw turned into a 4-3 shootout victory for the South Americans. Paraguay followed the underdog script to perfection, scoring first and then frustrating, blocking, and clattering into the Germans around every corner, spoiling a dream matchup for the neutrals in favor of a dream outcome in itself.\n\nhttps://www.youtube.com/watch?v=zGZGTRKNxvs\n\n\nEntering Monday's game, Germany held the advantage in almost every part of the field. FIFA's 12th-ranked side had better, more skilled attackers, a hard-working midfield, and an untested yet talented backline. (If there was one place on the field where Paraguay could have contested, it was at goalie, which did play a big role by the end.) But there is of course a reason why they play the games, and these countries engaged in riveting gladiatorial combat, in which the general rhythm was the same for 90 minutes of regulation. Germany would hold the ball for a long time, its vaunted attackers would get around, but not into, the Paraguayan box, and time and time again, the Paraguayan defense would stifle them. It was mesmerizing to watch, the way that this Paraguay team, so heralded for its rugged defending prior to the 4-1 loss to the United States in the opening match, lived up to its reputation by giving Germany hell when it came time for the favorites to try to score.",
+          "link": "https://defector.com/mr-nagelsmann-tear-down-this-meat-wall",
+          "publishedOn": "2026-06-30T13:17:40.000Z",
+          "wordCount": 8870,
+          "title": "Mr. Nagelsmann, Tear Down This Meat Wall!",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2283928212.jpg"
+        },
         {
           "id": "https://defector.com/?p=227340",
           "author": "Diana Moskovitz",
@@ -2670,6 +2712,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/tbleucrlvwoo5w5q9ud3.html",
+          "author": null,
+          "description": "96\n        Down and out\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    line-height: 100%;\n  }\n\n  .apple-link a {\n    co…",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/tbleucrlvwoo5w5q9ud3.html",
+          "publishedOn": "2026-06-30T12:56:06.471Z",
+          "wordCount": 2899,
+          "title": "Down and out",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/nwmas98hznrnyxne9hdd.html",
           "author": null,
           "description": "I Am So Thirsty For This Paige Bueckers-Olivia Miles Rivalry96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-decoration: inherit !import…",
@@ -2848,16 +2900,6 @@
           "wordCount": 2668,
           "title": "Weekly Scorecard: Jun. 13 - 19, 2026",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/x0fhq59eodv0h7fbuifp.html",
-          "author": null,
-          "description": "It's a winning streak!\n@media (max-width: 1024px) {\n  .typography .pullquote-align-left,\n  .typography.editor .pullquote-align-left,\n  .typography .pullquote-align-right,\n  .typography.editor .pullquote-align-right,\n  .typography .pullquote-align-wide,\n  .typography.editor .pullquote-align-wide,\n  .typography .pullquote-align-center,\n  .typography.editor .pullquote-align-center {\n    float: none;\n    margin: 0 auto;\n    width: 100%;\n    max-width: 100%;\n  }\n}\n@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {\n  .typography .markup table.image-wrapper img,\n  .typography.editor .markup table.image-wrapper img,\n  .typography .markup table.kindle-wrapper img,\n  .typography.editor .markup table.kindle-wrapper img {\n    max-width: 550px;\n  }\n}\n@media (min-width: 1024px) {\n  …",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/x0fhq59eodv0h7fbuifp.html",
-          "publishedOn": "2026-06-21T00:06:31.063Z",
-          "wordCount": 3768,
-          "title": "It's a winning streak!",
-          "imageUrl": null
         }
       ]
     },
@@ -2892,16 +2934,6 @@
           "wordCount": 3235,
           "title": "The Real Stories Behind Jim Carroll’s “People Who Died”",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=2808",
-          "author": "Schill",
-          "description": "Concerts are often memorable because of the songs, the atmosphere, and the connection between artist and audience. Olivia Rodrigo concerts offer all of those things, but they also come with something extra: the possibility that a legendary musician might suddenly walk onto the stage. Since becoming one of the biggest stars in music, Rodrigo has...",
-          "link": "https://stuffthatinterestsme.net/olivia-rodrigo-might-have-the-greatest-guest-list-in-modern-music/",
-          "publishedOn": "2026-06-21T00:55:02.000Z",
-          "wordCount": 1679,
-          "title": "Olivia Rodrigo Might Have the Greatest Guest List in Modern Music",
-          "imageUrl": null
         }
       ]
     },
@@ -2909,7 +2941,18 @@
       "title": "Time Is Illmatic",
       "feedUrl": "https://timeisillmatic.me/feed/",
       "siteUrl": "https://timeisillmatic.me",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://timeisillmatic.me/?p=13188",
+          "author": "deedub77",
+          "description": "Before hearing him rhyme on CRU’s “Bluntz & Bakakeemis,” I had never heard of Tracey Lee. But I like what I heard during the cameo, so a few months ago, when I came across a used copy of his debut … Continue reading →",
+          "link": "https://timeisillmatic.me/2026/06/30/tracey-lee-many-facez/",
+          "publishedOn": "2026-06-30T11:00:28.000Z",
+          "wordCount": 5808,
+          "title": "Tracey Lee – Many Facez",
+          "imageUrl": "https://timeisillmatic.me/wp-content/uploads/2026/06/41ytnqq7kfl._uf10001000_ql80_.jpg"
+        }
+      ]
     },
     {
       "title": "Amanda Marcotte - Salon.com",
