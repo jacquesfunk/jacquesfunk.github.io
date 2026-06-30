@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-06-29T22:55:47.346Z</updated>
+    <updated>2026-06-30T03:32:40.536Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Decision Day Summary: June 29, 2026]]></title>
+        <id>https://www.stevevladeck.com/p/decision-day-summary-june-29-2026</id>
+        <link href="https://www.stevevladeck.com/p/decision-day-summary-june-29-2026"/>
+        <updated>2026-06-30T02:19:15.000Z</updated>
+        <summary type="html"><![CDATA[Our latest video bonus for paid subscribers walks through the four rulings in argued cases that the Supreme Court handed down on Monday, June 29, 2026.]]></summary>
+        <author>
+            <name>Steve Vladeck</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Org Mode requests: [RFC] ob-core: org-babel-call -- a documented way to call a block from Lisp]]></title>
+        <id>https://list.orgmode.org/178278315680.690764.12616208662188412656@gmx.de</id>
+        <link href="https://list.orgmode.org/178278315680.690764.12616208662188412656@gmx.de"/>
+        <updated>2026-06-30T01:32:36.000Z</updated>
+        <summary type="html"><![CDATA[[request] flags:--- replies:0 topic:ob-core]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[John Roberts's 5-4 opinion saving the Fed should have saved all independent agencies]]></title>
+        <id>https://www.lawdork.com/p/john-robertss-5-4-opinion-saving</id>
+        <link href="https://www.lawdork.com/p/john-robertss-5-4-opinion-saving"/>
+        <updated>2026-06-29T23:53:06.000Z</updated>
+        <summary type="html"><![CDATA[In his 6-3 opinion over the Federal Trade Commission, however, Roberts ended the independence of the FTC and other agencies, sowing "chaos" across the federal government.]]></summary>
+        <author>
+            <name>Chris Geidner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trump v Slaughter: Supreme Court Rules Trump Can Fire Any Agency Head Who Doesn’t Make John Roberts Wealthier]]></title>
+        <id>https://ballsandstrikes.org/?p=18471</id>
+        <link href="https://ballsandstrikes.org/scotus/trump-v-cook-supreme-court-opinion/"/>
+        <updated>2026-06-29T23:37:43.000Z</updated>
+        <summary type="html"><![CDATA[The upshot of Slaughter and Cook is that it is very important for presidents to be able to fire agency heads at will, unless that agency is very important to John Roberts.
+The post Trump v Slaughter: Supreme Court Rules Trump Can Fire Any Agency Head Who Doesn’t Make John <span class="dewidow">Roberts Wealthier</span> appeared first on Balls and Strikes.]]></summary>
+        <author>
+            <name>Madiba K. Dennie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Steven Spielberg's new film is his best in decades]]></title>
         <id>https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php-full</id>
@@ -5389,72 +5430,6 @@ For the better part of a decade now, as the largest and most promising cohort of
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Games of the Day]]></title>
-        <id>https://www.baseballmusings.com/?p=160521</id>
-        <link href="https://www.baseballmusings.com/?p=160521"/>
-        <updated>2026-06-20T14:58:03.000Z</updated>
-        <summary type="html"><![CDATA[The Brewers and Braves present another great pitching matchup as Kyle Harrison faces Chris Sale. Harrison took his walks and strikeouts to the next level this season, adding over 1.5 K per 9 IP versus his career average and bring his BB per 9 down about .5 per 9 IP. Only Tarik Skubal and Paul […]]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The US Men's Soccer Team Wins, Inspires, And Brings Our Embattled Nation Together]]></title>
-        <id>https://www.hopiumchronicles.com/p/the-us-mens-soccer-team-inspires</id>
-        <link href="https://www.hopiumchronicles.com/p/the-us-mens-soccer-team-inspires"/>
-        <updated>2026-06-20T14:55:59.000Z</updated>
-        <summary type="html"><![CDATA["Football is life"]]></summary>
-        <author>
-            <name>Simon Rosenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Changes Coming In Emacs 31]]></title>
-        <id>https://irreal.org/blog/?p=13889</id>
-        <link href="https://irreal.org/blog/?p=13889"/>
-        <updated>2026-06-20T14:24:26.000Z</updated>
-        <summary type="html"><![CDATA[on what’s coming in Emacs 31. Juliato doesn’t mind living on the edge and has been tracking and using Emacs from the Master and emacs-31 branches. He says he likes to know “what’s in the box” and the way to learn what’s coming is to is to live in it. That’s a little too exciting for me and perhaps for you but Juliato’s post gives us a view of what to expect.
-
-
-The list is a long one and his post reflects that. It’s a lengthy post but it does a good job of describing what to expect. The thing he’s happiest about is that with this release tree-sitter “just works”. Now installing new grammars is pretty much automatic and there are grammars for more languages.
-
-
-For those of you who have to—or for some reason, choose to—use Markdown instead of Org mode, the new markdown-ts-mode will be a welcome addition. The new mode has an Org mode feel so Org users will feel comfortable using it.
-
-
-For those of you who like the completion system making your mind up for you, there are many enhancements to eager completion. That definitely not something I would want; I hate having the system change what I’m typing without my asking for it.
-
-
-There are several other changes. Check out Juliato’s post for the details. It looks to be a nice release with plenty of improvements. People like Juliato help the development process by thoroughly testing new features for bugs and for suggested improvements.
-
-
-The minions are insisting that I let you know that you can and should view Juliato’s post in light mode by flipping the switch at the top of the page. Sorry for the boring announcement but none of us wants to deal with disgruntled minions.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Triples Record]]></title>
-        <id>https://www.baseballmusings.com/?p=160519</id>
-        <link href="https://www.baseballmusings.com/?p=160519"/>
-        <updated>2026-06-20T14:09:53.000Z</updated>
-        <summary type="html"><![CDATA[In his fifth season in the majors, Corbin Carroll tied the Diamondbacks franchise record for triples with 52. (Story.) He reached that mark in about 850 fewer plate appearances than Stephen Drew. Carroll plays 2026 at seasonal age 25, the first season of his prime years. He might easily post another 60 triples by the […]]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5-Nugget Saturday, June 20, 2026]]></title>
-        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/gckkg691zqep76jj0bn5.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/gckkg691zqep76jj0bn5.html"/>
-        <updated>2026-06-20T14:05:53.979Z</updated>
-        <summary type="html"><![CDATA[body,a{word-break:break-word;}.feed__title a{text-decoration:underline;}img[data-emoji]{height:1.2em;width:1.2em;vertical-align:middle;}table{border-collapse:collapse;}.headline h1,.paragraph h1,.text-element h1{line-height:1.5;margin:0.5em 0;}.headline h2,.paragraph h2,.text-element h2{line-height:1.5;margin:0.5em 0;}.headline h3,.paragraph h3,.text-element h3{line-height:1.5;margin:0.5em 0;}.headline h4,.paragraph h4,.text-element h4{font-size:20px;line-height:1.5;margin:0.5em
-0;}.headline h5,.paragraph h5,.text-element h5{font-size:18px;line-height:1.5;margin:0.5em 0;}.headline h6,.paragraph h6,.text-element h6{font-size:16px;line-height:1.5;margin:0.5em 0;}.headline p,.paragraph p,.text-element p{line-height:1.5;margin:0;}.headline div,.paragraph div,.text-element div{line-height:1.5;m…]]></summary>
-        <author>
-            <name>Misc Newsletters</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA['The Mandalorian and Grogu' is the only good thing in this worldRex Huppke]]></title>
         <id>https://www.usatoday.com/story/opinion/columnist/2026/05/21/star-wars-mandalorian-grogu-sheep-detectives-escapism/90178753007/-full</id>
         <link href="https://www.usatoday.com/story/opinion/columnist/2026/05/21/star-wars-mandalorian-grogu-sheep-detectives-escapism/90178753007/"/>
@@ -5477,122 +5452,6 @@ While Trump’s narcissism has never been hidden, it has become more glaring in 
 He cares deeply about hosting a raucous UFC fight on the White House lawn on his upcoming birthday. He cares deeply, in vivid dreams of gold and chandeliers, about one day having the grandest ballroom in the land. He cares about making America’s 250th anniversary celebration in the nation’s capital a big, gaudy…]]></summary>
         <author>
             <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Eight Wins: Great For Us, Horrible News For Donald Trump]]></title>
-        <id>https://www.dworkinsubstack.com/p/eight-wins-great-for-us-horrible</id>
-        <link href="https://www.dworkinsubstack.com/p/eight-wins-great-for-us-horrible"/>
-        <updated>2026-06-20T13:18:21.000Z</updated>
-        <summary type="html"><![CDATA[Real people. Real fights. Real victories.]]></summary>
-        <author>
-            <name>Scott Dworkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The World Cup is here—bigger, louder, and more expensive than ever]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/vw56t17toff9i25jh4y7.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/vw56t17toff9i25jh4y7.html"/>
-        <updated>2026-06-20T12:16:15.406Z</updated>
-        <summary type="html"><![CDATA[96
-            
-        
-        
-        
-        
-        
-        The World Cup is here—bigger, louder, and more expensive than ever
-
-    
-		p{
-			margin:10px 0;
-			padding:0;
-		}
-		table{
-			border-collapse:collapse;
-		}
-		h1,h2,h3,h4,h5,h6{
-			display:block;
-			margin:0;
-			padding:0;
-		}
-		img,a img{
-			border:0;
-			height:auto;
-			outline:none;
-			text-decoration:none;
-		}
-		body,#bodyTable,#bodyCell{
-			height:100%;
-			margin:0;
-			padding:0;
-			width:100%;
-		}
-		.mcnPreviewText{
-			display:none !important;
-		}
-		#outlook a{
-			padding:0;
-		}
-		img{
-			-ms-interpolation-mode:bicubic;
-		}
-		table{
-			mso-table-lspace:0pt;
-			mso-table-rspace:0pt;
-		}
-		.ReadMsgBody{
-			width:100%;
-		}
-		.ExternalClass{
-			width:100%;
-		}
-		p,a,li,td,blockquote{
-			mso-line-height-rule:exactly;
-		}
-	…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The MAGA Merch Guide to Celebrating Dad]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/zpyj6fd0hpyt16f1o8k7.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/zpyj6fd0hpyt16f1o8k7.html"/>
-        <updated>2026-06-20T12:02:51.186Z</updated>
-        <summary type="html"><![CDATA[The MAGA Merch Guide to Celebrating Dad#outlook a { padding:0; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0 !important; } .nl2go_preheader { display: none !important; mso-hide:all !important; mso-line-height-rule: exactly; visibility: hidden !important; line-height: 0px !important; font-size: 0px !important; } body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; } a img { border:none; } table { border-collapse…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beat the Streak Picks]]></title>
-        <id>https://www.baseballmusings.com/?p=160517</id>
-        <link href="https://www.baseballmusings.com/?p=160517"/>
-        <updated>2026-06-20T11:22:40.000Z</updated>
-        <summary type="html"><![CDATA[The Log5 Method yields these top projected hit averages versus starting pitchers: 0.303, 0.709 — Ernie Clement batting at Colin Rea. 0.302, 0.720 — Jake Mangum batting at Tomoyuki Sugano. 0.302, 0.713 — Yandy Diaz batting vs. Cade Cavalli. 0.298, 0.704 — Nick Gonzales batting at Tomoyuki Sugano. 0.289, 0.677 — Byron Buxton batting at […]]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump administration’s search for noncitizen voter fraud is driving its election agenda]]></title>
-        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/0jh1ngiicnqirlvxnwz7.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/0jh1ngiicnqirlvxnwz7.html"/>
-        <updated>2026-06-20T11:01:24.161Z</updated>
-        <summary type="html"><![CDATA[Trump administration’s search for noncitizen voter fraud is driving its election agenda96
-  :root { color-scheme: light; supported-color-schemes: light; }
-  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }
-  .body { word-wrap: normal; word-spacing:normal; }
-  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }
-  img { border: 0; outline: none; }
-  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }
-  td, a, span {  mso-line-height-rule: exactly; }
-  #root [x-apple-data-detectors=true],
-  a[x-apple-data-detectors=true],
-  #MessageViewBody a { color: inherit !important; text-…]]></summary>
-        <author>
-            <name>Misc Newsletters</name>
         </author>
     </entry>
 </feed>
