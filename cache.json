@@ -537,6 +537,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://emacs.dyerdwelling.family/emacs/20260515110240-emacs--that-moment-dired-eats-your-file-and-why-trash-saves-you/",
+          "author": null,
+          "description": "diff-minimap package, deep in the weeds of fringe indicators and search highlights, and I did the thing.  You know the thing.  I was in Dired, accidentally, for some reason hit D to delete a filename (probably some malfunctioning muscle memory) and it was gone!\n\n\n\n\n\n\n\n\n\nExcept it was my own source file.  diff-minimap.el.  The one I had been hacking on for the last hour.  The one with all those uncommitted changes.\n\n\n\nNow, in my head, I have a trash setup.  I am sure I configured that somewhere, probably years ago, in some init file on some machine.  But the machine I was sitting at?  Nope.  Emacs just did a straight delete, no safety net, no way back.\n\n\n\nThe file was tracked in git, so I could git checkout HEAD -- diff-minimap.el to get the committed version back.  But the uncommitted work - the inline diff preview, the vc-diff positioning, the side-window hunk viewer - that was gone.\n\n\n\nEmacs has a built-in variable, delete-by-moving-to-trash.  When it is set to t, Dired (and other delete operations) move files to the system trash instead of permanently deleting them.  On Linux that is ~/.local/share/Trash/files/, on macOS it is ~/.Trash/, on Windows it is the Recycle Bin.\n\n\n\nIt is one of those settings that seems obvious in hindsight but is easy to overlook because Emacs defaults it to nil.  The reasoning is probably that Emacs is a serious tool for serious people who know what they are doing, so deleting means deleting?!\n\n\n\nSo I added it to my config:\n\n\n\n(setq delete-by-moving-to-trash t)\n\n\nD in Dired moves to trash instead of deleting permanently and I will not have that sinking feeling again!\n\n\n\nAnyway, back to diff-minimap.",
+          "link": "https://emacs.dyerdwelling.family/emacs/20260515110240-emacs--that-moment-dired-eats-your-file-and-why-trash-saves-you/",
+          "publishedOn": "2026-06-30T09:17:00.000Z",
+          "wordCount": null,
+          "title": "James Dyer: That Moment Dired Eats Your File and why Trash Saves You",
+          "imageUrl": null
+        },
+        {
           "id": "https://list.orgmode.org/178278315680.690764.12616208662188412656@gmx.de",
           "author": null,
           "description": "[request] flags:--- replies:0 topic:ob-core",
@@ -893,6 +903,26 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160632",
+          "author": "David Pinto",
+          "description": "The Rays enjoyed a day off, leaving Junior Caminero and Yandy Diaz 1-2 in the Baseball Musings Batter Rankings. Shohei Ohtani of the Dodgers moved into third place with a two for five, including a home run, in a 9-4 win over the Athletics. Pete Crow-Armstrong returned to the top five with a two for […]",
+          "link": "https://www.baseballmusings.com/?p=160632",
+          "publishedOn": "2026-06-30T10:26:18.000Z",
+          "wordCount": 7679,
+          "title": "Best Batter Today",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160630",
+          "author": "David Pinto",
+          "description": "",
+          "link": "https://www.baseballmusings.com/?p=160630",
+          "publishedOn": "2026-06-30T10:10:28.000Z",
+          "wordCount": 7479,
+          "title": "Tuesday Update",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160628",
           "author": "David Pinto",
@@ -2924,6 +2954,16 @@
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
         {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/30/great-american-state-fair-trump-attendance/90741971007/-full",
+          "author": "Rex Huppke",
+          "description": "I love President Donald Trump’s Great American State Fair. I love its emptiness. Its expensive food. Its ability to confound Trump-friendly media outlets that keep pretending it’s going great.\nThis spectacle on the National Mall in Washington, DC, part of Trump’s Trump-centric celebration of America’s 250th anniversary, is like watching your high school bully host a party that no one attends. It’s a daily humiliation for a wildly unpopular president who coopted what should be a unifying national celebration and turned it into repellent schlock.\nAnd I love it so much it hurts.\nTrump's Great American State Fair humiliation is soothing America\nI love seeing Fox News broadcasting from the fair, its hosts claiming the place is filled with excited patriots while the scenes behind them show a vas…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/30/great-american-state-fair-trump-attendance/90741971007/",
+          "publishedOn": "2026-06-30T10:55:50.475Z",
+          "wordCount": 4338,
+          "title": "The Great American State Fair is Trump's daily humiliation. I love it.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90716538007-20260626-t-050118-z-548195326-rc-241-ma-60-ne-6-rtrmadp-3-usa-250-statefair.JPG?crop=5494,3091,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/09/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90468552007/-full",
           "author": "Rex Huppke",
           "description": "Former reality TV star Spencer Pratt is out of the Los Angeles mayoral race for two reasons.\nFirst, and most important, he got fewer votes than two other candidates, incumbent Los Angeles Mayor Karen Bass and LA City Councilwoman Nithya Raman, who will now face off against each other. Second, he’s an unqualified dipstick whom a majority of Los Angelenos understood wasn’t qualified for the job.\nPratt was endorsed by President Donald Trump and hailed by some MAGA Republicans as a rising star, a political outsider with a winning populist message.\nThat was, in a word, wrong.\n\nThe Free Press, the conservative publication founded by Bari Weiss, who is presently busy ruining CBS News, ran a piece in May that posed the question: “How did Spencer Pratt, reality TV star and ‘healing’ crystal salesma…",
@@ -3422,26 +3462,6 @@
           "wordCount": 4241,
           "title": "By the GOP's own metrics, life was better under BidenRex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/10/USAT/90496284007-trump-pic.JPG?crop=3743,2106,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/05/21/star-wars-mandalorian-grogu-sheep-detectives-escapism/90178753007/-full",
-          "author": "Rex Huppke",
-          "description": "Look, this has already been an annoyingly long year, we’re on the brink of a searing-hot summer, gas prices are higher than my cousin Stu at a Phish concert, and we’re at war with Iran.\nGiven all that, I have one request: I don’t want to hear a single unkind or critical word about the new \"Star Wars\" movie, “The Mandalorian and Grogu.” That movie, which I have not yet seen, is about the only good thing happening in this world, and I refuse to let anyone take that from me. \nFor those who haven’t watched the television series “The Mandalorian,” from which the new movie bubbled up, here’s a quick synopsis: There’s a cool dude in an awesome helmet who protects an absolutely freaking adorable creature who audiences initially referred to as Baby Yoda, because he looks like a baby Yoda, the iconi…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/05/21/star-wars-mandalorian-grogu-sheep-detectives-escapism/90178753007/",
-          "publishedOn": "2026-06-20T13:59:43.166Z",
-          "wordCount": 4782,
-          "title": "'The Mandalorian and Grogu' is the only good thing in this worldRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/20/USAT/90174551007-thndff-000470-2.jpg?crop=4095,2304,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/05/31/trump-250-ufc-fight-ballroom-midterms/90295440007/-full",
-          "author": "Rex Huppke",
-          "description": "Americans are angry. They are stressed about food and fuel prices. They are, in astounding numbers, saying President Donald Trump is the source of their anger and stress.\nWell, I can assure my fellow Americans the MAGA king ain’t listening. He doesn’t care, and he has said as much.\nWhile Trump’s narcissism has never been hidden, it has become more glaring in this second term, and it’s easier than ever to see that the man about to turn 80 doesn’t care about any American but himself. \nHe cares deeply about hosting a raucous UFC fight on the White House lawn on his upcoming birthday. He cares deeply, in vivid dreams of gold and chandeliers, about one day having the grandest ballroom in the land. He cares about making America’s 250th anniversary celebration in the nation’s capital a big, gaudy…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/05/31/trump-250-ufc-fight-ballroom-midterms/90295440007/",
-          "publishedOn": "2026-06-20T13:59:43.143Z",
-          "wordCount": 4257,
-          "title": "Trump doesn't care about midterms and definitely doesn't care about youRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/27/USAT/90278031007-20260527-t-160146-z-615041505-rc-2-rhlas-0-wij-rtrmadp-3-usatrump.JPG?crop=5494,3091,x0,y187&width=3200&height=1801&format=pjpg&auto=webp"
         }
       ]
     },
