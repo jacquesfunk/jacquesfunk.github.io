@@ -597,6 +597,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://protesilaos.com/codelog/2026-07-02-emacs-french-input-method-jinx-spell/",
+          "author": null,
+          "description": "Raw link: https://www.youtube.com/watch?v=UjCbNOqUgTs\nIn this video demonstration I show the tools I use to write in French\nusing Emacs. One is the built-in framework for input methods, which\nallows us to compose characters to express the full range of the\nlanguage we are typing in (e.g. French or Greek). The other is a\nspell-checking package called jinx, which is developed by Daniel\nMendler.\nBelow is the code I showed in the video:\n\n(use-package emacs\n  :demand t\n  :bind\n  ( :map global-map\n    ;; The `toggle-input-method' sets the latest selected input\n    ;; method, or the one defined in `default-input-method'.  Once an\n    ;; input method is set, `toggle-input-method' will switch back to\n    ;; the standard Emacs input.\n    (\"<f2>\" . toggle-input-method))\n  :config\n  ;; Call the command `describe-input-method' to get a description of\n  ;; what the given input method supports in terms of key sequences as\n  ;; well as the key layout it has.\n  (setq default-input-method \"french-postfix\"))\n\n\n\n;; You need to have libenchant available on your system. For example,\n;; Debian provides the package `libenchant-2-dev'.\n(use-package jinx\n  :ensure t\n  :demand t\n  :bind\n  ( :map global-map\n    (\"M-$\" . jinx-correct) ; or bind `jinx-correct-all'\n    (\"C-M-$\" . jinx-languages))\n  :config\n  ;; Here you can specify a string with space-separated dictionaries.\n  ;; I install the aspell dictionaries, such as the Debian package\n  ;; `aspell-fr' for French and `aspell-el' for Greek (Éllinika).\n  ;; With `aspell' installed on the system, do `aspell dicts' on the\n  ;; command-line to get a list of available dictionaries.\n  (setq jinx-languages \"en fr el es\")\n\n  ;; I want to have Jinx in programming modes but I do not want it to\n  ;; check anything that is a comment or string, because then it\n  ;; underlines too many things which are not useful. We can do the\n  ;; same for other modes, though I think this is fine.\n  (setq jinx-exclude-faces\n        '((prog-mode font-lock-comment-face font-lock-string-face)))\n\n  (global-jinx-mode 1))",
+          "link": "https://protesilaos.com/codelog/2026-07-02-emacs-french-input-method-jinx-spell/",
+          "publishedOn": "2026-07-02T00:00:00.000Z",
+          "wordCount": 429,
+          "title": "Protesilaos: Emacs: write with input method (e.g. French) and Jinx for spelling",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
+        {
           "id": "https://www.bounga.org/emacs/2026/07/02/emacs-mailto-open-macos-mailto-links-in-emacs/",
           "author": null,
           "description": "What it is\nemacs-mailto makes macOS mailto: links open in Emacs, using whatever\nmail-user-agent you already have configured — mu4e, notmuch, Gnus, Rmail,\nor plain message-mode. Click a mailto: link in your browser, and Emacs\ncomes to the front with a compose buffer already addressed.\nThe project lives at\nsr.ht/~bounga/emacs-mailto, where\nyou’ll find the source and the ticket tracker.\nThe problem it solves\nThe GNU Emacs NS port — as shipped by emacs-plus, emacs-mac, or the\nofficial build — does not handle mailto: URLs.\nWhen Emacs is already running, clicking a mailto: link activates Emacs but\nthe URL never arrives: macOS brings the app to the front and drops the URL\nApple-event before it ever reaches Emacs Lisp. So nothing happens — no\ncompose buffer — and there is no way to fix it from you…",
@@ -985,16 +995,6 @@
           "wordCount": 680,
           "title": "Alvaro Ramirez: ytr: YouTube radio for Emacs",
           "imageUrl": "https://xenodium.com/share.png"
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/06/emacs-carnival-diary-part-2.html",
-          "author": null,
-          "description": "As I wrote earlier, I consider diary to be an underappreciated\n  Emacs built-in.\nI got interested in it again when I wanted to schedule a recurring\n  meeting in Org for the third Tuesday of every month.  I saw on\n  Reddit that some folks use diary-float in place of the usual active\n  timestamp to achieve this.  So I added this after the meeting header\n  to make it work:\n  * Third Tuesday of the Month Club\n  SCHEDULED: <(%%diary-float t 2 3) 19:00-20:00>\n\n\nI have five meetings that use this method of automatic scheduling.\n  I like this approach because of its simplicity and elegance.\n  Unfortunately, it doesn't behave the same way as a recurring task.\nWhen I mark a recurring task as complete, Org reschedules it for the\n  next date on which it should occur.  And it changes DONE to TODO to\n  …",
-          "link": "https://ray-on-emacs.blogspot.com/2026/06/emacs-carnival-diary-part-2.html",
-          "publishedOn": "2026-06-22T21:31:52.553Z",
-          "wordCount": 2979,
-          "title": "Raymond Zeitler: Emacs Carnival: diary, Part 2",
-          "imageUrl": null
         }
       ]
     },
@@ -1003,6 +1003,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160654",
+          "author": "David Pinto",
+          "description": "",
+          "link": "https://www.baseballmusings.com/?p=160654",
+          "publishedOn": "2026-07-02T10:17:23.000Z",
+          "wordCount": 7479,
+          "title": "Thursday Update",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160652",
           "author": "David Pinto",
@@ -1887,22 +1897,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!eU8t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56407e91-1d3f-492f-98a3-68e934a150d4_2018x1540.png"
-        },
-        {
-          "id": "https://www.lawdork.com/p/does-doj-even-know-how-to-issue-subpoenas",
-          "author": "Chris Geidner",
-          "description": "Judge Patrick Schiltz quashed federal grand jury subpoenas issued against Minnesota officials. The move echoes the quashed Federal Reserve and trans care subpoenas.",
-          "link": "https://www.lawdork.com/p/does-doj-even-know-how-to-issue-subpoenas",
-          "publishedOn": "2026-06-22T22:26:16.000Z",
-          "wordCount": null,
-          "title": "Does DOJ even know how to issue subpoenas for a proper purpose these days?",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/433c2e54-49b9-4c59-9b57-17a7f584ea1c_1566x940.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/433c2e54-49b9-4c59-9b57-17a7f584ea1c_1566x940.png"
         }
       ]
     },
@@ -2911,36 +2905,6 @@
           "wordCount": 9341,
           "title": "Life As An Undocumented Trans Sex Worker In The Age Of ICE",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2257018095.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=226627",
-          "author": "Giri Nathan",
-          "description": "After a few months of cheeky silence and misdirection, plus an experiment on the doubles court, Serena Williams is completing her comeback to professional tennis. The 44-year-old has accepted a wild card into the singles main draw at Wimbledon, which begins next week, causing the traditionally stodgy tournament to post heatedly about the occasion.\nWilliams retired from competition after a third-round appearance at the 2022 U.S. Open. Her first-round match at Wimbledon will mark her first professional singles match since that day. She won the grass-court major seven times, most recently in 2016. In her last appearance in 2022, she lost in the first round.\nWhen Williams reentered the anti-doping testing pool at the end of 2025, I thought we were about to witness an extremely effortful marketing campaign for the telehealth company her husband Alexis Ohanian invests in, and the GLP-1 drugs it prescribes. Since her original retirement, she has appeared regularly in ads for the company, and credited the drugs with losing 34 pounds before her return to competition.",
-          "link": "https://defector.com/serena-williams-is-coming-back-as-a-wild-card-at-wimbledon",
-          "publishedOn": "2026-06-22T21:06:13.000Z",
-          "wordCount": 5039,
-          "title": "Serena Williams Is Coming Back As A  Wild Card At Wimbledon",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281315356.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=226632",
-          "author": "Sarah Borus",
-          "description": "The San Francisco Giants are a stinking cesspool of bad vibes and bad baseball. That is not the newsy part of this post.\nSure, the Giants' place in the standings (currently 15 games below .500) and the collection of petulant homophobes on the roster have given the public plenty of reason not to prod this smoldering heap of a franchise with a ten-foot pole. But the Giants seem determined to expose every part of their disfunction, and will not rest until they have created a public nuisance to rival the peeling paint and chemicals of the reflecting pool on the National Mall. \nOn Sunday, with Rafael Devers on first and the Giants trailing the Marlins by a single run in the bottom of the ninth inning, manager Tony Vitello planned on putting in Jonah Cox as a pinch runner. Cox is fast. Devers isn’t. The Giants need to win games. This is simple stuff, really. But even with these indisputable facts to back him up, Vitello clearly is not considered a great authority among the Giants, and Devers especially wasn’t having it. With a mesmerizing finger wag, the form of which was far more elegant than his running form has ever been, Devers signaled that he was not going to get taken out of the game.",
-          "link": "https://defector.com/the-san-francisco-giants-are-just-doing-whatever",
-          "publishedOn": "2026-06-22T20:28:50.000Z",
-          "wordCount": 5090,
-          "title": "The San Francisco Giants Are Just Doing Whatever",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281651080.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=226650",
-          "author": "Billy Haisley",
-          "description": "Fresh off reasserting his extraterrestrial talent by opening his sixth World Cup with a hat trick, Lionel Messi proved on Monday that he is in fact still human. Seven minutes into the match between Argentina and Austria, Lautaro Martínez sprinted through on goal only to be taken down by a pair of Austrian defenders. After a VAR review, the play was correctly called a penalty. Messi took the ball, placed it on the spot, and proceeded to do what he has done many times before: miss.\nThe failed penalty seemed to affect both Messi and the team as a whole. Despite starting the game with the cool confidence typical of this group of world champions, Argentina looked uncharacteristically tentative and anxious after the miss. Austria took advantage, grabbing the match's reins and holding them for the next 20 minutes. Again, the failed conversion and the evident nerviness in the aftermath made for a rare humanizing moment for a man so often described as an alien or even a god. There's a valuable lesson in there: Not even D10S is perfect.\nOh, and the rest of the game? Argentina won, 2-0. Messi scored both goals. He now has five for the tournament, and has officially risen above Miroslav Klose and Marta as the player with the most goals ever scored at the World Cup.",
-          "link": "https://defector.com/lionel-messi-falls-to-earth-ascends-right-back-into-the-sky",
-          "publishedOn": "2026-06-22T20:08:30.000Z",
-          "wordCount": 4266,
-          "title": "Lionel Messi Falls To Earth, Ascends Right Back Into The Sky",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2282810053.jpg"
         }
       ]
     },
@@ -4207,26 +4171,6 @@
           "wordCount": 77464,
           "title": "One Day in America",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/aea1bfc8-ba4f-4298-b5a2-e4828626d7e0.jpg?crop=1xw:1.0xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71668930/trump-tim-walz-federal-judge/",
-          "author": null,
-          "description": "The president has pulled out all the stops to hobble the Minnesota governor’s political career for good.",
-          "link": "https://www.esquire.com/news-politics/politics/a71668930/trump-tim-walz-federal-judge/",
-          "publishedOn": "2026-06-22T21:19:08.000Z",
-          "wordCount": 25688,
-          "title": "Donald Trump Must Really, Really Hate Tim Walz",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/e48bba4a-fdb7-4567-9a2c-24db6846af5b.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71667801/world-cup-soccer-america-250/",
-          "author": null,
-          "description": "Try as it may, the administration’s ceaseless ruination of our country hasn’t dampened the joy that comes with hosting the world’s most boisterous sporting event.",
-          "link": "https://www.esquire.com/news-politics/politics/a71667801/world-cup-soccer-america-250/",
-          "publishedOn": "2026-06-22T20:50:48.000Z",
-          "wordCount": 24845,
-          "title": "Holy Hell, Did We Need This World Cup or What?",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/05504234-eade-49c2-ad9e-9693eb2a98c5.jpeg?crop=1xw:0.757218844985xh;center,top&resize=1200:*"
         }
       ]
     },

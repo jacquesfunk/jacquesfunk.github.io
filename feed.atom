@@ -2,10 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-02T07:30:35.863Z</updated>
+    <updated>2026-07-02T10:37:34.382Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Thursday Update]]></title>
+        <id>https://www.baseballmusings.com/?p=160654</id>
+        <link href="https://www.baseballmusings.com/?p=160654"/>
+        <updated>2026-07-02T10:17:23.000Z</updated>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The six opinions in the birthright citizenship ruling have a lot to teach us about the U.S. today]]></title>
         <id>https://www.lawdork.com/p/six-opinions-scotus-birthright-citizenship</id>
@@ -24,6 +33,66 @@
         <summary type="html"><![CDATA[Music and movies have always gone hand in hand. A great soundtrack can elevate an ordinary film, but every so often, a movie comes along where the music isn’t just part of the experience—it is the experience. Whether it’s chronicling the rise and fall of legendary artists, capturing the chaos of life on the road,...]]></summary>
         <author>
             <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Protesilaos: Emacs: write with input method (e.g. French) and Jinx for spelling]]></title>
+        <id>https://protesilaos.com/codelog/2026-07-02-emacs-french-input-method-jinx-spell/</id>
+        <link href="https://protesilaos.com/codelog/2026-07-02-emacs-french-input-method-jinx-spell/"/>
+        <updated>2026-07-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Raw link: https://www.youtube.com/watch?v=UjCbNOqUgTs
+In this video demonstration I show the tools I use to write in French
+using Emacs. One is the built-in framework for input methods, which
+allows us to compose characters to express the full range of the
+language we are typing in (e.g. French or Greek). The other is a
+spell-checking package called jinx, which is developed by Daniel
+Mendler.
+Below is the code I showed in the video:
+
+(use-package emacs
+  :demand t
+  :bind
+  ( :map global-map
+    ;; The `toggle-input-method' sets the latest selected input
+    ;; method, or the one defined in `default-input-method'.  Once an
+    ;; input method is set, `toggle-input-method' will switch back to
+    ;; the standard Emacs input.
+    ("<f2>" . toggle-input-method))
+  :config
+  ;; Call the command `describe-input-method' to get a description of
+  ;; what the given input method supports in terms of key sequences as
+  ;; well as the key layout it has.
+  (setq default-input-method "french-postfix"))
+
+
+
+;; You need to have libenchant available on your system. For example,
+;; Debian provides the package `libenchant-2-dev'.
+(use-package jinx
+  :ensure t
+  :demand t
+  :bind
+  ( :map global-map
+    ("M-$" . jinx-correct) ; or bind `jinx-correct-all'
+    ("C-M-$" . jinx-languages))
+  :config
+  ;; Here you can specify a string with space-separated dictionaries.
+  ;; I install the aspell dictionaries, such as the Debian package
+  ;; `aspell-fr' for French and `aspell-el' for Greek (Éllinika).
+  ;; With `aspell' installed on the system, do `aspell dicts' on the
+  ;; command-line to get a list of available dictionaries.
+  (setq jinx-languages "en fr el es")
+
+  ;; I want to have Jinx in programming modes but I do not want it to
+  ;; check anything that is a comment or string, because then it
+  ;; underlines too many things which are not useful. We can do the
+  ;; same for other modes, though I think this is fine.
+  (setq jinx-exclude-faces
+        '((prog-mode font-lock-comment-face font-lock-string-face)))
+
+  (global-jinx-mode 1))]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -6032,16 +6101,6 @@ The post Trump’s DOJ Spent Juneteenth Trying to Stop Black People In Evanston 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Does DOJ even know how to issue subpoenas for a proper purpose these days?]]></title>
-        <id>https://www.lawdork.com/p/does-doj-even-know-how-to-issue-subpoenas</id>
-        <link href="https://www.lawdork.com/p/does-doj-even-know-how-to-issue-subpoenas"/>
-        <updated>2026-06-22T22:26:16.000Z</updated>
-        <summary type="html"><![CDATA[Judge Patrick Schiltz quashed federal grand jury subpoenas issued against Minnesota officials. The move echoes the quashed Federal Reserve and trans care subpoenas.]]></summary>
-        <author>
-            <name>Chris Geidner</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[2 important pro-voter rulings happened today]]></title>
         <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/1ut1l5nuswjycncd4gch.html</id>
         <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/1ut1l5nuswjycncd4gch.html"/>
@@ -6071,88 +6130,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 …]]></summary>
         <author>
             <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raymond Zeitler: Emacs Carnival: diary, Part 2]]></title>
-        <id>https://ray-on-emacs.blogspot.com/2026/06/emacs-carnival-diary-part-2.html</id>
-        <link href="https://ray-on-emacs.blogspot.com/2026/06/emacs-carnival-diary-part-2.html"/>
-        <updated>2026-06-22T21:31:52.553Z</updated>
-        <summary type="html"><![CDATA[As I wrote earlier, I consider diary to be an underappreciated
-  Emacs built-in.
-I got interested in it again when I wanted to schedule a recurring
-  meeting in Org for the third Tuesday of every month.  I saw on
-  Reddit that some folks use diary-float in place of the usual active
-  timestamp to achieve this.  So I added this after the meeting header
-  to make it work:
-  * Third Tuesday of the Month Club
-  SCHEDULED: <(%%diary-float t 2 3) 19:00-20:00>
-
-
-I have five meetings that use this method of automatic scheduling.
-  I like this approach because of its simplicity and elegance.
-  Unfortunately, it doesn't behave the same way as a recurring task.
-When I mark a recurring task as complete, Org reschedules it for the
-  next date on which it should occur.  And it changes DONE to TODO to
-  …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Donald Trump Must Really, Really Hate Tim Walz]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a71668930/trump-tim-walz-federal-judge/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a71668930/trump-tim-walz-federal-judge/"/>
-        <updated>2026-06-22T21:19:08.000Z</updated>
-        <summary type="html"><![CDATA[The president has pulled out all the stops to hobble the Minnesota governor’s political career for good.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Serena Williams Is Coming Back As A  Wild Card At Wimbledon]]></title>
-        <id>https://defector.com/?p=226627</id>
-        <link href="https://defector.com/serena-williams-is-coming-back-as-a-wild-card-at-wimbledon"/>
-        <updated>2026-06-22T21:06:13.000Z</updated>
-        <summary type="html"><![CDATA[After a few months of cheeky silence and misdirection, plus an experiment on the doubles court, Serena Williams is completing her comeback to professional tennis. The 44-year-old has accepted a wild card into the singles main draw at Wimbledon, which begins next week, causing the traditionally stodgy tournament to post heatedly about the occasion.
-Williams retired from competition after a third-round appearance at the 2022 U.S. Open. Her first-round match at Wimbledon will mark her first professional singles match since that day. She won the grass-court major seven times, most recently in 2016. In her last appearance in 2022, she lost in the first round.
-When Williams reentered the anti-doping testing pool at the end of 2025, I thought we were about to witness an extremely effortful marketing campaign for the telehealth company her husband Alexis Ohanian invests in, and the GLP-1 drugs it prescribes. Since her original retirement, she has appeared regularly in ads for the company, and credited the drugs with losing 34 pounds before her return to competition.]]></summary>
-        <author>
-            <name>Giri Nathan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Holy Hell, Did We Need This World Cup or What?]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a71667801/world-cup-soccer-america-250/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a71667801/world-cup-soccer-america-250/"/>
-        <updated>2026-06-22T20:50:48.000Z</updated>
-        <summary type="html"><![CDATA[Try as it may, the administration’s ceaseless ruination of our country hasn’t dampened the joy that comes with hosting the world’s most boisterous sporting event.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The San Francisco Giants Are Just Doing Whatever]]></title>
-        <id>https://defector.com/?p=226632</id>
-        <link href="https://defector.com/the-san-francisco-giants-are-just-doing-whatever"/>
-        <updated>2026-06-22T20:28:50.000Z</updated>
-        <summary type="html"><![CDATA[The San Francisco Giants are a stinking cesspool of bad vibes and bad baseball. That is not the newsy part of this post.
-Sure, the Giants' place in the standings (currently 15 games below .500) and the collection of petulant homophobes on the roster have given the public plenty of reason not to prod this smoldering heap of a franchise with a ten-foot pole. But the Giants seem determined to expose every part of their disfunction, and will not rest until they have created a public nuisance to rival the peeling paint and chemicals of the reflecting pool on the National Mall. 
-On Sunday, with Rafael Devers on first and the Giants trailing the Marlins by a single run in the bottom of the ninth inning, manager Tony Vitello planned on putting in Jonah Cox as a pinch runner. Cox is fast. Devers isn’t. The Giants need to win games. This is simple stuff, really. But even with these indisputable facts to back him up, Vitello clearly is not considered a great authority among the Giants, and Devers especially wasn’t having it. With a mesmerizing finger wag, the form of which was far more elegant than his running form has ever been, Devers signaled that he was not going to get taken out of the game.]]></summary>
-        <author>
-            <name>Sarah Borus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lionel Messi Falls To Earth, Ascends Right Back Into The Sky]]></title>
-        <id>https://defector.com/?p=226650</id>
-        <link href="https://defector.com/lionel-messi-falls-to-earth-ascends-right-back-into-the-sky"/>
-        <updated>2026-06-22T20:08:30.000Z</updated>
-        <summary type="html"><![CDATA[Fresh off reasserting his extraterrestrial talent by opening his sixth World Cup with a hat trick, Lionel Messi proved on Monday that he is in fact still human. Seven minutes into the match between Argentina and Austria, Lautaro Martínez sprinted through on goal only to be taken down by a pair of Austrian defenders. After a VAR review, the play was correctly called a penalty. Messi took the ball, placed it on the spot, and proceeded to do what he has done many times before: miss.
-The failed penalty seemed to affect both Messi and the team as a whole. Despite starting the game with the cool confidence typical of this group of world champions, Argentina looked uncharacteristically tentative and anxious after the miss. Austria took advantage, grabbing the match's reins and holding them for the next 20 minutes. Again, the failed conversion and the evident nerviness in the aftermath made for a rare humanizing moment for a man so often described as an alien or even a god. There's a valuable lesson in there: Not even D10S is perfect.
-Oh, and the rest of the game? Argentina won, 2-0. Messi scored both goals. He now has five for the tournament, and has officially risen above Miroslav Klose and Marta as the player with the most goals ever scored at the World Cup.]]></summary>
-        <author>
-            <name>Billy Haisley</name>
         </author>
     </entry>
     <entry>
