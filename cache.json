@@ -59,6 +59,22 @@
       "siteUrl": "https://www.dworkinsubstack.com",
       "articles": [
         {
+          "id": "https://www.dworkinsubstack.com/p/the-regime-came-for-your-vote-and",
+          "author": "Scott Dworkin",
+          "description": "Plus: Hochul just cut checks to the farmers Trump’s tariffs broke",
+          "link": "https://www.dworkinsubstack.com/p/the-regime-came-for-your-vote-and",
+          "publishedOn": "2026-07-02T14:38:19.000Z",
+          "wordCount": null,
+          "title": "The Regime Came For Your Vote and Blew It: A Judge Killed Trump’s Loyalty Test, and Illinois Shut Down His Surveillance",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/80907d08-be27-4aff-b55d-7b0bf184bdc2_1200x675.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/80907d08-be27-4aff-b55d-7b0bf184bdc2_1200x675.png"
+        },
+        {
           "id": "https://www.dworkinsubstack.com/p/great-news-four-red-seats-slipping",
           "author": "Scott Dworkin",
           "description": "The cracks are showing",
@@ -209,6 +225,26 @@
       "feedUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
+        {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/ou409c7kipdsr7craq1i.html",
+          "author": null,
+          "description": "Email from Substack\n@media (max-width: 1024px) {\n  .typography .pullquote-align-left,\n  .typography.editor .pullquote-align-left,\n  .typography .pullquote-align-right,\n  .typography.editor .pullquote-align-right,\n  .typography .pullquote-align-wide,\n  .typography.editor .pullquote-align-wide,\n  .typography .pullquote-align-center,\n  .typography.editor .pullquote-align-center {\n    float: none;\n    margin: 0 auto;\n    width: 100%;\n    max-width: 100%;\n  }\n}\n@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {\n  .typography .markup table.image-wrapper img,\n  .typography.editor .markup table.image-wrapper img,\n  .typography .markup table.kindle-wrapper img,\n  .typography.editor .markup table.kindle-wrapper img {\n    max-width: 550px;\n  }\n}\n@media (min-width: 1024px) {\n  .ty…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/ou409c7kipdsr7craq1i.html",
+          "publishedOn": "2026-07-02T15:00:03.792Z",
+          "wordCount": 2485,
+          "title": "Jess Craven posted new notes",
+          "imageUrl": null
+        },
+        {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/4f57tg4lv03qubwwagl8.html",
+          "author": null,
+          "description": "96\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:670px){.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.social_block .social-table{display:inline-block!important}}\nsup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-1…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/4f57tg4lv03qubwwagl8.html",
+          "publishedOn": "2026-07-02T14:54:06.418Z",
+          "wordCount": 604,
+          "title": "A Troubling Supreme Court Term—and the Work Ahead",
+          "imageUrl": null
+        },
         {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/k9r10blo1im26q02ar90.html",
           "author": null,
@@ -586,6 +622,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://irreal.org/blog/?p=13916",
+          "author": null,
+          "description": "the release of Magit 4.6. It includes, he says, over 300 commits since the last release 6 months ago. You can check Bernoulli’s post for the details but an overview is that the main changes were in\n\n\nBlob handling. Working with blobs should be easier and make more sense with this release.\nExperimental syntax highlighting in diffs.\nImproved hook handling that allows for the calling of Elisp hooks from Git hooks.\nImproved commit message processing. List of changed definitions in a diff are now available for composing a git commit message.\nhis support page to see how you can help out.",
+          "link": "https://irreal.org/blog/?p=13916",
+          "publishedOn": "2026-07-02T14:46:33.000Z",
+          "wordCount": 1397,
+          "title": "Irreal: Magit 4.6 Is Released",
+          "imageUrl": null
+        },
         {
           "id": "https://protesilaos.com/codelog/2026-07-02-emacs-french-input-method-jinx-spell/",
           "author": null,
@@ -965,16 +1011,6 @@
           "wordCount": 3376,
           "title": "Andros Fenollosa: How I built a GPU backend for Emacs",
           "imageUrl": "https://img.andros.dev/nBgRNg17UB_JOm4H0xVbgc4r7Pg=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_94e69e19.png"
-        },
-        {
-          "id": "https://sachachua.com/blog/2026/06/2026-06-22-emacs-news/",
-          "author": null,
-          "description": "force-directed graphs\n(Reddit) and text-based mindmaps (Reddit, lobste.rs) were pretty cool.\nEnjoy!\n\n\n\nEmacs 31:\n\nEmacs 31 Is Around the Corner: The Changes I'm Already Daily Driving (Reddit, HN, lobste.rs, Irreal)\n\nUpcoming events (iCal file, Org):\n\nEmacs Berlin: Emacs-Berlin Hybrid Meetup https://emacs-berlin.org/ Wed Jun 24 1000 America/Vancouver - 1200 America/Chicago - 1300 America/Toronto - 1700 Etc/GMT - 1900 Europe/Berlin - 2230 Asia/Kolkata – Thu Jun 25 0100 Asia/Singapore\nEmacs APAC: Emacs APAC meetup (virtual) https://emacs-apac.gitlab.io/announcements/ Sat Jun 27 0130 America/Vancouver - 0330 America/Chicago - 0430 America/Toronto - 0830 Etc/GMT - 1030 Europe/Berlin - 1400 Asia/Kolkata - 1630 Asia/Singapore\nEmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/315091677…",
-          "link": "https://sachachua.com/blog/2026/06/2026-06-22-emacs-news/",
-          "publishedOn": "2026-06-23T02:30:26.000Z",
-          "wordCount": 1074,
-          "title": "Sacha Chua: 2026-06-22 Emacs news",
-          "imageUrl": null
         }
       ]
     },
@@ -1912,6 +1948,22 @@
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
         {
+          "id": "https://www.hopiumchronicles.com/p/new-battleground-polling-confirms",
+          "author": "Simon Rosenberg",
+          "description": "Big win for the US Men's team!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "link": "https://www.hopiumchronicles.com/p/new-battleground-polling-confirms",
+          "publishedOn": "2026-07-02T15:05:11.000Z",
+          "wordCount": null,
+          "title": "New Battleground Polls Confirm That This Is A Year Of Opportunity For Democrats (New Video & Written Analysis)",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/204646381/a426889c8cd4707386191994534785df.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
           "id": "https://www.hopiumchronicles.com/p/last-call-today-630pm-et-our-weekly",
           "author": "Simon Rosenberg",
           "description": "Welcome new subscribers!",
@@ -2222,6 +2274,36 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=227671",
+          "author": "Drew Magary",
+          "description": "Up until a month ago, I rarely thought about '90s club legends The KLF. This is because The KLF were never all that big in the States, and thus I only remember them for their biggest single here, “3:00 a.m. Eternal.” If I had been paying closer attention, I would have discovered that the group, led by musicians Jimmy Cauty and Bill Drummond, were singing “ancients of Mu Mu” in the chorus of that song, in reference to a mythical, pre-Atlantis lost continent. I also would have known that Drummond was a multi-hyphenate of the oddest sort: a musician/producer/promoter/performance artist/carpenter who, in tandem with Cauty, infamously took a million pounds sterling from their KLF earnings and deliberately lit it on fire.\nNow, the easiest explanation as to why these two men set a bagful of money on fire is that they were fucking insane. But if you’ve read author John Higgs’s incredible history of The KLF, as I just did, you might be more amenable to its founders’ runaway train of thought. After all, you don’t help stage a 12-hour production about the Illuminati, shepherd Echo & The Bunnymen into the British mainstream, become worldwide pop stars in your own right, and then delete your entire back catalog without something, possibly drug-aided, going on up there. Is it not worth following your muse, even if that muse might come off as superficially cuckoo-nanners? Is there not value in the act of creation, and of creative destruction? In fact, what if art is at its core an act of conjuring? Of magic? Also, why did Tammy Wynette decide to lay down a track for these two lunatics when they cold-called her? THAT, my friends, is (kinda) the subject of this week’s Distraction.",
+          "link": "https://defector.com/ok-this-is-probably-too-much-talk-about-the-klf",
+          "publishedOn": "2026-07-02T15:39:31.000Z",
+          "wordCount": 4976,
+          "title": "OK, This Is Probably Too Much Talk About The KLF",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2282967602.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=227233",
+          "author": "David Roth",
+          "description": "Things come out of Donald Trump's mouth, then just keep on coming out of it. If he says something once, he will say it again, primarily to reinforce how powerfully and unprecedentedly successful he was in having said it in the first place, but also because he so enjoys the sound of his own voice saying all the famous things that he says. The picture-book binaries that define and proscribe his understanding of the world—big and small, good and bad, hot and cold, rich and poor, white and not white—set the boundaries, but there is not any editorial process beyond that. No one who serves him would ever give him notes, and he would never deign to take them from anyone in his service anyway. Everything he says or does is just a thing that happens; a dishearteningly large portion of political media comes down to making sure that people who follow current events are made aware of it whenever it does.\nThey're good at this, too, which means that you are probably aware that Trump frequently delivers some version of this statement, which is from a speech he made on Dec. 17, 2025:\n\"One year ago, our country was dead. We were absolutely dead. Our country was ready to fail. Totally fail. Now we’re the hottest country anywhere in the world. And that’s said by every single leader that I’ve spoken to over the last five months.\"",
+          "link": "https://defector.com/dead-country-fair",
+          "publishedOn": "2026-07-02T15:08:07.000Z",
+          "wordCount": 9825,
+          "title": "Dead Country Fair",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2282927609.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=227578",
+          "author": "Sabrina Imbler",
+          "description": "To Jan Brueghel the Elder, paradise could not be contained to a single biome. Many of Brueghel's paintings teem with menageries of birds, mammals, reptiles, and fish that would never ordinarily meet in the wild: monkeys from the Americas mingling with birds from Europe and ungulates from Asia. Brueghel's paintings were also striking for their scientific accuracy, as Arianne Faber Kolb wrote in her study Jan Brueghel the Elder: The Entry of the Animals into Noah's Ark. In the 1500s, European exploration and subsequent exploitation of other continents introduced Europe to many exotic new species which wound their way into fine art. Unlike other painters of his age, Brueghel avoided including mythical creatures like unicorns in his landscapes. To Brueghel, the newfound abundance of the planet…",
+          "link": "https://defector.com/this-17th-century-flemish-painting-held-a-gnarly-bat-secret",
+          "publishedOn": "2026-07-02T14:22:03.000Z",
+          "wordCount": 8089,
+          "title": "This 17th-Century Flemish Painting Held A Gnarly Bat Secret",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/Air-Brueghel_the_Elder-MBA_Lyon_A77-IMG_0408.jpg"
+        },
         {
           "id": "https://defector.com/?p=227727",
           "author": "Samer Kalaf",
