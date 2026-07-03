@@ -663,6 +663,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://emacsair.me/2026/07/03/melpa-channels",
+          "author": null,
+          "description": "I am excited to announce that we have finally added two new experimental MELPA channels.",
+          "link": "https://emacsair.me/2026/07/03/melpa-channels",
+          "publishedOn": "2026-07-03T18:15:00.000Z",
+          "wordCount": 2190,
+          "title": "Jonas Bernoulli: Announcing two new experimental MELPA channels",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=13918",
           "author": null,
           "description": "signing and optionally encrypting emails sent with mu4e. The idea is to sign each email you send and if you have a GPG key for every recipient, encrypt it was well. As Cavigneaux says, it’s pretty easy to sign and/or encrypt messages with mu4e but you have to remember to do it and most people, including him, don’t always remember.\n\n\nThe solution, of course, is to automate the process so that you don’t have to remember. That turns out to be pretty easy to do. Cavigneaux has the necessary code in his post. The basic flow is to check if you have everyone’s encryption key and, if so, encrypt the message. Regardless of whether or not everyone’s encryption key is available sign the message. There are calls available for both the signing and encryption. The process is kicked off with the send-message-hook every time you send a message.\n\n\nThere was a time when encrypting all your messages was the thing to do but difficulties with key distribution have pretty much put an end to the encrypt all emails movement. Most people don’t have keys and those who do will probably be annoyed to receive mundane emails that are encrypted. For those sensitive emails being sent to people you know have keys, you pretty much automatically remember to encrypt them.\n\n\nThat leaves signing. It mostly doesn’t hurt anything1 so it probably doesn’t matter if you always sign your messages, especially if you have reasons to suspect that their contents might come into dispute. I’ve stopped doing even that because, as I say, no one has any idea what it means.\n\n\nSo my takeaway is that if you’re paranoid about certifying the content of your emails or you regularly deal with people who want to ensure themselves that they’re communication with you, it may make sense to automatically sign your emails. Except in special circumstances, I don’t see any reason to encrypt all your emails.\n\n\nFootnotes: \n1 \n\n\n\nAlthough I do remember being queried about those unreadable binary blobs at the end of my emails.",
@@ -1041,16 +1051,6 @@
           "wordCount": 6224,
           "title": "Charlie Holland: svg-margin: Better Gutters for Emacs",
           "imageUrl": "https://www.chiply.dev/images/svg-margin-annotated.png"
-        },
-        {
-          "id": "https://batsov.com/articles/2026/06/24/neocaml-0-9-repl-completion-and-robustness/",
-          "author": null,
-          "description": "It’s been a couple of months since the last neocaml\nrelease, and the reason is simple — for a while there I was genuinely out of ideas.\nBack when I shipped 0.6\nI declared (again!) that I was done with new features, and this time I almost meant\nit. But ideas have a way of creeping back in, and 0.9 turned out to be a meaty\nrelease. Here are the highlights.\nA much nicer REPL experience\nThe biggest chunk of work went into the REPL (toplevel) integration. I’m well aware\nthat the OCaml toplevel isn’t terribly popular with seasoned OCaml developers — most\nof them reach for a proper build and a debugger instead. But I think newcomers get a\nlot of mileage out of a REPL, and (no surprise to anyone who’s followed my work) I’m\na Lisper at heart with a real soft spot for interactive development. Clojur…",
-          "link": "https://batsov.com/articles/2026/06/24/neocaml-0-9-repl-completion-and-robustness/",
-          "publishedOn": "2026-06-24T07:00:00.000Z",
-          "wordCount": 1645,
-          "title": "Bozhidar Batsov: Neocaml 0.9: A Better REPL, Completion, and More Robustness",
-          "imageUrl": "https://batsov.com/assets/img/og-image.png"
         }
       ]
     },
@@ -2295,6 +2295,16 @@
       "siteUrl": "https://defector.com/",
       "articles": [
         {
+          "id": "https://defector.com/?p=227841",
+          "author": "Nicholas Russell",
+          "description": "Darren Aronofsky's AI production studio Primordial Soup was announced in May of 2025 during Google's annual developer conference. The launch was meant to burnish the pioneering reputations of both entities simultaneously: Google released a new version of its text-to-video model Veo and an AI video tool called Flow, while Aronofsky, like a worrying number of other filmmakers, sought to forge a new and daring path into unknown technological territory by partnering with one of the world's biggest tech companies. In a classically hyperbolic statement crediting the dawn of a new artform with hardware rather than human creativity, Aronofsky said, \"Filmmaking has always been driven by technology. After the Lumiere Brothers and Edison's ground-breaking invention, filmmakers unleashed the hidden st…",
+          "link": "https://defector.com/darren-aronofskys-ai-videos-are-a-fitting-tribute-to-america-i-guess",
+          "publishedOn": "2026-07-03T17:59:59.000Z",
+          "wordCount": 7824,
+          "title": "Darren Aronofsky’s AI Videos Are A Fitting Tribute To America, I Guess",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/aronofsky-ai-slop.jpg"
+        },
+        {
           "id": "https://defector.com/?p=227610",
           "author": "Israel Daramola",
           "description": "Welcome to Listening Habits, a column where I share the music and musical topics I’ve been fixated on recently.\nIt can be hard to remember amidst the downfall of everything, but 250 years of America is a major milestone. America, more of a grand experiment than a nation, a fantastical idea suggesting a very modern notion that the point of a country is the pursuit of the unachievable, starting with happiness. A nation that aspires toward its utopian principles but at heart is just as much about territory, empire, and extraction. It's a nation of contradictions, is what I'm getting at: atop those purple mountains' majesty and above those fruited plains lies both beauty and madness, achievement and grift, togetherness and division.\nAnd no nation loves its own mythology like America does. You can follow official White House Twitter accounts to see that. It's a mythology that imagines America not as a fight over taxes or even as the \"brave\" discovery of a definitely-not-lost (please do not say that he got lost) Christopher Columbus, but as a nation literally crafted by white God himself, with little baby Jesus in his loving arms. America especially loves its myths on the Fourth of July: hotdogs, sparklers, baseball, freshly baked apple pie on a kitchen windowsill. Precious, but also convenient, it fits a motif of America as a place not just for white people but that belongs to them. Or to quote my favorite line from The Good Shepherd, on the subject of what it is that WASPs have: \"The United States of America, the rest of you are just visiting.\"",
@@ -3283,16 +3293,6 @@
           "publishedOn": "2026-07-02T00:52:14.000Z",
           "wordCount": 9365,
           "title": "The 25 Best Movies About Music",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=2817",
-          "author": "Schill",
-          "description": "Few songs hit as hard as “People Who Died.” Released by the Jim Carroll Band in 1980, it sounds like a punk rock explosion—fast, loud, angry, and almost chaotic. But underneath the guitars and the shouted chorus is something far more personal. The song is a memorial. Every verse is a tombstone. Every name represents...",
-          "link": "https://stuffthatinterestsme.net/the-real-stories-behind-jim-carrolls-people-who-died/",
-          "publishedOn": "2026-06-24T05:39:49.000Z",
-          "wordCount": 3235,
-          "title": "The Real Stories Behind Jim Carroll’s “People Who Died”",
           "imageUrl": null
         }
       ]

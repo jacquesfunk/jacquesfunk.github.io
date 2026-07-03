@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-03T17:27:52.542Z</updated>
+    <updated>2026-07-03T19:19:41.261Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Jonas Bernoulli: Announcing two new experimental MELPA channels]]></title>
+        <id>https://emacsair.me/2026/07/03/melpa-channels</id>
+        <link href="https://emacsair.me/2026/07/03/melpa-channels"/>
+        <updated>2026-07-03T18:15:00.000Z</updated>
+        <summary type="html"><![CDATA[I am excited to announce that we have finally added two new experimental MELPA channels.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Darren Aronofsky’s AI Videos Are A Fitting Tribute To America, I Guess]]></title>
+        <id>https://defector.com/?p=227841</id>
+        <link href="https://defector.com/darren-aronofskys-ai-videos-are-a-fitting-tribute-to-america-i-guess"/>
+        <updated>2026-07-03T17:59:59.000Z</updated>
+        <summary type="html"><![CDATA[Darren Aronofsky's AI production studio Primordial Soup was announced in May of 2025 during Google's annual developer conference. The launch was meant to burnish the pioneering reputations of both entities simultaneously: Google released a new version of its text-to-video model Veo and an AI video tool called Flow, while Aronofsky, like a worrying number of other filmmakers, sought to forge a new and daring path into unknown technological territory by partnering with one of the world's biggest tech companies. In a classically hyperbolic statement crediting the dawn of a new artform with hardware rather than human creativity, Aronofsky said, "Filmmaking has always been driven by technology. After the Lumiere Brothers and Edison's ground-breaking invention, filmmakers unleashed the hidden st…]]></summary>
+        <author>
+            <name>Nicholas Russell</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[It's Time To Move On From The "Democrats Suck" Narrative - It's Wrong, And We Have An Election To Win]]></title>
         <id>https://www.hopiumchronicles.com/p/its-time-to-move-on-from-the-democrats</id>
@@ -6281,37 +6301,6 @@ Donald Trump is no doubt ignorant of this story, even as he loves to imagine him
         <updated>2026-06-24T10:03:45.000Z</updated>
         <author>
             <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bozhidar Batsov: Neocaml 0.9: A Better REPL, Completion, and More Robustness]]></title>
-        <id>https://batsov.com/articles/2026/06/24/neocaml-0-9-repl-completion-and-robustness/</id>
-        <link href="https://batsov.com/articles/2026/06/24/neocaml-0-9-repl-completion-and-robustness/"/>
-        <updated>2026-06-24T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s been a couple of months since the last neocaml
-release, and the reason is simple — for a while there I was genuinely out of ideas.
-Back when I shipped 0.6
-I declared (again!) that I was done with new features, and this time I almost meant
-it. But ideas have a way of creeping back in, and 0.9 turned out to be a meaty
-release. Here are the highlights.
-A much nicer REPL experience
-The biggest chunk of work went into the REPL (toplevel) integration. I’m well aware
-that the OCaml toplevel isn’t terribly popular with seasoned OCaml developers — most
-of them reach for a proper build and a debugger instead. But I think newcomers get a
-lot of mileage out of a REPL, and (no surprise to anyone who’s followed my work) I’m
-a Lisper at heart with a real soft spot for interactive development. Clojur…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Real Stories Behind Jim Carroll’s “People Who Died”]]></title>
-        <id>https://stuffthatinterestsme.net/?p=2817</id>
-        <link href="https://stuffthatinterestsme.net/the-real-stories-behind-jim-carrolls-people-who-died/"/>
-        <updated>2026-06-24T05:39:49.000Z</updated>
-        <summary type="html"><![CDATA[Few songs hit as hard as “People Who Died.” Released by the Jim Carroll Band in 1980, it sounds like a punk rock explosion—fast, loud, angry, and almost chaotic. But underneath the guitars and the shouted chorus is something far more personal. The song is a memorial. Every verse is a tombstone. Every name represents...]]></summary>
-        <author>
-            <name>Schill</name>
         </author>
     </entry>
 </feed>
