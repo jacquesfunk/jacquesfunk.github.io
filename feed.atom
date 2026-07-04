@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-04T06:46:06.912Z</updated>
+    <updated>2026-07-04T10:08:25.737Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Meta Redux: Projectile 3.1]]></title>
+        <id>https://metaredux.com/posts/2026/07/04/projectile-3-1.html</id>
+        <link href="https://metaredux.com/posts/2026/07/04/projectile-3-1.html"/>
+        <updated>2026-07-04T05:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Hot on the heels of Projectile 3.0
+comes Projectile 3.1!
+Three days apart, yes. There’s a story there. A big chunk of what’s in 3.1 was
+originally meant for 3.0, but 3.0 was already turning into a monster of a release
+and I decided to cut it into two, so I’d actually be able to reason about each of
+them. So think of 3.1 less as “the next release” and more as “the second half of
+3.0 that I was too scared to ship all at once”.
+There was also a bit of calendar mischief involved. I really wanted a release on
+the 1st of July - that’s July Morning, which is a bit of a thing here in
+Bulgaria1 - and then another one on the 4th of July. Partly because it’s the
+250th US Independence Day, and partly because it happens to be my wedding
+anniversary. When else am I going to get a round number like that …]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wai Hon: One-Line-Per-Day Diary in Org Mode]]></title>
         <id>https://whhone.com/posts/one-line-per-day-diary-in-org-mode/</id>
@@ -5896,59 +5917,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Mamdani-Backed Democrats Won Big in New York Elections. Moderates Are Not Happy About It.]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a71714811/mamdani-democrats-new-york-elections/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a71714811/mamdani-democrats-new-york-elections/"/>
-        <updated>2026-06-24T21:21:36.000Z</updated>
-        <summary type="html"><![CDATA[If the country ever is going to repair itself, the party is going to have to band together.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Monarchists Have Come To Harangue Iran’s World Cup Team]]></title>
-        <id>https://defector.com/?p=226928</id>
-        <link href="https://defector.com/the-monarchists-have-come-to-harangue-irans-world-cup-team"/>
-        <updated>2026-06-24T19:43:24.000Z</updated>
-        <summary type="html"><![CDATA[Given the circumstances, Iran has played extraordinary soccer in this year's World Cup, equalizing not once but twice with New Zealand in a 2-2 result, and displaying robust defense in a 0-0 draw with Belgium, as keeper Alireza Beiranvand made a save that should go down as one of the best of the tournament. The Iranian team has accomplished all of this despite being legally barred from staying in the United States to rest after their games; Donald Trump's administration has forced the squad to return to their training camp in Tijuana immediately afterward. One might expect that triumphing over these restrictive conditions would be cause for celebration among members of the diaspora community who have shown up to watch the games. So why, before their games against New Zealand and Belgium, w…]]></summary>
-        <author>
-            <name>Séamus Malekafzali</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Charles Choi: Scheduling Future Tasks in Emacs]]></title>
-        <id>http://yummymelon.com/devnull/scheduling-future-tasks-in-emacs.html</id>
-        <link href="http://yummymelon.com/devnull/scheduling-future-tasks-in-emacs.html"/>
-        <updated>2026-06-24T19:25:00.000Z</updated>
-        <summary type="html"><![CDATA[Back when I had to run a lot of long-running simulations on Unix systems, I became an ardent user of the at command, which lets one schedule a program to run at a future date. I also used at to schedule different notifications, like sending a message to a pager (yer, how quaint).
-Moving to macOS (nee OS X) changed that, as it disabled by default the at command due to battery life management. As I was unwilling to give up battery life for at, I learned to live without it. That was, until I learned that Emacs had run-at-time.
-The run-at-time command does as it says on the tin: it will run a function at some future specification of time.
-
-
-1
-
-(run-at-time TIME REPEAT FUNCTION &rest ARGS)
-
-
-
-
-
-That specification of time is “natural language-like” in that multiple string representations of time…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Breaking: Federal judge blocks DOJ from seeking NYC trans care information via grand jury subpoena]]></title>
-        <id>https://www.lawdork.com/p/doj-trans-care-grand-jury-subpoena-tro</id>
-        <link href="https://www.lawdork.com/p/doj-trans-care-grand-jury-subpoena-tro"/>
-        <updated>2026-06-24T19:20:33.000Z</updated>
-        <summary type="html"><![CDATA[Judge Failla found that DOJ’s request “shocks the conscience” by seeking the “most personal and sensitive information a medical provider could hold” without justifying its need.]]></summary>
-        <author>
-            <name>Chris Geidner</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Ask a Manager - new articles]]></title>
         <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/c8rg5j29lr5mogajtimm.html</id>
         <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/c8rg5j29lr5mogajtimm.html"/>
@@ -6013,17 +5981,6 @@ That specification of time is “natural language-like” in that multiple strin
 			color:i…]]></summary>
         <author>
             <name>Misc Newsletters</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Should I Sell My Ludicrously Valuable World Cup Ticket?]]></title>
-        <id>https://defector.com/?p=226918</id>
-        <link href="https://defector.com/should-i-sell-my-ludicrously-valuable-world-cup-ticket"/>
-        <updated>2026-06-24T18:57:37.000Z</updated>
-        <summary type="html"><![CDATA[Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. Today, we're talking money, U2, lasagna, and more.
-Hello! I'm happy to be back guest-hosting the Funbag while Drew is off. Let's get to it.]]></summary>
-        <author>
-            <name>Brandy Jensen</name>
         </author>
     </entry>
     <entry>
