@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-05T07:24:10.891Z</updated>
+    <updated>2026-07-05T10:11:07.596Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Meta Redux: Clojurists Together Update: May and June 2026]]></title>
+        <id>https://metaredux.com/posts/2026/07/05/clojurists-together-update-may-june-2026.html</id>
+        <link href="https://metaredux.com/posts/2026/07/05/clojurists-together-update-may-june-2026.html"/>
+        <updated>2026-07-05T08:57:30.000Z</updated>
+        <summary type="html"><![CDATA[Some of you might know that Clojurists Together are supporting my work on nREPL, CIDER and friends
+this year. Normally I send them a bi-monthly progress report, but I saw some other people who got
+funding for their OSS work publish those reports as blog posts for the broader public and I thought
+to try this for a change.
+The past two months were super productive. I had a lot of inspiration during this period and I managed
+to tackle a lot of long-standing ideas and issues across the entire nREPL/CIDER ecosystem. Funnily enough,
+I also managed to grow the ecosystem with a couple of brand new projects, but more about those later.
+The big highlights from my perspective:
+CIDER 1.22 is out
+CIDER 2.0 is essentially ready and needs more user testing
+Sayid is reborn
+Two brand new projects saw the l…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[All Star Lineups]]></title>
         <id>https://www.baseballmusings.com/?p=160680</id>
@@ -5495,129 +5516,6 @@ Vani Hari, a MAHA mom who blogs as “The Food Babe,” poste…]]></summary>
         <summary type="html"><![CDATA[I am excited to watch the US Men's Team tonight at 10pm ET.......]]></summary>
         <author>
             <name>Simon Rosenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Watch ICE confront a poll worker during voting]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/t4lxxf4qlqq9g3qxavnq.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/t4lxxf4qlqq9g3qxavnq.html"/>
-        <updated>2026-06-25T22:05:55.428Z</updated>
-        <summary type="html"><![CDATA[Watch ICE confront a poll worker during voting
-    
-    
-    
-    
-    
-
-
-
-
-
-a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
-
-
-    
-  
-    
-      
-      96
-    
-    
-     …]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nicolas Cavigneaux: Not Quite Vim: Switching to Evil in Doom Emacs]]></title>
-        <id>https://www.bounga.org/emacs/2026/06/26/not-quite-vim-switching-to-evil-in-doom-emacs/</id>
-        <link href="https://www.bounga.org/emacs/2026/06/26/not-quite-vim-switching-to-evil-in-doom-emacs/"/>
-        <updated>2026-06-25T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Introduction
-I’ve used Emacs for many years.
-My fingers knew the native bindings by heart. C-a, C-e, C-k, M-f,
-the whole choreography of chords. I never really questioned it.
-Then I moved to Doom Emacs.
-Doom is built around Evil, the Vim emulation layer. Vim keybindings are the
-default, on purpose. And the first thing I did was turn them off.
-It was pure habit. I had years of native muscle memory and no intention of
-throwing it away to relearn how to move a cursor.
-So for a while I ran Doom the “wrong” way: a Vim-first distribution with Vim
-disabled.
-Later, I changed my mind.
-Giving Evil a Real Chance
-At some point it felt silly to run Doom against its own grain.
-The whole project is designed around Evil. Most of its polish, its defaults,
-its bindings assume you’re editing the Vim way. By …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wolford v Lopez: The Supreme Court Is a Pro-Gun Activist Group]]></title>
-        <id>https://ballsandstrikes.org/?p=18440</id>
-        <link href="https://ballsandstrikes.org/scotus/wolford-v-lopez-activist-group-opinion/"/>
-        <updated>2026-06-25T21:51:26.000Z</updated>
-        <summary type="html"><![CDATA[In Wolford v. Lopez, the conservative justices have introduced a new Second Amendment test: Gun safety laws are probably illegal if Sam Alito thinks they would make gun owners feel upset.
-The post Wolford v Lopez: The Supreme Court Is a Pro-Gun <span class="dewidow">Activist Group</span> appeared first on Balls and Strikes.]]></summary>
-        <author>
-            <name>Jay Willis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wolford v Lopez: The Supreme Court Is a Pro-Gun Activist Group]]></title>
-        <id>https://ballsandstrikes.org/?p=18437</id>
-        <link href="https://ballsandstrikes.org/scotus/wolford-v-lopez-the-supreme-court-is-a-pro-gun-activist-group/"/>
-        <updated>2026-06-25T21:39:17.000Z</updated>
-        <summary type="html"><![CDATA[In Wolford v. Lopez, the conservative justices have introduced a new Second Amendment test: Gun safety laws are probably illegal if Sam Alito thinks they would make gun owners feel upset.
-The post Wolford v Lopez: The Supreme Court Is a Pro-Gun <span class="dewidow">Activist Group</span> appeared first on Balls and Strikes.]]></summary>
-        <author>
-            <name>Jay Willis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Remember When the Pentagon Scrapped Its Flu Shot Mandate? Well, Now There’s an Outbreak on a Military Base.]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a71734198/pete-hegseth-flu-mandate-restored-outbreak-military/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a71734198/pete-hegseth-flu-mandate-restored-outbreak-military/"/>
-        <updated>2026-06-25T21:26:54.000Z</updated>
-        <summary type="html"><![CDATA[Pete Hegseth is one smart cookie, isn’t he?]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Supreme Court Just Okayed a Heartless Order to Kick Legal Migrants out of Our Country]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a71734069/scotus-migrants-temporary-protected-status/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a71734069/scotus-migrants-temporary-protected-status/"/>
-        <updated>2026-06-25T20:57:15.000Z</updated>
-        <summary type="html"><![CDATA[The Trump administration is jumping for joy, and we should all be disgusted.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Would You Eat This Guy? What If He Were God, Or A Baby?]]></title>
-        <id>https://defector.com/?p=226906</id>
-        <link href="https://defector.com/would-you-eat-this-guy-what-if-he-were-god-or-a-baby"/>
-        <updated>2026-06-25T20:03:48.000Z</updated>
-        <summary type="html"><![CDATA[Imagine you are seated at a table. A guy sits across from you. He is vaguely humanoid, with a long torso and two arms raised in fist-like clubs. His full name is Edible Agent, but we will call him Eddie and use he/him pronouns. There's something about Eddie that makes you feel at ease. Maybe it's his fragrance, which reminds you of apple juice, of childhood. Maybe it's his two black eyes that gaze upon you without judgment. You decide to unburden yourself to him. You tell him that you've been making mistakes at work, and you are so afraid of your boss's criticism that you have developed stomach pain. "Fear will only bar the path you are meant to walk," Eddie tells you, wiggling his edible arms to show you he understands. You tell him that to cope with your stress, you've been drinking every day. "There is no solace for those who seek refuge in dependence," Eddie tells you, wiggling once again. When you tell him that you can find no other way to deal with this burden, Eddie tells you to confront the problem, to contemplate your next step forward. "Only by tempering oneself and holding fast to one's convictions can one overcome the burdens one bears," Eddie says, wiggling. This encounter changes you profoundly. Then comes the question: After all you have been through together, would you eat Eddie?
-For many participants in a study recently published in PLOS One, the answer was yes—but rather reluctantly. (Turn on subtitles to understand the conversation with edible Eddie.)
-
-https://youtu.be/0_hgrf0pi2Y?si=_gDxOGlOXUGyMvyL&t=15
-Turn on subtitles to understand the conversation with edible Eddie.]]></summary>
-        <author>
-            <name>Sabrina Imbler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Folkways Of The Contemporary Sex Idiot, With Kelsey McKinney And Alex Sujong Laughlin]]></title>
-        <id>https://defector.com/?p=226954</id>
-        <link href="https://defector.com/folkways-of-the-contemporary-sex-idiot-with-kelsey-mckinney-and-alex-sujong-laughlin"/>
-        <updated>2026-06-25T19:42:21.000Z</updated>
-        <summary type="html"><![CDATA[Drew is at the beach, the sun is high and hot in the sky, and all the major sports events are either over or in the early going. If there was ever going to be a moment to give the podcast over to a discussion of podcast industry dysfunction, conquering the fear of failure, and the goings-on among the cadre of horned-up half-sociopaths on Love Island USA, this was it. I knew what had to be done, and so I made the call. Or I sent the Slack message, and then I sent a second one, and then sometime later Kelsey and Alex joined me to talk about real-life stuff and reality TV stuff for what turned out to be a pretty delightful 64 minutes.
-All of which is to say that, despite my early statement to the contrary, we are not breaking down the NBA draft's winners and losers. Instead we spent the first half of the episode talking about Alex's fantastic Try Hard podcast, the second season of which began last week, and which is also making the move to video. We talked about why she chose to do that, and why so many other podcasts have been doing it—a trend that Alex has written about in the past, but which she understands a bit differently from the inside. Some of this was about the mortifying ideal of being known and the rigors of making yourself into an on-camera performer, but a lot of it was about the way the internet works and doesn't work now, from the daunting challenge of finding places where real people are looking for new things to the weirdnesses of "authenticity" as a selling point. We also discussed what celebrity podcasts are for and why they have proliferated in the ways they have, and what they reflect about an industry that seems not to understand or respect its own business very well. I forgot Mitch Hedberg's name in this segment, for which I apologize, although I did manage to paraphrase one of my favorite lines of his accurately enough.]]></summary>
-        <author>
-            <name>David Roth</name>
         </author>
     </entry>
     <entry>
