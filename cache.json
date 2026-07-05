@@ -1031,16 +1031,6 @@
           "wordCount": 214,
           "title": "Emacs APAC: Announcing Emacs Asia-Pacific (APAC) virtual meetup, Saturday, June 27, 2026",
           "imageUrl": null
-        },
-        {
-          "id": "https://metaredux.com/posts/2026/06/26/copilot-el-0-7.html",
-          "author": null,
-          "description": "Good news, everyone – copilot.el\n0.7 is out!\nAnd it’s a big one.\nEver since I took over the maintenance of copilot.el in the spring of 2025, I’ve\nhad one north star: close the gap between Emacs and the editors that enjoy\nfirst-party Copilot support. VS Code and (Neo)vim got the rich, official\nexperience – chat, agents, the whole shebang – while we Emacs folks were stuck\nwith humble ghost-text completion. That never sat right with me. Emacs deserves\nbetter.\nFor a bit of perspective on the pace: in its first three years the project never\nshipped a single tagged release. 0.7 is the seventh I’ve cut since taking over.\nWe’ve been busy.\nFor a long time that gap felt unbridgeable. We were essentially reverse-engineering\nan undocumented protocol and replicating it in Elisp, always one step behind.…",
-          "link": "https://metaredux.com/posts/2026/06/26/copilot-el-0-7.html",
-          "publishedOn": "2026-06-26T09:00:00.000Z",
-          "wordCount": 2175,
-          "title": "Meta Redux: copilot.el 0.7",
-          "imageUrl": "https://metaredux.com/assets/og-image.png"
         }
       ]
     },
@@ -1049,6 +1039,26 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160692",
+          "author": "David Pinto",
+          "description": "Eury Perez of the Marlins retired the first 18 Athletics he faced today. He threw 83 pitches so far, and if he stays perfect it might be tough for him to finish the game. The Marlins lead 8-0, or Perez has a big enough cushion to go after hitters aggressively the rest of the way. […]",
+          "link": "https://www.baseballmusings.com/?p=160692",
+          "publishedOn": "2026-07-05T22:42:46.000Z",
+          "wordCount": 7585,
+          "title": "Perfect Perez",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160690",
+          "author": "David Pinto",
+          "description": "Kennensmith at Just Baseball critiques the pre-arbitration contract extensions made by the Athletics prior to this season. While he makes good points about the quality of the players, and some of the hard times they fell upon, I think he misses the diversification angle. If a team does its research and signs one player who […]",
+          "link": "https://www.baseballmusings.com/?p=160690",
+          "publishedOn": "2026-07-05T22:29:09.000Z",
+          "wordCount": 7733,
+          "title": "Locking Up Players",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160688",
           "author": "David Pinto",
@@ -1517,36 +1527,6 @@
           "publishedOn": "2026-06-26T11:33:46.000Z",
           "wordCount": 7635,
           "title": "The Anti-Beethoven",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160588",
-          "author": "David Pinto",
-          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.337, 0.732 — Yandy Diaz batting vs. Zac Gallen. 0.309, 0.721 — Otto Lopez batting at Michael McGreevy. 0.308, 0.702 — Josh Jung batting at Patrick Corbin. 0.305, 0.697 — Chandler Simpson batting vs. Zac Gallen. 0.299, 0.688 — Jonathan Aranda batting vs. […]",
-          "link": "https://www.baseballmusings.com/?p=160588",
-          "publishedOn": "2026-06-26T10:47:57.000Z",
-          "wordCount": 7935,
-          "title": "Beat the Streak Picks",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160586",
-          "author": "David Pinto",
-          "description": "Junior Caminero of the Rays posted the highest game score of the day on Thursday, an 87. His three for five with three home runs and six RBI propels him back into the top five of the Baseball Musings Batter Rankings. He went through a power drought for 21 games, dropping him out of the […]",
-          "link": "https://www.baseballmusings.com/?p=160586",
-          "publishedOn": "2026-06-26T10:27:02.000Z",
-          "wordCount": 7607,
-          "title": "Best Batter Today",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160584",
-          "author": "David Pinto",
-          "description": "",
-          "link": "https://www.baseballmusings.com/?p=160584",
-          "publishedOn": "2026-06-26T10:13:15.000Z",
-          "wordCount": 7472,
-          "title": "Friday Update",
           "imageUrl": null
         }
       ]
@@ -2164,6 +2144,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=227899",
+          "author": "Kathryn Xu",
+          "description": "Perhaps I can at least thank Max Verstappen for the clarity. Before he ran his Red Bull car into the wall on the 49th of the Silverstone Circuit's 52 laps, the British Grand Prix was shaping up to be too exciting to be coherent. It got off to an uncharacteristically slow start, yes, to the point where I wrote \"first half shocking processional for silverstone\" in my notes and was prepared to place some blame on the sprint format for the ongoing viewership woes. But shortly after, as though the race heard my complaint, it became, as Silverstone always is, one of the best races of the season.\nWhere to start? The feral drivers' parade and their little LEGO minicars? The Verstappen–Lewis Hamilton–George Russell three-way battle for P3? The absurd multiple pass-repass sequences from former teammates Hamilton and Russell during that sequence? Russell's poor luck with a slow puncture that took him out of the fight? What about the more one-sided squabble for the race win between Charles Leclerc in a Ferrari, who had never won at Silverstone, and Kimi Antonelli in a Mercedes, who was the quickest all weekend and set to win convincingly? And within that, what about Antonelli's frightening pace during the race, until it all unraveled when he ran over a curb and the vibrations broke his car and he fought retirement to try to squeeze out just one more point for the Drivers' Championship standings?\nWell, Verstappen dictated that it is most narratively compact to start at the end. After Antonelli's car had already given up, leaving Leclerc and Hamilton in a Ferrari 1-2, Verstappen pushed hard on new medium tires to try to close the gap to Hamilton ahead. On lap 49, he lost his car going into Stowe, and went into the gravel, drawing out the safety car. Verstappen was irate over the radio at his car, but in a more saddened, understated manner than previous rages. The last podium place went to Russell's Mercedes, improving his championship hopes.",
+          "link": "https://defector.com/banger-british-grand-prix-ends-with-a-whimper",
+          "publishedOn": "2026-07-05T21:01:58.000Z",
+          "wordCount": 7402,
+          "title": "Banger British Grand Prix Ends With A Whimper",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/charlesLeclercSilverstone2026.jpg"
+        },
         {
           "id": "https://defector.com/?p=227904",
           "author": "Billy Haisley",
@@ -2930,16 +2920,6 @@
           "wordCount": 2592,
           "title": "Royals on the wrong side of a near no-hitter",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/xgc4s2rpvnpvskgkugbf.html",
-          "author": null,
-          "description": "Jayson Tatum Loves His Grandma96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-decoration: inherit !important; font-size: inherit !impor…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/xgc4s2rpvnpvskgkugbf.html",
-          "publishedOn": "2026-06-26T09:20:34.567Z",
-          "wordCount": 2287,
-          "title": "Jayson Tatum Loves His Grandma",
-          "imageUrl": null
         }
       ]
     },
@@ -3038,16 +3018,6 @@
           "wordCount": 1930,
           "title": "“Nuclear Family Month” shows that MAGA is still coming for same-sex marriage",
           "imageUrl": "https://www.salon.com/app/uploads/2026/06/Pride-Flag-2282035992.jpg"
-        },
-        {
-          "id": "https://www.salon.com/2026/06/26/tucker-carlson-is-not-leaving-the-gop-he-wants-to-take-it-over/-full",
-          "author": null,
-          "description": "Tucker Carlson knows how to get attention. The former Fox News host-turned-powerhouse podcaster got explosive headlines after telling a Canadian podcast “Can’t Be Censored” last week that “there’s no chance I would support the Republican Party” in the upcoming midterms.\nMainstream news outlets portrayed this move in laudatory terms. Carlson is an opponent of the Iran war, so the coverage made it seem like he’s moderating his politics. Words like “disillusioned” were invoked, along with his criticisms of Donald Trump for ignoring the economic woes caused by the war.\nThis is a lovely fable of a longtime Republican loyalist breaking with his party because it’s grown too extreme and out-of-touch. Add a hopeful note about how this could demobilize conservative voters for the midterms, and watch…",
-          "link": "https://www.salon.com/2026/06/26/tucker-carlson-is-not-leaving-the-gop-he-wants-to-take-it-over/",
-          "publishedOn": "2026-06-26T10:45:34.000Z",
-          "wordCount": 2222,
-          "title": "Tucker Carlson is not leaving the GOP. He wants to take it over",
-          "imageUrl": "https://www.salon.com/app/uploads/2026/04/Tucker-Carlson-2259365451.jpg"
         }
       ]
     },
