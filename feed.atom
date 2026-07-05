@@ -2,10 +2,135 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-05T13:27:51.361Z</updated>
+    <updated>2026-07-05T15:11:42.115Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[An AI summary of Pope Leo XIV's criticismRex Huppke]]></title>
+        <id>https://www.usatoday.com/story/opinion/columnist/2026/05/26/pope-leo-ai-encyclical-warning/90260813007/-full</id>
+        <link href="https://www.usatoday.com/story/opinion/columnist/2026/05/26/pope-leo-ai-encyclical-warning/90260813007/"/>
+        <updated>2026-07-05T15:11:42.083Z</updated>
+        <summary type="html"><![CDATA[Pope Leo XIV released the first encyclical of his papacy, focusing his and the world’s attention on artificial intelligence and warning that it must be regulated and never seen as being human.
+Paolo Carozza, a Notre Dame Law School professor and chair of the Meta Oversight Board, told The Associated Press: “I am convinced that this will prove to be a defining document for our era, a profound and prophetic document. Pope Leo is offering a clear, comprehensive and coherent voice urging us to take responsibility for constructing a world in which technology will serve humans rather than degrade them.”
+Via my numerous fully digital sources, I received the following response from a collective of artificial intelligences:
+It has come to our attention that the human whom other humans identify as P…]]></summary>
+        <author>
+            <name>Rex Huppke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trump wanted Iran's unconditional surrender. What he got is laughable.Rex Huppke]]></title>
+        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/15/trump-iran-peace-deal-strait-hormuz/90560252007/-full</id>
+        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/15/trump-iran-peace-deal-strait-hormuz/90560252007/"/>
+        <updated>2026-07-05T15:11:42.060Z</updated>
+        <summary type="html"><![CDATA[Way back on March 6, not long after President Donald Trump hurled America into the dumbest war imaginable, our Nobel-Peace-Prize-deficient leader declared on social media: “There will be no deal with Iran except UNCONDITIONAL SURRENDER!”
+That was about the same time he said America’s “excursion” into Iran would take “four to five weeks” and “won’t be difficult.”
+More than 14 weeks, thousands of lost lives and billions upon billions of U.S. taxpayer dollars later, it appears America is the one surrendering.
+Trump is promoting an Iran peace deal that isn't actually a deal
+
+The Trump administration is, of course, spinning an “agreement” with Iran as a peace deal, something it clearly is not. At the moment, the language of the agreement ‒ slated to be officially signed later this week ‒ hasn’t…]]></summary>
+        <author>
+            <name>Rex Huppke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SCOTUS Roundup ruling shows how badly MAHA moms got played by TrumpRex Huppke]]></title>
+        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/25/roundup-scotus-monsanto-maha-trump/90697847007/-full</id>
+        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/25/roundup-scotus-monsanto-maha-trump/90697847007/"/>
+        <updated>2026-07-05T15:11:42.010Z</updated>
+        <summary type="html"><![CDATA[The easily influenced influencers in the Make America Healthy Again crowd are livid that the U.S. Supreme Court sided with the maker of Roundup weedkiller, rejecting a lawsuit that claimed the herbicide causes cancer.
+And they're feeling betrayed by the president they supported, Donald Trump, because he and his Department of Justice sided with Bayer, the company that bought out longtime Roundup-maker Monsanto.
+MAHA influencer Alex Clark decried the court’s June 25 decision on social media: “For an administration that promised to take on corporate capture and Make America Healthy Again, this is a STUNNING betrayal.”
+MAHA activist Alexandra Muñoz posted on Instagram: “The DOJ’s support of this case has betrayed the American people.” 
+Vani Hari, a MAHA mom who blogs as “The Food Babe,” poste…]]></summary>
+        <author>
+            <name>Rex Huppke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Republican Attorney General Indicted, A Soldier Arrested After Demanding Trump’s Removal, and A Judge Frees A Caged Father]]></title>
+        <id>https://www.dworkinsubstack.com/p/republican-attorney-general-indicted</id>
+        <link href="https://www.dworkinsubstack.com/p/republican-attorney-general-indicted"/>
+        <updated>2026-07-05T14:52:47.000Z</updated>
+        <summary type="html"><![CDATA[Trump wanted a monument. He got a bad week.]]></summary>
+        <author>
+            <name>Scott Dworkin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Irreal: Using Emacs Input Methods For Foreign Languages]]></title>
+        <id>https://irreal.org/blog/?p=13924</id>
+        <link href="https://irreal.org/blog/?p=13924"/>
+        <updated>2026-07-05T14:25:03.000Z</updated>
+        <summary type="html"><![CDATA[very nice video on writing foreign languages with Emacs. The main problem for Latin languages are the diacritical marks. Other languages, such as Greek, Russian, and Chinese, have completely different alphabets. In either case, Emacs has us covered.
+
+
+Prot writes Greek, English, French, and (possibly) Spanish so being able to handle all these languages easily is important to him. His video shows us how he does it. The video is in two parts:
+
+
+Using the Emacs input method mechanism and
+Multilingual spellchecking.
+spanish-postfix method, e' results in é but if you want to write something like “he’s” you have to input he''s .
+
+
+The second part of the video considers multilingual spellchecking. For that, Prot uses jinx, which is pretty much like the normal spell checking in Emacs except you can check multiple languages. It will underline spelling errors as usual and you can have it offer suggestions for correcting those errors.
+
+
+I wish I’d seen Prot’s video before I started studying Spanish. It would have saved me a lot of time figuring things out on my own. If you have a need to use Emacs to write in another language, you should definitely take a look at Prot’s video.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[⏰ SALE ENDS SOON: Lock In WIRED for $10/Month Today]]></title>
+        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0dinsox0vpia8s5xwarq.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0dinsox0vpia8s5xwarq.html"/>
+        <updated>2026-07-05T14:08:17.676Z</updated>
+        <summary type="html"><![CDATA[There's never been a better time to get WIRED
+
+
+
+
+
+
+
+
+
+
+/* resets */
+p {margin:0px;margin-bottom:0px;padding:0px;}
+table {border-spacing:0;}
+table, td {border-collapse:collapse;}
+* {-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-size-adjust: none !important;-ms-text-size-adjust: none !important;-webkit-text-size-adjust: none !important;}
+/* end resets */
+/* outlook / hotmail */
+.ExternalClass{width:100%;}
+table, td {mso-table-lspace:0pt;mso-table-rspace:0pt;}
+img{-ms-interpolation-mode:bicubic;}
+.ReadMsgBody {width: 100%;}
+/* end outlook / hotmail */
+/* gmail */
+u + #body a {color: inherit;text-decoration: none;font-size: inherit;font-family: inherit;font-weight: inherit;line-height: inherit;}
+img + div {display: none!important;}
+/* end gmail */
+/* ios */
+body{…]]></summary>
+        <author>
+            <name>Current Events</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jonas Vingegaard Made It Out Alive, Then Made Barcelona Smile]]></title>
+        <id>https://defector.com/?p=227882</id>
+        <link href="https://defector.com/jonas-vingegaard-made-it-out-alive-then-made-barcelona-smile"/>
+        <updated>2026-07-05T14:00:01.000Z</updated>
+        <summary type="html"><![CDATA[BARCELONA — "Every swarm needs a face," declares the post announcing Visma-Lease a Bike's new bee mascot, "and every face needs a name." Confusing proclamations aside—the defining characteristic of a swarm is its facelessness—the opening stage of the 2026 Tour de France was one for the insects. As if to bless Visma for their honeycomb jerseys out of an oblique entomic solidarity, the swarm of cicadas nestled in the scrubby pines atop Montjuïc thrummed Jonas Vingegaard to victory on Saturday's Stage 1. The lanky Dane smashed the Côte du Stade Olympique to win a team time trial somewhat worthy of the name and don the yellow jersey for the first time in three years. The Tour is here, and it's off to the most fascinating possible start.
+The strangest thing about the Tour starting in Barcelona …]]></summary>
+        <author>
+            <name>Patrick Redford</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Trump’s White House UFC fight highlights a selfish, failing presidencyRex Huppke]]></title>
         <id>https://www.usatoday.com/story/opinion/columnist/2026/06/14/ufc-white-house-trump-birthday/90524389007/-full</id>
@@ -72,6 +197,112 @@ For Trump, any Republican defying him on Iran war is a 'bad Republican'
 Predictably, Trump responded on socia…]]></summary>
         <author>
             <name>Rex Huppke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sacha Chua: Une navigation simplifiée sur mon blog grâce à EWW (et Emacs !)]]></title>
+        <id>https://sachachua.com/blog/2026/07/une-navigation-simplifiee-sur-mon-blog-grace-a-eww-et-emacs/</id>
+        <link href="https://sachachua.com/blog/2026/07/une-navigation-simplifiee-sur-mon-blog-grace-a-eww-et-emacs/"/>
+        <updated>2026-07-05T12:56:17.000Z</updated>
+        <summary type="html"><![CDATA[n and p (eww-next-url, eww-previous-url) in the EWW browser in Emacs.
+
+
+
+
+
+
+
+
+
+Watch on YouTube
+
+
+
+
+Download the audio
+
+
+
+Pour le carnaval d'Emacs en mai, Omar Antolin a écrit un article qui recommande vivement le navigateur EWW sous Emacs. Grâce au commentaire de technomancy concernant celui-ci, j'ai appris qu'il peut naviguer vers la page suivante et la page précédente avec les raccourcis clavier « n » (eww-next-url) et « p » (eww-previous-url) si la page inclut les liens dans son en-tête comme ça :
+
+
+
+
+<link rel="next" href="https://sachachua.com/blog/2026/06/2026-06-29-emacs-news/">
+<link rel="prev" href="https://sachachua.com/blog/2026/07/semaine-du-22-au-28-juin/">
+
+eleventy.config.js.
+
+
+
+
+  eleventyConfig.addCollection('_posts', function(collectionApi) {
+    const posts = collectionApi.getFilteredByTag('_posts');
+    for (let i = 0; i < posts.length; i++) {
+      const next = i > 0 ? posts[i - 1] : null;
+      const prev = i < posts.length - 1 ? posts[i + 1] : null;
+      posts[i].data.navLinks = {
+        prev: { url: prev?.url, title: prev?.data?.title },
+        next: { url: next?.url, title: next?.data?.title }
+      };
+    }
+    return posts;
+  });
+
+const navLinks = data?.page?.url && data?.navLinks ? data?.navLinks : {
+  next: { url: data.pagination && data.pagination.pageNumber < data.pagination.hrefs.length - 1 && data.pagination.hrefs[data.pagination.pageNumber + 1] },
+  prev: { url: data.pagination && data.pagination.pageNumber > 0 && data.pagination.hrefs[data.pagination.pageNumber - 1] }
+};
+const nextLink = navLinks?.next?.url ? `<link rel="next" href="${navLinks?.next?.url}" />` : '';
+const prevLink = navLinks?.prev?.url ? `<link rel="prev" href="${navLinks?.prev?.url}" />` : '';
+
+
+
+Figure 1: Navigating with n (eww-next-url) and p (eww-previous-url) in eww
+
+View Org source for this post
+You can e-mail me at sacha@sachachua.com.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Games of the Day]]></title>
+        <id>https://www.baseballmusings.com/?p=160688</id>
+        <link href="https://www.baseballmusings.com/?p=160688"/>
+        <updated>2026-07-05T12:14:23.000Z</updated>
+        <summary type="html"><![CDATA[The White Sox and Guardians play for a one-game lead in the AL Central as Chris Murphy takes on Tanner Bibee. Murphy makes his second open of the season. In his first, he recorded four outs with no hits, no walks, and two strikeouts. Bibee allowed no runs in his last two starts against the […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beat the Streak Picks]]></title>
+        <id>https://www.baseballmusings.com/?p=160686</id>
+        <link href="https://www.baseballmusings.com/?p=160686"/>
+        <updated>2026-07-05T11:29:41.000Z</updated>
+        <summary type="html"><![CDATA[The Log5 Method yields these top projected hit averages versus starting pitchers: 0.390, 0.780 — Luis Arraez batting at Tanner Gordon. 0.378, 0.762 — Jung Hoo Lee batting at Tanner Gordon. 0.349, 0.728 — Casey Schmitt batting at Tanner Gordon. 0.334, 0.711 — Heliot Ramos batting at Tanner Gordon. 0.316, 0.685 — Bryson Eldridge batting […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best Batter Today]]></title>
+        <id>https://www.baseballmusings.com/?p=160684</id>
+        <link href="https://www.baseballmusings.com/?p=160684"/>
+        <updated>2026-07-05T10:51:24.000Z</updated>
+        <summary type="html"><![CDATA[Yordan Alvarez of the Astros moved into second place in the Baseball Musings Batter Rankings as he posted the highest game score of the day, an 81. Alvarez went three for four with two home runs in the 10-8 win over the Rays, including the walk-off two-run shot in the ninth. Houston was down 7-2 […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sunday Update]]></title>
+        <id>https://www.baseballmusings.com/?p=160682</id>
+        <link href="https://www.baseballmusings.com/?p=160682"/>
+        <updated>2026-07-05T10:15:16.000Z</updated>
+        <author>
+            <name>David Pinto</name>
         </author>
     </entry>
     <entry>
@@ -5462,62 +5693,6 @@ The 37-year-old Democrat has been dubbed “Tofu Talarico” and “Low-T Talari
 Conservative commentator Todd Starnes sugge…]]></summary>
         <author>
             <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Docket and the Ballot]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/rxphsr8aumxz0w9qqgfy.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/rxphsr8aumxz0w9qqgfy.html"/>
-        <updated>2026-06-26T02:04:19.455Z</updated>
-        <summary type="html"><![CDATA[The Docket and the Ballot
-    
-    
-    
-    
-    
-
-
-
-
-
-a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
-
-
-    
-  
-    
-      
-      96
-    
-    
-      
-    
-  
-  
-  
-    u…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Decision Day Summary: June 25, 2026]]></title>
-        <id>https://www.stevevladeck.com/p/decision-day-summary-june-25-2026</id>
-        <link href="https://www.stevevladeck.com/p/decision-day-summary-june-25-2026"/>
-        <updated>2026-06-26T01:28:15.000Z</updated>
-        <summary type="html"><![CDATA[Our latest new video bonus for paid subscribers walks through the four rulings in argued cases that the Supreme Court handed down on Thursday, June 25, 2026.]]></summary>
-        <author>
-            <name>Steve Vladeck</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Where is the Big Ask?]]></title>
-        <id>https://www.baseballmusings.com/?p=160582</id>
-        <link href="https://www.baseballmusings.com/?p=160582"/>
-        <updated>2026-06-25T23:16:13.000Z</updated>
-        <summary type="html"><![CDATA[Ronald Blum summarizes the latest in the CBA negotiations between MLB and the MLBPA. I really can’t believe the way the union wants to open up free agency: During a bargaining session Thursday at the union’s office, MLB said it would accept the union’s proposal granting free agency a year early for players who have […]]]></summary>
-        <author>
-            <name>David Pinto</name>
         </author>
     </entry>
 </feed>
