@@ -2,28 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-05T22:59:59.845Z</updated>
+    <updated>2026-07-06T03:24:02.792Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
     <entry>
-        <title type="html"><![CDATA[Perfect Perez]]></title>
-        <id>https://www.baseballmusings.com/?p=160692</id>
-        <link href="https://www.baseballmusings.com/?p=160692"/>
-        <updated>2026-07-05T22:42:46.000Z</updated>
-        <summary type="html"><![CDATA[Eury Perez of the Marlins retired the first 18 Athletics he faced today. He threw 83 pitches so far, and if he stays perfect it might be tough for him to finish the game. The Marlins lead 8-0, or Perez has a big enough cushion to go after hitters aggressively the rest of the way. […]]]></summary>
+        <title type="html"><![CDATA[Raymond Zeitler: Emacs Carnival July 2026 -- Programming]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/07/emacs-carnival-july-2026-programming.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/07/emacs-carnival-july-2026-programming.html"/>
+        <updated>2026-07-06T02:22:09.964Z</updated>
+        <summary type="html"><![CDATA[I don't think of Emacs as an IDE or even a programming environment
+unless I'm writing Lisp to automate Emacs.  Instead, I consider Emacs
+  to be a text editor with some useful extras.
+Syntax highlighting (font-lock-mode) is a nice extra.  It might seem
+strange that I consider syntax highlighting to be an extra.  If you've
+used a text editor 40 years ago, you'll understand why -- text editors
+didn't have the feature.  Syntax highlighting was the purview of the
+compiler tool.  My first experience with syntax highlighting was with
+Borland Turbo Pascal; I used Borland Turbo C soon after.  (I think
+  Borland's Turbo Assembler, TASM, had the feature, too.)
+According to packages-selected-packages, these are the programming
+  modes I have configured:
+basic-mode
+csv-mode
+gnuplot
+matlab-mode
+powersh…]]></summary>
         <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Locking Up Players]]></title>
-        <id>https://www.baseballmusings.com/?p=160690</id>
-        <link href="https://www.baseballmusings.com/?p=160690"/>
-        <updated>2026-07-05T22:29:09.000Z</updated>
-        <summary type="html"><![CDATA[Kennensmith at Just Baseball critiques the pre-arbitration contract extensions made by the Athletics prior to this season. While he makes good points about the quality of the players, and some of the hard times they fell upon, I think he misses the diversification angle. If a team does its research and signs one player who […]]]></summary>
-        <author>
-            <name>David Pinto</name>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -5573,16 +5579,6 @@ Carl must slay the naga princess! If he doesn’t, his best friend—the talking
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Trump Came For Your Ballot Twice. Two Judges Just Said No.]]></title>
-        <id>https://www.dworkinsubstack.com/p/trump-came-for-your-ballot-twice</id>
-        <link href="https://www.dworkinsubstack.com/p/trump-came-for-your-ballot-twice"/>
-        <updated>2026-06-26T15:08:01.000Z</updated>
-        <summary type="html"><![CDATA[Plus: DeSantis’s prison camp collapses, and Spokane stares down Big Tech]]></summary>
-        <author>
-            <name>Scott Dworkin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Games of the Day]]></title>
         <id>https://www.baseballmusings.com/?p=160592</id>
         <link href="https://www.baseballmusings.com/?p=160592"/>
@@ -5590,106 +5586,6 @@ Carl must slay the naga princess! If he doesn’t, his best friend—the talking
         <summary type="html"><![CDATA[The Red Sox try to make it two in row against the Yankees at Fenway as Will Warren takes on Payton Tolle. Warren comes with a 7-2 record and a 3.45 ERA. If the Red Sox can put the bat on the ball, he does allow a .321 BABIP. Tolle’s stats run against the Yankees […]]]></summary>
         <author>
             <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tom Dundon Cares Not One Bit About The Portland Trail Blazers]]></title>
-        <id>https://defector.com/?p=227115</id>
-        <link href="https://defector.com/tom-dundon-cares-not-one-bit-about-the-portland-trail-blazers"/>
-        <updated>2026-06-26T14:53:00.000Z</updated>
-        <summary type="html"><![CDATA[It takes a special kind of creep to stand out for sleaziness among NBA owners, objectively one of the worst demographics our species has ever established. Tom Dundon has been the official majority owner of the Portland Trail Blazers for less than three months, and already he is a standard-bearer. It's clear he doesn't mind being a villain. Having already downsized the organization with layoffs, pinched on travel accommodations, stiffed his team's two-way players, and cheaped out on playoff T-shirts, Dundon is now engaged in brinkmanship with the city of Portland over funding for arena renovations. Even that description is too generous: Dundon told an assembly of Portland businesspeople Wednesday night that he intends to pay a whopping zero dollars of his own money toward a $600 million pro…]]></summary>
-        <author>
-            <name>Chris Thompson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Marina Mabrey Got 53 The Fun Way]]></title>
-        <id>https://defector.com/?p=227125</id>
-        <link href="https://defector.com/marina-mabrey-got-53-the-fun-way"/>
-        <updated>2026-06-26T14:31:44.000Z</updated>
-        <summary type="html"><![CDATA["I score in bunches, and then sometimes kinda just level out," Toronto Tempo guard Marina Mabrey said near the end of her press conference, after the Tempo's 125-97 win over the L.A. Sparks on Thursday. It was an accurate description of her own game, which is built on constant movement and a scalding but occasionally evanescent shooting touch. Last night, however, we finally got to see what would happen if Mabrey never reached the "kinda just level out" phase. What if a whole game was just one big scoring bunch? Well, in that case, Mabrey would walk away with 53 points and a share of the WNBA single-game scoring record.
-
-https://www.youtube.com/watch?v=Z5OHRTRpztE
-
-
-Save your tsking about stat-padding for the next gunner who goes for the record, because this is as pure as 53-point nights come. Mabrey went 17-of-28 from the floor, 9-of-18 from three-point range, and 10-of-12 from the free-throw line. And thanks to the quirks of the Tempo's home arena, she wasn't even aware that the record was in reach until she had 50 points.]]></summary>
-        <author>
-            <name>Tom Ley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Final Day At Aqueduct, New York’s Forlorn And Forgotten Racetrack]]></title>
-        <id>https://defector.com/?p=227117</id>
-        <link href="https://defector.com/a-final-day-at-aqueduct-new-yorks-forlorn-and-forgotten-racetrack"/>
-        <updated>2026-06-26T13:02:28.000Z</updated>
-        <summary type="html"><![CDATA[Late in the morning of June 13, as most New York City sports fans were mapping out their plans for watching Game 5 of the NBA Finals, I was on the A train headed away from the Brooklyn neighborhood I've called home for 17 years. I was on my way to Aqueduct Racetrack, post time 1:10 p.m. 
-At the end of the month, after 132 years of equine action, Aqueduct will no longer run horses. The first race took place on Sept. 27, 1894, on a track operated by the Queens County Jockey Club, in a facility named for its locale, where water was delivered to New York City from the Hempstead Long Island Plain. At one point, Aqueduct was a place where people came to soak in the glitz and glamor of the Sport of Kings. When it finally closes its doors after the 5:44  p.m. post time on June 28, nobody but a dwindling crowd of regulars is likely to even notice.
-The story of Aqueduct's slow demise is not much different from any fading racetrack's. Off-track betting gave way to TV simulcasts, which gave way to legalized mobile sports gambling. There's just not much reason to come to a place like this, even for chronic gamblers or horse-racing obsessives.]]></summary>
-        <author>
-            <name>Patrick Sauer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Royals on the wrong side of a near no-hitter]]></title>
-        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/i380rgmko6tdjii7k3e1.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/i380rgmko6tdjii7k3e1.html"/>
-        <updated>2026-06-26T12:41:24.451Z</updated>
-        <summary type="html"><![CDATA[96
-        Royals on the wrong side of a near no-hitter
-        
-@media only screen and (max-width: 620px) {
-  table.body {
-    width: 100%;
-    min-width: 100%;
-  }
-
-  table.body .content {
-    padding: 0 !important;
-  }
-
-  table.body .container {
-    padding: 0 !important;
-    width: 100% !important;
-  }
-
-  table.body .main {
-    border-spacing: 10px 0 !important;
-    border-left-width: 0 !important;
-    border-radius: 0 !important;
-    border-right-width: 0 !important;
-  }
-
-  table.body .img-responsive {
-    height: auto !important;
-    max-width: 100% !important;
-    width: auto !important;
-  }
-}
-@media all {
-  .ExternalClass {
-    width: 100%;
-  }
-
-  .ExternalClass,
-.ExternalClass p,
-.ExternalClass span,
-.ExternalClass font,
-.ExternalClass td,
-.ExternalClass div {
-    line-height: 100…]]></summary>
-        <author>
-            <name>Misc Newsletters</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Samuel Alito’s Jab at Hawaiian Culture Is Red Meat For Online Conservatives]]></title>
-        <id>https://ballsandstrikes.org/?p=18453</id>
-        <link href="https://ballsandstrikes.org/scotus/samuel-alito-culture-hawaii-jab/"/>
-        <updated>2026-06-26T12:00:11.000Z</updated>
-        <summary type="html"><![CDATA[The justice’s reference to the “spirit of Aloha” betrays his contempt for the very idea of taking Hawaii’s history and legal traditions seriously.
-The post Samuel Alito’s Jab at Hawaiian Culture Is Red Meat For <span class="dewidow">Online Conservatives</span> appeared first on Balls and Strikes.]]></summary>
-        <author>
-            <name>Quinn Yeargain</name>
         </author>
     </entry>
     <entry>
@@ -5703,19 +5599,32 @@ The post Samuel Alito’s Jab at Hawaiian Culture Is Red Meat For <span class="d
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Talarico tells, and shows, Texans exactly what it means to be a manRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/06/james-talarico-texas-masculinity/90420159007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/06/james-talarico-texas-masculinity/90420159007/"/>
-        <updated>2026-06-26T03:34:35.666Z</updated>
-        <summary type="html"><![CDATA[Let’s try, for a moment, to remove politics from a discussion of James Talarico, the Democratic state representative from Texas running for the U.S. Senate.
-It’s not an easy thing to do when talking about a politician, but let’s give it a whirl.
-Since Talarico’s Republican opponent, Texas Attorney General Ken Paxton, won the GOP primary on May 26, he and his party have pushed the issue of manliness and masculinity to the forefront.
-Talarico's opponents want you to believe name-calling is manly
-
-The 37-year-old Democrat has been dubbed “Tofu Talarico” and “Low-T Talarico.” White House Deputy Chief of Staff Stephen Miller wrote of Talarico on social media: “The Democrats made history in Texas by nominating their first transgender senate candidate.”
-Conservative commentator Todd Starnes sugge…]]></summary>
+        <title type="html"><![CDATA[Beat the Streak Picks]]></title>
+        <id>https://www.baseballmusings.com/?p=160588</id>
+        <link href="https://www.baseballmusings.com/?p=160588"/>
+        <updated>2026-06-26T10:47:57.000Z</updated>
+        <summary type="html"><![CDATA[The Log5 Method yields these top projected hit averages versus starting pitchers: 0.337, 0.732 — Yandy Diaz batting vs. Zac Gallen. 0.309, 0.721 — Otto Lopez batting at Michael McGreevy. 0.308, 0.702 — Josh Jung batting at Patrick Corbin. 0.305, 0.697 — Chandler Simpson batting vs. Zac Gallen. 0.299, 0.688 — Jonathan Aranda batting vs. […]]]></summary>
         <author>
-            <name>Rex Huppke</name>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best Batter Today]]></title>
+        <id>https://www.baseballmusings.com/?p=160586</id>
+        <link href="https://www.baseballmusings.com/?p=160586"/>
+        <updated>2026-06-26T10:27:02.000Z</updated>
+        <summary type="html"><![CDATA[Junior Caminero of the Rays posted the highest game score of the day on Thursday, an 87. His three for five with three home runs and six RBI propels him back into the top five of the Baseball Musings Batter Rankings. He went through a power drought for 21 games, dropping him out of the […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Friday Update]]></title>
+        <id>https://www.baseballmusings.com/?p=160584</id>
+        <link href="https://www.baseballmusings.com/?p=160584"/>
+        <updated>2026-06-26T10:13:15.000Z</updated>
+        <author>
+            <name>David Pinto</name>
         </author>
     </entry>
 </feed>

@@ -231,22 +231,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/648c36e7-fe0c-499e-a94b-ea164359bb72_2048x1152.png"
-        },
-        {
-          "id": "https://www.dworkinsubstack.com/p/trump-came-for-your-ballot-twice",
-          "author": "Scott Dworkin",
-          "description": "Plus: DeSantis’s prison camp collapses, and Spokane stares down Big Tech",
-          "link": "https://www.dworkinsubstack.com/p/trump-came-for-your-ballot-twice",
-          "publishedOn": "2026-06-26T15:08:01.000Z",
-          "wordCount": null,
-          "title": "Trump Came For Your Ballot Twice. Two Judges Just Said No.",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/14f0348f-827e-4dcd-a792-4f93b1dd1f07_1200x675.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/14f0348f-827e-4dcd-a792-4f93b1dd1f07_1200x675.png"
         }
       ]
     },
@@ -622,6 +606,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://ray-on-emacs.blogspot.com/2026/07/emacs-carnival-july-2026-programming.html",
+          "author": null,
+          "description": "I don't think of Emacs as an IDE or even a programming environment\nunless I'm writing Lisp to automate Emacs.  Instead, I consider Emacs\n  to be a text editor with some useful extras.\nSyntax highlighting (font-lock-mode) is a nice extra.  It might seem\nstrange that I consider syntax highlighting to be an extra.  If you've\nused a text editor 40 years ago, you'll understand why -- text editors\ndidn't have the feature.  Syntax highlighting was the purview of the\ncompiler tool.  My first experience with syntax highlighting was with\nBorland Turbo Pascal; I used Borland Turbo C soon after.  (I think\n  Borland's Turbo Assembler, TASM, had the feature, too.)\nAccording to packages-selected-packages, these are the programming\n  modes I have configured:\nbasic-mode\ncsv-mode\ngnuplot\nmatlab-mode\npowersh…",
+          "link": "https://ray-on-emacs.blogspot.com/2026/07/emacs-carnival-july-2026-programming.html",
+          "publishedOn": "2026-07-06T02:22:09.964Z",
+          "wordCount": 2921,
+          "title": "Raymond Zeitler: Emacs Carnival July 2026 -- Programming",
+          "imageUrl": null
+        },
         {
           "id": "https://irreal.org/blog/?p=13924",
           "author": null,
@@ -1039,26 +1033,6 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
-        {
-          "id": "https://www.baseballmusings.com/?p=160692",
-          "author": "David Pinto",
-          "description": "Eury Perez of the Marlins retired the first 18 Athletics he faced today. He threw 83 pitches so far, and if he stays perfect it might be tough for him to finish the game. The Marlins lead 8-0, or Perez has a big enough cushion to go after hitters aggressively the rest of the way. […]",
-          "link": "https://www.baseballmusings.com/?p=160692",
-          "publishedOn": "2026-07-05T22:42:46.000Z",
-          "wordCount": 7585,
-          "title": "Perfect Perez",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160690",
-          "author": "David Pinto",
-          "description": "Kennensmith at Just Baseball critiques the pre-arbitration contract extensions made by the Athletics prior to this season. While he makes good points about the quality of the players, and some of the hard times they fell upon, I think he misses the diversification angle. If a team does its research and signs one player who […]",
-          "link": "https://www.baseballmusings.com/?p=160690",
-          "publishedOn": "2026-07-05T22:29:09.000Z",
-          "wordCount": 7733,
-          "title": "Locking Up Players",
-          "imageUrl": null
-        },
         {
           "id": "https://www.baseballmusings.com/?p=160688",
           "author": "David Pinto",
@@ -1528,6 +1502,36 @@
           "wordCount": 7635,
           "title": "The Anti-Beethoven",
           "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160588",
+          "author": "David Pinto",
+          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.337, 0.732 — Yandy Diaz batting vs. Zac Gallen. 0.309, 0.721 — Otto Lopez batting at Michael McGreevy. 0.308, 0.702 — Josh Jung batting at Patrick Corbin. 0.305, 0.697 — Chandler Simpson batting vs. Zac Gallen. 0.299, 0.688 — Jonathan Aranda batting vs. […]",
+          "link": "https://www.baseballmusings.com/?p=160588",
+          "publishedOn": "2026-06-26T10:47:57.000Z",
+          "wordCount": 7935,
+          "title": "Beat the Streak Picks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160586",
+          "author": "David Pinto",
+          "description": "Junior Caminero of the Rays posted the highest game score of the day on Thursday, an 87. His three for five with three home runs and six RBI propels him back into the top five of the Baseball Musings Batter Rankings. He went through a power drought for 21 games, dropping him out of the […]",
+          "link": "https://www.baseballmusings.com/?p=160586",
+          "publishedOn": "2026-06-26T10:27:02.000Z",
+          "wordCount": 7607,
+          "title": "Best Batter Today",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160584",
+          "author": "David Pinto",
+          "description": "",
+          "link": "https://www.baseballmusings.com/?p=160584",
+          "publishedOn": "2026-06-26T10:13:15.000Z",
+          "wordCount": 7472,
+          "title": "Friday Update",
+          "imageUrl": null
         }
       ]
     },
@@ -1625,16 +1629,6 @@
           "wordCount": 2296,
           "title": "Watson v RNC: Samuel Alito, the Supreme Court’s Leading Voter Fraud Conspiracy Theorist",
           "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2021/12/GettyImages-1134321073-scaled.jpg"
-        },
-        {
-          "id": "https://ballsandstrikes.org/?p=18453",
-          "author": "Quinn Yeargain",
-          "description": "The justice’s reference to the “spirit of Aloha” betrays his contempt for the very idea of taking Hawaii’s history and legal traditions seriously.\nThe post Samuel Alito’s Jab at Hawaiian Culture Is Red Meat For <span class=\"dewidow\">Online Conservatives</span> appeared first on Balls and Strikes.",
-          "link": "https://ballsandstrikes.org/scotus/samuel-alito-culture-hawaii-jab/",
-          "publishedOn": "2026-06-26T12:00:11.000Z",
-          "wordCount": 2148,
-          "title": "Samuel Alito’s Jab at Hawaiian Culture Is Red Meat For Online Conservatives",
-          "imageUrl": "https://ballsandstrikes.org/wp-content/uploads/2022/10/GettyImages-1431382186-scaled.jpg"
         }
       ]
     },
@@ -2150,7 +2144,7 @@
           "description": "Perhaps I can at least thank Max Verstappen for the clarity. Before he ran his Red Bull car into the wall on the 49th of the Silverstone Circuit's 52 laps, the British Grand Prix was shaping up to be too exciting to be coherent. It got off to an uncharacteristically slow start, yes, to the point where I wrote \"first half shocking processional for silverstone\" in my notes and was prepared to place some blame on the sprint format for the ongoing viewership woes. But shortly after, as though the race heard my complaint, it became, as Silverstone always is, one of the best races of the season.\nWhere to start? The feral drivers' parade and their little LEGO minicars? The Verstappen–Lewis Hamilton–George Russell three-way battle for P3? The absurd multiple pass-repass sequences from former teammates Hamilton and Russell during that sequence? Russell's poor luck with a slow puncture that took him out of the fight? What about the more one-sided squabble for the race win between Charles Leclerc in a Ferrari, who had never won at Silverstone, and Kimi Antonelli in a Mercedes, who was the quickest all weekend and set to win convincingly? And within that, what about Antonelli's frightening pace during the race, until it all unraveled when he ran over a curb and the vibrations broke his car and he fought retirement to try to squeeze out just one more point for the Drivers' Championship standings?\nWell, Verstappen dictated that it is most narratively compact to start at the end. After Antonelli's car had already given up, leaving Leclerc and Hamilton in a Ferrari 1-2, Verstappen pushed hard on new medium tires to try to close the gap to Hamilton ahead. On lap 49, he lost his car going into Stowe, and went into the gravel, drawing out the safety car. Verstappen was irate over the radio at his car, but in a more saddened, understated manner than previous rages. The last podium place went to Russell's Mercedes, improving his championship hopes.",
           "link": "https://defector.com/banger-british-grand-prix-ends-with-a-whimper",
           "publishedOn": "2026-07-05T21:01:58.000Z",
-          "wordCount": 7402,
+          "wordCount": 7387,
           "title": "Banger British Grand Prix Ends With A Whimper",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/charlesLeclercSilverstone2026.jpg"
         },
@@ -2703,36 +2697,6 @@
           "wordCount": 16681,
           "title": "Left In The Dungeon",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/Untitled-design-22.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=227115",
-          "author": "Chris Thompson",
-          "description": "It takes a special kind of creep to stand out for sleaziness among NBA owners, objectively one of the worst demographics our species has ever established. Tom Dundon has been the official majority owner of the Portland Trail Blazers for less than three months, and already he is a standard-bearer. It's clear he doesn't mind being a villain. Having already downsized the organization with layoffs, pinched on travel accommodations, stiffed his team's two-way players, and cheaped out on playoff T-shirts, Dundon is now engaged in brinkmanship with the city of Portland over funding for arena renovations. Even that description is too generous: Dundon told an assembly of Portland businesspeople Wednesday night that he intends to pay a whopping zero dollars of his own money toward a $600 million pro…",
-          "link": "https://defector.com/tom-dundon-cares-not-one-bit-about-the-portland-trail-blazers",
-          "publishedOn": "2026-06-26T14:53:00.000Z",
-          "wordCount": 7520,
-          "title": "Tom Dundon Cares Not One Bit About The Portland Trail Blazers",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2269722207.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=227125",
-          "author": "Tom Ley",
-          "description": "\"I score in bunches, and then sometimes kinda just level out,\" Toronto Tempo guard Marina Mabrey said near the end of her press conference, after the Tempo's 125-97 win over the L.A. Sparks on Thursday. It was an accurate description of her own game, which is built on constant movement and a scalding but occasionally evanescent shooting touch. Last night, however, we finally got to see what would happen if Mabrey never reached the \"kinda just level out\" phase. What if a whole game was just one big scoring bunch? Well, in that case, Mabrey would walk away with 53 points and a share of the WNBA single-game scoring record.\n\nhttps://www.youtube.com/watch?v=Z5OHRTRpztE\n\n\nSave your tsking about stat-padding for the next gunner who goes for the record, because this is as pure as 53-point nights come. Mabrey went 17-of-28 from the floor, 9-of-18 from three-point range, and 10-of-12 from the free-throw line. And thanks to the quirks of the Tempo's home arena, she wasn't even aware that the record was in reach until she had 50 points.",
-          "link": "https://defector.com/marina-mabrey-got-53-the-fun-way",
-          "publishedOn": "2026-06-26T14:31:44.000Z",
-          "wordCount": 5314,
-          "title": "Marina Mabrey Got 53 The Fun Way",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2282822868.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=227117",
-          "author": "Patrick Sauer",
-          "description": "Late in the morning of June 13, as most New York City sports fans were mapping out their plans for watching Game 5 of the NBA Finals, I was on the A train headed away from the Brooklyn neighborhood I've called home for 17 years. I was on my way to Aqueduct Racetrack, post time 1:10 p.m. \nAt the end of the month, after 132 years of equine action, Aqueduct will no longer run horses. The first race took place on Sept. 27, 1894, on a track operated by the Queens County Jockey Club, in a facility named for its locale, where water was delivered to New York City from the Hempstead Long Island Plain. At one point, Aqueduct was a place where people came to soak in the glitz and glamor of the Sport of Kings. When it finally closes its doors after the 5:44  p.m. post time on June 28, nobody but a dwindling crowd of regulars is likely to even notice.\nThe story of Aqueduct's slow demise is not much different from any fading racetrack's. Off-track betting gave way to TV simulcasts, which gave way to legalized mobile sports gambling. There's just not much reason to come to a place like this, even for chronic gamblers or horse-racing obsessives.",
-          "link": "https://defector.com/a-final-day-at-aqueduct-new-yorks-forlorn-and-forgotten-racetrack",
-          "publishedOn": "2026-06-26T13:02:28.000Z",
-          "wordCount": 17230,
-          "title": "A Final Day At Aqueduct, New York’s Forlorn And Forgotten Racetrack",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2089857287.jpg"
         }
       ]
     },
@@ -2909,16 +2873,6 @@
           "publishedOn": "2026-06-27T11:01:40.267Z",
           "wordCount": 2958,
           "title": "Legal ruling blocking Trump hunt for noncitizen voters may not help those already flagged",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/i380rgmko6tdjii7k3e1.html",
-          "author": null,
-          "description": "96\n        Royals on the wrong side of a near no-hitter\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    line-height: 100…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/i380rgmko6tdjii7k3e1.html",
-          "publishedOn": "2026-06-26T12:41:24.451Z",
-          "wordCount": 2592,
-          "title": "Royals on the wrong side of a near no-hitter",
           "imageUrl": null
         }
       ]
@@ -3555,16 +3509,6 @@
           "wordCount": 4160,
           "title": "At my son's college graduation, why wasn't I the one being celebrated?Rex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/01/29/USAT/88415905007-usatsi-26072172-168415644-lowres.jpg?crop=1248,701,x2,y121&width=1248&height=701&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/06/james-talarico-texas-masculinity/90420159007/-full",
-          "author": "Rex Huppke",
-          "description": "Let’s try, for a moment, to remove politics from a discussion of James Talarico, the Democratic state representative from Texas running for the U.S. Senate.\nIt’s not an easy thing to do when talking about a politician, but let’s give it a whirl.\nSince Talarico’s Republican opponent, Texas Attorney General Ken Paxton, won the GOP primary on May 26, he and his party have pushed the issue of manliness and masculinity to the forefront.\nTalarico's opponents want you to believe name-calling is manly\n\nThe 37-year-old Democrat has been dubbed “Tofu Talarico” and “Low-T Talarico.” White House Deputy Chief of Staff Stephen Miller wrote of Talarico on social media: “The Democrats made history in Texas by nominating their first transgender senate candidate.”\nConservative commentator Todd Starnes sugge…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/06/james-talarico-texas-masculinity/90420159007/",
-          "publishedOn": "2026-06-26T03:34:35.666Z",
-          "wordCount": 4382,
-          "title": "Talarico tells, and shows, Texans exactly what it means to be a manRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/05/USAT/90428519007-20260603-t-012102-z-687091461-rc-27-jladojip-rtrmadp-3-usaelectiondemocratsattacks.JPG?crop=5994,3372,x0,y310&width=3200&height=1801&format=pjpg&auto=webp"
         }
       ]
     },
