@@ -593,6 +593,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://list.orgmode.org/87tsqbyix3.fsf@gnu.org",
+          "author": null,
+          "description": "[request] flags:--- replies:0",
+          "link": "https://list.orgmode.org/87tsqbyix3.fsf@gnu.org",
+          "publishedOn": "2026-07-06T20:14:48.000Z",
+          "wordCount": 288,
+          "title": "Org Mode requests: [FR] Re: [DISCUSSION] Restructuring LaTeX output: the bigger picture => a) ox-beamer.",
+          "imageUrl": null
+        },
+        {
           "id": "https://ray-on-emacs.blogspot.com/2026/07/emacs-carnival-july-2026-programming.html",
           "author": null,
           "description": "I don't think of Emacs as an IDE or even a programming environment\nunless I'm writing Lisp to automate Emacs.  Instead, I consider Emacs\n  to be a text editor with some useful extras.\nSyntax highlighting (font-lock-mode) is a nice extra.  It might seem\nstrange that I consider syntax highlighting to be an extra.  If you've\nused a text editor 40 years ago, you'll understand why -- text editors\ndidn't have the feature.  Syntax highlighting was the purview of the\ncompiler tool.  My first experience with syntax highlighting was with\nBorland Turbo Pascal; I used Borland Turbo C soon after.  (I think\n  Borland's Turbo Assembler, TASM, had the feature, too.)\nAccording to packages-selected-packages, these are the programming\n  modes I have configured:\nbasic-mode\ncsv-mode\ngnuplot\nmatlab-mode\npowersh…",
@@ -1871,6 +1881,22 @@
       "feedUrl": "https://www.hopiumchronicles.com/feed",
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
+        {
+          "id": "https://www.hopiumchronicles.com/p/talking-ukraine-encouraging-new-senate",
+          "author": "Simon Rosenberg",
+          "description": "Stuart dropped by for our monthly chat earlier today, and it was a very good one....",
+          "link": "https://www.hopiumchronicles.com/p/talking-ukraine-encouraging-new-senate",
+          "publishedOn": "2026-07-06T19:55:32.000Z",
+          "wordCount": null,
+          "title": "Talking Ukraine, Encouraging New Senate Polling, Degrading Trump, And More With Stuart Stevens Of Lincoln Square",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/205635503/1030c40f2543b1c3540b02f43c13cf71.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "https://www.hopiumchronicles.com/p/dems-strong-week-of-polling-mcmorrow",
           "author": "Simon Rosenberg",
@@ -3772,6 +3798,16 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a71842360/trump-fifa-world-cup-balogun/",
+          "author": null,
+          "description": "By pulling strings to ensure Folarin Balogun plays in the next game for the U.S. national team, the president may have accidentally undermined part of his agenda.",
+          "link": "https://www.esquire.com/news-politics/politics/a71842360/trump-fifa-world-cup-balogun/",
+          "publishedOn": "2026-07-06T21:17:21.000Z",
+          "wordCount": 33115,
+          "title": "The Delicious Irony Behind Trump’s World Cup Meddling",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/d8815725-91aa-47cc-b573-278dee01aaa4.jpeg?crop=1xw:0.750197941409xh;center,top&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a71836675/trump-speeches-july-4-weekend-2026/",
           "author": null,
