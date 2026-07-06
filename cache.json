@@ -593,6 +593,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://ray-on-emacs.blogspot.com/2026/07/comment-on-org-source-blocks.html",
+          "author": null,
+          "description": "Yesterday I wrote that I prefer putting each code snippet into its\n    own dedicated file rather than into an org source block because \"I\n    don't want the code to execute with org-mode active.\"\nWhat was I thinking; what does it mean?\nHere's a scenario. I'm developing functions to create a document in\n    some markup language.  The colorizer function applies a color tag\n    to the first word in a given string.\nIt works great in my Org source block.  But when I add it to\n    the lisp file and invoke it, it doesn't do exactly what I expect.\nIn Org mode, the single quote is a word constituent, which is fine\n    for my purpose.  However, in emacs-lisp-mode, single quote is a\n    separator.  The effect is demonstrated below.  Note the code in\n    the testre.el file tags only \"Sophia,\" not \"Sophia's,\" while the\n  source block applies the tag as intended.\n(defun colorizer (s)\n  \"Add blue color tag to first word in S.\"\n  (interactive)\n  (replace-regexp-in-string \"\\\\(\\\\w+\\\\)\\\\(.+\\\\)\" \"blue{\\\\1}\\\\2\" s t))\n\n(defun testre ()\n  \"Test colorizer.\"\n  (interactive)\n  (message\n   (concat\n    (colorizer \"Blanche lives in Miami.\")\n    \" \"\n    (colorizer \"Sofia's sweater is yellow.\"))))\n\n(testre)\n\n#+RESULTS:\n: blue{Blanche} lives in Miami. blue{Sofia’s} sweater is yellow.\n\n\nHere's what the code in the testre.el file produces:\n  blue{Blanche} lives in Miami. blue{Sofia}’s sweater is yellow.\n\n\nAnother problem with having Org mode active in a lisp source block\n    is that indenting doesn't work as expected.  Pressing C-M-\\ does\n    nothing (if I'm lucky) or something undesirable.  Once I activate\n    emacs-lisp-mode, C-M-\\ makes the code look nice again.  (If I\n    re-activate Org mode the buffer reloads, and I lose my place in\n    the document.)  This makes sense when you recall that C-M-\\ is\n    bound to indent-according-to-mode.\nI'm sure I'm doing something wrong, or I have something misconfigured.",
+          "link": "https://ray-on-emacs.blogspot.com/2026/07/comment-on-org-source-blocks.html",
+          "publishedOn": "2026-07-06T22:03:01.766Z",
+          "wordCount": 2798,
+          "title": "Raymond Zeitler: Comment on Org Source Blocks",
+          "imageUrl": null
+        },
+        {
           "id": "https://list.orgmode.org/87tsqbyix3.fsf@gnu.org",
           "author": null,
           "description": "[request] flags:--- replies:0",
@@ -1019,6 +1029,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160720",
+          "author": "David Pinto",
+          "description": "The Royals tagged Phillies starter Cristopher Sanchez for nine earned runs in 3 1/3 innings enroute to a 15-1 victory. It was the highest number of runs allowed in a game in Sanchez’s career. This caught my eye, however: In the bottom of the first, Bobby Witt Jr. scored on fielder’s choice when the Phillies […]",
+          "link": "https://www.baseballmusings.com/?p=160720",
+          "publishedOn": "2026-07-06T22:15:28.000Z",
+          "wordCount": 7656,
+          "title": "Defensive Flood Gates",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160716",
           "author": "David Pinto",
@@ -1508,26 +1528,6 @@
           "wordCount": 7976,
           "title": "Beat the Streak Picks",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160602",
-          "author": "David Pinto",
-          "description": "Yandy Diaz and Junior Caminero of the Rays sit one and two respectively in the Baseball Musings Batter Rankings. Diaz posted a two for three with a walk and a double, raising his OBP to .416. Caminero homered and walked, and is now slugging .527. Pete Crow-Armstrong of the Cubs drew and walk in four […]",
-          "link": "https://www.baseballmusings.com/?p=160602",
-          "publishedOn": "2026-06-27T10:41:58.000Z",
-          "wordCount": 7753,
-          "title": "Best Batter Today",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160600",
-          "author": "David Pinto",
-          "description": "",
-          "link": "https://www.baseballmusings.com/?p=160600",
-          "publishedOn": "2026-06-27T10:13:14.000Z",
-          "wordCount": 7477,
-          "title": "Saturday Update",
-          "imageUrl": null
         }
       ]
     },
@@ -1881,6 +1881,22 @@
       "feedUrl": "https://www.hopiumchronicles.com/feed",
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
+        {
+          "id": "https://www.hopiumchronicles.com/p/wed-july-8th-7pm-et-our-weekly-hopium",
+          "author": "Simon Rosenberg",
+          "description": "Breaking News - After new accusations of sexual assault Graham Platner is \"taking the time to reflect on the best path forward” for his candidacy",
+          "link": "https://www.hopiumchronicles.com/p/wed-july-8th-7pm-et-our-weekly-hopium",
+          "publishedOn": "2026-07-06T21:59:04.000Z",
+          "wordCount": null,
+          "title": "Wed, July 8th, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/0c383e4f-8c4c-468f-864f-9fac24687b84_1092x613.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/0c383e4f-8c4c-468f-864f-9fac24687b84_1092x613.png"
+        },
         {
           "id": "https://www.hopiumchronicles.com/p/talking-ukraine-encouraging-new-senate",
           "author": "Simon Rosenberg",
@@ -3798,6 +3814,16 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a71842941/board-of-peace-trump-abandoned/",
+          "author": null,
+          "description": "Now we just need someone to look into his crypto earnings.",
+          "link": "https://www.esquire.com/news-politics/politics/a71842941/board-of-peace-trump-abandoned/",
+          "publishedOn": "2026-07-06T21:59:09.000Z",
+          "wordCount": 34225,
+          "title": "Trump’s Most Heinous Multimillion Dollar Scheme Has Mercifully Come to an End",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/ec5de420-9f95-4c77-a111-3b3f68600889.jpeg?crop=1xw:0.75xh;0xw,0.169xh&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a71842360/trump-fifa-world-cup-balogun/",
           "author": null,

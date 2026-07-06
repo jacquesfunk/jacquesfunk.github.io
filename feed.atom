@@ -2,10 +2,95 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-06T21:28:02.598Z</updated>
+    <updated>2026-07-06T23:05:53.595Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Defensive Flood Gates]]></title>
+        <id>https://www.baseballmusings.com/?p=160720</id>
+        <link href="https://www.baseballmusings.com/?p=160720"/>
+        <updated>2026-07-06T22:15:28.000Z</updated>
+        <summary type="html"><![CDATA[The Royals tagged Phillies starter Cristopher Sanchez for nine earned runs in 3 1/3 innings enroute to a 15-1 victory. It was the highest number of runs allowed in a game in Sanchez’s career. This caught my eye, however: In the bottom of the first, Bobby Witt Jr. scored on fielder’s choice when the Phillies […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: Comment on Org Source Blocks]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/07/comment-on-org-source-blocks.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/07/comment-on-org-source-blocks.html"/>
+        <updated>2026-07-06T22:03:01.766Z</updated>
+        <summary type="html"><![CDATA[Yesterday I wrote that I prefer putting each code snippet into its
+    own dedicated file rather than into an org source block because "I
+    don't want the code to execute with org-mode active."
+What was I thinking; what does it mean?
+Here's a scenario. I'm developing functions to create a document in
+    some markup language.  The colorizer function applies a color tag
+    to the first word in a given string.
+It works great in my Org source block.  But when I add it to
+    the lisp file and invoke it, it doesn't do exactly what I expect.
+In Org mode, the single quote is a word constituent, which is fine
+    for my purpose.  However, in emacs-lisp-mode, single quote is a
+    separator.  The effect is demonstrated below.  Note the code in
+    the testre.el file tags only "Sophia," not "Sophia's," while the
+  source block applies the tag as intended.
+(defun colorizer (s)
+  "Add blue color tag to first word in S."
+  (interactive)
+  (replace-regexp-in-string "\\(\\w+\\)\\(.+\\)" "blue{\\1}\\2" s t))
+
+(defun testre ()
+  "Test colorizer."
+  (interactive)
+  (message
+   (concat
+    (colorizer "Blanche lives in Miami.")
+    " "
+    (colorizer "Sofia's sweater is yellow."))))
+
+(testre)
+
+#+RESULTS:
+: blue{Blanche} lives in Miami. blue{Sofia’s} sweater is yellow.
+
+
+Here's what the code in the testre.el file produces:
+  blue{Blanche} lives in Miami. blue{Sofia}’s sweater is yellow.
+
+
+Another problem with having Org mode active in a lisp source block
+    is that indenting doesn't work as expected.  Pressing C-M-\ does
+    nothing (if I'm lucky) or something undesirable.  Once I activate
+    emacs-lisp-mode, C-M-\ makes the code look nice again.  (If I
+    re-activate Org mode the buffer reloads, and I lose my place in
+    the document.)  This makes sense when you recall that C-M-\ is
+    bound to indent-according-to-mode.
+I'm sure I'm doing something wrong, or I have something misconfigured.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trump’s Most Heinous Multimillion Dollar Scheme Has Mercifully Come to an End]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a71842941/board-of-peace-trump-abandoned/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a71842941/board-of-peace-trump-abandoned/"/>
+        <updated>2026-07-06T21:59:09.000Z</updated>
+        <summary type="html"><![CDATA[Now we just need someone to look into his crypto earnings.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wed, July 8th, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together]]></title>
+        <id>https://www.hopiumchronicles.com/p/wed-july-8th-7pm-et-our-weekly-hopium</id>
+        <link href="https://www.hopiumchronicles.com/p/wed-july-8th-7pm-et-our-weekly-hopium"/>
+        <updated>2026-07-06T21:59:04.000Z</updated>
+        <summary type="html"><![CDATA[Breaking News - After new accusations of sexual assault Graham Platner is "taking the time to reflect on the best path forward” for his candidacy]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Delicious Irony Behind Trump’s World Cup Meddling]]></title>
         <id>http://www.esquire.com/news-politics/politics/a71842360/trump-fifa-world-cup-balogun/</id>
@@ -5762,25 +5847,6 @@ p, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%;-webkit-text-siz
 a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inherit!important;f…]]></summary>
         <author>
             <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Best Batter Today]]></title>
-        <id>https://www.baseballmusings.com/?p=160602</id>
-        <link href="https://www.baseballmusings.com/?p=160602"/>
-        <updated>2026-06-27T10:41:58.000Z</updated>
-        <summary type="html"><![CDATA[Yandy Diaz and Junior Caminero of the Rays sit one and two respectively in the Baseball Musings Batter Rankings. Diaz posted a two for three with a walk and a double, raising his OBP to .416. Caminero homered and walked, and is now slugging .527. Pete Crow-Armstrong of the Cubs drew and walk in four […]]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Saturday Update]]></title>
-        <id>https://www.baseballmusings.com/?p=160600</id>
-        <link href="https://www.baseballmusings.com/?p=160600"/>
-        <updated>2026-06-27T10:13:14.000Z</updated>
-        <author>
-            <name>David Pinto</name>
         </author>
     </entry>
 </feed>
