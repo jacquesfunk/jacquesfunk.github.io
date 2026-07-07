@@ -547,6 +547,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "http://en.andros.dev/blog/a70bbaf3/an-alternative-to-webmentions-for-the-emacs-carnival/",
+          "author": null,
+          "description": "The Emacs Carnival collects submissions by hand: you write your post, then notify the host by comment, DM (Reddit, Mastodon...) or email. The IndieWeb solves this with Webmentions, but that requires your blog to send them and the host's blog to receive them, which most static Emacs blogs don't support. Org Social can do better: it is a federated social network, and it can be used to run a carnival without any extra software.\nPublish or announce\nAdd a post to your social.org with the agreed tag emacs-carnival.\n** 2026-08-05T10:00:00+0200\n:PROPERTIES:\n:TAGS: emacs-carnival\n:END:\n\nCheck out [[https://my-blog.example/carnival-post/][my entry for this month's Emacs Carnival]].\nThat's it. No endpoint, no microformats, no notification step: one tagged post.\nRead the submissions\nClient\nThe first option is a client: org-social.el, or any other client, can filter the timeline by tag. Browse emacs-carnival and you are reading the carnival, no extra tooling involved.\nJSON\nFor scripts and roundups, you can use the Org Social Relay API:\ncurl \"https://relay.org-social.org/search/?tag=emacs-carnival\"\nIt returns a paginated JSON list with the permalink of every submission.\nRSS feed\nYou don't need an Org Social account to follow along. Subscribe from any feed reader:\nhttps://relay.org-social.org/rss.xml?tag=emacs-carnival\nEach item includes the author, the content and the permalink.\nConclusion\nIf you use a static blog and want to participate in the Emacs Carnival, consider using Org Social. It allows you to publish your submission with a simple tag, and others can easily read and follow the submissions through clients, the JSON API, or RSS feeds. This approach simplifies the process and makes it more accessible for everyone involved.",
+          "link": "http://en.andros.dev/blog/a70bbaf3/an-alternative-to-webmentions-for-the-emacs-carnival/",
+          "publishedOn": "2026-07-07T09:09:53.000Z",
+          "wordCount": 598,
+          "title": "Andros Fenollosa: An alternative to Webmentions for the Emacs Carnival",
+          "imageUrl": "https://img.andros.dev/lO4rHtFcmp5pDRbWBepGddVAOVI=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/org-social.png"
+        },
+        {
           "id": "https://ray-on-emacs.blogspot.com/2026/07/comment-on-org-source-blocks.html",
           "author": null,
           "description": "Yesterday I wrote that I prefer putting each code snippet into its\n    own dedicated file rather than into an org source block because \"I\n    don't want the code to execute with org-mode active.\"\nWhat was I thinking; what does it mean?\nHere's a scenario. I'm developing functions to create a document in\n    some markup language.  The colorizer function applies a color tag\n    to the first word in a given string.\nIt works great in my Org source block.  But when I add it to\n    the lisp file and invoke it, it doesn't do exactly what I expect.\nIn Org mode, the single quote is a word constituent, which is fine\n    for my purpose.  However, in emacs-lisp-mode, single quote is a\n    separator.  The effect is demonstrated below.  Note the code in\n    the testre.el file tags only \"Sophia,\" not \"Sophia's,\" while the\n  source block applies the tag as intended.\n(defun colorizer (s)\n  \"Add blue color tag to first word in S.\"\n  (interactive)\n  (replace-regexp-in-string \"\\\\(\\\\w+\\\\)\\\\(.+\\\\)\" \"blue{\\\\1}\\\\2\" s t))\n\n(defun testre ()\n  \"Test colorizer.\"\n  (interactive)\n  (message\n   (concat\n    (colorizer \"Blanche lives in Miami.\")\n    \" \"\n    (colorizer \"Sofia's sweater is yellow.\"))))\n\n(testre)\n\n#+RESULTS:\n: blue{Blanche} lives in Miami. blue{Sofia’s} sweater is yellow.\n\n\nHere's what the code in the testre.el file produces:\n  blue{Blanche} lives in Miami. blue{Sofia}’s sweater is yellow.\n\n\nAnother problem with having Org mode active in a lisp source block\n    is that indenting doesn't work as expected.  Pressing C-M-\\ does\n    nothing (if I'm lucky) or something undesirable.  Once I activate\n    emacs-lisp-mode, C-M-\\ makes the code look nice again.  (If I\n    re-activate Org mode the buffer reloads, and I lose my place in\n    the document.)  This makes sense when you recall that C-M-\\ is\n    bound to indent-according-to-mode.\nI'm sure I'm doing something wrong, or I have something misconfigured.",
@@ -965,16 +975,6 @@
           "wordCount": 271,
           "title": "Protesilaos: Emacs: new ‘doric-tiger’ and ‘doric-lion’ for the ‘doric-themes’",
           "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/06/preventing-errant-navigation.html",
-          "author": null,
-          "description": "I often press C-<end> or C-<next>\n  accidentally.  It's annoying and disorientating because I lose my\n      place in the document as well as my train of thought.  I think\n      of them (a bit dramatically) as \"Deadly Navigation Keys.\" But I\n      discovered two valuable Emacs features to make it easy to\n      recover from them (or prevent them) as a result.\nThe first valuable feature is that C-<end> (which is bound to\n    end-of-buffer) sets the mark at the cursor location prior to\n    setting point to the end of the buffer.  (I only just realized\n    this after seeing the message \"Mark set\" in the minibuffer about\n    fifty times.)\nThere's an almost-applicable saying, \"What goes up, must come\n    down,\" except in this case I'd say, \"What gets pushed, may be\n    popped.\"  A simple invocati…",
-          "link": "https://ray-on-emacs.blogspot.com/2026/06/preventing-errant-navigation.html",
-          "publishedOn": "2026-06-27T22:17:17.917Z",
-          "wordCount": 2937,
-          "title": "Raymond Zeitler: Preventing Errant Navigation",
-          "imageUrl": null
         }
       ]
     },
@@ -983,6 +983,36 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160726",
+          "author": "David Pinto",
+          "description": "The Log5 Method yields these stop projected hit averages versus starting pitchers: 0.322, 0.704 — Freddie Freeman batting vs. Michael Lorenzen. 0.314, 0.694 — Miguel Rojas batting vs. Michael Lorenzen. 0.311, 0.689 — Shohei Ohtani batting vs. Michael Lorenzen. 0.306, 0.683 — Andy Pages batting vs. Michael Lorenzen. 0.305, 0.704 — Miguel Andujar batting vs. […]",
+          "link": "https://www.baseballmusings.com/?p=160726",
+          "publishedOn": "2026-07-07T10:49:44.000Z",
+          "wordCount": 7942,
+          "title": "Beat the Streak Picks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160724",
+          "author": "David Pinto",
+          "description": "Juan Soto of the Mets moved back into the top five of the Baseball Musings Batter Rankings with a home run and three walks in a 7-6, 10 inning win over the reeling Braves. Soto is in a 22 game stretch in which he’s hitting .375/.521/.708. The big game puts him in fourth place. Pete […]",
+          "link": "https://www.baseballmusings.com/?p=160724",
+          "publishedOn": "2026-07-07T10:24:18.000Z",
+          "wordCount": 7693,
+          "title": "Best Batter Today",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160722",
+          "author": "David Pinto",
+          "description": "",
+          "link": "https://www.baseballmusings.com/?p=160722",
+          "publishedOn": "2026-07-07T10:01:36.000Z",
+          "wordCount": 7486,
+          "title": "Tuesday Update",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160720",
           "author": "David Pinto",
@@ -1452,16 +1482,6 @@
           "wordCount": 7471,
           "title": "Sunday Update",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160608",
-          "author": "David Pinto",
-          "description": "The Angels fired GM Perry Minasian on Friday. John Mozeliak takes over on an interim basis. Minasian made bold moves shortly after taking over the Angels’ baseball operations department, starting with the release of future Hall of Fame first baseman Albert Pujols in 2021 and the firing of World Series-winning manager Joe Maddon in 2022. […]",
-          "link": "https://www.baseballmusings.com/?p=160608",
-          "publishedOn": "2026-06-27T21:38:36.000Z",
-          "wordCount": 7678,
-          "title": "Minasian Out",
-          "imageUrl": null
         }
       ]
     },
@@ -1801,22 +1821,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!QVSW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef16ebb6-1d8f-410f-b558-6844c08271d9.heic"
-        },
-        {
-          "id": "https://www.lawdork.com/p/before-marriage-there-was-the-nearly",
-          "author": "Chris Geidner",
-          "description": "In 2003, the Supreme Court overturned its 1986 decision upholding sodomy laws. Both cases have a lot to teach us in and about this moment.",
-          "link": "https://www.lawdork.com/p/before-marriage-there-was-the-nearly",
-          "publishedOn": "2026-06-27T21:02:04.000Z",
-          "wordCount": null,
-          "title": "Before marriage, there was the nearly 20-year fight over sodomy laws",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!z7Ft!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0b673ea-4fb7-4571-8586-805f580a7df8_1918x1222.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!z7Ft!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0b673ea-4fb7-4571-8586-805f580a7df8_1918x1222.png"
         }
       ]
     },
