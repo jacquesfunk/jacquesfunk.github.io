@@ -547,6 +547,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.chiply.dev/post-hyperbole-hywiki",
+          "author": null,
+          "description": "1. TLDR\n\n\n\n\n\nA key feature is missing from most Personal Knowledge Management Systems (PKMSs): define a concept by pressing a keybinding on a word, and from then on all occurrences of that word become live, actionable links everywhere.  This capability would transform your knowledge base from a siloed graph into an omniscient second brain.  That is the unique feature of the HyWiki part of the GNU Hyperbole package for Emacs, a wiki whose only syntax is the HyWikiWord: a PascalCased word like Emacs or EmacsCompletion, without the link delimiters ([[ ]]) other PKMSs require.\n\n\n\nBecause a WikiWord is a Hyperbole implicit button, once defined it is highlighted and actionable in every text and programming buffer, not just inside a siloed notes vault.  This lets you keep the messy majority of yo…",
+          "link": "https://www.chiply.dev/post-hyperbole-hywiki",
+          "publishedOn": "2026-07-07T11:41:35.000Z",
+          "wordCount": 8589,
+          "title": "Charlie Holland: HyWiki: Zero Markup Hypertext",
+          "imageUrl": "https://www.chiply.dev/images/hyperbole-hywiki-banner-og.jpg"
+        },
+        {
           "id": "http://en.andros.dev/blog/a70bbaf3/an-alternative-to-webmentions-for-the-emacs-carnival/",
           "author": null,
           "description": "The Emacs Carnival collects submissions by hand: you write your post, then notify the host by comment, DM (Reddit, Mastodon...) or email. The IndieWeb solves this with Webmentions, but that requires your blog to send them and the host's blog to receive them, which most static Emacs blogs don't support. Org Social can do better: it is a federated social network, and it can be used to run a carnival without any extra software.\nPublish or announce\nAdd a post to your social.org with the agreed tag emacs-carnival.\n** 2026-08-05T10:00:00+0200\n:PROPERTIES:\n:TAGS: emacs-carnival\n:END:\n\nCheck out [[https://my-blog.example/carnival-post/][my entry for this month's Emacs Carnival]].\nThat's it. No endpoint, no microformats, no notification step: one tagged post.\nRead the submissions\nClient\nThe first option is a client: org-social.el, or any other client, can filter the timeline by tag. Browse emacs-carnival and you are reading the carnival, no extra tooling involved.\nJSON\nFor scripts and roundups, you can use the Org Social Relay API:\ncurl \"https://relay.org-social.org/search/?tag=emacs-carnival\"\nIt returns a paginated JSON list with the permalink of every submission.\nRSS feed\nYou don't need an Org Social account to follow along. Subscribe from any feed reader:\nhttps://relay.org-social.org/rss.xml?tag=emacs-carnival\nEach item includes the author, the content and the permalink.\nConclusion\nIf you use a static blog and want to participate in the Emacs Carnival, consider using Org Social. It allows you to publish your submission with a simple tag, and others can easily read and follow the submissions through clients, the JSON API, or RSS feeds. This approach simplifies the process and makes it more accessible for everyone involved.",
@@ -945,36 +955,6 @@
           "wordCount": 1306,
           "title": "Irreal: Linking A Diary Event To An Org Heading",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.hristos.co/blog/ten-years-of-emacs/",
-          "author": null,
-          "description": "This post is a reflection on over ten years of Emacs usage. Why did I even start using it? How has my usage changed over the years? What's the future looking like? I'll discuss this and a whole lot more. It's a spiritual successor to my  post.",
-          "link": "https://www.hristos.co/blog/ten-years-of-emacs/",
-          "publishedOn": "2026-06-28T00:00:00.000Z",
-          "wordCount": 3950,
-          "title": "Hristos N. Triantafillou: Ten Years Of Emacs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.cyan.sh/blog/posts/new-package-gomuks-el.html",
-          "author": null,
-          "description": "Gomuks, which is a Matrix client written in Go.\nTypically, Gomuks runs a web app client for Matrix, which connects to the Gomuks backend via a websocket.\nMy wrapper, gomuks.el, connects to the websocket and acts as a full (well, rudimentary) Matrix client inside Emacs.\n\n\n\nWhy make this?\nement.el, and are probably wondering why I can't use it.\nThe simple answer is that ement.el doesn't handle encryption natively, instead requiring pantalaimon.\nNow, I've already had mixed success with pantalaimon in the past (which is why I was using the Gomuks TUI), but the repo for it has been archived as of earlier this year so I don't think it's wise to rely on it.\nAs a side note, I'm not actually sure why it was archived; I assume the matrix org just didn't want to maintain it anymore, which is fair enough, but I would have liked some explanation on the readme at least.\nAnyway, Gomuks already handles encryption, and so gomuks.el does as well.\n\n\n\n\n\nWhat state is it in?\nusable, in the sense that I will use it and add features to it as I need them, but it is far from the quality of ement.el or the myriad of IRC clients in Emacs.\n\n\n\nBasically all I have at the moment is live state synchronisation (without handling edit/delete events) and sending messages (only textual).\nThe GUI is horrible, because I don't know how to use EWOC so I'm not, and it smells of programmer design.\nIf you intend to use this, expect lots of unexpected jank.\n\n\n\nThat being said, I think the code is fairly high quality and well documented, so it should be fairly easy to modify and understand.\n\n\n\n\n\nContributing\nbirdt_@cyan.sh.",
-          "link": "https://www.cyan.sh/blog/posts/new-package-gomuks-el.html",
-          "publishedOn": "2026-06-28T00:00:00.000Z",
-          "wordCount": null,
-          "title": "Jakub Nowak: New Package: Gomuks.el",
-          "imageUrl": null
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-06-28-emacs-doric-tiger-doric-lion/",
-          "author": null,
-          "description": "I just added two new themes to my minimalist doric-themes package.\ndoric-tiger is a light theme, while doric-lion is dark. Both use\norange and yellow colours. Below are sample screenshots.\ndoric-tiger\n\n\n\n\ndoric-lion\n\n\n\n\nPart of development\nThe new themes will be available in version 1.2.0. I think they\nalready are well defined and may not need furter changes. Though I\nwill continue to test—and possibly tweak—them over the course of\nthe next two weeks or so.\nSources\nThe Doric themes use few colours and will appear monochromatic in many\ncontexts. They are my most minimalist themes. Styles involve the\ncareful use of typographic features and subtleties in colour gradients\nto establish a consistent rhythm.\nIf you want maximalist themes in terms of colour, check my ef-themes\npackage. For something in-between, which I would consider the best\n“default theme” for a text editor, opt for my modus-themes.\nPackage name (GNU ELPA): doric-themes\nSample pictures: https://protesilaos.com/emacs/doric-themes-pictures\nGit repository: https://github.com/protesilaos/doric-themes\nBackronym: Doric Only Really Intensifies Conservatively … themes.",
-          "link": "https://protesilaos.com/codelog/2026-06-28-emacs-doric-tiger-doric-lion/",
-          "publishedOn": "2026-06-28T00:00:00.000Z",
-          "wordCount": 271,
-          "title": "Protesilaos: Emacs: new ‘doric-tiger’ and ‘doric-lion’ for the ‘doric-themes’",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         }
       ]
     },
@@ -2141,6 +2121,26 @@
       "siteUrl": "https://defector.com/",
       "articles": [
         {
+          "id": "https://defector.com/?p=227951",
+          "author": "Sarah Borus",
+          "description": "Perhaps it's a sign from Mother Nature that the two flagship events of the Philadelphia's Wawa Welcome America Festival for the semiquincentennial were derailed by weather. Maybe she was telling us to stop this embarrassing exhibition of unbridled nationalism and look inward. But if she thought that she could succeed in getting Americans to self-reflect, even by replicating the conditions of the depths of hell where our leaders will surely burn, she was sorely mistaken. How naive! Clearly she has never truly contended with the levels of blinding patriotism of the average American, or the masochistic tenacity of a Defector intern who will sacrifice anything to get the story.\nDespite the temperature reaching nearly 100 degrees in the middle of the day, I embarked on my expedition. The closer I got to Philadelphia's Old City, the deeper I ventured into a different version of the United States than the one I was used to. This version looked like the mind of Uncle Sam suffering from post-concussion syndrome. The air was filled with the smell of fried dough, port-a-potties, and the dissolution of the EPA. Scattered \"U-S-A\" chants carried across the neighborhood, just in case anyone forgot what country we lived in. Street vendors and Christian proselytizers stood side by side on the pavement, in a heartwarming testament to the American spirit and the Protestant ethic. Sunburnt and khaki-clad families walked around while wearing garish AI-generated shirts that featured uncomfortably ripped George Washingtons, or said things like \"I can't hear you over the sound of my freedom.\" Even a food delivery robot trucked along with a little American flag.",
+          "link": "https://defector.com/americas-birthday-brought-to-you-by-gas-station-hoagies",
+          "publishedOn": "2026-07-07T13:44:06.000Z",
+          "wordCount": 8215,
+          "title": "America’s Birthday, Brought To You By Gas Station Hoagies",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2283937734.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=228062",
+          "author": "Tom Ley",
+          "description": "It is difficult to pin down an international team's true quality and character based on the results of one brief tournament. The games are too few, and the environment too variable, to come to any definitive conclusions. But the games are revealing nonetheless, and any team that plays enough of them will have their specific strengths and shortcomings put on display, some more immutable than others. The teams that tend to thrive in the World Cup are the ones most capable of shrinking the distance between the best and worst versions of themselves, such that the arrival of either is not overly surprising or destabilizing. On Monday, Belgium reached through the swagger and confidence that the USMNT had spent four games building, and drew out a fragility that lurked deep within. Unprepared to face the worst version of themselves, the Americans crumbled.\nIt is not often that the complete story of a soccer game can be told by its goals alone, but it is true of this game. Each of the four goals Belgium scored in its 4-1 victory can be held up as a tidy encapsulation of the USMNT's dispiriting performance. The first: a tap-in that was created by Nicholas Raskin being allowed to control a loose ball and dribble through the American box while four USMNT defenders stood by and watched. The second: a header at the back post in which two defenders on the ball failed to stop the cross and two defenders on the post were out-muscled by the goalscorer. The third: a completely fucking humiliating sequence in which Matt Freese got marooned outside his box, kicked the ground instead of the ball, and watched helplessly as the Belgians poked it into an empty net. The fourth: Chris Richards gifting the ball to Romelu Lukaku in his own box and watching the big Belgian stomp his way to a goal.\n\nhttps://www.youtube.com/watch?v=QL3kCTgeVKA",
+          "link": "https://defector.com/the-usmnts-world-cup-exit-was-too-sad-and-too-familiar",
+          "publishedOn": "2026-07-07T13:04:57.000Z",
+          "wordCount": 6673,
+          "title": "The USMNT’s World Cup Exit Was Too Sad And Too Familiar",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2284975418.jpg"
+        },
+        {
           "id": "https://defector.com/?p=227964",
           "author": "Lauren Theisen",
           "description": "You weren't watching MLB.TV on Sunday, because NBC bought out all of the day's games and locked most of them behind their billions-losing streaming service. But if you were tuned in for out-of-market baseball in the days prior, like I was, you may have been delivered an advertisement from MLB itself that served as a stark reminder of just how badly the league's owners want to cap their players' salaries.\nThe commercials on MLB.TV are part of the league's \"Level The Playing Field\" campaign, which seeks to turn public opinion against teams with high payrolls ahead of what looks to be an especially nasty lockout after this season ends. MLB owners want to seize this next labor stoppage as an opportunity to finally get their much-desired salary cap, and the increase in team valuations that follows, at the expense of a workforce that has long resisted this restriction on their earning potential. \"Give every fan a fair chance,\" the campaign begs, pitching supporters of low-payroll teams like the Guardians on the idea that they're only going to win a World Series if high-spending teams like the Dodgers are brought to heel.\nThe ad I got was a zippier version of the second video on this page, which is a cutesy series of graphics that don't hold up to much scrutiny. For example, it uses a CBS Sports headline, \"Does MLB need a salary cap?\" from a post in which all four analysts go on to answer \"No.\" It classifies the Florida Panthers as a \"small-market\" team that was recently able to win two Stanley Cups in the salary-capped NHL, which feels like willful ignorance of both the Miami metropolitan area's size and the Panthers' ability to attract big-name players. By the way, if only \"large-market\" teams have won the World Series in the last decade, then how are the Washington Nationals ranked 27th in payroll right now? If the Cubs are \"large-market,\" then why are the Chicago White Sox down at 28th?",
@@ -2948,6 +2948,16 @@
       "feedUrl": "https://timeisillmatic.me/feed/",
       "siteUrl": "https://timeisillmatic.me",
       "articles": [
+        {
+          "id": "http://timeisillmatic.me/?p=13231",
+          "author": "deedub77",
+          "description": "We last heard from the New York City duo, Ill Al Skratch, in 1994 with their debut album, Creep Wit’ Me. The album spawned two moderately successful singles, but neither racked up any hardware (aka RIAA gold or platinum plaques), … Continue reading →",
+          "link": "https://timeisillmatic.me/2026/07/07/ill-al-skratch-keep-it-movin/",
+          "publishedOn": "2026-07-07T10:53:18.000Z",
+          "wordCount": 5321,
+          "title": "Ill Al Skratch – Keep It Movin’",
+          "imageUrl": "https://timeisillmatic.me/wp-content/uploads/2026/07/ab67616d0000b273d87e8ece4be4ec4a89a371c8.jpg"
+        },
         {
           "id": "http://timeisillmatic.me/?p=13188",
           "author": "deedub77",
