@@ -2,10 +2,92 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-08T21:05:59.533Z</updated>
+    <updated>2026-07-08T23:05:32.460Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Cease Hitting]]></title>
+        <id>https://www.baseballmusings.com/?p=160738</id>
+        <link href="https://www.baseballmusings.com/?p=160738"/>
+        <updated>2026-07-08T22:21:21.000Z</updated>
+        <summary type="html"><![CDATA[Dylan Cease of the Blue Jays took a no-hitter into the bottom of the ninth inning in San Francisco, having walked three batters up until that point. Heliot Ramos led off with a single, ending the bid and Cease’s day on the mound. He struck out eleven in eight innings as the Blue Jays beat […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Last Call - Tonight, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together]]></title>
+        <id>https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-d57</id>
+        <link href="https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-d57"/>
+        <updated>2026-07-08T21:46:08.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to our new subscribers, and yes do we have a lot to talk about tonight!!!!!]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Do You Live in a Blue State? Good Luck Getting Federal Emergency Funds from the President.]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a71872819/trump-fema-disaster-aid-red-states-blue-states/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a71872819/trump-fema-disaster-aid-red-states-blue-states/"/>
+        <updated>2026-07-08T21:31:33.000Z</updated>
+        <summary type="html"><![CDATA[Just when we think Trump can’t go any lower, he finds a way to play politics with disaster aid.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: Configure Web Browser to be More Emacs-like]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/07/configure-web-browser-to-be-more-emacs.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/07/configure-web-browser-to-be-more-emacs.html"/>
+        <updated>2026-07-08T20:35:47.102Z</updated>
+        <summary type="html"><![CDATA[here.  Another nice
+feature is the ability to switch between the current buffer and the next (or
+previous) buffer with C-<TAB> and C-S-<TAB>
+that I added to Emacs1.
+
+
+
+But I've also configured Vivaldi with a useful Emacs feature.  Now it
+responds to C-S-k by invoking "Close tabs to the Right."
+Emacs devotees know that C-k is bound
+to kill-line, which "Kill[s] the rest of the current
+line...."2 If you imagine that the row of tabs is a line of
+text, it's natural to expect C-k (or C-S-k)
+would remove all the tabs to the right of the current tab.
+
+
+
+Why did I choose the key combination C-S-k instead
+of C-k?  I think at the time C-k performed another
+function.  Or perhaps I felt that it was more appropriate to use two
+modifier keys for such a significant operation.  I rarely need to
+delete tabs to the left; if I did, I'd bind C-M-S-k to "Close tabs to
+the Left."
+
+
+
+You might utter the following complaint, "But C-S-k doesn't work for
+Gmail; it brings up a virtual keyboard instead!"  Correct.  So while
+we're on the topic of Vivaldi key configurations, I'd like to point
+out that it's possible to tell Vivaldi to ignore a website's key
+assignment, allowing the key to pass to Vivaldi.  Just search for the
+setting "Browser Priority Shortcuts," click on one of the existing key
+combinations and press C-S-k to add it to the others.
+I rely on the web browser's tab history a great deal, too.  I'm
+  working on implementing something vaguely similar for Emacs."
+1 To get the C-<TAB>
+      and C-S-<TAB> to switch buffers, just add
+      this to your init file:
+  (keymap-global-set "C-<tab>" 'next-buffer)
+  (keymap-global-set "C-S-<tab>" 'previous-buffer)
+
+
+2 https://www.gnu.org/software/emacs/manual/html_node/emacs/Killing-by-Lines.html]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Am I The Asshole For Judging The Screen Time Habits Of Other People’s Kids?]]></title>
         <id>https://defector.com/?p=228261</id>
@@ -6170,46 +6252,6 @@ One of those insiders is, I guess, Bobby Marks of ESPN. If you don't immediately
         <link href="https://www.baseballmusings.com/?p=160624"/>
         <updated>2026-06-29T11:28:46.000Z</updated>
         <summary type="html"><![CDATA[The Log5 Method yields these top projected hit averages versus starting pitchers: 0.313, 0.724 — Jake Mangum batting at Aaron Nola. 0.302, 0.702 — Nick Gonzales batting at Aaron Nola. 0.300, 0.709 — Jeremy Pena batting vs. Zebby Matthews. 0.299, 0.715 — Otto Lopez batting at Sean Sullivan. 0.294, 0.685 — Ceddanne Rafaela batting vs. […]]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[235. Hypothetical Jurisdiction in Mullin v. Doe]]></title>
-        <id>https://www.stevevladeck.com/p/235-hypothetical-jurisdiction-in</id>
-        <link href="https://www.stevevladeck.com/p/235-hypothetical-jurisdiction-in"/>
-        <updated>2026-06-29T11:04:09.000Z</updated>
-        <summary type="html"><![CDATA[Justice Alito's TPS opinion offered a new theory of how courts can resolve "interim" appeals. Fortunately, Justices Gorsuch and Barrett refused to endorse it.]]></summary>
-        <author>
-            <name>Steve Vladeck</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Best Batter Today]]></title>
-        <id>https://www.baseballmusings.com/?p=160622</id>
-        <link href="https://www.baseballmusings.com/?p=160622"/>
-        <updated>2026-06-29T11:03:07.000Z</updated>
-        <summary type="html"><![CDATA[Junior Caminero of the Rays hit another home run on Sunday. His three for three with a walk provided a game score of 77, tied for third highest on the day and he moves into first place in the Baseball Musings Batter Rankings. He homered in four straight games and five of his last six. […]]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“Nuclear Family Month” shows that MAGA is still coming for same-sex marriage]]></title>
-        <id>https://www.salon.com/2026/06/29/nuclear-family-month-shows-that-maga-is-still-coming-for-same-sex-marriage/-full</id>
-        <link href="https://www.salon.com/2026/06/29/nuclear-family-month-shows-that-maga-is-still-coming-for-same-sex-marriage/"/>
-        <updated>2026-06-29T10:45:46.000Z</updated>
-        <summary type="html"><![CDATA[In recent years, Republican propaganda has quietly moved away from loud condemnation of the gay community to focusing the most overt hate on trans people. Donald Trump even has a few token gay men in his closest circles, such as Treasury Secretary Scott Bessent, who has two children with his husband. Marriage equality was legalized in all 50 states by the Supreme Court 11 years ago in Obergefell v. Hodges, and it has often been tempting to assume that the GOP has largely given up on trying to restigmatize, much less ban, gay marriage.
-After all, the main argument Republicans had against marriage equality was that it was a threat to straight marriage. A 2015 amicus brief arguing against same-sex marriage, for instance, said that legalizing same-sex marriage would teach people that “society …]]></summary>
-        <author>
-            <name>Amanda Marcotte - Salon.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Monday Update]]></title>
-        <id>https://www.baseballmusings.com/?p=160620</id>
-        <link href="https://www.baseballmusings.com/?p=160620"/>
-        <updated>2026-06-29T10:11:29.000Z</updated>
         <author>
             <name>David Pinto</name>
         </author>
