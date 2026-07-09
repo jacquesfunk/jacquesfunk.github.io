@@ -1017,16 +1017,6 @@
           "wordCount": 1263,
           "title": "Org Mode requests: [RFC] ob-core: org-babel-call -- a documented way to call a block from Lisp",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.bounga.org/emacs/2026/06/30/sign-always-encrypt-when-possible-in-mu4e/",
-          "author": null,
-          "description": "Introduction\nGPG is only useful for the emails you actually remember to protect.\nIn mu4e, signing and encrypting a message is a manual gesture. Before\nsending, I hit C-c C-m s p to sign, or C-c C-m c p to sign and\nencrypt. It works, but it relies on me thinking about it every single\ntime.\nI don’t. Nobody does.\nSo in practice, the manual approach means most messages go out\nunsigned, and encryption only happens on the rare occasion I stop to\nremember it exists.\nI wanted the opposite default. Something with no friction, that follows a\nclear policy:\nSign every message I send. Always.\nEncrypt a message when, and only when, I have a public key for every\nrecipient.\nThe second rule matters. Encryption is all-or-nothing: if a single\nrecipient is missing from my keyring, encrypting would lock them o…",
-          "link": "https://www.bounga.org/emacs/2026/06/30/sign-always-encrypt-when-possible-in-mu4e/",
-          "publishedOn": "2026-06-29T22:00:00.000Z",
-          "wordCount": 1419,
-          "title": "Nicolas Cavigneaux: Sign Always, Encrypt When Possible: Automatic GPG in mu4e",
-          "imageUrl": "https://www.bounga.org/assets/images/headers/emacs.jpg"
         }
       ]
     },
@@ -1035,6 +1025,36 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160749",
+          "author": "David Pinto",
+          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.305, 0.704 — Brandon Marsh batting at Brady Singer. 0.300, 0.688 — Blaze Alexander batting vs. David Peterson. 0.293, 0.702 — Miguel Andujar batting vs. Merrill Kelly. 0.292, 0.722 — Luis Arraez batting vs. Ryan Feltner. 0.289, 0.699 — Michael Harris II batting […]",
+          "link": "https://www.baseballmusings.com/?p=160749",
+          "publishedOn": "2026-07-09T10:39:56.000Z",
+          "wordCount": 7928,
+          "title": "Beat the Streak Picks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160747",
+          "author": "David Pinto",
+          "description": "Pete Crow-Armstrong of the Cubs posted a game score of 73 to top the Baseball Musings Batter Rankings. PCA went two for four, both hits home runs, and drew a walk in a 9-7 win over the Orioles. That brought his OBP up to .386 and his slugging percentage to .542. Yandy Diaz of the […]",
+          "link": "https://www.baseballmusings.com/?p=160747",
+          "publishedOn": "2026-07-09T10:06:32.000Z",
+          "wordCount": 7704,
+          "title": "Best Batter Today",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160745",
+          "author": "David Pinto",
+          "description": "",
+          "link": "https://www.baseballmusings.com/?p=160745",
+          "publishedOn": "2026-07-09T09:50:49.000Z",
+          "wordCount": 7488,
+          "title": "Thursday Update",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160742",
           "author": "David Pinto",
@@ -1524,16 +1544,6 @@
           "wordCount": 7479,
           "title": "Tuesday Update",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160628",
-          "author": "David Pinto",
-          "description": "The Rangers take on the Guardians in Cleveland with Tyler Alexander and Parker Messick on the mound. Alexander is nearly perfect as an opener. In two inning, he did not allow a hit or a walk, just one hit batsman. Messick, a traditional starter, owns a 2.67 ERA in 94 1/3 innings. He allowed just […]",
-          "link": "https://www.baseballmusings.com/?p=160628",
-          "publishedOn": "2026-06-29T18:57:21.000Z",
-          "wordCount": 7598,
-          "title": "Games of the Day",
-          "imageUrl": null
         }
       ]
     },
@@ -1661,16 +1671,6 @@
           "wordCount": 2201,
           "title": "Trump v Slaughter: Supreme Court Rules Trump Can Fire Any Agency Head Who Doesn’t Make John Roberts Wealthier",
           "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2025/09/GettyImages-2194970910-1200x630.jpg"
-        },
-        {
-          "id": "https://ballsandstrikes.org/?p=18469",
-          "author": "Jay Willis",
-          "description": "The dissenting opinion in Watson v. Republican National Committee reveals just how deeply election denialism is now embedded in the conservative consciousness. \n \nThe post Watson v RNC: Samuel Alito, the Supreme Court’s Leading Voter Fraud <span class=\"dewidow\">Conspiracy Theorist</span> appeared first on Balls and Strikes.",
-          "link": "https://ballsandstrikes.org/scotus/watson-v-rnc-alito-dissent-voter-fraud/",
-          "publishedOn": "2026-06-29T20:26:14.000Z",
-          "wordCount": 2296,
-          "title": "Watson v RNC: Samuel Alito, the Supreme Court’s Leading Voter Fraud Conspiracy Theorist",
-          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2021/12/GettyImages-1134321073-scaled.jpg"
         }
       ]
     },
@@ -2220,22 +2220,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/57eaa3b5-ba31-4fa2-92d3-e9077acd0d3b_1093x586.png"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/a-conversation-with-heather-cox-richardson",
-          "author": "Simon Rosenberg",
-          "description": "Dr. Richardson dropped by this afternoon to share her thoughts on where this remarkable nation is at 250",
-          "link": "https://www.hopiumchronicles.com/p/a-conversation-with-heather-cox-richardson",
-          "publishedOn": "2026-06-29T22:35:02.000Z",
-          "wordCount": null,
-          "title": "A Conversation With Heather Cox Richardson",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://api.substack.com/feed/podcast/204142001/051e6473ff3095d1cc4ce6739b4e080f.mp3",
-            "length": "0",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
@@ -2903,16 +2887,6 @@
           "wordCount": 8870,
           "title": "Mr. Nagelsmann, Tear Down This Meat Wall!",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2283928212.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=227340",
-          "author": "Diana Moskovitz",
-          "description": "Bail for NFL cornerback Terrion Arnold, who has been charged with four counts of kidnapping and four counts of armed robbery, was set Monday at $1 million. Just a few hours after the hearing ended, the Detroit Lions cut Arnold, a former first-round pick who was set to enter his third season in the league. \nAt the court hearing, prosecutors in Hillsborough County, Fla., had asked a judge to hold Arnold in jail without bail, but chief judge Christopher C. Sabella denied their request. Sabella also said Arnold could not contact his codefendants, had to surrender his passport, and Arnold must stay at home unless he is leaving for legal appointments or work.\nSabella rejected a request from prosecutors to have Arnold wear an ankle monitor, saying, per USA Today, \"I suspect that Mr. Arnold has a paparazzi monitor. If he's late for practice, ESPN will let us know.\"",
-          "link": "https://defector.com/lions-cut-terrion-arnold-after-judge-sets-bail-in-criminal-case-at-1-million",
-          "publishedOn": "2026-06-29T20:57:43.000Z",
-          "wordCount": 6627,
-          "title": "Lions Cut Terrion Arnold After Judge Sets Bail In Criminal Case At $1 Million",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2179893578-smaller-e1782748180471.jpeg"
         }
       ]
     },
@@ -3735,36 +3709,6 @@
           "wordCount": 4338,
           "title": "The Great American State Fair is Trump's daily humiliation. I love it.Rex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90716538007-20260626-t-050118-z-548195326-rc-241-ma-60-ne-6-rtrmadp-3-usa-250-statefair.JPG?crop=5494,3091,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/09/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90468552007/-full",
-          "author": "Rex Huppke",
-          "description": "Former reality TV star Spencer Pratt is out of the Los Angeles mayoral race for two reasons.\nFirst, and most important, he got fewer votes than two other candidates, incumbent Los Angeles Mayor Karen Bass and LA City Councilwoman Nithya Raman, who will now face off against each other. Second, he’s an unqualified dipstick whom a majority of Los Angelenos understood wasn’t qualified for the job.\nPratt was endorsed by President Donald Trump and hailed by some MAGA Republicans as a rising star, a political outsider with a winning populist message.\nThat was, in a word, wrong.\n\nThe Free Press, the conservative publication founded by Bari Weiss, who is presently busy ruining CBS News, ran a piece in May that posed the question: “How did Spencer Pratt, reality TV star and ‘healing’ crystal salesma…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/09/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90468552007/",
-          "publishedOn": "2026-06-29T18:07:32.096Z",
-          "wordCount": 4192,
-          "title": "I'm glad Spencer Pratt lost. Let's Make Stupidity Embarrassing Again.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/08/USAT/90456119007-20260531-t-212845-z-2098431618-rc-2-hklaldt-0-w-rtrmadp-3-usaelectioncaliforniapratt.JPG?crop=6493,3653,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/-full",
-          "author": "Rex Huppke",
-          "description": "A couple years ago, my wife and oldest son began experimenting with Medjool dates. I wasn’t happy about it.\nI’ve tried dates in many forms, and never liked them. They look like legless cockroaches. They are, in my estimation, overly ambitious raisins. Nobody likes an overly ambitious raisin.\n\nTragically, my family’s addiction to these ancient stone fruits grew worse, to the point I couldn’t trust any baked good that appeared in the kitchen, as it was likely date-tainted. Gone were the days of normal muffins or oatmeal bars. All I heard was “These are sweetened with dates!” and “The dates give these such a great texture!” and other such excited mumbo-jumbo.\nMy son is addicted to dates and I've never been more ashamed\nNot long ago, my wonderful adult son – whose father raised him with the ho…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/",
-          "publishedOn": "2026-06-29T18:07:32.071Z",
-          "wordCount": 4575,
-          "title": "Stop trying to make dates happen. Have you even tried a Twinkie?Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/06/USAT/90431895007-getty-images-2213158027.jpg?crop=2118,1192,x0,y0&width=2118&height=1192&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/-full",
-          "author": "Rex Huppke",
-          "description": "Billionaire Jeff Bezos has boldly put forth a challenge to Americans.\nIn a May 20 interview with CNBC, he referenced a hypothetical New York City school teacher and said, “You could double the taxes I pay, and it's not going to help that teacher in Queens. I promise you.”\nPromises from billionaires will be worth about as much as cash in the post-apocalyptic wasteland we’ll soon inhabit, thanks to all the billionaires. (I’m guessing the primary currency will be potable water and locally sourced rich-people meat.)\nSo I’ll respond to Mr. Bezos with this: “You say doubling your taxes won’t help regular Americans. Well, sir, that’s a risk I’m willing to take. What say we quintuple your taxes and see what shakes out?”\nI say let's raise Jeff Bezos' taxes and see how it all works out\n\n\"If people w…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/",
-          "publishedOn": "2026-06-29T18:07:32.056Z",
-          "wordCount": 4300,
-          "title": "Bezos says raising his taxes won't help. It's a risk we should take.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/04/13/USAT/89587769007-2239610155.jpg?crop=5095,2866,x0,y764&width=3200&height=1801&format=pjpg&auto=webp"
         }
       ]
     },
@@ -4129,16 +4073,6 @@
           "wordCount": 56901,
           "title": "It’s Somehow Totally Legal for Trump to Give His Donors Huge Contracts to Build the Stupid, Ugly Ballroom",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/ce36ca3c-fe4f-44be-8647-da9f1ec56573.jpeg?crop=1xw:0.749410099103xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71773792/trump-federal-trade-commission-firing-slaughter-supreme-court/",
-          "author": null,
-          "description": "The Supreme Court just loves giving our loony overlord whatever he wants. Or so it seems.",
-          "link": "https://www.esquire.com/news-politics/politics/a71773792/trump-federal-trade-commission-firing-slaughter-supreme-court/",
-          "publishedOn": "2026-06-29T19:39:10.000Z",
-          "wordCount": 60047,
-          "title": "The President Is Dangerously Close to Gaining an Executive Power Not Seen in Almost 100 Years",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/bcba5731-0b1c-4e37-b6ca-e15e66ba329f.jpeg?crop=1xw:0.749633967789xh;center,top&resize=1200:*"
         }
       ]
     },
@@ -4162,22 +4096,6 @@
             "type": "audio/mpeg"
           },
           "imageUrl": null
-        },
-        {
-          "id": "https://www.graveinjustice.news/p/the-roberts-court-ignores-blatant",
-          "author": "Lisa Graves",
-          "description": "John Roberts and His Confederates on the Court Hand Donald Trump Another Win",
-          "link": "https://www.graveinjustice.news/p/the-roberts-court-ignores-blatant",
-          "publishedOn": "2026-06-29T20:52:01.000Z",
-          "wordCount": null,
-          "title": "The Roberts Court Ignores Blatant Racism as It Locks the Courthouse Door on Families Who Fled Haiti",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!hWjc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F105fb826-7418-4e23-9c4c-cbbc0f675c32_1280x720.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!hWjc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F105fb826-7418-4e23-9c4c-cbbc0f675c32_1280x720.png"
         }
       ]
     }
