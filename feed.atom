@@ -2,10 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-09T19:43:52.007Z</updated>
+    <updated>2026-07-09T21:21:58.184Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: Numeric Priorities in Org Mode]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/07/numeric-priorities-in-org-mode.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/07/numeric-priorities-in-org-mode.html"/>
+        <updated>2026-07-09T20:09:51.510Z</updated>
+        <summary type="html"><![CDATA[1
+
+
+
+If you specify priorities from 65 to 90, Org will interpret the
+numbers as ordinal values of ASCII character and give you "A" to "Z."
+If you try to be clever and specify priorities as 65 to 91 (91 is the
+decimal ASCII code for left square bracket) you'll be disappointed
+that when you lower the priority from "Z," you don't get "[."  (I was
+disappointed, anyway.)
+
+
+
+You can define priorities from 10 to 99, for example.  But if you try
+to get to a priority higher than 10 using org-priority-up, Org will
+clear the priority cookie.  However, you can manually enter a priority
+of 0 to ensure the item appears above all other items.  (Please see
+Figure 1, below.)  Thus, a priority value of 0 can be your "stat"
+item.  It would be super neat if Org could understand that ASCII
+characters below 0 (such as exclamation mark) are an even higher
+priority than 0.  Unfortunately, it doesn't even recognize [#!] as a
+priority cookie.
+
+forty times.
+If you think you can invoke M-4 0 M-x org-priority-up to go quickly
+from 50 to 10, you'll be disappointed (again).  The function
+org-priority-up doesn't accept a prefix argument.2
+
+
+
+How do you use priority in Org?
+
+
+
+  1 Org
+  Manual -- Priorities
+
+2 But you can record a macro that consists of a single
+    S-<up> key press and then play it back with a prefix argument of 39.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Karolina Muchova And Coco Gauff Played A Tiebreak Neither Will Forget]]></title>
+        <id>https://defector.com/?p=228389</id>
+        <link href="https://defector.com/karolina-muchova-and-coco-gauff-played-a-tiebreak-neither-will-forget"/>
+        <updated>2026-07-09T19:44:21.000Z</updated>
+        <summary type="html"><![CDATA[Nervy tennis is so rich. It can contain both the worst of the sport (in a technical sense) and the best of it (in a narrative sense). You can witness breakdowns in routine strokes, diseased shot selection, and facial expressions that indicate a horrible geyser of bile into the esophagus. But you'll also see the bravery of a player who is flagging, hurting, and still playing gorgeous tennis from a land beyond conscious thought. Rarely will there be tennis nervier than the third-set tiebreak that decided Thursday's Wimbledon semifinal between Coco Gauff and Karolina Muchova, and would have advanced either player into her first final at the tournament.
+The two women had traded the first two sets, each won with roughly equivalent ease, and danced cagily all the way to 6-6 in the third. Between points, Muchova clutched at her right side with a wince; in press afterward she diagnosed it as a stitch, said she "couldn't catch a breath," and was trying to massage it away. Despite coming out flat, Gauff elbowed her way back into the match with her usual stamina, opportunism, and guile; she looked fresher going into the deciding frame. They proceeded to play 22 points so entertaining, with career-defining chances earned and squandered by both players, that I had to run back the tiebreak as soon as it ended in Muchova's favor. Why not do it together?
+
+https://www.youtube.com/watch?v=Vpl9mApl2Tw]]></summary>
+        <author>
+            <name>Giri Nathan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Connect with like-minded progressives on the Nation Cruise]]></title>
         <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/xnv8mefny8f9zkbb1qm1.html</id>
@@ -6201,79 +6262,6 @@ I love seeing Fox News broadcasting from the fair, its hosts claiming the place 
         <updated>2026-06-30T10:10:28.000Z</updated>
         <author>
             <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[James Dyer: That Moment Dired Eats Your File and why Trash Saves You]]></title>
-        <id>https://emacs.dyerdwelling.family/emacs/20260515110240-emacs--that-moment-dired-eats-your-file-and-why-trash-saves-you/</id>
-        <link href="https://emacs.dyerdwelling.family/emacs/20260515110240-emacs--that-moment-dired-eats-your-file-and-why-trash-saves-you/"/>
-        <updated>2026-06-30T09:17:00.000Z</updated>
-        <summary type="html"><![CDATA[diff-minimap package, deep in the weeds of fringe indicators and search highlights, and I did the thing.  You know the thing.  I was in Dired, accidentally, for some reason hit D to delete a filename (probably some malfunctioning muscle memory) and it was gone!
-
-
-
-
-
-
-
-
-
-Except it was my own source file.  diff-minimap.el.  The one I had been hacking on for the last hour.  The one with all those uncommitted changes.
-
-
-
-Now, in my head, I have a trash setup.  I am sure I configured that somewhere, probably years ago, in some init file on some machine.  But the machine I was sitting at?  Nope.  Emacs just did a straight delete, no safety net, no way back.
-
-
-
-The file was tracked in git, so I could git checkout HEAD -- diff-minimap.el to get the committed version back.  But the uncommitted work - the inline diff preview, the vc-diff positioning, the side-window hunk viewer - that was gone.
-
-
-
-Emacs has a built-in variable, delete-by-moving-to-trash.  When it is set to t, Dired (and other delete operations) move files to the system trash instead of permanently deleting them.  On Linux that is ~/.local/share/Trash/files/, on macOS it is ~/.Trash/, on Windows it is the Recycle Bin.
-
-
-
-It is one of those settings that seems obvious in hindsight but is easy to overlook because Emacs defaults it to nil.  The reasoning is probably that Emacs is a serious tool for serious people who know what they are doing, so deleting means deleting?!
-
-
-
-So I added it to my config:
-
-
-
-(setq delete-by-moving-to-trash t)
-
-
-D in Dired moves to trash instead of deleting permanently and I will not have that sinking feeling again!
-
-
-
-Anyway, back to diff-minimap.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta Redux: CIDER 2.0 is Brewing…]]></title>
-        <id>https://metaredux.com/posts/2026/06/30/cider-2-0-is-brewing.html</id>
-        <link href="https://metaredux.com/posts/2026/06/30/cider-2-0-is-brewing.html"/>
-        <updated>2026-06-30T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Normally I write these posts after a CIDER release is out, with the smug
-satisfaction of someone who has already tagged the version and updated the
-changelog. Today I’m flipping the script a little: the release isn’t out yet,
-but I’m too excited to keep quiet about it.
-Here’s the thing. The next CIDER release was supposed to be 1.23. But as I kept
-piling change upon change, it slowly dawned on me that calling this “1.23” would
-be doing it a disservice. So I’m now strongly considering shipping it as
-CIDER 2.0 instead.
-A different kind of release
-The last few CIDER releases were on the conservative side - lots of important
-internal work, but relatively little that you’d actually notice day to day. This one
-is the exact opposite. It’s stuffed with user-visible changes, many of which
-have been…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>

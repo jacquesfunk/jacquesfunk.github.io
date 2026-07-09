@@ -655,6 +655,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://ray-on-emacs.blogspot.com/2026/07/numeric-priorities-in-org-mode.html",
+          "author": null,
+          "description": "1\n\n\n\nIf you specify priorities from 65 to 90, Org will interpret the\nnumbers as ordinal values of ASCII character and give you \"A\" to \"Z.\"\nIf you try to be clever and specify priorities as 65 to 91 (91 is the\ndecimal ASCII code for left square bracket) you'll be disappointed\nthat when you lower the priority from \"Z,\" you don't get \"[.\"  (I was\ndisappointed, anyway.)\n\n\n\nYou can define priorities from 10 to 99, for example.  But if you try\nto get to a priority higher than 10 using org-priority-up, Org will\nclear the priority cookie.  However, you can manually enter a priority\nof 0 to ensure the item appears above all other items.  (Please see\nFigure 1, below.)  Thus, a priority value of 0 can be your \"stat\"\nitem.  It would be super neat if Org could understand that ASCII\ncharacters below 0 (such as exclamation mark) are an even higher\npriority than 0.  Unfortunately, it doesn't even recognize [#!] as a\npriority cookie.\n\nforty times.\nIf you think you can invoke M-4 0 M-x org-priority-up to go quickly\nfrom 50 to 10, you'll be disappointed (again).  The function\norg-priority-up doesn't accept a prefix argument.2\n\n\n\nHow do you use priority in Org?\n\n\n\n  1 Org\n  Manual -- Priorities\n\n2 But you can record a macro that consists of a single\n    S-<up> key press and then play it back with a prefix argument of 39.",
+          "link": "https://ray-on-emacs.blogspot.com/2026/07/numeric-priorities-in-org-mode.html",
+          "publishedOn": "2026-07-09T20:09:51.510Z",
+          "wordCount": 2866,
+          "title": "Raymond Zeitler: Numeric Priorities in Org Mode",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi110pVKheu5f3uP4uippZ77BBuQXEpGU-N1Johlxf0weLOjFwJeYbsrSRs2ufaz1luY0H0hAqZu8B1C6guTUQd7xbnUaS3LbVdejYwv8EAeKdPhqkLVF4mYzJSisyOAEXVeGITXuMBXtoRrVRNcs-wGsfEdkznob16-4o0rMOuWSFAf1X_8AyEh1OjMcI/w1200-h630-p-k-no-nu/Clipbrd18.gif"
+        },
+        {
           "id": "https://irreal.org/blog/?p=13933",
           "author": null,
           "description": "how to globally set a key binding so that it won’t be overridden. He uses setting Meta+o to other-window as an example to explore the problem.\n\n\nProt begins by defining Meta+o in the global map in the usual way:\n\n\n(define-key global-map (kbd \"M-o\") 'other-window )\n\nMeta+o turns out to be a prefix key for inserting an HTML face command. The problem is that Emacs will use the most specific bindings first. Global bindings are the most general, followed by major mode bindings, and ending with minor mode bindings as the most specific.\n\n\nSince HTML is a major mode, its keybinding take precedence over the global binding that we set. The answer is to get more specific yet by defining our binding in a minor mode so that it will always have precedence.\n\n\nProt shows how to define a minor where we can define our binding and activate it globally so that it’s always available. Of course, once we have this mechanism set up, we can add any number of bindings to our minor mode. Prot demonstrates this by adding a binding that Org uses.\n\n\nTake a look at Prot’s video for all the details. He’s also included a copy of the file he was working with so you can see everything without worrying about copying it down from the video. The video is 12 minutes, 45 seconds so it should be easy to fit in.",
@@ -1073,26 +1083,6 @@
           "wordCount": 3232,
           "title": "Raymond Zeitler: Create Date Books, Planners and Calendars with Emacs",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiP9dyTC_cV69EZlowJL_bm3FfhY4HpAybVPVJQ4hHVSUEmlIzjA-evN8k_PIe3jSyTs6U2Cb5xqR5qq0TIF1RdsU3ve8YQggVHVsLQhYWY41dm6xULhi3UnSreMKUntchLpn4JniDysEDnTnfo7FDX0Q09l9hHsw0_I9a0stX3uNXXh_E4bmy5iFKobY/w1200-h630-p-k-no-nu/demo_calendar.gif"
-        },
-        {
-          "id": "https://emacs.dyerdwelling.family/emacs/20260515110240-emacs--that-moment-dired-eats-your-file-and-why-trash-saves-you/",
-          "author": null,
-          "description": "diff-minimap package, deep in the weeds of fringe indicators and search highlights, and I did the thing.  You know the thing.  I was in Dired, accidentally, for some reason hit D to delete a filename (probably some malfunctioning muscle memory) and it was gone!\n\n\n\n\n\n\n\n\n\nExcept it was my own source file.  diff-minimap.el.  The one I had been hacking on for the last hour.  The one with all those uncommitted changes.\n\n\n\nNow, in my head, I have a trash setup.  I am sure I configured that somewhere, probably years ago, in some init file on some machine.  But the machine I was sitting at?  Nope.  Emacs just did a straight delete, no safety net, no way back.\n\n\n\nThe file was tracked in git, so I could git checkout HEAD -- diff-minimap.el to get the committed version back.  But the uncommitted work - the inline diff preview, the vc-diff positioning, the side-window hunk viewer - that was gone.\n\n\n\nEmacs has a built-in variable, delete-by-moving-to-trash.  When it is set to t, Dired (and other delete operations) move files to the system trash instead of permanently deleting them.  On Linux that is ~/.local/share/Trash/files/, on macOS it is ~/.Trash/, on Windows it is the Recycle Bin.\n\n\n\nIt is one of those settings that seems obvious in hindsight but is easy to overlook because Emacs defaults it to nil.  The reasoning is probably that Emacs is a serious tool for serious people who know what they are doing, so deleting means deleting?!\n\n\n\nSo I added it to my config:\n\n\n\n(setq delete-by-moving-to-trash t)\n\n\nD in Dired moves to trash instead of deleting permanently and I will not have that sinking feeling again!\n\n\n\nAnyway, back to diff-minimap.",
-          "link": "https://emacs.dyerdwelling.family/emacs/20260515110240-emacs--that-moment-dired-eats-your-file-and-why-trash-saves-you/",
-          "publishedOn": "2026-06-30T09:17:00.000Z",
-          "wordCount": null,
-          "title": "James Dyer: That Moment Dired Eats Your File and why Trash Saves You",
-          "imageUrl": null
-        },
-        {
-          "id": "https://metaredux.com/posts/2026/06/30/cider-2-0-is-brewing.html",
-          "author": null,
-          "description": "Normally I write these posts after a CIDER release is out, with the smug\nsatisfaction of someone who has already tagged the version and updated the\nchangelog. Today I’m flipping the script a little: the release isn’t out yet,\nbut I’m too excited to keep quiet about it.\nHere’s the thing. The next CIDER release was supposed to be 1.23. But as I kept\npiling change upon change, it slowly dawned on me that calling this “1.23” would\nbe doing it a disservice. So I’m now strongly considering shipping it as\nCIDER 2.0 instead.\nA different kind of release\nThe last few CIDER releases were on the conservative side - lots of important\ninternal work, but relatively little that you’d actually notice day to day. This one\nis the exact opposite. It’s stuffed with user-visible changes, many of which\nhave been…",
-          "link": "https://metaredux.com/posts/2026/06/30/cider-2-0-is-brewing.html",
-          "publishedOn": "2026-06-30T09:00:00.000Z",
-          "wordCount": 3454,
-          "title": "Meta Redux: CIDER 2.0 is Brewing…",
-          "imageUrl": "https://metaredux.com/assets/og-image.png"
         }
       ]
     },
@@ -2314,6 +2304,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=228389",
+          "author": "Giri Nathan",
+          "description": "Nervy tennis is so rich. It can contain both the worst of the sport (in a technical sense) and the best of it (in a narrative sense). You can witness breakdowns in routine strokes, diseased shot selection, and facial expressions that indicate a horrible geyser of bile into the esophagus. But you'll also see the bravery of a player who is flagging, hurting, and still playing gorgeous tennis from a land beyond conscious thought. Rarely will there be tennis nervier than the third-set tiebreak that decided Thursday's Wimbledon semifinal between Coco Gauff and Karolina Muchova, and would have advanced either player into her first final at the tournament.\nThe two women had traded the first two sets, each won with roughly equivalent ease, and danced cagily all the way to 6-6 in the third. Between points, Muchova clutched at her right side with a wince; in press afterward she diagnosed it as a stitch, said she \"couldn't catch a breath,\" and was trying to massage it away. Despite coming out flat, Gauff elbowed her way back into the match with her usual stamina, opportunism, and guile; she looked fresher going into the deciding frame. They proceeded to play 22 points so entertaining, with career-defining chances earned and squandered by both players, that I had to run back the tiebreak as soon as it ended in Muchova's favor. Why not do it together?\n\nhttps://www.youtube.com/watch?v=Vpl9mApl2Tw",
+          "link": "https://defector.com/karolina-muchova-and-coco-gauff-played-a-tiebreak-neither-will-forget",
+          "publishedOn": "2026-07-09T19:44:21.000Z",
+          "wordCount": 8944,
+          "title": "Karolina Muchova And Coco Gauff Played A Tiebreak Neither Will Forget",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2285365283.jpg"
+        },
         {
           "id": "https://defector.com/?p=228390",
           "author": "Tom Ley",

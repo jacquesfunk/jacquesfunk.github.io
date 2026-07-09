@@ -22,11 +22,327 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-07-09 datetime="2026-07-09T19:31:41.527Z">2026-07-09</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-07-09 datetime="2026-07-09T19:31:41.527Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-07-09 datetime="2026-07-09T20:09:51.510Z">2026-07-09</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-07-09 datetime="2026-07-09T20:09:51.510Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Emacslife</button>
+                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://ray-on-emacs.blogspot.com/2026/07/numeric-priorities-in-org-mode.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Raymond Zeitler: Numeric Priorities in Org Mode</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ray-on-emacs.blogspot.com/2026/07/numeric-priorities-in-org-mode.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi110pVKheu5f3uP4uippZ77BBuQXEpGU-N1Johlxf0weLOjFwJeYbsrSRs2ufaz1luY0H0hAqZu8B1C6guTUQd7xbnUaS3LbVdejYwv8EAeKdPhqkLVF4mYzJSisyOAEXVeGITXuMBXtoRrVRNcs-wGsfEdkznob16-4o0rMOuWSFAf1X_8AyEh1OjMcI/w1200-h630-p-k-no-nu/Clipbrd18.gif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>1
+
+
+
+If you specify priorities from 65 to 90, Org will interpret the
+numbers as ordinal values of ASCII character and give you &quot;A&quot; to &quot;Z.&quot;
+If you try to be clever and specify priorities as 65 to 91 (91 is the
+decimal ASCII code for left square bracket) you&#x27;ll be disappointed
+that when you lower the priority from &quot;Z,&quot; you don&#x27;t get &quot;[.&quot;  (I was
+disappointed, anyway.)
+
+
+
+You can define priorities from 10 to 99, for example.  But if you try
+to get to a priority higher than 10 using org-priority-up, Org will
+clear the priority cookie.  However, you can manually enter a priority
+of 0 to ensure the item appears above all other items.  (Please see
+Figure 1, below.)  Thus, a priority value of 0 can be your &quot;stat&quot;
+item.  It would be super neat if Org could understand that ASCII
+characters below 0 (such as exclamation mark) are an even higher
+priority than 0.  Unfortunately, it doesn&#x27;t even recognize [#!] as a
+priority cookie.
+
+forty times.
+If you think you can invoke M-4 0 M-x org-priority-up to go quickly
+from 50 to 10, you&#x27;ll be disappointed (again).  The function
+org-priority-up doesn&#x27;t accept a prefix argument.2
+
+
+
+How do you use priority in Org?
+
+
+
+  1 Org
+  Manual -- Priorities
+
+2 But you can record a macro that consists of a single
+    S- key press and then play it back with a prefix argument of 39.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13933"
+                        open
+                      >
+                        <summary class="article-expander__title">Irreal: Globally Overriding Keys</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13933">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>how to globally set a key binding so that it won’t be overridden. He uses setting Meta+o to other-window as an example to explore the problem.
+
+
+Prot begins by defining Meta+o in the global map in the usual way:
+
+
+(define-key global-map (kbd &quot;M-o&quot;) &#x27;other-window )
+
+Meta+o turns out to be a prefix key for inserting an HTML face command. The problem is that Emacs will use the most specific bindings first. Global bindings are the most general, followed by major mode bindings, and ending with minor mode bindings as the most specific.
+
+
+Since HTML is a major mode, its keybinding take precedence over the global binding that we set. The answer is to get more specific yet by defining our binding in a minor mode so that it will always have precedence.
+
+
+Prot shows how to define a minor where we can define our binding and activate it globally so that it’s always available. Of course, once we have this mechanism set up, we can add any number of bindings to our minor mode. Prot demonstrates this by adding a binding that Org uses.
+
+
+Take a look at Prot’s video for all the details. He’s also included a copy of the file he was working with so you can see everything without worrying about copying it down from the video. The video is 12 minutes, 45 seconds so it should be easy to fit in.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Defector</button>
+                  <a class="source-heading__link" href="https://defector.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://defector.com/?p&#x3D;228389"
+                        open
+                      >
+                        <summary class="article-expander__title">Karolina Muchova And Coco Gauff Played A Tiebreak Neither Will Forget</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/karolina-muchova-and-coco-gauff-played-a-tiebreak-neither-will-forget">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2285365283.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Nervy tennis is so rich. It can contain both the worst of the sport (in a technical sense) and the best of it (in a narrative sense). You can witness breakdowns in routine strokes, diseased shot selection, and facial expressions that indicate a horrible geyser of bile into the esophagus. But you&#x27;ll also see the bravery of a player who is flagging, hurting, and still playing gorgeous tennis from a land beyond conscious thought. Rarely will there be tennis nervier than the third-set tiebreak that decided Thursday&#x27;s Wimbledon semifinal between Coco Gauff and Karolina Muchova, and would have advanced either player into her first final at the tournament.
+The two women had traded the first two sets, each won with roughly equivalent ease, and danced cagily all the way to 6-6 in the third. Between points, Muchova clutched at her right side with a wince; in press afterward she diagnosed it as a stitch, said she &quot;couldn&#x27;t catch a breath,&quot; and was trying to massage it away. Despite coming out flat, Gauff elbowed her way back into the match with her usual stamina, opportunism, and guile; she looked fresher going into the deciding frame. They proceeded to play 22 points so entertaining, with career-defining chances earned and squandered by both players, that I had to run back the tiebreak as soon as it ended in Muchova&#x27;s favor. Why not do it together?
+
+https://www.youtube.com/watch?v&#x3D;Vpl9mApl2Tw</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;30
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://defector.com/?p&#x3D;228390"
+                        open
+                      >
+                        <summary class="article-expander__title">How Did Bryce Harper End Up Helping FanDuel Keep A Gambling Addict On The Hook?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/how-did-bryce-harper-end-up-helping-fanduel-keep-a-gambling-addict-on-the-hook">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2283828788.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Terry Thompson is part of a lawsuit against FanDuel and DraftKings claiming that the sports books used their VIP services and products to intentionally prey on his gambling addiction. Thompson says he wagered $18.5 million with FanDuel and became addicted to gambling via the sports book&#x27;s in-game micro bets. His suit claims he was also encouraged to continue gambling by a FanDuel VIP manager named Bryttanni Morgan, who at one point sent Thompson a personalized video from Bryce Harper.
+The 21-second video, obtained by the Philadelphia Inquirer, features Harper speaking into his phone camera and wishing Thompson a happy Thanksgiving. &quot;Your host Bryttanni, from FanDuel, wanted to make sure your Thanksgiving was extra special,&quot; Harper says in the video, which has a FanDuel logo superimposed over it. 
+This was just one of many gifts Thompson said he received from Morgan, who communicated with him frequently via text message and shared details from her personal life. Morgan frequently provided Thompson with tickets to sporting events, including two Super Bowls.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;17
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://defector.com/?p&#x3D;228203"
+                        open
+                      >
+                        <summary class="article-expander__title">Meet Torstein Træen, The Stoic Norwegian Survivor Who Briefly Lit Up The Tour de France</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/meet-torstein-traeen-the-stoic-norwegian-survivor-who-briefly-lit-up-the-tour-de-france">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2284529515.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PAU, France — Some people are natural performers. Torstein Træen is not, though his work on the bike might have been the last exciting general classification action before we get to Paris.
+As the 30-year-old Norwegian rider ascended the podium in Foix after Stage 4 to be wrapped in the yellow jersey, he grinned sheepishly and his Uno-X teammates gathered below to cheer him on. You wouldn&#x27;t know he was bringing such a strange, interesting cycling career to an ecstatic new high. Træen looked shy, rocking back and forth like a character in an RPG loading screen and forgetting to take the ceremonial stuffed lion of victory until the podium attendant nudged him on the arm.
+At his official post-Tour press conference, at his other main interview, and at an interview after he crashed late in his first stage in the yellow jersey the next day (he&#x27;s fine), the primary point Træen drove across was that he didn&#x27;t really know what was going on. When a Japanese journalist looking for a very simple quote asked him about his extended family on the archipelago, Træen simply said, &quot;I&#x27;m not really in contact with my Japanese family.&quot; Two days later, he was goofing around with the gendarmes and asking to hold one cop&#x27;s gun. He is steady, laconic, the sort of rider I imagine Karl Ove Knausgaard would like (I emailed Knausgaard&#x27;s representatives just in case). It didn&#x27;t last, but it was beautiful.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;27
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://defector.com/?p&#x3D;228325"
+                        open
+                      >
+                        <summary class="article-expander__title">Trump’s State Fair Was Ass In All The Ways I’d Been Warned</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/trumps-state-fair-was-ass-in-all-the-ways-id-been-warned">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2284690826.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>I went to the Great American State Fair figuring it would make me feel lousy about my country. I don&#x27;t remember being so right about anything. 
+I&#x27;d read all about how entertainers wouldn&#x27;t take the stage, how states wouldn&#x27;t staff the booths, and how nobody was showing up because the president had hijacked America&#x27;s 250th birthday celebration and messed everything up. But with only a few days before this circus leaves town—the fair closes tomorrow—I wanted to see for myself if The Mess on the Mall could live down to its billing. And, sure, I wondered if Donald Trump&#x27;s Stonehengian rendering of his proposed Arc de Failure looked as ridiculous in the flesh as online. (Yup and yup.) So I went. Turns out I was prepared for most of the awfulness. But not all the Jesus. So much Jesus.
+First, a summary of its pros and cons.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;32
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://defector.com/?p&#x3D;228106"
+                        open
+                      >
+                        <summary class="article-expander__title">The Other Elephant</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/the-other-elephant">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-1181857377.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>There was always an irony to Happy&#x27;s name. The elephant&#x27;s misfortune stamped her a celebrity. In their home in the wild, female Asian elephants roam for hundreds of miles and form lifelong attachments to a group of around seven relatives. In her home in the Bronx Zoo, Happy lived alone in a small exhibit. She had been separated for decades from the zoo&#x27;s other two Asian elephants, Maxine and Patty, for her own protection. So Happy became famous for her loneliness, deprived of companionship, of family, of physical touch. But Happy was smart, too. She stored treats in her ear. She was the first elephant to pass the mirror self-recognition test, proving her self-awareness when she saw her reflection and poked with her trunk at a white X painted on her forehead. In 2018, the Nonhuman Rights Pr…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;32
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://defector.com/?p&#x3D;228343"
+                        open
+                      >
+                        <summary class="article-expander__title">A Front-Row Seat To The Worst Team In Pro Baseball</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/a-front-row-seat-to-the-worst-team-in-pro-baseball">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/20260708_1940171.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>STATEN ISLAND, N.Y. — If you regret that you never got a chance to see the 1899 Cleveland Spiders, the losingest team in MLB history, can I interest you in a trip to Staten Island? No wait, come back. Just a few steps away from the ferry terminal, a morbidly curious fan can catch the independent Atlantic League&#x27;s Staten Island FerryHawks, who have suffered through such a hapless year that they&#x27;re legitimately challenging the Spiders&#x27; historic futility. With just over two months left in the season, the FerryHawks are saddled with an 11-57 record. Their pitchers carry a team ERA of 10.03. Their run differential is -389, which means they&#x27;re losing their average game by 5.7 runs. Their best hitter, Joshua Palacios, is now on his way to the Pirates&#x27; Triple-A franchise. Yes, New York, it gets mo…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;20
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://defector.com/?p&#x3D;228344"
+                        open
+                      >
+                        <summary class="article-expander__title">I’m Not Sure There Are Enough Dundons On The Stanley Cup</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/im-not-sure-there-are-enough-dundons-on-the-stanley-cup">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/HMwCBv1WsAAjiIB.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The Carolina Hurricanes are worthy NHL champs, plowing through the playoffs with a 16-3 record. It&#x27;s a victory of commitment to an approach, as head coach Rod Brind&#x27;Amour&#x27;s system finally paid ultimate dividends after seven years of postseason exits. It&#x27;s a victory for bloggers everywhere, thanks to the employment of GM Eric Tulsky and analyst Tyler Dellow(!). But most important, it&#x27;s a victory for family. The Dundon family, specifically. No other families.
+Notoriously cheap owner Tom Dundon is listed first on the Stanley Cup engraving every champion gets. It&#x27;s his team, he can do what he wants, and at least the NHL is the last holdout in not handing its championship trophy to the owner first. Executives have had their names on the Cup since the Bruins did it in 1929. So it&#x27;s fine that Tom Dundon is on there now. But whoever&#x27;s job it was to do the engraving was certainly not done at one Dundon:</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://defector.com/?p&#x3D;228329"
+                        open
+                      >
+                        <summary class="article-expander__title">The World Cup Quarterfinals Are Here. Pick A Team Or DIE</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/the-world-cup-quarterfinals-are-here-pick-a-team-or-die">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2284562962.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>OK, now shit is about to get even realer. The FIFA World Cup sponsored by FIFA and presented by FIFA is now down to eight teams. If your favorite team isn’t among the last countries standing, that’s tough shit. You must pick a NEW favorite country, and you must do it right this instant or else suffer the consequences.
+[I draw my sword]
+But how can anyone pick just one team from France, Morocco, Belgium, Spain, Norway, England, Argentina, and Switzerland? Fear not amigo, because this week’s episode of The Distraction is here to help you do just that.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://defector.com/?p&#x3D;227072"
+                        open
+                      >
+                        <summary class="article-expander__title">The Bears Wouldn’t Be The First NFL Team In Hammond, Indiana</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/the-bears-wouldnt-be-the-first-nfl-team-in-hammond-indiana">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-515136798.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The Chicago Bears are one of the most storied franchises in the NFL. One of just two charter members of the league still playing today (the other being the Cardinals, a somewhat less-storied franchise), the Bears have had a lengthy and stalwart kinship with the City of Big Shoulders.
+That could change. Bears ownership announced on June 5 that they are focusing their attention on building a new stadium that not only isn’t in Chicago, but it isn’t in Illinois at all.
+“[T]he Chicago Bears Board of Directors met and voted to advance our stadium development project in Hammond, Indiana, with the exact site to be selected,” Chicago Bears Chairman George H. McCaskey and President and CEO Kevin Warren said in a statement. “We believe a world-class stadium project in Hammond will transform the region, connecting Northwest Indiana to the South Side of Chicago through the Loop and across neighborhoods and suburbs stretching north of the city. It will bring Chicagoland together and deliver new opportunities to its residents and businesses.&quot;</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;41
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -373,191 +689,6 @@ The Free Press, the conservative publication founded by Bari Weiss, who is prese
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Defector</button>
-                  <a class="source-heading__link" href="https://defector.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;228390"
-                        open
-                      >
-                        <summary class="article-expander__title">How Did Bryce Harper End Up Helping FanDuel Keep A Gambling Addict On The Hook?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/how-did-bryce-harper-end-up-helping-fanduel-keep-a-gambling-addict-on-the-hook">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2283828788.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Terry Thompson is part of a lawsuit against FanDuel and DraftKings claiming that the sports books used their VIP services and products to intentionally prey on his gambling addiction. Thompson says he wagered $18.5 million with FanDuel and became addicted to gambling via the sports book&#x27;s in-game micro bets. His suit claims he was also encouraged to continue gambling by a FanDuel VIP manager named Bryttanni Morgan, who at one point sent Thompson a personalized video from Bryce Harper.
-The 21-second video, obtained by the Philadelphia Inquirer, features Harper speaking into his phone camera and wishing Thompson a happy Thanksgiving. &quot;Your host Bryttanni, from FanDuel, wanted to make sure your Thanksgiving was extra special,&quot; Harper says in the video, which has a FanDuel logo superimposed over it. 
-This was just one of many gifts Thompson said he received from Morgan, who communicated with him frequently via text message and shared details from her personal life. Morgan frequently provided Thompson with tickets to sporting events, including two Super Bowls.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;228203"
-                        open
-                      >
-                        <summary class="article-expander__title">Meet Torstein Træen, The Stoic Norwegian Survivor Who Briefly Lit Up The Tour de France</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/meet-torstein-traeen-the-stoic-norwegian-survivor-who-briefly-lit-up-the-tour-de-france">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2284529515.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PAU, France — Some people are natural performers. Torstein Træen is not, though his work on the bike might have been the last exciting general classification action before we get to Paris.
-As the 30-year-old Norwegian rider ascended the podium in Foix after Stage 4 to be wrapped in the yellow jersey, he grinned sheepishly and his Uno-X teammates gathered below to cheer him on. You wouldn&#x27;t know he was bringing such a strange, interesting cycling career to an ecstatic new high. Træen looked shy, rocking back and forth like a character in an RPG loading screen and forgetting to take the ceremonial stuffed lion of victory until the podium attendant nudged him on the arm.
-At his official post-Tour press conference, at his other main interview, and at an interview after he crashed late in his first stage in the yellow jersey the next day (he&#x27;s fine), the primary point Træen drove across was that he didn&#x27;t really know what was going on. When a Japanese journalist looking for a very simple quote asked him about his extended family on the archipelago, Træen simply said, &quot;I&#x27;m not really in contact with my Japanese family.&quot; Two days later, he was goofing around with the gendarmes and asking to hold one cop&#x27;s gun. He is steady, laconic, the sort of rider I imagine Karl Ove Knausgaard would like (I emailed Knausgaard&#x27;s representatives just in case). It didn&#x27;t last, but it was beautiful.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;228325"
-                        open
-                      >
-                        <summary class="article-expander__title">Trump’s State Fair Was Ass In All The Ways I’d Been Warned</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/trumps-state-fair-was-ass-in-all-the-ways-id-been-warned">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2284690826.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I went to the Great American State Fair figuring it would make me feel lousy about my country. I don&#x27;t remember being so right about anything. 
-I&#x27;d read all about how entertainers wouldn&#x27;t take the stage, how states wouldn&#x27;t staff the booths, and how nobody was showing up because the president had hijacked America&#x27;s 250th birthday celebration and messed everything up. But with only a few days before this circus leaves town—the fair closes tomorrow—I wanted to see for myself if The Mess on the Mall could live down to its billing. And, sure, I wondered if Donald Trump&#x27;s Stonehengian rendering of his proposed Arc de Failure looked as ridiculous in the flesh as online. (Yup and yup.) So I went. Turns out I was prepared for most of the awfulness. But not all the Jesus. So much Jesus.
-First, a summary of its pros and cons.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;32
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;228106"
-                        open
-                      >
-                        <summary class="article-expander__title">The Other Elephant</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/the-other-elephant">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-1181857377.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>There was always an irony to Happy&#x27;s name. The elephant&#x27;s misfortune stamped her a celebrity. In their home in the wild, female Asian elephants roam for hundreds of miles and form lifelong attachments to a group of around seven relatives. In her home in the Bronx Zoo, Happy lived alone in a small exhibit. She had been separated for decades from the zoo&#x27;s other two Asian elephants, Maxine and Patty, for her own protection. So Happy became famous for her loneliness, deprived of companionship, of family, of physical touch. But Happy was smart, too. She stored treats in her ear. She was the first elephant to pass the mirror self-recognition test, proving her self-awareness when she saw her reflection and poked with her trunk at a white X painted on her forehead. In 2018, the Nonhuman Rights Pr…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;32
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;228343"
-                        open
-                      >
-                        <summary class="article-expander__title">A Front-Row Seat To The Worst Team In Pro Baseball</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/a-front-row-seat-to-the-worst-team-in-pro-baseball">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/20260708_1940171.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>STATEN ISLAND, N.Y. — If you regret that you never got a chance to see the 1899 Cleveland Spiders, the losingest team in MLB history, can I interest you in a trip to Staten Island? No wait, come back. Just a few steps away from the ferry terminal, a morbidly curious fan can catch the independent Atlantic League&#x27;s Staten Island FerryHawks, who have suffered through such a hapless year that they&#x27;re legitimately challenging the Spiders&#x27; historic futility. With just over two months left in the season, the FerryHawks are saddled with an 11-57 record. Their pitchers carry a team ERA of 10.03. Their run differential is -389, which means they&#x27;re losing their average game by 5.7 runs. Their best hitter, Joshua Palacios, is now on his way to the Pirates&#x27; Triple-A franchise. Yes, New York, it gets mo…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;228344"
-                        open
-                      >
-                        <summary class="article-expander__title">I’m Not Sure There Are Enough Dundons On The Stanley Cup</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/im-not-sure-there-are-enough-dundons-on-the-stanley-cup">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/HMwCBv1WsAAjiIB.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The Carolina Hurricanes are worthy NHL champs, plowing through the playoffs with a 16-3 record. It&#x27;s a victory of commitment to an approach, as head coach Rod Brind&#x27;Amour&#x27;s system finally paid ultimate dividends after seven years of postseason exits. It&#x27;s a victory for bloggers everywhere, thanks to the employment of GM Eric Tulsky and analyst Tyler Dellow(!). But most important, it&#x27;s a victory for family. The Dundon family, specifically. No other families.
-Notoriously cheap owner Tom Dundon is listed first on the Stanley Cup engraving every champion gets. It&#x27;s his team, he can do what he wants, and at least the NHL is the last holdout in not handing its championship trophy to the owner first. Executives have had their names on the Cup since the Bruins did it in 1929. So it&#x27;s fine that Tom Dundon is on there now. But whoever&#x27;s job it was to do the engraving was certainly not done at one Dundon:</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;228329"
-                        open
-                      >
-                        <summary class="article-expander__title">The World Cup Quarterfinals Are Here. Pick A Team Or DIE</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/the-world-cup-quarterfinals-are-here-pick-a-team-or-die">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2284562962.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>OK, now shit is about to get even realer. The FIFA World Cup sponsored by FIFA and presented by FIFA is now down to eight teams. If your favorite team isn’t among the last countries standing, that’s tough shit. You must pick a NEW favorite country, and you must do it right this instant or else suffer the consequences.
-[I draw my sword]
-But how can anyone pick just one team from France, Morocco, Belgium, Spain, Norway, England, Argentina, and Switzerland? Fear not amigo, because this week’s episode of The Distraction is here to help you do just that.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;227072"
-                        open
-                      >
-                        <summary class="article-expander__title">The Bears Wouldn’t Be The First NFL Team In Hammond, Indiana</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/the-bears-wouldnt-be-the-first-nfl-team-in-hammond-indiana">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-515136798.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The Chicago Bears are one of the most storied franchises in the NFL. One of just two charter members of the league still playing today (the other being the Cardinals, a somewhat less-storied franchise), the Bears have had a lengthy and stalwart kinship with the City of Big Shoulders.
-That could change. Bears ownership announced on June 5 that they are focusing their attention on building a new stadium that not only isn’t in Chicago, but it isn’t in Illinois at all.
-“[T]he Chicago Bears Board of Directors met and voted to advance our stadium development project in Hammond, Indiana, with the exact site to be selected,” Chicago Bears Chairman George H. McCaskey and President and CEO Kevin Warren said in a statement. “We believe a world-class stadium project in Hammond will transform the region, connecting Northwest Indiana to the South Side of Chicago through the Loop and across neighborhoods and suburbs stretching north of the city. It will bring Chicagoland together and deliver new opportunities to its residents and businesses.&quot;</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;41
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Misc Newsletters</button>
                   <a class="source-heading__link" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml">Open</a>
                 </h3>
@@ -729,56 +860,6 @@ That could change. Bears ownership announced on June 5 that they are focusing th
                               <span>The conservative justices have spent years developing rules for campaign finance regulation that tilt in favor of billionaires every time.
 The post “End Citizens United” Is Meaningless Without Supreme Court Reform appeared first on Balls and Strikes.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Emacslife</button>
-                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13933"
-                        open
-                      >
-                        <summary class="article-expander__title">Irreal: Globally Overriding Keys</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13933">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>how to globally set a key binding so that it won’t be overridden. He uses setting Meta+o to other-window as an example to explore the problem.
-
-
-Prot begins by defining Meta+o in the global map in the usual way:
-
-
-(define-key global-map (kbd &quot;M-o&quot;) &#x27;other-window )
-
-Meta+o turns out to be a prefix key for inserting an HTML face command. The problem is that Emacs will use the most specific bindings first. Global bindings are the most general, followed by major mode bindings, and ending with minor mode bindings as the most specific.
-
-
-Since HTML is a major mode, its keybinding take precedence over the global binding that we set. The answer is to get more specific yet by defining our binding in a minor mode so that it will always have precedence.
-
-
-Prot shows how to define a minor where we can define our binding and activate it globally so that it’s always available. Of course, once we have this mechanism set up, we can add any number of bindings to our minor mode. Prot demonstrates this by adding a binding that Org uses.
-
-
-Take a look at Prot’s video for all the details. He’s also included a copy of the file he was working with so you can see everything without worrying about copying it down from the video. The video is 12 minutes, 45 seconds so it should be easy to fit in.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -10594,96 +10675,6 @@ Open the calendar (M-x calendar).  Observe that the cursor is a…</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://emacs.dyerdwelling.family/emacs/20260515110240-emacs--that-moment-dired-eats-your-file-and-why-trash-saves-you/"
-                        open
-                      >
-                        <summary class="article-expander__title">James Dyer: That Moment Dired Eats Your File and why Trash Saves You</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://emacs.dyerdwelling.family/emacs/20260515110240-emacs--that-moment-dired-eats-your-file-and-why-trash-saves-you/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>diff-minimap package, deep in the weeds of fringe indicators and search highlights, and I did the thing.  You know the thing.  I was in Dired, accidentally, for some reason hit D to delete a filename (probably some malfunctioning muscle memory) and it was gone!
-
-
-
-
-
-
-
-
-
-Except it was my own source file.  diff-minimap.el.  The one I had been hacking on for the last hour.  The one with all those uncommitted changes.
-
-
-
-Now, in my head, I have a trash setup.  I am sure I configured that somewhere, probably years ago, in some init file on some machine.  But the machine I was sitting at?  Nope.  Emacs just did a straight delete, no safety net, no way back.
-
-
-
-The file was tracked in git, so I could git checkout HEAD -- diff-minimap.el to get the committed version back.  But the uncommitted work - the inline diff preview, the vc-diff positioning, the side-window hunk viewer - that was gone.
-
-
-
-Emacs has a built-in variable, delete-by-moving-to-trash.  When it is set to t, Dired (and other delete operations) move files to the system trash instead of permanently deleting them.  On Linux that is ~/.local/share/Trash/files/, on macOS it is ~/.Trash/, on Windows it is the Recycle Bin.
-
-
-
-It is one of those settings that seems obvious in hindsight but is easy to overlook because Emacs defaults it to nil.  The reasoning is probably that Emacs is a serious tool for serious people who know what they are doing, so deleting means deleting?!
-
-
-
-So I added it to my config:
-
-
-
-(setq delete-by-moving-to-trash t)
-
-
-D in Dired moves to trash instead of deleting permanently and I will not have that sinking feeling again!
-
-
-
-Anyway, back to diff-minimap.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://metaredux.com/posts/2026/06/30/cider-2-0-is-brewing.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Meta Redux: CIDER 2.0 is Brewing…</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://metaredux.com/posts/2026/06/30/cider-2-0-is-brewing.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://metaredux.com/assets/og-image.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Normally I write these posts after a CIDER release is out, with the smug
-satisfaction of someone who has already tagged the version and updated the
-changelog. Today I’m flipping the script a little: the release isn’t out yet,
-but I’m too excited to keep quiet about it.
-Here’s the thing. The next CIDER release was supposed to be 1.23. But as I kept
-piling change upon change, it slowly dawned on me that calling this “1.23” would
-be doing it a disservice. So I’m now strongly considering shipping it as
-CIDER 2.0 instead.
-A different kind of release
-The last few CIDER releases were on the conservative side - lots of important
-internal work, but relatively little that you’d actually notice day to day. This one
-is the exact opposite. It’s stuffed with user-visible changes, many of which
-have been…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -11827,8 +11818,8 @@ I love seeing Fox News broadcasting from the fair, its hosts claiming the place 
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/29045319230">
-        <time id="build-timestamp" datetime="2026-07-09T19:43:51.971Z">2026-07-09T19:43:51.971Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/29051077868">
+        <time id="build-timestamp" datetime="2026-07-09T21:21:58.145Z">2026-07-09T21:21:58.145Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
