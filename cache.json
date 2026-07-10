@@ -639,6 +639,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html",
+          "author": null,
+          "description": "A common refrain is that Emacs is an operating system (OS). This isn’t true, but what invites comparison to an OS is its ability to orchestrate applications and utilities above the OS kernel level. The diagram below suggests a truer picture of how Emacs’ relates to an OS and its capabilities.\n\nEmacs’ built-in access to OS system services (file system, network, etc.) coupled with the ability to run other programs makes it routine to improvise client behavior within it. Because of this, Emacs users are able to accomplish many of their computing needs from the different client modes that have been made for it. This gives credence to the notion of “living only in Emacs.”\nIn this post, we’ll examine some of the ways Emacs lets you build a client. By the end of this post, you’ll hopefully be con…",
+          "link": "http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html",
+          "publishedOn": "2026-07-10T06:40:00.000Z",
+          "wordCount": 1134,
+          "title": "Charles Choi: In Emacs, Everything Looks Like a Service",
+          "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
+        },
+        {
           "id": "https://amitp.blogspot.com/2022/08/emacs-marking-text.html",
           "author": null,
           "description": "Kakoune introduction explains that vim uses verb first, noun second for its commands, whereas Kakoune uses noun first, verb second. I wrote a blog post about why I prefer noun-verb over verb-noun, not only in text editors but also in games and other applications.\n\n\n\n\n\nI started cobbling together some commands in a hydra, trying to match vim keys when I could:\n\n\n\n(defhydra hydra-mark (:body-pre (set-mark-command nil) :color red)\n  \"\n_w_, _,w_: word, symbol    _i'_, _a'_: string  _i)_, _a)_: pair\n_t_, _f_: to char (exclude/include)   _0_, _$_: begin/end of line\n_;_: comment   _u_: url    _e_: email      _>_: web-mode block or tag\n_S_: sexp      _d_: defun  _p_: paragraph  _s_: sentence\n_h_, _j_, _k_, _l_: move   _H-._: off\n  \"\n  (\"t\" mark-to-char-exclusive)\n  (\"f\" mark-to-char-inclusive)\n  (…",
@@ -1564,26 +1574,6 @@
           "wordCount": 7482,
           "title": "Wednesday Update",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160638",
-          "author": "David Pinto",
-          "description": "No one likes Josh Naylor. I remember when I was young other players did not seem to like Reggie Jackson. I thought Jackson’s foibles were a bit exaggerated, maybe out of jealousy over his talent. Then I met Jackson and realized that what I had heard was understated.",
-          "link": "https://www.baseballmusings.com/?p=160638",
-          "publishedOn": "2026-06-30T17:23:11.000Z",
-          "wordCount": 7521,
-          "title": "A Little Knife Music",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160636",
-          "author": "David Pinto",
-          "description": "The Tigers try to make it two in a row against the Yankees with Tarik Skubal on the mound. Cam Schlittler tries to stop the Yankees slide. Skubal makes his fourth start since returning from surgery, and so far the results are mixed. He struck out 21 and walked two in 16 1/3 innings, but […]",
-          "link": "https://www.baseballmusings.com/?p=160636",
-          "publishedOn": "2026-06-30T16:18:40.000Z",
-          "wordCount": 7626,
-          "title": "Games of the Day",
-          "imageUrl": null
         }
       ]
     },
@@ -1691,26 +1681,6 @@
           "wordCount": 1699,
           "title": "NRSC v FEC: The Conservative Justices Keep Selling Democracy To Highest Bidder",
           "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2022/03/GettyImages-1168768895-scaled.jpg"
-        },
-        {
-          "id": "https://ballsandstrikes.org/?p=18486",
-          "author": "Madiba K. Dennie",
-          "description": "The justices had a simple task in Trump v. Barbara: uphold their oaths. Only five were willing to do so.\nThe post The Supreme Court’s Big Birthright Citizenship Decision Is the Absolute <span class=\"dewidow\">Bare Minimum</span> appeared first on Balls and Strikes.",
-          "link": "https://ballsandstrikes.org/scotus/birthright-citizenship-decision-bare-minimum-opinion-recap/",
-          "publishedOn": "2026-06-30T19:14:18.000Z",
-          "wordCount": 1934,
-          "title": "The Supreme Court’s Big Birthright Citizenship Decision Is the Absolute Bare Minimum",
-          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2022/03/GettyImages-1282403922-scaled.jpg"
-        },
-        {
-          "id": "https://ballsandstrikes.org/?p=18473",
-          "author": "Jay Willis",
-          "description": "Four sitting justices are prepared to stuff the Fourteenth Amendment’s promises in the garbage because Mister Trump demands it.\nThe post The Birthright Citizenship Opinion Shows That the Constitution Is On <span class=\"dewidow\">Life Support</span> appeared first on Balls and Strikes.",
-          "link": "https://ballsandstrikes.org/scotus/birthright-citizenship-opinion-constitution-on-life-support/",
-          "publishedOn": "2026-06-30T17:03:40.000Z",
-          "wordCount": 2012,
-          "title": "The Birthright Citizenship Opinion Shows That the Constitution Is On Life Support",
-          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2023/10/GettyImages-1431393388-scaled.jpg"
         }
       ]
     },
@@ -2240,22 +2210,6 @@
           "itunes": {},
           "enclosure": {
             "url": "https://api.substack.com/feed/podcast/203141158/baa2346d0ca5eabfefc40c5c63566fd0.mp3",
-            "length": "0",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/jamie-ager-checks-in-from-nc-11",
-          "author": "Simon Rosenberg",
-          "description": "Let's help Jamie and our other courageous candidates close strong today everyone!",
-          "link": "https://www.hopiumchronicles.com/p/jamie-ager-checks-in-from-nc-11",
-          "publishedOn": "2026-06-30T18:35:16.000Z",
-          "wordCount": null,
-          "title": "Jamie Ager Checks In From NC-11",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://api.substack.com/feed/podcast/204288626/8baf157ce05f5a2a81f425910da871ce.mp3",
             "length": "0",
             "type": "audio/mpeg"
           },
@@ -2937,56 +2891,6 @@
           "wordCount": 7891,
           "title": "Why The Tour de France Route Is Different Every Single Year",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-1164374482.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=227493",
-          "author": "Sarah Borus",
-          "description": "Why would you watch Germany face World Cup elimination in a penalty shootout when you could watch two teams slow-motion walking toward the top of their divisions in the American League? Of course, I’m talking about the Cleveland Guardians vs. Texas Rangers thumb-wrestling match. Now that's appointment television!\nIn Monday's marquee game, Cleveland's Parker Messick faced off against the Rangers' bullpen, with the bulk of the innings thrown by Chris Paddack, debuting with his third team this season. (This season, might I remind you, has just reached the halfway mark). After being designated for assignment by both the Marlins and the Reds, Paddack threw four innings and allowed two runs. His pitching was adequate, which is a word I think about a lot when these two teams are on the field. As for Messick, he also pitched ... fine. He struck out five and allowed four runs over 6.2 innings.\nThe Rangers came away with the win, 6-3. The game was a collection of groundouts, aggressive base running, and runs eked out on singles. Watching this game, I began to think that maybe Ernie Clement really is the best player in the American League. It certainly isn't easy to find a worthy challenger.",
-          "link": "https://defector.com/youre-going-to-have-to-care-about-the-als-snooziest-teams",
-          "publishedOn": "2026-06-30T19:06:00.000Z",
-          "wordCount": 5186,
-          "title": "You’re Going To Have To Care About The AL’s Snooziest Teams",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-22834330121-1-e1782844740959.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=227444",
-          "author": "Drew Magary",
-          "description": "Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGATE, and buy Drew’s books while you’re at it. Today, we're talking worst sports cities, Germany, deceptive cooking shows, and more.\nI'm back from vacation! I'm still technically at the beach, but there's no reason I can't knock out some work in the morning while everyone else in the family sleeps in. I'm always up at 7:00 a.m., whether I have the day off or not. Tis a blessing and a curse.\nNow let's all give it up for Brandy Jensen, who took the helm last week and guided the SS Funbag through the summer weather with a steady, calming hand. She's the best Brandy I know. The only Brandy I know, but that's neither here nor there.",
-          "link": "https://defector.com/a-clueless-soccer-guys-favorite-world-cup-things",
-          "publishedOn": "2026-06-30T18:43:47.000Z",
-          "wordCount": 14957,
-          "title": "A Clueless Soccer Guy’s Favorite World Cup Things",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2020/09/defector-open-graph-2020.png"
-        },
-        {
-          "id": "https://defector.com/?p=227461",
-          "author": "Israel Daramola",
-          "description": "The drama between Brandon Aiyuk and the San Francisco 49ers has been brewing for nearly a year. Since suffering a torn ACL and MCL in his right knee during the 2024 season, Aiyuk and his current team have been in a dispute over his rehabilitation. Last year, Aiyuk declined to attend offseason rehab sessions at the team's facility, thus negating parts of his contract. The Niners placed Aiyuk on the reserve/left team list this past December, after he stopped showing up to the facility.\nAiyuk, who signed a four-year, $120 million deal before the 2024 season, is coming off a major injury and now has no guaranteed money left on his contract. With his spot on the reserve list, the Niners are in no rush to move him. Still, a breakup has looked inevitable for a while, especially to Aiyuk, who stayed silent on the matter until the June 1 salary cap deadline came and went. For the last couple weeks, the receiver has been posting videos and tweets both taunting the 49ers and teasing a desire to go to the Washington Commanders and reunite with former Arizona State teammate Jayden Daniels. But on Saturday, he released a video in which he explained his side of the situation with the 49ers ... sort of.\n\nhttps://youtu.be/tuHF73RLWv4?si=egyVP2wjKunmS0xQ",
-          "link": "https://defector.com/whats-going-on-with-brandon-aiyuk",
-          "publishedOn": "2026-06-30T18:17:13.000Z",
-          "wordCount": 5570,
-          "title": "What’s Going On With Brandon Aiyuk?",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2178122704.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=227460",
-          "author": "Tom Ley",
-          "description": "There are a million reasons why the World Cup is the greatest sporting event on Earth, and one of those reasons is that it's the rare setting in which soccer managers can be forced to eat some shit. \nAmerican sports fans are spoiled by the traditional press conference. Yes, most press conferences are a waste of time and feature obsequious beat reporters lobbing easy questions at the coaches of the teams they cover, but there still exists in this country an impulse toward challenging a coach's thinking when the moment calls for it. If some bozo called for a field goal when he should have gone for it on fourth down, or left his starter out there too long, or or drew up a horrible ATO with the game on the line, he's at least going to be asked to explain himself after the game. If we get lucky, he may even get pissed and start yelling.\nMick Cronin moments are harder to come by for the European soccer fan. If you're a fan of a Premier League team, for example, the only times you get to hear the manager speak are during a mid-week press conference that largely exists to provide injury updates, and during a brief post-match interview that is conducted by a single questioner who often works for the team. This can be a maddening experience, especially if your team sucks and you want someone to ask the dingus running the show why he keeps insisting on trying to turn a slow-footed full back into a wingback.",
-          "link": "https://defector.com/world-cup-recrimination-is-the-best-recrimination",
-          "publishedOn": "2026-06-30T16:42:30.000Z",
-          "wordCount": 6657,
-          "title": "World Cup Recrimination Is The Best Recrimination",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2283448394.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=227462",
-          "author": "Sohini Desai",
-          "description": "Dai dai. Ikou. Dale, allez, let's go. So says Shakira in the chorus of the 2026 Official World Cup Song \"Dai Dai,\" in which she links up with Burna Boy to express the same sentiment in five different languages. Why find the universal in the specific when you can attempt to recreate the magic of your 2010 World Cup hit \"Waka Waka\" by finding the universal in the universal? “No one's getting tired, I know/‘Cause you got that fire, ayo” indeed. One Italian sportswriter described the lyrics of \"Dai Dai\" as “so generic they reach an almost spiritual level of abstraction” and compared listening to “contemplating a geometric shape.”\nIt’s a tragedy that “No matter black, white, or beige/Chola or Orient made” was already featured in another anthem, and so could not be included in “Dai Dai.” The feeling, though, is the same. At one point in the song, Shakira sings the names of various iconic players: Pelé, Maradona, Maldini, Romário. What better way to celebrate the spirit of the tournament than with a list of those who, yes, have definitely played the game of soccer! She repeats the trick by listing a bunch of the participating countries, like a drunk uncle who hasn’t prepared a wedding speech and resorts to naming all the places people have traveled from to attend. “We got Wilmington, Delaware in the house tonight! Thanks for coming all this way!” As always, even supposedly apolitical World Cup choices are rife with politics; Shakira would never sing “Iran” in the song, despite its supple rhyming potential. \nThe utter unremarkability, the total insipidness of \"Dai Dai\" got me thinking about the genre of World Cup songs: Has it always been this bad? Here’s the answer, in a brief history of the music of the men’s World Cup.",
-          "link": "https://defector.com/a-brief-history-of-the-world-cup-song",
-          "publishedOn": "2026-06-30T16:29:20.000Z",
-          "wordCount": 10779,
-          "title": "A Brief History Of The World Cup Song",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-102785258.jpg"
         }
       ]
     },
@@ -4233,26 +4137,6 @@
           "wordCount": 57372,
           "title": "I’m Thoroughly Baffled that Members of the Supreme Court Want to Gut Birthright Citizenship",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/91e39657-f069-45af-ac07-5154d86b861f.jpeg?crop=1xw:0.750650618087xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71785680/rfk-junior-bernie-sanders-hhs-cdc-vaccine-memos/",
-          "author": null,
-          "description": "We should all be angrier that our lives are in the hands of Secretary Roadkill and his MAHA brigade.",
-          "link": "https://www.esquire.com/news-politics/politics/a71785680/rfk-junior-bernie-sanders-hhs-cdc-vaccine-memos/",
-          "publishedOn": "2026-06-30T19:19:51.000Z",
-          "wordCount": 56885,
-          "title": "Newly Released Emails Reveal Just How Little RFK Jr. Cares About Public Health",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/170d3714-e91b-438a-82f0-a847bd98affb.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71783342/trump-donors-white-house-ballroom-contracts/",
-          "author": null,
-          "description": "This administration has an otherworldly talent for finding obscure avenues to loot the government.",
-          "link": "https://www.esquire.com/news-politics/politics/a71783342/trump-donors-white-house-ballroom-contracts/",
-          "publishedOn": "2026-06-30T16:06:21.000Z",
-          "wordCount": 56901,
-          "title": "It’s Somehow Totally Legal for Trump to Give His Donors Huge Contracts to Build the Stupid, Ugly Ballroom",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/ce36ca3c-fe4f-44be-8647-da9f1ec56573.jpeg?crop=1xw:0.749410099103xh;center,top&resize=1200:*"
         }
       ]
     },
