@@ -999,6 +999,16 @@
           "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         },
         {
+          "id": "https://www.bounga.org/emacs/2026/07/01/shpaste-a-paste-sr-ht-client-for-emacs/",
+          "author": null,
+          "description": "What it is\nshpaste is a small Emacs client for paste.sr.ht,\nthe pastebin service from SourceHut. It lets me share a snippet without\nleaving the editor: select some text, run a command, and the paste URL is\nalready in my kill-ring, ready to paste into a chat or an email.\nIt is built on the SourceHut GraphQL API and does just enough to be useful:\ncreate pastes, list them, open them, delete them. Nothing more.\nThe project lives at\nsr.ht/~bounga/shpaste, where you’ll find\nthe source, the ticket tracker, and the mailing lists.\nWhat it does\nCreate a paste from the region or from the whole buffer. The\nresulting URL is pushed to the kill-ring and shown in the echo area.\nBrowse your pastes in a dedicated list buffer, sorted and tabulated.\nFrom that buffer: open a paste, copy its URL, delete it, or\n…",
+          "link": "https://www.bounga.org/emacs/2026/07/01/shpaste-a-paste-sr-ht-client-for-emacs/",
+          "publishedOn": "2026-07-01T22:00:00.000Z",
+          "wordCount": 928,
+          "title": "Nicolas Cavigneaux: shpaste: a paste.sr.ht Client for Emacs",
+          "imageUrl": "https://www.bounga.org/assets/images/headers/emacs.jpg"
+        },
+        {
           "id": "https://www.bounga.org/emacs/2026/06/30/sign-always-encrypt-when-possible-in-mu4e/",
           "author": null,
           "description": "Introduction\nGPG is only useful for the emails you actually remember to protect.\nIn mu4e, signing and encrypting a message is a manual gesture. Before\nsending, I hit C-c C-m s p to sign, or C-c C-m c p to sign and\nencrypt. It works, but it relies on me thinking about it every single\ntime.\nI don’t. Nobody does.\nSo in practice, the manual approach means most messages go out\nunsigned, and encryption only happens on the rare occasion I stop to\nremember it exists.\nI wanted the opposite default. Something with no friction, that follows a\nclear policy:\nSign every message I send. Always.\nEncrypt a message when, and only when, I have a public key for every\nrecipient.\nThe second rule matters. Encryption is all-or-nothing: if a single\nrecipient is missing from my keyring, encrypting would lock them o…",
@@ -1057,16 +1067,6 @@
           "wordCount": 1954,
           "title": "Meta Redux: Sayid Redux",
           "imageUrl": "https://metaredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://chrismaiorana.com/god-mode-notes/",
-          "author": null,
-          "description": "Consult notes is a package that hooks into your note-taking system. It works particularly well with Denote, picking up your notes directory variable automatically.\nMy interest in having a note system comes down to whether it helps my writing. A writer needs different kinds of notes: reading notes, notes on craft, notes on etymology, and random ideas. You’ll notice I’ve built that into the config below.\nI’ve touched on the topic of note-taking in Emacs a few times, in posts on “making everything a note” and on the “undergrad” style of note-taking. I’ve often argued that a full dedicated notes package was unnecessary when you could simply create files and link them together.\nBut this “consult notes” package made me want to give Denote another try and see how it feels. So far, I like it. I’m …",
-          "link": "https://chrismaiorana.com/god-mode-notes/",
-          "publishedOn": "2026-07-01T01:00:28.000Z",
-          "wordCount": 1283,
-          "title": "Chris Maiorana: God mode notes with Denote and Consult Notes",
-          "imageUrl": "https://chrismaiorana.com/wp-content/uploads/2026/06/org-mode-consult-notes.jpg"
         }
       ]
     },
@@ -1661,26 +1661,6 @@
           "wordCount": 2043,
           "title": "Monsanto v Durnell: The Big Pro-Corporate Power Supreme Court Case You Might Have Missed",
           "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2026/07/GettyImages-2273382212-1200x630.jpg"
-        },
-        {
-          "id": "https://ballsandstrikes.org/?p=18495",
-          "author": "Jay Willis",
-          "description": "The conservative movement has spent years villainizing trans people. In West Virginia v. B.P.J., the conservative justices are simply doing their part to help.\nThe post The Supreme Court Is Going Where Anti-Trans Activists Are <span class=\"dewidow\">Leading It</span> appeared first on Balls and Strikes.",
-          "link": "https://ballsandstrikes.org/scotus/trans-sports-supreme-court-opinion-recap/",
-          "publishedOn": "2026-06-30T23:58:26.000Z",
-          "wordCount": 1796,
-          "title": "The Supreme Court Is Going Where Anti-Trans Activists Are Leading It",
-          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2024/04/GettyImages-1062366178-scaled-e1714148453973-1200x630.jpg"
-        },
-        {
-          "id": "https://ballsandstrikes.org/?p=18493",
-          "author": "Madiba K. Dennie",
-          "description": "No free speech rights are quite as important to Brett Kavanaugh as those of political parties and the billionaires who fund them.\nThe post NRSC v FEC: The Conservative Justices Keep Selling Democracy To <span class=\"dewidow\">Highest Bidder</span> appeared first on Balls and Strikes.",
-          "link": "https://ballsandstrikes.org/scotus/nrsc-v-fec-opinion-recap-highest-bidder/",
-          "publishedOn": "2026-06-30T23:02:31.000Z",
-          "wordCount": 1699,
-          "title": "NRSC v FEC: The Conservative Justices Keep Selling Democracy To Highest Bidder",
-          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2022/03/GettyImages-1168768895-scaled.jpg"
         }
       ]
     },
@@ -2166,22 +2146,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!XP6C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa2c411b2-ff1b-4bcc-b9bb-2a62e1052e40_1093x1061.png"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/doing-good-things-for-our-neighbors",
-          "author": "Simon Rosenberg",
-          "description": "Let's help Senator Garriott and our other courageous candidates close strong today everyone!",
-          "link": "https://www.hopiumchronicles.com/p/doing-good-things-for-our-neighbors",
-          "publishedOn": "2026-07-01T00:15:10.000Z",
-          "wordCount": null,
-          "title": "\"Doing Good Things For Our Neighbors\" - State Senator Sarah Trone Garriott (IA-03) Checks In From Battleground Iowa",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://api.substack.com/feed/podcast/203141158/baa2346d0ca5eabfefc40c5c63566fd0.mp3",
-            "length": "0",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
@@ -2190,6 +2154,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=228468",
+          "author": "Tom Ley",
+          "description": "In September 2025 the NBA hired the law firm Wachtell, Lipton, Rosen & Katz to investigate the Los Angeles Clippers for potential salary cap circumvention after Pablo Torre Finds Out reported that the team had arranged a no-show endorsement deal for Kawhi Leonard with a fraudulent tree-planting company called Aspiration. On June 30, 2026, the Clippers agreed to trade Leonard to the Toronto Raptors. That trade is now on hold because, somehow, the aforementioned investigation is still ongoing.\nOn Thursday both the Clippers and Raptors released statements saying their trade is being put on pause. The Raptors' statement said that the reason for the delay is that the NBA informed them that they would \"assume the risk of any potential outcome of the investigation impacting Kawhi.\" This is an int…",
+          "link": "https://defector.com/the-kawhi-leonard-investigation-is-now-holding-up-the-kawhi-leonard-trade",
+          "publishedOn": "2026-07-10T13:47:35.000Z",
+          "wordCount": 5004,
+          "title": "The Kawhi Leonard Investigation Is Now Holding Up The Kawhi Leonard Trade",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2271011619.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=228455",
+          "author": "Luis Paez-Pumar",
+          "description": "World Cups are rarely wire-to-wire coronations. In fact, the competition is so fierce, and the margins so small, that usually there isn't a single clear \"best\" team that goes ahead and wins it all. In 2010, you could argue that Germany looked stronger than eventual champions Spain up until the Spaniards pulled off a narrow 1-0 win against them in the semifinal. The Dutch were probably the strongest team overall in 2014, even though they fell to Argentina in the semis. As the legendary final itself demonstrated, there wasn't terribly much separating France from Argentina in 2022 either. Really, of the most recent four tournaments, only France in 2018 looked like the best team throughout the competition and then confirmed that sense by winning. It's no surprise, then, that the French appear to be on the verge of pulling off that same feat again, coming off a 2-0 domination of Morocco in Thursday's quarterfinal that once again had Les Bleus seeming unstoppable.\n\nhttps://www.youtube.com/watch?v=7mx7L_IgBfY\n\n\nThis has been, more than anything, a World Cup of stars. Lionel Messi has been astonishing for Argentina, Erling Haaland has Norway one game from the semis on the sheer power of his goalscoring, and Harry Kane stands in Norway's path as England's best player (and, if it's not him, it's Jude Bellingham, another star playing up to his maximum level). France's strength is that it is the only team that can boast a roster for full of stars, one in which no one player is needed to win. Of course, France does that have a leading star in Kylian Mbappé, but it also has Michael Olise, and Ousmane Dembélé, and Désiré Doué, and William Saliba, and Dayot Upamecano, and Bradley Barcola off the bench. Not all of those players are, by definition, stars, but they are all so talented that it's impossible to focus on one player in order to shut down France.",
+          "link": "https://defector.com/france-feels-inevitable",
+          "publishedOn": "2026-07-10T13:08:33.000Z",
+          "wordCount": 6907,
+          "title": "France Feels Inevitable",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2285422700.jpg"
+        },
         {
           "id": "https://defector.com/?p=228389",
           "author": "Giri Nathan",
@@ -2848,6 +2832,26 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/zwki91vxpvzi64ejhuiy.html",
+          "author": null,
+          "description": "96\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}.row-2 .column-1 .block-7 .button:hover{background-color:#16688b!important;border-bottom:0 solid transparent!important;border-left:0 solid transparent!important;border-right:0 solid transparent!important;border-top:0 solid transparent!important;color:#fff!important} @media (max-width:660px){.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:non…",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/zwki91vxpvzi64ejhuiy.html",
+          "publishedOn": "2026-07-10T13:04:06.958Z",
+          "wordCount": null,
+          "title": "A roadmap for your tasting journey through the science and art of flavor",
+          "imageUrl": null
+        },
+        {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/76ckm4km480uzjh6yfr7.html",
+          "author": null,
+          "description": "Anyway, Here’s Wonderwall (Positive)96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-decoration: inherit !important; font-size: inherit …",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/76ckm4km480uzjh6yfr7.html",
+          "publishedOn": "2026-07-10T11:00:08.897Z",
+          "wordCount": 2498,
+          "title": "Anyway, Here’s Wonderwall (Positive)",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/vux068ppbe4z56gx83g8.html",
           "author": null,
           "description": "Trump fires all Election Assistance Commission members, leaving agency unable to act96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-dec…",
@@ -3076,16 +3080,6 @@
           "wordCount": 3135,
           "title": "I Talked With Azzi Fudd, Our Indecisive Queen",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/3xtjvh7nb8v9q107ui72.html",
-          "author": null,
-          "description": "96\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}.row-4 .column-1 .block-3 .button:hover,.row-4 .column-2 .block-3 .button:hover,.row-4 .column-3 .block-3 .button:hover,.row-5 .column-1 .block-3 .button:hover,.row-5 .column-2 .block-3 .button:hover,.row-5 .column-3 .block-3 .button:hover{background-color:#16688b!important;border-bottom:0 solid transparent!important;border-left:0 solid transparent!important;border-right:0 solid transparent!important;border-top:0 solid trans…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/3xtjvh7nb8v9q107ui72.html",
-          "publishedOn": "2026-06-30T15:23:22.325Z",
-          "wordCount": 390,
-          "title": "Check out our most browsed books this month!",
-          "imageUrl": null
         }
       ]
     },
@@ -3102,16 +3096,6 @@
           "publishedOn": "2026-07-07T19:56:22.472Z",
           "wordCount": 1510,
           "title": "Wagtail as Admin, Random Values, Code Quality, and More",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/ewtvl0yet1hylfzddzxs.html",
-          "author": null,
-          "description": "Root Loggers, PEP 832, Django Tasks, and More\n      body,#bodyTable,#bodyCell{\n      height:100% !important;\n      margin:0;\n      padding:0;\n      width:100% !important;\n      }\n      table{\n      border-collapse:collapse;\n      }\n      img,a img{\n      border:0;\n      outline:none;\n      text-decoration:none;\n      }\n      h1,h2,h3,h4,h5,h6{\n      margin:0;\n      padding:0;\n      }\n      p{\n      margin:1em 0;\n      padding:0;\n      }\n      a{\n      word-wrap:break-word;\n      }\n      .mcnPreviewText{\n      display:none !important;\n      }\n      .ReadMsgBody{\n      width:100%;\n      }\n      .ExternalClass{\n      width:100%;\n      }\n      .ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{\n      line-height:100%;\n      }\n      tabl…",
-          "link": "https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/ewtvl0yet1hylfzddzxs.html",
-          "publishedOn": "2026-06-30T20:05:59.500Z",
-          "wordCount": 1499,
-          "title": "Root Loggers, PEP 832, Django Tasks, and More",
           "imageUrl": null
         }
       ]
