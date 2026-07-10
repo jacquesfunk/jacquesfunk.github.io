@@ -1067,26 +1067,6 @@
           "wordCount": 1283,
           "title": "Chris Maiorana: God mode notes with Denote and Consult Notes",
           "imageUrl": "https://chrismaiorana.com/wp-content/uploads/2026/06/org-mode-consult-notes.jpg"
-        },
-        {
-          "id": "https://www.bounga.org/emacs/2026/07/01/shpaste-a-paste-sr-ht-client-for-emacs/",
-          "author": null,
-          "description": "What it is\nshpaste is a small Emacs client for paste.sr.ht,\nthe pastebin service from SourceHut. It lets me share a snippet without\nleaving the editor: select some text, run a command, and the paste URL is\nalready in my kill-ring, ready to paste into a chat or an email.\nIt is built on the SourceHut GraphQL API and does just enough to be useful:\ncreate pastes, list them, open them, delete them. Nothing more.\nThe project lives at\nsr.ht/~bounga/shpaste, where you’ll find\nthe source, the ticket tracker, and the mailing lists.\nWhat it does\nCreate a paste from the region or from the whole buffer. The\nresulting URL is pushed to the kill-ring and shown in the echo area.\nBrowse your pastes in a dedicated list buffer, sorted and tabulated.\nFrom that buffer: open a paste, copy its URL, delete it, or\n…",
-          "link": "https://www.bounga.org/emacs/2026/07/01/shpaste-a-paste-sr-ht-client-for-emacs/",
-          "publishedOn": "2026-06-30T22:00:00.000Z",
-          "wordCount": 932,
-          "title": "Nicolas Cavigneaux: shpaste: a paste.sr.ht Client for Emacs",
-          "imageUrl": "https://www.bounga.org/assets/images/headers/emacs.jpg"
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/06/create-date-books-planners-and.html",
-          "author": null,
-          "description": "Diary was my pick for this month's Emacs Carnival.  But in fact it's\n  part of a larger set of functions under the calendar group.  Another\n  set of functions allows you to create pocket date books, desk planners and wall\n  calendars if you have access to a printer.  The function names begin\n  with cal-tex-cursor and cal-html-cursor, and they can be found in\n  cal-tex.el and cal-html.el, respectively.\nThe \"tex\" and \"html\" in the function names describe the output\n  formats, LaTeX and, well, HTML; \"cursor\" describes one way of\n  defining their inputs (from the position of the cursor in the\n  calendar buffer).  They're further subdivided into layouts such as\n  day, week, month and year.  My favorite is\n  cal-tex-cursor-week-iso.\nOpen the calendar (M-x calendar).  Observe that the cursor is a…",
-          "link": "https://ray-on-emacs.blogspot.com/2026/06/create-date-books-planners-and.html",
-          "publishedOn": "2026-06-30T21:05:58.956Z",
-          "wordCount": 3232,
-          "title": "Raymond Zeitler: Create Date Books, Planners and Calendars with Emacs",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiP9dyTC_cV69EZlowJL_bm3FfhY4HpAybVPVJQ4hHVSUEmlIzjA-evN8k_PIe3jSyTs6U2Cb5xqR5qq0TIF1RdsU3ve8YQggVHVsLQhYWY41dm6xULhi3UnSreMKUntchLpn4JniDysEDnTnfo7FDX0Q09l9hHsw0_I9a0stX3uNXXh_E4bmy5iFKobY/w1200-h630-p-k-no-nu/demo_calendar.gif"
         }
       ]
     },
@@ -1095,6 +1075,26 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160755",
+          "author": "David Pinto",
+          "description": "Pete Crow-Armstrong of the Cubs stayed atop the Baseball Musings Batter Rankings as he doubled and walked in a 3-2 Orioles win, pushing his OBP up to .387. Otto Lopez of the Marlins moved into second place with a triple and two walks in an 8-4 win over the Mariners, the Marlins sweeping their fellow […]",
+          "link": "https://www.baseballmusings.com/?p=160755",
+          "publishedOn": "2026-07-10T10:29:40.000Z",
+          "wordCount": 7705,
+          "title": "Best Batter Today",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160753",
+          "author": "David Pinto",
+          "description": "",
+          "link": "https://www.baseballmusings.com/?p=160753",
+          "publishedOn": "2026-07-10T10:07:25.000Z",
+          "wordCount": 7490,
+          "title": "Friday Update",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160751",
           "author": "David Pinto",
@@ -1752,22 +1752,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!nq62!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F74a5e087-c3e4-4c3c-967f-d0db3b38f51a_1000x667.webp"
-        },
-        {
-          "id": "https://www.stevevladeck.com/p/decision-day-summary-june-30-2026",
-          "author": "Steve Vladeck",
-          "description": "Our latest video bonus for paid subscribers walks through the three rulings in four argued cases that the Supreme Court handed down on Tuesday, June 30, 2026.",
-          "link": "https://www.stevevladeck.com/p/decision-day-summary-june-30-2026",
-          "publishedOn": "2026-06-30T22:21:00.000Z",
-          "wordCount": null,
-          "title": "Decision Day Summary: June 30, 2026",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-video.s3.amazonaws.com/video_upload/post/204351855/7b39fdb5-af59-42df-bfd5-9607c7a9f593/transcoded-00001.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-video.s3.amazonaws.com/video_upload/post/204351855/7b39fdb5-af59-42df-bfd5-9607c7a9f593/transcoded-00001.png"
         }
       ]
     },
@@ -1887,22 +1871,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/6ae48a6d-1375-4051-97b9-b1fe953a932e_2062x1358.png"
-        },
-        {
-          "id": "https://www.lawdork.com/p/scotus-trans-sports-bans",
-          "author": "Chris Geidner",
-          "description": "Kavanaugh wrote the court's opinion, but Sotomayor dissented to explain for the liberal trio what the court got wrong about equal protection law.",
-          "link": "https://www.lawdork.com/p/scotus-trans-sports-bans",
-          "publishedOn": "2026-06-30T22:06:22.000Z",
-          "wordCount": null,
-          "title": "Supreme Court's conservatives OK trans sports bans",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!KO49!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc81da96-e0ee-4a2d-98b4-7feba73fa62c_2000x1480.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!KO49!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc81da96-e0ee-4a2d-98b4-7feba73fa62c_2000x1480.png"
         }
       ]
     },
@@ -2871,26 +2839,6 @@
           "wordCount": 16288,
           "title": "“We Hold These Truds”: A Search For The Weirdest Piece Of America 250 Merchandise",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/Semiquincetennial.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=226821",
-          "author": "Diana Moskovitz",
-          "description": "The U.S. Supreme Court, in an opinion released Tuesday, voted 6-3 in support of two state laws that ban trans girls and women from playing women's sports at public schools and universities. The ruling applies directly to bans in two states—Idaho and West Virginia—while bolstering similar bans in more than two dozen others.\nWriting for the three votes against—all of which came from the court's liberal wing—Justice Sonia Sotomayor said that to the court's majority \"the facts do not matter, even though the consequences are serious.\"\n\"Sports, of course, are often zero sum,\" Sotomayor wrote, \"but the law need not and should not be.\"",
-          "link": "https://defector.com/u-s-supreme-court-upholds-bans-on-trans-athletes-in-school-sports",
-          "publishedOn": "2026-06-30T19:45:14.000Z",
-          "wordCount": 8471,
-          "title": "U.S. Supreme Court Upholds Bans On Trans Athletes In School Sports",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2256105551-e1782340050293.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=227356",
-          "author": "Patrick Redford",
-          "description": "As I spend the early part of the summer talking about the Tour de France with normal people (read: non-cycling fans), there's one thing that catches almost everyone off-guard. I will outline the route and they'll say something like \"What do you mean it starts in Barcelona?,\" as they adopt an expression that I imagine conveys a skepticism about whether I know Barcelona is not in France or that Louis XIV evacuated Catalonia following 1697's Peace of Ryswick. To those who haven't paid the closest attention, learning that \"Tour\" is subjective and \"de France\" is not entirely accurate is a useful entrypoint into learning about the joyful quirks of the world's biggest bike race. It will dawn on them that the route changes every year; as it turns out, figuring out why the organizers craft different races year after year will teach you a ton about the sport.\nIt wasn't always like this. Riders in the Tour's earliest days circumscribed a hexagon within the edges of France's borders, beginning and ending in Paris. The Tour is still known as the Grand Boucle, or Big Loop, an appellation that used to be literal. Most of the early Tours were raced clockwise, and went the other way for the first time in 1913, a decade after the first Tour. Innovations were sparse and slow, and though the route was tweaked every year, its shape and rhythm was mostly the same. It wasn't until 1960 that organizers had a stage start in a different city than where the previous one ended, with riders taking the train south from Bordeaux to Mont de Marsan. From that point, the Loop began slowly distending, its shape becoming increasingly abstract.",
-          "link": "https://defector.com/why-the-tour-de-france-route-is-different-every-single-year",
-          "publishedOn": "2026-06-30T19:33:23.000Z",
-          "wordCount": 7891,
-          "title": "Why The Tour de France Route Is Different Every Single Year",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-1164374482.jpg"
         }
       ]
     },
@@ -3207,6 +3155,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/salon-amanda-marcotte.xml",
       "siteUrl": "https://www.salon.com/writer/amanda_marcotte",
       "articles": [
+        {
+          "id": "https://www.salon.com/2026/07/10/dinosaurs-on-noahs-ark-a-maga-theme-park-clings-to-creationism/-full",
+          "author": null,
+          "description": "Creationism hasn’t generated much coverage in the mainstream media over the past decade. The days when fundamentalists challenged scientists to “debates” over evolution now seem quaint in the era of Donald Trump, whose belief is that you never need to persuade when beating your opponents into submission is an option. Under the president’s leadership, the right has shifted from arguing about dinosaur bones and carbon dating to making more blunt demands for book bans and even stripping women of the right to vote.\nThis is not to say that evangelicals’ attachment to creationism has gone away, even if it has faded from mainstream discourse. This week, one of the most elaborate and ridiculous bits of Christian right propaganda, Kentucky’s Ark Encounter, is celebrating its 10th anniversary. Reade…",
+          "link": "https://www.salon.com/2026/07/10/dinosaurs-on-noahs-ark-a-maga-theme-park-clings-to-creationism/",
+          "publishedOn": "2026-07-10T10:45:40.000Z",
+          "wordCount": 1961,
+          "title": "Dinosaurs on Noah’s ark? A MAGA theme park clings to creationism",
+          "imageUrl": "https://www.salon.com/app/uploads/2026/07/noahs-ark-encounter-full-exterior.jpg"
+        },
         {
           "id": "https://www.salon.com/2026/07/08/taylor-swifts-wedding-proves-aoc-right-there-are-no-good-billionaires/-full",
           "author": null,
@@ -3723,36 +3681,6 @@
           "wordCount": 4435,
           "title": "Blistering U.S. heat wave proves Mother Nature is a radical leftistRex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90663423007-2282398027.jpg?crop=5823,3276,x0,y302&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/05/21/star-wars-mandalorian-grogu-sheep-detectives-escapism/90178753007/-full",
-          "author": "Rex Huppke",
-          "description": "Look, this has already been an annoyingly long year, we’re on the brink of a searing-hot summer, gas prices are higher than my cousin Stu at a Phish concert, and we’re at war with Iran.\nGiven all that, I have one request: I don’t want to hear a single unkind or critical word about the new \"Star Wars\" movie, “The Mandalorian and Grogu.” That movie, which I have not yet seen, is about the only good thing happening in this world, and I refuse to let anyone take that from me. \nFor those who haven’t watched the television series “The Mandalorian,” from which the new movie bubbled up, here’s a quick synopsis: There’s a cool dude in an awesome helmet who protects an absolutely freaking adorable creature who audiences initially referred to as Baby Yoda, because he looks like a baby Yoda, the iconi…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/05/21/star-wars-mandalorian-grogu-sheep-detectives-escapism/90178753007/",
-          "publishedOn": "2026-06-30T17:51:30.825Z",
-          "wordCount": 4782,
-          "title": "'The Mandalorian and Grogu' is the only good thing in this worldRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/20/USAT/90174551007-thndff-000470-2.jpg?crop=4095,2304,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/05/31/trump-250-ufc-fight-ballroom-midterms/90295440007/-full",
-          "author": "Rex Huppke",
-          "description": "Americans are angry. They are stressed about food and fuel prices. They are, in astounding numbers, saying President Donald Trump is the source of their anger and stress.\nWell, I can assure my fellow Americans the MAGA king ain’t listening. He doesn’t care, and he has said as much.\nWhile Trump’s narcissism has never been hidden, it has become more glaring in this second term, and it’s easier than ever to see that the man about to turn 80 doesn’t care about any American but himself. \nHe cares deeply about hosting a raucous UFC fight on the White House lawn on his upcoming birthday. He cares deeply, in vivid dreams of gold and chandeliers, about one day having the grandest ballroom in the land. He cares about making America’s 250th anniversary celebration in the nation’s capital a big, gaudy…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/05/31/trump-250-ufc-fight-ballroom-midterms/90295440007/",
-          "publishedOn": "2026-06-30T17:51:30.797Z",
-          "wordCount": 4257,
-          "title": "Trump doesn't care about midterms and definitely doesn't care about youRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/27/USAT/90278031007-20260527-t-160146-z-615041505-rc-2-rhlas-0-wij-rtrmadp-3-usatrump.JPG?crop=5494,3091,x0,y187&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/30/great-american-state-fair-trump-attendance/90741971007/-full",
-          "author": "Rex Huppke",
-          "description": "I love President Donald Trump’s Great American State Fair. I love its emptiness. Its expensive food. Its ability to confound Trump-friendly media outlets that keep pretending it’s going great.\nThis spectacle on the National Mall in Washington, DC, part of Trump’s Trump-centric celebration of America’s 250th anniversary, is like watching your high school bully host a party that no one attends. It’s a daily humiliation for a wildly unpopular president who coopted what should be a unifying national celebration and turned it into repellent schlock.\nAnd I love it so much it hurts.\nTrump's Great American State Fair humiliation is soothing America\nI love seeing Fox News broadcasting from the fair, its hosts claiming the place is filled with excited patriots while the scenes behind them show a vas…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/30/great-american-state-fair-trump-attendance/90741971007/",
-          "publishedOn": "2026-06-30T10:55:50.475Z",
-          "wordCount": 4338,
-          "title": "The Great American State Fair is Trump's daily humiliation. I love it.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90716538007-20260626-t-050118-z-548195326-rc-241-ma-60-ne-6-rtrmadp-3-usa-250-statefair.JPG?crop=5494,3091,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
         }
       ]
     },
@@ -4127,16 +4055,6 @@
           "wordCount": 69677,
           "title": "The San Francisco Church That Holds America’s Secrets",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/e2051b2a-9243-4716-ac06-7f48139d30aa.jpg?crop=1xw:1.0xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71786887/scotus-birthright-citizenship-decision/",
-          "author": null,
-          "description": "A recent decision deemed the 14th Amendment safe for now, but with three dissenting nitwits still on the bench, we can never be too sure.",
-          "link": "https://www.esquire.com/news-politics/politics/a71786887/scotus-birthright-citizenship-decision/",
-          "publishedOn": "2026-06-30T21:25:10.000Z",
-          "wordCount": 57372,
-          "title": "I’m Thoroughly Baffled that Members of the Supreme Court Want to Gut Birthright Citizenship",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/91e39657-f069-45af-ac07-5154d86b861f.jpeg?crop=1xw:0.750650618087xh;center,top&resize=1200:*"
         }
       ]
     },
