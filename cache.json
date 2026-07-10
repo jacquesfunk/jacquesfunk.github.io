@@ -655,6 +655,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://list.orgmode.org/87tsq6937o.fsf@localhost",
+          "author": null,
+          "description": "[request] flags:--- replies:5",
+          "link": "https://list.orgmode.org/87tsq6937o.fsf@localhost",
+          "publishedOn": "2026-07-10T17:14:57.000Z",
+          "wordCount": 564,
+          "title": "Org Mode requests: [RFC] Help with PDF/UA2 accessibility tests for ox-latex",
+          "imageUrl": null
+        },
+        {
           "id": "http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html",
           "author": null,
           "description": "A common refrain is that Emacs is an operating system (OS). This isn’t true, but what invites comparison to an OS is its ability to orchestrate applications and utilities above the OS kernel level. The diagram below suggests a truer picture of how Emacs’ relates to an OS and its capabilities.\n\nEmacs’ built-in access to OS system services (file system, network, etc.) coupled with the ability to run other programs makes it routine to improvise client behavior within it. Because of this, Emacs users are able to accomplish many of their computing needs from the different client modes that have been made for it. This gives credence to the notion of “living only in Emacs.”\nIn this post, we’ll examine some of the ways Emacs lets you build a client. By the end of this post, you’ll hopefully be con…",
