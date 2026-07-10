@@ -2,10 +2,70 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-09T23:10:13.631Z</updated>
+    <updated>2026-07-10T02:54:03.046Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Royals Expected To Maintain High Asking Price On Wacha, Lugo]]></title>
+        <id>https://www.mlbtraderumors.com/?p=902749</id>
+        <link href="https://www.mlbtraderumors.com/2026/07/royals-expected-to-maintain-high-asking-price-on-wacha-lugo.html"/>
+        <updated>2026-07-10T00:14:16.000Z</updated>
+        <summary type="html"><![CDATA[The Royals have been one of the more disappointing teams in MLB. They’re alongside the Angels as the two worst teams in the American League, the only AL clubs completely buried in the playoff picture. That theoretically positions them as deadline sellers. However, as explored on the MLBTR podcast this week, Kansas City doesn’t have […]]]></summary>
+        <author>
+            <name>Anthony Franco</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trump fires all Election Assistance Commission members, leaving agency unable to act]]></title>
+        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/vux068ppbe4z56gx83g8.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/vux068ppbe4z56gx83g8.html"/>
+        <updated>2026-07-09T23:40:38.109Z</updated>
+        <summary type="html"><![CDATA[Trump fires all Election Assistance Commission members, leaving agency unable to act96
+  :root { color-scheme: light; supported-color-schemes: light; }
+  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }
+  .body { word-wrap: normal; word-spacing:normal; }
+  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }
+  img { border: 0; outline: none; }
+  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }
+  td, a, span {  mso-line-height-rule: exactly; }
+  #root [x-apple-data-detectors=true],
+  a[x-apple-data-detectors=true],
+  #MessageViewBody a { color: inherit !important; text-dec…]]></summary>
+        <author>
+            <name>Misc Newsletters</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amit Patel: Emacs: marking text]]></title>
+        <id>https://amitp.blogspot.com/2022/08/emacs-marking-text.html</id>
+        <link href="https://amitp.blogspot.com/2022/08/emacs-marking-text.html"/>
+        <updated>2026-07-09T23:09:59.982Z</updated>
+        <summary type="html"><![CDATA[Kakoune introduction explains that vim uses verb first, noun second for its commands, whereas Kakoune uses noun first, verb second. I wrote a blog post about why I prefer noun-verb over verb-noun, not only in text editors but also in games and other applications.
+
+
+
+
+
+I started cobbling together some commands in a hydra, trying to match vim keys when I could:
+
+
+
+(defhydra hydra-mark (:body-pre (set-mark-command nil) :color red)
+  "
+_w_, _,w_: word, symbol    _i'_, _a'_: string  _i)_, _a)_: pair
+_t_, _f_: to char (exclude/include)   _0_, _$_: begin/end of line
+_;_: comment   _u_: url    _e_: email      _>_: web-mode block or tag
+_S_: sexp      _d_: defun  _p_: paragraph  _s_: sentence
+_h_, _j_, _k_, _l_: move   _H-._: off
+  "
+  ("t" mark-to-char-exclusive)
+  ("f" mark-to-char-inclusive)
+  (…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Fri, 1pm ET - Hopium Founding Members Most Fridays Get Together]]></title>
         <id>https://www.hopiumchronicles.com/p/fri-1pm-et-hopium-founding-members-c2a</id>
@@ -6105,172 +6165,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       …]]></summary>
         <author>
             <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This is the last day to support The Nation]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0z8l8obfkp44kmt3i55z.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0z8l8obfkp44kmt3i55z.html"/>
-        <updated>2026-06-30T14:44:55.008Z</updated>
-        <summary type="html"><![CDATA[96
-
-*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:620px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.row-3 .column-1 .block-1.image_block td.pad{padding:5px 0 0 0!important}.row-3 .column-1 .block-1.im…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Finding Friends, Legacy, And Leather Sluts At New Jersey’s Finest Holiday Inn]]></title>
-        <id>https://defector.com/?p=227292</id>
-        <link href="https://defector.com/finding-friends-legacy-and-leather-sluts-at-new-jerseys-finest-holiday-inn"/>
-        <updated>2026-06-30T14:20:36.000Z</updated>
-        <summary type="html"><![CDATA[In 2011, a Princeton Borough police officer gave me a public urination ticket as I was on my way to go drinking. I went home with someone that night and forgot about the ticket in my crumpled pants pocket. Weeks later I paid it off in a panic, hours before my delinquency would have added me to a New Jersey sex offender registry. For no particular reason, I was reminded about that while watching a femme top squat over a girl lying across a storm drain in the courtyard of a Holiday Inn in central Jersey. It took her a little while to find her stream, but she got there.
-While I’ve had interesting desires all the way back to my days furtively printing Final Fantasy fetish erotica off the family Epson, I’ve only been in the queer leather world for a few years now. Like many trans folks, turning…]]></summary>
-        <author>
-            <name>Sophie Abromowitz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Brutal Week For Trump: Biden Called Him A Loser, His Own Court Blocked His Voter Grab, and Putin Cracked On Live TV]]></title>
-        <id>https://www.dworkinsubstack.com/p/brutal-week-for-trump-biden-called</id>
-        <link href="https://www.dworkinsubstack.com/p/brutal-week-for-trump-biden-called"/>
-        <updated>2026-06-30T14:18:03.000Z</updated>
-        <summary type="html"><![CDATA[Plus, Trump’s lawsuit against BBC backfires]]></summary>
-        <author>
-            <name>Scott Dworkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quick note: Summer Drive ends today!]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/jwsns6sbvxjbrdatmg5b.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/jwsns6sbvxjbrdatmg5b.html"/>
-        <updated>2026-06-30T14:06:38.252Z</updated>
-        <summary type="html"><![CDATA[96
-
-
-
-
-
-
-Quick note: Summer Drive ends today!
-
-
-img{-ms-interpolation-mode:bicubic;}
-table, td{mso-table-lspace:0pt;mso-table-rspace:0pt;}
-.mceStandardButton, .mceStandardButton td, .mceStandardButton td a{mso-hide:all!important;}
-p, a, li, td, blockquote{mso-line-height-rule:exactly;}
-p, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
-.mcnPreviewText{display:none!important;}
-.bodyCell{margin:0 auto;padding:0;width:100%;}
-.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;}
-.ReadMsgBody, .ExternalClass{width:100%;}
-a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inherit!important;font-weight:inh…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[One Of Dianna Russini’s Funny Little Stories Was A Big Fat Fib]]></title>
-        <id>https://defector.com/?p=227441</id>
-        <link href="https://defector.com/one-of-dianna-russinis-funny-little-stories-was-a-big-fat-fib"/>
-        <updated>2026-06-30T13:55:59.000Z</updated>
-        <summary type="html"><![CDATA[A recent New York Times story about former NFL insider Dianna Russini resurfaced an anecdote that Russini had previously shared on a podcast earlier this year. The story went like this: Russini was pulled over for texting and driving, and attempted to talk her way out of the ticket by telling the cop that she had only been texting because she was trying to break the news that Sean McDermott had just been fired by the Buffalo Bills. When that didn't work, she asked the officer who his favorite team was, and then FaceTimed the coach of that team. From the Times:
-“I FaceTime the head coach,” she said, without naming him. “Head coach is in his office. He said, ‘What’s up?’ I go, ‘I just got pulled over and I just wanted you to meet my friend, Officer Joe.’”
-The coach helped her get out of the ticket by telling the officer, “You should let her go, she’s a good citizen,” Ms. Russini said. 
-As it turns out, that's not what happened. Adam Herbets of The Center Square obtained the bodycam footage from the traffic stop in question, and it shows that Russini was embellishing quite a bit while relaying this story to her podcast pals.]]></summary>
-        <author>
-            <name>Tom Ley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It's The End Of The Quarter - Let's Rally For Our Courageous Candidates Across The Country!]]></title>
-        <id>https://www.hopiumchronicles.com/p/its-the-end-of-the-quarter-lets-rally</id>
-        <link href="https://www.hopiumchronicles.com/p/its-the-end-of-the-quarter-lets-rally"/>
-        <updated>2026-06-30T13:40:34.000Z</updated>
-        <summary type="html"><![CDATA[It is a year of opportunity for Democrats but only if we seize it, together!!!!!!!!!!!!]]></summary>
-        <author>
-            <name>Simon Rosenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mr. Nagelsmann, Tear Down This Meat Wall!]]></title>
-        <id>https://defector.com/?p=227429</id>
-        <link href="https://defector.com/mr-nagelsmann-tear-down-this-meat-wall"/>
-        <updated>2026-06-30T13:17:40.000Z</updated>
-        <summary type="html"><![CDATA[For the first time in history, Germany has lost a penalty shootout at the World Cup. A highly anticipated potential round of 16 matchup between Germany and France has been put on ice, and instead it is Paraguay that advanced on Monday, after a 1-1 draw turned into a 4-3 shootout victory for the South Americans. Paraguay followed the underdog script to perfection, scoring first and then frustrating, blocking, and clattering into the Germans around every corner, spoiling a dream matchup for the neutrals in favor of a dream outcome in itself.
-
-https://www.youtube.com/watch?v=zGZGTRKNxvs
-
-
-Entering Monday's game, Germany held the advantage in almost every part of the field. FIFA's 12th-ranked side had better, more skilled attackers, a hard-working midfield, and an untested yet talented backline. (If there was one place on the field where Paraguay could have contested, it was at goalie, which did play a big role by the end.) But there is of course a reason why they play the games, and these countries engaged in riveting gladiatorial combat, in which the general rhythm was the same for 90 minutes of regulation. Germany would hold the ball for a long time, its vaunted attackers would get around, but not into, the Paraguayan box, and time and time again, the Paraguayan defense would stifle them. It was mesmerizing to watch, the way that this Paraguay team, so heralded for its rugged defending prior to the 4-1 loss to the United States in the opening match, lived up to its reputation by giving Germany hell when it came time for the favorites to try to score.]]></summary>
-        <author>
-            <name>Luis Paez-Pumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Down and out]]></title>
-        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/tbleucrlvwoo5w5q9ud3.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/tbleucrlvwoo5w5q9ud3.html"/>
-        <updated>2026-06-30T12:56:06.471Z</updated>
-        <summary type="html"><![CDATA[96
-        Down and out
-        
-@media only screen and (max-width: 620px) {
-  table.body {
-    width: 100%;
-    min-width: 100%;
-  }
-
-  table.body .content {
-    padding: 0 !important;
-  }
-
-  table.body .container {
-    padding: 0 !important;
-    width: 100% !important;
-  }
-
-  table.body .main {
-    border-spacing: 10px 0 !important;
-    border-left-width: 0 !important;
-    border-radius: 0 !important;
-    border-right-width: 0 !important;
-  }
-
-  table.body .img-responsive {
-    height: auto !important;
-    max-width: 100% !important;
-    width: auto !important;
-  }
-}
-@media all {
-  .ExternalClass {
-    width: 100%;
-  }
-
-  .ExternalClass,
-.ExternalClass p,
-.ExternalClass span,
-.ExternalClass font,
-.ExternalClass td,
-.ExternalClass div {
-    line-height: 100%;
-  }
-
-  .apple-link a {
-    co…]]></summary>
-        <author>
-            <name>Misc Newsletters</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beat the Streak Picks]]></title>
-        <id>https://www.baseballmusings.com/?p=160634</id>
-        <link href="https://www.baseballmusings.com/?p=160634"/>
-        <updated>2026-06-30T11:29:58.000Z</updated>
-        <summary type="html"><![CDATA[The Log5 Method yields these top projected hit averages versus starting pitchers: 0.370, 0.759 — Otto Lopez batting at Tanner Gordon. 0.339, 0.733 — Xavier Edwards batting at Tanner Gordon. 0.320, 0.710 — Michael Harris II batting vs. Matthew Liberatore. 0.317, 0.699 — Javier Sanoja batting at Tanner Gordon. 0.317, 0.737 — Luis Arraez batting […]]]></summary>
-        <author>
-            <name>David Pinto</name>
         </author>
     </entry>
     <entry>
