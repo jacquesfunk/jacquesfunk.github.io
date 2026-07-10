@@ -2,10 +2,89 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-10T19:25:24.391Z</updated>
+    <updated>2026-07-10T21:04:54.629Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Celebrating 161 years, get The Nation for just $8.65]]></title>
+        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0m1hc69ilf3tsjodzd22.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0m1hc69ilf3tsjodzd22.html"/>
+        <updated>2026-07-10T19:36:33.791Z</updated>
+        <summary type="html"><![CDATA[96
+
+
+*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:670px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.reverse{display:table;width:100%}.reverse .column.first{display:table-footer-group!important}.rever…]]></summary>
+        <author>
+            <name>Current Events</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Here’s What Texas Tech’s Leadership Is Being Sued For Censoring]]></title>
+        <id>https://defector.com/?p=228543</id>
+        <link href="https://defector.com/heres-what-texas-techs-leadership-is-being-sued-for-censoring"/>
+        <updated>2026-07-10T19:32:59.000Z</updated>
+        <summary type="html"><![CDATA[Is Plato’s Republic too gay?  
+This is one of many brave questions posed by the Texas Tech University System’s chancellor and Board of Regents as they implement an “extraordinary system of censorship in higher education,” according to a new lawsuit filed Wednesday in Texas federal court by faculty unions. The American Association of University Professors and the Texas AAUP-AFT said that Texas Tech is violating the First and Fourteenth Amendments by way of sweeping new restrictions on academic freedom.   
+The Texas Tech University System collectively serves about 64,000 students, and is one of only nine in the country offering programs that span undergraduate, medical, law, nursing, pharmacy, dental, and veterinary education. That’s a lot of curricula to rid of "content that promotes activism on issues related to race or sex," "endorsement of a gender spectrum," and suggestions that "meritocracy or a strong work ethic are inherently racist"! Thankfully, university system Chancellor Brandon Creighton said Texas Tech built an AI tool to scan syllabi, reading materials, and lesson plans for censor-worthy material.]]></summary>
+        <author>
+            <name>Sohini Desai</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: One Hundred Times the Highest Priority]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/07/one-hundred-times-highest-priority.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/07/one-hundred-times-highest-priority.html"/>
+        <updated>2026-07-10T18:45:12.923Z</updated>
+        <summary type="html"><![CDATA[1 I was disappointed to learn that valid priority characters are limited to 0–9 and A–Z.  I
+thought it would be neat if the exclamation mark ("!") could represent
+the ultimate priority, a sort of "drop everything and do this
+immediately" kind of priority.
+
+
+
+It turns out that you can use "!" for this purpose, regardless of
+which priority characters you've configured.  The trick is to write a
+function and assign it to org-priority-get-priority-function.
+
+
+
+The function (which I named org-get-cust-priority) simply
+looks for "!" in the priority cookie and returns one hundred times the
+value that would be returned by the highest valid priority.  If it
+doesn't find "!" it simply calls a modified version of the usual
+org-get-property function,2 which I
+named org-get-std-priority.  The two functi…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Charlie Holland: A Tree and a Server Walk Into a Core&#x2026;]]></title>
+        <id>https://www.chiply.dev/post-july-emacs-carnival</id>
+        <link href="https://www.chiply.dev/post-july-emacs-carnival"/>
+        <updated>2026-07-10T18:36:07.000Z</updated>
+        <summary type="html"><![CDATA[1. TLDR   tldr
+
+
+
+
+
+Two technologies have endowed every editor with IDE superpowers this past decade: tree-sitter, a generic incremental parser that gives your editor a live syntax tree of your code, and the Language Server Protocol (LSP), a generic client-server protocol that gives your editor code intelligence features like linting, type-checking, auto-completion, and code navigation.  Each one replaces an M×N fan-out of per-language, per-editor hacks with a single, language- and editor-agnostic protocol.  Emacs has merged support for both into its core, and shipped them in Emacs 29.1 (three years ago this month!).  This post explains what each one does, visualizes a real-life tree-sitter parse tree, and recounts how both technologies made their way upstream into the glorious Emacs core.…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Games of the Day]]></title>
+        <id>https://www.baseballmusings.com/?p=160759</id>
+        <link href="https://www.baseballmusings.com/?p=160759"/>
+        <updated>2026-07-10T17:52:34.000Z</updated>
+        <summary type="html"><![CDATA[Two teams fighting for division titles meet in Miami as the Guardians send Parker Messick against Sandy Alcantara. Messick, with his 2.80 ERA and his outstanding three-true outcomes is making a nice bid for AL Rookie of the Year. He currently rates a 3.2 rWAR for the season. Alcantara owns a 10-4 record with a […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Org Mode requests: [RFC] Help with PDF/UA2 accessibility tests for ox-latex]]></title>
         <id>https://list.orgmode.org/87tsq6937o.fsf@localhost</id>

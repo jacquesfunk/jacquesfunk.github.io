@@ -298,6 +298,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0m1hc69ilf3tsjodzd22.html",
+          "author": null,
+          "description": "96\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:670px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.reverse{display:table;width:100%}.reverse .column.first{display:table-footer-group!important}.rever…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0m1hc69ilf3tsjodzd22.html",
+          "publishedOn": "2026-07-10T19:36:33.791Z",
+          "wordCount": 452,
+          "title": "Celebrating 161 years, get The Nation for just $8.65",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/jmxk2gwk0t4j1mfkxvgg.html",
           "author": null,
           "description": "96\n\n\n\n\n\n\nFor the (Presidential) Record\n\n\nimg{-ms-interpolation-mode:bicubic;}\ntable, td{mso-table-lspace:0pt;mso-table-rspace:0pt;}\n.mceStandardButton, .mceStandardButton td, .mceStandardButton td a{mso-hide:all!important;}\np, a, li, td, blockquote{mso-line-height-rule:exactly;}\np, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}\n.mcnPreviewText{display:none!important;}\n.bodyCell{margin:0 auto;padding:0;width:100%;}\n.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;}\n.ReadMsgBody, .ExternalClass{width:100%;}\na[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inherit!important;font-weight:inherit!im…",
@@ -654,6 +664,26 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://ray-on-emacs.blogspot.com/2026/07/one-hundred-times-highest-priority.html",
+          "author": null,
+          "description": "1 I was disappointed to learn that valid priority characters are limited to 0–9 and A–Z.  I\nthought it would be neat if the exclamation mark (\"!\") could represent\nthe ultimate priority, a sort of \"drop everything and do this\nimmediately\" kind of priority.\n\n\n\nIt turns out that you can use \"!\" for this purpose, regardless of\nwhich priority characters you've configured.  The trick is to write a\nfunction and assign it to org-priority-get-priority-function.\n\n\n\nThe function (which I named org-get-cust-priority) simply\nlooks for \"!\" in the priority cookie and returns one hundred times the\nvalue that would be returned by the highest valid priority.  If it\ndoesn't find \"!\" it simply calls a modified version of the usual\norg-get-property function,2 which I\nnamed org-get-std-priority.  The two functi…",
+          "link": "https://ray-on-emacs.blogspot.com/2026/07/one-hundred-times-highest-priority.html",
+          "publishedOn": "2026-07-10T18:45:12.923Z",
+          "wordCount": 2930,
+          "title": "Raymond Zeitler: One Hundred Times the Highest Priority",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.chiply.dev/post-july-emacs-carnival",
+          "author": null,
+          "description": "1. TLDR   tldr\n\n\n\n\n\nTwo technologies have endowed every editor with IDE superpowers this past decade: tree-sitter, a generic incremental parser that gives your editor a live syntax tree of your code, and the Language Server Protocol (LSP), a generic client-server protocol that gives your editor code intelligence features like linting, type-checking, auto-completion, and code navigation.  Each one replaces an M×N fan-out of per-language, per-editor hacks with a single, language- and editor-agnostic protocol.  Emacs has merged support for both into its core, and shipped them in Emacs 29.1 (three years ago this month!).  This post explains what each one does, visualizes a real-life tree-sitter parse tree, and recounts how both technologies made their way upstream into the glorious Emacs core.…",
+          "link": "https://www.chiply.dev/post-july-emacs-carnival",
+          "publishedOn": "2026-07-10T18:36:07.000Z",
+          "wordCount": 8470,
+          "title": "Charlie Holland: A Tree and a Server Walk Into a Core&#x2026;",
+          "imageUrl": "https://www.chiply.dev/images/july-emacs-carnival-banner.jpeg"
+        },
         {
           "id": "https://list.orgmode.org/87tsq6937o.fsf@localhost",
           "author": null,
@@ -1101,6 +1131,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160759",
+          "author": "David Pinto",
+          "description": "Two teams fighting for division titles meet in Miami as the Guardians send Parker Messick against Sandy Alcantara. Messick, with his 2.80 ERA and his outstanding three-true outcomes is making a nice bid for AL Rookie of the Year. He currently rates a 3.2 rWAR for the season. Alcantara owns a 10-4 record with a […]",
+          "link": "https://www.baseballmusings.com/?p=160759",
+          "publishedOn": "2026-07-10T17:52:34.000Z",
+          "wordCount": 7652,
+          "title": "Games of the Day",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160757",
           "author": "David Pinto",
@@ -2216,6 +2256,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=228543",
+          "author": "Sohini Desai",
+          "description": "Is Plato’s Republic too gay?  \nThis is one of many brave questions posed by the Texas Tech University System’s chancellor and Board of Regents as they implement an “extraordinary system of censorship in higher education,” according to a new lawsuit filed Wednesday in Texas federal court by faculty unions. The American Association of University Professors and the Texas AAUP-AFT said that Texas Tech is violating the First and Fourteenth Amendments by way of sweeping new restrictions on academic freedom.   \nThe Texas Tech University System collectively serves about 64,000 students, and is one of only nine in the country offering programs that span undergraduate, medical, law, nursing, pharmacy, dental, and veterinary education. That’s a lot of curricula to rid of \"content that promotes activism on issues related to race or sex,\" \"endorsement of a gender spectrum,\" and suggestions that \"meritocracy or a strong work ethic are inherently racist\"! Thankfully, university system Chancellor Brandon Creighton said Texas Tech built an AI tool to scan syllabi, reading materials, and lesson plans for censor-worthy material.",
+          "link": "https://defector.com/heres-what-texas-techs-leadership-is-being-sued-for-censoring",
+          "publishedOn": "2026-07-10T19:32:59.000Z",
+          "wordCount": 5661,
+          "title": "Here’s What Texas Tech’s Leadership Is Being Sued For Censoring",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-1277021577-smaller-e1783709991854.jpeg"
+        },
         {
           "id": "https://defector.com/?p=228492",
           "author": "Sam Mostow",
