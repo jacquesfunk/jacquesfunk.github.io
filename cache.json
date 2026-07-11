@@ -122,16 +122,6 @@
           "wordCount": 2314,
           "title": "Royals Bring Scott Barlow Back On Minor League Deal",
           "imageUrl": "https://cdn.mlbtraderumors.com/files/2026/06/scott-barlow-athletics-1024x683.jpg"
-        },
-        {
-          "id": "https://www.mlbtraderumors.com/?p=901678",
-          "author": "Leo Morgenstern",
-          "description": "The Royals announced a handful of roster moves ahead of their game tonight against the Rays. Right-handers Jose Cuas and Randy Dobnak are joining the team in place of fellow righties Eric Cerantola and Connor Seabold. Cerantola has been optioned to Triple-A Omaha, while Seabold has been placed on the 15-day injured list. Dobnak was […]",
-          "link": "https://www.mlbtraderumors.com/2026/07/royals-select-jose-cuas.html",
-          "publishedOn": "2026-07-01T19:38:51.000Z",
-          "wordCount": 1592,
-          "title": "Royals Select Jose Cuas",
-          "imageUrl": "https://cdn.mlbtraderumors.com/files/2026/07/USATSI_28295861-1024x683.jpg"
         }
       ]
     },
@@ -639,6 +629,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://mbork.pl/2026-07-11_Fast_spell-checking_in_Emacs_with_Jinx",
+          "author": null,
+          "description": "Emacs has had a spell-checker for a very long time. In fact, I’ve been using ispell-word for at least several years now, as I have mentioned for example here. However, I’ve only used Flyspell mode once, over two decades ago, when I tried it out on a machine with maybe 8MB RAM and a Pentium-class processor clocked at about 100MHz and decided that it’s too slow to be really useful. Well, things have changed a bit since then, haven’t they?",
+          "link": "https://mbork.pl/2026-07-11_Fast_spell-checking_in_Emacs_with_Jinx",
+          "publishedOn": "2026-07-11T06:52:02.000Z",
+          "wordCount": 878,
+          "title": "Marcin Borkowski: Fast spell-checking in Emacs with Jinx",
+          "imageUrl": null
+        },
+        {
           "id": "https://ray-on-emacs.blogspot.com/2026/07/one-hundred-times-highest-priority.html",
           "author": null,
           "description": "1 I was disappointed to learn that valid priority characters are limited to 0–9 and A–Z.  I\nthought it would be neat if the exclamation mark (\"!\") could represent\nthe ultimate priority, a sort of \"drop everything and do this\nimmediately\" kind of priority.\n\n\n\nIt turns out that you can use \"!\" for this purpose, regardless of\nwhich priority characters you've configured.  The trick is to write a\nfunction and assign it to org-priority-get-priority-function.\n\n\n\nThe function (which I named org-get-cust-priority) simply\nlooks for \"!\" in the priority cookie and returns one hundred times the\nvalue that would be returned by the highest valid priority.  If it\ndoesn't find \"!\" it simply calls a modified version of the usual\norg-get-property function,2 which I\nnamed org-get-std-priority.  The two functi…",
@@ -1057,16 +1057,6 @@
           "wordCount": 880,
           "title": "Nicolas Cavigneaux: emacs-mailto: Open macOS mailto: Links in Emacs",
           "imageUrl": "https://www.bounga.org/assets/images/headers/emacs.jpg"
-        },
-        {
-          "id": "https://emacsair.me/2026/07/01/magit-4.6",
-          "author": null,
-          "description": "I am excited to announce the release of Magit version 4.6, consisting of 313 commits since the last release half a year ago.",
-          "link": "https://emacsair.me/2026/07/01/magit-4.6",
-          "publishedOn": "2026-07-01T18:50:00.000Z",
-          "wordCount": 717,
-          "title": "Jonas Bernoulli: Magit 4.6 released",
-          "imageUrl": null
         }
       ]
     },
@@ -1553,26 +1543,6 @@
           "publishedOn": "2026-07-02T10:17:23.000Z",
           "wordCount": 7479,
           "title": "Thursday Update",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160652",
-          "author": "David Pinto",
-          "description": "Dansby Swanson hit three home runs as the Cubs pounded the Padres 23-3. Swanson joins the club of players with with five home runs in consecutive games. I was actually looking players who hit multiple home runs in consecutive days (or in both games of a double header), and Swanson is the 224th since the […]",
-          "link": "https://www.baseballmusings.com/?p=160652",
-          "publishedOn": "2026-07-01T21:03:22.000Z",
-          "wordCount": 7648,
-          "title": "Swanson in the Record Books",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160650",
-          "author": "David Pinto",
-          "description": "The Nationals and Red Sox at Fenway the day after an altercation over bad blood between pitcher Cade Cavalli and first baseman Willson Contreras. Andrew Alvarez takes on Payton Tolle. Avlarez makes his sixth start to go with five relief appearances. He owns a 3.00 ERA as a starter versus 4.02 in relief. Tolle sports […]",
-          "link": "https://www.baseballmusings.com/?p=160650",
-          "publishedOn": "2026-07-01T20:47:30.000Z",
-          "wordCount": 7695,
-          "title": "Games of the Day",
           "imageUrl": null
         }
       ]
@@ -2146,22 +2116,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!760H!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb0f8ef2-0e62-4981-9021-1d6b365cf2bc_870x646.png"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/right-now-democracy-is-holding-a",
-          "author": "Simon Rosenberg",
-          "description": "This is the second in our \"America at 250\" series.......",
-          "link": "https://www.hopiumchronicles.com/p/right-now-democracy-is-holding-a",
-          "publishedOn": "2026-07-01T20:36:00.000Z",
-          "wordCount": null,
-          "title": "\"Right Now Democracy Is Holding\" - A New Conversation With Marc Elias",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://api.substack.com/feed/podcast/204471051/eda1c8d850aaf65666c1ebadf028740d.mp3",
-            "length": "0",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
@@ -2789,36 +2743,6 @@
           "wordCount": 6202,
           "title": "The USMNT Suffered In Style",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2283713197.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=227597",
-          "author": "Billy Haisley",
-          "description": "Though the emotional appeal of soccer is immediate and visceral, especially in the shortcut-to-passion context of an international tournament like the World Cup, the real richness of the game is subtle. The uninitiated often find it difficult to access that depth. For better and for worse, the ball hypnotizes the novice eye. This is good, because what happens to the ball is what's most important. But it's also bad, because it's what happens around the ball that determines what happens to it. To paraphrase a famous line, if you watch the ball you'll see the plays, but it's by watching what happens off the ball that you truly see the game.\nThe World Cup is of course the main conversion event of the world's biggest (semi-)secular religion. As such, it's always good to help the legions of neophytes find their way into the sport's bottomless depth. Our very own Luis did just that before this World Cup started, writing a good guide for where to train your eyes in order to really read the game. I behoove anyone interested in scriptural analysis to read that post and watch a game the way Luis advises. This post, however, is about catching the Holy Ghost. And there's no better way to do that, to really feel the power of soccer, than by watching France play.\nWhat stands out about this particular France team is that there is nothing subtle about it. They are so good in such an obvious way that even a total newcomer to the game can notice. All you have to do is look at the guy who has the ball, and he will do something to blow your mind.",
-          "link": "https://defector.com/michael-olise-and-france-are-soccers-greatest-evangelists",
-          "publishedOn": "2026-07-01T19:16:06.000Z",
-          "wordCount": 8696,
-          "title": "Michael Olise And France Are Soccer’s Greatest Evangelists",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2284163690.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=227676",
-          "author": "Ray Ratto",
-          "description": "The Miami Marlins are a winning baseball team. For now. That revelation comes after one of their finest months ever, a 20-6 run that began, hilariously enough, after being swept in a three-game series by the gangrenous Mets and falling behind them in the NL East race. This would be a point of deep shame for most teams, but the Fish have been coated, breaded, and fried in shame for most of their existence, and utterly wretched since their last World Series championship 23 years ago. They ended May with a 26-34 record. Getting swept by the Mets, even these Mets, fell safely under the category of \"Things I Don't Have To Notice For Any Reason Whatsoever.\"\nBut the curative powers of the Mets beating you are apparently underappreciated: Since that moment, the Mets haven't beaten any one team twice in a row, while the Marlins are 46-40 on the season and suddenly mere percentage points out of a wild-card spot for the first time in ... oh god, don't make us look this up. We've waded through enough of the Marlins' historical cesspool as it is.\nStill, the Marlins have won more games in a calendar month only one other time in their history—May of 2012, when they won 21—and had a run differential of plus-53, their best in any month ever. They are the best team in baseball if the season had started on June 1, and it's hard to comprehend why, because any thought when it comes to the Miami Marlins begins with \"What?\" then sails past \"Why?\" and lands on \"Leave me alone, you quivering bag of coleslaw in human clothes.\"",
-          "link": "https://defector.com/the-fish-dont-stink",
-          "publishedOn": "2026-07-01T18:58:07.000Z",
-          "wordCount": 5609,
-          "title": "The Fish Don’t Stink",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2283550204-e1782929013930.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=227677",
-          "author": "Tom Ley",
-          "description": "If there's one clean, satisfying lesson to be taken from the World Cup action we've seen so far, it's this one: Big games tend to be decided by the big dogs.\nKylian Mbappé, Erling Haaland, Lionel Messi, Michael Olise, Harry Kane—all of these guys have been playing out of their minds since the first group-stage games, and each has taken a deserved turn as the tournament's brightest star. Right now, minutes after England's 2-1 victory over DR Congo in the round of 32, it's Kane who reigns as the world's best and brightest.\nDR Congo did everything an underdog is supposed to do in order to win a game like the one they just lost. They met England with more tenacity than the Three Lions may have been expecting, they defended like psychopaths, they scored early, and their attacks were dangerous enough to genuinely rattle the English players. After Brian Cipenga's opening goal in the seventh minute, DR Congo would hold onto a 1-0 lead for 68 minutes. Each minute that passed seemed to further fray the confidence of their opponents, as did a series of tremendous saves by Congolese keeper Lionel Mpasi.",
-          "link": "https://defector.com/the-games-about-the-ballers",
-          "publishedOn": "2026-07-01T18:41:08.000Z",
-          "wordCount": 4933,
-          "title": "The Game’s About The Ballers",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2283650211.jpg"
         }
       ]
     },
@@ -3035,26 +2959,6 @@
           "publishedOn": "2026-07-02T12:38:01.209Z",
           "wordCount": 1703,
           "title": "For All Fankind",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/e2bbejw5n2xivjo9zdmw.html",
-          "author": null,
-          "description": "96\n            \n        \n        \n        \n        \n        \n        Ask a Manager - new articles\n\n    \n\t\tp{\n\t\t\tmargin:10px 0;\n\t\t\tpadding:0;\n\t\t}\n\t\ttable{\n\t\t\tborder-collapse:collapse;\n\t\t}\n\t\th1,h2,h3,h4,h5,h6{\n\t\t\tdisplay:block;\n\t\t\tmargin:0;\n\t\t\tpadding:0;\n\t\t}\n\t\timg,a img{\n\t\t\tborder:0;\n\t\t\theight:auto;\n\t\t\toutline:none;\n\t\t\ttext-decoration:none;\n\t\t}\n\t\tbody,#bodyTable,#bodyCell{\n\t\t\theight:100%;\n\t\t\tmargin:0;\n\t\t\tpadding:0;\n\t\t\twidth:100%;\n\t\t}\n\t\t.mcnPreviewText{\n\t\t\tdisplay:none !important;\n\t\t}\n\t\t#outlook a{\n\t\t\tpadding:0;\n\t\t}\n\t\timg{\n\t\t\t-ms-interpolation-mode:bicubic;\n\t\t}\n\t\ttable{\n\t\t\tmso-table-lspace:0pt;\n\t\t\tmso-table-rspace:0pt;\n\t\t}\n\t\t.ReadMsgBody{\n\t\t\twidth:100%;\n\t\t}\n\t\t.ExternalClass{\n\t\t\twidth:100%;\n\t\t}\n\t\tp,a,li,td,blockquote{\n\t\t\tmso-line-height-rule:exactly;\n\t\t}\n\t\ta[href^=tel],a[href^=sms]{\n\t\t\tcolor:i…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/e2bbejw5n2xivjo9zdmw.html",
-          "publishedOn": "2026-07-01T19:06:40.773Z",
-          "wordCount": 1063,
-          "title": "Ask a Manager - new articles",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/0mb4qax20hxdftmrp496.html",
-          "author": null,
-          "description": "96\n\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:660px){.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.row-1 .column-1 .block-1.image_block td.pad{padding:10px 10px 0 10px!important}.row-1 .column-1 .block-1.image_block td.pad div{margin:0 auto!important}.row-1 .column-2 .block-1.paragr…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/0mb4qax20hxdftmrp496.html",
-          "publishedOn": "2026-07-01T16:18:02.802Z",
-          "wordCount": 429,
-          "title": "Free ebook from Chicago: The Daily Thomas Paine",
           "imageUrl": null
         }
       ]
@@ -3945,36 +3849,6 @@
           "wordCount": 54819,
           "title": "The Colorado GOP Is Dangerously Close to Nominating a Guy Who Claims He Performed Exorcisms by Phone to Run for Governor",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/14087220-6a74-402b-a1e9-36d3be87f4c7.jpeg?crop=1xw:0.74984256927xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71799506/trump-midterm-convention-announcement/",
-          "author": null,
-          "description": "Let’s hope the party is ruined by a Democratic landslide.",
-          "link": "https://www.esquire.com/news-politics/politics/a71799506/trump-midterm-convention-announcement/",
-          "publishedOn": "2026-07-01T20:56:11.000Z",
-          "wordCount": 55580,
-          "title": "Trump Announces a Midterm Convention to Celebrate His “Successes,” Which Is Certainly Not the Word I’d Use",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/eff8aa41-773d-4799-a9b7-09c425a7a570.jpeg?crop=1xw:0.749916303984xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71797178/trump-billions-crypto-presidency/",
-          "author": null,
-          "description": "There’s something shady about all this, I just know it.",
-          "link": "https://www.esquire.com/news-politics/politics/a71797178/trump-billions-crypto-presidency/",
-          "publishedOn": "2026-07-01T18:56:27.000Z",
-          "wordCount": 55524,
-          "title": "I Just Found out How Much Money Trump Has Made During His Presidency, and Now I Want to Throw Up",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/0c0fced3-c1c7-477f-9a2c-f8a016bf9590.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71796702/birthright-citizenship-jd-vance-mike-johnson-scotus/",
-          "author": null,
-          "description": "After the Supreme Court’s decision yesterday, Republican loonies like JD Vance made it clear aren’t going to give up on gutting the amendment that’s endemic to our national identity.",
-          "link": "https://www.esquire.com/news-politics/politics/a71796702/birthright-citizenship-jd-vance-mike-johnson-scotus/",
-          "publishedOn": "2026-07-01T18:55:20.000Z",
-          "wordCount": 55570,
-          "title": "Birthright Citizenship Isn’t as Safe as We Thought",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/ed54b5f1-059c-4e7f-b007-68473c06dfac.jpeg?crop=1xw:0.75xh;0xw,0.109xh&resize=1200:*"
         }
       ]
     },
