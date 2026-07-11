@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-11T14:51:56.633Z</updated>
+    <updated>2026-07-11T16:56:28.074Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Irreal: Highest Org Priority]]></title>
+        <id>https://irreal.org/blog/?p=13937</id>
+        <link href="https://irreal.org/blog/?p=13937"/>
+        <updated>2026-07-11T15:10:09.000Z</updated>
+        <summary type="html"><![CDATA[a bit of trickery you can extend the ranges to 0–9 and A–Z.
+
+
+I never use priorities but Raymond Zeitler does and after figuring out the above trickery he thought it would be useful to have an ultimate priority a sort of “drop everything and do this immediately” priority. He decided to make this priority 100 times the highest priority and to designate it with !.
+
+
+The solution wasn’t straightforward but it wasn’t too difficult either. The thing about Emacs is that it’s easy to check the source code to see how things are done. It turns out that Org has a org-priority-get-priority-function variable that contains a function that Org calls to get the priority from the priority cookie. Zeitler wrote his own version to check for a ! and return the high priority if it’s found. If not, then it calls a slightly modified version of the normal function.
+
+
+As I say, I don’t make use of the priority mechanism and have no idea how many people do but if you’re one of them and are looking for a way to specify an extraordinary priority, take a look at Zeitler’s post. You can cut and paste his code if you’re interested.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maine's Convention Will Be July 25th, Encouraging New Gallup Data, Democrats Must Elevate To Fight Trump's Escalating Authoritarianism]]></title>
+        <id>https://www.hopiumchronicles.com/p/maines-convention-will-be-july-25th</id>
+        <link href="https://www.hopiumchronicles.com/p/maines-convention-will-be-july-25th"/>
+        <updated>2026-07-11T15:10:02.000Z</updated>
+        <summary type="html"><![CDATA[The Senate is considering the nominations of Todd Blanche and Jay Clayton this week - Democrats must do everything we can to block them.....]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Royals Sign Vince Velasquez To Minor League Contract]]></title>
+        <id>https://www.mlbtraderumors.com/?p=903004</id>
+        <link href="https://www.mlbtraderumors.com/2026/07/royals-sign-vince-velasquez-to-minor-league-contract.html"/>
+        <updated>2026-07-11T14:54:28.000Z</updated>
+        <summary type="html"><![CDATA[The Royals have signed Vince Velasquez to a minors contract and assigned the veteran righty to Triple-A Omaha, as per Velasquez’s MLB.com profile page.  Velasquez elected free agency on June 30 rather than accept an outright assignment to the Cubs’ Triple-A squad. The right-hander signed a minor league deal with Chicago in February, and the […]]]></summary>
+        <author>
+            <name>Mark Polishuk</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I Feel a Draft]]></title>
         <id>https://www.baseballmusings.com/?p=160773</id>
@@ -5646,16 +5685,6 @@ Bosnia and Herzegovina is not a very good team, and the Dragons were proving it 
         <updated>2026-07-02T10:17:23.000Z</updated>
         <author>
             <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The six opinions in the birthright citizenship ruling have a lot to teach us about the U.S. today]]></title>
-        <id>https://www.lawdork.com/p/six-opinions-scotus-birthright-citizenship</id>
-        <link href="https://www.lawdork.com/p/six-opinions-scotus-birthright-citizenship"/>
-        <updated>2026-07-02T02:59:57.000Z</updated>
-        <summary type="html"><![CDATA[The 5-4 decision was the least the court could do to keep the United States of America on a constitutional path.]]></summary>
-        <author>
-            <name>Chris Geidner</name>
         </author>
     </entry>
 </feed>

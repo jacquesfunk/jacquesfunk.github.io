@@ -24,6 +24,16 @@
       "siteUrl": "https://www.mlbtraderumors.com",
       "articles": [
         {
+          "id": "https://www.mlbtraderumors.com/?p=903004",
+          "author": "Mark Polishuk",
+          "description": "The Royals have signed Vince Velasquez to a minors contract and assigned the veteran righty to Triple-A Omaha, as per Velasquez’s MLB.com profile page.  Velasquez elected free agency on June 30 rather than accept an outright assignment to the Cubs’ Triple-A squad. The right-hander signed a minor league deal with Chicago in February, and the […]",
+          "link": "https://www.mlbtraderumors.com/2026/07/royals-sign-vince-velasquez-to-minor-league-contract.html",
+          "publishedOn": "2026-07-11T14:54:28.000Z",
+          "wordCount": 1932,
+          "title": "Royals Sign Vince Velasquez To Minor League Contract",
+          "imageUrl": "https://cdn.mlbtraderumors.com/files/2021/09/USATSI_16519653-1024x677.jpg"
+        },
+        {
           "id": "https://www.mlbtraderumors.com/?p=902946",
           "author": "Charlie Wright",
           "description": "One of the most intriguing players heading into the trade deadline made his long-awaited return to the lineup on Friday. Catcher Ryan Jeffers was back behind the plate for the Twins after missing nearly two months with a fractured hamate bone. The backstop needed just five rehab games to get up to speed. Jeffers will […]",
@@ -684,6 +694,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://irreal.org/blog/?p=13937",
+          "author": null,
+          "description": "a bit of trickery you can extend the ranges to 0–9 and A–Z.\n\n\nI never use priorities but Raymond Zeitler does and after figuring out the above trickery he thought it would be useful to have an ultimate priority a sort of “drop everything and do this immediately” priority. He decided to make this priority 100 times the highest priority and to designate it with !.\n\n\nThe solution wasn’t straightforward but it wasn’t too difficult either. The thing about Emacs is that it’s easy to check the source code to see how things are done. It turns out that Org has a org-priority-get-priority-function variable that contains a function that Org calls to get the priority from the priority cookie. Zeitler wrote his own version to check for a ! and return the high priority if it’s found. If not, then it calls a slightly modified version of the normal function.\n\n\nAs I say, I don’t make use of the priority mechanism and have no idea how many people do but if you’re one of them and are looking for a way to specify an extraordinary priority, take a look at Zeitler’s post. You can cut and paste his code if you’re interested.",
+          "link": "https://irreal.org/blog/?p=13937",
+          "publishedOn": "2026-07-11T15:10:09.000Z",
+          "wordCount": 1469,
+          "title": "Irreal: Highest Org Priority",
+          "imageUrl": null
+        },
         {
           "id": "https://list.orgmode.org/8733xpzx9i.fsf@gmail.com",
           "author": null,
@@ -1871,22 +1891,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!90_0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffee40f4b-1fe1-45b0-90ca-16daf070e8a0_1510x766.png"
-        },
-        {
-          "id": "https://www.lawdork.com/p/six-opinions-scotus-birthright-citizenship",
-          "author": "Chris Geidner",
-          "description": "The 5-4 decision was the least the court could do to keep the United States of America on a constitutional path.",
-          "link": "https://www.lawdork.com/p/six-opinions-scotus-birthright-citizenship",
-          "publishedOn": "2026-07-02T02:59:57.000Z",
-          "wordCount": null,
-          "title": "The six opinions in the birthright citizenship ruling have a lot to teach us about the U.S. today",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/6ae48a6d-1375-4051-97b9-b1fe953a932e_2062x1358.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/6ae48a6d-1375-4051-97b9-b1fe953a932e_2062x1358.png"
         }
       ]
     },
@@ -1895,6 +1899,22 @@
       "feedUrl": "https://www.hopiumchronicles.com/feed",
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
+        {
+          "id": "https://www.hopiumchronicles.com/p/maines-convention-will-be-july-25th",
+          "author": "Simon Rosenberg",
+          "description": "The Senate is considering the nominations of Todd Blanche and Jay Clayton this week - Democrats must do everything we can to block them.....",
+          "link": "https://www.hopiumchronicles.com/p/maines-convention-will-be-july-25th",
+          "publishedOn": "2026-07-11T15:10:02.000Z",
+          "wordCount": null,
+          "title": "Maine's Convention Will Be July 25th, Encouraging New Gallup Data, Democrats Must Elevate To Fight Trump's Escalating Authoritarianism",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!-OOJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3acc4b56-2bd4-4942-b94b-08507afd48a2_1169x961.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!-OOJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3acc4b56-2bd4-4942-b94b-08507afd48a2_1169x961.png"
+        },
         {
           "id": "https://www.hopiumchronicles.com/p/platner-officially-withdraws-from",
           "author": "Simon Rosenberg",
