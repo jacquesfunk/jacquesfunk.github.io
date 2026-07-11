@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-11T16:56:28.074Z</updated>
+    <updated>2026-07-11T19:01:13.601Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -441,6 +441,22 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     …]]></summary>
         <author>
             <name>Current Events</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aimé Bertrand: Preserving email dates when moving messages in Mu4e]]></title>
+        <id>https://macowners.club/posts/preserve-email-dates-mu4e-mbsync/</id>
+        <link href="https://macowners.club/posts/preserve-email-dates-mu4e-mbsync/"/>
+        <updated>2026-07-10T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The problem
+My email setup is the usual text based machinery I keep writing about: Mu4e with mu, isync (mbsync) and msmtp. It works beautifully – until one day it did not.
+When I moved emails around in Emacs – with mu4e-headers-mark-for-move, mu4e-headers-mark-for-refile or other command – the date of the moved email changed. A mail from last March would suddenly float to the top of the mailbox as if it had just arrived.
+The diagnosis
+The Date: header inside the message is never touched – that is why Mu4e always looks correct, it shows the date parsed from that header.
+What changes is the arrival date: the IMAP “internal date” the server stores separately from the body. That is what Mail.app shows and sorts by (“Date Received”).
+The culprit is this setting, which I need to avoid duplicate-…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>

@@ -725,6 +725,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://macowners.club/posts/preserve-email-dates-mu4e-mbsync/",
+          "author": null,
+          "description": "The problem\nMy email setup is the usual text based machinery I keep writing about: Mu4e with mu, isync (mbsync) and msmtp. It works beautifully – until one day it did not.\nWhen I moved emails around in Emacs – with mu4e-headers-mark-for-move, mu4e-headers-mark-for-refile or other command – the date of the moved email changed. A mail from last March would suddenly float to the top of the mailbox as if it had just arrived.\nThe diagnosis\nThe Date: header inside the message is never touched – that is why Mu4e always looks correct, it shows the date parsed from that header.\nWhat changes is the arrival date: the IMAP “internal date” the server stores separately from the body. That is what Mail.app shows and sorts by (“Date Received”).\nThe culprit is this setting, which I need to avoid duplicate-…",
+          "link": "https://macowners.club/posts/preserve-email-dates-mu4e-mbsync/",
+          "publishedOn": "2026-07-10T22:00:00.000Z",
+          "wordCount": 870,
+          "title": "Aimé Bertrand: Preserving email dates when moving messages in Mu4e",
+          "imageUrl": null
+        },
+        {
           "id": "https://ray-on-emacs.blogspot.com/2026/07/one-hundred-times-highest-priority.html",
           "author": null,
           "description": "1 I was disappointed to learn that valid priority characters are limited to 0–9 and A–Z.  I\nthought it would be neat if the exclamation mark (\"!\") could represent\nthe ultimate priority, a sort of \"drop everything and do this\nimmediately\" kind of priority.\n\n\n\nIt turns out that you can use \"!\" for this purpose, regardless of\nwhich priority characters you've configured.  The trick is to write a\nfunction and assign it to org-priority-get-priority-function.\n\n\n\nThe function (which I named org-get-cust-priority) simply\nlooks for \"!\" in the priority cookie and returns one hundred times the\nvalue that would be returned by the highest valid priority.  If it\ndoesn't find \"!\" it simply calls a modified version of the usual\norg-get-property function,2 which I\nnamed org-get-std-priority.  The two functi…",
