@@ -629,6 +629,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://srijan.ch/notes/2026-07-12-001",
+          "author": null,
+          "description": "#TIL that #Emacs also has a Global Mark Ring:\nthe global mark ring records a sequence of buffers that you have been in, and, for each buffer, a place where you set the mark\nFor programming buffers / projects, I've been using the xref stack to go back/forward when jumping around. But the global mark ring is super useful as a general purpose tracker of my context jumps.\nBy default, C-x C-<SPC> jumps back. There is no forward like xref-go-forward, but it' a ring so it's possible to go around. Or there's always consult-global-mark to show the marks in a list and select from it.\nOther helpful links:\nEmacs: Mark Ring by Arialdo Martini\nEfficiency With The Mark Ring by Vernon Grant",
+          "link": "https://srijan.ch/notes/2026-07-12-001",
+          "publishedOn": "2026-07-12T07:50:00.000Z",
+          "wordCount": 192,
+          "title": "Srijan Choudhary: 2026-07-12-001",
+          "imageUrl": null
+        },
+        {
+          "id": "https://protesilaos.com/codelog/2026-07-12-emacs-doric-themes-1-2-0/",
+          "author": null,
+          "description": "These are my minimalist themes. They use few colours and will appear\nmostly monochromatic in many contexts. Styles involve the careful use\nof typography, such as italics and bold italics.\nIf you want maximalist themes in terms of colour, check my ef-themes\npackage. For something in-between, which I would consider the best\n“default theme” for a text editor, opt for my modus-themes.\nPackage name (GNU ELPA): doric-themes\nSample pictures: https://protesilaos.com/emacs/doric-themes-pictures\nGit repository: https://github.com/protesilaos/doric-themes\nBackronym: Doric Only Really Intensifies Conservatively … themes.\nBelow are the release notes.\nVersion 1.2.0 on 2026-07-12\nTwo new themes\ndoric-tiger is a light theme, while doric-lion is dark. Both have\nwarm colours.\nOrg agenda events are easier to spot\nEvents are entries which have an active timestamp but not a\nSCHEDULED or DEADLINE keyword associated with it. Those are now\nrendered in italics in addition to the faint foreground they already\nhad (the faint foreground is there because an event is not as\nimportant as a\nSupport for vc-dir-key-binding-hint-label (Emacs 32)\nThis concerns a new option for VC Dir buffers to display their\navailable key bindings. The face applies to the additional headings.\nThey should now look like all the other headings in those buffers in\nthe interest of stylistic consistency.\nSome package.el faces stand out more\nThose are present in the buffer that M-x list-packages produces.\nThey concern certain status indicators and fit in better with the rest\nof the design.\nThe nobreak-space face is now underlined\nThis is one way to make that character visible. It is useful to know\nthat a space is not the regular space. For example, in French\northography we are expected to include non-breaking spaces between the\nquotes and the words like « Protesilaos ». Whether you actually follow\nthat guideline is another discussion—I happily ignore it.",
+          "link": "https://protesilaos.com/codelog/2026-07-12-emacs-doric-themes-1-2-0/",
+          "publishedOn": "2026-07-12T00:00:00.000Z",
+          "wordCount": 403,
+          "title": "Protesilaos: Emacs: doric-themes version 1.2.0",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
+        {
           "id": "https://irreal.org/blog/?p=13937",
           "author": null,
           "description": "a bit of trickery you can extend the ranges to 0–9 and A–Z.\n\n\nI never use priorities but Raymond Zeitler does and after figuring out the above trickery he thought it would be useful to have an ultimate priority a sort of “drop everything and do this immediately” priority. He decided to make this priority 100 times the highest priority and to designate it with !.\n\n\nThe solution wasn’t straightforward but it wasn’t too difficult either. The thing about Emacs is that it’s easy to check the source code to see how things are done. It turns out that Org has a org-priority-get-priority-function variable that contains a function that Org calls to get the priority from the priority cookie. Zeitler wrote his own version to check for a ! and return the high priority if it’s found. If not, then it calls a slightly modified version of the normal function.\n\n\nAs I say, I don’t make use of the priority mechanism and have no idea how many people do but if you’re one of them and are looking for a way to specify an extraordinary priority, take a look at Zeitler’s post. You can cut and paste his code if you’re interested.",
@@ -2782,16 +2802,6 @@
           "wordCount": 2240,
           "title": "Theory: The Tayvis Wedding Isn’t A Wedding At All",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/mvlth6l60n8d9qivesgn.html",
-          "author": null,
-          "description": "96\n        What’s in a baseball season?\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    line-height: 100%;\n  }\n\n  .apple…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/mvlth6l60n8d9qivesgn.html",
-          "publishedOn": "2026-07-02T16:37:18.484Z",
-          "wordCount": 3688,
-          "title": "What’s in a baseball season?",
-          "imageUrl": null
         }
       ]
     },
@@ -3396,6 +3406,16 @@
       "siteUrl": "https://www.sfgate.com/author/drew-magary/",
       "articles": [
         {
+          "id": "https://www.sfgate.com/49ers/article/brandon-aiyuk-career-over-22327356.php-full",
+          "author": null,
+          "description": "The NFL has had itself one miserable offseason. You may have been too busy watching America self-immolating to notice, but the football men have been behaving incredibly badly of late. Falcons edge rusher James Pearce got arrested for allegedly being a psycho boyfriend to Chicago Sky forward Rickea Jackson. The Denver Broncos have a sudden, and grotesque, DV problem on their hands. Terrion Arnold just got dropped by the Lions after being arrested on suspicion of kidnapping. And New England coach Mike Vrabel can’t seem to keep his little Pat Patriot in his trousers. All of it either has been ugly or has served as a portent of more ugliness to come. \n\nWhich brings us to the curious story of 49ers wideout Brandon Aiyuk, whose recent behavior has gone from maddening to outright frightening. Ju…",
+          "link": "https://www.sfgate.com/49ers/article/brandon-aiyuk-career-over-22327356.php",
+          "publishedOn": "2026-07-12T09:49:35.226Z",
+          "wordCount": 177,
+          "title": "Brandon Aiyuk's NFL career is already over",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php-full",
           "author": null,
           "description": "I put a question to my SFGATE colleagues just the other day that had them mulling for a bit: What’s the last great movie that Steven Spielberg directed? I’m not talking about a merely good film. The old man can put together a competent picture anytime he likes. I’m talking about an all-timer of a Spielberg movie, something that belongs up there with his best work, which includes “Jaws,” “Raiders of the Lost Ark,” “E.T.,” “Schindler’s List” and … you get the idea. When you’re a director who’s made not just one of the greatest movies of all time but several of them, audience members like me hope for (and oftentimes expect) greatness from you with every subsequent project. Such is the standard that Spielberg, father of the modern blockbuster, set for himself. It’s also a standard that, in my …",
@@ -3681,16 +3701,6 @@
           "wordCount": null,
           "title": "On This Independence Day, Let’s Celebrate What Was and What Might Again Be",
           "imageUrl": null
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71809119/texas-christianity-in-public-schools-vote/",
-          "author": null,
-          "description": "The state’s board of education also plans to “significantly expand lessons on communism,” whatever the hell that means.",
-          "link": "https://www.esquire.com/news-politics/politics/a71809119/texas-christianity-in-public-schools-vote/",
-          "publishedOn": "2026-07-02T18:47:08.000Z",
-          "wordCount": 56110,
-          "title": "Texas Politicians Found a Slimy New Way to Inject Christian Nationalism into Public Schools",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/4bbd7a0d-dcf2-4c20-a952-05f9bda9492c.jpeg?crop=1xw:0.75xh;0xw,0.124xh&resize=1200:*"
         }
       ]
     },
