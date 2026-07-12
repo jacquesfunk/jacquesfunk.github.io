@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-12T16:57:19.977Z</updated>
+    <updated>2026-07-12T19:03:49.281Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -5446,29 +5446,6 @@ As anyone who has been on social media can attest, this was a mista…]]></summa
         <updated>2026-07-03T10:03:10.000Z</updated>
         <author>
             <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Emacs Redux: Automating Emacs Screenshots]]></title>
-        <id>https://emacsredux.com/blog/2026/07/03/automating-emacs-screenshots/</id>
-        <link href="https://emacsredux.com/blog/2026/07/03/automating-emacs-screenshots/"/>
-        <updated>2026-07-03T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I maintain a bunch of theme ports these days: Zenburn,
-Solarized,
-Tokyo Night, and most recently
-Batppuccin. Every one of them
-wants screenshots in the README, ideally one per variant, so people can compare
-the flavors at a glance.
-I’d been putting this off forever, because taking the screenshots by hand is
-such a chore. Load a theme, resize the frame, arrange a nice-looking buffer, take
-a screenshot, crop it, then repeat for every single flavor. And the results are
-never quite consistent: the font is a little different, the window is a slightly
-different size, the crop is off by a few pixels. Multiply that by four flavors
-across several themes and you can see why I kept finding better things to do.
-So recently I finally did what I should have done from the start and taught Emacs
-to take t…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>

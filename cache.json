@@ -1063,16 +1063,6 @@
           "wordCount": 2857,
           "title": "Sacha Chua: Re: React to Sacha and Prot Newbies and Starter Kits Emacs Video - linkarzu",
           "imageUrl": null
-        },
-        {
-          "id": "https://emacsredux.com/blog/2026/07/03/automating-emacs-screenshots/",
-          "author": null,
-          "description": "I maintain a bunch of theme ports these days: Zenburn,\nSolarized,\nTokyo Night, and most recently\nBatppuccin. Every one of them\nwants screenshots in the README, ideally one per variant, so people can compare\nthe flavors at a glance.\nI’d been putting this off forever, because taking the screenshots by hand is\nsuch a chore. Load a theme, resize the frame, arrange a nice-looking buffer, take\na screenshot, crop it, then repeat for every single flavor. And the results are\nnever quite consistent: the font is a little different, the window is a slightly\ndifferent size, the crop is off by a few pixels. Multiply that by four flavors\nacross several themes and you can see why I kept finding better things to do.\nSo recently I finally did what I should have done from the start and taught Emacs\nto take t…",
-          "link": "https://emacsredux.com/blog/2026/07/03/automating-emacs-screenshots/",
-          "publishedOn": "2026-07-03T07:00:00.000Z",
-          "wordCount": 2848,
-          "title": "Emacs Redux: Automating Emacs Screenshots",
-          "imageUrl": "https://emacsredux.com/assets/og-image.png"
         }
       ]
     },
