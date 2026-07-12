@@ -2,10 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-12T14:55:10.495Z</updated>
+    <updated>2026-07-12T16:57:19.977Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[You Can’t Do That, Man]]></title>
+        <id>https://defector.com/?p=228611</id>
+        <link href="https://defector.com/argentina-switzerland-world-cup"/>
+        <updated>2026-07-12T16:44:12.000Z</updated>
+        <summary type="html"><![CDATA[The master plan is clear to anyone with eyes. FIFA rigged the World Cup draw so Argentina would become the first team to make the semis without playing a side ranked in the top 15. FIFA has rigged every match in favor of Argentina. FIFA demanded that the VAR take away Egypt's second goal over a much-delayed foul call. In that same match, FIFA instructed the referees to not call a foul by Argentina's Julián Alvarez on Mohammed Salah. FIFA even put an all-Argentine referee crew on the France-Morocco match.
+And, during Saturday night's quarter-final against Switzerland, FIFA pulled out the big guns, rigging the game in Argentina's favor by forcing Breel Embolo to commit the single stupidest dive I've ever seen.
+
+https://www.youtube.com/watch?v=6ttdGtk8eGI]]></summary>
+        <author>
+            <name>Luis Paez-Pumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[McConnell and Graham Pass From The Scene, Maine Dems Keep Moving Forward, In Defense Of Vetting]]></title>
+        <id>https://www.hopiumchronicles.com/p/mcconnell-and-graham-pass-from-the</id>
+        <link href="https://www.hopiumchronicles.com/p/mcconnell-and-graham-pass-from-the"/>
+        <updated>2026-07-12T16:10:02.000Z</updated>
+        <summary type="html"><![CDATA[Morning all.]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Irreal: Jinx For Spell Correction]]></title>
+        <id>https://irreal.org/blog/?p=13939</id>
+        <link href="https://irreal.org/blog/?p=13939"/>
+        <updated>2026-07-12T15:18:36.000Z</updated>
+        <summary type="html"><![CDATA[nice post on the Jinx spell corrector. Mbork has tried fly-spell but found it too laggy for his purposes. That was back in the days when he had a Pentium class machine running at 100 Mhz so he thought, in view of his more modern hardware, that it was worth trying out fly-spell again.
+
+
+He still found it too slow and decided to try Jinx instead. I’ve always found fly-spell snappy and I hadn’t heard of Jinx until I read Prot’s post on writing (and spell correcting) foreign languages in Emacs but mbork wasn’t satisfied until he tried Jinx. He found that it was fast enough for his use cases and decided to embrace it as his spell corrector.
+
+
+He discovered that Jinx interfered with some of his work flows but it turned out to be pretty easy to fix those. You can check out mbork’s post for the details.
+
+
+If you are writing in multiple languages with Emacs, then Jinx may be an excellent solution as a spell checker. If, like me, you mostly write in your native tongue, you’ll probably find fly-spell is all you need. As I said above, it’s more than fast enough for me and provides a wonderfully interactive spell correction system.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chris Maiorana: Org mode as a gantt chart generator]]></title>
+        <id>https://chrismaiorana.com/org-gantt/</id>
+        <link href="https://chrismaiorana.com/org-gantt/"/>
+        <updated>2026-07-12T15:01:11.000Z</updated>
+        <summary type="html"><![CDATA[The word Gantt tends to evoke project-management software with bars you can drag and a hefty license fee. The underlying idea, tasks arranged on a horizontal timeline, with owners and effort estimates, is much older and much simpler than the software around it. It is basically a chart. You can draw one with a pencil and a string for a plumb line.
+Org mode already stores everything you need for a Gantt chart: a hierarchy of tasks, SCHEDULED and DEADLINE timestamps, properties for Effort and assignments to various agents. What’s missing is the picture. But org can draw the picture too. Let’s take a look and, one hopes, save you a subscription fee.
+The minimum data model
+For each task you want to track on the chart, add three things:
+* Draft chapter 5
+SCHEDULED: <2026-02-12 Thu> DEADLINE: <20…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mikel Merino Is Spain’s Much-Needed Closer]]></title>
         <id>https://defector.com/?p=228594</id>
