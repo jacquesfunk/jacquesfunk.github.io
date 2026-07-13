@@ -559,6 +559,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://taonaw.com/2026/07/13/a-quick-orgmode-internal-links.html",
+          "author": null,
+          "description": "As I mentioned yesterday, I started organizing (and cleaning) my Emacs config. What may have seemed like an annoying and boring task has proven to be fun and addicting (reminds me of this, which is part of this video 😂).\nI’ve already discovered a couple of new improvements to my current config as I was researching individual settings and why I have them, and as I said I do plan to share it. For now though, one important section I added to my config is a quick org-mode links reference. This is actually the first time I figured out the difference between radio links and “regular” plain links and how to use them.\nHere it is, slightly modified:\nOrg-ID\nWe know about links to other files using org-id: You give a header an :ID: property (this is generated automatically1 when you link to a header…",
+          "link": "https://taonaw.com/2026/07/13/a-quick-orgmode-internal-links.html",
+          "publishedOn": "2026-07-13T12:55:12.000Z",
+          "wordCount": 839,
+          "title": "TAONAW - Emacs and Org Mode: A Quick org-mode Internal Links Reference",
+          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/07/13/5939529.png"
+        },
+        {
           "id": "https://emacsredux.com/blog/2026/07/13/replacing-flyspell-with-jinx/",
           "author": null,
           "description": "I’ve been using flyspell-mode for the better part of two decades, and I’ve\nwritten about it a couple of times\nbefore. It gets the job\ndone, but it has always felt a bit creaky to me - it checks words one at a time\nas you type, flyspell-buffer is painfully slow in big buffers, and you have to\nremember to enable flyspell-prog-mode in your programming modes, so it would\ncheck only comments and strings there.\nRecently, as part of the ongoing overhaul of my personal Emacs\nconfig, I finally replaced it with\njinx and I can already tell you that I’m not\ngoing back.\nWhy Jinx?\nJinx is a modern spell-checker by Daniel Mendler (of\nvertico,\nconsult and\ncorfu fame), built on top of\nlibenchant.1 Quite a few things make\nit a great alternative to Flyspell:\nIt’s fast. Jinx checks only the visible part of th…",
@@ -977,16 +987,6 @@
           "wordCount": 696,
           "title": "Wai Hon: One-Line-Per-Day Diary in Org Mode",
           "imageUrl": "https://whhone.com/favicon-32x32.png"
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-07-04-emacs-for-beginners-with-linkarzu/",
-          "author": null,
-          "description": "This Sunday I will do a live stream with Christian Arzu. The details\nare not finalised yet, so I will make the announcement separately.\nChristian is a NeoVim user who is Emacs-curious. He is trying out\nEmacs and needs someone to guide him at this early stage, which I am\nhappy to do.\nLast year I had a ~2.5-hour interview with Christian Arzu from the\n@linkarzu YouTube channel: https://protesilaos.com/codelog/2025-08-01-linkarzu-chat-emacs-neovim-philosophy/.\nWhat follows are some comments on Christian’s article Expectations\nfrom Prot’s Emacs Coaching Sessions (2026-07-03).\nInstall Emacs and what version to use on the MacOS\nThe premise of our meeting is that I will do the handholding. You will\nthus install the emacs-plus package version 30. There are always a\nzillion excellent options, though…",
-          "link": "https://protesilaos.com/codelog/2026-07-04-emacs-for-beginners-with-linkarzu/",
-          "publishedOn": "2026-07-04T00:00:00.000Z",
-          "wordCount": 1308,
-          "title": "Protesilaos: Emacs for beginners with Christian Arzu (@linkarzu on YouTube)",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         }
       ]
     },
@@ -1753,22 +1753,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!oAfZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab40d65d-ce12-4f2c-8149-888ea95a3f75_1164x754.png"
-        },
-        {
-          "id": "https://www.lawdork.com/p/ftc-wpath-oconnor-boasberg-consultation",
-          "author": "Chris Geidner",
-          "description": "O'Connor has been very receptive to the Trump admin and its anti-trans efforts, but an FTC request to him is now on hold after \"consultation\" with Judge James Boasberg in D.C.",
-          "link": "https://www.lawdork.com/p/ftc-wpath-oconnor-boasberg-consultation",
-          "publishedOn": "2026-07-04T00:03:13.000Z",
-          "wordCount": null,
-          "title": "The Trump admin went so far Thursday night that even Judge Reed O'Connor put a case on hold",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/a7e5a148-dd50-4a54-b5df-1c4f927a3aff_1334x936.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/a7e5a148-dd50-4a54-b5df-1c4f927a3aff_1334x936.png"
         }
       ]
     },
@@ -2040,6 +2024,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=228679",
+          "author": "Albert Burneko",
+          "description": "The Republican Senator Lindsey Graham of South Carolina died on Saturday, after what reports have called a \"brief and sudden illness\" following an official visit to Ukraine. He was 71.  In 2003 Graham succeeded ancient dread Confederate mummy Strom Thurmond in the Senate, and was an actively malevolent force in American society for all the remaining 23 years of his life, at a scale larger than he'd been an actively malevolent force in American society for the preceding 48.\nGraham's hatreds and bigotries were bog standard for his party, and they were legion. He hated gay and queer people; he hated black and brown people; he hated Muslims; he hated liberals; he hated efforts to make the nation more just, the environment cleaner, the future better. He hated free speech and the free press and …",
+          "link": "https://defector.com/lindsey-graham-dead-world-no-worse",
+          "publishedOn": "2026-07-13T14:11:43.000Z",
+          "wordCount": 6452,
+          "title": "Lindsey Graham Dead, World No Worse",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2275283249.jpeg"
+        },
+        {
+          "id": "https://defector.com/?p=228668",
+          "author": "Giri Nathan",
+          "description": "After losing the 2025 Australian Open final, Sascha Zverev was remarkably despondent. The man who defeated him, Jannik Sinner, put both hands on Zverev's shoulders and delivered a pep talk to the sobbing runner-up as the duo awaited the presentation of their trophies.  \"I think Jannik is better than me at the moment. It's as simple as that,\" Zverev said in his post-match press conference. \"I think I'm serving better than him, but that's it. He does everything else better than me. He moves better than me, he hits his forehand better than me, he hits his backhand better than me, he returns better than me, he volleys better than me.\" \nMany players suffer emotionally after losing a Slam final, and for Zverev it was his third time in that unpleasant scenario, but I couldn't remember the last ti…",
+          "link": "https://defector.com/jannik-sinner-reinstates-the-regime",
+          "publishedOn": "2026-07-13T13:14:47.000Z",
+          "wordCount": 8073,
+          "title": "Jannik Sinner Reinstates The Regime",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2285797670.jpg"
+        },
         {
           "id": "https://defector.com/?p=228310",
           "author": "Diana Moskovitz",
@@ -2567,6 +2571,26 @@
       "feedUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
+        {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/54i6zupr2625s9ugn5oi.html",
+          "author": null,
+          "description": "96\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}.row-2 .column-1 .block-7 .button:hover{background-color:#16688b!important;border-bottom:0 solid transparent!important;border-left:0 solid transparent!important;border-right:0 solid transparent!important;border-top:0 solid transparent!important;color:#fff!important} @media (max-width:660px){.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:non…",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/54i6zupr2625s9ugn5oi.html",
+          "publishedOn": "2026-07-13T12:34:39.052Z",
+          "wordCount": 690,
+          "title": "New from Chicago: A cultural autopsy of the last day of the Vietnam War",
+          "imageUrl": null
+        },
+        {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/p3m4con0oqet8vubnm3y.html",
+          "author": null,
+          "description": "96\n        Baltimore chops the Royals\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    line-height: 100%;\n  }\n\n  .apple-l…",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/p3m4con0oqet8vubnm3y.html",
+          "publishedOn": "2026-07-13T12:32:45.808Z",
+          "wordCount": 3605,
+          "title": "Baltimore chops the Royals",
+          "imageUrl": null
+        },
         {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/17by36k4cl9ass71ps01.html",
           "author": null,
