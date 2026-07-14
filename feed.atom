@@ -2,10 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-14T06:09:29.391Z</updated>
+    <updated>2026-07-14T09:56:51.375Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Emacs Redux: All Aboard Embark!]]></title>
+        <id>https://emacsredux.com/blog/2026/07/14/all-aboard-embark/</id>
+        <link href="https://emacsredux.com/blog/2026/07/14/all-aboard-embark/"/>
+        <updated>2026-07-14T08:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Yesterday I published a post about
+Jinx, where I
+mentioned in passing that dropping Flyspell freed up C-. and C-; for
+embark, and that this would be a topic
+for another article. Well, here it is!
+Embark has been around for quite a few years, and pretty much everyone in the
+vertico/consult crowd swears by it. Somehow I never got around to adopting
+it until my recent config overhaul, and
+now I keep asking myself why I waited so long.
+So, What’s Embark?
+Embark, written by Omar Antolín Camarena, is often described as a keyboard-driven
+right-click menu for Emacs, and I think that’s a pretty apt description. You
+point it at something - a minibuffer candidate, a file name, a URL, a symbol -
+press C-. (embark-act) and you get a menu of actions that make sense for
+that particular thing. A few examp…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Org Mode requests: [RFC] Rename options controlling recursive statistics]]></title>
+        <id>https://list.orgmode.org/87a4rut4c4.fsf@gmail.com</id>
+        <link href="https://list.orgmode.org/87a4rut4c4.fsf@gmail.com"/>
+        <updated>2026-07-14T07:31:23.000Z</updated>
+        <summary type="html"><![CDATA[[request] flags:--- replies:1]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Andros Fenollosa: Human fear in Emacs]]></title>
+        <id>http://en.andros.dev/blog/b70b058a/human-fear-in-emacs/</id>
+        <link href="http://en.andros.dev/blog/b70b058a/human-fear-in-emacs/"/>
+        <updated>2026-07-14T06:06:15.000Z</updated>
+        <summary type="html"><![CDATA[Just a few days ago, Human Emacs was published: a declaration signed by more than 50 people from the community, led by technomancy, announcing that if GNU ends up accepting LLM-generated contributions in Emacs, they are prepared to maintain a fork free of AI-generated code. They have also opened a mailing list to discuss the topic and a chat channel on Libera Chat. Naturally, debates have appeared elsewhere too, such as Hacker News, Lobsters and Reddit. The debate is on.
+I notice a lot of tension in the community. Every time I leave a comment in a thread supporting some point contrary to Human Emacs, I receive downvotes and flags for off-topic, spam, troll and unkind. That is why I thought it appropriate to develop my opinion on my blog, where there is room for nuance without the pressure …]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Trump has always abused the law. Today, a judge said no.]]></title>
         <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/denobrx83xiyym3wue5v.html</id>
@@ -5338,26 +5383,6 @@ My article also includes commentary on some of the feedback Christian
 gets for his premium offerings.]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twins Pass the Yankees]]></title>
-        <id>https://www.baseballmusings.com/?p=160678</id>
-        <link href="https://www.baseballmusings.com/?p=160678"/>
-        <updated>2026-07-04T21:19:37.000Z</updated>
-        <summary type="html"><![CDATA[The Twins beat the Yankees 11-4 Saturday afternoon, hitting six home runs to the Yankees two. The eleven runs puts Minnesota’s average at 4.91 runs per game, taking over the top spot in the AL from the Yankees. New York is now at 4.84 R/G. Unfortunately, the Twins high scoring is countered by their high […]]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Two-hundred-and-fifty years in, Justice Jackson is doing the work that is needed from our leaders]]></title>
-        <id>https://www.lawdork.com/p/two-hundred-and-fifty-years-justice-jackson</id>
-        <link href="https://www.lawdork.com/p/two-hundred-and-fifty-years-justice-jackson"/>
-        <updated>2026-07-04T19:47:15.000Z</updated>
-        <summary type="html"><![CDATA[The United States needs leaders willing to speak forthrightly about our past and ambitiously about our future in order to make it through the treacherous present.]]></summary>
-        <author>
-            <name>Chris Geidner</name>
         </author>
     </entry>
 </feed>

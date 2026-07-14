@@ -539,6 +539,36 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://emacsredux.com/blog/2026/07/14/all-aboard-embark/",
+          "author": null,
+          "description": "Yesterday I published a post about\nJinx, where I\nmentioned in passing that dropping Flyspell freed up C-. and C-; for\nembark, and that this would be a topic\nfor another article. Well, here it is!\nEmbark has been around for quite a few years, and pretty much everyone in the\nvertico/consult crowd swears by it. Somehow I never got around to adopting\nit until my recent config overhaul, and\nnow I keep asking myself why I waited so long.\nSo, What’s Embark?\nEmbark, written by Omar Antolín Camarena, is often described as a keyboard-driven\nright-click menu for Emacs, and I think that’s a pretty apt description. You\npoint it at something - a minibuffer candidate, a file name, a URL, a symbol -\npress C-. (embark-act) and you get a menu of actions that make sense for\nthat particular thing. A few examp…",
+          "link": "https://emacsredux.com/blog/2026/07/14/all-aboard-embark/",
+          "publishedOn": "2026-07-14T08:45:00.000Z",
+          "wordCount": 1411,
+          "title": "Emacs Redux: All Aboard Embark!",
+          "imageUrl": "https://emacsredux.com/assets/og-image.png"
+        },
+        {
+          "id": "https://list.orgmode.org/87a4rut4c4.fsf@gmail.com",
+          "author": null,
+          "description": "[request] flags:--- replies:1",
+          "link": "https://list.orgmode.org/87a4rut4c4.fsf@gmail.com",
+          "publishedOn": "2026-07-14T07:31:23.000Z",
+          "wordCount": 598,
+          "title": "Org Mode requests: [RFC] Rename options controlling recursive statistics",
+          "imageUrl": null
+        },
+        {
+          "id": "http://en.andros.dev/blog/b70b058a/human-fear-in-emacs/",
+          "author": null,
+          "description": "Just a few days ago, Human Emacs was published: a declaration signed by more than 50 people from the community, led by technomancy, announcing that if GNU ends up accepting LLM-generated contributions in Emacs, they are prepared to maintain a fork free of AI-generated code. They have also opened a mailing list to discuss the topic and a chat channel on Libera Chat. Naturally, debates have appeared elsewhere too, such as Hacker News, Lobsters and Reddit. The debate is on.\nI notice a lot of tension in the community. Every time I leave a comment in a thread supporting some point contrary to Human Emacs, I receive downvotes and flags for off-topic, spam, troll and unkind. That is why I thought it appropriate to develop my opinion on my blog, where there is room for nuance without the pressure …",
+          "link": "http://en.andros.dev/blog/b70b058a/human-fear-in-emacs/",
+          "publishedOn": "2026-07-14T06:06:15.000Z",
+          "wordCount": 1143,
+          "title": "Andros Fenollosa: Human fear in Emacs",
+          "imageUrl": "https://img.andros.dev/nBgRNg17UB_JOm4H0xVbgc4r7Pg=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_94e69e19.png"
+        },
+        {
           "id": "https://taonaw.com/2026/07/13/say-you-go-jump-to.html",
           "author": null,
           "description": "Say you go jump to a header in org-mode somewhere with C-c C-o. Did you know that you can go back with C-c &? And that it has history, so you can keep going back??\nYears of isearch-backwards… wasted. Mind blown. 🤯",
@@ -1474,16 +1504,6 @@
           "wordCount": 7636,
           "title": "All Star Lineups",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160678",
-          "author": "David Pinto",
-          "description": "The Twins beat the Yankees 11-4 Saturday afternoon, hitting six home runs to the Yankees two. The eleven runs puts Minnesota’s average at 4.91 runs per game, taking over the top spot in the AL from the Yankees. New York is now at 4.84 R/G. Unfortunately, the Twins high scoring is countered by their high […]",
-          "link": "https://www.baseballmusings.com/?p=160678",
-          "publishedOn": "2026-07-04T21:19:37.000Z",
-          "wordCount": 7576,
-          "title": "Twins Pass the Yankees",
-          "imageUrl": null
         }
       ]
     },
@@ -1703,22 +1723,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/1683abd3-c637-4879-a0f6-e82e2fa79db1_1692x1040.png"
-        },
-        {
-          "id": "https://www.lawdork.com/p/two-hundred-and-fifty-years-justice-jackson",
-          "author": "Chris Geidner",
-          "description": "The United States needs leaders willing to speak forthrightly about our past and ambitiously about our future in order to make it through the treacherous present.",
-          "link": "https://www.lawdork.com/p/two-hundred-and-fifty-years-justice-jackson",
-          "publishedOn": "2026-07-04T19:47:15.000Z",
-          "wordCount": null,
-          "title": "Two-hundred-and-fifty years in, Justice Jackson is doing the work that is needed from our leaders",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!oAfZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab40d65d-ce12-4f2c-8149-888ea95a3f75_1164x754.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!oAfZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab40d65d-ce12-4f2c-8149-888ea95a3f75_1164x754.png"
         }
       ]
     },
