@@ -278,6 +278,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/ypq6u70eso3yh7fv0a52.html",
+          "author": null,
+          "description": "One day out: Inside this Supreme Court’s term with the experts who know it best\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n   …",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/ypq6u70eso3yh7fv0a52.html",
+          "publishedOn": "2026-07-15T01:03:57.328Z",
+          "wordCount": 665,
+          "title": "Tomorrow: Inside this Supreme Court’s term with the experts who know it best",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/i2b3h328t9ddcwmpuqb2.html",
           "author": null,
           "description": "Expect a ton of election conspiracy nonsense in Trump's national address\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n     …",
@@ -585,16 +595,6 @@
           "publishedOn": "2026-07-05T19:00:49.908Z",
           "wordCount": 614,
           "title": "Japan This Fall: Limited Availability",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0dinsox0vpia8s5xwarq.html",
-          "author": null,
-          "description": "There's never been a better time to get WIRED\n\n\n\n\n\n\n\n\n\n\n/* resets */\np {margin:0px;margin-bottom:0px;padding:0px;}\ntable {border-spacing:0;}\ntable, td {border-collapse:collapse;}\n* {-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-size-adjust: none !important;-ms-text-size-adjust: none !important;-webkit-text-size-adjust: none !important;}\n/* end resets */\n/* outlook / hotmail */\n.ExternalClass{width:100%;}\ntable, td {mso-table-lspace:0pt;mso-table-rspace:0pt;}\nimg{-ms-interpolation-mode:bicubic;}\n.ReadMsgBody {width: 100%;}\n/* end outlook / hotmail */\n/* gmail */\nu + #body a {color: inherit;text-decoration: none;font-size: inherit;font-family: inherit;font-weight: inherit;line-height: inherit;}\nimg + div {display: none!important;}\n/* end gmail */\n/* ios */\nbody{…",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0dinsox0vpia8s5xwarq.html",
-          "publishedOn": "2026-07-05T14:08:17.676Z",
-          "wordCount": null,
-          "title": "⏰ SALE ENDS SOON: Lock In WIRED for $10/Month Today",
           "imageUrl": null
         }
       ]
@@ -1053,16 +1053,6 @@
           "wordCount": 1543,
           "title": "Irreal: Using Emacs Input Methods For Foreign Languages",
           "imageUrl": null
-        },
-        {
-          "id": "https://sachachua.com/blog/2026/07/une-navigation-simplifiee-sur-mon-blog-grace-a-eww-et-emacs/",
-          "author": null,
-          "description": "n and p (eww-next-url, eww-previous-url) in the EWW browser in Emacs.\n\n\n\n\n\n\n\n\n\nWatch on YouTube\n\n\n\n\nDownload the audio\n\n\n\nPour le carnaval d'Emacs en mai, Omar Antolin a écrit un article qui recommande vivement le navigateur EWW sous Emacs. Grâce au commentaire de technomancy concernant celui-ci, j'ai appris qu'il peut naviguer vers la page suivante et la page précédente avec les raccourcis clavier « n » (eww-next-url) et « p » (eww-previous-url) si la page inclut les liens dans son en-tête comme ça :\n\n\n\n\n<link rel=\"next\" href=\"https://sachachua.com/blog/2026/06/2026-06-29-emacs-news/\">\n<link rel=\"prev\" href=\"https://sachachua.com/blog/2026/07/semaine-du-22-au-28-juin/\">\n\neleventy.config.js.\n\n\n\n\n  eleventyConfig.addCollection('_posts', function(collectionApi) {\n    const posts = collectionApi.getFilteredByTag('_posts');\n    for (let i = 0; i < posts.length; i++) {\n      const next = i > 0 ? posts[i - 1] : null;\n      const prev = i < posts.length - 1 ? posts[i + 1] : null;\n      posts[i].data.navLinks = {\n        prev: { url: prev?.url, title: prev?.data?.title },\n        next: { url: next?.url, title: next?.data?.title }\n      };\n    }\n    return posts;\n  });\n\nconst navLinks = data?.page?.url && data?.navLinks ? data?.navLinks : {\n  next: { url: data.pagination && data.pagination.pageNumber < data.pagination.hrefs.length - 1 && data.pagination.hrefs[data.pagination.pageNumber + 1] },\n  prev: { url: data.pagination && data.pagination.pageNumber > 0 && data.pagination.hrefs[data.pagination.pageNumber - 1] }\n};\nconst nextLink = navLinks?.next?.url ? `<link rel=\"next\" href=\"${navLinks?.next?.url}\" />` : '';\nconst prevLink = navLinks?.prev?.url ? `<link rel=\"prev\" href=\"${navLinks?.prev?.url}\" />` : '';\n\n\n\nFigure 1: Navigating with n (eww-next-url) and p (eww-previous-url) in eww\n\nView Org source for this post\nYou can e-mail me at sacha@sachachua.com.",
-          "link": "https://sachachua.com/blog/2026/07/une-navigation-simplifiee-sur-mon-blog-grace-a-eww-et-emacs/",
-          "publishedOn": "2026-07-05T12:56:17.000Z",
-          "wordCount": 466,
-          "title": "Sacha Chua: Une navigation simplifiée sur mon blog grâce à EWW (et Emacs !)",
-          "imageUrl": null
         }
       ]
     },
@@ -1071,6 +1061,36 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160801",
+          "author": "David Pinto",
+          "description": "Junior Caminero just got hit on his left lower two fingers, the digits getting caught between the ball and the knob of the bat. Caminero was down in pain for a bit, then got up and ran to the dugout. He’s out of the game, and we’ll wait to hear if the fingers suffered any […]",
+          "link": "https://www.baseballmusings.com/?p=160801",
+          "publishedOn": "2026-07-15T01:16:15.000Z",
+          "wordCount": 7552,
+          "title": "Ball, Finger, Knob",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160799",
+          "author": "David Pinto",
+          "description": "Cody Bellinger and Ben Rice of the Yankees deliver two-out singles up the middle in the top of the first inning of the All-Star game. Bellinger came up with the bases loaded and drove in two runs, Rice one run. The AL takes an early 3-0 lead off Phillies pitcher Cristopher Sanchez.",
+          "link": "https://www.baseballmusings.com/?p=160799",
+          "publishedOn": "2026-07-15T00:44:04.000Z",
+          "wordCount": 7542,
+          "title": "New York Lefties",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160797",
+          "author": "David Pinto",
+          "description": "I’m catching up after a long day on the road. Congratulations to Jordan Walker on winning the Home Run Derby. I only got to see the first two rounds last night. During the second round, one of the announcers noticed that Walker was swinging smart. He wasn’t trying to drive the ball as far as […]",
+          "link": "https://www.baseballmusings.com/?p=160797",
+          "publishedOn": "2026-07-15T00:25:41.000Z",
+          "wordCount": 7587,
+          "title": "Walker Slugger",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160793",
           "author": "David Pinto",
@@ -1520,26 +1540,6 @@
           "wordCount": 7733,
           "title": "Locking Up Players",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160688",
-          "author": "David Pinto",
-          "description": "The White Sox and Guardians play for a one-game lead in the AL Central as Chris Murphy takes on Tanner Bibee. Murphy makes his second open of the season. In his first, he recorded four outs with no hits, no walks, and two strikeouts. Bibee allowed no runs in his last two starts against the […]",
-          "link": "https://www.baseballmusings.com/?p=160688",
-          "publishedOn": "2026-07-05T12:14:23.000Z",
-          "wordCount": 7624,
-          "title": "Games of the Day",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160686",
-          "author": "David Pinto",
-          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.390, 0.780 — Luis Arraez batting at Tanner Gordon. 0.378, 0.762 — Jung Hoo Lee batting at Tanner Gordon. 0.349, 0.728 — Casey Schmitt batting at Tanner Gordon. 0.334, 0.711 — Heliot Ramos batting at Tanner Gordon. 0.316, 0.685 — Bryson Eldridge batting […]",
-          "link": "https://www.baseballmusings.com/?p=160686",
-          "publishedOn": "2026-07-05T11:29:41.000Z",
-          "wordCount": 7922,
-          "title": "Beat the Streak Picks",
-          "imageUrl": null
         }
       ]
     },
@@ -1548,6 +1548,16 @@
       "feedUrl": "https://ballsandstrikes.org/feed",
       "siteUrl": "https://ballsandstrikes.org/",
       "articles": [
+        {
+          "id": "https://ballsandstrikes.org/?p=18582",
+          "author": "Madiba K. Dennie",
+          "description": "If the Court wants more public resources, it should show some understanding of what it owes the public in return.\nThe post Justices Ask Congress For More Supreme Court Funding, <span class=\"dewidow\">Less Accountability</span> appeared first on Balls and Strikes.",
+          "link": "https://ballsandstrikes.org/ethics-accountability/supreme-court-funding-more-money-less-accountability/",
+          "publishedOn": "2026-07-14T23:43:18.000Z",
+          "wordCount": 2020,
+          "title": "Justices Ask Congress For More Supreme Court Funding, Less Accountability",
+          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2026/07/GettyImages-2285440357-1200x630.jpg"
+        },
         {
           "id": "https://ballsandstrikes.org/?p=18575",
           "author": "Madiba K. Dennie",
@@ -2773,16 +2783,6 @@
           "wordCount": 8578,
           "title": "A Shockingly Positive Review Of World Cup Public Transit In Los Angeles",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/losAngelesWorldCupMetro.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=227882",
-          "author": "Patrick Redford",
-          "description": "BARCELONA — \"Every swarm needs a face,\" declares the post announcing Visma-Lease a Bike's new bee mascot, \"and every face needs a name.\" Confusing proclamations aside—the defining characteristic of a swarm is its facelessness—the opening stage of the 2026 Tour de France was one for the insects. As if to bless Visma for their honeycomb jerseys out of an oblique entomic solidarity, the swarm of cicadas nestled in the scrubby pines atop Montjuïc thrummed Jonas Vingegaard to victory on Saturday's Stage 1. The lanky Dane smashed the Côte du Stade Olympique to win a team time trial somewhat worthy of the name and don the yellow jersey for the first time in three years. The Tour is here, and it's off to the most fascinating possible start.\nThe strangest thing about the Tour starting in Barcelona …",
-          "link": "https://defector.com/jonas-vingegaard-made-it-out-alive-then-made-barcelona-smile",
-          "publishedOn": "2026-07-05T14:00:01.000Z",
-          "wordCount": 8096,
-          "title": "Jonas Vingegaard Made It Out Alive, Then Made Barcelona Smile",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2284070093.jpg"
         }
       ]
     },
