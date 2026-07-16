@@ -1057,26 +1057,6 @@
           "wordCount": 598,
           "title": "Andros Fenollosa: An alternative to Webmentions for the Emacs Carnival",
           "imageUrl": "https://img.andros.dev/lO4rHtFcmp5pDRbWBepGddVAOVI=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/org-social.png"
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/07/comment-on-org-source-blocks.html",
-          "author": null,
-          "description": "Yesterday I wrote that I prefer putting each code snippet into its\n    own dedicated file rather than into an org source block because \"I\n    don't want the code to execute with org-mode active.\"\nWhat was I thinking; what does it mean?\nHere's a scenario. I'm developing functions to create a document in\n    some markup language.  The colorizer function applies a color tag\n    to the first word in a given string.\nIt works great in my Org source block.  But when I add it to\n    the lisp file and invoke it, it doesn't do exactly what I expect.\nIn Org mode, the single quote is a word constituent, which is fine\n    for my purpose.  However, in emacs-lisp-mode, single quote is a\n    separator.  The effect is demonstrated below.  Note the code in\n    the testre.el file tags only \"Sophia,\" not \"Sophia's,\" while the\n  source block applies the tag as intended.\n(defun colorizer (s)\n  \"Add blue color tag to first word in S.\"\n  (interactive)\n  (replace-regexp-in-string \"\\\\(\\\\w+\\\\)\\\\(.+\\\\)\" \"blue{\\\\1}\\\\2\" s t))\n\n(defun testre ()\n  \"Test colorizer.\"\n  (interactive)\n  (message\n   (concat\n    (colorizer \"Blanche lives in Miami.\")\n    \" \"\n    (colorizer \"Sofia's sweater is yellow.\"))))\n\n(testre)\n\n#+RESULTS:\n: blue{Blanche} lives in Miami. blue{Sofia’s} sweater is yellow.\n\n\nHere's what the code in the testre.el file produces:\n  blue{Blanche} lives in Miami. blue{Sofia}’s sweater is yellow.\n\n\nAnother problem with having Org mode active in a lisp source block\n    is that indenting doesn't work as expected.  Pressing C-M-\\ does\n    nothing (if I'm lucky) or something undesirable.  Once I activate\n    emacs-lisp-mode, C-M-\\ makes the code look nice again.  (If I\n    re-activate Org mode the buffer reloads, and I lose my place in\n    the document.)  This makes sense when you recall that C-M-\\ is\n    bound to indent-according-to-mode.\nI'm sure I'm doing something wrong, or I have something misconfigured.",
-          "link": "https://ray-on-emacs.blogspot.com/2026/07/comment-on-org-source-blocks.html",
-          "publishedOn": "2026-07-06T22:03:01.766Z",
-          "wordCount": 2798,
-          "title": "Raymond Zeitler: Comment on Org Source Blocks",
-          "imageUrl": null
-        },
-        {
-          "id": "https://list.orgmode.org/87tsqbyix3.fsf@gnu.org",
-          "author": null,
-          "description": "[request] flags:--- replies:0",
-          "link": "https://list.orgmode.org/87tsqbyix3.fsf@gnu.org",
-          "publishedOn": "2026-07-06T20:14:48.000Z",
-          "wordCount": 288,
-          "title": "Org Mode requests: [FR] Re: [DISCUSSION] Restructuring LaTeX output: the bigger picture => a) ox-beamer.",
-          "imageUrl": null
         }
       ]
     },
@@ -2034,38 +2014,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!3Mqi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9310cc14-30d9-4cd0-b2a8-24340a15fdb8_947x1511.png"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/wed-july-8th-7pm-et-our-weekly-hopium",
-          "author": "Simon Rosenberg",
-          "description": "Breaking News - After new accusations of sexual assault Graham Platner is \"taking the time to reflect on the best path forward” for his candidacy",
-          "link": "https://www.hopiumchronicles.com/p/wed-july-8th-7pm-et-our-weekly-hopium",
-          "publishedOn": "2026-07-06T21:59:04.000Z",
-          "wordCount": null,
-          "title": "Wed, July 8th, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/0c383e4f-8c4c-468f-864f-9fac24687b84_1092x613.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/0c383e4f-8c4c-468f-864f-9fac24687b84_1092x613.png"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/talking-ukraine-encouraging-new-senate",
-          "author": "Simon Rosenberg",
-          "description": "Stuart dropped by for our monthly chat earlier today, and it was a very good one....",
-          "link": "https://www.hopiumchronicles.com/p/talking-ukraine-encouraging-new-senate",
-          "publishedOn": "2026-07-06T19:55:32.000Z",
-          "wordCount": null,
-          "title": "Talking Ukraine, Encouraging New Senate Polling, Degrading Trump, And More With Stuart Stevens Of Lincoln Square",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://api.substack.com/feed/podcast/205635503/1030c40f2543b1c3540b02f43c13cf71.mp3",
-            "length": "0",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
@@ -3919,26 +3867,6 @@
           "wordCount": 33184,
           "title": "Our Greatest Allies Now Despise Us. I Wonder Whose Fault That Is?",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/6700e70b-be89-4442-8dc8-f7dcb81e3c67.jpeg?crop=1xw:0.75xh;0xw,0.089xh&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71842941/board-of-peace-trump-abandoned/",
-          "author": null,
-          "description": "Now we just need someone to look into his crypto earnings.",
-          "link": "https://www.esquire.com/news-politics/politics/a71842941/board-of-peace-trump-abandoned/",
-          "publishedOn": "2026-07-06T21:59:09.000Z",
-          "wordCount": 34225,
-          "title": "Trump’s Most Heinous Multimillion Dollar Scheme Has Mercifully Come to an End",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/ec5de420-9f95-4c77-a111-3b3f68600889.jpeg?crop=1xw:0.75xh;0xw,0.169xh&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71842360/trump-fifa-world-cup-balogun/",
-          "author": null,
-          "description": "By pulling strings to ensure Folarin Balogun plays in the next game for the U.S. national team, the president may have accidentally undermined part of his agenda.",
-          "link": "https://www.esquire.com/news-politics/politics/a71842360/trump-fifa-world-cup-balogun/",
-          "publishedOn": "2026-07-06T21:17:21.000Z",
-          "wordCount": 33115,
-          "title": "The Delicious Irony Behind Trump’s World Cup Meddling",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/d8815725-91aa-47cc-b573-278dee01aaa4.jpeg?crop=1xw:0.750197941409xh;center,top&resize=1200:*"
         }
       ]
     },
