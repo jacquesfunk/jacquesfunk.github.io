@@ -268,6 +268,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/sbs4619vti8ytbm9uxyc.html",
+          "author": null,
+          "description": "5 ways Trump’s speech could undermine elections\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n    \n    …",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/sbs4619vti8ytbm9uxyc.html",
+          "publishedOn": "2026-07-16T22:03:38.476Z",
+          "wordCount": 1424,
+          "title": "5 ways Trump’s speech could undermine elections",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/vzdgy6frtm88jvf28gir.html",
           "author": null,
           "description": "Get Ready for a Conspiracy Theory-Laced Speech From Trump Tonight#outlook a { padding:0; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0 !important; } .nl2go_preheader { display: none !important; mso-hide:all !important; mso-line-height-rule: exactly; visibility: hidden !important; line-height: 0px !important; font-size: 0px !important; } body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; } a img { border:none;…",
@@ -1123,16 +1133,6 @@
           "wordCount": 8589,
           "title": "Charlie Holland: HyWiki: Zero Markup Hypertext",
           "imageUrl": "https://www.chiply.dev/images/hyperbole-hywiki-banner-og.jpg"
-        },
-        {
-          "id": "http://en.andros.dev/blog/a70bbaf3/an-alternative-to-webmentions-for-the-emacs-carnival/",
-          "author": null,
-          "description": "The Emacs Carnival collects submissions by hand: you write your post, then notify the host by comment, DM (Reddit, Mastodon...) or email. The IndieWeb solves this with Webmentions, but that requires your blog to send them and the host's blog to receive them, which most static Emacs blogs don't support. Org Social can do better: it is a federated social network, and it can be used to run a carnival without any extra software.\nPublish or announce\nAdd a post to your social.org with the agreed tag emacs-carnival.\n** 2026-08-05T10:00:00+0200\n:PROPERTIES:\n:TAGS: emacs-carnival\n:END:\n\nCheck out [[https://my-blog.example/carnival-post/][my entry for this month's Emacs Carnival]].\nThat's it. No endpoint, no microformats, no notification step: one tagged post.\nRead the submissions\nClient\nThe first option is a client: org-social.el, or any other client, can filter the timeline by tag. Browse emacs-carnival and you are reading the carnival, no extra tooling involved.\nJSON\nFor scripts and roundups, you can use the Org Social Relay API:\ncurl \"https://relay.org-social.org/search/?tag=emacs-carnival\"\nIt returns a paginated JSON list with the permalink of every submission.\nRSS feed\nYou don't need an Org Social account to follow along. Subscribe from any feed reader:\nhttps://relay.org-social.org/rss.xml?tag=emacs-carnival\nEach item includes the author, the content and the permalink.\nConclusion\nIf you use a static blog and want to participate in the Emacs Carnival, consider using Org Social. It allows you to publish your submission with a simple tag, and others can easily read and follow the submissions through clients, the JSON API, or RSS feeds. This approach simplifies the process and makes it more accessible for everyone involved.",
-          "link": "http://en.andros.dev/blog/a70bbaf3/an-alternative-to-webmentions-for-the-emacs-carnival/",
-          "publishedOn": "2026-07-07T09:09:53.000Z",
-          "wordCount": 598,
-          "title": "Andros Fenollosa: An alternative to Webmentions for the Emacs Carnival",
-          "imageUrl": "https://img.andros.dev/lO4rHtFcmp5pDRbWBepGddVAOVI=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/org-social.png"
         }
       ]
     },
@@ -1520,36 +1520,6 @@
           "wordCount": 7651,
           "title": "Short People",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160726",
-          "author": "David Pinto",
-          "description": "The Log5 Method yields these stop projected hit averages versus starting pitchers: 0.322, 0.704 — Freddie Freeman batting vs. Michael Lorenzen. 0.314, 0.694 — Miguel Rojas batting vs. Michael Lorenzen. 0.311, 0.689 — Shohei Ohtani batting vs. Michael Lorenzen. 0.306, 0.683 — Andy Pages batting vs. Michael Lorenzen. 0.305, 0.704 — Miguel Andujar batting vs. […]",
-          "link": "https://www.baseballmusings.com/?p=160726",
-          "publishedOn": "2026-07-07T10:49:44.000Z",
-          "wordCount": 7942,
-          "title": "Beat the Streak Picks",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160724",
-          "author": "David Pinto",
-          "description": "Juan Soto of the Mets moved back into the top five of the Baseball Musings Batter Rankings with a home run and three walks in a 7-6, 10 inning win over the reeling Braves. Soto is in a 22 game stretch in which he’s hitting .375/.521/.708. The big game puts him in fourth place. Pete […]",
-          "link": "https://www.baseballmusings.com/?p=160724",
-          "publishedOn": "2026-07-07T10:24:18.000Z",
-          "wordCount": 7693,
-          "title": "Best Batter Today",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160722",
-          "author": "David Pinto",
-          "description": "",
-          "link": "https://www.baseballmusings.com/?p=160722",
-          "publishedOn": "2026-07-07T10:01:36.000Z",
-          "wordCount": 7486,
-          "title": "Tuesday Update",
-          "imageUrl": null
         }
       ]
     },
@@ -1727,6 +1697,22 @@
       "siteUrl": "https://www.lawdork.com",
       "articles": [
         {
+          "id": "https://www.lawdork.com/p/todd-blanche-should-not-be-attorney-general",
+          "author": "Chris Geidner",
+          "description": "Also: The Trump administration is taking on law enforcement — to try and protect semi-automatic guns. And, for paid subscribers: Closing my tabs.",
+          "link": "https://www.lawdork.com/p/todd-blanche-should-not-be-attorney-general",
+          "publishedOn": "2026-07-16T21:46:08.000Z",
+          "wordCount": null,
+          "title": "Todd Blanche should not be attorney general. That won't likely stop Republican senators.",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!ibov!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a0324e2-8707-457d-a7d3-f6e6fdabb0c2_1472x822.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!ibov!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a0324e2-8707-457d-a7d3-f6e6fdabb0c2_1472x822.png"
+        },
+        {
           "id": "https://www.lawdork.com/p/trump-irs-sanctions-settlement-order",
           "author": "Chris Geidner",
           "description": "Judge Williams: \"[T]his was an attempt to use the Court to provide some legitimacy to an agreement to confer immunity to people and entities affiliated with the President.\"",
@@ -1797,6 +1783,22 @@
       "feedUrl": "https://www.hopiumchronicles.com/feed",
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
+        {
+          "id": "https://www.hopiumchronicles.com/p/all-eyes-are-on-iowa-hopium-checks",
+          "author": "Simon Rosenberg",
+          "description": "Both our gubernatorial candidate Rob Sand and our US Senate candidate Josh Turek lead in current polling in this Trump +13 state",
+          "link": "https://www.hopiumchronicles.com/p/all-eyes-are-on-iowa-hopium-checks",
+          "publishedOn": "2026-07-16T22:45:09.000Z",
+          "wordCount": null,
+          "title": "\"All Eyes Are On Iowa\" - Hopium Checks In With Rita Hart, Chair Of The Iowa Democratic Party",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/207331790/b13d093eef1aea3b412a9efacb204f7a.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "https://www.hopiumchronicles.com/p/trump-and-greater-maga-are-far-weaker",
           "author": "Simon Rosenberg",
@@ -3167,18 +3169,7 @@
       "title": "Time Is Illmatic",
       "feedUrl": "https://timeisillmatic.me/feed/",
       "siteUrl": "https://timeisillmatic.me",
-      "articles": [
-        {
-          "id": "http://timeisillmatic.me/?p=13231",
-          "author": "deedub77",
-          "description": "We last heard from the New York City duo, Ill Al Skratch, in 1994 with their debut album, Creep Wit’ Me. The album spawned two moderately successful singles, but neither racked up any hardware (aka RIAA gold or platinum plaques), … Continue reading →",
-          "link": "https://timeisillmatic.me/2026/07/07/ill-al-skratch-keep-it-movin/",
-          "publishedOn": "2026-07-07T10:53:18.000Z",
-          "wordCount": 5321,
-          "title": "Ill Al Skratch – Keep It Movin’",
-          "imageUrl": "https://timeisillmatic.me/wp-content/uploads/2026/07/ab67616d0000b273d87e8ece4be4ec4a89a371c8.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Amanda Marcotte - Salon.com",
