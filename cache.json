@@ -1103,36 +1103,6 @@
           "wordCount": 2114,
           "title": "Randy Ridenour: Beamer-Style Typst Slides Using Org Mode",
           "imageUrl": null
-        },
-        {
-          "id": "https://emacs.dyerdwelling.family/emacs/20260514140413-emacs--vc-shuttle-advice-based-git-sync-for-air-gapped-emacs/",
-          "author": null,
-          "description": "So I have a pair of bash scripts, unimaginatively called in and out.  out copies the source tree to the shared folder so the host sees my commits, and in pulls changes back from the host into the VM.  Works fine from the terminal, but I live in Emacs, and I want to trigger this from within Emacs rather than jumping to a shell.\n\n\n\nThe obvious answer is to bind a key to async-shell-command and call it done.  But then I remembered, Emacs already has this infrastructure - the VC mode's push command.  When you press P in a vc-dir buffer, or invoke vc-push from the mode-line popup, Emacs runs vc-git-push which calls git push.  I don't want that, I want my out script.  The pull side is the same problem.  So the question becomes: can I make Emacs's VC commands do something else?\n\n\n\nYes, obviously,…",
-          "link": "https://emacs.dyerdwelling.family/emacs/20260514140413-emacs--vc-shuttle-advice-based-git-sync-for-air-gapped-emacs/",
-          "publishedOn": "2026-07-07T14:30:00.000Z",
-          "wordCount": null,
-          "title": "James Dyer: VC Shuttle: Advice-Based Git Sync for Air-Gapped Emacs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://irreal.org/blog/?p=13928",
-          "author": null,
-          "description": "provides an example of why that is.\n\n\nThe TL;DR is that in certain edge cases, things like differing syntax tables can make code behave differently in Org mode than it does directly in Emacs. Take a look at his post for the details.\n\n\nI have to say that I’ve never run into this problem. Perhaps that’s because I usually use Org code blocks only for code that will be executed in the Org environment. The few times that I have run the code outside of Org, I haven’t run into the problems that Zeitler describes.\n\n\nYour mileage may vary, of course, but it’s good to be aware that there are some edge cases that can reach out and bite you if you’re not careful. Most of you, I’m sure, will have my experience but it pays to be aware of what can go wrong.",
-          "link": "https://irreal.org/blog/?p=13928",
-          "publishedOn": "2026-07-07T14:14:47.000Z",
-          "wordCount": 1424,
-          "title": "Irreal: Problems With Org Mode Code Blocks",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.chiply.dev/post-hyperbole-hywiki",
-          "author": null,
-          "description": "1. TLDR\n\n\n\n\n\nA key feature is missing from most Personal Knowledge Management Systems (PKMSs): define a concept by pressing a keybinding on a word, and from then on all occurrences of that word become live, actionable links everywhere.  This capability would transform your knowledge base from a siloed graph into an omniscient second brain.  That is the unique feature of the HyWiki part of the GNU Hyperbole package for Emacs, a wiki whose only syntax is the HyWikiWord: a PascalCased word like Emacs or EmacsCompletion, without the link delimiters ([[ ]]) other PKMSs require.\n\n\n\nBecause a WikiWord is a Hyperbole implicit button, once defined it is highlighted and actionable in every text and programming buffer, not just inside a siloed notes vault.  This lets you keep the messy majority of yo…",
-          "link": "https://www.chiply.dev/post-hyperbole-hywiki",
-          "publishedOn": "2026-07-07T11:41:35.000Z",
-          "wordCount": 8589,
-          "title": "Charlie Holland: HyWiki: Zero Markup Hypertext",
-          "imageUrl": "https://www.chiply.dev/images/hyperbole-hywiki-banner-og.jpg"
         }
       ]
     },
@@ -1141,6 +1111,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160807",
+          "author": "David Pinto",
+          "description": "Cincinnati Reds signed seasonal age starting pitcher Chase Burns to a seven year, $105 million contract: Burns’ deal would run through the 2033 season and under the current labor contract covers three seasons of arbitration eligibility and the first two years after he would have been eligible for free agency. It does not include options […]",
+          "link": "https://www.baseballmusings.com/?p=160807",
+          "publishedOn": "2026-07-17T00:40:18.000Z",
+          "wordCount": 7665,
+          "title": "Burns Bucks",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160805",
           "author": "David Pinto",
@@ -1783,6 +1763,22 @@
       "feedUrl": "https://www.hopiumchronicles.com/feed",
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
+        {
+          "id": "https://www.hopiumchronicles.com/p/fri-1pm-et-hopium-founding-members-29b",
+          "author": "Simon Rosenberg",
+          "description": "Senator Tillis is holding his vote for Todd Blanche and is promising to kill SAVE - keep working it everyone!",
+          "link": "https://www.hopiumchronicles.com/p/fri-1pm-et-hopium-founding-members-29b",
+          "publishedOn": "2026-07-16T23:31:10.000Z",
+          "wordCount": null,
+          "title": "Fri, 1pm ET - Hopium Founding Members Most Fridays Get Together",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!NDQi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb05c1622-c86b-495e-823a-884d0011945f_1023x439.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!NDQi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb05c1622-c86b-495e-823a-884d0011945f_1023x439.png"
+        },
         {
           "id": "https://www.hopiumchronicles.com/p/all-eyes-are-on-iowa-hopium-checks",
           "author": "Simon Rosenberg",
@@ -2851,26 +2847,6 @@
           "wordCount": 6479,
           "title": "It’s The Hype That Kills",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2281449946.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=227951",
-          "author": "Sarah Borus",
-          "description": "Perhaps it's a sign from Mother Nature that the two flagship events of the Philadelphia's Wawa Welcome America Festival for the semiquincentennial were derailed by weather. Maybe she was telling us to stop this embarrassing exhibition of unbridled nationalism and look inward. But if she thought that she could succeed in getting Americans to self-reflect, even by replicating the conditions of the depths of hell where our leaders will surely burn, she was sorely mistaken. How naive! Clearly she has never truly contended with the levels of blinding patriotism of the average American, or the masochistic tenacity of a Defector intern who will sacrifice anything to get the story.\nDespite the temperature reaching nearly 100 degrees in the middle of the day, I embarked on my expedition. The closer I got to Philadelphia's Old City, the deeper I ventured into a different version of the United States than the one I was used to. This version looked like the mind of Uncle Sam suffering from post-concussion syndrome. The air was filled with the smell of fried dough, port-a-potties, and the dissolution of the EPA. Scattered \"U-S-A\" chants carried across the neighborhood, just in case anyone forgot what country we lived in. Street vendors and Christian proselytizers stood side by side on the pavement, in a heartwarming testament to the American spirit and the Protestant ethic. Sunburnt and khaki-clad families walked around while wearing garish AI-generated shirts that featured uncomfortably ripped George Washingtons, or said things like \"I can't hear you over the sound of my freedom.\" Even a food delivery robot trucked along with a little American flag.",
-          "link": "https://defector.com/americas-birthday-brought-to-you-by-gas-station-hoagies",
-          "publishedOn": "2026-07-07T13:44:06.000Z",
-          "wordCount": 8215,
-          "title": "America’s Birthday, Brought To You By Gas Station Hoagies",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2283937734.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=228062",
-          "author": "Tom Ley",
-          "description": "It is difficult to pin down an international team's true quality and character based on the results of one brief tournament. The games are too few, and the environment too variable, to come to any definitive conclusions. But the games are revealing nonetheless, and any team that plays enough of them will have their specific strengths and shortcomings put on display, some more immutable than others. The teams that tend to thrive in the World Cup are the ones most capable of shrinking the distance between the best and worst versions of themselves, such that the arrival of either is not overly surprising or destabilizing. On Monday, Belgium reached through the swagger and confidence that the USMNT had spent four games building, and drew out a fragility that lurked deep within. Unprepared to face the worst version of themselves, the Americans crumbled.\nIt is not often that the complete story of a soccer game can be told by its goals alone, but it is true of this game. Each of the four goals Belgium scored in its 4-1 victory can be held up as a tidy encapsulation of the USMNT's dispiriting performance. The first: a tap-in that was created by Nicholas Raskin being allowed to control a loose ball and dribble through the American box while four USMNT defenders stood by and watched. The second: a header at the back post in which two defenders on the ball failed to stop the cross and two defenders on the post were out-muscled by the goalscorer. The third: a completely fucking humiliating sequence in which Matt Freese got marooned outside his box, kicked the ground instead of the ball, and watched helplessly as the Belgians poked it into an empty net. The fourth: Chris Richards gifting the ball to Romelu Lukaku in his own box and watching the big Belgian stomp his way to a goal.\n\nhttps://www.youtube.com/watch?v=QL3kCTgeVKA",
-          "link": "https://defector.com/the-usmnts-world-cup-exit-was-too-sad-and-too-familiar",
-          "publishedOn": "2026-07-07T13:04:57.000Z",
-          "wordCount": 6673,
-          "title": "The USMNT’s World Cup Exit Was Too Sad And Too Familiar",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2284975418.jpg"
         }
       ]
     },
