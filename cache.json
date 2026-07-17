@@ -242,6 +242,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/q2up5zsvklxhynuq7gw5.html",
+          "author": null,
+          "description": "Even Republican judges don't buy the DOJ’s voter roll arguments\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      9…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/q2up5zsvklxhynuq7gw5.html",
+          "publishedOn": "2026-07-17T11:04:34.241Z",
+          "wordCount": 1444,
+          "title": "Even Republican judges don't buy the DOJ’s voter roll arguments",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/3tsrncng6135s63jt0te.html",
           "author": null,
           "description": "Breaking: Trump’s ‘bogus’ election speech debunked\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n    \n …",
@@ -660,16 +670,6 @@
           "wordCount": 823,
           "title": "100 wins in, the fight for fair elections isn't over",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/08xczxkhhi23ngyoweov.html",
-          "author": null,
-          "description": "New: DOJ letter threatens states over noncitizen voting\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n …",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/08xczxkhhi23ngyoweov.html",
-          "publishedOn": "2026-07-07T22:11:55.976Z",
-          "wordCount": 1650,
-          "title": "New: DOJ letter threatens states over noncitizen voting",
-          "imageUrl": null
         }
       ]
     },
@@ -678,6 +678,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://emacsredux.com/blog/2026/07/17/inline-completion-with-completion-preview-mode/",
+          "author": null,
+          "description": "As part of the ongoing overhaul of my Emacs setup\nI’ve been trying to make the most of the built-in functionality that recent Emacs\nreleases keep quietly shipping. My in-buffer completion setup is\nbased on corfu and cape\nthese days, but it turns out I had overlooked a nice Emacs 30 addition\nin the same area - completion-preview-mode.\nIt gives you inline completion suggestions - the “ghost text” UI that GitHub\nCopilot and friends made famous1 - except here it’s powered by plain old\nEmacs completions.\nWhat It Does\nAs you type, completion-preview-mode shows a grayed-out preview of the top\ncompletion candidate right after point - inline, in the buffer itself. No popup,\nno minibuffer, no fuss. If the suggestion is what you want, press TAB to accept\nit. If not, just keep typing and the preview u…",
+          "link": "https://emacsredux.com/blog/2026/07/17/inline-completion-with-completion-preview-mode/",
+          "publishedOn": "2026-07-17T08:45:00.000Z",
+          "wordCount": 963,
+          "title": "Emacs Redux: Inline Completion with completion-preview-mode",
+          "imageUrl": "https://emacsredux.com/assets/og-image.png"
+        },
         {
           "id": "https://metaredux.com/posts/2026/07/17/stepping-through-macros-in-cider.html",
           "author": null,
@@ -837,6 +847,16 @@
           "wordCount": 839,
           "title": "TAONAW - Emacs and Org Mode: A Quick org-mode Internal Links Reference",
           "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/07/13/5939529.png"
+        },
+        {
+          "id": "https://emacsredux.com/blog/2026/07/13/cape-corfus-best-friend/",
+          "author": null,
+          "description": "I’ve been using corfu for in-buffer\ncompletion for a while now and I’m quite happy with it. There was one thing\nthat kept bugging me, though - the completion popup would only ever show\nwhatever the current major mode’s completion function had to offer. No plain\nword completion, no file name completion - if the major mode (or your LSP\nserver) didn’t know about something, neither did the popup.\nTurns out I was simply missing one piece of the puzzle, namely\ncape.\nThe Problem\nA bit of background first. Modern Emacs completion is built around\ncompletion-at-point-functions (capfs for short) - each major mode registers a\nfunction that knows how to complete things in its buffers, and UIs like\ncorfu (or the built-in completion-at-point) simply display the results.\nThe catch is that most major modes…",
+          "link": "https://emacsredux.com/blog/2026/07/13/cape-corfus-best-friend/",
+          "publishedOn": "2026-07-13T06:00:00.000Z",
+          "wordCount": 966,
+          "title": "Emacs Redux: Cape: Corfu’s Best Friend",
+          "imageUrl": "https://emacsredux.com/assets/og-image.png"
         },
         {
           "id": "https://emacsredux.com/blog/2026/07/13/replacing-flyspell-with-jinx/",
@@ -1067,26 +1087,6 @@
           "wordCount": 5850,
           "title": "Anand Tamariya: Plan 9: Dynamic HTML",
           "imageUrl": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_sQXFdJuqDzexpy4WM4vvt1OTRXKPipSKmiGNkTKZwFE91lhRTqIjtI5cqp4qcd5mYeXPxxmd_aujA7vrcH8vYlRJgmkPKSUyVDKOsozDou9Uxw=w1200-h630-n-k-no-nu"
-        },
-        {
-          "id": "https://kristofferbalintona.me/posts/202607080055/",
-          "author": null,
-          "description": "Recently Hilton Chain[1] put together emacs-guix-starter, a starter Emacs configuration that uses Guix and is set up to Guix. What it is: a regular Emacs init.el (with basic configuration) alongside a companion Guix packages manifest (packages.scm) to install those Emacs packages and all their system dependencies. The init.el even provides configuration to edit Guile!\nBeginner-oriented configurations are sorely lacking in Guix. In the Emacs world, there are many personal configurations, configuration frameworks (Doom, Spacemacs, Prelude), and starter configs (minimal-emacs.d, emacs-bedrock). These are just great references, if not just to peruse. This is especially the case for newcomers, who haven’t yet developed a second-nature for how to organize files, idiomatic coding patterns, nor fa…",
-          "link": "https://kristofferbalintona.me/posts/202607080055/",
-          "publishedOn": "2026-07-08T00:55:00.000Z",
-          "wordCount": 8,
-          "title": "Kristoffer Balintona: emacs-guix-starter: I’m glad this exists",
-          "imageUrl": null
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-07-08-emacs-global-keybinding-overrides/",
-          "author": null,
-          "description": "Raw link: https://www.youtube.com/watch?v=D99GB591Vgo\nIn this video I demonstrate how to define key bindings that have a\nglobal overriding effect so that major modes cannot change them. This\nis important if you want to redefine keys that are not meant to be\nconfigured by the user.\nBelow is the code I showed in the video:\n\n(setq custom-file (locate-user-emacs-file \"custom.el\"))\n(load custom-file t)\n\n(load-theme 'modus-operandi-tinted)\n\n(use-package keycast\n  :ensure t\n  :config\n  (keycast-mode-line-mode 1))\n\n(set-face-attribute 'default nil :height 180)\n\n;; Your only safe keys are documented here:\n;; (info \"(elisp) Key Binding Conventions\")\n(define-key global-map (kbd \"M-o\") 'other-window)\n\n;; (define-key MAP KEY nil)\n\n;; There is also `defvar-keymap'...\n(defvar prot-overrides-mode-map (make-sparse-keymap)\n  \"Keymap for the `prot-overrides-mode'.\")\n\n(define-minor-mode prot-overrides-mode\n  \"Activate the `prot-overrides-mode-map'.\"\n  :global t\n  :init-value nil\n  :keymap prot-overrides-mode-map)\n\n(define-key prot-overrides-mode-map (kbd \"M-o\") 'other-window)\n(define-key prot-overrides-mode-map (kbd \"C-<return>\") 'find-file)\n\n(prot-overrides-mode 1)",
-          "link": "https://protesilaos.com/codelog/2026-07-08-emacs-global-keybinding-overrides/",
-          "publishedOn": "2026-07-08T00:00:00.000Z",
-          "wordCount": 242,
-          "title": "Protesilaos: Emacs: global keybinding overrides",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         }
       ]
     },
@@ -2101,6 +2101,16 @@
       "siteUrl": "https://defector.com/",
       "articles": [
         {
+          "id": "https://defector.com/?p=228730",
+          "author": "Billy Haisley",
+          "description": "Like every previous edition, this World Cup has been great at producing stories. The most uplifting was the one about the shrinking gap between soccer's established powers and the rest of the world, as told by the group-stage success of the African teams, and most memorably by Cape Verde. You also had the tactical story of the tournament, in how the teams with the most fluid and attractive attacking play achieved it by eschewing the sport's dominant strategic meta—the spread-'em-wide-and-pin-'em-high positional gambit, which has grown boring to watch and increasingly easy for defenses to counteract—to instead bring players closer together, looking to create space through spontaneous movement, collaboration, and deception, producing unpredictable moves full of technical inventiveness that b…",
+          "link": "https://defector.com/the-world-cup-is-about-great-players-and-nothing-else",
+          "publishedOn": "2026-07-17T13:02:10.000Z",
+          "wordCount": 11772,
+          "title": "The World Cup Is About Great Players And Nothing Else",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2286376710.jpg"
+        },
+        {
           "id": "https://defector.com/?p=229113",
           "author": "David Roth",
           "description": "It is the policy of Defector that co-owners who are on vacation should, when on vacation, try their best to be on vacation. There are complicating factors to this simple-sounding rule—it is both easy and tempting to pop into Slack during lulls or just out of habit, and that is only made more so by the years of damage or just slippage related to the idea of what are and aren't working hours—but it is a good policy. I say this as someone who wrote a decently long story for the site during my recently concluded vacation, although I can at least partially credit some untenably disgusting weather along with the aforementioned bad habits for that one. But some time away from work is an important and good thing no matter who you are, and I was glad to have it. Which is why I feel compelled to explain why I took a few moments out of my vacation last week to send Drew some questions about the San Diego Padres for him to ask Justin Halpern.\nShould I have done this? By the policy described above, absolutely not. But Justin Halpern appearances are very valuable to me, and if I was going to miss one I wanted to make sure that my questions about his aesthetically unpleasant, objectively mediocre, completely baffling baseball team of choice made it into the episode. As it happened, Justin had to push his appearance back a week, which means I got to ask those questions myself. And if it was not my best work to spend my precious and limited time in Maine thinking about how best to ask What Is Wrong With Manny Machado, it was gratifying—after Drew told a story about recognized at the beach due to his distinctive noises and Justin told a story about retiring Jose Canseco via groundout in a men's league game, to Ozzie Canseco's dismay—to get to hear Justin's answer.",
@@ -2737,6 +2747,26 @@
       "feedUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
+        {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/6k2n2x33la5hwldvxefj.html",
+          "author": null,
+          "description": "NEW: ‘Zero new facts’: Teased as a bombshell, Trump election speech underwhelms election officials96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !impor…",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/6k2n2x33la5hwldvxefj.html",
+          "publishedOn": "2026-07-17T12:43:58.151Z",
+          "wordCount": 1521,
+          "title": "NEW: ‘Zero new facts’: Teased as a bombshell, Trump election speech underwhelms election officials",
+          "imageUrl": null
+        },
+        {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/ohs5krxujpce63c1007n.html",
+          "author": null,
+          "description": "Don’t Cry Because The World Cup Is (Almost) Over, Smile Because It Happened96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-decoration: …",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/ohs5krxujpce63c1007n.html",
+          "publishedOn": "2026-07-17T10:02:24.076Z",
+          "wordCount": 3573,
+          "title": "Don’t Cry Because The World Cup Is (Almost) Over, Smile Because It Happened",
+          "imageUrl": null
+        },
         {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/x8dixdcmmrn9q7779oyi.html",
           "author": null,
@@ -3824,16 +3854,6 @@
           "wordCount": 31989,
           "title": "After Trump’s Completely Bonkers Outburst at a Recent NATO Summit, I’m Worried We’ll Never Be Invited Back",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/9eb58051-f3c3-4903-968e-5e79546ee44c.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71858174/graham-platner-sexual-assault-successor-democratic-nominee-maine/",
-          "author": null,
-          "description": "The Democratic Party simply can’t go back to status-quo candidates if it wants to swing the Senate.",
-          "link": "https://www.esquire.com/news-politics/politics/a71858174/graham-platner-sexual-assault-successor-democratic-nominee-maine/",
-          "publishedOn": "2026-07-08T00:57:34.000Z",
-          "wordCount": 33581,
-          "title": "Graham Platner Must Go. Also, Though, He Has a Point.",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/3d321932-d969-42ca-b654-ec383237f35d.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
         }
       ]
     },
