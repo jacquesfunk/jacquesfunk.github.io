@@ -243,22 +243,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/2b36e66e-88c4-4fc8-b5d4-5c4a5851f14e_1600x900.png"
-        },
-        {
-          "id": "https://www.dworkinsubstack.com/p/trump-went-after-your-phone-your",
-          "author": "Scott Dworkin",
-          "description": "Four times, they reached for something that wasn’t theirs. Four times, they lost.",
-          "link": "https://www.dworkinsubstack.com/p/trump-went-after-your-phone-your",
-          "publishedOn": "2026-07-07T15:32:37.000Z",
-          "wordCount": null,
-          "title": "Trump Went After Your Phone, Your Vote, and Your Paycheck. It Did Not Go Well.",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/b4e2473e-c7fe-4a49-8ef8-18342336eae6_1600x900.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/b4e2473e-c7fe-4a49-8ef8-18342336eae6_1600x900.png"
         }
       ]
     },
@@ -695,6 +679,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://metaredux.com/posts/2026/07/17/stepping-through-macros-in-cider.html",
+          "author": null,
+          "description": "This is another installment in the series of articles about the notable changes\nin CIDER 2.0. Today’s topic is one of\nthose “ambitious ideas that lay dormant for ages” I keep mentioning: proper\ninteractive macro stepping.\nThe Dream\nCIDER has had macroexpansion support practically forever - C-c C-m expands\nthe form before point into a dedicated buffer, a feature we inherited\nspiritually from SLIME. It works, but it has always felt a bit… detached. The\nexpansion lives in another buffer, divorced from the code you’re reading, and\nfor deeply nested macros you end up bouncing between buffers trying to keep\nyour bearings.\nEmacs Lisp hackers have long had something nicer:\nmacrostep, a brilliant little\npackage that expands macros in place - right where they sit in your code - one\nstep at a time, a…",
+          "link": "https://metaredux.com/posts/2026/07/17/stepping-through-macros-in-cider.html",
+          "publishedOn": "2026-07-17T05:15:00.000Z",
+          "wordCount": 2199,
+          "title": "Meta Redux: Stepping Through Macros in CIDER",
+          "imageUrl": "https://metaredux.com/assets/og-image.png"
+        },
+        {
           "id": "https://metaredux.com/posts/2026/07/16/clj-refactor-4-0.html",
           "author": null,
           "description": "Hot on the heels of CIDER 2.0,\nclj-refactor.el 4.0 is out! It’s the first major release of the\nproject in almost five years, and this time around the version bump is not\njust ceremonial - 4.0 is the biggest batch of user-facing improvements\nclj-refactor has seen in ages, plus a healthy dose of long-overdue spring\ncleaning.\nUnfinished business\nWhen I announced clj-refactor.el 3.0\nback in 2021, I opened with a confession - we had failed to deliver the main\nobjective of that release, namely restoring the dependency hot-loading that\nJDK 9’s module system broke. Well, better late than never:\ncljr-hotload-dependency is back in 4.0, reimplemented on top of\nclojure.tools.deps, and it even accepts deps.edn-style coordinate maps\nalongside the classic Leiningen vectors.1\nI’ll also be honest about the…",
@@ -1093,16 +1087,6 @@
           "wordCount": 242,
           "title": "Protesilaos: Emacs: global keybinding overrides",
           "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
-        },
-        {
-          "id": "https://randyridenour.net/posts/2026-07-07-beamerstyle-typst-slides-using-org-mode.html",
-          "author": null,
-          "description": "\\begin{enumerate}\n  \\item One\n  \\item Two\n  \\item Three\n\\end{enumerate}\n\n\\begin{enumerate}\n  \\item One\n  \\begin{enumerate}\n    \\item One\n    \\item Two\n  \\end{enumerate}\n  \\item Two\n  \\item Three\n\\end{enumerate}\n\n1. One\n     1. One\n     2. Two\n2. Two\n3. Three\n\nbasic, replicating the Keynote Basic White theme. It’s a very simple theme that has white, gray, and black variations and a title slide with room for the university’s logo. It works well, and gives me everything I need. The only downside is compilation time. A large presentation that I used this week compiled in twelve seconds for the slides, another seventeen seconds for the handout. Then, as it often goes, I immediately notice a mistake, fix, recompile, repeat….\n\n\n\nI played with Typst when it first came out. I was impressed, but it …",
-          "link": "https://randyridenour.net/posts/2026-07-07-beamerstyle-typst-slides-using-org-mode.html",
-          "publishedOn": "2026-07-07T14:56:00.000Z",
-          "wordCount": 2114,
-          "title": "Randy Ridenour: Beamer-Style Typst Slides Using Org Mode",
-          "imageUrl": null
         }
       ]
     },
@@ -1587,16 +1571,6 @@
           "wordCount": 1829,
           "title": "The Conservative Justices Attached Some Major Strings to the Latest Decision On Presidential Power",
           "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2021/12/Gorsuch-Roberts_untreated.jpg"
-        },
-        {
-          "id": "https://ballsandstrikes.org/?p=18526",
-          "author": "Jay Willis",
-          "description": "The list of reasons Trump’s former lawyer is unfit to hold judicial office just got longer and weirder.\nThe post Emil Bove’s Trump iPhone Wallpaper Might Be the Most Deranged Thing <span class=\"dewidow\">About Him</span> appeared first on Balls and Strikes.",
-          "link": "https://ballsandstrikes.org/law-politics/emil-bove-trump-wallpaper-new-york-times-impeachable-offense/",
-          "publishedOn": "2026-07-07T15:53:31.000Z",
-          "wordCount": 1824,
-          "title": "Emil Bove’s Trump iPhone Wallpaper Might Be the Most Deranged Thing About Him",
-          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2025/06/GettyImages-2222118808-1200x630.jpg"
         }
       ]
     },
@@ -2114,22 +2088,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/cad2bc6c-2b03-4374-b0bb-dd4af12afcc7_1093x583.png"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/there-are-good-days-and-there-are",
-          "author": "Simon Rosenberg",
-          "description": "Let's focus on making tomorrow a better day.......",
-          "link": "https://www.hopiumchronicles.com/p/there-are-good-days-and-there-are",
-          "publishedOn": "2026-07-07T15:05:44.000Z",
-          "wordCount": null,
-          "title": "There Are Good Days, And There Are Bad Days, Everyone",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!3Mqi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9310cc14-30d9-4cd0-b2a8-24340a15fdb8_947x1511.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!3Mqi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9310cc14-30d9-4cd0-b2a8-24340a15fdb8_947x1511.png"
         }
       ]
     },
@@ -2807,46 +2765,6 @@
           "wordCount": 8829,
           "title": "Meet The Broadway Actor Teaching Public Defenders How To Win In Court",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/LeAnne-Hutchison-e1783447569358_jpg.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=228091",
-          "author": "Luis Paez-Pumar",
-          "description": "Heading into the 2026 World Cup, one of FIFA's points of focus was curbing on-field racism. That is the genesis of the \"covered your mouth\" red card that so far has taken out Ecuador's Piero Hincapié and Paraguay's Miguel Almirón. The logic was sound: Players are probably less likely to do a racismo if their lips can be easily read in the moment, potentially heading off the kind of paralytic he-said-he-said that protected Benfica's Gianluca Prestianni in his racism incident with Vinícius last season.\nAlas, FIFA's anti-racism protocols hold no sway in the real world, and they especially have no jurisdiction in the realm of good old-fashioned politician racism. Enter Paraguayan senator Celeste Amarilla, a member of the country's center-left Partido Liberal Radical Auténtico party, who posted (and later deleted) a brutally offensive rant directed at Kylian Mbappé following Paraguay's 1-0 loss to France. As translated by The Madrid Zone:\nThis brute hasn't even learned to write. Instead of breastmilk, he grew up sucking on coconuts, and the most educated creatures he ever heard were chimpanzees.\nYou should've given him the middle finger, Orlando Gill (Paraguay GK).\nA colonized Cameroonian, pretending to be French, resentful, newly rich, arrogant, and ugly.\nHe was nervous and scared to death all game, like his whole team. They didn't even manage to score a single goal, until they got lucky with a penalty.\nThe only thing many of us blame the team for is not giving him a full-handed slap at the end of the game. I'm not even a football fan.",
-          "link": "https://defector.com/paraguayan-senator-gets-shockingly-racist-toward-kylian-mbappe",
-          "publishedOn": "2026-07-07T17:40:31.000Z",
-          "wordCount": 6614,
-          "title": "Paraguayan Senator Gets Shockingly Racist Toward Kylian Mbappé",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2284201816.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=228096",
-          "author": "Albert Burneko",
-          "description": "Nobody has seen Kentucky Senator Mitch McConnell in public in a while. Is that because the 84-year-old former majority leader is dead? Well, now that is an interesting question. What is death? A man who does not pursue his dreams dies every day. Mitch McConnell's dream was to be a United States Senator, a position he has held since 1985. Could one not then argue that he is in fact the livingest guy around?\nWhat after all is \"a pulse\"? Many things throb rhythmically. That is nothing special. That is not what makes something alive. A disco beat throbs. Is a disco beat \"alive\"? Does it have highly remunerated aides whose entire livelihood depends on its continuing ability to occupy elected office, who will attest to it being \"alive,\" three weeks after paramedics traveled to the disco beat's house to treat someone there who had gone into cardiac arrest, and with no one having seen the disco beat in public since then? You have really got a lot to think about right now, in my opinion.\nA heartbeat after all is a rhythm. A series of beats. In between the beats, it is not beating. Is it \"dead\" in those intervals? What if some of the intervals are longer than others? Athletes and the very fit often have slower heartbeats than others, and this is a sign of health. Bear that in mind when you feel qualified to draw conclusions about a heart that beats very slowly. If you are not jumping out from behind a shower curtain to screech \"Dead! Dead! Dead!\" at LeBron James in between each of his mighty and well-spaced heart contractions, then to state as fact that the brazenly evil avatar of obstructive minority rule in the United States is a corpse in the interval (three weeks and counting) between two of his even more powerfully spaced-out heartbeats makes you a hypocrite. I do not think that is the kind of example you are trying to set for your children.",
-          "link": "https://defector.com/is-it-mitch-mcconnell-or-your-own-sense-of-possibility-that-has-been-dead-for-weeks",
-          "publishedOn": "2026-07-07T16:47:52.000Z",
-          "wordCount": 6969,
-          "title": "Is It Mitch McConnell Or Your Own Sense Of Possibility That Has Been Dead For Weeks?",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/mitch-mcconnell.jpeg"
-        },
-        {
-          "id": "https://defector.com/?p=228017",
-          "author": "Sabrina Imbler",
-          "description": "Sometime in the late spring or early summer of 2022, a baby three-spot swimming crab was drifting in the open ocean, as baby crabs often do. The crab came across a white plastic bottle that once held Shaoxing wine—a fact both incomprehensible and immaterial to the crab—and went inside. This decision, if it was in fact a choice or rather the result of a chance oceanic current, offered some obvious benefits to the baby crab. A plastic bottle offers precious shelter to something so small, soft-shelled, and delicious. So the crab stayed, feeding on whatever else swam or drifted into the bottle's small opening. As the months went by, the crab grew larger.\nOn July 15, 2022, a group of researchers sailed a small boat off the coast of Sesoko Island in Okinawa, Japan. They were searching for oceanic nurseries: floating objects like driftwood and sargassum that shelter larval fish in that vulnerable stage of their lives. The researchers saw the bobbing whitish bottle was surrounded by larval fish, which they scooped up with a net. There were two baby rough triggerfish, five rainbow runner, five Indo-Pacific sergeant, and one freckled driftfish—a veritable daycare. And then the researchers peeked inside the bottle, which was furred with algal growth and encrusted in barnacles. And they saw the crab.\nShe was a three-spot swimming crab, about the size of a business card, and she was missing her third leg. It was immediately clear she could not escape via the mouth of the bottle, which was less than an inch wide. The researchers wondered how she'd gotten inside the bottle in the first place, and how long she'd been there.",
-          "link": "https://defector.com/platos-allegory-of-the-crab",
-          "publishedOn": "2026-07-07T16:31:17.000Z",
-          "wordCount": 6336,
-          "title": "Plato’s Allegory Of The Crab",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/swimming-crab-trapped.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=228079",
-          "author": "Ray Ratto",
-          "description": "So what did we learn this time, kids? Other than the cost of accepting gifts from creepy strangers always being much higher than you think, no matter how much you justify accepting the gift as your due, that is.\nWell, in the wake of Monday night's dopeslap in Seattle, in which the USMNT was the face and Belgium the gloved hand, there are so many lessons to absorb, and that's even after you leaven off the top 35 percent of the vitriol, which is just snark from late-to-the-party nitwits. That's the first thing, maybe—that when you open the tent to everyone, the quality of the guests necessarily drops. The amount of abuse the USMNT will take as an adjunct to the amount of abuse it took from the allegedly past-their-sell-by-date Belgians will be impressive, and will lead necessarily to a harsher reassessment of soccer in America, and how it is never going to amount to anything, and how you should just buy more beer and wait for training camp.\nAnd for some of you, maybe, that should be the lesson. You came to see what the party was like. It was fun for a while, then it came time to clean the hall and you fled like a rabbit, saying the party sucked anyway. It was just a way for you to kill time until training camp, and good for you, we suppose. You got something out of it, even if it wasn't anything satisfying.",
-          "link": "https://defector.com/its-the-hype-that-kills",
-          "publishedOn": "2026-07-07T15:21:41.000Z",
-          "wordCount": 6479,
-          "title": "It’s The Hype That Kills",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2281449946.jpg"
         }
       ]
     },
@@ -4072,16 +3990,6 @@
           "wordCount": 32391,
           "title": "A Federal Judge Just Smacked Down One of Trump’s Ridiculous Voter Fraud Crusades",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/566c6094-4b62-4d76-ac5f-788905b53b5c.jpeg?crop=1xw:0.750068587106xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71854058/trump-european-allies-break-up/",
-          "author": null,
-          "description": "And here I thought the president was supposed to be good at making deals, not breaking them.",
-          "link": "https://www.esquire.com/news-politics/politics/a71854058/trump-european-allies-break-up/",
-          "publishedOn": "2026-07-07T17:35:03.000Z",
-          "wordCount": 33184,
-          "title": "Our Greatest Allies Now Despise Us. I Wonder Whose Fault That Is?",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/6700e70b-be89-4442-8dc8-f7dcb81e3c67.jpeg?crop=1xw:0.75xh;0xw,0.089xh&resize=1200:*"
         }
       ]
     },

@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-17T02:30:55.558Z</updated>
+    <updated>2026-07-17T06:14:02.407Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Meta Redux: Stepping Through Macros in CIDER]]></title>
+        <id>https://metaredux.com/posts/2026/07/17/stepping-through-macros-in-cider.html</id>
+        <link href="https://metaredux.com/posts/2026/07/17/stepping-through-macros-in-cider.html"/>
+        <updated>2026-07-17T05:15:00.000Z</updated>
+        <summary type="html"><![CDATA[This is another installment in the series of articles about the notable changes
+in CIDER 2.0. Today’s topic is one of
+those “ambitious ideas that lay dormant for ages” I keep mentioning: proper
+interactive macro stepping.
+The Dream
+CIDER has had macroexpansion support practically forever - C-c C-m expands
+the form before point into a dedicated buffer, a feature we inherited
+spiritually from SLIME. It works, but it has always felt a bit… detached. The
+expansion lives in another buffer, divorced from the code you’re reading, and
+for deeply nested macros you end up bouncing between buffers trying to keep
+your bearings.
+Emacs Lisp hackers have long had something nicer:
+macrostep, a brilliant little
+package that expands macros in place - right where they sit in your code - one
+step at a time, a…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Burns Bucks]]></title>
         <id>https://www.baseballmusings.com/?p=160807</id>
@@ -5614,135 +5638,6 @@ Your letters:]]></summary>
 Hutchison and I met over Zoom to talk about what a courtroom has in common with a theater, and what keeps bringing her back to share her talents with public defenders. Our conversation has been edited for length and clarity.]]></summary>
         <author>
             <name>Sohini Desai</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Paraguayan Senator Gets Shockingly Racist Toward Kylian Mbappé]]></title>
-        <id>https://defector.com/?p=228091</id>
-        <link href="https://defector.com/paraguayan-senator-gets-shockingly-racist-toward-kylian-mbappe"/>
-        <updated>2026-07-07T17:40:31.000Z</updated>
-        <summary type="html"><![CDATA[Heading into the 2026 World Cup, one of FIFA's points of focus was curbing on-field racism. That is the genesis of the "covered your mouth" red card that so far has taken out Ecuador's Piero Hincapié and Paraguay's Miguel Almirón. The logic was sound: Players are probably less likely to do a racismo if their lips can be easily read in the moment, potentially heading off the kind of paralytic he-said-he-said that protected Benfica's Gianluca Prestianni in his racism incident with Vinícius last season.
-Alas, FIFA's anti-racism protocols hold no sway in the real world, and they especially have no jurisdiction in the realm of good old-fashioned politician racism. Enter Paraguayan senator Celeste Amarilla, a member of the country's center-left Partido Liberal Radical Auténtico party, who posted (and later deleted) a brutally offensive rant directed at Kylian Mbappé following Paraguay's 1-0 loss to France. As translated by The Madrid Zone:
-This brute hasn't even learned to write. Instead of breastmilk, he grew up sucking on coconuts, and the most educated creatures he ever heard were chimpanzees.
-You should've given him the middle finger, Orlando Gill (Paraguay GK).
-A colonized Cameroonian, pretending to be French, resentful, newly rich, arrogant, and ugly.
-He was nervous and scared to death all game, like his whole team. They didn't even manage to score a single goal, until they got lucky with a penalty.
-The only thing many of us blame the team for is not giving him a full-handed slap at the end of the game. I'm not even a football fan.]]></summary>
-        <author>
-            <name>Luis Paez-Pumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Our Greatest Allies Now Despise Us. I Wonder Whose Fault That Is?]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a71854058/trump-european-allies-break-up/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a71854058/trump-european-allies-break-up/"/>
-        <updated>2026-07-07T17:35:03.000Z</updated>
-        <summary type="html"><![CDATA[And here I thought the president was supposed to be good at making deals, not breaking them.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is It Mitch McConnell Or Your Own Sense Of Possibility That Has Been Dead For Weeks?]]></title>
-        <id>https://defector.com/?p=228096</id>
-        <link href="https://defector.com/is-it-mitch-mcconnell-or-your-own-sense-of-possibility-that-has-been-dead-for-weeks"/>
-        <updated>2026-07-07T16:47:52.000Z</updated>
-        <summary type="html"><![CDATA[Nobody has seen Kentucky Senator Mitch McConnell in public in a while. Is that because the 84-year-old former majority leader is dead? Well, now that is an interesting question. What is death? A man who does not pursue his dreams dies every day. Mitch McConnell's dream was to be a United States Senator, a position he has held since 1985. Could one not then argue that he is in fact the livingest guy around?
-What after all is "a pulse"? Many things throb rhythmically. That is nothing special. That is not what makes something alive. A disco beat throbs. Is a disco beat "alive"? Does it have highly remunerated aides whose entire livelihood depends on its continuing ability to occupy elected office, who will attest to it being "alive," three weeks after paramedics traveled to the disco beat's house to treat someone there who had gone into cardiac arrest, and with no one having seen the disco beat in public since then? You have really got a lot to think about right now, in my opinion.
-A heartbeat after all is a rhythm. A series of beats. In between the beats, it is not beating. Is it "dead" in those intervals? What if some of the intervals are longer than others? Athletes and the very fit often have slower heartbeats than others, and this is a sign of health. Bear that in mind when you feel qualified to draw conclusions about a heart that beats very slowly. If you are not jumping out from behind a shower curtain to screech "Dead! Dead! Dead!" at LeBron James in between each of his mighty and well-spaced heart contractions, then to state as fact that the brazenly evil avatar of obstructive minority rule in the United States is a corpse in the interval (three weeks and counting) between two of his even more powerfully spaced-out heartbeats makes you a hypocrite. I do not think that is the kind of example you are trying to set for your children.]]></summary>
-        <author>
-            <name>Albert Burneko</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Plato’s Allegory Of The Crab]]></title>
-        <id>https://defector.com/?p=228017</id>
-        <link href="https://defector.com/platos-allegory-of-the-crab"/>
-        <updated>2026-07-07T16:31:17.000Z</updated>
-        <summary type="html"><![CDATA[Sometime in the late spring or early summer of 2022, a baby three-spot swimming crab was drifting in the open ocean, as baby crabs often do. The crab came across a white plastic bottle that once held Shaoxing wine—a fact both incomprehensible and immaterial to the crab—and went inside. This decision, if it was in fact a choice or rather the result of a chance oceanic current, offered some obvious benefits to the baby crab. A plastic bottle offers precious shelter to something so small, soft-shelled, and delicious. So the crab stayed, feeding on whatever else swam or drifted into the bottle's small opening. As the months went by, the crab grew larger.
-On July 15, 2022, a group of researchers sailed a small boat off the coast of Sesoko Island in Okinawa, Japan. They were searching for oceanic nurseries: floating objects like driftwood and sargassum that shelter larval fish in that vulnerable stage of their lives. The researchers saw the bobbing whitish bottle was surrounded by larval fish, which they scooped up with a net. There were two baby rough triggerfish, five rainbow runner, five Indo-Pacific sergeant, and one freckled driftfish—a veritable daycare. And then the researchers peeked inside the bottle, which was furred with algal growth and encrusted in barnacles. And they saw the crab.
-She was a three-spot swimming crab, about the size of a business card, and she was missing her third leg. It was immediately clear she could not escape via the mouth of the bottle, which was less than an inch wide. The researchers wondered how she'd gotten inside the bottle in the first place, and how long she'd been there.]]></summary>
-        <author>
-            <name>Sabrina Imbler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Emil Bove’s Trump iPhone Wallpaper Might Be the Most Deranged Thing About Him]]></title>
-        <id>https://ballsandstrikes.org/?p=18526</id>
-        <link href="https://ballsandstrikes.org/law-politics/emil-bove-trump-wallpaper-new-york-times-impeachable-offense/"/>
-        <updated>2026-07-07T15:53:31.000Z</updated>
-        <summary type="html"><![CDATA[The list of reasons Trump’s former lawyer is unfit to hold judicial office just got longer and weirder.
-The post Emil Bove’s Trump iPhone Wallpaper Might Be the Most Deranged Thing <span class="dewidow">About Him</span> appeared first on Balls and Strikes.]]></summary>
-        <author>
-            <name>Jay Willis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump Went After Your Phone, Your Vote, and Your Paycheck. It Did Not Go Well.]]></title>
-        <id>https://www.dworkinsubstack.com/p/trump-went-after-your-phone-your</id>
-        <link href="https://www.dworkinsubstack.com/p/trump-went-after-your-phone-your"/>
-        <updated>2026-07-07T15:32:37.000Z</updated>
-        <summary type="html"><![CDATA[Four times, they reached for something that wasn’t theirs. Four times, they lost.]]></summary>
-        <author>
-            <name>Scott Dworkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It’s The Hype That Kills]]></title>
-        <id>https://defector.com/?p=228079</id>
-        <link href="https://defector.com/its-the-hype-that-kills"/>
-        <updated>2026-07-07T15:21:41.000Z</updated>
-        <summary type="html"><![CDATA[So what did we learn this time, kids? Other than the cost of accepting gifts from creepy strangers always being much higher than you think, no matter how much you justify accepting the gift as your due, that is.
-Well, in the wake of Monday night's dopeslap in Seattle, in which the USMNT was the face and Belgium the gloved hand, there are so many lessons to absorb, and that's even after you leaven off the top 35 percent of the vitriol, which is just snark from late-to-the-party nitwits. That's the first thing, maybe—that when you open the tent to everyone, the quality of the guests necessarily drops. The amount of abuse the USMNT will take as an adjunct to the amount of abuse it took from the allegedly past-their-sell-by-date Belgians will be impressive, and will lead necessarily to a harsher reassessment of soccer in America, and how it is never going to amount to anything, and how you should just buy more beer and wait for training camp.
-And for some of you, maybe, that should be the lesson. You came to see what the party was like. It was fun for a while, then it came time to clean the hall and you fled like a rabbit, saying the party sucked anyway. It was just a way for you to kill time until training camp, and good for you, we suppose. You got something out of it, even if it wasn't anything satisfying.]]></summary>
-        <author>
-            <name>Ray Ratto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[There Are Good Days, And There Are Bad Days, Everyone]]></title>
-        <id>https://www.hopiumchronicles.com/p/there-are-good-days-and-there-are</id>
-        <link href="https://www.hopiumchronicles.com/p/there-are-good-days-and-there-are"/>
-        <updated>2026-07-07T15:05:44.000Z</updated>
-        <summary type="html"><![CDATA[Let's focus on making tomorrow a better day.......]]></summary>
-        <author>
-            <name>Simon Rosenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Randy Ridenour: Beamer-Style Typst Slides Using Org Mode]]></title>
-        <id>https://randyridenour.net/posts/2026-07-07-beamerstyle-typst-slides-using-org-mode.html</id>
-        <link href="https://randyridenour.net/posts/2026-07-07-beamerstyle-typst-slides-using-org-mode.html"/>
-        <updated>2026-07-07T14:56:00.000Z</updated>
-        <summary type="html"><![CDATA[\begin{enumerate}
-  \item One
-  \item Two
-  \item Three
-\end{enumerate}
-
-\begin{enumerate}
-  \item One
-  \begin{enumerate}
-    \item One
-    \item Two
-  \end{enumerate}
-  \item Two
-  \item Three
-\end{enumerate}
-
-1. One
-     1. One
-     2. Two
-2. Two
-3. Three
-
-basic, replicating the Keynote Basic White theme. It’s a very simple theme that has white, gray, and black variations and a title slide with room for the university’s logo. It works well, and gives me everything I need. The only downside is compilation time. A large presentation that I used this week compiled in twelve seconds for the slides, another seventeen seconds for the handout. Then, as it often goes, I immediately notice a mistake, fix, recompile, repeat….
-
-
-
-I played with Typst when it first came out. I was impressed, but it …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
