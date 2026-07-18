@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-18T09:23:09.264Z</updated>
+    <updated>2026-07-18T11:02:15.232Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Best Batter Today]]></title>
+        <id>https://www.baseballmusings.com/?p=160827</id>
+        <link href="https://www.baseballmusings.com/?p=160827"/>
+        <updated>2026-07-18T10:45:34.000Z</updated>
+        <summary type="html"><![CDATA[Junior Caminero and Jonathan Aranda of the Rays rank one and four respectively in the Baseball Musings Batter Rankings after the Red Sox swept a doubleheader Friday 10-0 and 5-3. Caminero went three for eight on the day with a home run, while Aranda drew a walk in eight PA. Game one was the first […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Saturday Update]]></title>
+        <id>https://www.baseballmusings.com/?p=160825</id>
+        <link href="https://www.baseballmusings.com/?p=160825"/>
+        <updated>2026-07-18T09:57:32.000Z</updated>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Trump's algae-rich Reflecting Pool smells of RFK Jr. to meRex Huppke]]></title>
         <id>https://www.usatoday.com/story/opinion/columnist/2026/06/18/reflecting-pool-algae-green-trump/90595811007/-full</id>
@@ -19,6 +38,54 @@ Trump should change America's colors to match the green Reflecting Pool
 The pool does look less blue and more glow-in-the-dark Slurpee, but that was probably part…]]></summary>
         <author>
             <name>Rex Huppke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Emacs Redux: which-key is Now Built-in]]></title>
+        <id>https://emacsredux.com/blog/2026/07/18/which-key-is-now-built-in/</id>
+        <link href="https://emacsredux.com/blog/2026/07/18/which-key-is-now-built-in/"/>
+        <updated>2026-07-18T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[which-key is one of those packages I recommend to pretty much everyone -
+newcomers and grizzled Emacs veterans alike. You start a key sequence like
+C-x, pause for a moment, and it pops up a handy cheat sheet of every key that
+can follow. I’ve had it in my config for ages, and I suspect a lot of you have
+as well.
+Here’s the good news - as of Emacs 30 you don’t need to install it anymore.
+which-key is now a built-in package, so there’s one less thing to fetch
+from MELPA when you set up Emacs on a fresh machine.
+Enabling which-key
+Being built-in doesn’t mean it’s enabled by default, though. You still have to
+turn it on explicitly:
+
+(which-key-mode 1)
+
+
+That’s the whole setup for most people. Now start any prefix key - C-x,
+C-c, C-h - wait a moment, and a popup appears at the bottom of the fra…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta Redux: Sayid 0.8]]></title>
+        <id>https://metaredux.com/posts/2026/07/18/sayid-0-8.html</id>
+        <link href="https://metaredux.com/posts/2026/07/18/sayid-0-8.html"/>
+        <updated>2026-07-18T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Sayid 0.8 is out! It’s the third release since I
+brought Sayid back from the dead
+a couple of weeks ago, and it has a clear theme: making the tool easy to pick
+up. The revival releases were mostly about the engine - bounding the recording,
+consolidating the API, getting the data out. This one is about the experience.
+If you’ve ever bounced off Sayid because you couldn’t figure out what to press,
+or what it was trying to tell you, 0.8 is for you.
+It started with a bug report
+Shortly after the revival post, someone reported that pressing c i in the
+workspace view - “inspect this captured value” - printed Def'd as $s/* and
+then… nothing. The fix turned out to be a one-liner: Sayid was calling a
+CIDER function whose signature changed years ago, and nobody had noticed since.
+Which tells you eve…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -5350,16 +5417,6 @@ https://protesilaos.com/codelog/2026-07-05-emacs-live-with-linkarzu/.]]></summar
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Cease Hitting]]></title>
-        <id>https://www.baseballmusings.com/?p=160738</id>
-        <link href="https://www.baseballmusings.com/?p=160738"/>
-        <updated>2026-07-08T22:21:21.000Z</updated>
-        <summary type="html"><![CDATA[Dylan Cease of the Blue Jays took a no-hitter into the bottom of the ninth inning in San Francisco, having walked three batters up until that point. Heliot Ramos led off with a single, ending the bid and Cease’s day on the mound. He struck out eleven in eight innings as the Blue Jays beat […]]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Intimidation is Trump's latest anti-voting strategy]]></title>
         <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/o2d1n8mszc8ork3t959n.html</id>
         <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/o2d1n8mszc8ork3t959n.html"/>
@@ -5398,26 +5455,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         <summary type="html"><![CDATA[Top stories 07/08/2026#outlook a { padding:0; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0 !important; } .nl2go_preheader { display: none !important; mso-hide:all !important; mso-line-height-rule: exactly; visibility: hidden !important; line-height: 0px !important; font-size: 0px !important; } body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; } a img { border:none; } table { border-collapse:collapse; mso-ta…]]></summary>
         <author>
             <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Last Call - Tonight, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together]]></title>
-        <id>https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-d57</id>
-        <link href="https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-d57"/>
-        <updated>2026-07-08T21:46:08.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to our new subscribers, and yes do we have a lot to talk about tonight!!!!!]]></summary>
-        <author>
-            <name>Simon Rosenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Do You Live in a Blue State? Good Luck Getting Federal Emergency Funds from the President.]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a71872819/trump-fema-disaster-aid-red-states-blue-states/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a71872819/trump-fema-disaster-aid-red-states-blue-states/"/>
-        <updated>2026-07-08T21:31:33.000Z</updated>
-        <summary type="html"><![CDATA[Just when we think Trump can’t go any lower, he finds a way to play politics with disaster aid.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
         </author>
     </entry>
 </feed>

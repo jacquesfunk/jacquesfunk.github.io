@@ -677,6 +677,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://emacsredux.com/blog/2026/07/18/which-key-is-now-built-in/",
+          "author": null,
+          "description": "which-key is one of those packages I recommend to pretty much everyone -\nnewcomers and grizzled Emacs veterans alike. You start a key sequence like\nC-x, pause for a moment, and it pops up a handy cheat sheet of every key that\ncan follow. I’ve had it in my config for ages, and I suspect a lot of you have\nas well.\nHere’s the good news - as of Emacs 30 you don’t need to install it anymore.\nwhich-key is now a built-in package, so there’s one less thing to fetch\nfrom MELPA when you set up Emacs on a fresh machine.\nEnabling which-key\nBeing built-in doesn’t mean it’s enabled by default, though. You still have to\nturn it on explicitly:\n\n(which-key-mode 1)\n\n\nThat’s the whole setup for most people. Now start any prefix key - C-x,\nC-c, C-h - wait a moment, and a popup appears at the bottom of the fra…",
+          "link": "https://emacsredux.com/blog/2026/07/18/which-key-is-now-built-in/",
+          "publishedOn": "2026-07-18T07:00:00.000Z",
+          "wordCount": 1010,
+          "title": "Emacs Redux: which-key is Now Built-in",
+          "imageUrl": "https://emacsredux.com/assets/og-image.png"
+        },
+        {
+          "id": "https://metaredux.com/posts/2026/07/18/sayid-0-8.html",
+          "author": null,
+          "description": "Sayid 0.8 is out! It’s the third release since I\nbrought Sayid back from the dead\na couple of weeks ago, and it has a clear theme: making the tool easy to pick\nup. The revival releases were mostly about the engine - bounding the recording,\nconsolidating the API, getting the data out. This one is about the experience.\nIf you’ve ever bounced off Sayid because you couldn’t figure out what to press,\nor what it was trying to tell you, 0.8 is for you.\nIt started with a bug report\nShortly after the revival post, someone reported that pressing c i in the\nworkspace view - “inspect this captured value” - printed Def'd as $s/* and\nthen… nothing. The fix turned out to be a one-liner: Sayid was calling a\nCIDER function whose signature changed years ago, and nobody had noticed since.\nWhich tells you eve…",
+          "link": "https://metaredux.com/posts/2026/07/18/sayid-0-8.html",
+          "publishedOn": "2026-07-18T07:00:00.000Z",
+          "wordCount": 1290,
+          "title": "Meta Redux: Sayid 0.8",
+          "imageUrl": "https://metaredux.com/assets/og-image.png"
+        },
+        {
           "id": "https://metaredux.com/posts/2026/07/18/projectile-3-2.html",
           "author": null,
           "description": "Projectile 3.2 is out!1 That’s the third Projectile release this\nmonth, and by now you probably see the pattern - a whole lot of nothing for a\ncouple of years, then everything at once. Where 3.0 was the big cleanup\nand 3.1 the pile of long-standing feature requests, 3.2 is a focused\nrelease with one clear theme: search and replace. Plus one bonus feature I’ve\nwanted for ages, but more on that below.\nReplace, but with a preview\nprojectile-replace has always been one of those commands that technically\nworked, but that I never quite trusted. It walks the project file by file with\nquery-replace, asking you about every match with no way to see the big\npicture, and once you start there’s no graceful way out. I’ve been promising\nmyself a better story there for years (that’s #1924, if you’re keepi…",
@@ -1104,6 +1124,26 @@
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
         {
+          "id": "https://www.baseballmusings.com/?p=160827",
+          "author": "David Pinto",
+          "description": "Junior Caminero and Jonathan Aranda of the Rays rank one and four respectively in the Baseball Musings Batter Rankings after the Red Sox swept a doubleheader Friday 10-0 and 5-3. Caminero went three for eight on the day with a home run, while Aranda drew a walk in eight PA. Game one was the first […]",
+          "link": "https://www.baseballmusings.com/?p=160827",
+          "publishedOn": "2026-07-18T10:45:34.000Z",
+          "wordCount": 7770,
+          "title": "Best Batter Today",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160825",
+          "author": "David Pinto",
+          "description": "",
+          "link": "https://www.baseballmusings.com/?p=160825",
+          "publishedOn": "2026-07-18T09:57:32.000Z",
+          "wordCount": 7493,
+          "title": "Saturday Update",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.baseballmusings.com/?p=160823",
           "author": "David Pinto",
           "description": "The Red Sox sweep a doubleheader from the Rays to extend their winning streak to eleven games. That raises Boston’s winning percentage to .500, 48-48, now eight games back in the division. The outscored the AL East leaders 15-3, 10-0 in the afternoon game, 5-3 in the night-cap. The Red Sox starters allowed 12 runs […]",
@@ -1511,16 +1551,6 @@
           "publishedOn": "2026-07-08T23:23:33.000Z",
           "wordCount": 7741,
           "title": "Verlander Leaving",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160738",
-          "author": "David Pinto",
-          "description": "Dylan Cease of the Blue Jays took a no-hitter into the bottom of the ninth inning in San Francisco, having walked three batters up until that point. Heliot Ramos led off with a single, ending the bid and Cease’s day on the mound. He struck out eleven in eight innings as the Blue Jays beat […]",
-          "link": "https://www.baseballmusings.com/?p=160738",
-          "publishedOn": "2026-07-08T22:21:21.000Z",
-          "wordCount": 7565,
-          "title": "Cease Hitting",
           "imageUrl": null
         }
       ]
@@ -2068,22 +2098,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!QlJ8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F545f6004-0cc9-43fd-9e94-1d9e3945d7d1_2000x2000.png"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-d57",
-          "author": "Simon Rosenberg",
-          "description": "Welcome to our new subscribers, and yes do we have a lot to talk about tonight!!!!!",
-          "link": "https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-d57",
-          "publishedOn": "2026-07-08T21:46:08.000Z",
-          "wordCount": null,
-          "title": "Last Call - Tonight, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!lw7R!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ef6dd6d-82b8-48f3-ba95-c9bd6305ac74_862x895.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!lw7R!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ef6dd6d-82b8-48f3-ba95-c9bd6305ac74_862x895.png"
         }
       ]
     },
@@ -3876,16 +3890,6 @@
           "wordCount": 31590,
           "title": "ICE Is Back to Its Evil, Deadly Tricks Again",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/7f586d21-5506-482a-849e-ee4beebaa763.jpeg?crop=1xw:0.75xh;0xw,0.152xh&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71872819/trump-fema-disaster-aid-red-states-blue-states/",
-          "author": null,
-          "description": "Just when we think Trump can’t go any lower, he finds a way to play politics with disaster aid.",
-          "link": "https://www.esquire.com/news-politics/politics/a71872819/trump-fema-disaster-aid-red-states-blue-states/",
-          "publishedOn": "2026-07-08T21:31:33.000Z",
-          "wordCount": 32354,
-          "title": "Do You Live in a Blue State? Good Luck Getting Federal Emergency Funds from the President.",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/dad747a5-5238-41d2-97ab-5fd6863fb658.jpeg?crop=1xw:0.703695652174xh;center,top&resize=1200:*"
         }
       ]
     },
