@@ -2,10 +2,93 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-18T14:50:49.934Z</updated>
+    <updated>2026-07-18T16:56:44.575Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[True Crime on Stenson]]></title>
+        <id>https://www.baseballmusings.com/?p=160833</id>
+        <link href="https://www.baseballmusings.com/?p=160833"/>
+        <updated>2026-07-18T16:54:16.000Z</updated>
+        <summary type="html"><![CDATA[Shaquille O’Neal produced a true-crime series, Game Day Murders. Baseball player Dernell Stenson‘s murder will be the focus of one episode.]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trump didn't find voter fraud. He manufactured a crisis.]]></title>
+        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/nhctrpfnvitcrqvxqcsh.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/nhctrpfnvitcrqvxqcsh.html"/>
+        <updated>2026-07-18T16:04:16.209Z</updated>
+        <summary type="html"><![CDATA[Trump didn't find voter fraud. He manufactured a crisis.
+    
+    
+    
+    
+    
+
+
+
+
+
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+
+
+    
+  
+    
+      
+      96
+    
+…]]></summary>
+        <author>
+            <name>Current Events</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Andros Fenollosa: Your Denote notes on the iPhone]]></title>
+        <id>http://en.andros.dev/blog/9abcdcfe/your-denote-notes-on-the-iphone/</id>
+        <link href="http://en.andros.dev/blog/9abcdcfe/your-denote-notes-on-the-iphone/"/>
+        <updated>2026-07-18T15:27:20.000Z</updated>
+        <summary type="html"><![CDATA[All my notes live in Denote, the fantastic Emacs package by Protesilaos Stavrou. The system is perfect while I am at the computer... but I wanted to read and edit my notes from my phone. I did not find anything that respected the Denote convention, so I built it myself: Dotdenote, an iOS app that reads, edits and creates notes following the Denote naming scheme over WebDAV. It is open source, you can browse the code at git.andros.dev/andros/dotdenote.
+
+
+
+The app does not lock your notes anywhere: it talks to any WebDAV server, so they remain plain text files under your control. In this mini tutorial we will set up a WebDAV server with Docker, put an Nginx in front of it, and connect the app to your existing Denote notes. In less than 10 minutes you will be browsing your Zettelkasten from y…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Irreal: Embark]]></title>
+        <id>https://irreal.org/blog/?p=13954</id>
+        <link href="https://irreal.org/blog/?p=13954"/>
+        <updated>2026-07-18T15:10:57.000Z</updated>
+        <summary type="html"><![CDATA[Embark but I never got around to learning it and it has sat unused ever since. Then I saw this post by Bozhidar Batsov and decided to take another look. The problem with Embark is that it’s hard to understand and the documentation is long and complex. Too long, I discovered, to read and understand in one sitting.
+
+
+I approached the problem by reading a section at a time and trying out examples in my Emacs. Even so, it still took some experimentation to completely figure things out. The process is ongoing but I’m making progress.
+
+
+All of the above sounds pretty negative but I actually think Embark is a real win. Once you figure things out it’s really useful. For example, one of the things I’ve never been able to get working reliably is following a link in an arbitrary buffer to its target. Embark does that easily and if you use embark-dwim it’s a single keystroke. I use Hyper+. for embark-act and Hyper+, for embark-dwim. I have Hyper bound to the right ⌘ Cmd key so it’s very easy to invoke either of those commands.
+
+
+Batsov is all in on Embark. He and I often share preferences and this is an example of that. The more I find out about Embark, the more I like it. The commands that work on a group of files can be difficult to grok but once you do they’re very powerful. I’ve resigned myself that learning Embark is an ongoing process but I think it’s worth it.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Games of the Day]]></title>
+        <id>https://www.baseballmusings.com/?p=160831</id>
+        <link href="https://www.baseballmusings.com/?p=160831"/>
+        <updated>2026-07-18T14:51:00.000Z</updated>
+        <summary type="html"><![CDATA[The Marlins and Brewers square off in Milwaukee with Max Meyer facing Shane Drohan. Meyer comes into the game with a 9-1 record and a 2.58 ERA. He improved his ability to prevent home runs. Through 2025 he allowed 28 home runs in 127 2/3 innings, 1.97 HR per 9 IP. This season he allowed […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[5-Nugget Saturday, July 18, 2026]]></title>
         <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/j4nqu3vronnoe2x1buu3.html</id>
@@ -5549,26 +5632,6 @@ That could change. Bears ownership announced on June 5 that they are focusing th
         <updated>2026-07-09T09:50:49.000Z</updated>
         <author>
             <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MLBTR Podcast: Trade Deadline Questions About The Royals, Reds, Cardinals, Padres And More!]]></title>
-        <id>https://www.mlbtraderumors.com/?p=902535</id>
-        <link href="https://www.mlbtraderumors.com/2026/07/mlbtr-podcast-trade-deadline-questions-about-the-royals-reds-cardinals-padres-and-more.html"/>
-        <updated>2026-07-09T04:41:51.000Z</updated>
-        <summary type="html"><![CDATA[The latest episode of the MLB Trade Rumors Podcast is now live on Spotify, Apple Podcasts, and wherever you get your podcasts! Make sure you subscribe as well! You can also use the player at this link to listen, if you don’t use Spotify or Apple for podcasts. This week, host Darragh McDonald is joined by Anthony Franco of […]]]></summary>
-        <author>
-            <name>Darragh McDonald</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Despite Trump "stalling this case for years," it appears that E. Jean Carroll is about to get paid]]></title>
-        <id>https://www.lawdork.com/p/despite-trump-stalling-this-case</id>
-        <link href="https://www.lawdork.com/p/despite-trump-stalling-this-case"/>
-        <updated>2026-07-09T03:04:51.000Z</updated>
-        <summary type="html"><![CDATA[More than three years after a jury's verdict, Trump is running out of options to avoid paying the woman who, a jury found in 2023, he had sexually abused and defamed.]]></summary>
-        <author>
-            <name>Chris Geidner</name>
         </author>
     </entry>
 </feed>

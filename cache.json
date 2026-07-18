@@ -70,16 +70,6 @@
           "wordCount": 3071,
           "title": "Royals Expected To Maintain High Asking Price On Wacha, Lugo",
           "imageUrl": "https://cdn.mlbtraderumors.com/files/2026/07/USATSI_29360585-1024x683.jpg"
-        },
-        {
-          "id": "https://www.mlbtraderumors.com/?p=902535",
-          "author": "Darragh McDonald",
-          "description": "The latest episode of the MLB Trade Rumors Podcast is now live on Spotify, Apple Podcasts, and wherever you get your podcasts! Make sure you subscribe as well! You can also use the player at this link to listen, if you don’t use Spotify or Apple for podcasts. This week, host Darragh McDonald is joined by Anthony Franco of […]",
-          "link": "https://www.mlbtraderumors.com/2026/07/mlbtr-podcast-trade-deadline-questions-about-the-royals-reds-cardinals-padres-and-more.html",
-          "publishedOn": "2026-07-09T04:41:51.000Z",
-          "wordCount": 5857,
-          "title": "MLBTR Podcast: Trade Deadline Questions About The Royals, Reds, Cardinals, Padres And More!",
-          "imageUrl": "https://cdn.mlbtraderumors.com/files/2026/05/ColeRagans-2026-1024x677.jpg"
         }
       ]
     },
@@ -255,6 +245,16 @@
       "feedUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
+        {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/nhctrpfnvitcrqvxqcsh.html",
+          "author": null,
+          "description": "Trump didn't find voter fraud. He manufactured a crisis.\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/nhctrpfnvitcrqvxqcsh.html",
+          "publishedOn": "2026-07-18T16:04:16.209Z",
+          "wordCount": 1004,
+          "title": "Trump didn't find voter fraud. He manufactured a crisis.",
+          "imageUrl": null
+        },
         {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/pioxzyf3rnyqfx330lv7.html",
           "author": null,
@@ -703,6 +703,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "http://en.andros.dev/blog/9abcdcfe/your-denote-notes-on-the-iphone/",
+          "author": null,
+          "description": "All my notes live in Denote, the fantastic Emacs package by Protesilaos Stavrou. The system is perfect while I am at the computer... but I wanted to read and edit my notes from my phone. I did not find anything that respected the Denote convention, so I built it myself: Dotdenote, an iOS app that reads, edits and creates notes following the Denote naming scheme over WebDAV. It is open source, you can browse the code at git.andros.dev/andros/dotdenote.\n\n\n\nThe app does not lock your notes anywhere: it talks to any WebDAV server, so they remain plain text files under your control. In this mini tutorial we will set up a WebDAV server with Docker, put an Nginx in front of it, and connect the app to your existing Denote notes. In less than 10 minutes you will be browsing your Zettelkasten from y…",
+          "link": "http://en.andros.dev/blog/9abcdcfe/your-denote-notes-on-the-iphone/",
+          "publishedOn": "2026-07-18T15:27:20.000Z",
+          "wordCount": 1254,
+          "title": "Andros Fenollosa: Your Denote notes on the iPhone",
+          "imageUrl": "https://img.andros.dev/6cmUzkL494kzbOGKoZIeb_GHXDU=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/nathalia-rosa-P1SdQAhcJz8-unsplash.jpg"
+        },
+        {
+          "id": "https://irreal.org/blog/?p=13954",
+          "author": null,
+          "description": "Embark but I never got around to learning it and it has sat unused ever since. Then I saw this post by Bozhidar Batsov and decided to take another look. The problem with Embark is that it’s hard to understand and the documentation is long and complex. Too long, I discovered, to read and understand in one sitting.\n\n\nI approached the problem by reading a section at a time and trying out examples in my Emacs. Even so, it still took some experimentation to completely figure things out. The process is ongoing but I’m making progress.\n\n\nAll of the above sounds pretty negative but I actually think Embark is a real win. Once you figure things out it’s really useful. For example, one of the things I’ve never been able to get working reliably is following a link in an arbitrary buffer to its target. Embark does that easily and if you use embark-dwim it’s a single keystroke. I use Hyper+. for embark-act and Hyper+, for embark-dwim. I have Hyper bound to the right ⌘ Cmd key so it’s very easy to invoke either of those commands.\n\n\nBatsov is all in on Embark. He and I often share preferences and this is an example of that. The more I find out about Embark, the more I like it. The commands that work on a group of files can be difficult to grok but once you do they’re very powerful. I’ve resigned myself that learning Embark is an ongoing process but I think it’s worth it.",
+          "link": "https://irreal.org/blog/?p=13954",
+          "publishedOn": "2026-07-18T15:10:57.000Z",
+          "wordCount": 1487,
+          "title": "Irreal: Embark",
+          "imageUrl": null
+        },
+        {
           "id": "https://sachachua.com/blog/2026/08/6-aout-emacs-chat-richard-bonichon/",
           "author": null,
           "description": "Richard Bonichon (Github) d'Emacs, de ses flux de travail, de sa configuration, et d'autres sujets en français. Je suis un peu intimidée, mais si vous posez vos questions dans le chat, je pense que nous pouvons survivre à mon faible niveau de français. =)\n\n\n\nNotes : https://sachachua.com/blog/2026/08/le-6-aout-emacs-chat-richard-bonichon/\n\n\n\n\nWatch on YouTube\n\n\n\nLa diffusion en direct aura lieu le [2026-08-06 Thu 07:30]–[2026-08-06 Thu 08:30] dans le fuseau horaire America/Toronto, soit 0730H EDT / 0630H CDT / 0530H MDT / 0430H PDT / 1130H UTC / 1330H CEST / 1430H EEST / 1700H IST / 1930H +08 / 2030H JST.\n\n\n\nSi vous voulez parler d'Emacs avec Prot et moi en français, n'hésitez pas à m'envoyer un courriel !\n\nView Org source for this post\nYou can e-mail me at sacha@sachachua.com.",
@@ -1149,6 +1169,26 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160833",
+          "author": "David Pinto",
+          "description": "Shaquille O’Neal produced a true-crime series, Game Day Murders. Baseball player Dernell Stenson‘s murder will be the focus of one episode.",
+          "link": "https://www.baseballmusings.com/?p=160833",
+          "publishedOn": "2026-07-18T16:54:16.000Z",
+          "wordCount": 7508,
+          "title": "True Crime on Stenson",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160831",
+          "author": "David Pinto",
+          "description": "The Marlins and Brewers square off in Milwaukee with Max Meyer facing Shane Drohan. Meyer comes into the game with a 9-1 record and a 2.58 ERA. He improved his ability to prevent home runs. Through 2025 he allowed 28 home runs in 127 2/3 innings, 1.97 HR per 9 IP. This season he allowed […]",
+          "link": "https://www.baseballmusings.com/?p=160831",
+          "publishedOn": "2026-07-18T14:51:00.000Z",
+          "wordCount": 7672,
+          "title": "Games of the Day",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160829",
           "author": "David Pinto",
@@ -1755,22 +1795,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!MFhN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe02a6fa1-3cac-4ef5-a03c-4b9993b7131d_2062x1500.png"
-        },
-        {
-          "id": "https://www.lawdork.com/p/despite-trump-stalling-this-case",
-          "author": "Chris Geidner",
-          "description": "More than three years after a jury's verdict, Trump is running out of options to avoid paying the woman who, a jury found in 2023, he had sexually abused and defamed.",
-          "link": "https://www.lawdork.com/p/despite-trump-stalling-this-case",
-          "publishedOn": "2026-07-09T03:04:51.000Z",
-          "wordCount": null,
-          "title": "Despite Trump \"stalling this case for years,\" it appears that E. Jean Carroll is about to get paid",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!bfgf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2338db61-8ac4-46f4-9171-fbed3a1168e0_1358x698.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!bfgf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2338db61-8ac4-46f4-9171-fbed3a1168e0_1358x698.png"
         }
       ]
     },
