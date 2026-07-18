@@ -2,10 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-18T06:04:07.760Z</updated>
+    <updated>2026-07-18T09:23:09.264Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Trump's algae-rich Reflecting Pool smells of RFK Jr. to meRex Huppke]]></title>
+        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/18/reflecting-pool-algae-green-trump/90595811007/-full</id>
+        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/18/reflecting-pool-algae-green-trump/90595811007/"/>
+        <updated>2026-07-18T09:23:09.229Z</updated>
+        <summary type="html"><![CDATA[The good news about the Lincoln Memorial Reflecting Pool turning greener than Kermit the Frog’s keister is President Donald Trump finally has a swamp to drain.
+I’m kidding, there’s nothing funny about algae breaking out all over the Reflecting Pool immediately after President I’m-A-Builder dumped $14.2 million into beautifying the Washington, DC, landmark so it would appear “American Flag Blue.”
+In fact, shame on the Reflecting Pool for allowing itself it to seem like a failure just as the president agrees to a deal with Iran that also sounds like a failure. Nobody likes a giant, shallow pool that understands how metaphors work.
+Trump should change America's colors to match the green Reflecting Pool
+
+The pool does look less blue and more glow-in-the-dark Slurpee, but that was probably part…]]></summary>
+        <author>
+            <name>Rex Huppke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta Redux: Projectile 3.2]]></title>
+        <id>https://metaredux.com/posts/2026/07/18/projectile-3-2.html</id>
+        <link href="https://metaredux.com/posts/2026/07/18/projectile-3-2.html"/>
+        <updated>2026-07-18T06:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Projectile 3.2 is out!1 That’s the third Projectile release this
+month, and by now you probably see the pattern - a whole lot of nothing for a
+couple of years, then everything at once. Where 3.0 was the big cleanup
+and 3.1 the pile of long-standing feature requests, 3.2 is a focused
+release with one clear theme: search and replace. Plus one bonus feature I’ve
+wanted for ages, but more on that below.
+Replace, but with a preview
+projectile-replace has always been one of those commands that technically
+worked, but that I never quite trusted. It walks the project file by file with
+query-replace, asking you about every match with no way to see the big
+picture, and once you start there’s no graceful way out. I’ve been promising
+myself a better story there for years (that’s #1924, if you’re keepi…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Going to Eleven]]></title>
         <id>https://www.baseballmusings.com/?p=160823</id>
@@ -5226,6 +5262,16 @@ That could change. Bears ownership announced on June 5 that they are focusing th
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[MLBTR Podcast: Trade Deadline Questions About The Royals, Reds, Cardinals, Padres And More!]]></title>
+        <id>https://www.mlbtraderumors.com/?p=902535</id>
+        <link href="https://www.mlbtraderumors.com/2026/07/mlbtr-podcast-trade-deadline-questions-about-the-royals-reds-cardinals-padres-and-more.html"/>
+        <updated>2026-07-09T04:41:51.000Z</updated>
+        <summary type="html"><![CDATA[The latest episode of the MLB Trade Rumors Podcast is now live on Spotify, Apple Podcasts, and wherever you get your podcasts! Make sure you subscribe as well! You can also use the player at this link to listen, if you don’t use Spotify or Apple for podcasts. This week, host Darragh McDonald is joined by Anthony Franco of […]]]></summary>
+        <author>
+            <name>Darragh McDonald</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Despite Trump "stalling this case for years," it appears that E. Jean Carroll is about to get paid]]></title>
         <id>https://www.lawdork.com/p/despite-trump-stalling-this-case</id>
         <link href="https://www.lawdork.com/p/despite-trump-stalling-this-case"/>
@@ -5372,163 +5418,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         <summary type="html"><![CDATA[Just when we think Trump can’t go any lower, he finds a way to play politics with disaster aid.]]></summary>
         <author>
             <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raymond Zeitler: Configure Web Browser to be More Emacs-like]]></title>
-        <id>https://ray-on-emacs.blogspot.com/2026/07/configure-web-browser-to-be-more-emacs.html</id>
-        <link href="https://ray-on-emacs.blogspot.com/2026/07/configure-web-browser-to-be-more-emacs.html"/>
-        <updated>2026-07-08T20:35:47.102Z</updated>
-        <summary type="html"><![CDATA[here.  Another nice
-feature is the ability to switch between the current buffer and the next (or
-previous) buffer with C-<TAB> and C-S-<TAB>
-that I added to Emacs1.
-
-
-
-But I've also configured Vivaldi with a useful Emacs feature.  Now it
-responds to C-S-k by invoking "Close tabs to the Right."
-Emacs devotees know that C-k is bound
-to kill-line, which "Kill[s] the rest of the current
-line...."2 If you imagine that the row of tabs is a line of
-text, it's natural to expect C-k (or C-S-k)
-would remove all the tabs to the right of the current tab.
-
-
-
-Why did I choose the key combination C-S-k instead
-of C-k?  I think at the time C-k performed another
-function.  Or perhaps I felt that it was more appropriate to use two
-modifier keys for such a significant operation.  I rarely need to
-delete tabs to the left; if I did, I'd bind C-M-S-k to "Close tabs to
-the Left."
-
-
-
-You might utter the following complaint, "But C-S-k doesn't work for
-Gmail; it brings up a virtual keyboard instead!"  Correct.  So while
-we're on the topic of Vivaldi key configurations, I'd like to point
-out that it's possible to tell Vivaldi to ignore a website's key
-assignment, allowing the key to pass to Vivaldi.  Just search for the
-setting "Browser Priority Shortcuts," click on one of the existing key
-combinations and press C-S-k to add it to the others.
-I rely on the web browser's tab history a great deal, too.  I'm
-  working on implementing something vaguely similar for Emacs."
-1 To get the C-<TAB>
-      and C-S-<TAB> to switch buffers, just add
-      this to your init file:
-  (keymap-global-set "C-<tab>" 'next-buffer)
-  (keymap-global-set "C-S-<tab>" 'previous-buffer)
-
-
-2 https://www.gnu.org/software/emacs/manual/html_node/emacs/Killing-by-Lines.html]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Am I The Asshole For Judging The Screen Time Habits Of Other People’s Kids?]]></title>
-        <id>https://defector.com/?p=228261</id>
-        <link href="https://defector.com/am-i-the-asshole-for-judging-the-screen-time-habits-of-other-peoples-kids"/>
-        <updated>2026-07-08T19:13:32.000Z</updated>
-        <summary type="html"><![CDATA[Welcome back to Minor Dilemmas, where a member of Defector's Parents Council will answer your questions on surviving family life. Have a question? Email us at minordilemmas@defector.com.
-This week, Billy dives into the tricky question of screen time.]]></summary>
-        <author>
-            <name>Billy Haisley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask a Manager - new articles]]></title>
-        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/asr8taoremjrvqtnn596.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/asr8taoremjrvqtnn596.html"/>
-        <updated>2026-07-08T19:04:02.086Z</updated>
-        <summary type="html"><![CDATA[96
-            
-        
-        
-        
-        
-        
-        Ask a Manager - new articles
-
-    
-		p{
-			margin:10px 0;
-			padding:0;
-		}
-		table{
-			border-collapse:collapse;
-		}
-		h1,h2,h3,h4,h5,h6{
-			display:block;
-			margin:0;
-			padding:0;
-		}
-		img,a img{
-			border:0;
-			height:auto;
-			outline:none;
-			text-decoration:none;
-		}
-		body,#bodyTable,#bodyCell{
-			height:100%;
-			margin:0;
-			padding:0;
-			width:100%;
-		}
-		.mcnPreviewText{
-			display:none !important;
-		}
-		#outlook a{
-			padding:0;
-		}
-		img{
-			-ms-interpolation-mode:bicubic;
-		}
-		table{
-			mso-table-lspace:0pt;
-			mso-table-rspace:0pt;
-		}
-		.ReadMsgBody{
-			width:100%;
-		}
-		.ExternalClass{
-			width:100%;
-		}
-		p,a,li,td,blockquote{
-			mso-line-height-rule:exactly;
-		}
-		a[href^=tel],a[href^=sms]{
-			color:i…]]></summary>
-        <author>
-            <name>Misc Newsletters</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hell Hath No Fury Like A Pitcher Scorned]]></title>
-        <id>https://defector.com/?p=228260</id>
-        <link href="https://defector.com/zack-wheeler-all-star-game-phillies-hell-hath-no-fury-like-a-pitcher-scorned"/>
-        <updated>2026-07-08T18:44:31.000Z</updated>
-        <summary type="html"><![CDATA[Spite is a powerful emotion too often cast in an ugly light. To feel slighted or doubted is a natural urge, as is our desire to press our doubters' eyes up against a window to watch as we prove them wrong. We are taught to repress and do away with such unbecoming resentments. But how else can we stunt on the haters? If there's an underdog story you love, there's a good chance that it required a healthy grudge.
-By conservative estimates, I would say that half of my greatest accomplishments have come to fruition because I was motivated out of spite. It got me into a prestigious university, it dragged me towards my diploma, and it’s part of why I have this internship. I say without an ounce of shame that I am spiteful to my core. And I can spot one of my own from a mile away. 
-In the days after he was left off the All-Star Game roster, Zack Wheeler stayed quiet. He let himself be cast as the doubted underdog and had his agent do the talking. Talk B.B. Abbott did, announcing to The Athletic that he was breaking his silence on All-Star snubs to call the decision to leave his client off the roster “tone deaf.” I don’t know what sheet music Abbott is reading, but I would hardly call it anything more than a bit pitchy. (The Justin Verlander legacy nomination, however, is the Fergie national anthem.) Regardless, Abbott talked at length about Wheeler's determination and focus in coming back from thoracic outlet decompression surgery. Abbott painted a perfect portrait of a hardworking yet constantly overlooked ace. But I saw the glimmer of spite in the pitcher’s eyes. When Wheeler took the mound on Tuesday against the Cincinnati Reds, I knew I was about to witness a masterclass.]]></summary>
-        <author>
-            <name>Sarah Borus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Long-Awaited Blowup Between Skylar Diggins And The Sky Has Finally Arrived]]></title>
-        <id>https://defector.com/?p=228238</id>
-        <link href="https://defector.com/the-long-awaited-blowup-between-skylar-diggins-and-the-sky-has-finally-arrived"/>
-        <updated>2026-07-08T18:22:55.000Z</updated>
-        <summary type="html"><![CDATA[Skylar Diggins, to her credit, isn't one to trade in the classic cryptic fare of her fellow disgruntled athletes. What she writes on social media requires no close reading or careful analysis. There's no Crazy how people switch up on you or TIME WILL TELL with an enigmatic emoji. The Instagram story she posted on Monday was perfectly straightforward: "Now I'm coming off the bench?????? 👍🏽 Cool."
-
-https://bsky.app/profile/maggiehendricks.bsky.social/post/3mpyrcswc6c2f
-
-
-Two questions sprang to mind when Diggins signed a two-year, $1.8 million deal with the Chicago Sky this past offseason. How would she coexist with veteran point guard Courtney Vandersloot, who was recovering from an ACL injury but was expected to rejoin the team midseason? (Later, when point guard Natasha Cloud signed with the Sky in free agency, that question expanded.) Also, why was Skylar Diggins, who always speaks up when she feels she's not being treated right, choosing a team famous for not treating players right?]]></summary>
-        <author>
-            <name>Maitreyi Anantharaman</name>
         </author>
     </entry>
 </feed>
