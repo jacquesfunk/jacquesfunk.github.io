@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-19T06:29:14.196Z</updated>
+    <updated>2026-07-19T09:50:40.357Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Org Mode requests: [RFC] Small restriction in BEAMER_HEADER: WDYT?]]></title>
+        <id>https://list.orgmode.org/CAO48Bk-ROBEEznUWRANL8tzd1HkQEERU+YqQqj6Y_pQzAVNbmA@mail.gmail.com</id>
+        <link href="https://list.orgmode.org/CAO48Bk-ROBEEznUWRANL8tzd1HkQEERU+YqQqj6Y_pQzAVNbmA@mail.gmail.com"/>
+        <updated>2026-07-19T07:32:05.000Z</updated>
+        <summary type="html"><![CDATA[[request] flags:--- replies:0]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Trump admin DOJ went to a secretive deportation court this week]]></title>
         <id>https://www.lawdork.com/p/trump-doj-secret-deportation-court-atrc</id>
@@ -5175,99 +5185,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[No One Can Live the American Dream with ICE on Our Streets]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a71889164/lorenzo-salgado-araujo-killed-ice/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a71889164/lorenzo-salgado-araujo-killed-ice/"/>
-        <updated>2026-07-09T21:48:23.000Z</updated>
-        <summary type="html"><![CDATA[Every time someone like Lorenzo Salgado Araujo is killed by one of the president’s amped-up goons, I lose my faith in our country all over again.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raymond Zeitler: Numeric Priorities in Org Mode]]></title>
-        <id>https://ray-on-emacs.blogspot.com/2026/07/numeric-priorities-in-org-mode.html</id>
-        <link href="https://ray-on-emacs.blogspot.com/2026/07/numeric-priorities-in-org-mode.html"/>
-        <updated>2026-07-09T20:09:51.510Z</updated>
-        <summary type="html"><![CDATA[1
-
-
-
-If you specify priorities from 65 to 90, Org will interpret the
-numbers as ordinal values of ASCII character and give you "A" to "Z."
-If you try to be clever and specify priorities as 65 to 91 (91 is the
-decimal ASCII code for left square bracket) you'll be disappointed
-that when you lower the priority from "Z," you don't get "[."  (I was
-disappointed, anyway.)
-
-
-
-You can define priorities from 10 to 99, for example.  But if you try
-to get to a priority higher than 10 using org-priority-up, Org will
-clear the priority cookie.  However, you can manually enter a priority
-of 0 to ensure the item appears above all other items.  (Please see
-Figure 1, below.)  Thus, a priority value of 0 can be your "stat"
-item.  It would be super neat if Org could understand that ASCII
-characters below 0 (such as exclamation mark) are an even higher
-priority than 0.  Unfortunately, it doesn't even recognize [#!] as a
-priority cookie.
-
-forty times.
-If you think you can invoke M-4 0 M-x org-priority-up to go quickly
-from 50 to 10, you'll be disappointed (again).  The function
-org-priority-up doesn't accept a prefix argument.2
-
-
-
-How do you use priority in Org?
-
-
-
-  1 Org
-  Manual -- Priorities
-
-2 But you can record a macro that consists of a single
-    S-<up> key press and then play it back with a prefix argument of 39.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Karolina Muchova And Coco Gauff Played A Tiebreak Neither Will Forget]]></title>
-        <id>https://defector.com/?p=228389</id>
-        <link href="https://defector.com/karolina-muchova-and-coco-gauff-played-a-tiebreak-neither-will-forget"/>
-        <updated>2026-07-09T19:44:21.000Z</updated>
-        <summary type="html"><![CDATA[Nervy tennis is so rich. It can contain both the worst of the sport (in a technical sense) and the best of it (in a narrative sense). You can witness breakdowns in routine strokes, diseased shot selection, and facial expressions that indicate a horrible geyser of bile into the esophagus. But you'll also see the bravery of a player who is flagging, hurting, and still playing gorgeous tennis from a land beyond conscious thought. Rarely will there be tennis nervier than the third-set tiebreak that decided Thursday's Wimbledon semifinal between Coco Gauff and Karolina Muchova, and would have advanced either player into her first final at the tournament.
-The two women had traded the first two sets, each won with roughly equivalent ease, and danced cagily all the way to 6-6 in the third. Between points, Muchova clutched at her right side with a wince; in press afterward she diagnosed it as a stitch, said she "couldn't catch a breath," and was trying to massage it away. Despite coming out flat, Gauff elbowed her way back into the match with her usual stamina, opportunism, and guile; she looked fresher going into the deciding frame. They proceeded to play 22 points so entertaining, with career-defining chances earned and squandered by both players, that I had to run back the tiebreak as soon as it ended in Muchova's favor. Why not do it together?
-
-https://www.youtube.com/watch?v=Vpl9mApl2Tw]]></summary>
-        <author>
-            <name>Giri Nathan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Connect with like-minded progressives on the Nation Cruise]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/xnv8mefny8f9zkbb1qm1.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/xnv8mefny8f9zkbb1qm1.html"/>
-        <updated>2026-07-09T19:31:41.527Z</updated>
-        <summary type="html"><![CDATA[96
-
-*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:620px){.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.row-1 .column-1 .block-2.text_block td.pad{padding:30px 10px 10px 10px!important}.row-1 .column-1 .block-4.text_block td.pad{padding:15px 10px 10px 10px…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FBI Demands Backup As It Tries to Substantiate Trump’s 2020 Delusions]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/3xptrxu1cg7ioiyqq08n.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/3xptrxu1cg7ioiyqq08n.html"/>
-        <updated>2026-07-09T18:03:02.553Z</updated>
-        <summary type="html"><![CDATA[FBI Demands Backup As It Tries to Substantiate Trump’s 2020 Delusions#outlook a { padding:0; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0 !important; } .nl2go_preheader { display: none !important; mso-hide:all !important; mso-line-height-rule: exactly; visibility: hidden !important; line-height: 0px !important; font-size: 0px !important; } body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; } a img { border:n…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Stop trying to make dates happen. Have you even tried a Twinkie?Rex Huppke]]></title>
         <id>https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/-full</id>
         <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/"/>
@@ -5321,67 +5238,6 @@ The Free Press, the conservative publication founded by Bari Weiss, who is prese
         <summary type="html"><![CDATA[I put a question to my SFGATE colleagues just the other day that had them mulling for a bit: What’s the last great movie that Steven Spielberg directed? I’m not talking about a merely good film. The old man can put together a competent picture anytime he likes. I’m talking about an all-timer of a Spielberg movie, something that belongs up there with his best work, which includes “Jaws,” “Raiders of the Lost Ark,” “E.T.,” “Schindler’s List” and … you get the idea. When you’re a director who’s made not just one of the greatest movies of all time but several of them, audience members like me hope for (and oftentimes expect) greatness from you with every subsequent project. Such is the standard that Spielberg, father of the modern blockbuster, set for himself. It’s also a standard that, in my …]]></summary>
         <author>
             <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Action Alert: Oppose Political Interference in Federal Research Funding]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/lq5jbdl0flqwy2ompj6d.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/lq5jbdl0flqwy2ompj6d.html"/>
-        <updated>2026-07-09T17:00:51.242Z</updated>
-        <summary type="html"><![CDATA[96
-
-
-*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:670px){.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.social_block .social-table{display:inline-block!important}}
-sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-1…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Todd Blanche has already flunked his confirmation hearing]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/yjqddoitpe8jbtgzolos.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/yjqddoitpe8jbtgzolos.html"/>
-        <updated>2026-07-09T15:19:12.741Z</updated>
-        <summary type="html"><![CDATA[96
-
-*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}#converted-body .list_block ol,#converted-body .list_block ul,.body [class~=x_list_block] ol,.body [class~=x_list_block] ul,u+.body .list_block ol,u+.body .list_block ul{padding-left:20px} @media (max-width:620px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size…]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jess Craven and father_karine posted new notes]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/nl1tviszc5b9ymuyg4q7.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/nl1tviszc5b9ymuyg4q7.html"/>
-        <updated>2026-07-09T15:00:11.559Z</updated>
-        <summary type="html"><![CDATA[Email from Substack
-@media (max-width: 1024px) {
-  .typography .pullquote-align-left,
-  .typography.editor .pullquote-align-left,
-  .typography .pullquote-align-right,
-  .typography.editor .pullquote-align-right,
-  .typography .pullquote-align-wide,
-  .typography.editor .pullquote-align-wide,
-  .typography .pullquote-align-center,
-  .typography.editor .pullquote-align-center {
-    float: none;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 100%;
-  }
-}
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .typography .markup table.image-wrapper img,
-  .typography.editor .markup table.image-wrapper img,
-  .typography .markup table.kindle-wrapper img,
-  .typography.editor .markup table.kindle-wrapper img {
-    max-width: 550px;
-  }
-}
-@media (min-width: 1024px) {
-  .ty…]]></summary>
-        <author>
-            <name>Current Events</name>
         </author>
     </entry>
 </feed>
