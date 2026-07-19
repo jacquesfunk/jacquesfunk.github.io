@@ -22,11 +22,43 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-07-18 datetime="2026-07-19T01:41:48.000Z">2026-07-18</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-07-18 datetime="2026-07-19T01:41:48.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-07-18 datetime="2026-07-19T03:42:10.000Z">2026-07-18</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-07-18 datetime="2026-07-19T03:42:10.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Law Dork</button>
+                  <a class="source-heading__link" href="https://www.lawdork.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.lawdork.com/p/trump-doj-secret-deportation-court-atrc"
+                        open
+                      >
+                        <summary class="article-expander__title">The Trump admin DOJ went to a secretive deportation court this week</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.lawdork.com/p/trump-doj-secret-deportation-court-atrc">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/$s_!T3k6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12111df1-d6f4-44c1-badc-122763dc3004_1428x602.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>After the first hearing ever convened by the Alien Terrorist Removal Court, the judge concluded DOJ still had more work to do to make its case. Also: Law Dork on MS NOW.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -9754,49 +9786,6 @@ This is not to say that evangelicals’ attachment to creationism has gone away,
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/4xj55kfb58057ouvzm5v.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Royals Pre-Draft Ramblings</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/4xj55kfb58057ouvzm5v.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Royals Pre-Draft Ramblings
-@media (max-width: 1024px) {
-  .typography .pullquote-align-left,
-  .typography.editor .pullquote-align-left,
-  .typography .pullquote-align-right,
-  .typography.editor .pullquote-align-right,
-  .typography .pullquote-align-wide,
-  .typography.editor .pullquote-align-wide,
-  .typography .pullquote-align-center,
-  .typography.editor .pullquote-align-center {
-    float: none;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 100%;
-  }
-}
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .typography .markup table.image-wrapper img,
-  .typography.editor .markup table.image-wrapper img,
-  .typography .markup table.kindle-wrapper img,
-  .typography.editor .markup table.kindle-wrapper img {
-    max-width: 550px;
-  }
-}
-@media (min-width: 1024px) …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9908,42 +9897,6 @@ How do you use priority in Org?
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13933"
-                        open
-                      >
-                        <summary class="article-expander__title">Irreal: Globally Overriding Keys</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13933">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>how to globally set a key binding so that it won’t be overridden. He uses setting Meta+o to other-window as an example to explore the problem.
-
-
-Prot begins by defining Meta+o in the global map in the usual way:
-
-
-(define-key global-map (kbd &quot;M-o&quot;) &#x27;other-window )
-
-Meta+o turns out to be a prefix key for inserting an HTML face command. The problem is that Emacs will use the most specific bindings first. Global bindings are the most general, followed by major mode bindings, and ending with minor mode bindings as the most specific.
-
-
-Since HTML is a major mode, its keybinding take precedence over the global binding that we set. The answer is to get more specific yet by defining our binding in a minor mode so that it will always have precedence.
-
-
-Prot shows how to define a minor where we can define our binding and activate it globally so that it’s always available. Of course, once we have this mechanism set up, we can add any number of bindings to our minor mode. Prot demonstrates this by adding a binding that Org uses.
-
-
-Take a look at Prot’s video for all the details. He’s also included a copy of the file he was working with so you can see everything without worrying about copying it down from the video. The video is 12 minutes, 45 seconds so it should be easy to fit in.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9971,23 +9924,6 @@ Take a look at Prot’s video for all the details. He’s also included a copy o
                               <img src="https://substackcdn.com/image/fetch/$s_!-WVJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F588e24b3-d51a-417d-8d0d-17636d09797e_1110x577.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Lots to talk about this week!</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.hopiumchronicles.com/p/trump-is-failing-he-is-wildly-unpopular"
-                        open
-                      >
-                        <summary class="article-expander__title">Trump Is Failing, He Is Wildly Unpopular, The Polls Are Encouraging, And We Have Elections To Win All Across The Country</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/trump-is-failing-he-is-wildly-unpopular">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>We have one job now - the general election is here and we need remain focused on helping our battleground House and Senate candidates win</span>
                             </span>
                           </div>
                         </a>
@@ -10240,46 +10176,6 @@ sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-te
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.esquire.com/news-politics/politics/a71886934/mitch-mcconnell-health-life-where-is-he/"
-                        open
-                      >
-                        <summary class="article-expander__title">Is Mitch McConnell Even Alive? If So, Where the Hell Is He?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.esquire.com/news-politics/politics/a71886934/mitch-mcconnell-health-life-where-is-he/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://hips.hearstapps.com/hmg-prod/images/7a125bc8-7dda-4a32-8979-abb19eef5758.jpeg?crop&#x3D;1xw:0.75xh;0xw,0.144xh&amp;resize&#x3D;1200:*" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Republicans are really into strange disappearances lately.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;106
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.esquire.com/news-politics/politics/a71884719/ice-civil-rights-law-maine/"
-                        open
-                      >
-                        <summary class="article-expander__title">Finally, a Way to Make ICE Pay for All the Damage Its Done to Our Citizens</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.esquire.com/news-politics/politics/a71884719/ice-civil-rights-law-maine/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://hips.hearstapps.com/hmg-prod/images/d526be66-48e4-4c94-8029-897a86302da4.jpeg?crop&#x3D;1xw:0.75xh;0xw,0.105xh&amp;resize&#x3D;1200:*" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Some states have found a novel way to help anyone detained or harassed by these violent goons.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;117
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -10311,112 +10207,6 @@ The two women had traded the first two sets, each won with roughly equivalent ea
 
 https://www.youtube.com/watch?v&#x3D;Vpl9mApl2Tw</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;30
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;228390"
-                        open
-                      >
-                        <summary class="article-expander__title">How Did Bryce Harper End Up Helping FanDuel Keep A Gambling Addict On The Hook?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/how-did-bryce-harper-end-up-helping-fanduel-keep-a-gambling-addict-on-the-hook">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2283828788.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Terry Thompson is part of a lawsuit against FanDuel and DraftKings claiming that the sports books used their VIP services and products to intentionally prey on his gambling addiction. Thompson says he wagered $18.5 million with FanDuel and became addicted to gambling via the sports book&#x27;s in-game micro bets. His suit claims he was also encouraged to continue gambling by a FanDuel VIP manager named Bryttanni Morgan, who at one point sent Thompson a personalized video from Bryce Harper.
-The 21-second video, obtained by the Philadelphia Inquirer, features Harper speaking into his phone camera and wishing Thompson a happy Thanksgiving. &quot;Your host Bryttanni, from FanDuel, wanted to make sure your Thanksgiving was extra special,&quot; Harper says in the video, which has a FanDuel logo superimposed over it. 
-This was just one of many gifts Thompson said he received from Morgan, who communicated with him frequently via text message and shared details from her personal life. Morgan frequently provided Thompson with tickets to sporting events, including two Super Bowls.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;228203"
-                        open
-                      >
-                        <summary class="article-expander__title">Meet Torstein Træen, The Stoic Norwegian Survivor Who Briefly Lit Up The Tour de France</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/meet-torstein-traeen-the-stoic-norwegian-survivor-who-briefly-lit-up-the-tour-de-france">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2284529515.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PAU, France — Some people are natural performers. Torstein Træen is not, though his work on the bike might have been the last exciting general classification action before we get to Paris.
-As the 30-year-old Norwegian rider ascended the podium in Foix after Stage 4 to be wrapped in the yellow jersey, he grinned sheepishly and his Uno-X teammates gathered below to cheer him on. You wouldn&#x27;t know he was bringing such a strange, interesting cycling career to an ecstatic new high. Træen looked shy, rocking back and forth like a character in an RPG loading screen and forgetting to take the ceremonial stuffed lion of victory until the podium attendant nudged him on the arm.
-At his official post-Tour press conference, at his other main interview, and at an interview after he crashed late in his first stage in the yellow jersey the next day (he&#x27;s fine), the primary point Træen drove across was that he didn&#x27;t really know what was going on. When a Japanese journalist looking for a very simple quote asked him about his extended family on the archipelago, Træen simply said, &quot;I&#x27;m not really in contact with my Japanese family.&quot; Two days later, he was goofing around with the gendarmes and asking to hold one cop&#x27;s gun. He is steady, laconic, the sort of rider I imagine Karl Ove Knausgaard would like (I emailed Knausgaard&#x27;s representatives just in case). It didn&#x27;t last, but it was beautiful.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;228325"
-                        open
-                      >
-                        <summary class="article-expander__title">Trump’s State Fair Was Ass In All The Ways I’d Been Warned</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/trumps-state-fair-was-ass-in-all-the-ways-id-been-warned">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2284690826.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I went to the Great American State Fair figuring it would make me feel lousy about my country. I don&#x27;t remember being so right about anything. 
-I&#x27;d read all about how entertainers wouldn&#x27;t take the stage, how states wouldn&#x27;t staff the booths, and how nobody was showing up because the president had hijacked America&#x27;s 250th birthday celebration and messed everything up. But with only a few days before this circus leaves town—the fair closes tomorrow—I wanted to see for myself if The Mess on the Mall could live down to its billing. And, sure, I wondered if Donald Trump&#x27;s Stonehengian rendering of his proposed Arc de Failure looked as ridiculous in the flesh as online. (Yup and yup.) So I went. Turns out I was prepared for most of the awfulness. But not all the Jesus. So much Jesus.
-First, a summary of its pros and cons.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;32
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;228106"
-                        open
-                      >
-                        <summary class="article-expander__title">The Other Elephant</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/the-other-elephant">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-1181857377.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>There was always an irony to Happy&#x27;s name. The elephant&#x27;s misfortune stamped her a celebrity. In their home in the wild, female Asian elephants roam for hundreds of miles and form lifelong attachments to a group of around seven relatives. In her home in the Bronx Zoo, Happy lived alone in a small exhibit. She had been separated for decades from the zoo&#x27;s other two Asian elephants, Maxine and Patty, for her own protection. So Happy became famous for her loneliness, deprived of companionship, of family, of physical touch. But Happy was smart, too. She stored treats in her ear. She was the first elephant to pass the mirror self-recognition test, proving her self-awareness when she saw her reflection and poked with her trunk at a white X painted on her forehead. In 2018, the Nonhuman Rights Pr…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;32
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;228343"
-                        open
-                      >
-                        <summary class="article-expander__title">A Front-Row Seat To The Worst Team In Pro Baseball</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/a-front-row-seat-to-the-worst-team-in-pro-baseball">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/20260708_1940171.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>STATEN ISLAND, N.Y. — If you regret that you never got a chance to see the 1899 Cleveland Spiders, the losingest team in MLB history, can I interest you in a trip to Staten Island? No wait, come back. Just a few steps away from the ferry terminal, a morbidly curious fan can catch the independent Atlantic League&#x27;s Staten Island FerryHawks, who have suffered through such a hapless year that they&#x27;re legitimately challenging the Spiders&#x27; historic futility. With just over two months left in the season, the FerryHawks are saddled with an 11-57 record. Their pitchers carry a team ERA of 10.03. Their run differential is -389, which means they&#x27;re losing their average game by 5.7 runs. Their best hitter, Joshua Palacios, is now on his way to the Pirates&#x27; Triple-A franchise. Yes, New York, it gets mo…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -10549,79 +10339,12 @@ The Free Press, the conservative publication founded by Bari Weiss, who is prese
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Balls and Strikes</button>
-                  <a class="source-heading__link" href="https://ballsandstrikes.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://ballsandstrikes.org/?p&#x3D;18554"
-                        open
-                      >
-                        <summary class="article-expander__title">“End Citizens United” Is Meaningless Without Supreme Court Reform</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://ballsandstrikes.org/scotus/end-citizens-united-supreme-court-reform/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://ballsandstrikes.org/wp-content/uploads/2026/07/GettyImages-137419763-1200x630.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The conservative justices have spent years developing rules for campaign finance regulation that tilt in favor of billionaires every time.
-The post “End Citizens United” Is Meaningless Without Supreme Court Reform appeared first on Balls and Strikes.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Dworkin Report</button>
-                  <a class="source-heading__link" href="https://www.dworkinsubstack.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.dworkinsubstack.com/p/zelensky-walked-into-nato-a-hero"
-                        open
-                      >
-                        <summary class="article-expander__title">Zelensky Walked Into NATO A Hero. Trump Walked Out A Coward.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dworkinsubstack.com/p/zelensky-walked-into-nato-a-hero">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substack-post-media.s3.amazonaws.com/public/images/42b7e1ae-a85a-45b0-bc50-7bd50c2b765d_1600x900.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Plus: A Trump judge freed Florida’s professors, his World Cup call backfires, and Yale’s dean defied the regime</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/29670376615">
-        <time id="build-timestamp" datetime="2026-07-19T02:34:21.107Z">2026-07-19T02:34:21.107Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/29676487398">
+        <time id="build-timestamp" datetime="2026-07-19T06:29:14.166Z">2026-07-19T06:29:14.166Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
