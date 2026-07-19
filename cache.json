@@ -230,6 +230,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/yqzw3s6ipl64x3n0l18c.html",
+          "author": null,
+          "description": "Why I’m asking you to become a Democracy Docket premium member\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/yqzw3s6ipl64x3n0l18c.html",
+          "publishedOn": "2026-07-19T11:02:54.463Z",
+          "wordCount": 1475,
+          "title": "Why I’m asking you to become a Democracy Docket premium member",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/qai1lddxnw5qub1k86t4.html",
           "author": null,
           "description": "96\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}#converted-body .list_block ol,#converted-body .list_block ul,.body [class~=x_list_block] ol,.body [class~=x_list_block] ul,u+.body .list_block ol,u+.body .list_block ul{padding-left:20px} @media (max-width:620px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size…",
@@ -627,16 +637,6 @@
           "publishedOn": "2026-07-10T15:20:27.196Z",
           "wordCount": 921,
           "title": "The week the Department of Justice was watching you",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/vgcxnrxqei40oovohpqy.html",
-          "author": null,
-          "description": "Watch: Why Democrats need to fight harder\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n    \n      \n   …",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/vgcxnrxqei40oovohpqy.html",
-          "publishedOn": "2026-07-09T22:06:21.064Z",
-          "wordCount": null,
-          "title": "Watch: Why Democrats need to fight harder",
           "imageUrl": null
         }
       ]
@@ -1107,6 +1107,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://ray-on-emacs.blogspot.com/2026/07/numeric-priorities-in-org-mode.html",
+          "author": null,
+          "description": "1\n\n\n\nIf you specify priorities from 65 to 90, Org will interpret the\nnumbers as ordinal values of ASCII characters and give you \"A\" to \"Z.\"\nIf you try to be clever and specify priorities as 65 to 91 (91 is the\ndecimal ASCII code for left square bracket character) you'll be disappointed\nthat when you lower the priority from \"Z,\" you don't get \"[.\"  (I was\ndisappointed, anyway.)\n\n\n\nYou can define priorities from 10 to 99, for example.  But if you try\nto get to a priority higher than 10 using org-priority-up, Org will\nclear the priority cookie.  However, you can manually enter a priority\nof 0 to ensure the item appears above all other items.  (Please see\nFigure 1, below.)  Thus, a priority value of 0 can be your \"stat\"\nitem.  It would be super neat if Org could understand that ASCII\ncharacters below 0 (such as the exclamation mark) are an even higher\npriority than 0.  Unfortunately, it doesn't even recognize [#!] as a\npriority cookie.\n\nforty times.\nIf you think you can invoke M-4 0 M-x org-priority-up to go quickly\nfrom 50 to 10, you'll be disappointed (again).  The function\norg-priority-up doesn't accept a prefix argument.2\n\n\n\nHow do you use priority in Org?\n\n\n\n  1 Org\n  Manual -- Priorities\n\n2 But you can record a macro that consists of a single\n    S-<up> key press and then play it back with a prefix argument of 39.",
+          "link": "https://ray-on-emacs.blogspot.com/2026/07/numeric-priorities-in-org-mode.html",
+          "publishedOn": "2026-07-09T23:48:51.151Z",
+          "wordCount": 2878,
+          "title": "Raymond Zeitler: Numeric Priorities in Org Mode",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi110pVKheu5f3uP4uippZ77BBuQXEpGU-N1Johlxf0weLOjFwJeYbsrSRs2ufaz1luY0H0hAqZu8B1C6guTUQd7xbnUaS3LbVdejYwv8EAeKdPhqkLVF4mYzJSisyOAEXVeGITXuMBXtoRrVRNcs-wGsfEdkznob16-4o0rMOuWSFAf1X_8AyEh1OjMcI/w1200-h630-p-k-no-nu/Clipbrd18.gif"
+        },
+        {
           "id": "https://amitp.blogspot.com/2022/08/emacs-marking-text.html",
           "author": null,
           "description": "Kakoune introduction explains that vim uses verb first, noun second for its commands, whereas Kakoune uses noun first, verb second. I wrote a blog post about why I prefer noun-verb over verb-noun, not only in text editors but also in games and other applications.\n\n\n\n\n\nI started cobbling together some commands in a hydra, trying to match vim keys when I could:\n\n\n\n(defhydra hydra-mark (:body-pre (set-mark-command nil) :color red)\n  \"\n_w_, _,w_: word, symbol    _i'_, _a'_: string  _i)_, _a)_: pair\n_t_, _f_: to char (exclude/include)   _0_, _$_: begin/end of line\n_;_: comment   _u_: url    _e_: email      _>_: web-mode block or tag\n_S_: sexp      _d_: defun  _p_: paragraph  _s_: sentence\n_h_, _j_, _k_, _l_: move   _H-._: off\n  \"\n  (\"t\" mark-to-char-exclusive)\n  (\"f\" mark-to-char-inclusive)\n  (…",
@@ -1123,6 +1133,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160837",
+          "author": "David Pinto",
+          "description": "",
+          "link": "https://www.baseballmusings.com/?p=160837",
+          "publishedOn": "2026-07-19T10:43:33.000Z",
+          "wordCount": 7489,
+          "title": "Sunday Update",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160835",
           "author": "David Pinto",
@@ -1693,22 +1713,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!xhz7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30c61171-ad23-4960-8703-9cd8188b92f9_1788x1146.png"
-        },
-        {
-          "id": "https://www.lawdork.com/p/judge-considers-wpath-request-to",
-          "author": "Chris Geidner",
-          "description": "Judge James Boasberg heard arguments on Thursday afternoon in D.C.",
-          "link": "https://www.lawdork.com/p/judge-considers-wpath-request-to",
-          "publishedOn": "2026-07-09T22:00:52.000Z",
-          "wordCount": null,
-          "title": "Judge considers WPATH request to block FTC from proceeding in Texas, ruling expected Friday",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!MFhN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe02a6fa1-3cac-4ef5-a03c-4b9993b7131d_2062x1500.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!MFhN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe02a6fa1-3cac-4ef5-a03c-4b9993b7131d_2062x1500.png"
         }
       ]
     },
@@ -2020,22 +2024,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/6f916ec4-586c-4441-b5d2-87187f6109bc_630x635.png"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/fri-1pm-et-hopium-founding-members-c2a",
-          "author": "Simon Rosenberg",
-          "description": "Lots to talk about this week!",
-          "link": "https://www.hopiumchronicles.com/p/fri-1pm-et-hopium-founding-members-c2a",
-          "publishedOn": "2026-07-09T22:45:08.000Z",
-          "wordCount": null,
-          "title": "Fri, 1pm ET - Hopium Founding Members Most Fridays Get Together",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!-WVJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F588e24b3-d51a-417d-8d0d-17636d09797e_1110x577.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!-WVJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F588e24b3-d51a-417d-8d0d-17636d09797e_1110x577.png"
         }
       ]
     },
@@ -3777,26 +3765,6 @@
           "publishedOn": "2026-07-10T01:27:01.000Z",
           "wordCount": 2428,
           "title": "Classic Album: The Beach Boys, ‘Pet Sounds’",
-          "imageUrl": null
-        },
-        {
-          "id": "https://historyofmusic.net/?p=5706",
-          "author": "schill",
-          "description": "The Grateful Dead: The Complete History of America’s Greatest Live Band There has never been another band quite like the Grateful Dead. They sold millions of records, toured almost constantly for three decades, inspired one of the most devoted fan communities in music history, and created a culture that became every bit as significant as […]",
-          "link": "https://historyofmusic.net/1960s/band-profile-grateful-dead/",
-          "publishedOn": "2026-07-09T23:04:32.000Z",
-          "wordCount": 13157,
-          "title": "Band Profile: Grateful Dead",
-          "imageUrl": null
-        },
-        {
-          "id": "https://historyofmusic.net/?p=5701",
-          "author": "schill",
-          "description": "Some albums entertain. Some become commercial successes. A rare few fundamentally change what popular music is capable of accomplishing. Marvin Gaye’s What’s Going On, released in 1971, belongs firmly in that last category. More than fifty years after its release, it remains one of the most celebrated, influential, and emotionally resonant records ever made. It […]",
-          "link": "https://historyofmusic.net/1970s/classic-album-marvin-gaye-whats-going-on/",
-          "publishedOn": "2026-07-09T22:50:05.000Z",
-          "wordCount": 2281,
-          "title": "Classic Album:  Marvin Gaye, ‘What’s Going On’",
           "imageUrl": null
         }
       ]
