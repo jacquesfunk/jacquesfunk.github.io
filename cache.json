@@ -663,6 +663,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://ray-on-emacs.blogspot.com/2026/07/emacs-tip-of-day-in-popup-frame.html",
+          "author": null,
+          "description": "The Emacs commands that create a new frame disappoint me.  They\n  create a frame that shares the same set of buffers as the main\n  frame.  I don't think a Tip Of The Day (TOTD) popup should have\n  access to all the buffers in a session.  I want a popup to display\n  some help and be easily dismissed.1\nThat's why I designed my Tip Of The Day to run in a\n  separate Emacs instance.  Instead of invoking the TOTD function\n  directly, Emacs asks the operating system to launch a second Emacs\n  process.  One of the command line switches loads the Lisp file in\n  which the TOTD function is defined, and another runs the function.\n  This is achieved by invoking call-process-shell-command\n  to run a one-line batch file2 that contains this:\n\"path_to_emacs\\emacs.exe\" -Q -g 80x42-2+2 -l totd.el --eval (zto…",
+          "link": "https://ray-on-emacs.blogspot.com/2026/07/emacs-tip-of-day-in-popup-frame.html",
+          "publishedOn": "2026-07-19T22:29:30.872Z",
+          "wordCount": 3400,
+          "title": "Raymond Zeitler: Emacs Tip Of The Day in a Popup Frame",
+          "imageUrl": null
+        },
+        {
           "id": "https://list.orgmode.org/CAO48Bk-ROBEEznUWRANL8tzd1HkQEERU+YqQqj6Y_pQzAVNbmA@mail.gmail.com",
           "author": null,
           "description": "[request] flags:--- replies:0",
@@ -2927,16 +2937,6 @@
           "wordCount": 2120,
           "title": "New ICE boss, same old lies",
           "imageUrl": "https://www.salon.com/app/uploads/2026/07/Markwayne-Mullin-2284218873-e1783919254860.jpg"
-        },
-        {
-          "id": "https://www.salon.com/2026/07/10/dinosaurs-on-noahs-ark-a-maga-theme-park-clings-to-creationism/-full",
-          "author": null,
-          "description": "Creationism hasn’t generated much coverage in the mainstream media over the past decade. The days when fundamentalists challenged scientists to “debates” over evolution now seem quaint in the era of Donald Trump, whose belief is that you never need to persuade when beating your opponents into submission is an option. Under the president’s leadership, the right has shifted from arguing about dinosaur bones and carbon dating to making more blunt demands for book bans and even stripping women of the right to vote.\nThis is not to say that evangelicals’ attachment to creationism has gone away, even if it has faded from mainstream discourse. This week, one of the most elaborate and ridiculous bits of Christian right propaganda, Kentucky’s Ark Encounter, is celebrating its 10th anniversary. Reade…",
-          "link": "https://www.salon.com/2026/07/10/dinosaurs-on-noahs-ark-a-maga-theme-park-clings-to-creationism/",
-          "publishedOn": "2026-07-10T10:45:40.000Z",
-          "wordCount": 1961,
-          "title": "Dinosaurs on Noah’s ark? A MAGA theme park clings to creationism",
-          "imageUrl": "https://www.salon.com/app/uploads/2026/07/noahs-ark-encounter-full-exterior.jpg"
         }
       ]
     },

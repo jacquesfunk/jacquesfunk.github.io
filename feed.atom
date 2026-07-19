@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-19T20:44:29.489Z</updated>
+    <updated>2026-07-19T22:50:43.425Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: Emacs Tip Of The Day in a Popup Frame]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/07/emacs-tip-of-day-in-popup-frame.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/07/emacs-tip-of-day-in-popup-frame.html"/>
+        <updated>2026-07-19T22:29:30.872Z</updated>
+        <summary type="html"><![CDATA[The Emacs commands that create a new frame disappoint me.  They
+  create a frame that shares the same set of buffers as the main
+  frame.  I don't think a Tip Of The Day (TOTD) popup should have
+  access to all the buffers in a session.  I want a popup to display
+  some help and be easily dismissed.1
+That's why I designed my Tip Of The Day to run in a
+  separate Emacs instance.  Instead of invoking the TOTD function
+  directly, Emacs asks the operating system to launch a second Emacs
+  process.  One of the command line switches loads the Lisp file in
+  which the TOTD function is defined, and another runs the function.
+  This is achieved by invoking call-process-shell-command
+  to run a one-line batch file2 that contains this:
+"path_to_emacs\emacs.exe" -Q -g 80x42-2+2 -l totd.el --eval (zto…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ward Passes]]></title>
         <id>https://www.baseballmusings.com/?p=160845</id>
@@ -5224,17 +5246,6 @@ This has been, more than anything, a World Cup of stars. Lionel Messi has been a
         <summary type="html"><![CDATA[The Log5 Method yields these top projected hit averages versus starting pitchers: 0.386, 0.772 — Luis Arraez batting vs. Tanner Gordon. 0.372, 0.751 — Jung Hoo Lee batting vs. Tanner Gordon. 0.345, 0.718 — Casey Schmitt batting vs. Tanner Gordon. 0.342, 0.715 — Heliot Ramos batting vs. Tanner Gordon. 0.317, 0.683 — Victor Bericoto batting […]]]></summary>
         <author>
             <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dinosaurs on Noah’s ark? A MAGA theme park clings to creationism]]></title>
-        <id>https://www.salon.com/2026/07/10/dinosaurs-on-noahs-ark-a-maga-theme-park-clings-to-creationism/-full</id>
-        <link href="https://www.salon.com/2026/07/10/dinosaurs-on-noahs-ark-a-maga-theme-park-clings-to-creationism/"/>
-        <updated>2026-07-10T10:45:40.000Z</updated>
-        <summary type="html"><![CDATA[Creationism hasn’t generated much coverage in the mainstream media over the past decade. The days when fundamentalists challenged scientists to “debates” over evolution now seem quaint in the era of Donald Trump, whose belief is that you never need to persuade when beating your opponents into submission is an option. Under the president’s leadership, the right has shifted from arguing about dinosaur bones and carbon dating to making more blunt demands for book bans and even stripping women of the right to vote.
-This is not to say that evangelicals’ attachment to creationism has gone away, even if it has faded from mainstream discourse. This week, one of the most elaborate and ridiculous bits of Christian right propaganda, Kentucky’s Ark Encounter, is celebrating its 10th anniversary. Reade…]]></summary>
-        <author>
-            <name>Amanda Marcotte - Salon.com</name>
         </author>
     </entry>
     <entry>
