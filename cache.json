@@ -1111,26 +1111,6 @@
           "wordCount": 564,
           "title": "Org Mode requests: [RFC] Help with PDF/UA2 accessibility tests for ox-latex",
           "imageUrl": null
-        },
-        {
-          "id": "http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html",
-          "author": null,
-          "description": "A common refrain is that Emacs is an operating system (OS). This isn’t true, but what invites comparison to an OS is its ability to orchestrate applications and utilities above the OS kernel level. The diagram below suggests a truer picture of how Emacs’ relates to an OS and its capabilities.\n\nEmacs’ built-in access to OS system services (file system, network, etc.) coupled with the ability to run other programs makes it routine to improvise client behavior within it. Because of this, Emacs users are able to accomplish many of their computing needs from the different client modes that have been made for it. This gives credence to the notion of “living only in Emacs.”\nIn this post, we’ll examine some of the ways Emacs lets you build a client. By the end of this post, you’ll hopefully be con…",
-          "link": "http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html",
-          "publishedOn": "2026-07-10T06:40:00.000Z",
-          "wordCount": 1134,
-          "title": "Charles Choi: In Emacs, Everything Looks Like a Service",
-          "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
-        },
-        {
-          "id": "https://mike.hostetlerhome.com/how-emacs-uses-nix.html",
-          "author": null,
-          "description": "It's been a while since I wrote for the Emacs Blog Carnival but I have missed it. I decided to dip my toes back in when I saw July 2026's theme - Programming.\nI started thinking about how my Emacs configuration for development isn't that special and then I realized that the centerpiece of my environment, direnv and Nix, is something that is worth talking about. I have a whole post on setting them up so this will continue with what that post glossed over: How does this work with Emacs?\nThe idea started off with the fact that I don't want separate configurations for my CLI and Emacs. I want to just configure it once and things will just work in both. Since getting my shell to see my Emacs configuration seems like a waste of time, I chose to let Emacs read what the shell was doing. What I end…",
-          "link": "https://mike.hostetlerhome.com/how-emacs-uses-nix.html",
-          "publishedOn": "2026-07-10T05:00:00.000Z",
-          "wordCount": null,
-          "title": "Mike Hostetler: How Emacs Uses Nix",
-          "imageUrl": null
         }
       ]
     },
@@ -1139,6 +1119,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160845",
+          "author": "David Pinto",
+          "description": "Former relief pitcher Duane Ward died at the age of 62 from natural causes: Fans of the team woke up to Ward’s stunning passing Sunday, one day after the franchise unveiled a statue commemorating the club’s signature moments. … Ward was among many players from the championship seasons who had travelled to Toronto on Friday. […]",
+          "link": "https://www.baseballmusings.com/?p=160845",
+          "publishedOn": "2026-07-19T17:49:07.000Z",
+          "wordCount": 7729,
+          "title": "Ward Passes",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160843",
           "author": "David Pinto",

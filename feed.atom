@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-19T16:56:58.065Z</updated>
+    <updated>2026-07-19T19:03:44.976Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ward Passes]]></title>
+        <id>https://www.baseballmusings.com/?p=160845</id>
+        <link href="https://www.baseballmusings.com/?p=160845"/>
+        <updated>2026-07-19T17:49:07.000Z</updated>
+        <summary type="html"><![CDATA[Former relief pitcher Duane Ward died at the age of 62 from natural causes: Fans of the team woke up to Ward’s stunning passing Sunday, one day after the franchise unveiled a statue commemorating the club’s signature moments. … Ward was among many players from the championship seasons who had travelled to Toronto on Friday. […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[On The Necessity Of Dems Getting A Clear Mandate From Voters This November - Revisiting My Conversation With Hardy Merriman]]></title>
         <id>https://www.hopiumchronicles.com/p/on-the-necessity-of-dems-getting</id>
@@ -5189,31 +5199,6 @@ This is not to say that evangelicals’ attachment to creationism has gone away,
         <updated>2026-07-10T10:07:25.000Z</updated>
         <author>
             <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Charles Choi: In Emacs, Everything Looks Like a Service]]></title>
-        <id>http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html</id>
-        <link href="http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html"/>
-        <updated>2026-07-10T06:40:00.000Z</updated>
-        <summary type="html"><![CDATA[A common refrain is that Emacs is an operating system (OS). This isn’t true, but what invites comparison to an OS is its ability to orchestrate applications and utilities above the OS kernel level. The diagram below suggests a truer picture of how Emacs’ relates to an OS and its capabilities.
-
-Emacs’ built-in access to OS system services (file system, network, etc.) coupled with the ability to run other programs makes it routine to improvise client behavior within it. Because of this, Emacs users are able to accomplish many of their computing needs from the different client modes that have been made for it. This gives credence to the notion of “living only in Emacs.”
-In this post, we’ll examine some of the ways Emacs lets you build a client. By the end of this post, you’ll hopefully be con…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mike Hostetler: How Emacs Uses Nix]]></title>
-        <id>https://mike.hostetlerhome.com/how-emacs-uses-nix.html</id>
-        <link href="https://mike.hostetlerhome.com/how-emacs-uses-nix.html"/>
-        <updated>2026-07-10T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It's been a while since I wrote for the Emacs Blog Carnival but I have missed it. I decided to dip my toes back in when I saw July 2026's theme - Programming.
-I started thinking about how my Emacs configuration for development isn't that special and then I realized that the centerpiece of my environment, direnv and Nix, is something that is worth talking about. I have a whole post on setting them up so this will continue with what that post glossed over: How does this work with Emacs?
-The idea started off with the fact that I don't want separate configurations for my CLI and Emacs. I want to just configure it once and things will just work in both. Since getting my shell to see my Emacs configuration seems like a waste of time, I chose to let Emacs read what the shell was doing. What I end…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
