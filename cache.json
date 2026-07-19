@@ -60,16 +60,6 @@
           "wordCount": 2180,
           "title": "AL Central Notes: Jeffers, Keaschall, Vest, Pasquantino",
           "imageUrl": "https://cdn.mlbtraderumors.com/files/2026/07/RyanJeffers-1024x683.jpg"
-        },
-        {
-          "id": "https://www.mlbtraderumors.com/?p=902749",
-          "author": "Anthony Franco",
-          "description": "The Royals have been one of the more disappointing teams in MLB. They’re alongside the Angels as the two worst teams in the American League, the only AL clubs completely buried in the playoff picture. That theoretically positions them as deadline sellers. However, as explored on the MLBTR podcast this week, Kansas City doesn’t have […]",
-          "link": "https://www.mlbtraderumors.com/2026/07/royals-expected-to-maintain-high-asking-price-on-wacha-lugo.html",
-          "publishedOn": "2026-07-10T00:14:16.000Z",
-          "wordCount": 3071,
-          "title": "Royals Expected To Maintain High Asking Price On Wacha, Lugo",
-          "imageUrl": "https://cdn.mlbtraderumors.com/files/2026/07/USATSI_29360585-1024x683.jpg"
         }
       ]
     },
@@ -1104,26 +1094,6 @@
           "publishedOn": "2026-07-10T05:00:00.000Z",
           "wordCount": null,
           "title": "Mike Hostetler: How Emacs Uses Nix",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/07/numeric-priorities-in-org-mode.html",
-          "author": null,
-          "description": "1\n\n\n\nIf you specify priorities from 65 to 90, Org will interpret the\nnumbers as ordinal values of ASCII characters and give you \"A\" to \"Z.\"\nIf you try to be clever and specify priorities as 65 to 91 (91 is the\ndecimal ASCII code for left square bracket character) you'll be disappointed\nthat when you lower the priority from \"Z,\" you don't get \"[.\"  (I was\ndisappointed, anyway.)\n\n\n\nYou can define priorities from 10 to 99, for example.  But if you try\nto get to a priority higher than 10 using org-priority-up, Org will\nclear the priority cookie.  However, you can manually enter a priority\nof 0 to ensure the item appears above all other items.  (Please see\nFigure 1, below.)  Thus, a priority value of 0 can be your \"stat\"\nitem.  It would be super neat if Org could understand that ASCII\ncharacters below 0 (such as the exclamation mark) are an even higher\npriority than 0.  Unfortunately, it doesn't even recognize [#!] as a\npriority cookie.\n\nforty times.\nIf you think you can invoke M-4 0 M-x org-priority-up to go quickly\nfrom 50 to 10, you'll be disappointed (again).  The function\norg-priority-up doesn't accept a prefix argument.2\n\n\n\nHow do you use priority in Org?\n\n\n\n  1 Org\n  Manual -- Priorities\n\n2 But you can record a macro that consists of a single\n    S-<up> key press and then play it back with a prefix argument of 39.",
-          "link": "https://ray-on-emacs.blogspot.com/2026/07/numeric-priorities-in-org-mode.html",
-          "publishedOn": "2026-07-09T23:48:51.151Z",
-          "wordCount": 2878,
-          "title": "Raymond Zeitler: Numeric Priorities in Org Mode",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi110pVKheu5f3uP4uippZ77BBuQXEpGU-N1Johlxf0weLOjFwJeYbsrSRs2ufaz1luY0H0hAqZu8B1C6guTUQd7xbnUaS3LbVdejYwv8EAeKdPhqkLVF4mYzJSisyOAEXVeGITXuMBXtoRrVRNcs-wGsfEdkznob16-4o0rMOuWSFAf1X_8AyEh1OjMcI/w1200-h630-p-k-no-nu/Clipbrd18.gif"
-        },
-        {
-          "id": "https://amitp.blogspot.com/2022/08/emacs-marking-text.html",
-          "author": null,
-          "description": "Kakoune introduction explains that vim uses verb first, noun second for its commands, whereas Kakoune uses noun first, verb second. I wrote a blog post about why I prefer noun-verb over verb-noun, not only in text editors but also in games and other applications.\n\n\n\n\n\nI started cobbling together some commands in a hydra, trying to match vim keys when I could:\n\n\n\n(defhydra hydra-mark (:body-pre (set-mark-command nil) :color red)\n  \"\n_w_, _,w_: word, symbol    _i'_, _a'_: string  _i)_, _a)_: pair\n_t_, _f_: to char (exclude/include)   _0_, _$_: begin/end of line\n_;_: comment   _u_: url    _e_: email      _>_: web-mode block or tag\n_S_: sexp      _d_: defun  _p_: paragraph  _s_: sentence\n_h_, _j_, _k_, _l_: move   _H-._: off\n  \"\n  (\"t\" mark-to-char-exclusive)\n  (\"f\" mark-to-char-inclusive)\n  (…",
-          "link": "https://amitp.blogspot.com/2022/08/emacs-marking-text.html",
-          "publishedOn": "2026-07-09T23:09:59.982Z",
-          "wordCount": 1555,
-          "title": "Amit Patel: Emacs: marking text",
           "imageUrl": null
         }
       ]
@@ -2540,6 +2510,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/wapuxn3eo729arpkshge.html",
+          "author": null,
+          "description": "96\n        Half and half\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    line-height: 100%;\n  }\n\n  .apple-link a {\n    c…",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/wapuxn3eo729arpkshge.html",
+          "publishedOn": "2026-07-19T12:13:13.588Z",
+          "wordCount": 4024,
+          "title": "Half and half",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/j4nqu3vronnoe2x1buu3.html",
           "author": null,
           "description": "body,a{word-break:break-word;}.feed__title a{text-decoration:underline;}img[data-emoji]{height:1.2em;width:1.2em;vertical-align:middle;}table{border-collapse:collapse;}.headline h1,.paragraph h1,.text-element h1{line-height:1.5;margin:0.5em 0;}.headline h2,.paragraph h2,.text-element h2{line-height:1.5;margin:0.5em 0;}.headline h3,.paragraph h3,.text-element h3{line-height:1.5;margin:0.5em 0;}.headline h4,.paragraph h4,.text-element h4{font-size:20px;line-height:1.5;margin:0.5em\n0;}.headline h5,.paragraph h5,.text-element h5{font-size:18px;line-height:1.5;margin:0.5em 0;}.headline h6,.paragraph h6,.text-element h6{font-size:16px;line-height:1.5;margin:0.5em 0;}.headline p,.paragraph p,.text-element p{line-height:1.5;margin:0;}.headline div,.paragraph div,.text-element div{line-height:1.5;m…",
@@ -2727,16 +2707,6 @@
           "publishedOn": "2026-07-10T11:00:08.897Z",
           "wordCount": 2498,
           "title": "Anyway, Here’s Wonderwall (Positive)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/vux068ppbe4z56gx83g8.html",
-          "author": null,
-          "description": "Trump fires all Election Assistance Commission members, leaving agency unable to act96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-dec…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/vux068ppbe4z56gx83g8.html",
-          "publishedOn": "2026-07-09T23:40:38.109Z",
-          "wordCount": 1548,
-          "title": "Trump fires all Election Assistance Commission members, leaving agency unable to act",
           "imageUrl": null
         }
       ]
@@ -3342,36 +3312,6 @@
           "wordCount": 4341,
           "title": "The Great American State Fair is Trump's daily humiliation. I love it.Rex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90716538007-20260626-t-050118-z-548195326-rc-241-ma-60-ne-6-rtrmadp-3-usa-250-statefair.JPG?crop=5494,3091,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/-full",
-          "author": "Rex Huppke",
-          "description": "A couple years ago, my wife and oldest son began experimenting with Medjool dates. I wasn’t happy about it.\nI’ve tried dates in many forms, and never liked them. They look like legless cockroaches. They are, in my estimation, overly ambitious raisins. Nobody likes an overly ambitious raisin.\n\nTragically, my family’s addiction to these ancient stone fruits grew worse, to the point I couldn’t trust any baked good that appeared in the kitchen, as it was likely date-tainted. Gone were the days of normal muffins or oatmeal bars. All I heard was “These are sweetened with dates!” and “The dates give these such a great texture!” and other such excited mumbo-jumbo.\nMy son is addicted to dates and I've never been more ashamed\nNot long ago, my wonderful adult son – whose father raised him with the ho…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/",
-          "publishedOn": "2026-07-09T17:53:57.794Z",
-          "wordCount": 4573,
-          "title": "Stop trying to make dates happen. Have you even tried a Twinkie?Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/06/USAT/90431895007-getty-images-2213158027.jpg?crop=2118,1192,x0,y0&width=2118&height=1192&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/-full",
-          "author": "Rex Huppke",
-          "description": "Billionaire Jeff Bezos has boldly put forth a challenge to Americans.\nIn a May 20 interview with CNBC, he referenced a hypothetical New York City school teacher and said, “You could double the taxes I pay, and it's not going to help that teacher in Queens. I promise you.”\nPromises from billionaires will be worth about as much as cash in the post-apocalyptic wasteland we’ll soon inhabit, thanks to all the billionaires. (I’m guessing the primary currency will be potable water and locally sourced rich-people meat.)\nSo I’ll respond to Mr. Bezos with this: “You say doubling your taxes won’t help regular Americans. Well, sir, that’s a risk I’m willing to take. What say we quintuple your taxes and see what shakes out?”\nI say let's raise Jeff Bezos' taxes and see how it all works out\n\n\"If people w…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/",
-          "publishedOn": "2026-07-09T17:53:57.765Z",
-          "wordCount": 4298,
-          "title": "Bezos says raising his taxes won't help. It's a risk we should take.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/04/13/USAT/89587769007-2239610155.jpg?crop=5095,2866,x0,y764&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/09/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90468552007/-full",
-          "author": "Rex Huppke",
-          "description": "Former reality TV star Spencer Pratt is out of the Los Angeles mayoral race for two reasons.\nFirst, and most important, he got fewer votes than two other candidates, incumbent Los Angeles Mayor Karen Bass and LA City Councilwoman Nithya Raman, who will now face off against each other. Second, he’s an unqualified dipstick whom a majority of Los Angelenos understood wasn’t qualified for the job.\nPratt was endorsed by President Donald Trump and hailed by some MAGA Republicans as a rising star, a political outsider with a winning populist message.\nThat was, in a word, wrong.\n\nThe Free Press, the conservative publication founded by Bari Weiss, who is presently busy ruining CBS News, ran a piece in May that posed the question: “How did Spencer Pratt, reality TV star and ‘healing’ crystal salesma…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/09/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90468552007/",
-          "publishedOn": "2026-07-09T17:53:57.743Z",
-          "wordCount": 4190,
-          "title": "I'm glad Spencer Pratt lost. Let's Make Stupidity Embarrassing Again.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/08/USAT/90456119007-20260531-t-212845-z-2098431618-rc-2-hklaldt-0-w-rtrmadp-3-usaelectioncaliforniapratt.JPG?crop=6493,3653,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
         }
       ]
     },
@@ -3518,16 +3458,6 @@
           "publishedOn": "2026-07-12T09:49:35.226Z",
           "wordCount": 177,
           "title": "Brandon Aiyuk's NFL career is already over",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php-full",
-          "author": null,
-          "description": "I put a question to my SFGATE colleagues just the other day that had them mulling for a bit: What’s the last great movie that Steven Spielberg directed? I’m not talking about a merely good film. The old man can put together a competent picture anytime he likes. I’m talking about an all-timer of a Spielberg movie, something that belongs up there with his best work, which includes “Jaws,” “Raiders of the Lost Ark,” “E.T.,” “Schindler’s List” and … you get the idea. When you’re a director who’s made not just one of the greatest movies of all time but several of them, audience members like me hope for (and oftentimes expect) greatness from you with every subsequent project. Such is the standard that Spielberg, father of the modern blockbuster, set for himself. It’s also a standard that, in my …",
-          "link": "https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php",
-          "publishedOn": "2026-07-09T17:53:57.586Z",
-          "wordCount": 177,
-          "title": "Steven Spielberg's new film is his best in decades",
           "imageUrl": null
         }
       ]
