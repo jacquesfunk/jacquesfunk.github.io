@@ -608,26 +608,6 @@
           "wordCount": 1060,
           "title": "Trump just fired the agency that runs elections",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/dxwi2mwip1cngk515w65.html",
-          "author": null,
-          "description": "Trump's dangerous new bid to seize control of voting\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n    …",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/dxwi2mwip1cngk515w65.html",
-          "publishedOn": "2026-07-10T22:03:38.597Z",
-          "wordCount": null,
-          "title": "Trump's dangerous new bid to seize control of voting",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0m1hc69ilf3tsjodzd22.html",
-          "author": null,
-          "description": "96\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:670px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.reverse{display:table;width:100%}.reverse .column.first{display:table-footer-group!important}.rever…",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0m1hc69ilf3tsjodzd22.html",
-          "publishedOn": "2026-07-10T19:36:33.791Z",
-          "wordCount": 452,
-          "title": "Celebrating 161 years, get The Nation for just $8.65",
-          "imageUrl": null
         }
       ]
     },
@@ -636,6 +616,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://emacsredux.com/blog/2026/07/20/flymake-can-now-show-diagnostics-at-the-end-of-the-line/",
+          "author": null,
+          "description": "If you’ve used modern editors like VS Code, you’ve probably noticed how they\ndisplay error and warning messages inline, right at the end of the offending\nline. It’s a nice touch - you don’t have to hover over a squiggly underline or\ncheck a separate diagnostics buffer to see what’s wrong.\nEmacs 30 brings this capability to Flymake with the new\nflymake-show-diagnostics-at-end-of-line option.\nEnabling it\n\n(setq flymake-show-diagnostics-at-end-of-line t)\n\n\nWith this set, Flymake will display diagnostic summaries right at the end of\neach affected line, in addition to the usual fringe indicators and\nunderlines. Here’s what it looks like in an Emacs Lisp buffer with a few\nissues (an error, a warning, and a checkdoc note):\n\nDisplay options\nThe option accepts three values:\nValue\n      Behavior\n   …",
+          "link": "https://emacsredux.com/blog/2026/07/20/flymake-can-now-show-diagnostics-at-the-end-of-the-line/",
+          "publishedOn": "2026-07-20T06:30:00.000Z",
+          "wordCount": 567,
+          "title": "Emacs Redux: Flymake Can Now Show Diagnostics at the End of the Line",
+          "imageUrl": "https://emacsredux.com/assets/og-image.png"
+        },
         {
           "id": "https://ray-on-emacs.blogspot.com/2026/07/emacs-tip-of-day-in-popup-frame.html",
           "author": null,
@@ -1073,6 +1063,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160857",
+          "author": "David Pinto",
+          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.342, 0.727 — Luis Garcia Jr. batting at Kyle Freeland. 0.335, 0.714 — Keibert Ruiz batting at Kyle Freeland. 0.318, 0.696 — CJ Abrams batting at Kyle Freeland. 0.313, 0.696 — Daylen Lile batting at Kyle Freeland. 0.304, 0.708 — Jeremy Pena batting […]",
+          "link": "https://www.baseballmusings.com/?p=160857",
+          "publishedOn": "2026-07-20T11:03:16.000Z",
+          "wordCount": 8003,
+          "title": "Beat the Streak Picks",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160853",
           "author": "David Pinto",
@@ -1512,26 +1512,6 @@
           "wordCount": 7485,
           "title": "Saturday Update",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160763",
-          "author": "David Pinto",
-          "description": "The Marlins broadcasters just explained an interesting strategy the Marlins deploy when they have a man on third and a left-handed batter at the plate. The runner in that situation takes a lead in fair territory. Normally, that is frowned upon because if a batted ball hits that runner, the runner is out. The Marlins […]",
-          "link": "https://www.baseballmusings.com/?p=160763",
-          "publishedOn": "2026-07-11T01:09:10.000Z",
-          "wordCount": 7579,
-          "title": "Base Running Strategy",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160761",
-          "author": "David Pinto",
-          "description": "Shohei Ohtani will not start Friday night due to knee inflammation on his left side. The injury will also keep him out of the All-Star Game. At this point, we don’t know how long he will be out of the Dodgers lineup.",
-          "link": "https://www.baseballmusings.com/?p=160761",
-          "publishedOn": "2026-07-10T23:55:35.000Z",
-          "wordCount": 7525,
-          "title": "Ohtani Scratched",
-          "imageUrl": null
         }
       ]
     },
@@ -1597,6 +1577,22 @@
       "feedUrl": "https://www.stevevladeck.com/feed/",
       "siteUrl": "https://www.stevevladeck.com",
       "articles": [
+        {
+          "id": "https://www.stevevladeck.com/p/239-the-alien-terrorist-removal-court",
+          "author": "Steve Vladeck",
+          "description": "The Trump administration has activated a secret 30-year-old court that's never been used. Here's what we know, and why we should (and shouldn't) be worried.",
+          "link": "https://www.stevevladeck.com/p/239-the-alien-terrorist-removal-court",
+          "publishedOn": "2026-07-20T11:22:34.000Z",
+          "wordCount": null,
+          "title": "239. The Alien Terrorist Removal Court",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!tjti!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a008647-d9ae-4040-9e49-dccc3b8899bf_1710x998.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!tjti!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a008647-d9ae-4040-9e49-dccc3b8899bf_1710x998.jpeg"
+        },
         {
           "id": "https://www.stevevladeck.com/p/bonus-238-the-court-against-the-courts",
           "author": "Steve Vladeck",
@@ -1986,6 +1982,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=229420",
+          "author": "Tom Ley",
+          "description": "The World Cup kicked ass, as it almost always does, but Sunday's final between Spain and Argentina was a well-timed reminder that the game is not always as beautiful as it has been over the last month. And in the immediate aftermath we were served up another reminder, that no matter how capable the World Cup is of redeeming itself through what happens on the field, shameless venality is never far away. For example, it might plant its hideous form squarely in frame for the post-championship photo op, and then try to play dumb when told to get the fuck off the stage.\n\nhttps://youtu.be/ojcs-mLcBY0?t=197\n\n\nWell, at least Gianni Infantino finally got to do something useful.",
+          "link": "https://defector.com/looking-good-sir",
+          "publishedOn": "2026-07-20T12:59:17.000Z",
+          "wordCount": 5283,
+          "title": "Looking Good, Sir!",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2286810774.jpg"
+        },
         {
           "id": "https://defector.com/?p=229407",
           "author": "Luis Paez-Pumar",

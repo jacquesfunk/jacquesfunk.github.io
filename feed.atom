@@ -2,10 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-20T10:50:18.052Z</updated>
+    <updated>2026-07-20T14:02:03.728Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Looking Good, Sir!]]></title>
+        <id>https://defector.com/?p=229420</id>
+        <link href="https://defector.com/looking-good-sir"/>
+        <updated>2026-07-20T12:59:17.000Z</updated>
+        <summary type="html"><![CDATA[The World Cup kicked ass, as it almost always does, but Sunday's final between Spain and Argentina was a well-timed reminder that the game is not always as beautiful as it has been over the last month. And in the immediate aftermath we were served up another reminder, that no matter how capable the World Cup is of redeeming itself through what happens on the field, shameless venality is never far away. For example, it might plant its hideous form squarely in frame for the post-championship photo op, and then try to play dumb when told to get the fuck off the stage.
+
+https://youtu.be/ojcs-mLcBY0?t=197
+
+
+Well, at least Gianni Infantino finally got to do something useful.]]></summary>
+        <author>
+            <name>Tom Ley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[239. The Alien Terrorist Removal Court]]></title>
+        <id>https://www.stevevladeck.com/p/239-the-alien-terrorist-removal-court</id>
+        <link href="https://www.stevevladeck.com/p/239-the-alien-terrorist-removal-court"/>
+        <updated>2026-07-20T11:22:34.000Z</updated>
+        <summary type="html"><![CDATA[The Trump administration has activated a secret 30-year-old court that's never been used. Here's what we know, and why we should (and shouldn't) be worried.]]></summary>
+        <author>
+            <name>Steve Vladeck</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beat the Streak Picks]]></title>
+        <id>https://www.baseballmusings.com/?p=160857</id>
+        <link href="https://www.baseballmusings.com/?p=160857"/>
+        <updated>2026-07-20T11:03:16.000Z</updated>
+        <summary type="html"><![CDATA[The Log5 Method yields these top projected hit averages versus starting pitchers: 0.342, 0.727 — Luis Garcia Jr. batting at Kyle Freeland. 0.335, 0.714 — Keibert Ruiz batting at Kyle Freeland. 0.318, 0.696 — CJ Abrams batting at Kyle Freeland. 0.313, 0.696 — Daylen Lile batting at Kyle Freeland. 0.304, 0.708 — Jeremy Pena batting […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Paramount/Warner Bros. merger will make media more MAGA — and more boring]]></title>
         <id>https://www.salon.com/2026/07/20/paramount-warner-bros-merger-will-make-media-more-maga-and-more-boring/-full</id>
@@ -26,6 +61,36 @@ Larry and David Ellison are the father-and-son duo behind Paramount’s attempte
         <summary type="html"><![CDATA[Fernando Tatis Jr. of the Padres moves into the top five of the Baseball Musings Batter Rankings. His two for five with a home run in a 19-2 win over the Royals put him in fifth place. Tatis hit well in his last twelve games. He collected multiple hits in five of those and is […]]]></summary>
         <author>
             <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Emacs Redux: Flymake Can Now Show Diagnostics at the End of the Line]]></title>
+        <id>https://emacsredux.com/blog/2026/07/20/flymake-can-now-show-diagnostics-at-the-end-of-the-line/</id>
+        <link href="https://emacsredux.com/blog/2026/07/20/flymake-can-now-show-diagnostics-at-the-end-of-the-line/"/>
+        <updated>2026-07-20T06:30:00.000Z</updated>
+        <summary type="html"><![CDATA[If you’ve used modern editors like VS Code, you’ve probably noticed how they
+display error and warning messages inline, right at the end of the offending
+line. It’s a nice touch - you don’t have to hover over a squiggly underline or
+check a separate diagnostics buffer to see what’s wrong.
+Emacs 30 brings this capability to Flymake with the new
+flymake-show-diagnostics-at-end-of-line option.
+Enabling it
+
+(setq flymake-show-diagnostics-at-end-of-line t)
+
+
+With this set, Flymake will display diagnostic summaries right at the end of
+each affected line, in addition to the usual fringe indicators and
+underlines. Here’s what it looks like in an Emacs Lisp buffer with a few
+issues (an error, a warning, and a checkdoc note):
+
+Display options
+The option accepts three values:
+Value
+      Behavior
+   …]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -4963,69 +5028,6 @@ I love seeing Fox News broadcasting from the fair, its hosts claiming the place 
         <summary type="html"><![CDATA[One of the most intriguing players heading into the trade deadline made his long-awaited return to the lineup on Friday. Catcher Ryan Jeffers was back behind the plate for the Twins after missing nearly two months with a fractured hamate bone. The backstop needed just five rehab games to get up to speed. Jeffers will […]]]></summary>
         <author>
             <name>Charlie Wright</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Base Running Strategy]]></title>
-        <id>https://www.baseballmusings.com/?p=160763</id>
-        <link href="https://www.baseballmusings.com/?p=160763"/>
-        <updated>2026-07-11T01:09:10.000Z</updated>
-        <summary type="html"><![CDATA[The Marlins broadcasters just explained an interesting strategy the Marlins deploy when they have a man on third and a left-handed batter at the plate. The runner in that situation takes a lead in fair territory. Normally, that is frowned upon because if a batted ball hits that runner, the runner is out. The Marlins […]]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ohtani Scratched]]></title>
-        <id>https://www.baseballmusings.com/?p=160761</id>
-        <link href="https://www.baseballmusings.com/?p=160761"/>
-        <updated>2026-07-10T23:55:35.000Z</updated>
-        <summary type="html"><![CDATA[Shohei Ohtani will not start Friday night due to knee inflammation on his left side. The injury will also keep him out of the All-Star Game. At this point, we don’t know how long he will be out of the Dodgers lineup.]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump's dangerous new bid to seize control of voting]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/dxwi2mwip1cngk515w65.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/dxwi2mwip1cngk515w65.html"/>
-        <updated>2026-07-10T22:03:38.597Z</updated>
-        <summary type="html"><![CDATA[Trump's dangerous new bid to seize control of voting
-    
-    
-    
-    
-    
-
-
-
-
-
-a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
-
-
-    
-  
-    
-      
-      96
-    
-    …]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Celebrating 161 years, get The Nation for just $8.65]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0m1hc69ilf3tsjodzd22.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0m1hc69ilf3tsjodzd22.html"/>
-        <updated>2026-07-10T19:36:33.791Z</updated>
-        <summary type="html"><![CDATA[96
-
-
-*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:670px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.reverse{display:table;width:100%}.reverse .column.first{display:table-footer-group!important}.rever…]]></summary>
-        <author>
-            <name>Current Events</name>
         </author>
     </entry>
 </feed>
