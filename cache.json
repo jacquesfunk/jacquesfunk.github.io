@@ -927,6 +927,16 @@
           "imageUrl": "https://img.andros.dev/nBgRNg17UB_JOm4H0xVbgc4r7Pg=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_94e69e19.png"
         },
         {
+          "id": "https://www.cyan.sh/blog/posts/response-to-human-fear-in-emacs.html",
+          "author": null,
+          "description": "Human fear in Emacs by Andros Fenollosa, as I believe there is a small correction to be made around the legal matter surrounding LLM contributions to Emacs under the current policy.\n\n\n\nNote that I am not a contributor to Emacs, nor GNU; this is purely my understanding of their position and it may be wrong.\n\n\n\n\nThe licensing arguments seem legitimate to me, but easy to get around.\nToday you can work with a free LLM, with open weights, running on your own machine.\nIf the purity of the tool really mattered, we should not accept patches typed on Windows with a proprietary IDE.\n\n\n\nThis is a faulty comparison, in my opinion, and a misunderstanding of the licensing issue.\nThe FSF and GNU require assignment of copyright from contributor to foundation in order to effectively enforce the GPL.\n\n\n\nThe…",
+          "link": "https://www.cyan.sh/blog/posts/response-to-human-fear-in-emacs.html",
+          "publishedOn": "2026-07-14T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Jakub Nowak: Response to Human Fear in Emacs",
+          "imageUrl": null
+        },
+        {
           "id": "https://taonaw.com/2026/07/13/say-you-go-jump-to.html",
           "author": null,
           "description": "Say you go jump to a header in org-mode somewhere with C-c C-o. Did you know that you can go back with C-c &? And that it has history, so you can keep going back??\nYears of isearch-backwards… wasted. Mind blown. 🤯",
@@ -1055,26 +1065,6 @@
           "wordCount": 878,
           "title": "Marcin Borkowski: Fast spell-checking in Emacs with Jinx",
           "imageUrl": null
-        },
-        {
-          "id": "https://macowners.club/posts/preserve-email-dates-mu4e-mbsync/",
-          "author": null,
-          "description": "The problem\nMy email setup is the usual text based machinery I keep writing about: Mu4e with mu, isync (mbsync) and msmtp. It works beautifully – until one day it did not.\nWhen I moved emails around in Emacs – with mu4e-headers-mark-for-move, mu4e-headers-mark-for-refile or other command – the date of the moved email changed. A mail from last March would suddenly float to the top of the mailbox as if it had just arrived.\nThe diagnosis\nThe Date: header inside the message is never touched – that is why Mu4e always looks correct, it shows the date parsed from that header.\nWhat changes is the arrival date: the IMAP “internal date” the server stores separately from the body. That is what Mail.app shows and sorts by (“Date Received”).\nThe culprit is this setting, which I need to avoid duplicate-…",
-          "link": "https://macowners.club/posts/preserve-email-dates-mu4e-mbsync/",
-          "publishedOn": "2026-07-10T22:00:00.000Z",
-          "wordCount": 870,
-          "title": "Aimé Bertrand: Preserving email dates when moving messages in Mu4e",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/07/one-hundred-times-highest-priority.html",
-          "author": null,
-          "description": "1 I was disappointed to learn that valid priority characters are limited to 0–9 and A–Z.  I\nthought it would be neat if the exclamation mark (\"!\") could represent\nthe ultimate priority, a sort of \"drop everything and do this\nimmediately\" kind of priority.\n\n\n\nIt turns out that you can use \"!\" for this purpose, regardless of\nwhich priority characters you've configured.  The trick is to write a\nfunction and assign it to org-priority-get-priority-function.\n\n\n\nThe function (which I named org-get-cust-priority) simply\nlooks for \"!\" in the priority cookie and returns one hundred times the\nvalue that would be returned by the highest valid priority.  If it\ndoesn't find \"!\" it simply calls a modified version of the usual\norg-get-property function,2 which I\nnamed org-get-std-priority.  The two functi…",
-          "link": "https://ray-on-emacs.blogspot.com/2026/07/one-hundred-times-highest-priority.html",
-          "publishedOn": "2026-07-10T18:45:12.923Z",
-          "wordCount": 2930,
-          "title": "Raymond Zeitler: One Hundred Times the Highest Priority",
-          "imageUrl": null
         }
       ]
     },
@@ -1083,6 +1073,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160853",
+          "author": "David Pinto",
+          "description": "Fernando Tatis Jr. of the Padres moves into the top five of the Baseball Musings Batter Rankings. His two for five with a home run in a 19-2 win over the Royals put him in fifth place. Tatis hit well in his last twelve games. He collected multiple hits in five of those and is […]",
+          "link": "https://www.baseballmusings.com/?p=160853",
+          "publishedOn": "2026-07-20T10:31:34.000Z",
+          "wordCount": 7820,
+          "title": "Best Batter Today",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160851",
           "author": "David Pinto",
@@ -1532,16 +1532,6 @@
           "wordCount": 7525,
           "title": "Ohtani Scratched",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160759",
-          "author": "David Pinto",
-          "description": "Two teams fighting for division titles meet in Miami as the Guardians send Parker Messick against Sandy Alcantara. Messick, with his 2.80 ERA and his outstanding three-true outcomes is making a nice bid for AL Rookie of the Year. He currently rates a 3.2 rWAR for the season. Alcantara owns a 10-4 record with a […]",
-          "link": "https://www.baseballmusings.com/?p=160759",
-          "publishedOn": "2026-07-10T17:52:34.000Z",
-          "wordCount": 7652,
-          "title": "Games of the Day",
-          "imageUrl": null
         }
       ]
     },
@@ -1988,22 +1978,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!-OOJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3acc4b56-2bd4-4942-b94b-08507afd48a2_1169x961.png"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/platner-officially-withdraws-from",
-          "author": "Simon Rosenberg",
-          "description": "Let's keep rallying for the Maine Democrats today!!!!!!!!!!!!!!!!!!!!!!",
-          "link": "https://www.hopiumchronicles.com/p/platner-officially-withdraws-from",
-          "publishedOn": "2026-07-10T21:50:30.000Z",
-          "wordCount": null,
-          "title": "Platner Officially Withdraws From The Maine Senate Race. The Process To Pick A Successor Has Formally Begun",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!nb9l!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F92c61666-e6ab-4c76-9bbc-a06033133682_1272x633.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!nb9l!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F92c61666-e6ab-4c76-9bbc-a06033133682_1272x633.png"
         }
       ]
     },
@@ -2471,16 +2445,6 @@
           "wordCount": 8650,
           "title": "The Inter-Red Bull Teammate Drama Is The Best Story Of The Tour de France So Far",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2284369571.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=228543",
-          "author": "Sohini Desai",
-          "description": "Is Plato’s Republic too gay?  \nThis is one of many brave questions posed by the Texas Tech University System’s chancellor and Board of Regents as they implement an “extraordinary system of censorship in higher education,” according to a new lawsuit filed Wednesday in Texas federal court by faculty unions. The American Association of University Professors and the Texas AAUP-AFT said that Texas Tech is violating the First and Fourteenth Amendments by way of sweeping new restrictions on academic freedom.   \nThe Texas Tech University System collectively serves about 64,000 students, and is one of only nine in the country offering programs that span undergraduate, medical, law, nursing, pharmacy, dental, and veterinary education. That’s a lot of curricula to rid of \"content that promotes activism on issues related to race or sex,\" \"endorsement of a gender spectrum,\" and suggestions that \"meritocracy or a strong work ethic are inherently racist\"! Thankfully, university system Chancellor Brandon Creighton said Texas Tech built an AI tool to scan syllabi, reading materials, and lesson plans for censor-worthy material.",
-          "link": "https://defector.com/heres-what-texas-techs-leadership-is-being-sued-for-censoring",
-          "publishedOn": "2026-07-10T19:32:59.000Z",
-          "wordCount": 5655,
-          "title": "Here’s What Texas Tech’s Leadership Is Being Sued For Censoring",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-1277021577-smaller-e1783709991854.jpeg"
         }
       ]
     },
@@ -2766,6 +2730,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/salon-amanda-marcotte.xml",
       "siteUrl": "https://www.salon.com/writer/amanda_marcotte",
       "articles": [
+        {
+          "id": "https://www.salon.com/2026/07/20/paramount-warner-bros-merger-will-make-media-more-maga-and-more-boring/-full",
+          "author": null,
+          "description": "Donald Trump’s Great American State Fair was widely mocked as a great American flop: overpriced, uncomfortable and, above all, dull.\nWell, bad news for fans of fun: Trump’s billionaire buddies, Larry and David Ellison, are about to bring MAGA-ified misery to the rest of entertainment. Unless the courts side with 12 states who sued to stop the merger of Paramount and Warner Bros. Discovery, movie theaters, cable TV and other entertainment products could become a lot more MAGA — and you’ll have to pay more for the privilege of being bored.\nLarry and David Ellison are the father-and-son duo behind Paramount’s attempted purchase of Warner Bros., a move that would consolidate most of Hollywood into a few hands and dramatically reduce free market competition in the entertainment industry. The tw…",
+          "link": "https://www.salon.com/2026/07/20/paramount-warner-bros-merger-will-make-media-more-maga-and-more-boring/",
+          "publishedOn": "2026-07-20T10:45:09.000Z",
+          "wordCount": 2039,
+          "title": "Paramount/Warner Bros. merger will make media more MAGA — and more boring",
+          "imageUrl": "https://www.salon.com/app/uploads/2026/07/Paramount-2285925652.jpg"
+        },
         {
           "id": "https://www.salon.com/2026/07/17/pete-hegseth-wants-to-measure-your-manhood/-full",
           "author": null,
@@ -3566,16 +3540,6 @@
           "wordCount": 23161,
           "title": "Trump Has Somehow Twisted Lindsey Graham’s Death Into a Cheap Political Stunt",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/603b4b56-7eea-46c5-a0bc-b019d9229df4.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a71899923/segregation-schools-new-hampshire-kristin-noble/",
-          "author": null,
-          "description": "A leaked group chat shows what’s been bubbling not so far beneath the surface of the wing-nut Right. Let’s pray it doesn’t boil over.",
-          "link": "https://www.esquire.com/news-politics/politics/a71899923/segregation-schools-new-hampshire-kristin-noble/",
-          "publishedOn": "2026-07-10T21:15:09.000Z",
-          "wordCount": 35766,
-          "title": "Why Am I Not Surprised That There Are Republicans Who Would Support Resegregation?",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/460b3266-473f-4de3-9d8a-a9a4eaae8439.jpeg?crop=1xw:0.75xh;0xw,0.208xh&resize=1200:*"
         }
       ]
     },

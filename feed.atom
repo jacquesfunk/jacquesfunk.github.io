@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-20T06:44:04.980Z</updated>
+    <updated>2026-07-20T10:50:18.052Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Paramount/Warner Bros. merger will make media more MAGA — and more boring]]></title>
+        <id>https://www.salon.com/2026/07/20/paramount-warner-bros-merger-will-make-media-more-maga-and-more-boring/-full</id>
+        <link href="https://www.salon.com/2026/07/20/paramount-warner-bros-merger-will-make-media-more-maga-and-more-boring/"/>
+        <updated>2026-07-20T10:45:09.000Z</updated>
+        <summary type="html"><![CDATA[Donald Trump’s Great American State Fair was widely mocked as a great American flop: overpriced, uncomfortable and, above all, dull.
+Well, bad news for fans of fun: Trump’s billionaire buddies, Larry and David Ellison, are about to bring MAGA-ified misery to the rest of entertainment. Unless the courts side with 12 states who sued to stop the merger of Paramount and Warner Bros. Discovery, movie theaters, cable TV and other entertainment products could become a lot more MAGA — and you’ll have to pay more for the privilege of being bored.
+Larry and David Ellison are the father-and-son duo behind Paramount’s attempted purchase of Warner Bros., a move that would consolidate most of Hollywood into a few hands and dramatically reduce free market competition in the entertainment industry. The tw…]]></summary>
+        <author>
+            <name>Amanda Marcotte - Salon.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best Batter Today]]></title>
+        <id>https://www.baseballmusings.com/?p=160853</id>
+        <link href="https://www.baseballmusings.com/?p=160853"/>
+        <updated>2026-07-20T10:31:34.000Z</updated>
+        <summary type="html"><![CDATA[Fernando Tatis Jr. of the Padres moves into the top five of the Baseball Musings Batter Rankings. His two for five with a home run in a 19-2 win over the Royals put him in fifth place. Tatis hit well in his last twelve games. He collected multiple hits in five of those and is […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Royals Place Stephen Kolek On 15-Day Injured List]]></title>
         <id>https://www.mlbtraderumors.com/?p=904099</id>
@@ -3647,6 +3669,36 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Jakub Nowak: Response to Human Fear in Emacs]]></title>
+        <id>https://www.cyan.sh/blog/posts/response-to-human-fear-in-emacs.html</id>
+        <link href="https://www.cyan.sh/blog/posts/response-to-human-fear-in-emacs.html"/>
+        <updated>2026-07-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Human fear in Emacs by Andros Fenollosa, as I believe there is a small correction to be made around the legal matter surrounding LLM contributions to Emacs under the current policy.
+
+
+
+Note that I am not a contributor to Emacs, nor GNU; this is purely my understanding of their position and it may be wrong.
+
+
+
+
+The licensing arguments seem legitimate to me, but easy to get around.
+Today you can work with a free LLM, with open weights, running on your own machine.
+If the purity of the tool really mattered, we should not accept patches typed on Windows with a proprietary IDE.
+
+
+
+This is a faulty comparison, in my opinion, and a misunderstanding of the licensing issue.
+The FSF and GNU require assignment of copyright from contributor to foundation in order to effectively enforce the GPL.
+
+
+
+The…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Majors at the Break]]></title>
         <id>https://www.baseballmusings.com/?p=160793</id>
         <link href="https://www.baseballmusings.com/?p=160793"/>
@@ -4964,42 +5016,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Aimé Bertrand: Preserving email dates when moving messages in Mu4e]]></title>
-        <id>https://macowners.club/posts/preserve-email-dates-mu4e-mbsync/</id>
-        <link href="https://macowners.club/posts/preserve-email-dates-mu4e-mbsync/"/>
-        <updated>2026-07-10T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The problem
-My email setup is the usual text based machinery I keep writing about: Mu4e with mu, isync (mbsync) and msmtp. It works beautifully – until one day it did not.
-When I moved emails around in Emacs – with mu4e-headers-mark-for-move, mu4e-headers-mark-for-refile or other command – the date of the moved email changed. A mail from last March would suddenly float to the top of the mailbox as if it had just arrived.
-The diagnosis
-The Date: header inside the message is never touched – that is why Mu4e always looks correct, it shows the date parsed from that header.
-What changes is the arrival date: the IMAP “internal date” the server stores separately from the body. That is what Mail.app shows and sorts by (“Date Received”).
-The culprit is this setting, which I need to avoid duplicate-…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Platner Officially Withdraws From The Maine Senate Race. The Process To Pick A Successor Has Formally Begun]]></title>
-        <id>https://www.hopiumchronicles.com/p/platner-officially-withdraws-from</id>
-        <link href="https://www.hopiumchronicles.com/p/platner-officially-withdraws-from"/>
-        <updated>2026-07-10T21:50:30.000Z</updated>
-        <summary type="html"><![CDATA[Let's keep rallying for the Maine Democrats today!!!!!!!!!!!!!!!!!!!!!!]]></summary>
-        <author>
-            <name>Simon Rosenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Am I Not Surprised That There Are Republicans Who Would Support Resegregation?]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a71899923/segregation-schools-new-hampshire-kristin-noble/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a71899923/segregation-schools-new-hampshire-kristin-noble/"/>
-        <updated>2026-07-10T21:15:09.000Z</updated>
-        <summary type="html"><![CDATA[A leaked group chat shows what’s been bubbling not so far beneath the surface of the wing-nut Right. Let’s pray it doesn’t boil over.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Celebrating 161 years, get The Nation for just $8.65]]></title>
         <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0m1hc69ilf3tsjodzd22.html</id>
         <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/0m1hc69ilf3tsjodzd22.html"/>
@@ -5010,56 +5026,6 @@ The culprit is this setting, which I need to avoid duplicate-…]]></summary>
 *{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:670px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}.reverse{display:table;width:100%}.reverse .column.first{display:table-footer-group!important}.rever…]]></summary>
         <author>
             <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Here’s What Texas Tech’s Leadership Is Being Sued For Censoring]]></title>
-        <id>https://defector.com/?p=228543</id>
-        <link href="https://defector.com/heres-what-texas-techs-leadership-is-being-sued-for-censoring"/>
-        <updated>2026-07-10T19:32:59.000Z</updated>
-        <summary type="html"><![CDATA[Is Plato’s Republic too gay?  
-This is one of many brave questions posed by the Texas Tech University System’s chancellor and Board of Regents as they implement an “extraordinary system of censorship in higher education,” according to a new lawsuit filed Wednesday in Texas federal court by faculty unions. The American Association of University Professors and the Texas AAUP-AFT said that Texas Tech is violating the First and Fourteenth Amendments by way of sweeping new restrictions on academic freedom.   
-The Texas Tech University System collectively serves about 64,000 students, and is one of only nine in the country offering programs that span undergraduate, medical, law, nursing, pharmacy, dental, and veterinary education. That’s a lot of curricula to rid of "content that promotes activism on issues related to race or sex," "endorsement of a gender spectrum," and suggestions that "meritocracy or a strong work ethic are inherently racist"! Thankfully, university system Chancellor Brandon Creighton said Texas Tech built an AI tool to scan syllabi, reading materials, and lesson plans for censor-worthy material.]]></summary>
-        <author>
-            <name>Sohini Desai</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raymond Zeitler: One Hundred Times the Highest Priority]]></title>
-        <id>https://ray-on-emacs.blogspot.com/2026/07/one-hundred-times-highest-priority.html</id>
-        <link href="https://ray-on-emacs.blogspot.com/2026/07/one-hundred-times-highest-priority.html"/>
-        <updated>2026-07-10T18:45:12.923Z</updated>
-        <summary type="html"><![CDATA[1 I was disappointed to learn that valid priority characters are limited to 0–9 and A–Z.  I
-thought it would be neat if the exclamation mark ("!") could represent
-the ultimate priority, a sort of "drop everything and do this
-immediately" kind of priority.
-
-
-
-It turns out that you can use "!" for this purpose, regardless of
-which priority characters you've configured.  The trick is to write a
-function and assign it to org-priority-get-priority-function.
-
-
-
-The function (which I named org-get-cust-priority) simply
-looks for "!" in the priority cookie and returns one hundred times the
-value that would be returned by the highest valid priority.  If it
-doesn't find "!" it simply calls a modified version of the usual
-org-get-property function,2 which I
-named org-get-std-priority.  The two functi…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Games of the Day]]></title>
-        <id>https://www.baseballmusings.com/?p=160759</id>
-        <link href="https://www.baseballmusings.com/?p=160759"/>
-        <updated>2026-07-10T17:52:34.000Z</updated>
-        <summary type="html"><![CDATA[Two teams fighting for division titles meet in Miami as the Guardians send Parker Messick against Sandy Alcantara. Messick, with his 2.80 ERA and his outstanding three-true outcomes is making a nice bid for AL Rookie of the Year. He currently rates a 3.2 rWAR for the season. Alcantara owns a 10-4 record with a […]]]></summary>
-        <author>
-            <name>David Pinto</name>
         </author>
     </entry>
 </feed>
