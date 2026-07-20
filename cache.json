@@ -12,6 +12,16 @@
       "siteUrl": "https://www.mlbtraderumors.com",
       "articles": [
         {
+          "id": "https://www.mlbtraderumors.com/?p=904099",
+          "author": "Mark Polishuk",
+          "description": "Prior to today’s 19-2 loss to the Padres, the Royals activated right-hander Stephen Kolek from the restricted list and placed Kolek on the 15-day injured list due to a right flexor strain.  K.C. manager Matt Quatraro told MLB.com’s Anne Rogers and other media that Kolek will undergo testing on Monday to determine the extent of […]",
+          "link": "https://www.mlbtraderumors.com/2026/07/royal-place-stephen-kolek-on-15-day-injured-list.html",
+          "publishedOn": "2026-07-20T04:05:49.000Z",
+          "wordCount": 1938,
+          "title": "Royals Place Stephen Kolek On 15-Day Injured List",
+          "imageUrl": "https://cdn.mlbtraderumors.com/files/2026/02/stephen-kolek-royals-spring-1024x682.jpg"
+        },
+        {
           "id": "https://www.mlbtraderumors.com/?p=903813",
           "author": "Anthony Franco",
           "description": "The Royals are trading outfielder Rudy Martin Jr. to the Orioles, reports Ari Alexander of 7 Boston News. Baltimore will select him onto the 40-man roster and option him to Triple-A Norfolk. Trades like this usually involve a nominal cash consideration going back in return. Martin is a 30-year-old who has never appeared in the majors. […]",
@@ -211,22 +221,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/6ff183ba-aa29-4a5d-bbe0-a45cd3610fbe_1200x675.png"
-        },
-        {
-          "id": "https://www.dworkinsubstack.com/p/trumps-horrible-week-a-maga-congressman",
-          "author": "Scott Dworkin",
-          "description": "Plus: Planned Parenthood's clinics outlasted the regime’s Medicaid ban",
-          "link": "https://www.dworkinsubstack.com/p/trumps-horrible-week-a-maga-congressman",
-          "publishedOn": "2026-07-10T15:50:51.000Z",
-          "wordCount": null,
-          "title": "Trump’s Horrible Week: A MAGA Congressman Booed, A Network Defies Him, and His Friend’s Propaganda Machine Dies",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/d8d3964a-925e-46a4-ad58-004e416dde56_1200x675.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/d8d3964a-925e-46a4-ad58-004e416dde56_1200x675.png"
         }
       ]
     },
@@ -633,16 +627,6 @@
           "publishedOn": "2026-07-10T19:36:33.791Z",
           "wordCount": 452,
           "title": "Celebrating 161 years, get The Nation for just $8.65",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/jmxk2gwk0t4j1mfkxvgg.html",
-          "author": null,
-          "description": "96\n\n\n\n\n\n\nFor the (Presidential) Record\n\n\nimg{-ms-interpolation-mode:bicubic;}\ntable, td{mso-table-lspace:0pt;mso-table-rspace:0pt;}\n.mceStandardButton, .mceStandardButton td, .mceStandardButton td a{mso-hide:all!important;}\np, a, li, td, blockquote{mso-line-height-rule:exactly;}\np, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}\n.mcnPreviewText{display:none!important;}\n.bodyCell{margin:0 auto;padding:0;width:100%;}\n.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;}\n.ReadMsgBody, .ExternalClass{width:100%;}\na[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inherit!important;font-weight:inherit!im…",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/jmxk2gwk0t4j1mfkxvgg.html",
-          "publishedOn": "2026-07-10T16:37:03.342Z",
-          "wordCount": 1816,
-          "title": "For the (Presidential) Record",
           "imageUrl": null
         }
       ]
@@ -1090,26 +1074,6 @@
           "publishedOn": "2026-07-10T18:45:12.923Z",
           "wordCount": 2930,
           "title": "Raymond Zeitler: One Hundred Times the Highest Priority",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.chiply.dev/post-july-emacs-carnival",
-          "author": null,
-          "description": "1. TLDR   tldr\n\n\n\n\n\nTwo technologies have endowed every editor with IDE superpowers this past decade: tree-sitter, a generic incremental parser that gives your editor a live syntax tree of your code, and the Language Server Protocol (LSP), a generic client-server protocol that gives your editor code intelligence features like linting, type-checking, auto-completion, and code navigation.  Each one replaces an M×N fan-out of per-language, per-editor hacks with a single, language- and editor-agnostic protocol.  Emacs has merged support for both into its core, and shipped them in Emacs 29.1 (three years ago this month!).  This post explains what each one does, visualizes a real-life tree-sitter parse tree, and recounts how both technologies made their way upstream into the glorious Emacs core.…",
-          "link": "https://www.chiply.dev/post-july-emacs-carnival",
-          "publishedOn": "2026-07-10T18:36:07.000Z",
-          "wordCount": 8470,
-          "title": "Charlie Holland: A Tree and a Server Walk Into a Core&#x2026;",
-          "imageUrl": "https://www.chiply.dev/images/july-emacs-carnival-banner.jpeg"
-        },
-        {
-          "id": "https://list.orgmode.org/87tsq6937o.fsf@localhost",
-          "author": null,
-          "description": "[request] flags:--- replies:5",
-          "link": "https://list.orgmode.org/87tsq6937o.fsf@localhost",
-          "publishedOn": "2026-07-10T17:14:57.000Z",
-          "wordCount": 564,
-          "title": "Org Mode requests: [RFC] Help with PDF/UA2 accessibility tests for ox-latex",
           "imageUrl": null
         }
       ]
@@ -1635,16 +1599,6 @@
           "wordCount": 2435,
           "title": "How Lindsey Graham Built the Trump Supreme Court",
           "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2026/07/GettyImages-1042005324-1200x630.jpg"
-        },
-        {
-          "id": "https://ballsandstrikes.org/?p=18558",
-          "author": "Madiba K. Dennie",
-          "description": "The Trump White House joins the gun activists petitioning the Supreme Court to continue its rewrite of the Second Amendment.\nThe post The Supreme Court Is Coming For Assault Weapons <span class=\"dewidow\">Bans Next</span> appeared first on Balls and Strikes.",
-          "link": "https://ballsandstrikes.org/scotus/supreme-court-assault-weapons-ban-case-preview/",
-          "publishedOn": "2026-07-10T16:29:55.000Z",
-          "wordCount": 1698,
-          "title": "The Supreme Court Is Coming For Assault Weapons Bans Next",
-          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2024/09/GettyImages-1186012757-1200x630.jpg"
         }
       ]
     },
@@ -2527,26 +2481,6 @@
           "wordCount": 5655,
           "title": "Here’s What Texas Tech’s Leadership Is Being Sued For Censoring",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-1277021577-smaller-e1783709991854.jpeg"
-        },
-        {
-          "id": "https://defector.com/?p=228492",
-          "author": "Sam Mostow",
-          "description": "Cheri Kempf knows exactly how hard it is to sustain a professional women’s sports league. She was the commissioner of the now-defunct National Pro Fastpitch league. During her tenure, the NPF’s league office had two full-time employees, one of whom was Kempf. It launched in 2004 and went through rounds of expansion and contraction, but didn’t have the television contracts or budget to sustain itself long term. When the COVID-19 pandemic came and canceled the 2020 and 2021 seasons, the league folded.\nIt was around this time that she received a call from Jon Patricof, the co-founder and CEO of Athletes Unlimited, an organization founded in 2020 that has been attempting to establish pro women’s leagues across various sports. Patricof reached out to Kempf for her expertise, and right away she could tell that Athletes Unlimited had advantages that the NPF never did.   \n“That included it having the financial structure behind all of that as the foundation, so that is something that professional softball in this country has never seen, certainly to that degree,” said Kempf, who is now the AUSL’s chief broadcast officer and executive producer. “The NPF really was just a fraction of any of that, in terms of budget and league office and enablement.”",
-          "link": "https://defector.com/the-ausl-plans-to-do-what-other-pro-softball-leagues-couldnt",
-          "publishedOn": "2026-07-10T16:42:42.000Z",
-          "wordCount": 8547,
-          "title": "The AUSL Plans To Do What Other Pro Softball Leagues Couldn’t",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2283287570.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=228482",
-          "author": "Barry Petchesky",
-          "description": "Norway's charmed and charming run to the World Cup quarterfinals has been a good time all around. Erling Haaland is probably the most lovingly memed man on Earth at the moment, and with good reason. The Norwegians are getting really into cowboy fashion. It's all very fun. They seem like a fun hang. And they are rowing. They are rowing after wins. They are rowing in Times Square. They are rowing up the escalator.\nThe Viking Row is the breakout celebration of this Cup, with supporters joining the team after victories in a metronomic pantomime of their ancestors crossing the storm-toss'd seas, possibly to raid some abbey or other. But after Norway's victory over Senegal in the group stage, a photo went viral showing one lone Norway fan refusing to put his back into the oar. Emil Anners Lappen refuses to row! He simply will not. In the silly season of World Cup human interest stories, this has made Emil famous. The news is covering him in his home country. They're covering him in Sweden. And now, ahead of England's final-eight match against Norway, Emil has finally been interviewed in English, by Sky News.\n\nhttps://twitter.com/skynews/status/2075338675114684690",
-          "link": "https://defector.com/i-sit-in-solidarity-with-the-norway-fan-who-refuses-to-do-the-viking-row",
-          "publishedOn": "2026-07-10T15:44:33.000Z",
-          "wordCount": 6448,
-          "title": "I Sit In Solidarity With The Norway Fan Who Refuses To Do The Viking Row",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2284663527.jpg"
         }
       ]
     },
