@@ -597,6 +597,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://emacs.dyerdwelling.family/emacs/20260721093224-emacs--borrowing-from-jasspa-microemacs-dired-sort-keybindings/",
+          "author": null,
+          "description": "For those unfamiliar with the lineage, MicroEmacs originally dates back to 1985 when Dave Conroy built a tiny, portable Emacs clone, later maintained for decades by Daniel M. Lawrence (and famously still used by Linus Torvalds today!). Around 1988, Jon Green and Steven Phillips forked MicroEmacs 3.8 to build Jasspa, it uses a subset of full emacs command set and it can emulate the keybindings from Microemacs, GNU Emacs, and even Windows CUA keybindings. It's a much enhanced version of the Daniel Lawrence's original MicroEmacs 3.8 of 1988 and they have grown it into a remarkably feature-packed environment with syntax highlighting, windowing, and a macro language and its still regularly updated!\n\n\n\nOne thing that immediately caught my eye in Jasspa was its file manager (a dired equivalent th…",
+          "link": "https://emacs.dyerdwelling.family/emacs/20260721093224-emacs--borrowing-from-jasspa-microemacs-dired-sort-keybindings/",
+          "publishedOn": "2026-07-21T08:32:00.000Z",
+          "wordCount": null,
+          "title": "James Dyer: Borrowing from Jasspa MicroEmacs : Dired Sort Keybindings",
+          "imageUrl": null
+        },
+        {
+          "id": "https://emacsredux.com/blog/2026/07/21/right-aligned-mode-line-elements/",
+          "author": null,
+          "description": "Emacs users have long wanted the ability to push certain mode line elements to\nthe right edge of the window. Think of it like having a left-aligned and\nright-aligned section in your mode line - buffer name on the left, maybe the time\nor some status info on the right.\nBefore Emacs 30, achieving this required various hacks involving padding\ncalculations and propertized strings. It was doable, but fragile and ugly.\nEmacs 30 makes it trivial with mode-line-format-right-align.\nHow it works\nJust insert the symbol mode-line-format-right-align into your\nmode-line-format. Everything before it is left-aligned (as usual), and\neverything after it gets pushed to the right edge.\n\n(setq-default mode-line-format\n              '(\"%e\" mode-line-front-space\n                mode-line-mule-info\n               …",
+          "link": "https://emacsredux.com/blog/2026/07/21/right-aligned-mode-line-elements/",
+          "publishedOn": "2026-07-21T05:00:00.000Z",
+          "wordCount": 561,
+          "title": "Emacs Redux: Right-aligned Mode Line Elements",
+          "imageUrl": "https://emacsredux.com/assets/og-image.png"
+        },
+        {
           "id": "https://mbork.pl/2026-07-20_Hideshow_mode",
           "author": null,
           "description": "Recently I discovered a very cool feature of Emacs. Apparently, it’s been present in Emacs for over 30 years, although the Git log shows that it’s been heavily worked on very recently. Meet Hideshow mode. It’s purpose is simple: it allows to, well, hide or show blocks of code.",
@@ -1043,6 +1063,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160867",
+          "author": "David Pinto",
+          "description": "",
+          "link": "https://www.baseballmusings.com/?p=160867",
+          "publishedOn": "2026-07-21T10:11:22.000Z",
+          "wordCount": 7494,
+          "title": "Tuesday Update",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160865",
           "author": "David Pinto",
