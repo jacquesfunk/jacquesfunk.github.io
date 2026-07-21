@@ -2,10 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-21T21:07:35.545Z</updated>
+    <updated>2026-07-21T22:54:49.467Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ravech Gone]]></title>
+        <id>https://www.baseballmusings.com/?p=160875</id>
+        <link href="https://www.baseballmusings.com/?p=160875"/>
+        <updated>2026-07-21T22:32:04.000Z</updated>
+        <summary type="html"><![CDATA[ESPN laid off long-time Baseball Tonight host and Sunday Night Baseball play by play announcer Karl Ravech. I enjoyed working with Karl on that show and it’s sad to see him go. I’m sure he’ll land on his feet with MLB Network or NBC. Best of luck to Karl on his next endeavor.]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: Modeling Browser History in Emacs]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/07/modeling-browser-history-in-emacs.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/07/modeling-browser-history-in-emacs.html"/>
+        <updated>2026-07-21T21:37:58.035Z</updated>
+        <summary type="html"><![CDATA[If there were an underappreciated web browser feature, it would be
+  this: history.
+On many browsers, history is invoked with C-h
+  (Ctrl+h).  Vivaldi shows history as a calendar. The user
+  can choose from time intervals of Day, Week or Month and search for
+  a keyword within that time interval.1 
+I tend to write about a topic after I've forgotten where I read
+  about it.  Suppose I recall reading about "nslookup" but can't
+  remember when or where.  Simple.  Vivaldi remembered that I
+  visited a page with "nslookup" on Windows Central on July 3 at
+  21:26.  Being able to find such references helps.
+History helped me track my hours when my employer required
+  bi-weekly timesheets.  I would combine browser history with Org's
+  clock report to get a result I was actually proud to submit.
+I …]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Trea Turner Is A True Two-Way Player]]></title>
         <id>https://defector.com/?p=229694</id>
@@ -5620,27 +5654,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
    …]]></summary>
         <author>
             <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sunday Update]]></title>
-        <id>https://www.baseballmusings.com/?p=160777</id>
-        <link href="https://www.baseballmusings.com/?p=160777"/>
-        <updated>2026-07-12T10:30:45.000Z</updated>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Brandon Aiyuk's NFL career is already over]]></title>
-        <id>https://www.sfgate.com/49ers/article/brandon-aiyuk-career-over-22327356.php-full</id>
-        <link href="https://www.sfgate.com/49ers/article/brandon-aiyuk-career-over-22327356.php"/>
-        <updated>2026-07-12T09:49:35.226Z</updated>
-        <summary type="html"><![CDATA[The NFL has had itself one miserable offseason. You may have been too busy watching America self-immolating to notice, but the football men have been behaving incredibly badly of late. Falcons edge rusher James Pearce got arrested for allegedly being a psycho boyfriend to Chicago Sky forward Rickea Jackson. The Denver Broncos have a sudden, and grotesque, DV problem on their hands. Terrion Arnold just got dropped by the Lions after being arrested on suspicion of kidnapping. And New England coach Mike Vrabel can’t seem to keep his little Pat Patriot in his trousers. All of it either has been ugly or has served as a portent of more ugliness to come. 
-
-Which brings us to the curious story of 49ers wideout Brandon Aiyuk, whose recent behavior has gone from maddening to outright frightening. Ju…]]></summary>
-        <author>
-            <name>Drew Magary, Columnist - SFGATE</name>
         </author>
     </entry>
 </feed>

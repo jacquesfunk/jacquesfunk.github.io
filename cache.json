@@ -633,6 +633,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://ray-on-emacs.blogspot.com/2026/07/modeling-browser-history-in-emacs.html",
+          "author": null,
+          "description": "If there were an underappreciated web browser feature, it would be\n  this: history.\nOn many browsers, history is invoked with C-h\n  (Ctrl+h).  Vivaldi shows history as a calendar. The user\n  can choose from time intervals of Day, Week or Month and search for\n  a keyword within that time interval.1 \nI tend to write about a topic after I've forgotten where I read\n  about it.  Suppose I recall reading about \"nslookup\" but can't\n  remember when or where.  Simple.  Vivaldi remembered that I\n  visited a page with \"nslookup\" on Windows Central on July 3 at\n  21:26.  Being able to find such references helps.\nHistory helped me track my hours when my employer required\n  bi-weekly timesheets.  I would combine browser history with Org's\n  clock report to get a result I was actually proud to submit.\nI …",
+          "link": "https://ray-on-emacs.blogspot.com/2026/07/modeling-browser-history-in-emacs.html",
+          "publishedOn": "2026-07-21T21:37:58.035Z",
+          "wordCount": 3023,
+          "title": "Raymond Zeitler: Modeling Browser History in Emacs",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=13960",
           "author": null,
           "description": "quick post on a recent enhancement to Emacs Flymake. The  TL;DR is that you can arrange for Flymake to append a diagnostic at the end of any line with a problem. It’s a quick way of seeing what the problem is and maybe fixing it without a lot of extra work.\n\n\nAs Batsov (and the documentation) says, that can get a little noisy so (of course) Emacs gives you a setting to control how much information is displayed. Take a look at Batsov’s post for the details.\n\n\nI’ve never warmed up to Flymake but lots of people, I know, love it. If you’re one of those people, be sure to take a look at Batsov’s post. Everything is controlled by a single variable so it’s easy to try out the various options.\n\n\nThis feature is available only with Emacs 30 and later. Getting it may be a good reason to upgrade if you haven’t already.",
@@ -1089,6 +1099,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160875",
+          "author": "David Pinto",
+          "description": "ESPN laid off long-time Baseball Tonight host and Sunday Night Baseball play by play announcer Karl Ravech. I enjoyed working with Karl on that show and it’s sad to see him go. I’m sure he’ll land on his feet with MLB Network or NBC. Best of luck to Karl on his next endeavor.",
+          "link": "https://www.baseballmusings.com/?p=160875",
+          "publishedOn": "2026-07-21T22:32:04.000Z",
+          "wordCount": 7541,
+          "title": "Ravech Gone",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160873",
           "author": "David Pinto",
@@ -1547,16 +1567,6 @@
           "publishedOn": "2026-07-12T11:10:14.000Z",
           "wordCount": 7782,
           "title": "Best Batter Today",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160777",
-          "author": "David Pinto",
-          "description": "",
-          "link": "https://www.baseballmusings.com/?p=160777",
-          "publishedOn": "2026-07-12T10:30:45.000Z",
-          "wordCount": 7488,
-          "title": "Sunday Update",
           "imageUrl": null
         }
       ]
@@ -3779,16 +3789,6 @@
           "publishedOn": "2026-07-13T19:21:26.003Z",
           "wordCount": 177,
           "title": "A Gen X review of Gen Z phenomenon 'Backrooms'",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/49ers/article/brandon-aiyuk-career-over-22327356.php-full",
-          "author": null,
-          "description": "The NFL has had itself one miserable offseason. You may have been too busy watching America self-immolating to notice, but the football men have been behaving incredibly badly of late. Falcons edge rusher James Pearce got arrested for allegedly being a psycho boyfriend to Chicago Sky forward Rickea Jackson. The Denver Broncos have a sudden, and grotesque, DV problem on their hands. Terrion Arnold just got dropped by the Lions after being arrested on suspicion of kidnapping. And New England coach Mike Vrabel can’t seem to keep his little Pat Patriot in his trousers. All of it either has been ugly or has served as a portent of more ugliness to come. \n\nWhich brings us to the curious story of 49ers wideout Brandon Aiyuk, whose recent behavior has gone from maddening to outright frightening. Ju…",
-          "link": "https://www.sfgate.com/49ers/article/brandon-aiyuk-career-over-22327356.php",
-          "publishedOn": "2026-07-12T09:49:35.226Z",
-          "wordCount": 177,
-          "title": "Brandon Aiyuk's NFL career is already over",
           "imageUrl": null
         }
       ]
