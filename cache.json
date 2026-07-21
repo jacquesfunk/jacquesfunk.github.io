@@ -578,16 +578,6 @@
           "wordCount": 730,
           "title": "Hear from the lawyers who argued before the Supreme Court this term",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/et7zmc6e7ac7f54e7jfv.html",
-          "author": null,
-          "description": "96\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}#converted-body .list_block ol,#converted-body .list_block ul,.body [class~=x_list_block] ol,.body [class~=x_list_block] ul,u+.body .list_block ol,u+.body .list_block ul{padding-left:20px} @media (max-width:620px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size…",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/et7zmc6e7ac7f54e7jfv.html",
-          "publishedOn": "2026-07-11T19:02:06.956Z",
-          "wordCount": 597,
-          "title": "Experience the magic and complexity of India",
-          "imageUrl": null
         }
       ]
     },
@@ -1045,16 +1035,6 @@
           "wordCount": 192,
           "title": "Srijan Choudhary: 2026-07-12-001",
           "imageUrl": null
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-07-12-emacs-doric-themes-1-2-0/",
-          "author": null,
-          "description": "These are my minimalist themes. They use few colours and will appear\nmostly monochromatic in many contexts. Styles involve the careful use\nof typography, such as italics and bold italics.\nIf you want maximalist themes in terms of colour, check my ef-themes\npackage. For something in-between, which I would consider the best\n“default theme” for a text editor, opt for my modus-themes.\nPackage name (GNU ELPA): doric-themes\nSample pictures: https://protesilaos.com/emacs/doric-themes-pictures\nGit repository: https://github.com/protesilaos/doric-themes\nBackronym: Doric Only Really Intensifies Conservatively … themes.\nBelow are the release notes.\nVersion 1.2.0 on 2026-07-12\nTwo new themes\ndoric-tiger is a light theme, while doric-lion is dark. Both have\nwarm colours.\nOrg agenda events are easier to spot\nEvents are entries which have an active timestamp but not a\nSCHEDULED or DEADLINE keyword associated with it. Those are now\nrendered in italics in addition to the faint foreground they already\nhad (the faint foreground is there because an event is not as\nimportant as a\nSupport for vc-dir-key-binding-hint-label (Emacs 32)\nThis concerns a new option for VC Dir buffers to display their\navailable key bindings. The face applies to the additional headings.\nThey should now look like all the other headings in those buffers in\nthe interest of stylistic consistency.\nSome package.el faces stand out more\nThose are present in the buffer that M-x list-packages produces.\nThey concern certain status indicators and fit in better with the rest\nof the design.\nThe nobreak-space face is now underlined\nThis is one way to make that character visible. It is useful to know\nthat a space is not the regular space. For example, in French\northography we are expected to include non-breaking spaces between the\nquotes and the words like « Protesilaos ». Whether you actually follow\nthat guideline is another discussion—I happily ignore it.",
-          "link": "https://protesilaos.com/codelog/2026-07-12-emacs-doric-themes-1-2-0/",
-          "publishedOn": "2026-07-12T00:00:00.000Z",
-          "wordCount": 403,
-          "title": "Protesilaos: Emacs: doric-themes version 1.2.0",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         }
       ]
     },
@@ -1063,6 +1043,26 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160871",
+          "author": "David Pinto",
+          "description": "The past couple of days I reviewed the systems with Claude.AI, and that program suggested adding a Logistic Regression probability to the mix. Claude.AI sees the NN as overestimating at the lower end of batter probabilities, but doing okay at the top end. This is the third column, and I’ll track this for the rest […]",
+          "link": "https://www.baseballmusings.com/?p=160871",
+          "publishedOn": "2026-07-21T11:05:05.000Z",
+          "wordCount": 8181,
+          "title": "Beat the Streak Picks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160869",
+          "author": "David Pinto",
+          "description": "Willson Contreras of the Red Sox moved into fourth place in the Baseball Musings Batter Rankings with a three for four, including a double, in a 6-5 back and forth win against the Orioles. That extended Boston’s win streak to fourteen games while ending the Baltimore seven game streak. Contreras led the offense during the […]",
+          "link": "https://www.baseballmusings.com/?p=160869",
+          "publishedOn": "2026-07-21T10:36:54.000Z",
+          "wordCount": 7759,
+          "title": "Best Batter Today",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160867",
           "author": "David Pinto",
@@ -1501,16 +1501,6 @@
           "publishedOn": "2026-07-12T10:30:45.000Z",
           "wordCount": 7488,
           "title": "Sunday Update",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160775",
-          "author": "David Pinto",
-          "description": "Esmerlyn Valdez of the Pirates swung his magic wand on Saturday and delivered three home runs in a doubleheader sweep of the Brewers. That gives him ten home runs in 100 MLB plate appearances in his first season. He owns a .311/.370/.722 slash line with 16 of his 28 hits going for extra bases. He […]",
-          "link": "https://www.baseballmusings.com/?p=160775",
-          "publishedOn": "2026-07-12T00:08:51.000Z",
-          "wordCount": 7614,
-          "title": "Whoa, Whoa, Whoa, It’s Magic",
           "imageUrl": null
         }
       ]
@@ -2024,6 +2014,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=229615",
+          "author": "Tom Ley",
+          "description": "Credit to The Athletic for crafting the most haunting lede of 2026. Monday's article about the Eagles head coach begins with a single, chilling sentence: \"Nick Sirianni discovered ChatGPT this offseason.\"\nThe mind reels. More and more of what sucks about modern life is the result of a certain kind of person becoming overly enamored with the capabilities of chatbots. You hear that someone recently \"discovered ChatGPT,\" and you reflexively begin preparing for a near future in which that person will soon be excitedly detailing hours-long conversations they had with their computer.\nSo how far gone is Sirianni?",
+          "link": "https://defector.com/red-alert-nick-sirianni-has-discovered-chatgpt",
+          "publishedOn": "2026-07-21T13:08:44.000Z",
+          "wordCount": 5202,
+          "title": "Red Alert: Nick Sirianni Has Discovered ChatGPT",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2263572197.jpg"
+        },
         {
           "id": "https://defector.com/?p=229389",
           "author": "Israel Daramola",
@@ -2602,6 +2602,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/9suzsaiyu23qa61cgvfg.html",
+          "author": null,
+          "description": "96\n        Bunts away!\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    line-height: 100%;\n  }\n\n  .apple-link a {\n    col…",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/9suzsaiyu23qa61cgvfg.html",
+          "publishedOn": "2026-07-21T12:28:15.502Z",
+          "wordCount": 3124,
+          "title": "Bunts away!",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/zxvyp6xv5tqoq01ffo5a.html",
           "author": null,
           "description": "Trade Deadline Preview Part 1\n@media (max-width: 1024px) {\n  .typography .pullquote-align-left,\n  .typography.editor .pullquote-align-left,\n  .typography .pullquote-align-right,\n  .typography.editor .pullquote-align-right,\n  .typography .pullquote-align-wide,\n  .typography.editor .pullquote-align-wide,\n  .typography .pullquote-align-center,\n  .typography.editor .pullquote-align-center {\n    float: none;\n    margin: 0 auto;\n    width: 100%;\n    max-width: 100%;\n  }\n}\n@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {\n  .typography .markup table.image-wrapper img,\n  .typography.editor .markup table.image-wrapper img,\n  .typography .markup table.kindle-wrapper img,\n  .typography.editor .markup table.kindle-wrapper img {\n    max-width: 550px;\n  }\n}\n@media (min-width: 1024p…",
@@ -2864,16 +2874,6 @@
           "wordCount": 2916,
           "title": "The Quiet Masterpiece: Why If You’re Feeling Sinister Might Be the Most Underrated Album Ever Made",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=2866",
-          "author": "Schill",
-          "description": "So a while back I was moving servers and in the process I managed to screw up the databases for one of the sites to where it was not recoverable.  I didn’t have the time or energy to redo things, so I just said screw it and left it by the wayside. Yesterday I was...",
-          "link": "https://stuffthatinterestsme.net/chatgpt-vs-claude-oh-honey-that-was-embarrassing/",
-          "publishedOn": "2026-07-11T23:16:29.000Z",
-          "wordCount": 2062,
-          "title": "ChatGPT Vs Claude. Oh Honey, That was Embarrassing",
-          "imageUrl": null
         }
       ]
     },
@@ -2881,7 +2881,18 @@
       "title": "Time Is Illmatic",
       "feedUrl": "https://timeisillmatic.me/feed/",
       "siteUrl": "https://timeisillmatic.me",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://timeisillmatic.me/?p=13271",
+          "author": "deedub77",
+          "description": "If you’re new to TimeIsIllmatic, I’m Deedub, a self-proclaimed hip-hop junkie who loves collecting CDs and vinyl. I collect other genres of music as well (i.e., R&B, seventies soul, pop, a bit of rock, and jazz), but a large chunk … Continue reading →",
+          "link": "https://timeisillmatic.me/2026/07/21/leschea-rhythm-beats-june-17-1997/",
+          "publishedOn": "2026-07-21T10:57:58.000Z",
+          "wordCount": 5702,
+          "title": "Leschea – Rhythm & Beats (June 17, 1997)",
+          "imageUrl": "https://timeisillmatic.me/wp-content/uploads/2026/07/ab67616d0000b273dd3e45b3fdfd8a4bc719170b.jpg"
+        }
+      ]
     },
     {
       "title": "Amanda Marcotte - Salon.com",
