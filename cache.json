@@ -1081,16 +1081,6 @@
           "wordCount": 1842,
           "title": "Chris Maiorana: Org mode as a gantt chart generator",
           "imageUrl": "https://chrismaiorana.com/wp-content/uploads/2026/07/org-ggant.png"
-        },
-        {
-          "id": "https://srijan.ch/notes/2026-07-12-001",
-          "author": null,
-          "description": "#TIL that #Emacs also has a Global Mark Ring:\nthe global mark ring records a sequence of buffers that you have been in, and, for each buffer, a place where you set the mark\nFor programming buffers / projects, I've been using the xref stack to go back/forward when jumping around. But the global mark ring is super useful as a general purpose tracker of my context jumps.\nBy default, C-x C-<SPC> jumps back. There is no forward like xref-go-forward, but it' a ring so it's possible to go around. Or there's always consult-global-mark to show the marks in a list and select from it.\nOther helpful links:\nEmacs: Mark Ring by Arialdo Martini\nEfficiency With The Mark Ring by Vernon Grant",
-          "link": "https://srijan.ch/notes/2026-07-12-001",
-          "publishedOn": "2026-07-12T07:50:00.000Z",
-          "wordCount": 192,
-          "title": "Srijan Choudhary: 2026-07-12-001",
-          "imageUrl": null
         }
       ]
     },
@@ -2123,6 +2113,16 @@
       "siteUrl": "https://defector.com/",
       "articles": [
         {
+          "id": "https://defector.com/?p=229694",
+          "author": "Sarah Borus",
+          "description": "PHILADELPHIA — I thought I would be miserable going to this game, watching two teams I hate (the Phillies and the Dodgers) ride high on their own egos amid overpriced concessions that jam a “ph” everywhere an “f” should be. I did it only so that I would finally get to see Shohei Ohtani play in person. But where was the phantastic two-way player, six-time all-star, and four-time MVP? Certainly not in the City of Brotherly Love. Whatever phacsimile was at the plate went 0-for-4 with two strikeouts and an intentional walk. In other words, the most Ohtani did in that game was have a reputation for being a threat. Yes, I know players have bad games. But I’ve seen enough to understand that Shohei Ohtani is nothing compared to baseball’s real two-way player, Trea Turner, who was such an important force for both teams that he was responsible for almost half the runs scored in the Phillies' 10-7 win. \nWhen Turner played short, ostensibly trying to help the Phillies prevent runs, everything hit his way turned to butter. Only one of his mishaps was ruled an error—a dropped ground ball from Mookie Betts in the top of the first which allowed the Dodgers to load the bases—but his defense assisted Los Angeles in several different ways. In the fourth inning, Turner misplayed a grounder from Alex Call to produce a single instead of a third out. In the sixth, he bobbled Andy Pages’s ground ball when he could have ended the inning with a simple throw to first, allowing Teoscar Hernandez to score. In the ninth, he misplayed Tommy Edman’s line drive up the middle to allow another runner on base and advance Pages.\nBut also, because Turner is such a great two-way player, he hit two home runs and a double, bringing in a total of phive runs for the Phillies. His dual loyalty was so confusing that those in the ballpark couldn’t decide how to feel about him. When Turner stepped up to bat, they booed, then cheered, then decided simply to make ambiguous noise.",
+          "link": "https://defector.com/trea-turner-is-a-true-two-way-player",
+          "publishedOn": "2026-07-21T20:10:43.000Z",
+          "wordCount": 5820,
+          "title": "Trea Turner Is A True Two-Way Player",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2286991937_e1109e-e1784663117407.jpg"
+        },
+        {
           "id": "https://defector.com/?p=229616",
           "author": "Drew Magary",
           "description": "Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGate, and buy Drew’s books while you’re at it. Today, we're talking about food hangups, cockroaches in heaven, shitting your pants on the football field, and more.\nBefore I get started, you guys might know that I moonlight as a weekly columnist over at SFGate. I joke that I work for the only two decent news sites left in America, because it's kinda true. But SFGate, like virtually every other media company dependent on ad revenue, got hammered when Google turned its search product into an AI mill. To help counter the losses, my overlords at the gate rolled out a subscription app for the site last week. Like Defector, it’s a cheap date, it has a clean, ad-free interface, and it protects the company newsroom from being decimated by outside forces. So if you can spare five bucks a month, please consider giving it a whirl.\nNow, your letters:",
@@ -2997,6 +2997,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/rfv4vfzoqt4277c0x7t1.html",
+          "author": null,
+          "description": "CPython ABI, CLAUDE.md, Itertools Cheatsheet, and More\n      body,#bodyTable,#bodyCell{\n      height:100% !important;\n      margin:0;\n      padding:0;\n      width:100% !important;\n      }\n      table{\n      border-collapse:collapse;\n      }\n      img,a img{\n      border:0;\n      outline:none;\n      text-decoration:none;\n      }\n      h1,h2,h3,h4,h5,h6{\n      margin:0;\n      padding:0;\n      }\n      p{\n      margin:1em 0;\n      padding:0;\n      }\n      a{\n      word-wrap:break-word;\n      }\n      .mcnPreviewText{\n      display:none !important;\n      }\n      .ReadMsgBody{\n      width:100%;\n      }\n      .ExternalClass{\n      width:100%;\n      }\n      .ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{\n      line-height:100%;\n      }\n …",
+          "link": "https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/rfv4vfzoqt4277c0x7t1.html",
+          "publishedOn": "2026-07-21T19:56:29.990Z",
+          "wordCount": 1430,
+          "title": "CPython ABI, CLAUDE.md, Itertools Cheatsheet, and More",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/4ymon3rf9xi2ucejzum5.html",
           "author": null,
           "description": "Stacks & Queues, Django F-Expressions, MCP Clients, and More\n      body,#bodyTable,#bodyCell{\n      height:100% !important;\n      margin:0;\n      padding:0;\n      width:100% !important;\n      }\n      table{\n      border-collapse:collapse;\n      }\n      img,a img{\n      border:0;\n      outline:none;\n      text-decoration:none;\n      }\n      h1,h2,h3,h4,h5,h6{\n      margin:0;\n      padding:0;\n      }\n      p{\n      margin:1em 0;\n      padding:0;\n      }\n      a{\n      word-wrap:break-word;\n      }\n      .mcnPreviewText{\n      display:none !important;\n      }\n      .ReadMsgBody{\n      width:100%;\n      }\n      .ExternalClass{\n      width:100%;\n      }\n      .ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{\n      line-height:100%;\n   …",
@@ -3788,6 +3798,16 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73221144/republican-chuck-edwards-gun-gifts-female-staffers/",
+          "author": null,
+          "description": "In case you needed another reason to not elect weirdos like representative Chuck Edwards, well, here it is.",
+          "link": "https://www.esquire.com/news-politics/politics/a73221144/republican-chuck-edwards-gun-gifts-female-staffers/",
+          "publishedOn": "2026-07-21T19:59:20.000Z",
+          "wordCount": 20343,
+          "title": "Maybe Republican Congressmen Shouldn’t Gift Guns to Their Female Employees, Just Saying",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/b6338c56-cc09-4aa0-9acd-c498169f0cd9.jpeg?crop=1xw:0.749633967789xh;center,top&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a73219381/reflecting-pool-national-driveway-tourists/",
           "author": null,

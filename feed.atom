@@ -2,10 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-21T19:18:50.242Z</updated>
+    <updated>2026-07-21T21:07:35.545Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Trea Turner Is A True Two-Way Player]]></title>
+        <id>https://defector.com/?p=229694</id>
+        <link href="https://defector.com/trea-turner-is-a-true-two-way-player"/>
+        <updated>2026-07-21T20:10:43.000Z</updated>
+        <summary type="html"><![CDATA[PHILADELPHIA — I thought I would be miserable going to this game, watching two teams I hate (the Phillies and the Dodgers) ride high on their own egos amid overpriced concessions that jam a “ph” everywhere an “f” should be. I did it only so that I would finally get to see Shohei Ohtani play in person. But where was the phantastic two-way player, six-time all-star, and four-time MVP? Certainly not in the City of Brotherly Love. Whatever phacsimile was at the plate went 0-for-4 with two strikeouts and an intentional walk. In other words, the most Ohtani did in that game was have a reputation for being a threat. Yes, I know players have bad games. But I’ve seen enough to understand that Shohei Ohtani is nothing compared to baseball’s real two-way player, Trea Turner, who was such an important force for both teams that he was responsible for almost half the runs scored in the Phillies' 10-7 win. 
+When Turner played short, ostensibly trying to help the Phillies prevent runs, everything hit his way turned to butter. Only one of his mishaps was ruled an error—a dropped ground ball from Mookie Betts in the top of the first which allowed the Dodgers to load the bases—but his defense assisted Los Angeles in several different ways. In the fourth inning, Turner misplayed a grounder from Alex Call to produce a single instead of a third out. In the sixth, he bobbled Andy Pages’s ground ball when he could have ended the inning with a simple throw to first, allowing Teoscar Hernandez to score. In the ninth, he misplayed Tommy Edman’s line drive up the middle to allow another runner on base and advance Pages.
+But also, because Turner is such a great two-way player, he hit two home runs and a double, bringing in a total of phive runs for the Phillies. His dual loyalty was so confusing that those in the ballpark couldn’t decide how to feel about him. When Turner stepped up to bat, they booed, then cheered, then decided simply to make ambiguous noise.]]></summary>
+        <author>
+            <name>Sarah Borus</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maybe Republican Congressmen Shouldn’t Gift Guns to Their Female Employees, Just Saying]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a73221144/republican-chuck-edwards-gun-gifts-female-staffers/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a73221144/republican-chuck-edwards-gun-gifts-female-staffers/"/>
+        <updated>2026-07-21T19:59:20.000Z</updated>
+        <summary type="html"><![CDATA[In case you needed another reason to not elect weirdos like representative Chuck Edwards, well, here it is.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CPython ABI, CLAUDE.md, Itertools Cheatsheet, and More]]></title>
+        <id>https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/rfv4vfzoqt4277c0x7t1.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/527km9xxoq0vonzops4m/entries/rfv4vfzoqt4277c0x7t1.html"/>
+        <updated>2026-07-21T19:56:29.990Z</updated>
+        <summary type="html"><![CDATA[CPython ABI, CLAUDE.md, Itertools Cheatsheet, and More
+      body,#bodyTable,#bodyCell{
+      height:100% !important;
+      margin:0;
+      padding:0;
+      width:100% !important;
+      }
+      table{
+      border-collapse:collapse;
+      }
+      img,a img{
+      border:0;
+      outline:none;
+      text-decoration:none;
+      }
+      h1,h2,h3,h4,h5,h6{
+      margin:0;
+      padding:0;
+      }
+      p{
+      margin:1em 0;
+      padding:0;
+      }
+      a{
+      word-wrap:break-word;
+      }
+      .mcnPreviewText{
+      display:none !important;
+      }
+      .ReadMsgBody{
+      width:100%;
+      }
+      .ExternalClass{
+      width:100%;
+      }
+      .ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{
+      line-height:100%;
+      }
+ …]]></summary>
+        <author>
+            <name>Tech</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Senator Sean McCann Checks In From MI-04]]></title>
         <id>https://www.hopiumchronicles.com/p/a-check-in-with-senator-sean-mccann</id>
@@ -5571,22 +5641,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 Which brings us to the curious story of 49ers wideout Brandon Aiyuk, whose recent behavior has gone from maddening to outright frightening. Ju…]]></summary>
         <author>
             <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Srijan Choudhary: 2026-07-12-001]]></title>
-        <id>https://srijan.ch/notes/2026-07-12-001</id>
-        <link href="https://srijan.ch/notes/2026-07-12-001"/>
-        <updated>2026-07-12T07:50:00.000Z</updated>
-        <summary type="html"><![CDATA[#TIL that #Emacs also has a Global Mark Ring:
-the global mark ring records a sequence of buffers that you have been in, and, for each buffer, a place where you set the mark
-For programming buffers / projects, I've been using the xref stack to go back/forward when jumping around. But the global mark ring is super useful as a general purpose tracker of my context jumps.
-By default, C-x C-<SPC> jumps back. There is no forward like xref-go-forward, but it' a ring so it's possible to go around. Or there's always consult-global-mark to show the marks in a list and select from it.
-Other helpful links:
-Emacs: Mark Ring by Arialdo Martini
-Efficiency With The Mark Ring by Vernon Grant]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
