@@ -22,11 +22,109 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-07-21 datetime="2026-07-21T13:08:44.000Z">2026-07-21</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-07-21 datetime="2026-07-21T13:08:44.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-07-21 datetime="2026-07-21T15:03:50.000Z">2026-07-21</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-07-21 datetime="2026-07-21T15:03:50.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Emacslife</button>
+                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13960"
+                        open
+                      >
+                        <summary class="article-expander__title">Irreal: Flymake Diagnostics</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13960">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>quick post on a recent enhancement to Emacs Flymake. The  TL;DR is that you can arrange for Flymake to append a diagnostic at the end of any line with a problem. It’s a quick way of seeing what the problem is and maybe fixing it without a lot of extra work.
+
+
+As Batsov (and the documentation) says, that can get a little noisy so (of course) Emacs gives you a setting to control how much information is displayed. Take a look at Batsov’s post for the details.
+
+
+I’ve never warmed up to Flymake but lots of people, I know, love it. If you’re one of those people, be sure to take a look at Batsov’s post. Everything is controlled by a single variable so it’s easy to try out the various options.
+
+
+This feature is available only with Emacs 30 and later. Getting it may be a good reason to upgrade if you haven’t already.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://emacs.dyerdwelling.family/emacs/20260721093224-emacs--borrowing-from-jasspa-microemacs-dired-sort-keybindings/"
+                        open
+                      >
+                        <summary class="article-expander__title">James Dyer: Borrowing from Jasspa MicroEmacs : Dired Sort Keybindings</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://emacs.dyerdwelling.family/emacs/20260721093224-emacs--borrowing-from-jasspa-microemacs-dired-sort-keybindings/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>For those unfamiliar with the lineage, MicroEmacs originally dates back to 1985 when Dave Conroy built a tiny, portable Emacs clone, later maintained for decades by Daniel M. Lawrence (and famously still used by Linus Torvalds today!). Around 1988, Jon Green and Steven Phillips forked MicroEmacs 3.8 to build Jasspa, it uses a subset of full emacs command set and it can emulate the keybindings from Microemacs, GNU Emacs, and even Windows CUA keybindings. It&#x27;s a much enhanced version of the Daniel Lawrence&#x27;s original MicroEmacs 3.8 of 1988 and they have grown it into a remarkably feature-packed environment with syntax highlighting, windowing, and a macro language and its still regularly updated!
+
+
+
+One thing that immediately caught my eye in Jasspa was its file manager (a dired equivalent th…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://emacsredux.com/blog/2026/07/21/right-aligned-mode-line-elements/"
+                        open
+                      >
+                        <summary class="article-expander__title">Emacs Redux: Right-aligned Mode Line Elements</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://emacsredux.com/blog/2026/07/21/right-aligned-mode-line-elements/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://emacsredux.com/assets/og-image.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Emacs users have long wanted the ability to push certain mode line elements to
+the right edge of the window. Think of it like having a left-aligned and
+right-aligned section in your mode line - buffer name on the left, maybe the time
+or some status info on the right.
+Before Emacs 30, achieving this required various hacks involving padding
+calculations and propertized strings. It was doable, but fragile and ugly.
+Emacs 30 makes it trivial with mode-line-format-right-align.
+How it works
+Just insert the symbol mode-line-format-right-align into your
+mode-line-format. Everything before it is left-aligned (as usual), and
+everything after it gets pushed to the right edge.
+
+(setq-default mode-line-format
+              &#x27;(&quot;%e&quot; mode-line-front-space
+                mode-line-mule-info
+               …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -38,6 +136,49 @@
                   <a class="source-heading__link" href="https://defector.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://defector.com/?p&#x3D;229539"
+                        open
+                      >
+                        <summary class="article-expander__title">Can Men Stop Hating Women?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/can-men-stop-hating-women">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/2.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>While many of us can agree men are in trouble, few can agree on the exact cause. America has a masculinity crisis. Men are in trouble. The &quot;masculinity crisis&quot; is real. The male loneliness epidemic has received radically different diagnoses from men’s rights activists, religious conservatives, feminists, and heteropessimists. The manosphere, a loose affiliation of men who hold women in low esteem and value “alpha” behavior over weakness, ranges from hardcore redpilled incels and influencers, like Andrew Tate, to those who focus more on maximizing their own physical bodies, like Bryan Johnson and Clavicular. The blatantly sexist, racist, and homophobic language of figures like Christian nationalist Pastor Doug Wilson, who says women shouldn’t vote, and influencers like Myron Gaines has garnered a fair amount of inquiry and alarm—most recently in Louis Theroux’s recent documentary Inside the Manosphere.
+But not all men want to treat masculinity as a math problem that cheapens women. Former GQ editor Sean Hotchkiss has recently written a “memoir of male rage and recovery,” provocatively titled Hating Women. After years of engaging in hookup culture, he’s become a life coach focused on creating positive masculinity. 
+Hotchkiss joins the chorus of those claiming that heterosexuality is in crisis. Instead of arguing for nihilism, he proposes a kind of radical optimism. Men, he believes, can be reformed. He knows this because he was once the kind of guy who used women for relief. While Hotchkiss never quite seemed to try on the manosphere-inflected world of conspiracy theories and intense fitness, he did enjoy a certain amount of wealth and promiscuity. Yet, he discovers, “women held this incredible power over” him. Porn was his first line of defense in terms of stress relief.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;28
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://defector.com/?p&#x3D;229614"
+                        open
+                      >
+                        <summary class="article-expander__title">Intensified Doping Investigations At Tour de France Threaten Cycling’s Delicate Balance</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/intensified-doping-investigations-at-tour-de-france-threaten-cyclings-delicate-balance">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2160197150.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>ÉVIAN-LES-BAINS, France — After several years of lurking in the shadows, the specter of doping once again looms over the Tour de France. Though nobody has tested positive—or no positive test results have been made public—the biggest story at this year&#x27;s Tour is a renewed aggression from testing authorities and a resultant increasing hostility from the riders. The tactics executed by anti-doping officials and the legal justifications marshaled to support them represent a modernization of anti-doping rules, intended to disrupt hypothetical cutting-edge pharmacological routines designed specifically to beat previous testing methods. The International Testing Agency (ITA) and the Union Cyclistes International (UCI) are no longer passively accepting that the extant testing regime is good enough.
+Here we see the latest iteration of an eternal story in cycling. The uneasy symbiosis between professional cyclists and the UCI is built on a shared interest in winning the public&#x27;s trust. However, the sport&#x27;s history makes that a fraught proposition, and while the riders would argue that a dearth of positive tests shows that nobody&#x27;s cheating, the authorities would counter that no doping cases only means nobody&#x27;s getting caught. Though riders and authorities ultimately want the same thing, it&#x27;s incredibly difficult to balance labor&#x27;s desire to be treated as trustworthy against management&#x27;s desire to appear strong, without the former looking like liars or the latter looking like fools. So what&#x27;s changed this year, and what does it say about the future of that delicate balance?</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;33
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -70,10 +211,182 @@ So how far gone is Sirianni?</span>
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Current Events</button>
+                  <a class="source-heading__link" href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/il4nsd9vdghudnup0rkr.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Elections are won in inches</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/il4nsd9vdghudnup0rkr.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Elections are won in inches
+    
+    
+    
+    
+    
+
+
+
+
+
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:&#x27;›&#x27;;padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+
+
+    
+  
+    
+      
+      96
+    
+    
+      
+    
+  
+  
+  
+   …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/9fxeouou4qsdpb1qa9n0.html"
+                        open
+                      >
+                        <summary class="article-expander__title">FINAL HOURS: Get WIRED for Only $10/Year</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/9fxeouou4qsdpb1qa9n0.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>p{margin:0;margin-bottom:0;padding:0}table{border-spacing:0}table,td{border-collapse:collapse}*{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-size-adjust:none!important;-ms-text-size-adjust:none!important;-webkit-text-size-adjust:none!important}.ExternalClass{width:100%}table,td{mso-table-lspace:0;mso-table-rspace:0}img{-ms-interpolation-mode:bicubic}.ReadMsgBody{width:100%}u+#body a{color:inherit;text-decoration:none;font-size:inherit;font-family:inherit;font-weight:inherit;line-height:inherit}img+div{display:none!important}body{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%!important;-webkit-font-smoothing:antialiased!important}a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inhe…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The Dworkin Report</button>
+                  <a class="source-heading__link" href="https://www.dworkinsubstack.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.dworkinsubstack.com/p/the-news-trump-buried"
+                        open
+                      >
+                        <summary class="article-expander__title">The News Trump Buried</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dworkinsubstack.com/p/the-news-trump-buried">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substack-post-media.s3.amazonaws.com/public/images/0a79c314-a10e-4877-8455-9d2f0cf51e20_3200x1800.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>A bank dropped ICE. A judge saved thousands of votes. And that’s not even all of it.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Misc Newsletters</button>
                   <a class="source-heading__link" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1zwf2062gam86whvzd7k.html"
+                        open
+                      >
+                        <summary class="article-expander__title">14 thoughts on 14 straight Red Sox wins</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1zwf2062gam86whvzd7k.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>96
+        14 thoughts on 14 straight Red Sox wins
+        
+@media only screen and (max-width: 620px) {
+  table.body {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  table.body .content {
+    padding: 0 !important;
+  }
+
+  table.body .container {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  table.body .main {
+    border-spacing: 10px 0 !important;
+    border-left-width: 0 !important;
+    border-radius: 0 !important;
+    border-right-width: 0 !important;
+  }
+
+  table.body .img-responsive {
+    height: auto !important;
+    max-width: 100% !important;
+    width: auto !important;
+  }
+}
+@media all {
+  .ExternalClass {
+    width: 100%;
+  }
+
+  .ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+    line-height: 100%;
+  …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -134,6 +447,38 @@ So how far gone is Sirianni?</span>
     col…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;10
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hopium Chronicles By Simon Rosenberg</button>
+                  <a class="source-heading__link" href="https://www.hopiumchronicles.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hopiumchronicles.com/p/2-months-before-voting-begins-trump"
+                        open
+                      >
+                        <summary class="article-expander__title">2 Months Before Voting Begins Trump Is Raising Gas Prices, Levying New Tariffs, Losing His War, And Ensuring Millions Lose Benefits And Care</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hopiumchronicles.com/p/2-months-before-voting-begins-trump">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/$s_!W77_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9f8aafd7-bf1e-48b1-a805-6aface10052f_898x676.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Early voting begins in Virginia on September 18th and in many states across the country soon after. Be sure to make your plan to vote early today, and get everyone you know to join you!</span>
                             </span>
                           </div>
                         </a>
@@ -238,76 +583,6 @@ So how far gone is Sirianni?</span>
                             <span class="media-object__text">
                               <span>If you’re new to TimeIsIllmatic, I’m Deedub, a self-proclaimed hip-hop junkie who loves collecting CDs and vinyl. I collect other genres of music as well (i.e., R&amp;B, seventies soul, pop, a bit of rock, and jazz), but a large chunk … Continue reading →</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Emacslife</button>
-                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://emacs.dyerdwelling.family/emacs/20260721093224-emacs--borrowing-from-jasspa-microemacs-dired-sort-keybindings/"
-                        open
-                      >
-                        <summary class="article-expander__title">James Dyer: Borrowing from Jasspa MicroEmacs : Dired Sort Keybindings</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://emacs.dyerdwelling.family/emacs/20260721093224-emacs--borrowing-from-jasspa-microemacs-dired-sort-keybindings/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>For those unfamiliar with the lineage, MicroEmacs originally dates back to 1985 when Dave Conroy built a tiny, portable Emacs clone, later maintained for decades by Daniel M. Lawrence (and famously still used by Linus Torvalds today!). Around 1988, Jon Green and Steven Phillips forked MicroEmacs 3.8 to build Jasspa, it uses a subset of full emacs command set and it can emulate the keybindings from Microemacs, GNU Emacs, and even Windows CUA keybindings. It&#x27;s a much enhanced version of the Daniel Lawrence&#x27;s original MicroEmacs 3.8 of 1988 and they have grown it into a remarkably feature-packed environment with syntax highlighting, windowing, and a macro language and its still regularly updated!
-
-
-
-One thing that immediately caught my eye in Jasspa was its file manager (a dired equivalent th…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://emacsredux.com/blog/2026/07/21/right-aligned-mode-line-elements/"
-                        open
-                      >
-                        <summary class="article-expander__title">Emacs Redux: Right-aligned Mode Line Elements</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://emacsredux.com/blog/2026/07/21/right-aligned-mode-line-elements/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://emacsredux.com/assets/og-image.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Emacs users have long wanted the ability to push certain mode line elements to
-the right edge of the window. Think of it like having a left-aligned and
-right-aligned section in your mode line - buffer name on the left, maybe the time
-or some status info on the right.
-Before Emacs 30, achieving this required various hacks involving padding
-calculations and propertized strings. It was doable, but fragile and ugly.
-Emacs 30 makes it trivial with mode-line-format-right-align.
-How it works
-Just insert the symbol mode-line-format-right-align into your
-mode-line-format. Everything before it is left-aligned (as usual), and
-everything after it gets pushed to the right edge.
-
-(setq-default mode-line-format
-              &#x27;(&quot;%e&quot; mode-line-front-space
-                mode-line-mule-info
-               …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -10200,8 +10475,8 @@ Which brings us to the curious story of 49ers wideout Brandon Aiyuk, whose recen
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/29835835456">
-        <time id="build-timestamp" datetime="2026-07-21T13:45:36.215Z">2026-07-21T13:45:36.215Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/29845109642">
+        <time id="build-timestamp" datetime="2026-07-21T15:41:36.410Z">2026-07-21T15:41:36.410Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
