@@ -2,10 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-21T22:54:49.467Z</updated>
+    <updated>2026-07-22T02:30:32.180Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Brandon Aiyuk's NFL career is already over]]></title>
+        <id>https://www.sfgate.com/49ers/article/brandon-aiyuk-career-over-22327356.php-full</id>
+        <link href="https://www.sfgate.com/49ers/article/brandon-aiyuk-career-over-22327356.php"/>
+        <updated>2026-07-22T02:30:23.227Z</updated>
+        <summary type="html"><![CDATA[The NFL has had itself one miserable offseason. You may have been too busy watching America self-immolating to notice, but the football men have been behaving incredibly badly of late. Falcons edge rusher James Pearce got arrested for allegedly being a psycho boyfriend to Chicago Sky forward Rickea Jackson. The Denver Broncos have a sudden, and grotesque, DV problem on their hands. Terrion Arnold just got dropped by the Lions after being arrested on suspicion of kidnapping. And New England coach Mike Vrabel can’t seem to keep his little Pat Patriot in his trousers. All of it either has been ugly or has served as a portent of more ugliness to come. 
+
+Which brings us to the curious story of 49ers wideout Brandon Aiyuk, whose recent behavior has gone from maddening to outright frightening. Ju…]]></summary>
+        <author>
+            <name>Drew Magary, Columnist - SFGATE</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Union on the Draft]]></title>
+        <id>https://www.baseballmusings.com/?p=160880</id>
+        <link href="https://www.baseballmusings.com/?p=160880"/>
+        <updated>2026-07-22T01:26:55.000Z</updated>
+        <summary type="html"><![CDATA[The MLBPA made a good response to the MLB desire to limit the amateur draft: The union also wants maintain the ability for players to negotiate deals rather than have fixed slots, reduce penalties for exceeding signing bonus pools, allow more draft selections to be traded and keep competitive balance round selections. It would allow […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Alvaro Ramirez: agent-shell 0.63 updates]]></title>
+        <id>https://xenodium.com/agent-shell-0-63-updates</id>
+        <link href="https://xenodium.com/agent-shell-0-63-updates"/>
+        <updated>2026-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It hasn't been long since the 0.55 update, but plenty has landed since. Let's go through the highlights as of v0.63.
+What's agent-shell?
+agent-shell is a native Emacs mode to interact with AI agents powered by ACP (Agent Client Protocol).
+Supported agents
+The roster keeps growing. This cycle adds two new agents:
+Grok Build (xAI), #720 by @eddof13.
+Oh My Pi (omp), #631 by @tychoish.
+Additionally:
+Cursor now runs on the official Cursor CLI (agent acp). Note a recent CLI is required, as the acp subcommand was only added in 2026.
+Codex now uses @agentclientprotocol/codex-acp.
+Cline now accepts a default model and session mode via defcustoms (#693 by @nhojb).
+Goose no longer requires an OpenAI key by default (#711 by @hoyon).
+Qwen now has explicit support for OpenAI-compatible keys.
+Custom mark…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ravech Gone]]></title>
         <id>https://www.baseballmusings.com/?p=160875</id>
@@ -5561,71 +5606,6 @@ For each task you want to track on the chart, add three things:
 SCHEDULED: <2026-02-12 Thu> DEADLINE: <20…]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mikel Merino Is Spain’s Much-Needed Closer]]></title>
-        <id>https://defector.com/?p=228594</id>
-        <link href="https://defector.com/mikel-merino-is-spains-much-needed-closer"/>
-        <updated>2026-07-12T14:01:34.000Z</updated>
-        <summary type="html"><![CDATA[For all of its defensive solidity and possession dominance, Spain has been missing a finishing touch in this World Cup. It hurt the Spaniards in the opening match, the stunning draw to Cape Verde. It made them struggle against Uruguay in an ugly game on the final day of the group stage. The 3-0 romp against over-matched Austria felt like a turning point, but then the dreadful viewing on display in the team's 1-0 victory in the round of 16 over Portugal felt like a regression to the mean.
-Friday's quarterfinal against a hobbled Belgium was more of the same: A lot of possession, some decent chances, and little to show for it. Then, just as he did in the dying embers of the Portugal match, Mikel Merino showed up and scored Spain into the next round. Not bad for a player who was, for most of his career, nominally a defensive midfielder.
-
-https://www.youtube.com/watch?v=mRiB7fpsl8Q]]></summary>
-        <author>
-            <name>Luis Paez-Pumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Good Week For Us. A Rough One For Trump. Excellent.]]></title>
-        <id>https://www.dworkinsubstack.com/p/a-good-week-for-us-a-rough-one-for</id>
-        <link href="https://www.dworkinsubstack.com/p/a-good-week-for-us-a-rough-one-for"/>
-        <updated>2026-07-12T13:58:12.000Z</updated>
-        <summary type="html"><![CDATA[California delivered for children, the GOP got caught faking votes, and Trump couldn’t fly his own gifted plane]]></summary>
-        <author>
-            <name>Scott Dworkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Inter-Red Bull Teammate Drama Is The Best Story Of The Tour de France So Far]]></title>
-        <id>https://defector.com/?p=228570</id>
-        <link href="https://defector.com/the-inter-red-bull-teammate-drama-is-the-best-story-of-the-tour-de-france-so-far"/>
-        <updated>2026-07-12T13:26:03.000Z</updated>
-        <summary type="html"><![CDATA[BERGERAC, France — The 2026 Tour de France is thus far mostly bereft of big narratives and interesting surprises. The race for the first two podium places seems mostly over. There is no off-bike story that's captivated the race or raised larger-order implications like the saga of Ineos soigneur David Rozman's doping connections. Torstein Træn delighted the race and threatened to upend the back half of the top-10 fight, only to crack on the Tourmalet before falling on the descent and breaking a quartet of his ribs.
-However, there is still one major piece of intrigue. What the hell is going on with the public spat between the two biggest stars at Red Bull-Bora Hansgrohe?
-The drama kicked off after Stage 6, in which Tadej Pogacar smashed the Tourmalet climbing and descending records en route to a dominant solo stage win and the likely permanent seizure of the yellow jersey. Behind him, Jonas Vingegaard rode in solo for second, and a six-rider pack of contenders for the final podium spot sprinted it out. The finishing sextet featured two pairs of teammates, the stronger of which is Remco Evenepoel and Florian Lipowitz, who finished fourth and sixth on the day, respectively. They came into the Tour as co-leaders, a bad idea in general and a particularly nonsensical one for this pair.]]></summary>
-        <author>
-            <name>Patrick Redford</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Game of the Day]]></title>
-        <id>https://www.baseballmusings.com/?p=160783</id>
-        <link href="https://www.baseballmusings.com/?p=160783"/>
-        <updated>2026-07-12T12:39:13.000Z</updated>
-        <summary type="html"><![CDATA[We get a real treat as MLB heads into the All-Star break as the Phillies send Zack Wheeler against the Tigers and Tarik Skubal in Detroit. Since the start of the 2023 season, Skubal ranks first in ERA, Wheeler third. Both strike out over ten batters per game, neither walking many. Both do a decent […]]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beat the Streak Picks]]></title>
-        <id>https://www.baseballmusings.com/?p=160781</id>
-        <link href="https://www.baseballmusings.com/?p=160781"/>
-        <updated>2026-07-12T11:48:51.000Z</updated>
-        <summary type="html"><![CDATA[The Log5 Method yields these top projected hit averages versus starting pitchers: 0.362, 0.759 — Luis Arraez batting vs. Michael Lorenzen. 0.342, 0.728 — Jung Hoo Lee batting vs. Michael Lorenzen. 0.319, 0.699 — Casey Schmitt batting vs. Michael Lorenzen. 0.311, 0.689 — Heliot Ramos batting vs. Michael Lorenzen. 0.308, 0.720 — Ernie Clement batting […]]]></summary>
-        <author>
-            <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Best Batter Today]]></title>
-        <id>https://www.baseballmusings.com/?p=160779</id>
-        <link href="https://www.baseballmusings.com/?p=160779"/>
-        <updated>2026-07-12T11:10:14.000Z</updated>
-        <summary type="html"><![CDATA[Junior Caminero of the Rays took over the top slot in the Baseball Musings Batter Rankings, producing a double and two walks in a 6-1 win over the Mariners. His teammate, Jonathan Aranda ranks third after a three f four with two doubles. Pete Crow-Armstrong of the Cubs dropped to second place, drawing two walks […]]]></summary>
-        <author>
-            <name>David Pinto</name>
         </author>
     </entry>
     <entry>

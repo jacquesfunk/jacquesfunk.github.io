@@ -211,22 +211,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/a0444441-6b1b-4834-a09c-350870305095_1600x900.png"
-        },
-        {
-          "id": "https://www.dworkinsubstack.com/p/a-good-week-for-us-a-rough-one-for",
-          "author": "Scott Dworkin",
-          "description": "California delivered for children, the GOP got caught faking votes, and Trump couldn’t fly his own gifted plane",
-          "link": "https://www.dworkinsubstack.com/p/a-good-week-for-us-a-rough-one-for",
-          "publishedOn": "2026-07-12T13:58:12.000Z",
-          "wordCount": null,
-          "title": "A Good Week For Us. A Rough One For Trump. Excellent.",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/60ce3da8-0498-497e-8482-8e846e576dcb_1200x675.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/60ce3da8-0498-497e-8482-8e846e576dcb_1200x675.png"
         }
       ]
     },
@@ -632,6 +616,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://xenodium.com/agent-shell-0-63-updates",
+          "author": null,
+          "description": "It hasn't been long since the 0.55 update, but plenty has landed since. Let's go through the highlights as of v0.63.\nWhat's agent-shell?\nagent-shell is a native Emacs mode to interact with AI agents powered by ACP (Agent Client Protocol).\nSupported agents\nThe roster keeps growing. This cycle adds two new agents:\nGrok Build (xAI), #720 by @eddof13.\nOh My Pi (omp), #631 by @tychoish.\nAdditionally:\nCursor now runs on the official Cursor CLI (agent acp). Note a recent CLI is required, as the acp subcommand was only added in 2026.\nCodex now uses @agentclientprotocol/codex-acp.\nCline now accepts a default model and session mode via defcustoms (#693 by @nhojb).\nGoose no longer requires an OpenAI key by default (#711 by @hoyon).\nQwen now has explicit support for OpenAI-compatible keys.\nCustom mark…",
+          "link": "https://xenodium.com/agent-shell-0-63-updates",
+          "publishedOn": "2026-07-22T00:00:00.000Z",
+          "wordCount": 1757,
+          "title": "Alvaro Ramirez: agent-shell 0.63 updates",
+          "imageUrl": "https://xenodium.com/share.png"
+        },
         {
           "id": "https://ray-on-emacs.blogspot.com/2026/07/modeling-browser-history-in-emacs.html",
           "author": null,
@@ -1100,6 +1094,16 @@
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
         {
+          "id": "https://www.baseballmusings.com/?p=160880",
+          "author": "David Pinto",
+          "description": "The MLBPA made a good response to the MLB desire to limit the amateur draft: The union also wants maintain the ability for players to negotiate deals rather than have fixed slots, reduce penalties for exceeding signing bonus pools, allow more draft selections to be traded and keep competitive balance round selections. It would allow […]",
+          "link": "https://www.baseballmusings.com/?p=160880",
+          "publishedOn": "2026-07-22T01:26:55.000Z",
+          "wordCount": 7635,
+          "title": "Union on the Draft",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.baseballmusings.com/?p=160875",
           "author": "David Pinto",
           "description": "ESPN laid off long-time Baseball Tonight host and Sunday Night Baseball play by play announcer Karl Ravech. I enjoyed working with Karl on that show and it’s sad to see him go. I’m sure he’ll land on his feet with MLB Network or NBC. Best of luck to Karl on his next endeavor.",
@@ -1537,36 +1541,6 @@
           "publishedOn": "2026-07-13T01:05:39.000Z",
           "wordCount": 7494,
           "title": "All-Star Update",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160783",
-          "author": "David Pinto",
-          "description": "We get a real treat as MLB heads into the All-Star break as the Phillies send Zack Wheeler against the Tigers and Tarik Skubal in Detroit. Since the start of the 2023 season, Skubal ranks first in ERA, Wheeler third. Both strike out over ten batters per game, neither walking many. Both do a decent […]",
-          "link": "https://www.baseballmusings.com/?p=160783",
-          "publishedOn": "2026-07-12T12:39:13.000Z",
-          "wordCount": 7680,
-          "title": "Game of the Day",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160781",
-          "author": "David Pinto",
-          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers: 0.362, 0.759 — Luis Arraez batting vs. Michael Lorenzen. 0.342, 0.728 — Jung Hoo Lee batting vs. Michael Lorenzen. 0.319, 0.699 — Casey Schmitt batting vs. Michael Lorenzen. 0.311, 0.689 — Heliot Ramos batting vs. Michael Lorenzen. 0.308, 0.720 — Ernie Clement batting […]",
-          "link": "https://www.baseballmusings.com/?p=160781",
-          "publishedOn": "2026-07-12T11:48:51.000Z",
-          "wordCount": 7960,
-          "title": "Beat the Streak Picks",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160779",
-          "author": "David Pinto",
-          "description": "Junior Caminero of the Rays took over the top slot in the Baseball Musings Batter Rankings, producing a double and two walks in a 6-1 win over the Mariners. His teammate, Jonathan Aranda ranks third after a three f four with two doubles. Pete Crow-Armstrong of the Cubs dropped to second place, drawing two walks […]",
-          "link": "https://www.baseballmusings.com/?p=160779",
-          "publishedOn": "2026-07-12T11:10:14.000Z",
-          "wordCount": 7782,
-          "title": "Best Batter Today",
           "imageUrl": null
         }
       ]
@@ -2751,26 +2725,6 @@
           "wordCount": 7967,
           "title": "You Can’t Do That, Man",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2285148668.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=228594",
-          "author": "Luis Paez-Pumar",
-          "description": "For all of its defensive solidity and possession dominance, Spain has been missing a finishing touch in this World Cup. It hurt the Spaniards in the opening match, the stunning draw to Cape Verde. It made them struggle against Uruguay in an ugly game on the final day of the group stage. The 3-0 romp against over-matched Austria felt like a turning point, but then the dreadful viewing on display in the team's 1-0 victory in the round of 16 over Portugal felt like a regression to the mean.\nFriday's quarterfinal against a hobbled Belgium was more of the same: A lot of possession, some decent chances, and little to show for it. Then, just as he did in the dying embers of the Portugal match, Mikel Merino showed up and scored Spain into the next round. Not bad for a player who was, for most of his career, nominally a defensive midfielder.\n\nhttps://www.youtube.com/watch?v=mRiB7fpsl8Q",
-          "link": "https://defector.com/mikel-merino-is-spains-much-needed-closer",
-          "publishedOn": "2026-07-12T14:01:34.000Z",
-          "wordCount": 6796,
-          "title": "Mikel Merino Is Spain’s Much-Needed Closer",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2285672463.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=228570",
-          "author": "Patrick Redford",
-          "description": "BERGERAC, France — The 2026 Tour de France is thus far mostly bereft of big narratives and interesting surprises. The race for the first two podium places seems mostly over. There is no off-bike story that's captivated the race or raised larger-order implications like the saga of Ineos soigneur David Rozman's doping connections. Torstein Træn delighted the race and threatened to upend the back half of the top-10 fight, only to crack on the Tourmalet before falling on the descent and breaking a quartet of his ribs.\nHowever, there is still one major piece of intrigue. What the hell is going on with the public spat between the two biggest stars at Red Bull-Bora Hansgrohe?\nThe drama kicked off after Stage 6, in which Tadej Pogacar smashed the Tourmalet climbing and descending records en route to a dominant solo stage win and the likely permanent seizure of the yellow jersey. Behind him, Jonas Vingegaard rode in solo for second, and a six-rider pack of contenders for the final podium spot sprinted it out. The finishing sextet featured two pairs of teammates, the stronger of which is Remco Evenepoel and Florian Lipowitz, who finished fourth and sixth on the day, respectively. They came into the Tour as co-leaders, a bad idea in general and a particularly nonsensical one for this pair.",
-          "link": "https://defector.com/the-inter-red-bull-teammate-drama-is-the-best-story-of-the-tour-de-france-so-far",
-          "publishedOn": "2026-07-12T13:26:03.000Z",
-          "wordCount": 8650,
-          "title": "The Inter-Red Bull Teammate Drama Is The Best Story Of The Tour de France So Far",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2284369571.jpg"
         }
       ]
     },
@@ -3651,6 +3605,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/sfgate-drew-magary.xml",
       "siteUrl": "https://www.sfgate.com/author/drew-magary/",
       "articles": [
+        {
+          "id": "https://www.sfgate.com/49ers/article/brandon-aiyuk-career-over-22327356.php-full",
+          "author": null,
+          "description": "The NFL has had itself one miserable offseason. You may have been too busy watching America self-immolating to notice, but the football men have been behaving incredibly badly of late. Falcons edge rusher James Pearce got arrested for allegedly being a psycho boyfriend to Chicago Sky forward Rickea Jackson. The Denver Broncos have a sudden, and grotesque, DV problem on their hands. Terrion Arnold just got dropped by the Lions after being arrested on suspicion of kidnapping. And New England coach Mike Vrabel can’t seem to keep his little Pat Patriot in his trousers. All of it either has been ugly or has served as a portent of more ugliness to come. \n\nWhich brings us to the curious story of 49ers wideout Brandon Aiyuk, whose recent behavior has gone from maddening to outright frightening. Ju…",
+          "link": "https://www.sfgate.com/49ers/article/brandon-aiyuk-career-over-22327356.php",
+          "publishedOn": "2026-07-22T02:30:23.227Z",
+          "wordCount": 177,
+          "title": "Brandon Aiyuk's NFL career is already over",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php-full",
           "author": null,
