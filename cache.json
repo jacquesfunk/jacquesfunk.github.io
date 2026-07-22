@@ -1131,26 +1131,6 @@
           "wordCount": 839,
           "title": "TAONAW - Emacs and Org Mode: A Quick org-mode Internal Links Reference",
           "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/07/13/5939529.png"
-        },
-        {
-          "id": "https://emacsredux.com/blog/2026/07/13/cape-corfus-best-friend/",
-          "author": null,
-          "description": "I’ve been using corfu for in-buffer\ncompletion for a while now and I’m quite happy with it. There was one thing\nthat kept bugging me, though - the completion popup would only ever show\nwhatever the current major mode’s completion function had to offer. No plain\nword completion, no file name completion - if the major mode (or your LSP\nserver) didn’t know about something, neither did the popup.\nTurns out I was simply missing one piece of the puzzle, namely\ncape.\nThe Problem\nA bit of background first. Modern Emacs completion is built around\ncompletion-at-point-functions (capfs for short) - each major mode registers a\nfunction that knows how to complete things in its buffers, and UIs like\ncorfu (or the built-in completion-at-point) simply display the results.\nThe catch is that most major modes…",
-          "link": "https://emacsredux.com/blog/2026/07/13/cape-corfus-best-friend/",
-          "publishedOn": "2026-07-13T06:00:00.000Z",
-          "wordCount": 966,
-          "title": "Emacs Redux: Cape: Corfu’s Best Friend",
-          "imageUrl": "https://emacsredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://emacsredux.com/blog/2026/07/13/replacing-flyspell-with-jinx/",
-          "author": null,
-          "description": "I’ve been using flyspell-mode for the better part of two decades, and I’ve\nwritten about it a couple of times\nbefore. It gets the job\ndone, but it has always felt a bit creaky to me - it checks words one at a time\nas you type, flyspell-buffer is painfully slow in big buffers, and you have to\nremember to enable flyspell-prog-mode in your programming modes, so it would\ncheck only comments and strings there.\nRecently, as part of the ongoing overhaul of my personal Emacs\nconfig, I finally replaced it with\njinx and I can already tell you that I’m not\ngoing back.\nWhy Jinx?\nJinx is a modern spell-checker by Daniel Mendler (of\nvertico,\nconsult and\ncorfu fame), built on top of\nlibenchant.1 Quite a few things make\nit a great alternative to Flyspell:\nIt’s fast. Jinx checks only the visible part of th…",
-          "link": "https://emacsredux.com/blog/2026/07/13/replacing-flyspell-with-jinx/",
-          "publishedOn": "2026-07-13T05:26:00.000Z",
-          "wordCount": 834,
-          "title": "Emacs Redux: Replacing Flyspell with Jinx",
-          "imageUrl": "https://emacsredux.com/assets/og-image.png"
         }
       ]
     },
@@ -1627,6 +1607,16 @@
       "siteUrl": "https://ballsandstrikes.org/",
       "articles": [
         {
+          "id": "https://ballsandstrikes.org/?p=18606",
+          "author": "Madiba K. Dennie",
+          "description": "The Court has spent decades hollowing out its decision in Miranda v. Arizona. But state courts don’t have to follow the justices’ lead.\nThe post State Courts Can Enforce Miranda Rights Even If the Supreme <span class=\"dewidow\">Court Won’t</span> appeared first on Balls and Strikes.",
+          "link": "https://ballsandstrikes.org/law-politics/miranda-rights-michigan-supreme-court-state-courts/",
+          "publishedOn": "2026-07-22T17:37:02.000Z",
+          "wordCount": 2336,
+          "title": "State Courts Can Enforce Miranda Rights Even If the Supreme Court Won’t",
+          "imageUrl": "http://ballsandstrikes.org/wp-content/uploads/2025/06/GettyImages-515204440-1200x630.jpg"
+        },
+        {
           "id": "https://ballsandstrikes.org/?p=18603",
           "author": "Jay Willis",
           "description": "Voters keep making clear that they do not like or trust the Supreme Court. The question is whether Democratic politicians are listening.\nThe post Supreme Court Polling: No One Is Taking John Roberts <span class=\"dewidow\">Seriously Anymore</span> appeared first on Balls and Strikes.",
@@ -1758,6 +1748,22 @@
       "feedUrl": "https://www.lawdork.com/feed",
       "siteUrl": "https://www.lawdork.com",
       "articles": [
+        {
+          "id": "https://www.lawdork.com/p/reyes-hegseth-high-t-plan-vs-anti-trans-ban",
+          "author": "Chris Geidner",
+          "description": "Judge Ana Reyes wants to know \"the Department’s basis for treating trans men and other service members differently.\"",
+          "link": "https://www.lawdork.com/p/reyes-hegseth-high-t-plan-vs-anti-trans-ban",
+          "publishedOn": "2026-07-22T18:42:08.000Z",
+          "wordCount": null,
+          "title": "Breaking: Federal judge questions Hegseth's \"High-T\" military plan in light of Trump's anti-trans ban",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!bkD0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4b89592f-4f1f-4bfd-bed0-dd3bde89c1b3_1552x866.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!bkD0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4b89592f-4f1f-4bfd-bed0-dd3bde89c1b3_1552x866.png"
+        },
         {
           "id": "https://www.lawdork.com/p/fifth-circuit-firearm-ban-commerce-clause",
           "author": "Chris Geidner",
@@ -2172,6 +2178,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=229838",
+          "author": "Jae Towle Vieira",
+          "description": "In some ways, the omnipresence of mystery in everyday life can be comforting. Why is it always cold at the end of the hallway? How did my cat make that noise at 2 in the morning? Why does my car’s brake light keep going out on the driver’s side? Sure, there may be explanations, but I’m not going to be the one to get to the bottom of this. I didn’t grow up watching Ghostbusters aspirationally. \nToday’s gossip raises the age-old question: Who you gonna call? If your house might actually be haunted and your kids are freaking out, you’d better come up with an answer.\n\nhttps://youtu.be/tVM4RvqxBak",
+          "link": "https://defector.com/the-haunting-the-psychic-and-the-stepmom",
+          "publishedOn": "2026-07-22T18:47:41.000Z",
+          "wordCount": 5508,
+          "title": "The Haunting, The Psychic, And The Stepmom",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2180642373.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=229815",
+          "author": "Giri Nathan",
+          "description": "Welcome back to Minor Dilemmas, where a member of Defector's Parents Council will answer your questions on surviving family life. Have a question? Email us at minordilemmas@defector.com.\nThis week, Giri answers a question about how parenting can reorient your life.",
+          "link": "https://defector.com/whats-going-to-happen-to-the-rest-of-my-life-after-i-become-a-parent",
+          "publishedOn": "2026-07-22T17:23:27.000Z",
+          "wordCount": 8593,
+          "title": "What’s Going To Happen To The Rest Of My Life After I Become A Parent?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-658073439.jpg"
+        },
         {
           "id": "https://defector.com/?p=229721",
           "author": "Patrick Redford",
@@ -2839,6 +2865,16 @@
       "feedUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
+        {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/xo43xqgae8d8isext837.html",
+          "author": null,
+          "description": "96\n            \n        \n        \n        \n        \n        \n        Ask a Manager - new articles\n\n    \n\t\tp{\n\t\t\tmargin:10px 0;\n\t\t\tpadding:0;\n\t\t}\n\t\ttable{\n\t\t\tborder-collapse:collapse;\n\t\t}\n\t\th1,h2,h3,h4,h5,h6{\n\t\t\tdisplay:block;\n\t\t\tmargin:0;\n\t\t\tpadding:0;\n\t\t}\n\t\timg,a img{\n\t\t\tborder:0;\n\t\t\theight:auto;\n\t\t\toutline:none;\n\t\t\ttext-decoration:none;\n\t\t}\n\t\tbody,#bodyTable,#bodyCell{\n\t\t\theight:100%;\n\t\t\tmargin:0;\n\t\t\tpadding:0;\n\t\t\twidth:100%;\n\t\t}\n\t\t.mcnPreviewText{\n\t\t\tdisplay:none !important;\n\t\t}\n\t\t#outlook a{\n\t\t\tpadding:0;\n\t\t}\n\t\timg{\n\t\t\t-ms-interpolation-mode:bicubic;\n\t\t}\n\t\ttable{\n\t\t\tmso-table-lspace:0pt;\n\t\t\tmso-table-rspace:0pt;\n\t\t}\n\t\t.ReadMsgBody{\n\t\t\twidth:100%;\n\t\t}\n\t\t.ExternalClass{\n\t\t\twidth:100%;\n\t\t}\n\t\tp,a,li,td,blockquote{\n\t\t\tmso-line-height-rule:exactly;\n\t\t}\n\t\ta[href^=tel],a[href^=sms]{\n\t\t\tcolor:i…",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/xo43xqgae8d8isext837.html",
+          "publishedOn": "2026-07-22T19:04:45.949Z",
+          "wordCount": 981,
+          "title": "Ask a Manager - new articles",
+          "imageUrl": null
+        },
         {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1aemjswoj2kd1o2zucsf.html",
           "author": null,
@@ -3888,6 +3924,16 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73230257/political-accountability-arizona-governor-gop-nominee-stop-the-steal/",
+          "author": null,
+          "description": "I’m baffled that the GOP keeps getting away with nominating people like Andy Biggs—who allegedly helped plan the “Stop the Steal” movement—for major offices.",
+          "link": "https://www.esquire.com/news-politics/politics/a73230257/political-accountability-arizona-governor-gop-nominee-stop-the-steal/",
+          "publishedOn": "2026-07-22T17:55:30.000Z",
+          "wordCount": 20484,
+          "title": "We’ve Reached the End of Political Accountability. Now We’re in the Hands of Madmen.",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/4b90aba5-8633-47b1-855c-23b029c0d4f2.jpeg?crop=1xw:0.750067953248xh;center,top&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a73228577/house-subcommittee-meeting-museums-woke-ideology-history-eraasure/",
           "author": null,
