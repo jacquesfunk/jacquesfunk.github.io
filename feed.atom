@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-22T10:23:16.035Z</updated>
+    <updated>2026-07-22T13:48:24.466Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Troy Jackson Leads By 3 In New Maine Poll, OpenAI Goes Rogue, Rs “Preparing For The Bottom To Fall Out”]]></title>
+        <id>https://www.hopiumchronicles.com/p/troy-jackson-leads-by-3-in-new-maine</id>
+        <link href="https://www.hopiumchronicles.com/p/troy-jackson-leads-by-3-in-new-maine"/>
+        <updated>2026-07-22T13:30:56.000Z</updated>
+        <summary type="html"><![CDATA[Let's keep calling the Senate to block Todd Blanche. Most important calls today are to Tillis and Cornyn - need to flood the zone everyone!]]></summary>
+        <author>
+            <name>Simon Rosenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Doofus Chaplain Takes The Giants’ Pride Night Victimhood To Instagram]]></title>
+        <id>https://defector.com/?p=229640</id>
+        <link href="https://defector.com/doofus-chaplain-takes-the-giants-pride-night-victimhood-to-instagram"/>
+        <updated>2026-07-22T13:03:57.000Z</updated>
+        <summary type="html"><![CDATA[The San Francisco Giants are a rotten, poisoned, blighted organization. I offer to the jury, by way of evidence, the following exhibit: Monday evening a representative of the Giants saw a story from the San Francisco Chronicle about fans who still feel hurt and angry over the mess the organization made of its annual Pride Night celebration, and the front office's tepid, quarter-hearted, wildly inadequate response to public outcry. That team representative then logged onto social media so that they could blame the continuing controversy on online discourse and clickbait reporting. That representative, hilariously, was the team's chaplain, a man named Christian Huang.
+The story Huang was commenting on was published Monday, and it begins with an anecdote about a longtime Giants fan who attend…]]></summary>
+        <author>
+            <name>Chris Thompson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The GOP Has Completely Surrendered to Big Stupid, and American History Will Suffer for It]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a73228577/house-subcommittee-meeting-museums-woke-ideology-history-eraasure/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a73228577/house-subcommittee-meeting-museums-woke-ideology-history-eraasure/"/>
+        <updated>2026-07-22T12:45:56.000Z</updated>
+        <summary type="html"><![CDATA[During a Tuesday House subcommittee meeting, Republicans sounded like a bunch of fourth graders while crusading against “woke” ideology in American museums.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wednesday Update]]></title>
         <id>https://www.baseballmusings.com/?p=160882</id>
@@ -81,6 +112,32 @@ Which brings us to the curious story of 49ers wideout Brandon Aiyuk, whose recen
         <summary type="html"><![CDATA[The MLBPA made a good response to the MLB desire to limit the amateur draft: The union also wants maintain the ability for players to negotiate deals rather than have fixed slots, reduce penalties for exceeding signing bonus pools, allow more draft selections to be traded and keep competitive balance round selections. It would allow […]]]></summary>
         <author>
             <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Protesilaos: Emacs: pulsar version 1.4.0]]></title>
+        <id>https://protesilaos.com/codelog/2026-07-22-emacs-pulsar-1-4-0/</id>
+        <link href="https://protesilaos.com/codelog/2026-07-22-emacs-pulsar-1-4-0/"/>
+        <updated>2026-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a small Emacs package that automatically highlights the current
+line after certain functions are invoked. It can also highlight a line
+or region on demand. The idea is to make it easier to find where the
+point is, what was affected, and also to bring attention to something
+in a buffer. Watch the original demo (2022-03-14).
+Package name (GNU ELPA): pulsar
+Official manual: https://protesilaos.com/emacs/pulsar
+Change log: https://protesilaos.com/emacs/pulsar-changelog
+Git repositories:
+    
+GitHub: https://github.com/protesilaos/pulsar
+GitLab: https://gitlab.com/protesilaos/pulsar
+Backronym: Pulsar Unquestionably Luminates, Strictly Absent the Radiation.
+Below are the release notes.
+Version 1.4.0 on 2026-07-22
+This version fixes a few bugs and brings quality-of-life improvements
+to an…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -5582,16 +5639,6 @@ It’s fast. Jinx checks only the visible part of th…]]></summary>
         <updated>2026-07-13T01:05:39.000Z</updated>
         <author>
             <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TAONAW - Emacs and Org Mode:]]></title>
-        <id>https://taonaw.com/2026/07/12/thought-my-emacs-init-file.html</id>
-        <link href="https://taonaw.com/2026/07/12/thought-my-emacs-init-file.html"/>
-        <updated>2026-07-13T00:14:31.000Z</updated>
-        <summary type="html"><![CDATA[Thought my Emacs init file needs a bit of cleaning - it contains configs from maybe 5 and 6 years ago. It’s a nostalgic learning experience. More fun than I thought. More to come soon 🤓]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>

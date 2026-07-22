@@ -617,6 +617,16 @@
           "imageUrl": "https://emacsredux.com/assets/og-image.png"
         },
         {
+          "id": "https://protesilaos.com/codelog/2026-07-22-emacs-pulsar-1-4-0/",
+          "author": null,
+          "description": "This is a small Emacs package that automatically highlights the current\nline after certain functions are invoked. It can also highlight a line\nor region on demand. The idea is to make it easier to find where the\npoint is, what was affected, and also to bring attention to something\nin a buffer. Watch the original demo (2022-03-14).\nPackage name (GNU ELPA): pulsar\nOfficial manual: https://protesilaos.com/emacs/pulsar\nChange log: https://protesilaos.com/emacs/pulsar-changelog\nGit repositories:\n    \nGitHub: https://github.com/protesilaos/pulsar\nGitLab: https://gitlab.com/protesilaos/pulsar\nBackronym: Pulsar Unquestionably Luminates, Strictly Absent the Radiation.\nBelow are the release notes.\nVersion 1.4.0 on 2026-07-22\nThis version fixes a few bugs and brings quality-of-life improvements\nto an…",
+          "link": "https://protesilaos.com/codelog/2026-07-22-emacs-pulsar-1-4-0/",
+          "publishedOn": "2026-07-22T00:00:00.000Z",
+          "wordCount": 758,
+          "title": "Protesilaos: Emacs: pulsar version 1.4.0",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
+        {
           "id": "https://xenodium.com/agent-shell-0-63-updates",
           "author": null,
           "description": "It hasn't been long since the 0.55 update, but plenty has landed since. Let's go through the highlights as of v0.63.\nWhat's agent-shell?\nagent-shell is a native Emacs mode to interact with AI agents powered by ACP (Agent Client Protocol).\nSupported agents\nThe roster keeps growing. This cycle adds two new agents:\nGrok Build (xAI), #720 by @eddof13.\nOh My Pi (omp), #631 by @tychoish.\nAdditionally:\nCursor now runs on the official Cursor CLI (agent acp). Note a recent CLI is required, as the acp subcommand was only added in 2026.\nCodex now uses @agentclientprotocol/codex-acp.\nCline now accepts a default model and session mode via defcustoms (#693 by @nhojb).\nGoose no longer requires an OpenAI key by default (#711 by @hoyon).\nQwen now has explicit support for OpenAI-compatible keys.\nCustom mark…",
@@ -1055,16 +1065,6 @@
           "wordCount": 834,
           "title": "Emacs Redux: Replacing Flyspell with Jinx",
           "imageUrl": "https://emacsredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://taonaw.com/2026/07/12/thought-my-emacs-init-file.html",
-          "author": null,
-          "description": "Thought my Emacs init file needs a bit of cleaning - it contains configs from maybe 5 and 6 years ago. It’s a nostalgic learning experience. More fun than I thought. More to come soon 🤓",
-          "link": "https://taonaw.com/2026/07/12/thought-my-emacs-init-file.html",
-          "publishedOn": "2026-07-13T00:14:31.000Z",
-          "wordCount": 473,
-          "title": "TAONAW - Emacs and Org Mode:",
-          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/07/13/5939216.png"
         }
       ]
     },
@@ -1744,6 +1744,22 @@
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
         {
+          "id": "https://www.hopiumchronicles.com/p/troy-jackson-leads-by-3-in-new-maine",
+          "author": "Simon Rosenberg",
+          "description": "Let's keep calling the Senate to block Todd Blanche. Most important calls today are to Tillis and Cornyn - need to flood the zone everyone!",
+          "link": "https://www.hopiumchronicles.com/p/troy-jackson-leads-by-3-in-new-maine",
+          "publishedOn": "2026-07-22T13:30:56.000Z",
+          "wordCount": null,
+          "title": "Troy Jackson Leads By 3 In New Maine Poll, OpenAI Goes Rogue, Rs “Preparing For The Bottom To Fall Out”",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/03407168-145c-4acb-ae62-b53e5ac6571b_680x680.webp",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/03407168-145c-4acb-ae62-b53e5ac6571b_680x680.webp"
+        },
+        {
           "id": "https://www.hopiumchronicles.com/p/a-check-in-with-senator-sean-mccann",
           "author": "Simon Rosenberg",
           "description": "Excited to bring back one of our top House challengers this cycle, Sean McCann, running to flip a tough but winnable seat in Western Michigan",
@@ -2070,6 +2086,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=229640",
+          "author": "Chris Thompson",
+          "description": "The San Francisco Giants are a rotten, poisoned, blighted organization. I offer to the jury, by way of evidence, the following exhibit: Monday evening a representative of the Giants saw a story from the San Francisco Chronicle about fans who still feel hurt and angry over the mess the organization made of its annual Pride Night celebration, and the front office's tepid, quarter-hearted, wildly inadequate response to public outcry. That team representative then logged onto social media so that they could blame the continuing controversy on online discourse and clickbait reporting. That representative, hilariously, was the team's chaplain, a man named Christian Huang.\nThe story Huang was commenting on was published Monday, and it begins with an anecdote about a longtime Giants fan who attend…",
+          "link": "https://defector.com/doofus-chaplain-takes-the-giants-pride-night-victimhood-to-instagram",
+          "publishedOn": "2026-07-22T13:03:57.000Z",
+          "wordCount": 6518,
+          "title": "Doofus Chaplain Takes The Giants’ Pride Night Victimhood To Instagram",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2272590470.jpg"
+        },
         {
           "id": "https://defector.com/?p=229694",
           "author": "Sarah Borus",
@@ -3726,6 +3752,16 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73228577/house-subcommittee-meeting-museums-woke-ideology-history-eraasure/",
+          "author": null,
+          "description": "During a Tuesday House subcommittee meeting, Republicans sounded like a bunch of fourth graders while crusading against “woke” ideology in American museums.",
+          "link": "https://www.esquire.com/news-politics/politics/a73228577/house-subcommittee-meeting-museums-woke-ideology-history-eraasure/",
+          "publishedOn": "2026-07-22T12:45:56.000Z",
+          "wordCount": 22953,
+          "title": "The GOP Has Completely Surrendered to Big Stupid, and American History Will Suffer for It",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/e3c8be54-d38b-4dcb-940c-a3c4d7d87887.jpeg?crop=1xw:0.75xh;0xw,0.25xh&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a73221144/republican-chuck-edwards-gun-gifts-female-staffers/",
           "author": null,
