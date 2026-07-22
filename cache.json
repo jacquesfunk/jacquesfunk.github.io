@@ -683,6 +683,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
+          "author": null,
+          "description": "It all started with a routine task. I use GitHub issues for all of my public-facing projects but my preference is keeping track of things in Org Agenda. To reconcile the two, I would manually copy over the GitHub issue to an Org file, typically the title and description, like an animal.\nDespite this separation, the duplicated issue allowed me to treat it as a scratchpad for anything I could express in Org. In this way, I used the duplicated issue in Org as both a dedicated area to take notes and a “staging” area to compose follow-up comments that I’d want to share in the public facing issue.\nI manually copied for far longer than I care to admit. Repeat a task enough times in Emacs and the inevitable thought arises: “I should automate this.”\nThis post recounts how I automated this task and …",
+          "link": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
+          "publishedOn": "2026-07-22T21:00:00.000Z",
+          "wordCount": 1728,
+          "title": "Charles Choi: Malleable Computing, Emacs, and You",
+          "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
+        },
+        {
           "id": "https://irreal.org/blog/?p=13962",
           "author": null,
           "description": "taken the time and effort to do something about them. The problem is that they’re so tricky to configure that it’s not worthwhile so we just suffer with the default.\n\n\nNow Bozhidar Batsov writes about an easy change that anyone can make. As of Emacs 30, it’s possible to right align given elements of the mode line. That was always possible, of course, but it required some tricky padding that was particularly fragile. Now there’s mode-line-format-right-align, which serves as a marker in your mode line definition. Everything before it is left aligned and everything after it is right aligned.\n\n\nEven the right edge is customizable. You can choose the right edge of the window, the left end of the fringe, or the left edge of the right margin. This facility is going to be useful to those who want a customized mode line.\n\n\nMy main problem with the mode line is getting all the items I want to fit on it. Even though I make liberal use of diminish, a lot of useful information always seems to fall off the right end. That probably means I need to watch Prot’s video again and buckle down to customizing it the way I want it.\n\n\nIn any event, it you’d like to place some items at the right side of the mode line, take a look at Batsov’s post to see how to do it.",
@@ -1139,6 +1149,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160892",
+          "author": "David Pinto",
+          "description": "Salvador Perez homered in a 5-4 win over the Giants, tying KC legend George Brett for the franchise record in home runs at 317. Note that no one else is close. Third place goes to Mike Sweeney with 197 HR. Home runs is about the only category where Perez exceeds Brett. He reached this height […]",
+          "link": "https://www.baseballmusings.com/?p=160892",
+          "publishedOn": "2026-07-22T22:23:18.000Z",
+          "wordCount": 7606,
+          "title": "Royal Heights",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160890",
           "author": "David Pinto",
@@ -1598,16 +1618,6 @@
           "wordCount": 7937,
           "title": "The Majors at the Break",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160791",
-          "author": "David Pinto",
-          "description": "Every Monday Baseball Musings compares offense of the current season to the previous season through the same number of full weeks. Through 15 weeks in 2026, MLB games produced 9.03 runs per game compared to 8.75 runs per game in 2025. The quarter run increase puts MLB games on the sweet spot of 9.0 runs […]",
-          "link": "https://www.baseballmusings.com/?p=160791",
-          "publishedOn": "2026-07-13T10:42:37.000Z",
-          "wordCount": 7774,
-          "title": "Weekly Look at Offense",
-          "imageUrl": null
         }
       ]
     },
@@ -1845,6 +1855,22 @@
       "feedUrl": "https://www.hopiumchronicles.com/feed",
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
+        {
+          "id": "https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-7fe",
+          "author": "Simon Rosenberg",
+          "description": "Welcome New Subscribers!",
+          "link": "https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-7fe",
+          "publishedOn": "2026-07-22T21:55:30.000Z",
+          "wordCount": null,
+          "title": "Last Call - Tonight, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!6h8A!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F932a71b6-0d32-4597-b606-e6251ff2efcb_1095x877.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!6h8A!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F932a71b6-0d32-4597-b606-e6251ff2efcb_1095x877.png"
+        },
         {
           "id": "https://www.hopiumchronicles.com/p/hopium-adds-5-more-house-candidates",
           "author": "Simon Rosenberg",
@@ -3268,16 +3294,6 @@
           "wordCount": 1954,
           "title": "MAGA influencers exploit Graham Platner scandal to win back men",
           "imageUrl": "https://www.salon.com/app/uploads/2026/07/Graham-Platner-2278040474.jpg"
-        },
-        {
-          "id": "https://www.salon.com/2026/07/13/new-ice-boss-same-old-lies/-full",
-          "author": null,
-          "description": "When Kristi Noem was pushed out of her job as the secretary of homeland security and replaced with Oklahoma’s GOP senator — and wannabe MMA fighter — Markwayne Mullin, the public was assured he would make all those pesky problems with Immigration and Customs Enforcement go away.\nHouse Speaker Mike Johnson, R-La., described the concentration camp-style immigrant detention centers and the killings of two American citizens during immigration raids as “a little hiccup” and promised a “course correction” under Mullin. The New York Times heralded Mullin’s “warmer and fuzzier tone” during his confirmation hearing as a “sign that the administration wants to project a more moderated approach.” Various Republican leaders praised Mullin as a “good guy” who “likes dogs.”\nBut savvy people weren’t foole…",
-          "link": "https://www.salon.com/2026/07/13/new-ice-boss-same-old-lies/",
-          "publishedOn": "2026-07-13T10:45:39.000Z",
-          "wordCount": 2120,
-          "title": "New ICE boss, same old lies",
-          "imageUrl": "https://www.salon.com/app/uploads/2026/07/Markwayne-Mullin-2284218873-e1783919254860.jpg"
         }
       ]
     },
@@ -4157,6 +4173,22 @@
       "feedUrl": "https://www.graveinjustice.news/feed",
       "siteUrl": "https://www.graveinjustice.news",
       "articles": [
+        {
+          "id": "https://www.graveinjustice.news/p/todd-blanche-has-mutated-doj-into",
+          "author": "Lisa Graves",
+          "description": "Of Course, John Roberts Helped Fuel This Disaster, too",
+          "link": "https://www.graveinjustice.news/p/todd-blanche-has-mutated-doj-into",
+          "publishedOn": "2026-07-22T21:44:30.000Z",
+          "wordCount": null,
+          "title": "Todd Blanche Has Mutated DOJ into Trump’s Criminal Defense Firm, Destroying Its Independence",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!wGd9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1386ea40-8da5-4bf4-9f01-f93011f4251d_2560x1440.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!wGd9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1386ea40-8da5-4bf4-9f01-f93011f4251d_2560x1440.png"
+        },
         {
           "id": "https://www.graveinjustice.news/p/was-todd-blanche-paid-in-part-through",
           "author": "Lisa Graves",
