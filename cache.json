@@ -607,6 +607,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://emacsredux.com/blog/2026/07/22/dedicate-windows-with-toggle-window-dedicated/",
+          "author": null,
+          "description": "You’ve carefully arranged your windows just the way you want them - source code\non the left, tests on the right, maybe a shell at the bottom. Then you run some\ncommand that calls display-buffer, and suddenly one of your carefully placed\nwindows gets hijacked to show a *Help* buffer or a compilation log. We’ve all\nbeen there.\nThe display-buffer machinery is one of Emacs’s most powerful features, but also\none of its most frustrating. Emacs 30 adds a simple, practical tool to help tame\nit: toggle-window-dedicated.\nHow it works\nThe concept of “dedicated” windows has existed in Emacs for a long time - a\ndedicated window tells display-buffer “don’t touch me, display your buffer\nsomewhere else.” But setting this up required Elisp:\n\n(set-window-dedicated-p (selected-window) t)\n\n\nNot exactly someth…",
+          "link": "https://emacsredux.com/blog/2026/07/22/dedicate-windows-with-toggle-window-dedicated/",
+          "publishedOn": "2026-07-22T06:30:00.000Z",
+          "wordCount": 650,
+          "title": "Emacs Redux: Dedicate Windows with toggle-window-dedicated",
+          "imageUrl": "https://emacsredux.com/assets/og-image.png"
+        },
+        {
           "id": "https://xenodium.com/agent-shell-0-63-updates",
           "author": null,
           "description": "It hasn't been long since the 0.55 update, but plenty has landed since. Let's go through the highlights as of v0.63.\nWhat's agent-shell?\nagent-shell is a native Emacs mode to interact with AI agents powered by ACP (Agent Client Protocol).\nSupported agents\nThe roster keeps growing. This cycle adds two new agents:\nGrok Build (xAI), #720 by @eddof13.\nOh My Pi (omp), #631 by @tychoish.\nAdditionally:\nCursor now runs on the official Cursor CLI (agent acp). Note a recent CLI is required, as the acp subcommand was only added in 2026.\nCodex now uses @agentclientprotocol/codex-acp.\nCline now accepts a default model and session mode via defcustoms (#693 by @nhojb).\nGoose no longer requires an OpenAI key by default (#711 by @hoyon).\nQwen now has explicit support for OpenAI-compatible keys.\nCustom mark…",
@@ -1063,6 +1073,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160882",
+          "author": "David Pinto",
+          "description": "",
+          "link": "https://www.baseballmusings.com/?p=160882",
+          "publishedOn": "2026-07-22T10:09:51.000Z",
+          "wordCount": 7495,
+          "title": "Wednesday Update",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160880",
           "author": "David Pinto",
@@ -2659,16 +2679,6 @@
           "wordCount": 8073,
           "title": "Jannik Sinner Reinstates The Regime",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2285797670.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=228310",
-          "author": "Diana Moskovitz",
-          "description": "It was Sunday night in Los Angeles and streets of the city legendary for its traffic sat empty. Even Trader Joe's—the beloved grocery chain known as much for its tiny parking lots as its low prices—had plenty of spaces. For once, as the Clueless joke goes, you really could get anywhere in LA in 20 minutes. The reason? Mexico was playing England. In the World Cup. In the knockout rounds. In the vaunted home of El Tri, Estadio Azteca.\nWell before I arrived at my local soccer bar, an hour before kickoff, I had resigned myself to being among those who had to stand outside. As I positioned myself the best I could for a view of the TVs, just another person clad in the signature green, white, and red of El Tri, I announced to no one in particular, \"Oh thank God, the television is on Telemundo.\"\nI have been far from alone in this sentiment. For the Mexico match, Variety reported that 21.7 million people watched on Fox—while and even larger 23.2 million watched on Telemundo. More than half of the total audience watched the broadcast in Spanish.",
-          "link": "https://defector.com/telemundo-is-the-real-winner-of-this-years-world-cup",
-          "publishedOn": "2026-07-12T19:14:35.000Z",
-          "wordCount": 8180,
-          "title": "Telemundo Is The Real Winner Of This Year’s World Cup",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/Screenshot-2026-07-12-at-11.31.05-AM-e1783881157864.png"
         }
       ]
     },
@@ -2677,6 +2687,16 @@
       "feedUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
+        {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/y40oi2zwnrxozu9g6cc8.html",
+          "author": null,
+          "description": "‘The Odyssey’ Is Really Just A Portland Trail Blazers Drama96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-decoration: inherit !importa…",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/y40oi2zwnrxozu9g6cc8.html",
+          "publishedOn": "2026-07-22T10:03:12.807Z",
+          "wordCount": 2320,
+          "title": "‘The Odyssey’ Is Really Just A Portland Trail Blazers Drama",
+          "imageUrl": null
+        },
         {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/1zwf2062gam86whvzd7k.html",
           "author": null,

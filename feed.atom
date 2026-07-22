@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-22T06:26:28.281Z</updated>
+    <updated>2026-07-22T10:23:16.035Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Wednesday Update]]></title>
+        <id>https://www.baseballmusings.com/?p=160882</id>
+        <link href="https://www.baseballmusings.com/?p=160882"/>
+        <updated>2026-07-22T10:09:51.000Z</updated>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘The Odyssey’ Is Really Just A Portland Trail Blazers Drama]]></title>
+        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/y40oi2zwnrxozu9g6cc8.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/y40oi2zwnrxozu9g6cc8.html"/>
+        <updated>2026-07-22T10:03:12.807Z</updated>
+        <summary type="html"><![CDATA[‘The Odyssey’ Is Really Just A Portland Trail Blazers Drama96
+  :root { color-scheme: light; supported-color-schemes: light; }
+  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }
+  .body { word-wrap: normal; word-spacing:normal; }
+  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }
+  img { border: 0; outline: none; }
+  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }
+  td, a, span {  mso-line-height-rule: exactly; }
+  #root [x-apple-data-detectors=true],
+  a[x-apple-data-detectors=true],
+  #MessageViewBody a { color: inherit !important; text-decoration: inherit !importa…]]></summary>
+        <author>
+            <name>Misc Newsletters</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Emacs Redux: Dedicate Windows with toggle-window-dedicated]]></title>
+        <id>https://emacsredux.com/blog/2026/07/22/dedicate-windows-with-toggle-window-dedicated/</id>
+        <link href="https://emacsredux.com/blog/2026/07/22/dedicate-windows-with-toggle-window-dedicated/"/>
+        <updated>2026-07-22T06:30:00.000Z</updated>
+        <summary type="html"><![CDATA[You’ve carefully arranged your windows just the way you want them - source code
+on the left, tests on the right, maybe a shell at the bottom. Then you run some
+command that calls display-buffer, and suddenly one of your carefully placed
+windows gets hijacked to show a *Help* buffer or a compilation log. We’ve all
+been there.
+The display-buffer machinery is one of Emacs’s most powerful features, but also
+one of its most frustrating. Emacs 30 adds a simple, practical tool to help tame
+it: toggle-window-dedicated.
+How it works
+The concept of “dedicated” windows has existed in Emacs for a long time - a
+dedicated window tells display-buffer “don’t touch me, display your buffer
+somewhere else.” But setting this up required Elisp:
+
+(set-window-dedicated-p (selected-window) t)
+
+
+Not exactly someth…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Brandon Aiyuk's NFL career is already over]]></title>
         <id>https://www.sfgate.com/49ers/article/brandon-aiyuk-career-over-22327356.php-full</id>
@@ -5537,18 +5592,6 @@ It’s fast. Jinx checks only the visible part of th…]]></summary>
         <summary type="html"><![CDATA[Thought my Emacs init file needs a bit of cleaning - it contains configs from maybe 5 and 6 years ago. It’s a nostalgic learning experience. More fun than I thought. More to come soon 🤓]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Telemundo Is The Real Winner Of This Year’s World Cup]]></title>
-        <id>https://defector.com/?p=228310</id>
-        <link href="https://defector.com/telemundo-is-the-real-winner-of-this-years-world-cup"/>
-        <updated>2026-07-12T19:14:35.000Z</updated>
-        <summary type="html"><![CDATA[It was Sunday night in Los Angeles and streets of the city legendary for its traffic sat empty. Even Trader Joe's—the beloved grocery chain known as much for its tiny parking lots as its low prices—had plenty of spaces. For once, as the Clueless joke goes, you really could get anywhere in LA in 20 minutes. The reason? Mexico was playing England. In the World Cup. In the knockout rounds. In the vaunted home of El Tri, Estadio Azteca.
-Well before I arrived at my local soccer bar, an hour before kickoff, I had resigned myself to being among those who had to stand outside. As I positioned myself the best I could for a view of the TVs, just another person clad in the signature green, white, and red of El Tri, I announced to no one in particular, "Oh thank God, the television is on Telemundo."
-I have been far from alone in this sentiment. For the Mexico match, Variety reported that 21.7 million people watched on Fox—while and even larger 23.2 million watched on Telemundo. More than half of the total audience watched the broadcast in Spanish.]]></summary>
-        <author>
-            <name>Diana Moskovitz</name>
         </author>
     </entry>
 </feed>

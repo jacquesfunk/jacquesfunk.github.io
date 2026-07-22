@@ -22,6 +22,146 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-07-22 datetime="2026-07-22T10:09:51.000Z">2026-07-22</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-07-22 datetime="2026-07-22T10:09:51.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >baseballmusings.com</button>
+                  <a class="source-heading__link" href="https://www.baseballmusings.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.baseballmusings.com/?p&#x3D;160882"
+                        open
+                      >
+                        <summary class="article-expander__title">Wednesday Update</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.baseballmusings.com/?p&#x3D;160882">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;25
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Misc Newsletters</button>
+                  <a class="source-heading__link" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/y40oi2zwnrxozu9g6cc8.html"
+                        open
+                      >
+                        <summary class="article-expander__title">‘The Odyssey’ Is Really Just A Portland Trail Blazers Drama</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/y40oi2zwnrxozu9g6cc8.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>‘The Odyssey’ Is Really Just A Portland Trail Blazers Drama96
+  :root { color-scheme: light; supported-color-schemes: light; }
+  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }
+  .body { word-wrap: normal; word-spacing:normal; }
+  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }
+  img { border: 0; outline: none; }
+  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }
+  td, a, span {  mso-line-height-rule: exactly; }
+  #root [x-apple-data-detectors&#x3D;true],
+  a[x-apple-data-detectors&#x3D;true],
+  #MessageViewBody a { color: inherit !important; text-decoration: inherit !importa…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Emacslife</button>
+                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://emacsredux.com/blog/2026/07/22/dedicate-windows-with-toggle-window-dedicated/"
+                        open
+                      >
+                        <summary class="article-expander__title">Emacs Redux: Dedicate Windows with toggle-window-dedicated</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://emacsredux.com/blog/2026/07/22/dedicate-windows-with-toggle-window-dedicated/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://emacsredux.com/assets/og-image.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>You’ve carefully arranged your windows just the way you want them - source code
+on the left, tests on the right, maybe a shell at the bottom. Then you run some
+command that calls display-buffer, and suddenly one of your carefully placed
+windows gets hijacked to show a *Help* buffer or a compilation log. We’ve all
+been there.
+The display-buffer machinery is one of Emacs’s most powerful features, but also
+one of its most frustrating. Emacs 30 adds a simple, practical tool to help tame
+it: toggle-window-dedicated.
+How it works
+The concept of “dedicated” windows has existed in Emacs for a long time - a
+dedicated window tells display-buffer “don’t touch me, display your buffer
+somewhere else.” But setting this up required Elisp:
+
+(set-window-dedicated-p (selected-window) t)
+
+
+Not exactly someth…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-07-21 datetime="2026-07-22T02:30:23.227Z">2026-07-21</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-07-21 datetime="2026-07-22T02:30:23.227Z"></time>
           </button>
@@ -10528,48 +10668,12 @@ But savvy people weren’t foole…</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Defector</button>
-                  <a class="source-heading__link" href="https://defector.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;228310"
-                        open
-                      >
-                        <summary class="article-expander__title">Telemundo Is The Real Winner Of This Year’s World Cup</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/telemundo-is-the-real-winner-of-this-years-world-cup">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/Screenshot-2026-07-12-at-11.31.05-AM-e1783881157864.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>It was Sunday night in Los Angeles and streets of the city legendary for its traffic sat empty. Even Trader Joe&#x27;s—the beloved grocery chain known as much for its tiny parking lots as its low prices—had plenty of spaces. For once, as the Clueless joke goes, you really could get anywhere in LA in 20 minutes. The reason? Mexico was playing England. In the World Cup. In the knockout rounds. In the vaunted home of El Tri, Estadio Azteca.
-Well before I arrived at my local soccer bar, an hour before kickoff, I had resigned myself to being among those who had to stand outside. As I positioned myself the best I could for a view of the TVs, just another person clad in the signature green, white, and red of El Tri, I announced to no one in particular, &quot;Oh thank God, the television is on Telemundo.&quot;
-I have been far from alone in this sentiment. For the Mexico match, Variety reported that 21.7 million people watched on Fox—while and even larger 23.2 million watched on Telemundo. More than half of the total audience watched the broadcast in Spanish.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/29896716979">
-        <time id="build-timestamp" datetime="2026-07-22T06:26:28.248Z">2026-07-22T06:26:28.248Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/29911674647">
+        <time id="build-timestamp" datetime="2026-07-22T10:23:16.016Z">2026-07-22T10:23:16.016Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
