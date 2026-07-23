@@ -703,6 +703,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://metaredux.com/posts/2026/07/23/making-cider-more-discoverable.html",
+          "author": null,
+          "description": "This series about the notable changes in\nCIDER 2.0 continues with the change\nyou’ll bump into first, whatever your workflow: the transient menus, and the\nbroader push to make CIDER’s functionality discoverable.\nThe problem: CIDER is huge\nCIDER has well over 300 interactive commands. I’ll admit something I’ve said\nbefore: there are features in CIDER that even I forget exist, and I wrote\nhalf of them. For users, historically, the options for finding functionality\nwere:\nmemorize cryptic key chords (C-c C-w i, anyone?)\ngrep the (very long) manual\nread the source\nstumble on a feature by accident three years in and feel robbed\nThat’s not great for a tool whose whole pitch is making you more productive.\nThe Emacs answer to this problem was demonstrated years ago by\nMagit: transient\nmenus, which t…",
+          "link": "https://metaredux.com/posts/2026/07/23/making-cider-more-discoverable.html",
+          "publishedOn": "2026-07-23T15:50:00.000Z",
+          "wordCount": 1381,
+          "title": "Meta Redux: Making CIDER More Discoverable",
+          "imageUrl": "https://metaredux.com/assets/og-image.png"
+        },
+        {
           "id": "http://en.andros.dev/blog/06bfd107/emacs-is-a-lispboard/",
           "author": null,
           "description": "What would have happened if Emacs' default buffer had been a terminal emulator? Conceptually, from the outside, it would be perceived as a terminal on steroids with Lisp as its scripting language. Maybe we would be talking about iTerm2 vs Emacs, or Kitty vs Emacs, or even Bash vs Emacs. And what if the default buffer had been Dired, the file manager? History might have created rivalries such as Total Commander vs Emacs, or Finder vs Emacs.\nBut history took another path. We already know that if you launch an Emacs instance without any configuration whatsoever, what you see is a buffer with the following message:\n;; This buffer is for text that is not saved, and for Lisp evaluation.\n;; To create a file, visit it with ‘C-x C-f’ and enter text in its buffer.\nA notepad with an embedded Lisp int…",
@@ -2232,6 +2242,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=229989",
+          "author": "Abigail Segel",
+          "description": "The Boston Legacy is not known for being gentle. The expansion team has earned more yellow cards and committed more fouls than any other club in the NWSL this year. On Sunday, that didn’t matter for Leicy Santos. At least twice, the Washington Spirit midfielder found herself with the ball cornered by three Boston players. With remarkable efficiency, she made them all look like fools. After a few deft touches and even better body positioning, she had evaded considerable pressure and released the ball to an open teammate. In fact, I’m not even confident that this didn’t happen more than twice; such is the grace with which Santos can slip out of impossible situations. You only see it if you’re looking for it. \nOf course, there was no missing Santos’s contribution on the first goal of the match, a looping one-touch cross to Tara Rudd, who headed the ball back across the goal mouth above the hands of Casey Murphy. Washington went on to win the game 2-1. The performance wasn’t their most flashy, but it was impressive considering it came just four days after they played Gotham FC in abhorrently smoky conditions in New York City. Most starters from that Gotham game were rested against Boston. Santos was not one of them; she was one of only three outfield players to start both games, and played 170 minutes across the two contests. \nHalfway into the season, the Spirit sit at the top of the table, and Santos is a big reason why. Her importance to the team is partly borne out of necessity; when the Spirit traded away Croix Bethune, the league’s most exciting attacking midfielder, before the season started, they didn’t bring anyone in to replace her. Fans of the perennial contenders were puzzled. Losing Bethune, as Yuki Nagasato tweeted, was losing the attack’s brain.",
+          "link": "https://defector.com/leicy-santos-is-in-the-right-spot",
+          "publishedOn": "2026-07-23T16:01:38.000Z",
+          "wordCount": 7305,
+          "title": "Leicy Santos Is In The Right Spot",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2274222329.jpg"
+        },
         {
           "id": "https://defector.com/?p=229945",
           "author": "Maitreyi Anantharaman",
