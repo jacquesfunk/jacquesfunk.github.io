@@ -266,6 +266,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/lc7fqx2c7b6u7yanorto.html",
+          "author": null,
+          "description": "Fatal ICE shooting shows how gerrymandering changes democracy\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/lc7fqx2c7b6u7yanorto.html",
+          "publishedOn": "2026-07-22T22:04:05.962Z",
+          "wordCount": 1480,
+          "title": "Fatal ICE shooting shows how gerrymandering changes democracy",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/53ryt0akk0tltd1sfezl.html",
           "author": null,
           "description": "Americans United for Separation of Church and State\n\t\n  \n    \n    96\n  \n\t\n\t@font-face {\n\tfont-family: 'Overpass';\n\tfont-style: normal;\n\tfont-weight: 300;\n\tfont-display: swap;\n\tsrc: url('https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6ovPbPpqKl8Kuo8Az.woff2') format('woff2');\n\tunicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n@font-face {\n\tfont-family: 'Overpass';\n\tfont-style: italic;\n\tfont-weight: 300;\n\tfont-display: swap;\n\tsrc: url('https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLBdeqqIncOMp9gyUsE.woff2') format('woff2');\n\tunicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U…",
@@ -682,6 +692,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://ray-on-emacs.blogspot.com/2026/07/the-problem-with-tags-lists.html",
+          "author": null,
+          "description": "A Tags List is an alternative to the Agenda that the user can\nconfigure with org-agenda-custom-commands.  The list\nshows subheadings that have a certain tag.  You can edit these list\nitems with the same commands used for the item on the standard Agenda\nView.  For example, you can invoke org-agenda-todo (bound\nto t) while on a tag list item to change its TODO state.  However, the\ndisplay doesn't always reflect the action that was performed. That can\nmislead the user into thinking the command had no effect.\nFor example, you can change an item's TODO state to DONE.  When you\ndo that for an Agenda item, usually Org Agenda removes the item from\nthe Agenda.  However, that doesn't happen to an item on a Tags List.\nThe TODO keyword changes to DONE, but the item remains visible.\nHowever, if it's a …",
+          "link": "https://ray-on-emacs.blogspot.com/2026/07/the-problem-with-tags-lists.html",
+          "publishedOn": "2026-07-23T01:32:36.624Z",
+          "wordCount": 3317,
+          "title": "Raymond Zeitler: The Problem With Tags Lists",
+          "imageUrl": null
+        },
         {
           "id": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
           "author": null,
@@ -1131,16 +1151,6 @@
           "wordCount": 803,
           "title": "Sacha Chua: 2026-07-13 Emacs news",
           "imageUrl": null
-        },
-        {
-          "id": "https://taonaw.com/2026/07/13/a-quick-orgmode-internal-links.html",
-          "author": null,
-          "description": "As I mentioned yesterday, I started organizing (and cleaning) my Emacs config. What may have seemed like an annoying and boring task has proven to be fun and addicting (reminds me of this, which is part of this video 😂).\nI’ve already discovered a couple of new improvements to my current config as I was researching individual settings and why I have them, and as I said I do plan to share it. For now though, one important section I added to my config is a quick org-mode links reference. This is actually the first time I figured out the difference between radio links and “regular” plain links and how to use them.\nHere it is, slightly modified:\nOrg-ID\nWe know about links to other files using org-id: You give a header an :ID: property (this is generated automatically1 when you link to a header…",
-          "link": "https://taonaw.com/2026/07/13/a-quick-orgmode-internal-links.html",
-          "publishedOn": "2026-07-13T12:55:12.000Z",
-          "wordCount": 839,
-          "title": "TAONAW - Emacs and Org Mode: A Quick org-mode Internal Links Reference",
-          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/07/13/5939529.png"
         }
       ]
     },
@@ -1149,6 +1159,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160894",
+          "author": "David Pinto",
+          "description": "MLB decided to crack down on Jose Caballero for waiting until there are exactly eight seconds left to make eye contact with the pitcher: Based on previous conversations with MLB, Boone instructed Caballero to “make sure you’re looking up at nine so that you are alert by eight.” “He actually said that they were making […]",
+          "link": "https://www.baseballmusings.com/?p=160894",
+          "publishedOn": "2026-07-23T00:49:01.000Z",
+          "wordCount": 7751,
+          "title": "When Eight Seconds is Nine Seconds",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160892",
           "author": "David Pinto",
@@ -1744,22 +1764,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!5UUn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2917ea68-c7bc-445f-9b3a-89f4cb2ed327_2000x1476.webp"
-        },
-        {
-          "id": "https://www.stevevladeck.com/p/238-venue-engineering-in-the-efforts",
-          "author": "Steve Vladeck",
-          "description": "After losing in courts across the country, DOJ and the FTC have steered litigation over gender-affirming medical care for minors to a single Texas judge.",
-          "link": "https://www.stevevladeck.com/p/238-venue-engineering-in-the-efforts",
-          "publishedOn": "2026-07-13T11:05:22.000Z",
-          "wordCount": null,
-          "title": "238. Venue Engineering in the Efforts to Limit Gender-Affirming Medical Care for Minors",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!yNup!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f33d94b-6cc5-4ded-9bf0-57eb8db32aea_3800x2534.avif",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!yNup!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f33d94b-6cc5-4ded-9bf0-57eb8db32aea_3800x2534.avif"
         }
       ]
     },
@@ -2889,26 +2893,6 @@
           "wordCount": 4068,
           "title": "The Crossword, July 13: Flat Out",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2276498244.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=228679",
-          "author": "Albert Burneko",
-          "description": "The Republican Senator Lindsey Graham of South Carolina died on Saturday, after what reports have called a \"brief and sudden illness\" following an official visit to Ukraine. He was 71.  In 2003 Graham succeeded ancient dread Confederate mummy Strom Thurmond in the Senate, and was an actively malevolent force in American society for all the remaining 23 years of his life, at a scale larger than he'd been an actively malevolent force in American society for the preceding 48.\nGraham's hatreds and bigotries were bog standard for his party, and they were legion. He hated gay and queer people; he hated black and brown people; he hated Muslims; he hated liberals; he hated efforts to make the nation more just, the environment cleaner, the future better. He hated free speech and the free press and …",
-          "link": "https://defector.com/lindsey-graham-dead-world-no-worse",
-          "publishedOn": "2026-07-13T14:11:43.000Z",
-          "wordCount": 6452,
-          "title": "Lindsey Graham Dead, World No Worse",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2275283249.jpeg"
-        },
-        {
-          "id": "https://defector.com/?p=228668",
-          "author": "Giri Nathan",
-          "description": "After losing the 2025 Australian Open final, Sascha Zverev was remarkably despondent. The man who defeated him, Jannik Sinner, put both hands on Zverev's shoulders and delivered a pep talk to the sobbing runner-up as the duo awaited the presentation of their trophies.  \"I think Jannik is better than me at the moment. It's as simple as that,\" Zverev said in his post-match press conference. \"I think I'm serving better than him, but that's it. He does everything else better than me. He moves better than me, he hits his forehand better than me, he hits his backhand better than me, he returns better than me, he volleys better than me.\" \nMany players suffer emotionally after losing a Slam final, and for Zverev it was his third time in that unpleasant scenario, but I couldn't remember the last ti…",
-          "link": "https://defector.com/jannik-sinner-reinstates-the-regime",
-          "publishedOn": "2026-07-13T13:14:47.000Z",
-          "wordCount": 8073,
-          "title": "Jannik Sinner Reinstates The Regime",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2285797670.jpg"
         }
       ]
     },
@@ -3135,36 +3119,6 @@
           "publishedOn": "2026-07-13T21:00:04.958Z",
           "wordCount": 4048,
           "title": "Royals Draft Gets Mixed Reviews",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/54i6zupr2625s9ugn5oi.html",
-          "author": null,
-          "description": "96\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}.row-2 .column-1 .block-7 .button:hover{background-color:#16688b!important;border-bottom:0 solid transparent!important;border-left:0 solid transparent!important;border-right:0 solid transparent!important;border-top:0 solid transparent!important;color:#fff!important} @media (max-width:660px){.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:non…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/54i6zupr2625s9ugn5oi.html",
-          "publishedOn": "2026-07-13T12:34:39.052Z",
-          "wordCount": 690,
-          "title": "New from Chicago: A cultural autopsy of the last day of the Vietnam War",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/p3m4con0oqet8vubnm3y.html",
-          "author": null,
-          "description": "96\n        Baltimore chops the Royals\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    line-height: 100%;\n  }\n\n  .apple-l…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/p3m4con0oqet8vubnm3y.html",
-          "publishedOn": "2026-07-13T12:32:45.808Z",
-          "wordCount": 3605,
-          "title": "Baltimore chops the Royals",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/17by36k4cl9ass71ps01.html",
-          "author": null,
-          "description": "Who’s Up For A Little Sports Adventure?96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-decoration: inherit !important; font-size: inher…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/17by36k4cl9ass71ps01.html",
-          "publishedOn": "2026-07-13T10:01:29.471Z",
-          "wordCount": 2090,
-          "title": "Who’s Up For A Little Sports Adventure?",
           "imageUrl": null
         }
       ]
