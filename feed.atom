@@ -2,10 +2,166 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-23T10:21:23.238Z</updated>
+    <updated>2026-07-23T13:53:57.522Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Jess Craven and father_karine posted new notes]]></title>
+        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/idaxd41dvldq2s2ug75x.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/idaxd41dvldq2s2ug75x.html"/>
+        <updated>2026-07-23T13:42:56.170Z</updated>
+        <summary type="html"><![CDATA[Email from Substack
+@media (max-width: 1024px) {
+  .typography .pullquote-align-left,
+  .typography.editor .pullquote-align-left,
+  .typography .pullquote-align-right,
+  .typography.editor .pullquote-align-right,
+  .typography .pullquote-align-wide,
+  .typography.editor .pullquote-align-wide,
+  .typography .pullquote-align-center,
+  .typography.editor .pullquote-align-center {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+@media (min-width: 1024px) {
+  .ty…]]></summary>
+        <author>
+            <name>Current Events</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Orcas Are Kerploding Sunfish Into A Thousand Pieces]]></title>
+        <id>https://defector.com/?p=229709</id>
+        <link href="https://defector.com/orcas-are-kerploding-sunfish-into-a-thousand-pieces"/>
+        <updated>2026-07-23T13:24:20.000Z</updated>
+        <summary type="html"><![CDATA[In many ways, the sunfish could not have been better-designed as an orca's chew toy. The largest species, the oceanic sunfish Mola mola, can grow up to 10 feet long and weigh up to 6,000 pounds. And yet it is almost unfathomably helpless. Its body resembles a serving platter. It has no tail fin, just a tall dorsal and anal fin, which it flaps in unison to get around. A sunfish often spends its time lounging on its side at the surface of the water, basking in the sun and allowing seabirds to nibble on the parasites that riddle its skin. It has no venom or spines; its only real defense is somewhat thick skin. It's not even a very good swimmer. While a sunfish can reach top speeds of around two miles per hour, an orca can rocket through the water as fast as 35 mph.
+So it's no surprise that such a large and lumbering fish might offer a wandering pack of orcas some welcome entertainment as they cruise in the clear waters off the Gulf of California. Of course, what is amusing for an orca is terrifying for any non-orca witnesses. Something that might make an orca click and whistle with glee will certainly make an adult woman go "Oh my god! Oh my god! Oh my god! Holy shit!" Relatedly, please enjoy the video below.]]></summary>
+        <author>
+            <name>Sabrina Imbler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Your Team Sucks 2026: Las Vegas Raiders]]></title>
+        <id>https://defector.com/?p=229430</id>
+        <link href="https://defector.com/why-your-team-sucks-2026-las-vegas-raiders"/>
+        <updated>2026-07-23T13:01:52.000Z</updated>
+        <summary type="html"><![CDATA[Some people are fans of the Las Vegas Raiders. But many, many more people are NOT fans of the Las Vegas Raiders. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.
+Your team: Las Vegas Raiders.]]></summary>
+        <author>
+            <name>Drew Magary</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Irreal: Making A Window Dedicated]]></title>
+        <id>https://irreal.org/blog/?p=13964</id>
+        <link href="https://irreal.org/blog/?p=13964"/>
+        <updated>2026-07-23T12:54:41.000Z</updated>
+        <summary type="html"><![CDATA[making a window dedicated. A dedicated window is one that is locked to its current buffer. That means, for instance, that if you have a particular window configuration in place and call some other function, the new function can’t hijack the dedicated window and spoil your configuration. Batsov has an animated Gif that shows this in action.
+
+
+The notion of a dedicated window has been in Emacs for some time but what’s new is a quick way of dedicating a window. That way is toggle-window-dedicated, which is bound to Ctrl+x w d by default. As shown in Batsov’s Gif, that toggles the dedicated state for the current window on and off.
+
+
+Sadly, I have Ctrl+x w bound to a function that starts up elfeed. I use that several times a day and have a significant investment in muscle memory so I either have to change the toggle-window-dedicated binding or simply call it directly. Since I doubt I’ll be using it that often, I’ll probably just call it directly. With my fuzzy command completion I need only enter Meta+x tog win to get the desired result.
+
+
+There’s one other aspect that Batsov mentions but doesn’t explain: strongly dedicated windows. If a window is strongly dedicated, you can’t change the buffer displayed by the window. You can make a window strongly dedicated by specifying the universal argument in the call to toggle-window-dedicated.
+
+
+If you like to set up a specific window configuration for some of your workflows and you don’t like random commands stepping on it, toggle-window-dedicated is just what you need.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Captain Fantastic]]></title>
+        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/bl2hjginycs8kkwbubq5.html</id>
+        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/bl2hjginycs8kkwbubq5.html"/>
+        <updated>2026-07-23T12:28:35.492Z</updated>
+        <summary type="html"><![CDATA[96
+        Captain Fantastic
+        
+@media only screen and (max-width: 620px) {
+  table.body {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  table.body .content {
+    padding: 0 !important;
+  }
+
+  table.body .container {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  table.body .main {
+    border-spacing: 10px 0 !important;
+    border-left-width: 0 !important;
+    border-radius: 0 !important;
+    border-right-width: 0 !important;
+  }
+
+  table.body .img-responsive {
+    height: auto !important;
+    max-width: 100% !important;
+    width: auto !important;
+  }
+}
+@media all {
+  .ExternalClass {
+    width: 100%;
+  }
+
+  .ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+    line-height: 100%;
+  }
+
+  .apple-link a {
+ …]]></summary>
+        <author>
+            <name>Misc Newsletters</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TAONAW - Emacs and Org Mode:]]></title>
+        <id>https://taonaw.com/2026/07/23/interesting-trick-discovered-by-mistake.html</id>
+        <link href="https://taonaw.com/2026/07/23/interesting-trick-discovered-by-mistake.html"/>
+        <updated>2026-07-23T11:55:04.000Z</updated>
+        <summary type="html"><![CDATA[Interesting trick, discovered by mistake:
+Dragging and dropping a file into Emacs while in a folder with Dired copies it there, just as Finder would. Did you know that? I didn’t!]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bonus 239: The Fifth Circuit's "Precedential Stay" in Sosnava Rodriguez]]></title>
+        <id>https://www.stevevladeck.com/p/bonus-239-the-fifth-circuits-precedential</id>
+        <link href="https://www.stevevladeck.com/p/bonus-239-the-fifth-circuits-precedential"/>
+        <updated>2026-07-23T11:20:31.000Z</updated>
+        <summary type="html"><![CDATA[The Fifth Circuit once again did the government's bidding on immigration detention—this time through an unexplained procedural move I've never seen before.]]></summary>
+        <author>
+            <name>Steve Vladeck</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Thursday Update]]></title>
         <id>https://www.baseballmusings.com/?p=160896</id>
@@ -5578,36 +5734,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Jakub Nowak: Response to Human Fear in Emacs]]></title>
-        <id>https://www.cyan.sh/blog/posts/response-to-human-fear-in-emacs.html</id>
-        <link href="https://www.cyan.sh/blog/posts/response-to-human-fear-in-emacs.html"/>
-        <updated>2026-07-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Human fear in Emacs by Andros Fenollosa, as I believe there is a small correction to be made around the legal matter surrounding LLM contributions to Emacs under the current policy.
-
-
-
-Note that I am not a contributor to Emacs, nor GNU; this is purely my understanding of their position and it may be wrong.
-
-
-
-
-The licensing arguments seem legitimate to me, but easy to get around.
-Today you can work with a free LLM, with open weights, running on your own machine.
-If the purity of the tool really mattered, we should not accept patches typed on Windows with a proprietary IDE.
-
-
-
-This is a faulty comparison, in my opinion, and a misunderstanding of the licensing issue.
-The FSF and GNU require assignment of copyright from contributor to foundation in order to effectively enforce the GPL.
-
-
-
-The…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Majors at the Break]]></title>
         <id>https://www.baseballmusings.com/?p=160793</id>
         <link href="https://www.baseballmusings.com/?p=160793"/>
@@ -5615,153 +5741,6 @@ The…]]></summary>
         <summary type="html"><![CDATA[The 2026 season flies in the face of the owners claim that MLB needs a salary cap to stay competitive. There is one team a bit above .600, and three teams just below .400. For the first time in a while, there is no truly terrible team. Here’s the Baseball Musings Season Simulator running a […]]]></summary>
         <author>
             <name>David Pinto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wed, July 15th, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together]]></title>
-        <id>https://www.hopiumchronicles.com/p/wed-july-15th-7pm-et-our-weekly-hopium</id>
-        <link href="https://www.hopiumchronicles.com/p/wed-july-15th-7pm-et-our-weekly-hopium"/>
-        <updated>2026-07-13T23:30:30.000Z</updated>
-        <summary type="html"><![CDATA[Welcome new subscribers!]]></summary>
-        <author>
-            <name>Simon Rosenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TAONAW - Emacs and Org Mode:]]></title>
-        <id>https://taonaw.com/2026/07/13/say-you-go-jump-to.html</id>
-        <link href="https://taonaw.com/2026/07/13/say-you-go-jump-to.html"/>
-        <updated>2026-07-13T22:21:20.000Z</updated>
-        <summary type="html"><![CDATA[Say you go jump to a header in org-mode somewhere with C-c C-o. Did you know that you can go back with C-c &? And that it has history, so you can keep going back??
-Years of isearch-backwards… wasted. Mind blown. 🤯]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump uses Lindsey Graham’s death to push anti-voting bill]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/gxjw5yrb7xmonxgd8fuh.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/gxjw5yrb7xmonxgd8fuh.html"/>
-        <updated>2026-07-13T22:03:12.181Z</updated>
-        <summary type="html"><![CDATA[Trump uses Lindsey Graham’s death to push anti-voting bill
-    
-    
-    
-    
-    
-
-
-
-
-
-a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
-
-
-    
-  
-    
-      
-      96
-   …]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Royals Draft Gets Mixed Reviews]]></title>
-        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/ohamegl22zgjvub3zz5h.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/ohamegl22zgjvub3zz5h.html"/>
-        <updated>2026-07-13T21:00:04.958Z</updated>
-        <summary type="html"><![CDATA[Royals Draft Gets Mixed Reviews
-@media (max-width: 1024px) {
-  .typography .pullquote-align-left,
-  .typography.editor .pullquote-align-left,
-  .typography .pullquote-align-right,
-  .typography.editor .pullquote-align-right,
-  .typography .pullquote-align-wide,
-  .typography.editor .pullquote-align-wide,
-  .typography .pullquote-align-center,
-  .typography.editor .pullquote-align-center {
-    float: none;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 100%;
-  }
-}
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .typography .markup table.image-wrapper img,
-  .typography.editor .markup table.image-wrapper img,
-  .typography .markup table.kindle-wrapper img,
-  .typography.editor .markup table.kindle-wrapper img {
-    max-width: 550px;
-  }
-}
-@media (min-width: 102…]]></summary>
-        <author>
-            <name>Misc Newsletters</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stephen Colbert's brilliant, bittersweet finale]]></title>
-        <id>https://www.sfgate.com/sf-culture/article/stephen-colbert-final-show-22266912.php-full</id>
-        <link href="https://www.sfgate.com/sf-culture/article/stephen-colbert-final-show-22266912.php"/>
-        <updated>2026-07-13T19:21:26.014Z</updated>
-        <summary type="html"><![CDATA[I met Stephen Colbert a quarter century ago. He was a correspondent for Jon Stewart’s “Daily Show” at the time, I was a junior copywriter at a New York ad agency. We were testing out a radio ad campaign for one of our biggest clients, and our producer scored Colbert to be the voice-over for some of the test spots. Colbert came into the studio for two straight days — being paid at scale, which is basically the established minimum wage for members of the Screen Actors Guild — and blew the goddamn doors off the place. 
-
-He did as many takes as we needed from him. He ad-libbed off the script I’d written, inventing a shady friend of his named Spider whom he knew would just love getting AT&T Wireless’ friends and family plan for only $19.99 a month. He was as brilliant that day as he’d been on n…]]></summary>
-        <author>
-            <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Gen X review of Gen Z phenomenon 'Backrooms']]></title>
-        <id>https://www.sfgate.com/sf-culture/article/backrooms-review-22288032.php-full</id>
-        <link href="https://www.sfgate.com/sf-culture/article/backrooms-review-22288032.php"/>
-        <updated>2026-07-13T19:21:26.003Z</updated>
-        <summary type="html"><![CDATA[There’s no way for me to write about the horror movie sensation “Backrooms” without betraying my age. Until very recently, I didn’t know that the film was based on a series of YouTube shorts that were, themselves, based on a 4chan thread. I didn’t know that the director of the “Backrooms” feature film was series director Kane Parsons, who’s all of 20 years old and has the most Zoomer name imaginable. When I learned of these facts, dear reader, all of my dormant boomer instincts kicked in. Immediately. I’m the kind of Gen Xer who wanted to die when one of his own kids said they wanted to be a YouTuber one day, so why would I volunteer to sit in a theater for two hours watching one such YouTuber ply their screechy trade? Isn’t there enough MrBeast in everything already? I was conditioned to …]]></summary>
-        <author>
-            <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don't call Trump’s Freedom 250 concert ‘Wouldstink.’ That’s mean.Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/02/freedom-250-music-milli-vanilli-trump/90359130007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/02/freedom-250-music-milli-vanilli-trump/90359130007/"/>
-        <updated>2026-07-13T19:21:25.548Z</updated>
-        <summary type="html"><![CDATA[When the musical lineup for President Donald Trump’s Freedom 250 celebration was announced, I was fired up.
-The list of performers for what’s billed as “The Great American State Fair,” a 16-day event on the National Mall starting June 25, included: Milli Vanilli, Young MC, C+C Music Factory, Morris Day and The Time, and Poison lead singer Bret Michaels.
-Because I love Trump and America, and because my brain rejects information that runs contrary to my ideological beliefs, I considered that lineup a victory for conservatives and proof that we are culturally relevant.
-Rude liberals keep attacking the Freedom 250 music lineup
-
-But the lefties out there were quick to suggest Milli Vanilli and company would make a perfect lineup for an off-night county fair B-stage. Nasty comedian John Oliver, …]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I'm as qualified to be director of national intelligence as Bill PulteRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/03/bill-pulte-national-intelligence-trump/90370886007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/03/bill-pulte-national-intelligence-trump/90370886007/"/>
-        <updated>2026-07-13T19:21:25.482Z</updated>
-        <summary type="html"><![CDATA[Few things represent the “DEI, but for unqualified goons” approach President Donald Trump takes to his Cabinet appointees better than this June 2 headline from The Washington Post: “Trump picks mortgage chief Bill Pulte to lead on national intelligence.”
-Perfect. A 38-year-old pal of Donald Trump Jr. with a degree in broadcast journalism and experience in finance and home building, coupled with zero background in intelligence or national security, will now be America’s acting director of national intelligence. I feel safer already.
-Pulte has been serving as director of the Federal Housing Finance Agency, though his actions have largely been serving Trump and his unquenchable thirst for revenge against political opponents. 
-Pulte pushed the Justice Department to launch mortgage-fraud invest…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rules for the algae-covered Reflecting Pool: No touching, no lookingRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/23/reflecting-pool-algae-trump-arrests/90598460007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/23/reflecting-pool-algae-trump-arrests/90598460007/"/>
-        <updated>2026-07-13T19:21:25.436Z</updated>
-        <summary type="html"><![CDATA[Hello America-loving tourist, and welcome to the beautiful, algae-free Lincoln Memorial Reflecting Pool, brought to you by President Donald J. Trump, the only man powerful enough to make the Reflecting Pool Great Again.
-You’ll notice the pool is surrounded by armed soldiers hoping you don't look at the water. That is for your safety and the safety of the newly refurbished Reflecting Pool, which is glistening and perfect and not at all covered with a thick layer of algae and stray chunks of American-flag-blue paint the media would have you believe exists.
-Before we begin our tour of this remarkable national landmark, I’ll remind everyone that there is no looking at the remarkable national landmark.
-If you didn’t receive blackout goggles when you bought your ticket for the tour, please keep …]]></summary>
-        <author>
-            <name>Rex Huppke</name>
         </author>
     </entry>
 </feed>

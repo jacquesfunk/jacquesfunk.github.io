@@ -260,6 +260,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/idaxd41dvldq2s2ug75x.html",
+          "author": null,
+          "description": "Email from Substack\n@media (max-width: 1024px) {\n  .typography .pullquote-align-left,\n  .typography.editor .pullquote-align-left,\n  .typography .pullquote-align-right,\n  .typography.editor .pullquote-align-right,\n  .typography .pullquote-align-wide,\n  .typography.editor .pullquote-align-wide,\n  .typography .pullquote-align-center,\n  .typography.editor .pullquote-align-center {\n    float: none;\n    margin: 0 auto;\n    width: 100%;\n    max-width: 100%;\n  }\n}\n@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {\n  .typography .markup table.image-wrapper img,\n  .typography.editor .markup table.image-wrapper img,\n  .typography .markup table.kindle-wrapper img,\n  .typography.editor .markup table.kindle-wrapper img {\n    max-width: 550px;\n  }\n}\n@media (min-width: 1024px) {\n  .ty…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/idaxd41dvldq2s2ug75x.html",
+          "publishedOn": "2026-07-23T13:42:56.170Z",
+          "wordCount": 2494,
+          "title": "Jess Craven and father_karine posted new notes",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/lc7fqx2c7b6u7yanorto.html",
           "author": null,
           "description": "Fatal ICE shooting shows how gerrymandering changes democracy\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n…",
@@ -668,16 +678,6 @@
           "wordCount": 991,
           "title": "Trump has always abused the law. Today, a judge said no.",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/gxjw5yrb7xmonxgd8fuh.html",
-          "author": null,
-          "description": "Trump uses Lindsey Graham’s death to push anti-voting bill\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n   …",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/gxjw5yrb7xmonxgd8fuh.html",
-          "publishedOn": "2026-07-13T22:03:12.181Z",
-          "wordCount": 1389,
-          "title": "Trump uses Lindsey Graham’s death to push anti-voting bill",
-          "imageUrl": null
         }
       ]
     },
@@ -686,6 +686,26 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://irreal.org/blog/?p=13964",
+          "author": null,
+          "description": "making a window dedicated. A dedicated window is one that is locked to its current buffer. That means, for instance, that if you have a particular window configuration in place and call some other function, the new function can’t hijack the dedicated window and spoil your configuration. Batsov has an animated Gif that shows this in action.\n\n\nThe notion of a dedicated window has been in Emacs for some time but what’s new is a quick way of dedicating a window. That way is toggle-window-dedicated, which is bound to Ctrl+x w d by default. As shown in Batsov’s Gif, that toggles the dedicated state for the current window on and off.\n\n\nSadly, I have Ctrl+x w bound to a function that starts up elfeed. I use that several times a day and have a significant investment in muscle memory so I either have to change the toggle-window-dedicated binding or simply call it directly. Since I doubt I’ll be using it that often, I’ll probably just call it directly. With my fuzzy command completion I need only enter Meta+x tog win to get the desired result.\n\n\nThere’s one other aspect that Batsov mentions but doesn’t explain: strongly dedicated windows. If a window is strongly dedicated, you can’t change the buffer displayed by the window. You can make a window strongly dedicated by specifying the universal argument in the call to toggle-window-dedicated.\n\n\nIf you like to set up a specific window configuration for some of your workflows and you don’t like random commands stepping on it, toggle-window-dedicated is just what you need.",
+          "link": "https://irreal.org/blog/?p=13964",
+          "publishedOn": "2026-07-23T12:54:41.000Z",
+          "wordCount": 1504,
+          "title": "Irreal: Making A Window Dedicated",
+          "imageUrl": null
+        },
+        {
+          "id": "https://taonaw.com/2026/07/23/interesting-trick-discovered-by-mistake.html",
+          "author": null,
+          "description": "Interesting trick, discovered by mistake:\nDragging and dropping a file into Emacs while in a folder with Dired copies it there, just as Finder would. Did you know that? I didn’t!",
+          "link": "https://taonaw.com/2026/07/23/interesting-trick-discovered-by-mistake.html",
+          "publishedOn": "2026-07-23T11:55:04.000Z",
+          "wordCount": 469,
+          "title": "TAONAW - Emacs and Org Mode:",
+          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/07/23/5953183.png"
+        },
         {
           "id": "https://ray-on-emacs.blogspot.com/2026/07/the-problem-with-tags-lists.html",
           "author": null,
@@ -1125,26 +1145,6 @@
           "wordCount": 1143,
           "title": "Andros Fenollosa: Human fear in Emacs",
           "imageUrl": "https://img.andros.dev/nBgRNg17UB_JOm4H0xVbgc4r7Pg=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_94e69e19.png"
-        },
-        {
-          "id": "https://www.cyan.sh/blog/posts/response-to-human-fear-in-emacs.html",
-          "author": null,
-          "description": "Human fear in Emacs by Andros Fenollosa, as I believe there is a small correction to be made around the legal matter surrounding LLM contributions to Emacs under the current policy.\n\n\n\nNote that I am not a contributor to Emacs, nor GNU; this is purely my understanding of their position and it may be wrong.\n\n\n\n\nThe licensing arguments seem legitimate to me, but easy to get around.\nToday you can work with a free LLM, with open weights, running on your own machine.\nIf the purity of the tool really mattered, we should not accept patches typed on Windows with a proprietary IDE.\n\n\n\nThis is a faulty comparison, in my opinion, and a misunderstanding of the licensing issue.\nThe FSF and GNU require assignment of copyright from contributor to foundation in order to effectively enforce the GPL.\n\n\n\nThe…",
-          "link": "https://www.cyan.sh/blog/posts/response-to-human-fear-in-emacs.html",
-          "publishedOn": "2026-07-14T00:00:00.000Z",
-          "wordCount": null,
-          "title": "Jakub Nowak: Response to Human Fear in Emacs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://taonaw.com/2026/07/13/say-you-go-jump-to.html",
-          "author": null,
-          "description": "Say you go jump to a header in org-mode somewhere with C-c C-o. Did you know that you can go back with C-c &? And that it has history, so you can keep going back??\nYears of isearch-backwards… wasted. Mind blown. 🤯",
-          "link": "https://taonaw.com/2026/07/13/say-you-go-jump-to.html",
-          "publishedOn": "2026-07-13T22:21:20.000Z",
-          "wordCount": 479,
-          "title": "TAONAW - Emacs and Org Mode:",
-          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/07/13/5939923.png"
         }
       ]
     },
@@ -1728,6 +1728,22 @@
       "siteUrl": "https://www.stevevladeck.com",
       "articles": [
         {
+          "id": "https://www.stevevladeck.com/p/bonus-239-the-fifth-circuits-precedential",
+          "author": "Steve Vladeck",
+          "description": "The Fifth Circuit once again did the government's bidding on immigration detention—this time through an unexplained procedural move I've never seen before.",
+          "link": "https://www.stevevladeck.com/p/bonus-239-the-fifth-circuits-precedential",
+          "publishedOn": "2026-07-23T11:20:31.000Z",
+          "wordCount": null,
+          "title": "Bonus 239: The Fifth Circuit's \"Precedential Stay\" in Sosnava Rodriguez",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!TChP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHNyot8GWIAA4weo.jpg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!TChP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHNyot8GWIAA4weo.jpg"
+        },
+        {
           "id": "https://www.stevevladeck.com/p/239-the-alien-terrorist-removal-court",
           "author": "Steve Vladeck",
           "description": "The Trump administration has activated a secret 30-year-old court that's never been used. Here's what we know, and why we should (and shouldn't) be worried.",
@@ -2156,22 +2172,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!luyW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5467fd33-0b0b-4acc-b22c-1a66c7dd8de8_1101x774.png"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/wed-july-15th-7pm-et-our-weekly-hopium",
-          "author": "Simon Rosenberg",
-          "description": "Welcome new subscribers!",
-          "link": "https://www.hopiumchronicles.com/p/wed-july-15th-7pm-et-our-weekly-hopium",
-          "publishedOn": "2026-07-13T23:30:30.000Z",
-          "wordCount": null,
-          "title": "Wed, July 15th, 7pm ET - Our Weekly Hopium Paid Subscriber Get Together",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!2iHS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F04299705-a85b-4d6e-8746-50746f0f68e1_960x454.webp",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!2iHS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F04299705-a85b-4d6e-8746-50746f0f68e1_960x454.webp"
         }
       ]
     },
@@ -2180,6 +2180,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=229709",
+          "author": "Sabrina Imbler",
+          "description": "In many ways, the sunfish could not have been better-designed as an orca's chew toy. The largest species, the oceanic sunfish Mola mola, can grow up to 10 feet long and weigh up to 6,000 pounds. And yet it is almost unfathomably helpless. Its body resembles a serving platter. It has no tail fin, just a tall dorsal and anal fin, which it flaps in unison to get around. A sunfish often spends its time lounging on its side at the surface of the water, basking in the sun and allowing seabirds to nibble on the parasites that riddle its skin. It has no venom or spines; its only real defense is somewhat thick skin. It's not even a very good swimmer. While a sunfish can reach top speeds of around two miles per hour, an orca can rocket through the water as fast as 35 mph.\nSo it's no surprise that such a large and lumbering fish might offer a wandering pack of orcas some welcome entertainment as they cruise in the clear waters off the Gulf of California. Of course, what is amusing for an orca is terrifying for any non-orca witnesses. Something that might make an orca click and whistle with glee will certainly make an adult woman go \"Oh my god! Oh my god! Oh my god! Holy shit!\" Relatedly, please enjoy the video below.",
+          "link": "https://defector.com/orcas-are-kerploding-sunfish-into-a-thousand-pieces",
+          "publishedOn": "2026-07-23T13:24:20.000Z",
+          "wordCount": 6904,
+          "title": "Orcas Are Kerploding Sunfish Into A Thousand Pieces",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/orca-sunfish.jpeg"
+        },
+        {
+          "id": "https://defector.com/?p=229430",
+          "author": "Drew Magary",
+          "description": "Some people are fans of the Las Vegas Raiders. But many, many more people are NOT fans of the Las Vegas Raiders. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.\nYour team: Las Vegas Raiders.",
+          "link": "https://defector.com/why-your-team-sucks-2026-las-vegas-raiders",
+          "publishedOn": "2026-07-23T13:01:52.000Z",
+          "wordCount": 13929,
+          "title": "Why Your Team Sucks 2026: Las Vegas Raiders",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2268849401.jpg"
+        },
         {
           "id": "https://defector.com/?p=229838",
           "author": "Jae Towle Vieira",
@@ -2778,6 +2798,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/bl2hjginycs8kkwbubq5.html",
+          "author": null,
+          "description": "96\n        Captain Fantastic\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    line-height: 100%;\n  }\n\n  .apple-link a {\n …",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/bl2hjginycs8kkwbubq5.html",
+          "publishedOn": "2026-07-23T12:28:35.492Z",
+          "wordCount": 3184,
+          "title": "Captain Fantastic",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/xo43xqgae8d8isext837.html",
           "author": null,
           "description": "96\n            \n        \n        \n        \n        \n        \n        Ask a Manager - new articles\n\n    \n\t\tp{\n\t\t\tmargin:10px 0;\n\t\t\tpadding:0;\n\t\t}\n\t\ttable{\n\t\t\tborder-collapse:collapse;\n\t\t}\n\t\th1,h2,h3,h4,h5,h6{\n\t\t\tdisplay:block;\n\t\t\tmargin:0;\n\t\t\tpadding:0;\n\t\t}\n\t\timg,a img{\n\t\t\tborder:0;\n\t\t\theight:auto;\n\t\t\toutline:none;\n\t\t\ttext-decoration:none;\n\t\t}\n\t\tbody,#bodyTable,#bodyCell{\n\t\t\theight:100%;\n\t\t\tmargin:0;\n\t\t\tpadding:0;\n\t\t\twidth:100%;\n\t\t}\n\t\t.mcnPreviewText{\n\t\t\tdisplay:none !important;\n\t\t}\n\t\t#outlook a{\n\t\t\tpadding:0;\n\t\t}\n\t\timg{\n\t\t\t-ms-interpolation-mode:bicubic;\n\t\t}\n\t\ttable{\n\t\t\tmso-table-lspace:0pt;\n\t\t\tmso-table-rspace:0pt;\n\t\t}\n\t\t.ReadMsgBody{\n\t\t\twidth:100%;\n\t\t}\n\t\t.ExternalClass{\n\t\t\twidth:100%;\n\t\t}\n\t\tp,a,li,td,blockquote{\n\t\t\tmso-line-height-rule:exactly;\n\t\t}\n\t\ta[href^=tel],a[href^=sms]{\n\t\t\tcolor:i…",
@@ -2985,16 +3015,6 @@
           "publishedOn": "2026-07-15T10:02:16.680Z",
           "wordCount": 2695,
           "title": "Let Me Count The Ways, LeBron James",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/ohamegl22zgjvub3zz5h.html",
-          "author": null,
-          "description": "Royals Draft Gets Mixed Reviews\n@media (max-width: 1024px) {\n  .typography .pullquote-align-left,\n  .typography.editor .pullquote-align-left,\n  .typography .pullquote-align-right,\n  .typography.editor .pullquote-align-right,\n  .typography .pullquote-align-wide,\n  .typography.editor .pullquote-align-wide,\n  .typography .pullquote-align-center,\n  .typography.editor .pullquote-align-center {\n    float: none;\n    margin: 0 auto;\n    width: 100%;\n    max-width: 100%;\n  }\n}\n@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {\n  .typography .markup table.image-wrapper img,\n  .typography.editor .markup table.image-wrapper img,\n  .typography .markup table.kindle-wrapper img,\n  .typography.editor .markup table.kindle-wrapper img {\n    max-width: 550px;\n  }\n}\n@media (min-width: 102…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/ohamegl22zgjvub3zz5h.html",
-          "publishedOn": "2026-07-13T21:00:04.958Z",
-          "wordCount": 4048,
-          "title": "Royals Draft Gets Mixed Reviews",
           "imageUrl": null
         }
       ]
@@ -3601,36 +3621,6 @@
           "wordCount": 3957,
           "title": "Trump spikes affordable housing bill signing, like a selfish babyRex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/24/USAT/90680555007-20260624-t-173339-z-1392060828-rc-2-h-0-mar-5-of-9-rtrmadp-3-usatrump.JPG?crop=4702,2645,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/02/freedom-250-music-milli-vanilli-trump/90359130007/-full",
-          "author": "Rex Huppke",
-          "description": "When the musical lineup for President Donald Trump’s Freedom 250 celebration was announced, I was fired up.\nThe list of performers for what’s billed as “The Great American State Fair,” a 16-day event on the National Mall starting June 25, included: Milli Vanilli, Young MC, C+C Music Factory, Morris Day and The Time, and Poison lead singer Bret Michaels.\nBecause I love Trump and America, and because my brain rejects information that runs contrary to my ideological beliefs, I considered that lineup a victory for conservatives and proof that we are culturally relevant.\nRude liberals keep attacking the Freedom 250 music lineup\n\nBut the lefties out there were quick to suggest Milli Vanilli and company would make a perfect lineup for an off-night county fair B-stage. Nasty comedian John Oliver, …",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/02/freedom-250-music-milli-vanilli-trump/90359130007/",
-          "publishedOn": "2026-07-13T19:21:25.548Z",
-          "wordCount": 4242,
-          "title": "Don't call Trump’s Freedom 250 concert ‘Wouldstink.’ That’s mean.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/01/USAT/90357319007-getty-images-2278656908.jpg?crop=1021,576,x0,y51&width=1021&height=576&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/03/bill-pulte-national-intelligence-trump/90370886007/-full",
-          "author": "Rex Huppke",
-          "description": "Few things represent the “DEI, but for unqualified goons” approach President Donald Trump takes to his Cabinet appointees better than this June 2 headline from The Washington Post: “Trump picks mortgage chief Bill Pulte to lead on national intelligence.”\nPerfect. A 38-year-old pal of Donald Trump Jr. with a degree in broadcast journalism and experience in finance and home building, coupled with zero background in intelligence or national security, will now be America’s acting director of national intelligence. I feel safer already.\nPulte has been serving as director of the Federal Housing Finance Agency, though his actions have largely been serving Trump and his unquenchable thirst for revenge against political opponents. \nPulte pushed the Justice Department to launch mortgage-fraud invest…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/03/bill-pulte-national-intelligence-trump/90370886007/",
-          "publishedOn": "2026-07-13T19:21:25.482Z",
-          "wordCount": 4310,
-          "title": "I'm as qualified to be director of national intelligence as Bill PulteRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2025/11/09/USAT/87182998007-2202323696.jpg?crop=8191,4609,x0,y427&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/23/reflecting-pool-algae-trump-arrests/90598460007/-full",
-          "author": "Rex Huppke",
-          "description": "Hello America-loving tourist, and welcome to the beautiful, algae-free Lincoln Memorial Reflecting Pool, brought to you by President Donald J. Trump, the only man powerful enough to make the Reflecting Pool Great Again.\nYou’ll notice the pool is surrounded by armed soldiers hoping you don't look at the water. That is for your safety and the safety of the newly refurbished Reflecting Pool, which is glistening and perfect and not at all covered with a thick layer of algae and stray chunks of American-flag-blue paint the media would have you believe exists.\nBefore we begin our tour of this remarkable national landmark, I’ll remind everyone that there is no looking at the remarkable national landmark.\nIf you didn’t receive blackout goggles when you bought your ticket for the tour, please keep …",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/23/reflecting-pool-algae-trump-arrests/90598460007/",
-          "publishedOn": "2026-07-13T19:21:25.436Z",
-          "wordCount": 4201,
-          "title": "Rules for the algae-covered Reflecting Pool: No touching, no lookingRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90653162007-20260621-t-185812-z-1716186844-rc-2-fyla-6-yu-5-g-rtrmadp-3-usa-250-reflectingpool.JPG?crop=3427,1928,x0,y178&width=3200&height=1801&format=pjpg&auto=webp"
         }
       ]
     },
@@ -3777,26 +3767,6 @@
           "publishedOn": "2026-07-15T19:07:45.023Z",
           "wordCount": 177,
           "title": "'The Odyssey' wants you to suffer",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/sf-culture/article/stephen-colbert-final-show-22266912.php-full",
-          "author": null,
-          "description": "I met Stephen Colbert a quarter century ago. He was a correspondent for Jon Stewart’s “Daily Show” at the time, I was a junior copywriter at a New York ad agency. We were testing out a radio ad campaign for one of our biggest clients, and our producer scored Colbert to be the voice-over for some of the test spots. Colbert came into the studio for two straight days — being paid at scale, which is basically the established minimum wage for members of the Screen Actors Guild — and blew the goddamn doors off the place. \n\nHe did as many takes as we needed from him. He ad-libbed off the script I’d written, inventing a shady friend of his named Spider whom he knew would just love getting AT&T Wireless’ friends and family plan for only $19.99 a month. He was as brilliant that day as he’d been on n…",
-          "link": "https://www.sfgate.com/sf-culture/article/stephen-colbert-final-show-22266912.php",
-          "publishedOn": "2026-07-13T19:21:26.014Z",
-          "wordCount": 177,
-          "title": "Stephen Colbert's brilliant, bittersweet finale",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/sf-culture/article/backrooms-review-22288032.php-full",
-          "author": null,
-          "description": "There’s no way for me to write about the horror movie sensation “Backrooms” without betraying my age. Until very recently, I didn’t know that the film was based on a series of YouTube shorts that were, themselves, based on a 4chan thread. I didn’t know that the director of the “Backrooms” feature film was series director Kane Parsons, who’s all of 20 years old and has the most Zoomer name imaginable. When I learned of these facts, dear reader, all of my dormant boomer instincts kicked in. Immediately. I’m the kind of Gen Xer who wanted to die when one of his own kids said they wanted to be a YouTuber one day, so why would I volunteer to sit in a theater for two hours watching one such YouTuber ply their screechy trade? Isn’t there enough MrBeast in everything already? I was conditioned to …",
-          "link": "https://www.sfgate.com/sf-culture/article/backrooms-review-22288032.php",
-          "publishedOn": "2026-07-13T19:21:26.003Z",
-          "wordCount": 177,
-          "title": "A Gen X review of Gen Z phenomenon 'Backrooms'",
           "imageUrl": null
         }
       ]
