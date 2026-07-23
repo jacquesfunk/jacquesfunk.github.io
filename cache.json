@@ -109,6 +109,22 @@
       "siteUrl": "https://www.dworkinsubstack.com",
       "articles": [
         {
+          "id": "https://www.dworkinsubstack.com/p/the-trump-regime-was-betting-on-exhaustion",
+          "author": "Scott Dworkin",
+          "description": "A prosecutor got the evidence. Seven thousand strangers killed a plan to dump wastewater into their lakes and rivers. Trump’s own lawsuit turned on him.",
+          "link": "https://www.dworkinsubstack.com/p/the-trump-regime-was-betting-on-exhaustion",
+          "publishedOn": "2026-07-23T15:18:57.000Z",
+          "wordCount": null,
+          "title": "The Trump Regime Was Betting On Exhaustion. It Lost.",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/d0374566-401e-4fd8-be72-688b87f809c5_2048x1152.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/d0374566-401e-4fd8-be72-688b87f809c5_2048x1152.png"
+        },
+        {
           "id": "https://www.dworkinsubstack.com/p/three-judges-one-terrible-week-for",
           "author": "Scott Dworkin",
           "description": "A court loss, a frozen media grab, thousands of paychecks saved, and fifteen homes nobody can explain",
@@ -259,6 +275,16 @@
       "feedUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
+        {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/klk6pghqv7asij9v7tzo.html",
+          "author": null,
+          "description": "96\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}#converted-body .list_block ol,#converted-body .list_block ul,.body [class~=x_list_block] ol,.body [class~=x_list_block] ul,u+.body .list_block ol,u+.body .list_block ul{padding-left:20px} @media (max-width:620px){.image_block div.fullWidth{max-width:100%!important}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/klk6pghqv7asij9v7tzo.html",
+          "publishedOn": "2026-07-23T15:30:13.308Z",
+          "wordCount": 1864,
+          "title": "Trump’s creepy, under-the-radar mass deportation moves.",
+          "imageUrl": null
+        },
         {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/idaxd41dvldq2s2ug75x.html",
           "author": null,
@@ -668,16 +694,6 @@
           "wordCount": 571,
           "title": "WIRED for Only $10/Year Ends Soon",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/denobrx83xiyym3wue5v.html",
-          "author": null,
-          "description": "Trump has always abused the law. Today, a judge said no.\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n…",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/denobrx83xiyym3wue5v.html",
-          "publishedOn": "2026-07-14T02:02:15.595Z",
-          "wordCount": 991,
-          "title": "Trump has always abused the law. Today, a judge said no.",
-          "imageUrl": null
         }
       ]
     },
@@ -686,6 +702,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "http://en.andros.dev/blog/06bfd107/emacs-is-a-lispboard/",
+          "author": null,
+          "description": "What would have happened if Emacs' default buffer had been a terminal emulator? Conceptually, from the outside, it would be perceived as a terminal on steroids with Lisp as its scripting language. Maybe we would be talking about iTerm2 vs Emacs, or Kitty vs Emacs, or even Bash vs Emacs. And what if the default buffer had been Dired, the file manager? History might have created rivalries such as Total Commander vs Emacs, or Finder vs Emacs.\nBut history took another path. We already know that if you launch an Emacs instance without any configuration whatsoever, what you see is a buffer with the following message:\n;; This buffer is for text that is not saved, and for Lisp evaluation.\n;; To create a file, visit it with ‘C-x C-f’ and enter text in its buffer.\nA notepad with an embedded Lisp int…",
+          "link": "http://en.andros.dev/blog/06bfd107/emacs-is-a-lispboard/",
+          "publishedOn": "2026-07-23T13:48:45.000Z",
+          "wordCount": 3121,
+          "title": "Andros Fenollosa: Emacs is a Lispboard",
+          "imageUrl": "https://img.andros.dev/nBgRNg17UB_JOm4H0xVbgc4r7Pg=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_94e69e19.png"
+        },
         {
           "id": "https://irreal.org/blog/?p=13964",
           "author": null,
@@ -1153,6 +1179,26 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160900",
+          "author": "David Pinto",
+          "description": "The Log5 Method yields these top projected hit averages versus starting pitchers (first column): 0.294, 0.707, 0.720 — Chandler Simpson batting at Shane Bieber. 0.292, 0.702, 0.706 — Yandy Diaz batting at Shane Bieber. 0.291, 0.695, 0.675 — Michael Harris II batting vs. Griffin Canning. 0.280, 0.686, 0.693 — Alec Burleson batting vs. Brandon Pfaadt. […]",
+          "link": "https://www.baseballmusings.com/?p=160900",
+          "publishedOn": "2026-07-23T10:46:39.000Z",
+          "wordCount": 8104,
+          "title": "Beat the Streak Picks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.baseballmusings.com/?p=160898",
+          "author": "David Pinto",
+          "description": "Wednesday’s games shuffled the order of the top five in the Baseball Musings Batter Rankings. Yordan Alvarez of the Astros sits on top, He went two for four with a home run, his 34th of the season, in a 5-2 win over the Marlins. Junior Caminero of the Rays posted a two for four with […]",
+          "link": "https://www.baseballmusings.com/?p=160898",
+          "publishedOn": "2026-07-23T10:21:35.000Z",
+          "wordCount": 7751,
+          "title": "Best Batter Today",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160896",
           "author": "David Pinto",
@@ -1632,16 +1678,6 @@
           "wordCount": 7587,
           "title": "Walker Slugger",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.baseballmusings.com/?p=160793",
-          "author": "David Pinto",
-          "description": "The 2026 season flies in the face of the owners claim that MLB needs a salary cap to stay competitive. There is one team a bit above .600, and three teams just below .400. For the first time in a while, there is no truly terrible team. Here’s the Baseball Musings Season Simulator running a […]",
-          "link": "https://www.baseballmusings.com/?p=160793",
-          "publishedOn": "2026-07-13T23:59:56.000Z",
-          "wordCount": 7937,
-          "title": "The Majors at the Break",
-          "imageUrl": null
         }
       ]
     },
@@ -1853,6 +1889,22 @@
       "feedUrl": "https://www.hopiumchronicles.com/feed",
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
+        {
+          "id": "https://www.hopiumchronicles.com/p/trump-is-a-titanic-fck-up-things",
+          "author": "Simon Rosenberg",
+          "description": "Todd Blanche does not yet have the votes - keep calling your Senators everyone, especially Cornyn and Tillis!",
+          "link": "https://www.hopiumchronicles.com/p/trump-is-a-titanic-fck-up-things",
+          "publishedOn": "2026-07-23T14:41:13.000Z",
+          "wordCount": null,
+          "title": "Trump Is A Titanic F*ck Up. Things Are Bad For Him And Republicans Now. They Are Likely To Get Worse",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/208187515/a7ad490cf003eb37f16c170a642531d0.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-7fe",
           "author": "Simon Rosenberg",
@@ -2180,6 +2232,36 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=229945",
+          "author": "Maitreyi Anantharaman",
+          "description": "There’s a type of public relations exercise that unfolds like a joke. In it, a notable figure who has chosen to sit for a longform profile, declined to answer a sensitive question through her representative, posed for a corresponding photoshoot, and recently \"hopscotched across the country\" to engage in \"a slew\" of \"business opportunities and brand activations\" insists she doesn't care what other people think of her.\nSophie Cunningham sure doesn't. As Hallie Grossman, the author of an ESPN profile published Tuesday, writes:\nYou might delight in her, or you might decry her; either way, she draws you in. So whether you call Cunningham an enforcer or a dirty player, a role model or a culture warrior, fearless or shameless, brave or brazen -- you will keep calling her. And she won't mind. Which, perhaps, as much as anything, is the key to her ascension.\n\"People love me or they really frickin' hate me,\" she says.\n\"I just don't care.\"",
+          "link": "https://defector.com/sophie-cunningham-is-about-as-edgy-as-a-beach-ball",
+          "publishedOn": "2026-07-23T15:35:32.000Z",
+          "wordCount": 6917,
+          "title": "Sophie Cunningham Is About As Edgy As A Beach Ball",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2285709510.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=229968",
+          "author": "Tom Ley",
+          "description": "The Minnesota Lynx are comfy. They woke up Wednesday morning at the top of the WNBA standings with a 21-6 record, the league's best net rating, and a bespectacled point guard who has become the coolest player in the league halfway through her first season. These are the sort of circumstances that allow for an organization to be extremely chill in coming up with a plan for reintegrating a four-time All-WNBA superstar back into the starting lineup.\nIt doesn't get much more chill than a Wednesday afternoon road game against the Seattle Storm, one day before the start of the all-star break. Those are the circumstances under which Napheesa Collier returned to the court for the Lynx. The Lynx won the game, 86-76, and afterwards all the talk was about how Collier, returning to action following offseason surgeries on both of her ankles, is going to be taking it slow.\n\"This is an evolution,\" head coach Cheryl Reeve said after the game, about Collier's reintegration. \"We're not at the end of this ... there will still be ups and downs. There's no doubt about it.\" That echoed Reeve's pregame caution, when she stressed to reporters that Collier has \"a couple more steps to go\" and would be playing on a minutes restriction.",
+          "link": "https://defector.com/phees-back",
+          "publishedOn": "2026-07-23T14:52:01.000Z",
+          "wordCount": 6066,
+          "title": "Phee’s Back",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2237644315.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=229797",
+          "author": "Lauren Theisen",
+          "description": "The actor Eli Gelb has really found a niche for himself as \"unassuming guy in a three-hour play who's able to avoid getting directly hit by the drama.\" Before catching him in Birthright, the new off-Broadway play from Jonathan Spector, I'd last seen Gelb as the sound engineer Grover in the Tony-winning Stereophonic. In that play, which was clearly inspired by the making of Fleetwood Mac's Rumours, he begins the job ambitious and a little naive before the bad behavior of rock stars forces him to grow some protective layers. In Birthright, Gelb's character Noah has a similar professional drive, and he, too, has a core earnestness that you don't want to see overridden by a more convenient posture of cynicism. A viewer might appreciate the satisfaction of an ending like the one in Stereophonic…",
+          "link": "https://defector.com/after-the-argument-comes-the-rest-of-your-lives",
+          "publishedOn": "2026-07-23T14:31:42.000Z",
+          "wordCount": 7454,
+          "title": "After The Argument Comes The Rest Of Your Lives",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/Screenshot-524.png"
+        },
         {
           "id": "https://defector.com/?p=229709",
           "author": "Sabrina Imbler",
@@ -3153,6 +3235,36 @@
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
         {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/02/freedom-250-music-milli-vanilli-trump/90359130007/-full",
+          "author": "Rex Huppke",
+          "description": "When the musical lineup for President Donald Trump’s Freedom 250 celebration was announced, I was fired up.\nThe list of performers for what’s billed as “The Great American State Fair,” a 16-day event on the National Mall starting June 25, included: Milli Vanilli, Young MC, C+C Music Factory, Morris Day and The Time, and Poison lead singer Bret Michaels.\nBecause I love Trump and America, and because my brain rejects information that runs contrary to my ideological beliefs, I considered that lineup a victory for conservatives and proof that we are culturally relevant.\nRude liberals keep attacking the Freedom 250 music lineup\n\nBut the lefties out there were quick to suggest Milli Vanilli and company would make a perfect lineup for an off-night county fair B-stage. Nasty comedian John Oliver, …",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/02/freedom-250-music-milli-vanilli-trump/90359130007/",
+          "publishedOn": "2026-07-23T15:54:28.587Z",
+          "wordCount": 4242,
+          "title": "Don't call Trump’s Freedom 250 concert ‘Wouldstink.’ That’s mean.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/01/USAT/90357319007-getty-images-2278656908.jpg?crop=1021,576,x0,y51&width=1021&height=576&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/03/bill-pulte-national-intelligence-trump/90370886007/-full",
+          "author": "Rex Huppke",
+          "description": "Few things represent the “DEI, but for unqualified goons” approach President Donald Trump takes to his Cabinet appointees better than this June 2 headline from The Washington Post: “Trump picks mortgage chief Bill Pulte to lead on national intelligence.”\nPerfect. A 38-year-old pal of Donald Trump Jr. with a degree in broadcast journalism and experience in finance and home building, coupled with zero background in intelligence or national security, will now be America’s acting director of national intelligence. I feel safer already.\nPulte has been serving as director of the Federal Housing Finance Agency, though his actions have largely been serving Trump and his unquenchable thirst for revenge against political opponents. \nPulte pushed the Justice Department to launch mortgage-fraud invest…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/03/bill-pulte-national-intelligence-trump/90370886007/",
+          "publishedOn": "2026-07-23T15:54:28.567Z",
+          "wordCount": 4310,
+          "title": "I'm as qualified to be director of national intelligence as Bill PulteRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2025/11/09/USAT/87182998007-2202323696.jpg?crop=8191,4609,x0,y427&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/23/reflecting-pool-algae-trump-arrests/90598460007/-full",
+          "author": "Rex Huppke",
+          "description": "Hello America-loving tourist, and welcome to the beautiful, algae-free Lincoln Memorial Reflecting Pool, brought to you by President Donald J. Trump, the only man powerful enough to make the Reflecting Pool Great Again.\nYou’ll notice the pool is surrounded by armed soldiers hoping you don't look at the water. That is for your safety and the safety of the newly refurbished Reflecting Pool, which is glistening and perfect and not at all covered with a thick layer of algae and stray chunks of American-flag-blue paint the media would have you believe exists.\nBefore we begin our tour of this remarkable national landmark, I’ll remind everyone that there is no looking at the remarkable national landmark.\nIf you didn’t receive blackout goggles when you bought your ticket for the tour, please keep …",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/23/reflecting-pool-algae-trump-arrests/90598460007/",
+          "publishedOn": "2026-07-23T15:54:28.517Z",
+          "wordCount": 4201,
+          "title": "Rules for the algae-covered Reflecting Pool: No touching, no lookingRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90653162007-20260621-t-185812-z-1716186844-rc-2-fyla-6-yu-5-g-rtrmadp-3-usa-250-reflectingpool.JPG?crop=3427,1928,x0,y178&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/01/ufc-white-house-bugs-dana-white/90347036007/-full",
           "author": "Rex Huppke",
           "description": "The upcoming White House UFC fight will feature some manly mixed-martial-arts men and man-o-sphere macho maniacs who, in a world of beta men, fear nothing. \nWell, almost nothing. Turns out they’re a little afraid of bugs.\nDana White, noted tough guy and head of the Ultimate Fighting Championship, recently said he’s concerned about the event, which falls on Trump’s June 14 birthday. (Maybe the president will have a bouncy house there as well!)\nWhite isn’t worried about strong men clobbering the snot out of each other in an octagonal cage. No, he said, a recent visit to the Rose Garden with the president showed him something truly scary: “He invited me to dinner there. The amount of gnats that are flying around, I'm like, 'Holy (expletive).' As soon as I got on the plane, I got on the phone …",
@@ -3971,18 +4083,7 @@
       "title": null,
       "feedUrl": "https://historyofmusic.net/feed/",
       "siteUrl": "https://historyofmusic.net",
-      "articles": [
-        {
-          "id": "https://historyofmusic.net/?p=5742",
-          "author": "schill",
-          "description": "Part One: The Birth of the Mothership (1941–1964) Rock history has produced countless innovators, but very few musicians completely rewrote the language of popular music. Chuck Berry gave rock and roll its swagger. James Brown transformed rhythm into an unstoppable machine. Jimi Hendrix reinvented the electric guitar. George Clinton somehow managed to take pieces from […]",
-          "link": "https://historyofmusic.net/1960s/george-clinton-and-parliament-funkadelic-the-complete-history/",
-          "publishedOn": "2026-07-14T01:27:22.000Z",
-          "wordCount": 18666,
-          "title": "George Clinton and Parliament-Funkadelic: The Complete History",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Awesome Terrible Movie",
