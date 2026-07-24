@@ -266,6 +266,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/6xi6sok0z94pmwymtx54.html",
+          "author": null,
+          "description": "2 states reveal hypocrisy of GOP voter fraud conspiracy\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n …",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/6xi6sok0z94pmwymtx54.html",
+          "publishedOn": "2026-07-24T22:03:43.333Z",
+          "wordCount": 1739,
+          "title": "2 states reveal hypocrisy of GOP voter fraud conspiracy",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/8f8baggplrhj1adko307.html",
           "author": null,
           "description": "REMINDER: Register your account\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n    \n      \n    \n  \n  \n  …",
@@ -693,6 +703,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://chainsawriot.com/postmannheim/2026/07/25/writeredeck.html",
+          "author": null,
+          "description": "I like writing. Really.\nHowever, I have problem finishing my drafts. As you might be able to read in my OKRs, I mentioned multiple times that I have quite a lot of blog drafts that I haven’t completed. I don’t want to blame anyone and it’s completely my fault: I have problem focusing on a task. I have an attention problem. In the past, I could blame things like Twitter for distracting me from getting shit done. But now, I don’t use any of these social media services anymore. I am running out of excuses.\nI wanted to change my writing routine and would like to see if it would make a difference. Then, I watched a video by Veronica (of Veronica Explains) on her (new) writing setup. She reused an old laptop and made it a dedicated writing machine, or “writerdeck.” In that writing machine, she o…",
+          "link": "https://chainsawriot.com/postmannheim/2026/07/25/writeredeck.html",
+          "publishedOn": "2026-07-24T22:00:00.000Z",
+          "wordCount": 902,
+          "title": "Chung-hong Chan: Emacs Writing Machine",
+          "imageUrl": null
+        },
+        {
           "id": "https://ray-on-emacs.blogspot.com/2026/07/how-to-copy-link-at-point-undocumented.html",
           "author": null,
           "description": "If you've ever written an Emacs function only to find out that it\n  was there all along, masquerading as something else, this post is\n  for you.\nI just finished writing an Emacs function that copies the link at\n  point to the kill ring in EWW.  It will remain unpublished.  Why?\n  Because I discovered that shr-maybe-probe-and-copy-url\n  (bound to u and w\n  in eww-mode) does the same thing.  Just position point\n  on a link and invoke it.\nIt's not obvious that pressing w will do this.  In\n  fact the major mode help for eww-mode suggests\n  that w will not copy the link because it's\n  bound to eww-copy-page-url.  But it turns out that if\n  point is on a link, w will\n  invoke shr-maybe-probe-and-copy-url, \"which copies this\n  link's URL to the kill ring.\"  The manual goes on to say, \"If point is not\n  on a link, pressing w\n  calls eww-copy-page-url, which will copy the current\n  page's URL to the kill ring instead.\"1\nBefore writing my function I had been looking through the mode help\n  (C-h m from within a EWW buffer) and the EWW source code for any\n  function that looked like copy-link-at-point.\nSo how did I find out about this?  I wanted to ensure that I was\n  following the standard for capitalizing EWW, so I searched the web.\n  This took me to the GNU Emacs manual, which has a section on EWW and\n  shows it in all caps.  But then my distractibility encouraged me to\n  read a great deal more.\nI've known that keybindings can change depending on the major mode.\n  But it seems a keybinding can change based on context\n  (i.e. the position of point).  This idea is new to me.  Maybe it's\n  common for a function to \"hand off\" to another based on context.\n  But in this case it seems irresponsible to omit documentation for\n  the alternate behavior of a w key press.  Suppose a\n  user expects to copy the page URL and gets the URL of a link, instead?\nWhile this was a frustrating experience, it is yet another reminder\n  to RTFM.  WDYT?\n1  GNU Emacs EWW Basic Usage",
@@ -731,6 +751,16 @@
           "wordCount": 233,
           "title": "Org Mode requests: [TODO] Fix obsolete/wrong info in worg/org-faq.org",
           "imageUrl": null
+        },
+        {
+          "id": "https://protesilaos.com/codelog/2026-07-24-emacs-substitute-0-6-0/",
+          "author": null,
+          "description": "Substitute provides a set of commands that perform text replacement\n(i) throughout the buffer, (ii) limited to the current definition (per\nnarrow-to-defun), (iii) from point to the end of the buffer, and\n(iv) from point to the beginning of the buffer. Variations of these\nscopes are also available.\nThese substitutions are meant to be as quick as possible and, as such,\ndiffer from the standard query-replace (which I still use when\nnecessary). The provided commands prompt for substitute text and\nperform the substitution outright, without moving the point. The\ntarget is the symbol/word at point or the text corresponding to the\ncurrently marked region. All matches in the given scope are\nhighlighted by default.\nPackage name (GNU ELPA): substitute\nOfficial manual: https://protesilaos.com/emacs/su…",
+          "link": "https://protesilaos.com/codelog/2026-07-24-emacs-substitute-0-6-0/",
+          "publishedOn": "2026-07-24T00:00:00.000Z",
+          "wordCount": 424,
+          "title": "Protesilaos: Emacs: Substitute version 0.5.0",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         },
         {
           "id": "https://taonaw.com/2026/07/23/emacs-config-gems-part.html",
@@ -2982,6 +3012,16 @@
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
         {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/gy0scf7ms20hfgxys79v.html",
+          "author": null,
+          "description": "96\n        Individual games\n        \n@media only screen and (max-width: 620px) {\n  table.body {\n    width: 100%;\n    min-width: 100%;\n  }\n\n  table.body .content {\n    padding: 0 !important;\n  }\n\n  table.body .container {\n    padding: 0 !important;\n    width: 100% !important;\n  }\n\n  table.body .main {\n    border-spacing: 10px 0 !important;\n    border-left-width: 0 !important;\n    border-radius: 0 !important;\n    border-right-width: 0 !important;\n  }\n\n  table.body .img-responsive {\n    height: auto !important;\n    max-width: 100% !important;\n    width: auto !important;\n  }\n}\n@media all {\n  .ExternalClass {\n    width: 100%;\n  }\n\n  .ExternalClass,\n.ExternalClass p,\n.ExternalClass span,\n.ExternalClass font,\n.ExternalClass td,\n.ExternalClass div {\n    line-height: 100%;\n  }\n\n  .apple-link a {\n  …",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/gy0scf7ms20hfgxys79v.html",
+          "publishedOn": "2026-07-24T21:09:42.501Z",
+          "wordCount": 2962,
+          "title": "Individual games",
+          "imageUrl": null
+        },
+        {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/ya6vgtf1lwn1xlgwmdwv.html",
           "author": null,
           "description": "96\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}.row-10 .column-1 .block-5 .button:hover,.row-2 .column-1 .block-4 .button:hover,.row-4 .column-1 .block-6 .button:hover,.row-7 .column-1 .block-6 .button:hover{background-color:#16688b!important;border-bottom:0 solid transparent!important;border-left:0 solid transparent!important;border-right:0 solid transparent!important;border-top:0 solid transparent!important;color:#fff!important} @media (max-width:660px){.row-content{wi…",
@@ -3220,16 +3260,6 @@
           "wordCount": 750,
           "title": "England vs Argentina, World Cup",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/16txgt5r6nwhsjrnzcyp.html",
-          "author": null,
-          "description": "Let Me Count The Ways, LeBron James 96\n  :root { color-scheme: light; supported-color-schemes: light; }\n  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-adjust: 100% !important; -webkit-transform: scale(1) !important; -webkit-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }\n  .body { word-wrap: normal; word-spacing:normal; }\n  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-layout: fixed; }\n  img { border: 0; outline: none; }\n  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }\n  td, a, span {  mso-line-height-rule: exactly; }\n  #root [x-apple-data-detectors=true],\n  a[x-apple-data-detectors=true],\n  #MessageViewBody a { color: inherit !important; text-decoration: inherit !important; font-size: inherit …",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/16txgt5r6nwhsjrnzcyp.html",
-          "publishedOn": "2026-07-15T10:02:16.680Z",
-          "wordCount": 2695,
-          "title": "Let Me Count The Ways, LeBron James",
-          "imageUrl": null
         }
       ]
     },
@@ -3338,16 +3368,6 @@
           "wordCount": 2058,
           "title": "Pete Hegseth wants to measure your manhood",
           "imageUrl": "https://www.salon.com/app/uploads/2026/07/Pete-Hegseth-2285679465.jpg"
-        },
-        {
-          "id": "https://www.salon.com/2026/07/15/maga-influencers-exploit-graham-platner-scandal-to-win-back-men/-full",
-          "author": null,
-          "description": "Graham Platner has already quit the race to be the next senator from Maine, but defenses of the once-rising Democrat are only growing. Many of them aren’t coming from the progressives who had boosted the working class oyster farmer-turned-politician, but from people who typically loathe the left.\n“Most every guy I know did what he’s being accused of at one point or another with their girlfriend at some point after a night of drinking,” complained the Donald Trump-loving comedian Adam Carolla on Sunday’s episode of his eponymous podcast. “It’s basically like: I’m drunk, I’m horny, I weigh 50 pounds more than you, we’re gonna have sex, it’s not really rape because we sleep in the same bed.”\nPlatner officially dropped out of his race on July 10 after Jenny Racicot, an ex-partner, accused him …",
-          "link": "https://www.salon.com/2026/07/15/maga-influencers-exploit-graham-platner-scandal-to-win-back-men/",
-          "publishedOn": "2026-07-15T10:45:44.000Z",
-          "wordCount": 1954,
-          "title": "MAGA influencers exploit Graham Platner scandal to win back men",
-          "imageUrl": "https://www.salon.com/app/uploads/2026/07/Graham-Platner-2278040474.jpg"
         }
       ]
     },
@@ -4030,6 +4050,16 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73259890/jd-vance-detractors-2028-presidential-election-cycle/",
+          "author": null,
+          "description": "If the “Never Vance” slogan on social media is any indication, our vice president isn’t the “Sensible Republican” political media makes him out to be.",
+          "link": "https://www.esquire.com/news-politics/politics/a73259890/jd-vance-detractors-2028-presidential-election-cycle/",
+          "publishedOn": "2026-07-24T22:16:46.000Z",
+          "wordCount": 25855,
+          "title": "I Can’t Wait to Watch JD Vance Fall Flat on His Face During the 2028 Election Cycle",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/e4ef7afd-3812-4794-991a-e8fdf44fe4a0.jpeg?crop=1xw:0.751xh;0xw,0.181xh&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a73256736/trump-troops-casualties-iran-war/",
           "author": null,
