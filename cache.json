@@ -693,6 +693,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://ray-on-emacs.blogspot.com/2026/07/how-to-copy-link-at-point-undocumented.html",
+          "author": null,
+          "description": "If you've ever written an Emacs function only to find out that it\n  was there all along, masquerading as something else, this post is\n  for you.\nI just finished writing an Emacs function that copies the link at\n  point to the kill ring in EWW.  It will remain unpublished.  Why?\n  Because I discovered that shr-maybe-probe-and-copy-url\n  (bound to u and w\n  in eww-mode) does the same thing.  Just position point\n  on a link and invoke it.\nIt's not obvious that pressing w will do this.  In\n  fact the major mode help for eww-mode suggests\n  that w will not copy the link because it's\n  bound to eww-copy-page-url.  But it turns out that if\n  point is on a link, w will\n  invoke shr-maybe-probe-and-copy-url, \"which copies this\n  link's URL to the kill ring.\"  The manual goes on to say, \"If point is not\n  on a link, pressing w\n  calls eww-copy-page-url, which will copy the current\n  page's URL to the kill ring instead.\"1\nBefore writing my function I had been looking through the mode help\n  (C-h m from within a EWW buffer) and the EWW source code for any\n  function that looked like copy-link-at-point.\nSo how did I find out about this?  I wanted to ensure that I was\n  following the standard for capitalizing EWW, so I searched the web.\n  This took me to the GNU Emacs manual, which has a section on EWW and\n  shows it in all caps.  But then my distractibility encouraged me to\n  read a great deal more.\nI've known that keybindings can change depending on the major mode.\n  But it seems a keybinding can change based on context\n  (i.e. the position of point).  This idea is new to me.  Maybe it's\n  common for a function to \"hand off\" to another based on context.\n  But in this case it seems irresponsible to omit documentation for\n  the alternate behavior of a w key press.  Suppose a\n  user expects to copy the page URL and gets the URL of a link, instead?\nWhile this was a frustrating experience, it is yet another reminder\n  to RTFM.  WDYT?\n1  GNU Emacs EWW Basic Usage",
+          "link": "https://ray-on-emacs.blogspot.com/2026/07/how-to-copy-link-at-point-undocumented.html",
+          "publishedOn": "2026-07-24T19:27:24.920Z",
+          "wordCount": 3000,
+          "title": "Raymond Zeitler: How to Copy the Link at Point -- an Undocumented Feature in EWW",
+          "imageUrl": null
+        },
+        {
+          "id": "https://emacs-apac.gitlab.io/announcements/july-2026/",
+          "author": null,
+          "description": "This month’s Emacs Asia-Pacific (APAC)\nvirtual meetup is scheduled for Saturday, July\n25, 2026 with BigBlueButton and #emacs\non Libera Chat IRC. The timing will be 1400 to 1500 IST.\nThe meetup might get extended by 30 minutes if there is any talk, this\npage will be updated accordingly.\nIf you would like to give a demo or talk (maximum 20 minutes) on GNU\nEmacs or any variant, please contact bhavin192 on Libera Chat with\nyour talk details:",
+          "link": "https://emacs-apac.gitlab.io/announcements/july-2026/",
+          "publishedOn": "2026-07-24T19:12:23.000Z",
+          "wordCount": 214,
+          "title": "Emacs APAC: Announcing Emacs Asia-Pacific (APAC) virtual meetup, Saturday, July 25, 2026",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=13966",
           "author": null,
           "description": "Emacs 31.0.91, the second Emacs 31 pretest, is now available. If you’re interested in trying it out, you can get a copy from https://alpha.gnu.org/gnu/emacs/pretest/emacs-31.0.91.tar.xz. It’s signed so you should also get the signature file from https://alpha.gnu.org/gnu/emacs/pretest/emacs-31.0.91.tar.xz.sig.\n\n\nThis is good news, of course, because it means that Emacs 31 is that much closer to release. There’s some great new features coming in Emacs 31 (see the NEWS file for details) so I’m looking forward to its release. On the other hand, it’s good that the devs are being conservative and trying to wring all the bugs out before the official release.\n\n\nIf you don’t mind living (slightly) on the edge, try it out and let the devs know if you find any problems.",
@@ -1896,6 +1916,22 @@
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
         {
+          "id": "https://www.hopiumchronicles.com/p/the-word-i-hear-a-lot-is-betrayal",
+          "author": "Simon Rosenberg",
+          "description": "NE-02 is one our very best pick up opportunities of the cycle",
+          "link": "https://www.hopiumchronicles.com/p/the-word-i-hear-a-lot-is-betrayal",
+          "publishedOn": "2026-07-24T20:16:12.000Z",
+          "wordCount": null,
+          "title": "\"The Word I Hear A Lot Is Betrayal\" - A New Conversation with Denise Powell, Our Great Candidate Running In NE-2",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/208187496/f7e6aeacfab1917d097f2a7ea0745240.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
           "id": "https://www.hopiumchronicles.com/p/trump-imposes-enormous-new-global",
           "author": "Simon Rosenberg",
           "description": "Blanche still doesn't have the votes - keep calling your Senators everyone! Loud and proud!",
@@ -2238,6 +2274,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=230228",
+          "author": "David Roth",
+          "description": "There are aspects of being president of the United States that Donald Trump is really bad at, and others at which he is significantly worse. It goes without saying that none of that is improving, but what is most notable about his performance in the position is the extent to which he has never really bothered to figure out what the job is. From the earliest days of his presidency there was a sort of inchoate yearning that emanated from the more respectable reaches of the political culture for the possibility that Trump would not so much grow into the job as be transformed by its sheer prestige into a totally different type of person—not just chastened by the awesome responsibility of it all, but changed by it in a way that forced him to become human in all the ways that he had spent his li…",
+          "link": "https://defector.com/the-dodgers-went-to-grandpas-house",
+          "publishedOn": "2026-07-24T20:04:10.000Z",
+          "wordCount": 8366,
+          "title": "The Dodgers Went To Grandpa’s House!",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2286724915.jpg"
+        },
         {
           "id": "https://defector.com/?p=230208",
           "author": "Dave McKenna",
