@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-23T22:54:57.666Z</updated>
+    <updated>2026-07-24T02:32:53.867Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Cuban Athletics]]></title>
+        <id>https://www.baseballmusings.com/?p=160902</id>
+        <link href="https://www.baseballmusings.com/?p=160902"/>
+        <updated>2026-07-24T02:30:39.000Z</updated>
+        <summary type="html"><![CDATA[Mark Cuban, through Harbinger Sports Partners, bought a minority stake in the Athletics. The firm—which intends to make 10 to 12 investments out of its first fund—is actively in talks with other teams and expects to have more announcements in the near term. But starting with the A’s was a deliberate choice, Williams says. “We […]]]></summary>
+        <author>
+            <name>David Pinto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TAONAW - Emacs and Org Mode: Emacs Config Gems - Part 1]]></title>
+        <id>https://taonaw.com/2026/07/23/emacs-config-gems-part.html</id>
+        <link href="https://taonaw.com/2026/07/23/emacs-config-gems-part.html"/>
+        <updated>2026-07-23T23:40:23.000Z</updated>
+        <summary type="html"><![CDATA[I’ve been working on my Emacs config for three weeks now, coming this weekend. It’s one of the deepest and most fun rabbit holes I’ve been exploring. As I stumble upon new ways to do things, I dig deeper, learn more, and keep tweaking my config, which makes this rabbit lair even bigger.
+Eventually I realized that if I wait until I’m done to upload the config file, it will never happen: by the time I’m done, I will accumulate enough fixes and additional tricks and tweaks to warrant a whole new file.
+The conclusion is what I should have done from the beginning: apply changes in chunks and explain what I’m doing and why as these happen.
+I’m starting with changes to my .emacs1 file on my mac2, before we’re even touching the “good stuff” in my main emacs-settings.org file. Why? Because Emacs wa…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Fri, 1pm ET - Hopium Founding Members Most Fridays Get Together]]></title>
         <id>https://www.hopiumchronicles.com/p/fri-1pm-et-hopium-founding-members-a13</id>
@@ -476,6 +499,46 @@ If you like to set up a specific window configuration for some of your workflows
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Arthur A. Gleckler: mode-line-path]]></title>
+        <id>https://speechcode.com/blog/mode-line-path</id>
+        <link href="https://speechcode.com/blog/mode-line-path"/>
+        <updated>2026-07-23T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Thu 23 Jul 2026
+emacs
+
+  
+ 
+    
+I have hundreds of README.org files. Almost every project I write has one, and every SRFI repo has one, too. There are often three or four open in my Emacs
+       session at a time. When I look at a buffer, knowing the path, not just
+       the buffer name, helps me tell them apart. An obvious idea is to put
+       the path in the mode line, but paths are often too long to fit
+       comfortably. My mode-line-path package abbreviates paths to make them fit. It shortens them further
+       using environment variables.
+ 
+    
+I use short environment variable names to identify many directories.
+       For example, Emacs configuration is in /home/arthur/.emacs.d/. If the environment variable e points to that directory, I can open /home/arthur/.emacs.d/lisp/init.el by doing C-x C-f $e/lisp/init.el RET. (See this Emacs Info page.) My mode-line-path package takes advantage of such environment variables, and displays $e/lisp in the mode line. That abbreviated path fits even in narrow windows.
+       If there isn't a suitable environment variable, mode-line-path uses ellipses instead, e.g. .../.emacs.d/lisp.
+ 
+    
+Since I wrote the package in 2013, I've used it every day. It's time
+       to share it. I've cleaned up the code, and added caching,
+       customization variables, and tests.
+ 
+    
+After the package is loaded, configuration is as simple as:
+ 
+(setq-default mode-line-buffer-identification
+  '("%b" " (" mode-line-path ")"))
+ 
+    
+I've submitted mode-line-path to MELPA. If it is approved, I'll update this blog post. Here is the README.org.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[TAONAW - Emacs and Org Mode:]]></title>
         <id>https://taonaw.com/2026/07/23/interesting-trick-discovered-by-mistake.html</id>
         <link href="https://taonaw.com/2026/07/23/interesting-trick-discovered-by-mistake.html"/>
@@ -618,6 +681,30 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 …]]></summary>
         <author>
             <name>Current Events</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aimé Bertrand: iMessage in Emacs]]></title>
+        <id>https://macowners.club/posts/imessage-in-emacs/</id>
+        <link href="https://macowners.club/posts/imessage-in-emacs/"/>
+        <updated>2026-07-22T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The why
+Regular readers know the pattern by now: if something can be done in Emacs, I will eventually do it in Emacs.
+Then why not have my iMessages living here as well?!
+So I made timu-imessage – a package to read and send iMessages without leaving Emacs. Well… I told Claude Code what I wanted.
+What does it do?
+A chat list with your entire message history, unread counts included.
+Conversation buffers that update live as messages arrive – with tapbacks, threaded replies and inline images.
+Full-text search across every message you ever received, in milliseconds.
+Sending from the minibuffer.
+Org integration: a single key captures the message at point with a link back to it.
+It reads straight from the Messages database on your Mac. Sending goes through a small companion Shortcut.
+
+
+
+Installat…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -5967,39 +6054,6 @@ img + div {display: none!important;}
 /* ios *…]]></summary>
         <author>
             <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[‘Famous Men’ And Ambitious Women]]></title>
-        <id>https://defector.com/?p=228438</id>
-        <link href="https://defector.com/famous-men-and-ambitious-women"/>
-        <updated>2026-07-14T13:59:31.000Z</updated>
-        <summary type="html"><![CDATA[Is there a story writers love to tell more than the one about how we became ourselves? Give me all of them: Your künstlerromans, your campus novels, your NYCs, your MFAs. I didn’t go to Iowa, but I’ve read so many recollections of the program that sometimes I think I might have. The pleasures of the genre arise in part from how its entrants play with certain tropes: the struggle to find one’s voice, the anxiety of influence, the labor of constructing an identity, the implicit resolution promised by the book the reader holds in their hands.
-A key figure in this artistic coming-of-age is the charismatic teacher. The writing teacher is both a vision of a possible future and that future’s arbiter; maybe the first authority to give—or withhold—permission for the student to keep going. The stake…]]></summary>
-        <author>
-            <name>Tajja Isen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[They Buried The Epstein Files. New Mexico Brought A Shovel.]]></title>
-        <id>https://www.dworkinsubstack.com/p/they-buried-the-epstein-files-new</id>
-        <link href="https://www.dworkinsubstack.com/p/they-buried-the-epstein-files-new"/>
-        <updated>2026-07-14T13:09:42.000Z</updated>
-        <summary type="html"><![CDATA[A prosecutor went around the DOJ, a judge voided Trump’s $1.8 billion scheme—and that’s just the start]]></summary>
-        <author>
-            <name>Scott Dworkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Cycling Solved Sleep]]></title>
-        <id>https://defector.com/?p=228624</id>
-        <link href="https://defector.com/how-cycling-solved-sleep"/>
-        <updated>2026-07-14T12:59:48.000Z</updated>
-        <summary type="html"><![CDATA[AURILLAC, France — Is the Tour de France is the most competitive sleep environment in sports? "Probably, yeah," answered Dr. Jon Greenwell, EF-Education EasyPost's Head Doctor when I asked him. Every athlete needs to recover, though the demands on professional cyclists at the biggest race in the sport are unique. Riders have to be fresh every day for nearly a month, and they spend almost every night at a different hotel. There are only two days off, so they must recover from one day's effort before the next day's racing starts the next morning. If you don't sleep, you can't race.
-One of Greenwell's primary responsibilities at the Tour is making sure the riders are getting enough high-quality sleep every night. On the first rest day of the Tour de France, I caught up with him and Walid Karim, an EF staffer responsible for assembling the team's sleep apparatuses, because I wanted to know how they managed it. Sleep is a whole-day effort, and EF uses some bed technology I'd never heard of before that seems extremely effective. Last year, a staffer told me they averaged over eight hours and 15 minutes of sleep, per rider, per night.
-The attention given to somnial matters has increased drastically in the recent past. Greenwell joined the team 10 years ago, after stints with Great Britain's Olympic swimming and triathlon programs, and his time in the sport is contemporary with the sleep revolution. "Basically, you just had what you were given," he says of the way things were done when he joined, describing "typical French hotels with these long bolster pillows, that are just so uncomfortable."]]></summary>
-        <author>
-            <name>Patrick Redford</name>
         </author>
     </entry>
 </feed>

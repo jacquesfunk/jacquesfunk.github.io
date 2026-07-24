@@ -251,22 +251,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/dfb1c36e-2e13-4934-a471-590c11bcc3dd_2048x1152.png"
-        },
-        {
-          "id": "https://www.dworkinsubstack.com/p/they-buried-the-epstein-files-new",
-          "author": "Scott Dworkin",
-          "description": "A prosecutor went around the DOJ, a judge voided Trump’s $1.8 billion scheme—and that’s just the start",
-          "link": "https://www.dworkinsubstack.com/p/they-buried-the-epstein-files-new",
-          "publishedOn": "2026-07-14T13:09:42.000Z",
-          "wordCount": null,
-          "title": "They Buried The Epstein Files. New Mexico Brought A Shovel.",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/02366739-c41c-469b-bd2f-f64706cfbf5a_2048x1152.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/02366739-c41c-469b-bd2f-f64706cfbf5a_2048x1152.png"
         }
       ]
     },
@@ -723,6 +707,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://taonaw.com/2026/07/23/emacs-config-gems-part.html",
+          "author": null,
+          "description": "I’ve been working on my Emacs config for three weeks now, coming this weekend. It’s one of the deepest and most fun rabbit holes I’ve been exploring. As I stumble upon new ways to do things, I dig deeper, learn more, and keep tweaking my config, which makes this rabbit lair even bigger.\nEventually I realized that if I wait until I’m done to upload the config file, it will never happen: by the time I’m done, I will accumulate enough fixes and additional tricks and tweaks to warrant a whole new file.\nThe conclusion is what I should have done from the beginning: apply changes in chunks and explain what I’m doing and why as these happen.\nI’m starting with changes to my .emacs1 file on my mac2, before we’re even touching the “good stuff” in my main emacs-settings.org file. Why? Because Emacs wa…",
+          "link": "https://taonaw.com/2026/07/23/emacs-config-gems-part.html",
+          "publishedOn": "2026-07-23T23:40:23.000Z",
+          "wordCount": 1889,
+          "title": "TAONAW - Emacs and Org Mode: Emacs Config Gems - Part 1",
+          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/07/23/5953617.png"
+        },
+        {
           "id": "https://metaredux.com/posts/2026/07/23/making-cider-more-discoverable.html",
           "author": null,
           "description": "This series about the notable changes in\nCIDER 2.0 continues with the change\nyou’ll bump into first, whatever your workflow: the transient menus, and the\nbroader push to make CIDER’s functionality discoverable.\nThe problem: CIDER is huge\nCIDER has well over 300 interactive commands. I’ll admit something I’ve said\nbefore: there are features in CIDER that even I forget exist, and I wrote\nhalf of them. For users, historically, the options for finding functionality\nwere:\nmemorize cryptic key chords (C-c C-w i, anyone?)\ngrep the (very long) manual\nread the source\nstumble on a feature by accident three years in and feel robbed\nThat’s not great for a tool whose whole pitch is making you more productive.\nThe Emacs answer to this problem was demonstrated years ago by\nMagit: transient\nmenus, which t…",
@@ -753,6 +747,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://speechcode.com/blog/mode-line-path",
+          "author": null,
+          "description": "Thu 23 Jul 2026\nemacs\n\n  \n \n    \nI have hundreds of README.org files. Almost every project I write has one, and every SRFI repo has one, too. There are often three or four open in my Emacs\n       session at a time. When I look at a buffer, knowing the path, not just\n       the buffer name, helps me tell them apart. An obvious idea is to put\n       the path in the mode line, but paths are often too long to fit\n       comfortably. My mode-line-path package abbreviates paths to make them fit. It shortens them further\n       using environment variables.\n \n    \nI use short environment variable names to identify many directories.\n       For example, Emacs configuration is in /home/arthur/.emacs.d/. If the environment variable e points to that directory, I can open /home/arthur/.emacs.d/lisp/init.el by doing C-x C-f $e/lisp/init.el RET. (See this Emacs Info page.) My mode-line-path package takes advantage of such environment variables, and displays $e/lisp in the mode line. That abbreviated path fits even in narrow windows.\n       If there isn't a suitable environment variable, mode-line-path uses ellipses instead, e.g. .../.emacs.d/lisp.\n \n    \nSince I wrote the package in 2013, I've used it every day. It's time\n       to share it. I've cleaned up the code, and added caching,\n       customization variables, and tests.\n \n    \nAfter the package is loaded, configuration is as simple as:\n \n(setq-default mode-line-buffer-identification\n  '(\"%b\" \" (\" mode-line-path \")\"))\n \n    \nI've submitted mode-line-path to MELPA. If it is approved, I'll update this blog post. Here is the README.org.",
+          "link": "https://speechcode.com/blog/mode-line-path",
+          "publishedOn": "2026-07-23T12:00:00.000Z",
+          "wordCount": 896,
+          "title": "Arthur A. Gleckler: mode-line-path",
+          "imageUrl": null
+        },
+        {
           "id": "https://taonaw.com/2026/07/23/interesting-trick-discovered-by-mistake.html",
           "author": null,
           "description": "Interesting trick, discovered by mistake:\nDragging and dropping a file into Emacs while in a folder with Dired copies it there, just as Finder would. Did you know that? I didn’t!",
@@ -770,6 +774,16 @@
           "publishedOn": "2026-07-23T01:32:36.624Z",
           "wordCount": 3317,
           "title": "Raymond Zeitler: The Problem With Tags Lists",
+          "imageUrl": null
+        },
+        {
+          "id": "https://macowners.club/posts/imessage-in-emacs/",
+          "author": null,
+          "description": "The why\nRegular readers know the pattern by now: if something can be done in Emacs, I will eventually do it in Emacs.\nThen why not have my iMessages living here as well?!\nSo I made timu-imessage – a package to read and send iMessages without leaving Emacs. Well… I told Claude Code what I wanted.\nWhat does it do?\nA chat list with your entire message history, unread counts included.\nConversation buffers that update live as messages arrive – with tapbacks, threaded replies and inline images.\nFull-text search across every message you ever received, in milliseconds.\nSending from the minibuffer.\nOrg integration: a single key captures the message at point with a link back to it.\nIt reads straight from the Messages database on your Mac. Sending goes through a small companion Shortcut.\n\n\n\nInstallat…",
+          "link": "https://macowners.club/posts/imessage-in-emacs/",
+          "publishedOn": "2026-07-22T22:00:00.000Z",
+          "wordCount": 423,
+          "title": "Aimé Bertrand: iMessage in Emacs",
           "imageUrl": null
         },
         {
@@ -1179,6 +1193,16 @@
       "feedUrl": "https://www.baseballmusings.com/?feed=rss2",
       "siteUrl": "https://www.baseballmusings.com",
       "articles": [
+        {
+          "id": "https://www.baseballmusings.com/?p=160902",
+          "author": "David Pinto",
+          "description": "Mark Cuban, through Harbinger Sports Partners, bought a minority stake in the Athletics. The firm—which intends to make 10 to 12 investments out of its first fund—is actively in talks with other teams and expects to have more announcements in the near term. But starting with the A’s was a deliberate choice, Williams says. “We […]",
+          "link": "https://www.baseballmusings.com/?p=160902",
+          "publishedOn": "2026-07-24T02:30:39.000Z",
+          "wordCount": 7651,
+          "title": "Cuban Athletics",
+          "imageUrl": null
+        },
         {
           "id": "https://www.baseballmusings.com/?p=160900",
           "author": "David Pinto",
@@ -2927,26 +2951,6 @@
           "wordCount": 7674,
           "title": "Why The Explosive Diarrhea Parasite Is Way Worse Than Regular Diarrhea Parasites",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/Cyclospora_cayetanensis.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=228438",
-          "author": "Tajja Isen",
-          "description": "Is there a story writers love to tell more than the one about how we became ourselves? Give me all of them: Your künstlerromans, your campus novels, your NYCs, your MFAs. I didn’t go to Iowa, but I’ve read so many recollections of the program that sometimes I think I might have. The pleasures of the genre arise in part from how its entrants play with certain tropes: the struggle to find one’s voice, the anxiety of influence, the labor of constructing an identity, the implicit resolution promised by the book the reader holds in their hands.\nA key figure in this artistic coming-of-age is the charismatic teacher. The writing teacher is both a vision of a possible future and that future’s arbiter; maybe the first authority to give—or withhold—permission for the student to keep going. The stake…",
-          "link": "https://defector.com/famous-men-and-ambitious-women",
-          "publishedOn": "2026-07-14T13:59:31.000Z",
-          "wordCount": 8767,
-          "title": "‘Famous Men’ And Ambitious Women",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/famous-men-review.png"
-        },
-        {
-          "id": "https://defector.com/?p=228624",
-          "author": "Patrick Redford",
-          "description": "AURILLAC, France — Is the Tour de France is the most competitive sleep environment in sports? \"Probably, yeah,\" answered Dr. Jon Greenwell, EF-Education EasyPost's Head Doctor when I asked him. Every athlete needs to recover, though the demands on professional cyclists at the biggest race in the sport are unique. Riders have to be fresh every day for nearly a month, and they spend almost every night at a different hotel. There are only two days off, so they must recover from one day's effort before the next day's racing starts the next morning. If you don't sleep, you can't race.\nOne of Greenwell's primary responsibilities at the Tour is making sure the riders are getting enough high-quality sleep every night. On the first rest day of the Tour de France, I caught up with him and Walid Karim, an EF staffer responsible for assembling the team's sleep apparatuses, because I wanted to know how they managed it. Sleep is a whole-day effort, and EF uses some bed technology I'd never heard of before that seems extremely effective. Last year, a staffer told me they averaged over eight hours and 15 minutes of sleep, per rider, per night.\nThe attention given to somnial matters has increased drastically in the recent past. Greenwell joined the team 10 years ago, after stints with Great Britain's Olympic swimming and triathlon programs, and his time in the sport is contemporary with the sleep revolution. \"Basically, you just had what you were given,\" he says of the way things were done when he joined, describing \"typical French hotels with these long bolster pillows, that are just so uncomfortable.\"",
-          "link": "https://defector.com/how-cycling-solved-sleep",
-          "publishedOn": "2026-07-14T12:59:48.000Z",
-          "wordCount": 9342,
-          "title": "How Cycling Solved Sleep",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-160985934.jpg"
         }
       ]
     },
