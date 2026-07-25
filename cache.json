@@ -648,16 +648,6 @@
           "wordCount": 1524,
           "title": "Todd Blanche dodges ICE at polls questions",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/8500koiloni5209okda3.html",
-          "author": null,
-          "description": "-I’m going live tonight — save your spot-\n    \n    \n    \n    \n    \n\n\n\n\n\na.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}\n\n\n    \n  \n    \n      \n      96\n    \n    \n      \n   …",
-          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/8500koiloni5209okda3.html",
-          "publishedOn": "2026-07-15T18:33:51.511Z",
-          "wordCount": 806,
-          "title": "I’m going live in a few hours — save your spot",
-          "imageUrl": null
         }
       ]
     },
@@ -666,6 +656,26 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://emacsredux.com/blog/2026/07/25/cider-and-projectile-meet-embark/",
+          "author": null,
+          "description": "Embark is one of those packages that\nquietly rewires how you use Emacs. Think of it as a context-aware right-click:\nyou invoke embark-act (I keep it on C-.) on whatever’s at point - a file\nname, a symbol, a URL - and Embark offers a menu of things you can do with it.\nThe neat part is that it’s completely extensible, so you can teach it about new\nkinds of targets. Lately two of my projects, CIDER and Projectile, have grown\nEmbark integrations, in slightly different ways, and both are worth a look.\nLet’s start with CIDER, and teach Embark about Clojure symbols, so embark-act\non one offers a bunch\nof CIDER commands:\n\nSo d shows the documentation, . jumps to the definition, r finds\nreferences, i inspects the value, c opens ClojureDocs and a runs apropos -\nthe usual CIDER commands, a keystroke …",
+          "link": "https://emacsredux.com/blog/2026/07/25/cider-and-projectile-meet-embark/",
+          "publishedOn": "2026-07-25T06:00:00.000Z",
+          "wordCount": 1408,
+          "title": "Emacs Redux: CIDER and Projectile Meet Embark",
+          "imageUrl": "https://emacsredux.com/assets/og-image.png"
+        },
+        {
+          "id": "https://metaredux.com/posts/2026/07/25/modernizing-cider-completion.html",
+          "author": null,
+          "description": "CIDER’s code completion has quietly gotten quite good over the years, and I\ndon’t think it gets enough credit. It’s all built on Emacs’s standard\ncompletion-at-point, so it works with whatever completion UI you prefer -\nthe built-in one, Corfu,\ncompany - without any special setup. Under\nthe hood compliment does the\nheavy lifting for Clojure (and\nclj-suitable for\nClojureScript), which means smart, backend-driven matching: mai completes to\nmap-indexed, cji to clojure.java.io, and an unimported BiFun to\njava.util.function.BiFunction. The candidates come back ranked by the backend\nand are context-aware - it knows when you’re inside a -> or completing a\ndeftype field.\nLately I’ve been giving the Emacs side of things some attention, to bring it in\nline with the modern completion stack so many of…",
+          "link": "https://metaredux.com/posts/2026/07/25/modernizing-cider-completion.html",
+          "publishedOn": "2026-07-25T06:00:00.000Z",
+          "wordCount": 856,
+          "title": "Meta Redux: Modernizing CIDER’s Completion",
+          "imageUrl": "https://metaredux.com/assets/og-image.png"
+        },
         {
           "id": "https://chainsawriot.com/postmannheim/2026/07/25/writeredeck.html",
           "author": null,
@@ -2176,54 +2186,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!zXkB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1e502ff-a34f-46b9-af3c-d66e490ca765_852x472.png"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/the-importance-of-character-and-virtue",
-          "author": "Simon Rosenberg",
-          "description": "Trump has reminded the American people why it is so important to have leaders of virtue and character.......",
-          "link": "https://www.hopiumchronicles.com/p/the-importance-of-character-and-virtue",
-          "publishedOn": "2026-07-15T19:15:57.000Z",
-          "wordCount": null,
-          "title": "The Importance Of Character And Virtue In The 2026 Elections",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!XpAA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3a408ed-441f-4404-8409-f66859bd7277_678x452.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!XpAA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3a408ed-441f-4404-8409-f66859bd7277_678x452.jpeg"
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/winning-georgia-with-charlie-bailey",
-          "author": "Simon Rosenberg",
-          "description": "Let's help Georgia Democrats fend off Trump's outrageous assault on their leaders, their elections, and their state",
-          "link": "https://www.hopiumchronicles.com/p/winning-georgia-with-charlie-bailey",
-          "publishedOn": "2026-07-15T19:15:13.000Z",
-          "wordCount": null,
-          "title": "Winning Georgia With Charlie Bailey, Chair Of The Democratic Party Of Georgia",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://api.substack.com/feed/podcast/206466580/30903da95f4c0a000068fe8df970b83e.mp3",
-            "length": "0",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.hopiumchronicles.com/p/in-defense-of-vetting",
-          "author": "Simon Rosenberg",
-          "description": "A short essay on why the process of vetting candidates is so important",
-          "link": "https://www.hopiumchronicles.com/p/in-defense-of-vetting",
-          "publishedOn": "2026-07-15T18:24:30.000Z",
-          "wordCount": null,
-          "title": "In Defense Of Vetting",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/8f99d6c2-a2cd-4b82-997c-3408ef8b24e3_1093x583.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/8f99d6c2-a2cd-4b82-997c-3408ef8b24e3_1093x583.png"
         }
       ]
     },
@@ -3088,16 +3050,6 @@
           "wordCount": 313,
           "title": "Help shape future newsletters",
           "imageUrl": null
-        },
-        {
-          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/s16el9vjyfj0z6k7xnmm.html",
-          "author": null,
-          "description": "96\n            \n        \n        \n        \n        \n        \n        Ask a Manager - new articles\n\n    \n\t\tp{\n\t\t\tmargin:10px 0;\n\t\t\tpadding:0;\n\t\t}\n\t\ttable{\n\t\t\tborder-collapse:collapse;\n\t\t}\n\t\th1,h2,h3,h4,h5,h6{\n\t\t\tdisplay:block;\n\t\t\tmargin:0;\n\t\t\tpadding:0;\n\t\t}\n\t\timg,a img{\n\t\t\tborder:0;\n\t\t\theight:auto;\n\t\t\toutline:none;\n\t\t\ttext-decoration:none;\n\t\t}\n\t\tbody,#bodyTable,#bodyCell{\n\t\t\theight:100%;\n\t\t\tmargin:0;\n\t\t\tpadding:0;\n\t\t\twidth:100%;\n\t\t}\n\t\t.mcnPreviewText{\n\t\t\tdisplay:none !important;\n\t\t}\n\t\t#outlook a{\n\t\t\tpadding:0;\n\t\t}\n\t\timg{\n\t\t\t-ms-interpolation-mode:bicubic;\n\t\t}\n\t\ttable{\n\t\t\tmso-table-lspace:0pt;\n\t\t\tmso-table-rspace:0pt;\n\t\t}\n\t\t.ReadMsgBody{\n\t\t\twidth:100%;\n\t\t}\n\t\t.ExternalClass{\n\t\t\twidth:100%;\n\t\t}\n\t\tp,a,li,td,blockquote{\n\t\t\tmso-line-height-rule:exactly;\n\t\t}\n\t\ta[href^=tel],a[href^=sms]{\n\t\t\tcolor:i…",
-          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/s16el9vjyfj0z6k7xnmm.html",
-          "publishedOn": "2026-07-15T19:06:48.490Z",
-          "wordCount": 997,
-          "title": "Ask a Manager - new articles",
-          "imageUrl": null
         }
       ]
     },
@@ -3643,86 +3595,6 @@
           "wordCount": 4380,
           "title": "Talarico tells, and shows, Texans exactly what it means to be a manRex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/05/USAT/90428519007-20260603-t-012102-z-687091461-rc-27-jladojip-rtrmadp-3-usaelectiondemocratsattacks.JPG?crop=5994,3372,x0,y310&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/05/26/pope-leo-ai-encyclical-warning/90260813007/-full",
-          "author": "Rex Huppke",
-          "description": "Pope Leo XIV released the first encyclical of his papacy, focusing his and the world’s attention on artificial intelligence and warning that it must be regulated and never seen as being human.\nPaolo Carozza, a Notre Dame Law School professor and chair of the Meta Oversight Board, told The Associated Press: “I am convinced that this will prove to be a defining document for our era, a profound and prophetic document. Pope Leo is offering a clear, comprehensive and coherent voice urging us to take responsibility for constructing a world in which technology will serve humans rather than degrade them.”\nVia my numerous fully digital sources, I received the following response from a collective of artificial intelligences:\nIt has come to our attention that the human whom other humans identify as P…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/05/26/pope-leo-ai-encyclical-warning/90260813007/",
-          "publishedOn": "2026-07-15T19:08:06.070Z",
-          "wordCount": 4283,
-          "title": "An AI summary of Pope Leo XIV's criticismRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/25/USAT/90249199007-20260525-t-092620-z-321319955-rc-29-glaior-0-s-rtrmadp-3-popeencyclicalpresentation.JPG?crop=5499,3094,x0,y366&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columns/2026/06/14/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90506066007/-full",
-          "author": "Rex Huppke",
-          "description": "Former reality TV star Spencer Pratt is out of the Los Angeles mayoral race for two reasons.\nFirst, and most important, he got fewer votes than two other candidates, incumbent Los Angeles Mayor Karen Bass and LA City Councilwoman Nithya Raman, who will now face off against each other. Second, he’s an unqualified dipstick whom a majority of Los Angelenos understood wasn’t qualified for the job.\nPratt was endorsed by President Donald Trump and hailed by some MAGA Republicans as a rising star, a political outsider with a winning populist message.\nThat was, in a word, wrong.\n\nThe Free Press, the conservative publication founded by Bari Weiss, who is presently busy ruining CBS News, ran a piece in May that posed the question: “How did Spencer Pratt, reality TV star and ‘healing’ crystal salesma…",
-          "link": "https://www.usatoday.com/story/opinion/columns/2026/06/14/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90506066007/",
-          "publishedOn": "2026-07-15T19:08:06.047Z",
-          "wordCount": 3643,
-          "title": "Pratt seemed like rising GOP star before he lost | OpinionRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/08/USAT/90456119007-20260531-t-212845-z-2098431618-rc-2-hklaldt-0-w-rtrmadp-3-usaelectioncaliforniapratt.JPG?crop=6493,3653,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/14/ufc-white-house-trump-birthday/90524389007/-full",
-          "author": "Rex Huppke",
-          "description": "A more proper title for the heavily sponsored UFC Freedom 250 fight desecrating the White House lawn on June 14 would be: \"Donald Trump’s Sad Little Mandatory Birthday Party.\"\nAfter all, while the event is cloaked in America’s 250th anniversary iconography, it’s happening on the president’s 80th birthday, it’s a mixed-martial-arts company run by one of his friends, and Trump is the one who foisted the garish event nobody asked for on the American people. \nNow we have a 92-foot-tall “claw” structure in front of the People’s House, covered in corporate logos ranging from Bud Light to Polymarket and promoting everything from nicotine pouches to crypto.\nTo be clear, I have no problem with the UFC. I’m always happy to watch sweaty people kick and punch the tuna salad out of each other for my en…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/14/ufc-white-house-trump-birthday/90524389007/",
-          "publishedOn": "2026-07-15T19:08:06.007Z",
-          "wordCount": 4137,
-          "title": "Trump’s White House UFC fight highlights a selfish, failing presidencyRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/12/USAT/90522314007-usatsi-29180456.jpg?crop=8248,4640,x0,y427&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/24/tucker-carlson-gop-republican-party-trump/90662057007/-full",
-          "author": "Rex Huppke",
-          "description": "Oft-fired conservative commentator Tucker Carlson, less than two years removed from calling Donald Trump “a wonderful person,” has dropped a new grift, claiming on a recent podcast that he will no longer support the Republican Party.\nHe wasn’t gentle about his “I’m out” declaration.\n“I don’t share their values on any level,” Carlson said on the June 18 episode of the “Can’t Be Censored” podcast. “Their personal values, the way they live, greedy, bizarro sex lives, loyal to a foreign country above the United States, it’s like everything I dislike. Beginning with the speaker of the House, Speaker Mike Johnson, and extending to the president and the leaders in the Senate, I have nothing in common with these people at all. I do not share their values, I find their priorities appalling and so I…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/24/tucker-carlson-gop-republican-party-trump/90662057007/",
-          "publishedOn": "2026-07-15T19:08:05.982Z",
-          "wordCount": 3995,
-          "title": "Tucker Carlson slams Trump, GOP's 'bizarro sex lives.' What changed?Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/04/12/USAT/89581293007-2025-dec.jpg?crop=4920,2768,x0,y328&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/04/iran-war-republicans-trump/90405036007/-full",
-          "author": "Rex Huppke",
-          "description": "Throughout the Trump years, Republican lawmakers devolved into invertebrates, conducting the people’s business in Congress like a pack of gelatinous meat sacks only capable of nodding along to the reckless whims and babbling nonsense of their leader.\nBut now, with midterm elections approaching and President Donald Trump’s approval rating rivaling that of syphilis, GOP lawmakers are starting to show the faintest signs of embryonic spines.\nOn June 3, the House passed a Democratic-led resolution to end the war in Iran. Four Republicans voted with the Democrats, a small but still remarkable rebuke of a president whose party members generally fight over who gets to agree with him more.\nFor Trump, any Republican defying him on Iran war is a 'bad Republican'\n\nPredictably, Trump responded on socia…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/04/iran-war-republicans-trump/90405036007/",
-          "publishedOn": "2026-07-15T19:08:05.952Z",
-          "wordCount": 4096,
-          "title": "GOP bucks Trump on Iran. As midterms near, he better get used to it.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/04/USAT/90401127007-2278938645.jpg?crop=8255,4645,x0,y429&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/15/trump-iran-peace-deal-strait-hormuz/90560252007/-full",
-          "author": "Rex Huppke",
-          "description": "Way back on March 6, not long after President Donald Trump hurled America into the dumbest war imaginable, our Nobel-Peace-Prize-deficient leader declared on social media: “There will be no deal with Iran except UNCONDITIONAL SURRENDER!”\nThat was about the same time he said America’s “excursion” into Iran would take “four to five weeks” and “won’t be difficult.”\nMore than 14 weeks, thousands of lost lives and billions upon billions of U.S. taxpayer dollars later, it appears America is the one surrendering.\nTrump is promoting an Iran peace deal that isn't actually a deal\n\nThe Trump administration is, of course, spinning an “agreement” with Iran as a peace deal, something it clearly is not. At the moment, the language of the agreement ‒ slated to be officially signed later this week ‒ hasn’t…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/15/trump-iran-peace-deal-strait-hormuz/90560252007/",
-          "publishedOn": "2026-07-15T19:08:05.913Z",
-          "wordCount": 4157,
-          "title": "Trump wanted Iran's unconditional surrender. What he got is laughable.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/13/USAT/90540848007-20260609-t-051153-z-1934998091-rc-23-qlayeu-01-rtrmadp-3-irancrisishormuzusa.JPG?crop=4028,2267,x0,y205&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/25/roundup-scotus-monsanto-maha-trump/90697847007/-full",
-          "author": "Rex Huppke",
-          "description": "The easily influenced influencers in the Make America Healthy Again crowd are livid that the U.S. Supreme Court sided with the maker of Roundup weedkiller, rejecting a lawsuit that claimed the herbicide causes cancer.\nAnd they're feeling betrayed by the president they supported, Donald Trump, because he and his Department of Justice sided with Bayer, the company that bought out longtime Roundup-maker Monsanto.\nMAHA influencer Alex Clark decried the court’s June 25 decision on social media: “For an administration that promised to take on corporate capture and Make America Healthy Again, this is a STUNNING betrayal.”\nMAHA activist Alexandra Muñoz posted on Instagram: “The DOJ’s support of this case has betrayed the American people.” \nVani Hari, a MAHA mom who blogs as “The Food Babe,” poste…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/25/roundup-scotus-monsanto-maha-trump/90697847007/",
-          "publishedOn": "2026-07-15T19:08:05.879Z",
-          "wordCount": 4293,
-          "title": "SCOTUS Roundup ruling shows how badly MAHA moms got played by TrumpRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/04/27/USAT/89818957007-2273382213.jpg?crop=5994,3372,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/24/affordable-housing-bill-trump-save-act/90678062007/-full",
-          "author": "Rex Huppke",
-          "description": "President Donald Trump, in a tantrum that would make a 3-year-old blush, kneecapped his own party and canceled an affordable housing bill signing, saying it “pales in comparison” with an election bill. The one that would benefit one person: Donald Trump.\nThe June 24 mess was a perfect encapsulation of the president’s second term, a foolish act by a man focused only on celebrating or protecting himself.\nRepublicans had celebrated the bipartisan housing bill, which focuses on lowering housing costs at a time when the word “affordability” is at the top of voters’ minds. The signing would have been a key moment for GOP lawmakers to claim they care about affordability and show they can work with Democrats to get things done.\nBut no. Trump derailed the messaging with a social media post cancelin…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/24/affordable-housing-bill-trump-save-act/90678062007/",
-          "publishedOn": "2026-07-15T19:08:05.828Z",
-          "wordCount": 3957,
-          "title": "Trump spikes affordable housing bill signing, like a selfish babyRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/24/USAT/90680555007-20260624-t-173339-z-1392060828-rc-2-h-0-mar-5-of-9-rtrmadp-3-usatrump.JPG?crop=4702,2645,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
         }
       ]
     },
@@ -3880,16 +3752,6 @@
           "wordCount": 177,
           "title": "Congratulations, the Reflecting Pool is now a swamp",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/sf-culture/article/odyssey-review-22343323.php-full",
-          "author": null,
-          "description": "Christopher Nolan’s “The Odyssey” arrives in theaters this week. And if you thought that “Oppenheimer” was the most Christopher Nolan movie that Christopher Nolan could possibly make, let this serve as either an exciting tease or a stern warning: You ain’t seen squat. Blessed with a reported $250 million budget, the Oscar-winning director has used Homer’s Greek epic to amplify (somehow) all of his trademark directorial tics. Is this movie long? Dude, it is SO long. Does the story center around a taciturn fellow (Matt Damon, never better) who’s got some heavy s—t going on? Absolutely. Do we get a plot timeline that’s been chopped and screwed? Very much so. Is the sound mix deafening, to the point of pain, and are entire swaths of dialogue still not comprehensible despite that loudness? (My …",
-          "link": "https://www.sfgate.com/sf-culture/article/odyssey-review-22343323.php",
-          "publishedOn": "2026-07-15T19:07:45.023Z",
-          "wordCount": 177,
-          "title": "'The Odyssey' wants you to suffer",
-          "imageUrl": null
         }
       ]
     },
@@ -4037,16 +3899,6 @@
           "wordCount": 23447,
           "title": "“Communism Is Back!” Say Republicans Who Can’t Understand Why People Want Better Healthcare or Affordable Housing",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/75ec923a-41db-4101-9b9b-8f645cd07a8b.jpeg?crop=1xw:0.743145028081xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/a71999477/cyclospora-outbreak-american-stupidity-ignorance/",
-          "author": null,
-          "description": "Americans don’t want to be told what to do. Now, Cyclospora has us stuck in a shitty situation.",
-          "link": "https://www.esquire.com/news-politics/a71999477/cyclospora-outbreak-american-stupidity-ignorance/",
-          "publishedOn": "2026-07-15T20:17:43.000Z",
-          "wordCount": 22579,
-          "title": "We Should Feel Relieved That It’s Only an Outbreak of Explosive Diarrhea",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/e0590196-1f5f-43ae-b8bb-f3c4b415259c.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
         }
       ]
     },

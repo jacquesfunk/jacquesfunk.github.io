@@ -2,10 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-25T06:16:47.110Z</updated>
+    <updated>2026-07-25T09:45:24.600Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Emacs Redux: CIDER and Projectile Meet Embark]]></title>
+        <id>https://emacsredux.com/blog/2026/07/25/cider-and-projectile-meet-embark/</id>
+        <link href="https://emacsredux.com/blog/2026/07/25/cider-and-projectile-meet-embark/"/>
+        <updated>2026-07-25T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Embark is one of those packages that
+quietly rewires how you use Emacs. Think of it as a context-aware right-click:
+you invoke embark-act (I keep it on C-.) on whatever’s at point - a file
+name, a symbol, a URL - and Embark offers a menu of things you can do with it.
+The neat part is that it’s completely extensible, so you can teach it about new
+kinds of targets. Lately two of my projects, CIDER and Projectile, have grown
+Embark integrations, in slightly different ways, and both are worth a look.
+Let’s start with CIDER, and teach Embark about Clojure symbols, so embark-act
+on one offers a bunch
+of CIDER commands:
+
+So d shows the documentation, . jumps to the definition, r finds
+references, i inspects the value, c opens ClojureDocs and a runs apropos -
+the usual CIDER commands, a keystroke …]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta Redux: Modernizing CIDER’s Completion]]></title>
+        <id>https://metaredux.com/posts/2026/07/25/modernizing-cider-completion.html</id>
+        <link href="https://metaredux.com/posts/2026/07/25/modernizing-cider-completion.html"/>
+        <updated>2026-07-25T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CIDER’s code completion has quietly gotten quite good over the years, and I
+don’t think it gets enough credit. It’s all built on Emacs’s standard
+completion-at-point, so it works with whatever completion UI you prefer -
+the built-in one, Corfu,
+company - without any special setup. Under
+the hood compliment does the
+heavy lifting for Clojure (and
+clj-suitable for
+ClojureScript), which means smart, backend-driven matching: mai completes to
+map-indexed, cji to clojure.java.io, and an unimported BiFun to
+java.util.function.BiFunction. The candidates come back ranked by the backend
+and are context-aware - it knows when you’re inside a -> or completing a
+deftype field.
+Lately I’ve been giving the Emacs side of things some attention, to bring it in
+line with the modern completion stack so many of…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The GOP’s communist obsession is a tired, low-effort political ghost story that collapses under basic scrutiny.]]></title>
         <id>https://stuffthatinterestsme.net/?p=2896</id>
@@ -5659,265 +5706,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         <link href="https://www.hopiumchronicles.com/p/last-call-tonight-7pm-et-our-weekly-ee7"/>
         <updated>2026-07-15T21:45:11.000Z</updated>
         <summary type="html"><![CDATA[Friends,]]></summary>
-        <author>
-            <name>Simon Rosenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We Should Feel Relieved That It’s Only an Outbreak of Explosive Diarrhea]]></title>
-        <id>http://www.esquire.com/news-politics/a71999477/cyclospora-outbreak-american-stupidity-ignorance/</id>
-        <link href="https://www.esquire.com/news-politics/a71999477/cyclospora-outbreak-american-stupidity-ignorance/"/>
-        <updated>2026-07-15T20:17:43.000Z</updated>
-        <summary type="html"><![CDATA[Americans don’t want to be told what to do. Now, Cyclospora has us stuck in a shitty situation.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Importance Of Character And Virtue In The 2026 Elections]]></title>
-        <id>https://www.hopiumchronicles.com/p/the-importance-of-character-and-virtue</id>
-        <link href="https://www.hopiumchronicles.com/p/the-importance-of-character-and-virtue"/>
-        <updated>2026-07-15T19:15:57.000Z</updated>
-        <summary type="html"><![CDATA[Trump has reminded the American people why it is so important to have leaders of virtue and character.......]]></summary>
-        <author>
-            <name>Simon Rosenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Winning Georgia With Charlie Bailey, Chair Of The Democratic Party Of Georgia]]></title>
-        <id>https://www.hopiumchronicles.com/p/winning-georgia-with-charlie-bailey</id>
-        <link href="https://www.hopiumchronicles.com/p/winning-georgia-with-charlie-bailey"/>
-        <updated>2026-07-15T19:15:13.000Z</updated>
-        <summary type="html"><![CDATA[Let's help Georgia Democrats fend off Trump's outrageous assault on their leaders, their elections, and their state]]></summary>
-        <author>
-            <name>Simon Rosenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An AI summary of Pope Leo XIV's criticismRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/05/26/pope-leo-ai-encyclical-warning/90260813007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/05/26/pope-leo-ai-encyclical-warning/90260813007/"/>
-        <updated>2026-07-15T19:08:06.070Z</updated>
-        <summary type="html"><![CDATA[Pope Leo XIV released the first encyclical of his papacy, focusing his and the world’s attention on artificial intelligence and warning that it must be regulated and never seen as being human.
-Paolo Carozza, a Notre Dame Law School professor and chair of the Meta Oversight Board, told The Associated Press: “I am convinced that this will prove to be a defining document for our era, a profound and prophetic document. Pope Leo is offering a clear, comprehensive and coherent voice urging us to take responsibility for constructing a world in which technology will serve humans rather than degrade them.”
-Via my numerous fully digital sources, I received the following response from a collective of artificial intelligences:
-It has come to our attention that the human whom other humans identify as P…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pratt seemed like rising GOP star before he lost | OpinionRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columns/2026/06/14/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90506066007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columns/2026/06/14/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90506066007/"/>
-        <updated>2026-07-15T19:08:06.047Z</updated>
-        <summary type="html"><![CDATA[Former reality TV star Spencer Pratt is out of the Los Angeles mayoral race for two reasons.
-First, and most important, he got fewer votes than two other candidates, incumbent Los Angeles Mayor Karen Bass and LA City Councilwoman Nithya Raman, who will now face off against each other. Second, he’s an unqualified dipstick whom a majority of Los Angelenos understood wasn’t qualified for the job.
-Pratt was endorsed by President Donald Trump and hailed by some MAGA Republicans as a rising star, a political outsider with a winning populist message.
-That was, in a word, wrong.
-
-The Free Press, the conservative publication founded by Bari Weiss, who is presently busy ruining CBS News, ran a piece in May that posed the question: “How did Spencer Pratt, reality TV star and ‘healing’ crystal salesma…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump’s White House UFC fight highlights a selfish, failing presidencyRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/14/ufc-white-house-trump-birthday/90524389007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/14/ufc-white-house-trump-birthday/90524389007/"/>
-        <updated>2026-07-15T19:08:06.007Z</updated>
-        <summary type="html"><![CDATA[A more proper title for the heavily sponsored UFC Freedom 250 fight desecrating the White House lawn on June 14 would be: "Donald Trump’s Sad Little Mandatory Birthday Party."
-After all, while the event is cloaked in America’s 250th anniversary iconography, it’s happening on the president’s 80th birthday, it’s a mixed-martial-arts company run by one of his friends, and Trump is the one who foisted the garish event nobody asked for on the American people. 
-Now we have a 92-foot-tall “claw” structure in front of the People’s House, covered in corporate logos ranging from Bud Light to Polymarket and promoting everything from nicotine pouches to crypto.
-To be clear, I have no problem with the UFC. I’m always happy to watch sweaty people kick and punch the tuna salad out of each other for my en…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tucker Carlson slams Trump, GOP's 'bizarro sex lives.' What changed?Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/24/tucker-carlson-gop-republican-party-trump/90662057007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/24/tucker-carlson-gop-republican-party-trump/90662057007/"/>
-        <updated>2026-07-15T19:08:05.982Z</updated>
-        <summary type="html"><![CDATA[Oft-fired conservative commentator Tucker Carlson, less than two years removed from calling Donald Trump “a wonderful person,” has dropped a new grift, claiming on a recent podcast that he will no longer support the Republican Party.
-He wasn’t gentle about his “I’m out” declaration.
-“I don’t share their values on any level,” Carlson said on the June 18 episode of the “Can’t Be Censored” podcast. “Their personal values, the way they live, greedy, bizarro sex lives, loyal to a foreign country above the United States, it’s like everything I dislike. Beginning with the speaker of the House, Speaker Mike Johnson, and extending to the president and the leaders in the Senate, I have nothing in common with these people at all. I do not share their values, I find their priorities appalling and so I…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GOP bucks Trump on Iran. As midterms near, he better get used to it.Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/04/iran-war-republicans-trump/90405036007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/04/iran-war-republicans-trump/90405036007/"/>
-        <updated>2026-07-15T19:08:05.952Z</updated>
-        <summary type="html"><![CDATA[Throughout the Trump years, Republican lawmakers devolved into invertebrates, conducting the people’s business in Congress like a pack of gelatinous meat sacks only capable of nodding along to the reckless whims and babbling nonsense of their leader.
-But now, with midterm elections approaching and President Donald Trump’s approval rating rivaling that of syphilis, GOP lawmakers are starting to show the faintest signs of embryonic spines.
-On June 3, the House passed a Democratic-led resolution to end the war in Iran. Four Republicans voted with the Democrats, a small but still remarkable rebuke of a president whose party members generally fight over who gets to agree with him more.
-For Trump, any Republican defying him on Iran war is a 'bad Republican'
-
-Predictably, Trump responded on socia…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump wanted Iran's unconditional surrender. What he got is laughable.Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/15/trump-iran-peace-deal-strait-hormuz/90560252007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/15/trump-iran-peace-deal-strait-hormuz/90560252007/"/>
-        <updated>2026-07-15T19:08:05.913Z</updated>
-        <summary type="html"><![CDATA[Way back on March 6, not long after President Donald Trump hurled America into the dumbest war imaginable, our Nobel-Peace-Prize-deficient leader declared on social media: “There will be no deal with Iran except UNCONDITIONAL SURRENDER!”
-That was about the same time he said America’s “excursion” into Iran would take “four to five weeks” and “won’t be difficult.”
-More than 14 weeks, thousands of lost lives and billions upon billions of U.S. taxpayer dollars later, it appears America is the one surrendering.
-Trump is promoting an Iran peace deal that isn't actually a deal
-
-The Trump administration is, of course, spinning an “agreement” with Iran as a peace deal, something it clearly is not. At the moment, the language of the agreement ‒ slated to be officially signed later this week ‒ hasn’t…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SCOTUS Roundup ruling shows how badly MAHA moms got played by TrumpRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/25/roundup-scotus-monsanto-maha-trump/90697847007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/25/roundup-scotus-monsanto-maha-trump/90697847007/"/>
-        <updated>2026-07-15T19:08:05.879Z</updated>
-        <summary type="html"><![CDATA[The easily influenced influencers in the Make America Healthy Again crowd are livid that the U.S. Supreme Court sided with the maker of Roundup weedkiller, rejecting a lawsuit that claimed the herbicide causes cancer.
-And they're feeling betrayed by the president they supported, Donald Trump, because he and his Department of Justice sided with Bayer, the company that bought out longtime Roundup-maker Monsanto.
-MAHA influencer Alex Clark decried the court’s June 25 decision on social media: “For an administration that promised to take on corporate capture and Make America Healthy Again, this is a STUNNING betrayal.”
-MAHA activist Alexandra Muñoz posted on Instagram: “The DOJ’s support of this case has betrayed the American people.” 
-Vani Hari, a MAHA mom who blogs as “The Food Babe,” poste…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump spikes affordable housing bill signing, like a selfish babyRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/24/affordable-housing-bill-trump-save-act/90678062007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/24/affordable-housing-bill-trump-save-act/90678062007/"/>
-        <updated>2026-07-15T19:08:05.828Z</updated>
-        <summary type="html"><![CDATA[President Donald Trump, in a tantrum that would make a 3-year-old blush, kneecapped his own party and canceled an affordable housing bill signing, saying it “pales in comparison” with an election bill. The one that would benefit one person: Donald Trump.
-The June 24 mess was a perfect encapsulation of the president’s second term, a foolish act by a man focused only on celebrating or protecting himself.
-Republicans had celebrated the bipartisan housing bill, which focuses on lowering housing costs at a time when the word “affordability” is at the top of voters’ minds. The signing would have been a key moment for GOP lawmakers to claim they care about affordability and show they can work with Democrats to get things done.
-But no. Trump derailed the messaging with a social media post cancelin…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['The Odyssey' wants you to suffer]]></title>
-        <id>https://www.sfgate.com/sf-culture/article/odyssey-review-22343323.php-full</id>
-        <link href="https://www.sfgate.com/sf-culture/article/odyssey-review-22343323.php"/>
-        <updated>2026-07-15T19:07:45.023Z</updated>
-        <summary type="html"><![CDATA[Christopher Nolan’s “The Odyssey” arrives in theaters this week. And if you thought that “Oppenheimer” was the most Christopher Nolan movie that Christopher Nolan could possibly make, let this serve as either an exciting tease or a stern warning: You ain’t seen squat. Blessed with a reported $250 million budget, the Oscar-winning director has used Homer’s Greek epic to amplify (somehow) all of his trademark directorial tics. Is this movie long? Dude, it is SO long. Does the story center around a taciturn fellow (Matt Damon, never better) who’s got some heavy s—t going on? Absolutely. Do we get a plot timeline that’s been chopped and screwed? Very much so. Is the sound mix deafening, to the point of pain, and are entire swaths of dialogue still not comprehensible despite that loudness? (My …]]></summary>
-        <author>
-            <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask a Manager - new articles]]></title>
-        <id>https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/s16el9vjyfj0z6k7xnmm.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/s16el9vjyfj0z6k7xnmm.html"/>
-        <updated>2026-07-15T19:06:48.490Z</updated>
-        <summary type="html"><![CDATA[96
-            
-        
-        
-        
-        
-        
-        Ask a Manager - new articles
-
-    
-		p{
-			margin:10px 0;
-			padding:0;
-		}
-		table{
-			border-collapse:collapse;
-		}
-		h1,h2,h3,h4,h5,h6{
-			display:block;
-			margin:0;
-			padding:0;
-		}
-		img,a img{
-			border:0;
-			height:auto;
-			outline:none;
-			text-decoration:none;
-		}
-		body,#bodyTable,#bodyCell{
-			height:100%;
-			margin:0;
-			padding:0;
-			width:100%;
-		}
-		.mcnPreviewText{
-			display:none !important;
-		}
-		#outlook a{
-			padding:0;
-		}
-		img{
-			-ms-interpolation-mode:bicubic;
-		}
-		table{
-			mso-table-lspace:0pt;
-			mso-table-rspace:0pt;
-		}
-		.ReadMsgBody{
-			width:100%;
-		}
-		.ExternalClass{
-			width:100%;
-		}
-		p,a,li,td,blockquote{
-			mso-line-height-rule:exactly;
-		}
-		a[href^=tel],a[href^=sms]{
-			color:i…]]></summary>
-        <author>
-            <name>Misc Newsletters</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I’m going live in a few hours — save your spot]]></title>
-        <id>https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/8500koiloni5209okda3.html</id>
-        <link href="https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/8500koiloni5209okda3.html"/>
-        <updated>2026-07-15T18:33:51.511Z</updated>
-        <summary type="html"><![CDATA[-I’m going live tonight — save your spot-
-    
-    
-    
-    
-    
-
-
-
-
-
-a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
-
-
-    
-  
-    
-      
-      96
-    
-    
-      
-   …]]></summary>
-        <author>
-            <name>Current Events</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[In Defense Of Vetting]]></title>
-        <id>https://www.hopiumchronicles.com/p/in-defense-of-vetting</id>
-        <link href="https://www.hopiumchronicles.com/p/in-defense-of-vetting"/>
-        <updated>2026-07-15T18:24:30.000Z</updated>
-        <summary type="html"><![CDATA[A short essay on why the process of vetting candidates is so important]]></summary>
         <author>
             <name>Simon Rosenberg</name>
         </author>
