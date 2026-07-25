@@ -12,6 +12,16 @@
       "siteUrl": "https://www.mlbtraderumors.com",
       "articles": [
         {
+          "id": "https://www.mlbtraderumors.com/?p=904773",
+          "author": "Mark Polishuk",
+          "description": "The Phillies announced that outfielder Kameron Misner has been acquired from the Royals for cash considerations.  Misner was optioned to Triple-A Lehigh Valley, and fellow outfielder Steward Berroa was designated for assignment to create space on the Phillies’ 40-man roster. More to come…",
+          "link": "https://www.mlbtraderumors.com/2026/07/phillies-acquire-kameron-misner-designate-steward-berroa.html",
+          "publishedOn": "2026-07-25T16:49:58.000Z",
+          "wordCount": 1453,
+          "title": "Phillies Acquire Kameron Misner, Designate Steward Berroa",
+          "imageUrl": "https://cdn.mlbtraderumors.com/files/2026/07/kameron-misner-royals-1024x746.jpg"
+        },
+        {
           "id": "https://www.mlbtraderumors.com/?p=904444",
           "author": "Anthony Franco",
           "description": "The Royals signed infielder Alejo Lopez to a minor league contract and assigned him to Triple-A Omaha. He backfills the organizational infield depth, as the Royals called up Andrew Velazquez when they placed Bobby Witt Jr. on the injured list this morning. Lopez had been playing in Triple-A in the Seattle system this year. He was released a […]",
@@ -255,6 +265,16 @@
       "feedUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "siteUrl": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383.xml",
       "articles": [
+        {
+          "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/o0hxsn34uz6nm8r0hu10.html",
+          "author": null,
+          "description": "96\n\n\n*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0}#converted-body .list_block ol,#converted-body .list_block ul,.body [class~=x_list_block] ol,.body [class~=x_list_block] ul,u+.body .list_block ol,u+.body .list_block ul{padding-left:20px} @media (max-width:620px){.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!…",
+          "link": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/o0hxsn34uz6nm8r0hu10.html",
+          "publishedOn": "2026-07-25T15:02:16.979Z",
+          "wordCount": 2214,
+          "title": "Month in Review: ‘To bigotry no sanction’",
+          "imageUrl": null
+        },
         {
           "id": "https://kill-the-newsletter.com/feeds/jnggh1214ov2zpew9383/entries/fa21k17gr0y6uieupyel.html",
           "author": null,
@@ -662,6 +682,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://irreal.org/blog/?p=13968",
+          "author": null,
+          "description": "The Art Of Not Asking Why, JTR has begun a series on his Emacs configuration. This post covers his special arrangements for macOS. There are two tips, in particular, that seem to come up all the time.\n\n\nThe first is setting the path. That, of course, is supposed to be a simple process on Unix-like systems but doesn’t work correctly for Emacs on macOS. A long time ago, Steve Purcell solved this problem with his exec-path-from-shell package. You can read the details and what the exact problem is at the package’s GitHub repository. If you’re using Emacs on a Mac, you definitely need this package.\n\n\nThe second problem involves Dired. It’s obvious, if you think about it, that Dired depends on the Unix ‘ls’ command to produce its listings and some of its other operations. The problem is that the macOS version of ls is missing some of the options that Dired needs. The solution is to use the GNU version of ls, called gls. That’s easy to do but you first have to install it. The easy way to do that is through Homebrew. Once gls is installed, you need merely tell Dired to use it.\n\n\nAll the details for solving these two problems are in JTR’s post so if you’re running on macOS, you should definitely take a look at it. I’ve had both those changes installed for as long as I can remember but I do recall struggling with these issues until I found the solutions. Happily, if you’re new to Emacs on the Mac, JTR has both solutions for you in one place.",
+          "link": "https://irreal.org/blog/?p=13968",
+          "publishedOn": "2026-07-25T15:00:12.000Z",
+          "wordCount": 1515,
+          "title": "Irreal: A Couple Of Tips For Emacs on macOS",
+          "imageUrl": null
+        },
         {
           "id": "https://emacsredux.com/blog/2026/07/25/cider-and-projectile-meet-embark/",
           "author": null,
@@ -1906,6 +1936,22 @@
       "siteUrl": "https://www.hopiumchronicles.com",
       "articles": [
         {
+          "id": "https://www.hopiumchronicles.com/p/maine-picks-a-senate-nominee-today",
+          "author": "Simon Rosenberg",
+          "description": "Some new ads in North Carolina and Wisconsin too.....",
+          "link": "https://www.hopiumchronicles.com/p/maine-picks-a-senate-nominee-today",
+          "publishedOn": "2026-07-25T15:11:17.000Z",
+          "wordCount": null,
+          "title": "Maine Picks A Senate Nominee Today, The DNC's Early Primary Calendar Is Set, Whitmer Endorses Stevens In Michigan",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c5a514c2-46b2-4554-a6d8-497df0218c38_768x767.webp",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/c5a514c2-46b2-4554-a6d8-497df0218c38_768x767.webp"
+        },
+        {
           "id": "https://www.hopiumchronicles.com/p/the-word-i-hear-a-lot-is-betrayal",
           "author": "Simon Rosenberg",
           "description": "NE-02 is one our very best pick up opportunities of the cycle",
@@ -2184,6 +2230,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=230201",
+          "author": "Patrick Redford",
+          "description": "ALPE D'HUEZ, France — Roughly halfway up the final climb of Stage 19, and roughly five hours before the riders hit the base, our car indulged the thick snarl of besotted fans who wanted to do the wave with us. This slowed us across a critical speed threshold, beyond which our car was no longer something worth avoiding but rather something worth rocking. I'd seen videos of cars getting shaken the night before, and hoped to get shaken myself, though I was not prepared for how jarring and violent it felt in the car, as if we were pebbles and the hooting mass of jolly Europeans was the flood. This was Alpe d'Huez, the most legendary and chaotic arena in cycling.\nThere is nothing like Alpe d'Huez in all of sports. FranceTV reported that 600,000 people slammed onto the sides of the Alpe, the mos…",
+          "link": "https://defector.com/a-day-in-the-chaos-of-cyclings-most-legendary-arena",
+          "publishedOn": "2026-07-25T16:12:22.000Z",
+          "wordCount": 10299,
+          "title": "A Day In The Chaos Of Cycling’s Most Legendary Arena",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2287506023.jpg"
+        },
         {
           "id": "https://defector.com/?p=230228",
           "author": "David Roth",
@@ -2811,6 +2867,16 @@
       "feedUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "siteUrl": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5.xml",
       "articles": [
+        {
+          "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/59ldfh7e18cl0u0z2p32.html",
+          "author": null,
+          "description": "body,a{word-break:break-word;}.feed__title a{text-decoration:underline;}img[data-emoji]{height:1.2em;width:1.2em;vertical-align:middle;}table{border-collapse:collapse;}.headline h1,.paragraph h1,.text-element h1{line-height:1.5;margin:0.5em 0;}.headline h2,.paragraph h2,.text-element h2{line-height:1.5;margin:0.5em 0;}.headline h3,.paragraph h3,.text-element h3{line-height:1.5;margin:0.5em 0;}.headline h4,.paragraph h4,.text-element h4{font-size:20px;line-height:1.5;margin:0.5em\n0;}.headline h5,.paragraph h5,.text-element h5{font-size:18px;line-height:1.5;margin:0.5em 0;}.headline h6,.paragraph h6,.text-element h6{font-size:16px;line-height:1.5;margin:0.5em 0;}.headline p,.paragraph p,.text-element p{line-height:1.5;margin:0;}.headline div,.paragraph div,.text-element div{line-height:1.5;m…",
+          "link": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/59ldfh7e18cl0u0z2p32.html",
+          "publishedOn": "2026-07-25T14:00:54.352Z",
+          "wordCount": 795,
+          "title": "5-Nugget Saturday, July 25, 2026",
+          "imageUrl": null
+        },
         {
           "id": "https://kill-the-newsletter.com/feeds/5mr68b7cb43ac2h04ai5/entries/v3v1hymbz82od9in43q0.html",
           "author": null,
