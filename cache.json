@@ -120,6 +120,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://list.orgmode.org/87ldaxub2y.fsf@gmail.com",
+          "author": null,
+          "description": "[request] flags:--- replies:0 topic:org-agenda",
+          "link": "https://list.orgmode.org/87ldaxub2y.fsf@gmail.com",
+          "publishedOn": "2026-07-26T13:36:37.000Z",
+          "wordCount": 352,
+          "title": "Org Mode requests: [RFC] org-agenda: combine Clocked and Closed entries",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=13968",
           "author": null,
           "description": "The Art Of Not Asking Why, JTR has begun a series on his Emacs configuration. This post covers his special arrangements for macOS. There are two tips, in particular, that seem to come up all the time.\n\n\nThe first is setting the path. That, of course, is supposed to be a simple process on Unix-like systems but doesn’t work correctly for Emacs on macOS. A long time ago, Steve Purcell solved this problem with his exec-path-from-shell package. You can read the details and what the exact problem is at the package’s GitHub repository. If you’re using Emacs on a Mac, you definitely need this package.\n\n\nThe second problem involves Dired. It’s obvious, if you think about it, that Dired depends on the Unix ‘ls’ command to produce its listings and some of its other operations. The problem is that the macOS version of ls is missing some of the options that Dired needs. The solution is to use the GNU version of ls, called gls. That’s easy to do but you first have to install it. The easy way to do that is through Homebrew. Once gls is installed, you need merely tell Dired to use it.\n\n\nAll the details for solving these two problems are in JTR’s post so if you’re running on macOS, you should definitely take a look at it. I’ve had both those changes installed for as long as I can remember but I do recall struggling with these issues until I found the solutions. Happily, if you’re new to Emacs on the Mac, JTR has both solutions for you in one place.",
@@ -596,6 +606,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=230299",
+          "author": "Tom Ley",
+          "description": "Let's acknowledge that there is no conversation to be had about who the best player in baseball is, so long as Shohei Ohtani is drawing breath and applying his skills as a two-way player. The gavel has long been banged on that issue. But there's a lot of baseball being played, and a lot of cool guys doing the playing, and one of those guys is Pete Crow-Armstrong, who in an Ohtani-less universe is the best player in baseball.\nCrow-Armstrong and the Cubs beat the crap out of the Pirates last night, tagging Paul Skenes for five runs in an 11-0 victory. Crow-Armstrong was responsible for most of that damage, going 4-for-5 with a homer, three RBI, and three runs scored. He also hit two doubles and stole a base. \n\nhttps://www.youtube.com/watch?v=nClz8QqS92g",
+          "link": "https://defector.com/pete-crow-armstrong-is-good-enough-to-raise-the-forbidden-question",
+          "publishedOn": "2026-07-26T14:41:45.000Z",
+          "wordCount": 6004,
+          "title": "Pete Crow-Armstrong Is Good Enough To Raise The Forbidden Question",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2287319608.jpg"
+        },
         {
           "id": "https://defector.com/?p=230201",
           "author": "Patrick Redford",
@@ -2307,6 +2327,12 @@
           "imageUrl": "https://pbfcomics.com/wp-content/uploads/2026/07/PBF-Beautiful-Universe.png"
         }
       ]
+    },
+    {
+      "title": "Go Make Things",
+      "feedUrl": "https://gomakethings.com/feed/index.xml",
+      "siteUrl": "https://gomakethings.com/articles",
+      "articles": []
     }
   ],
   "cliVersion": "1.15.1"
