@@ -120,6 +120,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://taonaw.com/2026/07/26/emacs-config-gems-part.html",
+          "author": null,
+          "description": "You know how I said last time Part 1 was just the introduction? I lied.\nMy emacs-settings.org file includes an introduction that covers what I already went over and more. I thought I’d skip it, but as I looked through the notes I left to myself — various guidelines, warnings, and tips — I realized that this is exactly the kind of stuff I should share.\nStyle\nAs I was writing this, I fell into a rabbit hole (of course) and made a couple of additional changes.\nStyle and style guides are important to me. In college, as an editor, I used the AP Stylebook as a bible almost, along with the Chicago Manual of Style for academic papers. When I worked as a technical writer, it was Microsoft’s stylebook I checked constantly — and some of it stuck (don’t say “click”; say “select”, don’t say “sign in”; …",
+          "link": "https://taonaw.com/2026/07/26/emacs-config-gems-part.html",
+          "publishedOn": "2026-07-26T18:22:54.000Z",
+          "wordCount": 1733,
+          "title": "TAONAW - Emacs and Org Mode: Emacs Config Gems - Part 2",
+          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/07/26/5955718.png"
+        },
+        {
           "id": "https://list.orgmode.org/87h5ll4wez.fsf@localhost",
           "author": null,
           "description": "[request] flags:--- replies:0 role:maintainer",
@@ -608,16 +618,6 @@
           "wordCount": 963,
           "title": "Emacs Redux: Inline Completion with completion-preview-mode",
           "imageUrl": "https://emacsredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://metaredux.com/posts/2026/07/17/stepping-through-macros-in-cider.html",
-          "author": null,
-          "description": "This is another installment in the series of articles about the notable changes\nin CIDER 2.0. Today’s topic is one of\nthose “ambitious ideas that lay dormant for ages” I keep mentioning: proper\ninteractive macro stepping.\nThe Dream\nCIDER has had macroexpansion support practically forever - C-c C-m expands\nthe form before point into a dedicated buffer, a feature we inherited\nspiritually from SLIME. It works, but it has always felt a bit… detached. The\nexpansion lives in another buffer, divorced from the code you’re reading, and\nfor deeply nested macros you end up bouncing between buffers trying to keep\nyour bearings.\nEmacs Lisp hackers have long had something nicer:\nmacrostep, a brilliant little\npackage that expands macros in place - right where they sit in your code - one\nstep at a time, a…",
-          "link": "https://metaredux.com/posts/2026/07/17/stepping-through-macros-in-cider.html",
-          "publishedOn": "2026-07-17T05:15:00.000Z",
-          "wordCount": 2199,
-          "title": "Meta Redux: Stepping Through Macros in CIDER",
-          "imageUrl": "https://metaredux.com/assets/og-image.png"
         }
       ]
     },
@@ -626,6 +626,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=230301",
+          "author": "Giri Nathan",
+          "description": "In antiquity, tennis players could win with a diverse mix of skillsets, with some even relying on speed, anticipation, net touch. This variety is often mourned by the old heads. Because in the sport's present—and, given the arc of string and racket tech, its foreseeable future—the skill that looms above all else is mighty ball-striking from the baseline. Though I do mourn the loss of off-speed demons on grass, for example, I have made my peace with this reality, and perhaps because I had my own tastes shaped by this evolution in the game, I am content to watch a punishing groundstroke all day. But I'd enjoy it even more if there's at least some neat technical twist. My ideal would be a player who thrives in the today's power-baseline meta, but does it while cultivating a technique at risk …",
+          "link": "https://defector.com/all-hail-lilli-tagger-and-the-one-hander",
+          "publishedOn": "2026-07-26T18:14:48.000Z",
+          "wordCount": 6766,
+          "title": "All Hail Lilli Tagger And The One-Hander",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2285430398.jpg"
+        },
         {
           "id": "https://defector.com/?p=230203",
           "author": "Patrick Redford",
@@ -2278,22 +2288,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!a1Fb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8540b059-5b08-4a54-81ee-63e2a55a61b8_1000x1000.jpeg"
-        },
-        {
-          "id": "https://www.flowstate.fm/p/larry-heard-539",
-          "author": "Flow State",
-          "description": "Today we’re listening to Larry Heard aka Mr. Fingers, an American electronic musician from Chicago.",
-          "link": "https://www.flowstate.fm/p/larry-heard-539",
-          "publishedOn": "2026-07-17T07:01:35.000Z",
-          "wordCount": null,
-          "title": "Larry Heard",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!_OQL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F19daf2a6-1f33-4bad-ba48-0598ba53eabd_1768x1210.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!_OQL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F19daf2a6-1f33-4bad-ba48-0598ba53eabd_1768x1210.png"
         }
       ]
     },

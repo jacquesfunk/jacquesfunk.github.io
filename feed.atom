@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-26T16:58:26.635Z</updated>
+    <updated>2026-07-26T19:07:40.007Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TAONAW - Emacs and Org Mode: Emacs Config Gems - Part 2]]></title>
+        <id>https://taonaw.com/2026/07/26/emacs-config-gems-part.html</id>
+        <link href="https://taonaw.com/2026/07/26/emacs-config-gems-part.html"/>
+        <updated>2026-07-26T18:22:54.000Z</updated>
+        <summary type="html"><![CDATA[You know how I said last time Part 1 was just the introduction? I lied.
+My emacs-settings.org file includes an introduction that covers what I already went over and more. I thought I’d skip it, but as I looked through the notes I left to myself — various guidelines, warnings, and tips — I realized that this is exactly the kind of stuff I should share.
+Style
+As I was writing this, I fell into a rabbit hole (of course) and made a couple of additional changes.
+Style and style guides are important to me. In college, as an editor, I used the AP Stylebook as a bible almost, along with the Chicago Manual of Style for academic papers. When I worked as a technical writer, it was Microsoft’s stylebook I checked constantly — and some of it stuck (don’t say “click”; say “select”, don’t say “sign in”; …]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[All Hail Lilli Tagger And The One-Hander]]></title>
+        <id>https://defector.com/?p=230301</id>
+        <link href="https://defector.com/all-hail-lilli-tagger-and-the-one-hander"/>
+        <updated>2026-07-26T18:14:48.000Z</updated>
+        <summary type="html"><![CDATA[In antiquity, tennis players could win with a diverse mix of skillsets, with some even relying on speed, anticipation, net touch. This variety is often mourned by the old heads. Because in the sport's present—and, given the arc of string and racket tech, its foreseeable future—the skill that looms above all else is mighty ball-striking from the baseline. Though I do mourn the loss of off-speed demons on grass, for example, I have made my peace with this reality, and perhaps because I had my own tastes shaped by this evolution in the game, I am content to watch a punishing groundstroke all day. But I'd enjoy it even more if there's at least some neat technical twist. My ideal would be a player who thrives in the today's power-baseline meta, but does it while cultivating a technique at risk …]]></summary>
+        <author>
+            <name>Giri Nathan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How Tadej Pogacar Got The Joy Back]]></title>
         <id>https://defector.com/?p=230203</id>
@@ -3052,40 +3076,6 @@ As you type, completion-preview-mode shows a grayed-out preview of the top
 completion candidate right after point - inline, in the buffer itself. No popup,
 no minibuffer, no fuss. If the suggestion is what you want, press TAB to accept
 it. If not, just keep typing and the preview u…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Larry Heard]]></title>
-        <id>https://www.flowstate.fm/p/larry-heard-539</id>
-        <link href="https://www.flowstate.fm/p/larry-heard-539"/>
-        <updated>2026-07-17T07:01:35.000Z</updated>
-        <summary type="html"><![CDATA[Today we’re listening to Larry Heard aka Mr. Fingers, an American electronic musician from Chicago.]]></summary>
-        <author>
-            <name>Flow State</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta Redux: Stepping Through Macros in CIDER]]></title>
-        <id>https://metaredux.com/posts/2026/07/17/stepping-through-macros-in-cider.html</id>
-        <link href="https://metaredux.com/posts/2026/07/17/stepping-through-macros-in-cider.html"/>
-        <updated>2026-07-17T05:15:00.000Z</updated>
-        <summary type="html"><![CDATA[This is another installment in the series of articles about the notable changes
-in CIDER 2.0. Today’s topic is one of
-those “ambitious ideas that lay dormant for ages” I keep mentioning: proper
-interactive macro stepping.
-The Dream
-CIDER has had macroexpansion support practically forever - C-c C-m expands
-the form before point into a dedicated buffer, a feature we inherited
-spiritually from SLIME. It works, but it has always felt a bit… detached. The
-expansion lives in another buffer, divorced from the code you’re reading, and
-for deeply nested macros you end up bouncing between buffers trying to keep
-your bearings.
-Emacs Lisp hackers have long had something nicer:
-macrostep, a brilliant little
-package that expands macros in place - right where they sit in your code - one
-step at a time, a…]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>
