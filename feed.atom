@@ -2,10 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-26T15:03:33.262Z</updated>
+    <updated>2026-07-26T16:58:26.635Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How Tadej Pogacar Got The Joy Back]]></title>
+        <id>https://defector.com/?p=230203</id>
+        <link href="https://defector.com/how-tadej-pogacar-got-the-joy-back"/>
+        <updated>2026-07-26T15:45:14.000Z</updated>
+        <summary type="html"><![CDATA[PARIS — Every story has a beginning and an end, but the best stories have worthwhile middles. Narrative stakes are established are established and then resolved. It's what happens in between that makes a story. This is where the greatest cyclist of all time currently finds himself.
+Pogacar rode to his fifth Tour victory with an astonishing sense of joy. The ennui that plagued his fourth Tour win has dissolved. His greatest rival is well behind him. The yellow jersey that weighed him down now buoys him. There's nothing more for him to do as a competitor except rack up more records, a potentially paralyzing dynamic he's seemingly found a way to neutralize. Pogacar has won five Tours de France, equaling four others who were all years older than Pogacar when they won their final Tour. When I asked his director, Matxin Fernandez, what was different about this Tour, he was nearly moved to tears thinking about the accomplishment of getting to five. "Fuck, I mean, it's amazing," he grinned, apologizing for getting carried away. "It's like Hollywood. I remember watching Indurain win his fifth [in 1995] and now Tadej has done it. I'm so proud." So what was different this time around, and what lessons are there to be learned about how the rest of Pogacar's story might go?]]></summary>
+        <author>
+            <name>Patrick Redford</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Org Mode requests: [RFC] PDF document tagging: language code]]></title>
+        <id>https://list.orgmode.org/87h5ll4wez.fsf@localhost</id>
+        <link href="https://list.orgmode.org/87h5ll4wez.fsf@localhost"/>
+        <updated>2026-07-26T15:12:57.000Z</updated>
+        <summary type="html"><![CDATA[[request] flags:--- replies:0 role:maintainer]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Irreal: Copy Link At Point In EWW]]></title>
+        <id>https://irreal.org/blog/?p=13971</id>
+        <link href="https://irreal.org/blog/?p=13971"/>
+        <updated>2026-07-26T14:43:57.000Z</updated>
+        <summary type="html"><![CDATA[Ray on Emacs has a nice post on copying the link at point in EWW. It’s sort of hidden so that’s the reason for his post and this one. He decided to write his own because he couldn’t find anything that already did the job. It was only after he wrote it that he stumbled on the existing functionality.
+
+
+The short answer is that the u key does just what he wanted. The longer answer is that sometimes w also works. The documentation says that w copies the URL of the current page but if the point is on a link, it will copy the link’s URL instead.
+
+
+I’m finding that I’m using EWW more and more so I’m glad to have this information. Zeitler has more details so be sure to take a look at his post.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pete Crow-Armstrong Is Good Enough To Raise The Forbidden Question]]></title>
         <id>https://defector.com/?p=230299</id>
