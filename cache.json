@@ -598,16 +598,6 @@
           "wordCount": 4050,
           "title": "Charlie Holland: The Search for Knowledge: Emacs Carnival August 2026",
           "imageUrl": "https://www.chiply.dev/images/august-emacs-carnival-banner.jpg"
-        },
-        {
-          "id": "https://emacsredux.com/blog/2026/07/17/tree-sitter-modes-still-need-a-syntax-table/",
-          "author": null,
-          "description": "When you write a tree-sitter major mode, it’s tempting to think the\nparser handles everything. It doesn’t. Tree-sitter drives font-lock,\nindentation, and structural navigation, but a whole layer of everyday\nEmacs behavior still runs on the humble syntax table: forward-sexp\nand friends, electric-pair-mode, delete-pair, forward-word, and\nanything built on syntax-ppss. (I wrote about that structural layer in\nEssential Structured Navigation and Editing Commands.)\nI got a sharp reminder of this while building\nneocaml, my tree-sitter mode for\nOCaml. The grammar parsed everything beautifully, yet delete-pair and\nsexp motion kept misbehaving around a couple of OCaml constructs. The\nfix turned out to be a classic tool that long predates tree-sitter:\nsyntax-propertize-function. Here’s the story, sin…",
-          "link": "https://emacsredux.com/blog/2026/07/17/tree-sitter-modes-still-need-a-syntax-table/",
-          "publishedOn": "2026-07-17T09:15:00.000Z",
-          "wordCount": 1214,
-          "title": "Emacs Redux: Tree-sitter Modes Still Need a Syntax Table",
-          "imageUrl": "https://emacsredux.com/assets/og-image.png"
         }
       ]
     },
