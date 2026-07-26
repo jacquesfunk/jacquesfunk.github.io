@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-26T19:07:40.007Z</updated>
+    <updated>2026-07-26T20:56:24.613Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -3053,29 +3053,6 @@ OCaml. The grammar parsed everything beautifully, yet delete-pair and
 sexp motion kept misbehaving around a couple of OCaml constructs. The
 fix turned out to be a classic tool that long predates tree-sitter:
 syntax-propertize-function. Here’s the story, sin…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Emacs Redux: Inline Completion with completion-preview-mode]]></title>
-        <id>https://emacsredux.com/blog/2026/07/17/inline-completion-with-completion-preview-mode/</id>
-        <link href="https://emacsredux.com/blog/2026/07/17/inline-completion-with-completion-preview-mode/"/>
-        <updated>2026-07-17T08:45:00.000Z</updated>
-        <summary type="html"><![CDATA[As part of the ongoing overhaul of my Emacs setup
-I’ve been trying to make the most of the built-in functionality that recent Emacs
-releases keep quietly shipping. My in-buffer completion setup is
-based on corfu and cape
-these days, but it turns out I had overlooked a nice Emacs 30 addition
-in the same area - completion-preview-mode.
-It gives you inline completion suggestions - the “ghost text” UI that GitHub
-Copilot and friends made famous1 - except here it’s powered by plain old
-Emacs completions.
-What It Does
-As you type, completion-preview-mode shows a grayed-out preview of the top
-completion candidate right after point - inline, in the buffer itself. No popup,
-no minibuffer, no fuss. If the suggestion is what you want, press TAB to accept
-it. If not, just keep typing and the preview u…]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>

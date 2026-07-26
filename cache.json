@@ -608,16 +608,6 @@
           "wordCount": 1214,
           "title": "Emacs Redux: Tree-sitter Modes Still Need a Syntax Table",
           "imageUrl": "https://emacsredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://emacsredux.com/blog/2026/07/17/inline-completion-with-completion-preview-mode/",
-          "author": null,
-          "description": "As part of the ongoing overhaul of my Emacs setup\nI’ve been trying to make the most of the built-in functionality that recent Emacs\nreleases keep quietly shipping. My in-buffer completion setup is\nbased on corfu and cape\nthese days, but it turns out I had overlooked a nice Emacs 30 addition\nin the same area - completion-preview-mode.\nIt gives you inline completion suggestions - the “ghost text” UI that GitHub\nCopilot and friends made famous1 - except here it’s powered by plain old\nEmacs completions.\nWhat It Does\nAs you type, completion-preview-mode shows a grayed-out preview of the top\ncompletion candidate right after point - inline, in the buffer itself. No popup,\nno minibuffer, no fuss. If the suggestion is what you want, press TAB to accept\nit. If not, just keep typing and the preview u…",
-          "link": "https://emacsredux.com/blog/2026/07/17/inline-completion-with-completion-preview-mode/",
-          "publishedOn": "2026-07-17T08:45:00.000Z",
-          "wordCount": 963,
-          "title": "Emacs Redux: Inline Completion with completion-preview-mode",
-          "imageUrl": "https://emacsredux.com/assets/og-image.png"
         }
       ]
     },
