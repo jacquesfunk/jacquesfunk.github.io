@@ -618,36 +618,6 @@
           "wordCount": 267,
           "title": "Sacha Chua: 20 aôut: Emacs Chat: Abdallah Maouche",
           "imageUrl": null
-        },
-        {
-          "id": "https://emacsredux.com/blog/2026/07/18/which-key-is-now-built-in/",
-          "author": null,
-          "description": "which-key is one of those packages I recommend to pretty much everyone -\nnewcomers and grizzled Emacs veterans alike. You start a key sequence like\nC-x, pause for a moment, and it pops up a handy cheat sheet of every key that\ncan follow. I’ve had it in my config for ages, and I suspect a lot of you have\nas well.\nHere’s the good news - as of Emacs 30 you don’t need to install it anymore.\nwhich-key is now a built-in package, so there’s one less thing to fetch\nfrom MELPA when you set up Emacs on a fresh machine.\nEnabling which-key\nBeing built-in doesn’t mean it’s enabled by default, though. You still have to\nturn it on explicitly:\n\n(which-key-mode 1)\n\n\nThat’s the whole setup for most people. Now start any prefix key - C-x,\nC-c, C-h - wait a moment, and a popup appears at the bottom of the fra…",
-          "link": "https://emacsredux.com/blog/2026/07/18/which-key-is-now-built-in/",
-          "publishedOn": "2026-07-18T07:00:00.000Z",
-          "wordCount": 1010,
-          "title": "Emacs Redux: which-key is Now Built-in",
-          "imageUrl": "https://emacsredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://metaredux.com/posts/2026/07/18/sayid-0-8.html",
-          "author": null,
-          "description": "Sayid 0.8 is out! It’s the third release since I\nbrought Sayid back from the dead\na couple of weeks ago, and it has a clear theme: making the tool easy to pick\nup. The revival releases were mostly about the engine - bounding the recording,\nconsolidating the API, getting the data out. This one is about the experience.\nIf you’ve ever bounced off Sayid because you couldn’t figure out what to press,\nor what it was trying to tell you, 0.8 is for you.\nIt started with a bug report\nShortly after the revival post, someone reported that pressing c i in the\nworkspace view - “inspect this captured value” - printed Def'd as $s/* and\nthen… nothing. The fix turned out to be a one-liner: Sayid was calling a\nCIDER function whose signature changed years ago, and nobody had noticed since.\nWhich tells you eve…",
-          "link": "https://metaredux.com/posts/2026/07/18/sayid-0-8.html",
-          "publishedOn": "2026-07-18T07:00:00.000Z",
-          "wordCount": 1290,
-          "title": "Meta Redux: Sayid 0.8",
-          "imageUrl": "https://metaredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://metaredux.com/posts/2026/07/18/projectile-3-2.html",
-          "author": null,
-          "description": "Projectile 3.2 is out!1 That’s the third Projectile release this\nmonth, and by now you probably see the pattern - a whole lot of nothing for a\ncouple of years, then everything at once. Where 3.0 was the big cleanup\nand 3.1 the pile of long-standing feature requests, 3.2 is a focused\nrelease with one clear theme: search and replace. Plus one bonus feature I’ve\nwanted for ages, but more on that below.\nReplace, but with a preview\nprojectile-replace has always been one of those commands that technically\nworked, but that I never quite trusted. It walks the project file by file with\nquery-replace, asking you about every match with no way to see the big\npicture, and once you start there’s no graceful way out. I’ve been promising\nmyself a better story there for years (that’s #1924, if you’re keepi…",
-          "link": "https://metaredux.com/posts/2026/07/18/projectile-3-2.html",
-          "publishedOn": "2026-07-18T06:15:00.000Z",
-          "wordCount": 1218,
-          "title": "Meta Redux: Projectile 3.2",
-          "imageUrl": "https://metaredux.com/assets/og-image.png"
         }
       ]
     },
@@ -656,6 +626,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=230420",
+          "author": "Sarah Borus",
+          "description": "I have become an anxious mother, and I have adopted Jacob Misiorowski as my son. I don’t know how this happened, and I would like it to stop, because it’s taking a toll on me. Life used to be so simple. I used to watch his outings with a detached amazement. Back when I had a normal relationship to his pitching prowess, Misiorowski had already thrown 79 of the 100 highest-velocity pitches since tracking began. As of last night, he holds all 100 spots. Now he is my son, and let me be the first to say, it is really difficult being a parent to a child who you have never met and who is also older than you. I am so proud of and so worried for my boy. \nI spent last night in a cold sweat as I fought off the urge to join Facebook, just so I could tell everyone how wonderful and successful my beautiful son is. They must know how impressive his outing was, I whispered to myself as I clawed at the drawer where my husband (wait, when did I get a husband?) had locked away my laptop. They must know that he broke his own record for most 100-mph pitches in a game. He threw 66 fastballs, and every single one of them was more than 100 miles per hour. I frantically searched for the key. They have to know that only three were hit hard and into fair territory, and that Jakey struck out 12 batters, including seven in a row to begin the game. I took a hammer to the wood. But I can’t let it slip that he was pitching against the Rockies. Susan from knitting club would have a field day with that. As if HER kids have 185 strikeouts and a 1.58 ERA!\nSpeaking about the history he had once again made, Mis said, “I had no idea. I’m just throwing to Gary.” My humble boy! Someone has to brag about him if he won’t. Maybe I should send Susan that video.",
+          "link": "https://defector.com/i-need-jacob-misorowski-to-please-be-careful",
+          "publishedOn": "2026-07-27T18:52:41.000Z",
+          "wordCount": 5586,
+          "title": "I Need Jacob Misiorowski To Please Be Careful!",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2287775844_e89a62-e1785177986698.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=230379",
+          "author": "Alex Sujong Laughlin",
+          "description": "One of the great joys of friendship is getting to see your friends evolve into the person they were meant to be all along. In our 10 years of friendship, I've gotten to watch Jazmine Green reinvent herself a few times, including the development and eventual birth of her alter ego, CMD+Jazmine. \nIn the latest Try Hard episode, I'm talking to Jazmine about how going to all-day raves in Brooklyn helped unlock parts of her physicality as she was transitioning, and how all of that culminated in the creation of CMD+Jazmine as her musical identity and alter ego.\nAs a certified indoor cat, this conversation is probably the closest I'll get to going to a rave, but I particularly loved Jazmine's story because it reminded me that it's never too late to turn your life upside down (or at least nocturnal) to become the person you were meant to be.",
+          "link": "https://defector.com/from-baby-trans-to-headlining-act",
+          "publishedOn": "2026-07-27T18:06:33.000Z",
+          "wordCount": 4637,
+          "title": "From Baby Trans To Headlining Act",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/jazmine-blog-image.png"
+        },
         {
           "id": "https://defector.com/?p=230099",
           "author": "Drew Magary",
@@ -1257,16 +1247,6 @@
           "publishedOn": "2026-07-18T08:00:04.000Z",
           "wordCount": 492,
           "title": "Preventing line breaks in &lt;code&gt; elements",
-          "imageUrl": "https://alexwlchan.net/images/profile_green_sq.jpg"
-        },
-        {
-          "id": "https://alexwlchan.net/2026/byte-order-marks/",
-          "author": null,
-          "description": "I didn't know to check for UTF-8 byte order marks, so I made a mistake when converting text files. I was meant to use `encoding=\"utf-8-sig\"`.",
-          "link": "https://alexwlchan.net/2026/byte-order-marks/",
-          "publishedOn": "2026-07-18T07:11:26.000Z",
-          "wordCount": 1046,
-          "title": "Fixing a bug with byte order marks",
           "imageUrl": "https://alexwlchan.net/images/profile_green_sq.jpg"
         }
       ]
