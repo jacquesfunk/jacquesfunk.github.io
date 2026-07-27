@@ -120,6 +120,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://mbork.pl/2026-07-27_Outlining_in_programs",
+          "author": null,
+          "description": "One of the Emacs’ “killer apps” is Org mode, and one of the most iconic features of Org mode is visibility cycling. It is no wonder people (including me) want a similar feature in other modes.",
+          "link": "https://mbork.pl/2026-07-27_Outlining_in_programs",
+          "publishedOn": "2026-07-27T18:37:48.000Z",
+          "wordCount": 706,
+          "title": "Marcin Borkowski: Outlining in programs",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=13973",
           "author": null,
           "description": "Embark lately has a nice post on integrating CIDER and Projectile into Embark. I don’t use either of them so you might wonder why I care. The answer is that Batsov’s post is a good example of how to add a new application to Embark.\n\n\nThat turns out to be pretty easy. For projectile, Batsov built it into the app so you’ll have to check the source code to see the details. For CIDER, though, he adds the Embark functionality externally so you can see how it’s done. It’s mainly a matter of writing some straightforward wrapper functions, binding them up in a keymap for Embark, providing a target function that identifies symbols, and finally adding the keymap to Embark.\n\n\nFor me, then, the value of Batsov’s post is that it serves as a how to that shows you the recipe for extending Embark to include new applications.",
@@ -626,6 +636,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=230402",
+          "author": "Diana Moskovitz",
+          "description": "Mia Bieniemy, the wife of Kansas City offensive coordinator Eric Bieniemy, was hospitalized after being shot Sunday night. The couple's son, Elijah Zion Bieniemy, 27, was arrested after the shooting and charged with malicious wounding, using a firearm in a felony, and discharging a firearm inside a home, according to law enforcement.\nThe shooting happened in Ashburn, Va., a few miles away from the Washington Commanders practice facility. Eric Bieniemy served as Washington's offensive coordinator for the 2023 season, then coached for UCLA and the Chicago Bears before returning to Kansas City, where he was OC from 2018 to 2023.\nAccording to the Loudoun County Sheriff's Office, law enforcement got a call shortly after 7:30 p.m. Sunday reporting a shooting in the 20000 block of Northpark Drive. Deputies who responded to the call found a woman who had been shot multiple times. Paramedics took her to a nearby hospital.",
+          "link": "https://defector.com/eric-bieniemys-son-arrested-charged-with-mothers-shooting",
+          "publishedOn": "2026-07-27T19:31:36.000Z",
+          "wordCount": 5727,
+          "title": "Eric Bieniemy’s Son Arrested, Charged With Mother’s Shooting",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-1681763050-e1785176288448.jpg"
+        },
         {
           "id": "https://defector.com/?p=230420",
           "author": "Sarah Borus",
@@ -1238,18 +1258,7 @@
       "title": "alexwlchan",
       "feedUrl": "https://alexwlchan.net/atom.xml",
       "siteUrl": "https://alexwlchan.net/",
-      "articles": [
-        {
-          "id": "https://alexwlchan.net/2026/non-breaking-code/",
-          "author": null,
-          "description": "To avoid awkward line breaks, I'm adding CSS to inline code snippets that contain hyphens or spaces.",
-          "link": "https://alexwlchan.net/2026/non-breaking-code/",
-          "publishedOn": "2026-07-18T08:00:04.000Z",
-          "wordCount": 492,
-          "title": "Preventing line breaks in &lt;code&gt; elements",
-          "imageUrl": "https://alexwlchan.net/images/profile_green_sq.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Stuff That Interests Me",
@@ -2031,6 +2040,16 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73276103/trump-speech-cleveland-andrew-johnson/",
+          "author": null,
+          "description": "Andrew Johnson is rolling over in his grave, and that’s saying something.",
+          "link": "https://www.esquire.com/news-politics/politics/a73276103/trump-speech-cleveland-andrew-johnson/",
+          "publishedOn": "2026-07-27T20:32:16.000Z",
+          "wordCount": 20983,
+          "title": "Trump Has Given the Most Disgraceful Speech Made by a President in More Than 150 Years",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/8050d889-49b6-4f61-ac9b-625eb4959a60.jpeg?crop=1xw:0.75xh;0xw,0.1xh&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a73272497/water-crisis-biden-trump-adminstration/",
           "author": null,
