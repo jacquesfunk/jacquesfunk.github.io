@@ -2,10 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-27T07:29:01.113Z</updated>
+    <updated>2026-07-27T11:18:45.047Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Meta Redux: Projectile 3.3]]></title>
+        <id>https://metaredux.com/posts/2026/07/27/projectile-3-3.html</id>
+        <link href="https://metaredux.com/posts/2026/07/27/projectile-3-3.html"/>
+        <updated>2026-07-27T08:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Projectile 3.3 is out! That’s
+the fourth release this month, which probably tells you something about how much fun I’ve
+been having with Projectile lately.
+This one is mostly about a single theme - Projectile knowing more about your project
+without you having to tell it anything.
+Tasks you never configured
+Projectile has had named tasks for a while now - you put an alist in projectile-tasks
+(or in your project’s .dir-locals.el) and projectile-run-task (s-p c x) offers
+them with completion. Useful, but there was a catch that always bugged me: the variable
+starts out empty, so the command did precisely nothing until you sat down and filled it in.
+Meanwhile every project I work on already has its tasks written down somewhere. The npm
+scripts are in package.json. The Makefile targets are in th…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta Redux: Closing the Find-Usages Gap in CIDER]]></title>
+        <id>https://metaredux.com/posts/2026/07/27/closing-the-find-usages-gap-in-cider.html</id>
+        <link href="https://metaredux.com/posts/2026/07/27/closing-the-find-usages-gap-in-cider.html"/>
+        <updated>2026-07-27T07:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Next up in the series on the notable changes in
+CIDER 2.0: cross-references. Or, as
+most people call the feature, “find usages” - for years the most commonly
+cited reason to run clojure-lsp alongside (or
+instead of) CIDER. Let’s talk about why that gap existed and how we finally
+closed it.
+Why runtime xref wasn’t enough
+CIDER has had runtime cross-referencing for a while: the cider/fn-refs op
+walks the loaded vars in your REPL and reports which functions reference the
+one at point. It’s a genuinely cool trick - the REPL literally knows your
+program - but as a “find usages” answer it has three structural problems:
+It only sees loaded code. Namespaces you haven’t required yet - often
+most of the codebase - are invisible.
+It reports functions, not occurrences. Each hit points at the caller’s
+…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sofie Birch]]></title>
         <id>https://www.flowstate.fm/p/sofie-birch-5ff</id>
@@ -2440,26 +2485,6 @@ myself a better story there for years (that’s #1924, if you’re keepi…]]></
         <summary type="html"><![CDATA[In December 1996, Wes Craven’s Scream radically rewrote the rules of Hollywood horror by introducing hyper-aware, pop-culture-savvy teenagers who knew exactly how to survive a slasher film. The movie became a massive box-office juggernaut, proving to studio executives that the young adult demographic was an absolute goldmine. But while a flurry of traditional copycat slashers...]]></summary>
         <author>
             <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Great Alternative Gold Rush: How Major Labels Cloned Grunge and Triggered a Cultural Crash]]></title>
-        <id>https://stuffthatinterestsme.net/?p=2879</id>
-        <link href="https://stuffthatinterestsme.net/the-great-alternative-gold-rush-how-major-labels-cloned-grunge-and-triggered-a-cultural-crash/"/>
-        <updated>2026-07-17T23:05:33.000Z</updated>
-        <summary type="html"><![CDATA[On January 11, 1992, a seismic shift occurred in popular culture that boardrooms in Los Angeles and New York never saw coming. For nearly a decade, the Billboard 200 charts had been dominated by the heavily lacquered, high-glam excess of hair metal and the pristine, factory-calibrated dance-pop of late-80s icons. Pop culture was a world...]]></summary>
-        <author>
-            <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Senator Is Now Suggesting We Fine Canada for Catching on Fire]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a73172944/canada-wildfire-smoke-fine/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a73172944/canada-wildfire-smoke-fine/"/>
-        <updated>2026-07-17T22:17:42.000Z</updated>
-        <summary type="html"><![CDATA[Goddamn, Canada just makes them crazy.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
         </author>
     </entry>
     <entry>

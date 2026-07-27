@@ -120,6 +120,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://metaredux.com/posts/2026/07/27/projectile-3-3.html",
+          "author": null,
+          "description": "Projectile 3.3 is out! That’s\nthe fourth release this month, which probably tells you something about how much fun I’ve\nbeen having with Projectile lately.\nThis one is mostly about a single theme - Projectile knowing more about your project\nwithout you having to tell it anything.\nTasks you never configured\nProjectile has had named tasks for a while now - you put an alist in projectile-tasks\n(or in your project’s .dir-locals.el) and projectile-run-task (s-p c x) offers\nthem with completion. Useful, but there was a catch that always bugged me: the variable\nstarts out empty, so the command did precisely nothing until you sat down and filled it in.\nMeanwhile every project I work on already has its tasks written down somewhere. The npm\nscripts are in package.json. The Makefile targets are in th…",
+          "link": "https://metaredux.com/posts/2026/07/27/projectile-3-3.html",
+          "publishedOn": "2026-07-27T08:15:00.000Z",
+          "wordCount": 1626,
+          "title": "Meta Redux: Projectile 3.3",
+          "imageUrl": "https://metaredux.com/assets/og-image.png"
+        },
+        {
+          "id": "https://metaredux.com/posts/2026/07/27/closing-the-find-usages-gap-in-cider.html",
+          "author": null,
+          "description": "Next up in the series on the notable changes in\nCIDER 2.0: cross-references. Or, as\nmost people call the feature, “find usages” - for years the most commonly\ncited reason to run clojure-lsp alongside (or\ninstead of) CIDER. Let’s talk about why that gap existed and how we finally\nclosed it.\nWhy runtime xref wasn’t enough\nCIDER has had runtime cross-referencing for a while: the cider/fn-refs op\nwalks the loaded vars in your REPL and reports which functions reference the\none at point. It’s a genuinely cool trick - the REPL literally knows your\nprogram - but as a “find usages” answer it has three structural problems:\nIt only sees loaded code. Namespaces you haven’t required yet - often\nmost of the codebase - are invisible.\nIt reports functions, not occurrences. Each hit points at the caller’s\n…",
+          "link": "https://metaredux.com/posts/2026/07/27/closing-the-find-usages-gap-in-cider.html",
+          "publishedOn": "2026-07-27T07:30:00.000Z",
+          "wordCount": 2936,
+          "title": "Meta Redux: Closing the Find-Usages Gap in CIDER",
+          "imageUrl": "https://metaredux.com/assets/og-image.png"
+        },
+        {
           "id": "https://taonaw.com/2026/07/26/emacs-config-gems-part.html",
           "author": null,
           "description": "You know how I said last time Part 1 was just the introduction? I lied.\nMy emacs-settings.org file includes an introduction that covers what I already went over and more. I thought I’d skip it, but as I looked through the notes I left to myself — various guidelines, warnings, and tips — I realized that this is exactly the kind of stuff I should share.\nStyle\nAs I was writing this, I fell into a rabbit hole (of course) and made a couple of additional changes.\nStyle and style guides are important to me. In college, as an editor, I used the AP Stylebook as a bible almost, along with the Chicago Manual of Style for academic papers. When I worked as a technical writer, it was Microsoft’s stylebook I checked constantly — and some of it stuck (don’t say “click”; say “select”, don’t say “sign in”; …",
@@ -1235,16 +1255,6 @@
           "wordCount": 3258,
           "title": "The Age of Polished Dread: Inside the Rise, Peak, and Focus-Grouped Death of Late-90s Teen Sci-Fi",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=2879",
-          "author": "Schill",
-          "description": "On January 11, 1992, a seismic shift occurred in popular culture that boardrooms in Los Angeles and New York never saw coming. For nearly a decade, the Billboard 200 charts had been dominated by the heavily lacquered, high-glam excess of hair metal and the pristine, factory-calibrated dance-pop of late-80s icons. Pop culture was a world...",
-          "link": "https://stuffthatinterestsme.net/the-great-alternative-gold-rush-how-major-labels-cloned-grunge-and-triggered-a-cultural-crash/",
-          "publishedOn": "2026-07-17T23:05:33.000Z",
-          "wordCount": 3502,
-          "title": "The Great Alternative Gold Rush: How Major Labels Cloned Grunge and Triggered a Cultural Crash",
-          "imageUrl": null
         }
       ]
     },
@@ -2040,16 +2050,6 @@
           "wordCount": 21743,
           "title": "There’s a MAGA-MAHA Brouhaha Brewing in Iowa",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/cf3ad198-4900-40d3-803c-1469f45554d5.jpeg?crop=1xw:0.752xh;0xw,0.181xh&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73172944/canada-wildfire-smoke-fine/",
-          "author": null,
-          "description": "Goddamn, Canada just makes them crazy.",
-          "link": "https://www.esquire.com/news-politics/politics/a73172944/canada-wildfire-smoke-fine/",
-          "publishedOn": "2026-07-17T22:17:42.000Z",
-          "wordCount": 25566,
-          "title": "A Senator Is Now Suggesting We Fine Canada for Catching on Fire",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/4d662bac-d7ec-4b16-9df5-4c39b5ce3e96.jpeg?crop=1xw:0.788242176075xh;center,top&resize=1200:*"
         }
       ]
     },
