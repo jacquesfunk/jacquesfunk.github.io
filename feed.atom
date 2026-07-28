@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-28T10:32:54.414Z</updated>
+    <updated>2026-07-28T14:02:58.774Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Orchestrator's Tax]]></title>
+        <id>https://martinfowler.com/articles/orchestrator-tax.html</id>
+        <link href="https://martinfowler.com/articles/orchestrator-tax.html"/>
+        <updated>2026-07-28T13:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Subagents get justified by time saved and parallel execution, but
+      Rahul Garg explains that's not what matters most. Every
+      token in the orchestrator's context is competing for its attention, and
+      the real value of a subagent is what it keeps out of that context.
+      Subagents should be treated as a tool for protecting the orchestrator's
+      working memory, offloading reasoning it doesn't need to hold onto. Doing
+      this well means giving the orchestrator explicit ground rules for when and
+      how to delegate. 
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LeBron James Should Just Take The Train To His New Job]]></title>
+        <id>https://defector.com/?p=230406</id>
+        <link href="https://defector.com/lebron-james-should-just-take-the-train-to-his-new-job"/>
+        <updated>2026-07-28T13:00:57.000Z</updated>
+        <summary type="html"><![CDATA[LeBron James is coming to Philadelphia, a fact anyone who lives in Philly would have learned from interacting with strangers on the street, no matter their interest in basketball. This is salient because, according to ESPN's Brian Windhorst, James will not be among the ranks of those living in Philly. Instead, he will be living in New York City and commuting to Philly, potentially via helicopter.
+This is a forgivable error if one has never lived along the Northeast Corridor and experienced its bounteous public transit, thus remaining ignorant to the plethora of options at his disposal, all of which are surely safer, if not necessarily quicker, than taking a helicopter. James has tragically spent the past eight years of his life in Los Angeles. Being LeBron James, making a LeBron James–scale salary, he surely never had to take LA Metro to either Pico or 7th Street/Metro Center and walk to the arena. But now that he has taken a severe pay cut, it is time to consider more frugal options. Here are just a few alternative commutes for LeBron James to consider.
+Bus]]></summary>
+        <author>
+            <name>Kathryn Xu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why I’m Writing Rachel’s Ramblings]]></title>
+        <id>https://martinfowler.com/rachels-ramblings/intro.html</id>
+        <link href="https://martinfowler.com/rachels-ramblings/intro.html"/>
+        <updated>2026-07-28T12:32:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR
+I have ideas. I haven’t been writing them. That’s about to change. I promise… myself.
+
+I’ve been thinking a lot about talent. Actually, I’ve been thinking a lot about thinking. And writing. Or more specifically, not writing. This really hit me earlier this year at the Future of Software conference. I was surrounded by people sharing their latest ideas and I had a slightly uncomfortable realization:
+I have my own.
+Not just opinions. Actual patterns. Hypotheses. Things I’m seeing across clients, across teams, across the industry that feel new or at least not well articulated yet in a way that a leader can think about and act upon in some way that can influence how they strategise and plan for the future. Because helping clients and other leaders internal and external to thoughtworks do…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Even During a Must-Win Midterms Year, the Democratic Party Continues to Be Its Own Worst Enemy]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a73277972/democratic-party-midterms-progressives-establishment/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a73277972/democratic-party-midterms-progressives-establishment/"/>
+        <updated>2026-07-28T11:12:12.000Z</updated>
+        <summary type="html"><![CDATA[If we’re going to repair our broken republic, progressive and establishment Democrats need to play nice. I’m not so sure they’re capable.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Trump's algae-rich Reflecting Pool smells of RFK Jr. to meRex Huppke]]></title>
         <id>https://www.usatoday.com/story/opinion/columnist/2026/06/18/reflecting-pool-algae-green-trump/90595811007/-full</id>
@@ -2941,54 +2996,6 @@ I don't know why I bother trying other tools. I'm just going to end up back in E
         <summary type="html"><![CDATA[FoxTrot by Bill Amend | July 19, 2026]]></summary>
         <author>
             <name>Bill Amend</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sacha Chua: Mon flux de travail de programmation]]></title>
-        <id>https://sachachua.com/blog/2026/07/mon-flux-de-travail-de-programmation/</id>
-        <link href="https://sachachua.com/blog/2026/07/mon-flux-de-travail-de-programmation/"/>
-        <updated>2026-07-19T01:41:48.000Z</updated>
-        <summary type="html"><![CDATA[en français
-
-Pour le Carnaval d'Emacs de juillet sur la programmation (merci à AndyDrop de l'accueillir !) :
-
-
-
-Je m'occupe principalement de ma fille (particulièrement pendant les pauses scolaires comme l'été), donc mon temps, mon attention et mon énergie sont très limités. Je dois avancer petit à petit car c'est difficile de trouver plus d'une heure pour du travail profond. Je suis chanceuse si je finis une ou deux de mes propres tâches pendant la journée.
-
-
-
-Presque toute ma programmation est pour mes propres objectifs à l'exception de quelques heures de temps en temps quand je travaille comme consultante. Pour mon client, j'écris des prototypes en utilisant JavaScript (ou Python, rarement).
-
-
-
-Je préfère écrire la plupart de mes outils dans Emacs Lisp parce
-qu'Emacs me donne une interf…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Protesilaos: Emacs: Completion in the buffer with completion-at-point-functions]]></title>
-        <id>https://protesilaos.com/codelog/2026-07-19-emacs-completion-at-point-functions/</id>
-        <link href="https://protesilaos.com/codelog/2026-07-19-emacs-completion-at-point-functions/"/>
-        <updated>2026-07-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Raw link: https://www.youtube.com/watch?v=x3rqjpNm3e0
-In this ~22-minute video I explain how Emacs performs completion in a
-buffer. I cover what happens behind the scenes with the variable
-completion-at-point-functions. Then I also go to the frontends, which
-affects the modalities of interaction. I cover t built-in
-Completions buffer, the packages Corfu and Company, and the built-in
-completion-preview-mode. Finally, I comment at some further length on
-how to control the grouping of results in the
-completion-at-point-functions. In that context I also mention the Cape
-package, as well as some extra functionality that the Company package
-provide. I wrote an article which covers all of what is in the video
-as well as code samples. Its text is below.
-Table of Contents
-Make TAB complete when it …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>

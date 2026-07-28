@@ -548,26 +548,6 @@
           "wordCount": 403,
           "title": "Org Mode requests: [RFC] Small restriction in BEAMER_HEADER: WDYT?",
           "imageUrl": null
-        },
-        {
-          "id": "https://sachachua.com/blog/2026/07/mon-flux-de-travail-de-programmation/",
-          "author": null,
-          "description": "en français\n\nPour le Carnaval d'Emacs de juillet sur la programmation (merci à AndyDrop de l'accueillir !) :\n\n\n\nJe m'occupe principalement de ma fille (particulièrement pendant les pauses scolaires comme l'été), donc mon temps, mon attention et mon énergie sont très limités. Je dois avancer petit à petit car c'est difficile de trouver plus d'une heure pour du travail profond. Je suis chanceuse si je finis une ou deux de mes propres tâches pendant la journée.\n\n\n\nPresque toute ma programmation est pour mes propres objectifs à l'exception de quelques heures de temps en temps quand je travaille comme consultante. Pour mon client, j'écris des prototypes en utilisant JavaScript (ou Python, rarement).\n\n\n\nJe préfère écrire la plupart de mes outils dans Emacs Lisp parce\nqu'Emacs me donne une interf…",
-          "link": "https://sachachua.com/blog/2026/07/mon-flux-de-travail-de-programmation/",
-          "publishedOn": "2026-07-19T01:41:48.000Z",
-          "wordCount": 1500,
-          "title": "Sacha Chua: Mon flux de travail de programmation",
-          "imageUrl": null
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-07-19-emacs-completion-at-point-functions/",
-          "author": null,
-          "description": "Raw link: https://www.youtube.com/watch?v=x3rqjpNm3e0\nIn this ~22-minute video I explain how Emacs performs completion in a\nbuffer. I cover what happens behind the scenes with the variable\ncompletion-at-point-functions. Then I also go to the frontends, which\naffects the modalities of interaction. I cover t built-in\nCompletions buffer, the packages Corfu and Company, and the built-in\ncompletion-preview-mode. Finally, I comment at some further length on\nhow to control the grouping of results in the\ncompletion-at-point-functions. In that context I also mention the Cape\npackage, as well as some extra functionality that the Company package\nprovide. I wrote an article which covers all of what is in the video\nas well as code samples. Its text is below.\nTable of Contents\nMake TAB complete when it …",
-          "link": "https://protesilaos.com/codelog/2026-07-19-emacs-completion-at-point-functions/",
-          "publishedOn": "2026-07-19T00:00:00.000Z",
-          "wordCount": 1679,
-          "title": "Protesilaos: Emacs: Completion in the buffer with completion-at-point-functions",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         }
       ]
     },
@@ -576,6 +556,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=230406",
+          "author": "Kathryn Xu",
+          "description": "LeBron James is coming to Philadelphia, a fact anyone who lives in Philly would have learned from interacting with strangers on the street, no matter their interest in basketball. This is salient because, according to ESPN's Brian Windhorst, James will not be among the ranks of those living in Philly. Instead, he will be living in New York City and commuting to Philly, potentially via helicopter.\nThis is a forgivable error if one has never lived along the Northeast Corridor and experienced its bounteous public transit, thus remaining ignorant to the plethora of options at his disposal, all of which are surely safer, if not necessarily quicker, than taking a helicopter. James has tragically spent the past eight years of his life in Los Angeles. Being LeBron James, making a LeBron James–scale salary, he surely never had to take LA Metro to either Pico or 7th Street/Metro Center and walk to the arena. But now that he has taken a severe pay cut, it is time to consider more frugal options. Here are just a few alternative commutes for LeBron James to consider.\nBus",
+          "link": "https://defector.com/lebron-james-should-just-take-the-train-to-his-new-job",
+          "publishedOn": "2026-07-28T13:00:57.000Z",
+          "wordCount": 8313,
+          "title": "LeBron James Should Just Take The Train To His New Job",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/AmtrakLeBronJames.jpg"
+        },
         {
           "id": "https://defector.com/?p=230402",
           "author": "Diana Moskovitz",
@@ -2011,6 +2001,16 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73277972/democratic-party-midterms-progressives-establishment/",
+          "author": null,
+          "description": "If we’re going to repair our broken republic, progressive and establishment Democrats need to play nice. I’m not so sure they’re capable.",
+          "link": "https://www.esquire.com/news-politics/politics/a73277972/democratic-party-midterms-progressives-establishment/",
+          "publishedOn": "2026-07-28T11:12:12.000Z",
+          "wordCount": 20836,
+          "title": "Even During a Must-Win Midterms Year, the Democratic Party Continues to Be Its Own Worst Enemy",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/c4b2f9eb-0cb4-480f-be06-ed2d0c6b43fb.jpeg?crop=1xw:0.749625187406xh;center,top&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73276103/trump-speech-cleveland-andrew-johnson/",
           "author": null,
           "description": "Andrew Johnson is rolling over in his grave, and that’s saying something.",
@@ -2314,6 +2314,26 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/articles/orchestrator-tax.html",
+          "author": null,
+          "description": "Subagents get justified by time saved and parallel execution, but\n      Rahul Garg explains that's not what matters most. Every\n      token in the orchestrator's context is competing for its attention, and\n      the real value of a subagent is what it keeps out of that context.\n      Subagents should be treated as a tool for protecting the orchestrator's\n      working memory, offloading reasoning it doesn't need to hold onto. Doing\n      this well means giving the orchestrator explicit ground rules for when and\n      how to delegate. \nmore…",
+          "link": "https://martinfowler.com/articles/orchestrator-tax.html",
+          "publishedOn": "2026-07-28T13:10:00.000Z",
+          "wordCount": 2999,
+          "title": "The Orchestrator's Tax",
+          "imageUrl": "https://martinfowler.com/logo-sq.png"
+        },
+        {
+          "id": "https://martinfowler.com/rachels-ramblings/intro.html",
+          "author": null,
+          "description": "TL;DR\nI have ideas. I haven’t been writing them. That’s about to change. I promise… myself.\n\nI’ve been thinking a lot about talent. Actually, I’ve been thinking a lot about thinking. And writing. Or more specifically, not writing. This really hit me earlier this year at the Future of Software conference. I was surrounded by people sharing their latest ideas and I had a slightly uncomfortable realization:\nI have my own.\nNot just opinions. Actual patterns. Hypotheses. Things I’m seeing across clients, across teams, across the industry that feel new or at least not well articulated yet in a way that a leader can think about and act upon in some way that can influence how they strategise and plan for the future. Because helping clients and other leaders internal and external to thoughtworks do…",
+          "link": "https://martinfowler.com/rachels-ramblings/intro.html",
+          "publishedOn": "2026-07-28T12:32:00.000Z",
+          "wordCount": 778,
+          "title": "Why I’m Writing Rachel’s Ramblings",
+          "imageUrl": "https://martinfowler.com/rachels-ramblings/card.png"
+        },
         {
           "id": "https://martinfowler.com/fragments/2026-07-21.html",
           "author": null,
