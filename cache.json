@@ -568,36 +568,6 @@
           "wordCount": 1679,
           "title": "Protesilaos: Emacs: Completion in the buffer with completion-at-point-functions",
           "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
-        },
-        {
-          "id": "https://list.orgmode.org/CAO48Bk8F1MaAk6X4U-FS+wrG_7f2fcQui_-Xwb0NUQ+Qr7T0aw@mail.gmail.com",
-          "author": null,
-          "description": "[request] flags:--- replies:0",
-          "link": "https://list.orgmode.org/CAO48Bk8F1MaAk6X4U-FS+wrG_7f2fcQui_-Xwb0NUQ+Qr7T0aw@mail.gmail.com",
-          "publishedOn": "2026-07-18T17:10:24.000Z",
-          "wordCount": 407,
-          "title": "Org Mode requests: [RFC] Font control as of today",
-          "imageUrl": null
-        },
-        {
-          "id": "http://en.andros.dev/blog/9abcdcfe/your-denote-notes-on-the-iphone/",
-          "author": null,
-          "description": "All my notes live in Denote, the fantastic Emacs package by Protesilaos Stavrou. The system is perfect while I am at the computer... but I wanted to read and edit my notes from my phone. I did not find anything that respected the Denote convention, so I built it myself: Dotdenote, an iOS app that reads, edits and creates notes following the Denote naming scheme over WebDAV. It is open source, you can browse the code at git.andros.dev/andros/dotdenote.\n\n\n\nThe app does not lock your notes anywhere: it talks to any WebDAV server, so they remain plain text files under your control. In this mini tutorial we will set up a WebDAV server with Docker, put an Nginx in front of it, and connect the app to your existing Denote notes. In less than 10 minutes you will be browsing your Zettelkasten from y…",
-          "link": "http://en.andros.dev/blog/9abcdcfe/your-denote-notes-on-the-iphone/",
-          "publishedOn": "2026-07-18T15:27:20.000Z",
-          "wordCount": 1254,
-          "title": "Andros Fenollosa: Your Denote notes on the iPhone",
-          "imageUrl": "https://img.andros.dev/6cmUzkL494kzbOGKoZIeb_GHXDU=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/nathalia-rosa-P1SdQAhcJz8-unsplash.jpg"
-        },
-        {
-          "id": "https://irreal.org/blog/?p=13954",
-          "author": null,
-          "description": "Embark but I never got around to learning it and it has sat unused ever since. Then I saw this post by Bozhidar Batsov and decided to take another look. The problem with Embark is that it’s hard to understand and the documentation is long and complex. Too long, I discovered, to read and understand in one sitting.\n\n\nI approached the problem by reading a section at a time and trying out examples in my Emacs. Even so, it still took some experimentation to completely figure things out. The process is ongoing but I’m making progress.\n\n\nAll of the above sounds pretty negative but I actually think Embark is a real win. Once you figure things out it’s really useful. For example, one of the things I’ve never been able to get working reliably is following a link in an arbitrary buffer to its target. Embark does that easily and if you use embark-dwim it’s a single keystroke. I use Hyper+. for embark-act and Hyper+, for embark-dwim. I have Hyper bound to the right ⌘ Cmd key so it’s very easy to invoke either of those commands.\n\n\nBatsov is all in on Embark. He and I often share preferences and this is an example of that. The more I find out about Embark, the more I like it. The commands that work on a group of files can be difficult to grok but once you do they’re very powerful. I’ve resigned myself that learning Embark is an ongoing process but I think it’s worth it.",
-          "link": "https://irreal.org/blog/?p=13954",
-          "publishedOn": "2026-07-18T15:10:57.000Z",
-          "wordCount": 1487,
-          "title": "Irreal: Embark",
-          "imageUrl": null
         }
       ]
     },

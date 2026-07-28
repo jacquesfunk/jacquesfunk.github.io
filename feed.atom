@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-28T02:25:35.096Z</updated>
+    <updated>2026-07-28T06:25:36.508Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -2962,49 +2962,6 @@ provide. I wrote an article which covers all of what is in the video
 as well as code samples. Its text is below.
 Table of Contents
 Make TAB complete when it …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Org Mode requests: [RFC] Font control as of today]]></title>
-        <id>https://list.orgmode.org/CAO48Bk8F1MaAk6X4U-FS+wrG_7f2fcQui_-Xwb0NUQ+Qr7T0aw@mail.gmail.com</id>
-        <link href="https://list.orgmode.org/CAO48Bk8F1MaAk6X4U-FS+wrG_7f2fcQui_-Xwb0NUQ+Qr7T0aw@mail.gmail.com"/>
-        <updated>2026-07-18T17:10:24.000Z</updated>
-        <summary type="html"><![CDATA[[request] flags:--- replies:0]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Andros Fenollosa: Your Denote notes on the iPhone]]></title>
-        <id>http://en.andros.dev/blog/9abcdcfe/your-denote-notes-on-the-iphone/</id>
-        <link href="http://en.andros.dev/blog/9abcdcfe/your-denote-notes-on-the-iphone/"/>
-        <updated>2026-07-18T15:27:20.000Z</updated>
-        <summary type="html"><![CDATA[All my notes live in Denote, the fantastic Emacs package by Protesilaos Stavrou. The system is perfect while I am at the computer... but I wanted to read and edit my notes from my phone. I did not find anything that respected the Denote convention, so I built it myself: Dotdenote, an iOS app that reads, edits and creates notes following the Denote naming scheme over WebDAV. It is open source, you can browse the code at git.andros.dev/andros/dotdenote.
-
-
-
-The app does not lock your notes anywhere: it talks to any WebDAV server, so they remain plain text files under your control. In this mini tutorial we will set up a WebDAV server with Docker, put an Nginx in front of it, and connect the app to your existing Denote notes. In less than 10 minutes you will be browsing your Zettelkasten from y…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Embark]]></title>
-        <id>https://irreal.org/blog/?p=13954</id>
-        <link href="https://irreal.org/blog/?p=13954"/>
-        <updated>2026-07-18T15:10:57.000Z</updated>
-        <summary type="html"><![CDATA[Embark but I never got around to learning it and it has sat unused ever since. Then I saw this post by Bozhidar Batsov and decided to take another look. The problem with Embark is that it’s hard to understand and the documentation is long and complex. Too long, I discovered, to read and understand in one sitting.
-
-
-I approached the problem by reading a section at a time and trying out examples in my Emacs. Even so, it still took some experimentation to completely figure things out. The process is ongoing but I’m making progress.
-
-
-All of the above sounds pretty negative but I actually think Embark is a real win. Once you figure things out it’s really useful. For example, one of the things I’ve never been able to get working reliably is following a link in an arbitrary buffer to its target. Embark does that easily and if you use embark-dwim it’s a single keystroke. I use Hyper+. for embark-act and Hyper+, for embark-dwim. I have Hyper bound to the right ⌘ Cmd key so it’s very easy to invoke either of those commands.
-
-
-Batsov is all in on Embark. He and I often share preferences and this is an example of that. The more I find out about Embark, the more I like it. The commands that work on a group of files can be difficult to grok but once you do they’re very powerful. I’ve resigned myself that learning Embark is an ongoing process but I think it’s worth it.]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>
