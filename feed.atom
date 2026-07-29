@@ -2,10 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-28T22:56:32.130Z</updated>
+    <updated>2026-07-29T02:29:45.276Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Hump Day Hottie: Olivia Rodrigo]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3092</id>
+        <link href="https://stuffthatinterestsme.net/hump-day-hottie-olivia-rodrigo/"/>
+        <updated>2026-07-29T02:05:39.000Z</updated>
+        <summary type="html"><![CDATA[Olivia Rodrigo is an American singer, songwriter, and actress who has become one of the defining pop stars of her]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Charlie Holland: Hyperbole Implicit Buttons: Build your Hyperverse]]></title>
+        <id>https://www.chiply.dev/post-hyperbole-implicit-buttons</id>
+        <link href="https://www.chiply.dev/post-hyperbole-implicit-buttons"/>
+        <updated>2026-07-29T01:10:50.000Z</updated>
+        <summary type="html"><![CDATA[1. TLDR
+
+
+
+
+
+Your Emacs is full of markup-free hyperlinks embedded in your text, but
+you're missing a way to utilize them.  Think about a file path in a
+README, a URL in an email, a commit 55a1f0 in a git log, or a function
+call.  All of these have a logical referent (a location or action), and
+you likely have a good idea of what they should point to.  GNU
+Hyperbole's implicit buttons are pattern recognizers that identify
+different hyperlink buttons in many Emacs contexts.  Hyperbole's Action
+Key (a single keybinding) then activates such buttons when it is
+pressed.  This post walks through the built-in recognizers, shows how to
+ask Emacs "what will happen if I press the Action Key here?" (C-h
+A), explains the cascade of Hyperbole's pattern recognizers that picks
+the winning action, and dem…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Org Mode requests: [FR] Simpler file ID links in HTML export]]></title>
         <id>https://list.orgmode.org/79bf0e83-9c3b-452e-a02e-32865ab2d1bc@app.fastmail.com</id>
@@ -3088,33 +3125,6 @@ Those less-than-intense conditions are exactly what made England-France on Satur
 https://www.youtube.com/watch?v=XDZco2h-zcw]]></summary>
         <author>
             <name>Luis Paez-Pumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quinn Simmons Lets The Bike Speak For Him, For Better And Worse]]></title>
-        <id>https://defector.com/?p=229255</id>
-        <link href="https://defector.com/quinn-simmons-lets-the-bike-speak-for-him-for-better-and-worse"/>
-        <updated>2026-07-19T14:00:15.000Z</updated>
-        <summary type="html"><![CDATA[MULHOUSE, France — Stage 12 of the 2026 Tour de France was supposed to be boring. Maybe it would have been were it not for Quinn Simmons, who did what he does best and made the peloton quake with a thumping attack. The American champion seized the initiative with 35 kilometers left, splintering the bunch and dragging a dozen strong riders with him, turning what would have otherwise been a dull procession into a thrilling finale. Very few riders are strong enough to cleave a charging peloton like that on a flat day; fewer still have the casual power to be able to initiate and execute a full-speed high five with their flag-waving father while doing so; and only Simmons could inspire equally strong reactions of annoyance and excitement with such a cool, daring move. 
-
-https://twitter.com/RNBWCV/status/2077772632246685756
-
-
-There really isn't anyone like Simmons in the professional peloton. As is evident in the clip, Simmons has one of the biggest engines in the world. While he's won stages at a handful of big races and gotten into some strong top 10s, his racecraft hasn't always matched his strength, so he's still searching for a career-defining win. But what truly makes him stand out is his willingness to use that engine to cut straight into the wind. This makes Simmons both an incredible domestique when he's riding for a teammate and a supreme animator of bike races when he's riding for himself. He helped Jonathan Milan win last year's points jersey and is currently helping Mads Pedersen do the same this year, setting up a dominant breakaway win for Pedersen on Stage 4 and still finding the time to drive several moves. Cycling involves so much strategic passivity. Simmons races in refusal of that notion.]]></summary>
-        <author>
-            <name>Patrick Redford</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sunday, July 19, 2026]]></title>
-        <id>https://baty.net/journal/19Jul26/</id>
-        <link href="https://baty.net/journal/19Jul26/"/>
-        <updated>2026-07-19T11:11:47.000Z</updated>
-        <summary type="html"><![CDATA[I still have both eyes.
-I don't know why I bother trying other tools. I'm just going to end up back in Emacs, anyway.
-✍️ Reply by email]]></summary>
-        <author>
-            <name>baty.net</name>
         </author>
     </entry>
 </feed>

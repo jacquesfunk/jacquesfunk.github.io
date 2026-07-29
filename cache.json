@@ -81,16 +81,6 @@
           "wordCount": 202,
           "title": "Tuesday, July 21, 2026",
           "imageUrl": "https://baty.net/img/2026/20260721-stellas.webp"
-        },
-        {
-          "id": "https://baty.net/journal/19Jul26/",
-          "author": null,
-          "description": "I still have both eyes.\nI don't know why I bother trying other tools. I'm just going to end up back in Emacs, anyway.\n✍️ Reply by email",
-          "link": "https://baty.net/journal/19Jul26/",
-          "publishedOn": "2026-07-19T11:11:47.000Z",
-          "wordCount": 92,
-          "title": "Sunday, July 19, 2026",
-          "imageUrl": "https://baty.net/img/2026/20260719-me-with-bb-gun.webp"
         }
       ]
     },
@@ -99,6 +89,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://www.chiply.dev/post-hyperbole-implicit-buttons",
+          "author": null,
+          "description": "1. TLDR\n\n\n\n\n\nYour Emacs is full of markup-free hyperlinks embedded in your text, but\nyou're missing a way to utilize them.  Think about a file path in a\nREADME, a URL in an email, a commit 55a1f0 in a git log, or a function\ncall.  All of these have a logical referent (a location or action), and\nyou likely have a good idea of what they should point to.  GNU\nHyperbole's implicit buttons are pattern recognizers that identify\ndifferent hyperlink buttons in many Emacs contexts.  Hyperbole's Action\nKey (a single keybinding) then activates such buttons when it is\npressed.  This post walks through the built-in recognizers, shows how to\nask Emacs \"what will happen if I press the Action Key here?\" (C-h\nA), explains the cascade of Hyperbole's pattern recognizers that picks\nthe winning action, and dem…",
+          "link": "https://www.chiply.dev/post-hyperbole-implicit-buttons",
+          "publishedOn": "2026-07-29T01:10:50.000Z",
+          "wordCount": 8327,
+          "title": "Charlie Holland: Hyperbole Implicit Buttons: Build your Hyperverse",
+          "imageUrl": "https://www.chiply.dev/images/hyperbole-implicit-buttons-banner.webp"
+        },
         {
           "id": "https://list.orgmode.org/79bf0e83-9c3b-452e-a02e-32865ab2d1bc@app.fastmail.com",
           "author": null,
@@ -1235,16 +1235,6 @@
           "wordCount": 9259,
           "title": "All 10 Goals In That Bonkers Third-Place Match, Ranked",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2286682415.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=229255",
-          "author": "Patrick Redford",
-          "description": "MULHOUSE, France — Stage 12 of the 2026 Tour de France was supposed to be boring. Maybe it would have been were it not for Quinn Simmons, who did what he does best and made the peloton quake with a thumping attack. The American champion seized the initiative with 35 kilometers left, splintering the bunch and dragging a dozen strong riders with him, turning what would have otherwise been a dull procession into a thrilling finale. Very few riders are strong enough to cleave a charging peloton like that on a flat day; fewer still have the casual power to be able to initiate and execute a full-speed high five with their flag-waving father while doing so; and only Simmons could inspire equally strong reactions of annoyance and excitement with such a cool, daring move. \n\nhttps://twitter.com/RNBWCV/status/2077772632246685756\n\n\nThere really isn't anyone like Simmons in the professional peloton. As is evident in the clip, Simmons has one of the biggest engines in the world. While he's won stages at a handful of big races and gotten into some strong top 10s, his racecraft hasn't always matched his strength, so he's still searching for a career-defining win. But what truly makes him stand out is his willingness to use that engine to cut straight into the wind. This makes Simmons both an incredible domestique when he's riding for a teammate and a supreme animator of bike races when he's riding for himself. He helped Jonathan Milan win last year's points jersey and is currently helping Mads Pedersen do the same this year, setting up a dominant breakaway win for Pedersen on Stage 4 and still finding the time to drive several moves. Cycling involves so much strategic passivity. Simmons races in refusal of that notion.",
-          "link": "https://defector.com/quinn-simmons-lets-the-bike-speak-for-him-for-better-and-worse",
-          "publishedOn": "2026-07-19T14:00:15.000Z",
-          "wordCount": 8645,
-          "title": "Quinn Simmons Lets The Bike Speak For Him, For Better And Worse",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2286071832.jpg"
         }
       ]
     },
@@ -1265,6 +1255,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3092",
+          "author": "Schill",
+          "description": "Olivia Rodrigo is an American singer, songwriter, and actress who has become one of the defining pop stars of her",
+          "link": "https://stuffthatinterestsme.net/hump-day-hottie-olivia-rodrigo/",
+          "publishedOn": "2026-07-29T02:05:39.000Z",
+          "wordCount": 1533,
+          "title": "Hump Day Hottie: Olivia Rodrigo",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3305",
           "author": "Schill",
