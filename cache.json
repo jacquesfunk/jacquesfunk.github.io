@@ -598,16 +598,6 @@
           "wordCount": 1209,
           "title": "Sacha Chua: 2026-07-20 Emacs news",
           "imageUrl": null
-        },
-        {
-          "id": "https://emacsredux.com/blog/2026/07/20/flymake-can-now-show-diagnostics-at-the-end-of-the-line/",
-          "author": null,
-          "description": "If you’ve used modern editors like VS Code, you’ve probably noticed how they\ndisplay error and warning messages inline, right at the end of the offending\nline. It’s a nice touch - you don’t have to hover over a squiggly underline or\ncheck a separate diagnostics buffer to see what’s wrong.\nEmacs 30 brings this capability to Flymake with the new\nflymake-show-diagnostics-at-end-of-line option.\nEnabling it\n\n(setq flymake-show-diagnostics-at-end-of-line t)\n\n\nWith this set, Flymake will display diagnostic summaries right at the end of\neach affected line, in addition to the usual fringe indicators and\nunderlines. Here’s what it looks like in an Emacs Lisp buffer with a few\nissues (an error, a warning, and a checkdoc note):\n\nDisplay options\nThe option accepts three values:\nValue\n      Behavior\n   …",
-          "link": "https://emacsredux.com/blog/2026/07/20/flymake-can-now-show-diagnostics-at-the-end-of-the-line/",
-          "publishedOn": "2026-07-20T06:30:00.000Z",
-          "wordCount": 567,
-          "title": "Emacs Redux: Flymake Can Now Show Diagnostics at the End of the Line",
-          "imageUrl": "https://emacsredux.com/assets/og-image.png"
         }
       ]
     },
@@ -616,6 +606,46 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=230652",
+          "author": "Ray Ratto",
+          "description": "Well, that mystery has been solved. Kyle Shanahan was fishing around for his dropped phone while driving at 20 miles per hour when he crossed into the other lane and hit a car. There. Everyone satisfied? Great. Show yourselves out, and have a nice day.\nWell, no. Of course not. Shanahan, the coach and chief architect of the San Francisco 49ers, has been and still remains off work for an extended period of time because of the accident that neither he nor the officials and general population of Palo Alto, Calif., thought was noteworthy enough to mention for 11 days. He has a concussion, broken ribs, a broken nose, 40 stitches across his face and nearly lost an eye from the deployed air bag, which among other things means that he cannot perform his very public and vital duties protecting the nation from the absence of one-thirty-second of football.\nAnd, well, nobody's required to buy any of that story, even Shanahan's belated acknowledgement that he was the one at fault rather than the 21-year-old woman driving the other car. These are not times in which anyone is or necessarily should be trusted; lying is everywhere, and liars are both prevalent and prolific. The biggest reason nobody's required to buy any of it is because of the 11 days when neither Shanahan, the 49ers, the Palo Alto police, nor TMZ's sprawling army of camera sleuths felt it worthy of mention. In doing so, they violated the basic rule of information control—the less you provide, the less control you have, because gossip abhors a vacuum, and the public will fill in the details we need to have in order to understand it in whatever way best suits our personalities, preconceptions, and sick senses of humor.",
+          "link": "https://defector.com/kyle-shanahan-and-the-49ers-are-not-entitled-to-anyones-trust",
+          "publishedOn": "2026-07-29T18:44:39.000Z",
+          "wordCount": 7386,
+          "title": "Kyle Shanahan And The 49ers Are Not Entitled To Anyone’s Trust",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2257705656.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=230640",
+          "author": "Luis Paez-Pumar",
+          "description": "The recently concluded World Cup was the shining example of FIFA president Gianni Infantino's particular brand of evil. It was nakedly greedy, nakedly corrupt, nakedly ugly, and also totally awesome. Infantino's bet was that he could openly screw everyone—fans, teams, referees, ear-havers, even the sport itself—and could still get away with it simply because soccer is too good. As expected, he was proven right. And unsurprisingly, he's already trying to push things even further.\nOn Tuesday, The Times reported that Infantino's latest plan is to sell the World Cup to private equity investors, all under the guise of \"growing the game,\" which not so coincidentally involves growing his own bank account. Specifically, Infantino's plan would include FIFA setting up a company, tentatively named FI…",
+          "link": "https://defector.com/gianni-infantino-is-putting-the-world-cup-up-for-sale",
+          "publishedOn": "2026-07-29T18:21:46.000Z",
+          "wordCount": 8939,
+          "title": "Gianni Infantino Is Putting The World Cup Up For Sale",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2287106665.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=230626",
+          "author": "Drew Magary",
+          "description": "Some people are fans of the New York Giants. But many, many more people are NOT fans of the New York Giants. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.\nYour team: WHAT’S IN THE TENT?! I BET THERE’S FREE CANDY IN THERE!\n\nhttps://www.youtube.com/watch?v=z1fJjaYNclo",
+          "link": "https://defector.com/why-your-team-sucks-2026-new-york-giants",
+          "publishedOn": "2026-07-29T17:51:17.000Z",
+          "wordCount": 13188,
+          "title": "Why Your Team Sucks 2026: New York Giants",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2243797973.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=230671",
+          "author": "Chris Thompson",
+          "description": "I think it would be really fascinating to know Kyle Kuzma. The man loves to stride confidently right up to the very threshold of insight...\nLet’s be real…the CBA makes sure owners, PE funds and outside investors can eat off NBA team equity, but the players driving the ratings and the merch are treated like short‑term contractors. [...]\n...only to suddenly throw a complicated mixtape-style step-back move and fire up an airball.",
+          "link": "https://defector.com/the-mind-of-kyle-kuzma-is-expanding-at-an-alarming-rate",
+          "publishedOn": "2026-07-29T17:21:06.000Z",
+          "wordCount": 6025,
+          "title": "The Mind Of Kyle Kuzma Is Expanding At An Alarming Rate",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2286656447.jpg"
+        },
         {
           "id": "https://defector.com/?p=230727",
           "author": "Jae Towle Vieira",
@@ -2171,6 +2201,16 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73297301/anthony-fauci-rand-paul-hearing-plead-the-fifth/",
+          "author": null,
+          "description": "The former CDC head even called out committee chairman Rand Paul for being “unhinged.” I’ll say.",
+          "link": "https://www.esquire.com/news-politics/politics/a73297301/anthony-fauci-rand-paul-hearing-plead-the-fifth/",
+          "publishedOn": "2026-07-29T17:24:03.000Z",
+          "wordCount": 20411,
+          "title": "Anthony Fauci’s Senate Hearing Was Certifiably Absurd—Just Not for the Reasons We Expected",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/aa96ba84-7cf5-4d74-a675-d748b600f5c6.jpeg?crop=1xw:0.75xh;0xw,0.136xh&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73288921/west-point-free-speech-military-trump-hegseth/",
           "author": null,
           "description": "A recent free speech fiasco at West Point is just the beginning.",
@@ -2495,22 +2535,6 @@
             "type": "audio/mpeg"
           },
           "imageUrl": null
-        },
-        {
-          "id": "https://www.flowstate.fm/p/haruhisa-tanaka-68e",
-          "author": "Flow State",
-          "description": "Today we’re listening to Haruhisa Tanaka, a Japanese ambient musician based in Tokyo.",
-          "link": "https://www.flowstate.fm/p/haruhisa-tanaka-68e",
-          "publishedOn": "2026-07-20T07:03:27.000Z",
-          "wordCount": null,
-          "title": "Haruhisa Tanaka",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!a1Fb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8540b059-5b08-4a54-81ee-63e2a55a61b8_1000x1000.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!a1Fb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8540b059-5b08-4a54-81ee-63e2a55a61b8_1000x1000.jpeg"
         }
       ]
     },
