@@ -558,16 +558,6 @@
           "wordCount": 567,
           "title": "Emacs Redux: Flymake Can Now Show Diagnostics at the End of the Line",
           "imageUrl": "https://emacsredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/07/emacs-tip-of-day-in-popup-frame.html",
-          "author": null,
-          "description": "The Emacs commands that create a new frame disappoint me.  They\n  create a frame that shares the same set of buffers as the main\n  frame.  I don't think a Tip Of The Day (TOTD) popup should have\n  access to all the buffers in a session.  I want a popup to display\n  some help and be easily dismissed.1\nThat's why I designed my Tip Of The Day to run in a\n  separate Emacs instance.  Instead of invoking the TOTD function\n  directly, Emacs asks the operating system to launch a second Emacs\n  process.  One of the command line switches loads the Lisp file in\n  which the TOTD function is defined, and another runs the function.\n  This is achieved by invoking call-process-shell-command\n  to run a one-line batch file2 that contains this:\n\"path_to_emacs\\emacs.exe\" -Q -g 80x42-2+2 -l totd.el --eval (zto…",
-          "link": "https://ray-on-emacs.blogspot.com/2026/07/emacs-tip-of-day-in-popup-frame.html",
-          "publishedOn": "2026-07-19T22:29:30.872Z",
-          "wordCount": 3400,
-          "title": "Raymond Zeitler: Emacs Tip Of The Day in a Popup Frame",
-          "imageUrl": null
         }
       ]
     },
@@ -1389,6 +1379,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/salon-amanda-marcotte.xml",
       "siteUrl": "https://www.salon.com/writer/amanda_marcotte",
       "articles": [
+        {
+          "id": "https://www.salon.com/2026/07/29/jd-vance-will-never-be-the-gop-obama/-full",
+          "author": null,
+          "description": "JD Vance sees himself in a former president. In a recent on-stage conversation about his memoir “Communion: Finding My Way Back to Faith,” the vice president was apparently inspired when talking about how this politician was a “political genius” and “peacemaker” who pulled America out of an unpopular war. “Young senator, writes some bestselling books,” he said, ticking off a number of shared qualities. “It kinda sounds like JD Vance.”\nThe vice president was talking about Richard Nixon. But it’s understandable if readers first imagined the face of Barack Obama. As Vance gears up to run for president in 2028, he’s clearly trying to position himself as the GOP’s answer to the 44th president, who remains the most popular political figure in the country.\nVance will likely never say this out lou…",
+          "link": "https://www.salon.com/2026/07/29/jd-vance-will-never-be-the-gop-obama/",
+          "publishedOn": "2026-07-29T10:30:56.000Z",
+          "wordCount": 2172,
+          "title": "JD Vance will never be the GOP Obama",
+          "imageUrl": "https://www.salon.com/app/uploads/2026/07/JD-Vance-2284649403.jpg"
+        },
         {
           "id": "https://www.salon.com/2026/07/20/paramount-warner-bros-merger-will-make-media-more-maga-and-more-boring/-full",
           "author": null,
@@ -2284,6 +2284,22 @@
       "feedUrl": "https://www.flowstate.fm/feed",
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
+        {
+          "id": "https://www.flowstate.fm/p/across-the-horizon-ep-67-jeopardy",
+          "author": "Flow State",
+          "description": "On today’s episode of Across the Horizon, Bob Holmes of SUSS invites co-host Brad Rose to play the inaugural edition of musical Jeopardy.",
+          "link": "https://www.flowstate.fm/p/across-the-horizon-ep-67-jeopardy",
+          "publishedOn": "2026-07-29T07:02:43.000Z",
+          "wordCount": null,
+          "title": "Across the Horizon Ep. 67: \"Jeopardy\" Edition with Brad Rose",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/208876072/c06413f7d7749a78f3fb87489b0a2d12.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "https://www.flowstate.fm/p/flow-state-ep-336-james-bernard-guest",
           "author": "Flow State",

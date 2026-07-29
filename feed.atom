@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-29T06:29:18.077Z</updated>
+    <updated>2026-07-29T10:36:59.495Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[JD Vance will never be the GOP Obama]]></title>
+        <id>https://www.salon.com/2026/07/29/jd-vance-will-never-be-the-gop-obama/-full</id>
+        <link href="https://www.salon.com/2026/07/29/jd-vance-will-never-be-the-gop-obama/"/>
+        <updated>2026-07-29T10:30:56.000Z</updated>
+        <summary type="html"><![CDATA[JD Vance sees himself in a former president. In a recent on-stage conversation about his memoir “Communion: Finding My Way Back to Faith,” the vice president was apparently inspired when talking about how this politician was a “political genius” and “peacemaker” who pulled America out of an unpopular war. “Young senator, writes some bestselling books,” he said, ticking off a number of shared qualities. “It kinda sounds like JD Vance.”
+The vice president was talking about Richard Nixon. But it’s understandable if readers first imagined the face of Barack Obama. As Vance gears up to run for president in 2028, he’s clearly trying to position himself as the GOP’s answer to the 44th president, who remains the most popular political figure in the country.
+Vance will likely never say this out lou…]]></summary>
+        <author>
+            <name>Amanda Marcotte - Salon.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Across the Horizon Ep. 67: "Jeopardy" Edition with Brad Rose]]></title>
+        <id>https://www.flowstate.fm/p/across-the-horizon-ep-67-jeopardy</id>
+        <link href="https://www.flowstate.fm/p/across-the-horizon-ep-67-jeopardy"/>
+        <updated>2026-07-29T07:02:43.000Z</updated>
+        <summary type="html"><![CDATA[On today’s episode of Across the Horizon, Bob Holmes of SUSS invites co-host Brad Rose to play the inaugural edition of musical Jeopardy.]]></summary>
+        <author>
+            <name>Flow State</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hump Day Hottie: Olivia Rodrigo]]></title>
         <id>https://stuffthatinterestsme.net/?p=3092</id>
@@ -3108,28 +3130,6 @@ Spain won because it played the exact same game it played every knockout match o
 https://www.youtube.com/watch?v=IOKvRNGoZbc]]></summary>
         <author>
             <name>Luis Paez-Pumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raymond Zeitler: Emacs Tip Of The Day in a Popup Frame]]></title>
-        <id>https://ray-on-emacs.blogspot.com/2026/07/emacs-tip-of-day-in-popup-frame.html</id>
-        <link href="https://ray-on-emacs.blogspot.com/2026/07/emacs-tip-of-day-in-popup-frame.html"/>
-        <updated>2026-07-19T22:29:30.872Z</updated>
-        <summary type="html"><![CDATA[The Emacs commands that create a new frame disappoint me.  They
-  create a frame that shares the same set of buffers as the main
-  frame.  I don't think a Tip Of The Day (TOTD) popup should have
-  access to all the buffers in a session.  I want a popup to display
-  some help and be easily dismissed.1
-That's why I designed my Tip Of The Day to run in a
-  separate Emacs instance.  Instead of invoking the TOTD function
-  directly, Emacs asks the operating system to launch a second Emacs
-  process.  One of the command line switches loads the Lisp file in
-  which the TOTD function is defined, and another runs the function.
-  This is achieved by invoking call-process-shell-command
-  to run a one-line batch file2 that contains this:
-"path_to_emacs\emacs.exe" -Q -g 80x42-2+2 -l totd.el --eval (zto…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
