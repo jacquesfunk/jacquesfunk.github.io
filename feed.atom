@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-29T19:13:34.932Z</updated>
+    <updated>2026-07-29T20:54:00.181Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Dink (2026) ★★★]]></title>
+        <id>https://baty.net/posts/2026/07/the-dink-2026/</id>
+        <link href="https://baty.net/posts/2026/07/the-dink-2026/"/>
+        <updated>2026-07-29T20:46:12.000Z</updated>
+        <summary type="html"><![CDATA[I wanted it to be better. It dragged a few chuckles out of me. I gave it an extra star because I love Mary Steenburgen.
+✍️ Reply by email]]></summary>
+        <author>
+            <name>baty.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is It Even Possible To Discipline A Two-Year-Old?]]></title>
+        <id>https://defector.com/?p=230174</id>
+        <link href="https://defector.com/is-it-even-possible-to-discipline-a-two-year-old"/>
+        <updated>2026-07-29T19:16:44.000Z</updated>
+        <summary type="html"><![CDATA[Welcome back to Minor Dilemmas, where a member of Defector's Parents Council will answer your questions on surviving family life. Have a question? Email us at minordilemmas@defector.com.
+This week, Justin answers a question about discipline.]]></summary>
+        <author>
+            <name>Justin Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aboard Newsletter: Summertime Software]]></title>
+        <id>https://mailchi.mp/aboard/zkd26k8jzm-10348035</id>
+        <link href="https://mailchi.mp/aboard/zkd26k8jzm-10348035"/>
+        <updated>2026-07-29T19:07:31.000Z</updated>
+        <summary type="html"><![CDATA[96
+
+
+
+
+
+
+Aboard Newsletter: Summertime Software
+
+
+img{-ms-interpolation-mode:bicubic;}
+table, td{mso-table-lspace:0pt;mso-table-rspace:0pt;}
+.mceStandardButton, .mceStandardButton td, .mceStandardButton td a{mso-hide:all!important;}
+p, a, li, td, blockquote{mso-line-height-rule:exactly;}
+p, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+.mcnPreviewText{display:none!important;}
+.bodyCell{margin:0 auto;padding:0;width:100%;}
+.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;}
+.ReadMsgBody, .ExternalClass{width:100%;}
+a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inherit!important;font-weight:i…]]></summary>
+        <author>
+            <name>Aboard Archive Feed</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Kyle Shanahan And The 49ers Are Not Entitled To Anyone’s Trust]]></title>
         <id>https://defector.com/?p=230652</id>
@@ -267,6 +318,27 @@ pressed.  This post walks through the built-in recognizers, shows how to
 ask Emacs "what will happen if I press the Action Key here?" (C-h
 A), explains the cascade of Hyperbole's pattern recognizers that picks
 the winning action, and dem…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Protesilaos: Emacs: default minibuffer completions overview (Emacs 31)]]></title>
+        <id>https://protesilaos.com/codelog/2026-07-29-emacs-default-minibuffer-completion-overview/</id>
+        <link href="https://protesilaos.com/codelog/2026-07-29-emacs-default-minibuffer-completion-overview/"/>
+        <updated>2026-07-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Raw link: https://www.youtube.com/watch?v=yH0Gan6xMTo
+In this video I provide an overview of the default interface for minibuffer completions in Emacs. This is an interface that has been improved considerably over the years. In Emacs version 31, this interface gets some nice new features which make it even more appealing to use.
+Below is the article I prepared for this video, with all the code samples.
+Table of Contents
+The default settings are usable but inconvenient
+Tweaks for a more refined default completion interface
+The completion-category-overrides for maximum control
+    
+How to find the completion category
+Completion categories and all the other completion-metadata
+The default completions and related packages
+The core Emacs infrastructure for completions is quite capable. In a pre…]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>
