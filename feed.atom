@@ -2,10 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-29T10:36:59.495Z</updated>
+    <updated>2026-07-29T14:06:40.180Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[If The Podcaster Desires To Defeat The Aggregator, He Must Look Inward]]></title>
+        <id>https://defector.com/?p=230592</id>
+        <link href="https://defector.com/if-the-podcaster-desires-to-defeat-the-aggregator-he-must-look-inward"/>
+        <updated>2026-07-29T13:46:06.000Z</updated>
+        <summary type="html"><![CDATA[Listen to enough sports podcasts, and eventually you will hear someone spit the name of every podcaster's greatest enemy: The aggregators. Oh, how the fellas who talk about sports into a mic for a living love to complain about the aggregators. Don't aggregate this! yelps Zach Lowe, before sharing a mild opinion about the Toronto Raptors. Listen up, aggregators, I am not reporting this, groans Bill Simmons before guessing where LeBron James might sign. I need to be careful here, because of the aggregators, murmurs Brian Windhorst before doling out a trade rumor. These men are beset on all sides by the dreaded aggregators!
+But who are the aggregators, and what exactly are they doing to these podcasters? More often than not, "the aggregators" is a phrase used to describe various social media accounts that circulate quotes from podcast episodes for the sake of baiting engagement. A recent Tweet from Yahoo Sports acts as an exemplar of the form: a graphic with Bill Simmons's face above something he said on a recent podcast episode about how the 2026 Philadelphia 76ers might end up being just as bad as the 2012 Lakers.
+"This is bullshit," Simmons angrily tweeted in response. "We went thru all the scenarios for how the Philly signing could play out on Friday’s pod good and bad. I thought Yahoo was trying to be a real place? Don’t you guys pay respectable writers and podcasters to do content? But you also do fake clickbait crap?"]]></summary>
+        <author>
+            <name>Tom Ley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In A Summer Of Superstar Movement, Steph Curry Is Conspicuously At Home]]></title>
+        <id>https://defector.com/?p=230547</id>
+        <link href="https://defector.com/in-a-summer-of-superstar-movement-steph-curry-is-conspicuously-at-home"/>
+        <updated>2026-07-29T13:04:17.000Z</updated>
+        <summary type="html"><![CDATA[Now that LeBron James has found his newest version of joy with the Fanatics 76ers and the nation has finished chewing over all the ramifications thereof, be they ridiculous and absurd or merely improbable and stupid, the discourse cries out for a new main character in the hired-and-fired/signed-and-resigned marketplace. And there is only one name left that anyone finds appealingly rumormongerable: Stephen Curry.
+As in: "Why didn't the Warriors get LeBron to help Steph win that last ring?" Or: "Why didn't the Warriors get someone, really, anyone to help Steph win that last ring?" And: "Since they didn't get anyone to help Steph win that last ring, why does Mike Dunleavy Jr. still have his general manager's job?" And also: "Since they didn't get anyone to help Steph win that last ring, is owner Joe Lacob an idiot, and if so, for what specific reason?" And finally: "Since they didn't get anyone to help Steph win that last ring, shouldn't they trade him as an act of basic human decency?"
+This all puts Curry at the center of the story to an extent that raises an additional question, which is more or less, "Since they didn't get anyone to help Steph win that last ring, why isn't he demanding that signing/firing/trade?"]]></summary>
+        <author>
+            <name>Ray Ratto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Trump Administration Is Changing Our Military Academies for the Worse, and I’m Afraid of the Consequences]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a73288921/west-point-free-speech-military-trump-hegseth/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a73288921/west-point-free-speech-military-trump-hegseth/"/>
+        <updated>2026-07-29T11:03:22.000Z</updated>
+        <summary type="html"><![CDATA[A recent free speech fiasco at West Point is just the beginning.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JD Vance will never be the GOP Obama]]></title>
         <id>https://www.salon.com/2026/07/29/jd-vance-will-never-be-the-gop-obama/-full</id>
@@ -16,6 +50,29 @@ The vice president was talking about Richard Nixon. But it’s understandable if
 Vance will likely never say this out lou…]]></summary>
         <author>
             <name>Amanda Marcotte - Salon.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Emacs Redux: Flycheck 38: Might &amp; Magic]]></title>
+        <id>https://emacsredux.com/blog/2026/07/29/flycheck-38/</id>
+        <link href="https://emacsredux.com/blog/2026/07/29/flycheck-38/"/>
+        <updated>2026-07-29T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Not all those who wander are lost.
+– J.R.R. Tolkien
+Today I’m happy to announce Flycheck 38 - easily the biggest and most
+ambitious Flycheck release since I took over the stewardship of the project.
+It’s the release where Flycheck grows a proper story for language servers, gets
+the kind of inline diagnostics you’d expect from a modern editor, and learns to
+apply fixes - all without giving up the checker model that made it popular in the
+first place.
+The version number, I’ll admit, doesn’t do this one justice - it’s just the next
+integer after 37, and nothing about “38” whispers “special”. But that’s how it
+goes with version numbers: some releases are more special than others, and you’d
+rarely guess which from the number alone.
+There and back again
+A little history, because it’s what makes …]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -3117,19 +3174,6 @@ Value
    …]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spain Won As Only Spain Can]]></title>
-        <id>https://defector.com/?p=229407</id>
-        <link href="https://defector.com/spain-won-as-only-spain-can"/>
-        <updated>2026-07-19T23:48:04.000Z</updated>
-        <summary type="html"><![CDATA[It sure looks like Spain has found the formula for winning World Cup finals. All it takes is a truly hideous game, marked by defensive intensity and borderline tackles, and a late goal from a Barcelona player. In the Wario to the 2010 final, Spain beat 10-man Argentina 1-0 thanks to Ferran Torres's emphatic 106th minute winner. But that's not why Spain won the World Cup.
-Spain won because it played the exact same game it played every knockout match on its way to a second World Cup title: defending with intelligent and patient possession, and immediately suffocating opponents on the rare occasion the Spanish players lost the ball. This was an ugly World Cup final, the ugliest I've been sentient for, but there's nothing disappointing or unearned about Spain coming out on top. This was the best team in this tournament both by results and by efficiency, a murderous machine of tiki-taka and furious counter-pressing. Argentina never had a shot.
-
-https://www.youtube.com/watch?v=IOKvRNGoZbc]]></summary>
-        <author>
-            <name>Luis Paez-Pumar</name>
         </author>
     </entry>
 </feed>

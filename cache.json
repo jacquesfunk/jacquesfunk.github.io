@@ -90,6 +90,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://emacsredux.com/blog/2026/07/29/flycheck-38/",
+          "author": null,
+          "description": "Not all those who wander are lost.\n– J.R.R. Tolkien\nToday I’m happy to announce Flycheck 38 - easily the biggest and most\nambitious Flycheck release since I took over the stewardship of the project.\nIt’s the release where Flycheck grows a proper story for language servers, gets\nthe kind of inline diagnostics you’d expect from a modern editor, and learns to\napply fixes - all without giving up the checker model that made it popular in the\nfirst place.\nThe version number, I’ll admit, doesn’t do this one justice - it’s just the next\ninteger after 37, and nothing about “38” whispers “special”. But that’s how it\ngoes with version numbers: some releases are more special than others, and you’d\nrarely guess which from the number alone.\nThere and back again\nA little history, because it’s what makes …",
+          "link": "https://emacsredux.com/blog/2026/07/29/flycheck-38/",
+          "publishedOn": "2026-07-29T09:00:00.000Z",
+          "wordCount": 2131,
+          "title": "Emacs Redux: Flycheck 38: Might &amp; Magic",
+          "imageUrl": "https://emacsredux.com/assets/og-image.png"
+        },
+        {
           "id": "https://www.chiply.dev/post-hyperbole-implicit-buttons",
           "author": null,
           "description": "1. TLDR\n\n\n\n\n\nYour Emacs is full of markup-free hyperlinks embedded in your text, but\nyou're missing a way to utilize them.  Think about a file path in a\nREADME, a URL in an email, a commit 55a1f0 in a git log, or a function\ncall.  All of these have a logical referent (a location or action), and\nyou likely have a good idea of what they should point to.  GNU\nHyperbole's implicit buttons are pattern recognizers that identify\ndifferent hyperlink buttons in many Emacs contexts.  Hyperbole's Action\nKey (a single keybinding) then activates such buttons when it is\npressed.  This post walks through the built-in recognizers, shows how to\nask Emacs \"what will happen if I press the Action Key here?\" (C-h\nA), explains the cascade of Hyperbole's pattern recognizers that picks\nthe winning action, and dem…",
@@ -566,6 +576,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=230592",
+          "author": "Tom Ley",
+          "description": "Listen to enough sports podcasts, and eventually you will hear someone spit the name of every podcaster's greatest enemy: The aggregators. Oh, how the fellas who talk about sports into a mic for a living love to complain about the aggregators. Don't aggregate this! yelps Zach Lowe, before sharing a mild opinion about the Toronto Raptors. Listen up, aggregators, I am not reporting this, groans Bill Simmons before guessing where LeBron James might sign. I need to be careful here, because of the aggregators, murmurs Brian Windhorst before doling out a trade rumor. These men are beset on all sides by the dreaded aggregators!\nBut who are the aggregators, and what exactly are they doing to these podcasters? More often than not, \"the aggregators\" is a phrase used to describe various social media accounts that circulate quotes from podcast episodes for the sake of baiting engagement. A recent Tweet from Yahoo Sports acts as an exemplar of the form: a graphic with Bill Simmons's face above something he said on a recent podcast episode about how the 2026 Philadelphia 76ers might end up being just as bad as the 2012 Lakers.\n\"This is bullshit,\" Simmons angrily tweeted in response. \"We went thru all the scenarios for how the Philly signing could play out on Friday’s pod good and bad. I thought Yahoo was trying to be a real place? Don’t you guys pay respectable writers and podcasters to do content? But you also do fake clickbait crap?\"",
+          "link": "https://defector.com/if-the-podcaster-desires-to-defeat-the-aggregator-he-must-look-inward",
+          "publishedOn": "2026-07-29T13:46:06.000Z",
+          "wordCount": 6732,
+          "title": "If The Podcaster Desires To Defeat The Aggregator, He Must Look Inward",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2249683066.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=230547",
+          "author": "Ray Ratto",
+          "description": "Now that LeBron James has found his newest version of joy with the Fanatics 76ers and the nation has finished chewing over all the ramifications thereof, be they ridiculous and absurd or merely improbable and stupid, the discourse cries out for a new main character in the hired-and-fired/signed-and-resigned marketplace. And there is only one name left that anyone finds appealingly rumormongerable: Stephen Curry.\nAs in: \"Why didn't the Warriors get LeBron to help Steph win that last ring?\" Or: \"Why didn't the Warriors get someone, really, anyone to help Steph win that last ring?\" And: \"Since they didn't get anyone to help Steph win that last ring, why does Mike Dunleavy Jr. still have his general manager's job?\" And also: \"Since they didn't get anyone to help Steph win that last ring, is owner Joe Lacob an idiot, and if so, for what specific reason?\" And finally: \"Since they didn't get anyone to help Steph win that last ring, shouldn't they trade him as an act of basic human decency?\"\nThis all puts Curry at the center of the story to an extent that raises an additional question, which is more or less, \"Since they didn't get anyone to help Steph win that last ring, why isn't he demanding that signing/firing/trade?\"",
+          "link": "https://defector.com/in-a-summer-of-superstar-movement-steph-curry-is-conspicuously-at-home",
+          "publishedOn": "2026-07-29T13:04:17.000Z",
+          "wordCount": 7914,
+          "title": "In A Summer Of Superstar Movement, Steph Curry Is Conspicuously At Home",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2272142426.jpg"
+        },
         {
           "id": "https://defector.com/?p=230494",
           "author": "Drew Magary",
@@ -1215,16 +1245,6 @@
           "wordCount": 5283,
           "title": "Looking Good, Sir!",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2286810774.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=229407",
-          "author": "Luis Paez-Pumar",
-          "description": "It sure looks like Spain has found the formula for winning World Cup finals. All it takes is a truly hideous game, marked by defensive intensity and borderline tackles, and a late goal from a Barcelona player. In the Wario to the 2010 final, Spain beat 10-man Argentina 1-0 thanks to Ferran Torres's emphatic 106th minute winner. But that's not why Spain won the World Cup.\nSpain won because it played the exact same game it played every knockout match on its way to a second World Cup title: defending with intelligent and patient possession, and immediately suffocating opponents on the rare occasion the Spanish players lost the ball. This was an ugly World Cup final, the ugliest I've been sentient for, but there's nothing disappointing or unearned about Spain coming out on top. This was the best team in this tournament both by results and by efficiency, a murderous machine of tiki-taka and furious counter-pressing. Argentina never had a shot.\n\nhttps://www.youtube.com/watch?v=IOKvRNGoZbc",
-          "link": "https://defector.com/spain-won-as-only-spain-can",
-          "publishedOn": "2026-07-19T23:48:04.000Z",
-          "wordCount": 7861,
-          "title": "Spain Won As Only Spain Can",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2286809918.jpg"
         }
       ]
     },
@@ -2080,6 +2100,16 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73288921/west-point-free-speech-military-trump-hegseth/",
+          "author": null,
+          "description": "A recent free speech fiasco at West Point is just the beginning.",
+          "link": "https://www.esquire.com/news-politics/politics/a73288921/west-point-free-speech-military-trump-hegseth/",
+          "publishedOn": "2026-07-29T11:03:22.000Z",
+          "wordCount": 21237,
+          "title": "The Trump Administration Is Changing Our Military Academies for the Worse, and I’m Afraid of the Consequences",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/ebbbc01e-0d81-4e33-94f5-6ac0778853e8.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a73287733/caribbean-boat-bombings-us-pete-hegseth-ineffective/",
           "author": null,
