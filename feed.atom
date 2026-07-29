@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-29T02:29:45.276Z</updated>
+    <updated>2026-07-29T06:29:18.077Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -271,6 +271,24 @@ The pool does look less blue and more glow-in-the-dark Slurpee, but that was pro
         <summary type="html"><![CDATA[Today we have a guest mix by James Bernard, whose new album In A Small Room, Decades Ago is excellent.]]></summary>
         <author>
             <name>Flow State</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bicycle for Your Mind: Much Ado About Emacs 015]]></title>
+        <id>https://bicycleforyourmind.com/much-ado-about-emacs-015</id>
+        <link href="https://bicycleforyourmind.com/much-ado-about-emacs-015"/>
+        <updated>2026-07-28T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Emacs
+I got distracted by MojoPad and Kosshi for a while there. Emacs has been plugging away. Always launched. Always handling my writing. It is the centerpiece of my efforts. I have been making changes to it. Nothing too big, but designed to improve my experience in it. I will talk about three of those in this article.
+Whitespace
+I like seeing the marks for return and tabs. Returns are valid for every file but tabs are valid for only content which is copied from other programs or sources. I like seeing them. I made sure that they show up in Emacs.
+(setq whitespace-style '(face          ; Use faces to colorize
+                         tabs          ; Look for tabs
+                         tab-mark      ; Visualise tabs
+                         newline       ; Look for newlines
+            …]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -3112,19 +3130,6 @@ That's why I designed my Tip Of The Day to run in a
 "path_to_emacs\emacs.exe" -Q -g 80x42-2+2 -l totd.el --eval (zto…]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All 10 Goals In That Bonkers Third-Place Match, Ranked]]></title>
-        <id>https://defector.com/?p=229393</id>
-        <link href="https://defector.com/all-10-goals-in-that-bonkers-third-place-match-ranked"/>
-        <updated>2026-07-19T15:58:06.000Z</updated>
-        <summary type="html"><![CDATA[There's probably no reason for the World Cup third-place match to exist. Unlike the Olympics, when a coveted bronze medal is at stake, third place at the World Cup doesn't offer much to teams. By and large, these matches tend to involve mentally checked-out players mainly concerned with avoiding an injury so that they can fully relax once they get to the beaches and/or yachts they will spend the next several weeks sitting on, where they will nurse the pain from the semifinal loss and rest up ahead of another long club season. Because of that lack of stakes and interest, the quality of play in these games, especially on the defensive side, is usually at an all-star game level.
-Those less-than-intense conditions are exactly what made England-France on Saturday so wonderfully stupid to watch. At the end of a hot and humid afternoon in Miami, England clinched its first-ever third-place finish at a World Cup with a scoreline of 6-4, after a match that was an orgy of offense. Defense was indeed optional and broadly eschewed by both teams, first by France for the entirety of the first half and then by England in an 18-minute French burst to start the second half.
-
-https://www.youtube.com/watch?v=XDZco2h-zcw]]></summary>
-        <author>
-            <name>Luis Paez-Pumar</name>
         </author>
     </entry>
 </feed>

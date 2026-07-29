@@ -130,6 +130,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://bicycleforyourmind.com/much-ado-about-emacs-015",
+          "author": null,
+          "description": "Emacs\nI got distracted by MojoPad and Kosshi for a while there. Emacs has been plugging away. Always launched. Always handling my writing. It is the centerpiece of my efforts. I have been making changes to it. Nothing too big, but designed to improve my experience in it. I will talk about three of those in this article.\nWhitespace\nI like seeing the marks for return and tabs. Returns are valid for every file but tabs are valid for only content which is copied from other programs or sources. I like seeing them. I made sure that they show up in Emacs.\n(setq whitespace-style '(face          ; Use faces to colorize\n                         tabs          ; Look for tabs\n                         tab-mark      ; Visualise tabs\n                         newline       ; Look for newlines\n            …",
+          "link": "https://bicycleforyourmind.com/much-ado-about-emacs-015",
+          "publishedOn": "2026-07-28T07:00:00.000Z",
+          "wordCount": null,
+          "title": "Bicycle for Your Mind: Much Ado About Emacs 015",
+          "imageUrl": null
+        },
+        {
           "id": "https://mbork.pl/2026-07-27_Outlining_in_programs",
           "author": null,
           "description": "One of the Emacs’ “killer apps” is Org mode, and one of the most iconic features of Org mode is visibility cycling. It is no wonder people (including me) want a similar feature in other modes.",
@@ -1225,16 +1235,6 @@
           "wordCount": 7861,
           "title": "Spain Won As Only Spain Can",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2286809918.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=229393",
-          "author": "Luis Paez-Pumar",
-          "description": "There's probably no reason for the World Cup third-place match to exist. Unlike the Olympics, when a coveted bronze medal is at stake, third place at the World Cup doesn't offer much to teams. By and large, these matches tend to involve mentally checked-out players mainly concerned with avoiding an injury so that they can fully relax once they get to the beaches and/or yachts they will spend the next several weeks sitting on, where they will nurse the pain from the semifinal loss and rest up ahead of another long club season. Because of that lack of stakes and interest, the quality of play in these games, especially on the defensive side, is usually at an all-star game level.\nThose less-than-intense conditions are exactly what made England-France on Saturday so wonderfully stupid to watch. At the end of a hot and humid afternoon in Miami, England clinched its first-ever third-place finish at a World Cup with a scoreline of 6-4, after a match that was an orgy of offense. Defense was indeed optional and broadly eschewed by both teams, first by France for the entirety of the first half and then by England in an 18-minute French burst to start the second half.\n\nhttps://www.youtube.com/watch?v=XDZco2h-zcw",
-          "link": "https://defector.com/all-10-goals-in-that-bonkers-third-place-match-ranked",
-          "publishedOn": "2026-07-19T15:58:06.000Z",
-          "wordCount": 9259,
-          "title": "All 10 Goals In That Bonkers Third-Place Match, Ranked",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2286682415.jpg"
         }
       ]
     },
