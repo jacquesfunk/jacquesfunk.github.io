@@ -23,6 +23,26 @@
       "siteUrl": "https://baty.net/index.xml",
       "articles": [
         {
+          "id": "https://baty.net/journal/29Jul26/",
+          "author": null,
+          "description": "Remember that time I had 3 dogs?\nMojoPad is kind of amazing. I've been following along for a while now and boy howdy the updates are coming fast and furious. Perhaps too fast. I mean, he's shipping major updates every few days. The app is certainly being vibe coded. In fact, I'm starting to notice that nearly everything about the project is LLM-generated. The release notes, obviously. The website with its almost cartoonish illustrations is off-putting. More and more I'm thinking even the developer's replies in the forums are often AI-written. It makes me uncomfortable. I could probably overlook all this, but this morning I imported part of my old Obsidian vault (1,000+ pages) and MojoPad's performance slowed to a crawl. I'll keep an eye on things, but for now I think I'll pass.\nDatatype — variable font that turns text into charts is kind of wild. (via Christian Tietze)\nWhy haven't I been using this blog's Notes for little posts like these? Maybe because they are currently sent to Mastodon automatically and sometimes I feel like keeping everything here.\nMirador is fun. It's \"An opinionated personal dashboard for your terminal — world clocks, calendar and agenda, weather, tasks, notes, markets and live system metrics in a tab you leave open all day\"\n✍️ Reply by email",
+          "link": "https://baty.net/journal/29Jul26/",
+          "publishedOn": "2026-07-29T10:56:32.000Z",
+          "wordCount": 281,
+          "title": "Wednesday, July 29, 2026",
+          "imageUrl": "https://baty.net/img/2026/20260729-dogs.webp"
+        },
+        {
+          "id": "https://baty.net/journal/26Jul26/",
+          "author": null,
+          "description": "My old darkroom\nWhat does one do when nearly every topic they've always found interesting now bores them to tears? I find myself skimming my RSS and Mastodon feeds and just shrugging everything off because I'm tired of it. Let's hope it's just a moody phase. It feels like a moody phase.\n✍️ Reply by email",
+          "link": "https://baty.net/journal/26Jul26/",
+          "publishedOn": "2026-07-26T10:11:38.000Z",
+          "wordCount": 120,
+          "title": "Sunday, July 26, 2026",
+          "imageUrl": "https://baty.net/img/2026/20260726-darkroom.webp"
+        },
+        {
           "id": "https://baty.net/journal/25Jul26/",
           "author": null,
           "description": "Fence (2015). M3 testing Tri-X at 1600\nSuddenly this morning, my Org Agenda was empty. It should never be empty. Emacs had already been running, idle, so I've no idea how it happened. A restart fixed it, but it was unsettling enough that I created a separate blog script to replace the emacs-dependent parts of my blogging workflow. Now I can do blog journal or blog post or blog cover in a terminal, and it does the right thing, then opens the file in $VISUAL. Feels safer this way. The Emacs functions were 90% just calling out to existing shell scripts anyway, so there's only a small amount of duplication.\nI've spent several hours this morning making stuff work on my Mac that already worked fine on Linux, because \"what if?\". It's exhausting. On the plus side, I'm editing this post in BBEdit, which is always just so damn comfortable.\n✍️ Reply by email",
@@ -89,6 +109,26 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://irreal.org/blog/?p=13977",
+          "author": null,
+          "description": "really likes being able to cycle folding in Org buffers. Of course, then he wanted to be able to do the same thing in any buffer. In particular, he wanted to be able to fold and unfold groups of functions as a set. He experimented with all sorts of solutions including the builtin outline minor mode.\n\n\nNone of them were quite what he wanted. Then he found outli. It was perfect for his needs. It’s a third party package but appears to be well maintained and is less than 400 lines of code. What he really likes, though, is the keybindings. Most important to him is that Tab cycles the folding just like in Org mode.\n\n\nAlthough I like and use headline folding in Org mode, I’ve never been able warm up to code folding. On those rare occasions when I want to narrow focus to a single function—usually to delimit searches—I simply narrow to the function or region in question. Of course, others, like mbork, disagree and those folks may want to check out mbork’s post to get the details of his solution.",
+          "link": "https://irreal.org/blog/?p=13977",
+          "publishedOn": "2026-07-29T15:06:54.000Z",
+          "wordCount": 1419,
+          "title": "Irreal: Folding In Non-Org Buffers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://metaredux.com/posts/2026/07/29/leveling-up-ciders-clojurescript-support.html",
+          "author": null,
+          "description": "Continuing the series on the notable changes in\nCIDER 2.0, let’s talk about\nClojureScript - forever the trickier sibling in the CIDER family.\nI’ll start with a confession I’ve made before: I rarely use ClojureScript\nmyself, which is a big part of why its support in CIDER has historically lagged\nbehind Clojure’s. Every “State of CIDER” survey reminds me of this, usually in\nthe comments section, occasionally in all caps. So in the 2.0 cycle I decided\nto stop feeling vaguely guilty about it and actually do something - across\nevery layer of the stack: CIDER itself, cider-nrepl, and\nPiggieback.\nFirst, a strategic decision\nThe most important ClojureScript change in CIDER 2.0 isn’t a feature - it’s a\ndecision about what not to build. Some of CIDER’s most powerful tools (the\ndebugger, enlighten, t…",
+          "link": "https://metaredux.com/posts/2026/07/29/leveling-up-ciders-clojurescript-support.html",
+          "publishedOn": "2026-07-29T14:00:00.000Z",
+          "wordCount": 1576,
+          "title": "Meta Redux: Leveling Up CIDER’s ClojureScript Support",
+          "imageUrl": "https://metaredux.com/assets/og-image.png"
+        },
         {
           "id": "https://emacsredux.com/blog/2026/07/29/flycheck-38/",
           "author": null,
@@ -576,6 +616,36 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=230727",
+          "author": "Jae Towle Vieira",
+          "description": "When you turn your personal life into your business, the lines between boyfriend and coworker can start getting fuzzy pretty fast. How do you handle conflict with your coworker if you know their flossing habits? When things begin to fall apart with a boyfriend, what’s a microinfluencer girlboss with a pair of non-refundable plane tickets supposed to do? \nLife decisions like these call for expert analysis, which is why we called back the Scam Goddess herself, Laci Mosley. \n\nhttps://youtu.be/YgYTYa2Gsek",
+          "link": "https://defector.com/live-laugh-like-and-subscribe",
+          "publishedOn": "2026-07-29T17:00:57.000Z",
+          "wordCount": 4852,
+          "title": "Live, Laugh, Like And Subscribe",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-905095960.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=230426",
+          "author": "Sabrina Imbler",
+          "description": "If you are anything like me, you probably have a neck—a neck you take for granted. Maybe you do not think often about having a neck, given said neck's relatively unobtrusive placement below your head and out of your line of sight. Maybe you are trying to look at your neck right now, pressing your chin against your neck, which remains obscured below your chin, which you also can't see. And yet your ability to even attempt to see your neck is made possible by your neck. Neck-less animals such as valiant Jimothy or every jellyfish have no such rotational privilege.\nPerhaps it is unsurprising, then, that science has long neglected the humble neck. \"There have been a multitude of studies on the development and evolution of the head and pectoral girdle but little on the region in between,\" scientists wrote in a 2012 paper about the vertebrate neck in the Journal of Anatomy. Only in the last 30 years has scientific interest in the neck awakened, the researchers write. We here at Defector do not wish to neglect the neck any longer. So please gather round for a long-overdue neck report, because there is breaking neck news.\n\"Think that fishes and amphibians don’t have necks? Think again\"",
+          "link": "https://defector.com/theres-big-news-in-necks",
+          "publishedOn": "2026-07-29T16:12:14.000Z",
+          "wordCount": 7925,
+          "title": "There’s Big News In Necks",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-138115605.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=230502",
+          "author": "Iain Treloar",
+          "description": "Patrick has spent the last three weeks following the Tour de France with our friends from Escape Collective. This post was originally published on Escape Collective on July 27. Defector readers can now get a six-month free trial of Escape Collective, with ad-free and independent coverage that goes beyond the Tour de France. Claim the offer here.\nThere was a point there, about three hours into a five-hour drive in 105 degree heat on the back of an enormous cauliflower, where it started getting old. And then, three things happened. In the space of 20 seconds, there was a sad-faced middle-aged man in a kind of regal medieval gown with fur sleeves and cuffs, standing a few meters away from a hauntingly still figure in a full fox suit complete with head; a few meters later, a five-year-old cosplayed as Tadej Pogacar, full UAE yellow kit and all.\nThis was not an atypical series of sightings, I should stress. But its barrage did snap me out of my funk and back to the very strange reality in which I found myself. After years surveying the Tour de France promotional caravan as a sociological phenomenon, I was now in the thick of it, on the Tour de France’s hottest day, on the race’s funniest vehicle.",
+          "link": "https://defector.com/i-rode-the-tour-de-france-cauliflower",
+          "publishedOn": "2026-07-29T14:23:24.000Z",
+          "wordCount": 16069,
+          "title": "I Rode The Tour de France Cauliflower",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/V1_3979.jpg"
+        },
         {
           "id": "https://defector.com/?p=230592",
           "author": "Tom Ley",
