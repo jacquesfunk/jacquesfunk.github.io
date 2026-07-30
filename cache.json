@@ -608,16 +608,6 @@
           "wordCount": 853,
           "title": "Marcin Borkowski: Hideshow mode",
           "imageUrl": null
-        },
-        {
-          "id": "https://irreal.org/blog/?p=13958",
-          "author": null,
-          "description": "1, 2, 3, 4], I’ve been changing the Irreal Bunker’s spelling corrector to Jinx. I’ve had a couple of issues—mostly with choosing the correction—but things have mostly been smooth and Jinx has a lot of nice features.\n\n\nOne thing I don’t like is the face that Jinx chooses for misspelled words. Ispell used red, which stood out and made it easy to pick out the misspellings. Jinx uses a color that is almost the same as the text and even though misspellings are underlined with a wavy line they’re harder to pick out. There are two colors: one for dark themes and one for light themes. Oddly, there are no options for changing the colors.\n\n\nHappily, this is Emacs so the source code is only a click away. It turns out the color is defined by a defface in the jinx.el file. I copied that to my init.el and changed the color to red Here’s the result:\n\n\n(defface jinx-misspelled\n  '((((class color) (min-colors 88) (background dark)\n      (supports :underline (:style wave)))\n     :underline (:style wave :color \"#d2b580\"))\n    (((class color) (min-colors 88) (background light)\n      (supports :underline (:style wave)))\n     :underline (:style wave :color \"#ff0000\")) ; <-- changed color\n    (t :underline t :inherit error))\n  \"Face used for misspelled words.\")\n\ninit.el and choose whichever color works for you. You can, of course, also fix things up for dark themes. Just don’t tell the Minions.",
-          "link": "https://irreal.org/blog/?p=13958",
-          "publishedOn": "2026-07-20T14:34:46.000Z",
-          "wordCount": 1495,
-          "title": "Irreal: A Small Jinx Tweak",
-          "imageUrl": null
         }
       ]
     },
@@ -1265,96 +1255,6 @@
           "wordCount": 5202,
           "title": "Red Alert: Nick Sirianni Has Discovered ChatGPT",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2263572197.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=229389",
-          "author": "Israel Daramola",
-          "description": "Just as every film is really about filmmaking, isn't every film also an adaptation of Homer's The Odyssey? The hero's journey. The antihero's journey. The road trip movie. The war movie. Movies set in space or at sea, in the middle of a treacherous jungle or a barren desert. The story of Odysseus is a foundational myth, which makes the proposition of an actual movie of The Odyssey seem, among other things, redundant. And that's before you get to the near impossibility of filming it.\nBut tell Christopher Nolan it's impossible to do something, and he will only want to do it more. And so we have his vision of The Odyssey, a massive, operatic cinematic experience mostly about the story's own operatic massiveness. In many ways, Nolan especially has always been making The Odyssey from the inside out, obsessed as he has been with his own harrowing quest to make big, majestic spectacles. It makes sense for him to just finally go at it for real. Nolan heightens and demystifies the mythology in equal measure, and the result is a throwback to the epic cinematic expressions of David Lean and Fritz Lang. It's also a treatise on Nolan's favorite subject: history's great men and the messes they make.\nThe Odyssey is, of course, the story of wily Odysseus (Matt Damon) and his 20-year journey back home following the Trojan war. He and his men battle the currents, run into giants, cannibals, witches, sirens, and his own dead soldiers in his bid to get back to his wife Penelope (Anne Hathaway) and son Telemachus (Tom Holland), who are barely holding his kingdom together as the many suitors vying for Penelope impose their will in Odysseus's absence. Damon's Odysseus is a wizened general, weary after another battle fought on behalf of King Agamemnon (Benny Safdie). He's a serious, brilliant man, but arrogant in the face of mercurial Gods, which leads to much of his suffering.",
-          "link": "https://defector.com/for-better-or-worse-the-odyssey-is-peak-christopher-nolan",
-          "publishedOn": "2026-07-20T18:21:43.000Z",
-          "wordCount": 10195,
-          "title": "For Better Or Worse, ‘The Odyssey’ Is Peak Christopher Nolan",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/odyssey.png"
-        },
-        {
-          "id": "https://defector.com/?p=229467",
-          "author": "Leander Schaerlaeckens",
-          "description": "A WELL-KNOWN VENUE IN THE MEADOWLANDS THAT FIFA WOULD THANK YOU TO CALL “NEW YORK NEW JERSEY STADIUM” BECAUSE IT DIDN’T GET PAID BY THAT STADIUM’S CORPORATE SPONSOR — The grass told the entire story. \nIf given the opportunity, FIFA would have very happily stripped every seat and beam and light fixture out of the venue that hosted Sunday’s World Cup Final and pawned it all off. In keeping with the organization’s best practices, those prices could have been set dynamically, while also being manipulated into an artificial scarcity that didn’t remotely reflect actual market demand. But only the grass sod that had been rolled out over the regular MetLife Stadium turf wasn’t bolted down, and so that would have to do. \nThat surface was far too dry and slow for high-level soccer, according to the players who contested some of the biggest games of their lives on subpar grass. Even from way up in the press box, you could see the ball bobbling about unprovoked and dying on its way from one player to the next.",
-          "link": "https://defector.com/fifa-got-what-it-came-for",
-          "publishedOn": "2026-07-20T17:58:17.000Z",
-          "wordCount": 10321,
-          "title": "FIFA Got What It Came For",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2286890455.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=229476",
-          "author": "Giri Nathan",
-          "description": "On Sunday, the Oklahoma City Thunder, Atlanta Hawks, and Dallas Mavericks completed a three-team trade that was depressing for at least two big reasons.\nThe first reason: Just two years after being selected first overall in the NBA Draft, Zaccharie Risacher has been kicked to the curb. The 21-year-old Frenchman had already fallen out of Atlanta's wing rotation during the regular season, and saw scant garbage-time minutes in the team's first-round playoff exit. To acquire a former No. 1 pick entering his third season, the Mavs only had to give up a second-round pick and undersized backup point guard Ryan Nembhard, who will go to Atlanta. The 2024 draft was thought to be a weak crop, but plenty of players taken in the first round, and possibly a handful taken in the second, appear to be headed for more fruitful NBA careers than Risacher. On an optimistic read, he's still got enough size and shooting to stick around someone's rotation after his current contract, but the fact that this is even a subject of speculation for a player of this pedigree is grim.\nThe second reason this trade is a bummer: Just one year after winning the NBA championship, the Thunder are already cutting costs and losing depth. Lu Dort, a beefy, goofy, dirty wing whose contributions were crucial to OKC's title run—even if his offensive shortcomings hurt them in their 2026 playoff push—was shipped to Atlanta, where he'll play out the last year of his current contract. In return, the Thunder merely picked up three second-round picks.",
-          "link": "https://defector.com/lu-dort-and-zaccharie-risacher-involved-in-depressing-trade",
-          "publishedOn": "2026-07-20T17:38:27.000Z",
-          "wordCount": 6200,
-          "title": "Lu Dort And Zaccharie Risacher Involved In Depressing Trade",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/dort-risacher.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=229480",
-          "author": "Tom Ley",
-          "description": "Well, well, well, would you look at that. We have a fancy new website. This redesign is the result of a lot of hard work by our esteemed partners at Lede, and they have provided us with a homepage that is much more customizable. We now have the ability to highlight specific stories, coverage areas,…",
-          "link": "https://defector.com/hey-look-we-redesigned-our-website",
-          "publishedOn": "2026-07-20T17:23:03.000Z",
-          "wordCount": 4043,
-          "title": "Hey Look, We Redesigned Our Website",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2021/02/GettyImages-562618549.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=229444",
-          "author": "Kathryn Xu",
-          "description": "And let the conspiracy theories begin. George Russell had spent the past three race weekends painstakingly narrowing the gap to his wunderkind Mercedes teammate in the Drivers Championship standings. Luck, for once, fell in his favor. And then on Sunday, at the Belgian Grand Prix, Russell yet again had a hellish day. With luck a tired nemesis, it fell upon spectators to find another cosmic horror to blame. Such as: Mercedes boss Toto Wolff.\nHere are some factual observations. Russell, who started third on the grid, had a relatively poor start off the line, and was swarmed by both Ferrari drivers from behind. While Russell managed to cling to his position through the first corner, his engine struggled to deploy energy on the Kemmel Straight, leaving him a sitting duck. First, Charles Leclerc zipped by. Then, Lewis Hamilton stayed on the inside of Russell through the next corner, washed slightly wide, and spun Russell out of the race. Russell was far angrier about the lack of straight-line power than the collision. \"I had no fucking battery down the straight!\" he yelled on the radio after literally crashing out. Over the course of the past three race weekends, Russell had managed to close the gap by 25 points. After less than one lap of racing, all of that progress had been undone.\nThat collision with Hamilton helps demonstrate why it is easy to theorize in F1. Though Hamilton was on cold tires during the first lap of the race and left plenty of room for Russell—and both Russell and commentator Jolyon Palmer dubbed the collision a racing incident—Hamilton was saddled with a harsh five-second penalty. Meanwhile on lap eight, Hamilton's teammate, Leclerc, took the liberty of trying to squeeze the McLaren of Oscar Piastri off the race track and just bumped into the side of him, and somehow went entirely unpenalized.",
-          "link": "https://defector.com/is-mercedes-conspiring-against-its-own-driver-no",
-          "publishedOn": "2026-07-20T17:12:21.000Z",
-          "wordCount": 7429,
-          "title": "Is Mercedes Conspiring Against Its Own Driver? (No.)",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/georgeRussellBelgianGP.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=229378",
-          "author": "Sarah Borus",
-          "description": "One Defector intern explains baseball to another.\nSohini: When I used to call it boring, my dad used to tell me that baseball is a game of immense strategy. I didn’t doubt him exactly, but it did carry the vibe of “Dad saying stuff to fit in with other dads.” I never took the time to familiarize myself with that strategy, and have instead treated the handful of baseball games I’ve been to as loud, fun, kitschy bars. So when it came time to fact check a baseball blog in the process of obtaining this internship, I had to first familiarize myself with obscure concepts like “dingers,” “extra-base hits,” and “Mookie Betts.”\nSarah, this is My Fair Slugger. I am Eliza Doolittle, and you are Henry Higgins. By the end of this blog, I hope you will transform me from someone who doesn’t know the top of a bat from its bottom into a tobacco-chewing baseball savant.",
-          "link": "https://defector.com/where-am-i-supposed-to-look-when-i-look-at-baseball",
-          "publishedOn": "2026-07-20T16:06:00.000Z",
-          "wordCount": 9314,
-          "title": "Where Am I Supposed To Look When I Look At Baseball?",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2229506655_jpg_75.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=229174",
-          "author": "Charlotte Rosen",
-          "description": "Even before his historic election as New York City’s mayor in November 2025, democratic socialist Zohran Mamdani had reportedly begun searching for “common ground” with the city’s rank-and-file police officers. He publicly apologized for prior statements describing the department as “racist, anti-queer & a major threat to public safety,” and for an earlier endorsement of defunding the police. He also signaled his “openness” to keeping Eric Adams’s NYPD commissioner Jessica Tisch—a plan which he has since honored—despite her reputation as a law-and-order booster for “quality of life” policing, an opponent of bail reform, and a fierce defender of the city’s Strategic Response Group, a police unit known for its violent repression of protests since its creation in 2015, among other disreputabl…",
-          "link": "https://defector.com/how-cops-consolidated-so-much-power-over-local-governments",
-          "publishedOn": "2026-07-20T15:37:12.000Z",
-          "wordCount": 14181,
-          "title": "How Cops Consolidated So Much Power Over Local Governments",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/1.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=229462",
-          "author": "Maitreyi Anantharaman",
-          "description": "Count your blessings: There's a new Monday crossword. This week's puzzle was constructed by Brian Callahan and Geoffrey Schorkopf, and edited by Hoang-Kim Vu. This is Brian and Geoffrey’s second collaboration at Defector. The player at 11-Down in their first puzzle went from one of Brian’s teams to one of Geoffrey’s teams this past offseason. Geoffrey is quite pleased. Brian isn’t.\nDefector crosswords, launched in partnership with our friends at AVCX, run every Monday. If you’re interested in submitting a puzzle to us, you can read our guidelines HERE. The AVCX, an independent puzzles and games outlet, invites you to subscribe, or sample the goods with a two-month free trial: \"With an AVCX subscription, you get access to weekly themed and themeless crosswords, minis, cryptics, and trivia, by email or in your favorite app. We have no corporate overlord, and we publish top-flight stuff only. We also pay our people fairly, always. Check us out.\"",
-          "link": "https://defector.com/the-crossword-july-20-no-half-measures",
-          "publishedOn": "2026-07-20T15:10:16.000Z",
-          "wordCount": 4304,
-          "title": "The Crossword, July 20: No Half Measures",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2248353056.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=229387",
-          "author": "Patrick Redford",
-          "description": "ÉVIAN-LES-BAINS, France — Exactly 84 minutes after Jonas Vingegaard spiked his right collarbone into a curb and limped into an ambulance and out of the Tour de France, the assembled press watched him gingerly wince his way down the steps of the Visma bus and into a waiting team car. A scrambled pack-job followed. A soigneur could barely hold the pile of backpacks and duffel bags he was carrying off the bus. A team doctor stood by holding two large red-and-yellow first-aid kits, adopting the tense posture and alert facial expressions of someone who knows they can't help but desperately wants to. The eventual driver nearly spilled Vingegaard's stuff all over the tarmac of a wholly unremarkable road, in an unremarkable town, at the base of the final climb of Stage 15 of the Tour de France. An…",
-          "link": "https://defector.com/jonas-vingegaard-felled-yet-again-by-the-cruelty-of-his-sport",
-          "publishedOn": "2026-07-20T14:49:17.000Z",
-          "wordCount": 8465,
-          "title": "Jonas Vingegaard Felled Yet Again By The Cruelty Of His Sport",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2286067337.jpg"
         }
       ]
     },
@@ -1375,6 +1275,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3250",
+          "author": "Schill",
+          "description": "History is filled with artists who became legends through platinum albums, sold-out arenas, and chart-topping singles. Big Star’s story couldn’t",
+          "link": "https://stuffthatinterestsme.net/forgotten-band-big-star/",
+          "publishedOn": "2026-07-30T03:03:53.000Z",
+          "wordCount": 2637,
+          "title": "Forgotten Band: Big Star",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3092",
           "author": "Schill",
