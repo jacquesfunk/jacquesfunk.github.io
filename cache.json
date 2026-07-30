@@ -598,16 +598,6 @@
           "wordCount": null,
           "title": "James Dyer: Borrowing from Jasspa MicroEmacs : Dired Sort Keybindings",
           "imageUrl": null
-        },
-        {
-          "id": "https://emacsredux.com/blog/2026/07/21/right-aligned-mode-line-elements/",
-          "author": null,
-          "description": "Emacs users have long wanted the ability to push certain mode line elements to\nthe right edge of the window. Think of it like having a left-aligned and\nright-aligned section in your mode line - buffer name on the left, maybe the time\nor some status info on the right.\nBefore Emacs 30, achieving this required various hacks involving padding\ncalculations and propertized strings. It was doable, but fragile and ugly.\nEmacs 30 makes it trivial with mode-line-format-right-align.\nHow it works\nJust insert the symbol mode-line-format-right-align into your\nmode-line-format. Everything before it is left-aligned (as usual), and\neverything after it gets pushed to the right edge.\n\n(setq-default mode-line-format\n              '(\"%e\" mode-line-front-space\n                mode-line-mule-info\n               …",
-          "link": "https://emacsredux.com/blog/2026/07/21/right-aligned-mode-line-elements/",
-          "publishedOn": "2026-07-21T05:00:00.000Z",
-          "wordCount": 561,
-          "title": "Emacs Redux: Right-aligned Mode Line Elements",
-          "imageUrl": "https://emacsredux.com/assets/og-image.png"
         }
       ]
     },
@@ -616,6 +606,36 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=230809",
+          "author": "Giri Nathan",
+          "description": "Take capelin, a small silvery fish in the smelt family. Now add salt. Then throw those two ingredients in 110 vats, each of them about 10 feet tall, and let them sit in a defunct factory for over two decades. The resulting stench might haunt an entire community, as it has the people of St. Mary's, a coastal town of about 300 people in the Canadian province of Newfoundland and Labrador. In 2019, one resident described the ritual of abandoning her home every summer, boarding up the windows and doors so the smell doesn't permeate her belongings. The people of St. Mary's have long fought for the fish sludge to be cleaned up; after an aborted attempt in 2016, that work finally began in earnest this week.\nThere are 900,000 liters of fish sauce to remove—some of it just liquid, some of it with fish solids. The province of Newfoundland and Labrador budgeted $2 million for the job, which was taken up by a local engineering firm and is expected to be completed in October. As workers cut open the vats, viscous brown fish goo shot out onto the factory floor. It will be mixed with peat moss, hauled out in about 200 truckloads, and thrown in a landfill lined with polyethylene, after which it will be sealed up \"like a Ziploc,\" according to the lead engineer on the project. St. Mary's Mayor Steve Ryan reportedly teared up while describing new hope. \"To be known as the 'sauce plant mayor' … it's time for that to be over,\" he said.\n\nhttps://www.youtube.com/watch?v=Xn8KEpRqD1Y",
+          "link": "https://defector.com/abandoned-fish-sauce-canada-interview",
+          "publishedOn": "2026-07-30T17:13:29.000Z",
+          "wordCount": 11366,
+          "title": "Let Me And A Food Scientist Sample The Abandoned Fish Sauce Terrorizing A Small Canadian Town",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/fish-sauce.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=230650",
+          "author": "Sarah Borus",
+          "description": "Major League Baseball's upcoming CBA negotiations have generally been framed around the question of the salary cap. Owners want it. Players don't. The rest of it—Juan Soto makes $50 million a year, a third of the league's teams keep forgetting to try, so on—is both true enough and primarily noise made for the sake of making noise. Every CBA negotiation is at least a little bit like this.\nThe question of “which side are you on?” is complicated somewhat by the fact that this is a dispute between the obscenely rich and the extremely rich; we aren’t dealing with the miner’s son against JH Blair here. But the question of where else this money would go is not complicated. It’s not going to the miner’s son, of course. \nIt’s going into the pockets of people like David Rubenstein, the co-founder and co-chairman of the Carlyle Group, a private equity firm with $475 billion in assets, responsible for buying up property and raising rents in New York City, participating in union busting and exploitative labor practices, and investing in the defense industry; he owns the Orioles. And also to Ray Davis, whose company, Energy Transfer, owns the Dakota Access Pipeline that was the subject of protests in 2016 due to its encroachment on Sioux land and disastrous environmental effects; Davis owns the Rangers. That money would go to Giants’ owner, Charles B. Johnson, a billionaire who regularly donates to the political campaigns of right-wing fanatics. You get the point—this money is controlled by 30 cosmetically different versions of JH Blair, all of whom are trying to convince the public that they are on the side of fairness, unlike the greedy players union, which is made up mostly of players who will virtually all never have contracts even close to what Juan Soto is getting, and none of whom to my knowledge own even one oil pipeline. This makes deciding which side you are on a bit easier to answer.",
+          "link": "https://defector.com/baseballs-labor-history-is-repeating-itself-once-again",
+          "publishedOn": "2026-07-30T16:37:18.000Z",
+          "wordCount": 12793,
+          "title": "Baseball’s Labor History Is Repeating Itself Once Again",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-515401984.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=230642",
+          "author": "Israel Daramola",
+          "description": "Welcome to Listening Habits, a column where I share the music and musical topics I’ve been fixated on recently.\nWe are just over the halfway point of the year, and after a robust first quarter, the first half of 2026 has turned out to be a fascinating year of music, even when it isn't always successful. Some of our biggest artists have released their most curious music yet, sometimes in good ways even! A collection of burgeoning stars have made great strides toward realizing their potential. If there is one takeaway of this year so far, it's that there is no grand takeaway. No one can decide if music should be bubblier or uglier, hopeful or cynical. The algorithms shape what we hear, while at the same time artists are rebelling against the machine's influence. There is, however, so much yearning. Rap is in an interesting place, and so is every genre in what's left of the husk of the entire music industry. Fellas, I'm no longer scared to say it: music is good.\nThe Best Rap Album Of The Year (So Far)",
+          "link": "https://defector.com/the-best-music-of-2026-so-far",
+          "publishedOn": "2026-07-30T16:00:02.000Z",
+          "wordCount": 7263,
+          "title": "The Best Music Of 2026 So Far",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/Screenshot-2026-05-20-at-11.52.22-PM.png"
+        },
         {
           "id": "https://defector.com/?p=230844",
           "author": "Annie Geng",
