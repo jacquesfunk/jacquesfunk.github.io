@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-30T19:22:44.102Z</updated>
+    <updated>2026-07-30T21:07:43.806Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[That’s Too Much Helicopter]]></title>
+        <id>https://defector.com/?p=230858</id>
+        <link href="https://defector.com/thats-too-much-helicopter"/>
+        <updated>2026-07-30T20:04:21.000Z</updated>
+        <summary type="html"><![CDATA[There are the very special episodes that Drew and I do before heading off on vacation, and then there are the rarer ones we do while one of us is on vacation. This week's installment was one of those, as Drew joined from a beach house in an undisclosed—well, he mentions it within the first two minutes, but I won't disclose it here—New England location and I joined from my damn apartment, albeit not long after returning from my extremely disclosed annual summer trip to Maine. And yet this is only sort of a Vacation Episode, because while Drew was within hailing distance of a beach and I could still see my own time away receding in the rearview mirror, the news cycle was not on vacation.
+After some talk about regional accents good and bad, complete with regional accent work of our own, we were on to the stuff that's happening. Regarding the NFL, we're still in the part of Why Your Team Sucks when all the teams actually do suck. But it was a treat to talk about the LeBron-Sixers situation for the first time in a conversation that included cautious optimism, a reckless invocation of the infamous Sports Illustrated "Now This Is Going To Be Fun" cover, and a frank disagreement about whether the Eastern Conference is actually as thin as Drew believes it to be. Decently substantive, but at the end also decently vacation-scented, as we drifted into a critique of LeBron's proposed helicopter commute, the perversity of Amtrak commuting as a concept and the apparently perverse way in which I say "Acela," and the many ways to commute like an idiot and go insane as a result. Also, there's some stuff about my experience writing an unpublishable novel on Amtrak in my twenties, which was pretty good as those things go.]]></summary>
+        <author>
+            <name>David Roth</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Why Your Team Sucks 2026: Cleveland Browns]]></title>
         <id>https://defector.com/?p=230793</id>
@@ -3136,20 +3147,6 @@ So how far gone is Sirianni?]]></summary>
         <summary type="html"><![CDATA[If you’re new to TimeIsIllmatic, I’m Deedub, a self-proclaimed hip-hop junkie who loves collecting CDs and vinyl. I collect other genres of music as well (i.e., R&B, seventies soul, pop, a bit of rock, and jazz), but a large chunk … Continue reading →]]></summary>
         <author>
             <name>deedub77</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[James Dyer: Borrowing from Jasspa MicroEmacs : Dired Sort Keybindings]]></title>
-        <id>https://emacs.dyerdwelling.family/emacs/20260721093224-emacs--borrowing-from-jasspa-microemacs-dired-sort-keybindings/</id>
-        <link href="https://emacs.dyerdwelling.family/emacs/20260721093224-emacs--borrowing-from-jasspa-microemacs-dired-sort-keybindings/"/>
-        <updated>2026-07-21T08:32:00.000Z</updated>
-        <summary type="html"><![CDATA[For those unfamiliar with the lineage, MicroEmacs originally dates back to 1985 when Dave Conroy built a tiny, portable Emacs clone, later maintained for decades by Daniel M. Lawrence (and famously still used by Linus Torvalds today!). Around 1988, Jon Green and Steven Phillips forked MicroEmacs 3.8 to build Jasspa, it uses a subset of full emacs command set and it can emulate the keybindings from Microemacs, GNU Emacs, and even Windows CUA keybindings. It's a much enhanced version of the Daniel Lawrence's original MicroEmacs 3.8 of 1988 and they have grown it into a remarkably feature-packed environment with syntax highlighting, windowing, and a macro language and its still regularly updated!
-
-
-
-One thing that immediately caught my eye in Jasspa was its file manager (a dired equivalent th…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
