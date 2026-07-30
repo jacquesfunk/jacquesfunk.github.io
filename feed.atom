@@ -2,10 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-30T13:56:33.132Z</updated>
+    <updated>2026-07-30T15:51:45.295Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Irreal: Turning Two Spaces Into A New Sentence]]></title>
+        <id>https://irreal.org/blog/?p=13979</id>
+        <link href="https://irreal.org/blog/?p=13979"/>
+        <updated>2026-07-30T14:46:59.000Z</updated>
+        <summary type="html"><![CDATA[Bicycle For Your Mind, macosxguru has a post that describes three of the recent changes he’s made to his Emacs environment. Two of them—showing tabs and newlines explicitly, and fiddling with his mode line probably won’t interest most Irreal readers. The third is importing the two space shortcut into Emacs.
+
+
+Emacs, of course, doesn’t have that capability but macosxguru added it with a bit of Elisp which he binds to the Space key with the text-mode hook. It looks for two consecutive spaces and repaces them with a period and space. The tricky part is capitalizing the next letter. He does that by reading the next character explicitly and capitalizing it if it’s a letter. He also checks for some special keys (like an arrow key) and “unreads” them so that Emacs can treat them normally. All the code is in the post so see it for the details if you’re interested.
+
+
+I’m ambivalent about this change. On the one hand, I use it all the time on my iPhone and iPad but that’s because typing is such a pain on virtual keyboards. On a regular keyboard, I’m pretty sure that I could type the period, space, and next letter just as fast. The shift for the next letter might slow things down a bit but not by much. I haven’t decided yet whether I will adopt it but inertia will probably cause me not to.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘I Want Your Sex’ Is A Raunchy Plea For Young People To Have More Fun]]></title>
+        <id>https://defector.com/?p=230844</id>
+        <link href="https://defector.com/i-want-your-sex-is-a-raunchy-plea-for-young-people-to-have-more-fun"/>
+        <updated>2026-07-30T14:34:30.000Z</updated>
+        <summary type="html"><![CDATA[Everyone believes their generation is uniquely maligned; invariably, so do I. The formative years of my generation—I’m at the older end of the dreaded Gen Z—vanished within the global despair and uncertainty wrought by COVID-19. In lieu of the presence of other human beings, many of us retreated into our phone screens and never left. The pandemic irreparably altered our sense of the future. Many are concerned about the blankness in our eyes. We don't touch grass; instead, we bed rot. We have taken refuge in therapy speak, are increasingly skeptical of monogamy and our parents' relationships, and are incredibly, remarkably lonely. The New Yorker buzzily asked in 2025: “Are Young People Having Enough Sex?” From Vice, another headline: “Gen Z Isn't Having Sex. They're Doing This Instead.” The…]]></summary>
+        <author>
+            <name>Annie Geng</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WNBA Suspends Seattle Storm Minority Owner For Being Rude To Transphobic Shitheads]]></title>
+        <id>https://defector.com/?p=230830</id>
+        <link href="https://defector.com/wnba-suspends-seattle-storm-minority-owner-for-being-rude-to-transphobic-shitheads"/>
+        <updated>2026-07-30T14:11:54.000Z</updated>
+        <summary type="html"><![CDATA[On Tuesday night, a small group of weirdos held an anti-trans rally outside of the Seattle Storm's home arena. The occasion for their gathering was a game against the Indiana Fever and bench player Sophie Cunningham, who had recently participated in an ESPN profile where she said she wants to "protect young girls in a locker room, or young girls in sport who shouldn't have to go against biological men."
+The rally seems like it was a dud, but the organizers got more of the attention they were after inside the arena. Sitting courtside during the game were two teen girls holding signs that read "Thank you Sophie for speaking up for girls," and "We love you Sophie." They were both wearing shirts from an apparel brand that donates money to anti-trans organizations. After the game, the two girls made a video with anti-trans agitator Brandi Kruse, in which they claimed they were told off in the arena by Storm minority owner Celeste Keaton. They said that Keaton told them they were "fucking insane."
+The Storm reacted to this accusation first by apologizing for Keaton's actions, and then the WNBA fined and banned her from the team's next five home games. The team's statement read:]]></summary>
+        <author>
+            <name>Tom Ley</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Steven Spielberg's new film is his best in decades]]></title>
         <id>https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php-full</id>
@@ -3167,16 +3205,6 @@ everything after it gets pushed to the right edge.
                …]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beautiful Universe]]></title>
-        <id>https://pbfcomics.com/?post_type=comics&amp;p=2694</id>
-        <link href="https://pbfcomics.com/comics/beautiful-universe/"/>
-        <updated>2026-07-21T03:24:50.000Z</updated>
-        <summary type="html"><![CDATA[The post Beautiful Universe appeared first on The Perry Bible Fellowship.]]></summary>
-        <author>
-            <name>Nicholas Gurewitch</name>
         </author>
     </entry>
     <entry>
