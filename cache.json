@@ -150,6 +150,16 @@
           "imageUrl": "/assets/blog/posts/completions-buffer-is-now-enough.png"
         },
         {
+          "id": "https://tusharhero.codeberg.page/guix-shell-in-emacs.html",
+          "author": null,
+          "description": "~649 words. ~3 minutes.\n\n\n \n  tags:   guix   emacs   programming\nEmacs Carnival July 2026.\n\n\n\n \nGNU Guix is: It's an advanced package manager\nand a distribution of the  GNU Operating system. With kernel support\nfor both  GNU Linux-libre and, experimentally, for the  GNU Hurd.\n\n\n \nNix, except that it uses  GNU\nGuile instead of Nixlang for package definitions, system definitions.\nAlso replacing Systemd with  GNU Shepherd (GNU's Init System and\nService manager).\n\n\n \nguix shell. Which\nallows you to create software environments with the specified\npackages.\n\n\n \nmanifest.scm\nfile.\n\n\n \n(specifications->manifest\n '( \"gcc-toolchain\"\n    \"gdb\"\n    \"mupdf\"\n    \"make\"))\n\n\n\n \nguix shell in a directory containing the file, it gets\nthe appropriate dependencies for you.\n\n\n \n(info \"(guix) Invoking\nguix shell\").\n\n\n\n \n$ you@yourcomputer ~/Projects/awesome-program$ guix shell \nguix shell: loading environment from  '/home/you/Projects/awesome-program/manifest.scm'...\n$ you@yourcomputer ~/Projects/awesome-program$ emacs\n\n\n\n \nM-x guix-shell inside\nEmacs itself. This was contributed to the  emacs-guix package by yours\ntruly.\n\n\n \n(info \"(emacs-guix) Guix Shell\").\n\n\n\n \n$ you@yourcomputer ~/Projects/awesome-program$ guix shell python\n\n\n\n \n\n   \n \n$ you@yourcomputer ~/Projects/awesome-program$ guix shell python python-numpy\n\n\n\n \n\n   \n \n(Yeah, I forgot about the commas).\n\n\n \nmanifest.scm file that you can use in the\nfuture? In the CLI, you would do,\n\n\n \n$ you@yourcomputer ~/Projects/awesome-program$ guix shell python python-numpy --export-manifest > manifest.scm\n\n\n\n \n\n   \n \nguix shell's power, for which it\nwould probably need a transient menu (library powering  magit and the\nother menus in  emacs-guix).\n\n\n \nben.el.",
+          "link": "https://tusharhero.codeberg.page/guix-shell-in-emacs.html",
+          "publishedOn": "2026-07-30T18:30:00.000Z",
+          "wordCount": 463,
+          "title": "tusharhero: Guix shell now inside Emacs!",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=13979",
           "author": null,
           "description": "Bicycle For Your Mind, macosxguru has a post that describes three of the recent changes he’s made to his Emacs environment. Two of them—showing tabs and newlines explicitly, and fiddling with his mode line probably won’t interest most Irreal readers. The third is importing the two space shortcut into Emacs.\n\n\nEmacs, of course, doesn’t have that capability but macosxguru added it with a bit of Elisp which he binds to the Space key with the text-mode hook. It looks for two consecutive spaces and repaces them with a period and space. The tricky part is capitalizing the next letter. He does that by reading the next character explicitly and capitalizing it if it’s a letter. He also checks for some special keys (like an arrow key) and “unreads” them so that Emacs can treat them normally. All the code is in the post so see it for the details if you’re interested.\n\n\nI’m ambivalent about this change. On the one hand, I use it all the time on my iPhone and iPad but that’s because typing is such a pain on virtual keyboards. On a regular keyboard, I’m pretty sure that I could type the period, space, and next letter just as fast. The shift for the next letter might slow things down a bit but not by much. I haven’t decided yet whether I will adopt it but inertia will probably cause me not to.",
@@ -558,16 +568,6 @@
           "wordCount": 1459,
           "title": "Irreal: Aligning Mode Line Elements",
           "imageUrl": null
-        },
-        {
-          "id": "https://emacsredux.com/blog/2026/07/22/dedicate-windows-with-toggle-window-dedicated/",
-          "author": null,
-          "description": "You’ve carefully arranged your windows just the way you want them - source code\non the left, tests on the right, maybe a shell at the bottom. Then you run some\ncommand that calls display-buffer, and suddenly one of your carefully placed\nwindows gets hijacked to show a *Help* buffer or a compilation log. We’ve all\nbeen there.\nThe display-buffer machinery is one of Emacs’s most powerful features, but also\none of its most frustrating. Emacs 30 adds a simple, practical tool to help tame\nit: toggle-window-dedicated.\nHow it works\nThe concept of “dedicated” windows has existed in Emacs for a long time - a\ndedicated window tells display-buffer “don’t touch me, display your buffer\nsomewhere else.” But setting this up required Elisp:\n\n(set-window-dedicated-p (selected-window) t)\n\n\nNot exactly someth…",
-          "link": "https://emacsredux.com/blog/2026/07/22/dedicate-windows-with-toggle-window-dedicated/",
-          "publishedOn": "2026-07-22T06:30:00.000Z",
-          "wordCount": 650,
-          "title": "Emacs Redux: Dedicate Windows with toggle-window-dedicated",
-          "imageUrl": "https://emacsredux.com/assets/og-image.png"
         }
       ]
     },
@@ -576,6 +576,36 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=230879",
+          "author": "Sabrina Imbler",
+          "description": "In the spring of 2004, researchers monitoring a population of wild bearded capuchins in a Brazilian woodland saw an infant clinging to Chiquinha, one of the adult female monkeys. The baby was not a capuchin but a marmoset—a much smaller monkey species. The researchers dubbed the infant Fortunata. Chiquinha became Fortunata's primary caretaker until the following summer, when she fell pregnant and another capuchin female, Dendê, began mothering the marmoset. Fortunata behaved like any other capuchin in the group and was raised with the same level of care as a capuchin infant. Fortunata traveled and foraged with the monkeys, responded to their alarm calls, and even helped the group mob a snake. When the young capuchins played with the much smaller marmoset, they adjusted their strength to ensure they wouldn't hurt the smaller monkey. Fortunata eventually vanished the following spring, when the marmoset was almost an adult.\nThe researchers who observed Fortunata described the marmoset's childhood as a kind of adoption in a 2006 paper in the American Journal of Primatology. The marmoset, after all, was taken in as an infant and raised by two different mothers. Although monkey adoption is common in captivity, it most often occurs between monkeys of the same species, and occasionally within the same genus. Fortunata the marmoset was clearly a very different kind of monkey, unable to leap from tree to tree or crack nuts like the others. And yet not one, but two capuchins cared for Fortunata as if it were their own child.\nFor a long time, humans have considered ourselves unique in our penchant for forming close social relationships with animals of other species. (I say social relationships to exclude other longterm relationship models, such as the parasitic partnership that can exist between a whale and her tapeworm.) But a new review paper published in the journal Primates suggests that human pet-keeping has deeper evolutionary roots among primates.",
+          "link": "https://defector.com/can-a-monkey-have-a-pet",
+          "publishedOn": "2026-07-31T18:11:46.000Z",
+          "wordCount": 8812,
+          "title": "Can A Monkey Have A Pet?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/Interspecies_Bonding.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=230981",
+          "author": "Israel Daramola",
+          "description": "On Friday, CBS Sports announced that NFL analyst Tony Romo is on leave \"until further notice,\" following his arrest in Milwaukee last week for operating while intoxicated.\n\nhttps://twitter.com/adamschefter/status/2083211920094466188?s=46\n\n\nRomo was given three citations from the Milwaukee County Sheriff's Office after a traffic stop on July 23, when police spotted him driving on the highway, passing cars in a lane he shouldn't have been in. In the bodycam footage of the arrest, a glassy-eyed Romo can be seen failing field sobriety tests, despite him treating them like he was at the combine or something. He refused a breathalyzer, though an open container of alcohol was found inside his car, according to police. Romo has a court appearance scheduled for Sept. 21.",
+          "link": "https://defector.com/tony-romo-on-leave-from-cbs-after-drunk-driving-arrest",
+          "publishedOn": "2026-07-31T17:37:53.000Z",
+          "wordCount": 4632,
+          "title": "Tony Romo On Leave From CBS After Drunk Driving Arrest",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2272991455-1.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=230929",
+          "author": "Kathryn Xu",
+          "description": "Some time ago, if you asked me for an example of the most romantic, childhood dream–ass achievement for a baseball player, I probably would have pointed to Bryson Stott's home run against the Miami Marlins in the 2023 NL Wild Card series: a first-pitch grand slam with the crowd singing his walk-up song. But if we're being objective, there are a few flaws with the moment. The Philly crowd was singing, but it wasn't a game-winning grand slam, even if it was the dagger. The Phillies were already up three runs. This moment was surely romantic, but maybe the question should be reframed: What would be the most mathematically comprehensive achievement for a baseball player?\nThe ultimate grand slam is one answer. It's not just a walk-off grand slam, but a perfectly precise one, with the trailing t…",
+          "link": "https://defector.com/kody-clemens-achieves-the-ultimate-ultimate-grand-slam",
+          "publishedOn": "2026-07-31T17:22:20.000Z",
+          "wordCount": 5822,
+          "title": "Kody Clemens Achieves The Ultimate Ultimate Grand Slam",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2288348587.jpg"
+        },
         {
           "id": "https://defector.com/?p=230963",
           "author": "Sarah Borus",
@@ -2150,6 +2180,16 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73319730/americans-with-disabilities-act-trump-administration/",
+          "author": null,
+          "description": "Remember when Republicans used to care about their fellow human beings?",
+          "link": "https://www.esquire.com/news-politics/politics/a73319730/americans-with-disabilities-act-trump-administration/",
+          "publishedOn": "2026-07-31T18:05:08.000Z",
+          "wordCount": 20566,
+          "title": "Now That the Trump Administration Has Made Minority Lives Miserable, It’s Coming to Ruin the Lives of Disabled Americans Next",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/f80fdb57-5fbb-4fd1-8b7f-b70162270ee4.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73310941/jd-vance-tech-bros-balaji-curtis-yarvin-peter-thiel/",
           "author": null,
           "description": "Let’s hope the vice president’s is so unlikeable that it keeps him from climbing the ranks any higher.",
@@ -2484,22 +2524,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!3IPc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F022f5800-2d85-4214-9589-8cb96891f031_1418x1564.png"
-        },
-        {
-          "id": "https://www.flowstate.fm/p/kane-parsons",
-          "author": "Flow State",
-          "description": "Today we’re listening to Kane Parsons, an American filmmaker and composer from Petaluma, California.",
-          "link": "https://www.flowstate.fm/p/kane-parsons",
-          "publishedOn": "2026-07-22T07:03:22.000Z",
-          "wordCount": null,
-          "title": "Kane Parsons",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!RxAq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b4abd6d-42a1-49a1-8697-44e0c7e874b6_2432x1614.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!RxAq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b4abd6d-42a1-49a1-8697-44e0c7e874b6_2432x1614.png"
         }
       ]
     },
