@@ -22,11 +22,84 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-07-30 datetime="2026-07-30T21:13:31.000Z">2026-07-30</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-07-30 datetime="2026-07-30T21:13:31.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-07-30 datetime="2026-07-30T23:00:00.000Z">2026-07-30</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-07-30 datetime="2026-07-30T23:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Emacslife</button>
+                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://rahuljuliato.com/posts/completions-buffer-is-now-enough"
+                        open
+                      >
+                        <summary class="article-expander__title">Rahul Juliato: The Completions Buffer Is Now Enough</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://rahuljuliato.com/posts/completions-buffer-is-now-enough">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="/assets/blog/posts/completions-buffer-is-now-enough.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>My last post was a tour of Emacs
+31, which has since moved into pretest. Sean Whitton announced
+31.0.91,
+the second pretest, on July 23rd, and that&#x27;s what I&#x27;m writing this on.
+One of the sections in that post was a short list of new completion
+knobs, three lines of config I mentioned and moved on from. Those three
+lines turned into a month-long experiment, so they get their own post.
+I know how that title reads, so let me put it in context before you
+close the tab. It comes from someone who ran company, moved to Corfu,
+and then left Corfu behind for icomplete, which has been my weapon of
+choice for years now, for both the minibuffer and in-buffer completion.
+And I didn&#x27;t just use icomplete. I sent patches to it.
+bug#75784,
+which brought vertical in-buffer behavior and prefix indicators to
+…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;22
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13979"
+                        open
+                      >
+                        <summary class="article-expander__title">Irreal: Turning Two Spaces Into A New Sentence</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13979">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Bicycle For Your Mind, macosxguru has a post that describes three of the recent changes he’s made to his Emacs environment. Two of them—showing tabs and newlines explicitly, and fiddling with his mode line probably won’t interest most Irreal readers. The third is importing the two space shortcut into Emacs.
+
+
+Emacs, of course, doesn’t have that capability but macosxguru added it with a bit of Elisp which he binds to the Space key with the text-mode hook. It looks for two consecutive spaces and repaces them with a period and space. The tricky part is capitalizing the next letter. He does that by reading the next character explicitly and capitalizing it if it’s a letter. He also checks for some special keys (like an arrow key) and “unreads” them so that Emacs can treat them normally. All the code is in the post so see it for the details if you’re interested.
+
+
+I’m ambivalent about this change. On the one hand, I use it all the time on my iPhone and iPad but that’s because typing is such a pain on virtual keyboards. On a regular keyboard, I’m pretty sure that I could type the period, space, and next letter just as fast. The shift for the next letter might slow things down a bit but not by much. I haven’t decided yet whether I will adopt it but inertia will probably cause me not to.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -284,45 +357,6 @@ The Storm reacted to this accusation first by apologizing for Keaton&#x27;s acti
                               <span>Imagine how good it would feel to pluck the regulation-size basketball off the top of the Larry O&#x27;Brien trophy and get some shots up. Sure, you&#x27;d need to adjust your jump shot to account for its construction—sterling silver with a 24-karat gold vermeil—and you&#x27;d need a brave rebounder. I suppose you wouldn&#x27;t be doing much &quot;off the dribble.&quot; But when presented with such an exquisite basketball, one simply has to line up the seams and let it fly. That temptation was top of mind Monday as I examined the NBA championship trophy at the American Museum of Natural History, where it was unveiled as part of the ongoing exhibit &quot;For the Win: Objects of Sports Excellence.&quot;
 The trophy was actually bound for the Manhattan museum no matter who won it in June. As museum president Sean Decatur said at its…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;24
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Emacslife</button>
-                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13979"
-                        open
-                      >
-                        <summary class="article-expander__title">Irreal: Turning Two Spaces Into A New Sentence</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13979">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Bicycle For Your Mind, macosxguru has a post that describes three of the recent changes he’s made to his Emacs environment. Two of them—showing tabs and newlines explicitly, and fiddling with his mode line probably won’t interest most Irreal readers. The third is importing the two space shortcut into Emacs.
-
-
-Emacs, of course, doesn’t have that capability but macosxguru added it with a bit of Elisp which he binds to the Space key with the text-mode hook. It looks for two consecutive spaces and repaces them with a period and space. The tricky part is capitalizing the next letter. He does that by reading the next character explicitly and capitalizing it if it’s a letter. He also checks for some special keys (like an arrow key) and “unreads” them so that Emacs can treat them normally. All the code is in the post so see it for the details if you’re interested.
-
-
-I’m ambivalent about this change. On the one hand, I use it all the time on my iPhone and iPad but that’s because typing is such a pain on virtual keyboards. On a regular keyboard, I’m pretty sure that I could type the period, space, and next letter just as fast. The shift for the next letter might slow things down a bit but not by much. I haven’t decided yet whether I will adopt it but inertia will probably cause me not to.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -6290,49 +6324,6 @@ Hotchkiss joins the chorus of those claiming that heterosexuality is in crisis. 
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;229614"
-                        open
-                      >
-                        <summary class="article-expander__title">Intensified Doping Investigations At Tour de France Threaten Cycling’s Delicate Balance</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/intensified-doping-investigations-at-tour-de-france-threaten-cyclings-delicate-balance">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2160197150.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>ÉVIAN-LES-BAINS, France — After several years of lurking in the shadows, the specter of doping once again looms over the Tour de France. Though nobody has tested positive—or no positive test results have been made public—the biggest story at this year&#x27;s Tour is a renewed aggression from testing authorities and a resultant increasing hostility from the riders. The tactics executed by anti-doping officials and the legal justifications marshaled to support them represent a modernization of anti-doping rules, intended to disrupt hypothetical cutting-edge pharmacological routines designed specifically to beat previous testing methods. The International Testing Agency (ITA) and the Union Cyclistes International (UCI) are no longer passively accepting that the extant testing regime is good enough.
-Here we see the latest iteration of an eternal story in cycling. The uneasy symbiosis between professional cyclists and the UCI is built on a shared interest in winning the public&#x27;s trust. However, the sport&#x27;s history makes that a fraught proposition, and while the riders would argue that a dearth of positive tests shows that nobody&#x27;s cheating, the authorities would counter that no doping cases only means nobody&#x27;s getting caught. Though riders and authorities ultimately want the same thing, it&#x27;s incredibly difficult to balance labor&#x27;s desire to be treated as trustworthy against management&#x27;s desire to appear strong, without the former looking like liars or the latter looking like fools. So what&#x27;s changed this year, and what does it say about the future of that delicate balance?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;33
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;229615"
-                        open
-                      >
-                        <summary class="article-expander__title">Red Alert: Nick Sirianni Has Discovered ChatGPT</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/red-alert-nick-sirianni-has-discovered-chatgpt">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2263572197.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Credit to The Athletic for crafting the most haunting lede of 2026. Monday&#x27;s article about the Eagles head coach begins with a single, chilling sentence: &quot;Nick Sirianni discovered ChatGPT this offseason.&quot;
-The mind reels. More and more of what sucks about modern life is the result of a certain kind of person becoming overly enamored with the capabilities of chatbots. You hear that someone recently &quot;discovered ChatGPT,&quot; and you reflexively begin preparing for a near future in which that person will soon be excitedly detailing hours-long conversations they had with their computer.
-So how far gone is Sirianni?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -6429,54 +6420,12 @@ papernews looks right up my alley: &quot;news and articles nicely rendered as ca
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Martin Fowler</button>
-                  <a class="source-heading__link" href="https://martinfowler.com/feed.atom">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://martinfowler.com/fragments/2026-07-21.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Fragments: July 21</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://martinfowler.com/fragments/2026-07-21.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://martinfowler.com/logo-sq.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>With this post, I’ll wrap up my notes from  the second Future of Software Development Retreat. But before I do, I should note that the full Thoughtworks report on the retreat is now available. They have five headline findings:
-Code generation is no longer the bottleneck — verification is.
-‘Harness engineering’ is emerging as a distinct, ownable discipline.
-Organizations are colliding with a real apprenticeship crisis.
-The executive/engineer expectation gap is a bigger risk than any technical
-limitation.
-Legacy modernization is the clearest, most defensible near-term value pool.
- ❄                ❄
-A session convened around the mismatch of views about using LLMs between engineers using it and the C-suite and boards that were calling for it. The concern is that boards are looking at promised…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/30589322823">
-        <time id="build-timestamp" datetime="2026-07-30T23:05:18.890Z">2026-07-30T23:05:18.890Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/30599552787">
+        <time id="build-timestamp" datetime="2026-07-31T02:40:38.391Z">2026-07-31T02:40:38.391Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

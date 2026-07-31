@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-30T23:05:18.914Z</updated>
+    <updated>2026-07-31T02:40:38.420Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Rahul Juliato: The Completions Buffer Is Now Enough]]></title>
+        <id>https://rahuljuliato.com/posts/completions-buffer-is-now-enough</id>
+        <link href="https://rahuljuliato.com/posts/completions-buffer-is-now-enough"/>
+        <updated>2026-07-30T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[My last post was a tour of Emacs
+31, which has since moved into pretest. Sean Whitton announced
+31.0.91,
+the second pretest, on July 23rd, and that's what I'm writing this on.
+One of the sections in that post was a short list of new completion
+knobs, three lines of config I mentioned and moved on from. Those three
+lines turned into a month-long experiment, so they get their own post.
+I know how that title reads, so let me put it in context before you
+close the tab. It comes from someone who ran company, moved to Corfu,
+and then left Corfu behind for icomplete, which has been my weapon of
+choice for years now, for both the minibuffer and in-buffer completion.
+And I didn't just use icomplete. I sent patches to it.
+bug#75784,
+which brought vertical in-buffer behavior and prefix indicators to
+…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A Shocking New Book Reveals Why JD Vance Might Be Even More Dangerous for America Than We Thought]]></title>
         <id>http://www.esquire.com/news-politics/politics/a73310941/jd-vance-tech-bros-balaji-curtis-yarvin-peter-thiel/</id>
@@ -3106,47 +3130,6 @@ But not all men want to treat masculinity as a math problem that cheapens women.
 Hotchkiss joins the chorus of those claiming that heterosexuality is in crisis. Instead of arguing for nihilism, he proposes a kind of radical optimism. Men, he believes, can be reformed. He knows this because he was once the kind of guy who used women for relief. While Hotchkiss never quite seemed to try on the manosphere-inflected world of conspiracy theories and intense fitness, he did enjoy a certain amount of wealth and promiscuity. Yet, he discovers, “women held this incredible power over” him. Porn was his first line of defense in terms of stress relief.]]></summary>
         <author>
             <name>Grace Byron</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intensified Doping Investigations At Tour de France Threaten Cycling’s Delicate Balance]]></title>
-        <id>https://defector.com/?p=229614</id>
-        <link href="https://defector.com/intensified-doping-investigations-at-tour-de-france-threaten-cyclings-delicate-balance"/>
-        <updated>2026-07-21T14:25:54.000Z</updated>
-        <summary type="html"><![CDATA[ÉVIAN-LES-BAINS, France — After several years of lurking in the shadows, the specter of doping once again looms over the Tour de France. Though nobody has tested positive—or no positive test results have been made public—the biggest story at this year's Tour is a renewed aggression from testing authorities and a resultant increasing hostility from the riders. The tactics executed by anti-doping officials and the legal justifications marshaled to support them represent a modernization of anti-doping rules, intended to disrupt hypothetical cutting-edge pharmacological routines designed specifically to beat previous testing methods. The International Testing Agency (ITA) and the Union Cyclistes International (UCI) are no longer passively accepting that the extant testing regime is good enough.
-Here we see the latest iteration of an eternal story in cycling. The uneasy symbiosis between professional cyclists and the UCI is built on a shared interest in winning the public's trust. However, the sport's history makes that a fraught proposition, and while the riders would argue that a dearth of positive tests shows that nobody's cheating, the authorities would counter that no doping cases only means nobody's getting caught. Though riders and authorities ultimately want the same thing, it's incredibly difficult to balance labor's desire to be treated as trustworthy against management's desire to appear strong, without the former looking like liars or the latter looking like fools. So what's changed this year, and what does it say about the future of that delicate balance?]]></summary>
-        <author>
-            <name>Patrick Redford</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fragments: July 21]]></title>
-        <id>https://martinfowler.com/fragments/2026-07-21.html</id>
-        <link href="https://martinfowler.com/fragments/2026-07-21.html"/>
-        <updated>2026-07-21T13:13:00.000Z</updated>
-        <summary type="html"><![CDATA[With this post, I’ll wrap up my notes from  the second Future of Software Development Retreat. But before I do, I should note that the full Thoughtworks report on the retreat is now available. They have five headline findings:
-Code generation is no longer the bottleneck — verification is.
-‘Harness engineering’ is emerging as a distinct, ownable discipline.
-Organizations are colliding with a real apprenticeship crisis.
-The executive/engineer expectation gap is a bigger risk than any technical
-limitation.
-Legacy modernization is the clearest, most defensible near-term value pool.
- ❄                ❄
-A session convened around the mismatch of views about using LLMs between engineers using it and the C-suite and boards that were calling for it. The concern is that boards are looking at promised…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Red Alert: Nick Sirianni Has Discovered ChatGPT]]></title>
-        <id>https://defector.com/?p=229615</id>
-        <link href="https://defector.com/red-alert-nick-sirianni-has-discovered-chatgpt"/>
-        <updated>2026-07-21T13:08:44.000Z</updated>
-        <summary type="html"><![CDATA[Credit to The Athletic for crafting the most haunting lede of 2026. Monday's article about the Eagles head coach begins with a single, chilling sentence: "Nick Sirianni discovered ChatGPT this offseason."
-The mind reels. More and more of what sucks about modern life is the result of a certain kind of person becoming overly enamored with the capabilities of chatbots. You hear that someone recently "discovered ChatGPT," and you reflexively begin preparing for a near future in which that person will soon be excitedly detailing hours-long conversations they had with their computer.
-So how far gone is Sirianni?]]></summary>
-        <author>
-            <name>Tom Ley</name>
         </author>
     </entry>
 </feed>
