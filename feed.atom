@@ -2,10 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-31T10:37:21.298Z</updated>
+    <updated>2026-07-31T14:02:07.471Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Conductor Developer]]></title>
+        <id>https://martinfowler.com/rachels-ramblings/conductor-developer.html</id>
+        <link href="https://martinfowler.com/rachels-ramblings/conductor-developer.html"/>
+        <updated>2026-07-31T13:48:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR
+Why I think software development is starting to feel a little more like conducting an orchestra.
+
+There’s a shift happening in software development that I don’t think we’re talking about clearly enough.
+For the last couple of years we’ve framed AI as a productivity tool. How much faster can it write code? How many more features can we ship? How much cheaper can we build software? I think that’s the wrong question, but I understand why.
+The first thing AI became good at was writing code, so naturally that’s where we focused. As AI got better at coding, I expected the bottlenecks to move through the software delivery lifecycle: from coding to design and specification, architecture, then verification. And they have. We spent a lot of time at the most recent FOSE  event discussing how we…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Listings Have Made Apartment Hunting Even More Debasing]]></title>
+        <id>https://defector.com/?p=230673</id>
+        <link href="https://defector.com/ai-listings-have-made-apartment-hunting-even-more-debasing"/>
+        <updated>2026-07-31T13:04:58.000Z</updated>
+        <summary type="html"><![CDATA[I started reading Valley of the Dolls for the first time the other night. It opens in 1945, with Anne Wells landing in New York and securing a job as a secretary at Henry Bellamy’s theatrical agency. She’s been tasked with finding an apartment for Henry’s handsome business partner; something on the East Side with a living room, bedroom, bath, and kitchen, furnished, for around $150 per month. He tells her not to come back to work until she’s found something. “Henry,” his handsome business partner warns, “We may never see this girl again.” 
+That’s as far as I made it before closing the book and bathing my face in the blue light of my laptop, my left eye twitching as I refreshed Craigslist for the hundredth time that day. I, too, have been tasked with finding an apartment in the city—not by my boss but by my current landlord, who, after mismanaging a bed bug scare for the past six months, is raising our rent by nearly $1,000. For the three years I have lived in this building, she has done little more than collect rent and turn a page a day in the picture book about dogs she has displayed in the mail room. 
+So. Looking for something in Central Brooklyn with a living room, bath, and kitchen, unfurnished, with fewer than 1,000 open housing code violations. Should an apartment meet these rigorous qualifications, there’s no choice but to move on it immediately. The city’s rental vacancy rate is 1.41 percent. If you don’t drop what you’re doing and beg, you will get left behind. My recent iMessage history looks something like: “Can I apply now? Can I see it RIGHT NOW? Can you draw up a lease? Can I give you everything? Can I give you all that’s in my bank account as a security deposit? Sir? Mr. Agent sir? I am a quiet and respectful tenant who spends most evenings cleaning my floors with a wood-and-bristle scrub while cartoonishly large bubbles float above me to the ceiling Cinderella style!!!!” Concrete jungle where dreams are maaaaaaaade of.]]></summary>
+        <author>
+            <name>Sohini Desai</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The real reason Todd Blanche won’t drop Trump’s slush fund]]></title>
         <id>https://www.salon.com/2026/07/31/the-real-reason-todd-blanche-wont-drop-trumps-slush-fund/-full</id>
@@ -2990,55 +3017,6 @@ Not exactly someth…]]></summary>
 Which brings us to the curious story of 49ers wideout Brandon Aiyuk, whose recent behavior has gone from maddening to outright frightening. Ju…]]></summary>
         <author>
             <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Protesilaos: Emacs: pulsar version 1.4.0]]></title>
-        <id>https://protesilaos.com/codelog/2026-07-22-emacs-pulsar-1-4-0/</id>
-        <link href="https://protesilaos.com/codelog/2026-07-22-emacs-pulsar-1-4-0/"/>
-        <updated>2026-07-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a small Emacs package that automatically highlights the current
-line after certain functions are invoked. It can also highlight a line
-or region on demand. The idea is to make it easier to find where the
-point is, what was affected, and also to bring attention to something
-in a buffer. Watch the original demo (2022-03-14).
-Package name (GNU ELPA): pulsar
-Official manual: https://protesilaos.com/emacs/pulsar
-Change log: https://protesilaos.com/emacs/pulsar-changelog
-Git repositories:
-    
-GitHub: https://github.com/protesilaos/pulsar
-GitLab: https://gitlab.com/protesilaos/pulsar
-Backronym: Pulsar Unquestionably Luminates, Strictly Absent the Radiation.
-Below are the release notes.
-Version 1.4.0 on 2026-07-22
-This version fixes a few bugs and brings quality-of-life improvements
-to an…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alvaro Ramirez: agent-shell 0.63 updates]]></title>
-        <id>https://xenodium.com/agent-shell-0-63-updates</id>
-        <link href="https://xenodium.com/agent-shell-0-63-updates"/>
-        <updated>2026-07-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It hasn't been long since the 0.55 update, but plenty has landed since. Let's go through the highlights as of v0.63.
-What's agent-shell?
-agent-shell is a native Emacs mode to interact with AI agents powered by ACP (Agent Client Protocol).
-Supported agents
-The roster keeps growing. This cycle adds two new agents:
-Grok Build (xAI), #720 by @eddof13.
-Oh My Pi (omp), #631 by @tychoish.
-Additionally:
-Cursor now runs on the official Cursor CLI (agent acp). Note a recent CLI is required, as the acp subcommand was only added in 2026.
-Codex now uses @agentclientprotocol/codex-acp.
-Cline now accepts a default model and session mode via defcustoms (#693 by @nhojb).
-Goose no longer requires an OpenAI key by default (#711 by @hoyon).
-Qwen now has explicit support for OpenAI-compatible keys.
-Custom mark…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>

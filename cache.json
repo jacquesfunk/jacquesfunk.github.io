@@ -558,26 +558,6 @@
           "wordCount": 650,
           "title": "Emacs Redux: Dedicate Windows with toggle-window-dedicated",
           "imageUrl": "https://emacsredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-07-22-emacs-pulsar-1-4-0/",
-          "author": null,
-          "description": "This is a small Emacs package that automatically highlights the current\nline after certain functions are invoked. It can also highlight a line\nor region on demand. The idea is to make it easier to find where the\npoint is, what was affected, and also to bring attention to something\nin a buffer. Watch the original demo (2022-03-14).\nPackage name (GNU ELPA): pulsar\nOfficial manual: https://protesilaos.com/emacs/pulsar\nChange log: https://protesilaos.com/emacs/pulsar-changelog\nGit repositories:\n    \nGitHub: https://github.com/protesilaos/pulsar\nGitLab: https://gitlab.com/protesilaos/pulsar\nBackronym: Pulsar Unquestionably Luminates, Strictly Absent the Radiation.\nBelow are the release notes.\nVersion 1.4.0 on 2026-07-22\nThis version fixes a few bugs and brings quality-of-life improvements\nto an…",
-          "link": "https://protesilaos.com/codelog/2026-07-22-emacs-pulsar-1-4-0/",
-          "publishedOn": "2026-07-22T00:00:00.000Z",
-          "wordCount": 758,
-          "title": "Protesilaos: Emacs: pulsar version 1.4.0",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
-        },
-        {
-          "id": "https://xenodium.com/agent-shell-0-63-updates",
-          "author": null,
-          "description": "It hasn't been long since the 0.55 update, but plenty has landed since. Let's go through the highlights as of v0.63.\nWhat's agent-shell?\nagent-shell is a native Emacs mode to interact with AI agents powered by ACP (Agent Client Protocol).\nSupported agents\nThe roster keeps growing. This cycle adds two new agents:\nGrok Build (xAI), #720 by @eddof13.\nOh My Pi (omp), #631 by @tychoish.\nAdditionally:\nCursor now runs on the official Cursor CLI (agent acp). Note a recent CLI is required, as the acp subcommand was only added in 2026.\nCodex now uses @agentclientprotocol/codex-acp.\nCline now accepts a default model and session mode via defcustoms (#693 by @nhojb).\nGoose no longer requires an OpenAI key by default (#711 by @hoyon).\nQwen now has explicit support for OpenAI-compatible keys.\nCustom mark…",
-          "link": "https://xenodium.com/agent-shell-0-63-updates",
-          "publishedOn": "2026-07-22T00:00:00.000Z",
-          "wordCount": 1757,
-          "title": "Alvaro Ramirez: agent-shell 0.63 updates",
-          "imageUrl": "https://xenodium.com/share.png"
         }
       ]
     },
@@ -586,6 +566,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=230673",
+          "author": "Sohini Desai",
+          "description": "I started reading Valley of the Dolls for the first time the other night. It opens in 1945, with Anne Wells landing in New York and securing a job as a secretary at Henry Bellamy’s theatrical agency. She’s been tasked with finding an apartment for Henry’s handsome business partner; something on the East Side with a living room, bedroom, bath, and kitchen, furnished, for around $150 per month. He tells her not to come back to work until she’s found something. “Henry,” his handsome business partner warns, “We may never see this girl again.” \nThat’s as far as I made it before closing the book and bathing my face in the blue light of my laptop, my left eye twitching as I refreshed Craigslist for the hundredth time that day. I, too, have been tasked with finding an apartment in the city—not by my boss but by my current landlord, who, after mismanaging a bed bug scare for the past six months, is raising our rent by nearly $1,000. For the three years I have lived in this building, she has done little more than collect rent and turn a page a day in the picture book about dogs she has displayed in the mail room. \nSo. Looking for something in Central Brooklyn with a living room, bath, and kitchen, unfurnished, with fewer than 1,000 open housing code violations. Should an apartment meet these rigorous qualifications, there’s no choice but to move on it immediately. The city’s rental vacancy rate is 1.41 percent. If you don’t drop what you’re doing and beg, you will get left behind. My recent iMessage history looks something like: “Can I apply now? Can I see it RIGHT NOW? Can you draw up a lease? Can I give you everything? Can I give you all that’s in my bank account as a security deposit? Sir? Mr. Agent sir? I am a quiet and respectful tenant who spends most evenings cleaning my floors with a wood-and-bristle scrub while cartoonishly large bubbles float above me to the ceiling Cinderella style!!!!” Concrete jungle where dreams are maaaaaaaade of.",
+          "link": "https://defector.com/ai-listings-have-made-apartment-hunting-even-more-debasing",
+          "publishedOn": "2026-07-31T13:04:58.000Z",
+          "wordCount": 9265,
+          "title": "AI Listings Have Made Apartment Hunting Even More Debasing",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/feature.png"
+        },
         {
           "id": "https://defector.com/?p=230858",
           "author": "David Roth",
@@ -2385,6 +2375,16 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/rachels-ramblings/conductor-developer.html",
+          "author": null,
+          "description": "TL;DR\nWhy I think software development is starting to feel a little more like conducting an orchestra.\n\nThere’s a shift happening in software development that I don’t think we’re talking about clearly enough.\nFor the last couple of years we’ve framed AI as a productivity tool. How much faster can it write code? How many more features can we ship? How much cheaper can we build software? I think that’s the wrong question, but I understand why.\nThe first thing AI became good at was writing code, so naturally that’s where we focused. As AI got better at coding, I expected the bottlenecks to move through the software delivery lifecycle: from coding to design and specification, architecture, then verification. And they have. We spent a lot of time at the most recent FOSE  event discussing how we…",
+          "link": "https://martinfowler.com/rachels-ramblings/conductor-developer.html",
+          "publishedOn": "2026-07-31T13:48:00.000Z",
+          "wordCount": 1105,
+          "title": "The Conductor Developer",
+          "imageUrl": "https://martinfowler.com/rachels-ramblings/card.png"
+        },
         {
           "id": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
           "author": null,
