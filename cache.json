@@ -111,16 +111,6 @@
           "wordCount": 171,
           "title": "Thursday, July 23, 2026",
           "imageUrl": "https://baty.net/img/2026/20260723-vice.webp"
-        },
-        {
-          "id": "https://baty.net/journal/21Jul26/",
-          "author": null,
-          "description": "Stella's Lounge (2019)\nI must be in a funk because I plugged the Mac Mini back in and I'm typing on it now. I just didn't feel like thinking about the computer and macOS does a better job of being an appliance when I need one. The Linux machine is still plugged in, too, so I'm back to one cable swap away from the other OS any time. It's maddening, but I can't seem to claw my way out of it.\nWorse on Purpose | How Corporate Greed Killed Product Quality\nWhat an interesting site! Also rather depressing.\npapernews looks right up my alley: \"news and articles nicely rendered as calm pdf for readers\" but it also looks like a lot of fuss and I just don't have the energy for it right now.\n✍️ Reply by email",
-          "link": "https://baty.net/journal/21Jul26/",
-          "publishedOn": "2026-07-21T19:48:07.000Z",
-          "wordCount": 202,
-          "title": "Tuesday, July 21, 2026",
-          "imageUrl": "https://baty.net/img/2026/20260721-stellas.webp"
         }
       ]
     },
@@ -129,6 +119,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://protesilaos.com/codelog/2026-07-31-emacs-tmr-1-4-0/",
+          "author": null,
+          "description": "TMR provides facilities for setting timers using a convenient\nnotation. Lots of commands are available to operate on timers, while\nthere also exists a tabulated view to display all timers in a nice\ngrid.\nPackage name (GNU ELPA): tmr\nOfficial manual: https://protesilaos.com/emacs/tmr\nChange log: https://protesilaos.com/emacs/tmr-changelog\nGit repositories:\n    \nGitHub: https://github.com/protesilaos/tmr\nGitLab: https://gitlab.com/protesilaos/tmr\nVideo demonstration: https://protesilaos.com/codelog/2026-01-19-emacs-timers-tmr-demo/\nBackronym: TMR May Ring; Timer Must Run.\nBelow are the release notes.\nVersion 1.4.0 on 2026-07-31\nTMR is an efficient package that has been stable for years. This new\nversion introduces some nice new features as well as several smaller\ninternal refinements.\nCreate…",
+          "link": "https://protesilaos.com/codelog/2026-07-31-emacs-tmr-1-4-0/",
+          "publishedOn": "2026-07-31T00:00:00.000Z",
+          "wordCount": 800,
+          "title": "Protesilaos: Emacs: tmr version 1.4.0",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
         {
           "id": "https://rahuljuliato.com/posts/completions-buffer-is-now-enough",
           "author": null,
@@ -578,16 +578,6 @@
           "wordCount": 1757,
           "title": "Alvaro Ramirez: agent-shell 0.63 updates",
           "imageUrl": "https://xenodium.com/share.png"
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/07/modeling-browser-history-in-emacs.html",
-          "author": null,
-          "description": "If there were an underappreciated web browser feature, it would be\n  this: history.\nOn many browsers, history is invoked with C-h\n  (Ctrl+h).  Vivaldi shows history as a calendar. The user\n  can choose from time intervals of Day, Week or Month and search for\n  a keyword within that time interval.1 \nI tend to write about a topic after I've forgotten where I read\n  about it.  Suppose I recall reading about \"nslookup\" but can't\n  remember when or where.  Simple.  Vivaldi remembered that I\n  visited a page with \"nslookup\" on Windows Central on July 3 at\n  21:26.  Being able to find such references helps.\nHistory helped me track my hours when my employer required\n  bi-weekly timesheets.  I would combine browser history with Org's\n  clock report to get a result I was actually proud to submit.\nI …",
-          "link": "https://ray-on-emacs.blogspot.com/2026/07/modeling-browser-history-in-emacs.html",
-          "publishedOn": "2026-07-21T21:37:58.035Z",
-          "wordCount": 3023,
-          "title": "Raymond Zeitler: Modeling Browser History in Emacs",
-          "imageUrl": null
         }
       ]
     },
@@ -1245,26 +1235,6 @@
           "wordCount": 6518,
           "title": "Doofus Chaplain Takes The Giants’ Pride Night Victimhood To Instagram",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2272590470.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=229694",
-          "author": "Sarah Borus",
-          "description": "PHILADELPHIA — I thought I would be miserable going to this game, watching two teams I hate (the Phillies and the Dodgers) ride high on their own egos amid overpriced concessions that jam a “ph” everywhere an “f” should be. I did it only so that I would finally get to see Shohei Ohtani play in person. But where was the phantastic two-way player, six-time all-star, and four-time MVP? Certainly not in the City of Brotherly Love. Whatever phacsimile was at the plate went 0-for-4 with two strikeouts and an intentional walk. In other words, the most Ohtani did in that game was have a reputation for being a threat. Yes, I know players have bad games. But I’ve seen enough to understand that Shohei Ohtani is nothing compared to baseball’s real two-way player, Trea Turner, who was such an important force for both teams that he was responsible for almost half the runs scored in the Phillies' 10-7 win. \nWhen Turner played short, ostensibly trying to help the Phillies prevent runs, everything hit his way turned to butter. Only one of his mishaps was ruled an error—a dropped ground ball from Mookie Betts in the top of the first which allowed the Dodgers to load the bases—but his defense assisted Los Angeles in several different ways. In the fourth inning, Turner misplayed a grounder from Alex Call to produce a single instead of a third out. In the sixth, he bobbled Andy Pages’s ground ball when he could have ended the inning with a simple throw to first, allowing Teoscar Hernandez to score. In the ninth, he misplayed Tommy Edman’s line drive up the middle to allow another runner on base and advance Pages.\nBut also, because Turner is such a great two-way player, he hit two home runs and a double, bringing in a total of phive runs for the Phillies. His dual loyalty was so confusing that those in the ballpark couldn’t decide how to feel about him. When Turner stepped up to bat, they booed, then cheered, then decided simply to make ambiguous noise.",
-          "link": "https://defector.com/trea-turner-is-a-true-two-way-player",
-          "publishedOn": "2026-07-21T20:10:43.000Z",
-          "wordCount": 5820,
-          "title": "Trea Turner Is A True Two-Way Player",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2286991937_e1109e-e1784663117407.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=229616",
-          "author": "Drew Magary",
-          "description": "Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGate, and buy Drew’s books while you’re at it. Today, we're talking about food hangups, cockroaches in heaven, shitting your pants on the football field, and more.\nBefore I get started, you guys might know that I moonlight as a weekly columnist over at SFGate. I joke that I work for the only two decent news sites left in America, because it's kinda true. But SFGate, like virtually every other media company dependent on ad revenue, got hammered when Google turned its search product into an AI mill. To help counter the losses, my overlords at the gate rolled out a subscription app for the site last week. Like Defector, it’s a cheap date, it has a clean, ad-free interface, and it protects the company newsroom from being decimated by outside forces. So if you can spare five bucks a month, please consider giving it a whirl.\nNow, your letters:",
-          "link": "https://defector.com/i-demand-we-normalize-chewing-with-your-mouth-open",
-          "publishedOn": "2026-07-21T18:54:35.000Z",
-          "wordCount": 15090,
-          "title": "I Demand We Normalize Chewing With Your Mouth Open",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2281085998.jpg"
         }
       ]
     },
@@ -1428,6 +1398,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/salon-amanda-marcotte.xml",
       "siteUrl": "https://www.salon.com/writer/amanda_marcotte",
       "articles": [
+        {
+          "id": "https://www.salon.com/2026/07/31/the-real-reason-todd-blanche-wont-drop-trumps-slush-fund/-full",
+          "author": null,
+          "description": "Todd Blanche, President Donald Trump’s nominee to be attorney general, promises Americans that he has no intention of going forward with a $1.8 billion slush fund designed to funnel money out of the Treasury and into the pockets of right-wing attorneys. The outcry that followed the Justice Department’s May 19 announcement of the fund, which would pay the legal bills of political allies charged with crimes ranging from fraud to storming the Capitol on Jan. 6, was deafening. In addition to blowback from many congressional Republicans, a federal judge halted the administration’s disbursement of the money, which was created as part of Trump’s agreement with the federal government stemming from his lawsuit  for the leak of his tax returns. Blanche, in his role as acting attorney general, claime…",
+          "link": "https://www.salon.com/2026/07/31/the-real-reason-todd-blanche-wont-drop-trumps-slush-fund/",
+          "publishedOn": "2026-07-31T10:30:27.000Z",
+          "wordCount": 2138,
+          "title": "The real reason Todd Blanche won’t drop Trump’s slush fund",
+          "imageUrl": "https://www.salon.com/app/uploads/2026/05/GettyImages-2273596722.jpg"
+        },
         {
           "id": "https://www.salon.com/2026/07/29/jd-vance-will-never-be-the-gop-obama/-full",
           "author": null,
@@ -2188,16 +2168,6 @@
           "wordCount": 22953,
           "title": "The GOP Has Completely Surrendered to Big Stupid, and American History Will Suffer for It",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/e3c8be54-d38b-4dcb-940c-a3c4d7d87887.jpeg?crop=1xw:0.75xh;0xw,0.25xh&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73221144/republican-chuck-edwards-gun-gifts-female-staffers/",
-          "author": null,
-          "description": "In case you needed another reason to not elect weirdos like representative Chuck Edwards, well, here it is.",
-          "link": "https://www.esquire.com/news-politics/politics/a73221144/republican-chuck-edwards-gun-gifts-female-staffers/",
-          "publishedOn": "2026-07-21T19:59:20.000Z",
-          "wordCount": 20343,
-          "title": "Maybe Republican Congressmen Shouldn’t Gift Guns to Their Female Employees, Just Saying",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/b6338c56-cc09-4aa0-9acd-c498169f0cd9.jpeg?crop=1xw:0.749633967789xh;center,top&resize=1200:*"
         }
       ]
     },
@@ -2263,6 +2233,22 @@
       "feedUrl": "https://www.flowstate.fm/feed",
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
+        {
+          "id": "https://www.flowstate.fm/p/sigha",
+          "author": "Flow State",
+          "description": "It’s Friday so we’re listening to something more upbeat.",
+          "link": "https://www.flowstate.fm/p/sigha",
+          "publishedOn": "2026-07-31T07:02:06.000Z",
+          "wordCount": null,
+          "title": "Sigha",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!-qQf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3a9a126a-2b6c-49c2-bf6c-ef25021e4e93_2116x1776.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!-qQf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3a9a126a-2b6c-49c2-bf6c-ef25021e4e93_2116x1776.png"
+        },
         {
           "id": "https://www.flowstate.fm/p/bcmc",
           "author": "Flow State",

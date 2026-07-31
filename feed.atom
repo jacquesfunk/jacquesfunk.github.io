@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-07-31T06:42:31.162Z</updated>
+    <updated>2026-07-31T10:37:21.298Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The real reason Todd Blanche won’t drop Trump’s slush fund]]></title>
+        <id>https://www.salon.com/2026/07/31/the-real-reason-todd-blanche-wont-drop-trumps-slush-fund/-full</id>
+        <link href="https://www.salon.com/2026/07/31/the-real-reason-todd-blanche-wont-drop-trumps-slush-fund/"/>
+        <updated>2026-07-31T10:30:27.000Z</updated>
+        <summary type="html"><![CDATA[Todd Blanche, President Donald Trump’s nominee to be attorney general, promises Americans that he has no intention of going forward with a $1.8 billion slush fund designed to funnel money out of the Treasury and into the pockets of right-wing attorneys. The outcry that followed the Justice Department’s May 19 announcement of the fund, which would pay the legal bills of political allies charged with crimes ranging from fraud to storming the Capitol on Jan. 6, was deafening. In addition to blowback from many congressional Republicans, a federal judge halted the administration’s disbursement of the money, which was created as part of Trump’s agreement with the federal government stemming from his lawsuit  for the leak of his tax returns. Blanche, in his role as acting attorney general, claime…]]></summary>
+        <author>
+            <name>Amanda Marcotte - Salon.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sigha]]></title>
+        <id>https://www.flowstate.fm/p/sigha</id>
+        <link href="https://www.flowstate.fm/p/sigha"/>
+        <updated>2026-07-31T07:02:06.000Z</updated>
+        <summary type="html"><![CDATA[It’s Friday so we’re listening to something more upbeat.]]></summary>
+        <author>
+            <name>Flow State</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Phriday Phistory:  Prague Ghost]]></title>
         <id>https://stuffthatinterestsme.net/?p=3235</id>
@@ -14,6 +34,34 @@
         <summary type="html"><![CDATA[Among Phish fans, certain performances have achieved legendary status. The “Tweezer” from December 2, 1995. The “Runaway Jim” from]]></summary>
         <author>
             <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Protesilaos: Emacs: tmr version 1.4.0]]></title>
+        <id>https://protesilaos.com/codelog/2026-07-31-emacs-tmr-1-4-0/</id>
+        <link href="https://protesilaos.com/codelog/2026-07-31-emacs-tmr-1-4-0/"/>
+        <updated>2026-07-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TMR provides facilities for setting timers using a convenient
+notation. Lots of commands are available to operate on timers, while
+there also exists a tabulated view to display all timers in a nice
+grid.
+Package name (GNU ELPA): tmr
+Official manual: https://protesilaos.com/emacs/tmr
+Change log: https://protesilaos.com/emacs/tmr-changelog
+Git repositories:
+    
+GitHub: https://github.com/protesilaos/tmr
+GitLab: https://gitlab.com/protesilaos/tmr
+Video demonstration: https://protesilaos.com/codelog/2026-01-19-emacs-timers-tmr-demo/
+Backronym: TMR May Ring; Timer Must Run.
+Below are the release notes.
+Version 1.4.0 on 2026-07-31
+TMR is an efficient package that has been stable for years. This new
+version introduces some nice new features as well as several smaller
+internal refinements.
+Create…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -2991,79 +3039,6 @@ Qwen now has explicit support for OpenAI-compatible keys.
 Custom mark…]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raymond Zeitler: Modeling Browser History in Emacs]]></title>
-        <id>https://ray-on-emacs.blogspot.com/2026/07/modeling-browser-history-in-emacs.html</id>
-        <link href="https://ray-on-emacs.blogspot.com/2026/07/modeling-browser-history-in-emacs.html"/>
-        <updated>2026-07-21T21:37:58.035Z</updated>
-        <summary type="html"><![CDATA[If there were an underappreciated web browser feature, it would be
-  this: history.
-On many browsers, history is invoked with C-h
-  (Ctrl+h).  Vivaldi shows history as a calendar. The user
-  can choose from time intervals of Day, Week or Month and search for
-  a keyword within that time interval.1 
-I tend to write about a topic after I've forgotten where I read
-  about it.  Suppose I recall reading about "nslookup" but can't
-  remember when or where.  Simple.  Vivaldi remembered that I
-  visited a page with "nslookup" on Windows Central on July 3 at
-  21:26.  Being able to find such references helps.
-History helped me track my hours when my employer required
-  bi-weekly timesheets.  I would combine browser history with Org's
-  clock report to get a result I was actually proud to submit.
-I …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trea Turner Is A True Two-Way Player]]></title>
-        <id>https://defector.com/?p=229694</id>
-        <link href="https://defector.com/trea-turner-is-a-true-two-way-player"/>
-        <updated>2026-07-21T20:10:43.000Z</updated>
-        <summary type="html"><![CDATA[PHILADELPHIA — I thought I would be miserable going to this game, watching two teams I hate (the Phillies and the Dodgers) ride high on their own egos amid overpriced concessions that jam a “ph” everywhere an “f” should be. I did it only so that I would finally get to see Shohei Ohtani play in person. But where was the phantastic two-way player, six-time all-star, and four-time MVP? Certainly not in the City of Brotherly Love. Whatever phacsimile was at the plate went 0-for-4 with two strikeouts and an intentional walk. In other words, the most Ohtani did in that game was have a reputation for being a threat. Yes, I know players have bad games. But I’ve seen enough to understand that Shohei Ohtani is nothing compared to baseball’s real two-way player, Trea Turner, who was such an important force for both teams that he was responsible for almost half the runs scored in the Phillies' 10-7 win. 
-When Turner played short, ostensibly trying to help the Phillies prevent runs, everything hit his way turned to butter. Only one of his mishaps was ruled an error—a dropped ground ball from Mookie Betts in the top of the first which allowed the Dodgers to load the bases—but his defense assisted Los Angeles in several different ways. In the fourth inning, Turner misplayed a grounder from Alex Call to produce a single instead of a third out. In the sixth, he bobbled Andy Pages’s ground ball when he could have ended the inning with a simple throw to first, allowing Teoscar Hernandez to score. In the ninth, he misplayed Tommy Edman’s line drive up the middle to allow another runner on base and advance Pages.
-But also, because Turner is such a great two-way player, he hit two home runs and a double, bringing in a total of phive runs for the Phillies. His dual loyalty was so confusing that those in the ballpark couldn’t decide how to feel about him. When Turner stepped up to bat, they booed, then cheered, then decided simply to make ambiguous noise.]]></summary>
-        <author>
-            <name>Sarah Borus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Maybe Republican Congressmen Shouldn’t Gift Guns to Their Female Employees, Just Saying]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a73221144/republican-chuck-edwards-gun-gifts-female-staffers/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a73221144/republican-chuck-edwards-gun-gifts-female-staffers/"/>
-        <updated>2026-07-21T19:59:20.000Z</updated>
-        <summary type="html"><![CDATA[In case you needed another reason to not elect weirdos like representative Chuck Edwards, well, here it is.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tuesday, July 21, 2026]]></title>
-        <id>https://baty.net/journal/21Jul26/</id>
-        <link href="https://baty.net/journal/21Jul26/"/>
-        <updated>2026-07-21T19:48:07.000Z</updated>
-        <summary type="html"><![CDATA[Stella's Lounge (2019)
-I must be in a funk because I plugged the Mac Mini back in and I'm typing on it now. I just didn't feel like thinking about the computer and macOS does a better job of being an appliance when I need one. The Linux machine is still plugged in, too, so I'm back to one cable swap away from the other OS any time. It's maddening, but I can't seem to claw my way out of it.
-Worse on Purpose | How Corporate Greed Killed Product Quality
-What an interesting site! Also rather depressing.
-papernews looks right up my alley: "news and articles nicely rendered as calm pdf for readers" but it also looks like a lot of fuss and I just don't have the energy for it right now.
-✍️ Reply by email]]></summary>
-        <author>
-            <name>baty.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I Demand We Normalize Chewing With Your Mouth Open]]></title>
-        <id>https://defector.com/?p=229616</id>
-        <link href="https://defector.com/i-demand-we-normalize-chewing-with-your-mouth-open"/>
-        <updated>2026-07-21T18:54:35.000Z</updated>
-        <summary type="html"><![CDATA[Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGate, and buy Drew’s books while you’re at it. Today, we're talking about food hangups, cockroaches in heaven, shitting your pants on the football field, and more.
-Before I get started, you guys might know that I moonlight as a weekly columnist over at SFGate. I joke that I work for the only two decent news sites left in America, because it's kinda true. But SFGate, like virtually every other media company dependent on ad revenue, got hammered when Google turned its search product into an AI mill. To help counter the losses, my overlords at the gate rolled out a subscription app for the site last week. Like Defector, it’s a cheap date, it has a clean, ad-free interface, and it protects the company newsroom from being decimated by outside forces. So if you can spare five bucks a month, please consider giving it a whirl.
-Now, your letters:]]></summary>
-        <author>
-            <name>Drew Magary</name>
         </author>
     </entry>
 </feed>
