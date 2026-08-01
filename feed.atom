@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-01T09:57:01.992Z</updated>
+    <updated>2026-08-01T11:17:03.686Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -356,6 +356,18 @@ So. Looking for something in Central Brooklyn with a living room, bath, and kitc
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Friday, July 31, 2026]]></title>
+        <id>https://baty.net/journal/31Jul26/</id>
+        <link href="https://baty.net/journal/31Jul26/"/>
+        <updated>2026-07-31T09:54:59.000Z</updated>
+        <summary type="html"><![CDATA[My desk (2007)
+Have you ever felt like you've simply run out of things to say?
+✍️ Reply by email]]></summary>
+        <author>
+            <name>baty.net</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Sigha]]></title>
         <id>https://www.flowstate.fm/p/sigha</id>
         <link href="https://www.flowstate.fm/p/sigha"/>
@@ -663,6 +675,19 @@ We are just over the halfway point of the year, and after a robust first quarter
 The Best Rap Album Of The Year (So Far)]]></summary>
         <author>
             <name>Israel Daramola</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thursday, July 30, 2026]]></title>
+        <id>https://baty.net/journal/30Jul26/</id>
+        <link href="https://baty.net/journal/30Jul26/"/>
+        <updated>2026-07-30T14:56:10.000Z</updated>
+        <summary type="html"><![CDATA[Coffee (2008)
+I don't know what's worse: the whining about macOS from Mac users or the constant bickering between Linux users.
+Well, I've retired the saltwater tank. I just couldn't keep ahead of it. Bad algae, unwanted critters, water changes, chemicals, testing, etc. It got to the point where the effort I was putting in wasn't worth the pleasure I was getting out of it. It was a good four-year run.
+✍️ Reply by email]]></summary>
+        <author>
+            <name>baty.net</name>
         </author>
     </entry>
     <entry>
@@ -3192,30 +3217,6 @@ do that for an Agenda item, usually Org Agenda removes the item from
 the Agenda.  However, that doesn't happen to an item on a Tags List.
 The TODO keyword changes to DONE, but the item remains visible.
 However, if it's a …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aimé Bertrand: iMessage in Emacs]]></title>
-        <id>https://macowners.club/posts/imessage-in-emacs/</id>
-        <link href="https://macowners.club/posts/imessage-in-emacs/"/>
-        <updated>2026-07-22T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The why
-Regular readers know the pattern by now: if something can be done in Emacs, I will eventually do it in Emacs.
-Then why not have my iMessages living here as well?!
-So I made timu-imessage – a package to read and send iMessages without leaving Emacs. Well… I told Claude Code what I wanted.
-What does it do?
-A chat list with your entire message history, unread counts included.
-Conversation buffers that update live as messages arrive – with tapbacks, threaded replies and inline images.
-Full-text search across every message you ever received, in milliseconds.
-Sending from the minibuffer.
-Org integration: a single key captures the message at point with a link back to it.
-It reads straight from the Messages database on your Mac. Sending goes through a small companion Shortcut.
-
-
-
-Installat…]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>

@@ -23,6 +23,26 @@
       "siteUrl": "https://baty.net/index.xml",
       "articles": [
         {
+          "id": "https://baty.net/journal/31Jul26/",
+          "author": null,
+          "description": "My desk (2007)\nHave you ever felt like you've simply run out of things to say?\n✍️ Reply by email",
+          "link": "https://baty.net/journal/31Jul26/",
+          "publishedOn": "2026-07-31T09:54:59.000Z",
+          "wordCount": 84,
+          "title": "Friday, July 31, 2026",
+          "imageUrl": "https://baty.net/img/2026/20260731-desk-2007.webp"
+        },
+        {
+          "id": "https://baty.net/journal/30Jul26/",
+          "author": null,
+          "description": "Coffee (2008)\nI don't know what's worse: the whining about macOS from Mac users or the constant bickering between Linux users.\nWell, I've retired the saltwater tank. I just couldn't keep ahead of it. Bad algae, unwanted critters, water changes, chemicals, testing, etc. It got to the point where the effort I was putting in wasn't worth the pleasure I was getting out of it. It was a good four-year run.\n✍️ Reply by email",
+          "link": "https://baty.net/journal/30Jul26/",
+          "publishedOn": "2026-07-30T14:56:10.000Z",
+          "wordCount": 139,
+          "title": "Thursday, July 30, 2026",
+          "imageUrl": "https://baty.net/img/2026/20260730-coffee.webp"
+        },
+        {
           "id": "https://baty.net/posts/2026/07/the-dink-2026/",
           "author": null,
           "description": "I wanted it to be better. It dragged a few chuckles out of me. I gave it an extra star because I love Mary Steenburgen.\n✍️ Reply by email",
@@ -527,16 +547,6 @@
           "publishedOn": "2026-07-23T01:32:36.624Z",
           "wordCount": 3317,
           "title": "Raymond Zeitler: The Problem With Tags Lists",
-          "imageUrl": null
-        },
-        {
-          "id": "https://macowners.club/posts/imessage-in-emacs/",
-          "author": null,
-          "description": "The why\nRegular readers know the pattern by now: if something can be done in Emacs, I will eventually do it in Emacs.\nThen why not have my iMessages living here as well?!\nSo I made timu-imessage – a package to read and send iMessages without leaving Emacs. Well… I told Claude Code what I wanted.\nWhat does it do?\nA chat list with your entire message history, unread counts included.\nConversation buffers that update live as messages arrive – with tapbacks, threaded replies and inline images.\nFull-text search across every message you ever received, in milliseconds.\nSending from the minibuffer.\nOrg integration: a single key captures the message at point with a link back to it.\nIt reads straight from the Messages database on your Mac. Sending goes through a small companion Shortcut.\n\n\n\nInstallat…",
-          "link": "https://macowners.club/posts/imessage-in-emacs/",
-          "publishedOn": "2026-07-22T22:00:00.000Z",
-          "wordCount": 423,
-          "title": "Aimé Bertrand: iMessage in Emacs",
           "imageUrl": null
         }
       ]
