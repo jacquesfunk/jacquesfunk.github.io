@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-01T02:38:59.449Z</updated>
+    <updated>2026-08-01T06:28:01.394Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Marcin Borkowski: A fancier splash screen in terminal Emacs]]></title>
+        <id>https://mbork.pl/2026-08-01_A_fancier_splash_screen_in_terminal_Emacs</id>
+        <link href="https://mbork.pl/2026-08-01_A_fancier_splash_screen_in_terminal_Emacs"/>
+        <updated>2026-08-01T05:13:48.000Z</updated>
+        <summary type="html"><![CDATA[I’ve been using Emacs in a terminal for some time now (an experience worth a blog post another day). One thing that bothered me a little was that the “splash screen” (what Emacs displays at the start) does not show the familiar Emacs logo. I decided to fix this.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Phish Halloween 1994]]></title>
         <id>https://stuffthatinterestsme.net/?p=3321</id>
@@ -3283,83 +3293,6 @@ Today’s gossip raises the age-old question: Who you gonna call? If your house 
 https://youtu.be/tVM4RvqxBak]]></summary>
         <author>
             <name>Jae Towle Vieira</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We’ve Reached the End of Political Accountability. Now We’re in the Hands of Madmen.]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a73230257/political-accountability-arizona-governor-gop-nominee-stop-the-steal/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a73230257/political-accountability-arizona-governor-gop-nominee-stop-the-steal/"/>
-        <updated>2026-07-22T17:55:30.000Z</updated>
-        <summary type="html"><![CDATA[I’m baffled that the GOP keeps getting away with nominating people like Andy Biggs—who allegedly helped plan the “Stop the Steal” movement—for major offices.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What’s Going To Happen To The Rest Of My Life After I Become A Parent?]]></title>
-        <id>https://defector.com/?p=229815</id>
-        <link href="https://defector.com/whats-going-to-happen-to-the-rest-of-my-life-after-i-become-a-parent"/>
-        <updated>2026-07-22T17:23:27.000Z</updated>
-        <summary type="html"><![CDATA[Welcome back to Minor Dilemmas, where a member of Defector's Parents Council will answer your questions on surviving family life. Have a question? Email us at minordilemmas@defector.com.
-This week, Giri answers a question about how parenting can reorient your life.]]></summary>
-        <author>
-            <name>Giri Nathan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lars Ingebrigtsen: It’s time to wake up: An Emacs alarm clock]]></title>
-        <id>https://lars.ingebrigtsen.no/2026/07/22/its-time-to-wake-up-an-emacs-alarm-clock/</id>
-        <link href="https://lars.ingebrigtsen.no/2026/07/22/its-time-to-wake-up-an-emacs-alarm-clock/"/>
-        <updated>2026-07-22T16:46:25.000Z</updated>
-        <summary type="html"><![CDATA[I’ve been using some variation of the same system for my alarm clock since at least 2011.  Probably earlier — I didn’t have a blog before that, so who knows?  As the saying goes: What hasn’t been blogged about is lost to the mysteries of time…
-
-
-(Here’s some music to play while reading this blog post (because of the “I feel like an alarm clock” lyrics)…  This is gonna be one of those posts that require a lot of scrolling.  You’ve been warned.)
-My alarm clock idea has been the same since the start, but with a varying assortment of components.
-
-A numpad to input the alarm…
-
-… and a screen/computer to display time and the alarm.  (And the temperature.  Brrr!)  This particular hardware combination has been going since 2019.
-So I tap in the time I want to wake up (like 9) and then at 09:00 it t…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Mathematically Rigorous Guide To The Uncs Of The Tour de France]]></title>
-        <id>https://defector.com/?p=229721</id>
-        <link href="https://defector.com/a-mathematically-rigorous-guide-to-the-uncs-of-the-tour-de-france"/>
-        <updated>2026-07-22T16:43:56.000Z</updated>
-        <summary type="html"><![CDATA[VOIRON, France — Last week, my colleague Jonny Long from Escape Collective (EC) remarked that he speaks to more old people at the Tour de France than he does the whole rest of the year. It's true, and not altogether surprising: France has an aging population, so they have old guys, and cycling's culture is one of reverence for the legends of yore, so the old guys are here. Tour crowds aren't monolithic—I find myself pantomiming French toward all manner of locals and tourists alike—yet they skew white, Western European, and older.
-But really, "old guys" is too narrow a descriptor. What defines the crowds here at the Tour is more the omnipresence and internal diversity of the uncs on display. We got uncs watching the race from the roadside, uncs strolling around with VIP passes, uncs gathering at the start to stare at the bikes, open-mouthed, with hands clasped behind their back like umarells. The press corps is largely composed of unc-type individuals. As I write this from the press room near the finish of Stage 17, I see the strange German reporter who exclusively asks terrible questions and exclusively wears capris and rhinestone-bedazzled shirts; the evil Italian TV guy who does Julius Randle moves while trying to box people out of press scrums; and the two Spanish reporters who keep falling asleep, to the delight of the rest of the Spanish press corps. If you want to know what sorts of people flock to the Tour de France, know the uncs.
-I am now going tell you about some of my favorites, in the order I encountered them. For organizational purposes, I find it useful to judge our subjects on four axes: the Sunburn Index, Severity of Frenchness, the Indifference Quotient, and Poison Binary. All scores are out of seven, and are self-explanatory, except maybe the last one though it's a binary so you can probably figure it out. Allez.]]></summary>
-        <author>
-            <name>Patrick Redford</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ESPN Just Keeps Getting Smaller And Louder]]></title>
-        <id>https://defector.com/?p=229796</id>
-        <link href="https://defector.com/espn-just-keeps-getting-smaller-and-louder"/>
-        <updated>2026-07-22T16:20:33.000Z</updated>
-        <summary type="html"><![CDATA[ESPN staff was hit by another round of layoffs this week, which in some sense barely registers as news given that the network is stuck in a constant state of downsizing. This round of cuts was notable, however, due to some of the recognizable names who were let go: Karl Ravech, David Lloyd, Stephania Bell, Cam Newton, Ryan Clark, and Tom Pelissero were among the cuts.
-Whether you wish to cheer or jeer any particular departure, there's no denying the significance of ESPN cutting loose someone like Ravech, who has been with the network since 1993 and became synonymous with its baseball coverage. Lloyd started with ESPN in 1997 and has become one of the more familiar faces on SportsCenter; Bell pioneered fantasy-focused injury analysis and turned that into a gig that lasted nearly 20 years; Pelissero is an NFL insider who is just as plugged in as Ian Rapoport and Adam Schefter. These are people sports fans have real relationships with.
-It is also impossible not to think about these layoffs in the context of some other recent news about ESPN. In June, The Athletic's Andrew Marchand reported that the network was in the midst of negotiating a new contract for host Pat McAfee, which would pay him more than $60 million per year. Even McAfee himself wasn't immune to making this connection, and attempted to defend his worth during Tuesday's episode of his daily television show:]]></summary>
-        <author>
-            <name>Tom Ley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Miami Heat Post, Then Remove, Video That I Am Taking To Mean LeBron James Is Definitely Coming Back To Miami]]></title>
-        <id>https://defector.com/?p=229795</id>
-        <link href="https://defector.com/miami-heat-post-then-remove-video-that-i-am-taking-to-mean-lebron-james-is-definitely-coming-back-to-miami"/>
-        <updated>2026-07-22T14:57:25.000Z</updated>
-        <summary type="html"><![CDATA[There's not a lot of NBA news happening right now, so we must welcome any sort of chaos we can find, even of the accidental kind. 
-On Tuesday night, the excruciating wait for LeBron James to make up his damn mind about where he is going to play next season wore down the faculties of at least one social media employee, as the Miami Heat accidentally published an unlisted video on its YouTube that signaled LeBron's introductory press conference for the team he won his first (and second) title with will happen on July 27.
-
-https://twitter.com/WadexFlash/status/2079742594586952066]]></summary>
-        <author>
-            <name>Luis Paez-Pumar</name>
         </author>
     </entry>
 </feed>
