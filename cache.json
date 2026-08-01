@@ -558,16 +558,6 @@
           "wordCount": 4956,
           "title": "Lars Ingebrigtsen: It’s time to wake up: An Emacs alarm clock",
           "imageUrl": "https://lars.ingebrigtsen.no/wp-content/uploads/2026/06/DSC07260-scaled.jpg"
-        },
-        {
-          "id": "https://irreal.org/blog/?p=13962",
-          "author": null,
-          "description": "taken the time and effort to do something about them. The problem is that they’re so tricky to configure that it’s not worthwhile so we just suffer with the default.\n\n\nNow Bozhidar Batsov writes about an easy change that anyone can make. As of Emacs 30, it’s possible to right align given elements of the mode line. That was always possible, of course, but it required some tricky padding that was particularly fragile. Now there’s mode-line-format-right-align, which serves as a marker in your mode line definition. Everything before it is left aligned and everything after it is right aligned.\n\n\nEven the right edge is customizable. You can choose the right edge of the window, the left end of the fringe, or the left edge of the right margin. This facility is going to be useful to those who want a customized mode line.\n\n\nMy main problem with the mode line is getting all the items I want to fit on it. Even though I make liberal use of diminish, a lot of useful information always seems to fall off the right end. That probably means I need to watch Prot’s video again and buckle down to customizing it the way I want it.\n\n\nIn any event, it you’d like to place some items at the right side of the mode line, take a look at Batsov’s post to see how to do it.",
-          "link": "https://irreal.org/blog/?p=13962",
-          "publishedOn": "2026-07-22T14:08:18.000Z",
-          "wordCount": 1459,
-          "title": "Irreal: Aligning Mode Line Elements",
-          "imageUrl": null
         }
       ]
     },
@@ -1285,26 +1275,6 @@
           "wordCount": 5254,
           "title": "Miami Heat Post, Then Remove, Video That I Am Taking To Mean LeBron James Is Definitely Coming Back To Miami",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-170991793.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=229632",
-          "author": "Natalie Weiner",
-          "description": "\"The city was question and answer in one,\" Colson Whitehead writes early on in Cool Machine, the final novel of his Harlem Trilogy. \"Cause and effect and everything else, too.\" You can forgive the lifelong New Yorker for being a little romantic about his hometown, which is both the setting and central metaphor across the tales of Harlem furniture salesman-cum-not-so-reluctant-crook Ray Carney, whose misadventures come to a conclusion with Machine. Carney's capers, inspired by heist movies, are presented as discrete novellas, with each book—Harlem Shuffle and Crook Manifesto are the first two—consisting of three parts. Collectively, they span both a whole array of thieving and schemes as well as nearly three decades of New York history. \nThese vivid, pulpy, compulsively readable novels allo…",
-          "link": "https://defector.com/colson-whitehead-cool-machine-interview",
-          "publishedOn": "2026-07-22T14:06:40.000Z",
-          "wordCount": 10314,
-          "title": "Colson Whitehead Talks About Embracing Change, Pulling Off A Heist, And Finding A Good Coffee Table",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/colson.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=229640",
-          "author": "Chris Thompson",
-          "description": "The San Francisco Giants are a rotten, poisoned, blighted organization. I offer to the jury, by way of evidence, the following exhibit: Monday evening a representative of the Giants saw a story from the San Francisco Chronicle about fans who still feel hurt and angry over the mess the organization made of its annual Pride Night celebration, and the front office's tepid, quarter-hearted, wildly inadequate response to public outcry. That team representative then logged onto social media so that they could blame the continuing controversy on online discourse and clickbait reporting. That representative, hilariously, was the team's chaplain, a man named Christian Huang.\nThe story Huang was commenting on was published Monday, and it begins with an anecdote about a longtime Giants fan who attend…",
-          "link": "https://defector.com/doofus-chaplain-takes-the-giants-pride-night-victimhood-to-instagram",
-          "publishedOn": "2026-07-22T13:03:57.000Z",
-          "wordCount": 6518,
-          "title": "Doofus Chaplain Takes The Giants’ Pride Night Victimhood To Instagram",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2272590470.jpg"
         }
       ]
     },
@@ -1325,6 +1295,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3321",
+          "author": "Schill",
+          "description": "Halloween has become synonymous with Phish in a way no other holiday belongs to a rock band. Long before giant",
+          "link": "https://stuffthatinterestsme.net/phish-halloween-1994/",
+          "publishedOn": "2026-08-01T02:19:30.000Z",
+          "wordCount": 4531,
+          "title": "Phish Halloween 1994",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3235",
           "author": "Schill",
@@ -2378,16 +2358,6 @@
           "wordCount": 20484,
           "title": "We’ve Reached the End of Political Accountability. Now We’re in the Hands of Madmen.",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/4b90aba5-8633-47b1-855c-23b029c0d4f2.jpeg?crop=1xw:0.750067953248xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73228577/house-subcommittee-meeting-museums-woke-ideology-history-eraasure/",
-          "author": null,
-          "description": "During a Tuesday House subcommittee meeting, Republicans sounded like a bunch of fourth graders while crusading against “woke” ideology in American museums.",
-          "link": "https://www.esquire.com/news-politics/politics/a73228577/house-subcommittee-meeting-museums-woke-ideology-history-eraasure/",
-          "publishedOn": "2026-07-22T12:45:56.000Z",
-          "wordCount": 22953,
-          "title": "The GOP Has Completely Surrendered to Big Stupid, and American History Will Suffer for It",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/e3c8be54-d38b-4dcb-940c-a3c4d7d87887.jpeg?crop=1xw:0.75xh;0xw,0.25xh&resize=1200:*"
         }
       ]
     },
