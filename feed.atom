@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-01T13:16:51.637Z</updated>
+    <updated>2026-08-01T14:59:13.960Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -3197,28 +3197,6 @@ I was watching some hot World Cup action the other day when this local ad from a
 This Virginia Connects ad plays out in a similar fashion. It opens with an all-American dad using his smartphone to give his a…]]></summary>
         <author>
             <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raymond Zeitler: The Problem With Tags Lists]]></title>
-        <id>https://ray-on-emacs.blogspot.com/2026/07/the-problem-with-tags-lists.html</id>
-        <link href="https://ray-on-emacs.blogspot.com/2026/07/the-problem-with-tags-lists.html"/>
-        <updated>2026-07-23T01:32:36.624Z</updated>
-        <summary type="html"><![CDATA[A Tags List is an alternative to the Agenda that the user can
-configure with org-agenda-custom-commands.  The list
-shows subheadings that have a certain tag.  You can edit these list
-items with the same commands used for the item on the standard Agenda
-View.  For example, you can invoke org-agenda-todo (bound
-to t) while on a tag list item to change its TODO state.  However, the
-display doesn't always reflect the action that was performed. That can
-mislead the user into thinking the command had no effect.
-For example, you can change an item's TODO state to DONE.  When you
-do that for an Agenda item, usually Org Agenda removes the item from
-the Agenda.  However, that doesn't happen to an item on a Tags List.
-The TODO keyword changes to DONE, but the item remains visible.
-However, if it's a …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>

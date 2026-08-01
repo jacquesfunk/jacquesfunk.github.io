@@ -538,16 +538,6 @@
           "wordCount": 469,
           "title": "TAONAW - Emacs and Org Mode:",
           "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/07/23/5953183.png"
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/07/the-problem-with-tags-lists.html",
-          "author": null,
-          "description": "A Tags List is an alternative to the Agenda that the user can\nconfigure with org-agenda-custom-commands.  The list\nshows subheadings that have a certain tag.  You can edit these list\nitems with the same commands used for the item on the standard Agenda\nView.  For example, you can invoke org-agenda-todo (bound\nto t) while on a tag list item to change its TODO state.  However, the\ndisplay doesn't always reflect the action that was performed. That can\nmislead the user into thinking the command had no effect.\nFor example, you can change an item's TODO state to DONE.  When you\ndo that for an Agenda item, usually Org Agenda removes the item from\nthe Agenda.  However, that doesn't happen to an item on a Tags List.\nThe TODO keyword changes to DONE, but the item remains visible.\nHowever, if it's a …",
-          "link": "https://ray-on-emacs.blogspot.com/2026/07/the-problem-with-tags-lists.html",
-          "publishedOn": "2026-07-23T01:32:36.624Z",
-          "wordCount": 3317,
-          "title": "Raymond Zeitler: The Problem With Tags Lists",
-          "imageUrl": null
         }
       ]
     },
