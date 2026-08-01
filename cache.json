@@ -140,6 +140,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://protesilaos.com/codelog/2026-08-01-emacs-live-linkarzu-projects/",
+          "author": null,
+          "description": "Raw link: https://www.youtube.com/watch?v=WQbXKvBT8HY\nIn about 40 minutes from now I will do a live stream with Christian\nArzu from the @linkarzu channel on YouTube. The video will be\nrecorded.\nThe topic of our meeting revolves around how Christian uses NeoVim and\nKitty to handle sessions and write fleeting thoughts. Then we will try\nto do something along those lines using built-in Emacs functionality.\nChristian did a video a couple of days ago about this topic and here\nis my extensive commentary on it, with points that are useful in\ngeneral: https://protesilaos.com/codelog/2026-07-31-re-linkarzu-what-i-need-from-emacs/.",
+          "link": "https://protesilaos.com/codelog/2026-08-01-emacs-live-linkarzu-projects/",
+          "publishedOn": "2026-08-01T00:00:00.000Z",
+          "wordCount": 234,
+          "title": "Protesilaos: Emacs live with @linkarzu on his workflow, Org capture, and projects (2026-08-01 22:00 Europe/Athens)",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
+        {
           "id": "https://protesilaos.com/codelog/2026-07-31-re-linkarzu-what-i-need-from-emacs/",
           "author": null,
           "description": "Christian Arzu from the @linkarzu channel on YouTube has just\npublished a ~16-minute video with the title What I Need From Emacs: A Video for Prot.\nI am happy he has done this and am eager to discuss those concepts in\nfurther depth. In this article I will comment on the specific points\nChristian raises as well as on the overarching theme of his experiment\nwith Emacs.\nEmacs has “sessions” out-of-the-box\nChristian has experienced friction with using Emacs. Much of it\nrevolves around the notion of “sessions” that Kitty provides. At least\nfor the way Christian uses sessions, Emacs has the equivalent concept\nof “projects”. Each project is a version controlled directory (Git in\nthis case, though Emacs supports many others as well).\nTo tell Emacs where your Git repositories are, so that it can re…",
@@ -2412,22 +2422,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!XXTm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F99c42733-8a32-44cf-9270-c3375b6fc555_1200x1200.jpeg"
-        },
-        {
-          "id": "https://www.flowstate.fm/p/rene-urtreger",
-          "author": "Flow State",
-          "description": "Today we’re listening to René Urtreger, a French jazz pianist and composer from Paris.",
-          "link": "https://www.flowstate.fm/p/rene-urtreger",
-          "publishedOn": "2026-07-23T07:02:36.000Z",
-          "wordCount": null,
-          "title": "René Urtreger",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!3IPc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F022f5800-2d85-4214-9589-8cb96891f031_1418x1564.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!3IPc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F022f5800-2d85-4214-9589-8cb96891f031_1418x1564.png"
         }
       ]
     },

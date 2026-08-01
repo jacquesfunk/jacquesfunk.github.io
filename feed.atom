@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-01T17:01:50.933Z</updated>
+    <updated>2026-08-01T19:05:45.572Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -24,6 +24,25 @@
         <summary type="html"><![CDATA[Halloween has become synonymous with Phish in a way no other holiday belongs to a rock band. Long before giant]]></summary>
         <author>
             <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Protesilaos: Emacs live with @linkarzu on his workflow, Org capture, and projects (2026-08-01 22:00 Europe/Athens)]]></title>
+        <id>https://protesilaos.com/codelog/2026-08-01-emacs-live-linkarzu-projects/</id>
+        <link href="https://protesilaos.com/codelog/2026-08-01-emacs-live-linkarzu-projects/"/>
+        <updated>2026-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Raw link: https://www.youtube.com/watch?v=WQbXKvBT8HY
+In about 40 minutes from now I will do a live stream with Christian
+Arzu from the @linkarzu channel on YouTube. The video will be
+recorded.
+The topic of our meeting revolves around how Christian uses NeoVim and
+Kitty to handle sessions and write fleeting thoughts. Then we will try
+to do something along those lines using built-in Emacs functionality.
+Christian did a video a couple of days ago about this topic and here
+is my extensive commentary on it, with points that are useful in
+general: https://protesilaos.com/codelog/2026-07-31-re-linkarzu-what-i-need-from-emacs/.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -3173,16 +3192,6 @@ I've submitted mode-line-path to MELPA. If it is approved, I'll update this blog
 Dragging and dropping a file into Emacs while in a folder with Dired copies it there, just as Finder would. Did you know that? I didn’t!]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[René Urtreger]]></title>
-        <id>https://www.flowstate.fm/p/rene-urtreger</id>
-        <link href="https://www.flowstate.fm/p/rene-urtreger"/>
-        <updated>2026-07-23T07:02:36.000Z</updated>
-        <summary type="html"><![CDATA[Today we’re listening to René Urtreger, a French jazz pianist and composer from Paris.]]></summary>
-        <author>
-            <name>Flow State</name>
         </author>
     </entry>
     <entry>
