@@ -468,26 +468,6 @@
           "wordCount": 233,
           "title": "Org Mode requests: [TODO] Fix obsolete/wrong info in worg/org-faq.org",
           "imageUrl": null
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-07-24-emacs-substitute-0-6-0/",
-          "author": null,
-          "description": "Substitute provides a set of commands that perform text replacement\n(i) throughout the buffer, (ii) limited to the current definition (per\nnarrow-to-defun), (iii) from point to the end of the buffer, and\n(iv) from point to the beginning of the buffer. Variations of these\nscopes are also available.\nThese substitutions are meant to be as quick as possible and, as such,\ndiffer from the standard query-replace (which I still use when\nnecessary). The provided commands prompt for substitute text and\nperform the substitution outright, without moving the point. The\ntarget is the symbol/word at point or the text corresponding to the\ncurrently marked region. All matches in the given scope are\nhighlighted by default.\nPackage name (GNU ELPA): substitute\nOfficial manual: https://protesilaos.com/emacs/su…",
-          "link": "https://protesilaos.com/codelog/2026-07-24-emacs-substitute-0-6-0/",
-          "publishedOn": "2026-07-24T00:00:00.000Z",
-          "wordCount": 424,
-          "title": "Protesilaos: Emacs: Substitute version 0.5.0",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
-        },
-        {
-          "id": "https://taonaw.com/2026/07/23/emacs-config-gems-part.html",
-          "author": null,
-          "description": "I’ve been working on my Emacs config for three weeks now, coming this weekend. It’s one of the deepest and most fun rabbit holes I’ve been exploring. As I stumble upon new ways to do things, I dig deeper, learn more, and keep tweaking my config, which makes this rabbit lair even bigger.\nEventually I realized that if I wait until I’m done to upload the config file, it will never happen: by the time I’m done, I will accumulate enough fixes and additional tricks and tweaks to warrant a whole new file.\nThe conclusion is what I should have done from the beginning: apply changes in chunks and explain what I’m doing and why as these happen.\nI’m starting with changes to my .emacs1 file on my mac2, before we’re even touching the “good stuff” in my main emacs-settings.org file. Why? Because Emacs wa…",
-          "link": "https://taonaw.com/2026/07/23/emacs-config-gems-part.html",
-          "publishedOn": "2026-07-23T23:40:23.000Z",
-          "wordCount": 1889,
-          "title": "TAONAW - Emacs and Org Mode: Emacs Config Gems - Part 1",
-          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/07/23/5953617.png"
         }
       ]
     },

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-02T11:15:21.310Z</updated>
+    <updated>2026-08-02T13:17:14.950Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -2900,42 +2900,6 @@ Maybe I like to switch between operating systems because it feels like rearrangi
         <summary type="html"><![CDATA[Today we’re listening to GENDEMA, an Argentinian electronic musician from Morón, Buenos Aires.]]></summary>
         <author>
             <name>Flow State</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Protesilaos: Emacs: Substitute version 0.5.0]]></title>
-        <id>https://protesilaos.com/codelog/2026-07-24-emacs-substitute-0-6-0/</id>
-        <link href="https://protesilaos.com/codelog/2026-07-24-emacs-substitute-0-6-0/"/>
-        <updated>2026-07-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Substitute provides a set of commands that perform text replacement
-(i) throughout the buffer, (ii) limited to the current definition (per
-narrow-to-defun), (iii) from point to the end of the buffer, and
-(iv) from point to the beginning of the buffer. Variations of these
-scopes are also available.
-These substitutions are meant to be as quick as possible and, as such,
-differ from the standard query-replace (which I still use when
-necessary). The provided commands prompt for substitute text and
-perform the substitution outright, without moving the point. The
-target is the symbol/word at point or the text corresponding to the
-currently marked region. All matches in the given scope are
-highlighted by default.
-Package name (GNU ELPA): substitute
-Official manual: https://protesilaos.com/emacs/su…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TAONAW - Emacs and Org Mode: Emacs Config Gems - Part 1]]></title>
-        <id>https://taonaw.com/2026/07/23/emacs-config-gems-part.html</id>
-        <link href="https://taonaw.com/2026/07/23/emacs-config-gems-part.html"/>
-        <updated>2026-07-23T23:40:23.000Z</updated>
-        <summary type="html"><![CDATA[I’ve been working on my Emacs config for three weeks now, coming this weekend. It’s one of the deepest and most fun rabbit holes I’ve been exploring. As I stumble upon new ways to do things, I dig deeper, learn more, and keep tweaking my config, which makes this rabbit lair even bigger.
-Eventually I realized that if I wait until I’m done to upload the config file, it will never happen: by the time I’m done, I will accumulate enough fixes and additional tricks and tweaks to warrant a whole new file.
-The conclusion is what I should have done from the beginning: apply changes in chunks and explain what I’m doing and why as these happen.
-I’m starting with changes to my .emacs1 file on my mac2, before we’re even touching the “good stuff” in my main emacs-settings.org file. Why? Because Emacs wa…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
