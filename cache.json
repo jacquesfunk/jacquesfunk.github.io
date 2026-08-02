@@ -111,16 +111,6 @@
           "wordCount": 105,
           "title": "Disclosure Day (2026) ★★★★",
           "imageUrl": "https://baty.net/img/2026/20260723-disclosure-day-card.jpeg"
-        },
-        {
-          "id": "https://baty.net/journal/23Jul26/",
-          "author": null,
-          "description": "My one vice. Speed Graphic. HP5+. New55 Monobath R5\nI can hardly be bothered writing things anymore. I get an idea for a blog post and thinking about all the words I'd have to come up with makes it just sort of fizzle out. It's a phase, right?\nMainspring could be handy. \"Mainspring reveals the settings macOS hides — as one-click, fully reversible power-ups. Wind it up exactly how you like it; unwind any change just as fast.\"\nI would probably buy it, but it overlaps a lot with Supercharge which I already own.\n(via Web Excursions for July 23rd, 2026 - BrettTerpstra.com)\n✍️ Reply by email",
-          "link": "https://baty.net/journal/23Jul26/",
-          "publishedOn": "2026-07-23T12:42:56.000Z",
-          "wordCount": 171,
-          "title": "Thursday, July 23, 2026",
-          "imageUrl": "https://baty.net/img/2026/20260723-vice.webp"
         }
       ]
     },
@@ -129,6 +119,26 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://ray-on-emacs.blogspot.com/2026/08/one-space-or-two.html",
+          "author": null,
+          "description": "HTML enforces the use of a single space to separate sentences.  If\n  you want to add another space, you need to use\n  &nbsp;.  I still remember how annoyed I was about\n  that.  Back in the century in which I took my technical writing\n  course, two spaces were required.  Of course, we weren't using\n  computers very often; hand-written sentences needed to appear more\n  separated than the words within.\nI'm definitely not here to convince anyone to switch.  Instead, I\njust want to share that I paid close attention to this detail when I\nwas formulating my style guide for this blog.  Should I continue with\nmy out-of-date two-space habit?  Or should I adopt the current\nconvention?\nI turned to Emacs itself for guidance.  It turns out that the\nindividuals who wrote Emacs comments, docstrings and help text used\ntwo spaces.  Although many times they started each sentence on a new\nline.\nIt turns out that the content here mostly is one-space.  I start\n  out using two spaces in Org where most of this originates.  But when\n  I export to HTML, that second space vaporizes.  That would seem like a bug to me.\nThe only place where you'll see evidence of my two-space style is in the comments\n  and docstrings of my source code.\nAm I the only person who nit picks about such details?\nThanks to Irreal for highlighting\n  a customization from macosguru",
+          "link": "https://ray-on-emacs.blogspot.com/2026/08/one-space-or-two.html",
+          "publishedOn": "2026-08-01T23:47:27.512Z",
+          "wordCount": null,
+          "title": "Raymond Zeitler: One Space or Two?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ray-on-emacs.blogspot.com/2026/08/emacs-smiley-functions.html",
+          "author": null,
+          "description": "Emacs Smiley Functions\nHere's what my Emacs Tip of the Day dug up: smiley-buffer",
+          "link": "https://ray-on-emacs.blogspot.com/2026/08/emacs-smiley-functions.html",
+          "publishedOn": "2026-08-01T22:46:37.354Z",
+          "wordCount": null,
+          "title": "Raymond Zeitler: Emacs Smiley Functions",
+          "imageUrl": null
+        },
         {
           "id": "https://mbork.pl/2026-08-01_A_fancier_splash_screen_in_terminal_Emacs",
           "author": null,
@@ -508,46 +518,6 @@
           "wordCount": 1381,
           "title": "Meta Redux: Making CIDER More Discoverable",
           "imageUrl": "https://metaredux.com/assets/og-image.png"
-        },
-        {
-          "id": "http://en.andros.dev/blog/06bfd107/emacs-is-a-lispboard/",
-          "author": null,
-          "description": "What would have happened if Emacs' default buffer had been a terminal emulator? Conceptually, from the outside, it would be perceived as a terminal on steroids with Lisp as its scripting language. Maybe we would be talking about iTerm2 vs Emacs, or Kitty vs Emacs, or even Bash vs Emacs. And what if the default buffer had been Dired, the file manager? History might have created rivalries such as Total Commander vs Emacs, or Finder vs Emacs.\nBut history took another path. We already know that if you launch an Emacs instance without any configuration whatsoever, what you see is a buffer with the following message:\n;; This buffer is for text that is not saved, and for Lisp evaluation.\n;; To create a file, visit it with ‘C-x C-f’ and enter text in its buffer.\nA notepad with an embedded Lisp int…",
-          "link": "http://en.andros.dev/blog/06bfd107/emacs-is-a-lispboard/",
-          "publishedOn": "2026-07-23T13:48:45.000Z",
-          "wordCount": 3121,
-          "title": "Andros Fenollosa: Emacs is a Lispboard",
-          "imageUrl": "https://img.andros.dev/nBgRNg17UB_JOm4H0xVbgc4r7Pg=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_94e69e19.png"
-        },
-        {
-          "id": "https://irreal.org/blog/?p=13964",
-          "author": null,
-          "description": "making a window dedicated. A dedicated window is one that is locked to its current buffer. That means, for instance, that if you have a particular window configuration in place and call some other function, the new function can’t hijack the dedicated window and spoil your configuration. Batsov has an animated Gif that shows this in action.\n\n\nThe notion of a dedicated window has been in Emacs for some time but what’s new is a quick way of dedicating a window. That way is toggle-window-dedicated, which is bound to Ctrl+x w d by default. As shown in Batsov’s Gif, that toggles the dedicated state for the current window on and off.\n\n\nSadly, I have Ctrl+x w bound to a function that starts up elfeed. I use that several times a day and have a significant investment in muscle memory so I either have to change the toggle-window-dedicated binding or simply call it directly. Since I doubt I’ll be using it that often, I’ll probably just call it directly. With my fuzzy command completion I need only enter Meta+x tog win to get the desired result.\n\n\nThere’s one other aspect that Batsov mentions but doesn’t explain: strongly dedicated windows. If a window is strongly dedicated, you can’t change the buffer displayed by the window. You can make a window strongly dedicated by specifying the universal argument in the call to toggle-window-dedicated.\n\n\nIf you like to set up a specific window configuration for some of your workflows and you don’t like random commands stepping on it, toggle-window-dedicated is just what you need.",
-          "link": "https://irreal.org/blog/?p=13964",
-          "publishedOn": "2026-07-23T12:54:41.000Z",
-          "wordCount": 1504,
-          "title": "Irreal: Making A Window Dedicated",
-          "imageUrl": null
-        },
-        {
-          "id": "https://speechcode.com/blog/mode-line-path",
-          "author": null,
-          "description": "Thu 23 Jul 2026\nemacs\n\n  \n \n    \nI have hundreds of README.org files. Almost every project I write has one, and every SRFI repo has one, too. There are often three or four open in my Emacs\n       session at a time. When I look at a buffer, knowing the path, not just\n       the buffer name, helps me tell them apart. An obvious idea is to put\n       the path in the mode line, but paths are often too long to fit\n       comfortably. My mode-line-path package abbreviates paths to make them fit. It shortens them further\n       using environment variables.\n \n    \nI use short environment variable names to identify many directories.\n       For example, Emacs configuration is in /home/arthur/.emacs.d/. If the environment variable e points to that directory, I can open /home/arthur/.emacs.d/lisp/init.el by doing C-x C-f $e/lisp/init.el RET. (See this Emacs Info page.) My mode-line-path package takes advantage of such environment variables, and displays $e/lisp in the mode line. That abbreviated path fits even in narrow windows.\n       If there isn't a suitable environment variable, mode-line-path uses ellipses instead, e.g. .../.emacs.d/lisp.\n \n    \nSince I wrote the package in 2013, I've used it every day. It's time\n       to share it. I've cleaned up the code, and added caching,\n       customization variables, and tests.\n \n    \nAfter the package is loaded, configuration is as simple as:\n \n(setq-default mode-line-buffer-identification\n  '(\"%b\" \" (\" mode-line-path \")\"))\n \n    \nI've submitted mode-line-path to MELPA. If it is approved, I'll update this blog post. Here is the README.org.",
-          "link": "https://speechcode.com/blog/mode-line-path",
-          "publishedOn": "2026-07-23T12:00:00.000Z",
-          "wordCount": 896,
-          "title": "Arthur A. Gleckler: mode-line-path",
-          "imageUrl": null
-        },
-        {
-          "id": "https://taonaw.com/2026/07/23/interesting-trick-discovered-by-mistake.html",
-          "author": null,
-          "description": "Interesting trick, discovered by mistake:\nDragging and dropping a file into Emacs while in a folder with Dired copies it there, just as Finder would. Did you know that? I didn’t!",
-          "link": "https://taonaw.com/2026/07/23/interesting-trick-discovered-by-mistake.html",
-          "publishedOn": "2026-07-23T11:55:04.000Z",
-          "wordCount": 469,
-          "title": "TAONAW - Emacs and Org Mode:",
-          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/07/23/5953183.png"
         }
       ]
     },
@@ -1185,36 +1155,6 @@
           "wordCount": 6066,
           "title": "Phee’s Back",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2237644315.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=229797",
-          "author": "Lauren Theisen",
-          "description": "The actor Eli Gelb has really found a niche for himself as \"unassuming guy in a three-hour play who's able to avoid getting directly hit by the drama.\" Before catching him in Birthright, the new off-Broadway play from Jonathan Spector, I'd last seen Gelb as the sound engineer Grover in the Tony-winning Stereophonic. In that play, which was clearly inspired by the making of Fleetwood Mac's Rumours, he begins the job ambitious and a little naive before the bad behavior of rock stars forces him to grow some protective layers. In Birthright, Gelb's character Noah has a similar professional drive, and he, too, has a core earnestness that you don't want to see overridden by a more convenient posture of cynicism. A viewer might appreciate the satisfaction of an ending like the one in Stereophonic…",
-          "link": "https://defector.com/after-the-argument-comes-the-rest-of-your-lives",
-          "publishedOn": "2026-07-23T14:31:42.000Z",
-          "wordCount": 7454,
-          "title": "After The Argument Comes The Rest Of Your Lives",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/Screenshot-524.png"
-        },
-        {
-          "id": "https://defector.com/?p=229709",
-          "author": "Sabrina Imbler",
-          "description": "In many ways, the sunfish could not have been better-designed as an orca's chew toy. The largest species, the oceanic sunfish Mola mola, can grow up to 10 feet long and weigh up to 6,000 pounds. And yet it is almost unfathomably helpless. Its body resembles a serving platter. It has no tail fin, just a tall dorsal and anal fin, which it flaps in unison to get around. A sunfish often spends its time lounging on its side at the surface of the water, basking in the sun and allowing seabirds to nibble on the parasites that riddle its skin. It has no venom or spines; its only real defense is somewhat thick skin. It's not even a very good swimmer. While a sunfish can reach top speeds of around two miles per hour, an orca can rocket through the water as fast as 35 mph.\nSo it's no surprise that such a large and lumbering fish might offer a wandering pack of orcas some welcome entertainment as they cruise in the clear waters off the Gulf of California. Of course, what is amusing for an orca is terrifying for any non-orca witnesses. Something that might make an orca click and whistle with glee will certainly make an adult woman go \"Oh my god! Oh my god! Oh my god! Holy shit!\" Relatedly, please enjoy the video below.",
-          "link": "https://defector.com/orcas-are-kerploding-sunfish-into-a-thousand-pieces",
-          "publishedOn": "2026-07-23T13:24:20.000Z",
-          "wordCount": 6904,
-          "title": "Orcas Are Kerploding Sunfish Into A Thousand Pieces",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/orca-sunfish.jpeg"
-        },
-        {
-          "id": "https://defector.com/?p=229430",
-          "author": "Drew Magary",
-          "description": "Some people are fans of the Las Vegas Raiders. But many, many more people are NOT fans of the Las Vegas Raiders. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.\nYour team: Las Vegas Raiders.",
-          "link": "https://defector.com/why-your-team-sucks-2026-las-vegas-raiders",
-          "publishedOn": "2026-07-23T13:01:52.000Z",
-          "wordCount": 13929,
-          "title": "Why Your Team Sucks 2026: Las Vegas Raiders",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2268849401.jpg"
         }
       ]
     },
@@ -1235,6 +1175,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=2952",
+          "author": "Schill",
+          "description": "Natural disasters usually involve earthquakes, hurricanes, floods, or fires. Industrial accidents often bring to mind explosions or chemical spills. Few",
+          "link": "https://stuffthatinterestsme.net/sunday-weird-history-lesson-the-boston-molasses-flood/",
+          "publishedOn": "2026-08-02T01:08:36.000Z",
+          "wordCount": 2803,
+          "title": "Sunday Weird History Lesson: The Boston Molasses Flood",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=2934",
           "author": "Schill",
@@ -2110,16 +2060,6 @@
           "publishedOn": "2026-07-23T19:14:15.945Z",
           "wordCount": 177,
           "title": "A Gen X review of Gen Z phenomenon 'Backrooms'",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/tech/article/data-centers-22356298.php-full",
-          "author": null,
-          "description": "Aerial view of a 49.5-megawatt data center under construction in Vernon, Calif., on July 14, 2026.\nMyung J. Chun/LA Times via Getty Images\nI was watching some hot World Cup action the other day when this local ad from a lobbying group called Virginia Connects graced my television screen. I didn’t know that Virginia Connects was behind this spot until the very end of it, which is standard practice for all evilmongers these days. If I see a commercial that begins with a tasteful montage of Americans doing super-serious, deeply American things, that ad will inevitably end with a plug for AI, Meta pinky-swearing to keep your kids safe, or a promise that Jesus gets me.\n\nThis Virginia Connects ad plays out in a similar fashion. It opens with an all-American dad using his smartphone to give his a…",
-          "link": "https://www.sfgate.com/tech/article/data-centers-22356298.php",
-          "publishedOn": "2026-07-23T06:29:11.268Z",
-          "wordCount": 177,
-          "title": "If you don't hate data centers yet, boy do I have news for you",
           "imageUrl": null
         }
       ]
