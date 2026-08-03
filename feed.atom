@@ -2,10 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-03T11:20:34.148Z</updated>
+    <updated>2026-08-03T14:35:01.307Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Gaelic Football Legend David Hickey Wants War Profiteers Out Of His Sport]]></title>
+        <id>https://defector.com/?p=230958</id>
+        <link href="https://defector.com/gaelic-football-legend-david-hickey-wants-war-profiteers-out-of-his-sport"/>
+        <updated>2026-08-03T13:01:46.000Z</updated>
+        <summary type="html"><![CDATA[DUBLIN — David Hickey was built for Gaelic football, the sport that can’t stick to sports. Hickey, who was a two-time GAA all-star and four-time All-Ireland winner as a half-forward for Dublin, used football’s biggest weekend as a platform for protests. 
+First, Hickey loudly refused to show up for a so-called Legends Lunch at storied Croke Park on July 24, where he was to be honored alongside other members of the Dubs’ 1976 championship side. Hickey’s boycott was aimed at the Gaelic Players Association (GPA), the event’s organizer and primary football player advocacy group, for what he called its “failure to take a stance” against Allianz, a Germany-based insurance giant with a fetish for profiting from crimes against humanity. The transnational underwriter has been the preeminent sponsor of Irish games, hurling and football, since 1993, when it acquired naming rights for the national leagues in both sports. Allianz also invested billions of dollars in Israel’s invasion and occupation of Gaza. 
+“I do not want the memory of that team associated in any way with the GPA, who have failed miserably to stand up for anything worthwhile apart from money,” said Hickey, who became Ireland’s leading transplant surgeon and a high-profile social activist after leaving the game.]]></summary>
+        <author>
+            <name>Dave McKenna</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TAONAW - Emacs and Org Mode:]]></title>
+        <id>https://taonaw.com/2026/08/03/still-working-on-emacs-config.html</id>
+        <link href="https://taonaw.com/2026/08/03/still-working-on-emacs-config.html"/>
+        <updated>2026-08-03T12:21:03.000Z</updated>
+        <summary type="html"><![CDATA[Still working on Emacs Config Gems part 3. Fell into a deep rabbit hole and got lost for a couple of days, then climbed out just to discover another one I have to explore next. I wanted to crunch the first few tweaks of my Emacs config in one post, but there’s too much to explore. I’m getting there!]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sacha Chua: 2026-08-03 Emacs news]]></title>
+        <id>https://sachachua.com/blog/2026/08/2026-08-03-emacs-news/</id>
+        <link href="https://sachachua.com/blog/2026/08/2026-08-03-emacs-news/"/>
+        <updated>2026-08-03T10:57:58.000Z</updated>
+        <summary type="html"><![CDATA[search for knowledge, which is incidentally the Emacs Carnival theme for August. Enjoy!
+
+
+
+Help wanted:
+
+pkal is looking for feedback on the jit-lock-stealth-load thread in emacs-devel on how to annotate changelog entries with release info (@pkal@social.sdfeu.org)
+Ihor Radchenko's looking for insights from other maintainers on reviewing large feature branches (@yantar92@fosstodon.org)
+Testing patches for input methods:
+
+[patch] GNU emacs bug#68339 (w32 ime font size)
+[Patch]  Implement preedit text rendering for Windows
+
+
+Upcoming events (iCal file, Org):
+
+Emacs.si (in person): Emacs.si meetup #8 2026 (v #živo) https://dogodki.kompot.si/events/3944ee8f-6da1-4720-b086-b9217e4f5c7b Mon Aug 3 1900 CET
+EmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/315091679/ Thu Aug 6 1600 Amer…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mitch McConnell is never coming back to the Senate]]></title>
         <id>https://www.salon.com/2026/08/03/mitch-mcconnell-is-never-coming-back-to-the-senate/-full</id>
@@ -307,6 +356,29 @@ Here's what my Emacs Tip of the Day dug up: smiley-buffer]]></summary>
         <summary type="html"><![CDATA[Halloween has become synonymous with Phish in a way no other holiday belongs to a rock band. Long before giant]]></summary>
         <author>
             <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ashish Panigrahi: Setting up offline email for Microsoft O365 with notmuch and emacs]]></title>
+        <id>https://ashishpanigrahi.com/blog/o365-offline-email/</id>
+        <link href="https://ashishpanigrahi.com/blog/o365-offline-email/"/>
+        <updated>2026-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Having to deal with Microsoft's outlook has been a growing pain with
+my computing needs. Of course, this is pertinent only for work email.
+For personal email, I use Migadu which has good
+standards for email unlike Microsoft's.
+At work, I can only use either the official Outlook webmail or
+Thunderbird since those are the only clients that are whitelisted by
+the IT department at my university. Thunderbird is slightly better (it
+has a few problems of its own but I digress) but I would like to have
+an offline copy of all my emails, fully searchable with an indexed
+database provided by notmuch, which uses
+the excellent Xapian library for indexing.
+Notmuch is shipped as an emacs package in the form of notmuch.el,
+which is exactly what I like given that I'm moving most of my
+computing needs into …]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -2642,6 +2714,32 @@ What does one do when nearly every topic they've always found interesting now bo
         <summary type="html"><![CDATA[Dream Academy – “Life in a Northern Town”: The Ethereal 1985 Hit That Still Feels Timeless Few songs from the]]></summary>
         <author>
             <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ashish Panigrahi: Reviewing finished tasks from last week in org-agenda and emacs]]></title>
+        <id>https://ashishpanigrahi.com/blog/done-items-org-agenda/</id>
+        <link href="https://ashishpanigrahi.com/blog/done-items-org-agenda/"/>
+        <updated>2026-07-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Being a PhD student within a research group entails some structure to
+tracking your progress as your proceed with research. Within the
+current team that I'm in, we have weekly group meetings where each
+member presents the tasks that they've completed during the previous
+week and discuss any issues they might've faced (if any), to our
+supervisor.
+Usually before the meeting, I jot down things that I've finished with
+pen and paper. But since I'm in the spirit of integrating my workflow
+with emacs and orgmode, I thought why don't I try implementing this
+part of my routine also into orgmode.
+Enter org-agenda
+All my todo items are tracked with
+org-agenda where I
+capture every task I need to finish with
+org-capture1.
+I have a custom org-agenda view just for viewing my daily and weekly
+TODO items,…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>

@@ -90,6 +90,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://taonaw.com/2026/08/03/still-working-on-emacs-config.html",
+          "author": null,
+          "description": "Still working on Emacs Config Gems part 3. Fell into a deep rabbit hole and got lost for a couple of days, then climbed out just to discover another one I have to explore next. I wanted to crunch the first few tweaks of my Emacs config in one post, but there’s too much to explore. I’m getting there!",
+          "link": "https://taonaw.com/2026/08/03/still-working-on-emacs-config.html",
+          "publishedOn": "2026-08-03T12:21:03.000Z",
+          "wordCount": 496,
+          "title": "TAONAW - Emacs and Org Mode:",
+          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/08/03/5962689.png"
+        },
+        {
+          "id": "https://sachachua.com/blog/2026/08/2026-08-03-emacs-news/",
+          "author": null,
+          "description": "search for knowledge, which is incidentally the Emacs Carnival theme for August. Enjoy!\n\n\n\nHelp wanted:\n\npkal is looking for feedback on the jit-lock-stealth-load thread in emacs-devel on how to annotate changelog entries with release info (@pkal@social.sdfeu.org)\nIhor Radchenko's looking for insights from other maintainers on reviewing large feature branches (@yantar92@fosstodon.org)\nTesting patches for input methods:\n\n[patch] GNU emacs bug#68339 (w32 ime font size)\n[Patch]  Implement preedit text rendering for Windows\n\n\nUpcoming events (iCal file, Org):\n\nEmacs.si (in person): Emacs.si meetup #8 2026 (v #živo) https://dogodki.kompot.si/events/3944ee8f-6da1-4720-b086-b9217e4f5c7b Mon Aug 3 1900 CET\nEmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/315091679/ Thu Aug 6 1600 Amer…",
+          "link": "https://sachachua.com/blog/2026/08/2026-08-03-emacs-news/",
+          "publishedOn": "2026-08-03T10:57:58.000Z",
+          "wordCount": 1160,
+          "title": "Sacha Chua: 2026-08-03 Emacs news",
+          "imageUrl": null
+        },
+        {
           "id": "https://taonaw.com/2026/08/02/em-dashes-in-orgmode-and.html",
           "author": null,
           "description": "Since I confessed my enjoyment of em dash in my writing last week, I started using them more freely. On a Mac, it’s Option Shift Hyphen, as Sasha would tell you. In Linux, it’s a bit more involved: Ctrl Shift U to bring up a search for Unicode number reference, and then the number for em dash: 2014.\nThis is all good and well, but what about Emacs, where I write most of my text?\nEmacs comes with abbrev-mode, a powerful text-expanding option that automatically converts something like “om” to “org-mode”, or even “fox” to “The quick brown fox jumps over the lazy dog” if I wanted to. But the em dash is a bit more tricky. I could, if I wanted, create an abbreviation like “em” to simply expand to “—”. But this doesn’t make much sense.\nWhen converting org-mode to markdown (as I do when I post some…",
@@ -127,6 +147,16 @@
           "publishedOn": "2026-08-01T05:13:48.000Z",
           "wordCount": 313,
           "title": "Marcin Borkowski: A fancier splash screen in terminal Emacs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ashishpanigrahi.com/blog/o365-offline-email/",
+          "author": null,
+          "description": "Having to deal with Microsoft's outlook has been a growing pain with\nmy computing needs. Of course, this is pertinent only for work email.\nFor personal email, I use Migadu which has good\nstandards for email unlike Microsoft's.\nAt work, I can only use either the official Outlook webmail or\nThunderbird since those are the only clients that are whitelisted by\nthe IT department at my university. Thunderbird is slightly better (it\nhas a few problems of its own but I digress) but I would like to have\nan offline copy of all my emails, fully searchable with an indexed\ndatabase provided by notmuch, which uses\nthe excellent Xapian library for indexing.\nNotmuch is shipped as an emacs package in the form of notmuch.el,\nwhich is exactly what I like given that I'm moving most of my\ncomputing needs into …",
+          "link": "https://ashishpanigrahi.com/blog/o365-offline-email/",
+          "publishedOn": "2026-08-01T00:00:00.000Z",
+          "wordCount": 2503,
+          "title": "Ashish Panigrahi: Setting up offline email for Microsoft O365 with notmuch and emacs",
           "imageUrl": null
         },
         {
@@ -390,6 +420,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://ashishpanigrahi.com/blog/done-items-org-agenda/",
+          "author": null,
+          "description": "Being a PhD student within a research group entails some structure to\ntracking your progress as your proceed with research. Within the\ncurrent team that I'm in, we have weekly group meetings where each\nmember presents the tasks that they've completed during the previous\nweek and discuss any issues they might've faced (if any), to our\nsupervisor.\nUsually before the meeting, I jot down things that I've finished with\npen and paper. But since I'm in the spirit of integrating my workflow\nwith emacs and orgmode, I thought why don't I try implementing this\npart of my routine also into orgmode.\nEnter org-agenda\nAll my todo items are tracked with\norg-agenda where I\ncapture every task I need to finish with\norg-capture1.\nI have a custom org-agenda view just for viewing my daily and weekly\nTODO items,…",
+          "link": "https://ashishpanigrahi.com/blog/done-items-org-agenda/",
+          "publishedOn": "2026-07-26T00:00:00.000Z",
+          "wordCount": 867,
+          "title": "Ashish Panigrahi: Reviewing finished tasks from last week in org-agenda and emacs",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=13968",
           "author": null,
           "description": "The Art Of Not Asking Why, JTR has begun a series on his Emacs configuration. This post covers his special arrangements for macOS. There are two tips, in particular, that seem to come up all the time.\n\n\nThe first is setting the path. That, of course, is supposed to be a simple process on Unix-like systems but doesn’t work correctly for Emacs on macOS. A long time ago, Steve Purcell solved this problem with his exec-path-from-shell package. You can read the details and what the exact problem is at the package’s GitHub repository. If you’re using Emacs on a Mac, you definitely need this package.\n\n\nThe second problem involves Dired. It’s obvious, if you think about it, that Dired depends on the Unix ‘ls’ command to produce its listings and some of its other operations. The problem is that the macOS version of ls is missing some of the options that Dired needs. The solution is to use the GNU version of ls, called gls. That’s easy to do but you first have to install it. The easy way to do that is through Homebrew. Once gls is installed, you need merely tell Dired to use it.\n\n\nAll the details for solving these two problems are in JTR’s post so if you’re running on macOS, you should definitely take a look at it. I’ve had both those changes installed for as long as I can remember but I do recall struggling with these issues until I found the solutions. Happily, if you’re new to Emacs on the Mac, JTR has both solutions for you in one place.",
@@ -426,6 +466,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=230958",
+          "author": "Dave McKenna",
+          "description": "DUBLIN — David Hickey was built for Gaelic football, the sport that can’t stick to sports. Hickey, who was a two-time GAA all-star and four-time All-Ireland winner as a half-forward for Dublin, used football’s biggest weekend as a platform for protests. \nFirst, Hickey loudly refused to show up for a so-called Legends Lunch at storied Croke Park on July 24, where he was to be honored alongside other members of the Dubs’ 1976 championship side. Hickey’s boycott was aimed at the Gaelic Players Association (GPA), the event’s organizer and primary football player advocacy group, for what he called its “failure to take a stance” against Allianz, a Germany-based insurance giant with a fetish for profiting from crimes against humanity. The transnational underwriter has been the preeminent sponsor of Irish games, hurling and football, since 1993, when it acquired naming rights for the national leagues in both sports. Allianz also invested billions of dollars in Israel’s invasion and occupation of Gaza. \n“I do not want the memory of that team associated in any way with the GPA, who have failed miserably to stand up for anything worthwhile apart from money,” said Hickey, who became Ireland’s leading transplant surgeon and a high-profile social activist after leaving the game.",
+          "link": "https://defector.com/gaelic-football-legend-david-hickey-wants-war-profiteers-out-of-his-sport",
+          "publishedOn": "2026-08-03T13:01:46.000Z",
+          "wordCount": 10520,
+          "title": "Gaelic Football Legend David Hickey Wants War Profiteers Out Of His Sport",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2263454814.jpg"
+        },
         {
           "id": "https://defector.com/?p=231084",
           "author": "Maitreyi Anantharaman",
