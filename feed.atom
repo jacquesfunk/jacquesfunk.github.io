@@ -2,10 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-03T17:49:31.083Z</updated>
+    <updated>2026-08-03T19:27:51.597Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[If Baseball Is Ruined, Show Me The Ruins]]></title>
+        <id>https://defector.com/?p=231121</id>
+        <link href="https://defector.com/if-baseball-is-ruined-show-me-the-ruins"/>
+        <updated>2026-08-03T18:50:49.000Z</updated>
+        <summary type="html"><![CDATA[The Los Angeles Dodgers got Tarik Skubal, damn them. Damn them for having money; damn them for being too damn good; damn them for ruining baseball. That they got Skubal, the hottest commodity on the stove at the trade deadline, for relative peanuts, well. In this case, you damn everyone else.
+This trade will ostensibly impact the Dodgers' odds through the 2026 World Series, though that's the least relevant part of the picture. All anyone can think about, at least as it pertains to the Dodgers, is what baseball will look like in 2027, if we get any baseball in 2027 at all. In that sense, the 2026 World Series does matter. No doubt the future of the sport depends heavily on the team that wins; considering Tarik Skubal and his $9.5 million in remaining salary cost three decent prospects, you could infer that every single owner wants it to be the Dodgers. For the greater good, you see.
+If one were conspiracy minded, one could trace the logical threads from this trade to that conclusion. There are qualifiers on Skubal's performance this year that might justify a lower price—he has had injury trouble and a novel surgical procedure to treat it; though his ERA is still excellent, his peripherals aren't nearly as tidy; he is a rental only through the end of the year—but those qualifiers would be in place at any price, no matter where he went. It is both borderline incomprehensible and self-evidently true that other teams in the rarefied contention window like the Tampa Bay Rays or the Milwaukee Brewers—neither of which, mind you, have ever won a World Series—did not outbid the Dodgers' winning offer, not even for the sake of driving the price higher. It is equally strange that the Detroit Tigers did not shop more rigorously around the league for a higher return.]]></summary>
+        <author>
+            <name>Kathryn Xu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Charles Choi: Announcing now-playing.el, an Emacs interface for the macOS Music app]]></title>
+        <id>http://yummymelon.com/devnull/announcing-now-playing-el.html</id>
+        <link href="http://yummymelon.com/devnull/announcing-now-playing-el.html"/>
+        <updated>2026-08-03T17:55:00.000Z</updated>
+        <summary type="html"><![CDATA[For me, listening to music whenever I’m working on a computer is a commonplace, daresay essential activity. Much of my work is done using Emacs, so the idea of having it control music playback to mitigate an app switch seemed reasonable. Such was the motivation for my latest project, now-playing.el, a Transient interface for the macOS Music (nee iTunes) app.
+
+now-playing.el takes inspiration from the many mini-client interfaces provided by Apple to control the Music app. The idea was to have a compact and simple interface:
+Show what is currently playing (song, artist, album)
+Offer basic controls (play/pause, next/previous track, volume control)
+Optionally log what was played.
+now-playing.el takes advantage of AppleScript support in the Music app, providing the needed controllability and ob…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wait, Did the Republican Party Only Just Realize That It Hired a Bunch of Yahoos and Morons, and That’s Why It’s Falling Apart?]]></title>
         <id>http://www.esquire.com/news-politics/politics/a73335507/republican-party-modern-conservatism/</id>
@@ -2994,53 +3022,6 @@ Republicans had celebrated the bipartisan housing bill, which focuses on lowerin
 But no. Trump derailed the messaging with a social media post cancelin…]]></summary>
         <author>
             <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Emacs Redux: CIDER and Projectile Meet Embark]]></title>
-        <id>https://emacsredux.com/blog/2026/07/25/cider-and-projectile-meet-embark/</id>
-        <link href="https://emacsredux.com/blog/2026/07/25/cider-and-projectile-meet-embark/"/>
-        <updated>2026-07-25T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Embark is one of those packages that
-quietly rewires how you use Emacs. Think of it as a context-aware right-click:
-you invoke embark-act (I keep it on C-.) on whatever’s at point - a file
-name, a symbol, a URL - and Embark offers a menu of things you can do with it.
-The neat part is that it’s completely extensible, so you can teach it about new
-kinds of targets. Lately two of my projects, CIDER and Projectile, have grown
-Embark integrations, in slightly different ways, and both are worth a look.
-Let’s start with CIDER, and teach Embark about Clojure symbols, so embark-act
-on one offers a bunch
-of CIDER commands:
-
-So d shows the documentation, . jumps to the definition, r finds
-references, i inspects the value, c opens ClojureDocs and a runs apropos -
-the usual CIDER commands, a keystroke …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta Redux: Modernizing CIDER’s Completion]]></title>
-        <id>https://metaredux.com/posts/2026/07/25/modernizing-cider-completion.html</id>
-        <link href="https://metaredux.com/posts/2026/07/25/modernizing-cider-completion.html"/>
-        <updated>2026-07-25T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CIDER’s code completion has quietly gotten quite good over the years, and I
-don’t think it gets enough credit. It’s all built on Emacs’s standard
-completion-at-point, so it works with whatever completion UI you prefer -
-the built-in one, Corfu,
-company - without any special setup. Under
-the hood compliment does the
-heavy lifting for Clojure (and
-clj-suitable for
-ClojureScript), which means smart, backend-driven matching: mai completes to
-map-indexed, cji to clojure.java.io, and an unimported BiFun to
-java.util.function.BiFunction. The candidates come back ranked by the backend
-and are context-aware - it knows when you’re inside a -> or completing a
-deftype field.
-Lately I’ve been giving the Emacs side of things some attention, to bring it in
-line with the modern completion stack so many of…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>

@@ -90,6 +90,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "http://yummymelon.com/devnull/announcing-now-playing-el.html",
+          "author": null,
+          "description": "For me, listening to music whenever I’m working on a computer is a commonplace, daresay essential activity. Much of my work is done using Emacs, so the idea of having it control music playback to mitigate an app switch seemed reasonable. Such was the motivation for my latest project, now-playing.el, a Transient interface for the macOS Music (nee iTunes) app.\n\nnow-playing.el takes inspiration from the many mini-client interfaces provided by Apple to control the Music app. The idea was to have a compact and simple interface:\nShow what is currently playing (song, artist, album)\nOffer basic controls (play/pause, next/previous track, volume control)\nOptionally log what was played.\nnow-playing.el takes advantage of AppleScript support in the Music app, providing the needed controllability and ob…",
+          "link": "http://yummymelon.com/devnull/announcing-now-playing-el.html",
+          "publishedOn": "2026-08-03T17:55:00.000Z",
+          "wordCount": 410,
+          "title": "Charles Choi: Announcing now-playing.el, an Emacs interface for the macOS Music app",
+          "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
+        },
+        {
           "id": "https://irreal.org/blog/?p=13987",
           "author": null,
           "description": "The Art Of Not Asking Why is also an em-dash aficionado and has been struggling with how to enter them, especially when using Emacs. His final solution involves expand-abbrev but seems to me overly complicated. He types --- then immediately calls expand-abbrev by typing Ctrl+x `.\n\n\nWe here at Irreal have the same problem, of course, but solved it in what seems to me a much simpler way:\n\n\n(defun jcs-insert-em-dash ()\n  \"Insert an em-dash at point\"\n  (interactive)\n  (insert 8212))\n\n(global-set-key (kbd \"H--\") #'jcs-insert-em-dash)\n\n⌘ Cmd key so it’s really easy to invoke it: thumb on Hyper and index finger on - and it inserts an em-dash directly into the source exactly as JTR wanted.\n\n\nI don’t claim my solution is better than JTR’s, only that it suits me better. It’s just another example of Emacs letting you have it your way.",
@@ -448,26 +458,6 @@
           "wordCount": 1515,
           "title": "Irreal: A Couple Of Tips For Emacs on macOS",
           "imageUrl": null
-        },
-        {
-          "id": "https://emacsredux.com/blog/2026/07/25/cider-and-projectile-meet-embark/",
-          "author": null,
-          "description": "Embark is one of those packages that\nquietly rewires how you use Emacs. Think of it as a context-aware right-click:\nyou invoke embark-act (I keep it on C-.) on whatever’s at point - a file\nname, a symbol, a URL - and Embark offers a menu of things you can do with it.\nThe neat part is that it’s completely extensible, so you can teach it about new\nkinds of targets. Lately two of my projects, CIDER and Projectile, have grown\nEmbark integrations, in slightly different ways, and both are worth a look.\nLet’s start with CIDER, and teach Embark about Clojure symbols, so embark-act\non one offers a bunch\nof CIDER commands:\n\nSo d shows the documentation, . jumps to the definition, r finds\nreferences, i inspects the value, c opens ClojureDocs and a runs apropos -\nthe usual CIDER commands, a keystroke …",
-          "link": "https://emacsredux.com/blog/2026/07/25/cider-and-projectile-meet-embark/",
-          "publishedOn": "2026-07-25T06:00:00.000Z",
-          "wordCount": 1408,
-          "title": "Emacs Redux: CIDER and Projectile Meet Embark",
-          "imageUrl": "https://emacsredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://metaredux.com/posts/2026/07/25/modernizing-cider-completion.html",
-          "author": null,
-          "description": "CIDER’s code completion has quietly gotten quite good over the years, and I\ndon’t think it gets enough credit. It’s all built on Emacs’s standard\ncompletion-at-point, so it works with whatever completion UI you prefer -\nthe built-in one, Corfu,\ncompany - without any special setup. Under\nthe hood compliment does the\nheavy lifting for Clojure (and\nclj-suitable for\nClojureScript), which means smart, backend-driven matching: mai completes to\nmap-indexed, cji to clojure.java.io, and an unimported BiFun to\njava.util.function.BiFunction. The candidates come back ranked by the backend\nand are context-aware - it knows when you’re inside a -> or completing a\ndeftype field.\nLately I’ve been giving the Emacs side of things some attention, to bring it in\nline with the modern completion stack so many of…",
-          "link": "https://metaredux.com/posts/2026/07/25/modernizing-cider-completion.html",
-          "publishedOn": "2026-07-25T06:00:00.000Z",
-          "wordCount": 856,
-          "title": "Meta Redux: Modernizing CIDER’s Completion",
-          "imageUrl": "https://metaredux.com/assets/og-image.png"
         }
       ]
     },
@@ -476,6 +466,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=231121",
+          "author": "Kathryn Xu",
+          "description": "The Los Angeles Dodgers got Tarik Skubal, damn them. Damn them for having money; damn them for being too damn good; damn them for ruining baseball. That they got Skubal, the hottest commodity on the stove at the trade deadline, for relative peanuts, well. In this case, you damn everyone else.\nThis trade will ostensibly impact the Dodgers' odds through the 2026 World Series, though that's the least relevant part of the picture. All anyone can think about, at least as it pertains to the Dodgers, is what baseball will look like in 2027, if we get any baseball in 2027 at all. In that sense, the 2026 World Series does matter. No doubt the future of the sport depends heavily on the team that wins; considering Tarik Skubal and his $9.5 million in remaining salary cost three decent prospects, you could infer that every single owner wants it to be the Dodgers. For the greater good, you see.\nIf one were conspiracy minded, one could trace the logical threads from this trade to that conclusion. There are qualifiers on Skubal's performance this year that might justify a lower price—he has had injury trouble and a novel surgical procedure to treat it; though his ERA is still excellent, his peripherals aren't nearly as tidy; he is a rental only through the end of the year—but those qualifiers would be in place at any price, no matter where he went. It is both borderline incomprehensible and self-evidently true that other teams in the rarefied contention window like the Tampa Bay Rays or the Milwaukee Brewers—neither of which, mind you, have ever won a World Series—did not outbid the Dodgers' winning offer, not even for the sake of driving the price higher. It is equally strange that the Detroit Tigers did not shop more rigorously around the league for a higher return.",
+          "link": "https://defector.com/if-baseball-is-ruined-show-me-the-ruins",
+          "publishedOn": "2026-08-03T18:50:49.000Z",
+          "wordCount": 6657,
+          "title": "If Baseball Is Ruined, Show Me The Ruins",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/tarikSkubalDodgers.jpg"
+        },
         {
           "id": "https://defector.com/?p=231119",
           "author": "Chris Thompson",
