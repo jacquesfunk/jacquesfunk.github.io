@@ -80,6 +80,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://olddeuteronomy.github.io/post/debugging-in-emacs/",
+          "author": null,
+          "description": "Introduction\nIn my years of using Emacs, I’ve noticed a common pattern: developers\nwho are highly proficient at editing source code in Emacs switch to a\n“normal IDE” (as they call it)—such as CLion or Visual Studio—when\nthey need to debug their code. They usually explain this by saying\nthat Emacs feels a bit weird for the task.\nHowever, I’d much rather not leave Emacs if something can be done inside it.\nIn this post, I’ll try to show that debugging in Emacs is both simple\nand effective, especially after a few small adjustments to the default\nsettings.\nDebugging in Emacs revolves around two key components:\nGDB (GNU Debugger), the most\npopular and powerful debugger for C, C++, and other languages.\nGUD\n(Grand Unified Debugger), Emacs’ built-in interface since at least\nv19 that turns GDB into …",
+          "link": "https://olddeuteronomy.github.io/post/debugging-in-emacs/",
+          "publishedOn": "2026-08-04T08:47:40.000Z",
+          "wordCount": 1036,
+          "title": "The Emacs Cat: Debugging in Emacs",
+          "imageUrl": null
+        },
+        {
           "id": "http://yummymelon.com/devnull/announcing-now-playing-el.html",
           "author": null,
           "description": "For me, listening to music whenever I’m working on a computer is a commonplace, daresay essential activity. Much of my work is done using Emacs, so the idea of having it control music playback to mitigate an app switch seemed reasonable. Such was the motivation for my latest project, now-playing.el, a Transient interface for the macOS Music (nee iTunes) app.\n\nnow-playing.el takes inspiration from the many mini-client interfaces provided by Apple to control the Music app. The idea was to have a compact and simple interface:\nShow what is currently playing (song, artist, album)\nOffer basic controls (play/pause, next/previous track, volume control)\nOptionally log what was played.\nnow-playing.el takes advantage of AppleScript support in the Music app, providing the needed controllability and ob…",
@@ -428,16 +438,6 @@
           "wordCount": 352,
           "title": "Org Mode requests: [RFC] org-agenda: combine Clocked and Closed entries",
           "imageUrl": null
-        },
-        {
-          "id": "https://ashishpanigrahi.com/blog/done-items-org-agenda/",
-          "author": null,
-          "description": "Being a PhD student within a research group entails some structure to\ntracking your progress as your proceed with research. Within the\ncurrent team that I'm in, we have weekly group meetings where each\nmember presents the tasks that they've completed during the previous\nweek and discuss any issues they might've faced (if any), to our\nsupervisor.\nUsually before the meeting, I jot down things that I've finished with\npen and paper. But since I'm in the spirit of integrating my workflow\nwith emacs and orgmode, I thought why don't I try implementing this\npart of my routine also into orgmode.\nEnter org-agenda\nAll my todo items are tracked with\norg-agenda where I\ncapture every task I need to finish with\norg-capture1.\nI have a custom org-agenda view just for viewing my daily and weekly\nTODO items,…",
-          "link": "https://ashishpanigrahi.com/blog/done-items-org-agenda/",
-          "publishedOn": "2026-07-26T00:00:00.000Z",
-          "wordCount": 867,
-          "title": "Ashish Panigrahi: Reviewing finished tasks from last week in org-agenda and emacs",
-          "imageUrl": null
         }
       ]
     },
@@ -446,6 +446,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=231168",
+          "author": "Ray Ratto",
+          "description": "Maybe we've been viewing Harrison Bader all wrong. Not that he hasn't behaved like a Thanksgiving ham in a batting helmet, but he may have spurred his soon-to-be former employers to accept their current situation with a clearer eye and purpose. And with some gelignite.\nThe San Francisco Giants have been freefalling all season long, which if nothing else marks a refreshing change from their decade of mediocrity in stasis. The amazing thing about their season is that they still haven't chased away their in-house fan base despite an uninterrupted series of decisions that would not be much different if they had been aimed at doing just that. Maybe lousy community and corporate relationships, plus some truly hideous baseball have unlocked some masochistic impulse in the regional baseball-going public; it seems to have worked for Love Island, after all.\nOn Monday, with the looming MLB trade deadline and 112 games of diaper-grade baseball as impetus, the fellows finally faced their fears and fraudulence and began tackling the rebuild they had always said they wouldn't entertain. Not with Bader, mind you—they're just trying to void his contract on the grounds that a professional athlete should be able to avoid driving his scooter into a fire truck—but with what has happened since.",
+          "link": "https://defector.com/reality-has-set-in-for-the-san-francisco-giants",
+          "publishedOn": "2026-08-04T13:47:32.000Z",
+          "wordCount": 7524,
+          "title": "Reality Has Set In For The San Francisco Giants",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2288383850.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=231141",
+          "author": "Lauren Theisen",
+          "description": "A lot of people in and around the WNBA are talking about trans women. In the aftermath of Indiana Fever role player Sophie Cunningham's negative comments about trans people playing sports in an ESPN profile, transphobic right-wing grifters and small groups of protesters have made a show of themselves at her games. In response, Seattle Storm co-owner Celeste Keaton was suspended by the league for telling off a couple of Cunningham boosters, while coaches like Cheryl Reeve and Natalie Nakase have given statements in support of trans women and girls participating in sports. Still others in the league, like Caitlin Clark, Fire coach Alex Sarama, and Fever coach Stephanie White have delivered more mealy-mouthed quotes about this controversy that Fox News describes as a \"culture war\" and ESPN de…",
+          "link": "https://defector.com/the-right-has-created-their-perfect-trans-athlete",
+          "publishedOn": "2026-08-04T13:03:11.000Z",
+          "wordCount": 6720,
+          "title": "The Right Has Created Their Perfect Trans Athlete",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2288522594_6f7f14-e1785843067862.jpg"
+        },
         {
           "id": "https://defector.com/?p=231121",
           "author": "Kathryn Xu",
@@ -1194,26 +1214,6 @@
           "wordCount": 2620,
           "title": "This Weeks Round Ball Roundup",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=2949",
-          "author": "Schill",
-          "description": "Napoleon Bonaparte conquered much of Europe, defeated powerful armies, reshaped governments, and established himself as one of history’s greatest military",
-          "link": "https://stuffthatinterestsme.net/sunday-weird-history-lesson-that-time-napoleon-was-attacked-by-rabbits-and-lost/",
-          "publishedOn": "2026-07-26T01:07:41.000Z",
-          "wordCount": 2818,
-          "title": "Sunday Weird History Lesson: That Time Napoleon Was Attacked by Rabbits and Lost",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=2928",
-          "author": "Schill",
-          "description": "Dream Academy – “Life in a Northern Town”: The Ethereal 1985 Hit That Still Feels Timeless Few songs from the",
-          "link": "https://stuffthatinterestsme.net/saturday-night-80s-jam-dream-academy-life-in-a-northern-town/",
-          "publishedOn": "2026-07-26T00:28:58.000Z",
-          "wordCount": 2731,
-          "title": "Saturday Night 80s Jam:  Dream Academy – Life In a Northern Town",
-          "imageUrl": null
         }
       ]
     },
@@ -1221,7 +1221,18 @@
       "title": "Time Is Illmatic",
       "feedUrl": "https://timeisillmatic.me/feed/",
       "siteUrl": "https://timeisillmatic.me",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://timeisillmatic.me/?p=13326",
+          "author": "deedub77",
+          "description": "The first time I heard Twista rhyme was back in the early nineties when he was going by the alias of Tung Twista. Back then, there was a bunch of hoopla around him getting into the Guinness Book of World … Continue reading →",
+          "link": "https://timeisillmatic.me/2026/08/04/twista-adrenaline-rush-june-24-1997/",
+          "publishedOn": "2026-08-04T10:47:40.000Z",
+          "wordCount": 5583,
+          "title": "Twista – Adrenaline Rush (June 24, 1997)",
+          "imageUrl": "https://timeisillmatic.me/wp-content/uploads/2026/07/images-1.jpg"
+        }
+      ]
     },
     {
       "title": "Amanda Marcotte - Salon.com",
@@ -1265,6 +1276,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/04/trump-approval-polls-lies-truth-social/91156618007/-full",
+          "author": "Rex Huppke",
+          "description": "Let’s take a moment to read some actual words posted on social media by the actual president of the United States of America.\nOn Aug. 3, Donald Trump wrote on Truth Social: “My REAL Polling Numbers, not those made up by the Fake News Media, are the best they have ever been.”\nIt’s an insult to fiction to call that fiction. I’m not sure what you call something more fabricated than fiction – maybe “ludicriction”? – but that’s what Trump’s words are.\nTrump has left reality behind and lives in a fantasy world of great polls\n\nAs The New York Times recently reported, “The latest surveys indicate that Mr. Trump is now all but the most unpopular second-term president at this stage of their tenure in the history of polling going back to the 1940s. The only exception is not one that would give Mr. Tr…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/04/trump-approval-polls-lies-truth-social/91156618007/",
+          "publishedOn": "2026-08-04T14:06:42.304Z",
+          "wordCount": 3910,
+          "title": "Trump's polls are amazing, and my abs have never looked better!Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/03/USAT/91155555007-20260803-vpc-trump-on-max-miller-thumb-getty-00-00-00-00-still-003.jpg?crop=1919,1079,x0,y0&width=1919&height=1079&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/25/roundup-scotus-monsanto-maha-trump/90697847007/-full",
           "author": "Rex Huppke",
@@ -2353,6 +2374,16 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/fragments/2026-08-04.html",
+          "author": null,
+          "description": "There’s been a fair bit of publicity of the Open AI “rogue agent” that hacked into Hugging Face. This prompted Anthropic to check what their models were up to and, to my complete lack of surprise, discovered three incidents where models had gained unauthorized access to data in other organizations. Simon Wilison concluded:\nIt’s abundantly clear now that running evals of cyberattack potential in models is a spectacularly risky business. Every AI lab needs to pay attention to this. Keeping a close eye on what’s happening in those sandboxes is crucial\nIt strikes me that this is akin to a virus escaping from a laboratory. It makes clear that the model builders are not putting sufficient controls in place to prevent these lab escapes. They are morally responsible for any consequences of this, a…",
+          "link": "https://martinfowler.com/fragments/2026-08-04.html",
+          "publishedOn": "2026-08-04T12:08:00.000Z",
+          "wordCount": 1509,
+          "title": "Fragments: August  4",
+          "imageUrl": "https://martinfowler.com/logo-sq.png"
+        },
         {
           "id": "https://martinfowler.com/rachels-ramblings/conductor-developer.html",
           "author": null,
