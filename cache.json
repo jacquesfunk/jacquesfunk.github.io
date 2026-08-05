@@ -438,26 +438,6 @@
           "wordCount": 251,
           "title": "Sacha Chua: 13 août: Emacs Chat: Fabrice Niessen",
           "imageUrl": null
-        },
-        {
-          "id": "https://metaredux.com/posts/2026/07/27/projectile-3-3.html",
-          "author": null,
-          "description": "Projectile 3.3 is out! That’s\nthe fourth release this month, which probably tells you something about how much fun I’ve\nbeen having with Projectile lately.\nThis one is mostly about a single theme - Projectile knowing more about your project\nwithout you having to tell it anything.\nTasks you never configured\nProjectile has had named tasks for a while now - you put an alist in projectile-tasks\n(or in your project’s .dir-locals.el) and projectile-run-task (s-p c x) offers\nthem with completion. Useful, but there was a catch that always bugged me: the variable\nstarts out empty, so the command did precisely nothing until you sat down and filled it in.\nMeanwhile every project I work on already has its tasks written down somewhere. The npm\nscripts are in package.json. The Makefile targets are in th…",
-          "link": "https://metaredux.com/posts/2026/07/27/projectile-3-3.html",
-          "publishedOn": "2026-07-27T08:15:00.000Z",
-          "wordCount": 1626,
-          "title": "Meta Redux: Projectile 3.3",
-          "imageUrl": "https://metaredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://metaredux.com/posts/2026/07/27/closing-the-find-usages-gap-in-cider.html",
-          "author": null,
-          "description": "Next up in the series on the notable changes in\nCIDER 2.0: cross-references. Or, as\nmost people call the feature, “find usages” - for years the most commonly\ncited reason to run clojure-lsp alongside (or\ninstead of) CIDER. Let’s talk about why that gap existed and how we finally\nclosed it.\nWhy runtime xref wasn’t enough\nCIDER has had runtime cross-referencing for a while: the cider/fn-refs op\nwalks the loaded vars in your REPL and reports which functions reference the\none at point. It’s a genuinely cool trick - the REPL literally knows your\nprogram - but as a “find usages” answer it has three structural problems:\nIt only sees loaded code. Namespaces you haven’t required yet - often\nmost of the codebase - are invisible.\nIt reports functions, not occurrences. Each hit points at the caller’s\n…",
-          "link": "https://metaredux.com/posts/2026/07/27/closing-the-find-usages-gap-in-cider.html",
-          "publishedOn": "2026-07-27T07:30:00.000Z",
-          "wordCount": 2936,
-          "title": "Meta Redux: Closing the Find-Usages Gap in CIDER",
-          "imageUrl": "https://metaredux.com/assets/og-image.png"
         }
       ]
     },
