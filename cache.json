@@ -90,6 +90,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://srijan.ch/emacs-desktop-save-mode-without-the-automatic-restore",
+          "author": null,
+          "description": "Emacs has a built-in way to save and restore sessions: the desktop.el library.\nAs the Emacs manual says, putting this in the init file enables automatic save and restore of sessions:\n(desktop-save-mode 1)\nBut, I wanted a different behavior:\nAutomatically save the session\nBut don't restore it automatically\nI wanted to only use the session feature to restore sessions that I closed by mistake, or where I forgot to finish something before quitting Emacs. By default, I wanted a fresh session every time.\nBut this also means that some session history has to be maintained; otherwise, a fresh session will start to write to the desktop file and then I will not be able to recover the old session.\nBy default, the way to do this is to not set desktop-save-mode, but manually call desktop-save when neede…",
+          "link": "https://srijan.ch/emacs-desktop-save-mode-without-the-automatic-restore",
+          "publishedOn": "2026-08-06T08:10:00.000Z",
+          "wordCount": 536,
+          "title": "Srijan Choudhary: Emacs: desktop-save-mode without the automatic restore",
+          "imageUrl": "https://srijan.ch/media/pages/blog/emacs-desktop-save-mode-without-the-automatic-restore/836a5dd477-1786001094/restore-desktop-session-demo-1200x630-crop-28-1-79-8.png"
+        },
+        {
           "id": "https://ray-on-emacs.blogspot.com/2026/08/display-active-clock-in-emacs-frame.html",
           "author": null,
           "description": "org-clock-clocked-in-display.  Its default value is\nmode-line.  This means that the active clock displays only in the\nmode line.  But it can have one of three other values: nil, frame\ntitle, both.\n\n\n\nI've set it to both.  Now the clocked task displays in both the\nmode line and the frame title.  It shows the clock duration in\nsquare brackets followed by the task heading in parentheses, as shown below.\n\n\n\norg-clock-clocked-in-display.\n\n\n\nTry it out!",
@@ -387,16 +397,6 @@
           "publishedOn": "2026-07-28T07:00:00.000Z",
           "wordCount": null,
           "title": "Bicycle for Your Mind: Much Ado About Emacs 015",
-          "imageUrl": null
-        },
-        {
-          "id": "https://mbork.pl/2026-07-27_Outlining_in_programs",
-          "author": null,
-          "description": "One of the Emacs’ “killer apps” is Org mode, and one of the most iconic features of Org mode is visibility cycling. It is no wonder people (including me) want a similar feature in other modes.",
-          "link": "https://mbork.pl/2026-07-27_Outlining_in_programs",
-          "publishedOn": "2026-07-27T18:37:48.000Z",
-          "wordCount": 706,
-          "title": "Marcin Borkowski: Outlining in programs",
           "imageUrl": null
         }
       ]
@@ -1005,26 +1005,6 @@
           "wordCount": 8313,
           "title": "LeBron James Should Just Take The Train To His New Job",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/AmtrakLeBronJames.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=230402",
-          "author": "Diana Moskovitz",
-          "description": "Mia Bieniemy, the wife of Kansas City offensive coordinator Eric Bieniemy, was hospitalized after being shot Sunday night. The couple's son, Elijah Zion Bieniemy, 27, was arrested after the shooting and charged with malicious wounding, using a firearm in a felony, and discharging a firearm inside a home, according to law enforcement.\nThe shooting happened in Ashburn, Va., a few miles away from the Washington Commanders practice facility. Eric Bieniemy served as Washington's offensive coordinator for the 2023 season, then coached for UCLA and the Chicago Bears before returning to Kansas City, where he was OC from 2018 to 2023.\nAccording to the Loudoun County Sheriff's Office, law enforcement got a call shortly after 7:30 p.m. Sunday reporting a shooting in the 20000 block of Northpark Drive. Deputies who responded to the call found a woman who had been shot multiple times. Paramedics took her to a nearby hospital.",
-          "link": "https://defector.com/eric-bieniemys-son-arrested-charged-with-mothers-shooting",
-          "publishedOn": "2026-07-27T19:31:36.000Z",
-          "wordCount": 5727,
-          "title": "Eric Bieniemy’s Son Arrested, Charged With Mother’s Shooting",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-1681763050-e1785176288448.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=230420",
-          "author": "Sarah Borus",
-          "description": "I have become an anxious mother, and I have adopted Jacob Misiorowski as my son. I don’t know how this happened, and I would like it to stop, because it’s taking a toll on me. Life used to be so simple. I used to watch his outings with a detached amazement. Back when I had a normal relationship to his pitching prowess, Misiorowski had already thrown 79 of the 100 highest-velocity pitches since tracking began. As of last night, he holds all 100 spots. Now he is my son, and let me be the first to say, it is really difficult being a parent to a child who you have never met and who is also older than you. I am so proud of and so worried for my boy. \nI spent last night in a cold sweat as I fought off the urge to join Facebook, just so I could tell everyone how wonderful and successful my beautiful son is. They must know how impressive his outing was, I whispered to myself as I clawed at the drawer where my husband (wait, when did I get a husband?) had locked away my laptop. They must know that he broke his own record for most 100-mph pitches in a game. He threw 66 fastballs, and every single one of them was more than 100 miles per hour. I frantically searched for the key. They have to know that only three were hit hard and into fair territory, and that Jakey struck out 12 batters, including seven in a row to begin the game. I took a hammer to the wood. But I can’t let it slip that he was pitching against the Rockies. Susan from knitting club would have a field day with that. As if HER kids have 185 strikeouts and a 1.58 ERA!\nSpeaking about the history he had once again made, Mis said, “I had no idea. I’m just throwing to Gary.” My humble boy! Someone has to brag about him if he won’t. Maybe I should send Susan that video.",
-          "link": "https://defector.com/i-need-jacob-misorowski-to-please-be-careful",
-          "publishedOn": "2026-07-27T18:52:41.000Z",
-          "wordCount": 5586,
-          "title": "I Need Jacob Misiorowski To Please Be Careful!",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2287775844_e89a62-e1785177986698.jpg"
         }
       ]
     },
@@ -2179,16 +2159,6 @@
           "wordCount": 20836,
           "title": "Even During a Must-Win Midterms Year, the Democratic Party Continues to Be Its Own Worst Enemy",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/c4b2f9eb-0cb4-480f-be06-ed2d0c6b43fb.jpeg?crop=1xw:0.749625187406xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73276103/trump-speech-cleveland-andrew-johnson/",
-          "author": null,
-          "description": "Andrew Johnson is rolling over in his grave, and that’s saying something.",
-          "link": "https://www.esquire.com/news-politics/politics/a73276103/trump-speech-cleveland-andrew-johnson/",
-          "publishedOn": "2026-07-27T20:32:16.000Z",
-          "wordCount": 20983,
-          "title": "Trump Has Given the Most Disgraceful Speech Made by a President in More Than 150 Years",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/8050d889-49b6-4f61-ac9b-625eb4959a60.jpeg?crop=1xw:0.75xh;0xw,0.1xh&resize=1200:*"
         }
       ]
     },
@@ -2238,6 +2208,22 @@
       "feedUrl": "https://www.flowstate.fm/feed",
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
+        {
+          "id": "https://www.flowstate.fm/p/butcher-brown",
+          "author": "Flow State",
+          "description": "Today we’re listening to Butcher Brown, a jazz quintet formed in Virginia in 2009.",
+          "link": "https://www.flowstate.fm/p/butcher-brown",
+          "publishedOn": "2026-08-06T07:03:24.000Z",
+          "wordCount": null,
+          "title": "Butcher Brown",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!DyJS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F764a4a5a-f3c7-416d-9d73-e95c07f39352_1021x1200.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!DyJS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F764a4a5a-f3c7-416d-9d73-e95c07f39352_1021x1200.jpeg"
+        },
         {
           "id": "https://www.flowstate.fm/p/eden-aurelius",
           "author": "Flow State",

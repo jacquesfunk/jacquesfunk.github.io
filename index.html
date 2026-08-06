@@ -22,6 +22,94 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-06 datetime="2026-08-06T08:10:00.000Z">2026-08-06</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-06 datetime="2026-08-06T08:10:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Emacslife</button>
+                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://srijan.ch/emacs-desktop-save-mode-without-the-automatic-restore"
+                        open
+                      >
+                        <summary class="article-expander__title">Srijan Choudhary: Emacs: desktop-save-mode without the automatic restore</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://srijan.ch/emacs-desktop-save-mode-without-the-automatic-restore">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://srijan.ch/media/pages/blog/emacs-desktop-save-mode-without-the-automatic-restore/836a5dd477-1786001094/restore-desktop-session-demo-1200x630-crop-28-1-79-8.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Emacs has a built-in way to save and restore sessions: the desktop.el library.
+As the Emacs manual says, putting this in the init file enables automatic save and restore of sessions:
+(desktop-save-mode 1)
+But, I wanted a different behavior:
+Automatically save the session
+But don&#x27;t restore it automatically
+I wanted to only use the session feature to restore sessions that I closed by mistake, or where I forgot to finish something before quitting Emacs. By default, I wanted a fresh session every time.
+But this also means that some session history has to be maintained; otherwise, a fresh session will start to write to the desktop file and then I will not be able to recover the old session.
+By default, the way to do this is to not set desktop-save-mode, but manually call desktop-save when neede…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Flow State</button>
+                  <a class="source-heading__link" href="https://www.flowstate.fm">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.flowstate.fm/p/butcher-brown"
+                        open
+                      >
+                        <summary class="article-expander__title">Butcher Brown</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.flowstate.fm/p/butcher-brown">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/$s_!DyJS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F764a4a5a-f3c7-416d-9d73-e95c07f39352_1021x1200.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Today we’re listening to Butcher Brown, a jazz quintet formed in Virginia in 2009.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-05 datetime="2026-08-06T03:07:50.000Z">2026-08-05</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-05 datetime="2026-08-06T03:07:50.000Z"></time>
           </button>
@@ -5392,131 +5480,6 @@ Not just opinions. Actual patterns. Hypotheses. Things I’m seeing across clien
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >News-Politics - Esquire</button>
-                  <a class="source-heading__link" href="https://www.esquire.com/news-politics/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.esquire.com/news-politics/politics/a73276103/trump-speech-cleveland-andrew-johnson/"
-                        open
-                      >
-                        <summary class="article-expander__title">Trump Has Given the Most Disgraceful Speech Made by a President in More Than 150 Years</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.esquire.com/news-politics/politics/a73276103/trump-speech-cleveland-andrew-johnson/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://hips.hearstapps.com/hmg-prod/images/8050d889-49b6-4f61-ac9b-625eb4959a60.jpeg?crop&#x3D;1xw:0.75xh;0xw,0.1xh&amp;resize&#x3D;1200:*" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Andrew Johnson is rolling over in his grave, and that’s saying something.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;70
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Defector</button>
-                  <a class="source-heading__link" href="https://defector.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;230402"
-                        open
-                      >
-                        <summary class="article-expander__title">Eric Bieniemy’s Son Arrested, Charged With Mother’s Shooting</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/eric-bieniemys-son-arrested-charged-with-mothers-shooting">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-1681763050-e1785176288448.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Mia Bieniemy, the wife of Kansas City offensive coordinator Eric Bieniemy, was hospitalized after being shot Sunday night. The couple&#x27;s son, Elijah Zion Bieniemy, 27, was arrested after the shooting and charged with malicious wounding, using a firearm in a felony, and discharging a firearm inside a home, according to law enforcement.
-The shooting happened in Ashburn, Va., a few miles away from the Washington Commanders practice facility. Eric Bieniemy served as Washington&#x27;s offensive coordinator for the 2023 season, then coached for UCLA and the Chicago Bears before returning to Kansas City, where he was OC from 2018 to 2023.
-According to the Loudoun County Sheriff&#x27;s Office, law enforcement got a call shortly after 7:30 p.m. Sunday reporting a shooting in the 20000 block of Northpark Drive. Deputies who responded to the call found a woman who had been shot multiple times. Paramedics took her to a nearby hospital.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;230420"
-                        open
-                      >
-                        <summary class="article-expander__title">I Need Jacob Misiorowski To Please Be Careful!</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/i-need-jacob-misorowski-to-please-be-careful">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2287775844_e89a62-e1785177986698.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I have become an anxious mother, and I have adopted Jacob Misiorowski as my son. I don’t know how this happened, and I would like it to stop, because it’s taking a toll on me. Life used to be so simple. I used to watch his outings with a detached amazement. Back when I had a normal relationship to his pitching prowess, Misiorowski had already thrown 79 of the 100 highest-velocity pitches since tracking began. As of last night, he holds all 100 spots. Now he is my son, and let me be the first to say, it is really difficult being a parent to a child who you have never met and who is also older than you. I am so proud of and so worried for my boy. 
-I spent last night in a cold sweat as I fought off the urge to join Facebook, just so I could tell everyone how wonderful and successful my beautiful son is. They must know how impressive his outing was, I whispered to myself as I clawed at the drawer where my husband (wait, when did I get a husband?) had locked away my laptop. They must know that he broke his own record for most 100-mph pitches in a game. He threw 66 fastballs, and every single one of them was more than 100 miles per hour. I frantically searched for the key. They have to know that only three were hit hard and into fair territory, and that Jakey struck out 12 batters, including seven in a row to begin the game. I took a hammer to the wood. But I can’t let it slip that he was pitching against the Rockies. Susan from knitting club would have a field day with that. As if HER kids have 185 strikeouts and a 1.58 ERA!
-Speaking about the history he had once again made, Mis said, “I had no idea. I’m just throwing to Gary.” My humble boy! Someone has to brag about him if he won’t. Maybe I should send Susan that video.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Emacslife</button>
-                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://mbork.pl/2026-07-27_Outlining_in_programs"
-                        open
-                      >
-                        <summary class="article-expander__title">Marcin Borkowski: Outlining in programs</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://mbork.pl/2026-07-27_Outlining_in_programs">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>One of the Emacs’ “killer apps” is Org mode, and one of the most iconic features of Org mode is visibility cycling. It is no wonder people (including me) want a similar feature in other modes.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Rex Huppke | USA TODAY</button>
                   <a class="source-heading__link" href="https://www.usatoday.com/staff/6878775001/rex-huppke/">Open</a>
                 </h3>
@@ -6407,8 +6370,8 @@ Conservative commentator Todd Starnes sugge…</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/31077363794">
-        <time id="build-timestamp" datetime="2026-08-06T06:28:50.824Z">2026-08-06T06:28:50.824Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/31093864542">
+        <time id="build-timestamp" datetime="2026-08-06T10:36:34.061Z">2026-08-06T10:36:34.061Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
