@@ -378,16 +378,6 @@
           "wordCount": 8327,
           "title": "Charlie Holland: Hyperbole Implicit Buttons: Build your Hyperverse",
           "imageUrl": "https://www.chiply.dev/images/hyperbole-implicit-buttons-banner.webp"
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-07-29-emacs-default-minibuffer-completion-overview/",
-          "author": null,
-          "description": "Raw link: https://www.youtube.com/watch?v=yH0Gan6xMTo\nIn this video I provide an overview of the default interface for minibuffer completions in Emacs. This is an interface that has been improved considerably over the years. In Emacs version 31, this interface gets some nice new features which make it even more appealing to use.\nBelow is the article I prepared for this video, with all the code samples.\nTable of Contents\nThe default settings are usable but inconvenient\nTweaks for a more refined default completion interface\nThe completion-category-overrides for maximum control\n    \nHow to find the completion category\nCompletion categories and all the other completion-metadata\nThe default completions and related packages\nThe core Emacs infrastructure for completions is quite capable. In a pre…",
-          "link": "https://protesilaos.com/codelog/2026-07-29-emacs-default-minibuffer-completion-overview/",
-          "publishedOn": "2026-07-29T00:00:00.000Z",
-          "wordCount": 1617,
-          "title": "Protesilaos: Emacs: default minibuffer completions overview (Emacs 31)",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         }
       ]
     },

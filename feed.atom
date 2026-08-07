@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-07T10:50:56.961Z</updated>
+    <updated>2026-08-07T12:59:09.539Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -2889,27 +2889,6 @@ pressed.  This post walks through the built-in recognizers, shows how to
 ask Emacs "what will happen if I press the Action Key here?" (C-h
 A), explains the cascade of Hyperbole's pattern recognizers that picks
 the winning action, and dem…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Protesilaos: Emacs: default minibuffer completions overview (Emacs 31)]]></title>
-        <id>https://protesilaos.com/codelog/2026-07-29-emacs-default-minibuffer-completion-overview/</id>
-        <link href="https://protesilaos.com/codelog/2026-07-29-emacs-default-minibuffer-completion-overview/"/>
-        <updated>2026-07-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Raw link: https://www.youtube.com/watch?v=yH0Gan6xMTo
-In this video I provide an overview of the default interface for minibuffer completions in Emacs. This is an interface that has been improved considerably over the years. In Emacs version 31, this interface gets some nice new features which make it even more appealing to use.
-Below is the article I prepared for this video, with all the code samples.
-Table of Contents
-The default settings are usable but inconvenient
-Tweaks for a more refined default completion interface
-The completion-category-overrides for maximum control
-    
-How to find the completion category
-Completion categories and all the other completion-metadata
-The default completions and related packages
-The core Emacs infrastructure for completions is quite capable. In a pre…]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>
