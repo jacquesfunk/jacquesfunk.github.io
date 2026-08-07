@@ -90,6 +90,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=13996",
+          "author": null,
+          "description": "the Emacs speedbar and its Emacs 31 upgrade. The TL;DR is that as of Emacs 31, you can configure the speedbar to be displayed in a separate window instead of a separate frame. The video is 15 minutes, 39 seconds so it should be easy to find time for it.\n\n\nThe placement of the speedbar matters a lot to Prot. He found the speedbar to be unusable when it was displayed in a separate frame because it was difficult to deal with the two related frames. It’s absolutely impossible for me to deal with because I run Emacs as a full screen app so the speedbar is in another workspace and I have to switch to that workspace to see it.\n\n\nNow that the speedbar can be displayed in the same frame, Prot finds that it can be useful when dealing with large projects with many files. His video is mostly concerned with showing how the speedbar works and what you can do with it.\n\n\nLots of people love speedbar-like applications and swear by them. I, however, have never been able to warm up to them. These days, I don’t work with large projects and perhaps I’d feel differently if I did but mostly they just seem like noise to me. Even Prot says he doesn’t use speedbar for his smaller personal projects but that it can be useful for larger, multi-file projects.\n\n\nMy recommendation is that if you don’t already strong opinions on the matter, give the speedbar a try when Emacs 31 comes out and see if it works for you. There are plenty of informed opinions on both sides of the issue so there’s no right answer, just what works for you. As always, Emacs will let you have it your way.",
+          "link": "https://irreal.org/blog/?p=13996",
+          "publishedOn": "2026-08-07T14:27:46.000Z",
+          "wordCount": 1549,
+          "title": "Irreal: Emacs 31 And The Speedbar",
+          "imageUrl": null
+        },
+        {
           "id": "https://sachachua.com/blog/2026/08/6-aout-emacs-chat-richard-bonichon/",
           "author": null,
           "description": "Prot et moi avons parlé en direct avec Richard Bonichon (emacs.d, GitHub) d'Emacs, d'OCaml, de ses flux de travail, de sa configuration et d'autres sujets en français.\n\n\n\nJ'ai raté le début de la diffusion en direct. Je suis vraiment désolée ! Heureusement, j'ai enregistré toute la conversation localement. Voici la vidéo complète :\n\n\n\n\nWatch on YouTube\n\n\n\nJ'ai essayé de corriger la transcription, mais je crois qu'il y a encore beaucoup d'erreurs, donc n'hésitez pas à m'envoyer un message.\n\n\n\nMerci beaucoup à Richard, à Prot, et à tous les auditeurs ! À la semaine prochaine pour le 13 août : Emacs Chat avec Fabrice Niessen !\n\n\n\n\n\nLa transcription un peu corrigée\nChat\nvous voulez parler d'Emacs avec Prot et moi en français, n'hésitez pas à me contacter!\n\n\nLa transcription un peu corrigée\nDet…",
@@ -368,16 +378,6 @@
           "wordCount": 2131,
           "title": "Emacs Redux: Flycheck 38: Might &amp; Magic",
           "imageUrl": "https://emacsredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://www.chiply.dev/post-hyperbole-implicit-buttons",
-          "author": null,
-          "description": "1. TLDR\n\n\n\n\n\nYour Emacs is full of markup-free hyperlinks embedded in your text, but\nyou're missing a way to utilize them.  Think about a file path in a\nREADME, a URL in an email, a commit 55a1f0 in a git log, or a function\ncall.  All of these have a logical referent (a location or action), and\nyou likely have a good idea of what they should point to.  GNU\nHyperbole's implicit buttons are pattern recognizers that identify\ndifferent hyperlink buttons in many Emacs contexts.  Hyperbole's Action\nKey (a single keybinding) then activates such buttons when it is\npressed.  This post walks through the built-in recognizers, shows how to\nask Emacs \"what will happen if I press the Action Key here?\" (C-h\nA), explains the cascade of Hyperbole's pattern recognizers that picks\nthe winning action, and dem…",
-          "link": "https://www.chiply.dev/post-hyperbole-implicit-buttons",
-          "publishedOn": "2026-07-29T01:10:50.000Z",
-          "wordCount": 8327,
-          "title": "Charlie Holland: Hyperbole Implicit Buttons: Build your Hyperverse",
-          "imageUrl": "https://www.chiply.dev/images/hyperbole-implicit-buttons-banner.webp"
         }
       ]
     },
@@ -386,6 +386,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=231572",
+          "author": "Tom Ley",
+          "description": "It is a funny twist of fate that the Indiana Fever have become such an engine for maddening WNBA storylines that have little or nothing to do with their actual on-court performances, because those performances are crazy-making enough on their own. Are the Fever a great team capable of melting any opponent in front of them, or a bunch of chumps who can't defend the paint to save their lives? Is Caitlin Clark one of the most dynamic guards in the league, or a bozo who can't stop turning it over and coming up short in big moments? Will this team ever be normal? These are the questions that have defined the Fever's season, and on Thursday night the usual set of answers presented themselves: Yes, yes, yes, yes, and no.\nThe Fever lost to the Aces, 86-84, in an overtime thriller that presented the best and worst versions of both teams. For most of the first half, it looked like the Fever were on their way to recreating the 109-75 beatdown they handed the Aces back on July 12, which preceded a 13-point loss to the Valkyries that was followed by a five-game winning streak in which the Fever scored at least 100 points in every game. The whiplash carried over into Thursday's game, which started with the Fever running out to a 42-22 lead with four minutes left to play in the first half. A'ja Wilson was having trouble getting to her spots, the Fever were playing fast, and Kelsey Mitchell and Aliyah Boston couldn't miss. And then Indiana fell into bozo mode.\nOver the final four minutes of the half, Clark, Mitchell, and Boston combined to go 0-5 from the field while Clark turned the ball over three times. This helped the Aces finish the half on a 15-0 run, and by the time both teams headed to their locker rooms Vegas was only down by five. The Aces continued to put the squeeze on in the third quarter, outscoring the Fever 19-9; with 6:16 left to play in the fourth, they had build a nine-point lead.",
+          "link": "https://defector.com/chelsea-gray-punished-caitlin-clarks-mistakes",
+          "publishedOn": "2026-08-07T14:11:49.000Z",
+          "wordCount": 6087,
+          "title": "Chelsea Gray Punished Caitlin Clark’s Mistakes",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2289398105.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=231389",
+          "author": "Sabrina Imbler",
+          "description": "Various journalists have tried and failed to investigate the origins of turducken, that matryoshka-inspired dish of a chicken nested inside a duck nested inside a turkey. One chef in Louisiana claims to have invented the dish but refused to tell the New York Times when or where he created it, or even his age. But turducken is best understood as a modern combination in an ancient lineage of engastration, a cooking technique in which one animal is stuffed inside another. \nOther famous entrants in the genre include haggis, a potpourri of sheep organs stuffed inside its stomach, and kiviak, a wintertime Inuit dish made of little auks that ferment inside sealskin. The most ostentatious engastration may well be Alexandre Balthazar Laurent Grimod de La Reynière's rôti sans pareil, or \"roast without equal,\" which called for \"a bustard stuffed with a turkey, a goose, a pheasant, a chicken, a duck, a guinea fowl, a teal, a woodcock, a partridge, a plover, a lapwing, a quail, a thrush, a lark, an ortolan bunting and a garden warbler.\"\nIn nature, however, engastration is simply a way of life. To swallow someone whole often also involves swallowing whoever they recently swallowed. Scientists recently discovered an exemplar of this all-natural turducken from around 100 million years ago in the Cretaceous. The recipe is as follows: Stuff some early cephalopods inside a flying reptile called a pterosaur, then stuff that pterosaur inside a marine reptile called an ichthyosaur. As a garnish, feed part of the ichthyosaur to an even larger marine reptile called a pliosaur. The fossil was found in Queensland, in what was once the shallow Eromanga Sea, and described in the journal Gondwana Research.",
+          "link": "https://defector.com/would-you-eat-this-cretaceous-turducken",
+          "publishedOn": "2026-08-07T13:05:45.000Z",
+          "wordCount": 6581,
+          "title": "Would You Eat This Cretaceous Turducken?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/fossil-provides-world-1.jpg"
+        },
         {
           "id": "https://defector.com/?p=231516",
           "author": "Maitreyi Anantharaman",
@@ -1153,16 +1173,6 @@
           "publishedOn": "2026-07-30T03:03:53.000Z",
           "wordCount": 2637,
           "title": "Forgotten Band: Big Star",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3092",
-          "author": "Schill",
-          "description": "Olivia Rodrigo is an American singer, songwriter, and actress who has become one of the defining pop stars of her",
-          "link": "https://stuffthatinterestsme.net/hump-day-hottie-olivia-rodrigo/",
-          "publishedOn": "2026-07-29T02:05:39.000Z",
-          "wordCount": 1533,
-          "title": "Hump Day Hottie: Olivia Rodrigo",
           "imageUrl": null
         }
       ]
