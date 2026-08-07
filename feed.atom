@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-07T20:38:42.721Z</updated>
+    <updated>2026-08-07T22:32:56.811Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -548,6 +548,39 @@ The scandal this time centers around Pats head coach Mike Vrabel, who just this 
 I just checked prices for Warriors home playoff tickets, should they advance to the big-boy tournament. The cheapest seats are going for $270 a pop on Ticketbastard, and that’s if you want to watch the game from the Chase Center lighting rigs. If you’d like to sit on the lower level, with a nice view of center court, that’ll run you over $3,500. That’s a down payment on a car just…]]></summary>
         <author>
             <name>Drew Magary, Columnist - SFGATE</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dave's blog: Run the file in Emacs’ dired]]></title>
+        <id>https://davemq.github.io/2026/08/07/run-the-file-in-dired.html</id>
+        <link href="https://davemq.github.io/2026/08/07/run-the-file-in-dired.html"/>
+        <updated>2026-08-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I started going through the
+The Rust Programming Language to learn rust. I’m using the rustic
+package to edit files, run cargo, etc.
+Having run cargo build in the sample hello_cargo project, I
+wanted to run the executable file from within Dired. I realized
+there’s no obvious way to do this in Dired or Dired-X, and that’s
+probably a good thing. If it was easy I can imagine all sorts of havoc
+with people accidentally, or intentionally, runnning files out of
+Dired. Too easy.
+But it occurred to me that bash has command to run
+the next word in the command line as a command. I tried ! command in
+Dired, but since the directory isn’t in the path, it told me
+
+/bin/bash: line 1: hello_cargo: command not found
+
+
+Okay, update PATH before running command:
+! PATH=.:$PATH command. This actually works, but decades of
+training give me a
+queasy feeling about adding . to PATH. How about $PWD instead?
+! PATH=$PWD:$PATH command. Yep, that works too.
+But of course, with rustic, I can use C-c C-p r to run
+cargo run to run the command. But trying to run the file on
+the line in Dired was an interesting diversion!]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -2953,41 +2986,6 @@ Mirador is fun. It's "An opinionated personal dashboard for your terminal — wo
 ✍️ Reply by email]]></summary>
         <author>
             <name>baty.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JD Vance will never be the GOP Obama]]></title>
-        <id>https://www.salon.com/2026/07/29/jd-vance-will-never-be-the-gop-obama/-full</id>
-        <link href="https://www.salon.com/2026/07/29/jd-vance-will-never-be-the-gop-obama/"/>
-        <updated>2026-07-29T10:30:56.000Z</updated>
-        <summary type="html"><![CDATA[JD Vance sees himself in a former president. In a recent on-stage conversation about his memoir “Communion: Finding My Way Back to Faith,” the vice president was apparently inspired when talking about how this politician was a “political genius” and “peacemaker” who pulled America out of an unpopular war. “Young senator, writes some bestselling books,” he said, ticking off a number of shared qualities. “It kinda sounds like JD Vance.”
-The vice president was talking about Richard Nixon. But it’s understandable if readers first imagined the face of Barack Obama. As Vance gears up to run for president in 2028, he’s clearly trying to position himself as the GOP’s answer to the 44th president, who remains the most popular political figure in the country.
-Vance will likely never say this out lou…]]></summary>
-        <author>
-            <name>Amanda Marcotte - Salon.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Emacs Redux: Flycheck 38: Might &amp; Magic]]></title>
-        <id>https://emacsredux.com/blog/2026/07/29/flycheck-38/</id>
-        <link href="https://emacsredux.com/blog/2026/07/29/flycheck-38/"/>
-        <updated>2026-07-29T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Not all those who wander are lost.
-– J.R.R. Tolkien
-Today I’m happy to announce Flycheck 38 - easily the biggest and most
-ambitious Flycheck release since I took over the stewardship of the project.
-It’s the release where Flycheck grows a proper story for language servers, gets
-the kind of inline diagnostics you’d expect from a modern editor, and learns to
-apply fixes - all without giving up the checker model that made it popular in the
-first place.
-The version number, I’ll admit, doesn’t do this one justice - it’s just the next
-integer after 37, and nothing about “38” whispers “special”. But that’s how it
-goes with version numbers: some releases are more special than others, and you’d
-rarely guess which from the number alone.
-There and back again
-A little history, because it’s what makes …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>

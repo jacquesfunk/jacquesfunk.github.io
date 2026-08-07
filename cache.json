@@ -100,6 +100,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://davemq.github.io/2026/08/07/run-the-file-in-dired.html",
+          "author": null,
+          "description": "I started going through the\nThe Rust Programming Language to learn rust. I’m using the rustic\npackage to edit files, run cargo, etc.\nHaving run cargo build in the sample hello_cargo project, I\nwanted to run the executable file from within Dired. I realized\nthere’s no obvious way to do this in Dired or Dired-X, and that’s\nprobably a good thing. If it was easy I can imagine all sorts of havoc\nwith people accidentally, or intentionally, runnning files out of\nDired. Too easy.\nBut it occurred to me that bash has command to run\nthe next word in the command line as a command. I tried ! command in\nDired, but since the directory isn’t in the path, it told me\n\n/bin/bash: line 1: hello_cargo: command not found\n\n\nOkay, update PATH before running command:\n! PATH=.:$PATH command. This actually works, but decades of\ntraining give me a\nqueasy feeling about adding . to PATH. How about $PWD instead?\n! PATH=$PWD:$PATH command. Yep, that works too.\nBut of course, with rustic, I can use C-c C-p r to run\ncargo run to run the command. But trying to run the file on\nthe line in Dired was an interesting diversion!",
+          "link": "https://davemq.github.io/2026/08/07/run-the-file-in-dired.html",
+          "publishedOn": "2026-08-07T00:00:00.000Z",
+          "wordCount": 258,
+          "title": "Dave's blog: Run the file in Emacs’ dired",
+          "imageUrl": null
+        },
+        {
           "id": "https://sachachua.com/blog/2026/08/6-aout-emacs-chat-richard-bonichon/",
           "author": null,
           "description": "Prot et moi avons parlé en direct avec Richard Bonichon (emacs.d, GitHub) d'Emacs, d'OCaml, de ses flux de travail, de sa configuration et d'autres sujets en français.\n\n\n\nJ'ai raté le début de la diffusion en direct. Je suis vraiment désolée ! Heureusement, j'ai enregistré toute la conversation localement. Voici la vidéo complète :\n\n\n\n\nWatch on YouTube\n\n\n\nJ'ai essayé de corriger la transcription, mais je crois qu'il y a encore beaucoup d'erreurs, donc n'hésitez pas à m'envoyer un message.\n\n\n\nMerci beaucoup à Richard, à Prot, et à tous les auditeurs ! À la semaine prochaine pour le 13 août : Emacs Chat avec Fabrice Niessen !\n\n\n\n\n\nLa transcription un peu corrigée\nChat\nvous voulez parler d'Emacs avec Prot et moi en français, n'hésitez pas à me contacter!\n\n\nLa transcription un peu corrigée\nDet…",
@@ -368,16 +378,6 @@
           "wordCount": 1576,
           "title": "Meta Redux: Leveling Up CIDER’s ClojureScript Support",
           "imageUrl": "https://metaredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://emacsredux.com/blog/2026/07/29/flycheck-38/",
-          "author": null,
-          "description": "Not all those who wander are lost.\n– J.R.R. Tolkien\nToday I’m happy to announce Flycheck 38 - easily the biggest and most\nambitious Flycheck release since I took over the stewardship of the project.\nIt’s the release where Flycheck grows a proper story for language servers, gets\nthe kind of inline diagnostics you’d expect from a modern editor, and learns to\napply fixes - all without giving up the checker model that made it popular in the\nfirst place.\nThe version number, I’ll admit, doesn’t do this one justice - it’s just the next\ninteger after 37, and nothing about “38” whispers “special”. But that’s how it\ngoes with version numbers: some releases are more special than others, and you’d\nrarely guess which from the number alone.\nThere and back again\nA little history, because it’s what makes …",
-          "link": "https://emacsredux.com/blog/2026/07/29/flycheck-38/",
-          "publishedOn": "2026-07-29T09:00:00.000Z",
-          "wordCount": 2131,
-          "title": "Emacs Redux: Flycheck 38: Might &amp; Magic",
-          "imageUrl": "https://emacsredux.com/assets/og-image.png"
         }
       ]
     },
@@ -1308,16 +1308,6 @@
           "wordCount": 2138,
           "title": "The real reason Todd Blanche won’t drop Trump’s slush fund",
           "imageUrl": "https://www.salon.com/app/uploads/2026/05/GettyImages-2273596722.jpg"
-        },
-        {
-          "id": "https://www.salon.com/2026/07/29/jd-vance-will-never-be-the-gop-obama/-full",
-          "author": null,
-          "description": "JD Vance sees himself in a former president. In a recent on-stage conversation about his memoir “Communion: Finding My Way Back to Faith,” the vice president was apparently inspired when talking about how this politician was a “political genius” and “peacemaker” who pulled America out of an unpopular war. “Young senator, writes some bestselling books,” he said, ticking off a number of shared qualities. “It kinda sounds like JD Vance.”\nThe vice president was talking about Richard Nixon. But it’s understandable if readers first imagined the face of Barack Obama. As Vance gears up to run for president in 2028, he’s clearly trying to position himself as the GOP’s answer to the 44th president, who remains the most popular political figure in the country.\nVance will likely never say this out lou…",
-          "link": "https://www.salon.com/2026/07/29/jd-vance-will-never-be-the-gop-obama/",
-          "publishedOn": "2026-07-29T10:30:56.000Z",
-          "wordCount": 2172,
-          "title": "JD Vance will never be the GOP Obama",
-          "imageUrl": "https://www.salon.com/app/uploads/2026/07/JD-Vance-2284649403.jpg"
         }
       ]
     },

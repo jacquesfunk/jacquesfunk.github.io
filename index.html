@@ -1172,6 +1172,212 @@ I just checked prices for Warriors home playoff tickets, should they advance to 
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Emacslife</button>
+                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://davemq.github.io/2026/08/07/run-the-file-in-dired.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Dave&#x27;s blog: Run the file in Emacs’ dired</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://davemq.github.io/2026/08/07/run-the-file-in-dired.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I started going through the
+The Rust Programming Language to learn rust. I’m using the rustic
+package to edit files, run cargo, etc.
+Having run cargo build in the sample hello_cargo project, I
+wanted to run the executable file from within Dired. I realized
+there’s no obvious way to do this in Dired or Dired-X, and that’s
+probably a good thing. If it was easy I can imagine all sorts of havoc
+with people accidentally, or intentionally, runnning files out of
+Dired. Too easy.
+But it occurred to me that bash has command to run
+the next word in the command line as a command. I tried ! command in
+Dired, but since the directory isn’t in the path, it told me
+
+/bin/bash: line 1: hello_cargo: command not found
+
+
+Okay, update PATH before running command:
+! PATH&#x3D;.:$PATH command. This actually works, but decades of
+training give me a
+queasy feeling about adding . to PATH. How about $PWD instead?
+! PATH&#x3D;$PWD:$PATH command. Yep, that works too.
+But of course, with rustic, I can use C-c C-p r to run
+cargo run to run the command. But trying to run the file on
+the line in Dired was an interesting diversion!</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://sachachua.com/blog/2026/08/6-aout-emacs-chat-richard-bonichon/"
+                        open
+                      >
+                        <summary class="article-expander__title">Sacha Chua: Emacs Chat avec Richard Bonichon en français</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://sachachua.com/blog/2026/08/6-aout-emacs-chat-richard-bonichon/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Prot et moi avons parlé en direct avec Richard Bonichon (emacs.d, GitHub) d&#x27;Emacs, d&#x27;OCaml, de ses flux de travail, de sa configuration et d&#x27;autres sujets en français.
+
+
+
+J&#x27;ai raté le début de la diffusion en direct. Je suis vraiment désolée ! Heureusement, j&#x27;ai enregistré toute la conversation localement. Voici la vidéo complète :
+
+
+
+
+Watch on YouTube
+
+
+
+J&#x27;ai essayé de corriger la transcription, mais je crois qu&#x27;il y a encore beaucoup d&#x27;erreurs, donc n&#x27;hésitez pas à m&#x27;envoyer un message.
+
+
+
+Merci beaucoup à Richard, à Prot, et à tous les auditeurs ! À la semaine prochaine pour le 13 août : Emacs Chat avec Fabrice Niessen !
+
+
+
+
+
+La transcription un peu corrigée
+Chat
+vous voulez parler d&#x27;Emacs avec Prot et moi en français, n&#x27;hésitez pas à me contacter!
+
+
+La transcription un peu corrigée
+Det…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;51
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://ray-on-emacs.blogspot.com/2026/08/dedicate-emacs-window-to-its-buffer.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Raymond Zeitler: Dedicate an Emacs Window to Its Buffer</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ray-on-emacs.blogspot.com/2026/08/dedicate-emacs-window-to-its-buffer.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>that file will open in my writing window, and I lose focus.  Dedicating
+the window prevents this.
+
+
+
+  I could dedicate a window manually by invoking
+toggle-window-dedicated (bound to C-x w d)
+every time I start writing.  But because I clock in to anything I&#x27;m
+serious about, I let org-clock-in-hook to do it for me as
+shown below.  Note that the hook calls set-window-dedicated-p rather than
+toggle-window-dedicated because the latter will
+un-dedicate a window that&#x27;s already dedicated.  I could
+configure org-clock-out-hook to un-dedicate the window;
+I&#x27;m debating whether it&#x27;s necessary.
+
+
+
+(add-hook &#x27;org-clock-in-hook (lambda () (set-window-dedicated-p nil t)))
+
+
+
+
+Interestingly, while I was writing this, JTR published his
+&quot;Gems&quot; article in which he writes about setting
+help-window-keep-selected to true &quot;to keep help in its
+own dedicated window, so it won’t open in a separate window once we
+follow a link.&quot;1 Perhaps that’s his approach to the same issue.
+
+
+1
+Emacs Config Gems - Part 3</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13994"
+                        open
+                      >
+                        <summary class="article-expander__title">Irreal: Displaying The Active Clock</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13994">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Ray on Emacs, Raymond Zeitler has an interesting post on displaying the Org clocked in status. The default is to display it in the mode line but Zeitler wanted to display it in the title bar too. It turns out you can turn it off, display it in the mode line, display it in the title bar, or display it in both the mode line and title bar. These choices are controlled by the org-clock-clocked-in-display variable.
+
+
+If you regularly clock in your tasks, having flexibility in where the status is displayed could be useful. The problem is I couldn’t find any reference to this variable in the help system or in timeclock.el, which handles the seemingly related timeclock-mode-line-display.
+
+
+I updated my packages to make sure I had the latest Org Mode (I’m on Org 9.8.8) but I got the same results. I’m guessing that Zeitler is using one of the Emacs 31 prereleases, which implements this. If you’re interested in this feature and are on Emacs 31Try it on your system and see what happens. If it works for you, leave a comment.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://srijan.ch/emacs-desktop-save-mode-without-the-automatic-restore"
+                        open
+                      >
+                        <summary class="article-expander__title">Srijan Choudhary: Emacs: desktop-save-mode without the automatic restore</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://srijan.ch/emacs-desktop-save-mode-without-the-automatic-restore">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://srijan.ch/media/pages/blog/emacs-desktop-save-mode-without-the-automatic-restore/836a5dd477-1786001094/restore-desktop-session-demo-1200x630-crop-28-1-79-8.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Emacs has a built-in way to save and restore sessions: the desktop.el library.
+As the Emacs manual says, putting this in the init file enables automatic save and restore of sessions:
+(desktop-save-mode 1)
+But, I wanted a different behavior:
+Automatically save the session
+But don&#x27;t restore it automatically
+I wanted to only use the session feature to restore sessions that I closed by mistake, or where I forgot to finish something before quitting Emacs. By default, I wanted a fresh session every time.
+But this also means that some session history has to be maintained; otherwise, a fresh session will start to write to the desktop file and then I will not be able to recover the old session.
+By default, the way to do this is to not set desktop-save-mode, but manually call desktop-save when neede…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Defector</button>
                   <a class="source-heading__link" href="https://defector.com/">Open</a>
                 </h3>
@@ -1418,170 +1624,6 @@ I wasn&#x27;t the only one seeing this in my search results; my colleague Maitre
                             <span class="media-object__text">
                               <span>The post The Biclops appeared first on The Perry Bible Fellowship.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Emacslife</button>
-                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://sachachua.com/blog/2026/08/6-aout-emacs-chat-richard-bonichon/"
-                        open
-                      >
-                        <summary class="article-expander__title">Sacha Chua: Emacs Chat avec Richard Bonichon en français</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://sachachua.com/blog/2026/08/6-aout-emacs-chat-richard-bonichon/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Prot et moi avons parlé en direct avec Richard Bonichon (emacs.d, GitHub) d&#x27;Emacs, d&#x27;OCaml, de ses flux de travail, de sa configuration et d&#x27;autres sujets en français.
-
-
-
-J&#x27;ai raté le début de la diffusion en direct. Je suis vraiment désolée ! Heureusement, j&#x27;ai enregistré toute la conversation localement. Voici la vidéo complète :
-
-
-
-
-Watch on YouTube
-
-
-
-J&#x27;ai essayé de corriger la transcription, mais je crois qu&#x27;il y a encore beaucoup d&#x27;erreurs, donc n&#x27;hésitez pas à m&#x27;envoyer un message.
-
-
-
-Merci beaucoup à Richard, à Prot, et à tous les auditeurs ! À la semaine prochaine pour le 13 août : Emacs Chat avec Fabrice Niessen !
-
-
-
-
-
-La transcription un peu corrigée
-Chat
-vous voulez parler d&#x27;Emacs avec Prot et moi en français, n&#x27;hésitez pas à me contacter!
-
-
-La transcription un peu corrigée
-Det…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;51
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://ray-on-emacs.blogspot.com/2026/08/dedicate-emacs-window-to-its-buffer.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Raymond Zeitler: Dedicate an Emacs Window to Its Buffer</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://ray-on-emacs.blogspot.com/2026/08/dedicate-emacs-window-to-its-buffer.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>that file will open in my writing window, and I lose focus.  Dedicating
-the window prevents this.
-
-
-
-  I could dedicate a window manually by invoking
-toggle-window-dedicated (bound to C-x w d)
-every time I start writing.  But because I clock in to anything I&#x27;m
-serious about, I let org-clock-in-hook to do it for me as
-shown below.  Note that the hook calls set-window-dedicated-p rather than
-toggle-window-dedicated because the latter will
-un-dedicate a window that&#x27;s already dedicated.  I could
-configure org-clock-out-hook to un-dedicate the window;
-I&#x27;m debating whether it&#x27;s necessary.
-
-
-
-(add-hook &#x27;org-clock-in-hook (lambda () (set-window-dedicated-p nil t)))
-
-
-
-
-Interestingly, while I was writing this, JTR published his
-&quot;Gems&quot; article in which he writes about setting
-help-window-keep-selected to true &quot;to keep help in its
-own dedicated window, so it won’t open in a separate window once we
-follow a link.&quot;1 Perhaps that’s his approach to the same issue.
-
-
-1
-Emacs Config Gems - Part 3</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://irreal.org/blog/?p&#x3D;13994"
-                        open
-                      >
-                        <summary class="article-expander__title">Irreal: Displaying The Active Clock</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;13994">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Ray on Emacs, Raymond Zeitler has an interesting post on displaying the Org clocked in status. The default is to display it in the mode line but Zeitler wanted to display it in the title bar too. It turns out you can turn it off, display it in the mode line, display it in the title bar, or display it in both the mode line and title bar. These choices are controlled by the org-clock-clocked-in-display variable.
-
-
-If you regularly clock in your tasks, having flexibility in where the status is displayed could be useful. The problem is I couldn’t find any reference to this variable in the help system or in timeclock.el, which handles the seemingly related timeclock-mode-line-display.
-
-
-I updated my packages to make sure I had the latest Org Mode (I’m on Org 9.8.8) but I got the same results. I’m guessing that Zeitler is using one of the Emacs 31 prereleases, which implements this. If you’re interested in this feature and are on Emacs 31Try it on your system and see what happens. If it works for you, leave a comment.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://srijan.ch/emacs-desktop-save-mode-without-the-automatic-restore"
-                        open
-                      >
-                        <summary class="article-expander__title">Srijan Choudhary: Emacs: desktop-save-mode without the automatic restore</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://srijan.ch/emacs-desktop-save-mode-without-the-automatic-restore">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://srijan.ch/media/pages/blog/emacs-desktop-save-mode-without-the-automatic-restore/836a5dd477-1786001094/restore-desktop-session-demo-1200x630-crop-28-1-79-8.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Emacs has a built-in way to save and restore sessions: the desktop.el library.
-As the Emacs manual says, putting this in the init file enables automatic save and restore of sessions:
-(desktop-save-mode 1)
-But, I wanted a different behavior:
-Automatically save the session
-But don&#x27;t restore it automatically
-I wanted to only use the session feature to restore sessions that I closed by mistake, or where I forgot to finish something before quitting Emacs. By default, I wanted a fresh session every time.
-But this also means that some session history has to be maintained; otherwise, a fresh session will start to write to the desktop file and then I will not be able to recover the old session.
-By default, the way to do this is to not set desktop-save-mode, but manually call desktop-save when neede…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -6156,75 +6198,6 @@ debugger, enlighten, t…</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://emacsredux.com/blog/2026/07/29/flycheck-38/"
-                        open
-                      >
-                        <summary class="article-expander__title">Emacs Redux: Flycheck 38: Might &amp; Magic</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://emacsredux.com/blog/2026/07/29/flycheck-38/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://emacsredux.com/assets/og-image.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Not all those who wander are lost.
-– J.R.R. Tolkien
-Today I’m happy to announce Flycheck 38 - easily the biggest and most
-ambitious Flycheck release since I took over the stewardship of the project.
-It’s the release where Flycheck grows a proper story for language servers, gets
-the kind of inline diagnostics you’d expect from a modern editor, and learns to
-apply fixes - all without giving up the checker model that made it popular in the
-first place.
-The version number, I’ll admit, doesn’t do this one justice - it’s just the next
-integer after 37, and nothing about “38” whispers “special”. But that’s how it
-goes with version numbers: some releases are more special than others, and you’d
-rarely guess which from the number alone.
-There and back again
-A little history, because it’s what makes …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Amanda Marcotte - Salon.com</button>
-                  <a class="source-heading__link" href="https://www.salon.com/writer/amanda_marcotte">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.salon.com/2026/07/29/jd-vance-will-never-be-the-gop-obama/-full"
-                        open
-                      >
-                        <summary class="article-expander__title">JD Vance will never be the GOP Obama</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.salon.com/2026/07/29/jd-vance-will-never-be-the-gop-obama/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.salon.com/app/uploads/2026/07/JD-Vance-2284649403.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>JD Vance sees himself in a former president. In a recent on-stage conversation about his memoir “Communion: Finding My Way Back to Faith,” the vice president was apparently inspired when talking about how this politician was a “political genius” and “peacemaker” who pulled America out of an unpopular war. “Young senator, writes some bestselling books,” he said, ticking off a number of shared qualities. “It kinda sounds like JD Vance.”
-The vice president was talking about Richard Nixon. But it’s understandable if readers first imagined the face of Barack Obama. As Vance gears up to run for president in 2028, he’s clearly trying to position himself as the GOP’s answer to the 44th president, who remains the most popular political figure in the country.
-Vance will likely never say this out lou…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -6232,8 +6205,8 @@ Vance will likely never say this out lou…</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/31216687129">
-        <time id="build-timestamp" datetime="2026-08-07T20:38:42.693Z">2026-08-07T20:38:42.693Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/31224147128">
+        <time id="build-timestamp" datetime="2026-08-07T22:32:56.782Z">2026-08-07T22:32:56.782Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
