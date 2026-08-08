@@ -90,6 +90,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=13998",
+          "author": null,
+          "description": "customizing his agenda view. He’s a graduate student, apparently in the sciences, and has to keep track of his tasks and their statuses. The natural solution for us Emacsers is to use Org mode and the agenda view to track these things.\n\n\nThere’s nothing exciting about that, of course, but what makes his post interesting is that he shows how to create a custom agenda view. It’s easy to make a custom view and I have a lot of them but they’re pretty simple. Panigrahi views are more complex and he demonstrates how to specify more intricate criteria for the view.\n\n\nFor his main view, he wants to show tasks that he’s completed since his last group meeting. That means he wants to filter for tasks completed in the last 7 days that aren’t personal items. He also wants to keep tags, so he makes sure they aren’t removed.\n\n\nFinally, since he often consults this view, he has a function that calls it with a simple Ctrl+c w rather than having to go through the agenda dispatch menu.\n\n\nAs I said, you probably won’t care about his particular view but it’s instructive to see how he defined it as a jumping off place for your own views.",
+          "link": "https://irreal.org/blog/?p=13998",
+          "publishedOn": "2026-08-08T14:46:47.000Z",
+          "wordCount": 1454,
+          "title": "Irreal: A Customized Agenda View",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=13996",
           "author": null,
           "description": "the Emacs speedbar and its Emacs 31 upgrade. The TL;DR is that as of Emacs 31, you can configure the speedbar to be displayed in a separate window instead of a separate frame. The video is 15 minutes, 39 seconds so it should be easy to find time for it.\n\n\nThe placement of the speedbar matters a lot to Prot. He found the speedbar to be unusable when it was displayed in a separate frame because it was difficult to deal with the two related frames. It’s absolutely impossible for me to deal with because I run Emacs as a full screen app so the speedbar is in another workspace and I have to switch to that workspace to see it.\n\n\nNow that the speedbar can be displayed in the same frame, Prot finds that it can be useful when dealing with large projects with many files. His video is mostly concerned with showing how the speedbar works and what you can do with it.\n\n\nLots of people love speedbar-like applications and swear by them. I, however, have never been able to warm up to them. These days, I don’t work with large projects and perhaps I’d feel differently if I did but mostly they just seem like noise to me. Even Prot says he doesn’t use speedbar for his smaller personal projects but that it can be useful for larger, multi-file projects.\n\n\nMy recommendation is that if you don’t already strong opinions on the matter, give the speedbar a try when Emacs 31 comes out and see if it works for you. There are plenty of informed opinions on both sides of the issue so there’s no right answer, just what works for you. As always, Emacs will let you have it your way.",
@@ -1125,16 +1135,6 @@
           "wordCount": 1721,
           "title": "Phriday Phistory:  Prague Ghost",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3250",
-          "author": "Schill",
-          "description": "History is filled with artists who became legends through platinum albums, sold-out arenas, and chart-topping singles. Big Star’s story couldn’t",
-          "link": "https://stuffthatinterestsme.net/forgotten-band-big-star/",
-          "publishedOn": "2026-07-30T03:03:53.000Z",
-          "wordCount": 2637,
-          "title": "Forgotten Band: Big Star",
-          "imageUrl": null
         }
       ]
     },
@@ -1207,6 +1207,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/07/28/the-odyssey-movie-box-office-accuracy/91077633007/-full",
+          "author": "Rex Huppke",
+          "description": "Like most normal, well-adjusted men, I have spent every waking moment since Christopher Nolan’s “The Odyssey” opened in theaters feeling apoplectically angry about Christopher Nolan’s “The Odyssey.”\nI have rage-posted online, noting that by casting people who are different than me, the director ruined a beloved epic poem I never actually read. I have blamed wokeness for creating a world in which an ancient work of absolute fiction can be sullied by what I, making perfect sense, angrily claim to be historical inaccuracies. \nYet despite all my productive and intellectual online shouting, the movie has made $652 million worldwide since its July 17 release. And even more frustratingly, I’m still single.\nI'm mad that a fictional movie is historically inaccurate\n\nI struggle to understand these d…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/07/28/the-odyssey-movie-box-office-accuracy/91077633007/",
+          "publishedOn": "2026-08-08T16:30:28.790Z",
+          "wordCount": 3785,
+          "title": "I'm so mad that a fictional movie is historically inaccurateRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/08/USAT/90845791007-ct-03414.jpg?crop=2298,1293,x406,y280&width=2298&height=1293&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/07/iran-missiles-trump-munitions-shortage/91199404007/-full",
           "author": "Rex Huppke",
@@ -2228,7 +2238,18 @@
       "title": "Go Make Things",
       "feedUrl": "https://gomakethings.com/feed/index.xml",
       "siteUrl": "https://gomakethings.com/articles",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://gomakethings.com/articles/prefiguration-and-planting-seeds/",
+          "author": null,
+          "description": "Last winter, I wrote about prefiguration: building the future you want within the shell of existing structures.\nRather than focusing solely on tearing down systems you don’t like or pointing out what’s wrong with how things are, prefiguration aims to start laying the foundation for what you’d like instead… right here, right now, with the tools you have available.\nOne of the frustrating things about the approach is that while it allows you to take immediate action, it never really feels like enough.",
+          "link": "https://gomakethings.com/articles/prefiguration-and-planting-seeds/",
+          "publishedOn": "2026-08-08T14:30:00.000Z",
+          "wordCount": 6077,
+          "title": "Prefiguration and planting seeds",
+          "imageUrl": "https://gomakethings.com/img/og.png"
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"
