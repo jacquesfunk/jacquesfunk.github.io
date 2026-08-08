@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-08T01:24:58.166Z</updated>
+    <updated>2026-08-08T03:23:56.764Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -2899,69 +2899,6 @@ Perhaps it is unsurprising, then, that science has long neglected the humble nec
 "Think that fishes and amphibians don’t have necks? Think again"]]></summary>
         <author>
             <name>Sabrina Imbler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Folding In Non-Org Buffers]]></title>
-        <id>https://irreal.org/blog/?p=13977</id>
-        <link href="https://irreal.org/blog/?p=13977"/>
-        <updated>2026-07-29T15:06:54.000Z</updated>
-        <summary type="html"><![CDATA[really likes being able to cycle folding in Org buffers. Of course, then he wanted to be able to do the same thing in any buffer. In particular, he wanted to be able to fold and unfold groups of functions as a set. He experimented with all sorts of solutions including the builtin outline minor mode.
-
-
-None of them were quite what he wanted. Then he found outli. It was perfect for his needs. It’s a third party package but appears to be well maintained and is less than 400 lines of code. What he really likes, though, is the keybindings. Most important to him is that Tab cycles the folding just like in Org mode.
-
-
-Although I like and use headline folding in Org mode, I’ve never been able warm up to code folding. On those rare occasions when I want to narrow focus to a single function—usually to delimit searches—I simply narrow to the function or region in question. Of course, others, like mbork, disagree and those folks may want to check out mbork’s post to get the details of his solution.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I Rode The Tour de France Cauliflower]]></title>
-        <id>https://defector.com/?p=230502</id>
-        <link href="https://defector.com/i-rode-the-tour-de-france-cauliflower"/>
-        <updated>2026-07-29T14:23:24.000Z</updated>
-        <summary type="html"><![CDATA[Patrick has spent the last three weeks following the Tour de France with our friends from Escape Collective. This post was originally published on Escape Collective on July 27. Defector readers can now get a six-month free trial of Escape Collective, with ad-free and independent coverage that goes beyond the Tour de France. Claim the offer here.
-There was a point there, about three hours into a five-hour drive in 105 degree heat on the back of an enormous cauliflower, where it started getting old. And then, three things happened. In the space of 20 seconds, there was a sad-faced middle-aged man in a kind of regal medieval gown with fur sleeves and cuffs, standing a few meters away from a hauntingly still figure in a full fox suit complete with head; a few meters later, a five-year-old cosplayed as Tadej Pogacar, full UAE yellow kit and all.
-This was not an atypical series of sightings, I should stress. But its barrage did snap me out of my funk and back to the very strange reality in which I found myself. After years surveying the Tour de France promotional caravan as a sociological phenomenon, I was now in the thick of it, on the Tour de France’s hottest day, on the race’s funniest vehicle.]]></summary>
-        <author>
-            <name>Iain Treloar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta Redux: Leveling Up CIDER’s ClojureScript Support]]></title>
-        <id>https://metaredux.com/posts/2026/07/29/leveling-up-ciders-clojurescript-support.html</id>
-        <link href="https://metaredux.com/posts/2026/07/29/leveling-up-ciders-clojurescript-support.html"/>
-        <updated>2026-07-29T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Continuing the series on the notable changes in
-CIDER 2.0, let’s talk about
-ClojureScript - forever the trickier sibling in the CIDER family.
-I’ll start with a confession I’ve made before: I rarely use ClojureScript
-myself, which is a big part of why its support in CIDER has historically lagged
-behind Clojure’s. Every “State of CIDER” survey reminds me of this, usually in
-the comments section, occasionally in all caps. So in the 2.0 cycle I decided
-to stop feeling vaguely guilty about it and actually do something - across
-every layer of the stack: CIDER itself, cider-nrepl, and
-Piggieback.
-First, a strategic decision
-The most important ClojureScript change in CIDER 2.0 isn’t a feature - it’s a
-decision about what not to build. Some of CIDER’s most powerful tools (the
-debugger, enlighten, t…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[If The Podcaster Desires To Defeat The Aggregator, He Must Look Inward]]></title>
-        <id>https://defector.com/?p=230592</id>
-        <link href="https://defector.com/if-the-podcaster-desires-to-defeat-the-aggregator-he-must-look-inward"/>
-        <updated>2026-07-29T13:46:06.000Z</updated>
-        <summary type="html"><![CDATA[Listen to enough sports podcasts, and eventually you will hear someone spit the name of every podcaster's greatest enemy: The aggregators. Oh, how the fellas who talk about sports into a mic for a living love to complain about the aggregators. Don't aggregate this! yelps Zach Lowe, before sharing a mild opinion about the Toronto Raptors. Listen up, aggregators, I am not reporting this, groans Bill Simmons before guessing where LeBron James might sign. I need to be careful here, because of the aggregators, murmurs Brian Windhorst before doling out a trade rumor. These men are beset on all sides by the dreaded aggregators!
-But who are the aggregators, and what exactly are they doing to these podcasters? More often than not, "the aggregators" is a phrase used to describe various social media accounts that circulate quotes from podcast episodes for the sake of baiting engagement. A recent Tweet from Yahoo Sports acts as an exemplar of the form: a graphic with Bill Simmons's face above something he said on a recent podcast episode about how the 2026 Philadelphia 76ers might end up being just as bad as the 2012 Lakers.
-"This is bullshit," Simmons angrily tweeted in response. "We went thru all the scenarios for how the Philly signing could play out on Friday’s pod good and bad. I thought Yahoo was trying to be a real place? Don’t you guys pay respectable writers and podcasters to do content? But you also do fake clickbait crap?"]]></summary>
-        <author>
-            <name>Tom Ley</name>
         </author>
     </entry>
 </feed>
