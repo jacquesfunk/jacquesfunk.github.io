@@ -338,16 +338,6 @@
           "wordCount": 6724,
           "title": "Rahul Juliato: The Completions Buffer Is Now Enough",
           "imageUrl": "/assets/blog/posts/completions-buffer-is-now-enough.png"
-        },
-        {
-          "id": "https://tusharhero.codeberg.page/guix-shell-in-emacs.html",
-          "author": null,
-          "description": "~649 words. ~3 minutes.\n\n\n \n  tags:   guix   emacs   programming\nEmacs Carnival July 2026.\n\n\n\n \nGNU Guix is: It's an advanced package manager\nand a distribution of the  GNU Operating system. With kernel support\nfor both  GNU Linux-libre and, experimentally, for the  GNU Hurd.\n\n\n \nNix, except that it uses  GNU\nGuile instead of Nixlang for package definitions, system definitions.\nAlso replacing Systemd with  GNU Shepherd (GNU's Init System and\nService manager).\n\n\n \nguix shell. Which\nallows you to create software environments with the specified\npackages.\n\n\n \nmanifest.scm\nfile.\n\n\n \n(specifications->manifest\n '( \"gcc-toolchain\"\n    \"gdb\"\n    \"mupdf\"\n    \"make\"))\n\n\n\n \nguix shell in a directory containing the file, it gets\nthe appropriate dependencies for you.\n\n\n \n(info \"(guix) Invoking\nguix shell\").\n\n\n\n \n$ you@yourcomputer ~/Projects/awesome-program$ guix shell \nguix shell: loading environment from  '/home/you/Projects/awesome-program/manifest.scm'...\n$ you@yourcomputer ~/Projects/awesome-program$ emacs\n\n\n\n \nM-x guix-shell inside\nEmacs itself. This was contributed to the  emacs-guix package by yours\ntruly.\n\n\n \n(info \"(emacs-guix) Guix Shell\").\n\n\n\n \n$ you@yourcomputer ~/Projects/awesome-program$ guix shell python\n\n\n\n \n\n   \n \n$ you@yourcomputer ~/Projects/awesome-program$ guix shell python python-numpy\n\n\n\n \n\n   \n \n(Yeah, I forgot about the commas).\n\n\n \nmanifest.scm file that you can use in the\nfuture? In the CLI, you would do,\n\n\n \n$ you@yourcomputer ~/Projects/awesome-program$ guix shell python python-numpy --export-manifest > manifest.scm\n\n\n\n \n\n   \n \nguix shell's power, for which it\nwould probably need a transient menu (library powering  magit and the\nother menus in  emacs-guix).\n\n\n \nben.el.",
-          "link": "https://tusharhero.codeberg.page/guix-shell-in-emacs.html",
-          "publishedOn": "2026-07-30T18:30:00.000Z",
-          "wordCount": 463,
-          "title": "tusharhero: Guix shell now inside Emacs!",
-          "imageUrl": null
         }
       ]
     },
@@ -895,36 +885,6 @@
           "wordCount": 6050,
           "title": "That’s Too Much Helicopter",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2286535165.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=230793",
-          "author": "Drew Magary",
-          "description": "Some people are fans of the Cleveland Browns. But many, many more people are NOT fans of the Cleveland Browns. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.\nYour team: Cleveland Browns.\n\nhttps://bsky.app/profile/insidenflnews.bsky.social/post/3mqpa4rnsfs2h",
-          "link": "https://defector.com/why-your-team-sucks-2026-cleveland-browns",
-          "publishedOn": "2026-07-30T18:13:16.000Z",
-          "wordCount": 12891,
-          "title": "Why Your Team Sucks 2026: Cleveland Browns",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2234364055.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=230884",
-          "author": "Luis Paez-Pumar",
-          "description": "UEFA, Europe's soccer confederation, confirmed on Thursday that it was not making empty threats over FIFA president Gianni Infantino's plan to sell the World Cup off to private investors. In a statement titled \"Statement on behalf of UEFA and its 55 national associations\" posted on the confederation's website, UEFA laid down the gauntlet, using its immense power and money to, it hopes, block Infantino's latest greedy, stupid idea.\nThe key part of the statement reads as follows:\nEurope’s position is clear. We will never lend this model our legitimacy. No one has the moral authority to sell what they merely hold in trust for the next generation.\nAs a result of today’s discussion, no UEFA national teams will participate in any FIFA competition for so long as these proposals remain alive, unless this proposal has been abandoned in its entirety and binding assurances have been given that FIFA will never again open its governance or competitions to private ownership.\nNobody should be in any doubt: UEFA and its national associations will oppose these plans with absolute determination.",
-          "link": "https://defector.com/uefa-is-ready-to-go-to-war-with-fifa-over-the-world-cup",
-          "publishedOn": "2026-07-30T17:35:50.000Z",
-          "wordCount": 6438,
-          "title": "UEFA Is Ready To Go To War With FIFA Over The World Cup",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/GettyImages-2261213978.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=230809",
-          "author": "Giri Nathan",
-          "description": "Take capelin, a small silvery fish in the smelt family. Now add salt. Then throw those two ingredients in 110 vats, each of them about 10 feet tall, and let them sit in a defunct factory for over two decades. The resulting stench might haunt an entire community, as it has the people of St. Mary's, a coastal town of about 300 people in the Canadian province of Newfoundland and Labrador. In 2019, one resident described the ritual of abandoning her home every summer, boarding up the windows and doors so the smell doesn't permeate her belongings. The people of St. Mary's have long fought for the fish sludge to be cleaned up; after an aborted attempt in 2016, that work finally began in earnest this week.\nThere are 900,000 liters of fish sauce to remove—some of it just liquid, some of it with fish solids. The province of Newfoundland and Labrador budgeted $2 million for the job, which was taken up by a local engineering firm and is expected to be completed in October. As workers cut open the vats, viscous brown fish goo shot out onto the factory floor. It will be mixed with peat moss, hauled out in about 200 truckloads, and thrown in a landfill lined with polyethylene, after which it will be sealed up \"like a Ziploc,\" according to the lead engineer on the project. St. Mary's Mayor Steve Ryan reportedly teared up while describing new hope. \"To be known as the 'sauce plant mayor' … it's time for that to be over,\" he said.\n\nhttps://www.youtube.com/watch?v=Xn8KEpRqD1Y",
-          "link": "https://defector.com/abandoned-fish-sauce-canada-interview",
-          "publishedOn": "2026-07-30T17:13:29.000Z",
-          "wordCount": 11366,
-          "title": "Let Me And A Food Scientist Sample The Abandoned Fish Sauce Terrorizing A Small Canadian Town",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/fish-sauce.jpg"
         }
       ]
     },
@@ -1695,6 +1655,16 @@
       "siteUrl": "https://www.sfgate.com/author/drew-magary/",
       "articles": [
         {
+          "id": "https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php-full",
+          "author": null,
+          "description": "I put a question to my SFGATE colleagues just the other day that had them mulling for a bit: What’s the last great movie that Steven Spielberg directed? I’m not talking about a merely good film. The old man can put together a competent picture anytime he likes. I’m talking about an all-timer of a Spielberg movie, something that belongs up there with his best work, which includes “Jaws,” “Raiders of the Lost Ark,” “E.T.,” “Schindler’s List” and … you get the idea. When you’re a director who’s made not just one of the greatest movies of all time but several of them, audience members like me hope for (and oftentimes expect) greatness from you with every subsequent project. Such is the standard that Spielberg, father of the modern blockbuster, set for himself. It’s also a standard that, in my …",
+          "link": "https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php",
+          "publishedOn": "2026-08-09T06:53:43.395Z",
+          "wordCount": 177,
+          "title": "Steven Spielberg's new film is his best in decades",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.sfgate.com/politics/article/trump-reflecting-pool-22306630.php-full",
           "author": null,
           "description": "The one thing that Washington, D.C., has always had going for it is its beauty. The people who run America from this town have always been an unsightly bunch, but they’ve done their nasty work in a city that has acquired, over the course of this country’s lifespan, an aesthetic like no other. No other major American city looks as regally beautiful as D.C. You and I have a long-standing federal law to thank for this, but we also have a collection of national landmarks clustered in the center of the district that the aforementioned law was written to both protect and to showcase. The Capitol. The Lincoln Memorial. The Washington Monument. These are gorgeous edifices, ones designed to outlast old generations and to inspire newer ones. They are the best of D.C., and therefore the best of Ameri…",
@@ -1950,16 +1920,6 @@
           "wordCount": 22748,
           "title": "A Shocking New Book Reveals Why JD Vance Might Be Even More Dangerous for America Than We Thought",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/157723c2-1599-4d14-824b-b3571268472e.jpeg?crop=1xw:0.75xh;0xw,0.104xh&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73307159/ice-deportations-couple-dead-in-guatemala/",
-          "author": null,
-          "description": "These masked psychos aren’t “removing criminal aliens from our communities,” as the DHS claims. They’re destroying families and hurting innocent people.",
-          "link": "https://www.esquire.com/news-politics/politics/a73307159/ice-deportations-couple-dead-in-guatemala/",
-          "publishedOn": "2026-07-30T17:41:10.000Z",
-          "wordCount": 23947,
-          "title": "Despite What the Administration Says, ICE Agents Aren’t—and Never Will Be—American Heroes",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/6827d067-3aed-40ed-bd23-f6c9ef47ea1d.jpeg?crop=1xw:0.750065530799xh;center,top&resize=1200:*"
         }
       ]
     },
@@ -2112,6 +2072,16 @@
       "feedUrl": "https://foxtrot.com/feed/",
       "siteUrl": "https://foxtrot.com",
       "articles": [
+        {
+          "id": "https://foxtrot.com/?p=6210",
+          "author": "Bill Amend",
+          "description": "FoxTrot by Bill Amend | August 9, 2026",
+          "link": "https://foxtrot.com/2026/08/09/sandy/?utm_source=rss&utm_medium=rss&utm_campaign=sandy",
+          "publishedOn": "2026-08-09T05:01:00.000Z",
+          "wordCount": 3469,
+          "title": "Sandy",
+          "imageUrl": "https://foxtrot.com/wp-content/uploads/2026/08/ft260826-foxtrot-comics-bill-amend-sandy-beach-vacation-summer-peter-fox-sandman-sunday-comic-strip.jpg"
+        },
         {
           "id": "https://foxtrot.com/?p=6205",
           "author": "Bill Amend",

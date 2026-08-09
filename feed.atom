@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-09T05:02:42.368Z</updated>
+    <updated>2026-08-09T06:53:43.547Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Steven Spielberg's new film is his best in decades]]></title>
+        <id>https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php-full</id>
+        <link href="https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php"/>
+        <updated>2026-08-09T06:53:43.395Z</updated>
+        <summary type="html"><![CDATA[I put a question to my SFGATE colleagues just the other day that had them mulling for a bit: What’s the last great movie that Steven Spielberg directed? I’m not talking about a merely good film. The old man can put together a competent picture anytime he likes. I’m talking about an all-timer of a Spielberg movie, something that belongs up there with his best work, which includes “Jaws,” “Raiders of the Lost Ark,” “E.T.,” “Schindler’s List” and … you get the idea. When you’re a director who’s made not just one of the greatest movies of all time but several of them, audience members like me hope for (and oftentimes expect) greatness from you with every subsequent project. Such is the standard that Spielberg, father of the modern blockbuster, set for himself. It’s also a standard that, in my …]]></summary>
+        <author>
+            <name>Drew Magary, Columnist - SFGATE</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sandy]]></title>
+        <id>https://foxtrot.com/?p=6210</id>
+        <link href="https://foxtrot.com/2026/08/09/sandy/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sandy"/>
+        <updated>2026-08-09T05:01:00.000Z</updated>
+        <summary type="html"><![CDATA[FoxTrot by Bill Amend | August 9, 2026]]></summary>
+        <author>
+            <name>Bill Amend</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The 15 Most Recognizable Hip-Hop Samples]]></title>
         <id>https://stuffthatinterestsme.net/?p=3348</id>
@@ -2593,177 +2613,6 @@ which brought vertical in-buffer behavior and prefix indicators to
 After some talk about regional accents good and bad, complete with regional accent work of our own, we were on to the stuff that's happening. Regarding the NFL, we're still in the part of Why Your Team Sucks when all the teams actually do suck. But it was a treat to talk about the LeBron-Sixers situation for the first time in a conversation that included cautious optimism, a reckless invocation of the infamous Sports Illustrated "Now This Is Going To Be Fun" cover, and a frank disagreement about whether the Eastern Conference is actually as thin as Drew believes it to be. Decently substantive, but at the end also decently vacation-scented, as we drifted into a critique of LeBron's proposed helicopter commute, the perversity of Amtrak commuting as a concept and the apparently perverse way in which I say "Acela," and the many ways to commute like an idiot and go insane as a result. Also, there's some stuff about my experience writing an unpublishable novel on Amtrak in my twenties, which was pretty good as those things go.]]></summary>
         <author>
             <name>David Roth</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[tusharhero: Guix shell now inside Emacs!]]></title>
-        <id>https://tusharhero.codeberg.page/guix-shell-in-emacs.html</id>
-        <link href="https://tusharhero.codeberg.page/guix-shell-in-emacs.html"/>
-        <updated>2026-07-30T18:30:00.000Z</updated>
-        <summary type="html"><![CDATA[~649 words. ~3 minutes.
-
-
- 
-  tags:   guix   emacs   programming
-Emacs Carnival July 2026.
-
-
-
- 
-GNU Guix is: It's an advanced package manager
-and a distribution of the  GNU Operating system. With kernel support
-for both  GNU Linux-libre and, experimentally, for the  GNU Hurd.
-
-
- 
-Nix, except that it uses  GNU
-Guile instead of Nixlang for package definitions, system definitions.
-Also replacing Systemd with  GNU Shepherd (GNU's Init System and
-Service manager).
-
-
- 
-guix shell. Which
-allows you to create software environments with the specified
-packages.
-
-
- 
-manifest.scm
-file.
-
-
- 
-(specifications->manifest
- '( "gcc-toolchain"
-    "gdb"
-    "mupdf"
-    "make"))
-
-
-
- 
-guix shell in a directory containing the file, it gets
-the appropriate dependencies for you.
-
-
- 
-(info "(guix) Invoking
-guix shell").
-
-
-
- 
-$ you@yourcomputer ~/Projects/awesome-program$ guix shell 
-guix shell: loading environment from  '/home/you/Projects/awesome-program/manifest.scm'...
-$ you@yourcomputer ~/Projects/awesome-program$ emacs
-
-
-
- 
-M-x guix-shell inside
-Emacs itself. This was contributed to the  emacs-guix package by yours
-truly.
-
-
- 
-(info "(emacs-guix) Guix Shell").
-
-
-
- 
-$ you@yourcomputer ~/Projects/awesome-program$ guix shell python
-
-
-
- 
-
-   
- 
-$ you@yourcomputer ~/Projects/awesome-program$ guix shell python python-numpy
-
-
-
- 
-
-   
- 
-(Yeah, I forgot about the commas).
-
-
- 
-manifest.scm file that you can use in the
-future? In the CLI, you would do,
-
-
- 
-$ you@yourcomputer ~/Projects/awesome-program$ guix shell python python-numpy --export-manifest > manifest.scm
-
-
-
- 
-
-   
- 
-guix shell's power, for which it
-would probably need a transient menu (library powering  magit and the
-other menus in  emacs-guix).
-
-
- 
-ben.el.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Your Team Sucks 2026: Cleveland Browns]]></title>
-        <id>https://defector.com/?p=230793</id>
-        <link href="https://defector.com/why-your-team-sucks-2026-cleveland-browns"/>
-        <updated>2026-07-30T18:13:16.000Z</updated>
-        <summary type="html"><![CDATA[Some people are fans of the Cleveland Browns. But many, many more people are NOT fans of the Cleveland Browns. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.
-Your team: Cleveland Browns.
-
-https://bsky.app/profile/insidenflnews.bsky.social/post/3mqpa4rnsfs2h]]></summary>
-        <author>
-            <name>Drew Magary</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Despite What the Administration Says, ICE Agents Aren’t—and Never Will Be—American Heroes]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a73307159/ice-deportations-couple-dead-in-guatemala/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a73307159/ice-deportations-couple-dead-in-guatemala/"/>
-        <updated>2026-07-30T17:41:10.000Z</updated>
-        <summary type="html"><![CDATA[These masked psychos aren’t “removing criminal aliens from our communities,” as the DHS claims. They’re destroying families and hurting innocent people.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UEFA Is Ready To Go To War With FIFA Over The World Cup]]></title>
-        <id>https://defector.com/?p=230884</id>
-        <link href="https://defector.com/uefa-is-ready-to-go-to-war-with-fifa-over-the-world-cup"/>
-        <updated>2026-07-30T17:35:50.000Z</updated>
-        <summary type="html"><![CDATA[UEFA, Europe's soccer confederation, confirmed on Thursday that it was not making empty threats over FIFA president Gianni Infantino's plan to sell the World Cup off to private investors. In a statement titled "Statement on behalf of UEFA and its 55 national associations" posted on the confederation's website, UEFA laid down the gauntlet, using its immense power and money to, it hopes, block Infantino's latest greedy, stupid idea.
-The key part of the statement reads as follows:
-Europe’s position is clear. We will never lend this model our legitimacy. No one has the moral authority to sell what they merely hold in trust for the next generation.
-As a result of today’s discussion, no UEFA national teams will participate in any FIFA competition for so long as these proposals remain alive, unless this proposal has been abandoned in its entirety and binding assurances have been given that FIFA will never again open its governance or competitions to private ownership.
-Nobody should be in any doubt: UEFA and its national associations will oppose these plans with absolute determination.]]></summary>
-        <author>
-            <name>Luis Paez-Pumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Let Me And A Food Scientist Sample The Abandoned Fish Sauce Terrorizing A Small Canadian Town]]></title>
-        <id>https://defector.com/?p=230809</id>
-        <link href="https://defector.com/abandoned-fish-sauce-canada-interview"/>
-        <updated>2026-07-30T17:13:29.000Z</updated>
-        <summary type="html"><![CDATA[Take capelin, a small silvery fish in the smelt family. Now add salt. Then throw those two ingredients in 110 vats, each of them about 10 feet tall, and let them sit in a defunct factory for over two decades. The resulting stench might haunt an entire community, as it has the people of St. Mary's, a coastal town of about 300 people in the Canadian province of Newfoundland and Labrador. In 2019, one resident described the ritual of abandoning her home every summer, boarding up the windows and doors so the smell doesn't permeate her belongings. The people of St. Mary's have long fought for the fish sludge to be cleaned up; after an aborted attempt in 2016, that work finally began in earnest this week.
-There are 900,000 liters of fish sauce to remove—some of it just liquid, some of it with fish solids. The province of Newfoundland and Labrador budgeted $2 million for the job, which was taken up by a local engineering firm and is expected to be completed in October. As workers cut open the vats, viscous brown fish goo shot out onto the factory floor. It will be mixed with peat moss, hauled out in about 200 truckloads, and thrown in a landfill lined with polyethylene, after which it will be sealed up "like a Ziploc," according to the lead engineer on the project. St. Mary's Mayor Steve Ryan reportedly teared up while describing new hope. "To be known as the 'sauce plant mayor' … it's time for that to be over," he said.
-
-https://www.youtube.com/watch?v=Xn8KEpRqD1Y]]></summary>
-        <author>
-            <name>Giri Nathan</name>
         </author>
     </entry>
 </feed>
