@@ -120,6 +120,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://chrismaiorana.com/emacs-ffap/",
+          "author": null,
+          "description": "Lord knows I have trouble finding files sometimes. Over the years I’ve tried lots of schemes in Org Mode and elsewhere for the sole purpose of keeping track of stray items. Using includes in Org Mode has been helpful, but I didn’t have a way of jumping to those included files for quick access. Until now! Read on.\nIn this article, we’ll look at:\nTable of Contents\nThe “ffap” function and what it does\nUsing ffap to jump to file includes\nFilepaths for success\nLet’s get into it.\nFFAP – Find file at point\nFor a refresher on Org includes for those who don’t know, I’d advise clicking on that link above or watching my recent video on this topic. Basically, includes let you include file contents from elsewhere in your system into a working document.\nThis can be useful for gathering individual files,…",
+          "link": "https://chrismaiorana.com/emacs-ffap/",
+          "publishedOn": "2026-08-09T19:05:34.000Z",
+          "wordCount": null,
+          "title": "Chris Maiorana: Using ffap to jump to file includes in Emacs",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=14000",
           "author": null,
           "description": "desktop-save-mode but he wants a slightly different behavior. He likes having his session configuration saved but he usually doesn’t want it restored. He wants to restore it only when he closed it by mistake or forget do something in the last session. Then, he wants to restore it by hand.\n\n\nHe could, of course, do this by disabling desktop-save-mode and calling the save and restore functions manually. The problem with that solution is that like most of us Choudhary would forget to do the save.\n\n\nBut this is Emacs so Choudhary was able to roll his own solution. That solution does the automatic save, as usual, but the restore function is disabled at system startup. Instead, the last save is added to a list of the last 5 saves. When he wants to restore a session, he’s presented with the list and can choose the save that he wants.\n\n\nThis is another great example of how Emacs lets you have it your way. His code is a little complex but there are a lot of desktop save peculiarities to account for. If you’re like me, you probably aren’t interested in this capability but that’s the point: even if you’re the only one who wants some functionality, Emacs will let you have it. This capability is something no developer is likely to anticipate so it provides another example of the superiority of Emacs’ method over the typical extension system provided by other editors.",
@@ -406,6 +416,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=231736",
+          "author": "Sabrina Imbler",
+          "description": "ESPN reporter Lindsey Thiry found herself accosted by an alarmingly big bug at Los Angeles Rams camp Thursday. She was preparing for a live report when the flying creature suddenly dive-bombed in. The bug hovered around Thiry for several seconds until the NFL reporter gave it a good and audible thwack with her mic.\nESPN broadcaster Molly McGrath later interviewed Thiry about the identity of the bug. \"What is that, a wasp? What was that, Lindsey?\" McGrath asked.\n\"It was the biggest bug I've ever seen,\" Thiry answered, having recovered from the ordeal.",
+          "link": "https://defector.com/what-big-bug-attacked-an-espn-reporter-at-rams-camp",
+          "publishedOn": "2026-08-09T19:13:06.000Z",
+          "wordCount": 7404,
+          "title": "What Big Bug “Attacked” An ESPN Reporter At Rams Camp?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/lindsey-thiry.jpg"
+        },
         {
           "id": "https://defector.com/?p=231384",
           "author": "Sabrina Imbler",
@@ -2108,22 +2128,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!wOTF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F175e0b69-9405-4764-a352-82b73622fba9_1480x1110.jpeg"
-        },
-        {
-          "id": "https://www.flowstate.fm/p/sigha",
-          "author": "Flow State",
-          "description": "It’s Friday so we’re listening to something more upbeat.",
-          "link": "https://www.flowstate.fm/p/sigha",
-          "publishedOn": "2026-07-31T07:02:06.000Z",
-          "wordCount": null,
-          "title": "Sigha",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!-qQf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3a9a126a-2b6c-49c2-bf6c-ef25021e4e93_2116x1776.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!-qQf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3a9a126a-2b6c-49c2-bf6c-ef25021e4e93_2116x1776.png"
         }
       ]
     },
