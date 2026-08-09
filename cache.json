@@ -80,6 +80,36 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=14000",
+          "author": null,
+          "description": "desktop-save-mode but he wants a slightly different behavior. He likes having his session configuration saved but he usually doesn’t want it restored. He wants to restore it only when he closed it by mistake or forget do something in the last session. Then, he wants to restore it by hand.\n\n\nHe could, of course, do this by disabling desktop-save-mode and calling the save and restore functions manually. The problem with that solution is that like most of us Choudhary would forget to do the save.\n\n\nBut this is Emacs so Choudhary was able to roll his own solution. That solution does the automatic save, as usual, but the restore function is disabled at system startup. Instead, the last save is added to a list of the last 5 saves. When he wants to restore a session, he’s presented with the list and can choose the save that he wants.\n\n\nThis is another great example of how Emacs lets you have it your way. His code is a little complex but there are a lot of desktop save peculiarities to account for. If you’re like me, you probably aren’t interested in this capability but that’s the point: even if you’re the only one who wants some functionality, Emacs will let you have it. This capability is something no developer is likely to anticipate so it provides another example of the superiority of Emacs’ method over the typical extension system provided by other editors.",
+          "link": "https://irreal.org/blog/?p=14000",
+          "publishedOn": "2026-08-09T15:13:09.000Z",
+          "wordCount": 1487,
+          "title": "Irreal: Deskstop Save Without The Restore",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lars.ingebrigtsen.no/2026/08/09/prehistoric-blogging-evidence/",
+          "author": null,
+          "description": "I’ve been cleaning out the loft, and I found this in a box.  What kind of exciting pictures could lurk within!\n\nHeh heh.\n\nRight…  during the 90s, while doing Gnus development, I sold a whole bunch of merchandise.  These must be the mugs for Pterodactyl Gnus?\n\nMan, so many shots, and almost all of them out of focus.  I’m a master photographer, me.\n\nHey, that one’s in focus…  kinda impressive height, eh?\n\nRight, I didn’t “blog” about this until 2001, and by that time I’d bought a digital camera.\n\nAnd I’ve still got a couple of mugs, almost three decades later.  Quality!\nThe first batch had non-metallic non-dishwasher-safe printing (it turned out), so those degraded fast, but the second batch, with silver inks, is still going strong.\n(Here’s a link to the other Gnus stuff I did back then…  The 90s were fun.)",
+          "link": "https://lars.ingebrigtsen.no/2026/08/09/prehistoric-blogging-evidence/",
+          "publishedOn": "2026-08-09T14:42:25.000Z",
+          "wordCount": 1234,
+          "title": "Lars Ingebrigtsen: Prehistoric Blogging Evidence",
+          "imageUrl": "https://lars.ingebrigtsen.no/wp-content/uploads/2026/08/DSC08270-scaled.jpg"
+        },
+        {
+          "id": "https://sachachua.com/blog/2026/08/replace-youtube-captions-from-emacs-lisp/",
+          "author": null,
+          "description": "NOTE\n#+YOUTUBE_URL: https://youtu.be/sxqsIgXYkVw\n#+LANGUAGE: en\n\nC-c C-c when I'm working on correcting or translating captions.\n\n\n\n\n;;;###autoload\n(defun sacha-youtube-replace-captions (url language vtt-file)\n  \"Replace captions for URL in LANGUAGE with VTT-FILE.\"\n  (interactive\n   (let ((params (and (derived-mode-p 'subed-vtt-mode)\n                      (sacha-subed-record-youtube-params))))\n     (list\n      (or (plist-get params :url)\n          (read-string \"YouTube URL: \"))\n      (or (plist-get params :language)\n          (read-string \"Language (ex: fr): \"))\n      (if (derived-mode-p 'subed-vtt-mode)\n          (buffer-file-name)\n        (read-file-name \"VTT file: \")))))\n  (let* ((video-id (sacha-org-yt-id url))\n         (existing-captions (sacha-youtube-get-captions video-id))\n        …",
+          "link": "https://sachachua.com/blog/2026/08/replace-youtube-captions-from-emacs-lisp/",
+          "publishedOn": "2026-08-09T14:11:30.000Z",
+          "wordCount": 489,
+          "title": "Sacha Chua: Replace YouTube captions from Emacs Lisp",
+          "imageUrl": null
+        },
+        {
           "id": "https://donovan-ratefison.mg/2026/08/09/Vakana-mg-mobile-app-is-now-available/",
           "author": null,
           "description": "After months of cooking, I am happy to announce that the mobile app is now\navailable for download at https://vakana.mg.\nSome highlights\n\nFully offline. No ads, no data held hostage. Your data, your rules.\nFlexible exports: Export your threads and beads to HTML (from\ntemplates), Markdown format (e.g., Obsidian), or rich Org files for Emacs\nusers.\nBuilt-in inspiration: Includes a list of use cases and possibilities.\nFind one that fits you.\nFeel free to explore and share with friends.",
@@ -88,6 +118,16 @@
           "wordCount": 220,
           "title": "Donovan R.: 🚀 Vakana.mg mobile app is now available",
           "imageUrl": "https://donovan-ratefison.mg/2026/08/09/Vakana-mg-mobile-app-is-now-available/wordmark.png"
+        },
+        {
+          "id": "https://protesilaos.com/codelog/2026-08-09-emacs-expand-abbrev-mode-definitions-conditionally/",
+          "author": null,
+          "description": "Raw link: https://www.youtube.com/watch?v=QzhU6fklc4o\nIn this ~15-minute video I show how to add conditions to abbrev-mode\nabbreviations that you define. The idea is to have those abbrevs\nexpand only in certain cases. I use three examples, which I think\ncover the common needs.\nCode samples\n\n(defun my-french-p ()\n  \"Return non-nil if `current-input-method' is French.\"\n  (and current-input-method\n       (string-match-p \"french\" current-input-method)))\n\n(define-abbrev global-abbrev-table \"welcome\" \"je t'en prie\" nil :enable-function #'my-french-p)\n\n\n(defvar my-notes-directory (expand-file-name \"~/.emacs.d/abbrev-test/\")\n  \"Directory where my notes are.\")\n\n(defun my-notes-directory-p ()\n  \"Return non-nil if we are in `my-notes-directory' or its subdirectories.\"\n  (let ((current-directory (expand-file-name default-directory)))\n    (string-prefix-p my-notes-directory current-directory)))\n\n(define-abbrev global-abbrev-table \"prot\" \"p’rǒt\" nil :enable-function #'my-notes-directory-p)\n\n\n(defun my-notes-keycast-mode-p ()\n  \"Return non-nil if `keycast-mode-line-mode' is enabled.\"\n  (bound-and-true-p keycast-mode-line-mode))\n\n(define-abbrev global-abbrev-table \"prot\" \"Protesilaos, also known as Prot\" nil :enable-function #'my-notes-keycast-mode-p)",
+          "link": "https://protesilaos.com/codelog/2026-08-09-emacs-expand-abbrev-mode-definitions-conditionally/",
+          "publishedOn": "2026-08-09T00:00:00.000Z",
+          "wordCount": 233,
+          "title": "Protesilaos: Emacs: conditionally expand abbrev-mode definitions",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         },
         {
           "id": "https://irreal.org/blog/?p=13998",
@@ -326,6 +366,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=231384",
+          "author": "Sabrina Imbler",
+          "description": "Julien Kimmig's career began with a surprising abundance of feces. As a PhD student working at a Cambrian site in northern Canada, Kimmig realized that roughly half the fossils in that outcrop were coprolites, or fossilized poops. Kimmig, now the head of the paleontology and evolution division at the Natural History Museum in Karlsruhe, Germany, wondered what explained the deluge of dung.\nIn 2020, Russell Bicknell, an evolutionary biologist and paleobiologist at Flinders University in Adelaide, approached Kimmig with some Cambrian coprolites from southern Australia that no other scientists had particularly cared to study. Prehistoric poops in hand, Kimmig and Bicknell began compiling a database of the earliest evidence of turds on Earth. The project occasionally stalled, but the researcher…",
+          "link": "https://defector.com/we-wouldnt-be-here-without-poop",
+          "publishedOn": "2026-08-09T16:06:57.000Z",
+          "wordCount": 10816,
+          "title": "We Wouldn’t Be Here Without Poop",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/Comic_Graphical_abstract.jpg"
+        },
         {
           "id": "https://defector.com/?p=231700",
           "author": "Samer Kalaf",
@@ -1034,16 +1084,6 @@
           "publishedOn": "2026-08-01T02:19:30.000Z",
           "wordCount": 4531,
           "title": "Phish Halloween 1994",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3235",
-          "author": "Schill",
-          "description": "Among Phish fans, certain performances have achieved legendary status. The “Tweezer” from December 2, 1995. The “Runaway Jim” from",
-          "link": "https://stuffthatinterestsme.net/phriday-phistory-prague-ghost/",
-          "publishedOn": "2026-07-31T02:49:27.000Z",
-          "wordCount": 1721,
-          "title": "Phriday Phistory:  Prague Ghost",
           "imageUrl": null
         }
       ]
