@@ -308,36 +308,6 @@
           "wordCount": 234,
           "title": "Protesilaos: Emacs live with @linkarzu on his workflow, Org capture, and projects (2026-08-01 22:00 Europe/Athens)",
           "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-07-31-re-linkarzu-what-i-need-from-emacs/",
-          "author": null,
-          "description": "Christian Arzu from the @linkarzu channel on YouTube has just\npublished a ~16-minute video with the title What I Need From Emacs: A Video for Prot.\nI am happy he has done this and am eager to discuss those concepts in\nfurther depth. In this article I will comment on the specific points\nChristian raises as well as on the overarching theme of his experiment\nwith Emacs.\nEmacs has “sessions” out-of-the-box\nChristian has experienced friction with using Emacs. Much of it\nrevolves around the notion of “sessions” that Kitty provides. At least\nfor the way Christian uses sessions, Emacs has the equivalent concept\nof “projects”. Each project is a version controlled directory (Git in\nthis case, though Emacs supports many others as well).\nTo tell Emacs where your Git repositories are, so that it can re…",
-          "link": "https://protesilaos.com/codelog/2026-07-31-re-linkarzu-what-i-need-from-emacs/",
-          "publishedOn": "2026-07-31T00:00:00.000Z",
-          "wordCount": 1894,
-          "title": "Protesilaos: Reply to @linkarzu about ‘What I Need From Emacs’",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-07-31-emacs-tmr-1-4-0/",
-          "author": null,
-          "description": "TMR provides facilities for setting timers using a convenient\nnotation. Lots of commands are available to operate on timers, while\nthere also exists a tabulated view to display all timers in a nice\ngrid.\nPackage name (GNU ELPA): tmr\nOfficial manual: https://protesilaos.com/emacs/tmr\nChange log: https://protesilaos.com/emacs/tmr-changelog\nGit repositories:\n    \nGitHub: https://github.com/protesilaos/tmr\nGitLab: https://gitlab.com/protesilaos/tmr\nVideo demonstration: https://protesilaos.com/codelog/2026-01-19-emacs-timers-tmr-demo/\nBackronym: TMR May Ring; Timer Must Run.\nBelow are the release notes.\nVersion 1.4.0 on 2026-07-31\nTMR is an efficient package that has been stable for years. This new\nversion introduces some nice new features as well as several smaller\ninternal refinements.\nCreate…",
-          "link": "https://protesilaos.com/codelog/2026-07-31-emacs-tmr-1-4-0/",
-          "publishedOn": "2026-07-31T00:00:00.000Z",
-          "wordCount": 800,
-          "title": "Protesilaos: Emacs: tmr version 1.4.0",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
-        },
-        {
-          "id": "https://rahuljuliato.com/posts/completions-buffer-is-now-enough",
-          "author": null,
-          "description": "My last post was a tour of Emacs\n31, which has since moved into pretest. Sean Whitton announced\n31.0.91,\nthe second pretest, on July 23rd, and that's what I'm writing this on.\nOne of the sections in that post was a short list of new completion\nknobs, three lines of config I mentioned and moved on from. Those three\nlines turned into a month-long experiment, so they get their own post.\nI know how that title reads, so let me put it in context before you\nclose the tab. It comes from someone who ran company, moved to Corfu,\nand then left Corfu behind for icomplete, which has been my weapon of\nchoice for years now, for both the minibuffer and in-buffer completion.\nAnd I didn't just use icomplete. I sent patches to it.\nbug#75784,\nwhich brought vertical in-buffer behavior and prefix indicators to\n…",
-          "link": "https://rahuljuliato.com/posts/completions-buffer-is-now-enough",
-          "publishedOn": "2026-07-30T23:00:00.000Z",
-          "wordCount": 6724,
-          "title": "Rahul Juliato: The Completions Buffer Is Now Enough",
-          "imageUrl": "/assets/blog/posts/completions-buffer-is-now-enough.png"
         }
       ]
     },

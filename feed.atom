@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-09T10:32:35.893Z</updated>
+    <updated>2026-08-09T12:46:12.801Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -2535,80 +2535,6 @@ Have you ever felt like you've simply run out of things to say?
         <summary type="html"><![CDATA[Among Phish fans, certain performances have achieved legendary status. The “Tweezer” from December 2, 1995. The “Runaway Jim” from]]></summary>
         <author>
             <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Protesilaos: Reply to @linkarzu about ‘What I Need From Emacs’]]></title>
-        <id>https://protesilaos.com/codelog/2026-07-31-re-linkarzu-what-i-need-from-emacs/</id>
-        <link href="https://protesilaos.com/codelog/2026-07-31-re-linkarzu-what-i-need-from-emacs/"/>
-        <updated>2026-07-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Christian Arzu from the @linkarzu channel on YouTube has just
-published a ~16-minute video with the title What I Need From Emacs: A Video for Prot.
-I am happy he has done this and am eager to discuss those concepts in
-further depth. In this article I will comment on the specific points
-Christian raises as well as on the overarching theme of his experiment
-with Emacs.
-Emacs has “sessions” out-of-the-box
-Christian has experienced friction with using Emacs. Much of it
-revolves around the notion of “sessions” that Kitty provides. At least
-for the way Christian uses sessions, Emacs has the equivalent concept
-of “projects”. Each project is a version controlled directory (Git in
-this case, though Emacs supports many others as well).
-To tell Emacs where your Git repositories are, so that it can re…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Protesilaos: Emacs: tmr version 1.4.0]]></title>
-        <id>https://protesilaos.com/codelog/2026-07-31-emacs-tmr-1-4-0/</id>
-        <link href="https://protesilaos.com/codelog/2026-07-31-emacs-tmr-1-4-0/"/>
-        <updated>2026-07-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TMR provides facilities for setting timers using a convenient
-notation. Lots of commands are available to operate on timers, while
-there also exists a tabulated view to display all timers in a nice
-grid.
-Package name (GNU ELPA): tmr
-Official manual: https://protesilaos.com/emacs/tmr
-Change log: https://protesilaos.com/emacs/tmr-changelog
-Git repositories:
-    
-GitHub: https://github.com/protesilaos/tmr
-GitLab: https://gitlab.com/protesilaos/tmr
-Video demonstration: https://protesilaos.com/codelog/2026-01-19-emacs-timers-tmr-demo/
-Backronym: TMR May Ring; Timer Must Run.
-Below are the release notes.
-Version 1.4.0 on 2026-07-31
-TMR is an efficient package that has been stable for years. This new
-version introduces some nice new features as well as several smaller
-internal refinements.
-Create…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rahul Juliato: The Completions Buffer Is Now Enough]]></title>
-        <id>https://rahuljuliato.com/posts/completions-buffer-is-now-enough</id>
-        <link href="https://rahuljuliato.com/posts/completions-buffer-is-now-enough"/>
-        <updated>2026-07-30T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[My last post was a tour of Emacs
-31, which has since moved into pretest. Sean Whitton announced
-31.0.91,
-the second pretest, on July 23rd, and that's what I'm writing this on.
-One of the sections in that post was a short list of new completion
-knobs, three lines of config I mentioned and moved on from. Those three
-lines turned into a month-long experiment, so they get their own post.
-I know how that title reads, so let me put it in context before you
-close the tab. It comes from someone who ran company, moved to Corfu,
-and then left Corfu behind for icomplete, which has been my weapon of
-choice for years now, for both the minibuffer and in-buffer completion.
-And I didn't just use icomplete. I sent patches to it.
-bug#75784,
-which brought vertical in-buffer behavior and prefix indicators to
-…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
