@@ -2,10 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-09T22:29:21.375Z</updated>
+    <updated>2026-08-10T01:40:26.187Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TAONAW - Emacs and Org Mode: Emacs Config Gems - Part 4]]></title>
+        <id>https://taonaw.com/2026/08/09/emacs-config-gems-part.html</id>
+        <link href="https://taonaw.com/2026/08/09/emacs-config-gems-part.html"/>
+        <updated>2026-08-10T00:01:32.000Z</updated>
+        <summary type="html"><![CDATA[Part four of Emacs Config Gems is about basic file operations and save functions. I realized as I was working on this that I have the frame configuration here, which is the wrong place for it. I will change it after posting. Alright, here we go.
+When deleting a file in Emacs, we should use the system’s trash (or recycle bin) instead of deleting the file permanently, giving us a chance to restore the file in case we’ve made a mistake.
+In addition, since we have this turned on, we can also tell Emacs to always delete non-empty directories (because they’ll go to the trash) instead of prompting. It’s just faster.
+(setq delete-by-moving-to-trash t)
+(setq dired-recursive-deletes 'always)
+
+
+Let’s set the frame Emacs starts with to be a bit bigger. In Emacs, these measurements are in lines and col…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: Vakana -- Sneak a Peek]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/08/vakana-sneak-peek.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/08/vakana-sneak-peek.html"/>
+        <updated>2026-08-09T23:56:55.107Z</updated>
+        <summary type="html"><![CDATA[1 on my Android
+device this morning.  After following the tutorial, I exported the
+thread as an Org-mode-compatible package in a ZIP and emailed it to
+myself in order to transfer it to my desktop.
+
+
+
+After opening the Org file that Vakana generated, I exported the
+entire buffer to HTML.  The result is shown below.  The only change
+I wanted to make was to scale the bead of each heading 25%.2
+
+
+
+It's fortuitous that Donovan Ratefison released Vakana in a month
+whose Emacs Carnival theme is "The Search for Knowledge," because
+Vakana provides a unique way to manage one's knowledge.  I'll need
+to become proficient in it before adding it to my workflow.  So my
+eventual Emacs Carnival submission will be more pedestrian.
+1 Learn about
+  Vakana here
+  or download here.
+2 The images used for beads a…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What Big Bug “Attacked” An ESPN Reporter At Rams Camp?]]></title>
         <id>https://defector.com/?p=231736</id>
@@ -2733,28 +2781,6 @@ For the last couple of years we’ve framed AI as a productivity tool. How much 
 The first thing AI became good at was writing code, so naturally that’s where we focused. As AI got better at coding, I expected the bottlenecks to move through the software delivery lifecycle: from coding to design and specification, architecture, then verification. And they have. We spent a lot of time at the most recent FOSE  event discussing how we…]]></summary>
         <author>
             <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Listings Have Made Apartment Hunting Even More Debasing]]></title>
-        <id>https://defector.com/?p=230673</id>
-        <link href="https://defector.com/ai-listings-have-made-apartment-hunting-even-more-debasing"/>
-        <updated>2026-07-31T13:04:58.000Z</updated>
-        <summary type="html"><![CDATA[I started reading Valley of the Dolls for the first time the other night. It opens in 1945, with Anne Wells landing in New York and securing a job as a secretary at Henry Bellamy’s theatrical agency. She’s been tasked with finding an apartment for Henry’s handsome business partner; something on the East Side with a living room, bedroom, bath, and kitchen, furnished, for around $150 per month. He tells her not to come back to work until she’s found something. “Henry,” his handsome business partner warns, “We may never see this girl again.” 
-That’s as far as I made it before closing the book and bathing my face in the blue light of my laptop, my left eye twitching as I refreshed Craigslist for the hundredth time that day. I, too, have been tasked with finding an apartment in the city—not by my boss but by my current landlord, who, after mismanaging a bed bug scare for the past six months, is raising our rent by nearly $1,000. For the three years I have lived in this building, she has done little more than collect rent and turn a page a day in the picture book about dogs she has displayed in the mail room. 
-So. Looking for something in Central Brooklyn with a living room, bath, and kitchen, unfurnished, with fewer than 1,000 open housing code violations. Should an apartment meet these rigorous qualifications, there’s no choice but to move on it immediately. The city’s rental vacancy rate is 1.41 percent. If you don’t drop what you’re doing and beg, you will get left behind. My recent iMessage history looks something like: “Can I apply now? Can I see it RIGHT NOW? Can you draw up a lease? Can I give you everything? Can I give you all that’s in my bank account as a security deposit? Sir? Mr. Agent sir? I am a quiet and respectful tenant who spends most evenings cleaning my floors with a wood-and-bristle scrub while cartoonishly large bubbles float above me to the ceiling Cinderella style!!!!” Concrete jungle where dreams are maaaaaaaade of.]]></summary>
-        <author>
-            <name>Sohini Desai</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The real reason Todd Blanche won’t drop Trump’s slush fund]]></title>
-        <id>https://www.salon.com/2026/07/31/the-real-reason-todd-blanche-wont-drop-trumps-slush-fund/-full</id>
-        <link href="https://www.salon.com/2026/07/31/the-real-reason-todd-blanche-wont-drop-trumps-slush-fund/"/>
-        <updated>2026-07-31T10:30:27.000Z</updated>
-        <summary type="html"><![CDATA[Todd Blanche, President Donald Trump’s nominee to be attorney general, promises Americans that he has no intention of going forward with a $1.8 billion slush fund designed to funnel money out of the Treasury and into the pockets of right-wing attorneys. The outcry that followed the Justice Department’s May 19 announcement of the fund, which would pay the legal bills of political allies charged with crimes ranging from fraud to storming the Capitol on Jan. 6, was deafening. In addition to blowback from many congressional Republicans, a federal judge halted the administration’s disbursement of the money, which was created as part of Trump’s agreement with the federal government stemming from his lawsuit  for the leak of his tax returns. Blanche, in his role as acting attorney general, claime…]]></summary>
-        <author>
-            <name>Amanda Marcotte - Salon.com</name>
         </author>
     </entry>
 </feed>
