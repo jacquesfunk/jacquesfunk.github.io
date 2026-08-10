@@ -130,6 +130,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://sachachua.com/blog/2026/08/2026-08-10-emacs-news/",
+          "author": null,
+          "description": "Upcoming events (iCal file, Org):\n\nLondon Emacs (in person): Emacs London meetup https://www.meetup.com/london-emacs-hacking/events/315859503/ Tue Aug 11 1800 Europe/London\nEmacs Berlin: In-Person-Only Emacs-Berlin Stammtisch https://emacs-berlin.org/ Tue Aug 11 1900 Europe/Berlin\nOrgMeetup (virtual) https://orgmode.org/worg/orgmeetup.html Wed Aug 12 0900 America/Vancouver - 1100 America/Chicago - 1200 America/Toronto - 1600 Etc/UTC - 1800 Europe/Berlin - 2130 Asia/Kolkata – Thu Aug 13 0000 Asia/Singapore\nAtelier Emacs Montpellier (in person) https://lebib.org/date/atelier-emacs Fri Aug 14 1800 Europe/Paris\nOrgDevMeetup https://bbb.emacsverse.org/rooms/orgdevmeetup Sat Aug 15 0900 America/Vancouver - 1100 America/Chicago - 1200 America/Toronto - 1600 Etc/UTC - 1800 Europe/Berlin - 2130 Asi…",
+          "link": "https://sachachua.com/blog/2026/08/2026-08-10-emacs-news/",
+          "publishedOn": "2026-08-10T13:49:50.000Z",
+          "wordCount": 1024,
+          "title": "Sacha Chua: 2026-08-10 Emacs news",
+          "imageUrl": null
+        },
+        {
           "id": "http://en.andros.dev/blog/70d817e8/web-design-for-terminal-browsers/",
           "author": null,
           "description": "This is a purely-for-fun exercise: a guide to web design for terminal browsers. Starting from the text browsers people actually use, I am going to pull out a set of rules in case you ever decide to build a site meant to read and look its best in a terminal. It is not an alternative to Gemini, Gopher or a smallweb attempt, but a set of best practices so your site reads well in a terminal browser, and even so you can build Web Apps for the terminal.\nFive engines, one test\nThe first step is to install the five text engines people actually use and feed them the same test pages, isolating one feature at a time.\nw3m (0.5.6): the most capable with tables, and it even draws images in terminals that allow it.\nlynx (2.9.3): the patriarch, the lowest common denominator since 1992.\nlinks (2.30): fast,…",
