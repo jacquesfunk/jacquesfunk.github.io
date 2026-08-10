@@ -2,10 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-10T01:40:26.187Z</updated>
+    <updated>2026-08-10T03:52:53.445Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Monday Meme Dump]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3012</id>
+        <link href="https://stuffthatinterestsme.net/monday-meme-dump-3/"/>
+        <updated>2026-08-10T01:44:43.000Z</updated>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TAONAW - Emacs and Org Mode: Emacs Config Gems - Part 4]]></title>
         <id>https://taonaw.com/2026/08/09/emacs-config-gems-part.html</id>
@@ -2754,33 +2763,6 @@ Your team: Washington Comma—OH GOD NO NOT AGAIN
 https://twitter.com/ChadwikoTWW/status/1985195970687373778]]></summary>
         <author>
             <name>Drew Magary</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tom Dundon’s Shameless Minions Expand The Scope Of His War On Portland]]></title>
-        <id>https://defector.com/?p=230940</id>
-        <link href="https://defector.com/tom-dundons-shameless-minions-expand-the-scope-of-his-war-on-portland"/>
-        <updated>2026-07-31T15:18:13.000Z</updated>
-        <summary type="html"><![CDATA[Fans of the Portland Trail Blazers should prepare themselves for a very unpleasant time. Tom Dundon, the team's new owner, is digging in. Arena renovations would improve the value of his property, and so he wants arena renovations. He is simply and resolutely refusing to commit any of his own money to the project. If Portland refuses to pay for stadium renovations, and the stadium thus goes un-renovated, Dundon will have an ironclad pretext for packing the team into a U-Haul and moving it to Las Vegas, or Nashville, or—the monkey's paw finally directing a shriveled middle finger at the world—Seattle. That's how investor ownership works, and why it is fucked: The franchise has been in Portland for almost 60 years; Dundon bought it four months ago, and it is entirely and irrevocably his.
-Dundon dispatched a delegation of bottom-feeding deputies to Portland City Hall on Thursday, for the purpose of keeping the pressure on civic leaders. Those vile underlings, pressing a more aggressive line of attack, used the occasion to assert that Portland is too woke and broke, at present, to function as the host city of an NBA basketball team, per reporting from Oregon Public Broadcasting.
-Dundon is demanding that Portland pay $120 million up front for renovations, and to earmark another $275 million for continuing maintenance. The city, in return, wants a 20-year lease, the Blazers to pay a $3 million annual fee in exchange for the property taxes the team avoids by playing in a publicly owned arena, and for Dundon to commit to using unionized labor. For the sin of presenting these terms to the Blazers, the city is forced to sit there and listen to Dundon's proxies spit Fox News hysteria at a public meeting.]]></summary>
-        <author>
-            <name>Chris Thompson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Conductor Developer]]></title>
-        <id>https://martinfowler.com/rachels-ramblings/conductor-developer.html</id>
-        <link href="https://martinfowler.com/rachels-ramblings/conductor-developer.html"/>
-        <updated>2026-07-31T13:48:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR
-Why I think software development is starting to feel a little more like conducting an orchestra.
-
-There’s a shift happening in software development that I don’t think we’re talking about clearly enough.
-For the last couple of years we’ve framed AI as a productivity tool. How much faster can it write code? How many more features can we ship? How much cheaper can we build software? I think that’s the wrong question, but I understand why.
-The first thing AI became good at was writing code, so naturally that’s where we focused. As AI got better at coding, I expected the bottlenecks to move through the software delivery lifecycle: from coding to design and specification, architecture, then verification. And they have. We spent a lot of time at the most recent FOSE  event discussing how we…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
         </author>
     </entry>
 </feed>
