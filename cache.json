@@ -120,6 +120,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=14002",
+          "author": null,
+          "description": "Tab is pressed right after the abbreviation.\n\n\nWhat’s less well known is that these abbreviations can have properties and one of those properties is to specify a function that will tell Emacs whether or not it should expand the abbreviation. Prot gives a few examples of this. In one example, he wants “Welcome” to expand to a French greeting but only if he is using one of the French input methods. Another example expands an abbreviation only if he’s in a certain directory or one of its subdirectories. A third example expands an abbreviation only if a certain minor mode is active.\n\n\nThose examples might seem like they’d be complicated but they are, in fact, simple, almost trivial. In the call to define-abbrev, you simply give the name of the deciding function in the :enable-function clause. Check out Prot’s video for the details.\n\n\nI use several abbreviation systems—including abbrev—but this capability in abbrev is especially nice. It’s easy to use and you can make the firing condition as simple or complex as you need it to be.\n\n\nProt’s video is 14 minutes, 33 seconds so it should be easy to find time for it. As with all of Prot’s videos, it’s worth the time.",
+          "link": "https://irreal.org/blog/?p=14002",
+          "publishedOn": "2026-08-10T14:45:51.000Z",
+          "wordCount": 1491,
+          "title": "Irreal: Conditional Abbrevs",
+          "imageUrl": null
+        },
+        {
           "id": "http://en.andros.dev/blog/70d817e8/web-design-for-terminal-browsers/",
           "author": null,
           "description": "This is a purely-for-fun exercise: a guide to web design for terminal browsers. Starting from the text browsers people actually use, I am going to pull out a set of rules in case you ever decide to build a site meant to read and look its best in a terminal. It is not an alternative to Gemini, Gopher or a smallweb attempt, but a set of best practices so your site reads well in a terminal browser, and even so you can build Web Apps for the terminal.\nFive engines, one test\nThe first step is to install the five text engines people actually use and feed them the same test pages, isolating one feature at a time.\nw3m (0.5.6): the most capable with tables, and it even draws images in terminals that allow it.\nlynx (2.9.3): the patriarch, the lowest common denominator since 1992.\nlinks (2.30): fast,…",
@@ -436,6 +446,46 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=230782",
+          "author": "Alex Sujong Laughlin",
+          "description": "When I asked Morgan Jerkins what she might want to talk about on an episode of Try Hard, she came to me with an idea that was less major life-changing-thunderclap-moment and more the culmination of a million smaller decisions that stemmed from one big one: moving to New York City as a young grad and choosing to build a life.\nThe twenty-something who moves to the big city to pursue a career in the arts is a well-worn archetype at this point, and one emulated by many of the very bloggers at this website, myself included. But the allure of the old \"three bucks, two bags, one me\" storyline endures for a reason. In our interview, Morgan and I talk about the conservative gay roommate who helped her workshop some of her most viral articles, how moving to Harlem helped awaken a new dimension of her blackness, and whether 2015 was the golden age for a writer hustling on the internet. She also offers up some wisdom on the power of staying soft in a city and industry that wants to harden you.\n\nhttps://www.youtube.com/watch?v=PI3QW2G-lAI",
+          "link": "https://defector.com/what-does-it-take-to-make-big-city-dreams-work",
+          "publishedOn": "2026-08-10T16:42:18.000Z",
+          "wordCount": 4799,
+          "title": "What Does It Take To Make Big City Dreams Work?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/07/MORGAN-BLOG-IMAGE.png"
+        },
+        {
+          "id": "https://defector.com/?p=231771",
+          "author": "Tom Ley",
+          "description": "Some people are fans of the Atlanta Falcons. But many, many more people are NOT fans of the Atlanta Falcons. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.\nYour team: Atlanta Falcons\nYour 2025 record: 8-9, which is less of a win-loss record than it is a manifestation of the spirit of mediocrity that inhabits this franchise. It's been almost 10 years since 28-3 happened, and the Falcons have gone a combined 65-84 with zero playoff appearances since. This team's never good enough to care about or bad enough to pity, and therefore it is something much worse: a team that might as well not even exist.",
+          "link": "https://defector.com/why-your-team-sucks-2026-atlanta-falcons",
+          "publishedOn": "2026-08-10T16:06:07.000Z",
+          "wordCount": 13754,
+          "title": "Why Your Team Sucks 2026: Atlanta Falcons",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2277847127.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=231737",
+          "author": "Samer Kalaf",
+          "description": "As we approach the 25th anniversary of the 9/11 attacks, it has created an opportunity to reflect on what's happened in the quarter-century since that fateful day, but more importantly, it has created an opportunity to get angry at New York City Mayor Zohran Mamdani for being Muslim.\nIn late July, Giovanni Galante, whose wife Grace was killed in the attacks, posted an online petition requesting that the mayor not be allowed to participate in this year's remembrance ceremony. The reasons that Mamdani's presence would be supposedly disrespectful include the following: \"Support for, or associations with, individuals whose public statements or records are viewed by concerned family members as dismissive of American institutions or insufficiently critical of extremist ideologies.\" Basically anything could qualify under that criteria, which I suppose is the point.\nOne of Galante's other reasons is that Mamdani once took a photo with Siraj Wahhaj, a Brooklyn imam whom law enforcement put on a list while investigating the 1993 World Trade Center bombing. Andrew Cuomo had attacked Mamdani for this during last year's mayoral race, repeating the feds' terminology that Wahhaj was an \"unindicted co-conspirator.\" Another way to phrase that might be \"never actually charged with a crime.\" As mayor, Michael Bloomberg once met with Wahhaj, and yet somehow that didn't disqualify him from attending any 9/11 ceremonies. Besides, Mamdani already attended last year before he was elected.",
+          "link": "https://defector.com/the-ground-zero-mosque-strategy-makes-an-even-more-pathetic-return",
+          "publishedOn": "2026-08-10T15:41:23.000Z",
+          "wordCount": 6388,
+          "title": "The “Ground Zero Mosque” Strategy Makes An Even More Pathetic Return",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2287861165-e1786375673487.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=231789",
+          "author": "Maitreyi Anantharaman",
+          "description": "No one's on the fence about solving our Monday crossword. This week's puzzle was constructed by Faren Roth, and edited by Hoang-Kim Vu. Faren Roth is a PhD student who lives in Lafayette, Ind. as of yesterday with her cat, Mr. Toast. She enjoys playing soccer and softball, was on the [redacted] team in high school, and has recently tricked herself into enjoying running. \nDefector crosswords, launched in partnership with our friends at AVCX, run every Monday. If you’re interested in submitting a puzzle to us, you can read our guidelines HERE. The AVCX, an independent puzzles and games outlet, invites you to subscribe, or sample the goods with a two-month free trial: \"With an AVCX subscription, you get access to weekly themed and themeless crosswords, minis, cryptics, and trivia, by email or in your favorite app. We have no corporate overlord, and we publish top-flight stuff only. We also pay our people fairly, always. Check us out.\"",
+          "link": "https://defector.com/the-crossword-aug-10-midpoint",
+          "publishedOn": "2026-08-10T15:13:58.000Z",
+          "wordCount": 4184,
+          "title": "The Crossword, Aug. 10: Midpoint",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2188283415.jpg"
+        },
         {
           "id": "https://defector.com/?p=231768",
           "author": "Ray Ratto",
@@ -1861,6 +1911,16 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73392621/trump-greenland-oil-nato/",
+          "author": null,
+          "description": "No matter what he might claim, the president is much better at starting wars than ending them.",
+          "link": "https://www.esquire.com/news-politics/politics/a73392621/trump-greenland-oil-nato/",
+          "publishedOn": "2026-08-10T15:47:10.000Z",
+          "wordCount": 20236,
+          "title": "Trump Is Just One Slimy Move Away from Plunging Us into an Ugly Conflict with Former Allies",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/d87a3647-c7a5-41e1-9add-0eb1fbd76064.jpeg?crop=1xw:0.749906261717xh;center,top&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a73377017/democratic-socialists-progressives-primary-wins/",
           "author": null,
