@@ -2,10 +2,68 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-10T20:40:19.437Z</updated>
+    <updated>2026-08-10T22:35:14.088Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: How Much Management Does Knowledge Need?]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/08/how-much-management-does-knowledge-need.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/08/how-much-management-does-knowledge-need.html"/>
+        <updated>2026-08-10T22:19:40.478Z</updated>
+        <summary type="html"><![CDATA[0 Org does not work the way my brain
+works,1 or rather, my brain doesn't work the way Org works.
+
+
+
+I do use Org.  At first I created a few Org files (work.org
+and home.org, and maybe todo.org) thinking I could rigidly dedicate
+all my topics to them.
+
+
+
+Over time I had about dozen files, one for nearly every major facet of my
+life until I gave up.  Why?  Because it really doesn't matter where I
+put Org TODOs and their notes.  When I need to locate something, Org
+provides a way to search entries for a regular expression, which is
+what grep does, sans all that Unixy CLI stuff.
+
+
+
+So faced with the task of paying one of my wife's medical bills, I
+could agonize over whether to put the task into wife.org or
+bills.org or medical.org.2 Or I
+could just:
+
+
+
+establish the task somewhere,
+act on it
+l…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Transactions, August 10]]></title>
+        <id>https://defector.com/?p=231889</id>
+        <link href="https://defector.com/transactions-august-10"/>
+        <updated>2026-08-10T20:50:53.000Z</updated>
+        <summary type="html"><![CDATA[Defector is proud to announce the addition of a new guy. Timothy Faust has joined us as our Director of Revenue. You might know Tim as a previous Defector contributor and the author of a legendary blog post, but in this role he will be entirely focused on data, revenue projections, and all sorts of…]]></summary>
+        <author>
+            <name>Tom Ley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Marcin Borkowski: Emphasizing a region in Org mode]]></title>
+        <id>https://mbork.pl/2026-08-10_Emphasizing_a_region_in_Org_mode</id>
+        <link href="https://mbork.pl/2026-08-10_Emphasizing_a_region_in_Org_mode"/>
+        <updated>2026-08-10T20:35:30.000Z</updated>
+        <summary type="html"><![CDATA[One of the most basic features of Org mode is its markup. It is basically the Markdown of the Emacs world (although some people, like Karl Voit, claim that it’s superior to Markdown), and it lets do basic things like italic, bold or verbatim very easily – at least if you’re writing text. I, on the other hand, happen to edit text pretty often. This is very different from writing. When I write, typing a slash before and after something I want to emphasize is easy. When I edit and just want to make some text bold, putting stars around it is much less convenient.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Taylor Farms salsa recall the latest in RFK Jr.'s Diarrhea SummerRex Huppke]]></title>
         <id>https://www.usatoday.com/story/opinion/columnist/2026/08/10/taylor-farms-salsa-recall-salmonella-cyclospora-outbreak/91197607007/-full</id>

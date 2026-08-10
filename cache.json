@@ -120,6 +120,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://ray-on-emacs.blogspot.com/2026/08/how-much-management-does-knowledge-need.html",
+          "author": null,
+          "description": "0 Org does not work the way my brain\nworks,1 or rather, my brain doesn't work the way Org works.\n\n\n\nI do use Org.  At first I created a few Org files (work.org\nand home.org, and maybe todo.org) thinking I could rigidly dedicate\nall my topics to them.\n\n\n\nOver time I had about dozen files, one for nearly every major facet of my\nlife until I gave up.  Why?  Because it really doesn't matter where I\nput Org TODOs and their notes.  When I need to locate something, Org\nprovides a way to search entries for a regular expression, which is\nwhat grep does, sans all that Unixy CLI stuff.\n\n\n\nSo faced with the task of paying one of my wife's medical bills, I\ncould agonize over whether to put the task into wife.org or\nbills.org or medical.org.2 Or I\ncould just:\n\n\n\nestablish the task somewhere,\nact on it\nl…",
+          "link": "https://ray-on-emacs.blogspot.com/2026/08/how-much-management-does-knowledge-need.html",
+          "publishedOn": "2026-08-10T22:19:40.478Z",
+          "wordCount": null,
+          "title": "Raymond Zeitler: How Much Management Does Knowledge Need?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://mbork.pl/2026-08-10_Emphasizing_a_region_in_Org_mode",
+          "author": null,
+          "description": "One of the most basic features of Org mode is its markup. It is basically the Markdown of the Emacs world (although some people, like Karl Voit, claim that it’s superior to Markdown), and it lets do basic things like italic, bold or verbatim very easily – at least if you’re writing text. I, on the other hand, happen to edit text pretty often. This is very different from writing. When I write, typing a slash before and after something I want to emphasize is easy. When I edit and just want to make some text bold, putting stars around it is much less convenient.",
+          "link": "https://mbork.pl/2026-08-10_Emphasizing_a_region_in_Org_mode",
+          "publishedOn": "2026-08-10T20:35:30.000Z",
+          "wordCount": 565,
+          "title": "Marcin Borkowski: Emphasizing a region in Org mode",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=14002",
           "author": null,
           "description": "Tab is pressed right after the abbreviation.\n\n\nWhat’s less well known is that these abbreviations can have properties and one of those properties is to specify a function that will tell Emacs whether or not it should expand the abbreviation. Prot gives a few examples of this. In one example, he wants “Welcome” to expand to a French greeting but only if he is using one of the French input methods. Another example expands an abbreviation only if he’s in a certain directory or one of its subdirectories. A third example expands an abbreviation only if a certain minor mode is active.\n\n\nThose examples might seem like they’d be complicated but they are, in fact, simple, almost trivial. In the call to define-abbrev, you simply give the name of the deciding function in the :enable-function clause. Check out Prot’s video for the details.\n\n\nI use several abbreviation systems—including abbrev—but this capability in abbrev is especially nice. It’s easy to use and you can make the firing condition as simple or complex as you need it to be.\n\n\nProt’s video is 14 minutes, 33 seconds so it should be easy to find time for it. As with all of Prot’s videos, it’s worth the time.",
@@ -446,6 +466,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=231889",
+          "author": "Tom Ley",
+          "description": "Defector is proud to announce the addition of a new guy. Timothy Faust has joined us as our Director of Revenue. You might know Tim as a previous Defector contributor and the author of a legendary blog post, but in this role he will be entirely focused on data, revenue projections, and all sorts of…",
+          "link": "https://defector.com/transactions-august-10",
+          "publishedOn": "2026-08-10T20:50:53.000Z",
+          "wordCount": 3831,
+          "title": "Transactions, August 10",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2021/02/GettyImages-562618549.jpg"
+        },
         {
           "id": "https://defector.com/?p=231765",
           "author": "Patrick Redford",
