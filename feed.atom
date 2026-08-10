@@ -2,10 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-10T11:06:21.082Z</updated>
+    <updated>2026-08-10T13:03:22.078Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[James Cherti: single-window.el – Always Open Emacs Buffers in the Current Active Window]]></title>
+        <id>https://www.jamescherti.com/single-window-open-emacs-buffers-in-current-window/</id>
+        <link href="https://www.jamescherti.com/single-window-open-emacs-buffers-in-current-window/"/>
+        <updated>2026-08-10T12:17:11.000Z</updated>
+        <summary type="html"><![CDATA[The single-window package forces Emacs to open buffers in the current active window.
+It keeps your carefully arranged layouts intact, reduces visual clutter, and provides a much more predictable workflow. It handles edge cases by configuring modes like org-mode (src blocks and agenda) to respect the current window.
+If this project helps your workflow, please consider supporting it by ⭐ starring single-window on GitHub and sharing it on your website, blog, Mastodon, Reddit, X, LinkedIn, or other social media platforms so other Emacs users can discover its benefits.
+Installation and Usage
+Emacs: use-package and straight (Emacs version < 30)
+To install single-window with straight.el:
+It if hasn’t already been done, add the straight.el bootstrap code to your init file.
+Add the following code t…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Brandon Aiyuk's NFL career is already over]]></title>
         <id>https://www.sfgate.com/49ers/article/brandon-aiyuk-career-over-22327356.php-full</id>
@@ -2648,48 +2665,6 @@ Here's what my Emacs Tip of the Day dug up: smiley-buffer]]></summary>
         <summary type="html"><![CDATA[Halloween has become synonymous with Phish in a way no other holiday belongs to a rock band. Long before giant]]></summary>
         <author>
             <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ashish Panigrahi: Setting up offline email for Microsoft O365 with notmuch and emacs]]></title>
-        <id>https://ashishpanigrahi.com/blog/o365-offline-email/</id>
-        <link href="https://ashishpanigrahi.com/blog/o365-offline-email/"/>
-        <updated>2026-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Having to deal with Microsoft's outlook has been a growing pain with
-my computing needs. Of course, this is pertinent only for work email.
-For personal email, I use Migadu which has good
-standards for email unlike Microsoft's.
-At work, I can only use either the official Outlook webmail or
-Thunderbird since those are the only clients that are whitelisted by
-the IT department at my university. Thunderbird is slightly better (it
-has a few problems of its own but I digress) but I would like to have
-an offline copy of all my emails, fully searchable with an indexed
-database provided by notmuch, which uses
-the excellent Xapian library for indexing.
-Notmuch is shipped as an emacs package in the form of notmuch.el,
-which is exactly what I like given that I'm moving most of my
-computing needs into …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Protesilaos: Emacs live with @linkarzu on his workflow, Org capture, and projects (2026-08-01 22:00 Europe/Athens)]]></title>
-        <id>https://protesilaos.com/codelog/2026-08-01-emacs-live-linkarzu-projects/</id>
-        <link href="https://protesilaos.com/codelog/2026-08-01-emacs-live-linkarzu-projects/"/>
-        <updated>2026-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Raw link: https://www.youtube.com/watch?v=WQbXKvBT8HY
-In about 40 minutes from now I will do a live stream with Christian
-Arzu from the @linkarzu channel on YouTube. The video will be
-recorded.
-The topic of our meeting revolves around how Christian uses NeoVim and
-Kitty to handle sessions and write fleeting thoughts. Then we will try
-to do something along those lines using built-in Emacs functionality.
-Christian did a video a couple of days ago about this topic and here
-is my extensive commentary on it, with points that are useful in
-general: https://protesilaos.com/codelog/2026-07-31-re-linkarzu-what-i-need-from-emacs/.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
