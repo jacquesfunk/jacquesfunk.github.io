@@ -23,6 +23,16 @@
       "siteUrl": "https://baty.net/index.xml",
       "articles": [
         {
+          "id": "https://baty.net/journal/10Aug26/",
+          "author": null,
+          "description": "I feel like relaxing on the couch all day with my laptop, Linux, and some music in the background. Maybe I'll take a break from this keyboard and go write on one of the typewriters for a while. That's been fun, too. Typing directly onto paper is cool, and something everyone should try, imo.\nSpeaking of Linux, on my desktop I'm running Fedora w/KDE, but here on the laptop it's Fedora w/Dank Linux and Niri. I'm getting comfortable with it and it's pretty nice.\n✍️ Reply by email",
+          "link": "https://baty.net/journal/10Aug26/",
+          "publishedOn": "2026-08-10T12:31:52.000Z",
+          "wordCount": 152,
+          "title": "Monday, August 10, 2026",
+          "imageUrl": "https://baty.net/img/opengraph.jpg"
+        },
+        {
           "id": "https://baty.net/notes/2026/08/marktext/",
           "author": null,
           "description": "MarkText — The Markdown editor that gets out of your way is available for macOS, Windows, and Linux. I grabbed the Flatpak today and first impressions are good. Worth a look.\n(h/t Alex)\n✍️ Reply by email",
@@ -109,6 +119,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "http://en.andros.dev/blog/70d817e8/web-design-for-terminal-browsers/",
+          "author": null,
+          "description": "This is a purely-for-fun exercise: a guide to web design for terminal browsers. Starting from the text browsers people actually use, I am going to pull out a set of rules in case you ever decide to build a site meant to read and look its best in a terminal. It is not an alternative to Gemini, Gopher or a smallweb attempt, but a set of best practices so your site reads well in a terminal browser, and even so you can build Web Apps for the terminal.\nFive engines, one test\nThe first step is to install the five text engines people actually use and feed them the same test pages, isolating one feature at a time.\nw3m (0.5.6): the most capable with tables, and it even draws images in terminals that allow it.\nlynx (2.9.3): the patriarch, the lowest common denominator since 1992.\nlinks (2.30): fast,…",
+          "link": "http://en.andros.dev/blog/70d817e8/web-design-for-terminal-browsers/",
+          "publishedOn": "2026-08-10T13:47:15.000Z",
+          "wordCount": 2557,
+          "title": "Andros Fenollosa: Web Design for Terminal Browsers",
+          "imageUrl": "https://img.andros.dev/gyy42v64FLveCw6R2AdiCIdFtKY=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/valeria-reverdo-jdd5u5kg9Ro-unsplash.jpg"
+        },
         {
           "id": "https://www.jamescherti.com/single-window-open-emacs-buffers-in-current-window/",
           "author": null,
@@ -416,6 +436,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=231768",
+          "author": "Ray Ratto",
+          "description": "The notice from Don Nelson's family announcing his death on Sunday at the age of 86 said he \"peacefully went to be with the Lord, surrounded by his loving family.” This immediately convinces us that the deity in question here likes uptempo basketball, beer, blunts, and cards, and who wouldn't want a final judge who leans into those pastimes?\nEvery Nelson obit, including this one, will note that he was the second-winningest coach in NBA history—1,335 wins, not including 75 playoff victories. That is maybe the 17th most interesting thing about him. He was the iconoclast's iconoclast, devoted not just to winning basketball games but to finding ways to win them in the manner of his choosing. The manner he chose favored teams that were improbably fast and impossibly small, and he used it to take bad teams and swiftly make them infuriatingly good. He irked his bosses and enraged his superiors everywhere he went; he befriended players and took money from sportswriters unwise enough to sit at his poker table. He took three different teams to the playoffs as seventh or eighth seeds and won the first-round series, still the only coach to do so, and he also coached a team to 48 wins and missed the playoffs. He was in short the single liveliest underdog in the field wherever that field happened to be. He is almost certainly the only coach to have a distinct playing style named for him—Nellie Ball, by far the least creative thing about it—probably because nobody else had dared to try it.\nThey do now, though. Big men at the arc, three- and four-guard sets, treating the shot clock like a stopwatch that should never expire—Nelson was into all that decades ago, and while he might have been an old fud compared to some of today's hoops accelerationists, none of those teams would have even dared be who they are now if he hadn't done it back in the long ago.",
+          "link": "https://defector.com/don-nelson-followed-his-bliss-and-changed-basketball",
+          "publishedOn": "2026-08-10T13:52:18.000Z",
+          "wordCount": 7571,
+          "title": "Don Nelson Followed His Bliss And Changed Basketball",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-1321892950.jpg"
+        },
         {
           "id": "https://defector.com/?p=231736",
           "author": "Sabrina Imbler",
@@ -1064,16 +1094,6 @@
           "publishedOn": "2026-08-01T20:00:38.000Z",
           "wordCount": 2571,
           "title": "Saturday Night 80s Jam:  Neneh Cherry – Buffalo Stance",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3321",
-          "author": "Schill",
-          "description": "Halloween has become synonymous with Phish in a way no other holiday belongs to a rock band. Long before giant",
-          "link": "https://stuffthatinterestsme.net/phish-halloween-1994/",
-          "publishedOn": "2026-08-01T02:19:30.000Z",
-          "wordCount": 4531,
-          "title": "Phish Halloween 1994",
           "imageUrl": null
         }
       ]
@@ -2123,6 +2143,16 @@
       "feedUrl": "https://gomakethings.com/feed/index.xml",
       "siteUrl": "https://gomakethings.com/articles",
       "articles": [
+        {
+          "id": "https://gomakethings.com/articles/rebuilding-communities/",
+          "author": null,
+          "description": "The video Constructing the Revolution talks about how to start prefiguring the future you want today.\n(Heads up: the middle section of the video gets into some pretty heavy territory near the middle.)\nEarly on, there’s some important conversation about rebuilding and repairing communities that have been shattered by a system that deliberately pits us against one another.\n All hierarchies of power desire to keep us separate, competing, and individualistic, because because we’re easier to exploit that way.",
+          "link": "https://gomakethings.com/articles/rebuilding-communities/",
+          "publishedOn": "2026-08-10T14:30:00.000Z",
+          "wordCount": 6090,
+          "title": "Rebuilding communities",
+          "imageUrl": "https://gomakethings.com/img/og.png"
+        },
         {
           "id": "https://gomakethings.com/articles/anarchy-and-modern-convenience/",
           "author": null,
