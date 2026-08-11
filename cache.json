@@ -1067,6 +1067,16 @@
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
         {
+          "id": "https://stuffthatinterestsme.net/?p=2911",
+          "author": "Schill",
+          "description": "Horror cinema has produced countless vampire stories, haunted convents, and tales of demonic possession, but very few films have combined",
+          "link": "https://stuffthatinterestsme.net/troma-tuseday-alucarda/",
+          "publishedOn": "2026-08-11T00:01:16.000Z",
+          "wordCount": 2879,
+          "title": "Troma Tuseday: Alucarda",
+          "imageUrl": null
+        },
+        {
           "id": "https://stuffthatinterestsme.net/?p=3012",
           "author": "Schill",
           "description": "",
@@ -2087,10 +2097,36 @@
       ]
     },
     {
-      "title": null,
+      "title": "History Of Music",
       "feedUrl": "https://historyofmusic.net/feed/",
       "siteUrl": "https://historyofmusic.net",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://historyofmusic.net/?p=5782",
+          "author": "schill",
+          "description": "Rock and roll was never exactly mindless. That is an important place to begin. Long before Bob Dylan became one",
+          "link": "https://historyofmusic.net/1960s/bob-dylan-and-the-moment-rock-music-became-serious/",
+          "publishedOn": "2026-08-11T01:14:26.000Z",
+          "wordCount": 6582,
+          "title": "Bob Dylan and the Moment Rock Music Became Serious",
+          "imageUrl": null
+        },
+        {
+          "id": "https://historyofmusic.net/?p=5776",
+          "author": "schill",
+          "description": "Popular music did not suddenly appear when the Beatles arrived. Rock and roll had already transformed the musical landscape.",
+          "link": "https://historyofmusic.net/1960s/how-the-beatles-changed-popular-music-forever/",
+          "publishedOn": "2026-08-11T00:42:57.000Z",
+          "wordCount": 10164,
+          "title": "How the Beatles Changed Popular Music Forever",
+          "enclosure": {
+            "url": "http://www.archive.org/serve/Beatles1962StarClubHamburgGermany/Beatles1962StarClubHamburgGermany.mp3",
+            "length": "145",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Awesome Terrible Movie",
