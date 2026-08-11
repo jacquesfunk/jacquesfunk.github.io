@@ -120,6 +120,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://ashishpanigrahi.com/blog/done-items-org-agenda/",
+          "author": null,
+          "description": "Being a PhD student within a research group entails some structure to\ntracking your progress as you proceed with research. Within the\ncurrent team that I'm in, we have weekly group meetings where each\nmember presents the tasks that they've completed during the previous\nweek and discusses any issues they might've faced (if any), to our\nsupervisor.\nUsually before the meeting, I jot down things that I've finished with\npen and paper. But since I'm in the spirit of integrating my workflow\nwith emacs and orgmode, I thought why don't I try implementing this\npart of my routine also into orgmode.\nEnter org-agenda\nAll my todo items are tracked with\norg-agenda where I\ncapture every task I need to finish with\norg-capture1.\nI have a custom org-agenda view just for viewing my daily and weekly\nTODO items…",
+          "link": "https://ashishpanigrahi.com/blog/done-items-org-agenda/",
+          "publishedOn": "2026-08-11T00:00:00.000Z",
+          "wordCount": 874,
+          "title": "Ashish Panigrahi: Reviewing finished tasks from last week in org-agenda and emacs",
+          "imageUrl": null
+        },
+        {
           "id": "https://ray-on-emacs.blogspot.com/2026/08/how-much-management-does-knowledge-need.html",
           "author": null,
           "description": "0 Org does not work the way my brain\nworks,1 or rather, my brain doesn't work the way Org works.\n\n\n\nI do use Org.  At first I created a few Org files (work.org\nand home.org, and maybe todo.org) thinking I could rigidly dedicate\nall my topics to them.\n\n\n\nOver time I had about dozen files, one for nearly every major facet of my\nlife until I gave up.  Why?  Because it really doesn't matter where I\nput Org TODOs and their notes.  When I need to locate something, Org\nprovides a way to search entries for a regular expression, which is\nwhat grep does, sans all that Unixy CLI stuff.\n\n\n\nSo faced with the task of paying one of my wife's medical bills, I\ncould agonize over whether to put the task into wife.org or\nbills.org or medical.org.2 Or I\ncould just:\n\n\n\nestablish the task somewhere,\nact on it\nl…",
@@ -447,16 +457,6 @@
           "publishedOn": "2026-08-01T23:47:27.512Z",
           "wordCount": null,
           "title": "Raymond Zeitler: One Space or Two?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/08/emacs-smiley-functions.html",
-          "author": null,
-          "description": "Emacs Smiley Functions\nHere's what my Emacs Tip of the Day dug up: smiley-buffer",
-          "link": "https://ray-on-emacs.blogspot.com/2026/08/emacs-smiley-functions.html",
-          "publishedOn": "2026-08-01T22:46:37.354Z",
-          "wordCount": null,
-          "title": "Raymond Zeitler: Emacs Smiley Functions",
           "imageUrl": null
         }
       ]

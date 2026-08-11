@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-11T08:53:29.385Z</updated>
+    <updated>2026-08-11T10:49:16.018Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -65,6 +65,32 @@
         <summary type="html"><![CDATA[Horror cinema has produced countless vampire stories, haunted convents, and tales of demonic possession, but very few films have combined]]></summary>
         <author>
             <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ashish Panigrahi: Reviewing finished tasks from last week in org-agenda and emacs]]></title>
+        <id>https://ashishpanigrahi.com/blog/done-items-org-agenda/</id>
+        <link href="https://ashishpanigrahi.com/blog/done-items-org-agenda/"/>
+        <updated>2026-08-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Being a PhD student within a research group entails some structure to
+tracking your progress as you proceed with research. Within the
+current team that I'm in, we have weekly group meetings where each
+member presents the tasks that they've completed during the previous
+week and discusses any issues they might've faced (if any), to our
+supervisor.
+Usually before the meeting, I jot down things that I've finished with
+pen and paper. But since I'm in the spirit of integrating my workflow
+with emacs and orgmode, I thought why don't I try implementing this
+part of my routine also into orgmode.
+Enter org-agenda
+All my todo items are tracked with
+org-agenda where I
+capture every task I need to finish with
+org-capture1.
+I have a custom org-agenda view just for viewing my daily and weekly
+TODO items…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -2940,17 +2966,6 @@ The only place where you'll see evidence of my two-space style is in the comment
 Am I the only person who nit picks about such details?
 Thanks to Irreal for highlighting
   a customization from macosguru]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raymond Zeitler: Emacs Smiley Functions]]></title>
-        <id>https://ray-on-emacs.blogspot.com/2026/08/emacs-smiley-functions.html</id>
-        <link href="https://ray-on-emacs.blogspot.com/2026/08/emacs-smiley-functions.html"/>
-        <updated>2026-08-01T22:46:37.354Z</updated>
-        <summary type="html"><![CDATA[Emacs Smiley Functions
-Here's what my Emacs Tip of the Day dug up: smiley-buffer]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>
