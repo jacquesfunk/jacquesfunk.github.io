@@ -120,6 +120,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://list.orgmode.org/87qzk59bn8.fsf@gmail.com",
+          "author": null,
+          "description": "[request] flags:--- replies:0 topic:org-colview",
+          "link": "https://list.orgmode.org/87qzk59bn8.fsf@gmail.com",
+          "publishedOn": "2026-08-11T10:47:39.000Z",
+          "wordCount": 1085,
+          "title": "Org Mode requests: [RFC] org-colview: Determine column view scope once",
+          "imageUrl": null
+        },
+        {
           "id": "https://ashishpanigrahi.com/blog/done-items-org-agenda/",
           "author": null,
           "description": "Being a PhD student within a research group entails some structure to\ntracking your progress as you proceed with research. Within the\ncurrent team that I'm in, we have weekly group meetings where each\nmember presents the tasks that they've completed during the previous\nweek and discusses any issues they might've faced (if any), to our\nsupervisor.\nUsually before the meeting, I jot down things that I've finished with\npen and paper. But since I'm in the spirit of integrating my workflow\nwith emacs and orgmode, I thought why don't I try implementing this\npart of my routine also into orgmode.\nEnter org-agenda\nAll my todo items are tracked with\norg-agenda where I\ncapture every task I need to finish with\norg-capture1.\nI have a custom org-agenda view just for viewing my daily and weekly\nTODO items…",
@@ -448,16 +458,6 @@
           "wordCount": 905,
           "title": "TAONAW - Emacs and Org Mode: Em Dashes in org-mode and the Nuances of Abbrev",
           "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/08/02/5962248.png"
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/08/one-space-or-two.html",
-          "author": null,
-          "description": "HTML enforces the use of a single space to separate sentences.  If\n  you want to add another space, you need to use\n  &nbsp;.  I still remember how annoyed I was about\n  that.  Back in the century in which I took my technical writing\n  course, two spaces were required.  Of course, we weren't using\n  computers very often; hand-written sentences needed to appear more\n  separated than the words within.\nI'm definitely not here to convince anyone to switch.  Instead, I\njust want to share that I paid close attention to this detail when I\nwas formulating my style guide for this blog.  Should I continue with\nmy out-of-date two-space habit?  Or should I adopt the current\nconvention?\nI turned to Emacs itself for guidance.  It turns out that the\nindividuals who wrote Emacs comments, docstrings and help text used\ntwo spaces.  Although many times they started each sentence on a new\nline.\nIt turns out that the content here mostly is one-space.  I start\n  out using two spaces in Org where most of this originates.  But when\n  I export to HTML, that second space vaporizes.  That would seem like a bug to me.\nThe only place where you'll see evidence of my two-space style is in the comments\n  and docstrings of my source code.\nAm I the only person who nit picks about such details?\nThanks to Irreal for highlighting\n  a customization from macosguru",
-          "link": "https://ray-on-emacs.blogspot.com/2026/08/one-space-or-two.html",
-          "publishedOn": "2026-08-01T23:47:27.512Z",
-          "wordCount": null,
-          "title": "Raymond Zeitler: One Space or Two?",
-          "imageUrl": null
         }
       ]
     },
@@ -2301,6 +2301,16 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html",
+          "author": null,
+          "description": "My colleagues at Thoughtworks tend to be big fans of Test-Driven\n      Development, and many people in the industry advocate telling LLM agents\n      to use TDD when building software. Birgitta Böckeler was\n      curious if this really makes a difference, so conducted a few experiments.\n      \nmore…",
+          "link": "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html",
+          "publishedOn": "2026-08-11T11:39:00.000Z",
+          "wordCount": 4062,
+          "title": "TDD inside the agent loop - theater or actual value?",
+          "imageUrl": "https://martinfowler.com/articles/exploring-gen-ai/donkey-card.png"
+        },
         {
           "id": "https://martinfowler.com/fragments/2026-08-04.html",
           "author": null,

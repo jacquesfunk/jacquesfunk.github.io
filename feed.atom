@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-11T10:49:16.018Z</updated>
+    <updated>2026-08-11T12:59:48.450Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TDD inside the agent loop - theater or actual value?]]></title>
+        <id>https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html</id>
+        <link href="https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html"/>
+        <updated>2026-08-11T11:39:00.000Z</updated>
+        <summary type="html"><![CDATA[My colleagues at Thoughtworks tend to be big fans of Test-Driven
+      Development, and many people in the industry advocate telling LLM agents
+      to use TDD when building software. Birgitta Böckeler was
+      curious if this really makes a difference, so conducted a few experiments.
+      
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Org Mode requests: [RFC] org-colview: Determine column view scope once]]></title>
+        <id>https://list.orgmode.org/87qzk59bn8.fsf@gmail.com</id>
+        <link href="https://list.orgmode.org/87qzk59bn8.fsf@gmail.com"/>
+        <updated>2026-08-11T10:47:39.000Z</updated>
+        <summary type="html"><![CDATA[[request] flags:--- replies:0 topic:org-colview]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Flow State Episode 338]]></title>
         <id>https://www.flowstate.fm/p/flow-state-episode-338</id>
@@ -2935,39 +2960,6 @@ When converting org-mode to markdown (as I do when I post some…]]></summary>
         <summary type="html"><![CDATA[Natural disasters usually involve earthquakes, hurricanes, floods, or fires. Industrial accidents often bring to mind explosions or chemical spills. Few]]></summary>
         <author>
             <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raymond Zeitler: One Space or Two?]]></title>
-        <id>https://ray-on-emacs.blogspot.com/2026/08/one-space-or-two.html</id>
-        <link href="https://ray-on-emacs.blogspot.com/2026/08/one-space-or-two.html"/>
-        <updated>2026-08-01T23:47:27.512Z</updated>
-        <summary type="html"><![CDATA[HTML enforces the use of a single space to separate sentences.  If
-  you want to add another space, you need to use
-  &nbsp;.  I still remember how annoyed I was about
-  that.  Back in the century in which I took my technical writing
-  course, two spaces were required.  Of course, we weren't using
-  computers very often; hand-written sentences needed to appear more
-  separated than the words within.
-I'm definitely not here to convince anyone to switch.  Instead, I
-just want to share that I paid close attention to this detail when I
-was formulating my style guide for this blog.  Should I continue with
-my out-of-date two-space habit?  Or should I adopt the current
-convention?
-I turned to Emacs itself for guidance.  It turns out that the
-individuals who wrote Emacs comments, docstrings and help text used
-two spaces.  Although many times they started each sentence on a new
-line.
-It turns out that the content here mostly is one-space.  I start
-  out using two spaces in Org where most of this originates.  But when
-  I export to HTML, that second space vaporizes.  That would seem like a bug to me.
-The only place where you'll see evidence of my two-space style is in the comments
-  and docstrings of my source code.
-Am I the only person who nit picks about such details?
-Thanks to Irreal for highlighting
-  a customization from macosguru]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
