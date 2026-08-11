@@ -120,6 +120,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=14006",
+          "author": null,
+          "description": "write a word or region in bold, that’s easy. He merely  starts and end it text with a star.  Making a word or region bold after the fact—in the editing phase—is more difficult. You have to locate the beginning of the text, add a star, move to the end of the text, and add another star.\n\n\nMbork, of course, soon discovered the solution: org-emphjasize. All you need to do is highlight the text and specify the markup character. The problem is that the binding for org-emphasize, Ctrl+c Ctrl+x Ctrl+f, is difficult to type. Mbork solved that writing a function to call org-emphasize with an argument * to cover his most common use. But then he bound it to Ctrl+c Ctrl+x Ctrl+8, which strikes me as just as bad, although you don’t have to specify the *.\n\n\nMy solution for this is to use surround.el that I wrote about here and Bozhidar Batsov wrote about here. I have it bound to Hyper+’ so it’s easy to call. I suppose you could even do as mbork did and write a specialized function for a heavily applied use case.\n\n\nOne thing for sure, mbork is right about markup being harder to deal with when editing.",
+          "link": "https://irreal.org/blog/?p=14006",
+          "publishedOn": "2026-08-11T14:43:02.000Z",
+          "wordCount": 1478,
+          "title": "Irreal: Markup Editing In Org Mode",
+          "imageUrl": null
+        },
+        {
           "id": "https://list.orgmode.org/87qzk59bn8.fsf@gmail.com",
           "author": null,
           "description": "[request] flags:--- replies:0 topic:org-colview",
@@ -466,6 +476,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=231993",
+          "author": "Annie Berke",
+          "description": "The 1990s and 2000s were great decades for the sports idiot. Movies like Talladega Nights, Dodgeball, Kingpin, and others belong to this subset of the sports comedy, one that explores the unique problem of being good at sports and bad at everything else. With the help of an older mentor, often but not always played by an older Black man, and a supportive best friend even dumber than him, the sports idiot comes up against more threatening kinds of men—richer, meaner, or both—and triumphs. \nNo matter how old he is, the sports idiot begins their journey in a state of perpetual adolescence. Sports are to blame for his arrested development, and his over-competitive spirit is tolerated by fans and love interests alike due to the same deference afforded to famous divas and tantruming toddlers. And yet—this is the most important thing—sports are also the means by which the idiot will grow up. Becoming a better player will make him worthy of a good woman, will help him survive the loss of a father figure, and will provide him the community that he didn’t know he always needed.\nWhile the Sports Idiot genre never fully disappeared, subsequent years favored more serious sports movies, among them award contenders like Moneyball and the Creed franchise. Meanwhile, the male-centered comedies on everyone’s lips were The Hangover and the collected works of Judd Apatow, which, respectively, focus on competitive intoxication and the game of heterosexual love. But, finally, the lovable sports idiot is back and eager to show audiences that he’s a little less problematic than before.",
+          "link": "https://defector.com/the-sports-idiot-is-dead-long-live-the-sports-idiot",
+          "publishedOn": "2026-08-11T16:35:05.000Z",
+          "wordCount": 9664,
+          "title": "The Sports Idiot Is Dead, Long Live The Sports Idiot",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/TheDink.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=231898",
+          "author": "Drew Magary",
+          "description": "Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGATE, and buy Drew’s books while you're at it. Today, we're talking about butter parties, severance packages, finding new hobbies, and more.\nBefore we go any further, I demand you give it up to Albert Burneko for so capably filling my shoes here a week ago. Truly, Bert is the king of kings.\nYour letters:\nTom:",
+          "link": "https://defector.com/cathy-engelbert-is-doing-the-job-she-was-hired-to-do",
+          "publishedOn": "2026-08-11T15:37:18.000Z",
+          "wordCount": 15733,
+          "title": "Cathy Engelbert Is Doing The Job She Was Hired To Do",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2285075803.jpg"
+        },
         {
           "id": "https://defector.com/?p=231677",
           "author": "Billy Haisley",
@@ -1224,16 +1254,6 @@
           "publishedOn": "2026-08-03T01:39:42.000Z",
           "wordCount": 1219,
           "title": "Monday Meme Dump",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3324",
-          "author": "Schill",
-          "description": "When the Beastie Boys released Paul’s Boutique in 1989, audiences expecting another straightforward rap-rock party album were in for a",
-          "link": "https://stuffthatinterestsme.net/beastie-boys-shake-your-rump-the-wild-sample-heavy-masterpiece-that-defined-pauls-boutique/",
-          "publishedOn": "2026-08-02T03:04:51.000Z",
-          "wordCount": 2014,
-          "title": "Beastie Boys’ “Shake Your Rump”: The Wild, Sample-Heavy Masterpiece That Defined Paul’s Boutique",
           "imageUrl": null
         }
       ]
@@ -2011,6 +2031,26 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73404108/jared-kushner-ivanka-trump-albania-wildlife-habitat/",
+          "author": null,
+          "description": "Maybe the president’s son-in-law shouldn’t try to annex a protected wildlife habitat in Albania, just saying.",
+          "link": "https://www.esquire.com/news-politics/politics/a73404108/jared-kushner-ivanka-trump-albania-wildlife-habitat/",
+          "publishedOn": "2026-08-11T16:26:45.000Z",
+          "wordCount": 19649,
+          "title": "Wherever Jared Kushner’s Disastrous Business Plans Wander, Indictments and Protests Seem to Follow",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/4ba6d0de-b93b-45dc-aa73-71172dc4dc2d.jpeg?crop=1xw:0.750096190843xh;center,top&resize=1200:*"
+        },
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73403505/trump-iran-assassination-threat-reporters-white-house-staff/",
+          "author": null,
+          "description": "An Iranian threat caused the president to abandon Air Force One, leaving those on board to deal with the consequences. Maybe he wouldn’t be so scared if he didn’t start this stupid war in the first place.",
+          "link": "https://www.esquire.com/news-politics/politics/a73403505/trump-iran-assassination-threat-reporters-white-house-staff/",
+          "publishedOn": "2026-08-11T16:05:55.000Z",
+          "wordCount": 19375,
+          "title": "Trump Seems Perfectly Fine Using Reporters and White House Staff as Collateral Damage, and I’m Totally Disgusted",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/889af188-60a6-46bd-bfe0-b9d8464ea613.jpeg?crop=1xw:0.75xh;0xw,0.088xh&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a73392621/trump-greenland-oil-nato/",
           "author": null,
