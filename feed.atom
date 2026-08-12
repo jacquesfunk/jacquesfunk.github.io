@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-12T14:54:57.545Z</updated>
+    <updated>2026-08-12T16:55:12.685Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[All Day I Dream Of Curry Fries]]></title>
+        <id>https://defector.com/?p=231959</id>
+        <link href="https://defector.com/all-day-i-dream-of-curry-fries"/>
+        <updated>2026-08-12T16:45:51.000Z</updated>
+        <summary type="html"><![CDATA[Let me cut right to it: Why can’t I get curry fries over here?
+Look, I just got back from a work trip to Dublin (where everybody says "Look" to start a sentence), and curry fries are weighing heavy. The trip went as swell as possible. I not only got to cover an all-timer of a football match, but also had my fill of curry chips, in the local parlance, just as I'd hoped and dreamed. Good god, they’re good. And they’re everywhere in the Irish capital.
+But upon returning, I got peeved by the lack of curry fries in my own country. How can something so ubiquitous and cheap and delicious over there be impossible to find stateside? We love fries: A 2025 study found the average American eats 17 pounds of 'em a year. Researchers found lots of love for curly fries; curry fries got nothing. I’m not aware of any place in Washington, D.C., where I live, that sells curry fries. Yeah, OK, my editor may have located a pub that is 1.5 miles from house and serves curry fries shortly after I filed this, but what I truly desire is ubiquity. A huge part of the pleasure of my curry fry experience in Dublin was largely derived from knowing that the scrumptious snack was never far out of reach. Pubs, chip shops, food trucks—they were everywhere and all had what I wanted.]]></summary>
+        <author>
+            <name>Dave McKenna</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Clues in Mystery Strikes on Ecuadorian Fishing Boats]]></title>
+        <id>https://morningmemo.talkingpointsmemo.com/p/new-clues-in-mystery-strikes-on-ecuadorian</id>
+        <link href="https://morningmemo.talkingpointsmemo.com/p/new-clues-in-mystery-strikes-on-ecuadorian"/>
+        <updated>2026-08-12T15:45:38.000Z</updated>
+        <summary type="html"><![CDATA[INSIDE: Kilmar Abrego Garcia ... John Larson ... Jeanine Pirro]]></summary>
+        <author>
+            <name>David Kurtz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Please Contribute Today!]]></title>
+        <id>https://talkingpointsmemo.com/?p=1554826</id>
+        <link href="https://talkingpointsmemo.com/edblog/please-contribute-today"/>
+        <updated>2026-08-12T15:27:55.000Z</updated>
+        <summary type="html"><![CDATA[We’re almost to the critical goal we need to hit in this year’s Annual TPM Journalism Fund Drive. We have...]]></summary>
+        <author>
+            <name>Josh Marshall</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Your Team Sucks 2026: Tampa Bay Buccaneers]]></title>
+        <id>https://defector.com/?p=232114</id>
+        <link href="https://defector.com/why-your-team-sucks-2026-tampa-bay-buccaneers"/>
+        <updated>2026-08-12T15:11:44.000Z</updated>
+        <summary type="html"><![CDATA[Some people are fans of the Tampa Bay Buccaneers. But many, many more people are NOT fans of the Tampa Bay Buccaneers. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.
+Your team: Tampa Bay Buccaneers.
+
+https://bsky.app/profile/profootballtalk.bsky.social/post/3mrurzuufhk2u]]></summary>
+        <author>
+            <name>Drew Magary</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wait?!?! How Were the Polls This Far Off?]]></title>
+        <id>https://talkingpointsmemo.com/?p=1554806</id>
+        <link href="https://talkingpointsmemo.com/edblog/wait-how-were-the-polls-this-far-off"/>
+        <updated>2026-08-12T15:06:24.000Z</updated>
+        <summary type="html"><![CDATA[Having discussed the results and prediction markets, let me address a different question I saw brought up last night. If...]]></summary>
+        <author>
+            <name>Josh Marshall</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Abdul El-Sayed, fuck yeah]]></title>
         <id>https://www.jefftiedrich.com/p/abdul-el-sayed-fuck-yeah</id>
@@ -14,6 +69,25 @@
         <summary type="html"><![CDATA[and fuck yeah, Democratic Socialists]]></summary>
         <author>
             <name>Jeff Tiedrich</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Irreal: Emacs Development: Ongoing And Good]]></title>
+        <id>https://irreal.org/blog/?p=14008</id>
+        <link href="https://irreal.org/blog/?p=14008"/>
+        <updated>2026-08-12T14:38:54.000Z</updated>
+        <summary type="html"><![CDATA[he jumped in the deep end and downloaded and built Master (Emacs 32) fully expecting to find lots of broken things.
+
+
+It didn’t turn out that way. He was, in fact, surprised to discover that almost everything worked well. The only problem he had was evil on Windows and he solved that by simply upgrading evil. As for the rest, he found that Emacs was super-responsive and all the functionality that seemed laggy in that other editor was snappy in Emacs.
+
+
+There are two lessons here. The first is that Emacs, far from being moribund, is undergoing continuing development and introducing new features. The second point is that Emacs is, unlike some of its competitors,  continuing to produce upgrades that simply work and don’t make their users crazy.
+
+
+Very shortly, we should see the release of Emacs 31 but work on Emacs 32 is already ongoing and amazingly stable for what is, after all, alpha software. The next time someone tells you that Emacs is old and moribund, refer them to gonstrider’s post.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
