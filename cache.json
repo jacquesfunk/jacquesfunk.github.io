@@ -458,16 +458,6 @@
           "wordCount": 1160,
           "title": "Sacha Chua: 2026-08-03 Emacs news",
           "imageUrl": null
-        },
-        {
-          "id": "https://taonaw.com/2026/08/02/em-dashes-in-orgmode-and.html",
-          "author": null,
-          "description": "Since I confessed my enjoyment of em dash in my writing last week, I started using them more freely. On a Mac, it’s Option Shift Hyphen, as Sasha would tell you. In Linux, it’s a bit more involved: Ctrl Shift U to bring up a search for Unicode number reference, and then the number for em dash: 2014.\nThis is all good and well, but what about Emacs, where I write most of my text?\nEmacs comes with abbrev-mode, a powerful text-expanding option that automatically converts something like “om” to “org-mode”, or even “fox” to “The quick brown fox jumps over the lazy dog” if I wanted to. But the em dash is a bit more tricky. I could, if I wanted, create an abbreviation like “em” to simply expand to “—”. But this doesn’t make much sense.\nWhen converting org-mode to markdown (as I do when I post some…",
-          "link": "https://taonaw.com/2026/08/02/em-dashes-in-orgmode-and.html",
-          "publishedOn": "2026-08-02T14:07:04.000Z",
-          "wordCount": 905,
-          "title": "TAONAW - Emacs and Org Mode: Em Dashes in org-mode and the Nuances of Abbrev",
-          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/08/02/5962248.png"
         }
       ]
     },
@@ -1125,16 +1115,6 @@
           "wordCount": 5742,
           "title": "By Bunt Or By Blast, The Red Sox Keep Winning",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2287125494.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=231053",
-          "author": "Lauren Theisen",
-          "description": "If Shohei Ohtani doesn't return to the pitcher's mound for the Los Angeles Dodgers this season, they've got themselves a hell of a replacement. Late Saturday night, the back-to-back defending world champions made the biggest trade deadline move possible, acquiring back-to-back AL Cy Young winner Tarik Skubal from the Detroit Tigers in exchange for three prospects.\nThis trade helps a strong team grow even stronger, and their 10-game lead in the NL West already makes the Dodgers the presumptive winners of that division yet again. If their starting rotation was looking a little thin with the injuries to Ohtani, Blake Snell, and Tyler Glasnow, it doesn't anymore. The thrill of imagining Skubal and Yoshinobu Yamamoto starting the first two games of a playoff series is exactly the feeling that contending teams should want to spark in their fans when they bring on a new guy at the deadline.\nWhile MLB continues its campaign to get people mad at the Dodgers for spending money and winning, a half-season of Skubal's services was clearly within the budget of the league's other franchises, too—even the ones that keep payrolls low. The Dodgers will spend $9.5 million on his contract before he enters free agency, and they haven't parted with any irreplaceable players. From this deal, the Tigers will add a pretty obscure single-A hurler; a 27-year-old pitcher in AAA named River Ryan that some folks seem to like; and, the best of the bunch according to MLB Pipeline, 21-year-old AA outfielder Zyhir Hope.",
-          "link": "https://defector.com/the-dodgers-got-tarik-skubal",
-          "publishedOn": "2026-08-02T15:09:13.000Z",
-          "wordCount": 5020,
-          "title": "The Dodgers Got Tarik Skubal",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2288535901.jpg"
         }
       ]
     },
@@ -1176,6 +1156,26 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3151",
+          "author": "Schill",
+          "description": "Zendaya is an American actress, singer, producer, and fashion icon who has become one of Hollywood’s most versatile and acclaimed",
+          "link": "https://stuffthatinterestsme.net/hump-day-hottie-zendaya/",
+          "publishedOn": "2026-08-12T02:30:46.000Z",
+          "wordCount": 1568,
+          "title": "Hump Day Hottie: Zendaya",
+          "imageUrl": null
+        },
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3336",
+          "author": "Schill",
+          "description": "The early 1980s produced plenty of great songs, but it also produced a special category of hit that seemed almost",
+          "link": "https://stuffthatinterestsme.net/song-battle-hey-mickey-vs-whip-it/",
+          "publishedOn": "2026-08-12T02:06:29.000Z",
+          "wordCount": 3682,
+          "title": "Song Battle: “Hey Mickey” vs. “Whip It”",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3351",
           "author": "Schill",
@@ -1886,26 +1886,6 @@
           "wordCount": 4242,
           "title": "Don't call Trump’s Freedom 250 concert ‘Wouldstink.’ That’s mean.Rex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/01/USAT/90357319007-getty-images-2278656908.jpg?crop=1021,576,x0,y51&width=1021&height=576&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columns/2026/08/02/the-odyssey-movie-box-office-accuracy/91094074007/-full",
-          "author": "Rex Huppke",
-          "description": "Like most normal, well-adjusted men, I have spent every waking moment since Christopher Nolan’s “The Odyssey” opened in theaters feeling apoplectically angry about Christopher Nolan’s “The Odyssey.”\nI have rage-posted online, noting that by casting people who are different than me, the director ruined a beloved epic poem I never actually read. I have blamed wokeness for creating a world in which an ancient work of absolute fiction can be sullied by what I, making perfect sense, angrily claim to be historical inaccuracies. \nYet despite all my productive and intellectual online shouting, the movie has made $652 million worldwide since its July 17 release. And even more frustratingly, I’m still single.\nI'm mad that a fictional movie is historically inaccurate\n\nI struggle to understand these d…",
-          "link": "https://www.usatoday.com/story/opinion/columns/2026/08/02/the-odyssey-movie-box-office-accuracy/91094074007/",
-          "publishedOn": "2026-08-02T15:00:19.343Z",
-          "wordCount": 3531,
-          "title": "A sarcastic look at the outrage over 'The Odyssey' | OpinionRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/08/USAT/90845791007-ct-03414.jpg?crop=2298,1293,x406,y280&width=2298&height=1293&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/02/trump-iran-war-oil-company-profits/91113913007/-full",
-          "author": "Rex Huppke",
-          "description": "It seems all I hear these days are complaints about President Donald Trump’s war with Iran. As a humble oil executive, looking out on the Pacific Ocean from the wrap-around porch of my third mansion, I find these complaints deeply offensive.\nSure, the word “war” carries many negative connotations. But let’s look at the bottom line, which, in my case, is the oil industry’s bottom line. We’re doing great!\nJust look at this New York Times headline from July 31: “Iran War Drives Oil Profits to Highest Levels in Years.” Huzzah!\nExxonMobil, Chevron are cashing in on the Iran war\n\nIn its second-quarter earnings report released that same day, Chevron showed it made $12.1 billion between April and June, up from $2.5 billion over those same months last year.\nI asked the people who I pay to form a hu…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/02/trump-iran-war-oil-company-profits/91113913007/",
-          "publishedOn": "2026-08-02T15:00:19.290Z",
-          "wordCount": 4700,
-          "title": "All I hear is 'War is bad!' But Big Oil is making bank.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/30/NPRJ/91116197007-gas-pump-2.JPG?crop=4027,2267,x0,y148&width=3200&height=1802&format=pjpg&auto=webp"
         }
       ]
     },
@@ -2062,16 +2042,6 @@
           "publishedOn": "2026-08-02T20:54:03.905Z",
           "wordCount": 177,
           "title": "Stephen Colbert's brilliant, bittersweet finale",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/tech/article/data-centers-22356298.php-full",
-          "author": null,
-          "description": "Aerial view of a 49.5-megawatt data center under construction in Vernon, Calif., on July 14, 2026.\nMyung J. Chun/LA Times via Getty Images\nI was watching some hot World Cup action the other day when this local ad from a lobbying group called Virginia Connects graced my television screen. I didn’t know that Virginia Connects was behind this spot until the very end of it, which is standard practice for all evilmongers these days. If I see a commercial that begins with a tasteful montage of Americans doing super-serious, deeply American things, that ad will inevitably end with a plug for AI, Meta pinky-swearing to keep your kids safe, or a promise that Jesus gets me.\n\nThis Virginia Connects ad plays out in a similar fashion. It opens with an all-American dad using his smartphone to give his a…",
-          "link": "https://www.sfgate.com/tech/article/data-centers-22356298.php",
-          "publishedOn": "2026-08-02T14:59:58.943Z",
-          "wordCount": 177,
-          "title": "If you don't hate data centers yet, boy do I have news for you",
           "imageUrl": null
         }
       ]
@@ -2492,6 +2462,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1554746",
+          "author": "Josh Marshall",
+          "description": "The Democratic Wisconsin governor’s primary is looking a bit like a replay of the near upset in Michigan but with...",
+          "link": "https://talkingpointsmemo.com/edblog/upset-brewing-in-wisconsin",
+          "publishedOn": "2026-08-12T02:25:53.000Z",
+          "wordCount": 2086,
+          "title": "Upset Brewing In Wisconsin",
+          "imageUrl": "https://s3.amazonaws.com/tpm-media/images/tpm-logo_square.png"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1554713",
           "author": "Josh Marshall",
@@ -2932,22 +2912,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!OX8U!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb0c2abe-8b45-4f31-b44b-16ea67507df9_1456x819.webp"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/good-news-everyone-grand-theft-paint",
-          "author": "Jeff Tiedrich",
-          "description": "but MAGA is Big Mad at Jeanine Boxwine right now",
-          "link": "https://www.jefftiedrich.com/p/good-news-everyone-grand-theft-paint",
-          "publishedOn": "2026-08-02T14:37:47.000Z",
-          "wordCount": null,
-          "title": "good news, everyone! Grand Theft Paint Chips no longer a crime",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!bJo6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a6c3d2d-3b7c-443c-be2a-3756454e04c5_890x538.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!bJo6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a6c3d2d-3b7c-443c-be2a-3756454e04c5_890x538.jpeg"
         }
       ]
     }
