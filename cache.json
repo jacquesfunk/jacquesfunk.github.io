@@ -160,6 +160,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://magnus.therning.org/2026-08-13-emacs-salmagundi,-2026-08-13.html",
+          "author": null,
+          "description": "Limiting enabled tree-sitter modes\nEmacs 31 Is Around the Corner: The Changes I'm\nAlready Daily Driving I simplified my setup and turned on all the tree-sitter\nmodes\n\n\n\n(treesit-enabled-modes t)\n\nyaml-ts-mode is rather unusable.1 I switched back to yaml-mode and\nadjusted the value of treesit-enabled-modes to include what I have use for\n(the change):\n\n\n\n(treesit-enabled-modes '(bash-ts-mode\n                         c++-ts-mode\n                         c-or-c++-ts-mode\n                         c-ts-mode\n                         dockerfile-ts-mode\n                         go-mod-ts-mode\n                         go-ts-mode\n                         go-work-ts-mode\n                         json-ts-mode\n                         python-ts-mode\n                         rust-ts-mode\n                         typescript-ts-mode))\n\ntreesit-enabled-modes contains a list of all the\nsupported modes.\n\n\n\nI hope someone will take pity on yaml-ts-mode and make it usable soon.\n\n\n\n\nTree-sitter grammar for Cabal files\ntreesitter-based mode for Haskell I failed to\nfind a tree-sitter grammar for Cabal files so I wrote a rather rough one myself.\nMy hope was that it could serve as a base, or motivation, for someone else to\nwrite a proper one. It took more than 2 years, but now it's finally happened!\n\n\n\nI've switched my mode to use Curtis's grammar and I'll be archiving mine. (The\nchange.)\n\n\n\n\nHello editable xref, good bye wgrep\nRahul's post also mentions that editable xref buffers. I had the same itch to\nhave editable xref buffers, and I'd added a function to turn them into grep\nbuffers to be able to edit them. I've now switched to using the built-in\nsupport, and removed the function.\n\n\n\nAt the same time I also decided to remove wgrep and instead use the builtin\nfunction for editing grep buffers.\n\n\n\n\nFootnotes: \n1 \n\nA mode for an indentation-sensitive language really ought to at least handle\nindentation!\n\n\n\n\n\n\nTags: emacs haskell",
+          "link": "https://magnus.therning.org/2026-08-13-emacs-salmagundi,-2026-08-13.html",
+          "publishedOn": "2026-08-13T19:44:00.000Z",
+          "wordCount": 307,
+          "title": "Magnus: Emacs salmagundi, 2026-08-13",
+          "imageUrl": null
+        },
+        {
           "id": "https://sachachua.com/blog/2026/08/27-aout-emacs-chat-fabrice-niessen-en-francais-partie-2/",
           "author": null,
           "description": "Fabrice Niessen d'Emacs, de ses flux de travail, de sa configuration et d'autres sujets en français. Voici ses notes.\n\n\n\n\nWatch on YouTube\n\n\n\n[2026-08-27 Thu 07:30]–[2026-08-27 Thu 08:30] dans le fuseau horaire America/Toronto, soit 0730H EDT / 0630H CDT / 0530H MDT / 0430H PDT / 1130H UTC / 1330H CEST / 1430H EEST / 1700H IST / 1930H +08 / 2030H JST.\n\n\n\nVoici notre conversation précédente :\n\n\n\n\nWatch on YouTube\n\nView Org source for this post\nYou can e-mail me at sacha@sachachua.com.",
@@ -556,6 +566,36 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=232287",
+          "author": "David Roth",
+          "description": "In my personal mental masthead for Defector, there are bureaus representing the places where my co-workers live. Philadelphia you know about. New York, for better and worse, is implied. Minneapolis, where no Defector staffers currently live, is more complicated. But we have Drew, whose Minnesota sports fandom has put him under this heading even though he hasn't lived there in decades, and we also have Justin Ellis, who was shaped by his experience growing up there even though he, too, is a long time gone. Given that recent years have shoved Minneapolis into the center of American politics, and given that Justin wrote a fine new book about the state's long and complicated history on race called The Cruelty Of Nice Folks, it made sense to get the Minnesota Bureau together on the podcast this…",
+          "link": "https://defector.com/in-this-house-we-believe-a-bunch-of-stuff-with-justin-ellis",
+          "publishedOn": "2026-08-13T20:22:19.000Z",
+          "wordCount": 5993,
+          "title": "In This House We Believe A Bunch Of Stuff, With Justin Ellis",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-107558234_9fefaa.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=232344",
+          "author": "Giri Nathan",
+          "description": "It’s hard to imagine now—like imagining an era when man did not know the sun was huge, hot, and bright—but there was a time when we did not yet understand Russell Westbrook as a basketball player. Slow to hit his growth spurt, Westbrook didn’t dunk until his senior year of high school. Coming out of UCLA after his sophomore year, he was hailed as a defensive stud, with unexplored skill offensively; he still mostly played off the ball. Envision, if you can, an adult Russell Westbrook who had already given over his life to basketball, but did not yet dunk and did not yet dominate the ball. It makes me feel a little insane, like it’s never too late to carve out the defining traits of your life. Go out and remake yourself tomorrow, then decide that that’s you from here on out, and then don’t q…",
+          "link": "https://defector.com/russell-westbrook-was-total",
+          "publishedOn": "2026-08-13T19:58:52.000Z",
+          "wordCount": 8282,
+          "title": "Russell Westbrook Was Total",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-631858258.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=232265",
+          "author": "Patrick Redford",
+          "description": "When the Seattle SuperSonics drafted Russell Westbrook fourth overall in 2008, around six weeks before they officially became the Oklahoma City Thunder, the league had no idea what to do with such an athletic and violent point guard. Westbrook, who announced his retirement this week, leaves behind a very different NBA than the one he joined 18 years ago, but, despite the considerable passage of time, the extent to which the game changed, and the extensive accolades he racked up, he never became a player who made sense. No sane coach would ever have instructed any of their charges to play more like Russell Westbrook, less because of the riskiness inherent to such a tactic, and more because of its plain impossibility. Westbrook was singular.\nConsider the NBA that Westbrook joined. It was ass…",
+          "link": "https://defector.com/russell-westbrook-was-singular",
+          "publishedOn": "2026-08-13T19:52:43.000Z",
+          "wordCount": 7981,
+          "title": "Russell Westbrook Was Singular",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-114697974.jpg"
+        },
         {
           "id": "https://defector.com/?p=232331",
           "author": "John Saward",
@@ -2457,22 +2497,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!ZM-V!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9ca2252d-5911-41ae-946a-38e48cb15503_2654x1720.png"
-        },
-        {
-          "id": "https://www.flowstate.fm/p/flow-state-episode-337",
-          "author": "Flow State",
-          "description": "Today’s mix opens with a Kane Parsons ambient track from 2024, followed by other ambient selections from Sun Kin, Metric System 1981, Ibukun Sunday, and BCMC.",
-          "link": "https://www.flowstate.fm/p/flow-state-episode-337",
-          "publishedOn": "2026-08-04T07:02:30.000Z",
-          "wordCount": null,
-          "title": "Flow State Episode 337",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://api.substack.com/feed/podcast/209734199/cbcbf226fb01341b3f26c21f35bb0821.mp3",
-            "length": "0",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
