@@ -548,16 +548,6 @@
           "wordCount": 2619,
           "title": "Andros Fenollosa: EWW, the Emacs browser you underestimate",
           "imageUrl": "https://img.andros.dev/nBgRNg17UB_JOm4H0xVbgc4r7Pg=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_94e69e19.png"
-        },
-        {
-          "id": "https://olddeuteronomy.github.io/post/debugging-in-emacs/",
-          "author": null,
-          "description": "Introduction\nIn my years of using Emacs, I’ve noticed a common pattern: developers\nwho are highly proficient at editing source code in Emacs switch to a\n“normal IDE” (as they call it)—such as CLion or Visual Studio—when\nthey need to debug their code. They usually explain this by saying\nthat Emacs feels a bit weird for the task.\nHowever, I’d much rather not leave Emacs if something can be done inside it.\nIn this post, I’ll try to show that debugging in Emacs is both simple\nand effective, especially after a few small adjustments to the default\nsettings.\nDebugging in Emacs revolves around two key components:\nGDB (GNU Debugger), the most\npopular and powerful debugger for C, C++, and other languages.\nGUD\n(Grand Unified Debugger), Emacs’ built-in interface since at least\nv19 that turns GDB into …",
-          "link": "https://olddeuteronomy.github.io/post/debugging-in-emacs/",
-          "publishedOn": "2026-08-04T08:47:40.000Z",
-          "wordCount": 1036,
-          "title": "The Emacs Cat: Debugging in Emacs",
-          "imageUrl": null
         }
       ]
     },
@@ -2193,6 +2183,16 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73428346/judge-decision-harvard-trump-administration/",
+          "author": null,
+          "description": "No matter how hard the president tries, he can’t seem to outmuscle the prestigious university.",
+          "link": "https://www.esquire.com/news-politics/politics/a73428346/judge-decision-harvard-trump-administration/",
+          "publishedOn": "2026-08-13T20:50:34.000Z",
+          "wordCount": 18674,
+          "title": "A Federal Judge Just Dealt a Decisive Blow to Trump’s Batty Legal Crusade Against Harvard",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/26022d5c-d408-4308-ab68-039610570bd0.jpeg?crop=1xw:0.749625187406xh;center,top&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73426123/republican-culture-warriors/",
           "author": null,
           "description": "Is there any hope of purging the crazy from American conservatism?",
@@ -2925,6 +2925,22 @@
       "feedUrl": "https://wherethingsstand.talkingpointsmemo.com/feed",
       "siteUrl": "https://wherethingsstand.talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://wherethingsstand.talkingpointsmemo.com/p/republicans-plan-to-convince-americans",
+          "author": "Nicole Lafond",
+          "description": "This is your TPM evening briefing.",
+          "link": "https://wherethingsstand.talkingpointsmemo.com/p/republicans-plan-to-convince-americans",
+          "publishedOn": "2026-08-13T21:45:35.000Z",
+          "wordCount": null,
+          "title": "Republicans’ Plan to Convince Americans They Care About Affordability Is Cartoonishly Out of Touch",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!_4eD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e0820eb-4037-42a0-838a-82cb3a2afe1f_1600x1200.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!_4eD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e0820eb-4037-42a0-838a-82cb3a2afe1f_1600x1200.png"
+        },
         {
           "id": "https://wherethingsstand.talkingpointsmemo.com/p/trump-admits-to-some-contractor-error",
           "author": "Nicole Lafond",

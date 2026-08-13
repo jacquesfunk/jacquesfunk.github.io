@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-13T20:40:03.527Z</updated>
+    <updated>2026-08-13T22:39:26.416Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Republicans’ Plan to Convince Americans They Care About Affordability Is Cartoonishly Out of Touch]]></title>
+        <id>https://wherethingsstand.talkingpointsmemo.com/p/republicans-plan-to-convince-americans</id>
+        <link href="https://wherethingsstand.talkingpointsmemo.com/p/republicans-plan-to-convince-americans"/>
+        <updated>2026-08-13T21:45:35.000Z</updated>
+        <summary type="html"><![CDATA[This is your TPM evening briefing.]]></summary>
+        <author>
+            <name>Nicole Lafond</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Federal Judge Just Dealt a Decisive Blow to Trump’s Batty Legal Crusade Against Harvard]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a73428346/judge-decision-harvard-trump-administration/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a73428346/judge-decision-harvard-trump-administration/"/>
+        <updated>2026-08-13T20:50:34.000Z</updated>
+        <summary type="html"><![CDATA[No matter how hard the president tries, he can’t seem to outmuscle the prestigious university.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[In This House We Believe A Bunch Of Stuff, With Justin Ellis]]></title>
         <id>https://defector.com/?p=232287</id>
@@ -3768,31 +3788,6 @@ It strikes me that this is akin to a virus escaping from a laboratory. It makes 
         <summary type="html"><![CDATA[The first time I heard Twista rhyme was back in the early nineties when he was going by the alias of Tung Twista. Back then, there was a bunch of hoopla around him getting into the Guinness Book of World … Continue reading →]]></summary>
         <author>
             <name>deedub77</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Emacs Cat: Debugging in Emacs]]></title>
-        <id>https://olddeuteronomy.github.io/post/debugging-in-emacs/</id>
-        <link href="https://olddeuteronomy.github.io/post/debugging-in-emacs/"/>
-        <updated>2026-08-04T08:47:40.000Z</updated>
-        <summary type="html"><![CDATA[Introduction
-In my years of using Emacs, I’ve noticed a common pattern: developers
-who are highly proficient at editing source code in Emacs switch to a
-“normal IDE” (as they call it)—such as CLion or Visual Studio—when
-they need to debug their code. They usually explain this by saying
-that Emacs feels a bit weird for the task.
-However, I’d much rather not leave Emacs if something can be done inside it.
-In this post, I’ll try to show that debugging in Emacs is both simple
-and effective, especially after a few small adjustments to the default
-settings.
-Debugging in Emacs revolves around two key components:
-GDB (GNU Debugger), the most
-popular and powerful debugger for C, C++, and other languages.
-GUD
-(Grand Unified Debugger), Emacs’ built-in interface since at least
-v19 that turns GDB into …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
