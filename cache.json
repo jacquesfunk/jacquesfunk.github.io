@@ -160,6 +160,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://olddeuteronomy.github.io/post/emacs-dired-ubuntu26/",
+          "author": null,
+          "description": "Just recently I upgraded one of my Dell laptops to the latest Ubuntu\n26.04 LTS with a clean install. The installation process was smooth\nand enjoyable.\nUbuntu 26.04 ships with Emacs 30.2, which made me happy, so I\ninstalled it immediately—more precisely, the emacs-pgtk\nWayland-optimized package, since Wayland is the default windowing\nsystem on Ubuntu 26.04.\nThe Problem\nI started Emacs and, after a short time, ran into a problem: Dired\n(C-x d) did not work properly. It displayed a strange mess of\nunsorted, chaotic entries, as shown below. It was a big surprise.\n\n      \nClick or tap to view the full-size picture.\nI’ve been using the same .emacs multi-platform config\nfile for Linux, macOS, and Windows for years and have never had any\nproblems with Dired on different platforms, let alone acros…",
+          "link": "https://olddeuteronomy.github.io/post/emacs-dired-ubuntu26/",
+          "publishedOn": "2026-08-13T09:55:47.000Z",
+          "wordCount": 789,
+          "title": "The Emacs Cat: Emacs, Dired, and Ubuntu 26.04",
+          "imageUrl": null
+        },
+        {
+          "id": "https://metaredux.com/posts/2026/08/13/projectile-3-4.html",
+          "author": null,
+          "description": "Projectile 3.4 is out! After\nthe four releases that preceded it this summer, this one is polish rather than ambition.\nMost of it came out of an annoyance I’d been living with for years without ever quite\nnaming it: a lot of what I work on isn’t one directory. CIDER is really CIDER plus\ncider-nrepl plus orchard plus clj-refactor plus a handful of others. RuboCop is\nRuboCop plus rubocop-ast plus rubocop-rails and the other extension gems plus the style\nguide. I’ve been maintaining families of repositories for the better part of a decade.\nLately I’ve also been reaching for git worktrees far more than I used to, so the same\nrepository is now checked out two or three times on my disk at any given moment.\nProjectile saw all of that as a pile of unrelated projects, which is exactly what it looks\n…",
+          "link": "https://metaredux.com/posts/2026/08/13/projectile-3-4.html",
+          "publishedOn": "2026-08-13T07:30:00.000Z",
+          "wordCount": 1537,
+          "title": "Meta Redux: Projectile 3.4",
+          "imageUrl": "https://metaredux.com/assets/og-image.png"
+        },
+        {
           "id": "https://protesilaos.com/codelog/2026-08-13-emacs-themes-solarized-wallpapers/",
           "author": null,
           "description": "JTR from the blog The Art Of Not Asking Why sent me a few questions\nregarding Emacs themes, my opinion on the Solarized colour scheme, and\neven my choice of wallpaper.\nJTR asks about Solarized because I consider Ethan Schoonover’s\nSolarized an excellent project, given what Ethan was trying to\nachieve. I asked JTR if I could publish my thoughts and they agreed.\nJTR has also written the article Back to Solarized.\nNote that throughout this article I am only commenting on Ethan\nSchoonover’s Solarized (the original Solarized). There are many\nSolarized-like themes out there with lots of additions on top,\nincluding higher colour contrast, which are separate themes as far as\nI am concerned.\nI should also point out something I always mention: themes are a\npersonal choice and there are many factors …",
@@ -1344,16 +1364,6 @@
           "publishedOn": "2026-08-05T02:17:27.000Z",
           "wordCount": 1541,
           "title": "Hump Day Hottie: Sabrina Carpenter",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=2908",
-          "author": "Schill",
-          "description": "Independent filmmaking has produced countless cult classics over the decades, but few have left a mark quite like The Toxic",
-          "link": "https://stuffthatinterestsme.net/tuesday-troma-the-toxic-avenger/",
-          "publishedOn": "2026-08-04T00:01:32.000Z",
-          "wordCount": 2920,
-          "title": "Tuesday Troma: The Toxic Avenger",
           "imageUrl": null
         }
       ]

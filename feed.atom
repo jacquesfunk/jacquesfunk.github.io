@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-13T10:59:31.814Z</updated>
+    <updated>2026-08-13T13:06:25.331Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -17,6 +17,52 @@ So imagine my shock – not relief, really, because I enjoy being angry and afra
 Hong's defeat in the Wisconsin primary shakes up my fear of …]]></summary>
         <author>
             <name>Rex Huppke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Emacs Cat: Emacs, Dired, and Ubuntu 26.04]]></title>
+        <id>https://olddeuteronomy.github.io/post/emacs-dired-ubuntu26/</id>
+        <link href="https://olddeuteronomy.github.io/post/emacs-dired-ubuntu26/"/>
+        <updated>2026-08-13T09:55:47.000Z</updated>
+        <summary type="html"><![CDATA[Just recently I upgraded one of my Dell laptops to the latest Ubuntu
+26.04 LTS with a clean install. The installation process was smooth
+and enjoyable.
+Ubuntu 26.04 ships with Emacs 30.2, which made me happy, so I
+installed it immediately—more precisely, the emacs-pgtk
+Wayland-optimized package, since Wayland is the default windowing
+system on Ubuntu 26.04.
+The Problem
+I started Emacs and, after a short time, ran into a problem: Dired
+(C-x d) did not work properly. It displayed a strange mess of
+unsorted, chaotic entries, as shown below. It was a big surprise.
+
+      
+Click or tap to view the full-size picture.
+I’ve been using the same .emacs multi-platform config
+file for Linux, macOS, and Windows for years and have never had any
+problems with Dired on different platforms, let alone acros…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta Redux: Projectile 3.4]]></title>
+        <id>https://metaredux.com/posts/2026/08/13/projectile-3-4.html</id>
+        <link href="https://metaredux.com/posts/2026/08/13/projectile-3-4.html"/>
+        <updated>2026-08-13T07:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Projectile 3.4 is out! After
+the four releases that preceded it this summer, this one is polish rather than ambition.
+Most of it came out of an annoyance I’d been living with for years without ever quite
+naming it: a lot of what I work on isn’t one directory. CIDER is really CIDER plus
+cider-nrepl plus orchard plus clj-refactor plus a handful of others. RuboCop is
+RuboCop plus rubocop-ast plus rubocop-rails and the other extension gems plus the style
+guide. I’ve been maintaining families of repositories for the better part of a decade.
+Lately I’ve also been reaching for git worktrees far more than I used to, so the same
+repository is now checked out two or three times on my disk at any given moment.
+Projectile saw all of that as a pile of unrelated projects, which is exactly what it looks
+…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -3571,16 +3617,6 @@ The Free Press, the conservative publication founded by Bari Weiss, who is prese
 In the most recent development, Trump’s Department of Justice on July 31 dropped ridiculous charges it had filed against former Olympian David Hearn, falsely claiming he had ripped up part of the pool’s new lining. You’ll recall the president was rushing to “fix” the Reflecting Pool prior to the July 4 celebration of America’s 250th anniversary. The work was clearly a bust from the start, as algae returned to the pool almost instantly and we a…]]></summary>
         <author>
             <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tuesday Troma: The Toxic Avenger]]></title>
-        <id>https://stuffthatinterestsme.net/?p=2908</id>
-        <link href="https://stuffthatinterestsme.net/tuesday-troma-the-toxic-avenger/"/>
-        <updated>2026-08-04T00:01:32.000Z</updated>
-        <summary type="html"><![CDATA[Independent filmmaking has produced countless cult classics over the decades, but few have left a mark quite like The Toxic]]></summary>
-        <author>
-            <name>Schill</name>
         </author>
     </entry>
 </feed>
