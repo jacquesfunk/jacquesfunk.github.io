@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-13T04:10:37.687Z</updated>
+    <updated>2026-08-13T07:23:55.155Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Alden Hellmuth (Interview)]]></title>
+        <id>https://www.flowstate.fm/p/alden-hellmuth-interview</id>
+        <link href="https://www.flowstate.fm/p/alden-hellmuth-interview"/>
+        <updated>2026-08-13T07:02:20.000Z</updated>
+        <summary type="html"><![CDATA[Today we’re listening to Alden Hellmuth, an American saxophonist and composer from Connecticut.]]></summary>
+        <author>
+            <name>Flow State</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Forgotten Band: Sponge]]></title>
         <id>https://stuffthatinterestsme.net/?p=3257</id>
@@ -14,6 +24,29 @@
         <summary type="html"><![CDATA[The 1990s produced an incredible wave of rock bands that reshaped popular music. Nirvana, Pearl Jam, Soundgarden, Alice in Chains,]]></summary>
         <author>
             <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Protesilaos: About Emacs themes, Solarized, and wallpapers]]></title>
+        <id>https://protesilaos.com/codelog/2026-08-13-emacs-themes-solarized-wallpapers/</id>
+        <link href="https://protesilaos.com/codelog/2026-08-13-emacs-themes-solarized-wallpapers/"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JTR from the blog The Art Of Not Asking Why sent me a few questions
+regarding Emacs themes, my opinion on the Solarized colour scheme, and
+even my choice of wallpaper.
+JTR asks about Solarized because I consider Ethan Schoonover’s
+Solarized an excellent project, given what Ethan was trying to
+achieve. I asked JTR if I could publish my thoughts and they agreed.
+JTR has also written the article Back to Solarized.
+Note that throughout this article I am only commenting on Ethan
+Schoonover’s Solarized (the original Solarized). There are many
+Solarized-like themes out there with lots of additions on top,
+including higher colour contrast, which are separate themes as far as
+I am concerned.
+I should also point out something I always mention: themes are a
+personal choice and there are many factors …]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -3545,64 +3578,6 @@ In the most recent development, Trump’s Department of Justice on July 31 dropp
         <summary type="html"><![CDATA[Something tells me our president isn’t going to anything about it either.]]></summary>
         <author>
             <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[If Baseball Is Ruined, Show Me The Ruins]]></title>
-        <id>https://defector.com/?p=231121</id>
-        <link href="https://defector.com/if-baseball-is-ruined-show-me-the-ruins"/>
-        <updated>2026-08-03T18:50:49.000Z</updated>
-        <summary type="html"><![CDATA[The Los Angeles Dodgers got Tarik Skubal, damn them. Damn them for having money; damn them for being too damn good; damn them for ruining baseball. That they got Skubal, the hottest commodity on the stove at the trade deadline, for relative peanuts, well. In this case, you damn everyone else.
-This trade will ostensibly impact the Dodgers' odds through the 2026 World Series, though that's the least relevant part of the picture. All anyone can think about, at least as it pertains to the Dodgers, is what baseball will look like in 2027, if we get any baseball in 2027 at all. In that sense, the 2026 World Series does matter. No doubt the future of the sport depends heavily on the team that wins; considering Tarik Skubal and his $9.5 million in remaining salary cost three decent prospects, you could infer that every single owner wants it to be the Dodgers. For the greater good, you see.
-If one were conspiracy minded, one could trace the logical threads from this trade to that conclusion. There are qualifiers on Skubal's performance this year that might justify a lower price—he has had injury trouble and a novel surgical procedure to treat it; though his ERA is still excellent, his peripherals aren't nearly as tidy; he is a rental only through the end of the year—but those qualifiers would be in place at any price, no matter where he went. It is both borderline incomprehensible and self-evidently true that other teams in the rarefied contention window like the Tampa Bay Rays or the Milwaukee Brewers—neither of which, mind you, have ever won a World Series—did not outbid the Dodgers' winning offer, not even for the sake of driving the price higher. It is equally strange that the Detroit Tigers did not shop more rigorously around the league for a higher return.]]></summary>
-        <author>
-            <name>Kathryn Xu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Charles Choi: Announcing now-playing.el, an Emacs interface for the macOS Music app]]></title>
-        <id>http://yummymelon.com/devnull/announcing-now-playing-el.html</id>
-        <link href="http://yummymelon.com/devnull/announcing-now-playing-el.html"/>
-        <updated>2026-08-03T17:55:00.000Z</updated>
-        <summary type="html"><![CDATA[For me, listening to music whenever I’m working on a computer is a commonplace, daresay essential activity. Much of my work is done using Emacs, so the idea of having it control music playback to mitigate an app switch seemed reasonable. Such was the motivation for my latest project, now-playing.el, a Transient interface for the macOS Music (nee iTunes) app.
-
-now-playing.el takes inspiration from the many mini-client interfaces provided by Apple to control the Music app. The idea was to have a compact and simple interface:
-Show what is currently playing (song, artist, album)
-Offer basic controls (play/pause, next/previous track, volume control)
-Optionally log what was played.
-now-playing.el takes advantage of AppleScript support in the Music app, providing the needed controllability and ob…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wait, Did the Republican Party Only Just Realize That It Hired a Bunch of Yahoos and Morons, and That’s Why It’s Falling Apart?]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a73335507/republican-party-modern-conservatism/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a73335507/republican-party-modern-conservatism/"/>
-        <updated>2026-08-03T17:26:08.000Z</updated>
-        <summary type="html"><![CDATA[I’ve seen this coming ever since Reagan opened the Gates of Mordor back in 1980.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump Keeps Finding New Targets to Blame for His Ridiculous Reflecting Pool Fiasco—and a Key Ally Is Now in His Sights]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a73334982/trump-reflecting-pool-jeanine-pirro/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a73334982/trump-reflecting-pool-jeanine-pirro/"/>
-        <updated>2026-08-03T17:00:20.000Z</updated>
-        <summary type="html"><![CDATA[Just goes to show that there’s no reasoning with a madman.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trade Season Kicks Ass Until They Sell Your Beautiful Son]]></title>
-        <id>https://defector.com/?p=231119</id>
-        <link href="https://defector.com/trade-season-kicks-ass-until-they-sell-your-beautiful-son"/>
-        <updated>2026-08-03T16:35:07.000Z</updated>
-        <summary type="html"><![CDATA[Who is ruining baseball? For me, for today, it's the Washington Nationals. Games played by my home team make up a solid 90 percent of the baseball I watch in a given regular season. Like a lot of baseball fans I was hoping Tarik Skubal would go to the Milwaukee Brewers or the Tampa Bay Rays instead of to the Dodgers, but in a distant, uncommitted sort of way, the way that I might hope that my friends have favorable weather while they are taking a trip someplace. Skubal's trade destination is firmly not my problem. While the Nationals are playing competitive baseball, I really do not give a rip what the Dodgers are up to. While the Nationals are anywhere near the hunt, I might watch as many as two Dodgers games a month, and the chances are very good that Skubal will not happen to be pitchin…]]></summary>
-        <author>
-            <name>Chris Thompson</name>
         </author>
     </entry>
 </feed>

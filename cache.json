@@ -160,6 +160,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://protesilaos.com/codelog/2026-08-13-emacs-themes-solarized-wallpapers/",
+          "author": null,
+          "description": "JTR from the blog The Art Of Not Asking Why sent me a few questions\nregarding Emacs themes, my opinion on the Solarized colour scheme, and\neven my choice of wallpaper.\nJTR asks about Solarized because I consider Ethan Schoonover’s\nSolarized an excellent project, given what Ethan was trying to\nachieve. I asked JTR if I could publish my thoughts and they agreed.\nJTR has also written the article Back to Solarized.\nNote that throughout this article I am only commenting on Ethan\nSchoonover’s Solarized (the original Solarized). There are many\nSolarized-like themes out there with lots of additions on top,\nincluding higher colour contrast, which are separate themes as far as\nI am concerned.\nI should also point out something I always mention: themes are a\npersonal choice and there are many factors …",
+          "link": "https://protesilaos.com/codelog/2026-08-13-emacs-themes-solarized-wallpapers/",
+          "publishedOn": "2026-08-13T00:00:00.000Z",
+          "wordCount": 2995,
+          "title": "Protesilaos: About Emacs themes, Solarized, and wallpapers",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
+        {
           "id": "https://ray-on-emacs.blogspot.com/2026/08/emacs-numbered-backup-strategy.html",
           "author": null,
           "description": "Emacs produces a backup of each file by default.  It does this by\n  appending a tilde to the file's name.  For example, Myfile.txt is backed up to\n  Myfile.txt~.  It's a reasonable strategy, assuming that\n  a Version Control system is in place.\nBut in the absence of version control, you're limited to restoring\n  just the previous version; older versions need to be restored from\n  backup.\nI use git for coding projects that I share to the public.  But I\n  didn't create a repository for my home directory.  So when\n  C-c a m TAG1 generated an error instead of a list of\n  TAGged items, I hoped fervently that the latest init file change was\n  to blame.\nAfter finding and fixing the problem quickly, (and realizing I was\n  lucky this time), I resolved to be more diligent about disaster\n  recovery.  I looked into what backup schemes Emacs already\n  provides.\nEmacs can create unique backups for a file rather than overwriting\n  the previous backup.  When Emacs sees a numbered backup for a given\n  file, it will make a new, sequentially-named file for each backup of\n  that file, while continuing to use the \"append tilde\" method for\n  other files.\nOnce I renamed (or copied) .emacs~\n  to .emacs.~1~, Emacs created backups\n  named .emacs.~2~, .emacs.~3~ (and so on).\n  I didn't even need to change a variable -- when Emacs\n  detected .emacs.~1~, it knew that backups\n  of .emacs needed to be numeric, so it acted\n  accordingly.  Emacs continues to use bills.org~ as the backup\n  for bills.org.  Until I tell it otherwise.\n\nRead\n  the Emacs Manual to learn more about numbered backups.\n1  C-c a m invokes org-tags-view\nThe default values for the pertinent backup variables are:\n\nmake-backup-files is t\nbackup-by-copying is nil\nversion-control is nil",
@@ -488,16 +498,6 @@
           "wordCount": 1036,
           "title": "The Emacs Cat: Debugging in Emacs",
           "imageUrl": null
-        },
-        {
-          "id": "http://yummymelon.com/devnull/announcing-now-playing-el.html",
-          "author": null,
-          "description": "For me, listening to music whenever I’m working on a computer is a commonplace, daresay essential activity. Much of my work is done using Emacs, so the idea of having it control music playback to mitigate an app switch seemed reasonable. Such was the motivation for my latest project, now-playing.el, a Transient interface for the macOS Music (nee iTunes) app.\n\nnow-playing.el takes inspiration from the many mini-client interfaces provided by Apple to control the Music app. The idea was to have a compact and simple interface:\nShow what is currently playing (song, artist, album)\nOffer basic controls (play/pause, next/previous track, volume control)\nOptionally log what was played.\nnow-playing.el takes advantage of AppleScript support in the Music app, providing the needed controllability and ob…",
-          "link": "http://yummymelon.com/devnull/announcing-now-playing-el.html",
-          "publishedOn": "2026-08-03T17:55:00.000Z",
-          "wordCount": 410,
-          "title": "Charles Choi: Announcing now-playing.el, an Emacs interface for the macOS Music app",
-          "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
         }
       ]
     },
@@ -1165,26 +1165,6 @@
           "wordCount": 6720,
           "title": "The Right Has Created Their Perfect Trans Athlete",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2288522594_6f7f14-e1785843067862.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=231121",
-          "author": "Kathryn Xu",
-          "description": "The Los Angeles Dodgers got Tarik Skubal, damn them. Damn them for having money; damn them for being too damn good; damn them for ruining baseball. That they got Skubal, the hottest commodity on the stove at the trade deadline, for relative peanuts, well. In this case, you damn everyone else.\nThis trade will ostensibly impact the Dodgers' odds through the 2026 World Series, though that's the least relevant part of the picture. All anyone can think about, at least as it pertains to the Dodgers, is what baseball will look like in 2027, if we get any baseball in 2027 at all. In that sense, the 2026 World Series does matter. No doubt the future of the sport depends heavily on the team that wins; considering Tarik Skubal and his $9.5 million in remaining salary cost three decent prospects, you could infer that every single owner wants it to be the Dodgers. For the greater good, you see.\nIf one were conspiracy minded, one could trace the logical threads from this trade to that conclusion. There are qualifiers on Skubal's performance this year that might justify a lower price—he has had injury trouble and a novel surgical procedure to treat it; though his ERA is still excellent, his peripherals aren't nearly as tidy; he is a rental only through the end of the year—but those qualifiers would be in place at any price, no matter where he went. It is both borderline incomprehensible and self-evidently true that other teams in the rarefied contention window like the Tampa Bay Rays or the Milwaukee Brewers—neither of which, mind you, have ever won a World Series—did not outbid the Dodgers' winning offer, not even for the sake of driving the price higher. It is equally strange that the Detroit Tigers did not shop more rigorously around the league for a higher return.",
-          "link": "https://defector.com/if-baseball-is-ruined-show-me-the-ruins",
-          "publishedOn": "2026-08-03T18:50:49.000Z",
-          "wordCount": 6657,
-          "title": "If Baseball Is Ruined, Show Me The Ruins",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/tarikSkubalDodgers.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=231119",
-          "author": "Chris Thompson",
-          "description": "Who is ruining baseball? For me, for today, it's the Washington Nationals. Games played by my home team make up a solid 90 percent of the baseball I watch in a given regular season. Like a lot of baseball fans I was hoping Tarik Skubal would go to the Milwaukee Brewers or the Tampa Bay Rays instead of to the Dodgers, but in a distant, uncommitted sort of way, the way that I might hope that my friends have favorable weather while they are taking a trip someplace. Skubal's trade destination is firmly not my problem. While the Nationals are playing competitive baseball, I really do not give a rip what the Dodgers are up to. While the Nationals are anywhere near the hunt, I might watch as many as two Dodgers games a month, and the chances are very good that Skubal will not happen to be pitchin…",
-          "link": "https://defector.com/trade-season-kicks-ass-until-they-sell-your-beautiful-son",
-          "publishedOn": "2026-08-03T16:35:07.000Z",
-          "wordCount": 8144,
-          "title": "Trade Season Kicks Ass Until They Sell Your Beautiful Son",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2288511399.jpg"
         }
       ]
     },
@@ -2270,26 +2250,6 @@
           "wordCount": 19683,
           "title": "The Major Climate-Change Warning Our Country Has Been Ignoring for Far Too Long",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/16d8c314-8bfe-4dc7-a615-f147c3d8d17d.jpeg?crop=1xw:0.749633967789xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73335507/republican-party-modern-conservatism/",
-          "author": null,
-          "description": "I’ve seen this coming ever since Reagan opened the Gates of Mordor back in 1980.",
-          "link": "https://www.esquire.com/news-politics/politics/a73335507/republican-party-modern-conservatism/",
-          "publishedOn": "2026-08-03T17:26:08.000Z",
-          "wordCount": 20844,
-          "title": "Wait, Did the Republican Party Only Just Realize That It Hired a Bunch of Yahoos and Morons, and That’s Why It’s Falling Apart?",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/30384573-2c85-4508-88cf-607ece23c336.jpeg?crop=1xw:0.750136388434xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73334982/trump-reflecting-pool-jeanine-pirro/",
-          "author": null,
-          "description": "Just goes to show that there’s no reasoning with a madman.",
-          "link": "https://www.esquire.com/news-politics/politics/a73334982/trump-reflecting-pool-jeanine-pirro/",
-          "publishedOn": "2026-08-03T17:00:20.000Z",
-          "wordCount": 21828,
-          "title": "Trump Keeps Finding New Targets to Blame for His Ridiculous Reflecting Pool Fiasco—and a Key Ally Is Now in His Sights",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/8e701466-159a-45d8-ab42-fe04b0e8a625.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
         }
       ]
     },
@@ -2365,6 +2325,22 @@
       "feedUrl": "https://www.flowstate.fm/feed",
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
+        {
+          "id": "https://www.flowstate.fm/p/alden-hellmuth-interview",
+          "author": "Flow State",
+          "description": "Today we’re listening to Alden Hellmuth, an American saxophonist and composer from Connecticut.",
+          "link": "https://www.flowstate.fm/p/alden-hellmuth-interview",
+          "publishedOn": "2026-08-13T07:02:20.000Z",
+          "wordCount": null,
+          "title": "Alden Hellmuth (Interview)",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!eF1U!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4527db6-a1f2-4426-96a4-af71b24a493f_1852x1732.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!eF1U!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4527db6-a1f2-4426-96a4-af71b24a493f_1852x1732.png"
+        },
         {
           "id": "https://www.flowstate.fm/p/mr-soon",
           "author": "Flow State",
