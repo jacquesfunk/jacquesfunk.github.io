@@ -160,6 +160,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://ray-on-emacs.blogspot.com/2026/08/emacs-numbered-backup-strategy.html",
+          "author": null,
+          "description": "Emacs produces a backup of each file by default.  It does this by\n  appending a tilde to the file's name.  For example, Myfile.txt is backed up to\n  Myfile.txt~.  It's a reasonable strategy, assuming that\n  a Version Control system is in place.\nBut in the absence of version control, you're limited to restoring\n  just the previous version; older versions need to be restored from\n  backup.\nI use git for coding projects that I share to the public.  But I\n  didn't create a repository for my home directory.  So when\n  C-c a m TAG1 generated an error instead of a list of\n  TAGged items, I hoped fervently that the latest init file change was\n  to blame.\nAfter finding and fixing the problem quickly, (and realizing I was\n  lucky this time), I resolved to be more diligent about disaster\n  recovery.  I looked into what backup schemes Emacs already\n  provides.\nEmacs can create unique backups for a file rather than overwriting\n  the previous backup.  When Emacs sees a numbered backup for a given\n  file, it will make a new, sequentially-named file for each backup of\n  that file, while continuing to use the \"append tilde\" method for\n  other files.\nOnce I renamed (or copied) .emacs~\n  to .emacs.~1~, Emacs created backups\n  named .emacs.~2~, .emacs.~3~ (and so on).\n  I didn't even need to change a variable -- when Emacs\n  detected .emacs.~1~, it knew that backups\n  of .emacs needed to be numeric, so it acted\n  accordingly.  Emacs continues to use bills.org~ as the backup\n  for bills.org.  Until I tell it otherwise.\n\nRead\n  the Emacs Manual to learn more about numbered backups.\n1  C-c a m invokes org-tags-view\nThe default values for the pertinent backup variables are:\n\nmake-backup-files is t\nbackup-by-copying is nil\nversion-control is nil",
+          "link": "https://ray-on-emacs.blogspot.com/2026/08/emacs-numbered-backup-strategy.html",
+          "publishedOn": "2026-08-12T23:01:35.675Z",
+          "wordCount": 2846,
+          "title": "Raymond Zeitler: Emacs Numbered Backup Strategy",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMqpJ_S2fJ68hZ6CYvyND36nEBMkLOjTC0VPpaiz0wxgmWkzlZf8UtU6DppwtDOhZOxx4d1J8_LBOJSl1RETPzAqFMZbeMMczcpc1aUzKdhHDqjEoFpr_2xK_883vE8e4rmcaxDRvhXqrFvsIukotKzMhN9_u2a2CE_VCdzPD7F5rGDew0_8tH20LeNVA/w1200-h630-p-k-no-nu/init-file-numbered-backups.gif"
+        },
+        {
           "id": "https://irreal.org/blog/?p=14008",
           "author": null,
           "description": "he jumped in the deep end and downloaded and built Master (Emacs 32) fully expecting to find lots of broken things.\n\n\nIt didn’t turn out that way. He was, in fact, surprised to discover that almost everything worked well. The only problem he had was evil on Windows and he solved that by simply upgrading evil. As for the rest, he found that Emacs was super-responsive and all the functionality that seemed laggy in that other editor was snappy in Emacs.\n\n\nThere are two lessons here. The first is that Emacs, far from being moribund, is undergoing continuing development and introducing new features. The second point is that Emacs is, unlike some of its competitors,  continuing to produce upgrades that simply work and don’t make their users crazy.\n\n\nVery shortly, we should see the release of Emacs 31 but work on Emacs 32 is already ongoing and amazingly stable for what is, after all, alpha software. The next time someone tells you that Emacs is old and moribund, refer them to gonstrider’s post.",
@@ -497,26 +507,6 @@
           "publishedOn": "2026-08-03T14:37:58.000Z",
           "wordCount": 1447,
           "title": "Irreal: The Em Dash And Emacs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://taonaw.com/2026/08/03/still-working-on-emacs-config.html",
-          "author": null,
-          "description": "Still working on Emacs Config Gems part 3. Fell into a deep rabbit hole and got lost for a couple of days, then climbed out just to discover another one I have to explore next. I wanted to crunch the first few tweaks of my Emacs config in one post, but there’s too much to explore. I’m getting there!",
-          "link": "https://taonaw.com/2026/08/03/still-working-on-emacs-config.html",
-          "publishedOn": "2026-08-03T12:21:03.000Z",
-          "wordCount": 496,
-          "title": "TAONAW - Emacs and Org Mode:",
-          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/08/03/5962689.png"
-        },
-        {
-          "id": "https://sachachua.com/blog/2026/08/2026-08-03-emacs-news/",
-          "author": null,
-          "description": "search for knowledge, which is incidentally the Emacs Carnival theme for August. Enjoy!\n\n\n\nHelp wanted:\n\npkal is looking for feedback on the jit-lock-stealth-load thread in emacs-devel on how to annotate changelog entries with release info (@pkal@social.sdfeu.org)\nIhor Radchenko's looking for insights from other maintainers on reviewing large feature branches (@yantar92@fosstodon.org)\nTesting patches for input methods:\n\n[patch] GNU emacs bug#68339 (w32 ime font size)\n[Patch]  Implement preedit text rendering for Windows\n\n\nUpcoming events (iCal file, Org):\n\nEmacs.si (in person): Emacs.si meetup #8 2026 (v #živo) https://dogodki.kompot.si/events/3944ee8f-6da1-4720-b086-b9217e4f5c7b Mon Aug 3 1900 CET\nEmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/315091679/ Thu Aug 6 1600 Amer…",
-          "link": "https://sachachua.com/blog/2026/08/2026-08-03-emacs-news/",
-          "publishedOn": "2026-08-03T10:57:58.000Z",
-          "wordCount": 1160,
-          "title": "Sacha Chua: 2026-08-03 Emacs news",
           "imageUrl": null
         }
       ]
@@ -1235,16 +1225,6 @@
           "wordCount": 15372,
           "title": "Abdul El-Sayed’s Campaign Believes The Many Can Defeat The Money",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2286101400.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=230958",
-          "author": "Dave McKenna",
-          "description": "DUBLIN — David Hickey was built for Gaelic football, the sport that can’t stick to sports. Hickey, who was a two-time GAA all-star and four-time All-Ireland winner as a half-forward for Dublin, used football’s biggest weekend as a platform for protests. \nFirst, Hickey loudly refused to show up for a so-called Legends Lunch at storied Croke Park on July 24, where he was to be honored alongside other members of the Dubs’ 1976 championship side. Hickey’s boycott was aimed at the Gaelic Players Association (GPA), the event’s organizer and primary football player advocacy group, for what he called its “failure to take a stance” against Allianz, a Germany-based insurance giant with a fetish for profiting from crimes against humanity. The transnational underwriter has been the preeminent sponsor of Irish games, hurling and football, since 1993, when it acquired naming rights for the national leagues in both sports. Allianz also invested billions of dollars in Israel’s invasion and occupation of Gaza. \n“I do not want the memory of that team associated in any way with the GPA, who have failed miserably to stand up for anything worthwhile apart from money,” said Hickey, who became Ireland’s leading transplant surgeon and a high-profile social activist after leaving the game.",
-          "link": "https://defector.com/gaelic-football-legend-david-hickey-wants-war-profiteers-out-of-his-sport",
-          "publishedOn": "2026-08-03T13:01:46.000Z",
-          "wordCount": 10520,
-          "title": "Gaelic Football Legend David Hickey Wants War Profiteers Out Of His Sport",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2263454814.jpg"
         }
       ]
     },
@@ -1489,16 +1469,6 @@
           "wordCount": 2115,
           "title": "How Ariana Grande’s body became political",
           "imageUrl": "https://www.salon.com/app/uploads/2026/08/Ariana-Grande-2255393438.jpg"
-        },
-        {
-          "id": "https://www.salon.com/2026/08/03/mitch-mcconnell-is-never-coming-back-to-the-senate/-full",
-          "author": null,
-          "description": "They must have hoped the photos would dispel conspiracy theories that he’s dead, or at least incapacitated. But the two proof-of-life pictures taken of Sen. Mitch McConnell and his wife, former Labor Secretary Elaine Chao, purportedly from his room at a rehabilitation center, have only generated more speculation about what has really happened to the 84-year-old Kentucky Republican, who hasn’t been seen or spoken in public since being hospitalized in mid-June. In both pictures, the typically sharp-minded senator is staring with a vacant smile at the camera, while the 73-year-old Chao has a firm grip on his arm that reads less as affection and more like direction.\nIn the first, taken July 12, McConnell holds the day’s newspaper, a tradition familiar more commonly seen in hostage photos. Even…",
-          "link": "https://www.salon.com/2026/08/03/mitch-mcconnell-is-never-coming-back-to-the-senate/",
-          "publishedOn": "2026-08-03T10:30:00.000Z",
-          "wordCount": 2233,
-          "title": "Mitch McConnell is never coming back to the Senate",
-          "imageUrl": "https://www.salon.com/app/uploads/2026/08/Mitch-McConnell-2275817991-e1785743161916.jpg"
         }
       ]
     },

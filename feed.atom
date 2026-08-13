@@ -2,10 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-12T22:38:17.237Z</updated>
+    <updated>2026-08-13T01:50:02.266Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: Emacs Numbered Backup Strategy]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/08/emacs-numbered-backup-strategy.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/08/emacs-numbered-backup-strategy.html"/>
+        <updated>2026-08-12T23:01:35.675Z</updated>
+        <summary type="html"><![CDATA[Emacs produces a backup of each file by default.  It does this by
+  appending a tilde to the file's name.  For example, Myfile.txt is backed up to
+  Myfile.txt~.  It's a reasonable strategy, assuming that
+  a Version Control system is in place.
+But in the absence of version control, you're limited to restoring
+  just the previous version; older versions need to be restored from
+  backup.
+I use git for coding projects that I share to the public.  But I
+  didn't create a repository for my home directory.  So when
+  C-c a m TAG1 generated an error instead of a list of
+  TAGged items, I hoped fervently that the latest init file change was
+  to blame.
+After finding and fixing the problem quickly, (and realizing I was
+  lucky this time), I resolved to be more diligent about disaster
+  recovery.  I looked into what backup schemes Emacs already
+  provides.
+Emacs can create unique backups for a file rather than overwriting
+  the previous backup.  When Emacs sees a numbered backup for a given
+  file, it will make a new, sequentially-named file for each backup of
+  that file, while continuing to use the "append tilde" method for
+  other files.
+Once I renamed (or copied) .emacs~
+  to .emacs.~1~, Emacs created backups
+  named .emacs.~2~, .emacs.~3~ (and so on).
+  I didn't even need to change a variable -- when Emacs
+  detected .emacs.~1~, it knew that backups
+  of .emacs needed to be numeric, so it acted
+  accordingly.  Emacs continues to use bills.org~ as the backup
+  for bills.org.  Until I tell it otherwise.
+
+Read
+  the Emacs Manual to learn more about numbered backups.
+1  C-c a m invokes org-tags-view
+The default values for the pertinent backup variables are:
+
+make-backup-files is t
+backup-by-copying is nil
+version-control is nil]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Trump Admits to ‘Some Contractor Error’ As WH Asks DOJ to Consider New Charges: Catching Up on the Reflecting Pool Drama]]></title>
         <id>https://wherethingsstand.talkingpointsmemo.com/p/trump-admits-to-some-contractor-error</id>
@@ -3627,66 +3674,6 @@ I don’t claim my solution is better than JTR’s, only that it suits me better
         <summary type="html"><![CDATA[but mean old Iran won’t let him win the war]]></summary>
         <author>
             <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gaelic Football Legend David Hickey Wants War Profiteers Out Of His Sport]]></title>
-        <id>https://defector.com/?p=230958</id>
-        <link href="https://defector.com/gaelic-football-legend-david-hickey-wants-war-profiteers-out-of-his-sport"/>
-        <updated>2026-08-03T13:01:46.000Z</updated>
-        <summary type="html"><![CDATA[DUBLIN — David Hickey was built for Gaelic football, the sport that can’t stick to sports. Hickey, who was a two-time GAA all-star and four-time All-Ireland winner as a half-forward for Dublin, used football’s biggest weekend as a platform for protests. 
-First, Hickey loudly refused to show up for a so-called Legends Lunch at storied Croke Park on July 24, where he was to be honored alongside other members of the Dubs’ 1976 championship side. Hickey’s boycott was aimed at the Gaelic Players Association (GPA), the event’s organizer and primary football player advocacy group, for what he called its “failure to take a stance” against Allianz, a Germany-based insurance giant with a fetish for profiting from crimes against humanity. The transnational underwriter has been the preeminent sponsor of Irish games, hurling and football, since 1993, when it acquired naming rights for the national leagues in both sports. Allianz also invested billions of dollars in Israel’s invasion and occupation of Gaza. 
-“I do not want the memory of that team associated in any way with the GPA, who have failed miserably to stand up for anything worthwhile apart from money,” said Hickey, who became Ireland’s leading transplant surgeon and a high-profile social activist after leaving the game.]]></summary>
-        <author>
-            <name>Dave McKenna</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TAONAW - Emacs and Org Mode:]]></title>
-        <id>https://taonaw.com/2026/08/03/still-working-on-emacs-config.html</id>
-        <link href="https://taonaw.com/2026/08/03/still-working-on-emacs-config.html"/>
-        <updated>2026-08-03T12:21:03.000Z</updated>
-        <summary type="html"><![CDATA[Still working on Emacs Config Gems part 3. Fell into a deep rabbit hole and got lost for a couple of days, then climbed out just to discover another one I have to explore next. I wanted to crunch the first few tweaks of my Emacs config in one post, but there’s too much to explore. I’m getting there!]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sacha Chua: 2026-08-03 Emacs news]]></title>
-        <id>https://sachachua.com/blog/2026/08/2026-08-03-emacs-news/</id>
-        <link href="https://sachachua.com/blog/2026/08/2026-08-03-emacs-news/"/>
-        <updated>2026-08-03T10:57:58.000Z</updated>
-        <summary type="html"><![CDATA[search for knowledge, which is incidentally the Emacs Carnival theme for August. Enjoy!
-
-
-
-Help wanted:
-
-pkal is looking for feedback on the jit-lock-stealth-load thread in emacs-devel on how to annotate changelog entries with release info (@pkal@social.sdfeu.org)
-Ihor Radchenko's looking for insights from other maintainers on reviewing large feature branches (@yantar92@fosstodon.org)
-Testing patches for input methods:
-
-[patch] GNU emacs bug#68339 (w32 ime font size)
-[Patch]  Implement preedit text rendering for Windows
-
-
-Upcoming events (iCal file, Org):
-
-Emacs.si (in person): Emacs.si meetup #8 2026 (v #živo) https://dogodki.kompot.si/events/3944ee8f-6da1-4720-b086-b9217e4f5c7b Mon Aug 3 1900 CET
-EmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/315091679/ Thu Aug 6 1600 Amer…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mitch McConnell is never coming back to the Senate]]></title>
-        <id>https://www.salon.com/2026/08/03/mitch-mcconnell-is-never-coming-back-to-the-senate/-full</id>
-        <link href="https://www.salon.com/2026/08/03/mitch-mcconnell-is-never-coming-back-to-the-senate/"/>
-        <updated>2026-08-03T10:30:00.000Z</updated>
-        <summary type="html"><![CDATA[They must have hoped the photos would dispel conspiracy theories that he’s dead, or at least incapacitated. But the two proof-of-life pictures taken of Sen. Mitch McConnell and his wife, former Labor Secretary Elaine Chao, purportedly from his room at a rehabilitation center, have only generated more speculation about what has really happened to the 84-year-old Kentucky Republican, who hasn’t been seen or spoken in public since being hospitalized in mid-June. In both pictures, the typically sharp-minded senator is staring with a vacant smile at the camera, while the 73-year-old Chao has a firm grip on his arm that reads less as affection and more like direction.
-In the first, taken July 12, McConnell holds the day’s newspaper, a tradition familiar more commonly seen in hostage photos. Even…]]></summary>
-        <author>
-            <name>Amanda Marcotte - Salon.com</name>
         </author>
     </entry>
 </feed>
