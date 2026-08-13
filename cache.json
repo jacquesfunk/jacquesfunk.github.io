@@ -160,6 +160,36 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://sachachua.com/blog/2026/08/27-aout-emacs-chat-fabrice-niessen-en-francais-partie-2/",
+          "author": null,
+          "description": "Fabrice Niessen d'Emacs, de ses flux de travail, de sa configuration et d'autres sujets en français. Voici ses notes.\n\n\n\n\nWatch on YouTube\n\n\n\n[2026-08-27 Thu 07:30]–[2026-08-27 Thu 08:30] dans le fuseau horaire America/Toronto, soit 0730H EDT / 0630H CDT / 0530H MDT / 0430H PDT / 1130H UTC / 1330H CEST / 1430H EEST / 1700H IST / 1930H +08 / 2030H JST.\n\n\n\nVoici notre conversation précédente :\n\n\n\n\nWatch on YouTube\n\nView Org source for this post\nYou can e-mail me at sacha@sachachua.com.",
+          "link": "https://sachachua.com/blog/2026/08/27-aout-emacs-chat-fabrice-niessen-en-francais-partie-2/",
+          "publishedOn": "2026-08-13T15:58:31.000Z",
+          "wordCount": 209,
+          "title": "Sacha Chua: 27 août: Emacs Chat: Fabrice Niessen (en français, partie 2)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ray-on-emacs.blogspot.com/2026/07/one-hundred-times-highest-priority.html",
+          "author": null,
+          "description": "Please note that org‑get‑cust‑priority has been updated.  The code that was published on 2026-07-10 causes org‑tags‑list to crash.\n1 I was disappointed to learn that valid priority characters are limited to 0–9 and A–Z.  I\nthought it would be neat if the exclamation mark (\"!\") could represent\nthe ultimate priority, a sort of \"drop everything and do this\nimmediately\" kind of priority.\n\n\n\nIt turns out that you can use \"!\" for this purpose, regardless of\nwhich priority characters you've configured.  The trick is to write a\nfunction and assign it to org-priority-get-priority-function.\n\n\n\nThe function (which I named org-get-cust-priority) simply\nlooks for \"!\" in the priority cookie and returns one hundred times the\nvalue that would be returned by the highest valid priority.  If it\ndoesn't find …",
+          "link": "https://ray-on-emacs.blogspot.com/2026/07/one-hundred-times-highest-priority.html",
+          "publishedOn": "2026-08-13T15:34:56.336Z",
+          "wordCount": 3037,
+          "title": "Raymond Zeitler: One Hundred Times the Highest Priority",
+          "imageUrl": null
+        },
+        {
+          "id": "https://irreal.org/blog/?p=14010",
+          "author": null,
+          "description": "bit of humor to help you get through the day. If you’ve ever wondered why an S-expressions is called an sexp, here’s your answer.\n\n\nLike all humor, there’s a bit of truth here. Not the part about sexp, of course, but the notion that many of us come to Emacs for some particular feature, venture too close to the init.el event horizon, and never escape.",
+          "link": "https://irreal.org/blog/?p=14010",
+          "publishedOn": "2026-08-13T15:05:22.000Z",
+          "wordCount": 1313,
+          "title": "Irreal: Some Thursday Humor",
+          "imageUrl": null
+        },
+        {
           "id": "https://olddeuteronomy.github.io/post/emacs-dired-ubuntu26/",
           "author": null,
           "description": "Just recently I upgraded one of my Dell laptops to the latest Ubuntu\n26.04 LTS with a clean install. The installation process was smooth\nand enjoyable.\nUbuntu 26.04 ships with Emacs 30.2, which made me happy, so I\ninstalled it immediately—more precisely, the emacs-pgtk\nWayland-optimized package, since Wayland is the default windowing\nsystem on Ubuntu 26.04.\nThe Problem\nI started Emacs and, after a short time, ran into a problem: Dired\n(C-x d) did not work properly. It displayed a strange mess of\nunsorted, chaotic entries, as shown below. It was a big surprise.\n\n      \nClick or tap to view the full-size picture.\nI’ve been using the same .emacs multi-platform config\nfile for Linux, macOS, and Windows for years and have never had any\nproblems with Dired on different platforms, let alone acros…",
@@ -526,6 +556,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=232301",
+          "author": "Matt Ufford",
+          "description": "Some people are fans of the Indianapolis Colts. But many, many more people are NOT fans of the Indianapolis Colts. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.\nYour team: The Mayonnaise City Colts\nYour 2025 record: 8-9, but that only hints at the story of the 2025 Colts, who were 8-2 going into their bye and 0-7 after it. I’ve seen SpaceX rockets with better trajectories.",
+          "link": "https://defector.com/why-your-team-sucks-2026-indianapolis-colts",
+          "publishedOn": "2026-08-13T16:33:14.000Z",
+          "wordCount": 16485,
+          "title": "Why Your Team Sucks 2026: Indianapolis Colts",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2237668589.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=232170",
+          "author": "Israel Daramola",
+          "description": "Welcome to Listening Habits, a column where I share the music and musical topics I’ve been fixated on recently.\nMusic's AI revolution has arrived, somewhat ... maybe. And naturally, it has come for rap first. This isn't the kind of trumped-up thing like what has been foretold in the roughly 100 weirdly written profiles about \"AI actress\" Tilly Norwood, a thing you've probably already forgotten about if you ever even heard about it in the first place. No, AI has been implemented in music production software, and it has officially gotten a real foot in the door of pop culture thanks to a very strange, very viral new hit song.\n\nhttps://youtu.be/qsKSfCCxrnk?si=MJMil-Fc9FD025Ht",
+          "link": "https://defector.com/fenix-flexin-puts-bankrolls-on-the-table-and-ai-on-the-charts",
+          "publishedOn": "2026-08-13T15:49:42.000Z",
+          "wordCount": 7736,
+          "title": "Fenix Flexin Puts Bankrolls On The Table And AI On The Charts",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/Screenshot-2026-08-12-at-5.23.47-PM.png"
+        },
         {
           "id": "https://defector.com/?p=232124",
           "author": "David Hollingshead",
@@ -2589,6 +2639,16 @@
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://talkingpointsmemo.com/?p=1554978",
+          "author": "Josh Marshall",
+          "description": "I noted a few days ago how many of the news stories of the day are knock-on effects of earlier...",
+          "link": "https://talkingpointsmemo.com/edblog/air-force-ones-and-trojan-horses",
+          "publishedOn": "2026-08-13T15:40:50.000Z",
+          "wordCount": 2189,
+          "title": "Air Force Ones and Trojan Horses",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-1987738474.jpg?w=1200"
+        },
+        {
           "id": "https://talkingpointsmemo.com/?p=1554894",
           "author": "Josh Marshall",
           "description": "Over the last few days as we’ve been discussing Francesca Hong’s campaign, Thanksgiving abolition and “defunding the police,” I’ve made...",
@@ -2755,6 +2815,22 @@
       "feedUrl": "https://morningmemo.talkingpointsmemo.com/feed",
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/trump-doj-pops-up-out-of-nowhere",
+          "author": "David Kurtz",
+          "description": "INSIDE: Trent McCotter ... Kathleen Williams ... Todd Blanche",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/trump-doj-pops-up-out-of-nowhere",
+          "publishedOn": "2026-08-13T15:45:02.000Z",
+          "wordCount": null,
+          "title": "Trump DOJ Pops Up Out of Nowhere to Try to Get Judge Thrown Off the IRS Case",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!eDLy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F93c90e4b-dcf0-4fb8-b5f3-e262db851198_400x600.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!eDLy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F93c90e4b-dcf0-4fb8-b5f3-e262db851198_400x600.jpeg"
+        },
         {
           "id": "https://morningmemo.talkingpointsmemo.com/p/new-clues-in-mystery-strikes-on-ecuadorian",
           "author": "David Kurtz",

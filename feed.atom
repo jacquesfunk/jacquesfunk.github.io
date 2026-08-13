@@ -2,10 +2,126 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-13T14:55:40.386Z</updated>
+    <updated>2026-08-13T16:54:45.534Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Why Your Team Sucks 2026: Indianapolis Colts]]></title>
+        <id>https://defector.com/?p=232301</id>
+        <link href="https://defector.com/why-your-team-sucks-2026-indianapolis-colts"/>
+        <updated>2026-08-13T16:33:14.000Z</updated>
+        <summary type="html"><![CDATA[Some people are fans of the Indianapolis Colts. But many, many more people are NOT fans of the Indianapolis Colts. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.
+Your team: The Mayonnaise City Colts
+Your 2025 record: 8-9, but that only hints at the story of the 2025 Colts, who were 8-2 going into their bye and 0-7 after it. I’ve seen SpaceX rockets with better trajectories.]]></summary>
+        <author>
+            <name>Matt Ufford</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sacha Chua: 27 août: Emacs Chat: Fabrice Niessen (en français, partie 2)]]></title>
+        <id>https://sachachua.com/blog/2026/08/27-aout-emacs-chat-fabrice-niessen-en-francais-partie-2/</id>
+        <link href="https://sachachua.com/blog/2026/08/27-aout-emacs-chat-fabrice-niessen-en-francais-partie-2/"/>
+        <updated>2026-08-13T15:58:31.000Z</updated>
+        <summary type="html"><![CDATA[Fabrice Niessen d'Emacs, de ses flux de travail, de sa configuration et d'autres sujets en français. Voici ses notes.
+
+
+
+
+Watch on YouTube
+
+
+
+[2026-08-27 Thu 07:30]–[2026-08-27 Thu 08:30] dans le fuseau horaire America/Toronto, soit 0730H EDT / 0630H CDT / 0530H MDT / 0430H PDT / 1130H UTC / 1330H CEST / 1430H EEST / 1700H IST / 1930H +08 / 2030H JST.
+
+
+
+Voici notre conversation précédente :
+
+
+
+
+Watch on YouTube
+
+View Org source for this post
+You can e-mail me at sacha@sachachua.com.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fenix Flexin Puts Bankrolls On The Table And AI On The Charts]]></title>
+        <id>https://defector.com/?p=232170</id>
+        <link href="https://defector.com/fenix-flexin-puts-bankrolls-on-the-table-and-ai-on-the-charts"/>
+        <updated>2026-08-13T15:49:42.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to Listening Habits, a column where I share the music and musical topics I’ve been fixated on recently.
+Music's AI revolution has arrived, somewhat ... maybe. And naturally, it has come for rap first. This isn't the kind of trumped-up thing like what has been foretold in the roughly 100 weirdly written profiles about "AI actress" Tilly Norwood, a thing you've probably already forgotten about if you ever even heard about it in the first place. No, AI has been implemented in music production software, and it has officially gotten a real foot in the door of pop culture thanks to a very strange, very viral new hit song.
+
+https://youtu.be/qsKSfCCxrnk?si=MJMil-Fc9FD025Ht]]></summary>
+        <author>
+            <name>Israel Daramola</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trump DOJ Pops Up Out of Nowhere to Try to Get Judge Thrown Off the IRS Case]]></title>
+        <id>https://morningmemo.talkingpointsmemo.com/p/trump-doj-pops-up-out-of-nowhere</id>
+        <link href="https://morningmemo.talkingpointsmemo.com/p/trump-doj-pops-up-out-of-nowhere"/>
+        <updated>2026-08-13T15:45:02.000Z</updated>
+        <summary type="html"><![CDATA[INSIDE: Trent McCotter ... Kathleen Williams ... Todd Blanche]]></summary>
+        <author>
+            <name>David Kurtz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Air Force Ones and Trojan Horses]]></title>
+        <id>https://talkingpointsmemo.com/?p=1554978</id>
+        <link href="https://talkingpointsmemo.com/edblog/air-force-ones-and-trojan-horses"/>
+        <updated>2026-08-13T15:40:50.000Z</updated>
+        <summary type="html"><![CDATA[I noted a few days ago how many of the news stories of the day are knock-on effects of earlier...]]></summary>
+        <author>
+            <name>Josh Marshall</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: One Hundred Times the Highest Priority]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/07/one-hundred-times-highest-priority.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/07/one-hundred-times-highest-priority.html"/>
+        <updated>2026-08-13T15:34:56.336Z</updated>
+        <summary type="html"><![CDATA[Please note that org‑get‑cust‑priority has been updated.  The code that was published on 2026-07-10 causes org‑tags‑list to crash.
+1 I was disappointed to learn that valid priority characters are limited to 0–9 and A–Z.  I
+thought it would be neat if the exclamation mark ("!") could represent
+the ultimate priority, a sort of "drop everything and do this
+immediately" kind of priority.
+
+
+
+It turns out that you can use "!" for this purpose, regardless of
+which priority characters you've configured.  The trick is to write a
+function and assign it to org-priority-get-priority-function.
+
+
+
+The function (which I named org-get-cust-priority) simply
+looks for "!" in the priority cookie and returns one hundred times the
+value that would be returned by the highest valid priority.  If it
+doesn't find …]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Irreal: Some Thursday Humor]]></title>
+        <id>https://irreal.org/blog/?p=14010</id>
+        <link href="https://irreal.org/blog/?p=14010"/>
+        <updated>2026-08-13T15:05:22.000Z</updated>
+        <summary type="html"><![CDATA[bit of humor to help you get through the day. If you’ve ever wondered why an S-expressions is called an sexp, here’s your answer.
+
+
+Like all humor, there’s a bit of truth here. Not the part about sexp, of course, but the notion that many of us come to Emacs for some particular feature, venture too close to the init.el event horizon, and never escape.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mike Lindell won’t quit, Karoline Leavitt does quit, and and Liddle Marco Big-Shoes gets left behind]]></title>
         <id>https://www.jefftiedrich.com/p/mike-lindell-wont-quit-karoline-leavitt</id>
