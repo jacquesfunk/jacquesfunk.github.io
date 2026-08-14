@@ -190,6 +190,16 @@
           "imageUrl": "https://chrismaiorana.com/wp-content/uploads/2026/08/Emacs-pastoral.jpg"
         },
         {
+          "id": "https://sachachua.com/blog/2026/08/13-aout-emacs-chat-fabrice-niessen/",
+          "author": null,
+          "description": "Fabrice Niessen (Formation Emacs Boost) d'Emacs, de ses flux de travail, de sa configuration, et d'autres sujets en français.\n\n\n\n\nWatch on YouTube\n\n\n\nJ'ai essayé de corriger la transcription, mais je crois qu'il y a encore beaucoup d'erreurs, donc n'hésitez pas à m'envoyer un message.\n\n\n\n\n0:00 Introduction\n1:46 Le parcours\n4:15 Emacs sur Windows : Cygwin et WSL\n8:26 Les automatisations\n12:15 Emacs Boost\n21:15 Emacsclient\n28:49 org-html-themes\n35:02 Review\n37:25 PDF\n40:03 Key-chord\n45:41 Copier sans sélectionner\n48:29 fill-paragraph\n50:02 Les macros\n51:02 Volatile highlight\n52:47 Les tableaux Org\n55:43 Les formations et les cours particuliers\n\n\nLa transcription un peu corrigée\nDetails\n\n\n\n0:00 Introduction\n\nSacha:  Ça marche! \nProt:  Maintenant, nous sommes en direct. \nSacha:  Succès! Bonjou…",
+          "link": "https://sachachua.com/blog/2026/08/13-aout-emacs-chat-fabrice-niessen/",
+          "publishedOn": "2026-08-14T00:13:37.000Z",
+          "wordCount": 8374,
+          "title": "Sacha Chua: Emacs Chat 28: Fabrice Niessen (en français)",
+          "imageUrl": null
+        },
+        {
           "id": "https://magnus.therning.org/2026-08-13-emacs-salmagundi,-2026-08-13.html",
           "author": null,
           "description": "Limiting enabled tree-sitter modes\nEmacs 31 Is Around the Corner: The Changes I'm\nAlready Daily Driving I simplified my setup and turned on all the tree-sitter\nmodes\n\n\n\n(treesit-enabled-modes t)\n\nyaml-ts-mode is rather unusable.1 I switched back to yaml-mode and\nadjusted the value of treesit-enabled-modes to include what I have use for\n(the change):\n\n\n\n(treesit-enabled-modes '(bash-ts-mode\n                         c++-ts-mode\n                         c-or-c++-ts-mode\n                         c-ts-mode\n                         dockerfile-ts-mode\n                         go-mod-ts-mode\n                         go-ts-mode\n                         go-work-ts-mode\n                         json-ts-mode\n                         python-ts-mode\n                         rust-ts-mode\n                         typescript-ts-mode))\n\ntreesit-enabled-modes contains a list of all the\nsupported modes.\n\n\n\nI hope someone will take pity on yaml-ts-mode and make it usable soon.\n\n\n\n\nTree-sitter grammar for Cabal files\ntreesitter-based mode for Haskell I failed to\nfind a tree-sitter grammar for Cabal files so I wrote a rather rough one myself.\nMy hope was that it could serve as a base, or motivation, for someone else to\nwrite a proper one. It took more than 2 years, but now it's finally happened!\n\n\n\nI've switched my mode to use Curtis's grammar and I'll be archiving mine. (The\nchange.)\n\n\n\n\nHello editable xref, good bye wgrep\nRahul's post also mentions that editable xref buffers. I had the same itch to\nhave editable xref buffers, and I'd added a function to turn them into grep\nbuffers to be able to edit them. I've now switched to using the built-in\nsupport, and removed the function.\n\n\n\nAt the same time I also decided to remove wgrep and instead use the builtin\nfunction for editing grep buffers.\n\n\n\n\nFootnotes: \n1 \n\nA mode for an indentation-sensitive language really ought to at least handle\nindentation!\n\n\n\n\n\n\nTags: emacs haskell",
@@ -556,6 +566,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=232348",
+          "author": "Drew Magary",
+          "description": "Some people are fans of the Detroit Lions. But many, many more people are NOT fans of the Detroit Lions. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.\nYour team: Detroit Irritable Bowel Syndrome.",
+          "link": "https://defector.com/why-your-team-sucks-2026-detroit-lions",
+          "publishedOn": "2026-08-14T14:40:59.000Z",
+          "wordCount": 14060,
+          "title": "Why Your Team Sucks 2026: Detroit Lions",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2251584844.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=232381",
+          "author": "Tom Ley",
+          "description": "Quick, what number did Jayden Daniels wear when he was at LSU? If you had to think about that for even a second, you might want to lock your doors. Because it's very possible that someone from Daniels's inner circle is on the way to your house to kick your ass. \nI issue this warning because over the last few days we have discovered that the No. 5 jersey is extremely important to Daniels, or at least it is to someone who spends time handling his affairs. On Wednesday, ESPN reported that an attorney representing Daniels sent a letter to LSU, where Daniels played from 2022–23, informing the school that it can no longer use Daniels's name, image, or likeness in promotional materials. The letter was sent because Daniels is upset that LSU is allowing sophomore cornerback DJ Pickett to wear the No. 5 jersey this upcoming season. A spokesperson representing Daniels also released a statement, expressing the disappointment felt by the \"Daniels family\" at LSU's decision to let a guy wear a number. From ESPN:\n\"The Daniels family is deeply disappointed and feels profoundly disrespected by LSU's decision to give Jayden's number to another player,\" the statement from Daniels' spokesperson said. \"Jayden and his family had every reason to believe that his number would remain a meaningful part of his LSU legacy and would be honored and protected in recognition of his extraordinary contributions to the university.\"",
+          "link": "https://defector.com/jayden-daniels-wont-tolerate-some-scrub-wearing-the-same-number-he-did-on-his-journey-to-the-reliaquest-bowl",
+          "publishedOn": "2026-08-14T13:02:04.000Z",
+          "wordCount": 5864,
+          "title": "Jayden Daniels Won’t Tolerate Some Scrub Wearing The Same Number He Did On His Journey To The ReliaQuest Bowl",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2289691997.jpg"
+        },
         {
           "id": "https://defector.com/?p=232287",
           "author": "David Roth",
@@ -1415,16 +1445,6 @@
           "publishedOn": "2026-08-05T03:40:54.000Z",
           "wordCount": 3689,
           "title": "The 10 Biggest Rock and Roll Hall of Fame Individual Snubs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3120",
-          "author": "Schill",
-          "description": "Sabrina Carpenter is an American singer, songwriter, actress, and performer who has successfully transitioned from Disney Channel star to one",
-          "link": "https://stuffthatinterestsme.net/hump-day-hottie-sabrina-carpenter/",
-          "publishedOn": "2026-08-05T02:17:27.000Z",
-          "wordCount": 1541,
-          "title": "Hump Day Hottie: Sabrina Carpenter",
           "imageUrl": null
         }
       ]
@@ -3027,6 +3047,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/maga-shits-its-own-pants-blames-joe",
+          "author": "Jeff Tiedrich",
+          "description": "spoiler alert: he didn’t do that",
+          "link": "https://www.jefftiedrich.com/p/maga-shits-its-own-pants-blames-joe",
+          "publishedOn": "2026-08-14T14:37:58.000Z",
+          "wordCount": null,
+          "title": "MAGA shits its own pants, blames Joe Biden",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!THPE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86367f27-032b-42e9-bc41-2c4bc5515394_581x348.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!THPE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86367f27-032b-42e9-bc41-2c4bc5515394_581x348.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/mike-lindell-wont-quit-karoline-leavitt",
           "author": "Jeff Tiedrich",
