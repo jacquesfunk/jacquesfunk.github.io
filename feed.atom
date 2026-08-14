@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-14T14:49:34.082Z</updated>
+    <updated>2026-08-14T16:50:24.120Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[CIA Behind Mystery Strikes on Ecuadorian Fishing Boats]]></title>
+        <id>https://morningmemo.talkingpointsmemo.com/p/cia-behind-mystery-strikes-on-ecuadorian</id>
+        <link href="https://morningmemo.talkingpointsmemo.com/p/cia-behind-mystery-strikes-on-ecuadorian"/>
+        <updated>2026-08-14T15:45:10.000Z</updated>
+        <summary type="html"><![CDATA[INSIDE: Aaron Reitz ... Tiffany M. Cartwright ... David Crowley]]></summary>
+        <author>
+            <name>David Kurtz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Irreal: 🥩 Red Meat Friday: The Perils Of Rewriting]]></title>
+        <id>https://irreal.org/blog/?p=14013</id>
+        <link href="https://irreal.org/blog/?p=14013"/>
+        <updated>2026-08-14T15:32:50.000Z</updated>
+        <summary type="html"><![CDATA[The Emacs Cat, of whom I’ve written many times, has a post on a broken change in Ubuntu that affected Emacs. The TL;DR is that the Cat upgraded to Ubuntu 26.4 but when he tried to use Emacs he discovered a problem with Dired. At first he thought the problem was with Emacs 30.2, which is the default Emacs with that version of Ubuntu. But the actual problem turned out to be with Ubuntu’s implementation of ls. The Cat solved his problem by using the “old” version of ls from GNU coreutils. Ubuntu had decided that it was a good idea to rewrite the core Unix utilities—such as ls​—in Rust.
+
+
+Maybe I’m just old and grumpy but this seems to me to be a terrible idea. Utilities like ls have been around and working more or less flawlessly for close to 50 years. What, really, was the reasoning behind the decision to rewrite ls? Twenty six years ago, Joe Spolsky answered that question and explained why the rewriting is almost always a bad idea.
+
+
+It may have been written a quarter of century ago but Spolsky’s explanation remains true. There really is no reason—other than fashion—to rewrite core utilities that have been working perfectly well for longer than many of us have been alive. When you do, you can expect exactly the sort of problem that the Cat stumbled on.
+
+
+The problem with the new ls was very specific involving an obscure parameter but it reached out to disable a major Emacs functionality and probably affected other applications as well. The annoying thing is that there really wasn’t any reason for this to happen: just someone who decided it would be a good idea to rewrite an application that was working fine.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Org Mode requests: [FR] Add org-delete-subtree without modifying the kill ring]]></title>
+        <id>https://list.orgmode.org/jckYhJ-NqMA-nvwE_gNl-zRU-W6_z1trt3WHfYXttEzH4Y_OykExk93VIM7q70zP-DYdjAYvoGE763FZcU3q6o9uCTvUTAqW6ZUT8LCqgf8=@proton.me</id>
+        <link href="https://list.orgmode.org/jckYhJ-NqMA-nvwE_gNl-zRU-W6_z1trt3WHfYXttEzH4Y_OykExk93VIM7q70zP-DYdjAYvoGE763FZcU3q6o9uCTvUTAqW6ZUT8LCqgf8=@proton.me"/>
+        <updated>2026-08-14T15:02:55.000Z</updated>
+        <summary type="html"><![CDATA[[request] flags:--- replies:0]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Why Your Team Sucks 2026: Detroit Lions]]></title>
         <id>https://defector.com/?p=232348</id>
@@ -3863,16 +3902,6 @@ Melpa is where many Emacs packages live. The story behind it (from what I can te
         <summary type="html"><![CDATA[Today we’re listening to Eden Aurelius, an American electronic musician based in Brooklyn.]]></summary>
         <author>
             <name>Flow State</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 10 Biggest Rock and Roll Hall of Fame Individual Snubs]]></title>
-        <id>https://stuffthatinterestsme.net/?p=3328</id>
-        <link href="https://stuffthatinterestsme.net/the-10-biggest-rock-and-roll-hall-of-fame-individual-snubs/"/>
-        <updated>2026-08-05T03:40:54.000Z</updated>
-        <summary type="html"><![CDATA[The Rock and Roll Hall of Fame has always generated controversy. Fans argue over which bands deserve induction, which artists]]></summary>
-        <author>
-            <name>Schill</name>
         </author>
     </entry>
 </feed>
