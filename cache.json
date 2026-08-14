@@ -33,6 +33,26 @@
       "siteUrl": "https://baty.net/index.xml",
       "articles": [
         {
+          "id": "https://baty.net/posts/2026/08/i-deleted-nearly-all-of-my-notes-on-purpose/",
+          "author": null,
+          "description": "My ~/org/notes folder had nearly 4,000 files in it this morning. It now has 170. I deleted the rest.\nHaving lost my religion around \"zettelkasten\" and \"second brains\", my notes started to look a little silly. Hundreds of nearly empty files with carefully-curated front matter are not helpful, no matter how many links between them have been created.\nI mean, what use is a note for, say, \"Docker\", which contains a link to the Docker website and Github page with a one-sentence summary like \"an open-source platform that uses operating system-level virtualization to package, deploy, and run applications inside lightweight, isolated environments called container\". All that would take like 5 seconds to look up any time I need it. And backlinks? So what if I mentioned \"Docker\" in a half-dozen other files. It's all useless to me. I also don't need \"clippings\" from web pages or books if I haven't added any of my own thoughts about them. I'm only just now learning this.\nIt's not that I've been doing it wrong, but I'm not an academic. I'm not doing research for a book. I'm not studying for an exam. Those tasks might benefit from the whole link-everything-and-generate-a-cool-graph thing, but mine don't.\nWhat I actually need from a note-taking system:\ntips and things I've learned (e.g. \"My Fedora post-install tasks\")\ninformation about people I know\nprojects I'm working on (e.g. \"Clean and improve rear landscaping (2026)\")\na log of what I've done (e.g. \"Bought LED bulbs from Amazon (2700K)\" or \"Had dinner with Shelley and Jeff\")\nAnything that wasn't any of those things has been deleted. It was a lot, and I feel good about it.\n✍️ Reply by email",
+          "link": "https://baty.net/posts/2026/08/i-deleted-nearly-all-of-my-notes-on-purpose/",
+          "publishedOn": "2026-08-14T10:29:24.000Z",
+          "wordCount": 358,
+          "title": "I deleted nearly all of my notes, on purpose.",
+          "imageUrl": "https://baty.net/img/opengraph.jpg"
+        },
+        {
+          "id": "https://baty.net/journal/14Aug26/",
+          "author": null,
+          "description": "STATUS: Trying to simplify everything\nTODO: Review both Mac and Linux backups\n(Re)READING: \"Devoted\" by Dean Koontz\nWATCHING:   Reacher Season 4\nI'm about a third through \"Devoted\", by Dean Koontz and I've been enjoying it. I finally decided to add it to my Hardcover list. When I did, I saw that I'd already read the book in 2020 and gave it 3 stars. It's not uncommon for people to re-read books, but I honestly have no recollection of any of \"Devoted\". None of it sounds remotely familiar. That's weird, right?\n✍️ Reply by email",
+          "link": "https://baty.net/journal/14Aug26/",
+          "publishedOn": "2026-08-14T10:09:48.000Z",
+          "wordCount": 158,
+          "title": "Friday, August 14, 2026",
+          "imageUrl": "https://baty.net/img/opengraph.jpg"
+        },
+        {
           "id": "https://baty.net/posts/2026/08/i-bought-another-watch-so-i-d-stop-buying-new-watches/",
           "author": null,
           "description": "I had to buy a new watch so that I would stop wanting more watches. I know it's counter-intuitive, but hear me out.\nI like watches. It started after I bought a nice Tag Heuer automatic to reward myself for some achievement (which I've forgotten). It's a nice watch. Expensive. It's fifteen years old and I've never wound it or replaced a battery. This was my window into automatic watches.\nThen came the Apple Watch, which I wore for years, dutifully upgrading every couple of years. I grew to dislike it. It's too needy.\nThen I rebelled and started buying cheap watches instead. First it was a little Casio F91W for like $20. Then I upgraded to a few different G-Shocks. It turned out that out of all of them, the G-Shock GWM5610 was the one I always wore.\n\nMy recent attempts to \"Reduce & Simplify\" have been somewhat successful, so I wanted to do it with my watches. I didn't have that many, but still.\nI get a kick out of wearing cheap watches, so I haven't been wearing the Tag except for \"nicer\" things like going out to dinner. Even then it bugged me, so I decided to find something simple, decent looking, and less expensive than the Tag for wearing out.\nI landed on a VAER C5 Tactical Field Solar.\n\nI think it's great. Large, easy to read numbers (with 24-hour times, too) that glow brightly in the dark. It's solar, so never needs winding. It has a screw-down crown, so it's \"ocean proof\". Sapphire glass so it's at least somewhat scratch-resistent. It came with two bands. One silicon for normal wear and one nylon one for a nicer look. I dig it. It cost $349.\nAnyway, I now only wear either the G-Shock or the VAER. They cover every occasion. See? I bought something so I could stop buying things. I think it'll work\n✍️ Reply by email",
@@ -528,16 +548,6 @@
           "wordCount": 3019,
           "title": "TAONAW - Emacs and Org Mode: Emacs Config Gems - Part 3",
           "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/08/05/5964196.png"
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-08-05-emacs-speedbar-file-explorer/",
-          "author": null,
-          "description": "Raw link: https://www.youtube.com/watch?v=Crn6x3RmmyQ\nIn this video I demonstrate the built-in ‘speedbar’ command. This is\nthe file explorer that Emacs ships with. Starting with Emacs 31, the\n‘speedbar’ can be configured to appear on the side of the frame.\nWhereas the default is to show up in a separate frame. To me, the\ndefault is impractical, whereas the new option turns ‘speedbar’ into a\nvery useful piece of functionality.",
-          "link": "https://protesilaos.com/codelog/2026-08-05-emacs-speedbar-file-explorer/",
-          "publishedOn": "2026-08-05T00:00:00.000Z",
-          "wordCount": 195,
-          "title": "Protesilaos: Emacs: the ‘speedbar’ built-in file explorer (Emacs 31)",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         }
       ]
     },
