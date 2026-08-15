@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-15T16:21:47.004Z</updated>
+    <updated>2026-08-15T18:26:37.523Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -64,6 +64,21 @@ Today I want to share a minimal configuration I use to browse more comfortably. 
 Elpher is on MELPA. I declare it with use-package, so everything stays in a single block: :ensure t installs it the first time, :config defines the function and…]]></summary>
         <author>
             <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Saturday, August 15, 2026]]></title>
+        <id>https://baty.net/journal/15Aug26/</id>
+        <link href="https://baty.net/journal/15Aug26/"/>
+        <updated>2026-08-15T12:44:27.000Z</updated>
+        <summary type="html"><![CDATA["I'll be curled up under my bed all day because I got an unexpected and (IMHO) unnecessary Emergency Alert on my phone that one time. But not before I complain about it on social media for a few hours, first."
+🙄
+510 Pyro: The Best First Developer - by Derrick Buckner
+One dilution, one bottle. No drama. I’m going to explain why this belongs in a beginner’s arsenal as much as it belongs in mine.
+I've always been leery of Pyro developers, but based on this article, I've ordered a bottle from Freestyle Photo
+✍️ Reply by email]]></summary>
+        <author>
+            <name>baty.net</name>
         </author>
     </entry>
     <entry>
