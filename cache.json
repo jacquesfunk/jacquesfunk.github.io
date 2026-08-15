@@ -160,6 +160,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=14015",
+          "author": null,
+          "description": "he makes the case that Emacs users are a different breed. He starts with the quotidian observation that you can be pretty sure that a Vim or VSCode user is either a software developer or in a closely related such field such as System Administration or DevOps. Emacs users, on the other hand, could come from almost anywhere.\n\n\nThis is a point that Irreal is fond of making. I’m fascinated by people from outside the software field who use Emacs as an essential part of their workflow. Their stories always illustrate the power and flexibility of Emacs to solve problems even if they aren’t about software and engineering.\n\n\nWhat distinguishes Emacs users, Maiorana claims, is their love of tinkering and the blurring of work and play when they’re using Emacs. As he puts it\n\n\n\nEmacs could be more than a text editor. It could be an organizer, a scratchpad, a dictionary, a canvas, a database, a calendar, an email client, and much more. What should have been work started to feel like fun.\n\n\n\nMaiorana says that Emacs users don’t care primarily about the usefulness or user friendliness of Emacs; it’s the opportunity for tinkering that attracts them. I think he has this part backwards. Emacs users surely do love to tinker but the attractive thing about Emacs is that your tinkering can turn it into the exact tool that you need.  That’s true even if the tool you need has nothing to do with software or its siblings.\n\n\nEmacs is, in fact, the perfect piece of software. Not only does it indulge our urge to tinker and have fun but also allows us to turn that tinkering into the precise tool we need. Not just once but as often as we desire as our needs change. With Emacs, the fun never ends.",
+          "link": "https://irreal.org/blog/?p=14015",
+          "publishedOn": "2026-08-15T15:29:25.000Z",
+          "wordCount": 1550,
+          "title": "Irreal: Emacs Users",
+          "imageUrl": null
+        },
+        {
+          "id": "http://en.andros.dev/blog/b18ae804/elpher-my-tweaks-for-better-gemini-browsing-in-emacs/",
+          "author": null,
+          "description": "Elpher is the Gemini browser for Emacs. It works wonderfully and its integration with GNU's editor is sublime. You don't just move between capsules: you can also write your own scripts or build automated flows. It's Emacs, after all. Everything bends to your will.\nIf you still don't know what Gemini is, it's a minimalist protocol, halfway between the web and Gopher, with no JavaScript and no trackers. I cover it in depth in Introduction to the Gemini protocol.\nToday I want to share a minimal configuration I use to browse more comfortably. Nothing exotic, just a few shortcuts and a couple of tweaks that make a difference day to day.\nElpher is on MELPA. I declare it with use-package, so everything stays in a single block: :ensure t installs it the first time, :config defines the function and…",
+          "link": "http://en.andros.dev/blog/b18ae804/elpher-my-tweaks-for-better-gemini-browsing-in-emacs/",
+          "publishedOn": "2026-08-15T14:07:40.000Z",
+          "wordCount": 1198,
+          "title": "Andros Fenollosa: Elpher: my tweaks for better Gemini browsing in Emacs",
+          "imageUrl": "https://img.andros.dev/hwJiIbPn09hEHn5kr1EV5PhGols=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_e3f6bada.png"
+        },
+        {
           "id": "https://xenodium.com/agent-shell-0-73-updates",
           "author": null,
           "description": "Another month, another agent-shell update. If you missed the last one, have a look at the 0.63 update. While this post showcases the latest highlights, the full list of changes is far chunkier than what we'll cover.\nWhat's agent-shell?\nagent-shell is a native Emacs mode to interact with AI agents powered by ACP (Agent Client Protocol).\nagent-shell enters the chat\nSince inception in September last year (yikes nearly a year), agent-shell has featured a shell-like experience, powered by comint mode. There's also viewport mode (via agent-shell-prefer-viewport-interaction), if you prefer a more focused experience, and now we have chat mode.\nChat mode fuses comint mode with a more traditional chat-like labelling experience.\n\nWe're living on the edge here, so chat mode is now enabled by default. …",
@@ -1376,16 +1396,6 @@
           "wordCount": 1774,
           "title": "Phriday Phistory: The Went Gin",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3253",
-          "author": "Schill",
-          "description": "When people think of the great rock bands of the 1970s, names like Fleetwood Mac, Led Zeppelin, The Eagles, Pink",
-          "link": "https://stuffthatinterestsme.net/forgotten-band-bread/",
-          "publishedOn": "2026-08-06T03:07:50.000Z",
-          "wordCount": 2748,
-          "title": "Forgotten Band: Bread",
-          "imageUrl": null
         }
       ]
     },
@@ -2573,6 +2583,16 @@
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://talkingpointsmemo.com/?p=1555184",
+          "author": "Josh Marshall",
+          "description": "This probably won’t get the attention or, frankly, outrage that it deserves because it’s kind of technical. But it’s stunning...",
+          "link": "https://talkingpointsmemo.com/edblog/trump-to-order-redesign-of-aircraft-carriers-because-they-dont-look-right",
+          "publishedOn": "2026-08-15T15:31:47.000Z",
+          "wordCount": 2669,
+          "title": "Trump To Order Redesign of Aircraft Carriers Because They Don’t Look Right",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-666333584.jpg?w=1200"
+        },
+        {
           "id": "https://talkingpointsmemo.com/?p=1555158",
           "author": "Josh Marshall",
           "description": "I had a couple conversations today which turned on the role of private equity in today’s economy and the importance...",
@@ -2995,6 +3015,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/this-week-in-stupid-august-15-edition",
+          "author": "Jeff Tiedrich",
+          "description": "Elon posts it, Donny boasts it, and so much more...",
+          "link": "https://www.jefftiedrich.com/p/this-week-in-stupid-august-15-edition",
+          "publishedOn": "2026-08-15T14:31:03.000Z",
+          "wordCount": null,
+          "title": "this week in stupid: August 15 edition",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!KsQM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9af4011e-64d1-4650-b86e-17be6d78c24e_1912x1132.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!KsQM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9af4011e-64d1-4650-b86e-17be6d78c24e_1912x1132.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/maga-shits-its-own-pants-blames-joe",
           "author": "Jeff Tiedrich",
