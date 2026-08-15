@@ -170,6 +170,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://xenodium.com/agent-shell-0-73-updates",
+          "author": null,
+          "description": "Another month, another agent-shell update. If you missed the last one, have a look at the 0.63 update. While this post showcases the latest highlights, the full list of changes is far chunkier than what we'll cover.\nWhat's agent-shell?\nagent-shell is a native Emacs mode to interact with AI agents powered by ACP (Agent Client Protocol).\nagent-shell enters the chat\nSince inception in September last year (yikes nearly a year), agent-shell has featured a shell-like experience, powered by comint mode. There's also viewport mode (via agent-shell-prefer-viewport-interaction), if you prefer a more focused experience, and now we have chat mode.\nChat mode fuses comint mode with a more traditional chat-like labelling experience.\n\nWe're living on the edge here, so chat mode is now enabled by default. …",
+          "link": "https://xenodium.com/agent-shell-0-73-updates",
+          "publishedOn": "2026-08-15T00:00:00.000Z",
+          "wordCount": 1995,
+          "title": "Alvaro Ramirez: agent-shell 0.73 updates",
+          "imageUrl": "https://xenodium.com/share.png"
+        },
+        {
           "id": "https://irreal.org/blog/?p=14013",
           "author": null,
           "description": "The Emacs Cat, of whom I’ve written many times, has a post on a broken change in Ubuntu that affected Emacs. The TL;DR is that the Cat upgraded to Ubuntu 26.4 but when he tried to use Emacs he discovered a problem with Dired. At first he thought the problem was with Emacs 30.2, which is the default Emacs with that version of Ubuntu. But the actual problem turned out to be with Ubuntu’s implementation of ls. The Cat solved his problem by using the “old” version of ls from GNU coreutils. Ubuntu had decided that it was a good idea to rewrite the core Unix utilities—such as ls​—in Rust.\n\n\nMaybe I’m just old and grumpy but this seems to me to be a terrible idea. Utilities like ls have been around and working more or less flawlessly for close to 50 years. What, really, was the reasoning behind the decision to rewrite ls? Twenty six years ago, Joe Spolsky answered that question and explained why the rewriting is almost always a bad idea.\n\n\nIt may have been written a quarter of century ago but Spolsky’s explanation remains true. There really is no reason—other than fashion—to rewrite core utilities that have been working perfectly well for longer than many of us have been alive. When you do, you can expect exactly the sort of problem that the Cat stumbled on.\n\n\nThe problem with the new ls was very specific involving an obscure parameter but it reached out to disable a major Emacs functionality and probably affected other applications as well. The annoying thing is that there really wasn’t any reason for this to happen: just someone who decided it would be a good idea to rewrite an application that was working fine.",
@@ -558,16 +568,6 @@
           "wordCount": 2716,
           "title": "Raymond Zeitler: Display Active Clock in Emacs Frame Title",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFNyCR7wNhE7OWS_SXA_uLC2am3qYCtmfYDNH5xTyQX0BNV-oBjPc38n2YX6i3_FToGd26IlzITVpwBJa14DkhAI_iW_oCjUxsnwQcYYnWyOfcIg8itUJK7DMOVJkVtUr-HbMPgXudvivO-0vIyMJSUWP4z_IPecQdr0xEwiUveuahC81Js3BpO5WO5xc/w1200-h630-p-k-no-nu/org_clocked_task_in_titlebar.gif"
-        },
-        {
-          "id": "https://taonaw.com/2026/08/05/emacs-config-gems-part.html",
-          "author": null,
-          "description": "My actual configs start with pretty usual stuff you’d see across many other Emacs configs. As I was going through these however, I started to wonder how things work and why they ended up the way we have them today. In turn, that led to reading about the intention behind those, which led to more options I didn’t think about. Also, it’s kind of fun. I’ve made two more passes for this part alone in the last couple of weeks, and I could probably go for a third. When reading this post, if you want the good stuff (in my opinion), get lost in the footnotes as I did. There’s a lot to explore. I just scratched the surface.\nLoad Melpa\nMelpa is where many Emacs packages live. The story behind it (from what I can tell) revolves around one of Emacs’ maintainers, Bozhidar Batsov, who pointed to Melpa at…",
-          "link": "https://taonaw.com/2026/08/05/emacs-config-gems-part.html",
-          "publishedOn": "2026-08-05T13:06:09.000Z",
-          "wordCount": 3019,
-          "title": "TAONAW - Emacs and Org Mode: Emacs Config Gems - Part 3",
-          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/08/05/5964196.png"
         }
       ]
     },
@@ -1358,6 +1358,16 @@
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
         {
+          "id": "https://stuffthatinterestsme.net/?p=3379",
+          "author": "Schill",
+          "description": "The one-hit wonder label has a funny way of shrinking a career down to three or four minutes. An artist",
+          "link": "https://stuffthatinterestsme.net/7-one-hit-wonder-singers-who-went-on-to-become-legendary-producers-and-songwriters/",
+          "publishedOn": "2026-08-15T00:51:05.000Z",
+          "wordCount": 3902,
+          "title": "7 One-Hit Wonder Singers Who Went on to Become Legendary Producers and Songwriters",
+          "imageUrl": null
+        },
+        {
           "id": "https://stuffthatinterestsme.net/?p=3241",
           "author": "Schill",
           "description": "Among Phish fans, certain jams become so unique that they earn nicknames of their own. One of the most famous",
@@ -1539,16 +1549,6 @@
           "wordCount": 2510,
           "title": "Max Miller tests GOP tolerance of terrible men",
           "imageUrl": "https://www.salon.com/app/uploads/2026/08/Max-Miller-2279933527-e1786069179608.jpg"
-        },
-        {
-          "id": "https://www.salon.com/2026/08/05/how-ariana-grandes-body-became-political/-full",
-          "author": null,
-          "description": "Ariana Grande has been concerningly thin for years now, but the online discourse about her body exploded this week after she released the music video for “Petal,” the title track of her most recent album. The video’s storyline, in which the 33-year-old pop singer gets “Carrie”-style revenge for men’s misogynist judgments, was completely overshadowed by fan alarm at Grande’s apparent emaciation. Set in the 1960s, the colorful retro fashions hang off her skeletal frame.\n“I can’t even enjoy the video without thinking she looks sickly every second she is on the screen,” one person posted on YouTube. \n“At this point, im [sic] judging her team, friends, and family,” the video’s top commenter said. “This is insane.”\n“She’s is surrounded by enablers,” another wrote. “Eating disorders are not a jok…",
-          "link": "https://www.salon.com/2026/08/05/how-ariana-grandes-body-became-political/",
-          "publishedOn": "2026-08-05T10:45:05.000Z",
-          "wordCount": 2115,
-          "title": "How Ariana Grande’s body became political",
-          "imageUrl": "https://www.salon.com/app/uploads/2026/08/Ariana-Grande-2255393438.jpg"
         }
       ]
     },
@@ -2662,6 +2662,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1555158",
+          "author": "Josh Marshall",
+          "description": "I had a couple conversations today which turned on the role of private equity in today’s economy and the importance...",
+          "link": "https://talkingpointsmemo.com/edblog/business-models-coherence-and-not-being-an-agitated-sickly-lab-rat",
+          "publishedOn": "2026-08-14T23:12:58.000Z",
+          "wordCount": 2518,
+          "title": "Business Models, Coherence, And Not Being an Agitated, Sickly Lab Rat",
+          "imageUrl": "https://s3.amazonaws.com/tpm-media/images/tpm-logo_square.png"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1555105",
           "author": "Josh Marshall",

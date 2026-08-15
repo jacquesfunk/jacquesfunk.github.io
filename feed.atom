@@ -2,10 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-14T22:20:41.877Z</updated>
+    <updated>2026-08-15T01:07:41.402Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[7 One-Hit Wonder Singers Who Went on to Become Legendary Producers and Songwriters]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3379</id>
+        <link href="https://stuffthatinterestsme.net/7-one-hit-wonder-singers-who-went-on-to-become-legendary-producers-and-songwriters/"/>
+        <updated>2026-08-15T00:51:05.000Z</updated>
+        <summary type="html"><![CDATA[The one-hit wonder label has a funny way of shrinking a career down to three or four minutes. An artist]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Alvaro Ramirez: agent-shell 0.73 updates]]></title>
+        <id>https://xenodium.com/agent-shell-0-73-updates</id>
+        <link href="https://xenodium.com/agent-shell-0-73-updates"/>
+        <updated>2026-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Another month, another agent-shell update. If you missed the last one, have a look at the 0.63 update. While this post showcases the latest highlights, the full list of changes is far chunkier than what we'll cover.
+What's agent-shell?
+agent-shell is a native Emacs mode to interact with AI agents powered by ACP (Agent Client Protocol).
+agent-shell enters the chat
+Since inception in September last year (yikes nearly a year), agent-shell has featured a shell-like experience, powered by comint mode. There's also viewport mode (via agent-shell-prefer-viewport-interaction), if you prefer a more focused experience, and now we have chat mode.
+Chat mode fuses comint mode with a more traditional chat-like labelling experience.
+
+We're living on the edge here, so chat mode is now enabled by default. …]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Business Models, Coherence, And Not Being an Agitated, Sickly Lab Rat]]></title>
+        <id>https://talkingpointsmemo.com/?p=1555158</id>
+        <link href="https://talkingpointsmemo.com/edblog/business-models-coherence-and-not-being-an-agitated-sickly-lab-rat"/>
+        <updated>2026-08-14T23:12:58.000Z</updated>
+        <summary type="html"><![CDATA[I had a couple conversations today which turned on the role of private equity in today’s economy and the importance...]]></summary>
+        <author>
+            <name>Josh Marshall</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Trump Has Found Yet Another Frivolous Way to Dump Our Tax Dollars on the Military]]></title>
         <id>http://www.esquire.com/news-politics/politics/a73438206/military-spending-catapults-trump-obsession/</id>
@@ -3924,31 +3961,6 @@ There's nothing exceptional about what I did. The act of documenting life on the
 It was also, in every moment, just so o…]]></summary>
         <author>
             <name>David Roth</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TAONAW - Emacs and Org Mode: Emacs Config Gems - Part 3]]></title>
-        <id>https://taonaw.com/2026/08/05/emacs-config-gems-part.html</id>
-        <link href="https://taonaw.com/2026/08/05/emacs-config-gems-part.html"/>
-        <updated>2026-08-05T13:06:09.000Z</updated>
-        <summary type="html"><![CDATA[My actual configs start with pretty usual stuff you’d see across many other Emacs configs. As I was going through these however, I started to wonder how things work and why they ended up the way we have them today. In turn, that led to reading about the intention behind those, which led to more options I didn’t think about. Also, it’s kind of fun. I’ve made two more passes for this part alone in the last couple of weeks, and I could probably go for a third. When reading this post, if you want the good stuff (in my opinion), get lost in the footnotes as I did. There’s a lot to explore. I just scratched the surface.
-Load Melpa
-Melpa is where many Emacs packages live. The story behind it (from what I can tell) revolves around one of Emacs’ maintainers, Bozhidar Batsov, who pointed to Melpa at…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Ariana Grande’s body became political]]></title>
-        <id>https://www.salon.com/2026/08/05/how-ariana-grandes-body-became-political/-full</id>
-        <link href="https://www.salon.com/2026/08/05/how-ariana-grandes-body-became-political/"/>
-        <updated>2026-08-05T10:45:05.000Z</updated>
-        <summary type="html"><![CDATA[Ariana Grande has been concerningly thin for years now, but the online discourse about her body exploded this week after she released the music video for “Petal,” the title track of her most recent album. The video’s storyline, in which the 33-year-old pop singer gets “Carrie”-style revenge for men’s misogynist judgments, was completely overshadowed by fan alarm at Grande’s apparent emaciation. Set in the 1960s, the colorful retro fashions hang off her skeletal frame.
-“I can’t even enjoy the video without thinking she looks sickly every second she is on the screen,” one person posted on YouTube. 
-“At this point, im [sic] judging her team, friends, and family,” the video’s top commenter said. “This is insane.”
-“She’s is surrounded by enablers,” another wrote. “Eating disorders are not a jok…]]></summary>
-        <author>
-            <name>Amanda Marcotte - Salon.com</name>
         </author>
     </entry>
 </feed>

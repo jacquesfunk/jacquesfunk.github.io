@@ -22,11 +22,186 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-14 datetime="2026-08-14T20:36:57.000Z">2026-08-14</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-14 datetime="2026-08-14T20:36:57.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-14 datetime="2026-08-15T00:51:05.000Z">2026-08-14</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-14 datetime="2026-08-15T00:51:05.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Stuff That Interests Me</button>
+                  <a class="source-heading__link" href="https://stuffthatinterestsme.net">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://stuffthatinterestsme.net/?p&#x3D;3379"
+                        open
+                      >
+                        <summary class="article-expander__title">7 One-Hit Wonder Singers Who Went on to Become Legendary Producers and Songwriters</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://stuffthatinterestsme.net/7-one-hit-wonder-singers-who-went-on-to-become-legendary-producers-and-songwriters/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>The one-hit wonder label has a funny way of shrinking a career down to three or four minutes. An artist</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Emacslife</button>
+                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://xenodium.com/agent-shell-0-73-updates"
+                        open
+                      >
+                        <summary class="article-expander__title">Alvaro Ramirez: agent-shell 0.73 updates</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://xenodium.com/agent-shell-0-73-updates">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://xenodium.com/share.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Another month, another agent-shell update. If you missed the last one, have a look at the 0.63 update. While this post showcases the latest highlights, the full list of changes is far chunkier than what we&#x27;ll cover.
+What&#x27;s agent-shell?
+agent-shell is a native Emacs mode to interact with AI agents powered by ACP (Agent Client Protocol).
+agent-shell enters the chat
+Since inception in September last year (yikes nearly a year), agent-shell has featured a shell-like experience, powered by comint mode. There&#x27;s also viewport mode (via agent-shell-prefer-viewport-interaction), if you prefer a more focused experience, and now we have chat mode.
+Chat mode fuses comint mode with a more traditional chat-like labelling experience.
+
+We&#x27;re living on the edge here, so chat mode is now enabled by default. …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://irreal.org/blog/?p&#x3D;14013"
+                        open
+                      >
+                        <summary class="article-expander__title">Irreal: 🥩 Red Meat Friday: The Perils Of Rewriting</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;14013">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>The Emacs Cat, of whom I’ve written many times, has a post on a broken change in Ubuntu that affected Emacs. The TL;DR is that the Cat upgraded to Ubuntu 26.4 but when he tried to use Emacs he discovered a problem with Dired. At first he thought the problem was with Emacs 30.2, which is the default Emacs with that version of Ubuntu. But the actual problem turned out to be with Ubuntu’s implementation of ls. The Cat solved his problem by using the “old” version of ls from GNU coreutils. Ubuntu had decided that it was a good idea to rewrite the core Unix utilities—such as ls​—in Rust.
+
+
+Maybe I’m just old and grumpy but this seems to me to be a terrible idea. Utilities like ls have been around and working more or less flawlessly for close to 50 years. What, really, was the reasoning behind the decision to rewrite ls? Twenty six years ago, Joe Spolsky answered that question and explained why the rewriting is almost always a bad idea.
+
+
+It may have been written a quarter of century ago but Spolsky’s explanation remains true. There really is no reason—other than fashion—to rewrite core utilities that have been working perfectly well for longer than many of us have been alive. When you do, you can expect exactly the sort of problem that the Cat stumbled on.
+
+
+The problem with the new ls was very specific involving an obscure parameter but it reached out to disable a major Emacs functionality and probably affected other applications as well. The annoying thing is that there really wasn’t any reason for this to happen: just someone who decided it would be a good idea to rewrite an application that was working fine.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://list.orgmode.org/jckYhJ-NqMA-nvwE_gNl-zRU-W6_z1trt3WHfYXttEzH4Y_OykExk93VIM7q70zP-DYdjAYvoGE763FZcU3q6o9uCTvUTAqW6ZUT8LCqgf8&#x3D;@proton.me"
+                        open
+                      >
+                        <summary class="article-expander__title">Org Mode requests: [FR] Add org-delete-subtree without modifying the kill ring</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://list.orgmode.org/jckYhJ-NqMA-nvwE_gNl-zRU-W6_z1trt3WHfYXttEzH4Y_OykExk93VIM7q70zP-DYdjAYvoGE763FZcU3q6o9uCTvUTAqW6ZUT8LCqgf8&#x3D;@proton.me">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>[request] flags:--- replies:0</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Josh Marshall – TPM – Talking Points Memo</button>
+                  <a class="source-heading__link" href="https://talkingpointsmemo.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://talkingpointsmemo.com/?p&#x3D;1555158"
+                        open
+                      >
+                        <summary class="article-expander__title">Business Models, Coherence, And Not Being an Agitated, Sickly Lab Rat</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://talkingpointsmemo.com/edblog/business-models-coherence-and-not-being-an-agitated-sickly-lab-rat">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://s3.amazonaws.com/tpm-media/images/tpm-logo_square.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>I had a couple conversations today which turned on the role of private equity in today’s economy and the importance...</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://talkingpointsmemo.com/?p&#x3D;1555105"
+                        open
+                      >
+                        <summary class="article-expander__title">Background on the Breakdown of the Trump-Netanyahu Love Affair</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://talkingpointsmemo.com/edblog/background-on-the-breakdown-of-the-trump-netanyahu-love-affair">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-2287382017.jpg?w&#x3D;1200" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>A follow up to last night’s post on Mike Huckabee, now U.S. Ambassador to Israel. Axios reports that Donald Trump...</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -230,101 +405,6 @@ I issue this warning because over the last few days we have discovered that the 
                               <img src="https://substackcdn.com/image/fetch/$s_!5mdr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f2b795b-d4cb-46b7-9a97-249280571774_400x600.jpeg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>INSIDE: Aaron Reitz ... Tiffany M. Cartwright ... David Crowley</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Emacslife</button>
-                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://irreal.org/blog/?p&#x3D;14013"
-                        open
-                      >
-                        <summary class="article-expander__title">Irreal: 🥩 Red Meat Friday: The Perils Of Rewriting</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;14013">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The Emacs Cat, of whom I’ve written many times, has a post on a broken change in Ubuntu that affected Emacs. The TL;DR is that the Cat upgraded to Ubuntu 26.4 but when he tried to use Emacs he discovered a problem with Dired. At first he thought the problem was with Emacs 30.2, which is the default Emacs with that version of Ubuntu. But the actual problem turned out to be with Ubuntu’s implementation of ls. The Cat solved his problem by using the “old” version of ls from GNU coreutils. Ubuntu had decided that it was a good idea to rewrite the core Unix utilities—such as ls​—in Rust.
-
-
-Maybe I’m just old and grumpy but this seems to me to be a terrible idea. Utilities like ls have been around and working more or less flawlessly for close to 50 years. What, really, was the reasoning behind the decision to rewrite ls? Twenty six years ago, Joe Spolsky answered that question and explained why the rewriting is almost always a bad idea.
-
-
-It may have been written a quarter of century ago but Spolsky’s explanation remains true. There really is no reason—other than fashion—to rewrite core utilities that have been working perfectly well for longer than many of us have been alive. When you do, you can expect exactly the sort of problem that the Cat stumbled on.
-
-
-The problem with the new ls was very specific involving an obscure parameter but it reached out to disable a major Emacs functionality and probably affected other applications as well. The annoying thing is that there really wasn’t any reason for this to happen: just someone who decided it would be a good idea to rewrite an application that was working fine.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://list.orgmode.org/jckYhJ-NqMA-nvwE_gNl-zRU-W6_z1trt3WHfYXttEzH4Y_OykExk93VIM7q70zP-DYdjAYvoGE763FZcU3q6o9uCTvUTAqW6ZUT8LCqgf8&#x3D;@proton.me"
-                        open
-                      >
-                        <summary class="article-expander__title">Org Mode requests: [FR] Add org-delete-subtree without modifying the kill ring</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://list.orgmode.org/jckYhJ-NqMA-nvwE_gNl-zRU-W6_z1trt3WHfYXttEzH4Y_OykExk93VIM7q70zP-DYdjAYvoGE763FZcU3q6o9uCTvUTAqW6ZUT8LCqgf8&#x3D;@proton.me">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>[request] flags:--- replies:0</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Josh Marshall – TPM – Talking Points Memo</button>
-                  <a class="source-heading__link" href="https://talkingpointsmemo.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://talkingpointsmemo.com/?p&#x3D;1555105"
-                        open
-                      >
-                        <summary class="article-expander__title">Background on the Breakdown of the Trump-Netanyahu Love Affair</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://talkingpointsmemo.com/edblog/background-on-the-breakdown-of-the-trump-netanyahu-love-affair">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-2287382017.jpg?w&#x3D;1200" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>A follow up to last night’s post on Mike Huckabee, now U.S. Ambassador to Israel. Axios reports that Donald Trump...</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -8247,28 +8327,6 @@ Try it out!</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://taonaw.com/2026/08/05/emacs-config-gems-part.html"
-                        open
-                      >
-                        <summary class="article-expander__title">TAONAW - Emacs and Org Mode: Emacs Config Gems - Part 3</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://taonaw.com/2026/08/05/emacs-config-gems-part.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://s3.amazonaws.com/micro.blog/opengraph/2026/08/05/5964196.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>My actual configs start with pretty usual stuff you’d see across many other Emacs configs. As I was going through these however, I started to wonder how things work and why they ended up the way we have them today. In turn, that led to reading about the intention behind those, which led to more options I didn’t think about. Also, it’s kind of fun. I’ve made two more passes for this part alone in the last couple of weeks, and I could probably go for a third. When reading this post, if you want the good stuff (in my opinion), get lost in the footnotes as I did. There’s a lot to explore. I just scratched the surface.
-Load Melpa
-Melpa is where many Emacs packages live. The story behind it (from what I can tell) revolves around one of Emacs’ maintainers, Bozhidar Batsov, who pointed to Melpa at…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -8336,49 +8394,12 @@ Melpa is where many Emacs packages live. The story behind it (from what I can te
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Amanda Marcotte - Salon.com</button>
-                  <a class="source-heading__link" href="https://www.salon.com/writer/amanda_marcotte">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.salon.com/2026/08/05/how-ariana-grandes-body-became-political/-full"
-                        open
-                      >
-                        <summary class="article-expander__title">How Ariana Grande’s body became political</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.salon.com/2026/08/05/how-ariana-grandes-body-became-political/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.salon.com/app/uploads/2026/08/Ariana-Grande-2255393438.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Ariana Grande has been concerningly thin for years now, but the online discourse about her body exploded this week after she released the music video for “Petal,” the title track of her most recent album. The video’s storyline, in which the 33-year-old pop singer gets “Carrie”-style revenge for men’s misogynist judgments, was completely overshadowed by fan alarm at Grande’s apparent emaciation. Set in the 1960s, the colorful retro fashions hang off her skeletal frame.
-“I can’t even enjoy the video without thinking she looks sickly every second she is on the screen,” one person posted on YouTube. 
-“At this point, im [sic] judging her team, friends, and family,” the video’s top commenter said. “This is insane.”
-“She’s is surrounded by enablers,” another wrote. “Eating disorders are not a jok…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/31846178289">
-        <time id="build-timestamp" datetime="2026-08-14T22:20:41.846Z">2026-08-14T22:20:41.846Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/31855607096">
+        <time id="build-timestamp" datetime="2026-08-15T01:07:41.371Z">2026-08-15T01:07:41.371Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
