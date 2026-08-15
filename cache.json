@@ -568,16 +568,6 @@
           "wordCount": 1427,
           "title": "Irreal: Displaying The Active Clock",
           "imageUrl": null
-        },
-        {
-          "id": "https://srijan.ch/emacs-desktop-save-mode-without-the-automatic-restore",
-          "author": null,
-          "description": "Emacs has a built-in way to save and restore sessions: the desktop.el library.\nAs the Emacs manual says, putting this in the init file enables automatic save and restore of sessions:\n(desktop-save-mode 1)\nBut, I wanted a different behavior:\nAutomatically save the session\nBut don't restore it automatically\nI wanted to only use the session feature to restore sessions that I closed by mistake, or where I forgot to finish something before quitting Emacs. By default, I wanted a fresh session every time.\nBut this also means that some session history has to be maintained; otherwise, a fresh session will start to write to the desktop file and then I will not be able to recover the old session.\nBy default, the way to do this is to not set desktop-save-mode, but manually call desktop-save when neede…",
-          "link": "https://srijan.ch/emacs-desktop-save-mode-without-the-automatic-restore",
-          "publishedOn": "2026-08-06T08:10:00.000Z",
-          "wordCount": 536,
-          "title": "Srijan Choudhary: Emacs: desktop-save-mode without the automatic restore",
-          "imageUrl": "https://srijan.ch/media/pages/blog/emacs-desktop-save-mode-without-the-automatic-restore/836a5dd477-1786001094/restore-desktop-session-demo-1200x630-crop-28-1-79-8.png"
         }
       ]
     },
@@ -2480,22 +2470,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!bhp4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F576510a5-c4d8-434c-bb03-46ba7a0c648d_1200x1200.jpeg"
-        },
-        {
-          "id": "https://www.flowstate.fm/p/butcher-brown",
-          "author": "Flow State",
-          "description": "Today we’re listening to Butcher Brown, a jazz quintet formed in Virginia in 2009.",
-          "link": "https://www.flowstate.fm/p/butcher-brown",
-          "publishedOn": "2026-08-06T07:03:24.000Z",
-          "wordCount": null,
-          "title": "Butcher Brown",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!DyJS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F764a4a5a-f3c7-416d-9d73-e95c07f39352_1021x1200.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!DyJS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F764a4a5a-f3c7-416d-9d73-e95c07f39352_1021x1200.jpeg"
         }
       ]
     },

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-15T18:26:37.523Z</updated>
+    <updated>2026-08-15T20:20:11.002Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -3836,34 +3836,6 @@ I updated my packages to make sure I had the latest Org Mode (I’m on Org 9.8.8
 I wasn't the only one seeing this in my search results; my colleague Maitreyi Anantharaman, whose main beat is the WNBA, told me she noticed it as well across this season. I didn't take a screenshot of every search, but below you'll find the result for Golden State Valkyries forward Gabby Williams as of last week. At the end, there's also the question, "Which WNBA player looks like a man?"]]></summary>
         <author>
             <name>Samer Kalaf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Srijan Choudhary: Emacs: desktop-save-mode without the automatic restore]]></title>
-        <id>https://srijan.ch/emacs-desktop-save-mode-without-the-automatic-restore</id>
-        <link href="https://srijan.ch/emacs-desktop-save-mode-without-the-automatic-restore"/>
-        <updated>2026-08-06T08:10:00.000Z</updated>
-        <summary type="html"><![CDATA[Emacs has a built-in way to save and restore sessions: the desktop.el library.
-As the Emacs manual says, putting this in the init file enables automatic save and restore of sessions:
-(desktop-save-mode 1)
-But, I wanted a different behavior:
-Automatically save the session
-But don't restore it automatically
-I wanted to only use the session feature to restore sessions that I closed by mistake, or where I forgot to finish something before quitting Emacs. By default, I wanted a fresh session every time.
-But this also means that some session history has to be maintained; otherwise, a fresh session will start to write to the desktop file and then I will not be able to recover the old session.
-By default, the way to do this is to not set desktop-save-mode, but manually call desktop-save when neede…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Butcher Brown]]></title>
-        <id>https://www.flowstate.fm/p/butcher-brown</id>
-        <link href="https://www.flowstate.fm/p/butcher-brown"/>
-        <updated>2026-08-06T07:03:24.000Z</updated>
-        <summary type="html"><![CDATA[Today we’re listening to Butcher Brown, a jazz quintet formed in Virginia in 2009.]]></summary>
-        <author>
-            <name>Flow State</name>
         </author>
     </entry>
 </feed>
