@@ -568,16 +568,6 @@
           "wordCount": 2780,
           "title": "Raymond Zeitler: Dedicate an Emacs Window to Its Buffer",
           "imageUrl": null
-        },
-        {
-          "id": "https://irreal.org/blog/?p=13994",
-          "author": null,
-          "description": "Ray on Emacs, Raymond Zeitler has an interesting post on displaying the Org clocked in status. The default is to display it in the mode line but Zeitler wanted to display it in the title bar too. It turns out you can turn it off, display it in the mode line, display it in the title bar, or display it in both the mode line and title bar. These choices are controlled by the org-clock-clocked-in-display variable.\n\n\nIf you regularly clock in your tasks, having flexibility in where the status is displayed could be useful. The problem is I couldn’t find any reference to this variable in the help system or in timeclock.el, which handles the seemingly related timeclock-mode-line-display.\n\n\nI updated my packages to make sure I had the latest Org Mode (I’m on Org 9.8.8) but I got the same results. I’m guessing that Zeitler is using one of the Emacs 31 prereleases, which implements this. If you’re interested in this feature and are on Emacs 31Try it on your system and see what happens. If it works for you, leave a comment.",
-          "link": "https://irreal.org/blog/?p=13994",
-          "publishedOn": "2026-08-06T14:28:40.000Z",
-          "wordCount": 1427,
-          "title": "Irreal: Displaying The Active Clock",
-          "imageUrl": null
         }
       ]
     },
@@ -1205,26 +1195,6 @@
           "wordCount": 8040,
           "title": "Claire Stapleton Helped Write The Myth Of Google, But Now She’s Trying To Tell The Truth",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-1056086594.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=231432",
-          "author": "Lauren Theisen",
-          "description": "It's been a bad season for the 37-year-old pitcher Miles Mikolas. He's got an ERA of 5.67, and he's made a habit of starts where a bunch of guys just wallop what he offers. Only two pitchers in MLB have allowed more dingers than he's surrendered, and the signs point to Mikolas giving it another go in Japan once his one-year contract expires.\nThe silver lining, however, is that he plays for the Washington Nationals, and nothing that the Nationals do really matters anymore in the grand scheme of the league. All one can muster as a fan watching their games in this back stretch of the season is to root for something that'll make you say \"Oh! Huh.\" Case in point: The team ran out of position players in extra innings of their contest against the Phillies on Wednesday. Manager Blake Butera used two pinch hitters and two pinch runners, the last of which was Triple-A outfielder Andrew Pinckney, making his MLB debut as a sub for first baseman Abimelec Ortiz. Butera opted not to keep him in the game for the defensive half of the 10th. Instead, he moved his DH to first, lost the DH, then watched new pitcher Clayton Beeter escape the inning with just one run scored, making the game 4-4 in the 11th.\nBeeter was due up third in the top half, but after a walk and a triple by Jacob Young and C.J. Abrams, the next day's scheduled starter pinch-hit for the previous inning's pitcher. It was Mikolas, making his first plate appearance since 2021, who seemingly convinced his manager that he was the best man for the job.",
-          "link": "https://defector.com/miles-mikolas-now-better-at-hitting-than-pitching",
-          "publishedOn": "2026-08-06T14:49:04.000Z",
-          "wordCount": 5238,
-          "title": "Miles Mikolas Now Better At Hitting Than Pitching",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2288444350.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=230907",
-          "author": "Samer Kalaf",
-          "description": "As anyone who has used Google might already know, when you conduct a search on the site, it will suggest more searches of potential interest under a \"People also ask\" heading. The makeup of these \"people\" is not specified on the page, but clearly the point of this feature is to have you search more. In my capacity as the primary editor of Defector's lead WNBA writer, I use Google search often: to verify the spelling of names, fact-check details, and find the time and date of a team's upcoming game. At some point—I can't remember exactly when, but certainly at the start of this season—I noticed that whenever I searched a WNBA player, one of the suggested questions would invariably be \"Who is the transwoman in the WNBA?\"\nI wasn't the only one seeing this in my search results; my colleague Maitreyi Anantharaman, whose main beat is the WNBA, told me she noticed it as well across this season. I didn't take a screenshot of every search, but below you'll find the result for Golden State Valkyries forward Gabby Williams as of last week. At the end, there's also the question, \"Which WNBA player looks like a man?\"",
-          "link": "https://defector.com/the-mystery-of-googles-fixation-on-the-transwoman-in-the-wnba",
-          "publishedOn": "2026-08-06T14:16:12.000Z",
-          "wordCount": 6933,
-          "title": "The Mystery Of Google’s Fixation On “The Transwoman In The WNBA”",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2174099305-e1785960476589.jpg"
         }
       ]
     },
@@ -1277,6 +1247,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=2958",
+          "author": "Schill",
+          "description": "Most shortages happen for obvious reasons. A hurricane disrupts supply chains. A strike halts production. A drought damages crops. The",
+          "link": "https://stuffthatinterestsme.net/sunday-weird-history-lesson-the-great-toilet-paper-scare-of-1973/",
+          "publishedOn": "2026-08-16T01:16:46.000Z",
+          "wordCount": 2841,
+          "title": "Sunday Weird History Lesson: The Great Toilet Paper Scare of 1973",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=2940",
           "author": "Schill",
@@ -3162,22 +3142,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!fJxD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9db96c5c-3806-4e4c-b8a7-47809b8e73b5_1245x700.webp"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/the-emperors-new-wig-what-the-fuck",
-          "author": "Jeff Tiedrich",
-          "description": "what even is that?",
-          "link": "https://www.jefftiedrich.com/p/the-emperors-new-wig-what-the-fuck",
-          "publishedOn": "2026-08-06T14:26:27.000Z",
-          "wordCount": null,
-          "title": "the Emperor’s new wig: what the fuck is going on with Dear Leader’s hair?",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!fk7n!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F451d7da6-bf52-4bf7-b29d-a9e768bf8e90_2756x1492.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!fk7n!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F451d7da6-bf52-4bf7-b29d-a9e768bf8e90_2756x1492.jpeg"
         }
       ]
     }

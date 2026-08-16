@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-16T01:11:29.134Z</updated>
+    <updated>2026-08-16T02:57:49.836Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Sunday Weird History Lesson: The Great Toilet Paper Scare of 1973]]></title>
+        <id>https://stuffthatinterestsme.net/?p=2958</id>
+        <link href="https://stuffthatinterestsme.net/sunday-weird-history-lesson-the-great-toilet-paper-scare-of-1973/"/>
+        <updated>2026-08-16T01:16:46.000Z</updated>
+        <summary type="html"><![CDATA[Most shortages happen for obvious reasons. A hurricane disrupts supply chains. A strike halts production. A drought damages crops. The]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Alvaro Ramirez: Focus windows across Emacs frames]]></title>
         <id>https://xenodium.com/focus-windows-across-emacs-frames</id>
@@ -3811,55 +3821,6 @@ However, we have to disclose a somewhat troubling development. Safety is one of 
         <summary type="html"><![CDATA[INSIDE: Rand Paul ... Ron Johnson ... RFK Jr.]]></summary>
         <author>
             <name>David Kurtz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Miles Mikolas Now Better At Hitting Than Pitching]]></title>
-        <id>https://defector.com/?p=231432</id>
-        <link href="https://defector.com/miles-mikolas-now-better-at-hitting-than-pitching"/>
-        <updated>2026-08-06T14:49:04.000Z</updated>
-        <summary type="html"><![CDATA[It's been a bad season for the 37-year-old pitcher Miles Mikolas. He's got an ERA of 5.67, and he's made a habit of starts where a bunch of guys just wallop what he offers. Only two pitchers in MLB have allowed more dingers than he's surrendered, and the signs point to Mikolas giving it another go in Japan once his one-year contract expires.
-The silver lining, however, is that he plays for the Washington Nationals, and nothing that the Nationals do really matters anymore in the grand scheme of the league. All one can muster as a fan watching their games in this back stretch of the season is to root for something that'll make you say "Oh! Huh." Case in point: The team ran out of position players in extra innings of their contest against the Phillies on Wednesday. Manager Blake Butera used two pinch hitters and two pinch runners, the last of which was Triple-A outfielder Andrew Pinckney, making his MLB debut as a sub for first baseman Abimelec Ortiz. Butera opted not to keep him in the game for the defensive half of the 10th. Instead, he moved his DH to first, lost the DH, then watched new pitcher Clayton Beeter escape the inning with just one run scored, making the game 4-4 in the 11th.
-Beeter was due up third in the top half, but after a walk and a triple by Jacob Young and C.J. Abrams, the next day's scheduled starter pinch-hit for the previous inning's pitcher. It was Mikolas, making his first plate appearance since 2021, who seemingly convinced his manager that he was the best man for the job.]]></summary>
-        <author>
-            <name>Lauren Theisen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Displaying The Active Clock]]></title>
-        <id>https://irreal.org/blog/?p=13994</id>
-        <link href="https://irreal.org/blog/?p=13994"/>
-        <updated>2026-08-06T14:28:40.000Z</updated>
-        <summary type="html"><![CDATA[Ray on Emacs, Raymond Zeitler has an interesting post on displaying the Org clocked in status. The default is to display it in the mode line but Zeitler wanted to display it in the title bar too. It turns out you can turn it off, display it in the mode line, display it in the title bar, or display it in both the mode line and title bar. These choices are controlled by the org-clock-clocked-in-display variable.
-
-
-If you regularly clock in your tasks, having flexibility in where the status is displayed could be useful. The problem is I couldn’t find any reference to this variable in the help system or in timeclock.el, which handles the seemingly related timeclock-mode-line-display.
-
-
-I updated my packages to make sure I had the latest Org Mode (I’m on Org 9.8.8) but I got the same results. I’m guessing that Zeitler is using one of the Emacs 31 prereleases, which implements this. If you’re interested in this feature and are on Emacs 31Try it on your system and see what happens. If it works for you, leave a comment.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[the Emperor’s new wig: what the fuck is going on with Dear Leader’s hair?]]></title>
-        <id>https://www.jefftiedrich.com/p/the-emperors-new-wig-what-the-fuck</id>
-        <link href="https://www.jefftiedrich.com/p/the-emperors-new-wig-what-the-fuck"/>
-        <updated>2026-08-06T14:26:27.000Z</updated>
-        <summary type="html"><![CDATA[what even is that?]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Mystery Of Google’s Fixation On “The Transwoman In The WNBA”]]></title>
-        <id>https://defector.com/?p=230907</id>
-        <link href="https://defector.com/the-mystery-of-googles-fixation-on-the-transwoman-in-the-wnba"/>
-        <updated>2026-08-06T14:16:12.000Z</updated>
-        <summary type="html"><![CDATA[As anyone who has used Google might already know, when you conduct a search on the site, it will suggest more searches of potential interest under a "People also ask" heading. The makeup of these "people" is not specified on the page, but clearly the point of this feature is to have you search more. In my capacity as the primary editor of Defector's lead WNBA writer, I use Google search often: to verify the spelling of names, fact-check details, and find the time and date of a team's upcoming game. At some point—I can't remember exactly when, but certainly at the start of this season—I noticed that whenever I searched a WNBA player, one of the suggested questions would invariably be "Who is the transwoman in the WNBA?"
-I wasn't the only one seeing this in my search results; my colleague Maitreyi Anantharaman, whose main beat is the WNBA, told me she noticed it as well across this season. I didn't take a screenshot of every search, but below you'll find the result for Golden State Valkyries forward Gabby Williams as of last week. At the end, there's also the question, "Which WNBA player looks like a man?"]]></summary>
-        <author>
-            <name>Samer Kalaf</name>
         </author>
     </entry>
 </feed>
