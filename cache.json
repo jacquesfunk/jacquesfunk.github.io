@@ -23,6 +23,26 @@
       "siteUrl": "https://baty.net/index.xml",
       "articles": [
         {
+          "id": "https://baty.net/posts/2026/08/reconfiguring-my-backups/",
+          "author": null,
+          "description": "I've been sort of half-assing my Linux backups for a while now. I finally decided to fix them.\nMy backups were a combination of rsync to a Hetzner Storage Box and Pika backups to an external drive. Each setup did different things, and there was no documentation. Testing the backups was a random and incomplete process that was too much work so I never did it. Rsync is easy and fast, but using the --delete option means that if I accidentally delete something and the backup runs, it's gone. Basically, my backup \"system\" was riddled with gaps and potential problems. Rather than tweak that, I borrowed ideas from My backup strategy 2026, by Michael Harley and started over.\nLike Mike, I went with Borg for backups and borgmatic for managing them.\nborgmatic was new to me, so I decided to have Claud…",
+          "link": "https://baty.net/posts/2026/08/reconfiguring-my-backups/",
+          "publishedOn": "2026-08-16T11:43:19.000Z",
+          "wordCount": 440,
+          "title": "Reconfiguring my backups",
+          "imageUrl": "https://baty.net/img/opengraph.jpg"
+        },
+        {
+          "id": "https://baty.net/notes/2026/08/cartier-bresson-on-vanishing-moments/",
+          "author": null,
+          "description": "Photographers deal in things which are continually vanishing and when they have vanished there is no contrivance on Earth which can make them come back again\n-- Henri Cartier-Bresson\n✍️ Reply by email",
+          "link": "https://baty.net/notes/2026/08/cartier-bresson-on-vanishing-moments/",
+          "publishedOn": "2026-08-16T11:24:14.000Z",
+          "wordCount": 100,
+          "title": "Cartier-Bresson on vanishing moments",
+          "imageUrl": "https://baty.net/img/opengraph.jpg"
+        },
+        {
           "id": "https://baty.net/journal/15Aug26/",
           "author": null,
           "description": "\"I'll be curled up under my bed all day because I got an unexpected and (IMHO) unnecessary Emergency Alert on my phone that one time. But not before I complain about it on social media for a few hours, first.\"\n🙄\n510 Pyro: The Best First Developer - by Derrick Buckner\nOne dilution, one bottle. No drama. I’m going to explain why this belongs in a beginner’s arsenal as much as it belongs in mine.\nI've always been leery of Pyro developers, but based on this article, I've ordered a bottle from Freestyle Photo\n✍️ Reply by email",
@@ -537,16 +557,6 @@
           "publishedOn": "2026-08-07T14:27:46.000Z",
           "wordCount": 1549,
           "title": "Irreal: Emacs 31 And The Speedbar",
-          "imageUrl": null
-        },
-        {
-          "id": "https://davemq.github.io/2026/08/07/run-the-file-in-dired.html",
-          "author": null,
-          "description": "I started going through the\nThe Rust Programming Language to learn rust. I’m using the rustic\npackage to edit files, run cargo, etc.\nHaving run cargo build in the sample hello_cargo project, I\nwanted to run the executable file from within Dired. I realized\nthere’s no obvious way to do this in Dired or Dired-X, and that’s\nprobably a good thing. If it was easy I can imagine all sorts of havoc\nwith people accidentally, or intentionally, runnning files out of\nDired. Too easy.\nBut it occurred to me that bash has command to run\nthe next word in the command line as a command. I tried ! command in\nDired, but since the directory isn’t in the path, it told me\n\n/bin/bash: line 1: hello_cargo: command not found\n\n\nOkay, update PATH before running command:\n! PATH=.:$PATH command. This actually works, but decades of\ntraining give me a\nqueasy feeling about adding . to PATH. How about $PWD instead?\n! PATH=$PWD:$PATH command. Yep, that works too.\nBut of course, with rustic, I can use C-c C-p r to run\ncargo run to run the command. But trying to run the file on\nthe line in Dired was an interesting diversion!",
-          "link": "https://davemq.github.io/2026/08/07/run-the-file-in-dired.html",
-          "publishedOn": "2026-08-07T00:00:00.000Z",
-          "wordCount": 258,
-          "title": "Dave's blog: Run the file in Emacs’ dired",
           "imageUrl": null
         }
       ]

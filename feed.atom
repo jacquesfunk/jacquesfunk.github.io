@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-16T10:20:41.385Z</updated>
+    <updated>2026-08-16T12:35:05.696Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Reconfiguring my backups]]></title>
+        <id>https://baty.net/posts/2026/08/reconfiguring-my-backups/</id>
+        <link href="https://baty.net/posts/2026/08/reconfiguring-my-backups/"/>
+        <updated>2026-08-16T11:43:19.000Z</updated>
+        <summary type="html"><![CDATA[I've been sort of half-assing my Linux backups for a while now. I finally decided to fix them.
+My backups were a combination of rsync to a Hetzner Storage Box and Pika backups to an external drive. Each setup did different things, and there was no documentation. Testing the backups was a random and incomplete process that was too much work so I never did it. Rsync is easy and fast, but using the --delete option means that if I accidentally delete something and the backup runs, it's gone. Basically, my backup "system" was riddled with gaps and potential problems. Rather than tweak that, I borrowed ideas from My backup strategy 2026, by Michael Harley and started over.
+Like Mike, I went with Borg for backups and borgmatic for managing them.
+borgmatic was new to me, so I decided to have Claud…]]></summary>
+        <author>
+            <name>baty.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cartier-Bresson on vanishing moments]]></title>
+        <id>https://baty.net/notes/2026/08/cartier-bresson-on-vanishing-moments/</id>
+        <link href="https://baty.net/notes/2026/08/cartier-bresson-on-vanishing-moments/"/>
+        <updated>2026-08-16T11:24:14.000Z</updated>
+        <summary type="html"><![CDATA[Photographers deal in things which are continually vanishing and when they have vanished there is no contrivance on Earth which can make them come back again
+-- Henri Cartier-Bresson
+✍️ Reply by email]]></summary>
+        <author>
+            <name>baty.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Help Needed]]></title>
         <id>https://foxtrot.com/?p=6223</id>
@@ -3572,39 +3597,6 @@ The scandal this time centers around Pats head coach Mike Vrabel, who just this 
 I just checked prices for Warriors home playoff tickets, should they advance to the big-boy tournament. The cheapest seats are going for $270 a pop on Ticketbastard, and that’s if you want to watch the game from the Chase Center lighting rigs. If you’d like to sit on the lower level, with a nice view of center court, that’ll run you over $3,500. That’s a down payment on a car just…]]></summary>
         <author>
             <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dave's blog: Run the file in Emacs’ dired]]></title>
-        <id>https://davemq.github.io/2026/08/07/run-the-file-in-dired.html</id>
-        <link href="https://davemq.github.io/2026/08/07/run-the-file-in-dired.html"/>
-        <updated>2026-08-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I started going through the
-The Rust Programming Language to learn rust. I’m using the rustic
-package to edit files, run cargo, etc.
-Having run cargo build in the sample hello_cargo project, I
-wanted to run the executable file from within Dired. I realized
-there’s no obvious way to do this in Dired or Dired-X, and that’s
-probably a good thing. If it was easy I can imagine all sorts of havoc
-with people accidentally, or intentionally, runnning files out of
-Dired. Too easy.
-But it occurred to me that bash has command to run
-the next word in the command line as a command. I tried ! command in
-Dired, but since the directory isn’t in the path, it told me
-
-/bin/bash: line 1: hello_cargo: command not found
-
-
-Okay, update PATH before running command:
-! PATH=.:$PATH command. This actually works, but decades of
-training give me a
-queasy feeling about adding . to PATH. How about $PWD instead?
-! PATH=$PWD:$PATH command. Yep, that works too.
-But of course, with rustic, I can use C-c C-p r to run
-cargo run to run the command. But trying to run the file on
-the line in Dired was an interesting diversion!]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
