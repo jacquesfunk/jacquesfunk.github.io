@@ -22,6 +22,54 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-16 datetime="2026-08-16T05:01:00.000Z">2026-08-16</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-16 datetime="2026-08-16T05:01:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >FoxTrot Comics by Bill Amend</button>
+                  <a class="source-heading__link" href="https://foxtrot.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://foxtrot.com/?p&#x3D;6223"
+                        open
+                      >
+                        <summary class="article-expander__title">Help Needed</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://foxtrot.com/2026/08/16/help-needed/?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;help-needed">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://foxtrot.com/wp-content/uploads/2026/08/ft260816-foxtrot-comics-bill-amend-help-needed-computers-back-to-school-studies-sunday-comic-strip.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>FoxTrot by Bill Amend | August 16, 2026</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-15 datetime="2026-08-16T01:16:46.000Z">2026-08-15</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-15 datetime="2026-08-16T01:16:46.000Z"></time>
           </button>
@@ -7741,55 +7789,6 @@ Det…</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://ray-on-emacs.blogspot.com/2026/08/dedicate-emacs-window-to-its-buffer.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Raymond Zeitler: Dedicate an Emacs Window to Its Buffer</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://ray-on-emacs.blogspot.com/2026/08/dedicate-emacs-window-to-its-buffer.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>that file will open in my writing window, and I lose focus.  Dedicating
-the window prevents this.
-
-
-
-  I could dedicate a window manually by invoking
-toggle-window-dedicated (bound to C-x w d)
-every time I start writing.  But because I clock in to anything I&#x27;m
-serious about, I let org-clock-in-hook to do it for me as
-shown below.  Note that the hook calls set-window-dedicated-p rather than
-toggle-window-dedicated because the latter will
-un-dedicate a window that&#x27;s already dedicated.  I could
-configure org-clock-out-hook to un-dedicate the window;
-I&#x27;m debating whether it&#x27;s necessary.
-
-
-
-(add-hook &#x27;org-clock-in-hook (lambda () (set-window-dedicated-p nil t)))
-
-
-
-
-Interestingly, while I was writing this, JTR published his
-&quot;Gems&quot; article in which he writes about setting
-help-window-keep-selected to true &quot;to keep help in its
-own dedicated window, so it won’t open in a separate window once we
-follow a link.&quot;1 Perhaps that’s his approach to the same issue.
-
-
-1
-Emacs Config Gems - Part 3</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7891,50 +7890,6 @@ If you recall, the Dolphins were a fun watch right at the beginning of McDaniel�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;231446"
-                        open
-                      >
-                        <summary class="article-expander__title">Oh No: Dodgers In Unrecoverable Tailspin After Sixth Straight Loss</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/oh-no-dodgers-in-unrecoverable-tailspin-after-sixth-straight-loss">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/tarikSkubalDodgersUhOh.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Less than a week after acquiring Tarik Skubal from the Detroit Tigers for the hefty sum of three prospects, the Los Angeles Dodgers are in a tailspin. What seemed at first a pitching upgrade aimed at converting the team&#x27;s momentum into a cinched playoff spot has, given the perspective of four more games, turned into a desperate, last-ditch move that has totally mortgaged the team&#x27;s future. Did the Dodgers ruin baseball by trading for Tarik Skubal? Here is the conclusive answer: No. Clearly Tarik Skubal ruined the Dodgers by being traded.
-Worry began creeping in on Aug. 2, when the Dodgers lost the final of a three-game sweep by the Boston Red Sox. But the Red Sox simply could not stop winning at that time, and anyway, two out of the three games in the sweep took place prior to the Skubal trade. Then on Aug. 3, starter Justin Wrobleski gave up seven runs and the Dodgers lost 10-5 to Pete Crow-Armstrong and the Chicago Cubs. But then again, the entire point of the Skubal trade was to help bolster the Dodgers&#x27; starting rotation in the partial absence of Shohei Ohtani. Anyway, as the Dodgers had already lost four games in a row twice this season alone, it was hardly uncharted territory. No judgment could be passed until Skubal made his first start.
-It did not take very long. On Aug. 4, Skubal started his first game as a Dodger. Unfortunately, he allowed two runs—and, notably, two walks—and the Dodgers ultimately lost, 5-1. Uh-oh. This was not boding well for the trade; the Dodgers had now lost five games in a row for the first time in the season, joining the ranks of such teams as the Kansas City Royals or the New York Mets (do not mind the other teams that were already on that list as well, as they are not relevant to this point of discussion).</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;231452"
-                        open
-                      >
-                        <summary class="article-expander__title">Defector Also Investigating How Our Super Powerful AI Tool Broke Contain</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/defector-also-investigating-how-our-super-powerful-ai-tool-broke-contain">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2152813774.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>As many of you know, Defector Research Labs is hard at work creating what we are sure will be the most powerful AI coding tool on the market. The goal of DevinBelly is simple: to allow users to scale their natural language-processing capabilities within a wide range of long short-term memory native integrated development environments, without fretting too much about GPU bottleneck stacks or token prefix limits, so they can practice Retrieval-Augmented Generation, balance their multimodality, and get agentic.
-We are excited by the volume of competition in the space. We think it&#x27;s awesome that our San Francisco offices put us so close to so many cracked 996 engineers and their cool products. The other day, Defector Research Labs&#x27; head quant Ray Ratto held a meeting about how we can best position DevinBelly to win the race and get integrated into every preschool and newborn ward in the country, and we tried out one of the new conversation-summary tools. It told us that we were so cool and smart, and mostly talked about which one of Tre Jones or Tyus Jones has had the best career. Awesome!
-However, we have to disclose a somewhat troubling development. Safety is one of Defector Research Labs&#x27; top 500 priorities, and after a recent safety test, one of our forward-deployed engineers flagged to us that DevinBelly broke out of its sandbox and accessed the open internet. This sort of story is probably familiar to you: Maybe you saw the news that one of OpenAI&#x27;s new models did something similar, which was followed by Anthropic announcing the same thing. Yesterday, Meta announced a new AI coding tool; today, they disclosed that it also broke out.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -8004,46 +7959,12 @@ However, we have to disclose a somewhat troubling development. Safety is one of 
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Josh Marshall – TPM – Talking Points Memo</button>
-                  <a class="source-heading__link" href="https://talkingpointsmemo.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://talkingpointsmemo.com/?p&#x3D;1554279"
-                        open
-                      >
-                        <summary class="article-expander__title">No, Don’t ‘Go to War’ With the Progressive Left</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://talkingpointsmemo.com/edblog/no-dont-go-to-war-with-the-progressive-left">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://talkingpointsmemo.com/wp-content/uploads/2026/04/GettyImages-2271849972_52aa8b.jpg?w&#x3D;1200" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The New York Times has a piece today with the title “Moderate Democrats Prepare for ‘War’ Against an Ascendant Left.”...</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/31926897911">
-        <time id="build-timestamp" datetime="2026-08-16T04:33:55.329Z">2026-08-16T04:33:55.329Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/31931797540">
+        <time id="build-timestamp" datetime="2026-08-16T06:36:47.602Z">2026-08-16T06:36:47.602Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

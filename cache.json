@@ -558,16 +558,6 @@
           "wordCount": 15227,
           "title": "Sacha Chua: Emacs Chat avec Richard Bonichon en français",
           "imageUrl": null
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/08/dedicate-emacs-window-to-its-buffer.html",
-          "author": null,
-          "description": "that file will open in my writing window, and I lose focus.  Dedicating\nthe window prevents this.\n\n\n\n  I could dedicate a window manually by invoking\ntoggle-window-dedicated (bound to C-x w d)\nevery time I start writing.  But because I clock in to anything I'm\nserious about, I let org-clock-in-hook to do it for me as\nshown below.  Note that the hook calls set-window-dedicated-p rather than\ntoggle-window-dedicated because the latter will\nun-dedicate a window that's already dedicated.  I could\nconfigure org-clock-out-hook to un-dedicate the window;\nI'm debating whether it's necessary.\n\n\n\n(add-hook 'org-clock-in-hook (lambda () (set-window-dedicated-p nil t)))\n\n\n\n\nInterestingly, while I was writing this, JTR published his\n\"Gems\" article in which he writes about setting\nhelp-window-keep-selected to true \"to keep help in its\nown dedicated window, so it won’t open in a separate window once we\nfollow a link.\"1 Perhaps that’s his approach to the same issue.\n\n\n1\nEmacs Config Gems - Part 3",
-          "link": "https://ray-on-emacs.blogspot.com/2026/08/dedicate-emacs-window-to-its-buffer.html",
-          "publishedOn": "2026-08-06T17:46:17.556Z",
-          "wordCount": 2780,
-          "title": "Raymond Zeitler: Dedicate an Emacs Window to Its Buffer",
-          "imageUrl": null
         }
       ]
     },
@@ -1155,26 +1145,6 @@
           "wordCount": 11768,
           "title": "Why Your Team Sucks 2026: Miami Dolphins",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2287641388.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=231446",
-          "author": "Kathryn Xu",
-          "description": "Less than a week after acquiring Tarik Skubal from the Detroit Tigers for the hefty sum of three prospects, the Los Angeles Dodgers are in a tailspin. What seemed at first a pitching upgrade aimed at converting the team's momentum into a cinched playoff spot has, given the perspective of four more games, turned into a desperate, last-ditch move that has totally mortgaged the team's future. Did the Dodgers ruin baseball by trading for Tarik Skubal? Here is the conclusive answer: No. Clearly Tarik Skubal ruined the Dodgers by being traded.\nWorry began creeping in on Aug. 2, when the Dodgers lost the final of a three-game sweep by the Boston Red Sox. But the Red Sox simply could not stop winning at that time, and anyway, two out of the three games in the sweep took place prior to the Skubal trade. Then on Aug. 3, starter Justin Wrobleski gave up seven runs and the Dodgers lost 10-5 to Pete Crow-Armstrong and the Chicago Cubs. But then again, the entire point of the Skubal trade was to help bolster the Dodgers' starting rotation in the partial absence of Shohei Ohtani. Anyway, as the Dodgers had already lost four games in a row twice this season alone, it was hardly uncharted territory. No judgment could be passed until Skubal made his first start.\nIt did not take very long. On Aug. 4, Skubal started his first game as a Dodger. Unfortunately, he allowed two runs—and, notably, two walks—and the Dodgers ultimately lost, 5-1. Uh-oh. This was not boding well for the trade; the Dodgers had now lost five games in a row for the first time in the season, joining the ranks of such teams as the Kansas City Royals or the New York Mets (do not mind the other teams that were already on that list as well, as they are not relevant to this point of discussion).",
-          "link": "https://defector.com/oh-no-dodgers-in-unrecoverable-tailspin-after-sixth-straight-loss",
-          "publishedOn": "2026-08-06T17:02:29.000Z",
-          "wordCount": 5957,
-          "title": "Oh No: Dodgers In Unrecoverable Tailspin After Sixth Straight Loss",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/tarikSkubalDodgersUhOh.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=231452",
-          "author": "Patrick Redford",
-          "description": "As many of you know, Defector Research Labs is hard at work creating what we are sure will be the most powerful AI coding tool on the market. The goal of DevinBelly is simple: to allow users to scale their natural language-processing capabilities within a wide range of long short-term memory native integrated development environments, without fretting too much about GPU bottleneck stacks or token prefix limits, so they can practice Retrieval-Augmented Generation, balance their multimodality, and get agentic.\nWe are excited by the volume of competition in the space. We think it's awesome that our San Francisco offices put us so close to so many cracked 996 engineers and their cool products. The other day, Defector Research Labs' head quant Ray Ratto held a meeting about how we can best position DevinBelly to win the race and get integrated into every preschool and newborn ward in the country, and we tried out one of the new conversation-summary tools. It told us that we were so cool and smart, and mostly talked about which one of Tre Jones or Tyus Jones has had the best career. Awesome!\nHowever, we have to disclose a somewhat troubling development. Safety is one of Defector Research Labs' top 500 priorities, and after a recent safety test, one of our forward-deployed engineers flagged to us that DevinBelly broke out of its sandbox and accessed the open internet. This sort of story is probably familiar to you: Maybe you saw the news that one of OpenAI's new models did something similar, which was followed by Anthropic announcing the same thing. Yesterday, Meta announced a new AI coding tool; today, they disclosed that it also broke out.",
-          "link": "https://defector.com/defector-also-investigating-how-our-super-powerful-ai-tool-broke-contain",
-          "publishedOn": "2026-08-06T16:39:04.000Z",
-          "wordCount": 5585,
-          "title": "Defector Also Investigating How Our Super Powerful AI Tool Broke Contain",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2152813774.jpg"
         }
       ]
     },
@@ -2459,6 +2429,16 @@
       "siteUrl": "https://foxtrot.com",
       "articles": [
         {
+          "id": "https://foxtrot.com/?p=6223",
+          "author": "Bill Amend",
+          "description": "FoxTrot by Bill Amend | August 16, 2026",
+          "link": "https://foxtrot.com/2026/08/16/help-needed/?utm_source=rss&utm_medium=rss&utm_campaign=help-needed",
+          "publishedOn": "2026-08-16T05:01:00.000Z",
+          "wordCount": 3616,
+          "title": "Help Needed",
+          "imageUrl": "https://foxtrot.com/wp-content/uploads/2026/08/ft260816-foxtrot-comics-bill-amend-help-needed-computers-back-to-school-studies-sunday-comic-strip.png"
+        },
+        {
           "id": "https://foxtrot.com/?p=6210",
           "author": "Bill Amend",
           "description": "FoxTrot by Bill Amend | August 9, 2026",
@@ -2755,16 +2735,6 @@
           "wordCount": 2102,
           "title": "Most of Our Ideas About Party Divisions Are Bullshit — Let’s Discuss",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2024/08/GettyImages-2167667470.jpg?w=1200"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1554279",
-          "author": "Josh Marshall",
-          "description": "The New York Times has a piece today with the title “Moderate Democrats Prepare for ‘War’ Against an Ascendant Left.”...",
-          "link": "https://talkingpointsmemo.com/edblog/no-dont-go-to-war-with-the-progressive-left",
-          "publishedOn": "2026-08-06T17:51:21.000Z",
-          "wordCount": 2625,
-          "title": "No, Don’t ‘Go to War’ With the Progressive Left",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/04/GettyImages-2271849972_52aa8b.jpg?w=1200"
         }
       ]
     },

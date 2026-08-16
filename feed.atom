@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-16T04:33:55.355Z</updated>
+    <updated>2026-08-16T06:36:47.627Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Help Needed]]></title>
+        <id>https://foxtrot.com/?p=6223</id>
+        <link href="https://foxtrot.com/2026/08/16/help-needed/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=help-needed"/>
+        <updated>2026-08-16T05:01:00.000Z</updated>
+        <summary type="html"><![CDATA[FoxTrot by Bill Amend | August 16, 2026]]></summary>
+        <author>
+            <name>Bill Amend</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sunday Weird History Lesson: The Great Toilet Paper Scare of 1973]]></title>
         <id>https://stuffthatinterestsme.net/?p=2958</id>
@@ -3717,80 +3727,6 @@ La transcription un peu corrigée
 Det…]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[No, Don’t ‘Go to War’ With the Progressive Left]]></title>
-        <id>https://talkingpointsmemo.com/?p=1554279</id>
-        <link href="https://talkingpointsmemo.com/edblog/no-dont-go-to-war-with-the-progressive-left"/>
-        <updated>2026-08-06T17:51:21.000Z</updated>
-        <summary type="html"><![CDATA[The New York Times has a piece today with the title “Moderate Democrats Prepare for ‘War’ Against an Ascendant Left.”...]]></summary>
-        <author>
-            <name>Josh Marshall</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raymond Zeitler: Dedicate an Emacs Window to Its Buffer]]></title>
-        <id>https://ray-on-emacs.blogspot.com/2026/08/dedicate-emacs-window-to-its-buffer.html</id>
-        <link href="https://ray-on-emacs.blogspot.com/2026/08/dedicate-emacs-window-to-its-buffer.html"/>
-        <updated>2026-08-06T17:46:17.556Z</updated>
-        <summary type="html"><![CDATA[that file will open in my writing window, and I lose focus.  Dedicating
-the window prevents this.
-
-
-
-  I could dedicate a window manually by invoking
-toggle-window-dedicated (bound to C-x w d)
-every time I start writing.  But because I clock in to anything I'm
-serious about, I let org-clock-in-hook to do it for me as
-shown below.  Note that the hook calls set-window-dedicated-p rather than
-toggle-window-dedicated because the latter will
-un-dedicate a window that's already dedicated.  I could
-configure org-clock-out-hook to un-dedicate the window;
-I'm debating whether it's necessary.
-
-
-
-(add-hook 'org-clock-in-hook (lambda () (set-window-dedicated-p nil t)))
-
-
-
-
-Interestingly, while I was writing this, JTR published his
-"Gems" article in which he writes about setting
-help-window-keep-selected to true "to keep help in its
-own dedicated window, so it won’t open in a separate window once we
-follow a link."1 Perhaps that’s his approach to the same issue.
-
-
-1
-Emacs Config Gems - Part 3]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oh No: Dodgers In Unrecoverable Tailspin After Sixth Straight Loss]]></title>
-        <id>https://defector.com/?p=231446</id>
-        <link href="https://defector.com/oh-no-dodgers-in-unrecoverable-tailspin-after-sixth-straight-loss"/>
-        <updated>2026-08-06T17:02:29.000Z</updated>
-        <summary type="html"><![CDATA[Less than a week after acquiring Tarik Skubal from the Detroit Tigers for the hefty sum of three prospects, the Los Angeles Dodgers are in a tailspin. What seemed at first a pitching upgrade aimed at converting the team's momentum into a cinched playoff spot has, given the perspective of four more games, turned into a desperate, last-ditch move that has totally mortgaged the team's future. Did the Dodgers ruin baseball by trading for Tarik Skubal? Here is the conclusive answer: No. Clearly Tarik Skubal ruined the Dodgers by being traded.
-Worry began creeping in on Aug. 2, when the Dodgers lost the final of a three-game sweep by the Boston Red Sox. But the Red Sox simply could not stop winning at that time, and anyway, two out of the three games in the sweep took place prior to the Skubal trade. Then on Aug. 3, starter Justin Wrobleski gave up seven runs and the Dodgers lost 10-5 to Pete Crow-Armstrong and the Chicago Cubs. But then again, the entire point of the Skubal trade was to help bolster the Dodgers' starting rotation in the partial absence of Shohei Ohtani. Anyway, as the Dodgers had already lost four games in a row twice this season alone, it was hardly uncharted territory. No judgment could be passed until Skubal made his first start.
-It did not take very long. On Aug. 4, Skubal started his first game as a Dodger. Unfortunately, he allowed two runs—and, notably, two walks—and the Dodgers ultimately lost, 5-1. Uh-oh. This was not boding well for the trade; the Dodgers had now lost five games in a row for the first time in the season, joining the ranks of such teams as the Kansas City Royals or the New York Mets (do not mind the other teams that were already on that list as well, as they are not relevant to this point of discussion).]]></summary>
-        <author>
-            <name>Kathryn Xu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Defector Also Investigating How Our Super Powerful AI Tool Broke Contain]]></title>
-        <id>https://defector.com/?p=231452</id>
-        <link href="https://defector.com/defector-also-investigating-how-our-super-powerful-ai-tool-broke-contain"/>
-        <updated>2026-08-06T16:39:04.000Z</updated>
-        <summary type="html"><![CDATA[As many of you know, Defector Research Labs is hard at work creating what we are sure will be the most powerful AI coding tool on the market. The goal of DevinBelly is simple: to allow users to scale their natural language-processing capabilities within a wide range of long short-term memory native integrated development environments, without fretting too much about GPU bottleneck stacks or token prefix limits, so they can practice Retrieval-Augmented Generation, balance their multimodality, and get agentic.
-We are excited by the volume of competition in the space. We think it's awesome that our San Francisco offices put us so close to so many cracked 996 engineers and their cool products. The other day, Defector Research Labs' head quant Ray Ratto held a meeting about how we can best position DevinBelly to win the race and get integrated into every preschool and newborn ward in the country, and we tried out one of the new conversation-summary tools. It told us that we were so cool and smart, and mostly talked about which one of Tre Jones or Tyus Jones has had the best career. Awesome!
-However, we have to disclose a somewhat troubling development. Safety is one of Defector Research Labs' top 500 priorities, and after a recent safety test, one of our forward-deployed engineers flagged to us that DevinBelly broke out of its sandbox and accessed the open internet. This sort of story is probably familiar to you: Maybe you saw the news that one of OpenAI's new models did something similar, which was followed by Anthropic announcing the same thing. Yesterday, Meta announced a new AI coding tool; today, they disclosed that it also broke out.]]></summary>
-        <author>
-            <name>Patrick Redford</name>
         </author>
     </entry>
 </feed>
