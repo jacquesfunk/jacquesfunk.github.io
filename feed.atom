@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-16T22:18:56.855Z</updated>
+    <updated>2026-08-17T01:09:08.614Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -22,6 +22,108 @@ With high food and gas prices, a weak labor market and an unpopular war started 
 And that routine, as evidenced by polling and low GOP primary turnout, has gotten old. Trump has become …]]></summary>
         <author>
             <name>Rex Huppke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amit Patel: Emacs Tree-sitter custom highlighting, part 3]]></title>
+        <id>https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-3.html</id>
+        <link href="https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-3.html"/>
+        <updated>2026-08-16T21:53:52.812Z</updated>
+        <summary type="html"><![CDATA[part 2 I described how, for a particular project with certain
+naming conventions, I wanted to use emacs tree-sitter font-locking to
+highlight variables that might be used in the wrong context:
+
+
+
+  
+
+
+
+I found a way to make it work for simple expressions but it was relying on
+regular expression matching rather than tree-sitter parse trees. I set a
+goal of handling these types of expressions:
+
+
+
+elevation_t[t]           // good
+elevation_t[r]           // bug
+elevation_t[t_from_r[r]] // good
+elevation_t[r_from_t[t]] // bug
+elevation_t[obj.t]       // good
+elevation_t[obj.r]       // bug
+elevation_t[t_from_r(r)] // good
+elevation_t[r_from_t(t)] // bug
+elevation_t[x.t_fn(x)]   // good
+elevation_t[x.r_fn(x)]   // bug
+elevation_t[x.t_arr[i]]  // good
+elevation_t[x.r_arr[i]]  // bug
+elevation_t[…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amit Patel: Emacs Tree-sitter custom highlighting, part 2]]></title>
+        <id>https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-2.html</id>
+        <link href="https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-2.html"/>
+        <updated>2026-08-16T21:53:41.759Z</updated>
+        <summary type="html"><![CDATA[part 1 I described my initial attempt at customizing font-lock
+using Emacs 29 tree-sitter. Regular font locking uses regular expression
+matching. Tree sitter allows combining regular expression matching with
+parse tree matching, like "variable declaration" or "function call". The
+ideas I came up with were mostly things that I could have implemented with
+regular expressions alone, but I wanted to experiment with the tree sitter
+approach. Here's the effect of conventional highlighting, using color for
+keywords and other syntax:
+
+
+
+  
+  
+  Screenshots showing the use of color for syntax highlighting
+
+
+
+
+
+I wanted to instead mark variable names. In some projects I'm working with
+geometry, and I sometimes make mistakes putting the wrong variables
+together. I decided to mark horizontal and verti…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amit Patel: Emacs Tree-sitter custom highlighting, part 1]]></title>
+        <id>https://amitp.blogspot.com/2025/02/emacs-tree-sitter-custom-highlighting.html</id>
+        <link href="https://amitp.blogspot.com/2025/02/emacs-tree-sitter-custom-highlighting.html"/>
+        <updated>2026-08-16T21:53:12.412Z</updated>
+        <summary type="html"><![CDATA[blogged about custom tree-sitter-based syntax highlighting in emacs. I started out with highlighting certain keywords in red. I wanted to show the keywords that interrupt control flow:
+
+
+
+  
+  Screenshot showing syntax highlighting of keywords in black or red
+
+
+
+I highlight regular keywords (while, if) in bold. I highlight control flow interrupting keywords (return, continue) in red.
+
+
+
+That's syntax highlighting.
+
+
+
+But I also wanted to highlight names based on their meaning. 
+
+
+
+
+
+In some projects I'm working with horizontal and vertical measurements, and I thought it would be nice to highlight those variable names differently. In some projects I'm working with Delaunay+Voronoi meshes, and I wanted to highlight the triangles, edges, and polygons differently. In some projects I'm working …]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -3341,29 +3443,6 @@ The Fever lost to the Aces, 86-84, in an overtime thriller that presented the be
 Over the final four minutes of the half, Clark, Mitchell, and Boston combined to go 0-5 from the field while Clark turned the ball over three times. This helped the Aces finish the half on a 15-0 run, and by the time both teams headed to their locker rooms Vegas was only down by five. The Aces continued to put the squeeze on in the third quarter, outscoring the Fever 19-9; with 6:16 left to play in the fourth, they had build a nine-point lead.]]></summary>
         <author>
             <name>Tom Ley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Would You Eat This Cretaceous Turducken?]]></title>
-        <id>https://defector.com/?p=231389</id>
-        <link href="https://defector.com/would-you-eat-this-cretaceous-turducken"/>
-        <updated>2026-08-07T13:05:45.000Z</updated>
-        <summary type="html"><![CDATA[Various journalists have tried and failed to investigate the origins of turducken, that matryoshka-inspired dish of a chicken nested inside a duck nested inside a turkey. One chef in Louisiana claims to have invented the dish but refused to tell the New York Times when or where he created it, or even his age. But turducken is best understood as a modern combination in an ancient lineage of engastration, a cooking technique in which one animal is stuffed inside another. 
-Other famous entrants in the genre include haggis, a potpourri of sheep organs stuffed inside its stomach, and kiviak, a wintertime Inuit dish made of little auks that ferment inside sealskin. The most ostentatious engastration may well be Alexandre Balthazar Laurent Grimod de La Reynière's rôti sans pareil, or "roast without equal," which called for "a bustard stuffed with a turkey, a goose, a pheasant, a chicken, a duck, a guinea fowl, a teal, a woodcock, a partridge, a plover, a lapwing, a quail, a thrush, a lark, an ortolan bunting and a garden warbler."
-In nature, however, engastration is simply a way of life. To swallow someone whole often also involves swallowing whoever they recently swallowed. Scientists recently discovered an exemplar of this all-natural turducken from around 100 million years ago in the Cretaceous. The recipe is as follows: Stuff some early cephalopods inside a flying reptile called a pterosaur, then stuff that pterosaur inside a marine reptile called an ichthyosaur. As a garnish, feed part of the ichthyosaur to an even larger marine reptile called a pliosaur. The fossil was found in Queensland, in what was once the shallow Eromanga Sea, and described in the journal Gondwana Research.]]></summary>
-        <author>
-            <name>Sabrina Imbler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Max Miller tests GOP tolerance of terrible men]]></title>
-        <id>https://www.salon.com/2026/08/07/max-miller-tests-gop-tolerance-of-terrible-men/-full</id>
-        <link href="https://www.salon.com/2026/08/07/max-miller-tests-gop-tolerance-of-terrible-men/"/>
-        <updated>2026-08-07T10:45:58.000Z</updated>
-        <summary type="html"><![CDATA[For Rep. Max Miller, shaking off allegations of domestic violence and child abuse should be an easy lift. The 43-year-old Ohio Republican benefits from a base that treats violence against women as a non-issue at best. In many cases, credible accusations against a GOP politician only bolsters his popularity with the MAGA base, who view men as the real victims of uppity women who should learn to keep their mouths shut. But as he aggressively attacks his ex-wife, Emily Moreno, and her father, Ohio Sen. Bernie Moreno, Miller’s behavior is as bizarre as it is unsettling. Even Republicans are starting to squirm. 
-Miller faces an overwhelming number of accusations from Emily Moreno, including claims that he threw hot water at his ex-wife and held a gun to her head when they were married, and that…]]></summary>
-        <author>
-            <name>Amanda Marcotte - Salon.com</name>
         </author>
     </entry>
 </feed>

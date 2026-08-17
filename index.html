@@ -76,6 +76,183 @@ And that routine, as evidenced by polling and low GOP primary turnout, has gotte
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Emacslife</button>
+                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-3.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Amit Patel: Emacs Tree-sitter custom highlighting, part 3</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-3.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_vSdiEK3tTL4n9mPSzaZmhPMxB-dB_oU0zmO64Q7QG7bHknjrCAjQH_VjFUdJRd4zo59SQCiXR6z8KeGTQNAuWMtO6BmRUJsvDFA0x3u8jUf_Rtayrg8rnV3s4IG7X2UDeNIyenwb_g5dEznwkdaUihp6Y&#x3D;w1200-h630-p-k-no-nu" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>part 2 I described how, for a particular project with certain
+naming conventions, I wanted to use emacs tree-sitter font-locking to
+highlight variables that might be used in the wrong context:
+
+
+
+  
+
+
+
+I found a way to make it work for simple expressions but it was relying on
+regular expression matching rather than tree-sitter parse trees. I set a
+goal of handling these types of expressions:
+
+
+
+elevation_t[t]           // good
+elevation_t[r]           // bug
+elevation_t[t_from_r[r]] // good
+elevation_t[r_from_t[t]] // bug
+elevation_t[obj.t]       // good
+elevation_t[obj.r]       // bug
+elevation_t[t_from_r(r)] // good
+elevation_t[r_from_t(t)] // bug
+elevation_t[x.t_fn(x)]   // good
+elevation_t[x.r_fn(x)]   // bug
+elevation_t[x.t_arr[i]]  // good
+elevation_t[x.r_arr[i]]  // bug
+elevation_t[…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-2.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Amit Patel: Emacs Tree-sitter custom highlighting, part 2</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-2.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_tBHYJ3Chh4opR_kvPMNPw5K66dSrBLyqH2UxfNy93HkTl3jE_XGqSk-EpP7BwA7vCL1smcGENwVjewkoNYoCWJIDB7aRHnXKtwQejuK1YLC2iEx4gefGUM4wz_QSkblzyMoA1DPIkVXFiFYl4&#x3D;w1200-h630-p-k-no-nu" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>part 1 I described my initial attempt at customizing font-lock
+using Emacs 29 tree-sitter. Regular font locking uses regular expression
+matching. Tree sitter allows combining regular expression matching with
+parse tree matching, like &quot;variable declaration&quot; or &quot;function call&quot;. The
+ideas I came up with were mostly things that I could have implemented with
+regular expressions alone, but I wanted to experiment with the tree sitter
+approach. Here&#x27;s the effect of conventional highlighting, using color for
+keywords and other syntax:
+
+
+
+  
+  
+  Screenshots showing the use of color for syntax highlighting
+
+
+
+
+
+I wanted to instead mark variable names. In some projects I&#x27;m working with
+geometry, and I sometimes make mistakes putting the wrong variables
+together. I decided to mark horizontal and verti…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://amitp.blogspot.com/2025/02/emacs-tree-sitter-custom-highlighting.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Amit Patel: Emacs Tree-sitter custom highlighting, part 1</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://amitp.blogspot.com/2025/02/emacs-tree-sitter-custom-highlighting.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_uZf4jSSfXLuYAdKa6T1XdxXCy0n79UWQOrZ4qVPbM9jH1AsDzW1DYOg4SOSGhPvNPowNo6vpoTCHhoeJ26EzHISzG2AuVtzG0KEJtP-mTLifebiviqNLBjw2JY2OuyAfwgFZoYBcINjx4yI__mhOeYbAEj2cUp&#x3D;w1200-h630-p-k-no-nu" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>blogged about custom tree-sitter-based syntax highlighting in emacs. I started out with highlighting certain keywords in red. I wanted to show the keywords that interrupt control flow:
+
+
+
+  
+  Screenshot showing syntax highlighting of keywords in black or red
+
+
+
+I highlight regular keywords (while, if) in bold. I highlight control flow interrupting keywords (return, continue) in red.
+
+
+
+That&#x27;s syntax highlighting.
+
+
+
+But I also wanted to highlight names based on their meaning. 
+
+
+
+
+
+In some projects I&#x27;m working with horizontal and vertical measurements, and I thought it would be nice to highlight those variable names differently. In some projects I&#x27;m working with Delaunay+Voronoi meshes, and I wanted to highlight the triangles, edges, and polygons differently. In some projects I&#x27;m working …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://irreal.org/blog/?p&#x3D;14017"
+                        open
+                      >
+                        <summary class="article-expander__title">Irreal: Emacs Backups</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;14017">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Ray on Emacs doesn’t use version control for his “non-public” files so when he had a problem with his .emacs file, he didn’t have any backups except for the single last version of a file that Emacs will make automatically if you have backups enabled. That, apparently, was enough to recover but Zeitler resolved to do better.
+
+
+What he did was to replace .emacs~ with .emacs.~1~, which causes Emacs to create a numbered sequence of backups rather than simply overwriting the last one. Reading his post reminded me of my backup scheme, which I haven’t thought about in years because all my files—except autogenerated ones—go into Git.
+
+
+My backup scheme is a little different from Zeitler’s because I’ve set mine to keep only the last two backups. That way, my file system doesn’t fill up with long forgotten and unneeded backups. Even so, there were a lot of backups—some for files that don’t even exist anymore—taking up a lot of space. I deleted them all and started over.
+
+
+I don’t claim that 2 is the right number for everyone or even for me. It just seemed like a safe number in case something happened with Git. Happily, I’ve never had to use the backups, which is why I’d mostly forgotten about them.
+
+
+One thing for sure, you need to be religious about either saving your files to a version control system or configuring the Emacs backup system to automatically save some number of backups for you.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Drew Magary, Columnist - SFGATE</button>
                   <a class="source-heading__link" href="https://www.sfgate.com/author/drew-magary/">Open</a>
                 </h3>
@@ -278,51 +455,6 @@ In the top of the first inning against the Cubs, the Cards’ outfielder hit the
 
 https://www.youtube.com/watch?v&#x3D;2QJdGWANMdU</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Emacslife</button>
-                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://irreal.org/blog/?p&#x3D;14017"
-                        open
-                      >
-                        <summary class="article-expander__title">Irreal: Emacs Backups</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;14017">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Ray on Emacs doesn’t use version control for his “non-public” files so when he had a problem with his .emacs file, he didn’t have any backups except for the single last version of a file that Emacs will make automatically if you have backups enabled. That, apparently, was enough to recover but Zeitler resolved to do better.
-
-
-What he did was to replace .emacs~ with .emacs.~1~, which causes Emacs to create a numbered sequence of backups rather than simply overwriting the last one. Reading his post reminded me of my backup scheme, which I haven’t thought about in years because all my files—except autogenerated ones—go into Git.
-
-
-My backup scheme is a little different from Zeitler’s because I’ve set mine to keep only the last two backups. That way, my file system doesn’t fill up with long forgotten and unneeded backups. Even so, there were a lot of backups—some for files that don’t even exist anymore—taking up a lot of space. I deleted them all and started over.
-
-
-I don’t claim that 2 is the right number for everyone or even for me. It just seemed like a safe number in case something happened with Git. Happily, I’ve never had to use the backups, which is why I’d mostly forgotten about them.
-
-
-One thing for sure, you need to be religious about either saving your files to a version control system or configuring the Emacs backup system to automatically save some number of backups for you.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -7059,28 +7191,6 @@ Over the final four minutes of the half, Clark, Mitchell, and Boston combined to
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;231389"
-                        open
-                      >
-                        <summary class="article-expander__title">Would You Eat This Cretaceous Turducken?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/would-you-eat-this-cretaceous-turducken">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/fossil-provides-world-1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Various journalists have tried and failed to investigate the origins of turducken, that matryoshka-inspired dish of a chicken nested inside a duck nested inside a turkey. One chef in Louisiana claims to have invented the dish but refused to tell the New York Times when or where he created it, or even his age. But turducken is best understood as a modern combination in an ancient lineage of engastration, a cooking technique in which one animal is stuffed inside another. 
-Other famous entrants in the genre include haggis, a potpourri of sheep organs stuffed inside its stomach, and kiviak, a wintertime Inuit dish made of little auks that ferment inside sealskin. The most ostentatious engastration may well be Alexandre Balthazar Laurent Grimod de La Reynière&#x27;s rôti sans pareil, or &quot;roast without equal,&quot; which called for &quot;a bustard stuffed with a turkey, a goose, a pheasant, a chicken, a duck, a guinea fowl, a teal, a woodcock, a partridge, a plover, a lapwing, a quail, a thrush, a lark, an ortolan bunting and a garden warbler.&quot;
-In nature, however, engastration is simply a way of life. To swallow someone whole often also involves swallowing whoever they recently swallowed. Scientists recently discovered an exemplar of this all-natural turducken from around 100 million years ago in the Cretaceous. The recipe is as follows: Stuff some early cephalopods inside a flying reptile called a pterosaur, then stuff that pterosaur inside a marine reptile called an ichthyosaur. As a garnish, feed part of the ichthyosaur to an even larger marine reptile called a pliosaur. The fossil was found in Queensland, in what was once the shallow Eromanga Sea, and described in the journal Gondwana Research.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;22
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7263,47 +7373,12 @@ My recommendation is that if you don’t already strong opinions on the matter, 
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Amanda Marcotte - Salon.com</button>
-                  <a class="source-heading__link" href="https://www.salon.com/writer/amanda_marcotte">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.salon.com/2026/08/07/max-miller-tests-gop-tolerance-of-terrible-men/-full"
-                        open
-                      >
-                        <summary class="article-expander__title">Max Miller tests GOP tolerance of terrible men</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.salon.com/2026/08/07/max-miller-tests-gop-tolerance-of-terrible-men/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.salon.com/app/uploads/2026/08/Max-Miller-2279933527-e1786069179608.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>For Rep. Max Miller, shaking off allegations of domestic violence and child abuse should be an easy lift. The 43-year-old Ohio Republican benefits from a base that treats violence against women as a non-issue at best. In many cases, credible accusations against a GOP politician only bolsters his popularity with the MAGA base, who view men as the real victims of uppity women who should learn to keep their mouths shut. But as he aggressively attacks his ex-wife, Emily Moreno, and her father, Ohio Sen. Bernie Moreno, Miller’s behavior is as bizarre as it is unsettling. Even Republicans are starting to squirm. 
-Miller faces an overwhelming number of accusations from Emily Moreno, including claims that he threw hot water at his ex-wife and held a gun to her head when they were married, and that…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/31975958525">
-        <time id="build-timestamp" datetime="2026-08-16T22:18:56.822Z">2026-08-16T22:18:56.822Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/31984045831">
+        <time id="build-timestamp" datetime="2026-08-17T01:09:08.585Z">2026-08-17T01:09:08.585Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

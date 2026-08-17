@@ -190,6 +190,36 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-3.html",
+          "author": null,
+          "description": "part 2 I described how, for a particular project with certain\nnaming conventions, I wanted to use emacs tree-sitter font-locking to\nhighlight variables that might be used in the wrong context:\n\n\n\n  \n\n\n\nI found a way to make it work for simple expressions but it was relying on\nregular expression matching rather than tree-sitter parse trees. I set a\ngoal of handling these types of expressions:\n\n\n\nelevation_t[t]           // good\nelevation_t[r]           // bug\nelevation_t[t_from_r[r]] // good\nelevation_t[r_from_t[t]] // bug\nelevation_t[obj.t]       // good\nelevation_t[obj.r]       // bug\nelevation_t[t_from_r(r)] // good\nelevation_t[r_from_t(t)] // bug\nelevation_t[x.t_fn(x)]   // good\nelevation_t[x.r_fn(x)]   // bug\nelevation_t[x.t_arr[i]]  // good\nelevation_t[x.r_arr[i]]  // bug\nelevation_t[…",
+          "link": "https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-3.html",
+          "publishedOn": "2026-08-16T21:53:52.812Z",
+          "wordCount": 2212,
+          "title": "Amit Patel: Emacs Tree-sitter custom highlighting, part 3",
+          "imageUrl": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_vSdiEK3tTL4n9mPSzaZmhPMxB-dB_oU0zmO64Q7QG7bHknjrCAjQH_VjFUdJRd4zo59SQCiXR6z8KeGTQNAuWMtO6BmRUJsvDFA0x3u8jUf_Rtayrg8rnV3s4IG7X2UDeNIyenwb_g5dEznwkdaUihp6Y=w1200-h630-p-k-no-nu"
+        },
+        {
+          "id": "https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-2.html",
+          "author": null,
+          "description": "part 1 I described my initial attempt at customizing font-lock\nusing Emacs 29 tree-sitter. Regular font locking uses regular expression\nmatching. Tree sitter allows combining regular expression matching with\nparse tree matching, like \"variable declaration\" or \"function call\". The\nideas I came up with were mostly things that I could have implemented with\nregular expressions alone, but I wanted to experiment with the tree sitter\napproach. Here's the effect of conventional highlighting, using color for\nkeywords and other syntax:\n\n\n\n  \n  \n  Screenshots showing the use of color for syntax highlighting\n\n\n\n\n\nI wanted to instead mark variable names. In some projects I'm working with\ngeometry, and I sometimes make mistakes putting the wrong variables\ntogether. I decided to mark horizontal and verti…",
+          "link": "https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-2.html",
+          "publishedOn": "2026-08-16T21:53:41.759Z",
+          "wordCount": 1427,
+          "title": "Amit Patel: Emacs Tree-sitter custom highlighting, part 2",
+          "imageUrl": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_tBHYJ3Chh4opR_kvPMNPw5K66dSrBLyqH2UxfNy93HkTl3jE_XGqSk-EpP7BwA7vCL1smcGENwVjewkoNYoCWJIDB7aRHnXKtwQejuK1YLC2iEx4gefGUM4wz_QSkblzyMoA1DPIkVXFiFYl4=w1200-h630-p-k-no-nu"
+        },
+        {
+          "id": "https://amitp.blogspot.com/2025/02/emacs-tree-sitter-custom-highlighting.html",
+          "author": null,
+          "description": "blogged about custom tree-sitter-based syntax highlighting in emacs. I started out with highlighting certain keywords in red. I wanted to show the keywords that interrupt control flow:\n\n\n\n  \n  Screenshot showing syntax highlighting of keywords in black or red\n\n\n\nI highlight regular keywords (while, if) in bold. I highlight control flow interrupting keywords (return, continue) in red.\n\n\n\nThat's syntax highlighting.\n\n\n\nBut I also wanted to highlight names based on their meaning. \n\n\n\n\n\nIn some projects I'm working with horizontal and vertical measurements, and I thought it would be nice to highlight those variable names differently. In some projects I'm working with Delaunay+Voronoi meshes, and I wanted to highlight the triangles, edges, and polygons differently. In some projects I'm working …",
+          "link": "https://amitp.blogspot.com/2025/02/emacs-tree-sitter-custom-highlighting.html",
+          "publishedOn": "2026-08-16T21:53:12.412Z",
+          "wordCount": 1553,
+          "title": "Amit Patel: Emacs Tree-sitter custom highlighting, part 1",
+          "imageUrl": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_uZf4jSSfXLuYAdKa6T1XdxXCy0n79UWQOrZ4qVPbM9jH1AsDzW1DYOg4SOSGhPvNPowNo6vpoTCHhoeJ26EzHISzG2AuVtzG0KEJtP-mTLifebiviqNLBjw2JY2OuyAfwgFZoYBcINjx4yI__mhOeYbAEj2cUp=w1200-h630-p-k-no-nu"
+        },
+        {
           "id": "https://irreal.org/blog/?p=14017",
           "author": null,
           "description": "Ray on Emacs doesn’t use version control for his “non-public” files so when he had a problem with his .emacs file, he didn’t have any backups except for the single last version of a file that Emacs will make automatically if you have backups enabled. That, apparently, was enough to recover but Zeitler resolved to do better.\n\n\nWhat he did was to replace .emacs~ with .emacs.~1~, which causes Emacs to create a numbered sequence of backups rather than simply overwriting the last one. Reading his post reminded me of my backup scheme, which I haven’t thought about in years because all my files—except autogenerated ones—go into Git.\n\n\nMy backup scheme is a little different from Zeitler’s because I’ve set mine to keep only the last two backups. That way, my file system doesn’t fill up with long forgotten and unneeded backups. Even so, there were a lot of backups—some for files that don’t even exist anymore—taking up a lot of space. I deleted them all and started over.\n\n\nI don’t claim that 2 is the right number for everyone or even for me. It just seemed like a safe number in case something happened with Git. Happily, I’ve never had to use the backups, which is why I’d mostly forgotten about them.\n\n\nOne thing for sure, you need to be religious about either saving your files to a version control system or configuring the Emacs backup system to automatically save some number of backups for you.",
@@ -1135,16 +1165,6 @@
           "wordCount": 6087,
           "title": "Chelsea Gray Punished Caitlin Clark’s Mistakes",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2289398105.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=231389",
-          "author": "Sabrina Imbler",
-          "description": "Various journalists have tried and failed to investigate the origins of turducken, that matryoshka-inspired dish of a chicken nested inside a duck nested inside a turkey. One chef in Louisiana claims to have invented the dish but refused to tell the New York Times when or where he created it, or even his age. But turducken is best understood as a modern combination in an ancient lineage of engastration, a cooking technique in which one animal is stuffed inside another. \nOther famous entrants in the genre include haggis, a potpourri of sheep organs stuffed inside its stomach, and kiviak, a wintertime Inuit dish made of little auks that ferment inside sealskin. The most ostentatious engastration may well be Alexandre Balthazar Laurent Grimod de La Reynière's rôti sans pareil, or \"roast without equal,\" which called for \"a bustard stuffed with a turkey, a goose, a pheasant, a chicken, a duck, a guinea fowl, a teal, a woodcock, a partridge, a plover, a lapwing, a quail, a thrush, a lark, an ortolan bunting and a garden warbler.\"\nIn nature, however, engastration is simply a way of life. To swallow someone whole often also involves swallowing whoever they recently swallowed. Scientists recently discovered an exemplar of this all-natural turducken from around 100 million years ago in the Cretaceous. The recipe is as follows: Stuff some early cephalopods inside a flying reptile called a pterosaur, then stuff that pterosaur inside a marine reptile called an ichthyosaur. As a garnish, feed part of the ichthyosaur to an even larger marine reptile called a pliosaur. The fossil was found in Queensland, in what was once the shallow Eromanga Sea, and described in the journal Gondwana Research.",
-          "link": "https://defector.com/would-you-eat-this-cretaceous-turducken",
-          "publishedOn": "2026-08-07T13:05:45.000Z",
-          "wordCount": 6581,
-          "title": "Would You Eat This Cretaceous Turducken?",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/fossil-provides-world-1.jpg"
         }
       ]
     },
@@ -1379,16 +1399,6 @@
           "wordCount": 1913,
           "title": "MAGA has pandemic nostalgia",
           "imageUrl": "https://www.salon.com/app/uploads/2026/08/Anthony-Fauci-2288163910.jpg"
-        },
-        {
-          "id": "https://www.salon.com/2026/08/07/max-miller-tests-gop-tolerance-of-terrible-men/-full",
-          "author": null,
-          "description": "For Rep. Max Miller, shaking off allegations of domestic violence and child abuse should be an easy lift. The 43-year-old Ohio Republican benefits from a base that treats violence against women as a non-issue at best. In many cases, credible accusations against a GOP politician only bolsters his popularity with the MAGA base, who view men as the real victims of uppity women who should learn to keep their mouths shut. But as he aggressively attacks his ex-wife, Emily Moreno, and her father, Ohio Sen. Bernie Moreno, Miller’s behavior is as bizarre as it is unsettling. Even Republicans are starting to squirm. \nMiller faces an overwhelming number of accusations from Emily Moreno, including claims that he threw hot water at his ex-wife and held a gun to her head when they were married, and that…",
-          "link": "https://www.salon.com/2026/08/07/max-miller-tests-gop-tolerance-of-terrible-men/",
-          "publishedOn": "2026-08-07T10:45:58.000Z",
-          "wordCount": 2510,
-          "title": "Max Miller tests GOP tolerance of terrible men",
-          "imageUrl": "https://www.salon.com/app/uploads/2026/08/Max-Miller-2279933527-e1786069179608.jpg"
         }
       ]
     },
