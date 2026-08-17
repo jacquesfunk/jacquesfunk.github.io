@@ -2,10 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-17T01:09:08.614Z</updated>
+    <updated>2026-08-17T02:57:52.358Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TAONAW - Emacs and Org Mode: RSI and Emacs: When Your Pinky Says Enough is Enough]]></title>
+        <id>https://taonaw.com/2026/08/16/rsi-and-emacs-when-your.html</id>
+        <link href="https://taonaw.com/2026/08/16/rsi-and-emacs-when-your.html"/>
+        <updated>2026-08-17T01:54:19.000Z</updated>
+        <summary type="html"><![CDATA[I’ve been doing so much Emacs writing lately, so I guess it’s time I get my Emacs pinky (which is a form of RSI). I made a quick reference to it three days ago and got a lot of responses.
+What happened?
+I started to feel a strain last week, but at first I didn’t think much about it. Sometimes my pinky rests awkwardly on the keyboard because I’m used to using the Caps Lock key, but it’s usually a hand-position issue. After I readjust and let my pinky rest, it goes away.
+This time the strain didn’t go away, and my pinky kept rebelling.
+My keyboard, Kinesis Freestyle Edge (the one here is the RGB+, the original RGB is discontinued), has a prominent Caps Lock key that just screams “use me as control!” For years, that’s what I did. As you can see in the picture, with my pinky resting on it.
+The…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Monday Meme Dump]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3032</id>
+        <link href="https://stuffthatinterestsme.net/monday-meme-dump-4/"/>
+        <updated>2026-08-17T01:50:28.000Z</updated>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Corwin Brust: Emacs Card Games on MELPA]]></title>
+        <id>http://corwin.bru.st/2026-08-16-emacs-card-games-on-melpa/</id>
+        <link href="http://corwin.bru.st/2026-08-16-emacs-card-games-on-melpa/"/>
+        <updated>2026-08-16T23:09:44.000Z</updated>
+        <summary type="html"><![CDATA[card-games.el 1.0.92 (pre-release #2, MELPA) is available from package-install for users of MELPA.  Release announcement after the cut..
+
+
+Grown from experimentation within Dungeon, thank you to contribs there, and for review comments from ricsy putting toward MELPA got rid of some advices forcing very interesting better ways. The hooks approach makes the registered card-games-bid-submit a generic semaphore, for example to interlink with a process, CRDT via an adaptor, or … in present v1.0.92 (unstable): https://melpa.org/#/card-games]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GOP has nothing left but bigotry and lies. Rinse and repeat.Rex Huppke]]></title>
         <id>https://www.usatoday.com/story/opinion/columnist/2026/08/16/trump-socialism-republicans-islamophobia-midterms/91304727007/-full</id>
@@ -3399,50 +3436,6 @@ Krukow is 74, and has been working for the past 15-plus years with the degenerat
         <summary type="html"><![CDATA[I discovered CarJitsu this past April at the Minneapolis-St. Paul International Airport, where a bout was broadcast on a wall-mounted television above a display of Doritos. There is, truthfully, not much to explain about this newfangled sport. CarJitsu is an athletic contest, really a wrestling match, between two people who grapple inside a small car until one of them submits to some sort of chokehold or pin. There are two three-minute rounds but possibly a third if the match is tied after the second round. The combatants start buckled next to each in the passenger and driver seats (selection determined by a coin toss), then unbuckle themselves and attack. They are not allowed to punch or strike each other, much less jab or poke an eye. They can use the seatbelt to strangle each other, how…]]></summary>
         <author>
             <name>MH Rowe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Emacs 31 And The Speedbar]]></title>
-        <id>https://irreal.org/blog/?p=13996</id>
-        <link href="https://irreal.org/blog/?p=13996"/>
-        <updated>2026-08-07T14:27:46.000Z</updated>
-        <summary type="html"><![CDATA[the Emacs speedbar and its Emacs 31 upgrade. The TL;DR is that as of Emacs 31, you can configure the speedbar to be displayed in a separate window instead of a separate frame. The video is 15 minutes, 39 seconds so it should be easy to find time for it.
-
-
-The placement of the speedbar matters a lot to Prot. He found the speedbar to be unusable when it was displayed in a separate frame because it was difficult to deal with the two related frames. It’s absolutely impossible for me to deal with because I run Emacs as a full screen app so the speedbar is in another workspace and I have to switch to that workspace to see it.
-
-
-Now that the speedbar can be displayed in the same frame, Prot finds that it can be useful when dealing with large projects with many files. His video is mostly concerned with showing how the speedbar works and what you can do with it.
-
-
-Lots of people love speedbar-like applications and swear by them. I, however, have never been able to warm up to them. These days, I don’t work with large projects and perhaps I’d feel differently if I did but mostly they just seem like noise to me. Even Prot says he doesn’t use speedbar for his smaller personal projects but that it can be useful for larger, multi-file projects.
-
-
-My recommendation is that if you don’t already strong opinions on the matter, give the speedbar a try when Emacs 31 comes out and see if it works for you. There are plenty of informed opinions on both sides of the issue so there’s no right answer, just what works for you. As always, Emacs will let you have it your way.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[who’s more brain-dead, Mitch McConnell or the press covering him?]]></title>
-        <id>https://www.jefftiedrich.com/p/whos-more-brain-dead-mitch-mcconnell</id>
-        <link href="https://www.jefftiedrich.com/p/whos-more-brain-dead-mitch-mcconnell"/>
-        <updated>2026-08-07T14:15:14.000Z</updated>
-        <summary type="html"><![CDATA[further adventures in journalistic malpractice]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chelsea Gray Punished Caitlin Clark’s Mistakes]]></title>
-        <id>https://defector.com/?p=231572</id>
-        <link href="https://defector.com/chelsea-gray-punished-caitlin-clarks-mistakes"/>
-        <updated>2026-08-07T14:11:49.000Z</updated>
-        <summary type="html"><![CDATA[It is a funny twist of fate that the Indiana Fever have become such an engine for maddening WNBA storylines that have little or nothing to do with their actual on-court performances, because those performances are crazy-making enough on their own. Are the Fever a great team capable of melting any opponent in front of them, or a bunch of chumps who can't defend the paint to save their lives? Is Caitlin Clark one of the most dynamic guards in the league, or a bozo who can't stop turning it over and coming up short in big moments? Will this team ever be normal? These are the questions that have defined the Fever's season, and on Thursday night the usual set of answers presented themselves: Yes, yes, yes, yes, and no.
-The Fever lost to the Aces, 86-84, in an overtime thriller that presented the best and worst versions of both teams. For most of the first half, it looked like the Fever were on their way to recreating the 109-75 beatdown they handed the Aces back on July 12, which preceded a 13-point loss to the Valkyries that was followed by a five-game winning streak in which the Fever scored at least 100 points in every game. The whiplash carried over into Thursday's game, which started with the Fever running out to a 42-22 lead with four minutes left to play in the first half. A'ja Wilson was having trouble getting to her spots, the Fever were playing fast, and Kelsey Mitchell and Aliyah Boston couldn't miss. And then Indiana fell into bozo mode.
-Over the final four minutes of the half, Clark, Mitchell, and Boston combined to go 0-5 from the field while Clark turned the ball over three times. This helped the Aces finish the half on a 15-0 run, and by the time both teams headed to their locker rooms Vegas was only down by five. The Aces continued to put the squeeze on in the third quarter, outscoring the Fever 19-9; with 6:16 left to play in the fourth, they had build a nine-point lead.]]></summary>
-        <author>
-            <name>Tom Ley</name>
         </author>
     </entry>
 </feed>

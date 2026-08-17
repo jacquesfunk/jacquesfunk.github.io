@@ -190,6 +190,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://taonaw.com/2026/08/16/rsi-and-emacs-when-your.html",
+          "author": null,
+          "description": "I’ve been doing so much Emacs writing lately, so I guess it’s time I get my Emacs pinky (which is a form of RSI). I made a quick reference to it three days ago and got a lot of responses.\nWhat happened?\nI started to feel a strain last week, but at first I didn’t think much about it. Sometimes my pinky rests awkwardly on the keyboard because I’m used to using the Caps Lock key, but it’s usually a hand-position issue. After I readjust and let my pinky rest, it goes away.\nThis time the strain didn’t go away, and my pinky kept rebelling.\nMy keyboard, Kinesis Freestyle Edge (the one here is the RGB+, the original RGB is discontinued), has a prominent Caps Lock key that just screams “use me as control!” For years, that’s what I did. As you can see in the picture, with my pinky resting on it.\nThe…",
+          "link": "https://taonaw.com/2026/08/16/rsi-and-emacs-when-your.html",
+          "publishedOn": "2026-08-17T01:54:19.000Z",
+          "wordCount": 1981,
+          "title": "TAONAW - Emacs and Org Mode: RSI and Emacs: When Your Pinky Says Enough is Enough",
+          "imageUrl": "https://cdn.uploads.micro.blog/96826/2026/88063302f0.jpg"
+        },
+        {
+          "id": "http://corwin.bru.st/2026-08-16-emacs-card-games-on-melpa/",
+          "author": null,
+          "description": "card-games.el 1.0.92 (pre-release #2, MELPA) is available from package-install for users of MELPA.  Release announcement after the cut..\n\n\nGrown from experimentation within Dungeon, thank you to contribs there, and for review comments from ricsy putting toward MELPA got rid of some advices forcing very interesting better ways. The hooks approach makes the registered card-games-bid-submit a generic semaphore, for example to interlink with a process, CRDT via an adaptor, or … in present v1.0.92 (unstable): https://melpa.org/#/card-games",
+          "link": "http://corwin.bru.st/2026-08-16-emacs-card-games-on-melpa/",
+          "publishedOn": "2026-08-16T23:09:44.000Z",
+          "wordCount": 465,
+          "title": "Corwin Brust: Emacs Card Games on MELPA",
+          "imageUrl": null
+        },
+        {
           "id": "https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-3.html",
           "author": null,
           "description": "part 2 I described how, for a particular project with certain\nnaming conventions, I wanted to use emacs tree-sitter font-locking to\nhighlight variables that might be used in the wrong context:\n\n\n\n  \n\n\n\nI found a way to make it work for simple expressions but it was relying on\nregular expression matching rather than tree-sitter parse trees. I set a\ngoal of handling these types of expressions:\n\n\n\nelevation_t[t]           // good\nelevation_t[r]           // bug\nelevation_t[t_from_r[r]] // good\nelevation_t[r_from_t[t]] // bug\nelevation_t[obj.t]       // good\nelevation_t[obj.r]       // bug\nelevation_t[t_from_r(r)] // good\nelevation_t[r_from_t(t)] // bug\nelevation_t[x.t_fn(x)]   // good\nelevation_t[x.r_fn(x)]   // bug\nelevation_t[x.t_arr[i]]  // good\nelevation_t[x.r_arr[i]]  // bug\nelevation_t[…",
@@ -587,16 +607,6 @@
           "publishedOn": "2026-08-08T14:46:47.000Z",
           "wordCount": 1454,
           "title": "Irreal: A Customized Agenda View",
-          "imageUrl": null
-        },
-        {
-          "id": "https://irreal.org/blog/?p=13996",
-          "author": null,
-          "description": "the Emacs speedbar and its Emacs 31 upgrade. The TL;DR is that as of Emacs 31, you can configure the speedbar to be displayed in a separate window instead of a separate frame. The video is 15 minutes, 39 seconds so it should be easy to find time for it.\n\n\nThe placement of the speedbar matters a lot to Prot. He found the speedbar to be unusable when it was displayed in a separate frame because it was difficult to deal with the two related frames. It’s absolutely impossible for me to deal with because I run Emacs as a full screen app so the speedbar is in another workspace and I have to switch to that workspace to see it.\n\n\nNow that the speedbar can be displayed in the same frame, Prot finds that it can be useful when dealing with large projects with many files. His video is mostly concerned with showing how the speedbar works and what you can do with it.\n\n\nLots of people love speedbar-like applications and swear by them. I, however, have never been able to warm up to them. These days, I don’t work with large projects and perhaps I’d feel differently if I did but mostly they just seem like noise to me. Even Prot says he doesn’t use speedbar for his smaller personal projects but that it can be useful for larger, multi-file projects.\n\n\nMy recommendation is that if you don’t already strong opinions on the matter, give the speedbar a try when Emacs 31 comes out and see if it works for you. There are plenty of informed opinions on both sides of the issue so there’s no right answer, just what works for you. As always, Emacs will let you have it your way.",
-          "link": "https://irreal.org/blog/?p=13996",
-          "publishedOn": "2026-08-07T14:27:46.000Z",
-          "wordCount": 1549,
-          "title": "Irreal: Emacs 31 And The Speedbar",
           "imageUrl": null
         }
       ]
@@ -1155,16 +1165,6 @@
           "wordCount": 9648,
           "title": "CarJitsu Is Precisely As Dumb As It Sounds",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/Car-Jiitsu.png"
-        },
-        {
-          "id": "https://defector.com/?p=231572",
-          "author": "Tom Ley",
-          "description": "It is a funny twist of fate that the Indiana Fever have become such an engine for maddening WNBA storylines that have little or nothing to do with their actual on-court performances, because those performances are crazy-making enough on their own. Are the Fever a great team capable of melting any opponent in front of them, or a bunch of chumps who can't defend the paint to save their lives? Is Caitlin Clark one of the most dynamic guards in the league, or a bozo who can't stop turning it over and coming up short in big moments? Will this team ever be normal? These are the questions that have defined the Fever's season, and on Thursday night the usual set of answers presented themselves: Yes, yes, yes, yes, and no.\nThe Fever lost to the Aces, 86-84, in an overtime thriller that presented the best and worst versions of both teams. For most of the first half, it looked like the Fever were on their way to recreating the 109-75 beatdown they handed the Aces back on July 12, which preceded a 13-point loss to the Valkyries that was followed by a five-game winning streak in which the Fever scored at least 100 points in every game. The whiplash carried over into Thursday's game, which started with the Fever running out to a 42-22 lead with four minutes left to play in the first half. A'ja Wilson was having trouble getting to her spots, the Fever were playing fast, and Kelsey Mitchell and Aliyah Boston couldn't miss. And then Indiana fell into bozo mode.\nOver the final four minutes of the half, Clark, Mitchell, and Boston combined to go 0-5 from the field while Clark turned the ball over three times. This helped the Aces finish the half on a 15-0 run, and by the time both teams headed to their locker rooms Vegas was only down by five. The Aces continued to put the squeeze on in the third quarter, outscoring the Fever 19-9; with 6:16 left to play in the fourth, they had build a nine-point lead.",
-          "link": "https://defector.com/chelsea-gray-punished-caitlin-clarks-mistakes",
-          "publishedOn": "2026-08-07T14:11:49.000Z",
-          "wordCount": 6087,
-          "title": "Chelsea Gray Punished Caitlin Clark’s Mistakes",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2289398105.jpg"
         }
       ]
     },
@@ -1217,6 +1217,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3032",
+          "author": "Schill",
+          "description": "",
+          "link": "https://stuffthatinterestsme.net/monday-meme-dump-4/",
+          "publishedOn": "2026-08-17T01:50:28.000Z",
+          "wordCount": 1241,
+          "title": "Monday Meme Dump",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=2958",
           "author": "Schill",
@@ -2803,22 +2813,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/6bf48633-2167-425f-b213-131162fcfffa_380x204.gif"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/whos-more-brain-dead-mitch-mcconnell",
-          "author": "Jeff Tiedrich",
-          "description": "further adventures in journalistic malpractice",
-          "link": "https://www.jefftiedrich.com/p/whos-more-brain-dead-mitch-mcconnell",
-          "publishedOn": "2026-08-07T14:15:14.000Z",
-          "wordCount": null,
-          "title": "who’s more brain-dead, Mitch McConnell or the press covering him?",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!fJxD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9db96c5c-3806-4e4c-b8a7-47809b8e73b5_1245x700.webp",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!fJxD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9db96c5c-3806-4e4c-b8a7-47809b8e73b5_1245x700.webp"
         }
       ]
     }
