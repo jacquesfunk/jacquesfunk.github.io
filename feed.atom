@@ -2,10 +2,95 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-18T16:29:01.606Z</updated>
+    <updated>2026-08-18T18:35:16.636Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Trump's decline is leading to disaster – for all of usRex Huppke]]></title>
+        <id>https://www.usatoday.com/story/opinion/columnist/2026/08/17/trump-oman-iran-war-strait-hormuz/91340715007/-full</id>
+        <link href="https://www.usatoday.com/story/opinion/columnist/2026/08/17/trump-oman-iran-war-strait-hormuz/91340715007/"/>
+        <updated>2026-08-18T18:35:16.601Z</updated>
+        <summary type="html"><![CDATA[I’m no military strategist, but it seems unwise that our flailing, 80-year-old president is threatening to “bomb the s---” out of our Middle Eastern ally Oman while America is failing to end its ongoing and wholly unnecessary war with Iran.
+That’s a mouthful, but it accurately captures where we’re at in a war of President Donald Trump’s making. You know, the one that’s causing us to pay more than $4 a gallon for gas. The one Trump keeps finding new ways to make dumber.
+The Aug. 17 stupidity augmentation came via a Fox News correspondent who spoke with Trump. The president said that if Oman gets in the way of his attempts to end the war, “we'll bomb the s--- out of them.”
+There are a couple problems with that.
+Maybe Trump shouldn't threaten to bomb a US ally?
+
+First, Trump’s attempts to end…]]></summary>
+        <author>
+            <name>Rex Huppke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Freaky Little Plant Pollinated By Freaky Little Freaks]]></title>
+        <id>https://defector.com/?p=232691</id>
+        <link href="https://defector.com/freaky-little-plant-pollinated-by-freaky-little-freaks"/>
+        <updated>2026-08-18T18:28:04.000Z</updated>
+        <summary type="html"><![CDATA[In Okinawa's coastal forests, brown puffballs protrude from roots of trees like unwanted warts. Although they might appear to be mushrooms, the balls are plants. To be more specific, they are fruits. To be even more specific, they are clusters of up to a million fruits that each encase a tiny seed, fruits made larger and more dazzling by their proximity to each other, fruits designed like pavé diamonds. 
+But Balanophora fungosa, also known as fungus root, is not strange because it looks like a mushroom, or even because it has an unreasonable number of fruits. It is strange because it has no chlorophyll with which to photosynthesize, and it has no roots with which to drink water. Instead, the fungus root survives by parasitism, entrenching itself on the roots of trees. In other words, it's a freaky little plant. Petra Svetlikova, a plant researcher at the Okinawa Institute of Science and Technology, said as much in a statement: "It’s a fascinating example of how something so strange can evolve from an ancestor that looked like a normal plant with leaves and a normal root system."
+The plant in question.]]></summary>
+        <author>
+            <name>Sabrina Imbler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Your Team Sucks 2026: Carolina Panthers]]></title>
+        <id>https://defector.com/?p=232686</id>
+        <link href="https://defector.com/why-your-team-sucks-2026-carolina-panthers"/>
+        <updated>2026-08-18T18:00:36.000Z</updated>
+        <summary type="html"><![CDATA[Some people are fans of the Carolina Panthers. But many, many more people are NOT fans of the Carolina Panthers. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.
+Your Team: Carolina Panthers
+Your 2025 record: 8-9, but not just any old 8-9. This the best 8-9 in the whole NFC South, making the Panthers division champs despite having a losing record—the bad smell that comes with its own deodorizer. Only five teams have ever achieved such a feat, and the Panthers are two of them. They also had the third-worst point difference of any division winner ever (minus-69), so the only luck they could claim as their own was their location.]]></summary>
+        <author>
+            <name>Ray Ratto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[They Put A Data Center In Rack City, With Ock Sportello]]></title>
+        <id>https://defector.com/?p=232717</id>
+        <link href="https://defector.com/they-put-a-data-center-in-rack-city-with-ock-sportello"/>
+        <updated>2026-08-18T16:55:11.000Z</updated>
+        <summary type="html"><![CDATA[This week's episode of Nothing But Respect was a really fun one. We set out to make a Broke Jumper Tip Line–focused episode, but only got to the BJTL about 50 minutes in because we had too much other good stuff to talk about with frequent guest Ock Sportello.
+As to that other stuff: We chatted about the Brooklyn Nets fan's experience of the Knicks title run, spent a lot of time talking about the scourge of AI rap music (read Ock's excellent review of the new Tyga album and Iz's story on Fenix Flexin), and played a game involving the new Pat McAfee album. As for the BJTL: We talked about the hoops acumen of Barack Obama and Chris Hayes (who I'm just realizing now I misidentified as Chris Haynes), and reveal a funny tip about Draymond Green's email behavior.]]></summary>
+        <author>
+            <name>Patrick Redford</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Charles Choi: Simplifying Setup for Casual]]></title>
+        <id>http://yummymelon.com/devnull/simplifying-setup-for-casual.html</id>
+        <link href="http://yummymelon.com/devnull/simplifying-setup-for-casual.html"/>
+        <updated>2026-08-18T16:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Since its inception, Casual required individual setup for each module it supported. This seemed fine at the start when the module count was low. Now weighing in at 26 modules, there is admittedly a lot of setup.
+Not anymore. Starting with the latest Casual v3.0 update, there is now a convenience command to setup all Casual modules: casual-init.
+Use the following Elisp to replace all the previous setup code:
+
+
+1
+2
+
+(require 'casual)
+(casual-init)
+
+
+
+
+
+You can configure which modules to setup via the customizable hook variable casual-init-hook, a list of hook functions each associated with a module. Having a module hook function present in casual-init-hook tells casual-init to setup that module.
+Editing casual-init-hook is straightforward using the customize checkbox interface shown below.
+
+More information about installation and setup of Casual can be found in the Casual User Guide.
+Bumping to 3.0
+Because the recommended setup has significantly changed, I’ve decided to bump the major version to 3.0.
+That said, there are no functional changes to Casual and all the prior individual setup still should work without change. For existing users of Casual, I highly recommend migrating to casual-init as it allows for removing individual setup code.
+A significant amount of manual testing was required to verify lazy-loading behavior in casual-init. While best effort was made to avoid unpleasant surprise, if something shows up, please file an issue to let me know.
+Casual v3.0 update is now available on MELPA and NonGNU ELPA.
+It costs money to make, enhance, and maintain Casual as ideologically free software. If you enjoy using Casual, please consider buying me a coffee to help support its development and maintenance. Thank you!]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What Is The Greatest TV House Of All Time?]]></title>
         <id>https://defector.com/?p=232625</id>
@@ -3710,56 +3795,6 @@ Let’s put this nonsensical rhetoric to bed right now. Republicans have spent t
         <summary type="html"><![CDATA[I put a question to my SFGATE colleagues just the other day that had them mulling for a bit: What’s the last great movie that Steven Spielberg directed? I’m not talking about a merely good film. The old man can put together a competent picture anytime he likes. I’m talking about an all-timer of a Spielberg movie, something that belongs up there with his best work, which includes “Jaws,” “Raiders of the Lost Ark,” “E.T.,” “Schindler’s List” and … you get the idea. When you’re a director who’s made not just one of the greatest movies of all time but several of them, audience members like me hope for (and oftentimes expect) greatness from you with every subsequent project. Such is the standard that Spielberg, father of the modern blockbuster, set for himself. It’s also a standard that, in my …]]></summary>
         <author>
             <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sandy]]></title>
-        <id>https://foxtrot.com/?p=6210</id>
-        <link href="https://foxtrot.com/2026/08/09/sandy/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sandy"/>
-        <updated>2026-08-09T05:01:00.000Z</updated>
-        <summary type="html"><![CDATA[FoxTrot by Bill Amend | August 9, 2026]]></summary>
-        <author>
-            <name>Bill Amend</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump's poll numbers are hilariously badRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/07/30/trump-approval-rating-polling-record-low/91096762007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/07/30/trump-approval-rating-polling-record-low/91096762007/"/>
-        <updated>2026-08-09T03:40:32.979Z</updated>
-        <summary type="html"><![CDATA[It seems Donald Trump would make a better plumber than a president – his poll numbers are so far down the toilet they’re touching porcelain.
-In a wave of new polling showing the width and breadth of Trump’s unpopularity, a Quinnipiac University national poll released July 29 found Trump with a 32% approval rating, an all-time low from that particular pollster.
-Earlier that same day, CNN reported on a new CNN/SSRS poll, noting: “Trump’s overall approval rating, 34%, matches the career low he last saw at the close of his first term, following the January 6, 2021, insurrection.”
-Do you know how bad things have to be for you to hit an “as bad as that time I fomented an insurrection” level of disapproval? Trump didn’t even need to coax his followers into ransacking the U.S. Capitol this time ar…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I'm so mad that a fictional movie is historically inaccurateRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/07/28/the-odyssey-movie-box-office-accuracy/91077633007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/07/28/the-odyssey-movie-box-office-accuracy/91077633007/"/>
-        <updated>2026-08-08T16:30:28.790Z</updated>
-        <summary type="html"><![CDATA[Like most normal, well-adjusted men, I have spent every waking moment since Christopher Nolan’s “The Odyssey” opened in theaters feeling apoplectically angry about Christopher Nolan’s “The Odyssey.”
-I have rage-posted online, noting that by casting people who are different than me, the director ruined a beloved epic poem I never actually read. I have blamed wokeness for creating a world in which an ancient work of absolute fiction can be sullied by what I, making perfect sense, angrily claim to be historical inaccuracies. 
-Yet despite all my productive and intellectual online shouting, the movie has made $652 million worldwide since its July 17 release. And even more frustratingly, I’m still single.
-I'm mad that a fictional movie is historically inaccurate
-
-I struggle to understand these d…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[No munitions? No prob! Let's lob Reflecting Pool liner at Iran instead.Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/08/07/iran-missiles-trump-munitions-shortage/91199404007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/08/07/iran-missiles-trump-munitions-shortage/91199404007/"/>
-        <updated>2026-08-07T16:52:05.258Z</updated>
-        <summary type="html"><![CDATA[As America continues its on-again/off-again/on-again war with Iran – the one that has cost close to $40 billion and seems to be accomplishing nothing – there are widespread reports we’re running low on missiles and other things that go boom.
-Multiple sources told CNN: “The US military has exhausted nearly 80% of its interceptors for a key missile defense system as senior US military commanders are warning that the Pentagon’s munitions stockpile is ‘dangerously low.’ ”
-The New York Times reported that “the war against Iran drained the Pentagon’s arsenal. The United States burned through around 1,100 long-range stealth cruise missiles built for a war with China, close to the total number remaining in the U.S. stockpile. The military has fired more than 1,000 Tomahawk cruise missiles, roughly…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
         </author>
     </entry>
 </feed>
