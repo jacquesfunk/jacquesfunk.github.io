@@ -200,6 +200,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=14021",
+          "author": null,
+          "description": "announce the release of Emacs 31.1 RC1. This is the final step before the formal release of the Emacs 31 series. Whitton remarks that the developers are hoping that RC1 will be the only release candidate. I take that as a measure of their confidence in this trial release. Unless any breaking problems pop up, we can expect the official release of 31.1 imminently.\n\n\nAs always, we should offer up a word of thanks for the hard work of the maintainers and all the developers who have toiled so hard to bring us this latest release. If we find ourselves in the same bar as one of them, the drinks are on us.",
+          "link": "https://irreal.org/blog/?p=14021",
+          "publishedOn": "2026-08-18T15:05:43.000Z",
+          "wordCount": 1355,
+          "title": "Irreal: Emacs 31.1 RC1",
+          "imageUrl": null
+        },
+        {
           "id": "https://randyridenour.net/posts/2026-08-17-html-preview-for-org-files.html",
           "author": null,
           "description": "Marked for easily reading Markdown files. Over the years, he’s added more and more features. He’s recently released Marked 3 which, if you need those features, is well worth the purchase price of $2.99/month subscription or a one-time purchase of $69.99. There are only two small things keeping me from upgrading:\n\n\n\nI don’t need any of those features — in fact, since everything I write begins as an Org mode file, I don’t really need a Markdown previewer.\nI teach philosophy at a small liberal arts college in a rapidly collapsing market.\n(defun rlr/org-export-html-to-browser ()\n  \"Export the current Org buffer to a temporary HTML file in the system temp directory, open it, and then delete it when Emacs is killed.\"\n  (interactive)\n  (unless (derived-mode-p 'org-mode)\n    (user-error \"Not in an…",
@@ -318,6 +328,16 @@
           "wordCount": 1198,
           "title": "Andros Fenollosa: Elpher: my tweaks for better Gemini browsing in Emacs",
           "imageUrl": "https://img.andros.dev/hwJiIbPn09hEHn5kr1EV5PhGols=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_e3f6bada.png"
+        },
+        {
+          "id": "https://mike.hostetlerhome.com/no-graph-needed.html",
+          "author": null,
+          "description": "This month's Emacs Carnival theme is The Search For Knowledge, which is kinda something near and dear to my heart. I wrote an Obsidian to Emacs post from a little over a year ago and one of the things that I mentioned is that Obsidian has a Knowledge Graph that I didn't use. denote-explore does have one and I set graphing up once but I don't use it at all. I work just fine without a Knowledge Graph. Using Denote, ripgrep, and consult, things work great for me. It's smooth and not a lot of fuss.\nI literally do all my knowledge management now within Emacs in a Denote system. I dump all of my notes into one folder in org format. Denote puts a time stamp on the file name as well as the title and the tags. Searching by tag is really just a filename search. See examples from my own denote folder…",
+          "link": "https://mike.hostetlerhome.com/no-graph-needed.html",
+          "publishedOn": "2026-08-15T05:00:00.000Z",
+          "wordCount": null,
+          "title": "Mike Hostetler: No Graph Needed",
+          "imageUrl": null
         },
         {
           "id": "https://xenodium.com/agent-shell-0-73-updates",
@@ -636,6 +656,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=232625",
+          "author": "Drew Magary",
+          "description": "Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGATE, and buy Drew’s books while you’re at it. Today, we're talking about reunions, the extinction of the hard T, dinosaurs, and more.\nYour letters:\nDusty:",
+          "link": "https://defector.com/what-is-the-greatest-tv-house-of-all-time",
+          "publishedOn": "2026-08-18T16:02:52.000Z",
+          "wordCount": 14591,
+          "title": "What Is The Greatest TV House Of All Time?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2276263129.jpg"
+        },
         {
           "id": "https://defector.com/?p=232670",
           "author": "Tom Ley",
@@ -1376,16 +1406,6 @@
           "wordCount": 1241,
           "title": "Monday Meme Dump",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3348",
-          "author": "Schill",
-          "description": "Sampling is one of the things that makes hip-hop unlike almost any other major genre of popular music. A rapper",
-          "link": "https://stuffthatinterestsme.net/the-15-most-recognizable-hip-hop-samples/",
-          "publishedOn": "2026-08-09T03:58:37.000Z",
-          "wordCount": 5020,
-          "title": "The 15 Most Recognizable Hip-Hop Samples",
-          "imageUrl": null
         }
       ]
     },
@@ -2123,6 +2143,16 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73463880/jon-ossoff-speech-natalie-trump-gop-reaction/",
+          "author": null,
+          "description": "During a recent speech, the George senator made one tiny mention of Trump’s favorite White House aide, and it clearly hit close to home",
+          "link": "https://www.esquire.com/news-politics/politics/a73463880/jon-ossoff-speech-natalie-trump-gop-reaction/",
+          "publishedOn": "2026-08-18T16:01:17.000Z",
+          "wordCount": 20451,
+          "title": "The MAGA Horde Accusing Jon Ossoff of  Sexism is a Bit Too on the Nose for Me",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/aa412c68-2bf3-46b7-9f54-06271928cfe4.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73438206/military-spending-catapults-trump-obsession/",
           "author": null,
           "description": "The president’s fixation this time has something to do with catapults, and no, it’s nowhere near important.",
@@ -2426,6 +2456,16 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/fragments/2026-08-18.html",
+          "author": null,
+          "description": "Part of the reason why I’m at Thoughtworks is because I’d like to see a software development organization founded on technical excellence as an example for the rest of the industry. The trouble is that I have little aptitude or inclination for the hard work of building such an organization. So I rely on working with people who are prepared to actually put the effort in. A key partner in all of this is Rachel Laycock, who is the global CTO of Thoughtworks.\nNot just is she far better than me at running a technology organization, she’s also a keen observer and connector of ideas. I’ve been urging her to write these down, even if her busy schedule makes it difficult for her to compose them into something substantial.\nHappily she’s starting writing “Rachel’s Ramblings”\nFast, imperfect, thinking…",
+          "link": "https://martinfowler.com/fragments/2026-08-18.html",
+          "publishedOn": "2026-08-18T15:04:00.000Z",
+          "wordCount": 1872,
+          "title": "Fragments: August 18",
+          "imageUrl": "https://martinfowler.com/logo-sq.png"
+        },
+        {
           "id": "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html",
           "author": null,
           "description": "My colleagues at Thoughtworks tend to be big fans of Test-Driven\n      Development, and many people in the industry advocate telling LLM agents\n      to use TDD when building software. Birgitta Böckeler was\n      curious if this really makes a difference, so conducted a few experiments.\n      \nmore…",
@@ -2448,6 +2488,16 @@
       "feedUrl": "https://gomakethings.com/feed/index.xml",
       "siteUrl": "https://gomakethings.com/articles",
       "articles": [
+        {
+          "id": "https://gomakethings.com/articles/propaganda/",
+          "author": null,
+          "description": "The album Let’s Get Free by Dead Prez came out 26 years ago.\nAs a teen, it spoke to my angst. As a whole ass adult, its wild to look back on it and realize just how much nuance and bigger picture I missed in their lyrics.\nYesterday, their song “Propaganda” came on a random playlist I was listening to…\n  You can’t fool all the people all of the time",
+          "link": "https://gomakethings.com/articles/propaganda/",
+          "publishedOn": "2026-08-18T14:30:00.000Z",
+          "wordCount": 6102,
+          "title": "Propaganda",
+          "imageUrl": "https://gomakethings.com/img/og.png"
+        },
         {
           "id": "https://gomakethings.com/articles/rebuilding-communities/",
           "author": null,
@@ -2683,6 +2733,22 @@
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/appeals-court-blocks-trump-scheme",
+          "author": "David Kurtz",
+          "description": "INSIDE: Sigal Chattah ... Stephen Miller ... Tina Peters",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/appeals-court-blocks-trump-scheme",
+          "publishedOn": "2026-08-18T15:38:59.000Z",
+          "wordCount": null,
+          "title": "Appeals Court Blocks Trump Scheme on US Attorneys",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!pv_7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86464735-49ae-4471-8c9e-46ef9ed554f2_400x600.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!pv_7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86464735-49ae-4471-8c9e-46ef9ed554f2_400x600.jpeg"
+        },
+        {
           "id": "https://morningmemo.talkingpointsmemo.com/p/trump-doj-shamelessly-goes-after",
           "author": "David Kurtz",
           "description": "INSIDE: Tina Peters ... Todd Blanche ... Elon Musk",
@@ -2872,6 +2938,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/jon-ossoff-mentioned-diaper-nurse",
+          "author": "Jeff Tiedrich",
+          "description": "scenes from a performative meltdown",
+          "link": "https://www.jefftiedrich.com/p/jon-ossoff-mentioned-diaper-nurse",
+          "publishedOn": "2026-08-18T14:39:06.000Z",
+          "wordCount": null,
+          "title": "Jon Ossoff mentioned diaper nurse Natalie, and every Republican completely lost their shit",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!Xoqx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ae0e864-91f4-493c-9796-69ed876fa622_1456x819.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!Xoqx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ae0e864-91f4-493c-9796-69ed876fa622_1456x819.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/todd-blanche-fucking-sucks",
           "author": "Jeff Tiedrich",
