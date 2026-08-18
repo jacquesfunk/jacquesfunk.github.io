@@ -160,6 +160,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://randyridenour.net/posts/2026-08-17-html-preview-for-org-files.html",
+          "author": null,
+          "description": "Marked for easily reading Markdown files. Over the years, he’s added more and more features. He’s recently released Marked 3 which, if you need those features, is well worth the purchase price of $2.99/month subscription or a one-time purchase of $69.99. There are only two small things keeping me from upgrading:\n\n\n\nI don’t need any of those features — in fact, since everything I write begins as an Org mode file, I don’t really need a Markdown previewer.\nI teach philosophy at a small liberal arts college in a rapidly collapsing market.\n(defun rlr/org-export-html-to-browser ()\n  \"Export the current Org buffer to a temporary HTML file in the system temp directory, open it, and then delete it when Emacs is killed.\"\n  (interactive)\n  (unless (derived-mode-p 'org-mode)\n    (user-error \"Not in an…",
+          "link": "https://randyridenour.net/posts/2026-08-17-html-preview-for-org-files.html",
+          "publishedOn": "2026-08-17T23:49:00.000Z",
+          "wordCount": 610,
+          "title": "Randy Ridenour: HTML Preview for Org Files",
+          "imageUrl": null
+        },
+        {
           "id": "https://sachachua.com/blog/2026/08/2026-08-17-emacs-news/",
           "author": null,
           "description": "canvas patch has been merged upstream, very cool! I'm looking forward to seeing the kinds of experiments and tools this enables. Also, there's a release candidate for the next version of Emacs, please go try it out!\n\n\n\nEmacs 31:\n\nEmacs 31.1 RC1 is available (HN)\n\nUpcoming events (iCal file, Org):\n\nM-x Research: TBA https://m-x-research.github.io/ Wed Aug 19 0800 America/Vancouver - 1000 America/Chicago - 1100 America/Toronto - 1500 Etc/UTC - 1700 Europe/Berlin - 2030 Asia/Kolkata - 2300 Asia/Singapore\nEmacs APAC: Emacs APAC meetup (virtual) https://emacs-apac.gitlab.io/announcements/ Sat Aug 22 0130 America/Vancouver - 0330 America/Chicago - 0430 America/Toronto - 0830 Etc/UTC - 1030 Europe/Berlin - 1400 Asia/Kolkata - 1630 Asia/Singapore\nEmacs Berlin: Emacs-Berlin Hybrid Meetup https://em…",
@@ -588,16 +598,6 @@
           "wordCount": 233,
           "title": "Protesilaos: Emacs: conditionally expand abbrev-mode definitions",
           "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
-        },
-        {
-          "id": "https://irreal.org/blog/?p=13998",
-          "author": null,
-          "description": "customizing his agenda view. He’s a graduate student, apparently in the sciences, and has to keep track of his tasks and their statuses. The natural solution for us Emacsers is to use Org mode and the agenda view to track these things.\n\n\nThere’s nothing exciting about that, of course, but what makes his post interesting is that he shows how to create a custom agenda view. It’s easy to make a custom view and I have a lot of them but they’re pretty simple. Panigrahi views are more complex and he demonstrates how to specify more intricate criteria for the view.\n\n\nFor his main view, he wants to show tasks that he’s completed since his last group meeting. That means he wants to filter for tasks completed in the last 7 days that aren’t personal items. He also wants to keep tags, so he makes sure they aren’t removed.\n\n\nFinally, since he often consults this view, he has a function that calls it with a simple Ctrl+c w rather than having to go through the agenda dispatch menu.\n\n\nAs I said, you probably won’t care about his particular view but it’s instructive to see how he defined it as a jumping off place for your own views.",
-          "link": "https://irreal.org/blog/?p=13998",
-          "publishedOn": "2026-08-08T14:46:47.000Z",
-          "wordCount": 1454,
-          "title": "Irreal: A Customized Agenda View",
-          "imageUrl": null
         }
       ]
     },
@@ -2420,16 +2420,6 @@
           "wordCount": 6123,
           "title": "Anarchy and modern convenience",
           "imageUrl": "https://gomakethings.com/img/og.png"
-        },
-        {
-          "id": "https://gomakethings.com/articles/prefiguration-and-planting-seeds/",
-          "author": null,
-          "description": "Last winter, I wrote about prefiguration: building the future you want within the shell of existing structures.\nRather than focusing solely on tearing down systems you don’t like or pointing out what’s wrong with how things are, prefiguration aims to start laying the foundation for what you’d like instead… right here, right now, with the tools you have available.\nOne of the frustrating things about the approach is that while it allows you to take immediate action, it never really feels like enough.",
-          "link": "https://gomakethings.com/articles/prefiguration-and-planting-seeds/",
-          "publishedOn": "2026-08-08T14:30:00.000Z",
-          "wordCount": 6077,
-          "title": "Prefiguration and planting seeds",
-          "imageUrl": "https://gomakethings.com/img/og.png"
         }
       ]
     },
@@ -2988,22 +2978,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!7Z37!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf163c20-58bf-476d-b986-9e4aab263167_1280x720.webp"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/this-week-in-stupid-august-8-edition",
-          "author": "Jeff Tiedrich",
-          "description": "the cabinet pigs out, Dear Leader wigs out, and so much more...",
-          "link": "https://www.jefftiedrich.com/p/this-week-in-stupid-august-8-edition",
-          "publishedOn": "2026-08-08T14:21:29.000Z",
-          "wordCount": null,
-          "title": "this week in stupid: August 8 edition",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/6bf48633-2167-425f-b213-131162fcfffa_380x204.gif",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/6bf48633-2167-425f-b213-131162fcfffa_380x204.gif"
         }
       ]
     }

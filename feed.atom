@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-18T01:06:56.415Z</updated>
+    <updated>2026-08-18T02:53:50.751Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -14,6 +14,26 @@
         <summary type="html"><![CDATA[Horror movies often prey on familiar fears, transforming everyday places and trusted figures into sources of terror. Few films embraced]]></summary>
         <author>
             <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Randy Ridenour: HTML Preview for Org Files]]></title>
+        <id>https://randyridenour.net/posts/2026-08-17-html-preview-for-org-files.html</id>
+        <link href="https://randyridenour.net/posts/2026-08-17-html-preview-for-org-files.html"/>
+        <updated>2026-08-17T23:49:00.000Z</updated>
+        <summary type="html"><![CDATA[Marked for easily reading Markdown files. Over the years, he’s added more and more features. He’s recently released Marked 3 which, if you need those features, is well worth the purchase price of $2.99/month subscription or a one-time purchase of $69.99. There are only two small things keeping me from upgrading:
+
+
+
+I don’t need any of those features — in fact, since everything I write begins as an Org mode file, I don’t really need a Markdown previewer.
+I teach philosophy at a small liberal arts college in a rapidly collapsing market.
+(defun rlr/org-export-html-to-browser ()
+  "Export the current Org buffer to a temporary HTML file in the system temp directory, open it, and then delete it when Emacs is killed."
+  (interactive)
+  (unless (derived-mode-p 'org-mode)
+    (user-error "Not in an…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -3625,50 +3645,6 @@ I'm mad that a fictional movie is historically inaccurate
 I struggle to understand these d…]]></summary>
         <author>
             <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: A Customized Agenda View]]></title>
-        <id>https://irreal.org/blog/?p=13998</id>
-        <link href="https://irreal.org/blog/?p=13998"/>
-        <updated>2026-08-08T14:46:47.000Z</updated>
-        <summary type="html"><![CDATA[customizing his agenda view. He’s a graduate student, apparently in the sciences, and has to keep track of his tasks and their statuses. The natural solution for us Emacsers is to use Org mode and the agenda view to track these things.
-
-
-There’s nothing exciting about that, of course, but what makes his post interesting is that he shows how to create a custom agenda view. It’s easy to make a custom view and I have a lot of them but they’re pretty simple. Panigrahi views are more complex and he demonstrates how to specify more intricate criteria for the view.
-
-
-For his main view, he wants to show tasks that he’s completed since his last group meeting. That means he wants to filter for tasks completed in the last 7 days that aren’t personal items. He also wants to keep tags, so he makes sure they aren’t removed.
-
-
-Finally, since he often consults this view, he has a function that calls it with a simple Ctrl+c w rather than having to go through the agenda dispatch menu.
-
-
-As I said, you probably won’t care about his particular view but it’s instructive to see how he defined it as a jumping off place for your own views.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Prefiguration and planting seeds]]></title>
-        <id>https://gomakethings.com/articles/prefiguration-and-planting-seeds/</id>
-        <link href="https://gomakethings.com/articles/prefiguration-and-planting-seeds/"/>
-        <updated>2026-08-08T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Last winter, I wrote about prefiguration: building the future you want within the shell of existing structures.
-Rather than focusing solely on tearing down systems you don’t like or pointing out what’s wrong with how things are, prefiguration aims to start laying the foundation for what you’d like instead… right here, right now, with the tools you have available.
-One of the frustrating things about the approach is that while it allows you to take immediate action, it never really feels like enough.]]></summary>
-        <author>
-            <name>Go Make Things</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[this week in stupid: August 8 edition]]></title>
-        <id>https://www.jefftiedrich.com/p/this-week-in-stupid-august-8-edition</id>
-        <link href="https://www.jefftiedrich.com/p/this-week-in-stupid-august-8-edition"/>
-        <updated>2026-08-08T14:21:29.000Z</updated>
-        <summary type="html"><![CDATA[the cabinet pigs out, Dear Leader wigs out, and so much more...]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
         </author>
     </entry>
     <entry>
