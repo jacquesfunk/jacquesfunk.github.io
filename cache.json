@@ -23,6 +23,46 @@
       "siteUrl": "https://baty.net/index.xml",
       "articles": [
         {
+          "id": "https://baty.net/posts/2026/08/lawns-are-stupid/",
+          "author": null,
+          "description": "Lawns Are an Ecological Disaster\nAmericans devote 70 hours, annually, to pushing petrol-powered spinning death blades over aggressively pointless green carpets to meet an embarrassingly destructive beauty standard based on specious homogeneity. We marvel at how verdant we manage to make our overwatered, chemical-soaked, ecologically-sterile backyards.\nI hate having a lawn. I hate the waste. And I hate that I live where an HOA demands that I fall in line.\nSee also:\n\n✍️ Reply by email",
+          "link": "https://baty.net/posts/2026/08/lawns-are-stupid/",
+          "publishedOn": "2026-08-17T13:12:47.000Z",
+          "wordCount": 141,
+          "title": "Lawns are stupid",
+          "imageUrl": "https://baty.net/img/opengraph.jpg"
+        },
+        {
+          "id": "https://baty.net/notes/2026/08/alice-cooper-on-rock-and-politics/",
+          "author": null,
+          "description": "Alice Cooper (2004):\n“If you’re listening to a rock star in order to get your information on who to vote for, you’re a bigger moron than they are. Why are we rock stars? Because we’re morons. We sleep all day, we play music at night and very rarely do we sit around reading the Washington Journal.”\n✍️ Reply by email",
+          "link": "https://baty.net/notes/2026/08/alice-cooper-on-rock-and-politics/",
+          "publishedOn": "2026-08-17T12:31:24.000Z",
+          "wordCount": 131,
+          "title": "Alice Cooper on rock and politics",
+          "imageUrl": "https://baty.net/img/opengraph.jpg"
+        },
+        {
+          "id": "https://baty.net/journal/17Aug26/",
+          "author": null,
+          "description": "I've been chatty on Mastodon the past few days. What gives? It's probably so I don't have to start any of the important projects on my plate.\n\"Linux is better for doing things to a computer than it is for doing things with a computer.\"\n-- Me (2019)\n✍️ Reply by email",
+          "link": "https://baty.net/journal/17Aug26/",
+          "publishedOn": "2026-08-17T11:29:38.000Z",
+          "wordCount": 116,
+          "title": "Monday, August 17, 2026",
+          "imageUrl": "https://baty.net/img/2026/20260817-brain-in-hand.webp"
+        },
+        {
+          "id": "https://baty.net/journal/16Aug26/",
+          "author": null,
+          "description": "STATUS: Reconfiguring my backups\nTODO: Finish reconfiguring my backups\nWATCHING: Finished \"Gone\". It was meh.\nLISTENING: Rush \"Hemispheres\"\nI love Emacs. Even when I hate it. Just saying.\nA week ago I started a new habit: Every day I give away, sell, recycle, or trash at least one thing. It doesn't matter how big, how small, or how many, as long as it's /something/.\nFocusing on the \"every day\" part rather than the \"how much\" part has made all the difference. It's been great.\n✍️ Reply by email",
+          "link": "https://baty.net/journal/16Aug26/",
+          "publishedOn": "2026-08-16T12:28:10.000Z",
+          "wordCount": 152,
+          "title": "Sunday, August 16, 2026",
+          "imageUrl": "https://baty.net/img/opengraph.jpg"
+        },
+        {
           "id": "https://baty.net/posts/2026/08/reconfiguring-my-backups/",
           "author": null,
           "description": "I've been sort of half-assing my Linux backups for a while now. I finally decided to fix them.\nMy backups were a combination of rsync to a Hetzner Storage Box and Pika backups to an external drive. Each setup did different things, and there was no documentation. Testing the backups was a random and incomplete process that was too much work so I never did it. Rsync is easy and fast, but using the --delete option means that if I accidentally delete something and the backup runs, it's gone. Basically, my backup \"system\" was riddled with gaps and potential problems. Rather than tweak that, I borrowed ideas from My backup strategy 2026, by Michael Harley and started over.\nLike Mike, I went with Borg for backups and borgmatic for managing them.\nborgmatic was new to me, so I decided to have Claud…",
@@ -1355,16 +1395,6 @@
           "publishedOn": "2026-08-09T01:11:31.000Z",
           "wordCount": 2773,
           "title": "Sunday Weird History Lesson: The Dancing Plague of 1518",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=2937",
-          "author": "Schill",
-          "description": "Phil Collins – “Sussudio”: The Infectious 1985 Hit That Became One of the Decade’s Biggest Pop Singles Few songs",
-          "link": "https://stuffthatinterestsme.net/saturday-night-80s-jam-phil-collins-sussudio/",
-          "publishedOn": "2026-08-08T20:43:31.000Z",
-          "wordCount": 2674,
-          "title": "Saturday Night 80s Jam:  Phil Collins – Sussudio",
           "imageUrl": null
         }
       ]
