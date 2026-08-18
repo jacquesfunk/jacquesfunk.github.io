@@ -151,16 +151,6 @@
           "wordCount": 186,
           "title": "Sunday, August 9, 2026",
           "imageUrl": "https://baty.net/img/opengraph.jpg"
-        },
-        {
-          "id": "https://baty.net/notes/2026/08/a-diminishing-portfolio/",
-          "author": null,
-          "description": "You said it, Jim.\n✍️ Reply by email",
-          "link": "https://baty.net/notes/2026/08/a-diminishing-portfolio/",
-          "publishedOn": "2026-08-08T11:15:10.000Z",
-          "wordCount": 73,
-          "title": "A diminishing portfolio",
-          "imageUrl": "https://baty.net/img/opengraph.jpg"
         }
       ]
     },
@@ -169,6 +159,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://sachachua.com/blog/2026/08/2026-08-17-emacs-news/",
+          "author": null,
+          "description": "canvas patch has been merged upstream, very cool! I'm looking forward to seeing the kinds of experiments and tools this enables. Also, there's a release candidate for the next version of Emacs, please go try it out!\n\n\n\nEmacs 31:\n\nEmacs 31.1 RC1 is available (HN)\n\nUpcoming events (iCal file, Org):\n\nM-x Research: TBA https://m-x-research.github.io/ Wed Aug 19 0800 America/Vancouver - 1000 America/Chicago - 1100 America/Toronto - 1500 Etc/UTC - 1700 Europe/Berlin - 2030 Asia/Kolkata - 2300 Asia/Singapore\nEmacs APAC: Emacs APAC meetup (virtual) https://emacs-apac.gitlab.io/announcements/ Sat Aug 22 0130 America/Vancouver - 0330 America/Chicago - 0430 America/Toronto - 0830 Etc/UTC - 1030 Europe/Berlin - 1400 Asia/Kolkata - 1630 Asia/Singapore\nEmacs Berlin: Emacs-Berlin Hybrid Meetup https://em…",
+          "link": "https://sachachua.com/blog/2026/08/2026-08-17-emacs-news/",
+          "publishedOn": "2026-08-17T20:41:53.000Z",
+          "wordCount": 955,
+          "title": "Sacha Chua: 2026-08-17 Emacs news",
+          "imageUrl": null
+        },
         {
           "id": "https://mbork.pl/2026-08-17_A_text_expander_for_Android",
           "author": null,
@@ -1208,6 +1208,16 @@
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
         {
+          "id": "https://stuffthatinterestsme.net/?p=2914",
+          "author": "Schill",
+          "description": "Horror movies often prey on familiar fears, transforming everyday places and trusted figures into sources of terror. Few films embraced",
+          "link": "https://stuffthatinterestsme.net/troma-tuesday-maniac-cop/",
+          "publishedOn": "2026-08-18T00:02:58.000Z",
+          "wordCount": 2919,
+          "title": "Troma Tuesday: Maniac Cop",
+          "imageUrl": null
+        },
+        {
           "id": "https://stuffthatinterestsme.net/?p=3032",
           "author": "Schill",
           "description": "",
@@ -2187,24 +2197,7 @@
       "title": "Grave Injustice",
       "feedUrl": "https://www.graveinjustice.news/feed",
       "siteUrl": "https://www.graveinjustice.news",
-      "articles": [
-        {
-          "id": "https://www.graveinjustice.news/p/todd-blanche-is-not-done-weaponizing",
-          "author": "Lisa Graves",
-          "description": "Cornyn Says They Can’t “Rein In the President,” So You Are Going to Have to This November",
-          "link": "https://www.graveinjustice.news/p/todd-blanche-is-not-done-weaponizing",
-          "publishedOn": "2026-08-08T12:45:19.000Z",
-          "wordCount": null,
-          "title": "Todd Blanche Is Not Done Weaponizing DOJ for Donald Trump",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!WHmu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65a93e2e-549d-4866-bbbd-69b72e4e682d_3800x2534.avif",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!WHmu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65a93e2e-549d-4866-bbbd-69b72e4e682d_3800x2534.avif"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "History Of Music",
