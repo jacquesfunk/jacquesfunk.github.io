@@ -628,16 +628,6 @@
           "wordCount": 220,
           "title": "Donovan R.: 🚀 Vakana.mg mobile app is now available",
           "imageUrl": "https://donovan-ratefison.mg/2026/08/09/Vakana-mg-mobile-app-is-now-available/wordmark.png"
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-08-09-emacs-expand-abbrev-mode-definitions-conditionally/",
-          "author": null,
-          "description": "Raw link: https://www.youtube.com/watch?v=QzhU6fklc4o\nIn this ~15-minute video I show how to add conditions to abbrev-mode\nabbreviations that you define. The idea is to have those abbrevs\nexpand only in certain cases. I use three examples, which I think\ncover the common needs.\nCode samples\n\n(defun my-french-p ()\n  \"Return non-nil if `current-input-method' is French.\"\n  (and current-input-method\n       (string-match-p \"french\" current-input-method)))\n\n(define-abbrev global-abbrev-table \"welcome\" \"je t'en prie\" nil :enable-function #'my-french-p)\n\n\n(defvar my-notes-directory (expand-file-name \"~/.emacs.d/abbrev-test/\")\n  \"Directory where my notes are.\")\n\n(defun my-notes-directory-p ()\n  \"Return non-nil if we are in `my-notes-directory' or its subdirectories.\"\n  (let ((current-directory (expand-file-name default-directory)))\n    (string-prefix-p my-notes-directory current-directory)))\n\n(define-abbrev global-abbrev-table \"prot\" \"p’rǒt\" nil :enable-function #'my-notes-directory-p)\n\n\n(defun my-notes-keycast-mode-p ()\n  \"Return non-nil if `keycast-mode-line-mode' is enabled.\"\n  (bound-and-true-p keycast-mode-line-mode))\n\n(define-abbrev global-abbrev-table \"prot\" \"Protesilaos, also known as Prot\" nil :enable-function #'my-notes-keycast-mode-p)",
-          "link": "https://protesilaos.com/codelog/2026-08-09-emacs-expand-abbrev-mode-definitions-conditionally/",
-          "publishedOn": "2026-08-09T00:00:00.000Z",
-          "wordCount": 233,
-          "title": "Protesilaos: Emacs: conditionally expand abbrev-mode definitions",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         }
       ]
     },
@@ -1403,7 +1393,18 @@
       "title": "Time Is Illmatic",
       "feedUrl": "https://timeisillmatic.me/feed/",
       "siteUrl": "https://timeisillmatic.me",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://timeisillmatic.me/?p=13367",
+          "author": "deedub77",
+          "description": "Finally, we’ve made it through 1997! This is my final ’97 album review, but I plan on posting the best and worst of the year in the next few weeks. I hope you enjoy the read, and thanks for time … Continue reading →",
+          "link": "https://timeisillmatic.me/2026/08/18/various-artists-soundbombing-october-14-1997/",
+          "publishedOn": "2026-08-18T11:00:12.000Z",
+          "wordCount": 5897,
+          "title": "Various Artists – Soundbombing (October 14, 1997)",
+          "imageUrl": "https://timeisillmatic.me/wp-content/uploads/2026/08/soundbombing.jpg"
+        }
+      ]
     },
     {
       "title": "Amanda Marcotte - Salon.com",

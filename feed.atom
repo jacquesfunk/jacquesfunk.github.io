@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-18T10:25:50.705Z</updated>
+    <updated>2026-08-18T12:41:29.461Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Various Artists – Soundbombing (October 14, 1997)]]></title>
+        <id>http://timeisillmatic.me/?p=13367</id>
+        <link href="https://timeisillmatic.me/2026/08/18/various-artists-soundbombing-october-14-1997/"/>
+        <updated>2026-08-18T11:00:12.000Z</updated>
+        <summary type="html"><![CDATA[Finally, we’ve made it through 1997! This is my final ’97 album review, but I plan on posting the best and worst of the year in the next few weeks. I hope you enjoy the read, and thanks for time … Continue reading →]]></summary>
+        <author>
+            <name>deedub77</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Flow State Episode 339]]></title>
         <id>https://www.flowstate.fm/p/flow-state-episode-339</id>
@@ -3637,46 +3647,6 @@ Do you know how bad things have to be for you to hit an “as bad as that time I
         <summary type="html"><![CDATA[History is filled with strange events that continue to puzzle scientists centuries later. Entire villages have vanished without explanation. Ships]]></summary>
         <author>
             <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Protesilaos: Emacs: conditionally expand abbrev-mode definitions]]></title>
-        <id>https://protesilaos.com/codelog/2026-08-09-emacs-expand-abbrev-mode-definitions-conditionally/</id>
-        <link href="https://protesilaos.com/codelog/2026-08-09-emacs-expand-abbrev-mode-definitions-conditionally/"/>
-        <updated>2026-08-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Raw link: https://www.youtube.com/watch?v=QzhU6fklc4o
-In this ~15-minute video I show how to add conditions to abbrev-mode
-abbreviations that you define. The idea is to have those abbrevs
-expand only in certain cases. I use three examples, which I think
-cover the common needs.
-Code samples
-
-(defun my-french-p ()
-  "Return non-nil if `current-input-method' is French."
-  (and current-input-method
-       (string-match-p "french" current-input-method)))
-
-(define-abbrev global-abbrev-table "welcome" "je t'en prie" nil :enable-function #'my-french-p)
-
-
-(defvar my-notes-directory (expand-file-name "~/.emacs.d/abbrev-test/")
-  "Directory where my notes are.")
-
-(defun my-notes-directory-p ()
-  "Return non-nil if we are in `my-notes-directory' or its subdirectories."
-  (let ((current-directory (expand-file-name default-directory)))
-    (string-prefix-p my-notes-directory current-directory)))
-
-(define-abbrev global-abbrev-table "prot" "p’rǒt" nil :enable-function #'my-notes-directory-p)
-
-
-(defun my-notes-keycast-mode-p ()
-  "Return non-nil if `keycast-mode-line-mode' is enabled."
-  (bound-and-true-p keycast-mode-line-mode))
-
-(define-abbrev global-abbrev-table "prot" "Protesilaos, also known as Prot" nil :enable-function #'my-notes-keycast-mode-p)]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>

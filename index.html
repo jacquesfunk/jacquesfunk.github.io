@@ -22,11 +22,45 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-18 datetime="2026-08-18T07:02:36.000Z">2026-08-18</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-18 datetime="2026-08-18T07:02:36.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-18 datetime="2026-08-18T11:00:12.000Z">2026-08-18</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-18 datetime="2026-08-18T11:00:12.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Time Is Illmatic</button>
+                  <a class="source-heading__link" href="https://timeisillmatic.me">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://timeisillmatic.me/?p&#x3D;13367"
+                        open
+                      >
+                        <summary class="article-expander__title">Various Artists – Soundbombing (October 14, 1997)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://timeisillmatic.me/2026/08/18/various-artists-soundbombing-october-14-1997/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://timeisillmatic.me/wp-content/uploads/2026/08/soundbombing.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Finally, we’ve made it through 1997! This is my final ’97 album review, but I plan on posting the best and worst of the year in the next few weeks. I hope you enjoy the read, and thanks for time … Continue reading →</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;20
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -7734,70 +7768,6 @@ I struggle to understand these d…</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Emacslife</button>
-                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://protesilaos.com/codelog/2026-08-09-emacs-expand-abbrev-mode-definitions-conditionally/"
-                        open
-                      >
-                        <summary class="article-expander__title">Protesilaos: Emacs: conditionally expand abbrev-mode definitions</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://protesilaos.com/codelog/2026-08-09-emacs-expand-abbrev-mode-definitions-conditionally/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://protesilaos.com/assets/images/brand/protesilaos-logo.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Raw link: https://www.youtube.com/watch?v&#x3D;QzhU6fklc4o
-In this ~15-minute video I show how to add conditions to abbrev-mode
-abbreviations that you define. The idea is to have those abbrevs
-expand only in certain cases. I use three examples, which I think
-cover the common needs.
-Code samples
-
-(defun my-french-p ()
-  &quot;Return non-nil if &#x60;current-input-method&#x27; is French.&quot;
-  (and current-input-method
-       (string-match-p &quot;french&quot; current-input-method)))
-
-(define-abbrev global-abbrev-table &quot;welcome&quot; &quot;je t&#x27;en prie&quot; nil :enable-function #&#x27;my-french-p)
-
-
-(defvar my-notes-directory (expand-file-name &quot;~/.emacs.d/abbrev-test/&quot;)
-  &quot;Directory where my notes are.&quot;)
-
-(defun my-notes-directory-p ()
-  &quot;Return non-nil if we are in &#x60;my-notes-directory&#x27; or its subdirectories.&quot;
-  (let ((current-directory (expand-file-name default-directory)))
-    (string-prefix-p my-notes-directory current-directory)))
-
-(define-abbrev global-abbrev-table &quot;prot&quot; &quot;p’rǒt&quot; nil :enable-function #&#x27;my-notes-directory-p)
-
-
-(defun my-notes-keycast-mode-p ()
-  &quot;Return non-nil if &#x60;keycast-mode-line-mode&#x27; is enabled.&quot;
-  (bound-and-true-p keycast-mode-line-mode))
-
-(define-abbrev global-abbrev-table &quot;prot&quot; &quot;Protesilaos, also known as Prot&quot; nil :enable-function #&#x27;my-notes-keycast-mode-p)</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -7852,8 +7822,8 @@ The New York Times reported that “the war against Iran drained the Pentagon’
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/32126629453">
-        <time id="build-timestamp" datetime="2026-08-18T10:25:50.682Z">2026-08-18T10:25:50.682Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/32138073404">
+        <time id="build-timestamp" datetime="2026-08-18T12:41:29.430Z">2026-08-18T12:41:29.430Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
