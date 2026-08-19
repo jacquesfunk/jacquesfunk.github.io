@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-19T02:55:21.205Z</updated>
+    <updated>2026-08-19T04:34:42.611Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -3700,48 +3700,6 @@ This can be useful for gathering individual files,…]]></summary>
 ✍️ Reply by email]]></summary>
         <author>
             <name>baty.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We Wouldn’t Be Here Without Poop]]></title>
-        <id>https://defector.com/?p=231384</id>
-        <link href="https://defector.com/we-wouldnt-be-here-without-poop"/>
-        <updated>2026-08-09T16:06:57.000Z</updated>
-        <summary type="html"><![CDATA[Julien Kimmig's career began with a surprising abundance of feces. As a PhD student working at a Cambrian site in northern Canada, Kimmig realized that roughly half the fossils in that outcrop were coprolites, or fossilized poops. Kimmig, now the head of the paleontology and evolution division at the Natural History Museum in Karlsruhe, Germany, wondered what explained the deluge of dung.
-In 2020, Russell Bicknell, an evolutionary biologist and paleobiologist at Flinders University in Adelaide, approached Kimmig with some Cambrian coprolites from southern Australia that no other scientists had particularly cared to study. Prehistoric poops in hand, Kimmig and Bicknell began compiling a database of the earliest evidence of turds on Earth. The project occasionally stalled, but the researcher…]]></summary>
-        <author>
-            <name>Sabrina Imbler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pico.sh]]></title>
-        <id>https://baty.net/notes/2026/08/pico-sh/</id>
-        <link href="https://baty.net/notes/2026/08/pico-sh/"/>
-        <updated>2026-08-09T16:03:50.000Z</updated>
-        <summary type="html"><![CDATA[I've gotta try pico.sh, don't I? I mean, I already deploy all my sites via rsync, so I'm mostly there, anyway.
-(h/t Sal)
-✍️ Reply by email]]></summary>
-        <author>
-            <name>baty.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Deskstop Save Without The Restore]]></title>
-        <id>https://irreal.org/blog/?p=14000</id>
-        <link href="https://irreal.org/blog/?p=14000"/>
-        <updated>2026-08-09T15:13:09.000Z</updated>
-        <summary type="html"><![CDATA[desktop-save-mode but he wants a slightly different behavior. He likes having his session configuration saved but he usually doesn’t want it restored. He wants to restore it only when he closed it by mistake or forget do something in the last session. Then, he wants to restore it by hand.
-
-
-He could, of course, do this by disabling desktop-save-mode and calling the save and restore functions manually. The problem with that solution is that like most of us Choudhary would forget to do the save.
-
-
-But this is Emacs so Choudhary was able to roll his own solution. That solution does the automatic save, as usual, but the restore function is disabled at system startup. Instead, the last save is added to a list of the last 5 saves. When he wants to restore a session, he’s presented with the list and can choose the save that he wants.
-
-
-This is another great example of how Emacs lets you have it your way. His code is a little complex but there are a lot of desktop save peculiarities to account for. If you’re like me, you probably aren’t interested in this capability but that’s the point: even if you’re the only one who wants some functionality, Emacs will let you have it. This capability is something no developer is likely to anticipate so it provides another example of the superiority of Emacs’ method over the typical extension system provided by other editors.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
