@@ -568,16 +568,6 @@
           "wordCount": null,
           "title": "Raymond Zeitler: Vakana -- Sneak a Peek",
           "imageUrl": null
-        },
-        {
-          "id": "https://chrismaiorana.com/emacs-ffap/",
-          "author": null,
-          "description": "Lord knows I have trouble finding files sometimes. Over the years I’ve tried lots of schemes in Org Mode and elsewhere for the sole purpose of keeping track of stray items. Using includes in Org Mode has been helpful, but I didn’t have a way of jumping to those included files for quick access. Until now! Read on.\nIn this article, we’ll look at:\nTable of Contents\nThe “ffap” function and what it does\nUsing ffap to jump to file includes\nFilepaths for success\nLet’s get into it.\nFFAP – Find file at point\nFor a refresher on Org includes for those who don’t know, I’d advise clicking on that link above or watching my recent video on this topic. Basically, includes let you include file contents from elsewhere in your system into a working document.\nThis can be useful for gathering individual files,…",
-          "link": "https://chrismaiorana.com/emacs-ffap/",
-          "publishedOn": "2026-08-09T19:05:34.000Z",
-          "wordCount": null,
-          "title": "Chris Maiorana: Using ffap to jump to file includes in Emacs",
-          "imageUrl": null
         }
       ]
     },
@@ -1195,16 +1185,6 @@
           "wordCount": 7571,
           "title": "Don Nelson Followed His Bliss And Changed Basketball",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-1321892950.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=231736",
-          "author": "Sabrina Imbler",
-          "description": "ESPN reporter Lindsey Thiry found herself accosted by an alarmingly big bug at Los Angeles Rams camp Thursday. She was preparing for a live report when the flying creature suddenly dive-bombed in. The bug hovered around Thiry for several seconds until the NFL reporter gave it a good and audible thwack with her mic.\nESPN broadcaster Molly McGrath later interviewed Thiry about the identity of the bug. \"What is that, a wasp? What was that, Lindsey?\" McGrath asked.\n\"It was the biggest bug I've ever seen,\" Thiry answered, having recovered from the ordeal.",
-          "link": "https://defector.com/what-big-bug-attacked-an-espn-reporter-at-rams-camp",
-          "publishedOn": "2026-08-09T19:13:06.000Z",
-          "wordCount": 7404,
-          "title": "What Big Bug “Attacked” An ESPN Reporter At Rams Camp?",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/lindsey-thiry.jpg"
         }
       ]
     },
@@ -2279,6 +2259,22 @@
       "feedUrl": "https://www.flowstate.fm/feed",
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
+        {
+          "id": "https://www.flowstate.fm/p/across-the-horizon-ep-68-centripetal",
+          "author": "Flow State",
+          "description": "On today’s episode of Across the Horizon, Bob Holmes of SUSS dedicates the episode to one of his favorite labels, Centripetal Force Records.",
+          "link": "https://www.flowstate.fm/p/across-the-horizon-ep-68-centripetal",
+          "publishedOn": "2026-08-19T07:03:47.000Z",
+          "wordCount": null,
+          "title": "Across the Horizon Ep. 68: Centripetal Force Records",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/211808835/0996b9898e441070b5540392055728a1.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "https://www.flowstate.fm/p/flow-state-episode-339",
           "author": "Flow State",

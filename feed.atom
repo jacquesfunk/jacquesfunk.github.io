@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-19T06:40:01.058Z</updated>
+    <updated>2026-08-19T08:35:06.180Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Across the Horizon Ep. 68: Centripetal Force Records]]></title>
+        <id>https://www.flowstate.fm/p/across-the-horizon-ep-68-centripetal</id>
+        <link href="https://www.flowstate.fm/p/across-the-horizon-ep-68-centripetal"/>
+        <updated>2026-08-19T07:03:47.000Z</updated>
+        <summary type="html"><![CDATA[On today’s episode of Across the Horizon, Bob Holmes of SUSS dedicates the episode to one of his favorite labels, Centripetal Force Records.]]></summary>
+        <author>
+            <name>Flow State</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Just how extreme are Republicans? Let us count the ways.Rex Huppke]]></title>
         <id>https://www.usatoday.com/story/opinion/columnist/2026/08/09/republican-definition-extremism-democratic-socialist/91197531007/-full</id>
@@ -3655,37 +3665,6 @@ eventual Emacs Carnival submission will be more pedestrian.
   Vakana here
   or download here.
 2 The images used for beads a…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Big Bug “Attacked” An ESPN Reporter At Rams Camp?]]></title>
-        <id>https://defector.com/?p=231736</id>
-        <link href="https://defector.com/what-big-bug-attacked-an-espn-reporter-at-rams-camp"/>
-        <updated>2026-08-09T19:13:06.000Z</updated>
-        <summary type="html"><![CDATA[ESPN reporter Lindsey Thiry found herself accosted by an alarmingly big bug at Los Angeles Rams camp Thursday. She was preparing for a live report when the flying creature suddenly dive-bombed in. The bug hovered around Thiry for several seconds until the NFL reporter gave it a good and audible thwack with her mic.
-ESPN broadcaster Molly McGrath later interviewed Thiry about the identity of the bug. "What is that, a wasp? What was that, Lindsey?" McGrath asked.
-"It was the biggest bug I've ever seen," Thiry answered, having recovered from the ordeal.]]></summary>
-        <author>
-            <name>Sabrina Imbler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chris Maiorana: Using ffap to jump to file includes in Emacs]]></title>
-        <id>https://chrismaiorana.com/emacs-ffap/</id>
-        <link href="https://chrismaiorana.com/emacs-ffap/"/>
-        <updated>2026-08-09T19:05:34.000Z</updated>
-        <summary type="html"><![CDATA[Lord knows I have trouble finding files sometimes. Over the years I’ve tried lots of schemes in Org Mode and elsewhere for the sole purpose of keeping track of stray items. Using includes in Org Mode has been helpful, but I didn’t have a way of jumping to those included files for quick access. Until now! Read on.
-In this article, we’ll look at:
-Table of Contents
-The “ffap” function and what it does
-Using ffap to jump to file includes
-Filepaths for success
-Let’s get into it.
-FFAP – Find file at point
-For a refresher on Org includes for those who don’t know, I’d advise clicking on that link above or watching my recent video on this topic. Basically, includes let you include file contents from elsewhere in your system into a working document.
-This can be useful for gathering individual files,…]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>
