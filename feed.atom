@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-19T10:26:40.659Z</updated>
+    <updated>2026-08-19T12:41:57.898Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pittsburgh Might Just Be the Most Dynamic City in America]]></title>
+        <id>http://www.esquire.com/news-politics/a73444112/insiders-guide-pittsburgh/</id>
+        <link href="https://www.esquire.com/news-politics/a73444112/insiders-guide-pittsburgh/"/>
+        <updated>2026-08-19T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The collapse of the steel industry was supposed to kill the Steel City, but my hometown never rusted away. Now it’s having a major moment. On a recent trip home, I investigated how the yinzers pulled it off.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trump aide Natalie Harp nurses his decline]]></title>
+        <id>https://www.salon.com/2026/08/19/trump-aide-natalie-harp-nurses-his-decline/-full</id>
+        <link href="https://www.salon.com/2026/08/19/trump-aide-natalie-harp-nurses-his-decline/"/>
+        <updated>2026-08-19T10:45:25.000Z</updated>
+        <summary type="html"><![CDATA[Jon Ossoff certainly struck a nerve. At a campaign rally on Sunday, the Democratic senator from Georgia declared that Donald Trump “doesn’t want to do the job” of president but would instead prefer to “travel with Natalie on their apparently defenseless flying palace gifted by the emir of Qatar.” The crowd went nuts, showing how much people, at least on the left, have been noticing that Trump goes everywhere with a 35-year-old blonde aide named Natalie Harp, whom New York Times reporter Maggie Haberman has deemed his “human binky.”
+The White House erupted in rage, furious that Ossoff had called out the walking security blanket provided to the president. Because there’s not way around it: Having a babysitter makes the 80-year-old president look even older and weaker than he already is. The …]]></summary>
+        <author>
+            <name>Amanda Marcotte - Salon.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Across the Horizon Ep. 68: Centripetal Force Records]]></title>
         <id>https://www.flowstate.fm/p/across-the-horizon-ep-68-centripetal</id>
@@ -3619,54 +3640,6 @@ The good doctor exercised his Fifth …]]></summary>
         <updated>2026-08-10T01:44:43.000Z</updated>
         <author>
             <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TAONAW - Emacs and Org Mode: Emacs Config Gems - Part 4]]></title>
-        <id>https://taonaw.com/2026/08/09/emacs-config-gems-part.html</id>
-        <link href="https://taonaw.com/2026/08/09/emacs-config-gems-part.html"/>
-        <updated>2026-08-10T00:01:32.000Z</updated>
-        <summary type="html"><![CDATA[Part four of Emacs Config Gems is about basic file operations and save functions. I realized as I was working on this that I have the frame configuration here, which is the wrong place for it. I will change it after posting. Alright, here we go.
-When deleting a file in Emacs, we should use the system’s trash (or recycle bin) instead of deleting the file permanently, giving us a chance to restore the file in case we’ve made a mistake.
-In addition, since we have this turned on, we can also tell Emacs to always delete non-empty directories (because they’ll go to the trash) instead of prompting. It’s just faster.
-(setq delete-by-moving-to-trash t)
-(setq dired-recursive-deletes 'always)
-
-
-Let’s set the frame Emacs starts with to be a bit bigger. In Emacs, these measurements are in lines and col…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raymond Zeitler: Vakana -- Sneak a Peek]]></title>
-        <id>https://ray-on-emacs.blogspot.com/2026/08/vakana-sneak-peek.html</id>
-        <link href="https://ray-on-emacs.blogspot.com/2026/08/vakana-sneak-peek.html"/>
-        <updated>2026-08-09T23:56:55.107Z</updated>
-        <summary type="html"><![CDATA[1 on my Android
-device this morning.  After following the tutorial, I exported the
-thread as an Org-mode-compatible package in a ZIP and emailed it to
-myself in order to transfer it to my desktop.
-
-
-
-After opening the Org file that Vakana generated, I exported the
-entire buffer to HTML.  The result is shown below.  The only change
-I wanted to make was to scale the bead of each heading 25%.2
-
-
-
-It's fortuitous that Donovan Ratefison released Vakana in a month
-whose Emacs Carnival theme is "The Search for Knowledge," because
-Vakana provides a unique way to manage one's knowledge.  I'll need
-to become proficient in it before adding it to my workflow.  So my
-eventual Emacs Carnival submission will be more pedestrian.
-1 Learn about
-  Vakana here
-  or download here.
-2 The images used for beads a…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>

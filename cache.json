@@ -548,26 +548,6 @@
           "wordCount": 2710,
           "title": "James Cherti: single-window.el – Always Open Emacs Buffers in the Current Active Window",
           "imageUrl": null
-        },
-        {
-          "id": "https://taonaw.com/2026/08/09/emacs-config-gems-part.html",
-          "author": null,
-          "description": "Part four of Emacs Config Gems is about basic file operations and save functions. I realized as I was working on this that I have the frame configuration here, which is the wrong place for it. I will change it after posting. Alright, here we go.\nWhen deleting a file in Emacs, we should use the system’s trash (or recycle bin) instead of deleting the file permanently, giving us a chance to restore the file in case we’ve made a mistake.\nIn addition, since we have this turned on, we can also tell Emacs to always delete non-empty directories (because they’ll go to the trash) instead of prompting. It’s just faster.\n(setq delete-by-moving-to-trash t)\n(setq dired-recursive-deletes 'always)\n\n\nLet’s set the frame Emacs starts with to be a bit bigger. In Emacs, these measurements are in lines and col…",
-          "link": "https://taonaw.com/2026/08/09/emacs-config-gems-part.html",
-          "publishedOn": "2026-08-10T00:01:32.000Z",
-          "wordCount": 1570,
-          "title": "TAONAW - Emacs and Org Mode: Emacs Config Gems - Part 4",
-          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/08/10/5967427.png"
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/08/vakana-sneak-peek.html",
-          "author": null,
-          "description": "1 on my Android\ndevice this morning.  After following the tutorial, I exported the\nthread as an Org-mode-compatible package in a ZIP and emailed it to\nmyself in order to transfer it to my desktop.\n\n\n\nAfter opening the Org file that Vakana generated, I exported the\nentire buffer to HTML.  The result is shown below.  The only change\nI wanted to make was to scale the bead of each heading 25%.2\n\n\n\nIt's fortuitous that Donovan Ratefison released Vakana in a month\nwhose Emacs Carnival theme is \"The Search for Knowledge,\" because\nVakana provides a unique way to manage one's knowledge.  I'll need\nto become proficient in it before adding it to my workflow.  So my\neventual Emacs Carnival submission will be more pedestrian.\n1 Learn about\n  Vakana here\n  or download here.\n2 The images used for beads a…",
-          "link": "https://ray-on-emacs.blogspot.com/2026/08/vakana-sneak-peek.html",
-          "publishedOn": "2026-08-09T23:56:55.107Z",
-          "wordCount": null,
-          "title": "Raymond Zeitler: Vakana -- Sneak a Peek",
-          "imageUrl": null
         }
       ]
     },
@@ -1382,6 +1362,16 @@
       "siteUrl": "https://www.salon.com/writer/amanda_marcotte",
       "articles": [
         {
+          "id": "https://www.salon.com/2026/08/19/trump-aide-natalie-harp-nurses-his-decline/-full",
+          "author": null,
+          "description": "Jon Ossoff certainly struck a nerve. At a campaign rally on Sunday, the Democratic senator from Georgia declared that Donald Trump “doesn’t want to do the job” of president but would instead prefer to “travel with Natalie on their apparently defenseless flying palace gifted by the emir of Qatar.” The crowd went nuts, showing how much people, at least on the left, have been noticing that Trump goes everywhere with a 35-year-old blonde aide named Natalie Harp, whom New York Times reporter Maggie Haberman has deemed his “human binky.”\nThe White House erupted in rage, furious that Ossoff had called out the walking security blanket provided to the president. Because there’s not way around it: Having a babysitter makes the 80-year-old president look even older and weaker than he already is. The …",
+          "link": "https://www.salon.com/2026/08/19/trump-aide-natalie-harp-nurses-his-decline/",
+          "publishedOn": "2026-08-19T10:45:25.000Z",
+          "wordCount": 2113,
+          "title": "Trump aide Natalie Harp nurses his decline",
+          "imageUrl": "https://www.salon.com/app/uploads/2026/08/Donald-Trump-Natalie-Harp-2290770417.jpg"
+        },
+        {
           "id": "https://www.salon.com/2026/08/17/pete-hegseth-is-trumps-favorite-kind-of-failure/-full",
           "author": null,
           "description": "The tale of Donald Trump sneaking off Air Force One in a catering truck captured public attention for many reasons. It was a reminder that, for all his tough talk, the president harbors a sense of fear. Hiding away in a glorified ice chest would also have been a blow to the 80-year-old’s dignity. But the charade, which was first revealed by the Washington Post, also gave us insight, as political scientist Scott Lemieux wrote, “into who he considers his actual inner circle.”\nLeft behind on the decoy plane were Secretary of State Marco Rubio, Treasury Secretary Scott Bessent, White House deputy chief of staff Stephen Miller and other administration officials and aides. The only people deemed worthy of saving from Iran’s reported threat were people whose full-time jobs are tending the preside…",
@@ -2092,6 +2082,16 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/a73444112/insiders-guide-pittsburgh/",
+          "author": null,
+          "description": "The collapse of the steel industry was supposed to kill the Steel City, but my hometown never rusted away. Now it’s having a major moment. On a recent trip home, I investigated how the yinzers pulled it off.",
+          "link": "https://www.esquire.com/news-politics/a73444112/insiders-guide-pittsburgh/",
+          "publishedOn": "2026-08-19T11:00:00.000Z",
+          "wordCount": 29249,
+          "title": "Pittsburgh Might Just Be the Most Dynamic City in America",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/fb7a9a2c-1ab9-4074-8f1f-7e34c8ebe69f.jpeg?crop=1xw:0.75xh;0xw,0.204xh&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a73463880/jon-ossoff-speech-natalie-trump-gop-reaction/",
           "author": null,
