@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-19T18:32:34.392Z</updated>
+    <updated>2026-08-19T20:24:47.809Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Florida Is Poised to Become Way Less Insane After This Election Season—but Only if Its Democratic Candidates Work Together]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a73477351/florida-primary-results-before-midterms/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a73477351/florida-primary-results-before-midterms/"/>
+        <updated>2026-08-19T20:00:26.000Z</updated>
+        <summary type="html"><![CDATA[Senate candidate Angie Nixon has ties to Democratic Socialists. Gubernatorial candidate David Jolly is a former Republican. Can they play nice for the greater good?]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aboard Newsletter: Is AI Entering Its NFT Era?]]></title>
+        <id>https://mailchi.mp/aboard/zkd26k8jzm-10348483</id>
+        <link href="https://mailchi.mp/aboard/zkd26k8jzm-10348483"/>
+        <updated>2026-08-19T20:00:12.000Z</updated>
+        <summary type="html"><![CDATA[96
+
+
+
+
+
+
+Aboard Newsletter: Is AI Entering Its NFT Era?
+
+
+img{-ms-interpolation-mode:bicubic;}
+table, td{mso-table-lspace:0pt;mso-table-rspace:0pt;}
+.mceStandardButton, .mceStandardButton td, .mceStandardButton td a{mso-hide:all!important;}
+p, a, li, td, blockquote{mso-line-height-rule:exactly;}
+p, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+.mcnPreviewText{display:none!important;}
+.bodyCell{margin:0 auto;padding:0;width:100%;}
+.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;}
+.ReadMsgBody, .ExternalClass{width:100%;}
+a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inherit!important;font-…]]></summary>
+        <author>
+            <name>Aboard Archive Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Citizens Build, Agents Execute, Experts Govern]]></title>
+        <id>https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html</id>
+        <link href="https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html"/>
+        <updated>2026-08-19T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR
+Why building an app over the weekend isn't the same as building enterprise software
+
+I’ve noticed an interesting gap opening up over the last six months. It isn’t really a gap in technology. It’s a gap in what different people think software engineering actually is.
+The conversation usually starts the same way. A non-techie, maybe an executive, tells me about something they’ve built over the weekend. Sometimes it’s a chatbot. Sometimes it’s an internal workflow. Sometimes it’s a surprisingly polished application that solves a real business problem. They’re excited, and they should be. Twelve months ago they probably couldn’t have built it at all. Then comes the question.
+“If AI can do this now, why aren’t our engineering teams delivering ten times faster?”
+It’s a perfectly reasonable…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Why Your Team Sucks 2026: Green Bay Packers]]></title>
         <id>https://defector.com/?p=232471</id>
@@ -42,6 +97,21 @@ https://www.youtube.com/watch?v=ykuhbgkT54g]]></summary>
 more…]]></summary>
         <author>
             <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[For fun, I thought I'd revisit  baty.blog]]></title>
+        <id>https://baty.net/posts/2026/08/for-fun-i-thought-i-d-revisit-my-pure-blog-blog/</id>
+        <link href="https://baty.net/posts/2026/08/for-fun-i-thought-i-d-revisit-my-pure-blog-blog/"/>
+        <updated>2026-08-19T18:10:44.000Z</updated>
+        <summary type="html"><![CDATA[I accidentally logged into baty.blog's admin and said, "SQUIRREL!", and spent time taking another look at the site. Who knows, I might start using it again.
+Baty.blog runs on Pure Blog, by Kev Quirk. When Kev first announced Pure Blog, I (of course) tried it immediately. We got along well, right off the bat. Pure Blog is written in PHP, so it's simple to install nearly anywhere. It uses plain-text Markdown files instead of a database. It did all the basics that a blogging CMS should do. It aimed to be simple-but-not-too-simple. At the time, I found it to be a little too simple, so I abandoned it, meaning to check on it again, later.
+It's later.
+A lot has changed since I last used v1.2.0. Kev's been busy! Anyway, things looked stable and it had gotten important fixes and updates, so I upgraded both Pure Blog and my Pure Comments instance. I wired up comment emails, since Pure Comments can now use regular ol' SMTP (it used to be only AWS SES, gross).
+I have cleaned up the layout I was using so it at least looks presentable. It seems I'm once again posting to baty.blog. For now. Don't forget, there's an RSS feed.
+✍️ Reply by email]]></summary>
+        <author>
+            <name>baty.net</name>
         </author>
     </entry>
     <entry>
@@ -523,6 +593,23 @@ Earlier this month during an interview on ABC’s This Week, 36-year-old Rep. Al
         <summary type="html"><![CDATA[Finally, we’ve made it through 1997! This is my final ’97 album review, but I plan on posting the best and worst of the year in the next few weeks. I hope you enjoy the read, and thanks for time … Continue reading →]]></summary>
         <author>
             <name>deedub77</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tuesday, August 18, 2026]]></title>
+        <id>https://baty.net/journal/18Aug26/</id>
+        <link href="https://baty.net/journal/18Aug26/"/>
+        <updated>2026-08-18T09:50:36.000Z</updated>
+        <summary type="html"><![CDATA[Self-portrait / Rolleiflex 2.8D
+STATUS: Getting rid of something every day feels really good
+TODO: Decide about moving the external drives back to Linux
+READING: "Platform Decay" by Martha Wells (Murderbot!)
+LISTENING: Everything by Zeal and Ardor
+I had a todo on my list for canceling my MagicPages subscription, so I went to do that. Seeing the Ghost version of this site running my custom theme gave me second thoughts. Remember how easy posting was with Ghost? Remember the comments, newsletters, and ActivityPub features? I caught myself before becoming too enamored with the idea, and canceled. If you use Ghost, MagicPages is a great service for hosting.
+My writing isn't very good. I know that. It's probably because I don't worry much about how good it is. I just write, you know? One thing, though, is that I'm kind of proud that not a single word is generated using an LLM. What would be the point of doing that?
+✍️ Reply by email]]></summary>
+        <author>
+            <name>baty.net</name>
         </author>
     </entry>
     <entry>
@@ -3788,16 +3875,6 @@ The good doctor exercised his Fifth …]]></summary>
         <summary type="html"><![CDATA[error fetching full text: Reqwest client error: error decoding response body]]></summary>
         <author>
             <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[David Cordero (Guest rec from Melted Form)]]></title>
-        <id>https://www.flowstate.fm/p/david-cordero-guest-rec-from-melted</id>
-        <link href="https://www.flowstate.fm/p/david-cordero-guest-rec-from-melted"/>
-        <updated>2026-08-10T07:02:36.000Z</updated>
-        <summary type="html"><![CDATA[Today we have a guest recommendation from Melted Form, a musician and writer, whose excellent newsletter Hum, Buzz, & Hiss shares ambient music, reflections on the form, and stories behind the artists.]]></summary>
-        <author>
-            <name>Flow State</name>
         </author>
     </entry>
 </feed>
