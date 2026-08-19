@@ -608,26 +608,6 @@
           "wordCount": 1487,
           "title": "Irreal: Deskstop Save Without The Restore",
           "imageUrl": null
-        },
-        {
-          "id": "https://lars.ingebrigtsen.no/2026/08/09/prehistoric-blogging-evidence/",
-          "author": null,
-          "description": "I’ve been cleaning out the loft, and I found this in a box.  What kind of exciting pictures could lurk within!\n\nHeh heh.\n\nRight…  during the 90s, while doing Gnus development, I sold a whole bunch of merchandise.  These must be the mugs for Pterodactyl Gnus?\n\nMan, so many shots, and almost all of them out of focus.  I’m a master photographer, me.\n\nHey, that one’s in focus…  kinda impressive height, eh?\n\nRight, I didn’t “blog” about this until 2001, and by that time I’d bought a digital camera.\n\nAnd I’ve still got a couple of mugs, almost three decades later.  Quality!\nThe first batch had non-metallic non-dishwasher-safe printing (it turned out), so those degraded fast, but the second batch, with silver inks, is still going strong.\n(Here’s a link to the other Gnus stuff I did back then…  The 90s were fun.)",
-          "link": "https://lars.ingebrigtsen.no/2026/08/09/prehistoric-blogging-evidence/",
-          "publishedOn": "2026-08-09T14:42:25.000Z",
-          "wordCount": 1234,
-          "title": "Lars Ingebrigtsen: Prehistoric Blogging Evidence",
-          "imageUrl": "https://lars.ingebrigtsen.no/wp-content/uploads/2026/08/DSC08270-scaled.jpg"
-        },
-        {
-          "id": "https://sachachua.com/blog/2026/08/replace-youtube-captions-from-emacs-lisp/",
-          "author": null,
-          "description": "NOTE\n#+YOUTUBE_URL: https://youtu.be/sxqsIgXYkVw\n#+LANGUAGE: en\n\nC-c C-c when I'm working on correcting or translating captions.\n\n\n\n\n;;;###autoload\n(defun sacha-youtube-replace-captions (url language vtt-file)\n  \"Replace captions for URL in LANGUAGE with VTT-FILE.\"\n  (interactive\n   (let ((params (and (derived-mode-p 'subed-vtt-mode)\n                      (sacha-subed-record-youtube-params))))\n     (list\n      (or (plist-get params :url)\n          (read-string \"YouTube URL: \"))\n      (or (plist-get params :language)\n          (read-string \"Language (ex: fr): \"))\n      (if (derived-mode-p 'subed-vtt-mode)\n          (buffer-file-name)\n        (read-file-name \"VTT file: \")))))\n  (let* ((video-id (sacha-org-yt-id url))\n         (existing-captions (sacha-youtube-get-captions video-id))\n        …",
-          "link": "https://sachachua.com/blog/2026/08/replace-youtube-captions-from-emacs-lisp/",
-          "publishedOn": "2026-08-09T14:11:30.000Z",
-          "wordCount": 489,
-          "title": "Sacha Chua: Replace YouTube captions from Emacs Lisp",
-          "imageUrl": null
         }
       ]
     },
@@ -1265,16 +1245,6 @@
           "wordCount": 10816,
           "title": "We Wouldn’t Be Here Without Poop",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/Comic_Graphical_abstract.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=231700",
-          "author": "Samer Kalaf",
-          "description": "After inflaming a culture war and causing her teammates and colleagues to be bombarded with hypothetical questions for weeks due to her transphobic comments published in a national media outlet, Sophie Cunningham wants to stick to sports. \"I'm going to let people just do the speaking for themselves, but for me, I want to get back to basketball,\" she said last Wednesday. If this past week has been her trying to get back to basketball, she might not ever catch up to it.\nSaturday's Fever-Sky game will keep Cunningham in the greater news cycle, albeit for a reason more germane to her sport. Late in the first quarter, Cunningham went up for a layup on a fast break, and Chicago's DiJonai Carrington clobbered her across the face, sending the Fever guard tumbling to the floor. Cunningham then popped up before she was corralled by her teammate Makayla Timpson in a classic \"Hold me back\" situation. The officiating crew reviewed the play and tagged Carrington with a flagrant 2 foul, automatically ejecting her from the game.\n\nhttps://www.youtube.com/watch?v=NGpwi23QBSE",
-          "link": "https://defector.com/sophie-cunningham-has-quite-a-journey-to-get-back-to-basketball",
-          "publishedOn": "2026-08-09T14:04:24.000Z",
-          "wordCount": 6655,
-          "title": "Sophie Cunningham Has Quite A Journey To Get Back To Basketball",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2289645977.jpg"
         }
       ]
     },
@@ -1317,6 +1287,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3178",
+          "author": "Schill",
+          "description": "Sydney Sweeney is an American actress and producer who has quickly become one of Hollywood’s most recognizable young stars. Born",
+          "link": "https://stuffthatinterestsme.net/hump-day-hottie-sydney-sweeney/",
+          "publishedOn": "2026-08-19T02:37:22.000Z",
+          "wordCount": 1558,
+          "title": "Hump Day Hottie: Sydney Sweeney",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=2914",
           "author": "Schill",
@@ -1508,6 +1488,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/09/republican-definition-extremism-democratic-socialist/91197531007/-full",
+          "author": "Rex Huppke",
+          "description": "Between now and the midterm elections, and probably well beyond that, you’ll hear endless chatter about “Democratic extremism,” and it will be Hilarious with a capital “H,” because it will all come from the mouths of Republicans.\n“The Democrats want to destroy America!” they’ll holler. \n“The Democrats are all socialists!” they’ll rail, unable to define socialism if their lives depended on it.\n“No, better yet,” they’ll scream, veins bulging in their furrowed brows, “the Democrats are COMMUNISTS!!”\nOh my, the horror! Someone pull up my fainting chair, I seem to have caught the vapors!\nThe party pushing 'Democratic extremism' needs to look in the mirror\n\nLet’s put this nonsensical rhetoric to bed right now. Republicans have spent the past decade worshiping the most extreme president in our na…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/09/republican-definition-extremism-democratic-socialist/91197531007/",
+          "publishedOn": "2026-08-19T02:55:21.181Z",
+          "wordCount": 4898,
+          "title": "Just how extreme are Republicans? Let us count the ways.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/07/USAT/91215367007-20260807-t-100036-z-1816052627-rc-2-nsmaf-54-wt-rtrmadp-3-usaelectionjustice.JPG?crop=6499,3655,x0,y0&width=3200&height=1800&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/07/28/the-odyssey-movie-box-office-accuracy/91077633007/-full",
           "author": "Rex Huppke",
@@ -2154,16 +2144,6 @@
           "wordCount": 177,
           "title": "The new Anya Taylor-Joy vehicle is so stupid and so good",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php-full",
-          "author": null,
-          "description": "I put a question to my SFGATE colleagues just the other day that had them mulling for a bit: What’s the last great movie that Steven Spielberg directed? I’m not talking about a merely good film. The old man can put together a competent picture anytime he likes. I’m talking about an all-timer of a Spielberg movie, something that belongs up there with his best work, which includes “Jaws,” “Raiders of the Lost Ark,” “E.T.,” “Schindler’s List” and … you get the idea. When you’re a director who’s made not just one of the greatest movies of all time but several of them, audience members like me hope for (and oftentimes expect) greatness from you with every subsequent project. Such is the standard that Spielberg, father of the modern blockbuster, set for himself. It’s also a standard that, in my …",
-          "link": "https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php",
-          "publishedOn": "2026-08-09T06:53:43.395Z",
-          "wordCount": 177,
-          "title": "Steven Spielberg's new film is his best in decades",
-          "imageUrl": null
         }
       ]
     },
@@ -2527,16 +2507,6 @@
           "wordCount": 6090,
           "title": "Rebuilding communities",
           "imageUrl": "https://gomakethings.com/img/og.png"
-        },
-        {
-          "id": "https://gomakethings.com/articles/anarchy-and-modern-convenience/",
-          "author": null,
-          "description": "A major part of anarchy and socialism is the concept of anti-work.\nAn obsession with work is a colonial, patriarchal, and capitalist construct.\nAs such, the anti-work movement—a focus on working less overall and sharing labor more equally—is an important part of decolonization, feminism, and anti-capitalism.\nA common criticism of this is that reducing the amount everyone works to something like 20 hours a week instead of 40+ means we would have to give up a lot of conveniences.",
-          "link": "https://gomakethings.com/articles/anarchy-and-modern-convenience/",
-          "publishedOn": "2026-08-09T14:30:00.000Z",
-          "wordCount": 6123,
-          "title": "Anarchy and modern convenience",
-          "imageUrl": "https://gomakethings.com/img/og.png"
         }
       ]
     },
@@ -2545,6 +2515,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1555309",
+          "author": "Josh Marshall",
+          "description": "In my last post I mentioned this data analysis GOP pollster and consultant Pat Ruffini has put together looking at...",
+          "link": "https://talkingpointsmemo.com/edblog/from-the-annals-of-polling-part-2",
+          "publishedOn": "2026-08-18T20:49:27.000Z",
+          "wordCount": 2648,
+          "title": "From the Annals of Polling, Part 2",
+          "imageUrl": "https://s3.amazonaws.com/tpm-media/images/tpm-logo_square.png"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1555305",
           "author": "Josh Marshall",
@@ -3117,22 +3097,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!A_EU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F46df08dd-36b7-4048-973a-0091397ee508_720x406.jpeg"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/a-war-but-with-morons",
-          "author": "Jeff Tiedrich",
-          "description": "how the fuck do you miscount missiles?",
-          "link": "https://www.jefftiedrich.com/p/a-war-but-with-morons",
-          "publishedOn": "2026-08-09T14:33:42.000Z",
-          "wordCount": null,
-          "title": "a war, but with morons",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!7Z37!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf163c20-58bf-476d-b986-9e4aab263167_1280x720.webp",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!7Z37!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf163c20-58bf-476d-b986-9e4aab263167_1280x720.webp"
         }
       ]
     }
