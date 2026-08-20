@@ -518,26 +518,6 @@
           "wordCount": 874,
           "title": "Ashish Panigrahi: Reviewing finished tasks from last week in org-agenda and emacs",
           "imageUrl": null
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/08/how-much-management-does-knowledge-need.html",
-          "author": null,
-          "description": "0 Org does not work the way my brain\nworks,1 or rather, my brain doesn't work the way Org works.\n\n\n\nI do use Org.  At first I created a few Org files (work.org\nand home.org, and maybe todo.org) thinking I could rigidly dedicate\nall my topics to them.\n\n\n\nOver time I had about dozen files, one for nearly every major facet of my\nlife until I gave up.  Why?  Because it really doesn't matter where I\nput Org TODOs and their notes.  When I need to locate something, Org\nprovides a way to search entries for a regular expression, which is\nwhat grep does, sans all that Unixy CLI stuff.\n\n\n\nSo faced with the task of paying one of my wife's medical bills, I\ncould agonize over whether to put the task into wife.org or\nbills.org or medical.org.2 Or I\ncould just:\n\n\n\nestablish the task somewhere,\nact on it\nl…",
-          "link": "https://ray-on-emacs.blogspot.com/2026/08/how-much-management-does-knowledge-need.html",
-          "publishedOn": "2026-08-10T22:19:40.478Z",
-          "wordCount": null,
-          "title": "Raymond Zeitler: How Much Management Does Knowledge Need?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://mbork.pl/2026-08-10_Emphasizing_a_region_in_Org_mode",
-          "author": null,
-          "description": "One of the most basic features of Org mode is its markup. It is basically the Markdown of the Emacs world (although some people, like Karl Voit, claim that it’s superior to Markdown), and it lets do basic things like italic, bold or verbatim very easily – at least if you’re writing text. I, on the other hand, happen to edit text pretty often. This is very different from writing. When I write, typing a slash before and after something I want to emphasize is easy. When I edit and just want to make some text bold, putting stars around it is much less convenient.",
-          "link": "https://mbork.pl/2026-08-10_Emphasizing_a_region_in_Org_mode",
-          "publishedOn": "2026-08-10T20:35:30.000Z",
-          "wordCount": 565,
-          "title": "Marcin Borkowski: Emphasizing a region in Org mode",
-          "imageUrl": null
         }
       ]
     },
@@ -1145,16 +1125,6 @@
           "wordCount": 16101,
           "title": "Melon’s Odyssey On The Black Market For Life-Saving Cat Medicine",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/IMG_3657-e1786386061712.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=231889",
-          "author": "Tom Ley",
-          "description": "Defector is proud to announce the addition of a new guy. Timothy Faust has joined us as our Director of Revenue. You might know Tim as a previous Defector contributor and the author of a legendary blog post, but in this role he will be entirely focused on data, revenue projections, and all sorts of…",
-          "link": "https://defector.com/transactions-august-10",
-          "publishedOn": "2026-08-10T20:50:53.000Z",
-          "wordCount": 3831,
-          "title": "Transactions, August 10",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2021/02/GettyImages-562618549.jpg"
         }
       ]
     },
@@ -1180,6 +1150,16 @@
       "feedUrl": "https://alexwlchan.net/atom.xml",
       "siteUrl": "https://alexwlchan.net/",
       "articles": [
+        {
+          "id": "https://alexwlchan.net/2026/cat-confusion/",
+          "author": null,
+          "description": "To combine archives safely, I had to start by understanding the `tar` and `gzip` file formats. I learnt about tape drives, patent laws, and end-of-file markers.",
+          "link": "https://alexwlchan.net/2026/cat-confusion/",
+          "publishedOn": "2026-08-20T09:49:28.000Z",
+          "wordCount": 1217,
+          "title": "Why can’t you combine <code>.tar.gz</code> files with <code>cat</code>?",
+          "imageUrl": "https://alexwlchan.net/images/cards/2026/cat-confusion.jpg"
+        },
         {
           "id": "https://tailscale.com/blog/sqlite-wal-reset-bug",
           "author": null,
@@ -2912,22 +2892,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!nwCJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F85808ee2-eba4-41b8-b600-c558eefa91ef_1600x1200.png"
-        },
-        {
-          "id": "https://wherethingsstand.talkingpointsmemo.com/p/dr-phil-and-a-texas-oil-firm-go-to",
-          "author": "Nicole Lafond",
-          "description": "This is your TPM evening briefing.",
-          "link": "https://wherethingsstand.talkingpointsmemo.com/p/dr-phil-and-a-texas-oil-firm-go-to",
-          "publishedOn": "2026-08-10T21:25:16.000Z",
-          "wordCount": null,
-          "title": "Dr. Phil and a Texas Oil Firm Go to Greenland With a Suspicious Agenda. Signs Point to Trump’s Imperialist Visions.",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!aL5Y!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fcd864d-e596-437b-9773-f8bc6ed357e9_1600x1200.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!aL5Y!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fcd864d-e596-437b-9773-f8bc6ed357e9_1600x1200.png"
         }
       ]
     },

@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-20T08:35:38.552Z</updated>
+    <updated>2026-08-20T10:28:16.980Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Why can’t you combine <code>.tar.gz</code> files with <code>cat</code>?]]></title>
+        <id>https://alexwlchan.net/2026/cat-confusion/</id>
+        <link href="https://alexwlchan.net/2026/cat-confusion/"/>
+        <updated>2026-08-20T09:49:28.000Z</updated>
+        <summary type="html"><![CDATA[To combine archives safely, I had to start by understanding the `tar` and `gzip` file formats. I learnt about tape drives, patent laws, and end-of-file markers.]]></summary>
+        <author>
+            <name>alexwlchan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Duffy x Uhlmann]]></title>
         <id>https://www.flowstate.fm/p/duffy-x-uhlmann</id>
@@ -3402,74 +3412,6 @@ capture every task I need to finish with
 org-capture1.
 I have a custom org-agenda view just for viewing my daily and weekly
 TODO items…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raymond Zeitler: How Much Management Does Knowledge Need?]]></title>
-        <id>https://ray-on-emacs.blogspot.com/2026/08/how-much-management-does-knowledge-need.html</id>
-        <link href="https://ray-on-emacs.blogspot.com/2026/08/how-much-management-does-knowledge-need.html"/>
-        <updated>2026-08-10T22:19:40.478Z</updated>
-        <summary type="html"><![CDATA[0 Org does not work the way my brain
-works,1 or rather, my brain doesn't work the way Org works.
-
-
-
-I do use Org.  At first I created a few Org files (work.org
-and home.org, and maybe todo.org) thinking I could rigidly dedicate
-all my topics to them.
-
-
-
-Over time I had about dozen files, one for nearly every major facet of my
-life until I gave up.  Why?  Because it really doesn't matter where I
-put Org TODOs and their notes.  When I need to locate something, Org
-provides a way to search entries for a regular expression, which is
-what grep does, sans all that Unixy CLI stuff.
-
-
-
-So faced with the task of paying one of my wife's medical bills, I
-could agonize over whether to put the task into wife.org or
-bills.org or medical.org.2 Or I
-could just:
-
-
-
-establish the task somewhere,
-act on it
-l…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dr. Phil and a Texas Oil Firm Go to Greenland With a Suspicious Agenda. Signs Point to Trump’s Imperialist Visions.]]></title>
-        <id>https://wherethingsstand.talkingpointsmemo.com/p/dr-phil-and-a-texas-oil-firm-go-to</id>
-        <link href="https://wherethingsstand.talkingpointsmemo.com/p/dr-phil-and-a-texas-oil-firm-go-to"/>
-        <updated>2026-08-10T21:25:16.000Z</updated>
-        <summary type="html"><![CDATA[This is your TPM evening briefing.]]></summary>
-        <author>
-            <name>Nicole Lafond</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Transactions, August 10]]></title>
-        <id>https://defector.com/?p=231889</id>
-        <link href="https://defector.com/transactions-august-10"/>
-        <updated>2026-08-10T20:50:53.000Z</updated>
-        <summary type="html"><![CDATA[Defector is proud to announce the addition of a new guy. Timothy Faust has joined us as our Director of Revenue. You might know Tim as a previous Defector contributor and the author of a legendary blog post, but in this role he will be entirely focused on data, revenue projections, and all sorts of…]]></summary>
-        <author>
-            <name>Tom Ley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Marcin Borkowski: Emphasizing a region in Org mode]]></title>
-        <id>https://mbork.pl/2026-08-10_Emphasizing_a_region_in_Org_mode</id>
-        <link href="https://mbork.pl/2026-08-10_Emphasizing_a_region_in_Org_mode"/>
-        <updated>2026-08-10T20:35:30.000Z</updated>
-        <summary type="html"><![CDATA[One of the most basic features of Org mode is its markup. It is basically the Markdown of the Emacs world (although some people, like Karl Voit, claim that it’s superior to Markdown), and it lets do basic things like italic, bold or verbatim very easily – at least if you’re writing text. I, on the other hand, happen to edit text pretty often. This is very different from writing. When I write, typing a slash before and after something I want to emphasize is easy. When I edit and just want to make some text bold, putting stars around it is much less convenient.]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>
