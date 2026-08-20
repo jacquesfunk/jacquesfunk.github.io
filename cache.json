@@ -180,6 +180,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://donovan-ratefison.mg/2026/08/20/I-smell-Emacs-and-Smalltalk-on-DeepSeek-Harness/",
+          "author": null,
+          "description": "Last week, Deepseek released DSH, an agent harness with very interesting approach.\nThe same pitch used by VS Code and Eclipse RPC (2024): “everything is a plugin” but this time it’s a bit different. Even the agent loop itself is a plugin.\nIn practice, you extend the tool by just prompting. (Reminds me of an old post of mine where I said that Emacs is like a modern “Magic Lamp”)\nIt allows maximum customizability and also opens many possibilities.\nIn the official article, they showcased adding snake game to the main interface. Pretty cool!\nAround the same time, I spent a little time playing with the pi-coding-agent on Emacs and was thinking that now if I want, I probably could extend Emacs indefinitely by just prompting.  \nWeird synchronicity.\nAnyway, here are some useful links if you want to know more:\nDSH announcement\ndeepseek-harness repo\nCordis paper — A Programming Paradigm for Spatiotemporal Composability\npi-coding-agent.el — the Emacs frontend I was playing with",
+          "link": "https://donovan-ratefison.mg/2026/08/20/I-smell-Emacs-and-Smalltalk-on-DeepSeek-Harness/",
+          "publishedOn": "2026-08-20T17:37:36.000Z",
+          "wordCount": 298,
+          "title": "Donovan R.: 💭 I Smell Emacs and Smalltalk on DSH (DeepSeek Harness)",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=14027",
           "author": null,
           "description": "release of Casual 3.0. There are now 26 modules in the Casual suite but this release is about providing an easier setup for the suite. Prior to this release, each module had to be set up separately. As Choi says, that made sense when there were just a few modules but it has become increasingly burdensome as the number of modules grew.\n\n\nThe new procedure is simply to call casual-init and all the module’s you want to use are initialized. The modules you’re using is determined by a set of hook functions that can configured with the Emacs Customize utility. You simple check off which modules you want to use and call casual-init. That’s all there is to it. You can learn more about this in the Casual User Manual.\n\n\nIf you’ve been following along on Choi’s blog—or to a lessor extent on Irreal—you know that there are a lot of different types of modules, not all of which you might want installed. The Customize interface is an easy way to specify which ones you want.\n\n\nThe latest version is available on MELPA and NonGNU ELPA. The nice thing about the modules is that they are all invoked with the same key sequence, Ctrl+o by default, so you don’t have to remember a bunch of different bindings. Once you invoke it, Casual brings up a Transient menu appropriate for the current major mode\n\n\nCasual is a nice suite that make it easier to navigate Emacs applications that you don’t use often and for which you haven’t internalized all the bindings. Take a look at the user manual if you want to know more.",
@@ -556,6 +566,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=233014",
+          "author": "Dave McKenna",
+          "description": "It’s been a summer of bad news for anybody with favorable feelings (me!) about Texas Tech. The New York Times joined the pigpile this week with a feature story whose subhead said the school had become a “a dystopian academic nightmare.” As if this year’s athletics debacles weren’t nausea-inducing enough. How can a guy (me!) root for a place like this? \nThe Times piece mulled the aggressive missteps taken by Brandon Creighton, the low-aiming and cartoonishly evil chancellor of the Texas Tech University System, while altering the curriculum to suit his radically conservative agenda. Like generating fear among the faculty by sending sloppy AI-generated reports and scary memos that told professors which specific lessons they’re going to have to stop teaching for being too left-leaning, some of…",
+          "link": "https://defector.com/texas-techs-administration-is-just-as-embarrassing-as-its-football-program",
+          "publishedOn": "2026-08-20T18:59:13.000Z",
+          "wordCount": 6791,
+          "title": "Texas Tech’s  Administration Is Just As Embarrassing As Its Football Program",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2288298042.jpg"
+        },
         {
           "id": "https://defector.com/?p=232845",
           "author": "Drew Magary",
@@ -1448,6 +1468,26 @@
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
         {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/19/beaver-attacks-human-maryland-rabies-socialism/91357407007/-full",
+          "author": "Rex Huppke",
+          "description": "Like most Americans enduring the horrors of everyday existence, I’ve been eagerly awaiting an uprising by nonhuman creatures. \nWell, great news. The uprising is upon us, and the creatures are beavers!\nA string of beaver attacks in Maryland – a state not known for beaver-on-human violence – has put swimmers and boaters on notice and shown the rest of America what the future holds.\nBeavers, beavers everywhere. The revolution has begun.\n\nSince July 26, the state has endured three beaver attacks. Also, according to the Maryland Department of Natural Resources, “a group that was canoeing reported a beaver attempting to charge one of their boats.”\nClearly, the beavers were inspired by the military prowess of Iberian orca whales that for years have been ramming boats in the Strait of Gibraltar.\nA…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/19/beaver-attacks-human-maryland-rabies-socialism/91357407007/",
+          "publishedOn": "2026-08-20T20:25:47.228Z",
+          "wordCount": 4059,
+          "title": "The beavers are biting back. I welcome our new overlords.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/03/19/USAT/89228939007-150943609.jpg?crop=4195,2362,x0,y159&width=3200&height=1802&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/videos/opinion/columnist/2026/08/19/jackie-bald-eagle-death-conspiracy-theory/91371833007/-full",
+          "author": "Rex Huppke and Drew Atkins",
+          "description": "What does Jackie the bald eagle's death mean for the internet's sleuths? Everything, if you ask columnist Rex Huppke.",
+          "link": "https://www.usatoday.com/videos/opinion/columnist/2026/08/19/jackie-bald-eagle-death-conspiracy-theory/91371833007/",
+          "publishedOn": "2026-08-20T20:25:46.862Z",
+          "wordCount": 2273,
+          "title": "I'm not so sure Jackie the bald eagle is deadRex Huppke and Drew Atkins",
+          "imageUrl": "https://www.usatoday.com/gcdn/presto/2023/09/28/NVIC/e0da5ddf-249e-4e05-b34e-31d0eebba93d-Eagles_Jackie_Shadow_Sept_2023.jpg?crop=2047,1152,x0,y0&width=2047&height=1152&format=pjpg&auto=webp"
+        },
+        {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/09/republican-definition-extremism-democratic-socialist/91197531007/-full",
           "author": "Rex Huppke",
           "description": "Between now and the midterm elections, and probably well beyond that, you’ll hear endless chatter about “Democratic extremism,” and it will be Hilarious with a capital “H,” because it will all come from the mouths of Republicans.\n“The Democrats want to destroy America!” they’ll holler. \n“The Democrats are all socialists!” they’ll rail, unable to define socialism if their lives depended on it.\n“No, better yet,” they’ll scream, veins bulging in their furrowed brows, “the Democrats are COMMUNISTS!!”\nOh my, the horror! Someone pull up my fainting chair, I seem to have caught the vapors!\nThe party pushing 'Democratic extremism' needs to look in the mirror\n\nLet’s put this nonsensical rhetoric to bed right now. Republicans have spent the past decade worshiping the most extreme president in our na…",
@@ -1836,126 +1876,6 @@
           "wordCount": 3534,
           "title": "A sarcastic look at the outrage over 'The Odyssey' | OpinionRex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/08/USAT/90845791007-ct-03414.jpg?crop=2298,1293,x406,y280&width=2298&height=1293&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/10/taylor-farms-salsa-recall-salmonella-cyclospora-outbreak/91197607007/-full",
-          "author": "Rex Huppke",
-          "description": "Under Health and Human Services Secretary Robert F. Kennedy Jr., eating is becoming less and less advisable.\nWe’re still living in fear of salads following a massive nationwide outbreak of explosive diarrhea linked to cyclospora-contaminated iceberg lettuce. And now Taylor Farms – the company at the center of the cyclospora outbreak – has recalled prepared salsa, guacamole and other products containing jalapeños connected to a multistate salmonella outbreak.\nThe information coming from the Food and Drug Administration and the U.S. Centers for Disease Control and Prevention about the cyclospora outbreak has been scant, with Politico noting: “Kennedy’s department has devoted little public messaging time or attention to foodborne illnesses, including cyclospora, having held just one press ca…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/10/taylor-farms-salsa-recall-salmonella-cyclospora-outbreak/91197607007/",
-          "publishedOn": "2026-08-10T18:54:26.011Z",
-          "wordCount": 4614,
-          "title": "Taylor Farms salsa recall the latest in RFK Jr.'s Diarrhea SummerRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/10/USAT/91243725007-robert-f-kennedy-jr.jpg?crop=4930,2775,x0,y327&width=3200&height=1802&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/01/ufc-white-house-bugs-dana-white/90347036007/-full",
-          "author": "Rex Huppke",
-          "description": "The upcoming White House UFC fight will feature some manly mixed-martial-arts men and man-o-sphere macho maniacs who, in a world of beta men, fear nothing. \nWell, almost nothing. Turns out they’re a little afraid of bugs.\nDana White, noted tough guy and head of the Ultimate Fighting Championship, recently said he’s concerned about the event, which falls on Trump’s June 14 birthday. (Maybe the president will have a bouncy house there as well!)\nWhite isn’t worried about strong men clobbering the snot out of each other in an octagonal cage. No, he said, a recent visit to the Rose Garden with the president showed him something truly scary: “He invited me to dinner there. The amount of gnats that are flying around, I'm like, 'Holy (expletive).' As soon as I got on the plane, I got on the phone …",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/01/ufc-white-house-bugs-dana-white/90347036007/",
-          "publishedOn": "2026-08-10T11:05:49.233Z",
-          "wordCount": 4413,
-          "title": "Could Trump's White House UFC fight get derailed by scary bugs?Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/26/USAT/90261787007-2270432351.jpg?crop=2576,1449,x857,y389&width=2576&height=1449&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/-full",
-          "author": "Rex Huppke",
-          "description": "Billionaire Jeff Bezos has boldly put forth a challenge to Americans.\nIn a May 20 interview with CNBC, he referenced a hypothetical New York City school teacher and said, “You could double the taxes I pay, and it's not going to help that teacher in Queens. I promise you.”\nPromises from billionaires will be worth about as much as cash in the post-apocalyptic wasteland we’ll soon inhabit, thanks to all the billionaires. (I’m guessing the primary currency will be potable water and locally sourced rich-people meat.)\nSo I’ll respond to Mr. Bezos with this: “You say doubling your taxes won’t help regular Americans. Well, sir, that’s a risk I’m willing to take. What say we quintuple your taxes and see what shakes out?”\nI say let's raise Jeff Bezos' taxes and see how it all works out\n\n\"If people w…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/05/20/billionaire-tax-raise-taxes-bezos/90178689007/",
-          "publishedOn": "2026-08-10T11:05:49.201Z",
-          "wordCount": 4312,
-          "title": "Bezos says raising his taxes won't help. It's a risk we should take.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/04/13/USAT/89587769007-2239610155.jpg?crop=5095,2866,x0,y764&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/05/31/trump-250-ufc-fight-ballroom-midterms/90295440007/-full",
-          "author": "Rex Huppke",
-          "description": "Americans are angry. They are stressed about food and fuel prices. They are, in astounding numbers, saying President Donald Trump is the source of their anger and stress.\nWell, I can assure my fellow Americans the MAGA king ain’t listening. He doesn’t care, and he has said as much.\nWhile Trump’s narcissism has never been hidden, it has become more glaring in this second term, and it’s easier than ever to see that the man about to turn 80 doesn’t care about any American but himself. \nHe cares deeply about hosting a raucous UFC fight on the White House lawn on his upcoming birthday. He cares deeply, in vivid dreams of gold and chandeliers, about one day having the grandest ballroom in the land. He cares about making America’s 250th anniversary celebration in the nation’s capital a big, gaudy…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/05/31/trump-250-ufc-fight-ballroom-midterms/90295440007/",
-          "publishedOn": "2026-08-10T11:05:49.165Z",
-          "wordCount": 4269,
-          "title": "Trump doesn't care about midterms and definitely doesn't care about youRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/27/USAT/90278031007-20260527-t-160146-z-615041505-rc-2-rhlas-0-wij-rtrmadp-3-usatrump.JPG?crop=5494,3091,x0,y187&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/05/21/star-wars-mandalorian-grogu-sheep-detectives-escapism/90178753007/-full",
-          "author": "Rex Huppke",
-          "description": "Look, this has already been an annoyingly long year, we’re on the brink of a searing-hot summer, gas prices are higher than my cousin Stu at a Phish concert, and we’re at war with Iran.\nGiven all that, I have one request: I don’t want to hear a single unkind or critical word about the new \"Star Wars\" movie, “The Mandalorian and Grogu.” That movie, which I have not yet seen, is about the only good thing happening in this world, and I refuse to let anyone take that from me. \nFor those who haven’t watched the television series “The Mandalorian,” from which the new movie bubbled up, here’s a quick synopsis: There’s a cool dude in an awesome helmet who protects an absolutely freaking adorable creature who audiences initially referred to as Baby Yoda, because he looks like a baby Yoda, the iconi…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/05/21/star-wars-mandalorian-grogu-sheep-detectives-escapism/90178753007/",
-          "publishedOn": "2026-08-10T11:05:49.135Z",
-          "wordCount": 4794,
-          "title": "'The Mandalorian and Grogu' is the only good thing in this worldRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/20/USAT/90174551007-thndff-000470-2.jpg?crop=4095,2304,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/-full",
-          "author": "Rex Huppke",
-          "description": "A couple years ago, my wife and oldest son began experimenting with Medjool dates. I wasn’t happy about it.\nI’ve tried dates in many forms, and never liked them. They look like legless cockroaches. They are, in my estimation, overly ambitious raisins. Nobody likes an overly ambitious raisin.\n\nTragically, my family’s addiction to these ancient stone fruits grew worse, to the point I couldn’t trust any baked good that appeared in the kitchen, as it was likely date-tainted. Gone were the days of normal muffins or oatmeal bars. All I heard was “These are sweetened with dates!” and “The dates give these such a great texture!” and other such excited mumbo-jumbo.\nMy son is addicted to dates and I've never been more ashamed\nNot long ago, my wonderful adult son – whose father raised him with the ho…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/08/date-fruit-sales-fiber-ultra-processed-snacks/90459717007/",
-          "publishedOn": "2026-08-10T11:05:49.120Z",
-          "wordCount": 4587,
-          "title": "Stop trying to make dates happen. Have you even tried a Twinkie?Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/06/USAT/90431895007-getty-images-2213158027.jpg?crop=2118,1192,x0,y0&width=2118&height=1192&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/09/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90468552007/-full",
-          "author": "Rex Huppke",
-          "description": "Former reality TV star Spencer Pratt is out of the Los Angeles mayoral race for two reasons.\nFirst, and most important, he got fewer votes than two other candidates, incumbent Los Angeles Mayor Karen Bass and LA City Councilwoman Nithya Raman, who will now face off against each other. Second, he’s an unqualified dipstick whom a majority of Los Angelenos understood wasn’t qualified for the job.\nPratt was endorsed by President Donald Trump and hailed by some MAGA Republicans as a rising star, a political outsider with a winning populist message.\nThat was, in a word, wrong.\n\nThe Free Press, the conservative publication founded by Bari Weiss, who is presently busy ruining CBS News, ran a piece in May that posed the question: “How did Spencer Pratt, reality TV star and ‘healing’ crystal salesma…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/09/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90468552007/",
-          "publishedOn": "2026-08-10T11:05:49.079Z",
-          "wordCount": 4204,
-          "title": "I'm glad Spencer Pratt lost. Let's Make Stupidity Embarrassing Again.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/08/USAT/90456119007-20260531-t-212845-z-2098431618-rc-2-hklaldt-0-w-rtrmadp-3-usaelectioncaliforniapratt.JPG?crop=6493,3653,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/07/01/heat-wave-fourth-climate-change/90752496007/-full",
-          "author": "Rex Huppke",
-          "description": "The brutal heat wave searing much of the United States on this Fourth of July week is further proof Mother Nature is hell-bent on getting Americans to believe in the liberal climate change hoax.\nThat’s right, I said it. Mother Nature is a radical leftist personification, possibly stemming from some meteorological wing of antifa, and now she’s threatening to ruin America’s 250th anniversary by melting “There Is No Climate Change!” yard signs and forcing people like me to think about things we don’t want to believe. \nCNN reported: “Many areas will endure consecutive days of temperatures in the mid-90s to low 100s. Humidity will make it feel even hotter and make it harder to cool down ‒ pushing ‘feels like’ temperatures as high as 110 degrees or more.”\nI’ll tell you what this “feels like.” It…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/07/01/heat-wave-fourth-climate-change/90752496007/",
-          "publishedOn": "2026-08-10T11:05:49.033Z",
-          "wordCount": 4432,
-          "title": "Blistering U.S. heat wave proves Mother Nature is a radical leftistRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90663423007-2282398027.jpg?crop=5823,3276,x0,y302&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/11/trump-love-inflation-republicans-biden/90490777007/-full",
-          "author": "Rex Huppke",
-          "description": "I have great news for Americans worried that inflation just jumped above 4%, the highest hike in three years. It turns out rising consumer prices are fantastic!\nPresident Donald Trump, when asked on June 10 about the inflation surge, told reporters: “I love the inflation.”\nCool! Painfully high gas prices have, according to The Wall Street Journal, “erased more than a year of Americans’ wage gains,” and everything costs more, but our president and his fellow Republican leaders, who spent all of Joe Biden’s presidency saying inflation is bad, now seem to think it’s totally rad.\nNext time you can’t pay your grocery bill, just tell the clerk to put it on the Republicans' tab. I’m sure they’ll have your back.\nRepublicans cared about inflation when Biden was president\n\nWhen Biden – overseer of t…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/11/trump-love-inflation-republicans-biden/90490777007/",
-          "publishedOn": "2026-08-10T11:05:49.002Z",
-          "wordCount": 4253,
-          "title": "By the GOP's own metrics, life was better under BidenRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/10/USAT/90496284007-trump-pic.JPG?crop=3743,2106,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/11/knicks-nba-finals-rigged-trump-republicans/90506946007/-full",
-          "author": "Rex Huppke",
-          "description": "OK, so the NBA expects patriots like myself to believe that the liberal New York Knicks miraculously won Game 4 of the NBA Finals after the REAL AMERICANS on the San Antonio Spurs were up by 29 points in the third quarter?\nYeah, right. Much like the recent California elections, which Republican leaders from President Donald Trump to House Speaker Mike Johnson convinced me were rigged, I’m calling BS on the Knicks' so-called victory. And I’m demanding congressional Republicans launch an immediate investigation into this obviously diabolical NBA game interference.\nOn “Meet the Press” recently, President Trump plainly stated that California officials were “cheating on the election.” Journalist Kristen Welker asked for evidence to support that claim, and Trump said: “All I have to do is look.”…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/11/knicks-nba-finals-rigged-trump-republicans/90506946007/",
-          "publishedOn": "2026-08-10T11:05:48.971Z",
-          "wordCount": 4375,
-          "title": "Republicans must investigate the Knicks Game 4 win. RIGGED!Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/11/USAT/90505113007-og-anunoby-karl-anthony-towns.jpg?crop=3187,1793,x218,y104&width=3187&height=1793&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/07/30/cyclospora-outbreak-diarrhea-kennedy-cooking-show/91111972007/-full",
-          "author": "Rex Huppke",
-          "description": "This is a factual sentence that can be written here in the year 2026: Amid an outbreak of explosive diarrhea and with measles cases at a 35-year high, America’s top health official, who has an affinity for picking up roadkill and guzzling raw milk, will soon start hosting a cooking show.\nI’m not sure if it’s the “explosive diarrhea” thing that’s stopping me or the idea that Health and Human Services Secretary Robert F. Kennedy Jr., recently seen chugging whole milk while wearing jeans in a hot tub with scroungy washed-up singer Kid Rock, thinks he can offer culinary tips to anyone who hasn’t already died from a preventable disease.\nUSA TODAY reported: “Kennedy is launching ‘The Real Food Show,’ a new cooking series on July 30, to help translate the new Dietary Guidelines for Americans into…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/07/30/cyclospora-outbreak-diarrhea-kennedy-cooking-show/91111972007/",
-          "publishedOn": "2026-08-10T11:05:48.941Z",
-          "wordCount": 4225,
-          "title": "Forget explosive diarrhea. Protect us from RFK Jr.'s new cooking show.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/29/USAT/91097956007-xxx-20260729-jm-rfk-006.JPG?crop=4195,2362,x0,y0&width=3200&height=1802&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/30/great-american-state-fair-trump-attendance/90741971007/-full",
-          "author": "Rex Huppke",
-          "description": "I love President Donald Trump’s Great American State Fair. I love its emptiness. Its expensive food. Its ability to confound Trump-friendly media outlets that keep pretending it’s going great.\nThis spectacle on the National Mall in Washington, DC, part of Trump’s Trump-centric celebration of America’s 250th anniversary, is like watching your high school bully host a party that no one attends. It’s a daily humiliation for a wildly unpopular president who coopted what should be a unifying national celebration and turned it into repellent schlock.\nAnd I love it so much it hurts.\n\nTrump's Great American State Fair humiliation is soothing America\nI love seeing Fox News broadcasting from the fair, its hosts claiming the place is filled with excited patriots while the scenes behind them show a va…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/30/great-american-state-fair-trump-attendance/90741971007/",
-          "publishedOn": "2026-08-10T11:05:48.909Z",
-          "wordCount": 4355,
-          "title": "The Great American State Fair is Trump's daily humiliation. I love it.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90716538007-20260626-t-050118-z-548195326-rc-241-ma-60-ne-6-rtrmadp-3-usa-250-statefair.JPG?crop=5494,3091,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
         }
       ]
     },
@@ -1964,6 +1884,36 @@
       "feedUrl": "https://rss-funnel.onrender.com/sfgate-drew-magary.xml",
       "siteUrl": "https://www.sfgate.com/author/drew-magary/",
       "articles": [
+        {
+          "id": "https://www.sfgate.com/sf-culture/article/craig-newmark-interview-22377691.php",
+          "author": null,
+          "description": "error fetching full text: Reqwest client error: error decoding response body",
+          "link": "https://www.sfgate.com/sf-culture/article/craig-newmark-interview-22377691.php",
+          "publishedOn": "2026-08-20T20:25:39.454Z",
+          "wordCount": 177,
+          "title": "Craiglist's founder on why he left San Francisco and the plans for his billions",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sfgate.com/49ers/article/brandon-aiyuk-career-over-22327356.php",
+          "author": null,
+          "description": "error fetching full text: Reqwest client error: error decoding response body",
+          "link": "https://www.sfgate.com/49ers/article/brandon-aiyuk-career-over-22327356.php",
+          "publishedOn": "2026-08-20T20:25:39.447Z",
+          "wordCount": 177,
+          "title": "Brandon Aiyuk's NFL career is already over",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sfgate.com/sf-culture/article/lucky-tv-review-22367441.php",
+          "author": null,
+          "description": "error fetching full text: Reqwest client error: error decoding response body",
+          "link": "https://www.sfgate.com/sf-culture/article/lucky-tv-review-22367441.php",
+          "publishedOn": "2026-08-20T20:25:39.440Z",
+          "wordCount": 177,
+          "title": "The new Anya Taylor-Joy vehicle is so stupid and so good",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php-full",
           "author": null,
@@ -2091,6 +2041,26 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73487450/trump-family-mineral-deals/",
+          "author": null,
+          "description": "Democrats say there are “conflicts of interest.” Could that be an understatement?",
+          "link": "https://www.esquire.com/news-politics/politics/a73487450/trump-family-mineral-deals/",
+          "publishedOn": "2026-08-20T19:43:36.000Z",
+          "wordCount": 19790,
+          "title": "There’s Nothing Sketchy at All About Trump’s Critical-Mineral Deals",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/d4f8d8a9-8233-4081-ae71-22de7fd95f31.jpeg?crop=1xw:0.840469048268xh;center,top&resize=1200:*"
+        },
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73486910/florida-school-board-elections-moms-for-liberty/",
+          "author": null,
+          "description": "Even the little victories matter.",
+          "link": "https://www.esquire.com/news-politics/politics/a73486910/florida-school-board-elections-moms-for-liberty/",
+          "publishedOn": "2026-08-20T18:54:54.000Z",
+          "wordCount": 21201,
+          "title": "A Moms for Liberty Cofounder Just Got Her Butt Kicked in a Florida School Board Race, and I Couldn’t Be Happier",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/40ffb29b-c386-4200-bdcc-a528609e4469.jpeg?crop=1xw:0.752xh;0xw,0.05xh&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a73484188/greenhouse-gas-emissions-reporting-epa/",
           "author": null,
@@ -2383,22 +2353,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!bAr1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb23d6914-7ba6-4030-9b54-86ee66792c3a_640x640.jpeg"
-        },
-        {
-          "id": "https://www.flowstate.fm/p/flow-state-episode-338",
-          "author": "Flow State",
-          "description": "Today’s mix opens with new ambient collaborations: one by Foam and Sand & Six Missing, another by Artefakt & KMRU.",
-          "link": "https://www.flowstate.fm/p/flow-state-episode-338",
-          "publishedOn": "2026-08-11T07:02:12.000Z",
-          "wordCount": null,
-          "title": "Flow State Episode 338",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://api.substack.com/feed/podcast/210705361/37bdb4dfc7188a8f497ca9c7ad644330.mp3",
-            "length": "0",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
@@ -2514,6 +2468,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1555475",
+          "author": "Josh Marshall",
+          "description": "I wanted to follow up on my post about Pat Ruffini’s deep dive about the accuracy of Senate race polling...",
+          "link": "https://talkingpointsmemo.com/edblog/is-there-a-polling-crisis-and-why-should-we-care-if-there-is",
+          "publishedOn": "2026-08-20T20:02:26.000Z",
+          "wordCount": 3727,
+          "title": "Is There a Polling ‘Crisis’ and Why Should We Care If There Is?",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2020/11/GettyImages-1229436754.jpg?w=1200"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1555350",
           "author": "Josh Marshall",
