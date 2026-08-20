@@ -538,36 +538,6 @@
           "wordCount": 565,
           "title": "Marcin Borkowski: Emphasizing a region in Org mode",
           "imageUrl": null
-        },
-        {
-          "id": "https://irreal.org/blog/?p=14002",
-          "author": null,
-          "description": "Tab is pressed right after the abbreviation.\n\n\nWhat’s less well known is that these abbreviations can have properties and one of those properties is to specify a function that will tell Emacs whether or not it should expand the abbreviation. Prot gives a few examples of this. In one example, he wants “Welcome” to expand to a French greeting but only if he is using one of the French input methods. Another example expands an abbreviation only if he’s in a certain directory or one of its subdirectories. A third example expands an abbreviation only if a certain minor mode is active.\n\n\nThose examples might seem like they’d be complicated but they are, in fact, simple, almost trivial. In the call to define-abbrev, you simply give the name of the deciding function in the :enable-function clause. Check out Prot’s video for the details.\n\n\nI use several abbreviation systems—including abbrev—but this capability in abbrev is especially nice. It’s easy to use and you can make the firing condition as simple or complex as you need it to be.\n\n\nProt’s video is 14 minutes, 33 seconds so it should be easy to find time for it. As with all of Prot’s videos, it’s worth the time.",
-          "link": "https://irreal.org/blog/?p=14002",
-          "publishedOn": "2026-08-10T14:45:51.000Z",
-          "wordCount": 1491,
-          "title": "Irreal: Conditional Abbrevs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://sachachua.com/blog/2026/08/2026-08-10-emacs-news/",
-          "author": null,
-          "description": "Upcoming events (iCal file, Org):\n\nLondon Emacs (in person): Emacs London meetup https://www.meetup.com/london-emacs-hacking/events/315859503/ Tue Aug 11 1800 Europe/London\nEmacs Berlin: In-Person-Only Emacs-Berlin Stammtisch https://emacs-berlin.org/ Tue Aug 11 1900 Europe/Berlin\nOrgMeetup (virtual) https://orgmode.org/worg/orgmeetup.html Wed Aug 12 0900 America/Vancouver - 1100 America/Chicago - 1200 America/Toronto - 1600 Etc/UTC - 1800 Europe/Berlin - 2130 Asia/Kolkata – Thu Aug 13 0000 Asia/Singapore\nAtelier Emacs Montpellier (in person) https://lebib.org/date/atelier-emacs Fri Aug 14 1800 Europe/Paris\nOrgDevMeetup https://bbb.emacsverse.org/rooms/orgdevmeetup Sat Aug 15 0900 America/Vancouver - 1100 America/Chicago - 1200 America/Toronto - 1600 Etc/UTC - 1800 Europe/Berlin - 2130 Asi…",
-          "link": "https://sachachua.com/blog/2026/08/2026-08-10-emacs-news/",
-          "publishedOn": "2026-08-10T13:49:50.000Z",
-          "wordCount": 1024,
-          "title": "Sacha Chua: 2026-08-10 Emacs news",
-          "imageUrl": null
-        },
-        {
-          "id": "http://en.andros.dev/blog/70d817e8/web-design-for-terminal-browsers/",
-          "author": null,
-          "description": "This is a purely-for-fun exercise: a guide to web design for terminal browsers. Starting from the text browsers people actually use, I am going to pull out a set of rules in case you ever decide to build a site meant to read and look its best in a terminal. It is not an alternative to Gemini, Gopher or a smallweb attempt, but a set of best practices so your site reads well in a terminal browser, and even so you can build Web Apps for the terminal.\nFive engines, one test\nThe first step is to install the five text engines people actually use and feed them the same test pages, isolating one feature at a time.\nw3m (0.5.6): the most capable with tables, and it even draws images in terminals that allow it.\nlynx (2.9.3): the patriarch, the lowest common denominator since 1992.\nlinks (2.30): fast,…",
-          "link": "http://en.andros.dev/blog/70d817e8/web-design-for-terminal-browsers/",
-          "publishedOn": "2026-08-10T13:47:15.000Z",
-          "wordCount": 2557,
-          "title": "Andros Fenollosa: Web Design for Terminal Browsers",
-          "imageUrl": "https://img.andros.dev/gyy42v64FLveCw6R2AdiCIdFtKY=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/valeria-reverdo-jdd5u5kg9Ro-unsplash.jpg"
         }
       ]
     },
@@ -1255,16 +1225,6 @@
           "wordCount": 4184,
           "title": "The Crossword, Aug. 10: Midpoint",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2188283415.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=231768",
-          "author": "Ray Ratto",
-          "description": "The notice from Don Nelson's family announcing his death on Sunday at the age of 86 said he \"peacefully went to be with the Lord, surrounded by his loving family.” This immediately convinces us that the deity in question here likes uptempo basketball, beer, blunts, and cards, and who wouldn't want a final judge who leans into those pastimes?\nEvery Nelson obit, including this one, will note that he was the second-winningest coach in NBA history—1,335 wins, not including 75 playoff victories. That is maybe the 17th most interesting thing about him. He was the iconoclast's iconoclast, devoted not just to winning basketball games but to finding ways to win them in the manner of his choosing. The manner he chose favored teams that were improbably fast and impossibly small, and he used it to take bad teams and swiftly make them infuriatingly good. He irked his bosses and enraged his superiors everywhere he went; he befriended players and took money from sportswriters unwise enough to sit at his poker table. He took three different teams to the playoffs as seventh or eighth seeds and won the first-round series, still the only coach to do so, and he also coached a team to 48 wins and missed the playoffs. He was in short the single liveliest underdog in the field wherever that field happened to be. He is almost certainly the only coach to have a distinct playing style named for him—Nellie Ball, by far the least creative thing about it—probably because nobody else had dared to try it.\nThey do now, though. Big men at the arc, three- and four-guard sets, treating the shot clock like a stopwatch that should never expire—Nelson was into all that decades ago, and while he might have been an old fud compared to some of today's hoops accelerationists, none of those teams would have even dared be who they are now if he hadn't done it back in the long ago.",
-          "link": "https://defector.com/don-nelson-followed-his-bliss-and-changed-basketball",
-          "publishedOn": "2026-08-10T13:52:18.000Z",
-          "wordCount": 7571,
-          "title": "Don Nelson Followed His Bliss And Changed Basketball",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-1321892950.jpg"
         }
       ]
     },
@@ -1307,6 +1267,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3339",
+          "author": "Schill",
+          "description": "There are certain songs that seem to define an entire musical attitude without ever becoming conventional radio hits in the",
+          "link": "https://stuffthatinterestsme.net/song-battle-where-is-my-mind-vs-blister-in-the-sun/",
+          "publishedOn": "2026-08-20T02:21:31.000Z",
+          "wordCount": 3741,
+          "title": "Song Battle: “Where Is My Mind?” vs. “Blister in the Sun”",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3178",
           "author": "Schill",
@@ -2577,16 +2547,6 @@
           "wordCount": 6102,
           "title": "Propaganda",
           "imageUrl": "https://gomakethings.com/img/og.png"
-        },
-        {
-          "id": "https://gomakethings.com/articles/rebuilding-communities/",
-          "author": null,
-          "description": "The video Constructing the Revolution talks about how to start prefiguring the future you want today.\n(Heads up: the middle section of the video gets into some pretty heavy territory near the middle.)\nEarly on, there’s some important conversation about rebuilding and repairing communities that have been shattered by a system that deliberately pits us against one another.\n All hierarchies of power desire to keep us separate, competing, and individualistic, because because we’re easier to exploit that way.",
-          "link": "https://gomakethings.com/articles/rebuilding-communities/",
-          "publishedOn": "2026-08-10T14:30:00.000Z",
-          "wordCount": 6090,
-          "title": "Rebuilding communities",
-          "imageUrl": "https://gomakethings.com/img/og.png"
         }
       ]
     },
@@ -2794,16 +2754,6 @@
           "wordCount": 2889,
           "title": "Houston, We Have a Problem … What’s Up With the National DSA?",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-2256790657.jpg?w=1200"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1554509",
-          "author": "Josh Marshall",
-          "description": "One of our great doctrines here in the Editors’ Blog is that all power is unitary. Lose or gain it...",
-          "link": "https://talkingpointsmemo.com/edblog/iran-says-desperate-orange-man-comes-to-us-begging-with-tears-in-his-eyes",
-          "publishedOn": "2026-08-10T14:06:31.000Z",
-          "wordCount": 2184,
-          "title": "Iran Says: ‘Desperate Orange Man Comes To Us Begging with Tears in His Eyes’",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/07/GettyImages-2287512925.jpg?w=1200"
         }
       ]
     },
@@ -2923,22 +2873,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!Aoga!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2fd03668-0e48-4efb-a340-903fea6368f2_400x600.jpeg"
-        },
-        {
-          "id": "https://morningmemo.talkingpointsmemo.com/p/first-at-tpm-judge-orders-immigrant",
-          "author": "David Kurtz",
-          "description": "INSIDE: Faustino Pablo Pablo ... David C. Guaderrama",
-          "link": "https://morningmemo.talkingpointsmemo.com/p/first-at-tpm-judge-orders-immigrant",
-          "publishedOn": "2026-08-10T14:48:39.000Z",
-          "wordCount": null,
-          "title": "First at TPM: Judge Orders Immigrant Released After Surreal Journey Through Trump’s Gulag Archipelago",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!6tbR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcad32c94-e1cb-423d-b427-6649492d675a_400x600.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!6tbR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcad32c94-e1cb-423d-b427-6649492d675a_400x600.jpeg"
         }
       ]
     },
@@ -3209,22 +3143,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!vJM6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f0324da-4fdf-4f2e-beb3-b1213ff409ca_1456x819.webp"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/racists-liars-cowards-and-dumbfucks",
-          "author": "Jeff Tiedrich",
-          "description": "scenes from the Sunday shows",
-          "link": "https://www.jefftiedrich.com/p/racists-liars-cowards-and-dumbfucks",
-          "publishedOn": "2026-08-10T14:27:46.000Z",
-          "wordCount": null,
-          "title": "racists, liars, cowards and dumbfucks: your Republican roundup",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!A_EU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F46df08dd-36b7-4048-973a-0091397ee508_720x406.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!A_EU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F46df08dd-36b7-4048-973a-0091397ee508_720x406.jpeg"
         }
       ]
     }
