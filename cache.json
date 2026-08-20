@@ -180,6 +180,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=14027",
+          "author": null,
+          "description": "release of Casual 3.0. There are now 26 modules in the Casual suite but this release is about providing an easier setup for the suite. Prior to this release, each module had to be set up separately. As Choi says, that made sense when there were just a few modules but it has become increasingly burdensome as the number of modules grew.\n\n\nThe new procedure is simply to call casual-init and all the module’s you want to use are initialized. The modules you’re using is determined by a set of hook functions that can configured with the Emacs Customize utility. You simple check off which modules you want to use and call casual-init. That’s all there is to it. You can learn more about this in the Casual User Manual.\n\n\nIf you’ve been following along on Choi’s blog—or to a lessor extent on Irreal—you know that there are a lot of different types of modules, not all of which you might want installed. The Customize interface is an easy way to specify which ones you want.\n\n\nThe latest version is available on MELPA and NonGNU ELPA. The nice thing about the modules is that they are all invoked with the same key sequence, Ctrl+o by default, so you don’t have to remember a bunch of different bindings. Once you invoke it, Casual brings up a Transient menu appropriate for the current major mode\n\n\nCasual is a nice suite that make it easier to navigate Emacs applications that you don’t use often and for which you haven’t internalized all the bindings. Take a look at the user manual if you want to know more.",
+          "link": "https://irreal.org/blog/?p=14027",
+          "publishedOn": "2026-08-20T14:46:27.000Z",
+          "wordCount": 1538,
+          "title": "Irreal: Setup For The Casual Suite",
+          "imageUrl": null
+        },
+        {
           "id": "https://list.orgmode.org/87bjawubs4.fsf@gmail.com",
           "author": null,
           "description": "[request] flags:--- replies:0 topic:org-colview",
@@ -546,6 +556,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=232649",
+          "author": "Maitreyi Anantharaman",
+          "description": "In a kinder world, WNBA expansion teams are allowed to flail and muck about in peace for a few years before anyone pays close attention to them. But this is an unkind world, one that finds the Golden State Valkyries second in the standings and headed to the playoffs for the second time in their two years of existence. You can understand why a Toronto Tempo fan might have been hoping for something more in the team’s inaugural season.\nFor the last time the Tempo won a game, you’ll need to go back to July 12, when they hosted the New York Liberty and eked out a victory, 93-91, despite leading by 20 points late in the third quarter. (Frankly, beating the Liberty shouldn’t even count.) Toronto’s 93-82 loss to the Mystics on Wednesday night extended their losing streak to 12 games and dropped their record to 10-25 with nine left to play.\nWhat’s gone wrong? By typical expansion-team standards, nothing really. But it did seem like the Tempo assembled their team with higher ambitions this past offseason. Unlike expansion classmate Portland or Golden State last year, the Tempo made big plays in the free-agent market, signing Marina Mabrey and Brittney Sykes to two-year max contracts, a multimillion-dollar backcourt to inaugurate the new CBA. When their offer-sheet play for Washington Mystics center Shakira Austin didn’t work, they also gave a $1 million contract to the expansion-coded Temi Fagbenle, who played for Golden State last season. “How quickly are you all looking to compete in a league that continues to grow in this golden era of talent?” ESPN’s Malika Andrews asked Tempo GM Monica Wright Rogers after the expansion draft in April. “The goal is to do that right away,” Wright Rogers answered.",
+          "link": "https://defector.com/the-tempo-have-to-take-things-at-their-own-pace",
+          "publishedOn": "2026-08-20T16:02:38.000Z",
+          "wordCount": 6763,
+          "title": "The Tempo Have To Take Things At Their Own Pace",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2290507193-e1787171515209.jpg"
+        },
         {
           "id": "https://defector.com/?p=232986",
           "author": "Ray Ratto",
@@ -1335,16 +1355,6 @@
           "publishedOn": "2026-08-12T02:06:29.000Z",
           "wordCount": 3682,
           "title": "Song Battle: “Hey Mickey” vs. “Whip It”",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3351",
-          "author": "Schill",
-          "description": "There is a strange rule in popular music: writing a great song and making the definitive recording of that song",
-          "link": "https://stuffthatinterestsme.net/when-the-cover-was-better-50-songs-where-someone-else-did-it-right/",
-          "publishedOn": "2026-08-11T03:54:57.000Z",
-          "wordCount": 3470,
-          "title": "When the Cover Was Better: 50 Songs Where Someone Else Did It Right",
           "imageUrl": null
         }
       ]
@@ -2703,6 +2713,22 @@
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/a-disturbing-peek-into-trumps-kafkaesque",
+          "author": "David Kurtz",
+          "description": "INSIDE: Greg Abbott ... Christian Castro ... Joyce Beatty",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/a-disturbing-peek-into-trumps-kafkaesque",
+          "publishedOn": "2026-08-20T15:06:52.000Z",
+          "wordCount": null,
+          "title": "A Disturbing Peek Into Trump’s Kafkaesque Immigration Courts",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!JrWM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0de9022-3754-477b-a0af-15693f31a2cd_400x600.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!JrWM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0de9022-3754-477b-a0af-15693f31a2cd_400x600.jpeg"
+        },
+        {
           "id": "https://morningmemo.talkingpointsmemo.com/p/trump-admin-and-its-allies-throw",
           "author": "David Kurtz",
           "description": "INSIDE: Angie Nixon ... Dan Sullivan(s) ... Harmeet Dhillon",
@@ -2924,6 +2950,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/no-one-gives-a-shit-about-your-white",
+          "author": "Jeff Tiedrich",
+          "description": "fix the country you broke, asshole",
+          "link": "https://www.jefftiedrich.com/p/no-one-gives-a-shit-about-your-white",
+          "publishedOn": "2026-08-20T14:37:13.000Z",
+          "wordCount": null,
+          "title": "no one gives a shit about your White House helipad, you out-of-touch fuck",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!QAAE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc41c715b-b774-4d10-9942-f9225f0e192f_1245x700.avif",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!QAAE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc41c715b-b774-4d10-9942-f9225f0e192f_1245x700.avif"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/holy-shit-dear-leaders-diaper-nurse",
           "author": "Jeff Tiedrich",

@@ -2,10 +2,64 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-20T14:34:18.996Z</updated>
+    <updated>2026-08-20T16:32:13.746Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Tempo Have To Take Things At Their Own Pace]]></title>
+        <id>https://defector.com/?p=232649</id>
+        <link href="https://defector.com/the-tempo-have-to-take-things-at-their-own-pace"/>
+        <updated>2026-08-20T16:02:38.000Z</updated>
+        <summary type="html"><![CDATA[In a kinder world, WNBA expansion teams are allowed to flail and muck about in peace for a few years before anyone pays close attention to them. But this is an unkind world, one that finds the Golden State Valkyries second in the standings and headed to the playoffs for the second time in their two years of existence. You can understand why a Toronto Tempo fan might have been hoping for something more in the team’s inaugural season.
+For the last time the Tempo won a game, you’ll need to go back to July 12, when they hosted the New York Liberty and eked out a victory, 93-91, despite leading by 20 points late in the third quarter. (Frankly, beating the Liberty shouldn’t even count.) Toronto’s 93-82 loss to the Mystics on Wednesday night extended their losing streak to 12 games and dropped their record to 10-25 with nine left to play.
+What’s gone wrong? By typical expansion-team standards, nothing really. But it did seem like the Tempo assembled their team with higher ambitions this past offseason. Unlike expansion classmate Portland or Golden State last year, the Tempo made big plays in the free-agent market, signing Marina Mabrey and Brittney Sykes to two-year max contracts, a multimillion-dollar backcourt to inaugurate the new CBA. When their offer-sheet play for Washington Mystics center Shakira Austin didn’t work, they also gave a $1 million contract to the expansion-coded Temi Fagbenle, who played for Golden State last season. “How quickly are you all looking to compete in a league that continues to grow in this golden era of talent?” ESPN’s Malika Andrews asked Tempo GM Monica Wright Rogers after the expansion draft in April. “The goal is to do that right away,” Wright Rogers answered.]]></summary>
+        <author>
+            <name>Maitreyi Anantharaman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Disturbing Peek Into Trump’s Kafkaesque Immigration Courts]]></title>
+        <id>https://morningmemo.talkingpointsmemo.com/p/a-disturbing-peek-into-trumps-kafkaesque</id>
+        <link href="https://morningmemo.talkingpointsmemo.com/p/a-disturbing-peek-into-trumps-kafkaesque"/>
+        <updated>2026-08-20T15:06:52.000Z</updated>
+        <summary type="html"><![CDATA[INSIDE: Greg Abbott ... Christian Castro ... Joyce Beatty]]></summary>
+        <author>
+            <name>David Kurtz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Irreal: Setup For The Casual Suite]]></title>
+        <id>https://irreal.org/blog/?p=14027</id>
+        <link href="https://irreal.org/blog/?p=14027"/>
+        <updated>2026-08-20T14:46:27.000Z</updated>
+        <summary type="html"><![CDATA[release of Casual 3.0. There are now 26 modules in the Casual suite but this release is about providing an easier setup for the suite. Prior to this release, each module had to be set up separately. As Choi says, that made sense when there were just a few modules but it has become increasingly burdensome as the number of modules grew.
+
+
+The new procedure is simply to call casual-init and all the module’s you want to use are initialized. The modules you’re using is determined by a set of hook functions that can configured with the Emacs Customize utility. You simple check off which modules you want to use and call casual-init. That’s all there is to it. You can learn more about this in the Casual User Manual.
+
+
+If you’ve been following along on Choi’s blog—or to a lessor extent on Irreal—you know that there are a lot of different types of modules, not all of which you might want installed. The Customize interface is an easy way to specify which ones you want.
+
+
+The latest version is available on MELPA and NonGNU ELPA. The nice thing about the modules is that they are all invoked with the same key sequence, Ctrl+o by default, so you don’t have to remember a bunch of different bindings. Once you invoke it, Casual brings up a Transient menu appropriate for the current major mode
+
+
+Casual is a nice suite that make it easier to navigate Emacs applications that you don’t use often and for which you haven’t internalized all the bindings. Take a look at the user manual if you want to know more.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[no one gives a shit about your White House helipad, you out-of-touch fuck]]></title>
+        <id>https://www.jefftiedrich.com/p/no-one-gives-a-shit-about-your-white</id>
+        <link href="https://www.jefftiedrich.com/p/no-one-gives-a-shit-about-your-white"/>
+        <updated>2026-08-20T14:37:13.000Z</updated>
+        <summary type="html"><![CDATA[fix the country you broke, asshole]]></summary>
+        <author>
+            <name>Jeff Tiedrich</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[On fresh starts]]></title>
         <id>https://gomakethings.com/articles/on-fresh-starts/</id>
@@ -3459,16 +3513,6 @@ more…]]></summary>
  [link]   [comments]]]></summary>
         <author>
             <name>DepthHub: A jumping-off point for deeply-involved subreddits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When the Cover Was Better: 50 Songs Where Someone Else Did It Right]]></title>
-        <id>https://stuffthatinterestsme.net/?p=3351</id>
-        <link href="https://stuffthatinterestsme.net/when-the-cover-was-better-50-songs-where-someone-else-did-it-right/"/>
-        <updated>2026-08-11T03:54:57.000Z</updated>
-        <summary type="html"><![CDATA[There is a strange rule in popular music: writing a great song and making the definitive recording of that song]]></summary>
-        <author>
-            <name>Schill</name>
         </author>
     </entry>
     <entry>
