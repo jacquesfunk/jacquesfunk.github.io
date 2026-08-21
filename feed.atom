@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-21T01:11:05.393Z</updated>
+    <updated>2026-08-21T03:00:43.667Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Phriday Phistory: Worcester Jim]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3244</id>
+        <link href="https://stuffthatinterestsme.net/phriday-phistory-worcester-jim/"/>
+        <updated>2026-08-21T02:59:06.000Z</updated>
+        <summary type="html"><![CDATA[Phish’s performance on November 29, 1997, at the Worcester Centrum Centre in Worcester, Massachusetts, is widely regarded as one of]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Top 10 Bands That Need to Give It Up and Retire]]></title>
         <id>https://stuffthatinterestsme.net/?p=3385</id>
@@ -3739,45 +3749,6 @@ Tom:]]></summary>
         <summary type="html"><![CDATA[INSIDE: Trent McCotter ... Emil Bove ... Todd Blanche]]></summary>
         <author>
             <name>David Kurtz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Markup Editing In Org Mode]]></title>
-        <id>https://irreal.org/blog/?p=14006</id>
-        <link href="https://irreal.org/blog/?p=14006"/>
-        <updated>2026-08-11T14:43:02.000Z</updated>
-        <summary type="html"><![CDATA[write a word or region in bold, that’s easy. He merely  starts and end it text with a star.  Making a word or region bold after the fact—in the editing phase—is more difficult. You have to locate the beginning of the text, add a star, move to the end of the text, and add another star.
-
-
-Mbork, of course, soon discovered the solution: org-emphjasize. All you need to do is highlight the text and specify the markup character. The problem is that the binding for org-emphasize, Ctrl+c Ctrl+x Ctrl+f, is difficult to type. Mbork solved that writing a function to call org-emphasize with an argument * to cover his most common use. But then he bound it to Ctrl+c Ctrl+x Ctrl+8, which strikes me as just as bad, although you don’t have to specify the *.
-
-
-My solution for this is to use surround.el that I wrote about here and Bozhidar Batsov wrote about here. I have it bound to Hyper+’ so it’s easy to call. I suppose you could even do as mbork did and write a specialized function for a heavily applied use case.
-
-
-One thing for sure, mbork is right about markup being harder to deal with when editing.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[While Wearing An Orange Wig And A Big Red Foam Nose, Fabrizio Romano Insists He’s Not A Clown]]></title>
-        <id>https://defector.com/?p=231677</id>
-        <link href="https://defector.com/while-wearing-an-orange-wig-and-a-big-red-foam-nose-fabrizio-romano-insists-hes-not-a-clown"/>
-        <updated>2026-08-11T14:33:04.000Z</updated>
-        <summary type="html"><![CDATA[If you are a soccer fan of any real commitment, then surely you've seen last week's news that Real Madrid officially landed Ivorian winger (and former Florida high school student!) Yan Diomandé, prying him away from RB Leipzig with the considerable leverage exerted by €125 million. If you followed along with the transfer saga as it unfolded, you may have been surprised by how long the deal took to complete, considering that all credible reports said it has been all but tied up for almost two whole weeks. But transfers are complex animals, and are liable to come together or fall apart at any given moment for any number of reasons. A deal is never done until it is done. A lesson transfer obsessives have had occasion to relearn with the Diomandé affair, and which journo-influencer Fabrizio Ro…]]></summary>
-        <author>
-            <name>Billy Haisley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[it’s been six months]]></title>
-        <id>https://www.jefftiedrich.com/p/its-been-six-months</id>
-        <link href="https://www.jefftiedrich.com/p/its-been-six-months"/>
-        <updated>2026-08-11T13:57:05.000Z</updated>
-        <summary type="html"><![CDATA[an extremely necessary mental health break, but also some stuff about Donny Dumbfuck]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
         </author>
     </entry>
 </feed>

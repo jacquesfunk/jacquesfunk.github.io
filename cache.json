@@ -518,16 +518,6 @@
           "wordCount": 875,
           "title": "Ashish Panigrahi: Reviewing finished tasks from last week in org-agenda and emacs",
           "imageUrl": null
-        },
-        {
-          "id": "https://irreal.org/blog/?p=14006",
-          "author": null,
-          "description": "write a word or region in bold, that’s easy. He merely  starts and end it text with a star.  Making a word or region bold after the fact—in the editing phase—is more difficult. You have to locate the beginning of the text, add a star, move to the end of the text, and add another star.\n\n\nMbork, of course, soon discovered the solution: org-emphjasize. All you need to do is highlight the text and specify the markup character. The problem is that the binding for org-emphasize, Ctrl+c Ctrl+x Ctrl+f, is difficult to type. Mbork solved that writing a function to call org-emphasize with an argument * to cover his most common use. But then he bound it to Ctrl+c Ctrl+x Ctrl+8, which strikes me as just as bad, although you don’t have to specify the *.\n\n\nMy solution for this is to use surround.el that I wrote about here and Bozhidar Batsov wrote about here. I have it bound to Hyper+’ so it’s easy to call. I suppose you could even do as mbork did and write a specialized function for a heavily applied use case.\n\n\nOne thing for sure, mbork is right about markup being harder to deal with when editing.",
-          "link": "https://irreal.org/blog/?p=14006",
-          "publishedOn": "2026-08-11T14:43:02.000Z",
-          "wordCount": 1478,
-          "title": "Irreal: Markup Editing In Org Mode",
-          "imageUrl": null
         }
       ]
     },
@@ -1185,16 +1175,6 @@
           "wordCount": 15733,
           "title": "Cathy Engelbert Is Doing The Job She Was Hired To Do",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2285075803.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=231677",
-          "author": "Billy Haisley",
-          "description": "If you are a soccer fan of any real commitment, then surely you've seen last week's news that Real Madrid officially landed Ivorian winger (and former Florida high school student!) Yan Diomandé, prying him away from RB Leipzig with the considerable leverage exerted by €125 million. If you followed along with the transfer saga as it unfolded, you may have been surprised by how long the deal took to complete, considering that all credible reports said it has been all but tied up for almost two whole weeks. But transfers are complex animals, and are liable to come together or fall apart at any given moment for any number of reasons. A deal is never done until it is done. A lesson transfer obsessives have had occasion to relearn with the Diomandé affair, and which journo-influencer Fabrizio Ro…",
-          "link": "https://defector.com/while-wearing-an-orange-wig-and-a-big-red-foam-nose-fabrizio-romano-insists-hes-not-a-clown",
-          "publishedOn": "2026-08-11T14:33:04.000Z",
-          "wordCount": 10866,
-          "title": "While Wearing An Orange Wig And A Big Red Foam Nose, Fabrizio Romano Insists He’s Not A Clown",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2278749146.jpg"
         }
       ]
     },
@@ -1236,6 +1216,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3244",
+          "author": "Schill",
+          "description": "Phish’s performance on November 29, 1997, at the Worcester Centrum Centre in Worcester, Massachusetts, is widely regarded as one of",
+          "link": "https://stuffthatinterestsme.net/phriday-phistory-worcester-jim/",
+          "publishedOn": "2026-08-21T02:59:06.000Z",
+          "wordCount": 1759,
+          "title": "Phriday Phistory: Worcester Jim",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3385",
           "author": "Schill",
@@ -3152,22 +3142,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!w-Pn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30bc24e0-9ea3-4438-a8c9-7200942c4365_1280x720.jpeg"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/its-been-six-months",
-          "author": "Jeff Tiedrich",
-          "description": "an extremely necessary mental health break, but also some stuff about Donny Dumbfuck",
-          "link": "https://www.jefftiedrich.com/p/its-been-six-months",
-          "publishedOn": "2026-08-11T13:57:05.000Z",
-          "wordCount": null,
-          "title": "it’s been six months",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!vJM6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f0324da-4fdf-4f2e-beb3-b1213ff409ca_1456x819.webp",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!vJM6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f0324da-4fdf-4f2e-beb3-b1213ff409ca_1456x819.webp"
         }
       ]
     }
