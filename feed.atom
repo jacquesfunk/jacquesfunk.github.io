@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-21T10:28:09.893Z</updated>
+    <updated>2026-08-21T12:42:28.052Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ICE gloves reveal how Trump’s revenge agenda is failing]]></title>
+        <id>https://www.salon.com/2026/08/21/ice-gloves-reveal-how-trumps-revenge-agenda-is-failing/-full</id>
+        <link href="https://www.salon.com/2026/08/21/ice-gloves-reveal-how-trumps-revenge-agenda-is-failing/"/>
+        <updated>2026-08-21T10:45:17.000Z</updated>
+        <summary type="html"><![CDATA[Since Markwayne Mullin took over the Department of Homeland Security in March, Immigration and Custom Enforcement has dialed back on the trolling. Gone are the videos and memes, posted regularly under the leadership of Mullin’s predecessor Kristi Noem, that mocked detainees for crying and celebrated ICE agents for being recklessly violent. There have been no more showy “invasions” of cities like Minneapolis or Los Angeles, as Mullin has aimed to draw less attention to ICE’s incompetent and legally dubious methods. His strategy has largely worked in getting the unpopular agency’s name out of the headlines.
+But that doesn’t mean ICE has given up on fulfilling Donald Trump and Stephen Miller’s cruel fantasies. The xenophobic Miller agenda is still being treated as the vanguard in White House …]]></summary>
+        <author>
+            <name>Amanda Marcotte - Salon.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[K Wata]]></title>
         <id>https://www.flowstate.fm/p/k-wata</id>
@@ -3570,32 +3581,6 @@ I struggle to understand these d…]]></summary>
         <summary type="html"><![CDATA[The early 1980s produced plenty of great songs, but it also produced a special category of hit that seemed almost]]></summary>
         <author>
             <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ashish Panigrahi: Reviewing finished tasks from last week in org-agenda and emacs]]></title>
-        <id>https://ashishpanigrahi.com/blog/done-items-org-agenda/</id>
-        <link href="https://ashishpanigrahi.com/blog/done-items-org-agenda/"/>
-        <updated>2026-08-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Being a PhD student within a research group entails some structure to
-tracking your progress as you proceed with research. Within the
-current team that I'm in, we have weekly group meetings where each
-member presents the tasks that they've completed during the previous
-week and discusses any issues they might've faced (if any), to our
-supervisor.
-Usually before the meeting, I jot down things that I've finished with
-pen and paper. But since I'm in the spirit of integrating my workflow
-with emacs and orgmode, I thought why don't I try implementing this
-part of my routine also into orgmode.
-Enter org-agenda
-All my todo items are tracked with
-org-agenda where I
-capture every task I need to finish with
-org-capture1.
-I have a custom org-agenda view just for viewing my daily and weekly
-TODO items…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
