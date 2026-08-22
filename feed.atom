@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-22T01:07:29.330Z</updated>
+    <updated>2026-08-22T02:52:23.238Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Why the Traveling Wilburys Are the Greatest Supergroup Ever]]></title>
+        <id>https://historyofmusic.net/?p=5800</id>
+        <link href="https://historyofmusic.net/folk/why-the-traveling-wilburys-are-the-greatest-supergroup-ever/"/>
+        <updated>2026-08-22T02:25:39.000Z</updated>
+        <summary type="html"><![CDATA[The idea of a supergroup sounds better on paper than it usually does in practice. Take several famous musicians, put]]></summary>
+        <author>
+            <name>schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[20 Old Bands and Artists Who Somehow Came Back in the ’80s]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3389</id>
+        <link href="https://stuffthatinterestsme.net/20-old-bands-and-artists-who-somehow-came-back-in-the-80s/"/>
+        <updated>2026-08-22T01:11:20.000Z</updated>
+        <summary type="html"><![CDATA[The 1980s were supposed to be the decade of the new. MTV was exploding. Synthesizers were everywhere. New wave, punk,]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chief Justice John Roberts Must Really Want to Boogie at Trump’s Big, Ugly Ballroom]]></title>
         <id>http://www.esquire.com/news-politics/politics/a73498575/chief-justice-john-roberts-trump-ballroom-decision/</id>
@@ -3441,81 +3461,6 @@ https://bsky.app/profile/profootballtalk.bsky.social/post/3mrurzuufhk2u]]></summ
         <link href="https://talkingpointsmemo.com/edblog/wait-how-were-the-polls-this-far-off"/>
         <updated>2026-08-12T15:06:24.000Z</updated>
         <summary type="html"><![CDATA[Having discussed the results and prediction markets, let me address a different question I saw brought up last night. If...]]></summary>
-        <author>
-            <name>Josh Marshall</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Abdul El-Sayed, fuck yeah]]></title>
-        <id>https://www.jefftiedrich.com/p/abdul-el-sayed-fuck-yeah</id>
-        <link href="https://www.jefftiedrich.com/p/abdul-el-sayed-fuck-yeah"/>
-        <updated>2026-08-12T14:41:31.000Z</updated>
-        <summary type="html"><![CDATA[and fuck yeah, Democratic Socialists]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Emacs Development: Ongoing And Good]]></title>
-        <id>https://irreal.org/blog/?p=14008</id>
-        <link href="https://irreal.org/blog/?p=14008"/>
-        <updated>2026-08-12T14:38:54.000Z</updated>
-        <summary type="html"><![CDATA[he jumped in the deep end and downloaded and built Master (Emacs 32) fully expecting to find lots of broken things.
-
-
-It didn’t turn out that way. He was, in fact, surprised to discover that almost everything worked well. The only problem he had was evil on Windows and he solved that by simply upgrading evil. As for the rest, he found that Emacs was super-responsive and all the functionality that seemed laggy in that other editor was snappy in Emacs.
-
-
-There are two lessons here. The first is that Emacs, far from being moribund, is undergoing continuing development and introducing new features. The second point is that Emacs is, unlike some of its competitors,  continuing to produce upgrades that simply work and don’t make their users crazy.
-
-
-Very shortly, we should see the release of Emacs 31 but work on Emacs 32 is already ongoing and amazingly stable for what is, after all, alpha software. The next time someone tells you that Emacs is old and moribund, refer them to gonstrider’s post.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[‘The Cruelest Game’ Examines Tennis As Torture]]></title>
-        <id>https://defector.com/?p=232110</id>
-        <link href="https://defector.com/the-cruelest-game-examines-tennis-as-torture"/>
-        <updated>2026-08-12T14:28:56.000Z</updated>
-        <summary type="html"><![CDATA[Professional tennis has a way of breeding misery. It begins with the dream of reaching the No. 1 ranking, but almost everybody falls short. Those who find the promised land feel puzzlingly empty once there. Familial and coaching roles blur. Prodigious children bear the responsibility of feeding and enriching their families. The mechanism through which matches are decided is a torturous maze disguised as a scoring system. Tune in and you may see grown adults reaming out their support staff, family, the chair umpire, and themselves; tearful breakdowns mid-match; balls whacked out of the stadium, into the stands, or occasionally into a tournament employee's vital organ; rackets thrashed and mangled on the court.
-It's that last image which resides on the cover of Matthew Futterman's new book T…]]></summary>
-        <author>
-            <name>Owen Lewis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TAONAW - Emacs and Org Mode: Back to Solarized]]></title>
-        <id>https://taonaw.com/2026/08/12/back-to-solarized.html</id>
-        <link href="https://taonaw.com/2026/08/12/back-to-solarized.html"/>
-        <updated>2026-08-12T14:09:15.000Z</updated>
-        <summary type="html"><![CDATA[Years ago, when I started the old blog1, I discovered Solarized.
-I liked it. The colors were beautiful and worked for me, but eventually I switched to the Gotham theme in Emacs, which, if you take a look, is not much different — just a bit darker. I stayed with this theme for a long time, tweaking it a bit after a trip to New Mexico.
-When I received my Mac and started working on it at home, I enjoyed its automatic switching between dark and light themes. At the same time, Prot started coming out with more of his excellent Ef Themes, and I adopted ef-reverie for my light theme and ef-night for my dark one (once again, if you look at the images, you’d see they’re not far off from Solarized, especially my choice of a light theme).
-This has been the state of affairs until the beginning of this…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[With The Power Of AI, Information Can Pour Straight Through Your Skull And Onto The Ground Without Ever Slowing]]></title>
-        <id>https://defector.com/?p=232048</id>
-        <link href="https://defector.com/axios-ai-reading"/>
-        <updated>2026-08-12T13:35:03.000Z</updated>
-        <summary type="html"><![CDATA[Reading: What is it? Why does anyone do it? Can anyone at Axios do it? No. Maybe that is why they write like that.
-When you read a book, the stuff in the book goes into your mind, and your mind assembles all of the stuff into imagery and thoughts and feelings, and alchemizes meaning from it. A person reasonably could consider this "what's good about reading," or "the point of reading," or "buddy that's actually just ... what reading is," but that all assumes that your reason for reading anything is that you want to learn something from it, even if it's only at the level of, like, what ultimately happens to the Whos down in Whoville.
-Before today, I had taken for granted that this, the desire to put into one's head something that wasn't already in there, was the only reason anyone would want to read anything, ever. Even the reading people do in furtherance of the most dismal goals—even when somebody reads some miserable how-to-get-ahead-in-business book, or a sociopathic pickup-artist manual—they do because they hope to extract from the text something useful, which will reside in their brain long enough to be exploited. The compulsory reading students do for school, likewise: They hope to retain enough of this dry 19th-century novel about variability in the relative politeness of indistinguishable British persons to score a decent grade on the upcoming test. In all cases, the goal is best understood as putting something into your mind that wasn't there before.]]></summary>
-        <author>
-            <name>Albert Burneko</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[‘Prediction’ Markets Get Trounced in Hong’s Defeat]]></title>
-        <id>https://talkingpointsmemo.com/?p=1554771</id>
-        <link href="https://talkingpointsmemo.com/edblog/prediction-markets-get-trounced-in-hongs-defeat"/>
-        <updated>2026-08-12T13:20:32.000Z</updated>
-        <summary type="html"><![CDATA[We went late into the evening waiting for absentee ballots in Milwaukee County last night. But Milwaukee County executive David...]]></summary>
         <author>
             <name>Josh Marshall</name>
         </author>
