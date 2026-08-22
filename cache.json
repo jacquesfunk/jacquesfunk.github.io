@@ -468,16 +468,6 @@
           "wordCount": 1313,
           "title": "Irreal: Some Thursday Humor",
           "imageUrl": null
-        },
-        {
-          "id": "https://olddeuteronomy.github.io/post/emacs-dired-ubuntu26/",
-          "author": null,
-          "description": "Just recently I upgraded one of my Dell laptops to the latest Ubuntu\n26.04 LTS with a clean install. The installation process was smooth\nand enjoyable.\nUbuntu 26.04 ships with Emacs 30.2, which made me happy, so I\ninstalled it immediately—more precisely, the emacs-pgtk\nWayland-optimized package, since Wayland is the default windowing\nsystem on Ubuntu 26.04.\nThe Problem\nI started Emacs and, after a short time, ran into a problem: Dired\n(C-x d) did not work properly. It displayed a strange mess of\nunsorted, chaotic entries, as shown below. It was a big surprise.\n\n      \nClick or tap to view the full-size picture.\nI’ve been using the same .emacs multi-platform config\nfile for Linux, macOS, and Windows for years and have never had any\nproblems with Dired on different platforms, let alone acros…",
-          "link": "https://olddeuteronomy.github.io/post/emacs-dired-ubuntu26/",
-          "publishedOn": "2026-08-13T09:55:47.000Z",
-          "wordCount": 789,
-          "title": "The Emacs Cat: Emacs, Dired, and Ubuntu 26.04",
-          "imageUrl": null
         }
       ]
     },
@@ -1066,6 +1056,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=2943",
+          "author": "Schill",
+          "description": "Erasure – “Chains of Love”: The Joyful 1988 Anthem of Love, Freedom, and Acceptance Few synth-pop songs from the 1980s",
+          "link": "https://stuffthatinterestsme.net/saturday-night-80s-jam-erasure-chains-of-love/",
+          "publishedOn": "2026-08-22T20:53:49.000Z",
+          "wordCount": 2618,
+          "title": "Saturday Night 80s Jam: Erasure – Chains of Love",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3389",
           "author": "Schill",

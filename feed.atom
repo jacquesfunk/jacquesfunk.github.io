@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-22T20:20:08.184Z</updated>
+    <updated>2026-08-22T22:19:42.910Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Saturday Night 80s Jam: Erasure – Chains of Love]]></title>
+        <id>https://stuffthatinterestsme.net/?p=2943</id>
+        <link href="https://stuffthatinterestsme.net/saturday-night-80s-jam-erasure-chains-of-love/"/>
+        <updated>2026-08-22T20:53:49.000Z</updated>
+        <summary type="html"><![CDATA[Erasure – “Chains of Love”: The Joyful 1988 Anthem of Love, Freedom, and Acceptance Few synth-pop songs from the 1980s]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What Did Trump Do That Made Carney Walk Away?]]></title>
         <id>https://talkingpointsmemo.com/?p=1555640</id>
@@ -3256,32 +3266,6 @@ So imagine my shock – not relief, really, because I enjoy being angry and afra
 Hong's defeat in the Wisconsin primary shakes up my fear of …]]></summary>
         <author>
             <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Emacs Cat: Emacs, Dired, and Ubuntu 26.04]]></title>
-        <id>https://olddeuteronomy.github.io/post/emacs-dired-ubuntu26/</id>
-        <link href="https://olddeuteronomy.github.io/post/emacs-dired-ubuntu26/"/>
-        <updated>2026-08-13T09:55:47.000Z</updated>
-        <summary type="html"><![CDATA[Just recently I upgraded one of my Dell laptops to the latest Ubuntu
-26.04 LTS with a clean install. The installation process was smooth
-and enjoyable.
-Ubuntu 26.04 ships with Emacs 30.2, which made me happy, so I
-installed it immediately—more precisely, the emacs-pgtk
-Wayland-optimized package, since Wayland is the default windowing
-system on Ubuntu 26.04.
-The Problem
-I started Emacs and, after a short time, ran into a problem: Dired
-(C-x d) did not work properly. It displayed a strange mess of
-unsorted, chaotic entries, as shown below. It was a big surprise.
-
-      
-Click or tap to view the full-size picture.
-I’ve been using the same .emacs multi-platform config
-file for Linux, macOS, and Windows for years and have never had any
-problems with Dired on different platforms, let alone acros…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
