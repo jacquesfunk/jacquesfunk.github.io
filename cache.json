@@ -468,26 +468,6 @@
           "wordCount": 1537,
           "title": "Meta Redux: Projectile 3.4",
           "imageUrl": "https://metaredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-08-13-emacs-themes-solarized-wallpapers/",
-          "author": null,
-          "description": "JTR from the blog The Art Of Not Asking Why sent me a few questions\nregarding Emacs themes, my opinion on the Solarized colour scheme, and\neven my choice of wallpaper.\nJTR asks about Solarized because I consider Ethan Schoonover’s\nSolarized an excellent project, given what Ethan was trying to\nachieve. I asked JTR if I could publish my thoughts and they agreed.\nJTR has also written the article Back to Solarized.\nNote that throughout this article I am only commenting on Ethan\nSchoonover’s Solarized (the original Solarized). There are many\nSolarized-like themes out there with lots of additions on top,\nincluding higher colour contrast, which are separate themes as far as\nI am concerned.\nI should also point out something I always mention: themes are a\npersonal choice and there are many factors …",
-          "link": "https://protesilaos.com/codelog/2026-08-13-emacs-themes-solarized-wallpapers/",
-          "publishedOn": "2026-08-13T00:00:00.000Z",
-          "wordCount": 2995,
-          "title": "Protesilaos: About Emacs themes, Solarized, and wallpapers",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/08/emacs-numbered-backup-strategy.html",
-          "author": null,
-          "description": "Emacs produces a backup of each file by default.  It does this by\n  appending a tilde to the file's name.  For example, Myfile.txt is backed up to\n  Myfile.txt~.  It's a reasonable strategy, assuming that\n  a Version Control system is in place.\nBut in the absence of version control, you're limited to restoring\n  just the previous version; older versions need to be restored from\n  backup.\nI use git for coding projects that I share to the public.  But I\n  didn't create a repository for my home directory.  So when\n  C-c a m TAG1 generated an error instead of a list of\n  TAGged items, I hoped fervently that the latest init file change was\n  to blame.\nAfter finding and fixing the problem quickly, (and realizing I was\n  lucky this time), I resolved to be more diligent about disaster\n  recovery.  I looked into what backup schemes Emacs already\n  provides.\nEmacs can create unique backups for a file rather than overwriting\n  the previous backup.  When Emacs sees a numbered backup for a given\n  file, it will make a new, sequentially-named file for each backup of\n  that file, while continuing to use the \"append tilde\" method for\n  other files.\nOnce I renamed (or copied) .emacs~\n  to .emacs.~1~, Emacs created backups\n  named .emacs.~2~, .emacs.~3~ (and so on).\n  I didn't even need to change a variable -- when Emacs\n  detected .emacs.~1~, it knew that backups\n  of .emacs needed to be numeric, so it acted\n  accordingly.  Emacs continues to use bills.org~ as the backup\n  for bills.org.  Until I tell it otherwise.\n\nRead\n  the Emacs Manual to learn more about numbered backups.\n1  C-c a m invokes org-tags-view\nThe default values for the pertinent backup variables are:\n\nmake-backup-files is t\nbackup-by-copying is nil\nversion-control is nil",
-          "link": "https://ray-on-emacs.blogspot.com/2026/08/emacs-numbered-backup-strategy.html",
-          "publishedOn": "2026-08-12T23:01:35.675Z",
-          "wordCount": 2846,
-          "title": "Raymond Zeitler: Emacs Numbered Backup Strategy",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMqpJ_S2fJ68hZ6CYvyND36nEBMkLOjTC0VPpaiz0wxgmWkzlZf8UtU6DppwtDOhZOxx4d1J8_LBOJSl1RETPzAqFMZbeMMczcpc1aUzKdhHDqjEoFpr_2xK_883vE8e4rmcaxDRvhXqrFvsIukotKzMhN9_u2a2CE_VCdzPD7F5rGDew0_8tH20LeNVA/w1200-h630-p-k-no-nu/init-file-numbered-backups.gif"
         }
       ]
     },

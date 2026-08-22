@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-22T10:21:15.894Z</updated>
+    <updated>2026-08-22T12:35:09.444Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -3259,76 +3259,6 @@ Projectile saw all of that as a pile of unrelated projects, which is exactly wha
         <summary type="html"><![CDATA[The 1990s produced an incredible wave of rock bands that reshaped popular music. Nirvana, Pearl Jam, Soundgarden, Alice in Chains,]]></summary>
         <author>
             <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Protesilaos: About Emacs themes, Solarized, and wallpapers]]></title>
-        <id>https://protesilaos.com/codelog/2026-08-13-emacs-themes-solarized-wallpapers/</id>
-        <link href="https://protesilaos.com/codelog/2026-08-13-emacs-themes-solarized-wallpapers/"/>
-        <updated>2026-08-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JTR from the blog The Art Of Not Asking Why sent me a few questions
-regarding Emacs themes, my opinion on the Solarized colour scheme, and
-even my choice of wallpaper.
-JTR asks about Solarized because I consider Ethan Schoonover’s
-Solarized an excellent project, given what Ethan was trying to
-achieve. I asked JTR if I could publish my thoughts and they agreed.
-JTR has also written the article Back to Solarized.
-Note that throughout this article I am only commenting on Ethan
-Schoonover’s Solarized (the original Solarized). There are many
-Solarized-like themes out there with lots of additions on top,
-including higher colour contrast, which are separate themes as far as
-I am concerned.
-I should also point out something I always mention: themes are a
-personal choice and there are many factors …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raymond Zeitler: Emacs Numbered Backup Strategy]]></title>
-        <id>https://ray-on-emacs.blogspot.com/2026/08/emacs-numbered-backup-strategy.html</id>
-        <link href="https://ray-on-emacs.blogspot.com/2026/08/emacs-numbered-backup-strategy.html"/>
-        <updated>2026-08-12T23:01:35.675Z</updated>
-        <summary type="html"><![CDATA[Emacs produces a backup of each file by default.  It does this by
-  appending a tilde to the file's name.  For example, Myfile.txt is backed up to
-  Myfile.txt~.  It's a reasonable strategy, assuming that
-  a Version Control system is in place.
-But in the absence of version control, you're limited to restoring
-  just the previous version; older versions need to be restored from
-  backup.
-I use git for coding projects that I share to the public.  But I
-  didn't create a repository for my home directory.  So when
-  C-c a m TAG1 generated an error instead of a list of
-  TAGged items, I hoped fervently that the latest init file change was
-  to blame.
-After finding and fixing the problem quickly, (and realizing I was
-  lucky this time), I resolved to be more diligent about disaster
-  recovery.  I looked into what backup schemes Emacs already
-  provides.
-Emacs can create unique backups for a file rather than overwriting
-  the previous backup.  When Emacs sees a numbered backup for a given
-  file, it will make a new, sequentially-named file for each backup of
-  that file, while continuing to use the "append tilde" method for
-  other files.
-Once I renamed (or copied) .emacs~
-  to .emacs.~1~, Emacs created backups
-  named .emacs.~2~, .emacs.~3~ (and so on).
-  I didn't even need to change a variable -- when Emacs
-  detected .emacs.~1~, it knew that backups
-  of .emacs needed to be numeric, so it acted
-  accordingly.  Emacs continues to use bills.org~ as the backup
-  for bills.org.  Until I tell it otherwise.
-
-Read
-  the Emacs Manual to learn more about numbered backups.
-1  C-c a m invokes org-tags-view
-The default values for the pertinent backup variables are:
-
-make-backup-files is t
-backup-by-copying is nil
-version-control is nil]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
