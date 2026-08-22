@@ -150,6 +150,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.teachmaths.org/20260822-claude-code/",
+          "author": null,
+          "description": "It has been a while since I have written about how I use Emacs/LaTeX to generate lesson notes for my students. Quite a lot has happened during that time. One of the main game changers has been the advancements in “AI” technology. Over the next few articles I intend to describe my journey as I navigate this technology and apply it to my teaching practice.\nChat Bots\nHaving decided to dip my toe in the water, I signed up to two of the prevalent players in this space, being Google Gemini and Anthropic Claude. My early experiments with ChatGPT had led to some disappointing results, where it emphatically tried to convince me that the value of Euler’s constant is 1.5. Since then, the technology has advanced significantly, and I thought it worthwhile to try again.",
+          "link": "https://www.teachmaths.org/20260822-claude-code/",
+          "publishedOn": "2026-08-22T00:00:00.000Z",
+          "wordCount": 1871,
+          "title": "Matt Maguire: AI Agents Take Over Lesson Prep",
+          "imageUrl": "https://www.teachmaths.org/logo.png"
+        },
+        {
           "id": "https://donovan-ratefison.mg/2026/08/20/I-smell-Emacs-and-Smalltalk-on-DeepSeek-Harness/",
           "author": null,
           "description": "Last week, Deepseek released DSH, an agent harness with very interesting approach.\nThe same pitch used by VS Code and Eclipse RPC (2024): “everything is a plugin” but this time it’s a bit different. Even the agent loop itself is a plugin.\nIn practice, you extend the tool by just prompting. (Reminds me of an old post of mine where I said that Emacs is like a modern “Magic Lamp”)\nIt allows maximum customizability and also opens many possibilities.\nIn the official article, they showcased adding snake game to the main interface. Pretty cool!\nAround the same time, I spent a little time playing with the pi-coding-agent on Emacs and was thinking that now if I want, I probably could extend Emacs indefinitely by just prompting.  \nWeird synchronicity.\nAnyway, here are some useful links if you want to know more:\nDSH announcement\ndeepseek-harness repo\nCordis paper — A Programming Paradigm for Spatiotemporal Composability\npi-coding-agent.el — the Emacs frontend I was playing with",
@@ -1085,16 +1095,6 @@
           "wordCount": 6215,
           "title": "All Day I Dream Of Curry Fries",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-1357558851.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=232114",
-          "author": "Drew Magary",
-          "description": "Some people are fans of the Tampa Bay Buccaneers. But many, many more people are NOT fans of the Tampa Bay Buccaneers. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.\nYour team: Tampa Bay Buccaneers.\n\nhttps://bsky.app/profile/profootballtalk.bsky.social/post/3mrurzuufhk2u",
-          "link": "https://defector.com/why-your-team-sucks-2026-tampa-bay-buccaneers",
-          "publishedOn": "2026-08-12T15:11:44.000Z",
-          "wordCount": 11332,
-          "title": "Why Your Team Sucks 2026: Tampa Bay Buccaneers",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2288532268.jpg"
         }
       ]
     },
@@ -2212,6 +2212,36 @@
       "siteUrl": "https://historyofmusic.net",
       "articles": [
         {
+          "id": "https://historyofmusic.net/?p=5818",
+          "author": "schill",
+          "description": "The story of rock and roll does not begin in the 1950s. It doesn’t really begin in the 1940s either.",
+          "link": "https://historyofmusic.net/1930s/how-1920s-jazz-eventually-became-1950s-rock-and-roll/",
+          "publishedOn": "2026-08-22T03:54:57.000Z",
+          "wordCount": 3270,
+          "title": "How 1920s Jazz Eventually Became 1950s Rock and Roll",
+          "imageUrl": null
+        },
+        {
+          "id": "https://historyofmusic.net/?p=5815",
+          "author": "schill",
+          "description": "Led Zeppelin’s story is one of the most remarkable in rock music. It begins with a guitarist whose previous band",
+          "link": "https://historyofmusic.net/1960s/the-history-of-led-zeppelin/",
+          "publishedOn": "2026-08-22T03:45:22.000Z",
+          "wordCount": 5471,
+          "title": "The History of Led Zeppelin",
+          "imageUrl": null
+        },
+        {
+          "id": "https://historyofmusic.net/?p=5812",
+          "author": "schill",
+          "description": "There are plenty of great film composers. There are composers who can write beautiful melodies, composers who can create",
+          "link": "https://historyofmusic.net/1980s/the-genius-of-danny-elfman/",
+          "publishedOn": "2026-08-22T03:24:24.000Z",
+          "wordCount": 3555,
+          "title": "The Genius of Danny Elfman",
+          "imageUrl": null
+        },
+        {
           "id": "https://historyofmusic.net/?p=5800",
           "author": "schill",
           "description": "The idea of a supergroup sounds better on paper than it usually does in practice. Take several famous musicians, put",
@@ -2595,26 +2625,6 @@
           "wordCount": 2597,
           "title": "A View from Madison",
           "imageUrl": "https://s3.amazonaws.com/tpm-media/images/tpm-logo_square.png"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1554826",
-          "author": "Josh Marshall",
-          "description": "We’re almost to the critical goal we need to hit in this year’s Annual TPM Journalism Fund Drive. We have...",
-          "link": "https://talkingpointsmemo.com/edblog/please-contribute-today",
-          "publishedOn": "2026-08-12T15:27:55.000Z",
-          "wordCount": 1774,
-          "title": "Please Contribute Today!",
-          "imageUrl": "https://s3.amazonaws.com/tpm-media/images/tpm-logo_square.png"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1554806",
-          "author": "Josh Marshall",
-          "description": "Having discussed the results and prediction markets, let me address a different question I saw brought up last night. If...",
-          "link": "https://talkingpointsmemo.com/edblog/wait-how-were-the-polls-this-far-off",
-          "publishedOn": "2026-08-12T15:06:24.000Z",
-          "wordCount": 2909,
-          "title": "Wait?!?! How Were the Polls This Far Off?",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-2289940025.jpg?w=1200"
         }
       ]
     },
@@ -2734,22 +2744,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!eDLy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F93c90e4b-dcf0-4fb8-b5f3-e262db851198_400x600.jpeg"
-        },
-        {
-          "id": "https://morningmemo.talkingpointsmemo.com/p/new-clues-in-mystery-strikes-on-ecuadorian",
-          "author": "David Kurtz",
-          "description": "INSIDE: Kilmar Abrego Garcia ... John Larson ... Jeanine Pirro",
-          "link": "https://morningmemo.talkingpointsmemo.com/p/new-clues-in-mystery-strikes-on-ecuadorian",
-          "publishedOn": "2026-08-12T15:45:38.000Z",
-          "wordCount": null,
-          "title": "New Clues in Mystery Strikes on Ecuadorian Fishing Boats",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!D3sc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F444b302d-e4fc-41d8-8140-2b5aa176bbd1_400x600.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!D3sc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F444b302d-e4fc-41d8-8140-2b5aa176bbd1_400x600.jpeg"
         }
       ]
     },
