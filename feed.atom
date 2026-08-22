@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-22T16:21:24.738Z</updated>
+    <updated>2026-08-22T18:27:37.669Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[What Did Trump Do That Made Carney Walk Away?]]></title>
+        <id>https://talkingpointsmemo.com/?p=1555640</id>
+        <link href="https://talkingpointsmemo.com/edblog/what-did-trump-do-that-made-carney-walk-away"/>
+        <updated>2026-08-22T18:15:13.000Z</updated>
+        <summary type="html"><![CDATA[You’ve probably seen that Canadian PM Mark Carney has walked away from trade talks with the US. That has led...]]></summary>
+        <author>
+            <name>Josh Marshall</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[James Cherti: Emacs startup: Why setq beats setopt, customize-set-variable, and use-package :custom?]]></title>
+        <id>https://www.jamescherti.com/emacs-why-use-setq-instead-setopt/</id>
+        <link href="https://www.jamescherti.com/emacs-why-use-setq-instead-setopt/"/>
+        <updated>2026-08-22T16:32:15.000Z</updated>
+        <summary type="html"><![CDATA[Every millisecond counts during Emacs initialization. A potential performance cost in modern Emacs configurations is defaulting to setopt, customize-set-variable, or the use-package :custom keyword when a direct assignment with setq is sufficient.
+What is the difference between setq, setopt, customize-set-variable, and use-package :custom?
+The setq function directly assigns a value to a variable, making it the fastest way to set a variable. (FYI: This is one of the reasons why the author uses setq in the minimal-emacs.d project.)
+The setopt, customize-set-variable, and use-package :custom functions can be slower than setq. Depending on the variable, they can:
+Call the variable’s defcustom :set function.
+Validate the value against the variable’s declared type.
+In some cases, load the librar…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Irreal: HTML Preview For Org Mode]]></title>
+        <id>https://irreal.org/blog/?p=14031</id>
+        <link href="https://irreal.org/blog/?p=14031"/>
+        <updated>2026-08-22T16:02:37.000Z</updated>
+        <summary type="html"><![CDATA[interesting post about previewing an Org file in your browser. If you’re like me your first thought is probably, “That’s easy. Just export the Org file to HTML and display it right from the Org export dispatcher.” I do exactly that to preview my blog posts. I simply type Ctrl+c Ctrl+e h o and my post appears in my browser. Of course, it doesn’t look exactly like the final product because it uses the default Org CSS instead of the WordPress theme that you see on the Irreal site.
+
+
+And that’s exactly the point. Ridenour has his own opinion on how his markup should be formatted. Five years ago, I wrote about how to to add your own CSS formatting to an Org file when you export it to HTML but those methods all required adding some text to the Org file. Ridenour’s method does all that in a function that he can call to export his Org file to the browser. The process is pretty much the same as using the export dispatcher except that he gets to have his preferred CSS applied to the output.
+
+
+The other advantage of his method is the he arranges for the automatic removal of the generated HTML file. The export dispatcher method requires that you delete the files manually. I do that periodically using Embark, which makes it easy but I still have to remember to do it. If you’re looking for a fast and easy way to preview an Org file in your browser, take a look at Ridenour’s post.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to apply CSS only if there are a certain number of nested elements]]></title>
         <id>https://gomakethings.com/articles/how-to-apply-css-only-if-there-are-a-certain-number-of-nested-elements/</id>

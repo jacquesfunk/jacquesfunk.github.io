@@ -140,6 +140,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.jamescherti.com/emacs-why-use-setq-instead-setopt/",
+          "author": null,
+          "description": "Every millisecond counts during Emacs initialization. A potential performance cost in modern Emacs configurations is defaulting to setopt, customize-set-variable, or the use-package :custom keyword when a direct assignment with setq is sufficient.\nWhat is the difference between setq, setopt, customize-set-variable, and use-package :custom?\nThe setq function directly assigns a value to a variable, making it the fastest way to set a variable. (FYI: This is one of the reasons why the author uses setq in the minimal-emacs.d project.)\nThe setopt, customize-set-variable, and use-package :custom functions can be slower than setq. Depending on the variable, they can:\nCall the variable’s defcustom :set function.\nValidate the value against the variable’s declared type.\nIn some cases, load the librar…",
+          "link": "https://www.jamescherti.com/emacs-why-use-setq-instead-setopt/",
+          "publishedOn": "2026-08-22T16:32:15.000Z",
+          "wordCount": 2681,
+          "title": "James Cherti: Emacs startup: Why setq beats setopt, customize-set-variable, and use-package :custom?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://irreal.org/blog/?p=14031",
+          "author": null,
+          "description": "interesting post about previewing an Org file in your browser. If you’re like me your first thought is probably, “That’s easy. Just export the Org file to HTML and display it right from the Org export dispatcher.” I do exactly that to preview my blog posts. I simply type Ctrl+c Ctrl+e h o and my post appears in my browser. Of course, it doesn’t look exactly like the final product because it uses the default Org CSS instead of the WordPress theme that you see on the Irreal site.\n\n\nAnd that’s exactly the point. Ridenour has his own opinion on how his markup should be formatted. Five years ago, I wrote about how to to add your own CSS formatting to an Org file when you export it to HTML but those methods all required adding some text to the Org file. Ridenour’s method does all that in a function that he can call to export his Org file to the browser. The process is pretty much the same as using the export dispatcher except that he gets to have his preferred CSS applied to the output.\n\n\nThe other advantage of his method is the he arranges for the automatic removal of the generated HTML file. The export dispatcher method requires that you delete the files manually. I do that periodically using Embark, which makes it easy but I still have to remember to do it. If you’re looking for a fast and easy way to preview an Org file in your browser, take a look at Ridenour’s post.",
+          "link": "https://irreal.org/blog/?p=14031",
+          "publishedOn": "2026-08-22T16:02:37.000Z",
+          "wordCount": 1534,
+          "title": "Irreal: HTML Preview For Org Mode",
+          "imageUrl": null
+        },
+        {
           "id": "https://emacs-apac.gitlab.io/announcements/august-2026/",
           "author": null,
           "description": "This month’s Emacs Asia-Pacific (APAC)\nvirtual meetup is scheduled for Saturday, August\n22, 2026 with BigBlueButton and #emacs\non Libera Chat IRC. The timing will be 1400 to 1500 IST.\nThe meetup might get extended by 30 minutes if there is any talk, this\npage will be updated accordingly.\nIf you would like to give a demo or talk (maximum 20 minutes) on GNU\nEmacs or any variant, please contact bhavin192 on Libera Chat with\nyour talk details:",
@@ -2386,6 +2406,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1555640",
+          "author": "Josh Marshall",
+          "description": "You’ve probably seen that Canadian PM Mark Carney has walked away from trade talks with the US. That has led...",
+          "link": "https://talkingpointsmemo.com/edblog/what-did-trump-do-that-made-carney-walk-away",
+          "publishedOn": "2026-08-22T18:15:13.000Z",
+          "wordCount": 2680,
+          "title": "What Did Trump Do That Made Carney Walk Away?",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/07/GettyImages-2239332758.jpg?w=1200"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1555475",
           "author": "Josh Marshall",

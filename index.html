@@ -22,11 +22,136 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-22 datetime="2026-08-22T14:30:00.000Z">2026-08-22</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-22 datetime="2026-08-22T14:30:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-22 datetime="2026-08-22T18:15:13.000Z">2026-08-22</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-22 datetime="2026-08-22T18:15:13.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Josh Marshall – TPM – Talking Points Memo</button>
+                  <a class="source-heading__link" href="https://talkingpointsmemo.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://talkingpointsmemo.com/?p&#x3D;1555640"
+                        open
+                      >
+                        <summary class="article-expander__title">What Did Trump Do That Made Carney Walk Away?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://talkingpointsmemo.com/edblog/what-did-trump-do-that-made-carney-walk-away">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://talkingpointsmemo.com/wp-content/uploads/2026/07/GettyImages-2239332758.jpg?w&#x3D;1200" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>You’ve probably seen that Canadian PM Mark Carney has walked away from trade talks with the US. That has led...</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Emacslife</button>
+                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.jamescherti.com/emacs-why-use-setq-instead-setopt/"
+                        open
+                      >
+                        <summary class="article-expander__title">James Cherti: Emacs startup: Why setq beats setopt, customize-set-variable, and use-package :custom?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.jamescherti.com/emacs-why-use-setq-instead-setopt/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Every millisecond counts during Emacs initialization. A potential performance cost in modern Emacs configurations is defaulting to setopt, customize-set-variable, or the use-package :custom keyword when a direct assignment with setq is sufficient.
+What is the difference between setq, setopt, customize-set-variable, and use-package :custom?
+The setq function directly assigns a value to a variable, making it the fastest way to set a variable. (FYI: This is one of the reasons why the author uses setq in the minimal-emacs.d project.)
+The setopt, customize-set-variable, and use-package :custom functions can be slower than setq. Depending on the variable, they can:
+Call the variable’s defcustom :set function.
+Validate the value against the variable’s declared type.
+In some cases, load the librar…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://irreal.org/blog/?p&#x3D;14031"
+                        open
+                      >
+                        <summary class="article-expander__title">Irreal: HTML Preview For Org Mode</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;14031">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>interesting post about previewing an Org file in your browser. If you’re like me your first thought is probably, “That’s easy. Just export the Org file to HTML and display it right from the Org export dispatcher.” I do exactly that to preview my blog posts. I simply type Ctrl+c Ctrl+e h o and my post appears in my browser. Of course, it doesn’t look exactly like the final product because it uses the default Org CSS instead of the WordPress theme that you see on the Irreal site.
+
+
+And that’s exactly the point. Ridenour has his own opinion on how his markup should be formatted. Five years ago, I wrote about how to to add your own CSS formatting to an Org file when you export it to HTML but those methods all required adding some text to the Org file. Ridenour’s method does all that in a function that he can call to export his Org file to the browser. The process is pretty much the same as using the export dispatcher except that he gets to have his preferred CSS applied to the output.
+
+
+The other advantage of his method is the he arranges for the automatic removal of the generated HTML file. The export dispatcher method requires that you delete the files manually. I do that periodically using Embark, which makes it easy but I still have to remember to do it. If you’re looking for a fast and easy way to preview an Org file in your browser, take a look at Ridenour’s post.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://emacs-apac.gitlab.io/announcements/august-2026/"
+                        open
+                      >
+                        <summary class="article-expander__title">Emacs APAC: Announcing Emacs Asia-Pacific (APAC) virtual meetup, Saturday, August 22, 2026</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://emacs-apac.gitlab.io/announcements/august-2026/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>This month’s Emacs Asia-Pacific (APAC)
+virtual meetup is scheduled for Saturday, August
+22, 2026 with BigBlueButton and #emacs
+on Libera Chat IRC. The timing will be 1400 to 1500 IST.
+The meetup might get extended by 30 minutes if there is any talk, this
+page will be updated accordingly.
+If you would like to give a demo or talk (maximum 20 minutes) on GNU
+Emacs or any variant, please contact bhavin192 on Libera Chat with
+your talk details:</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -95,47 +220,6 @@
                               <img src="https://substackcdn.com/image/fetch/$s_!rFsR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52ef65fa-2d7a-4b96-b63a-cdbae34abdd8_2518x1410.jpeg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Natalie boards it, Dear Leader affords it, and so much more...</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Emacslife</button>
-                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://emacs-apac.gitlab.io/announcements/august-2026/"
-                        open
-                      >
-                        <summary class="article-expander__title">Emacs APAC: Announcing Emacs Asia-Pacific (APAC) virtual meetup, Saturday, August 22, 2026</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://emacs-apac.gitlab.io/announcements/august-2026/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>This month’s Emacs Asia-Pacific (APAC)
-virtual meetup is scheduled for Saturday, August
-22, 2026 with BigBlueButton and #emacs
-on Libera Chat IRC. The timing will be 1400 to 1500 IST.
-The meetup might get extended by 30 minutes if there is any talk, this
-page will be updated accordingly.
-If you would like to give a demo or talk (maximum 20 minutes) on GNU
-Emacs or any variant, please contact bhavin192 on Libera Chat with
-your talk details:</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -7370,8 +7454,8 @@ He did as many takes as we needed from him. He ad-libbed off the script I’d wr
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/32584400252">
-        <time id="build-timestamp" datetime="2026-08-22T16:21:24.707Z">2026-08-22T16:21:24.707Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/32590748146">
+        <time id="build-timestamp" datetime="2026-08-22T18:27:37.640Z">2026-08-22T18:27:37.640Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
