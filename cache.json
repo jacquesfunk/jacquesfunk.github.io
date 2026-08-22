@@ -478,16 +478,6 @@
           "wordCount": 789,
           "title": "The Emacs Cat: Emacs, Dired, and Ubuntu 26.04",
           "imageUrl": null
-        },
-        {
-          "id": "https://metaredux.com/posts/2026/08/13/projectile-3-4.html",
-          "author": null,
-          "description": "Projectile 3.4 is out! After\nthe four releases that preceded it this summer, this one is polish rather than ambition.\nMost of it came out of an annoyance I’d been living with for years without ever quite\nnaming it: a lot of what I work on isn’t one directory. CIDER is really CIDER plus\ncider-nrepl plus orchard plus clj-refactor plus a handful of others. RuboCop is\nRuboCop plus rubocop-ast plus rubocop-rails and the other extension gems plus the style\nguide. I’ve been maintaining families of repositories for the better part of a decade.\nLately I’ve also been reaching for git worktrees far more than I used to, so the same\nrepository is now checked out two or three times on my disk at any given moment.\nProjectile saw all of that as a pile of unrelated projects, which is exactly what it looks\n…",
-          "link": "https://metaredux.com/posts/2026/08/13/projectile-3-4.html",
-          "publishedOn": "2026-08-13T07:30:00.000Z",
-          "wordCount": 1537,
-          "title": "Meta Redux: Projectile 3.4",
-          "imageUrl": "https://metaredux.com/assets/og-image.png"
         }
       ]
     },
@@ -2275,22 +2265,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!TyQL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e037528-d0f9-472d-9635-e7f4e139b48d_1816x1628.png"
-        },
-        {
-          "id": "https://www.flowstate.fm/p/alden-hellmuth-interview",
-          "author": "Flow State",
-          "description": "Today we’re listening to Alden Hellmuth, an American saxophonist and composer from Connecticut.",
-          "link": "https://www.flowstate.fm/p/alden-hellmuth-interview",
-          "publishedOn": "2026-08-13T07:02:20.000Z",
-          "wordCount": null,
-          "title": "Alden Hellmuth (Interview)",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!eF1U!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4527db6-a1f2-4426-96a4-af71b24a493f_1852x1732.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!eF1U!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4527db6-a1f2-4426-96a4-af71b24a493f_1852x1732.png"
         }
       ]
     },
