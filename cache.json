@@ -1175,16 +1175,6 @@
           "wordCount": 1837,
           "title": "Phriday Phistory: The Fleezer",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3257",
-          "author": "Schill",
-          "description": "The 1990s produced an incredible wave of rock bands that reshaped popular music. Nirvana, Pearl Jam, Soundgarden, Alice in Chains,",
-          "link": "https://stuffthatinterestsme.net/forgotten-band-sponge-2/",
-          "publishedOn": "2026-08-13T03:10:13.000Z",
-          "wordCount": 2684,
-          "title": "Forgotten Band: Sponge",
-          "imageUrl": null
         }
       ]
     },
@@ -2350,6 +2340,16 @@
       "siteUrl": "https://gomakethings.com/articles",
       "articles": [
         {
+          "id": "https://gomakethings.com/articles/how-to-apply-css-only-if-there-are-a-certain-number-of-nested-elements/",
+          "author": null,
+          "description": "This week, I had to write CSS for a design where a list of elements got a bit of extra design treatment if there were at least three nested items inside it.\n<!-- Base design --> <ul class=\"magic-list\"> <li>Item 1</li> <li>Item 2</li> </ul> <!-- Extra design --> <ul class=\"magic-list\"> <li>Item 1</li> <li>Item 2</li> <li>Item 3</li> <li>Item 4</li> <!-- ... --> </ul> I really wanted to avoid using JavaScript to add/remove an extra class, and the the :has() pseudo-class and the nth-* pseudo-class made it shockingly easy!",
+          "link": "https://gomakethings.com/articles/how-to-apply-css-only-if-there-are-a-certain-number-of-nested-elements/",
+          "publishedOn": "2026-08-22T14:30:00.000Z",
+          "wordCount": 6000,
+          "title": "How to apply CSS only if there are a certain number of nested elements",
+          "imageUrl": "https://gomakethings.com/img/og.png"
+        },
+        {
           "id": "https://gomakethings.com/articles/on-fresh-starts/",
           "author": null,
           "description": "Back in March, I shared a bit of a sad update on my unhoused friends.\nCops raided their camp and took everything they owned. Within the week…\n Mike had relapsed Manny got arrested for stealing copper Ron was all by himself  But last Friday, I got an amazing phone call from Mike!\nSometime over the winter, he checked himself into rehab. He’s several months clean now. He’s doing therapy to address the trauma that’s caused him to use.",
@@ -2719,6 +2719,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/this-week-in-stupid-august-22-edition",
+          "author": "Jeff Tiedrich",
+          "description": "Natalie boards it, Dear Leader affords it, and so much more...",
+          "link": "https://www.jefftiedrich.com/p/this-week-in-stupid-august-22-edition",
+          "publishedOn": "2026-08-22T14:19:45.000Z",
+          "wordCount": null,
+          "title": "this week in stupid: August 22 edition",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!rFsR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52ef65fa-2d7a-4b96-b63a-cdbae34abdd8_2518x1410.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!rFsR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52ef65fa-2d7a-4b96-b63a-cdbae34abdd8_2518x1410.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/operation-distract-from-natalie-shifts",
           "author": "Jeff Tiedrich",
