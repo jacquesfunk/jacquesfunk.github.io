@@ -140,6 +140,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.teachmaths.org/20260823-gemma-goose/",
+          "author": null,
+          "description": "In my last article\n on AI agents I talked about using Claude Code AI agent. This is an easy-to-set-up commercial solution that gives excellent results. The risk is that the pricing may not remain as affordable as it is today, and as a result I wanted to find an alternative solution that insulates me from changing commercials.\nThere are a number of open-weight models that one may download and run locally on your home computer. Some of the benefits are:",
+          "link": "https://www.teachmaths.org/20260823-gemma-goose/",
+          "publishedOn": "2026-08-23T00:00:00.000Z",
+          "wordCount": 1701,
+          "title": "Matt Maguire: AI Agents and Local LLMs",
+          "imageUrl": "https://www.teachmaths.org/logo.png"
+        },
+        {
           "id": "https://www.jamescherti.com/emacs-why-use-setq-instead-setopt/",
           "author": null,
           "description": "Every millisecond counts during Emacs initialization. A potential performance cost in modern Emacs configurations is defaulting to setopt, customize-set-variable, or the use-package :custom keyword when a direct assignment with setq is sufficient.\nWhat is the difference between setq, setopt, customize-set-variable, and use-package :custom?\nThe setq function directly assigns a value to a variable, making it the fastest way to set a variable. (FYI: This is one of the reasons why the author uses setq in the minimal-emacs.d project.)\nThe setopt, customize-set-variable, and use-package :custom functions can be slower than setq. Depending on the variable, they can:\nCall the variable’s defcustom :set function.\nValidate the value against the variable’s declared type.\nIn some cases, load the librar…",
@@ -1005,16 +1015,6 @@
           "wordCount": 13481,
           "title": "Humanists Have Done Nothing Wrong",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/explain_deleuze_to_me.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=232028",
-          "author": "David Roth",
-          "description": "\"On one hand I resent it,\" Tim Layana told a reporter from the South Florida Sun-Sentinel while watching a 44-year-old Steve Carlton throw a bullpen session at Yankees spring training in 1989. Layana, who was then 25 and had just reached Triple-A, would pitch in three big-league seasons for the Reds and Giants; Carlton was 44, had won four Cy Young Awards and 329 games. He was a veteran of 24 MLB seasons, an easy Hall of Famer, and identifiable as fully cooked from a hundred paces.\nThe Yankees hadn't invited Carlton to spring training, and neither had any other MLB team. Carlton had made it into four games with the Twins in 1988, allowing 20 hits, five homers, and 18 earned runs in 9.2 innings. Yankees manager Dallas Green let him throw at Yankees camp as he rehabbed an elbow surgery and auditioned for a job with whomever might need a pitcher who could do what he did. The story describes Carlton wearing cutoff uniform pants as shorts, and an \"an observer\" remarking to the Yankees VP for player development that Carlton was \"not throwing hard.\" From that point forward, Layana would be a better big-leaguer entirely by default; Carlton, whose agent had lost tens of millions of Carlton's dollars in bad investments, was trying to get one last job because he needed one, but would not pitch in MLB again.\n\"I guess guys like him and Tommy John and Ron Guidry still have the dream to pitch in the big leagues, like we do who’ve never been there,\" Layana said, before acknowledging and explaining the resentment he felt about that. \"I mean, they’ve had their time, now step aside and give somebody else a chance. But I can understand their desire. If I could still throw at their age, I’d wanna be competitive and try to get people out, too.\"",
-          "link": "https://defector.com/craig-kimbrel-cant-quit",
-          "publishedOn": "2026-08-13T13:07:51.000Z",
-          "wordCount": 9179,
-          "title": "Craig Kimbrel Can’t Quit",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2282023247_f6d909.jpg"
         }
       ]
     },
