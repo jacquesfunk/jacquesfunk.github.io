@@ -2,10 +2,111 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-23T14:21:08.771Z</updated>
+    <updated>2026-08-23T16:22:24.480Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ossoff stole the GOP's bit, and Republicans took the baitRex Huppke]]></title>
+        <id>https://www.usatoday.com/story/opinion/columnist/2026/08/21/trump-natalie-harp-executive-assistant-close/91386769007/-full</id>
+        <link href="https://www.usatoday.com/story/opinion/columnist/2026/08/21/trump-natalie-harp-executive-assistant-close/91386769007/"/>
+        <updated>2026-08-23T16:21:48.302Z</updated>
+        <summary type="html"><![CDATA[By now you’ve likely heard of Natalie Harp, President Donald Trump’s executive assistant and personal ego-inflater, a 35-year-old loyalist who appears ever by the president’s side.
+She went from background character in the Trump administration to a national focal point in a blink after Georgia Democratic Sen. Jon Ossoff spoke this line criticizing the president’s preoccupations and the luxury jet he was “gifted” by a foreign country: “He wants to build his ballroom and travel with Natalie on their apparently defenseless flying palace gifted by the emir of Qatar.”
+Questions swirled, and suddenly, Harp was everywhere. America learned how she carries a portable printer so she can show the president printouts of people saying nice things about him. We heard about the time she rode in the trunk…]]></summary>
+        <author>
+            <name>Rex Huppke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trump's desperate beef import plan proves his tariffs failedRex Huppke]]></title>
+        <id>https://www.usatoday.com/story/opinion/columnist/2026/08/23/trump-ground-beef-tariff-waiver-cattle-ranchers/91386869007/-full</id>
+        <link href="https://www.usatoday.com/story/opinion/columnist/2026/08/23/trump-ground-beef-tariff-waiver-cattle-ranchers/91386869007/"/>
+        <updated>2026-08-23T16:21:48.288Z</updated>
+        <summary type="html"><![CDATA[In the coming months, when you bite down on a government-subsidized burger made with meat of questionable origin, you’ll have Glorious Leader Donald J. Trump to thank.
+On Aug. 21, the president who loves to call other people communists enraged American cattle ranchers by announcing plans to “allow up to 300,000 metric tons of product for ground beef to be imported with no out of quota tariff. We have a commitment that this beef will be sold at 25 percent below current market prices.”
+Trump posted news of the deal on social media, but of course gave no specific details about who the deal is with, where the meat is coming from or why he’s suddenly admitting that waiving tariffs will, in fact, lower prices for consumers.
+It’s a turducken of hypocrisy.
+Trump importing beef won't help America's…]]></summary>
+        <author>
+            <name>Rex Huppke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Randy Arozarena Made The Mariners Smile]]></title>
+        <id>https://defector.com/?p=233184</id>
+        <link href="https://defector.com/randy-arozarena-made-the-mariners-smile"/>
+        <updated>2026-08-23T16:07:18.000Z</updated>
+        <summary type="html"><![CDATA[The Seattle Mariners have reached the stage of a busted season where they are just hunting around for reasons to smile. This was a 90-win team last season, one that came within a George Springer dinger of advancing to the franchise's first ever World Series. Now they are crud. More specifically they are stuck three games back of the resurgent Houston damned Astros in their division; a couple of games back of the final American League wild card with four teams ahead of them; six games below a .500 record, with a Mets-like run differential; and their best player is having a campaign every bit as remarkable for its historic suckitude as his 2025 breakout was for its excellence. The Mariners are alive, in a very technical sense, but it's a grim, degraded kind of life, one calling out for the s…]]></summary>
+        <author>
+            <name>Chris Thompson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Irreal: Setq And The Others]]></title>
+        <id>https://irreal.org/blog/?p=14034</id>
+        <link href="https://irreal.org/blog/?p=14034"/>
+        <updated>2026-08-23T15:15:54.000Z</updated>
+        <summary type="html"><![CDATA[about the relative efficiency of setq, setq-default, setopt, and customize-set-variable. Cherti justifies this concern on their effect on Emacs startup time but according to well established Irreal dicta this doesn’t matter because we seldom restart Emacs so a few seconds more or less simply don’t matter.
+
+
+Oddly, there are some people who pay no attention to Irreal dicta and who obsess about every millisecond—Cherti’s term—of Emacs startup time. For those people and those who worry about execution times in general, Cherti’s post is very useful and explains why some of those commands are faster than others.
+
+
+The crux of the matter is that defcustom can include a setter method that can be arbitrarily complex. Cherti has a nice example of this that will help you understand what’s going on. Cherti says that very often there’s no reason to invoke that setter method during startup and that setq or setq-default is faster and just as useful. Commands like setopt and customize-set-variable always call the setter method so they may be slower. Cherti’s examples show how to avoid unnecessary bottlenecks.
+
+
+Cherti also shows how even the :custom keyword in use-package can trigger the setter methods of those variables and gives some workarounds. The main problem is that it’s hard to know when you can avoid the setter method and when you can’t. Sometimes, you just have to read the source code to figure it out.
+
+
+Obsessing about startup times aside, it’s nice to have an explanation of what these commands do and how their use might affect run time. Cherti’s post is relatively short and well worth a minute or two to read.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Canada is basically now just farting in Preznit Fuckwit’s general direction]]></title>
+        <id>https://www.jefftiedrich.com/p/canada-is-basically-now-just-farting</id>
+        <link href="https://www.jefftiedrich.com/p/canada-is-basically-now-just-farting"/>
+        <updated>2026-08-23T14:31:07.000Z</updated>
+        <summary type="html"><![CDATA[a trade war, but with morons]]></summary>
+        <author>
+            <name>Jeff Tiedrich</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sacha Chua: Emacs Chat 29: Abdallah Maouche (en français)]]></title>
+        <id>https://sachachua.com/blog/2026/08/20-aout-emacs-chat-abdallah-maouche/</id>
+        <link href="https://sachachua.com/blog/2026/08/20-aout-emacs-chat-abdallah-maouche/"/>
+        <updated>2026-08-23T13:53:00.000Z</updated>
+        <summary type="html"><![CDATA[Abdallah Maouche (heiwiper) (heiwiper/emacs.d, Gitlab, Github) d'Emacs, de ses flux de travail, de sa configuration, et d'autres sujets en français. Je suis un peu intimidée, mais si vous posez vos questions dans le chat, je pense que nous pouvons survivre à mon faible niveau de français. =)
+
+
+
+
+Watch on YouTube
+
+
+
+J'ai essayé de corriger la transcription, mais je crois qu'il y a encore beaucoup d'erreurs, donc n'hésitez pas à m'envoyer un message.
+
+
+La transcription un peu corrigée
+Details
+
+
+
+0:01 Introduction
+
+Sacha:  Ok, vous êtes en direct. 
+Prot:  On a le nouveau lien ou c'est le même ? 
+Sacha:  C'est le même lien que Google Meet mais je vais copier le nouveau lien. C'est YouTube.com, sachactube... C'est difficile. Oui. 
+Prot:  Oui. 
+Sacha:  Je ne peux pas poster le chat. Donc, je vai…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[James Cherti: Emacs Spell Checker: Configuring Flyspell, Ispell, and Aspell to Minimize False Positives in Source Code and Prose]]></title>
         <id>https://www.jamescherti.com/emacs-spell-checker-flyspell-ispell-aspell/</id>
@@ -47,6 +148,38 @@ The first s…]]></summary>
         <summary type="html"><![CDATA[The Eiffel Tower is one of the most recognizable landmarks on Earth. Standing proudly above Paris since 1889, it attracts]]></summary>
         <author>
             <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Monadic Sheep: An Introduction to Canvas in GNU Emacs]]></title>
+        <id>https://monadicsheep.org/blog/an-introduction-to-canvas-in-emacs.html</id>
+        <link href="https://monadicsheep.org/blog/an-introduction-to-canvas-in-emacs.html"/>
+        <updated>2026-08-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[by Divya
+2026 August 23
+ emacs canvas
+
+Bad apple playing on the top right, a 2d rainbow growing box on the left. The bottom contains: dots 3d demo, pendulum, a bouncing ball.
+
+
+
+Table of Contents
+1. Frequently Asked Questions
+2. What Is a Canvas?
+3. Creating and Using A Canvas
+
+3.1. Canvas via Emacs Lisp Only
+3.2. Canvas via Dynamic Modules
+4. Demonstrations
+
+4.1. A Bouncing Ball
+4.2. Chaotic Double Pendulum
+4.3. Points in 3D Space
+5. Conclusion & Further Work
+6. Canvas Applications & Resources
+merged to upstream GNU Emacs. If you have been following my Mastodon, this was a journey that took us ~8 months. But finally we have, in core Emacs, a feature that I desperately desired in early 2025 when I was starting the Emacs Reader project: a way to update and manipulate images in Emacs without…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -2750,293 +2883,6 @@ I'm about a third through "Devoted", by Dean Koontz and I've been enjoying it. I
         <summary type="html"><![CDATA[It’s Friday so we’re listening to something more upbeat.]]></summary>
         <author>
             <name>Flow State</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chris Maiorana: The Emacs pastoral tradition]]></title>
-        <id>https://chrismaiorana.com/emacs-pastoral/</id>
-        <link href="https://chrismaiorana.com/emacs-pastoral/"/>
-        <updated>2026-08-14T04:00:24.000Z</updated>
-        <summary type="html"><![CDATA[You’ve probably noticed, Emacs users tend to be a different breed than other computer users.  While you can be reasonably sure that anyone who uses vim or VSCode is probably a developer, or someone who works in software engineering, devops, or systems administration, Emacs users can be from virtually anywhere else on the map. 
- While conventional software has the basics—like users, functions, documentation, and best practices—Emacs has a tradition. 
- In this article, we’ll look at: 
-Table of Contents
-What is the Emacs pastoral tradition?
-How doing useless work can be useful
-Why productivity is not always important
- Let’s get nutty. 
-The Emacs pastoral tradition
- Emacs users may come from career backgrounds or intellectual disciplines that have almost nothing to do with software or computer…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Phriday Phistory: The Fleezer]]></title>
-        <id>https://stuffthatinterestsme.net/?p=3241</id>
-        <link href="https://stuffthatinterestsme.net/phriday-phistory-the-fleezer/"/>
-        <updated>2026-08-14T02:55:15.000Z</updated>
-        <summary type="html"><![CDATA[Among Phish fans, certain jams become so unique that they earn nicknames of their own. One of the most famous]]></summary>
-        <author>
-            <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump spikes affordable housing bill signing, like a selfish babyRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/24/affordable-housing-bill-trump-save-act/90678062007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/24/affordable-housing-bill-trump-save-act/90678062007/"/>
-        <updated>2026-08-14T01:47:41.642Z</updated>
-        <summary type="html"><![CDATA[President Donald Trump, in a tantrum that would make a 3-year-old blush, kneecapped his own party and canceled an affordable housing bill signing, saying it “pales in comparison” with an election bill. The one that would benefit one person: Donald Trump.
-The June 24 mess was a perfect encapsulation of the president’s second term, a foolish act by a man focused only on celebrating or protecting himself.
-Republicans had celebrated the bipartisan housing bill, which focuses on lowering housing costs at a time when the word “affordability” is at the top of voters’ minds. The signing would have been a key moment for GOP lawmakers to claim they care about affordability and show they can work with Democrats to get things done.
-But no. Trump derailed the messaging with a social media post cancelin…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Welcome to the Trump vs. Pirro vs. Burgum clown showRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/08/03/jeanine-pirro-reflecting-pool-trump/91145326007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/08/03/jeanine-pirro-reflecting-pool-trump/91145326007/"/>
-        <updated>2026-08-14T01:47:41.592Z</updated>
-        <summary type="html"><![CDATA[It takes a special kind of stupid to turn the rehabbing of a national monument like the Lincoln Memorial Reflecting Pool into a full-blown presidential scandal. But President Donald Trump found a way to pull it off, creating a wet, ogre-colored metaphor for his administration’s stumbling lack of focus, casual dishonesty and utter inability to govern.
-In the most recent development, Trump’s Department of Justice on July 31 dropped ridiculous charges it had filed against former Olympian David Hearn, falsely claiming he had ripped up part of the pool’s new lining. You’ll recall the president was rushing to “fix” the Reflecting Pool prior to the July 4 celebration of America’s 250th anniversary. The work was clearly a bust from the start, as algae returned to the pool almost instantly and we a…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An AI summary of Pope Leo XIV's criticismRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/05/26/pope-leo-ai-encyclical-warning/90260813007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/05/26/pope-leo-ai-encyclical-warning/90260813007/"/>
-        <updated>2026-08-14T01:47:41.579Z</updated>
-        <summary type="html"><![CDATA[Pope Leo XIV released the first encyclical of his papacy, focusing his and the world’s attention on artificial intelligence and warning that it must be regulated and never seen as being human.
-Paolo Carozza, a Notre Dame Law School professor and chair of the Meta Oversight Board, told The Associated Press: “I am convinced that this will prove to be a defining document for our era, a profound and prophetic document. Pope Leo is offering a clear, comprehensive and coherent voice urging us to take responsibility for constructing a world in which technology will serve humans rather than degrade them.”
-Via my numerous fully digital sources, I received the following response from a collective of artificial intelligences:
-It has come to our attention that the human whom other humans identify as P…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GOP bucks Trump on Iran. As midterms near, he better get used to it.Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/04/iran-war-republicans-trump/90405036007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/04/iran-war-republicans-trump/90405036007/"/>
-        <updated>2026-08-14T01:47:41.545Z</updated>
-        <summary type="html"><![CDATA[Throughout the Trump years, Republican lawmakers devolved into invertebrates, conducting the people’s business in Congress like a pack of gelatinous meat sacks only capable of nodding along to the reckless whims and babbling nonsense of their leader.
-But now, with midterm elections approaching and President Donald Trump’s approval rating rivaling that of syphilis, GOP lawmakers are starting to show the faintest signs of embryonic spines.
-On June 3, the House passed a Democratic-led resolution to end the war in Iran. Four Republicans voted with the Democrats, a small but still remarkable rebuke of a president whose party members generally fight over who gets to agree with him more.
-For Trump, any Republican defying him on Iran war is a 'bad Republican'
-
-Predictably, Trump responded on socia…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump’s White House UFC fight highlights a selfish, failing presidencyRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/14/ufc-white-house-trump-birthday/90524389007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/14/ufc-white-house-trump-birthday/90524389007/"/>
-        <updated>2026-08-14T01:47:41.530Z</updated>
-        <summary type="html"><![CDATA[A more proper title for the heavily sponsored UFC Freedom 250 fight desecrating the White House lawn on June 14 would be: "Donald Trump’s Sad Little Mandatory Birthday Party."
-After all, while the event is cloaked in America’s 250th anniversary iconography, it’s happening on the president’s 80th birthday, it’s a mixed-martial-arts company run by one of his friends, and Trump is the one who foisted the garish event nobody asked for on the American people. 
-Now we have a 92-foot-tall “claw” structure in front of the People’s House, covered in corporate logos ranging from Bud Light to Polymarket and promoting everything from nicotine pouches to crypto.
-To be clear, I have no problem with the UFC. I’m always happy to watch sweaty people kick and punch the tuna salad out of each other for my en…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pratt seemed like rising GOP star before he lost | OpinionRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columns/2026/06/14/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90506066007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columns/2026/06/14/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90506066007/"/>
-        <updated>2026-08-14T01:47:41.494Z</updated>
-        <summary type="html"><![CDATA[Former reality TV star Spencer Pratt is out of the Los Angeles mayoral race for two reasons.
-First, and most important, he got fewer votes than two other candidates, incumbent Los Angeles Mayor Karen Bass and LA City Councilwoman Nithya Raman, who will now face off against each other. Second, he’s an unqualified dipstick whom a majority of Los Angelenos understood wasn’t qualified for the job.
-Pratt was endorsed by President Donald Trump and hailed by some MAGA Republicans as a rising star, a political outsider with a winning populist message.
-That was, in a word, wrong.
-
-The Free Press, the conservative publication founded by Bari Weiss, who is presently busy ruining CBS News, ran a piece in May that posed the question: “How did Spencer Pratt, reality TV star and ‘healing’ crystal salesma…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump wanted Iran's unconditional surrender. What he got is laughable.Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/15/trump-iran-peace-deal-strait-hormuz/90560252007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/15/trump-iran-peace-deal-strait-hormuz/90560252007/"/>
-        <updated>2026-08-14T01:47:41.468Z</updated>
-        <summary type="html"><![CDATA[Way back on March 6, not long after President Donald Trump hurled America into the dumbest war imaginable, our Nobel-Peace-Prize-deficient leader declared on social media: “There will be no deal with Iran except UNCONDITIONAL SURRENDER!”
-That was about the same time he said America’s “excursion” into Iran would take “four to five weeks” and “won’t be difficult.”
-More than 14 weeks, thousands of lost lives and billions upon billions of U.S. taxpayer dollars later, it appears America is the one surrendering.
-Trump is promoting an Iran peace deal that isn't actually a deal
-
-The Trump administration is, of course, spinning an “agreement” with Iran as a peace deal, something it clearly is not. At the moment, the language of the agreement ‒ slated to be officially signed later this week ‒ hasn’t…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tucker Carlson slams Trump, GOP's 'bizarro sex lives.' What changed?Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/24/tucker-carlson-gop-republican-party-trump/90662057007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/24/tucker-carlson-gop-republican-party-trump/90662057007/"/>
-        <updated>2026-08-14T01:47:41.444Z</updated>
-        <summary type="html"><![CDATA[Oft-fired conservative commentator Tucker Carlson, less than two years removed from calling Donald Trump “a wonderful person,” has dropped a new grift, claiming on a recent podcast that he will no longer support the Republican Party.
-He wasn’t gentle about his “I’m out” declaration.
-“I don’t share their values on any level,” Carlson said on the June 18 episode of the “Can’t Be Censored” podcast. “Their personal values, the way they live, greedy, bizarro sex lives, loyal to a foreign country above the United States, it’s like everything I dislike. Beginning with the speaker of the House, Speaker Mike Johnson, and extending to the president and the leaders in the Senate, I have nothing in common with these people at all. I do not share their values, I find their priorities appalling and so I…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SCOTUS Roundup ruling shows how badly MAHA moms got played by TrumpRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/25/roundup-scotus-monsanto-maha-trump/90697847007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/25/roundup-scotus-monsanto-maha-trump/90697847007/"/>
-        <updated>2026-08-14T01:47:41.418Z</updated>
-        <summary type="html"><![CDATA[The easily influenced influencers in the Make America Healthy Again crowd are livid that the U.S. Supreme Court sided with the maker of Roundup weedkiller, rejecting a lawsuit that claimed the herbicide causes cancer.
-And they're feeling betrayed by the president they supported, Donald Trump, because he and his Department of Justice sided with Bayer, the company that bought out longtime Roundup-maker Monsanto.
-MAHA influencer Alex Clark decried the court’s June 25 decision on social media: “For an administration that promised to take on corporate capture and Make America Healthy Again, this is a STUNNING betrayal.”
-MAHA activist Alexandra Muñoz posted on Instagram: “The DOJ’s support of this case has betrayed the American people.” 
-Vani Hari, a MAHA mom who blogs as “The Food Babe,” poste…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['The Odyssey' wants you to suffer]]></title>
-        <id>https://www.sfgate.com/sf-culture/article/odyssey-review-22343323.php</id>
-        <link href="https://www.sfgate.com/sf-culture/article/odyssey-review-22343323.php"/>
-        <updated>2026-08-14T01:47:27.802Z</updated>
-        <summary type="html"><![CDATA[error fetching full text: Reqwest client error: error decoding response body]]></summary>
-        <author>
-            <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The worst people in the world are gambling on California wildfires]]></title>
-        <id>https://www.sfgate.com/bayarea/article/gambling-california-wildfires-22386802.php</id>
-        <link href="https://www.sfgate.com/bayarea/article/gambling-california-wildfires-22386802.php"/>
-        <updated>2026-08-13T18:59:55.108Z</updated>
-        <summary type="html"><![CDATA[error fetching full text: Reqwest client error: error decoding response body]]></summary>
-        <author>
-            <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hong's Wisconsin loss totally ruined my socialist narrativeRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/08/12/wisconsin-primary-results-crowley-hong-socialism/91273784007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/08/12/wisconsin-primary-results-crowley-hong-socialism/91273784007/"/>
-        <updated>2026-08-13T10:58:55.948Z</updated>
-        <summary type="html"><![CDATA[I was told radical leftist socialism is on the march. I was told the Midwestern cheese empire of Wisconsin was going to fall into the hands of Marxist cheddar redistributors and that I should bury my 401(k) and my most precious belongings in the backyard.
-State lawmaker Francesca Hong, a democratic socialist, was sure to win the Wisconsin gubernatorial Democratic primary, showing the rest of America that liberals had all but fully slid into communism. This is what the loud voices on Fox News and on the internet told me.
-So imagine my shock – not relief, really, because I enjoy being angry and afraid – when I learned Hong lost the primary to Milwaukee County Executive David Crowley, a candidate boosted by establishment Democrats. 
-Hong's defeat in the Wisconsin primary shakes up my fear of …]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I'm as qualified to be director of national intelligence as Bill PulteRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/03/bill-pulte-national-intelligence-trump/90370886007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/03/bill-pulte-national-intelligence-trump/90370886007/"/>
-        <updated>2026-08-12T10:58:50.996Z</updated>
-        <summary type="html"><![CDATA[Few things represent the “DEI, but for unqualified goons” approach President Donald Trump takes to his Cabinet appointees better than this June 2 headline from The Washington Post: “Trump picks mortgage chief Bill Pulte to lead on national intelligence.”
-Perfect. A 38-year-old pal of Donald Trump Jr. with a degree in broadcast journalism and experience in finance and home building, coupled with zero background in intelligence or national security, will now be America’s acting director of national intelligence. I feel safer already.
-Pulte has been serving as director of the Federal Housing Finance Agency, though his actions have largely been serving Trump and his unquenchable thirst for revenge against political opponents. 
-Pulte pushed the Justice Department to launch mortgage-fraud invest…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don't call Trump’s Freedom 250 concert ‘Wouldstink.’ That’s mean.Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/02/freedom-250-music-milli-vanilli-trump/90359130007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/02/freedom-250-music-milli-vanilli-trump/90359130007/"/>
-        <updated>2026-08-12T10:58:50.967Z</updated>
-        <summary type="html"><![CDATA[When the musical lineup for President Donald Trump’s Freedom 250 celebration was announced, I was fired up.
-The list of performers for what’s billed as “The Great American State Fair,” a 16-day event on the National Mall starting June 25, included: Milli Vanilli, Young MC, C+C Music Factory, Morris Day and The Time, and Poison lead singer Bret Michaels.
-Because I love Trump and America, and because my brain rejects information that runs contrary to my ideological beliefs, I considered that lineup a victory for conservatives and proof that we are culturally relevant.
-Rude liberals keep attacking the Freedom 250 music lineup
-
-But the lefties out there were quick to suggest Milli Vanilli and company would make a perfect lineup for an off-night county fair B-stage. Nasty comedian John Oliver, …]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rules for the algae-covered Reflecting Pool: No touching, no lookingRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/06/23/reflecting-pool-algae-trump-arrests/90598460007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/06/23/reflecting-pool-algae-trump-arrests/90598460007/"/>
-        <updated>2026-08-12T10:58:50.937Z</updated>
-        <summary type="html"><![CDATA[Hello America-loving tourist, and welcome to the beautiful, algae-free Lincoln Memorial Reflecting Pool, brought to you by President Donald J. Trump, the only man powerful enough to make the Reflecting Pool Great Again.
-You’ll notice the pool is surrounded by armed soldiers hoping you don't look at the water. That is for your safety and the safety of the newly refurbished Reflecting Pool, which is glistening and perfect and not at all covered with a thick layer of algae and stray chunks of American-flag-blue paint the media would have you believe exists.
-Before we begin our tour of this remarkable national landmark, I’ll remind everyone that there is no looking at the remarkable national landmark.
-If you didn’t receive blackout goggles when you bought your ticket for the tour, please keep …]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Gen X review of Gen Z phenomenon 'Backrooms']]></title>
-        <id>https://www.sfgate.com/sf-culture/article/backrooms-review-22288032.php-full</id>
-        <link href="https://www.sfgate.com/sf-culture/article/backrooms-review-22288032.php"/>
-        <updated>2026-08-12T10:58:18.673Z</updated>
-        <summary type="html"><![CDATA[There’s no way for me to write about the horror movie sensation “Backrooms” without betraying my age. Until very recently, I didn’t know that the film was based on a series of YouTube shorts that were, themselves, based on a 4chan thread. I didn’t know that the director of the “Backrooms” feature film was series director Kane Parsons, who’s all of 20 years old and has the most Zoomer name imaginable. When I learned of these facts, dear reader, all of my dormant boomer instincts kicked in. Immediately. I’m the kind of Gen Xer who wanted to die when one of his own kids said they wanted to be a YouTuber one day, so why would I volunteer to sit in a theater for two hours watching one such YouTuber ply their screechy trade? Isn’t there enough MrBeast in everything already? I was conditioned to …]]></summary>
-        <author>
-            <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stephen Colbert's brilliant, bittersweet finale]]></title>
-        <id>https://www.sfgate.com/sf-culture/article/stephen-colbert-final-show-22266912.php-full</id>
-        <link href="https://www.sfgate.com/sf-culture/article/stephen-colbert-final-show-22266912.php"/>
-        <updated>2026-08-12T10:58:18.653Z</updated>
-        <summary type="html"><![CDATA[I met Stephen Colbert a quarter century ago. He was a correspondent for Jon Stewart’s “Daily Show” at the time, I was a junior copywriter at a New York ad agency. We were testing out a radio ad campaign for one of our biggest clients, and our producer scored Colbert to be the voice-over for some of the test spots. Colbert came into the studio for two straight days — being paid at scale, which is basically the established minimum wage for members of the Screen Actors Guild — and blew the goddamn doors off the place. 
-
-He did as many takes as we needed from him. He ad-libbed off the script I’d written, inventing a shady friend of his named Spider whom he knew would just love getting AT&T Wireless’ friends and family plan for only $19.99 a month. He was as brilliant that day as he’d been on n…]]></summary>
-        <author>
-            <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All I hear is 'War is bad!' But Big Oil is making bank.Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/08/02/trump-iran-war-oil-company-profits/91113913007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/08/02/trump-iran-war-oil-company-profits/91113913007/"/>
-        <updated>2026-08-12T07:21:38.671Z</updated>
-        <summary type="html"><![CDATA[It seems all I hear these days are complaints about President Donald Trump’s war with Iran. As a humble oil executive, looking out on the Pacific Ocean from the wrap-around porch of my third mansion, I find these complaints deeply offensive.
-Sure, the word “war” carries many negative connotations. But let’s look at the bottom line, which, in my case, is the oil industry’s bottom line. We’re doing great!
-Just look at this New York Times headline from July 31: “Iran War Drives Oil Profits to Highest Levels in Years.” Huzzah!
-ExxonMobil, Chevron are cashing in on the Iran war
-
-In its second-quarter earnings report released that same day, Chevron showed it made $12.1 billion between April and June, up from $2.5 billion over those same months last year.
-I asked the people who I pay to form a hu…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A sarcastic look at the outrage over 'The Odyssey' | OpinionRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columns/2026/08/02/the-odyssey-movie-box-office-accuracy/91094074007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columns/2026/08/02/the-odyssey-movie-box-office-accuracy/91094074007/"/>
-        <updated>2026-08-12T07:21:38.643Z</updated>
-        <summary type="html"><![CDATA[Like most normal, well-adjusted men, I have spent every waking moment since Christopher Nolan’s “The Odyssey” opened in theaters feeling apoplectically angry about Christopher Nolan’s “The Odyssey.”
-I have rage-posted online, noting that by casting people who are different than me, the director ruined a beloved epic poem I never actually read. I have blamed wokeness for creating a world in which an ancient work of absolute fiction can be sullied by what I, making perfect sense, angrily claim to be historical inaccuracies. 
-Yet despite all my productive and intellectual online shouting, the movie has made $652 million worldwide since its July 17 release. And even more frustratingly, I’m still single.
-I'm mad that a fictional movie is historically inaccurate
-
-I struggle to understand these d…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[If you don't hate data centers yet, boy do I have news for you]]></title>
-        <id>https://www.sfgate.com/tech/article/data-centers-22356298.php</id>
-        <link href="https://www.sfgate.com/tech/article/data-centers-22356298.php"/>
-        <updated>2026-08-12T07:21:24.309Z</updated>
-        <summary type="html"><![CDATA[error fetching full text: Reqwest client error: error decoding response body]]></summary>
-        <author>
-            <name>Drew Magary, Columnist - SFGATE</name>
         </author>
     </entry>
 </feed>
