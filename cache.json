@@ -140,6 +140,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.jamescherti.com/emacs-spell-checker-flyspell-ispell-aspell/",
+          "author": null,
+          "description": "The ispell package serves as the underlying interface in Emacs for communicating with external spell checking programs. Building upon this, the flyspell package is a built-in minor mode that provides on-the-fly spell checking. It highlights misspelled words as you type and offers interactive corrections. This article presents a practical configuration for Emacs that sets up ispell to use Aspell for both programming and standard text editing.\nAdditionally, it addresses a common issue for developers. While writing code, variables such as filepath or buffername in comments or docstrings are often flagged as errors, generating visual noise in your programming buffers. This article contains a specific configuration to prevent these false positives.\nSetting the backend and dictionary\nThe first s…",
+          "link": "https://www.jamescherti.com/emacs-spell-checker-flyspell-ispell-aspell/",
+          "publishedOn": "2026-08-23T13:00:26.000Z",
+          "wordCount": 2729,
+          "title": "James Cherti: Emacs Spell Checker: Configuring Flyspell, Ispell, and Aspell to Minimize False Positives in Source Code and Prose",
+          "imageUrl": null
+        },
+        {
           "id": "https://list.orgmode.org/87v791m6be.fsf@localhost",
           "author": null,
           "description": "[request] flags:--- replies:0 role:maintainer",

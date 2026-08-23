@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-23T12:35:52.641Z</updated>
+    <updated>2026-08-23T14:21:08.771Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[James Cherti: Emacs Spell Checker: Configuring Flyspell, Ispell, and Aspell to Minimize False Positives in Source Code and Prose]]></title>
+        <id>https://www.jamescherti.com/emacs-spell-checker-flyspell-ispell-aspell/</id>
+        <link href="https://www.jamescherti.com/emacs-spell-checker-flyspell-ispell-aspell/"/>
+        <updated>2026-08-23T13:00:26.000Z</updated>
+        <summary type="html"><![CDATA[The ispell package serves as the underlying interface in Emacs for communicating with external spell checking programs. Building upon this, the flyspell package is a built-in minor mode that provides on-the-fly spell checking. It highlights misspelled words as you type and offers interactive corrections. This article presents a practical configuration for Emacs that sets up ispell to use Aspell for both programming and standard text editing.
+Additionally, it addresses a common issue for developers. While writing code, variables such as filepath or buffername in comments or docstrings are often flagged as errors, generating visual noise in your programming buffers. This article contains a specific configuration to prevent these false positives.
+Setting the backend and dictionary
+The first s…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Org Mode requests: [FR] Include :var expansion in expanded noweb references (was: ob-clojure :var header argument not work when src block is noweb called by another src block)]]></title>
         <id>https://list.orgmode.org/87v791m6be.fsf@localhost</id>
