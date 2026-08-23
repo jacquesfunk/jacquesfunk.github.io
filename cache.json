@@ -140,6 +140,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://list.orgmode.org/87v791m6be.fsf@localhost",
+          "author": null,
+          "description": "[request] flags:--- replies:0 role:maintainer",
+          "link": "https://list.orgmode.org/87v791m6be.fsf@localhost",
+          "publishedOn": "2026-08-23T11:21:10.000Z",
+          "wordCount": 626,
+          "title": "Org Mode requests: [FR] Include :var expansion in expanded noweb references (was: ob-clojure :var header argument not work when src block is noweb called by another src block)",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.teachmaths.org/20260823-gemma-goose/",
           "author": null,
           "description": "In my last article\n on AI agents I talked about using Claude Code AI agent. This is an easy-to-set-up commercial solution that gives excellent results. The risk is that the pricing may not remain as affordable as it is today, and as a result I wanted to find an alternative solution that insulates me from changing commercials.\nThere are a number of open-weight models that one may download and run locally on your home computer. Some of the benefits are:",
@@ -428,16 +438,6 @@
           "wordCount": 1750,
           "title": "Chris Maiorana: The Emacs pastoral tradition",
           "imageUrl": "https://chrismaiorana.com/wp-content/uploads/2026/08/Emacs-pastoral.jpg"
-        },
-        {
-          "id": "https://sachachua.com/blog/2026/08/13-aout-emacs-chat-fabrice-niessen/",
-          "author": null,
-          "description": "Fabrice Niessen (Formation Emacs Boost) d'Emacs, de ses flux de travail, de sa configuration, et d'autres sujets en français.\n\n\n\n\nWatch on YouTube\n\n\n\nJ'ai essayé de corriger la transcription, mais je crois qu'il y a encore beaucoup d'erreurs, donc n'hésitez pas à m'envoyer un message.\n\n\n\n\n0:00 Introduction\n1:46 Le parcours\n4:15 Emacs sur Windows : Cygwin et WSL\n8:26 Les automatisations\n12:15 Emacs Boost\n21:15 Emacsclient\n28:49 org-html-themes\n35:02 Review\n37:25 PDF\n40:03 Key-chord\n45:41 Copier sans sélectionner\n48:29 fill-paragraph\n50:02 Les macros\n51:02 Volatile highlight\n52:47 Les tableaux Org\n55:43 Les formations et les cours particuliers\n\n\nLa transcription un peu corrigée\nDetails\n\n\n\n0:00 Introduction\n\nSacha:  Ça marche! \nProt:  Maintenant, nous sommes en direct. \nSacha:  Succès! Bonjou…",
-          "link": "https://sachachua.com/blog/2026/08/13-aout-emacs-chat-fabrice-niessen/",
-          "publishedOn": "2026-08-14T00:13:37.000Z",
-          "wordCount": 8374,
-          "title": "Sacha Chua: Emacs Chat 28: Fabrice Niessen (en français)",
-          "imageUrl": null
         }
       ]
     },
@@ -2359,16 +2359,6 @@
           "wordCount": 2003,
           "title": "Background on the Breakdown of the Trump-Netanyahu Love Affair",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-2287382017.jpg?w=1200"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1555082",
-          "author": "Josh Marshall",
-          "description": "Here’s something to keep a close eye on. Mike Huckabee, who as part of Trump’s fun house diplomacy is now...",
-          "link": "https://talkingpointsmemo.com/edblog/whats-huckabee-up-to",
-          "publishedOn": "2026-08-14T00:18:51.000Z",
-          "wordCount": 2503,
-          "title": "What’s Huckabee Up To?",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2024/11/GettyImages-2181801111.jpg?w=1200"
         }
       ]
     },

@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-23T10:22:04.019Z</updated>
+    <updated>2026-08-23T12:35:52.641Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Org Mode requests: [FR] Include :var expansion in expanded noweb references (was: ob-clojure :var header argument not work when src block is noweb called by another src block)]]></title>
+        <id>https://list.orgmode.org/87v791m6be.fsf@localhost</id>
+        <link href="https://list.orgmode.org/87v791m6be.fsf@localhost"/>
+        <updated>2026-08-23T11:21:10.000Z</updated>
+        <summary type="html"><![CDATA[[request] flags:--- replies:0 role:maintainer]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Clean Slate]]></title>
         <id>https://foxtrot.com/?p=6230</id>
@@ -2887,67 +2897,6 @@ Vani Hari, a MAHA mom who blogs as “The Food Babe,” poste…]]></summary>
         <summary type="html"><![CDATA[error fetching full text: Reqwest client error: error decoding response body]]></summary>
         <author>
             <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What’s Huckabee Up To?]]></title>
-        <id>https://talkingpointsmemo.com/?p=1555082</id>
-        <link href="https://talkingpointsmemo.com/edblog/whats-huckabee-up-to"/>
-        <updated>2026-08-14T00:18:51.000Z</updated>
-        <summary type="html"><![CDATA[Here’s something to keep a close eye on. Mike Huckabee, who as part of Trump’s fun house diplomacy is now...]]></summary>
-        <author>
-            <name>Josh Marshall</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sacha Chua: Emacs Chat 28: Fabrice Niessen (en français)]]></title>
-        <id>https://sachachua.com/blog/2026/08/13-aout-emacs-chat-fabrice-niessen/</id>
-        <link href="https://sachachua.com/blog/2026/08/13-aout-emacs-chat-fabrice-niessen/"/>
-        <updated>2026-08-14T00:13:37.000Z</updated>
-        <summary type="html"><![CDATA[Fabrice Niessen (Formation Emacs Boost) d'Emacs, de ses flux de travail, de sa configuration, et d'autres sujets en français.
-
-
-
-
-Watch on YouTube
-
-
-
-J'ai essayé de corriger la transcription, mais je crois qu'il y a encore beaucoup d'erreurs, donc n'hésitez pas à m'envoyer un message.
-
-
-
-
-0:00 Introduction
-1:46 Le parcours
-4:15 Emacs sur Windows : Cygwin et WSL
-8:26 Les automatisations
-12:15 Emacs Boost
-21:15 Emacsclient
-28:49 org-html-themes
-35:02 Review
-37:25 PDF
-40:03 Key-chord
-45:41 Copier sans sélectionner
-48:29 fill-paragraph
-50:02 Les macros
-51:02 Volatile highlight
-52:47 Les tableaux Org
-55:43 Les formations et les cours particuliers
-
-
-La transcription un peu corrigée
-Details
-
-
-
-0:00 Introduction
-
-Sacha:  Ça marche! 
-Prot:  Maintenant, nous sommes en direct. 
-Sacha:  Succès! Bonjou…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
