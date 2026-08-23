@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-23T06:37:45.742Z</updated>
+    <updated>2026-08-23T08:27:15.240Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -2968,124 +2968,6 @@ Sacha:  Succès! Bonjou…]]></summary>
         <summary type="html"><![CDATA[No matter how hard the president tries, he can’t seem to outmuscle the prestigious university.]]></summary>
         <author>
             <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[In This House We Believe A Bunch Of Stuff, With Justin Ellis]]></title>
-        <id>https://defector.com/?p=232287</id>
-        <link href="https://defector.com/in-this-house-we-believe-a-bunch-of-stuff-with-justin-ellis"/>
-        <updated>2026-08-13T20:22:19.000Z</updated>
-        <summary type="html"><![CDATA[In my personal mental masthead for Defector, there are bureaus representing the places where my co-workers live. Philadelphia you know about. New York, for better and worse, is implied. Minneapolis, where no Defector staffers currently live, is more complicated. But we have Drew, whose Minnesota sports fandom has put him under this heading even though he hasn't lived there in decades, and we also have Justin Ellis, who was shaped by his experience growing up there even though he, too, is a long time gone. Given that recent years have shoved Minneapolis into the center of American politics, and given that Justin wrote a fine new book about the state's long and complicated history on race called The Cruelty Of Nice Folks, it made sense to get the Minnesota Bureau together on the podcast this…]]></summary>
-        <author>
-            <name>David Roth</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russell Westbrook Was Total]]></title>
-        <id>https://defector.com/?p=232344</id>
-        <link href="https://defector.com/russell-westbrook-was-total"/>
-        <updated>2026-08-13T19:58:52.000Z</updated>
-        <summary type="html"><![CDATA[It’s hard to imagine now—like imagining an era when man did not know the sun was huge, hot, and bright—but there was a time when we did not yet understand Russell Westbrook as a basketball player. Slow to hit his growth spurt, Westbrook didn’t dunk until his senior year of high school. Coming out of UCLA after his sophomore year, he was hailed as a defensive stud, with unexplored skill offensively; he still mostly played off the ball. Envision, if you can, an adult Russell Westbrook who had already given over his life to basketball, but did not yet dunk and did not yet dominate the ball. It makes me feel a little insane, like it’s never too late to carve out the defining traits of your life. Go out and remake yourself tomorrow, then decide that that’s you from here on out, and then don’t q…]]></summary>
-        <author>
-            <name>Giri Nathan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russell Westbrook Was Singular]]></title>
-        <id>https://defector.com/?p=232265</id>
-        <link href="https://defector.com/russell-westbrook-was-singular"/>
-        <updated>2026-08-13T19:52:43.000Z</updated>
-        <summary type="html"><![CDATA[When the Seattle SuperSonics drafted Russell Westbrook fourth overall in 2008, around six weeks before they officially became the Oklahoma City Thunder, the league had no idea what to do with such an athletic and violent point guard. Westbrook, who announced his retirement this week, leaves behind a very different NBA than the one he joined 18 years ago, but, despite the considerable passage of time, the extent to which the game changed, and the extensive accolades he racked up, he never became a player who made sense. No sane coach would ever have instructed any of their charges to play more like Russell Westbrook, less because of the riskiness inherent to such a tactic, and more because of its plain impossibility. Westbrook was singular.
-Consider the NBA that Westbrook joined. It was ass…]]></summary>
-        <author>
-            <name>Patrick Redford</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Magnus: Emacs salmagundi, 2026-08-13]]></title>
-        <id>https://magnus.therning.org/2026-08-13-emacs-salmagundi,-2026-08-13.html</id>
-        <link href="https://magnus.therning.org/2026-08-13-emacs-salmagundi,-2026-08-13.html"/>
-        <updated>2026-08-13T19:44:00.000Z</updated>
-        <summary type="html"><![CDATA[Limiting enabled tree-sitter modes
-Emacs 31 Is Around the Corner: The Changes I'm
-Already Daily Driving I simplified my setup and turned on all the tree-sitter
-modes
-
-
-
-(treesit-enabled-modes t)
-
-yaml-ts-mode is rather unusable.1 I switched back to yaml-mode and
-adjusted the value of treesit-enabled-modes to include what I have use for
-(the change):
-
-
-
-(treesit-enabled-modes '(bash-ts-mode
-                         c++-ts-mode
-                         c-or-c++-ts-mode
-                         c-ts-mode
-                         dockerfile-ts-mode
-                         go-mod-ts-mode
-                         go-ts-mode
-                         go-work-ts-mode
-                         json-ts-mode
-                         python-ts-mode
-                         rust-ts-mode
-                         typescript-ts-mode))
-
-treesit-enabled-modes contains a list of all the
-supported modes.
-
-
-
-I hope someone will take pity on yaml-ts-mode and make it usable soon.
-
-
-
-
-Tree-sitter grammar for Cabal files
-treesitter-based mode for Haskell I failed to
-find a tree-sitter grammar for Cabal files so I wrote a rather rough one myself.
-My hope was that it could serve as a base, or motivation, for someone else to
-write a proper one. It took more than 2 years, but now it's finally happened!
-
-
-
-I've switched my mode to use Curtis's grammar and I'll be archiving mine. (The
-change.)
-
-
-
-
-Hello editable xref, good bye wgrep
-Rahul's post also mentions that editable xref buffers. I had the same itch to
-have editable xref buffers, and I'd added a function to turn them into grep
-buffers to be able to edit them. I've now switched to using the built-in
-support, and removed the function.
-
-
-
-At the same time I also decided to remove wgrep and instead use the builtin
-function for editing grep buffers.
-
-
-
-
-Footnotes: 
-1 
-
-A mode for an indentation-sensitive language really ought to at least handle
-indentation!
-
-
-
-
-
-
-Tags: emacs haskell]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
