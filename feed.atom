@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-24T10:35:30.370Z</updated>
+    <updated>2026-08-24T12:45:41.523Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Mickey Petersen: What's New in Emacs 31.1?]]></title>
+        <id>https://www.masteringemacs.org/article/whats-new-in-emacs-311?utm_source=newsletter&amp;utm_medium=rss</id>
+        <link href="https://www.masteringemacs.org/article/whats-new-in-emacs-311?utm_source=newsletter&amp;utm_medium=rss"/>
+        <updated>2026-08-24T11:25:31.000Z</updated>
+        <summary type="html"><![CDATA[Emacs 31.1 is finally out! Unlike earlier Emacs versions, there is not a singular big-bang feature in this release. From what I could gather, the new garbage collector was possibly planned for inclusion in Emacs 31.1, but it has been postponed to Emacs 32. But more on that in a future post; it’s an interesting subject.
+Some of the more notable features in Emacs 31.1 are small, quality of life fixes, and one deprecation that marks the end of an era.
+As always, my book, Mastering Emacs is 31% off for the next week to celebrate the release also.
+The unexec/pdumper controversy and subsequent deprecation
+Emacs is… not a normal application. When you compile and link it, you get temacs which is the heart of Emacs but without most of the libraries that ship with it. It’s a bare-bones Emacs with li…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pete Hegseth’s path to the 2028 GOP nomination isn’t a joke]]></title>
+        <id>https://www.salon.com/2026/08/24/pete-hegseths-path-to-the-2028-gop-nomination-isnt-a-joke/-full</id>
+        <link href="https://www.salon.com/2026/08/24/pete-hegseths-path-to-the-2028-gop-nomination-isnt-a-joke/"/>
+        <updated>2026-08-24T10:45:33.000Z</updated>
+        <summary type="html"><![CDATA[Pete Hegseth may be the most hated man in Washington. According to a recent polling analysis by CNN’s Harry Enten, the defense secretary’s approval ratings have fallen below even the basement-level numbers of President Donald Trump and Vice President JD Vance. So when Hegseth took a trip to speak at the Iowa State Fair on Aug. 17 — a move traditionally seen as the soft launch of a presidential campaign — the response among much of the political chattering class was peals of laughter. Surely even Republicans wouldn’t sink so low as to nominate a thrice-married repeat adulterer who claims to be a Christian while engaging in very un-Christlike bullying, and whose only job real experience is being on TV a lot? Oh, wait.
+The grim reality is that of the Republican names being floated for a 2028 …]]></summary>
+        <author>
+            <name>Amanda Marcotte - Salon.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pete Namlook]]></title>
         <id>https://www.flowstate.fm/p/pete-namlook</id>
@@ -2963,33 +2988,6 @@ Does anyone truly think the president needs an employee to amplify his frequent 
         <summary type="html"><![CDATA[The one-hit wonder label has a funny way of shrinking a career down to three or four minutes. An artist]]></summary>
         <author>
             <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alvaro Ramirez: agent-shell 0.73 updates]]></title>
-        <id>https://xenodium.com/agent-shell-0-73-updates</id>
-        <link href="https://xenodium.com/agent-shell-0-73-updates"/>
-        <updated>2026-08-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Another month, another agent-shell update. If you missed the last one, have a look at the 0.63 update. While this post showcases the latest highlights, the full list of changes is far chunkier than what we'll cover.
-What's agent-shell?
-agent-shell is a native Emacs mode to interact with AI agents powered by ACP (Agent Client Protocol).
-agent-shell enters the chat
-Since inception in September last year (yikes nearly a year), agent-shell has featured a shell-like experience, powered by comint mode. There's also viewport mode (via agent-shell-prefer-viewport-interaction), if you prefer a more focused experience, and now we have chat mode.
-Chat mode fuses comint mode with a more traditional chat-like labelling experience.
-
-We're living on the edge here, so chat mode is now enabled by default. …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Business Models, Coherence, And Not Being an Agitated, Sickly Lab Rat]]></title>
-        <id>https://talkingpointsmemo.com/?p=1555158</id>
-        <link href="https://talkingpointsmemo.com/edblog/business-models-coherence-and-not-being-an-agitated-sickly-lab-rat"/>
-        <updated>2026-08-14T23:12:58.000Z</updated>
-        <summary type="html"><![CDATA[I had a couple conversations today which turned on the role of private equity in today’s economy and the importance...]]></summary>
-        <author>
-            <name>Josh Marshall</name>
         </author>
     </entry>
 </feed>

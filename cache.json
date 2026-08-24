@@ -120,6 +120,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.masteringemacs.org/article/whats-new-in-emacs-311?utm_source=newsletter&utm_medium=rss",
+          "author": null,
+          "description": "Emacs 31.1 is finally out! Unlike earlier Emacs versions, there is not a singular big-bang feature in this release. From what I could gather, the new garbage collector was possibly planned for inclusion in Emacs 31.1, but it has been postponed to Emacs 32. But more on that in a future post; it’s an interesting subject.\nSome of the more notable features in Emacs 31.1 are small, quality of life fixes, and one deprecation that marks the end of an era.\nAs always, my book, Mastering Emacs is 31% off for the next week to celebrate the release also.\nThe unexec/pdumper controversy and subsequent deprecation\nEmacs is… not a normal application. When you compile and link it, you get temacs which is the heart of Emacs but without most of the libraries that ship with it. It’s a bare-bones Emacs with li…",
+          "link": "https://www.masteringemacs.org/article/whats-new-in-emacs-311?utm_source=newsletter&utm_medium=rss",
+          "publishedOn": "2026-08-24T11:25:31.000Z",
+          "wordCount": 36699,
+          "title": "Mickey Petersen: What's New in Emacs 31.1?",
+          "imageUrl": "https://www.masteringemacs.org/static/uploads/article-images/monochrome_gnu.jpg"
+        },
+        {
           "id": "https://irreal.org/blog/?p=14034",
           "author": null,
           "description": "about the relative efficiency of setq, setq-default, setopt, and customize-set-variable. Cherti justifies this concern on their effect on Emacs startup time but according to well established Irreal dicta this doesn’t matter because we seldom restart Emacs so a few seconds more or less simply don’t matter.\n\n\nOddly, there are some people who pay no attention to Irreal dicta and who obsess about every millisecond—Cherti’s term—of Emacs startup time. For those people and those who worry about execution times in general, Cherti’s post is very useful and explains why some of those commands are faster than others.\n\n\nThe crux of the matter is that defcustom can include a setter method that can be arbitrarily complex. Cherti has a nice example of this that will help you understand what’s going on. Cherti says that very often there’s no reason to invoke that setter method during startup and that setq or setq-default is faster and just as useful. Commands like setopt and customize-set-variable always call the setter method so they may be slower. Cherti’s examples show how to avoid unnecessary bottlenecks.\n\n\nCherti also shows how even the :custom keyword in use-package can trigger the setter methods of those variables and gives some workarounds. The main problem is that it’s hard to know when you can avoid the setter method and when you can’t. Sometimes, you just have to read the source code to figure it out.\n\n\nObsessing about startup times aside, it’s nice to have an explanation of what these commands do and how their use might affect run time. Cherti’s post is relatively short and well worth a minute or two to read.",
@@ -418,16 +428,6 @@
           "wordCount": null,
           "title": "Mike Hostetler: No Graph Needed",
           "imageUrl": null
-        },
-        {
-          "id": "https://xenodium.com/agent-shell-0-73-updates",
-          "author": null,
-          "description": "Another month, another agent-shell update. If you missed the last one, have a look at the 0.63 update. While this post showcases the latest highlights, the full list of changes is far chunkier than what we'll cover.\nWhat's agent-shell?\nagent-shell is a native Emacs mode to interact with AI agents powered by ACP (Agent Client Protocol).\nagent-shell enters the chat\nSince inception in September last year (yikes nearly a year), agent-shell has featured a shell-like experience, powered by comint mode. There's also viewport mode (via agent-shell-prefer-viewport-interaction), if you prefer a more focused experience, and now we have chat mode.\nChat mode fuses comint mode with a more traditional chat-like labelling experience.\n\nWe're living on the edge here, so chat mode is now enabled by default. …",
-          "link": "https://xenodium.com/agent-shell-0-73-updates",
-          "publishedOn": "2026-08-15T00:00:00.000Z",
-          "wordCount": 1995,
-          "title": "Alvaro Ramirez: agent-shell 0.73 updates",
-          "imageUrl": "https://xenodium.com/share.png"
         }
       ]
     },
@@ -1050,6 +1050,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/salon-amanda-marcotte.xml",
       "siteUrl": "https://www.salon.com/writer/amanda_marcotte",
       "articles": [
+        {
+          "id": "https://www.salon.com/2026/08/24/pete-hegseths-path-to-the-2028-gop-nomination-isnt-a-joke/-full",
+          "author": null,
+          "description": "Pete Hegseth may be the most hated man in Washington. According to a recent polling analysis by CNN’s Harry Enten, the defense secretary’s approval ratings have fallen below even the basement-level numbers of President Donald Trump and Vice President JD Vance. So when Hegseth took a trip to speak at the Iowa State Fair on Aug. 17 — a move traditionally seen as the soft launch of a presidential campaign — the response among much of the political chattering class was peals of laughter. Surely even Republicans wouldn’t sink so low as to nominate a thrice-married repeat adulterer who claims to be a Christian while engaging in very un-Christlike bullying, and whose only job real experience is being on TV a lot? Oh, wait.\nThe grim reality is that of the Republican names being floated for a 2028 …",
+          "link": "https://www.salon.com/2026/08/24/pete-hegseths-path-to-the-2028-gop-nomination-isnt-a-joke/",
+          "publishedOn": "2026-08-24T10:45:33.000Z",
+          "wordCount": 2132,
+          "title": "Pete Hegseth’s path to the 2028 GOP nomination isn’t a joke",
+          "imageUrl": "https://www.salon.com/app/uploads/2026/08/Pete-Hegseth-2290919357.jpg"
+        },
         {
           "id": "https://www.salon.com/2026/08/21/ice-gloves-reveal-how-trumps-revenge-agenda-is-failing/-full",
           "author": null,
@@ -2299,16 +2309,6 @@
           "wordCount": 2669,
           "title": "Trump To Order Redesign of Aircraft Carriers Because They Don’t Look Right",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-666333584.jpg?w=1200"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1555158",
-          "author": "Josh Marshall",
-          "description": "I had a couple conversations today which turned on the role of private equity in today’s economy and the importance...",
-          "link": "https://talkingpointsmemo.com/edblog/business-models-coherence-and-not-being-an-agitated-sickly-lab-rat",
-          "publishedOn": "2026-08-14T23:12:58.000Z",
-          "wordCount": 2518,
-          "title": "Business Models, Coherence, And Not Being an Agitated, Sickly Lab Rat",
-          "imageUrl": "https://s3.amazonaws.com/tpm-media/images/tpm-logo_square.png"
         }
       ]
     },
