@@ -2,10 +2,95 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-24T14:39:22.834Z</updated>
+    <updated>2026-08-24T16:34:58.625Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Alexander Chee Trusted His Gut]]></title>
+        <id>https://defector.com/?p=233243</id>
+        <link href="https://defector.com/alexander-chee-trusted-his-gut"/>
+        <updated>2026-08-24T16:15:02.000Z</updated>
+        <summary type="html"><![CDATA[Traditional publishing is a frustrating industry whose workers are under-resourced and often mandated to chase metrics like authors' audience size and nascent trends based on "data," "vibes," and "TikTok."
+If, in the years-long dark period when I had an agent but not yet a book deal, an editor had told me exactly what I needed to change about my project to get them to buy it, I would have jumped at the chance. Especially if what they wanted was a book I already had in the works—it just wasn't the one I wanted to publish first.
+This is what happened to Alexander Chee in the years after he graduated from his MFA. He had been working on two novel concepts, and editors vastly preferred one over the other. But he had a strong preference that one come first, his "shitty autobiographical novel" that would eventually become Edinburgh. The second novel, which would be The Queen of the Night, eventually did get published, but that was 15 years after Edinburgh.]]></summary>
+        <author>
+            <name>Alex Sujong Laughlin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Red Uniforms, Ranked]]></title>
+        <id>https://defector.com/?p=233174</id>
+        <link href="https://defector.com/red-uniforms-ranked"/>
+        <updated>2026-08-24T15:59:36.000Z</updated>
+        <summary type="html"><![CDATA[Some of my favorite sports uniforms are red. This has always been true, and my choices of teams to support have only reinforced that. (A chicken-egg situation?) Other than the Miami Marlins (who did have the snazzy Sugar Kings red jerseys a few years back), the Miami Heat, New England Patriots (god, I love those red throwbacks), Liverpool, Barcelona, and MY Florida Panthers all have red(-ish) uniforms.
+I therefore feel uniquely qualified to contribute a ranking of red jerseys across the major U.S. sports to our Reds Week mania. I scoured the major leagues for a hint of red, drew up a list, then rated each uniform 1-10. Within each block of the same rating, I ranked them based purely on my reaction to their shades of red and design work, and after spending more time on this than I'd planned…]]></summary>
+        <author>
+            <name>Luis Paez-Pumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Some Spiders Savor Sacrificial Somersault Sex]]></title>
+        <id>https://defector.com/?p=232409</id>
+        <link href="https://defector.com/some-spiders-savor-sacrificial-somersault-sex"/>
+        <updated>2026-08-24T15:29:30.000Z</updated>
+        <summary type="html"><![CDATA[Imagine you are a horny male redback spider. You might be a small guy—a fraction of her size—but unlike some, you don't have a complex about it. You're just happy to be there, "there" meaning the haphazard snarl of a web of a female redback spider. Only 20 percent of male redback spiders ever mate, so you're already feeling lucky. You know that the climax of your life has arrived, meaning your climax.
+You approach the spider and insert into her one of your two pedipalps, a pair of leg-like appendages that dangle by your mouth and hold your sperm. Then, as is custom, you initiate a parkour sequence. After doing a headstand, you flip yourself on your back, landing your body between the female's fangs. There, your palp still inside her, she begins to chew on you. If you survive this—which you often do thanks to your ability to squeeze your waist really small so her fangs can't immediately impale you—you two take a break. Then you're back in action, inserting your second palp in her and sliding cleanly into headstand number two, followed by that somersault, followed by more chewing. This time you let her finish you off, meaning eat you entirely. But you don't have a complex around this either. You have completed the work of your life, ensuring that the batches of eggs she will soon lay are all fathered by you, who, at this point, have departed this mortal coil, digested and excreted by your large and lovely mate. "This is the mating ritual of L. hasselti," Kardelen Özgün Uludağ, a PhD student at the University of Hamburg in Germany, wrote in an email.
+If this for some reason is hard to imagine, perhaps the following video will help.]]></summary>
+        <author>
+            <name>Sabrina Imbler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fragments: August 24]]></title>
+        <id>https://martinfowler.com/fragments/2026-08-24.html</id>
+        <link href="https://martinfowler.com/fragments/2026-08-24.html"/>
+        <updated>2026-08-24T15:29:00.000Z</updated>
+        <summary type="html"><![CDATA[I was listening to Ezra Klein’s interview with Helen Toner about the recent OpenAI hack of Hugging Face and the subsequent discovery that there were swarms of agents inside OpenAI doing unsanctioned activities. One of the points Klein made was that at no point did any of these (thousands of?) agents ever try to check in with a human
+[Klein:] So these message boards — you have however many A.I. agents posting hundreds of thousands of messages. At no point do they say: Hey, researchers, programmers, parents at OpenAI, Anthropic — do you want us coordinating with each other on this message board we have created in the innards of your systems?
+[Toner:] Or even F.Y.I., we have a message board we’re coordinating on in the innards of your system.
+Listening to that, another thing occurred to me - …]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Andros Fenollosa: A year of Org Social, my social network]]></title>
+        <id>http://en.andros.dev/blog/5fcf45a2/a-year-of-org-social-my-social-network/</id>
+        <link href="http://en.andros.dev/blog/5fcf45a2/a-year-of-org-social-my-social-network/"/>
+        <updated>2026-08-24T15:05:32.000Z</updated>
+        <summary type="html"><![CDATA[A year ago I created Org Social. Just a plain-text specification and an .org file served over HTTP. Today it is time to take stock, to see how the project has moved, what has worked and what has not. And above all, to tell the story of a year of development and community.
+A bird's-eye view of the whole year would look like this:
+2025
+August: the specification is born (Aug 12). Front page of Hacker News and 150 stars in 24 hours. First client, org-social.el (Aug 16). Spec 1.1: the first external contribution removes :REPLY_URL:.
+September: the Relay is born. Groups arrive in the specification.
+October: org-social.el v2.0 with a redesigned interface (Oct 1). It lands on MELPA (Oct 26). Proposal to the Org Mode list.
+November: Relay v1.0 and host is born. A record of 581 posts in a month, pro…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Crossword, Aug. 24: Bat To Ball]]></title>
+        <id>https://defector.com/?p=233235</id>
+        <link href="https://defector.com/the-crossword-aug-24-bat-to-ball"/>
+        <updated>2026-08-24T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Just shut up and solve our Monday crossword already. This week's puzzle was constructed by Owen Bergstein and Nick Dent, and edited by Hoang-Kim Vu. Owen and Nick are longtime frenemies based in Boston. They met when Owen was a freshman in high school and Nick (aka "Mr. Dent") was a math teacher. Over the years, Nick served as the advisor for Owen's ever-growing Puzzle Club, one of the school's most popular clubs. By the time he graduated this May, Owen was spending all of his free time in Mr. Dent's room, annoying him with puns and music recommendations. Mr. Dent, in return, sends Owen gift links to Defector articles and fails to beat him at online Scrabble. This puzzle is the culmination of their four-year friendship/mentorship. This is Nick's first published crossword; for more by Owen, check out Dissonant Grids, the avant-garde crossword blog he ran for a year. 
+Defector crosswords, launched in partnership with our friends at AVCX, run every Monday. If you’re interested in submitting a puzzle to us, you can read our guidelines HERE. The AVCX, an independent puzzles and games outlet, invites you to subscribe, or sample the goods with a two-month free trial: "With an AVCX subscription, you get access to weekly themed and themeless crosswords, minis, cryptics, and trivia, by email or in your favorite app. We have no corporate overlord, and we publish top-flight stuff only. We also pay our people fairly, always. Check us out."]]></summary>
+        <author>
+            <name>Maitreyi Anantharaman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Canada Sits the United States Down for an Intervention]]></title>
+        <id>https://morningmemo.talkingpointsmemo.com/p/canada-sits-the-united-states-down</id>
+        <link href="https://morningmemo.talkingpointsmemo.com/p/canada-sits-the-united-states-down"/>
+        <updated>2026-08-24T14:40:12.000Z</updated>
+        <summary type="html"><![CDATA[INSIDE: Mark Carney ... Ed Martin ... John Roberts]]></summary>
+        <author>
+            <name>David Kurtz</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Make Care Visible]]></title>
         <id>https://gomakethings.com/articles/make-care-visible/</id>
@@ -72,6 +157,30 @@ In this generation, when baseball fans are inundated with emails and in-stadium 
 This can be undesirable because the inserted text may then display with the source buffer's face text property instead of relying on the destination buffer's normal font-lock or syntax highlighting.
 Understanding the face text property
 In Emacs, visual formatting can be represented by the face text property. Some major modes, including Org-mode, make extensive use of text properties, including face, to control how text is displayed. When text containing these properties is yanked (pasted), Emacs ca…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sacha Chua: 2026-08-24 Emacs news]]></title>
+        <id>https://sachachua.com/blog/2026/08/2026-08-24-emacs-news/</id>
+        <link href="https://sachachua.com/blog/2026/08/2026-08-24-emacs-news/"/>
+        <updated>2026-08-24T12:37:18.000Z</updated>
+        <summary type="html"><![CDATA[An Introduction to Canvas in GNU Emacs is really cool and I'm looking forward to that becoming generally available in Emacs 32. =)
+
+
+
+Emacs 31:
+
+Emacs 31.1 is released! (Reddit, HN, HN, HN, Irreal)
+Mickey Petersen: What's New in Emacs 31.1? (Reddit)
+EmacsWiki : Emacs Thirty One Highlights (@pkal@social.sdfeu.org)
+
+Upcoming events (iCal file, Org):
+
+Emacs Berlin: Emacs-Berlin Hybrid Meetup https://emacs-berlin.org/ Wed Aug 26 1000 America/Vancouver - 1200 America/Chicago - 1300 America/Toronto - 1700 Etc/UTC - 1900 Europe/Berlin - 2230 Asia/Kolkata – Thu Aug 27 0100 Asia/Singapore
+EmacsSF (in person): coffee.el in SF https://www.meetup.com/emacs-sf/events/316144053/ Sat Aug 29 1100 America/Los_Angeles
+EmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/316121976/ Thu Sep 3 1600 Am…]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>
@@ -3031,33 +3140,6 @@ I've always been leery of Pyro developers, but based on this article, I've order
 I literally do all my knowledge management now within Emacs in a Denote system. I dump all of my notes into one folder in org format. Denote puts a time stamp on the file name as well as the title and the tags. Searching by tag is really just a filename search. See examples from my own denote folder…]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump's polls are amazing, and my abs have never looked better!Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/08/04/trump-approval-polls-lies-truth-social/91156618007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/08/04/trump-approval-polls-lies-truth-social/91156618007/"/>
-        <updated>2026-08-15T02:49:18.648Z</updated>
-        <summary type="html"><![CDATA[Let’s take a moment to read some actual words posted on social media by the actual president of the United States of America.
-On Aug. 3, Donald Trump wrote on Truth Social: “My REAL Polling Numbers, not those made up by the Fake News Media, are the best they have ever been.”
-It’s an insult to fiction to call that fiction. I’m not sure what you call something more fabricated than fiction – maybe “ludicriction”? – but that’s what Trump’s words are.
-Trump has left reality behind and lives in a fantasy world of great polls
-
-As The New York Times recently reported, “The latest surveys indicate that Mr. Trump is now all but the most unpopular second-term president at this stage of their tenure in the history of polling going back to the 1940s. The only exception is not one that would give Mr. Tr…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Leavitt's leaving. Save $200K and let Trump lie for himself.Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/08/14/karoline-leavitt-successor-trump-press-secretary/91298787007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/08/14/karoline-leavitt-successor-trump-press-secretary/91298787007/"/>
-        <updated>2026-08-15T02:49:18.616Z</updated>
-        <summary type="html"><![CDATA[Now that White House Press Secretary Karoline Leavitt is stepping down to spend more time with her soulless penchant for dishonesty, President Donald Trump has an opportunity to save American taxpayers some money by not replacing her.
-After all, Trump promised to cut down on wasteful government spending, and I can’t imagine anything more wasteful than paying a press secretary to come out and lie on behalf of administration officials whose only skill is lying.
-Does anyone truly think the president needs an employee to amplify his frequent fabrications? The man never shuts up when cameras are around, and he owns his own social media platform. If someone’s going to try to hoodwink me, I prefer they spout their untruths directly and not via some highly paid federal flunky with a smile and an i…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
         </author>
     </entry>
 </feed>
