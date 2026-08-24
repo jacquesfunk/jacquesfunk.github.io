@@ -120,6 +120,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.jamescherti.com/emacs-fix-org-mode-copy-paste-yank-bleed/",
+          "author": null,
+          "description": "When text is copied from an Org-mode buffer and pasted into another Emacs buffer, its visual formatting can sometimes follow it. For instance, text displayed with a particular color, background, or font weight in an Org buffer can retain that appearance after being inserted into a Python buffer.\nThis can be undesirable because the inserted text may then display with the source buffer's face text property instead of relying on the destination buffer's normal font-lock or syntax highlighting.\nUnderstanding the face text property\nIn Emacs, visual formatting can be represented by the face text property. Some major modes, including Org-mode, make extensive use of text properties, including face, to control how text is displayed. When text containing these properties is yanked (pasted), Emacs ca…",
+          "link": "https://www.jamescherti.com/emacs-fix-org-mode-copy-paste-yank-bleed/",
+          "publishedOn": "2026-08-24T12:39:53.000Z",
+          "wordCount": 2316,
+          "title": "James Cherti: Emacs: Copy-paste without org-mode formatting bleeding into other buffers",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.masteringemacs.org/article/whats-new-in-emacs-311?utm_source=newsletter&utm_medium=rss",
           "author": null,
           "description": "Emacs 31.1 is finally out! Unlike earlier Emacs versions, there is not a singular big-bang feature in this release. From what I could gather, the new garbage collector was possibly planned for inclusion in Emacs 31.1, but it has been postponed to Emacs 32. But more on that in a future post; it’s an interesting subject.\nSome of the more notable features in Emacs 31.1 are small, quality of life fixes, and one deprecation that marks the end of an era.\nAs always, my book, Mastering Emacs is 31% off for the next week to celebrate the release also.\nThe unexec/pdumper controversy and subsequent deprecation\nEmacs is… not a normal application. When you compile and link it, you get temacs which is the heart of Emacs but without most of the libraries that ship with it. It’s a bare-bones Emacs with li…",
@@ -436,6 +446,36 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=232919",
+          "author": "Lauren Theisen",
+          "description": "I won't dispute that I once had red hair. Back in 2019, just for kicks, I went with a bright Hayley Williams–esque red that petered out for obvious reasons the following year. Then in 2025, with a 30th birthday and a big trip on the horizon, I decided to freshen up my look with a new color that my stylist tells me is as light as I can go without using bleach. For full transparency purposes, here is what it looks like the day after the salon.\n\n\nI thought of this hair as simply a lighter version of my natural brunette, specifically because it paled in comparison to the unmistakably fiery hair I'd sported several years ago. But I quickly realized that other people—especially those I was meeting for the first time—perceived me differently. One red-haired guy initially saw me as a ginger peer before teasing me about my roots. A new acquaintance referenced knowing \"another Lauren with red hair.\" It came up consistently in catcalls and compliments, so, finally, I couldn't help but wonder: Is my hair red?",
+          "link": "https://defector.com/is-my-hair-red-a-defector-slack-investigation",
+          "publishedOn": "2026-08-24T13:54:25.000Z",
+          "wordCount": 10408,
+          "title": "Is My Hair Red? A Defector Slack Investigation",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/20260727_1658581.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=232182",
+          "author": "Vince Guerrieri",
+          "description": "For as long as baseball’s All-Star Game has been played—almost every year since 1933, including twice a year from 1959 to 1962—it’s been the ultimate in wish fulfillment for fans. Want to see a team of future Hall of Famers playing together? It’s got that. Want to see your favorite local players honored on a national stage? It’s possible. Poignant curtain calls and unexpected comedy? You bet.\nBut actual fan participation in selecting All-Star teams? That’s been a rockier road.\nIn this generation, when baseball fans are inundated with emails and in-stadium announcements encouraging All-Star Game voting, it’s hard to believe this wasn’t always the case. But after the first game in 1933 featured fan voting, team selections were done briefly by player vote and then entirely by managers.",
+          "link": "https://defector.com/how-cincinnati-ruined-all-star-voting-for-a-dozen-years",
+          "publishedOn": "2026-08-24T13:03:32.000Z",
+          "wordCount": 10207,
+          "title": "How Cincinnati Ruined All-Star Voting For A Dozen Years",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/reds57.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=233197",
+          "author": "Tom Ley",
+          "description": "Gaze into the eyes of Comrade Redlegs, and let the truth of the situation wash over you: It’s Reds Week. That’s right. You may have survived Senators Week, Rays Week, Wings Week, and Bills Week—but do you have what it takes to journey with us into our latest theme week? Over the next five days,…",
+          "link": "https://defector.com/its-reds-week",
+          "publishedOn": "2026-08-24T13:00:13.000Z",
+          "wordCount": 3524,
+          "title": "It’s Reds Week",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/REDS-WEEK_1-2.png"
+        },
         {
           "id": "https://defector.com/?p=233185",
           "author": "David Roth",
@@ -1014,16 +1054,6 @@
           "publishedOn": "2026-08-15T20:46:26.000Z",
           "wordCount": 2618,
           "title": "Saturday Night 80s Jam:  Whitesnake – Here I Go Again",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3379",
-          "author": "Schill",
-          "description": "The one-hit wonder label has a funny way of shrinking a career down to three or four minutes. An artist",
-          "link": "https://stuffthatinterestsme.net/7-one-hit-wonder-singers-who-went-on-to-become-legendary-producers-and-songwriters/",
-          "publishedOn": "2026-08-15T00:51:05.000Z",
-          "wordCount": 3902,
-          "title": "7 One-Hit Wonder Singers Who Went on to Become Legendary Producers and Songwriters",
           "imageUrl": null
         }
       ]
@@ -2174,6 +2204,16 @@
       "siteUrl": "https://gomakethings.com/articles",
       "articles": [
         {
+          "id": "https://gomakethings.com/articles/make-care-visible/",
+          "author": null,
+          "description": "There’s a rather popular flavor of social media content focused on helping unhoused people.\nThe creator will give out sleeping bags, socks, and care kits; sit down and have a meal; or take the unhoused person shopping. Sometimes they help them find work or start a GoFundMe to get them off the streets.\nIt does a lot of good. But it’s also gross AF! Imagine you’re cold, hungry, and desperate, and someone offers to get you all the things you need… if you consent to having a camera shoved in your face and the footage of you at your lowest blasted on the internet.",
+          "link": "https://gomakethings.com/articles/make-care-visible/",
+          "publishedOn": "2026-08-24T14:30:00.000Z",
+          "wordCount": 6369,
+          "title": "Make Care Visible",
+          "imageUrl": "https://gomakethings.com/img/og.png"
+        },
+        {
           "id": "https://gomakethings.com/articles/how-to-apply-css-only-if-there-are-a-certain-number-of-nested-elements/",
           "author": null,
           "description": "This week, I had to write CSS for a design where a list of elements got a bit of extra design treatment if there were at least three nested items inside it.\n<!-- Base design --> <ul class=\"magic-list\"> <li>Item 1</li> <li>Item 2</li> </ul> <!-- Extra design --> <ul class=\"magic-list\"> <li>Item 1</li> <li>Item 2</li> <li>Item 3</li> <li>Item 4</li> <!-- ... --> </ul> I really wanted to avoid using JavaScript to add/remove an extra class, and the the :has() pseudo-class and the nth-* pseudo-class made it shockingly easy!",
@@ -2299,6 +2339,16 @@
           "wordCount": 2365,
           "title": "From Natalie, With LOVE …",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-2289907916.jpg?w=1200"
+        },
+        {
+          "id": "https://talkingpointsmemo.com/?p=1555158",
+          "author": "Josh Marshall",
+          "description": "I had a couple conversations today which turned on the role of private equity in today’s economy and the importance...",
+          "link": "https://talkingpointsmemo.com/edblog/business-models-coherence-and-not-being-an-agitated-sickly-lab-rat",
+          "publishedOn": "2026-08-16T12:27:18.000Z",
+          "wordCount": 2523,
+          "title": "Business Models, Coherence, And Not Being an Agitated, Sickly Lab Rat",
+          "imageUrl": "https://s3.amazonaws.com/tpm-media/images/tpm-logo_square.png"
         },
         {
           "id": "https://talkingpointsmemo.com/?p=1555184",
@@ -2475,6 +2525,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/nobody-gives-a-shit-about-your-grand",
+          "author": "Jeff Tiedrich",
+          "description": "fix the country you broke, imbecile",
+          "link": "https://www.jefftiedrich.com/p/nobody-gives-a-shit-about-your-grand",
+          "publishedOn": "2026-08-24T14:22:05.000Z",
+          "wordCount": null,
+          "title": "no one gives a shit about your Grand Prix race, you out-of-touch fuck",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!7n2C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F296b8f41-6111-4b20-b7e7-03a04dd223ce_1200x673.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!7n2C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F296b8f41-6111-4b20-b7e7-03a04dd223ce_1200x673.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/canada-is-basically-now-just-farting",
           "author": "Jeff Tiedrich",

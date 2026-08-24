@@ -2,10 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-24T12:45:41.523Z</updated>
+    <updated>2026-08-24T14:39:22.834Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Make Care Visible]]></title>
+        <id>https://gomakethings.com/articles/make-care-visible/</id>
+        <link href="https://gomakethings.com/articles/make-care-visible/"/>
+        <updated>2026-08-24T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[There’s a rather popular flavor of social media content focused on helping unhoused people.
+The creator will give out sleeping bags, socks, and care kits; sit down and have a meal; or take the unhoused person shopping. Sometimes they help them find work or start a GoFundMe to get them off the streets.
+It does a lot of good. But it’s also gross AF! Imagine you’re cold, hungry, and desperate, and someone offers to get you all the things you need… if you consent to having a camera shoved in your face and the footage of you at your lowest blasted on the internet.]]></summary>
+        <author>
+            <name>Go Make Things</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[no one gives a shit about your Grand Prix race, you out-of-touch fuck]]></title>
+        <id>https://www.jefftiedrich.com/p/nobody-gives-a-shit-about-your-grand</id>
+        <link href="https://www.jefftiedrich.com/p/nobody-gives-a-shit-about-your-grand"/>
+        <updated>2026-08-24T14:22:05.000Z</updated>
+        <summary type="html"><![CDATA[fix the country you broke, imbecile]]></summary>
+        <author>
+            <name>Jeff Tiedrich</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is My Hair Red? A Defector Slack Investigation]]></title>
+        <id>https://defector.com/?p=232919</id>
+        <link href="https://defector.com/is-my-hair-red-a-defector-slack-investigation"/>
+        <updated>2026-08-24T13:54:25.000Z</updated>
+        <summary type="html"><![CDATA[I won't dispute that I once had red hair. Back in 2019, just for kicks, I went with a bright Hayley Williams–esque red that petered out for obvious reasons the following year. Then in 2025, with a 30th birthday and a big trip on the horizon, I decided to freshen up my look with a new color that my stylist tells me is as light as I can go without using bleach. For full transparency purposes, here is what it looks like the day after the salon.
+
+
+I thought of this hair as simply a lighter version of my natural brunette, specifically because it paled in comparison to the unmistakably fiery hair I'd sported several years ago. But I quickly realized that other people—especially those I was meeting for the first time—perceived me differently. One red-haired guy initially saw me as a ginger peer before teasing me about my roots. A new acquaintance referenced knowing "another Lauren with red hair." It came up consistently in catcalls and compliments, so, finally, I couldn't help but wonder: Is my hair red?]]></summary>
+        <author>
+            <name>Lauren Theisen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Cincinnati Ruined All-Star Voting For A Dozen Years]]></title>
+        <id>https://defector.com/?p=232182</id>
+        <link href="https://defector.com/how-cincinnati-ruined-all-star-voting-for-a-dozen-years"/>
+        <updated>2026-08-24T13:03:32.000Z</updated>
+        <summary type="html"><![CDATA[For as long as baseball’s All-Star Game has been played—almost every year since 1933, including twice a year from 1959 to 1962—it’s been the ultimate in wish fulfillment for fans. Want to see a team of future Hall of Famers playing together? It’s got that. Want to see your favorite local players honored on a national stage? It’s possible. Poignant curtain calls and unexpected comedy? You bet.
+But actual fan participation in selecting All-Star teams? That’s been a rockier road.
+In this generation, when baseball fans are inundated with emails and in-stadium announcements encouraging All-Star Game voting, it’s hard to believe this wasn’t always the case. But after the first game in 1933 featured fan voting, team selections were done briefly by player vote and then entirely by managers.]]></summary>
+        <author>
+            <name>Vince Guerrieri</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It’s Reds Week]]></title>
+        <id>https://defector.com/?p=233197</id>
+        <link href="https://defector.com/its-reds-week"/>
+        <updated>2026-08-24T13:00:13.000Z</updated>
+        <summary type="html"><![CDATA[Gaze into the eyes of Comrade Redlegs, and let the truth of the situation wash over you: It’s Reds Week. That’s right. You may have survived Senators Week, Rays Week, Wings Week, and Bills Week—but do you have what it takes to journey with us into our latest theme week? Over the next five days,…]]></summary>
+        <author>
+            <name>Tom Ley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[James Cherti: Emacs: Copy-paste without org-mode formatting bleeding into other buffers]]></title>
+        <id>https://www.jamescherti.com/emacs-fix-org-mode-copy-paste-yank-bleed/</id>
+        <link href="https://www.jamescherti.com/emacs-fix-org-mode-copy-paste-yank-bleed/"/>
+        <updated>2026-08-24T12:39:53.000Z</updated>
+        <summary type="html"><![CDATA[When text is copied from an Org-mode buffer and pasted into another Emacs buffer, its visual formatting can sometimes follow it. For instance, text displayed with a particular color, background, or font weight in an Org buffer can retain that appearance after being inserted into a Python buffer.
+This can be undesirable because the inserted text may then display with the source buffer's face text property instead of relying on the destination buffer's normal font-lock or syntax highlighting.
+Understanding the face text property
+In Emacs, visual formatting can be represented by the face text property. Some major modes, including Org-mode, make extensive use of text properties, including face, to control how text is displayed. When text containing these properties is yanked (pasted), Emacs ca…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mickey Petersen: What's New in Emacs 31.1?]]></title>
         <id>https://www.masteringemacs.org/article/whats-new-in-emacs-311?utm_source=newsletter&amp;utm_medium=rss</id>
@@ -2799,6 +2869,16 @@ Focusing on the "every day" part rather than the "how much" part has made all th
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Business Models, Coherence, And Not Being an Agitated, Sickly Lab Rat]]></title>
+        <id>https://talkingpointsmemo.com/?p=1555158</id>
+        <link href="https://talkingpointsmemo.com/edblog/business-models-coherence-and-not-being-an-agitated-sickly-lab-rat"/>
+        <updated>2026-08-16T12:27:18.000Z</updated>
+        <summary type="html"><![CDATA[I had a couple conversations today which turned on the role of private equity in today’s economy and the importance...]]></summary>
+        <author>
+            <name>Josh Marshall</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Reconfiguring my backups]]></title>
         <id>https://baty.net/posts/2026/08/reconfiguring-my-backups/</id>
         <link href="https://baty.net/posts/2026/08/reconfiguring-my-backups/"/>
@@ -2978,16 +3058,6 @@ After all, Trump promised to cut down on wasteful government spending, and I can
 Does anyone truly think the president needs an employee to amplify his frequent fabrications? The man never shuts up when cameras are around, and he owns his own social media platform. If someone’s going to try to hoodwink me, I prefer they spout their untruths directly and not via some highly paid federal flunky with a smile and an i…]]></summary>
         <author>
             <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[7 One-Hit Wonder Singers Who Went on to Become Legendary Producers and Songwriters]]></title>
-        <id>https://stuffthatinterestsme.net/?p=3379</id>
-        <link href="https://stuffthatinterestsme.net/7-one-hit-wonder-singers-who-went-on-to-become-legendary-producers-and-songwriters/"/>
-        <updated>2026-08-15T00:51:05.000Z</updated>
-        <summary type="html"><![CDATA[The one-hit wonder label has a funny way of shrinking a career down to three or four minutes. An artist]]></summary>
-        <author>
-            <name>Schill</name>
         </author>
     </entry>
 </feed>
