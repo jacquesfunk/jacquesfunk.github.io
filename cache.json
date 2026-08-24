@@ -120,6 +120,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "http://yummymelon.com/devnull/announcing-shazam-el.html",
+          "author": null,
+          "description": "Continuing my explorations on malleable computing with Emacs is examining access to OS/Platform-specific resources, in this case with macOS. macOS provides a number of mechanisms for high-level inter-process communication, among them AppleScript & Automator Actions (now considered legacy but still maintained) and App Intents, Entities & Shortcuts (introduced in macOS 13 and considered by Apple a replacement for the former).\nThis post both announces and covers the implementation of an Emacs integration with the Shazam music recognition service that is packaged with macOS. This Emacs integration is called shazam.el (https://github.com/kickingvegas/shazam) and is now available for installation via MELPA.\nTo understand the shazam.el implementation, the following background information is provi…",
+          "link": "http://yummymelon.com/devnull/announcing-shazam-el.html",
+          "publishedOn": "2026-08-24T21:00:00.000Z",
+          "wordCount": 759,
+          "title": "Charles Choi: Announcing shazam.el",
+          "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
+        },
+        {
           "id": "https://mbork.pl/2026-08-24_Transforming_yanked_text",
           "author": null,
           "description": "Recently I found myself killing and yanking more often than ever. One problem with that is that the capitalization and punctuation of what I have yanked is often wrong. As a (pretty stupid) example, I might see the sentence “This is bad.”, and I might want to write another one: “He thinks that this is bad, and he’s right.” If I use kill-sentence (M-k) or backward-kill-sentence (C-x DEL), I have the whole This is bad. in the kill ring, but what I need to yank is this is bad (with lower-case “t” and without the period), so I need to make both changes after yanking. After several dozen such cases I thought, this is Emacs, I shouldn’t be doing this manually!",
@@ -1962,6 +1972,16 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73514344/midterms-democrats-jared-kushner-hakeem-jeffries/",
+          "author": null,
+          "description": "The Democrats are already making moves in anticipation of a big midterm swing. They should be doing penance first.",
+          "link": "https://www.esquire.com/news-politics/politics/a73514344/midterms-democrats-jared-kushner-hakeem-jeffries/",
+          "publishedOn": "2026-08-24T21:05:20.000Z",
+          "wordCount": 19189,
+          "title": "America Needs to Look Backward Before We Can Look Forward, or We’re Doomed to Repeat Our Mistakes Forever",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/759b7918-906f-4a84-a967-799ff7311dd5.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73513264/trump-trade-negotiations-canada/",
           "author": null,
           "description": "Yes, he’s still on the delusional “51st state” thing.",
@@ -2640,6 +2660,22 @@
       "feedUrl": "https://wherethingsstand.talkingpointsmemo.com/feed",
       "siteUrl": "https://wherethingsstand.talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://wherethingsstand.talkingpointsmemo.com/p/dems-prepare-for-trump-corruption",
+          "author": "Nicole Lafond",
+          "description": "This is your TPM evening briefing.",
+          "link": "https://wherethingsstand.talkingpointsmemo.com/p/dems-prepare-for-trump-corruption",
+          "publishedOn": "2026-08-24T21:44:51.000Z",
+          "wordCount": null,
+          "title": "Dems Prepare for Trump Corruption Investigation Blitz Should They Take House",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!Wmk3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa81bee71-0226-4e29-b692-7750b10eff4d_1600x1200.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!Wmk3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa81bee71-0226-4e29-b692-7750b10eff4d_1600x1200.png"
+        },
         {
           "id": "https://wherethingsstand.talkingpointsmemo.com/p/greg-abbott-grasps-at-anything-to",
           "author": "Nicole Lafond",
