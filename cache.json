@@ -120,6 +120,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=14036",
+          "author": null,
+          "description": "announced the release of Emacs 31.1. As usual, it’s available at the mirror nearest you. Note, however, that the URLs in Whitton’s announcement have a typo. See this message from Eli for the correct URLs.\n\n\nI’m writing this with the just built new Emacs and everything seems fine. I had a bit of trouble downloading the source because, apparently, some of the mirrors haven’t updated yet. If that happens to you, just repeat the request a time or two and you should get everything. After that, enjoy your new Emacs and all the goodies it brings. As always, Mickey has his usual exegesis of the changes.\n\n\nAs I invariably say at times like this, Eli and the rest of the development team deserve our huge thanks for their selfless efforts on our behalf.",
+          "link": "https://irreal.org/blog/?p=14036",
+          "publishedOn": "2026-08-24T16:41:31.000Z",
+          "wordCount": 1387,
+          "title": "Irreal: Emacs 31.1",
+          "imageUrl": null
+        },
+        {
           "id": "http://en.andros.dev/blog/5fcf45a2/a-year-of-org-social-my-social-network/",
           "author": null,
           "description": "A year ago I created Org Social. Just a plain-text specification and an .org file served over HTTP. Today it is time to take stock, to see how the project has moved, what has worked and what has not. And above all, to tell the story of a year of development and community.\nA bird's-eye view of the whole year would look like this:\n2025\nAugust: the specification is born (Aug 12). Front page of Hacker News and 150 stars in 24 hours. First client, org-social.el (Aug 16). Spec 1.1: the first external contribution removes :REPLY_URL:.\nSeptember: the Relay is born. Groups arrive in the specification.\nOctober: org-social.el v2.0 with a redesigned interface (Oct 1). It lands on MELPA (Oct 26). Proposal to the Org Mode list.\nNovember: Relay v1.0 and host is born. A record of 581 posts in a month, pro…",
@@ -448,16 +458,6 @@
           "wordCount": 1198,
           "title": "Andros Fenollosa: Elpher: my tweaks for better Gemini browsing in Emacs",
           "imageUrl": "https://img.andros.dev/hwJiIbPn09hEHn5kr1EV5PhGols=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_e3f6bada.png"
-        },
-        {
-          "id": "https://mike.hostetlerhome.com/no-graph-needed.html",
-          "author": null,
-          "description": "This month's Emacs Carnival theme is The Search For Knowledge, which is kinda something near and dear to my heart. I wrote an Obsidian to Emacs post from a little over a year ago and one of the things that I mentioned is that Obsidian has a Knowledge Graph that I didn't use. denote-explore does have one and I set graphing up once but I don't use it at all. I work just fine without a Knowledge Graph. Using Denote, ripgrep, and consult, things work great for me. It's smooth and not a lot of fuss.\nI literally do all my knowledge management now within Emacs in a Denote system. I dump all of my notes into one folder in org format. Denote puts a time stamp on the file name as well as the title and the tags. Searching by tag is really just a filename search. See examples from my own denote folder…",
-          "link": "https://mike.hostetlerhome.com/no-graph-needed.html",
-          "publishedOn": "2026-08-15T05:00:00.000Z",
-          "wordCount": null,
-          "title": "Mike Hostetler: No Graph Needed",
-          "imageUrl": null
         }
       ]
     },
@@ -466,6 +466,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=232860",
+          "author": "Liz Cook",
+          "description": "I can't help but empathize with the heirloom tomato this time of year. The first BLTs have been eaten; the novelty has worn off. Stacked on farmers' market tables like milk bottles in a carnival game, late-summer tomatoes start to look a little worse for wear. Like me, they are often etched with lines from spotty hydration. They're a little busted, a little bruised. \nAlso like me, they retain in their haggard hides a secret well of great beauty and value. If you find yourself with a surfeit of ugly heirloom tomatoes this summer, there is only one thing to do: Make tomato water. \nTomato water is the purest expression of a tomato—all heart, no husk. It is an excellent way to sneak umami, a word my editor told me I was only allowed to use once in this blog, into salad dressings and sauces and negronis. The water inside of a tomato is packed with glutamates, the savory compounds derived from having a thick ass. Those glutamates are the building blocks of MSG, which stands for Making Stuff Good. The magic trick of tomato water is that it allows you to make things more savory without necessarily making them salty.",
+          "link": "https://defector.com/turn-your-busted-tomatoes-into-tomato-water",
+          "publishedOn": "2026-08-24T17:30:48.000Z",
+          "wordCount": 7325,
+          "title": "Turn Your Busted Tomatoes Into Tomato Water",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/IMG_6062.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=233245",
+          "author": "Drew Magary",
+          "description": "Some people are fans of the Philadelphia Eagles. But many, many more people are NOT fans of the Philadelphia Eagles. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.\nYour team: Philadelphia Eag—God, I’m exhausted just typing their name. Makes me wanna spit on a guy.\n\nhttps://twitter.com/SportsCenter/status/1963761757760930233",
+          "link": "https://defector.com/why-your-team-sucks-2026-philadelphia-eagles",
+          "publishedOn": "2026-08-24T16:59:18.000Z",
+          "wordCount": 13637,
+          "title": "Why Your Team Sucks 2026: Philadelphia Eagles",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2246268439.jpg"
+        },
         {
           "id": "https://defector.com/?p=233243",
           "author": "Alex Sujong Laughlin",
@@ -1187,6 +1207,26 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/14/karoline-leavitt-successor-trump-press-secretary/91298787007/-full",
+          "author": "Rex Huppke",
+          "description": "Now that White House Press Secretary Karoline Leavitt is stepping down to spend more time with her soulless penchant for dishonesty, President Donald Trump has an opportunity to save American taxpayers some money by not replacing her.\nAfter all, Trump promised to cut down on wasteful government spending, and I can’t imagine anything more wasteful than paying a press secretary to come out and lie on behalf of administration officials whose only skill is lying.\nDoes anyone truly think the president needs an employee to amplify his frequent fabrications? The man never shuts up when cameras are around, and he owns his own social media platform. If someone’s going to try to hoodwink me, I prefer they spout their untruths directly and not via some highly paid federal flunky with a smile and an i…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/14/karoline-leavitt-successor-trump-press-secretary/91298787007/",
+          "publishedOn": "2026-08-24T18:37:16.671Z",
+          "wordCount": 4187,
+          "title": "Leavitt's leaving. Save $200K and let Trump lie for himself.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/13/USAT/91288453007-20250715-t-174348-z-2033419486-rc-25-nfaj-2-n-15-rtrmadp-3-usatrump-1.JPG?crop=4499,2531,x0,y150&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/04/trump-approval-polls-lies-truth-social/91156618007/-full",
+          "author": "Rex Huppke",
+          "description": "Let’s take a moment to read some actual words posted on social media by the actual president of the United States of America.\nOn Aug. 3, Donald Trump wrote on Truth Social: “My REAL Polling Numbers, not those made up by the Fake News Media, are the best they have ever been.”\nIt’s an insult to fiction to call that fiction. I’m not sure what you call something more fabricated than fiction – maybe “ludicriction”? – but that’s what Trump’s words are.\nTrump has left reality behind and lives in a fantasy world of great polls\n\nAs The New York Times recently reported, “The latest surveys indicate that Mr. Trump is now all but the most unpopular second-term president at this stage of their tenure in the history of polling going back to the 1940s. The only exception is not one that would give Mr. Tr…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/04/trump-approval-polls-lies-truth-social/91156618007/",
+          "publishedOn": "2026-08-24T18:37:16.642Z",
+          "wordCount": 3953,
+          "title": "Trump's polls are amazing, and my abs have never looked better!Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/03/USAT/91155555007-20260803-vpc-trump-on-max-miller-thumb-getty-00-00-00-00-still-003.jpg?crop=1919,1079,x0,y0&width=1919&height=1079&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columns/2026/06/14/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90506066007/-full",
           "author": "Rex Huppke",
@@ -2310,6 +2350,26 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1555735",
+          "author": "Josh Marshall",
+          "description": "Jewish Insider, the source of this passage, often has what I’d consider tendentious coverage of this issue. But these words...",
+          "link": "https://talkingpointsmemo.com/edblog/not-good-7",
+          "publishedOn": "2026-08-24T16:09:06.000Z",
+          "wordCount": 1974,
+          "title": "Not Good",
+          "imageUrl": "https://s3.amazonaws.com/tpm-media/images/tpm-logo_square.png"
+        },
+        {
+          "id": "https://talkingpointsmemo.com/?p=1555671",
+          "author": "Josh Marshall",
+          "description": "There’s been a blizzard of commentary about the breakdown of U.S.-Canadian trade talks. Friend of TPM Paul Krugman has a...",
+          "link": "https://talkingpointsmemo.com/edblog/trumps-wars-of-whim-and-how-he-loses-them",
+          "publishedOn": "2026-08-24T15:02:35.000Z",
+          "wordCount": 2064,
+          "title": "Trump’s Wars of Whim, And How He Loses Them",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2025/01/GettyImages-1047703964.jpg?w=1200"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1555646",
           "author": "Josh Marshall",
