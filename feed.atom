@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-24T22:23:56.129Z</updated>
+    <updated>2026-08-25T01:08:57.602Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The History of Prog Rock: How Rock Music Learned to Think Bigger]]></title>
+        <id>https://historyofmusic.net/?p=5834</id>
+        <link href="https://historyofmusic.net/1960s/the-history-of-prog-rock-how-rock-music-learned-to-think-bigger/"/>
+        <updated>2026-08-25T01:08:10.000Z</updated>
+        <summary type="html"><![CDATA[Progressive rock, or prog rock, was one of the strangest and most ambitious musical movements to emerge from the]]></summary>
+        <author>
+            <name>schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[50 Most Recognizable Singers in Music History]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3396</id>
+        <link href="https://stuffthatinterestsme.net/50-most-recognizable-singers-in-music-history/"/>
+        <updated>2026-08-25T00:53:09.000Z</updated>
+        <summary type="html"><![CDATA[Music has produced thousands of great singers, but greatness and recognizability are two very different things. There are singers with]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Troma Tuesday: Christmas Evil]]></title>
+        <id>https://stuffthatinterestsme.net/?p=2925</id>
+        <link href="https://stuffthatinterestsme.net/troma-tuesday-christmas-evil/"/>
+        <updated>2026-08-25T00:22:25.000Z</updated>
+        <summary type="html"><![CDATA[Holiday horror has become a beloved subgenre, offering twisted takes on celebrations that are normally associated with warmth, family, and]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Ramones: The Band That Changed Rock & Roll Forever]]></title>
+        <id>https://historyofmusic.net/?p=5823</id>
+        <link href="https://historyofmusic.net/1970s/the-ramones-the-band-that-changed-rock-roll-forever/"/>
+        <updated>2026-08-24T23:53:04.000Z</updated>
+        <summary type="html"><![CDATA[The Ramones did not look like the kind of band that was going to change music forever. They were four]]></summary>
+        <author>
+            <name>schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More Proof That Christian Nationalism Is Ruining Religion for Everybody]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a73514579/christian-nationalism-wind-river-reservation/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a73514579/christian-nationalism-wind-river-reservation/"/>
+        <updated>2026-08-24T23:29:14.000Z</updated>
+        <summary type="html"><![CDATA[What does religious liberty even mean when the wing nuts won’t let anyone else follow their own beliefs and traditions?]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Dems Prepare for Trump Corruption Investigation Blitz Should They Take House]]></title>
         <id>https://wherethingsstand.talkingpointsmemo.com/p/dems-prepare-for-trump-corruption</id>
@@ -3303,21 +3353,6 @@ Today I want to share a minimal configuration I use to browse more comfortably. 
 Elpher is on MELPA. I declare it with use-package, so everything stays in a single block: :ensure t installs it the first time, :config defines the function and…]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Saturday, August 15, 2026]]></title>
-        <id>https://baty.net/journal/15Aug26/</id>
-        <link href="https://baty.net/journal/15Aug26/"/>
-        <updated>2026-08-15T12:44:27.000Z</updated>
-        <summary type="html"><![CDATA["I'll be curled up under my bed all day because I got an unexpected and (IMHO) unnecessary Emergency Alert on my phone that one time. But not before I complain about it on social media for a few hours, first."
-🙄
-510 Pyro: The Best First Developer - by Derrick Buckner
-One dilution, one bottle. No drama. I’m going to explain why this belongs in a beginner’s arsenal as much as it belongs in mine.
-I've always been leery of Pyro developers, but based on this article, I've ordered a bottle from Freestyle Photo
-✍️ Reply by email]]></summary>
-        <author>
-            <name>baty.net</name>
         </author>
     </entry>
 </feed>
