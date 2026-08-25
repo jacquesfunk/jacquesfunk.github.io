@@ -458,16 +458,6 @@
           "wordCount": 1550,
           "title": "Irreal: Emacs Users",
           "imageUrl": null
-        },
-        {
-          "id": "http://en.andros.dev/blog/b18ae804/elpher-my-tweaks-for-better-gemini-browsing-in-emacs/",
-          "author": null,
-          "description": "Elpher is the Gemini browser for Emacs. It works wonderfully and its integration with GNU's editor is sublime. You don't just move between capsules: you can also write your own scripts or build automated flows. It's Emacs, after all. Everything bends to your will.\nIf you still don't know what Gemini is, it's a minimalist protocol, halfway between the web and Gopher, with no JavaScript and no trackers. I cover it in depth in Introduction to the Gemini protocol.\nToday I want to share a minimal configuration I use to browse more comfortably. Nothing exotic, just a few shortcuts and a couple of tweaks that make a difference day to day.\nElpher is on MELPA. I declare it with use-package, so everything stays in a single block: :ensure t installs it the first time, :config defines the function and…",
-          "link": "http://en.andros.dev/blog/b18ae804/elpher-my-tweaks-for-better-gemini-browsing-in-emacs/",
-          "publishedOn": "2026-08-15T14:07:40.000Z",
-          "wordCount": 1198,
-          "title": "Andros Fenollosa: Elpher: my tweaks for better Gemini browsing in Emacs",
-          "imageUrl": "https://img.andros.dev/hwJiIbPn09hEHn5kr1EV5PhGols=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_e3f6bada.png"
         }
       ]
     },
@@ -1036,6 +1026,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3342",
+          "author": "Schill",
+          "description": "The 1980s produced an impressive number of hit songs that were difficult to describe using a single genre. Pop could",
+          "link": "https://stuffthatinterestsme.net/song-battle-she-blinded-me-with-science-vs-one-night-in-bangkok/",
+          "publishedOn": "2026-08-25T02:49:30.000Z",
+          "wordCount": 3835,
+          "title": "Song Battle: “She Blinded Me with Science” vs. “One Night in Bangkok”",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3396",
           "author": "Schill",
@@ -2930,22 +2930,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!-WIS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16846c54-cd0f-4aa9-95ec-35dee12ce9bd_1158x740.jpeg"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/this-week-in-stupid-august-15-edition",
-          "author": "Jeff Tiedrich",
-          "description": "Elon posts it, Donny boasts it, and so much more...",
-          "link": "https://www.jefftiedrich.com/p/this-week-in-stupid-august-15-edition",
-          "publishedOn": "2026-08-15T14:31:03.000Z",
-          "wordCount": null,
-          "title": "this week in stupid: August 15 edition",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!KsQM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9af4011e-64d1-4650-b86e-17be6d78c24e_1912x1132.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!KsQM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9af4011e-64d1-4650-b86e-17be6d78c24e_1912x1132.jpeg"
         }
       ]
     }

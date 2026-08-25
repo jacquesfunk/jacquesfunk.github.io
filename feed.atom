@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-25T01:08:57.602Z</updated>
+    <updated>2026-08-25T02:56:46.953Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Song Battle: “She Blinded Me with Science” vs. “One Night in Bangkok”]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3342</id>
+        <link href="https://stuffthatinterestsme.net/song-battle-she-blinded-me-with-science-vs-one-night-in-bangkok/"/>
+        <updated>2026-08-25T02:49:30.000Z</updated>
+        <summary type="html"><![CDATA[The 1980s produced an impressive number of hit songs that were difficult to describe using a single genre. Pop could]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The History of Prog Rock: How Rock Music Learned to Think Bigger]]></title>
         <id>https://historyofmusic.net/?p=5834</id>
@@ -3328,29 +3338,6 @@ Maiorana says that Emacs users don’t care primarily about the usefulness or us
 
 
 Emacs is, in fact, the perfect piece of software. Not only does it indulge our urge to tinker and have fun but also allows us to turn that tinkering into the precise tool we need. Not just once but as often as we desire as our needs change. With Emacs, the fun never ends.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[this week in stupid: August 15 edition]]></title>
-        <id>https://www.jefftiedrich.com/p/this-week-in-stupid-august-15-edition</id>
-        <link href="https://www.jefftiedrich.com/p/this-week-in-stupid-august-15-edition"/>
-        <updated>2026-08-15T14:31:03.000Z</updated>
-        <summary type="html"><![CDATA[Elon posts it, Donny boasts it, and so much more...]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Andros Fenollosa: Elpher: my tweaks for better Gemini browsing in Emacs]]></title>
-        <id>http://en.andros.dev/blog/b18ae804/elpher-my-tweaks-for-better-gemini-browsing-in-emacs/</id>
-        <link href="http://en.andros.dev/blog/b18ae804/elpher-my-tweaks-for-better-gemini-browsing-in-emacs/"/>
-        <updated>2026-08-15T14:07:40.000Z</updated>
-        <summary type="html"><![CDATA[Elpher is the Gemini browser for Emacs. It works wonderfully and its integration with GNU's editor is sublime. You don't just move between capsules: you can also write your own scripts or build automated flows. It's Emacs, after all. Everything bends to your will.
-If you still don't know what Gemini is, it's a minimalist protocol, halfway between the web and Gopher, with no JavaScript and no trackers. I cover it in depth in Introduction to the Gemini protocol.
-Today I want to share a minimal configuration I use to browse more comfortably. Nothing exotic, just a few shortcuts and a couple of tweaks that make a difference day to day.
-Elpher is on MELPA. I declare it with use-package, so everything stays in a single block: :ensure t installs it the first time, :config defines the function and…]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>
