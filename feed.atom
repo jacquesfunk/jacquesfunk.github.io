@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-25T16:35:01.728Z</updated>
+    <updated>2026-08-25T18:36:39.829Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Why the Supreme Court Is Using a Controversial Legal Principle to Cherry-Pick Mail-In Ballot Rulings]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a73523202/supreme-court-purcell-principle-mail-in-ballots-voting/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a73523202/supreme-court-purcell-principle-mail-in-ballots-voting/"/>
+        <updated>2026-08-25T17:44:34.000Z</updated>
+        <summary type="html"><![CDATA[The Shadow Docket once again worked its magic on Monday evening.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vuelta a España Haunted By Red-Haired Viral Video Prankster]]></title>
+        <id>https://defector.com/?p=233302</id>
+        <link href="https://defector.com/vuelta-a-espana-haunted-by-red-haired-viral-video-prankster"/>
+        <updated>2026-08-25T17:06:53.000Z</updated>
+        <summary type="html"><![CDATA[The Vuelta a España, long the runt sibling among cycling's Grand Tours, promised to be bigger and better than usual this year, thanks primarily to the participation of Tadej Pogacar. The protests that stymied last year's race had successfully de-Israelized the peloton, and the 2026 edition had the glitz of a Monaco start, the showcase of the best rider in the world going for the win, and an interesting, adversarial course. But this is the Vuelta, where weird stuff happens, and the race stumbled into a controversy of its own making on its very first day because the organizers hired a viral vertical-video prankster to promote it.
+Meet Erola Jons. The 28-year-old Catalan influencer has racked up millions of followers (and presumably millions of Euros) by going around with a tiny microphone and pranking unsuspecting passersby by pretending to flirt with them. The Vuelta gave Jons an all-access pass with the idea that she could take people behind the scenes, interview riders and staffers, and bring all 21 stages to the world.
+
+https://twitter.com/lavuelta/status/2091205277081043398]]></summary>
+        <author>
+            <name>Patrick Redford</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[James Cherti: Configuring Emacs Eglot for Optimal Performance]]></title>
+        <id>https://www.jamescherti.com/emacs-eglot-performance/</id>
+        <link href="https://www.jamescherti.com/emacs-eglot-performance/"/>
+        <updated>2026-08-25T16:56:08.000Z</updated>
+        <summary type="html"><![CDATA[Eglot ships with Emacs as a built-in, lightweight LSP client, and its default configuration is sufficient for most projects. However, working with large codebases can cause noticeable latency. When Eglot becomes sluggish, the problem may involve work performed by Eglot and Emacs as well as the language server itself. JSON-RPC event logging, filesystem watching, diagnostics, completion, and other editor activity can all contribute to latency.
+This article covers practical changes for keeping Eglot responsive when working with large projects.
+Auto-shutting down idle Eglot servers
+This reduces resource usage when switching between multiple projects. The eglot-autoshutdown variable shuts down the LSP server after the last managed buffer has been killed.
+(setq eglot-autoshutdown t)
+This is usef…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Please Tell Me Red Wine Is Good For Me]]></title>
+        <id>https://defector.com/?p=233355</id>
+        <link href="https://defector.com/please-tell-me-red-wine-is-good-for-me"/>
+        <updated>2026-08-25T16:45:49.000Z</updated>
+        <summary type="html"><![CDATA[Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGATE, and buy Drew’s books while you’re at it. Today, we're talking about Tommy John, Tony Romo, babies at the movies, and more.
+Your letters:
+DP:]]></summary>
+        <author>
+            <name>Drew Magary</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[August Baseball Game Briefly Spiced Up By Runaway Dugout Red-Assedness]]></title>
         <id>https://defector.com/?p=233372</id>
@@ -3364,16 +3414,6 @@ borgmatic was new to me, so I decided to have Claud…]]></summary>
 ✍️ Reply by email]]></summary>
         <author>
             <name>baty.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Help Needed]]></title>
-        <id>https://foxtrot.com/?p=6223</id>
-        <link href="https://foxtrot.com/2026/08/16/help-needed/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=help-needed"/>
-        <updated>2026-08-16T05:01:00.000Z</updated>
-        <summary type="html"><![CDATA[FoxTrot by Bill Amend | August 16, 2026]]></summary>
-        <author>
-            <name>Bill Amend</name>
         </author>
     </entry>
 </feed>
