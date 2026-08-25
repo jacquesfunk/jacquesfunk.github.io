@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-25T10:30:38.144Z</updated>
+    <updated>2026-08-25T12:42:57.025Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -3289,20 +3289,6 @@ borgmatic was new to me, so I decided to have Claud…]]></summary>
         <summary type="html"><![CDATA[Most shortages happen for obvious reasons. A hurricane disrupts supply chains. A strike halts production. A drought damages crops. The]]></summary>
         <author>
             <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alvaro Ramirez: Focus windows across Emacs frames]]></title>
-        <id>https://xenodium.com/focus-windows-across-emacs-frames</id>
-        <link href="https://xenodium.com/focus-windows-across-emacs-frames"/>
-        <updated>2026-08-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Historically, I've only ever known two great ways of focusing Emacs windows: the built-in other-window command, which cycles through all the available windows, and the ace-window package, offering random window access. It's not that there aren't more or better ways, I just didn't look any further as these were enough for my needs.
-While I really wanted to make ace-window my default choice, for whatever reason, it never stuck. other-window with a custom M-o binding always felt like the smoother fit for my limited needs. You see, I hardly ever have more than two visible windows, so whenever ace-window kicked into action (for 3 or more windows), it often took me by surprise. The one area other-window didn't fit my needs revolved around focus requiring visual feedback, but I eventually solved that with winpulse (a little package I wrote).
-As you can see, I'm a simple man using few Emacs windows, and when it comes to frames, I almost never use more than one. That is until somewhat recently, when I built ytr, a tiny YouTube radio player that sits in the corner of your frame. While it all feels fairly integrated into your frame, under the hood, ytr renders in a separate frame. This broke my trusty other-window flow. I couldn't just focus my radio window using my well-internalized M-o binding.
-Turns out, other-window actually caters for focusing windows across frames, but only when invoked programmatically. Sure, I can wrap it with my own custom command, but Emacs already had me covered. I found the built-in next-window-any-frame command. All I had to do was bind it to M-o and Bob's your uncle.
-I can now switch between my current window and my YouTube radio, with my dear M-o binding. Balance restored.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>

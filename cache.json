@@ -438,16 +438,6 @@
           "wordCount": 1474,
           "title": "Irreal: Emacs Backups",
           "imageUrl": null
-        },
-        {
-          "id": "https://xenodium.com/focus-windows-across-emacs-frames",
-          "author": null,
-          "description": "Historically, I've only ever known two great ways of focusing Emacs windows: the built-in other-window command, which cycles through all the available windows, and the ace-window package, offering random window access. It's not that there aren't more or better ways, I just didn't look any further as these were enough for my needs.\nWhile I really wanted to make ace-window my default choice, for whatever reason, it never stuck. other-window with a custom M-o binding always felt like the smoother fit for my limited needs. You see, I hardly ever have more than two visible windows, so whenever ace-window kicked into action (for 3 or more windows), it often took me by surprise. The one area other-window didn't fit my needs revolved around focus requiring visual feedback, but I eventually solved that with winpulse (a little package I wrote).\nAs you can see, I'm a simple man using few Emacs windows, and when it comes to frames, I almost never use more than one. That is until somewhat recently, when I built ytr, a tiny YouTube radio player that sits in the corner of your frame. While it all feels fairly integrated into your frame, under the hood, ytr renders in a separate frame. This broke my trusty other-window flow. I couldn't just focus my radio window using my well-internalized M-o binding.\nTurns out, other-window actually caters for focusing windows across frames, but only when invoked programmatically. Sure, I can wrap it with my own custom command, but Emacs already had me covered. I found the built-in next-window-any-frame command. All I had to do was bind it to M-o and Bob's your uncle.\nI can now switch between my current window and my YouTube radio, with my dear M-o binding. Balance restored.",
-          "link": "https://xenodium.com/focus-windows-across-emacs-frames",
-          "publishedOn": "2026-08-16T00:00:00.000Z",
-          "wordCount": 684,
-          "title": "Alvaro Ramirez: Focus windows across Emacs frames",
-          "imageUrl": "https://xenodium.com/share.png"
         }
       ]
     },
