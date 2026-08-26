@@ -80,6 +80,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.jamescherti.com/emacs-scrolling-better-performance-usability/",
+          "author": null,
+          "description": "By default, scrolling in Emacs often recenters the screen abruptly when the cursor hits the edge of a window, and rapid scrolling through large, heavily syntax-highlighted files can introduce noticeable input lag.\nThis article outlines configurations that make scrolling more predictable and responsive.\nCustomizing scroll recentering\nAdjusting the automatic scrolling behavior can prevent Emacs from making large jumps when point moves beyond the visible portion of the window:\n;; Scroll by up to 20 lines to bring point back into view before falling back to\n;; the normal automatic scrolling behavior.\n(setq scroll-conservatively 20)\nWhen point moves off-screen or into the scroll margin, setting scroll-conservatively to a moderate value like 20 causes Emacs to scroll the text by up to 20 lines t…",
+          "link": "https://www.jamescherti.com/emacs-scrolling-better-performance-usability/",
+          "publishedOn": "2026-08-26T16:18:54.000Z",
+          "wordCount": 3592,
+          "title": "James Cherti: Configuring Emacs Scrolling for Better Performance and Usability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://irreal.org/blog/?p=14040",
+          "author": null,
+          "description": "define-word. It pops up a definition of the word at point in the minibuffer. I use it several times a day. Lately, though, it has been returning “zero definitions found” on every invocation. This problem predated my update to Emacs 31.1 so it’s not related to the version of Emacs.\n\n\nToday (Tuesday) I finally got fed up and decided to track down the problem. It wasn’t too hard. It turns out that the problem is that define-word calls the on-line dictionaries with HTTP rather than HTTPS and the sites are rejecting the connections. There’s already a pull request (2026-08-22) for the fix but as of today (2026-08-25) it hasn’t been merged or uploaded to MELPA.\n\n\nI messed around for a while but couldn’t get any of the obvious solutions to work so I gave up and added\n\n\n  :init\n  ;; Until define-word is updated in MELPA\n  (defcustom define-word-services\n    '((wordnik \"https://wordnik.com/words/%s\" define-word--parse-wordnik)\n      (openthesaurus \"https://www.openthesaurus.de/synonyme/%s\" define-word--parse-openthesaurus)\n      (webster \"https://webstersdictionary1828.com/Dictionary/%s\" define-word--parse-webster)\n      (offline-wikitionary define-word--get-offline-wikitionary nil))\n    \"Services for define-word, A list of lists of the\n  format (symbol url function-for-parsing).\nInstead of an url string, url can be a custom function for retrieving results.\"\n    :type '(alist\n            :key-type (symbol :tag \"Name of service\")\n            :value-type (group\n                         (string :tag \"Url (%s denotes search word)\")\n                         (function :tag \"Parsing function\"))))\n\nuse-package for define-word. That’s just a copy of the definition of define-word-services from the define-word source. Note that it’s important that it goes in the :init section so that the definition gets established before define-word is loaded.\n\n\nIt’s a messy solution but it will do until the fix is merged and percolates up to MELPA.",
+          "link": "https://irreal.org/blog/?p=14040",
+          "publishedOn": "2026-08-26T15:08:06.000Z",
+          "wordCount": 1511,
+          "title": "Irreal: Fixing Define-word",
+          "imageUrl": null
+        },
+        {
           "id": "https://emacsredux.com/blog/2026/08/26/meet-utterson-my-jekyll-blogging-helper/",
           "author": null,
           "description": "Back in 2019 I wrote about dealing with Jekyll post URLs,\nwhere I shared a tiny command that spared me from having to remember the exact\nfile name of every article I wanted to link to. That command has been in my config\never since, and over the years it quietly grew a few siblings. Recently I finally\ngathered them all in one place and turned them into a small package -\nutterson.\nThe common Jekyll tasks\nI guess anyone who blogs with Jekyll knows the drill. Jekyll is great and I have\nno intention of switching, but a few of its conventions generate a steady trickle\nof manual work:\nposts live in _posts and their file names have to start with the publication\ndate, as in 2026-08-26-some-post.md\nevery article needs a bit of YAML front matter at the top - a layout, a title,\na date, some tags\nlinki…",
@@ -406,6 +426,56 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=233571",
+          "author": "Defector Staff",
+          "description": "\"High Sierra\"\n\nhttps://www.youtube.com/watch?v=yvKRwNR7kXw\n\n\nOn Tuesday, in the moments after I heard that Dolly Parton had died, I returned immediately to \"Light of a Clear Blue Morning.\" It's a song I've always loved, even when I was a child, and that feels so cathartic to me: the slowness of the opening verse followed by the beat of the chorus, the reminder that things are going to be OK, that fun will exist if you just wait. But every year, I keep a playlist of new (to me) songs I've discovered, and a playlist of not-new songs that I've put on repeat through the year. At the end of the year, the second playlist is usually the one that creates a kind of soundtrack for my life. And yesterday, when I looked through my playlists for the last 20 years, it wasn't \"Light of a Clear Blue Morning\" that was my most frequently repeated Dolly song. It was \"High Sierra.\"",
+          "link": "https://defector.com/our-favorite-dolly-parton-performances",
+          "publishedOn": "2026-08-26T16:33:31.000Z",
+          "wordCount": 13577,
+          "title": "Our Favorite Dolly Parton Performances",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-91137702.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=233575",
+          "author": "Jae Towle Vieira",
+          "description": "It’s a rite of passage to get your ideals smashed in your early twenties, just in the normal course of trying to get your feet under you. It doesn’t seem to matter what exactly you care about, either. Whether you’re voting and then watching election results, or you’re trying to make a college relationship last beyond graduation, or you believe that with enough energy and grit, you and your ideals can save the trees, you’re in for a few bruises. \nBut every bright-eyed youth loses innocence in their own way. Today’s friend of a friend is out to solve the affordable housing crisis, but she’s about to learn that all of us, however committed to “the work” we may seem, have a greater aptitude for mess than for the revolution. \n\nhttps://www.youtube.com/watch?v=KH1-Htdmg9U",
+          "link": "https://defector.com/the-girlboss-and-the-drug-rug",
+          "publishedOn": "2026-08-26T16:01:00.000Z",
+          "wordCount": 5030,
+          "title": "The Girlboss And The Drug Rug",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-1396452204.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=233281",
+          "author": "Lauren Theisen",
+          "description": "In observance of Reds Week at Defector, Lauren and Alex decided to try a red lip, as modeled in this brief tutorial. Here, in the style of The Not-So-Great Defector Bake-Off, are their results.\nLauren: Hi Alex! So as we start with moisturizer, I wanted to ask right up top, what’s your history with red lip, and, I suppose, lip products in general?\nAlex: The first thing that feels important to note is that my lips have always been a source of insecurity for me because they are very small! The closest I’ve ever come to considering injectables was when lip flips came out and the possibility of full, lovely lips was dangled in front of me. I haven’t done it—I think any change would simply be too drastic for me to get away with because I’m starting with so little! But in my kinder moments, I also think to myself: I have my mom’s mouth, and I like her mouth, so I can live with this one.",
+          "link": "https://defector.com/the-not-so-great-defector-make-off-dares-to-attempt-a-red-lip",
+          "publishedOn": "2026-08-26T15:36:00.000Z",
+          "wordCount": 11600,
+          "title": "The Not-So-Great Defector Make-Off Dares To Attempt A Red Lip",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-1545751661.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=233467",
+          "author": "Ray Ratto",
+          "description": "The competition for the much-coveted Who Won The Offseason Prize is nearly over. Despite a late rally from the Cleveland Browns, who became the first team to eliminate themselves from the regular season by quintupling down on the disaster that has been, is, and seems hell-bent on continuing to be Deshaun Watson, it seems clear that the winner will be the San Francisco 49ers. Besides, it's Reds Week, not Oranges Week, which means that even with that photo of Jed York in his jail smock, red is still the color of the day.\nAnd York is part of that, too, with his arrest on Monday capping what has perhaps been the single weirdest offseason in recent NFL memory. Not only did the owner of the Red And Gold (see, we told you) get arrested near a trailer park in East Palestine, Ohio and midwife the p…",
+          "link": "https://defector.com/the-san-francisco-49ers-have-revolutionized-the-concept-of-losing-the-offseason",
+          "publishedOn": "2026-08-26T14:58:14.000Z",
+          "wordCount": 6229,
+          "title": "The San Francisco 49ers Have Revolutionized The Concept Of Losing The Offseason",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-1976877269.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=233408",
+          "author": "Patrick Redford",
+          "description": "This week on Nothing But Respect, we spent the entire episode talking through the last 13 years of Los Angeles Lakers ownership drama. Our guest Harrison Faigen is a longtime Lakers media guy, and he joined us for a lengthy discussion on Mark Walter, Joshua Kushner, and Johnny, Jimmy, Jeanie, Janie, Joey, and Jesse Buss. It's crazy they're all named that. The tie-in to Reds Week is that my name is Patrick Redford.\nYou can find Nothing But Respect in Apple Podcasts or whatever podcast app you use. Follow the show on Instagram, and contact the Broke Jumper Tip Line at (347) 380-6426. Thanks for listening!",
+          "link": "https://defector.com/im-on-that-good-kushner-alcohol-with-harrison-faigen",
+          "publishedOn": "2026-08-26T14:51:26.000Z",
+          "wordCount": 4363,
+          "title": "I’m On That Good Kushner Alcohol, With Harrison Faigen",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2274595075.jpg"
+        },
         {
           "id": "https://defector.com/?p=233228",
           "author": "Israel Daramola",
@@ -2496,6 +2566,16 @@
       "siteUrl": "https://gomakethings.com/articles",
       "articles": [
         {
+          "id": "https://gomakethings.com/articles/the-best-of-us/",
+          "author": null,
+          "description": "I don’t particularly care for Dolly Parton’s music, but I loved Dolly Parton.\nShe was literally the best of us.\n Unapologetically herself whether people liked it or not. Did not give a single fuck about what was “expected” of her based on her age, gender, career aspirations, and so on. Could have been a billionaire, but chose to invest tremendous amounts of money in communities that were underserved instead. A highly visible counter-argument to the idea that older white cishetero folks can’t help being racist, sexist, and homophobic because of when and where they grew up.",
+          "link": "https://gomakethings.com/articles/the-best-of-us/",
+          "publishedOn": "2026-08-26T14:30:00.000Z",
+          "wordCount": 5981,
+          "title": "The Best of Us",
+          "imageUrl": "https://gomakethings.com/img/og.png"
+        },
+        {
           "id": "https://gomakethings.com/articles/make-care-visible/",
           "author": null,
           "description": "There’s a rather popular flavor of social media content focused on helping unhoused people.\nThe creator will give out sleeping bags, socks, and care kits; sit down and have a meal; or take the unhoused person shopping. Sometimes they help them find work or start a GoFundMe to get them off the streets.\nIt does a lot of good. But it’s also gross AF! Imagine you’re cold, hungry, and desperate, and someone offers to get you all the things you need… if you consent to having a camera shoved in your face and the footage of you at your lowest blasted on the internet.",
@@ -2689,6 +2769,22 @@
       "feedUrl": "https://morningmemo.talkingpointsmemo.com/feed",
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/this-may-be-the-worst-wrongful-deportation",
+          "author": "David Kurtz",
+          "description": "INSIDE: Greg Abbott ... Sigal Chattah ... Dolly Parton",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/this-may-be-the-worst-wrongful-deportation",
+          "publishedOn": "2026-08-26T15:49:17.000Z",
+          "wordCount": null,
+          "title": "This May Be the Worst Wrongful Deportation Yet",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!qIZJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbd9e01f-3903-431a-b57e-bd9ee9adcd86_400x600.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!qIZJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbd9e01f-3903-431a-b57e-bd9ee9adcd86_400x600.jpeg"
+        },
         {
           "id": "https://morningmemo.talkingpointsmemo.com/p/trump-doj-colludes-with-texas-to",
           "author": "David Kurtz",
@@ -2911,6 +3007,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/canada-has-broken-whats-left-of-donnys",
+          "author": "Jeff Tiedrich",
+          "description": "the poor little dipshit is having a hard time coping",
+          "link": "https://www.jefftiedrich.com/p/canada-has-broken-whats-left-of-donnys",
+          "publishedOn": "2026-08-26T14:41:39.000Z",
+          "wordCount": null,
+          "title": "Canada has broken what’s left of Donny’s rotting brain",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!qTxP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd259cb2-93eb-4d1d-8cae-9dd17bde4d4b_710x399.webp",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!qTxP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd259cb2-93eb-4d1d-8cae-9dd17bde4d4b_710x399.webp"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/preznit-fuckwit-blunders-into-a-trade",
           "author": "Jeff Tiedrich",

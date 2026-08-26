@@ -2,10 +2,147 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-26T14:42:10.698Z</updated>
+    <updated>2026-08-26T16:46:51.738Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Our Favorite Dolly Parton Performances]]></title>
+        <id>https://defector.com/?p=233571</id>
+        <link href="https://defector.com/our-favorite-dolly-parton-performances"/>
+        <updated>2026-08-26T16:33:31.000Z</updated>
+        <summary type="html"><![CDATA["High Sierra"
+
+https://www.youtube.com/watch?v=yvKRwNR7kXw
+
+
+On Tuesday, in the moments after I heard that Dolly Parton had died, I returned immediately to "Light of a Clear Blue Morning." It's a song I've always loved, even when I was a child, and that feels so cathartic to me: the slowness of the opening verse followed by the beat of the chorus, the reminder that things are going to be OK, that fun will exist if you just wait. But every year, I keep a playlist of new (to me) songs I've discovered, and a playlist of not-new songs that I've put on repeat through the year. At the end of the year, the second playlist is usually the one that creates a kind of soundtrack for my life. And yesterday, when I looked through my playlists for the last 20 years, it wasn't "Light of a Clear Blue Morning" that was my most frequently repeated Dolly song. It was "High Sierra."]]></summary>
+        <author>
+            <name>Defector Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[James Cherti: Configuring Emacs Scrolling for Better Performance and Usability]]></title>
+        <id>https://www.jamescherti.com/emacs-scrolling-better-performance-usability/</id>
+        <link href="https://www.jamescherti.com/emacs-scrolling-better-performance-usability/"/>
+        <updated>2026-08-26T16:18:54.000Z</updated>
+        <summary type="html"><![CDATA[By default, scrolling in Emacs often recenters the screen abruptly when the cursor hits the edge of a window, and rapid scrolling through large, heavily syntax-highlighted files can introduce noticeable input lag.
+This article outlines configurations that make scrolling more predictable and responsive.
+Customizing scroll recentering
+Adjusting the automatic scrolling behavior can prevent Emacs from making large jumps when point moves beyond the visible portion of the window:
+;; Scroll by up to 20 lines to bring point back into view before falling back to
+;; the normal automatic scrolling behavior.
+(setq scroll-conservatively 20)
+When point moves off-screen or into the scroll margin, setting scroll-conservatively to a moderate value like 20 causes Emacs to scroll the text by up to 20 lines t…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Girlboss And The Drug Rug]]></title>
+        <id>https://defector.com/?p=233575</id>
+        <link href="https://defector.com/the-girlboss-and-the-drug-rug"/>
+        <updated>2026-08-26T16:01:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s a rite of passage to get your ideals smashed in your early twenties, just in the normal course of trying to get your feet under you. It doesn’t seem to matter what exactly you care about, either. Whether you’re voting and then watching election results, or you’re trying to make a college relationship last beyond graduation, or you believe that with enough energy and grit, you and your ideals can save the trees, you’re in for a few bruises. 
+But every bright-eyed youth loses innocence in their own way. Today’s friend of a friend is out to solve the affordable housing crisis, but she’s about to learn that all of us, however committed to “the work” we may seem, have a greater aptitude for mess than for the revolution. 
+
+https://www.youtube.com/watch?v=KH1-Htdmg9U]]></summary>
+        <author>
+            <name>Jae Towle Vieira</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This May Be the Worst Wrongful Deportation Yet]]></title>
+        <id>https://morningmemo.talkingpointsmemo.com/p/this-may-be-the-worst-wrongful-deportation</id>
+        <link href="https://morningmemo.talkingpointsmemo.com/p/this-may-be-the-worst-wrongful-deportation"/>
+        <updated>2026-08-26T15:49:17.000Z</updated>
+        <summary type="html"><![CDATA[INSIDE: Greg Abbott ... Sigal Chattah ... Dolly Parton]]></summary>
+        <author>
+            <name>David Kurtz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Not-So-Great Defector Make-Off Dares To Attempt A Red Lip]]></title>
+        <id>https://defector.com/?p=233281</id>
+        <link href="https://defector.com/the-not-so-great-defector-make-off-dares-to-attempt-a-red-lip"/>
+        <updated>2026-08-26T15:36:00.000Z</updated>
+        <summary type="html"><![CDATA[In observance of Reds Week at Defector, Lauren and Alex decided to try a red lip, as modeled in this brief tutorial. Here, in the style of The Not-So-Great Defector Bake-Off, are their results.
+Lauren: Hi Alex! So as we start with moisturizer, I wanted to ask right up top, what’s your history with red lip, and, I suppose, lip products in general?
+Alex: The first thing that feels important to note is that my lips have always been a source of insecurity for me because they are very small! The closest I’ve ever come to considering injectables was when lip flips came out and the possibility of full, lovely lips was dangled in front of me. I haven’t done it—I think any change would simply be too drastic for me to get away with because I’m starting with so little! But in my kinder moments, I also think to myself: I have my mom’s mouth, and I like her mouth, so I can live with this one.]]></summary>
+        <author>
+            <name>Lauren Theisen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Irreal: Fixing Define-word]]></title>
+        <id>https://irreal.org/blog/?p=14040</id>
+        <link href="https://irreal.org/blog/?p=14040"/>
+        <updated>2026-08-26T15:08:06.000Z</updated>
+        <summary type="html"><![CDATA[define-word. It pops up a definition of the word at point in the minibuffer. I use it several times a day. Lately, though, it has been returning “zero definitions found” on every invocation. This problem predated my update to Emacs 31.1 so it’s not related to the version of Emacs.
+
+
+Today (Tuesday) I finally got fed up and decided to track down the problem. It wasn’t too hard. It turns out that the problem is that define-word calls the on-line dictionaries with HTTP rather than HTTPS and the sites are rejecting the connections. There’s already a pull request (2026-08-22) for the fix but as of today (2026-08-25) it hasn’t been merged or uploaded to MELPA.
+
+
+I messed around for a while but couldn’t get any of the obvious solutions to work so I gave up and added
+
+
+  :init
+  ;; Until define-word is updated in MELPA
+  (defcustom define-word-services
+    '((wordnik "https://wordnik.com/words/%s" define-word--parse-wordnik)
+      (openthesaurus "https://www.openthesaurus.de/synonyme/%s" define-word--parse-openthesaurus)
+      (webster "https://webstersdictionary1828.com/Dictionary/%s" define-word--parse-webster)
+      (offline-wikitionary define-word--get-offline-wikitionary nil))
+    "Services for define-word, A list of lists of the
+  format (symbol url function-for-parsing).
+Instead of an url string, url can be a custom function for retrieving results."
+    :type '(alist
+            :key-type (symbol :tag "Name of service")
+            :value-type (group
+                         (string :tag "Url (%s denotes search word)")
+                         (function :tag "Parsing function"))))
+
+use-package for define-word. That’s just a copy of the definition of define-word-services from the define-word source. Note that it’s important that it goes in the :init section so that the definition gets established before define-word is loaded.
+
+
+It’s a messy solution but it will do until the fix is merged and percolates up to MELPA.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The San Francisco 49ers Have Revolutionized The Concept Of Losing The Offseason]]></title>
+        <id>https://defector.com/?p=233467</id>
+        <link href="https://defector.com/the-san-francisco-49ers-have-revolutionized-the-concept-of-losing-the-offseason"/>
+        <updated>2026-08-26T14:58:14.000Z</updated>
+        <summary type="html"><![CDATA[The competition for the much-coveted Who Won The Offseason Prize is nearly over. Despite a late rally from the Cleveland Browns, who became the first team to eliminate themselves from the regular season by quintupling down on the disaster that has been, is, and seems hell-bent on continuing to be Deshaun Watson, it seems clear that the winner will be the San Francisco 49ers. Besides, it's Reds Week, not Oranges Week, which means that even with that photo of Jed York in his jail smock, red is still the color of the day.
+And York is part of that, too, with his arrest on Monday capping what has perhaps been the single weirdest offseason in recent NFL memory. Not only did the owner of the Red And Gold (see, we told you) get arrested near a trailer park in East Palestine, Ohio and midwife the p…]]></summary>
+        <author>
+            <name>Ray Ratto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I’m On That Good Kushner Alcohol, With Harrison Faigen]]></title>
+        <id>https://defector.com/?p=233408</id>
+        <link href="https://defector.com/im-on-that-good-kushner-alcohol-with-harrison-faigen"/>
+        <updated>2026-08-26T14:51:26.000Z</updated>
+        <summary type="html"><![CDATA[This week on Nothing But Respect, we spent the entire episode talking through the last 13 years of Los Angeles Lakers ownership drama. Our guest Harrison Faigen is a longtime Lakers media guy, and he joined us for a lengthy discussion on Mark Walter, Joshua Kushner, and Johnny, Jimmy, Jeanie, Janie, Joey, and Jesse Buss. It's crazy they're all named that. The tie-in to Reds Week is that my name is Patrick Redford.
+You can find Nothing But Respect in Apple Podcasts or whatever podcast app you use. Follow the show on Instagram, and contact the Broke Jumper Tip Line at (347) 380-6426. Thanks for listening!]]></summary>
+        <author>
+            <name>Patrick Redford</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Canada has broken what’s left of Donny’s rotting brain]]></title>
+        <id>https://www.jefftiedrich.com/p/canada-has-broken-whats-left-of-donnys</id>
+        <link href="https://www.jefftiedrich.com/p/canada-has-broken-whats-left-of-donnys"/>
+        <updated>2026-08-26T14:41:39.000Z</updated>
+        <summary type="html"><![CDATA[the poor little dipshit is having a hard time coping]]></summary>
+        <author>
+            <name>Jeff Tiedrich</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Trump’s Idiotic Trade War Is a Bigger Political Opening Than You Think]]></title>
         <id>https://talkingpointsmemo.com/?p=1556007</id>
@@ -14,6 +151,18 @@
         <summary type="html"><![CDATA[As a general matter, people who write about or strategize about politics greatly overestimate our collective ability to shape how...]]></summary>
         <author>
             <name>Josh Marshall</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Best of Us]]></title>
+        <id>https://gomakethings.com/articles/the-best-of-us/</id>
+        <link href="https://gomakethings.com/articles/the-best-of-us/"/>
+        <updated>2026-08-26T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[I don’t particularly care for Dolly Parton’s music, but I loved Dolly Parton.
+She was literally the best of us.
+ Unapologetically herself whether people liked it or not. Did not give a single fuck about what was “expected” of her based on her age, gender, career aspirations, and so on. Could have been a billionaire, but chose to invest tremendous amounts of money in communities that were underserved instead. A highly visible counter-argument to the idea that older white cishetero folks can’t help being racist, sexist, and homophobic because of when and where they grew up.]]></summary>
+        <author>
+            <name>Go Make Things</name>
         </author>
     </entry>
     <entry>
