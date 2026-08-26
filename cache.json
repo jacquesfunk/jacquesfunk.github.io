@@ -71,36 +71,6 @@
           "wordCount": 116,
           "title": "Monday, August 17, 2026",
           "imageUrl": "https://baty.net/img/2026/20260817-brain-in-hand.webp"
-        },
-        {
-          "id": "https://baty.net/journal/16Aug26/",
-          "author": null,
-          "description": "STATUS: Reconfiguring my backups\nTODO: Finish reconfiguring my backups\nWATCHING: Finished \"Gone\". It was meh.\nLISTENING: Rush \"Hemispheres\"\nI love Emacs. Even when I hate it. Just saying.\nA week ago I started a new habit: Every day I give away, sell, recycle, or trash at least one thing. It doesn't matter how big, how small, or how many, as long as it's /something/.\nFocusing on the \"every day\" part rather than the \"how much\" part has made all the difference. It's been great.\n✍️ Reply by email",
-          "link": "https://baty.net/journal/16Aug26/",
-          "publishedOn": "2026-08-16T12:28:10.000Z",
-          "wordCount": 152,
-          "title": "Sunday, August 16, 2026",
-          "imageUrl": "https://baty.net/img/opengraph.jpg"
-        },
-        {
-          "id": "https://baty.net/posts/2026/08/reconfiguring-my-backups/",
-          "author": null,
-          "description": "I've been sort of half-assing my Linux backups for a while now. I finally decided to fix them.\nMy backups were a combination of rsync to a Hetzner Storage Box and Pika backups to an external drive. Each setup did different things, and there was no documentation. Testing the backups was a random and incomplete process that was too much work so I never did it. Rsync is easy and fast, but using the --delete option means that if I accidentally delete something and the backup runs, it's gone. Basically, my backup \"system\" was riddled with gaps and potential problems. Rather than tweak that, I borrowed ideas from My backup strategy 2026, by Michael Harley and started over.\nLike Mike, I went with Borg for backups and borgmatic for managing them.\nborgmatic was new to me, so I decided to have Claud…",
-          "link": "https://baty.net/posts/2026/08/reconfiguring-my-backups/",
-          "publishedOn": "2026-08-16T11:43:19.000Z",
-          "wordCount": 440,
-          "title": "Reconfiguring my backups",
-          "imageUrl": "https://baty.net/img/opengraph.jpg"
-        },
-        {
-          "id": "https://baty.net/notes/2026/08/cartier-bresson-on-vanishing-moments/",
-          "author": null,
-          "description": "Photographers deal in things which are continually vanishing and when they have vanished there is no contrivance on Earth which can make them come back again\n-- Henri Cartier-Bresson\n✍️ Reply by email",
-          "link": "https://baty.net/notes/2026/08/cartier-bresson-on-vanishing-moments/",
-          "publishedOn": "2026-08-16T11:24:14.000Z",
-          "wordCount": 100,
-          "title": "Cartier-Bresson on vanishing moments",
-          "imageUrl": "https://baty.net/img/opengraph.jpg"
         }
       ]
     },
@@ -2685,16 +2655,6 @@
           "wordCount": 2365,
           "title": "From Natalie, With LOVE …",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-2289907916.jpg?w=1200"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1555158",
-          "author": "Josh Marshall",
-          "description": "I had a couple conversations today which turned on the role of private equity in today’s economy and the importance...",
-          "link": "https://talkingpointsmemo.com/edblog/business-models-coherence-and-not-being-an-agitated-sickly-lab-rat",
-          "publishedOn": "2026-08-16T12:27:18.000Z",
-          "wordCount": 2523,
-          "title": "Business Models, Coherence, And Not Being an Agitated, Sickly Lab Rat",
-          "imageUrl": "https://s3.amazonaws.com/tpm-media/images/tpm-logo_square.png"
         }
       ]
     },

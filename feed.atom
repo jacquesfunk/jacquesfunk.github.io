@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-25T22:24:51.584Z</updated>
+    <updated>2026-08-26T01:11:24.586Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -3431,58 +3431,6 @@ One thing for sure, you need to be religious about either saving your files to a
         <summary type="html"><![CDATA[the crew aboard the USS Abraham Lincoln deserve better than this]]></summary>
         <author>
             <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sunday, August 16, 2026]]></title>
-        <id>https://baty.net/journal/16Aug26/</id>
-        <link href="https://baty.net/journal/16Aug26/"/>
-        <updated>2026-08-16T12:28:10.000Z</updated>
-        <summary type="html"><![CDATA[STATUS: Reconfiguring my backups
-TODO: Finish reconfiguring my backups
-WATCHING: Finished "Gone". It was meh.
-LISTENING: Rush "Hemispheres"
-I love Emacs. Even when I hate it. Just saying.
-A week ago I started a new habit: Every day I give away, sell, recycle, or trash at least one thing. It doesn't matter how big, how small, or how many, as long as it's /something/.
-Focusing on the "every day" part rather than the "how much" part has made all the difference. It's been great.
-✍️ Reply by email]]></summary>
-        <author>
-            <name>baty.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Business Models, Coherence, And Not Being an Agitated, Sickly Lab Rat]]></title>
-        <id>https://talkingpointsmemo.com/?p=1555158</id>
-        <link href="https://talkingpointsmemo.com/edblog/business-models-coherence-and-not-being-an-agitated-sickly-lab-rat"/>
-        <updated>2026-08-16T12:27:18.000Z</updated>
-        <summary type="html"><![CDATA[I had a couple conversations today which turned on the role of private equity in today’s economy and the importance...]]></summary>
-        <author>
-            <name>Josh Marshall</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reconfiguring my backups]]></title>
-        <id>https://baty.net/posts/2026/08/reconfiguring-my-backups/</id>
-        <link href="https://baty.net/posts/2026/08/reconfiguring-my-backups/"/>
-        <updated>2026-08-16T11:43:19.000Z</updated>
-        <summary type="html"><![CDATA[I've been sort of half-assing my Linux backups for a while now. I finally decided to fix them.
-My backups were a combination of rsync to a Hetzner Storage Box and Pika backups to an external drive. Each setup did different things, and there was no documentation. Testing the backups was a random and incomplete process that was too much work so I never did it. Rsync is easy and fast, but using the --delete option means that if I accidentally delete something and the backup runs, it's gone. Basically, my backup "system" was riddled with gaps and potential problems. Rather than tweak that, I borrowed ideas from My backup strategy 2026, by Michael Harley and started over.
-Like Mike, I went with Borg for backups and borgmatic for managing them.
-borgmatic was new to me, so I decided to have Claud…]]></summary>
-        <author>
-            <name>baty.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cartier-Bresson on vanishing moments]]></title>
-        <id>https://baty.net/notes/2026/08/cartier-bresson-on-vanishing-moments/</id>
-        <link href="https://baty.net/notes/2026/08/cartier-bresson-on-vanishing-moments/"/>
-        <updated>2026-08-16T11:24:14.000Z</updated>
-        <summary type="html"><![CDATA[Photographers deal in things which are continually vanishing and when they have vanished there is no contrivance on Earth which can make them come back again
--- Henri Cartier-Bresson
-✍️ Reply by email]]></summary>
-        <author>
-            <name>baty.net</name>
         </author>
     </entry>
 </feed>
