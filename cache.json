@@ -80,6 +80,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://emacsredux.com/blog/2026/08/26/meet-utterson-my-jekyll-blogging-helper/",
+          "author": null,
+          "description": "Back in 2019 I wrote about dealing with Jekyll post URLs,\nwhere I shared a tiny command that spared me from having to remember the exact\nfile name of every article I wanted to link to. That command has been in my config\never since, and over the years it quietly grew a few siblings. Recently I finally\ngathered them all in one place and turned them into a small package -\nutterson.\nThe common Jekyll tasks\nI guess anyone who blogs with Jekyll knows the drill. Jekyll is great and I have\nno intention of switching, but a few of its conventions generate a steady trickle\nof manual work:\nposts live in _posts and their file names have to start with the publication\ndate, as in 2026-08-26-some-post.md\nevery article needs a bit of YAML front matter at the top - a layout, a title,\na date, some tags\nlinki…",
+          "link": "https://emacsredux.com/blog/2026/08/26/meet-utterson-my-jekyll-blogging-helper/",
+          "publishedOn": "2026-08-26T14:24:00.000Z",
+          "wordCount": 2387,
+          "title": "Emacs Redux: Meet Utterson, my Jekyll blogging helper",
+          "imageUrl": "https://emacsredux.com/assets/og-image.png"
+        },
+        {
           "id": "https://metaredux.com/posts/2026/08/26/smarter-form-targeting-is-coming-to-cider.html",
           "author": null,
           "description": "If I had a dollar for every time someone asked on the Clojurians Slack in\n#cider why C-x C-e evaluated “the wrong thing”, I’d probably be writing this\npost from a yacht.  The answer was always the same: the cursor wasn’t where\nCIDER expected it to be. The upcoming CIDER 2.1 release changes that - the\nevaluation commands now figure out which form you mean from where your cursor\nactually is.\nA bit of history\nEmacs has a very particular tradition when it comes to evaluating code:\neval-last-sexp (the venerable C-x C-e) acts on the expression before the\ncursor. Not the one you’re looking at, not the one you’re inside of - the one\nthat ends exactly where your cursor stands. SLIME follows this tradition,\nEmacs Lisp itself follows it, and for the past 15+ years CIDER has followed it\ntoo.1 If you g…",
@@ -388,16 +398,6 @@
           "wordCount": 462,
           "title": "Marcin Borkowski: A text expander for Android",
           "imageUrl": null
-        },
-        {
-          "id": "https://taonaw.com/2026/08/16/rsi-and-emacs-when-your.html",
-          "author": null,
-          "description": "I’ve been doing so much Emacs writing lately, so I guess it’s time I get my Emacs pinky (which is a form of RSI). I made a quick reference to it three days ago and got a lot of responses.\nWhat happened?\nI started to feel a strain last week, but at first I didn’t think much about it. Sometimes my pinky rests awkwardly on the keyboard because I’m used to using the Caps Lock key, but it’s usually a hand-position issue. After I readjust and let my pinky rest, it goes away.\nThis time the strain didn’t go away, and my pinky kept rebelling.\nMy keyboard, Kinesis Freestyle Edge (the one here is the RGB+, the original RGB is discontinued), has a prominent Caps Lock key that just screams “use me as control!” For years, that’s what I did. As you can see in the picture, with my pinky resting on it.\nThe…",
-          "link": "https://taonaw.com/2026/08/16/rsi-and-emacs-when-your.html",
-          "publishedOn": "2026-08-17T01:54:19.000Z",
-          "wordCount": 1981,
-          "title": "TAONAW - Emacs and Org Mode: RSI and Emacs: When Your Pinky Says Enough is Enough",
-          "imageUrl": "https://cdn.uploads.micro.blog/96826/2026/88063302f0.jpg"
         }
       ]
     },
@@ -406,6 +406,46 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=233228",
+          "author": "Israel Daramola",
+          "description": "The most awe-inspiring thing in music is when an artist takes over the world. At least back when there was a monoculture, it was possible for a single person to dominate collective attention, at least for awhile. And 1998 should always be remembered as the year DMX did just that.\nThroughout the '90s, Earl Simmons, aka DMX, had been making waves that steadily grew into real, earth-shaking tremors over the back half of the decade. Prominent guest spots on songs like Mic Geronimo's 1995 track \"Time to Build,\" where X traded verses with fellow burgeoning acts Jay-Z and Ja Rule, the LL Cool J–led posse cut \"4, 3, 2, 1\" in 1997, and the Lox's single \"Money, Power, Respect\" in early 1998 indicated that he was on the cusp of a full breakout. While 1998 marked a definitive before and after, his ascent that year was the culmination of a long, hard struggle to break into the industry.\n\nhttps://youtu.be/zAZqlaDCLSI?si=iGT2MxqLWsYktPSZ",
+          "link": "https://defector.com/the-year-dmx-painted-the-world-blood-red",
+          "publishedOn": "2026-08-26T14:27:38.000Z",
+          "wordCount": 10217,
+          "title": "The Year DMX Painted The World Blood Red",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-635927147.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=233278",
+          "author": "David Roth",
+          "description": "There are certain types of players that just are not coming back. Some of these guys have been written out of the story by changes in the game's rules; future generations will be unable to comprehend the wealth of saturnine lefty specialists whom the world once watched trudge-jogging from the league's bullpens, not just because the mind naturally reels at such beauty, but because the role no longer exists as such. An evolving set of best practices has also narrowed the field of Guys, or just refined it in a way that puts the squeeze on elite specialists and the lumpen class of ham-and-egger generalists alike. In baseball's optimized future, pinch-runners and innings eaters will both be endangered species.\nIf you're old enough to remember a version of the game that was not like this—all tho…",
+          "link": "https://defector.com/tom-browning-devoured-innings-and-tormented-my-team",
+          "publishedOn": "2026-08-26T13:53:08.000Z",
+          "wordCount": 6927,
+          "title": "Tom Browning Devoured Innings And Tormented My Team",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-159102365.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=233329",
+          "author": "Albert Burneko",
+          "description": "Welcome back to Minor Dilemmas, where a member of Defector's Parents Council will answer your questions on surviving family life. Have a question? Email us at minordilemmas@defector.com.\nThis week, Albert answers a question about a kid who might be a little bit of a mess.",
+          "link": "https://defector.com/what-do-i-do-about-my-fragile-kid",
+          "publishedOn": "2026-08-26T13:30:48.000Z",
+          "wordCount": 9731,
+          "title": "What Do I Do About My Fragile Kid?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-72558295.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=232665",
+          "author": "Felix Kent",
+          "description": "A couple of blocks from my office is a steep hill. Sometimes at lunch I go out into the sun and walk up the hill. The hill is very California: asphalt so newly laid that it looks AI generated; a handful of wheeling turkey vultures; golden dried grass edging up to fortress-like new construction. I usually march up the sidewalk but there’s also a path that winds through blackberry vines and over the creek, past where people without other places to stay have been sleeping. It’s a Diebenkorn painting; it’s the place he runs to at the opening of The Beginning Place. Walking up the hill restores me to myself when I am tired or cranky or worried about something I have done or failed to do at work.\nThe only problem is that I have to face down death. At the end of the first block is a stoplight. If you turn right at that stoplight you find yourself in a shopping center with a Lucky and a Home Depot. This shopping center is used a lot while the sidewalk that goes up the hill is used significantly less. Drivers are always turning right to go to the shopping center, or turning right as they come out of the shopping center, and often they make those turns without regard to whether or not there is a pedestrian about to step into the roadway. \nThis is galling, especially because it’s one of those California intersections where in order to cross legally I, the pedestrian in question, have to hit a button before the light turns green in the direction I want to go or else I am stuck there first watching the traffic stream in my direction, then the traffic making the protected left, then the traffic going in the opposite direction, then the traffic making the protected left in the other direction. This probably takes a minute and a half—it feels like a lifetime.",
+          "link": "https://defector.com/every-right-on-red-frays-the-social-contract-a-little-further",
+          "publishedOn": "2026-08-26T13:00:52.000Z",
+          "wordCount": 9902,
+          "title": "Every Right On Red Frays The Social Contract A Little Further",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2155282060-e1787749198277.jpg"
+        },
         {
           "id": "https://defector.com/?p=233478",
           "author": "Diana Moskovitz",
@@ -1184,16 +1224,6 @@
           "publishedOn": "2026-08-18T00:02:58.000Z",
           "wordCount": 2919,
           "title": "Troma Tuesday: Maniac Cop",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3032",
-          "author": "Schill",
-          "description": "",
-          "link": "https://stuffthatinterestsme.net/monday-meme-dump-4/",
-          "publishedOn": "2026-08-17T01:50:28.000Z",
-          "wordCount": 1241,
-          "title": "Monday Meme Dump",
           "imageUrl": null
         }
       ]
@@ -2522,6 +2552,26 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1556007",
+          "author": "Josh Marshall",
+          "description": "As a general matter, people who write about or strategize about politics greatly overestimate our collective ability to shape how...",
+          "link": "https://talkingpointsmemo.com/edblog/the-backchannel/trumps-idiotic-trade-war-is-a-bigger-political-opening-than-you-think",
+          "publishedOn": "2026-08-26T14:33:31.000Z",
+          "wordCount": 2024,
+          "title": "Trump’s Idiotic Trade War Is a Bigger Political Opening Than You Think",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/07/GettyImages-2280440952.jpg?w=1200"
+        },
+        {
+          "id": "https://talkingpointsmemo.com/?p=1556020",
+          "author": "Josh Marshall",
+          "description": "When some stars or legends die, they spur outpourings and commemorations that appear to transcend the mere mechanics and scaffolding...",
+          "link": "https://talkingpointsmemo.com/edblog/dolly-parton-rights-holder-dead-at-80",
+          "publishedOn": "2026-08-26T14:23:26.000Z",
+          "wordCount": 2589,
+          "title": "Dolly Parton, Rights Holder, Dead at 80",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-84900805.jpg?w=1200"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1555757",
           "author": "Josh Marshall",
