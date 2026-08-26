@@ -80,6 +80,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://metaredux.com/posts/2026/08/26/smarter-form-targeting-is-coming-to-cider.html",
+          "author": null,
+          "description": "If I had a dollar for every time someone asked on the Clojurians Slack in\n#cider why C-x C-e evaluated “the wrong thing”, I’d probably be writing this\npost from a yacht.  The answer was always the same: the cursor wasn’t where\nCIDER expected it to be. The upcoming CIDER 2.1 release changes that - the\nevaluation commands now figure out which form you mean from where your cursor\nactually is.\nA bit of history\nEmacs has a very particular tradition when it comes to evaluating code:\neval-last-sexp (the venerable C-x C-e) acts on the expression before the\ncursor. Not the one you’re looking at, not the one you’re inside of - the one\nthat ends exactly where your cursor stands. SLIME follows this tradition,\nEmacs Lisp itself follows it, and for the past 15+ years CIDER has followed it\ntoo.1 If you g…",
+          "link": "https://metaredux.com/posts/2026/08/26/smarter-form-targeting-is-coming-to-cider.html",
+          "publishedOn": "2026-08-26T09:18:00.000Z",
+          "wordCount": 1342,
+          "title": "Meta Redux: Smarter Form Targeting Is Coming to CIDER",
+          "imageUrl": "https://metaredux.com/assets/og-image.png"
+        },
+        {
           "id": "https://www.jamescherti.com/emacs-eglot-performance/",
           "author": null,
           "description": "Eglot ships with Emacs as a built-in, lightweight LSP client, and its default configuration is sufficient for most projects. However, working with large codebases can cause noticeable latency. When Eglot becomes sluggish, the problem may involve work performed by Eglot and Emacs as well as the language server itself. JSON-RPC event logging, filesystem watching, diagnostics, completion, and other editor activity can all contribute to latency.\nThis article covers practical changes for keeping Eglot responsive when working with large projects.\nAuto-shutting down idle Eglot servers\nThis reduces resource usage when switching between multiple projects. The eglot-autoshutdown variable shuts down the LSP server after the last managed buffer has been killed.\n(setq eglot-autoshutdown t)\nThis is usef…",
@@ -398,36 +408,6 @@
           "wordCount": 465,
           "title": "Corwin Brust: Emacs Card Games on MELPA",
           "imageUrl": null
-        },
-        {
-          "id": "https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-3.html",
-          "author": null,
-          "description": "part 2 I described how, for a particular project with certain\nnaming conventions, I wanted to use emacs tree-sitter font-locking to\nhighlight variables that might be used in the wrong context:\n\n\n\n  \n\n\n\nI found a way to make it work for simple expressions but it was relying on\nregular expression matching rather than tree-sitter parse trees. I set a\ngoal of handling these types of expressions:\n\n\n\nelevation_t[t]           // good\nelevation_t[r]           // bug\nelevation_t[t_from_r[r]] // good\nelevation_t[r_from_t[t]] // bug\nelevation_t[obj.t]       // good\nelevation_t[obj.r]       // bug\nelevation_t[t_from_r(r)] // good\nelevation_t[r_from_t(t)] // bug\nelevation_t[x.t_fn(x)]   // good\nelevation_t[x.r_fn(x)]   // bug\nelevation_t[x.t_arr[i]]  // good\nelevation_t[x.r_arr[i]]  // bug\nelevation_t[…",
-          "link": "https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-3.html",
-          "publishedOn": "2026-08-16T21:53:52.812Z",
-          "wordCount": 2212,
-          "title": "Amit Patel: Emacs Tree-sitter custom highlighting, part 3",
-          "imageUrl": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_vSdiEK3tTL4n9mPSzaZmhPMxB-dB_oU0zmO64Q7QG7bHknjrCAjQH_VjFUdJRd4zo59SQCiXR6z8KeGTQNAuWMtO6BmRUJsvDFA0x3u8jUf_Rtayrg8rnV3s4IG7X2UDeNIyenwb_g5dEznwkdaUihp6Y=w1200-h630-p-k-no-nu"
-        },
-        {
-          "id": "https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-2.html",
-          "author": null,
-          "description": "part 1 I described my initial attempt at customizing font-lock\nusing Emacs 29 tree-sitter. Regular font locking uses regular expression\nmatching. Tree sitter allows combining regular expression matching with\nparse tree matching, like \"variable declaration\" or \"function call\". The\nideas I came up with were mostly things that I could have implemented with\nregular expressions alone, but I wanted to experiment with the tree sitter\napproach. Here's the effect of conventional highlighting, using color for\nkeywords and other syntax:\n\n\n\n  \n  \n  Screenshots showing the use of color for syntax highlighting\n\n\n\n\n\nI wanted to instead mark variable names. In some projects I'm working with\ngeometry, and I sometimes make mistakes putting the wrong variables\ntogether. I decided to mark horizontal and verti…",
-          "link": "https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-2.html",
-          "publishedOn": "2026-08-16T21:53:41.759Z",
-          "wordCount": 1427,
-          "title": "Amit Patel: Emacs Tree-sitter custom highlighting, part 2",
-          "imageUrl": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_tBHYJ3Chh4opR_kvPMNPw5K66dSrBLyqH2UxfNy93HkTl3jE_XGqSk-EpP7BwA7vCL1smcGENwVjewkoNYoCWJIDB7aRHnXKtwQejuK1YLC2iEx4gefGUM4wz_QSkblzyMoA1DPIkVXFiFYl4=w1200-h630-p-k-no-nu"
-        },
-        {
-          "id": "https://amitp.blogspot.com/2025/02/emacs-tree-sitter-custom-highlighting.html",
-          "author": null,
-          "description": "blogged about custom tree-sitter-based syntax highlighting in emacs. I started out with highlighting certain keywords in red. I wanted to show the keywords that interrupt control flow:\n\n\n\n  \n  Screenshot showing syntax highlighting of keywords in black or red\n\n\n\nI highlight regular keywords (while, if) in bold. I highlight control flow interrupting keywords (return, continue) in red.\n\n\n\nThat's syntax highlighting.\n\n\n\nBut I also wanted to highlight names based on their meaning. \n\n\n\n\n\nIn some projects I'm working with horizontal and vertical measurements, and I thought it would be nice to highlight those variable names differently. In some projects I'm working with Delaunay+Voronoi meshes, and I wanted to highlight the triangles, edges, and polygons differently. In some projects I'm working …",
-          "link": "https://amitp.blogspot.com/2025/02/emacs-tree-sitter-custom-highlighting.html",
-          "publishedOn": "2026-08-16T21:53:12.412Z",
-          "wordCount": 1553,
-          "title": "Amit Patel: Emacs Tree-sitter custom highlighting, part 1",
-          "imageUrl": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_uZf4jSSfXLuYAdKa6T1XdxXCy0n79UWQOrZ4qVPbM9jH1AsDzW1DYOg4SOSGhPvNPowNo6vpoTCHhoeJ26EzHISzG2AuVtzG0KEJtP-mTLifebiviqNLBjw2JY2OuyAfwgFZoYBcINjx4yI__mhOeYbAEj2cUp=w1200-h630-p-k-no-nu"
         }
       ]
     },

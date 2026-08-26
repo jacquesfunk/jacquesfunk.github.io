@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-26T08:40:30.837Z</updated>
+    <updated>2026-08-26T10:33:03.707Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Meta Redux: Smarter Form Targeting Is Coming to CIDER]]></title>
+        <id>https://metaredux.com/posts/2026/08/26/smarter-form-targeting-is-coming-to-cider.html</id>
+        <link href="https://metaredux.com/posts/2026/08/26/smarter-form-targeting-is-coming-to-cider.html"/>
+        <updated>2026-08-26T09:18:00.000Z</updated>
+        <summary type="html"><![CDATA[If I had a dollar for every time someone asked on the Clojurians Slack in
+#cider why C-x C-e evaluated “the wrong thing”, I’d probably be writing this
+post from a yacht.  The answer was always the same: the cursor wasn’t where
+CIDER expected it to be. The upcoming CIDER 2.1 release changes that - the
+evaluation commands now figure out which form you mean from where your cursor
+actually is.
+A bit of history
+Emacs has a very particular tradition when it comes to evaluating code:
+eval-last-sexp (the venerable C-x C-e) acts on the expression before the
+cursor. Not the one you’re looking at, not the one you’re inside of - the one
+that ends exactly where your cursor stands. SLIME follows this tradition,
+Emacs Lisp itself follows it, and for the past 15+ years CIDER has followed it
+too.1 If you g…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Lusine (Interview)]]></title>
         <id>https://www.flowstate.fm/p/lusine-interview</id>
@@ -3231,108 +3253,6 @@ With high food and gas prices, a weak labor market and an unpopular war started 
 And that routine, as evidenced by polling and low GOP primary turnout, has gotten old. Trump has become …]]></summary>
         <author>
             <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amit Patel: Emacs Tree-sitter custom highlighting, part 3]]></title>
-        <id>https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-3.html</id>
-        <link href="https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-3.html"/>
-        <updated>2026-08-16T21:53:52.812Z</updated>
-        <summary type="html"><![CDATA[part 2 I described how, for a particular project with certain
-naming conventions, I wanted to use emacs tree-sitter font-locking to
-highlight variables that might be used in the wrong context:
-
-
-
-  
-
-
-
-I found a way to make it work for simple expressions but it was relying on
-regular expression matching rather than tree-sitter parse trees. I set a
-goal of handling these types of expressions:
-
-
-
-elevation_t[t]           // good
-elevation_t[r]           // bug
-elevation_t[t_from_r[r]] // good
-elevation_t[r_from_t[t]] // bug
-elevation_t[obj.t]       // good
-elevation_t[obj.r]       // bug
-elevation_t[t_from_r(r)] // good
-elevation_t[r_from_t(t)] // bug
-elevation_t[x.t_fn(x)]   // good
-elevation_t[x.r_fn(x)]   // bug
-elevation_t[x.t_arr[i]]  // good
-elevation_t[x.r_arr[i]]  // bug
-elevation_t[…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amit Patel: Emacs Tree-sitter custom highlighting, part 2]]></title>
-        <id>https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-2.html</id>
-        <link href="https://amitp.blogspot.com/2025/03/emacs-tree-sitter-custom-highlighting-2.html"/>
-        <updated>2026-08-16T21:53:41.759Z</updated>
-        <summary type="html"><![CDATA[part 1 I described my initial attempt at customizing font-lock
-using Emacs 29 tree-sitter. Regular font locking uses regular expression
-matching. Tree sitter allows combining regular expression matching with
-parse tree matching, like "variable declaration" or "function call". The
-ideas I came up with were mostly things that I could have implemented with
-regular expressions alone, but I wanted to experiment with the tree sitter
-approach. Here's the effect of conventional highlighting, using color for
-keywords and other syntax:
-
-
-
-  
-  
-  Screenshots showing the use of color for syntax highlighting
-
-
-
-
-
-I wanted to instead mark variable names. In some projects I'm working with
-geometry, and I sometimes make mistakes putting the wrong variables
-together. I decided to mark horizontal and verti…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amit Patel: Emacs Tree-sitter custom highlighting, part 1]]></title>
-        <id>https://amitp.blogspot.com/2025/02/emacs-tree-sitter-custom-highlighting.html</id>
-        <link href="https://amitp.blogspot.com/2025/02/emacs-tree-sitter-custom-highlighting.html"/>
-        <updated>2026-08-16T21:53:12.412Z</updated>
-        <summary type="html"><![CDATA[blogged about custom tree-sitter-based syntax highlighting in emacs. I started out with highlighting certain keywords in red. I wanted to show the keywords that interrupt control flow:
-
-
-
-  
-  Screenshot showing syntax highlighting of keywords in black or red
-
-
-
-I highlight regular keywords (while, if) in bold. I highlight control flow interrupting keywords (return, continue) in red.
-
-
-
-That's syntax highlighting.
-
-
-
-But I also wanted to highlight names based on their meaning. 
-
-
-
-
-
-In some projects I'm working with horizontal and vertical measurements, and I thought it would be nice to highlight those variable names differently. In some projects I'm working with Delaunay+Voronoi meshes, and I wanted to highlight the triangles, edges, and polygons differently. In some projects I'm working …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
