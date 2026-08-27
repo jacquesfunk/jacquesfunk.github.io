@@ -2,10 +2,254 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-27T07:23:31.469Z</updated>
+    <updated>2026-08-27T18:51:14.385Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The NWSL’s Golden Boot Race Is Red Hot]]></title>
+        <id>https://defector.com/?p=233703</id>
+        <link href="https://defector.com/the-nwsls-golden-boot-race-is-red-hot"/>
+        <updated>2026-08-27T18:32:59.000Z</updated>
+        <summary type="html"><![CDATA[Across the 2024 and 2025 NWSL seasons, Temwa Chawinga scored 35 goals—more than many players could hope to score in their entire careers. She won the Golden Boot and MVP both years, and deserved to. The Kansas City Current forward was simply inevitable.
+There’s a real pleasure in watching an athlete like Chawinga, who provides the near certainty that if you flip on a game they’re playing in, they'll do something that knocks your socks off. Scoring is the hardest thing to do in soccer, not to mention doing it with such consistency and for so long. Chawinga’s scoring pace over the last two years left little doubt that she’d sweep the league’s end-of-season awards. 
+This year, we’ve been treated to nine goals from Chawinga so far, putting her at an astounding rate of 1.06 goals per 90 minutes played. That she’s kept up her scoring is all the more impressive considering that Kansas City is nowhere near as good of a team as they have been the last two campaigns; she’s able to put a team on her back and not feel the weight of it.]]></summary>
+        <author>
+            <name>Abigail Segel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Let’s Remember Some Publications That Said We Would Get To Mars By 2026]]></title>
+        <id>https://defector.com/?p=233559</id>
+        <link href="https://defector.com/lets-remember-some-publications-that-said-we-would-get-to-mars-by-2026"/>
+        <updated>2026-08-27T17:26:03.000Z</updated>
+        <summary type="html"><![CDATA[Good science journalism is by its nature suspicious of grand or outlandish claims. Good science journalism does not take press releases at face value, but rather investigates the evidence behind those claims and the context in which they appear. Good science journalism is more interested in the truth behind big promises, or at least the likelihood of said promises coming true. By contrast, bad science journalism functions as a hype machine, regurgitating company statements verbatim as if it were the New York Times quoting Israel's Ministry of Defense. Bad science journalism runs with shocking claims precisely because they are shocking, because shock drives clicks, and nowhere is this more apparent than in a headline.
+I've written about the problematic nature of this type of coverage around mammoth claims of de-extinction, such as when Time and the New Yorker both published headlines claiming that the dire wolf has returned. (Reader; it has not.) Although Colossal gives SpaceX a run for its money when it comes to sensationalism, other less technologically glitzy fields are less prone to sensational slop and arbitrary timelines; zoology is not promising a new monkey by 2027. In fact, I'd wager that space science, with its reliance on otherworldly technology and billionaire braggadocios, might be the most vulnerable to this kind of bad journalism. 
+To this point, I recently and wholeheartedly agreed with this exchange between cosmologist Katie Mack and science journalist Dave Levitan.]]></summary>
+        <author>
+            <name>Sabrina Imbler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Guy Brought a Freakin’ Guillotine to the Supreme Court Building and Somehow Wasn’t Locked up for It]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a73545037/guillotine-supreme-court-jeanine-pirro/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a73545037/guillotine-supreme-court-jeanine-pirro/"/>
+        <updated>2026-08-27T17:25:41.000Z</updated>
+        <summary type="html"><![CDATA[You’re telling me that U.S. Attorney Jeanine Pirro’s crack prosecutors couldn’t even get remand on this dude?]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Your Team Sucks 2026: Buffalo Bills]]></title>
+        <id>https://defector.com/?p=233687</id>
+        <link href="https://defector.com/why-your-team-sucks-2026-buffalo-bills"/>
+        <updated>2026-08-27T17:03:39.000Z</updated>
+        <summary type="html"><![CDATA[Some people are fans of the Buffalo Bills. But many, many more people are NOT fans of the Buffalo Bills. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.
+Your team: It was an interception. Get over it.
+Your 2025 record: 12-5. As always, Buffalo's dominant regular season meant nothing. In fact, that gaudy 12-5 record wasn't enough to keep the hated New England Patriots from wresting the AFC East crown away from the Bills after five years atop the division. Those same Patriots would go on to play in the Super Bowl, and in just the second year of their young quarterback's career. They might play in—and win!—many more Super Bowls after this. Meanwhile the Bills have had one of the best QBs in the sport for many years and yet still can't navigate their way through the AFC playoff field without tying their dick in a knot.]]></summary>
+        <author>
+            <name>Drew Magary</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Charlie Holland: Hyperbole HyRolo: Records Are Trees, Not Lines]]></title>
+        <id>https://www.chiply.dev/post-hyperbole-hyrolo</id>
+        <link href="https://www.chiply.dev/post-hyperbole-hyrolo"/>
+        <updated>2026-08-27T16:44:42.000Z</updated>
+        <summary type="html"><![CDATA[1. TLDR
+
+
+
+
+
+HyRolo, the full-text search layer of GNU Hyperbole, is a grep-like retrieval tool for records in your knowledge base instead of lines.  Rather than retrieving single lines, it retrieves the full hierarchical record surrounding your match, descendants included.
+
+
+
+HyRolo can search your existing knowledge bases in place (org-roam, Denote, Obsidian, Logseq, etc.), even if you use more than one of these.  You can point hyrolo-file-list at any container of files (directories and wildcards) containing text in any of the following formats: Org, Markdown, Koutline (Hyperbole's own outline format), or Emacs outline format.  Commands like hyrolo-grep will then display every matching record for your search query in a single navigable *HyRolo* buffer, which you can treat like an outline…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Historic Cincinnati Comeback Offers A Stirring Testament To The Power Of Reds Week]]></title>
+        <id>https://defector.com/?p=233698</id>
+        <link href="https://defector.com/historic-cincinnati-comeback-offers-a-stirring-testament-to-the-power-of-reds-week"/>
+        <updated>2026-08-27T16:34:24.000Z</updated>
+        <summary type="html"><![CDATA[So who believes in Reds Week? The Reds, you fools. The Cincinnati Freaking Reds. And all the rest of you cynical apostates do too. If you didn't know it before, you damned well know it now.
+And not just for historical, electoral, or tonsorial reasons, either. We're talking the here and now, because Defector is in constant communion with the gods of sport, and we get results. Proof? Proof, you ask? Try this: The Cincinnati Reds, our adopted baseball team until closing time tomorrow, did something that simply doesn't happen, ever. The only reason that it happened is because they felt our devotion and the power of our unified medullae oblongatae and rose to the moment. Also because the San Francisco Giants' bullpen blows half-chewed food all down its shirtfront on a regular basis, but that's not the way we're going to frame it. We know a good story when we make one up.
+Anyway, here's what the Reds did Wednesday afternoon in San Francisco: They built a seemingly insurmountable 3-9 deficit over eight full innings, in a game so riveting that the announced attendance of 24,130—itself one of the lowest at a Giants home game in this century, COVID conditions excepted—headed toward the street, the buses, the ferry boats, and the waiting fleet of embittered Lyft drivers before the ninth began, confident that they at least saw these utterly abject Giants earn their first three-game series sweep of the season ... until this happened.]]></summary>
+        <author>
+            <name>Ray Ratto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Defector Music Club Gets Back Together For Taylor Swift’s ‘Red’]]></title>
+        <id>https://defector.com/?p=233513</id>
+        <link href="https://defector.com/music-club-gets-back-together-for-taylor-swifts-red"/>
+        <updated>2026-08-27T16:12:00.000Z</updated>
+        <summary type="html"><![CDATA[This is Defector Music Club, where a number of our writers get together to dish about an album. In honor of Reds Week, we're discussing Taylor Swift's 2012 pop-rock hit Red.
+Patrick Redford: I can’t be the only one whose strongest and first thought about Red is that there’s a sound at the end of the first synth swell in “I Knew You Were Trouble” that sounds just like the jail-cell door slamming closed in Akon’s “Locked Up,” right?
+Lauren Theisen: I primarily remember the screaming goat remix.]]></summary>
+        <author>
+            <name>Lauren Theisen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[James Cherti: Python Development in Emacs: Eglot, Pylsp, and Ruff Integration]]></title>
+        <id>https://www.jamescherti.com/emacs-python-dev-using-eglot-pylsp-ruff-pylint-flake8/</id>
+        <link href="https://www.jamescherti.com/emacs-python-dev-using-eglot-pylsp-ruff-pylint-flake8/"/>
+        <updated>2026-08-27T16:03:21.000Z</updated>
+        <summary type="html"><![CDATA[Eglot provides built-in LSP support in modern Emacs, giving developers a native interface for autocompletion, linting, and formatting. When paired with python-lsp-server (pylsp), creating a Python development environment comes down to managing the LSP server configuration properly.
+Historically, setting up this toolchain required wiring together a stack of individual utilities such as flake8, isort, and black. Now, ruff stands entirely apart from that legacy ecosystem by consolidating all of those separate checks into a single, high-performance Rust binary. This article demonstrates how to configure Eglot to detect and use Ruff dynamically when it is present on your system, while retaining a clean fallback to the older stack of tools like Flake8, pycodestyle, and pydocstyle when Ruff is mi…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Let’s Remember When Tim Curry Played A Huge Scary Red Guy]]></title>
+        <id>https://defector.com/?p=233700</id>
+        <link href="https://defector.com/lets-remember-when-tim-curry-played-a-huge-scary-red-guy"/>
+        <updated>2026-08-27T15:28:53.000Z</updated>
+        <summary type="html"><![CDATA[The actor Tim Curry died on Tuesday. He was 80. He was as purely and consistently fun a screen presence as anyone else I can think of, a cartoon of a performer, with outrageous charisma and the ability to communicate it through a wild assortment of constraints: obscuring makeup, heavy prosthetics, voice acting, shitty scripts, amateurish productions, small roles. When Tim Curry was in something, it had at least one delightful and magnetic thing in it.
+Curry most famously portrayed Dr. Frank-N-Furter in 1975's The Rocky Horror Picture Show, after having substantially created the character in Richard O'Brien's The Rocky Horror Show stage production. It's tempting to call this his breakout role—it's incredibly famous now, and it was his debut film performance—but Rocky Horror wasn't a hit on …]]></summary>
+        <author>
+            <name>Albert Burneko</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[South Carolina’s Darline Graham Took a Cheap Shot at Massachusetts. Here’s My Reply.]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a73543768/south-carolina-massachusetts-rankings-darline-graham/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a73543768/south-carolina-massachusetts-rankings-darline-graham/"/>
+        <updated>2026-08-27T15:27:05.000Z</updated>
+        <summary type="html"><![CDATA[Allow me to break down our respective states by the numbers.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jailed ICE Agent Wanted in Minnesota Released in Texas]]></title>
+        <id>https://morningmemo.talkingpointsmemo.com/p/jailed-ice-agent-wanted-in-minnesota</id>
+        <link href="https://morningmemo.talkingpointsmemo.com/p/jailed-ice-agent-wanted-in-minnesota"/>
+        <updated>2026-08-27T15:22:35.000Z</updated>
+        <summary type="html"><![CDATA[INSIDE: Greg Abbott ... Christian Castro ... LaMonica McIver]]></summary>
+        <author>
+            <name>David Kurtz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is My Red Light Mask Doing Anything Or Am I Delusional? An Investigation]]></title>
+        <id>https://defector.com/?p=233244</id>
+        <link href="https://defector.com/is-my-red-light-mask-doing-anything-or-am-i-delusional-an-investigation"/>
+        <updated>2026-08-27T15:07:09.000Z</updated>
+        <summary type="html"><![CDATA[As with some of my best decisions in life, I bought a red light mask because Kelsey McKinney uses one. I saw Kelsey posting Instagram stories with her face illuminated under the mask's sinister, Sith-like glow. I was newly 30, albeit not especially flirty or thriving, and I wondered if the red light mask might be a good salve for my anxious vanity. Like many others, I want to grow old but still look young—sue me! Every morning I dutifully smear sunscreen on my face, and every night I apply my cocktail of arbitrarily chosen unguents. But if there was something else I could be doing more to stave off spots and wrinkles, I wanted to give it a try.
+Now that I've had my red light mask for a year, I see that it works, I think? My skin looks good, perhaps even better than it would without the mask. But I sometimes wonder if this is all in my head. Have I convinced myself that red light works simply because I want it to? Every time I put on my mask, strapping my face under its white silhouette like Tom Cruise in Vanilla Sky, I find myself discombobulated, also like Tom Cruise in Vanilla Sky. The logic feels crazy. I understand that light has the power to burn my skin. But the power to preserve it? This wager feels far more fantastical.
+Even scientists seemed to agree. In one 1989 paper, the biophysicist Tiina Karu, who studied the cellular mechanics of red light exposure, called the therapy "highly incredible and even mysterious." When I tried to learn about the science behind red light's dermatological dazzle, what I found were mostly affiliate-driven product recommendations, which taught me more about the luxuries of various masks but less about the science behind them. So I reached out to some actual dermatologists to see if they could unmask the secrets of my mask. Here is some of what I learned.]]></summary>
+        <author>
+            <name>Sabrina Imbler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An Ode To Redman, The Hip-Hop Court Jester]]></title>
+        <id>https://defector.com/?p=233539</id>
+        <link href="https://defector.com/an-ode-to-redman-the-hip-hop-court-jester"/>
+        <updated>2026-08-27T14:36:44.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to Listening Habits, a column where I share the music and musical topics I’ve been fixated on recently.
+In the music video for "Time 4 Sum Aksion," the second single from Redman's debut album, you don't really get much of the zany personality that would go on to make him a cultural icon over the ensuing decades. Redman emerged first as a hardcore rapper, combining street tales and golden-age hip-hop swagger with reggae and Parliament Funkadelic attributes. On 1992's Whut? Thee Album, the fresh-faced kid from Newark is full of outlandish, aggressive bravado, backed by one of rap's production heavyweights, Erick Sermon. It makes for an album that is sonically adventurous, sampling a range of artists that includes James Brown, Funkadelic, and the Mary Jane Girls, all the while bringing raw and punchy pulp fiction the whole time. He is every bit deserving of being prime Mike Tyson's ring entrance music.
+
+https://youtu.be/NiZMqVXVZgA?si=rAXI9UVOQuMZXMwb]]></summary>
+        <author>
+            <name>Israel Daramola</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[worst person in the world makes Dolly Parton’s death all about himself]]></title>
+        <id>https://www.jefftiedrich.com/p/worst-person-in-the-world-makes-dolly</id>
+        <link href="https://www.jefftiedrich.com/p/worst-person-in-the-world-makes-dolly"/>
+        <updated>2026-08-27T14:33:30.000Z</updated>
+        <summary type="html"><![CDATA[shut the fuck up, Piggy]]></summary>
+        <author>
+            <name>Jeff Tiedrich</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Irreal: Tweaking Emacs Scrolling Behavior]]></title>
+        <id>https://irreal.org/blog/?p=14042</id>
+        <link href="https://irreal.org/blog/?p=14042"/>
+        <updated>2026-08-27T14:15:48.000Z</updated>
+        <summary type="html"><![CDATA[init.el almost from the beginning:
+
+
+(setq    ;set reasonable scrolling
+ scroll-margin 0
+ scroll-conservatively 100000
+ scroll-preserve-screen-position 1)
+
+a really excellent post that expains all the fine points of configuring scrolling. He explains the above lines, which most people probably have in their configuration. If you want Emacs scrolling to behave as it does in every other application, you can leave them as is but you can tweak the behavior a bit if you like. Cherti has all the details.
+
+
+But wait. There’s more. There are similar settings for horizontal scrolling that you might like. I’ve never had any problem with horizontal scrolling—probably because I’ve always wrapped lines in one way or another—but they’re there if you need them.
+
+
+There are some other tweaks that you can apply to delay fontification during scrolling to speed things up a bit. Again, this is not something that I use but if you deal with large files, you may find it useful.
+
+
+In Emacs 29 and later you can set pixel-precise scrolling to make scrolling over images more pleasant. There are a few other tweaks in Cherti’s post so you should definitely take a look at it. There’s a lot of good content and even if you use only a bit of it, you will find his post worthwhile.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I Played Pat McAfee’s Album For Another Frequently Red-Faced, Sleeveless Baby]]></title>
+        <id>https://defector.com/?p=233524</id>
+        <link href="https://defector.com/pat-mcafee-music-review-frequently-red-faced-sleeveless-baby"/>
+        <updated>2026-08-27T14:09:20.000Z</updated>
+        <summary type="html"><![CDATA[If in the future my daughter develops some kind of Pavlovian response to the musical stylings of Pat McAfee, I'll blame the editors who "assigned" this review. But this outcome is unlikely. I almost wish it were a little more plausible. McAfee's debut album, though enticingly titled Diary of a Polarizing Figure, was not powerful enough to polarize any part of my household. If only it had been more stupid, or ugly, or idiosyncratic enough to spark emotion, because in the end it was the musical equivalent of A.J. Hawk's uncannily smooth face.
+In the same way that McAfee the ESPN commentator has risen to meet the exact needs of the cultural moment—reddish men yapping indefinitely about sports, gambling, and vaccines, to the detriment of traditional journalism and neurons nationwide—McAfee the musician also meets listeners right where they are. Though the former NFL player has claimed that the album he released earlier this month was culled from 20 years of songwriting in private, it is music perfectly matched to the sound of the moment: a congealed country-trap, with skittering snares, gospel touches and autotuned vocals—the soundtrack of Reels America.
+Sharp critics have tried to understand the genesis of this ubiquitous new genre, but thinking too hard about it makes me feel ill. I tend to see it as the algorithmic stream carving out the path of least resistance. It's music that does barely anything for anybody, but harmlessly rolls off everybody, and can be played anywhere across the land. It's the sound of getting heat stroke on someone's rented boat. It's the reason you know Jelly Roll as anything but a bakery treat. It's the music that's on in your pickup truck, but also at the pump where you stopped to get gas, and again inside the convenience store you entered to restock on Zyn, and then again as you resume driving on the interstate while swiping through short-form vertical video and betting the spread.]]></summary>
+        <author>
+            <name>Giri Nathan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Red Hot Chili Peppers Beyond Good And Evil]]></title>
+        <id>https://defector.com/?p=233570</id>
+        <link href="https://defector.com/the-red-hot-chili-peppers-beyond-good-and-evil"/>
+        <updated>2026-08-27T13:47:05.000Z</updated>
+        <summary type="html"><![CDATA[California: Perhaps you’ve heard of it? It is the edge of the continent, it is the apocalypse state, and it is the subject of many songs by the Red Hot Chili Peppers, though fewer than you might think. 
+California is one of Californian rock bands’ favorite things to sing about. The dreamy surface and its seedy underbelly, the all-consuming city and the bone-dry wastes of the valley, the homeless encampment outside the library-themed cocktail bar that is decorated with fake books: This is good material for rock music. See “Welcome to the Jungle”; see “California Uber Alles.” Even the songs that are supposed to highlight the sunny side end up saying something about the shitty side, if sometimes unintentionally. The sighing minor chords in Scott McKenzie’s “San Francisco” make the flower-power anthem sound a little like a funeral dirge for an already vanishing age, or like the song has a bad conscience about selling a dream it suspects might be false. Phantom Planet’s “California,” the theme song for The O.C., repeats its chorus—“California, here we coooooooooooooooome”—so many times that it starts to sound a little desperate, as though the band is trying to convince itself that the trip will be worthwhile. When you’re away, California evanesces into fantasy; when you’re there, you remember that it’s just a place.
+There is a special insularity to a lot of Californian music. California, the mythic land of cults and communes, perfected the art of rock-as-subculture. No region, with the possible exception of Manchester, has produced a higher volume of what I’ve taken to calling "You had to be there" bands. The biggest two are the Bay Area’s Grateful Dead and L.A.’s Black Flag.]]></summary>
+        <author>
+            <name>Mitch Therieau</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making Your Data Ready for Agentic AI]]></title>
+        <id>https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html</id>
+        <link href="https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html"/>
+        <updated>2026-08-27T13:11:00.000Z</updated>
+        <summary type="html"><![CDATA[Lots of organizations are excited about what AI can do to streamline
+      their processes, save money, and juice margins. But AI's capabilities are
+      founded on the data that AI accesses, and for many organizations that
+      foundation is little more than sand. Pramod Sadalage and
+      Prem Chandrasekaran write about how to build a reliable
+      foundation of data that can be accurate and trusted.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TAONAW - Emacs and Org Mode:]]></title>
+        <id>https://taonaw.com/2026/08/27/gcc-drive-error-on-macos.html</id>
+        <link href="https://taonaw.com/2026/08/27/gcc-drive-error-on-macos.html"/>
+        <updated>2026-08-27T12:51:50.000Z</updated>
+        <summary type="html"><![CDATA[GCC drive error on macOS: This seems to show up with almost every new Emacs package I’ve been trying recently on my Mac. I remember trying to dig into it, and I went in circles trying to install something from Homebrew. Has anyone fixed this? I’m on GNU Emacs plus 30.2.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Durutti Column]]></title>
         <id>https://www.flowstate.fm/p/the-durutti-column-7a6</id>
@@ -3232,78 +3476,6 @@ My writing isn't very good. I know that. It's probably because I don't worry muc
         <summary type="html"><![CDATA[Today’s mix opens with new ambient music from TUAWKI, Christopher Willits, Lara Somogyi & Rob Moose, and Cole Pulice.]]></summary>
         <author>
             <name>Flow State</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Troma Tuesday: Maniac Cop]]></title>
-        <id>https://stuffthatinterestsme.net/?p=2914</id>
-        <link href="https://stuffthatinterestsme.net/troma-tuesday-maniac-cop/"/>
-        <updated>2026-08-18T00:02:58.000Z</updated>
-        <summary type="html"><![CDATA[Horror movies often prey on familiar fears, transforming everyday places and trusted figures into sources of terror. Few films embraced]]></summary>
-        <author>
-            <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Randy Ridenour: HTML Preview for Org Files]]></title>
-        <id>https://randyridenour.net/posts/2026-08-17-html-preview-for-org-files.html</id>
-        <link href="https://randyridenour.net/posts/2026-08-17-html-preview-for-org-files.html"/>
-        <updated>2026-08-17T23:49:00.000Z</updated>
-        <summary type="html"><![CDATA[Marked for easily reading Markdown files. Over the years, he’s added more and more features. He’s recently released Marked 3 which, if you need those features, is well worth the purchase price of $2.99/month subscription or a one-time purchase of $69.99. There are only two small things keeping me from upgrading:
-
-
-
-I don’t need any of those features — in fact, since everything I write begins as an Org mode file, I don’t really need a Markdown previewer.
-I teach philosophy at a small liberal arts college in a rapidly collapsing market.
-(defun rlr/org-export-html-to-browser ()
-  "Export the current Org buffer to a temporary HTML file in the system temp directory, open it, and then delete it when Emacs is killed."
-  (interactive)
-  (unless (derived-mode-p 'org-mode)
-    (user-error "Not in an…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Output Error: Tracking Reading in Emacs]]></title>
-        <id>https://outputerror.com/posts/tracking-reading-in-emacs/</id>
-        <link href="https://outputerror.com/posts/tracking-reading-in-emacs/"/>
-        <updated>2026-08-17T22:41:00.000Z</updated>
-        <summary type="html"><![CDATA[A Better Reads system for tracking books in Org Mode.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blanche Hints Trump Admin Might Try to Take Voter Roll Fight to SCOTUS]]></title>
-        <id>https://wherethingsstand.talkingpointsmemo.com/p/blanche-hints-trump-admin-might-try</id>
-        <link href="https://wherethingsstand.talkingpointsmemo.com/p/blanche-hints-trump-admin-might-try"/>
-        <updated>2026-08-17T21:41:41.000Z</updated>
-        <summary type="html"><![CDATA[This is your TPM evening briefing.]]></summary>
-        <author>
-            <name>Nicole Lafond</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sacha Chua: 2026-08-17 Emacs news]]></title>
-        <id>https://sachachua.com/blog/2026/08/2026-08-17-emacs-news/</id>
-        <link href="https://sachachua.com/blog/2026/08/2026-08-17-emacs-news/"/>
-        <updated>2026-08-17T20:41:53.000Z</updated>
-        <summary type="html"><![CDATA[canvas patch has been merged upstream, very cool! I'm looking forward to seeing the kinds of experiments and tools this enables. Also, there's a release candidate for the next version of Emacs, please go try it out!
-
-
-
-Emacs 31:
-
-Emacs 31.1 RC1 is available (HN)
-
-Upcoming events (iCal file, Org):
-
-M-x Research: TBA https://m-x-research.github.io/ Wed Aug 19 0800 America/Vancouver - 1000 America/Chicago - 1100 America/Toronto - 1500 Etc/UTC - 1700 Europe/Berlin - 2030 Asia/Kolkata - 2300 Asia/Singapore
-Emacs APAC: Emacs APAC meetup (virtual) https://emacs-apac.gitlab.io/announcements/ Sat Aug 22 0130 America/Vancouver - 0330 America/Chicago - 0430 America/Toronto - 0830 Etc/UTC - 1030 Europe/Berlin - 1400 Asia/Kolkata - 1630 Asia/Singapore
-Emacs Berlin: Emacs-Berlin Hybrid Meetup https://em…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>

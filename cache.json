@@ -60,6 +60,46 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.chiply.dev/post-hyperbole-hyrolo",
+          "author": null,
+          "description": "1. TLDR\n\n\n\n\n\nHyRolo, the full-text search layer of GNU Hyperbole, is a grep-like retrieval tool for records in your knowledge base instead of lines.  Rather than retrieving single lines, it retrieves the full hierarchical record surrounding your match, descendants included.\n\n\n\nHyRolo can search your existing knowledge bases in place (org-roam, Denote, Obsidian, Logseq, etc.), even if you use more than one of these.  You can point hyrolo-file-list at any container of files (directories and wildcards) containing text in any of the following formats: Org, Markdown, Koutline (Hyperbole's own outline format), or Emacs outline format.  Commands like hyrolo-grep will then display every matching record for your search query in a single navigable *HyRolo* buffer, which you can treat like an outline…",
+          "link": "https://www.chiply.dev/post-hyperbole-hyrolo",
+          "publishedOn": "2026-08-27T16:44:42.000Z",
+          "wordCount": 8070,
+          "title": "Charlie Holland: Hyperbole HyRolo: Records Are Trees, Not Lines",
+          "imageUrl": "https://www.chiply.dev/images/hyperbole-hyrolo-banner-og.jpg"
+        },
+        {
+          "id": "https://www.jamescherti.com/emacs-python-dev-using-eglot-pylsp-ruff-pylint-flake8/",
+          "author": null,
+          "description": "Eglot provides built-in LSP support in modern Emacs, giving developers a native interface for autocompletion, linting, and formatting. When paired with python-lsp-server (pylsp), creating a Python development environment comes down to managing the LSP server configuration properly.\nHistorically, setting up this toolchain required wiring together a stack of individual utilities such as flake8, isort, and black. Now, ruff stands entirely apart from that legacy ecosystem by consolidating all of those separate checks into a single, high-performance Rust binary. This article demonstrates how to configure Eglot to detect and use Ruff dynamically when it is present on your system, while retaining a clean fallback to the older stack of tools like Flake8, pycodestyle, and pydocstyle when Ruff is mi…",
+          "link": "https://www.jamescherti.com/emacs-python-dev-using-eglot-pylsp-ruff-pylint-flake8/",
+          "publishedOn": "2026-08-27T16:03:21.000Z",
+          "wordCount": 2529,
+          "title": "James Cherti: Python Development in Emacs: Eglot, Pylsp, and Ruff Integration",
+          "imageUrl": null
+        },
+        {
+          "id": "https://irreal.org/blog/?p=14042",
+          "author": null,
+          "description": "init.el almost from the beginning:\n\n\n(setq    ;set reasonable scrolling\n scroll-margin 0\n scroll-conservatively 100000\n scroll-preserve-screen-position 1)\n\na really excellent post that expains all the fine points of configuring scrolling. He explains the above lines, which most people probably have in their configuration. If you want Emacs scrolling to behave as it does in every other application, you can leave them as is but you can tweak the behavior a bit if you like. Cherti has all the details.\n\n\nBut wait. There’s more. There are similar settings for horizontal scrolling that you might like. I’ve never had any problem with horizontal scrolling—probably because I’ve always wrapped lines in one way or another—but they’re there if you need them.\n\n\nThere are some other tweaks that you can apply to delay fontification during scrolling to speed things up a bit. Again, this is not something that I use but if you deal with large files, you may find it useful.\n\n\nIn Emacs 29 and later you can set pixel-precise scrolling to make scrolling over images more pleasant. There are a few other tweaks in Cherti’s post so you should definitely take a look at it. There’s a lot of good content and even if you use only a bit of it, you will find his post worthwhile.",
+          "link": "https://irreal.org/blog/?p=14042",
+          "publishedOn": "2026-08-27T14:15:48.000Z",
+          "wordCount": 1577,
+          "title": "Irreal: Tweaking Emacs Scrolling Behavior",
+          "imageUrl": null
+        },
+        {
+          "id": "https://taonaw.com/2026/08/27/gcc-drive-error-on-macos.html",
+          "author": null,
+          "description": "GCC drive error on macOS: This seems to show up with almost every new Emacs package I’ve been trying recently on my Mac. I remember trying to dig into it, and I went in circles trying to install something from Homebrew. Has anyone fixed this? I’m on GNU Emacs plus 30.2.",
+          "link": "https://taonaw.com/2026/08/27/gcc-drive-error-on-macos.html",
+          "publishedOn": "2026-08-27T12:51:50.000Z",
+          "wordCount": 494,
+          "title": "TAONAW - Emacs and Org Mode:",
+          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/08/27/5980882.png"
+        },
+        {
           "id": "https://rahuljuliato.com/posts/markdown-ts-mode-emacs-31",
           "author": null,
           "description": "Intro\nSo, Emacs 31 has been released, and a lot of shiny new stuff is\nthere, ready for us to play with.\nYou probably heard of this new markdown-ts-mode and decided to check\nit out. And guess what? On Emacs version 31, this is marked as an\nexperimental mode. What does this mean? Should you use it or not? Is\nthis ready? Is this just a sketch of a mode?\nTreat this post as a quick guide to getting this mode up and running\nand helping yourself find answers to these questions.\nWhere is it in terms of features?\nThis is an experimental mode, right? You need to opt in, so probably\nnot everything will work flawlessly yet, and it needs more testing and\nfeedback.\nThat said, don't let this title mislead you. This does not mean the\nmode is premature in terms of features. As you will see, this is a\nvery …",
@@ -368,36 +408,6 @@
           "wordCount": 1355,
           "title": "Irreal: Emacs 31.1 RC1",
           "imageUrl": null
-        },
-        {
-          "id": "https://randyridenour.net/posts/2026-08-17-html-preview-for-org-files.html",
-          "author": null,
-          "description": "Marked for easily reading Markdown files. Over the years, he’s added more and more features. He’s recently released Marked 3 which, if you need those features, is well worth the purchase price of $2.99/month subscription or a one-time purchase of $69.99. There are only two small things keeping me from upgrading:\n\n\n\nI don’t need any of those features — in fact, since everything I write begins as an Org mode file, I don’t really need a Markdown previewer.\nI teach philosophy at a small liberal arts college in a rapidly collapsing market.\n(defun rlr/org-export-html-to-browser ()\n  \"Export the current Org buffer to a temporary HTML file in the system temp directory, open it, and then delete it when Emacs is killed.\"\n  (interactive)\n  (unless (derived-mode-p 'org-mode)\n    (user-error \"Not in an…",
-          "link": "https://randyridenour.net/posts/2026-08-17-html-preview-for-org-files.html",
-          "publishedOn": "2026-08-17T23:49:00.000Z",
-          "wordCount": 610,
-          "title": "Randy Ridenour: HTML Preview for Org Files",
-          "imageUrl": null
-        },
-        {
-          "id": "https://outputerror.com/posts/tracking-reading-in-emacs/",
-          "author": null,
-          "description": "A Better Reads system for tracking books in Org Mode.",
-          "link": "https://outputerror.com/posts/tracking-reading-in-emacs/",
-          "publishedOn": "2026-08-17T22:41:00.000Z",
-          "wordCount": 814,
-          "title": "Output Error: Tracking Reading in Emacs",
-          "imageUrl": "https://outputerror.com/og-image.png"
-        },
-        {
-          "id": "https://sachachua.com/blog/2026/08/2026-08-17-emacs-news/",
-          "author": null,
-          "description": "canvas patch has been merged upstream, very cool! I'm looking forward to seeing the kinds of experiments and tools this enables. Also, there's a release candidate for the next version of Emacs, please go try it out!\n\n\n\nEmacs 31:\n\nEmacs 31.1 RC1 is available (HN)\n\nUpcoming events (iCal file, Org):\n\nM-x Research: TBA https://m-x-research.github.io/ Wed Aug 19 0800 America/Vancouver - 1000 America/Chicago - 1100 America/Toronto - 1500 Etc/UTC - 1700 Europe/Berlin - 2030 Asia/Kolkata - 2300 Asia/Singapore\nEmacs APAC: Emacs APAC meetup (virtual) https://emacs-apac.gitlab.io/announcements/ Sat Aug 22 0130 America/Vancouver - 0330 America/Chicago - 0430 America/Toronto - 0830 Etc/UTC - 1030 Europe/Berlin - 1400 Asia/Kolkata - 1630 Asia/Singapore\nEmacs Berlin: Emacs-Berlin Hybrid Meetup https://em…",
-          "link": "https://sachachua.com/blog/2026/08/2026-08-17-emacs-news/",
-          "publishedOn": "2026-08-17T20:41:53.000Z",
-          "wordCount": 955,
-          "title": "Sacha Chua: 2026-08-17 Emacs news",
-          "imageUrl": null
         }
       ]
     },
@@ -406,6 +416,106 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=233703",
+          "author": "Abigail Segel",
+          "description": "Across the 2024 and 2025 NWSL seasons, Temwa Chawinga scored 35 goals—more than many players could hope to score in their entire careers. She won the Golden Boot and MVP both years, and deserved to. The Kansas City Current forward was simply inevitable.\nThere’s a real pleasure in watching an athlete like Chawinga, who provides the near certainty that if you flip on a game they’re playing in, they'll do something that knocks your socks off. Scoring is the hardest thing to do in soccer, not to mention doing it with such consistency and for so long. Chawinga’s scoring pace over the last two years left little doubt that she’d sweep the league’s end-of-season awards. \nThis year, we’ve been treated to nine goals from Chawinga so far, putting her at an astounding rate of 1.06 goals per 90 minutes played. That she’s kept up her scoring is all the more impressive considering that Kansas City is nowhere near as good of a team as they have been the last two campaigns; she’s able to put a team on her back and not feel the weight of it.",
+          "link": "https://defector.com/the-nwsls-golden-boot-race-is-red-hot",
+          "publishedOn": "2026-08-27T18:32:59.000Z",
+          "wordCount": 8376,
+          "title": "The NWSL’s Golden Boot Race Is Red Hot",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2290382456.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=233559",
+          "author": "Sabrina Imbler",
+          "description": "Good science journalism is by its nature suspicious of grand or outlandish claims. Good science journalism does not take press releases at face value, but rather investigates the evidence behind those claims and the context in which they appear. Good science journalism is more interested in the truth behind big promises, or at least the likelihood of said promises coming true. By contrast, bad science journalism functions as a hype machine, regurgitating company statements verbatim as if it were the New York Times quoting Israel's Ministry of Defense. Bad science journalism runs with shocking claims precisely because they are shocking, because shock drives clicks, and nowhere is this more apparent than in a headline.\nI've written about the problematic nature of this type of coverage around mammoth claims of de-extinction, such as when Time and the New Yorker both published headlines claiming that the dire wolf has returned. (Reader; it has not.) Although Colossal gives SpaceX a run for its money when it comes to sensationalism, other less technologically glitzy fields are less prone to sensational slop and arbitrary timelines; zoology is not promising a new monkey by 2027. In fact, I'd wager that space science, with its reliance on otherworldly technology and billionaire braggadocios, might be the most vulnerable to this kind of bad journalism. \nTo this point, I recently and wholeheartedly agreed with this exchange between cosmologist Katie Mack and science journalist Dave Levitan.",
+          "link": "https://defector.com/lets-remember-some-publications-that-said-we-would-get-to-mars-by-2026",
+          "publishedOn": "2026-08-27T17:26:03.000Z",
+          "wordCount": 10040,
+          "title": "Let’s Remember Some Publications That Said We Would Get To Mars By 2026",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/PIA14297orig1.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=233687",
+          "author": "Drew Magary",
+          "description": "Some people are fans of the Buffalo Bills. But many, many more people are NOT fans of the Buffalo Bills. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.\nYour team: It was an interception. Get over it.\nYour 2025 record: 12-5. As always, Buffalo's dominant regular season meant nothing. In fact, that gaudy 12-5 record wasn't enough to keep the hated New England Patriots from wresting the AFC East crown away from the Bills after five years atop the division. Those same Patriots would go on to play in the Super Bowl, and in just the second year of their young quarterback's career. They might play in—and win!—many more Super Bowls after this. Meanwhile the Bills have had one of the best QBs in the sport for many years and yet still can't navigate their way through the AFC playoff field without tying their dick in a knot.",
+          "link": "https://defector.com/why-your-team-sucks-2026-buffalo-bills",
+          "publishedOn": "2026-08-27T17:03:39.000Z",
+          "wordCount": 15555,
+          "title": "Why Your Team Sucks 2026: Buffalo Bills",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2248814635.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=233698",
+          "author": "Ray Ratto",
+          "description": "So who believes in Reds Week? The Reds, you fools. The Cincinnati Freaking Reds. And all the rest of you cynical apostates do too. If you didn't know it before, you damned well know it now.\nAnd not just for historical, electoral, or tonsorial reasons, either. We're talking the here and now, because Defector is in constant communion with the gods of sport, and we get results. Proof? Proof, you ask? Try this: The Cincinnati Reds, our adopted baseball team until closing time tomorrow, did something that simply doesn't happen, ever. The only reason that it happened is because they felt our devotion and the power of our unified medullae oblongatae and rose to the moment. Also because the San Francisco Giants' bullpen blows half-chewed food all down its shirtfront on a regular basis, but that's not the way we're going to frame it. We know a good story when we make one up.\nAnyway, here's what the Reds did Wednesday afternoon in San Francisco: They built a seemingly insurmountable 3-9 deficit over eight full innings, in a game so riveting that the announced attendance of 24,130—itself one of the lowest at a Giants home game in this century, COVID conditions excepted—headed toward the street, the buses, the ferry boats, and the waiting fleet of embittered Lyft drivers before the ninth began, confident that they at least saw these utterly abject Giants earn their first three-game series sweep of the season ... until this happened.",
+          "link": "https://defector.com/historic-cincinnati-comeback-offers-a-stirring-testament-to-the-power-of-reds-week",
+          "publishedOn": "2026-08-27T16:34:24.000Z",
+          "wordCount": 7227,
+          "title": "Historic Cincinnati Comeback Offers A Stirring Testament To The Power Of Reds Week",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2291645673.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=233513",
+          "author": "Lauren Theisen",
+          "description": "This is Defector Music Club, where a number of our writers get together to dish about an album. In honor of Reds Week, we're discussing Taylor Swift's 2012 pop-rock hit Red.\nPatrick Redford: I can’t be the only one whose strongest and first thought about Red is that there’s a sound at the end of the first synth swell in “I Knew You Were Trouble” that sounds just like the jail-cell door slamming closed in Akon’s “Locked Up,” right?\nLauren Theisen: I primarily remember the screaming goat remix.",
+          "link": "https://defector.com/music-club-gets-back-together-for-taylor-swifts-red",
+          "publishedOn": "2026-08-27T16:12:00.000Z",
+          "wordCount": 12129,
+          "title": "Defector Music Club Gets Back Together For Taylor Swift’s ‘Red’",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-1526015981.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=233700",
+          "author": "Albert Burneko",
+          "description": "The actor Tim Curry died on Tuesday. He was 80. He was as purely and consistently fun a screen presence as anyone else I can think of, a cartoon of a performer, with outrageous charisma and the ability to communicate it through a wild assortment of constraints: obscuring makeup, heavy prosthetics, voice acting, shitty scripts, amateurish productions, small roles. When Tim Curry was in something, it had at least one delightful and magnetic thing in it.\nCurry most famously portrayed Dr. Frank-N-Furter in 1975's The Rocky Horror Picture Show, after having substantially created the character in Richard O'Brien's The Rocky Horror Show stage production. It's tempting to call this his breakout role—it's incredibly famous now, and it was his debut film performance—but Rocky Horror wasn't a hit on …",
+          "link": "https://defector.com/lets-remember-when-tim-curry-played-a-huge-scary-red-guy",
+          "publishedOn": "2026-08-27T15:28:53.000Z",
+          "wordCount": 6973,
+          "title": "Let’s Remember When Tim Curry Played A Huge Scary Red Guy",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/darkness.jpeg"
+        },
+        {
+          "id": "https://defector.com/?p=233244",
+          "author": "Sabrina Imbler",
+          "description": "As with some of my best decisions in life, I bought a red light mask because Kelsey McKinney uses one. I saw Kelsey posting Instagram stories with her face illuminated under the mask's sinister, Sith-like glow. I was newly 30, albeit not especially flirty or thriving, and I wondered if the red light mask might be a good salve for my anxious vanity. Like many others, I want to grow old but still look young—sue me! Every morning I dutifully smear sunscreen on my face, and every night I apply my cocktail of arbitrarily chosen unguents. But if there was something else I could be doing more to stave off spots and wrinkles, I wanted to give it a try.\nNow that I've had my red light mask for a year, I see that it works, I think? My skin looks good, perhaps even better than it would without the mask. But I sometimes wonder if this is all in my head. Have I convinced myself that red light works simply because I want it to? Every time I put on my mask, strapping my face under its white silhouette like Tom Cruise in Vanilla Sky, I find myself discombobulated, also like Tom Cruise in Vanilla Sky. The logic feels crazy. I understand that light has the power to burn my skin. But the power to preserve it? This wager feels far more fantastical.\nEven scientists seemed to agree. In one 1989 paper, the biophysicist Tiina Karu, who studied the cellular mechanics of red light exposure, called the therapy \"highly incredible and even mysterious.\" When I tried to learn about the science behind red light's dermatological dazzle, what I found were mostly affiliate-driven product recommendations, which taught me more about the luxuries of various masks but less about the science behind them. So I reached out to some actual dermatologists to see if they could unmask the secrets of my mask. Here is some of what I learned.",
+          "link": "https://defector.com/is-my-red-light-mask-doing-anything-or-am-i-delusional-an-investigation",
+          "publishedOn": "2026-08-27T15:07:09.000Z",
+          "wordCount": 9452,
+          "title": "Is My Red Light Mask Doing Anything Or Am I Delusional? An Investigation",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/red-light-mask.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=233539",
+          "author": "Israel Daramola",
+          "description": "Welcome to Listening Habits, a column where I share the music and musical topics I’ve been fixated on recently.\nIn the music video for \"Time 4 Sum Aksion,\" the second single from Redman's debut album, you don't really get much of the zany personality that would go on to make him a cultural icon over the ensuing decades. Redman emerged first as a hardcore rapper, combining street tales and golden-age hip-hop swagger with reggae and Parliament Funkadelic attributes. On 1992's Whut? Thee Album, the fresh-faced kid from Newark is full of outlandish, aggressive bravado, backed by one of rap's production heavyweights, Erick Sermon. It makes for an album that is sonically adventurous, sampling a range of artists that includes James Brown, Funkadelic, and the Mary Jane Girls, all the while bringing raw and punchy pulp fiction the whole time. He is every bit deserving of being prime Mike Tyson's ring entrance music.\n\nhttps://youtu.be/NiZMqVXVZgA?si=rAXI9UVOQuMZXMwb",
+          "link": "https://defector.com/an-ode-to-redman-the-hip-hop-court-jester",
+          "publishedOn": "2026-08-27T14:36:44.000Z",
+          "wordCount": 7702,
+          "title": "An Ode To Redman, The Hip-Hop Court Jester",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-104603882_44f8ca.png"
+        },
+        {
+          "id": "https://defector.com/?p=233524",
+          "author": "Giri Nathan",
+          "description": "If in the future my daughter develops some kind of Pavlovian response to the musical stylings of Pat McAfee, I'll blame the editors who \"assigned\" this review. But this outcome is unlikely. I almost wish it were a little more plausible. McAfee's debut album, though enticingly titled Diary of a Polarizing Figure, was not powerful enough to polarize any part of my household. If only it had been more stupid, or ugly, or idiosyncratic enough to spark emotion, because in the end it was the musical equivalent of A.J. Hawk's uncannily smooth face.\nIn the same way that McAfee the ESPN commentator has risen to meet the exact needs of the cultural moment—reddish men yapping indefinitely about sports, gambling, and vaccines, to the detriment of traditional journalism and neurons nationwide—McAfee the musician also meets listeners right where they are. Though the former NFL player has claimed that the album he released earlier this month was culled from 20 years of songwriting in private, it is music perfectly matched to the sound of the moment: a congealed country-trap, with skittering snares, gospel touches and autotuned vocals—the soundtrack of Reels America.\nSharp critics have tried to understand the genesis of this ubiquitous new genre, but thinking too hard about it makes me feel ill. I tend to see it as the algorithmic stream carving out the path of least resistance. It's music that does barely anything for anybody, but harmlessly rolls off everybody, and can be played anywhere across the land. It's the sound of getting heat stroke on someone's rented boat. It's the reason you know Jelly Roll as anything but a bakery treat. It's the music that's on in your pickup truck, but also at the pump where you stopped to get gas, and again inside the convenience store you entered to restock on Zyn, and then again as you resume driving on the interstate while swiping through short-form vertical video and betting the spread.",
+          "link": "https://defector.com/pat-mcafee-music-review-frequently-red-faced-sleeveless-baby",
+          "publishedOn": "2026-08-27T14:09:20.000Z",
+          "wordCount": 6759,
+          "title": "I Played Pat McAfee’s Album For Another Frequently Red-Faced, Sleeveless Baby",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-1742993352-e1787753385715.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=233570",
+          "author": "Mitch Therieau",
+          "description": "California: Perhaps you’ve heard of it? It is the edge of the continent, it is the apocalypse state, and it is the subject of many songs by the Red Hot Chili Peppers, though fewer than you might think. \nCalifornia is one of Californian rock bands’ favorite things to sing about. The dreamy surface and its seedy underbelly, the all-consuming city and the bone-dry wastes of the valley, the homeless encampment outside the library-themed cocktail bar that is decorated with fake books: This is good material for rock music. See “Welcome to the Jungle”; see “California Uber Alles.” Even the songs that are supposed to highlight the sunny side end up saying something about the shitty side, if sometimes unintentionally. The sighing minor chords in Scott McKenzie’s “San Francisco” make the flower-power anthem sound a little like a funeral dirge for an already vanishing age, or like the song has a bad conscience about selling a dream it suspects might be false. Phantom Planet’s “California,” the theme song for The O.C., repeats its chorus—“California, here we coooooooooooooooome”—so many times that it starts to sound a little desperate, as though the band is trying to convince itself that the trip will be worthwhile. When you’re away, California evanesces into fantasy; when you’re there, you remember that it’s just a place.\nThere is a special insularity to a lot of Californian music. California, the mythic land of cults and communes, perfected the art of rock-as-subculture. No region, with the possible exception of Manchester, has produced a higher volume of what I’ve taken to calling \"You had to be there\" bands. The biggest two are the Bay Area’s Grateful Dead and L.A.’s Black Flag.",
+          "link": "https://defector.com/the-red-hot-chili-peppers-beyond-good-and-evil",
+          "publishedOn": "2026-08-27T13:47:05.000Z",
+          "wordCount": 12590,
+          "title": "The Red Hot Chili Peppers Beyond Good And Evil",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2196891408.jpg"
+        },
         {
           "id": "https://defector.com/?p=233538",
           "author": "Ray Ratto",
@@ -1195,16 +1305,6 @@
           "wordCount": 1558,
           "title": "Hump Day Hottie: Sydney Sweeney",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=2914",
-          "author": "Schill",
-          "description": "Horror movies often prey on familiar fears, transforming everyday places and trusted figures into sources of terror. Few films embraced",
-          "link": "https://stuffthatinterestsme.net/troma-tuesday-maniac-cop/",
-          "publishedOn": "2026-08-18T00:02:58.000Z",
-          "wordCount": 2919,
-          "title": "Troma Tuesday: Maniac Cop",
-          "imageUrl": null
         }
       ]
     },
@@ -1862,6 +1962,26 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73545037/guillotine-supreme-court-jeanine-pirro/",
+          "author": null,
+          "description": "You’re telling me that U.S. Attorney Jeanine Pirro’s crack prosecutors couldn’t even get remand on this dude?",
+          "link": "https://www.esquire.com/news-politics/politics/a73545037/guillotine-supreme-court-jeanine-pirro/",
+          "publishedOn": "2026-08-27T17:25:41.000Z",
+          "wordCount": 18339,
+          "title": "A Guy Brought a Freakin’ Guillotine to the Supreme Court Building and Somehow Wasn’t Locked up for It",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/dd1ec00f-4b4e-4dfc-a6fa-b46eebc295fd.jpeg?crop=1xw:0.75xh;0xw,0.056xh&resize=1200:*"
+        },
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73543768/south-carolina-massachusetts-rankings-darline-graham/",
+          "author": null,
+          "description": "Allow me to break down our respective states by the numbers.",
+          "link": "https://www.esquire.com/news-politics/politics/a73543768/south-carolina-massachusetts-rankings-darline-graham/",
+          "publishedOn": "2026-08-27T15:27:05.000Z",
+          "wordCount": 17842,
+          "title": "South Carolina’s Darline Graham Took a Cheap Shot at Massachusetts. Here’s My Reply.",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/dbe7f18e-9510-4321-8a68-3c1bb14667a1.jpeg?crop=1xw:0.75xh;0xw,0.088xh&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73535172/trump-kennedy-center-lake-ontario/",
           "author": null,
           "description": "He can’t seem to let go of the damn Kennedy Center, can he?",
@@ -2365,6 +2485,16 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html",
+          "author": null,
+          "description": "Lots of organizations are excited about what AI can do to streamline\n      their processes, save money, and juice margins. But AI's capabilities are\n      founded on the data that AI accesses, and for many organizations that\n      foundation is little more than sand. Pramod Sadalage and\n      Prem Chandrasekaran write about how to build a reliable\n      foundation of data that can be accurate and trusted.\nmore…",
+          "link": "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html",
+          "publishedOn": "2026-08-27T13:11:00.000Z",
+          "wordCount": 10079,
+          "title": "Making Your Data Ready for Agentic AI",
+          "imageUrl": "https://martinfowler.com/articles/making-data-ready-for-agentic-ai/card.png"
+        },
+        {
           "id": "https://martinfowler.com/fragments/2026-08-24.html",
           "author": null,
           "description": "I was listening to Ezra Klein’s interview with Helen Toner about the recent OpenAI hack of Hugging Face and the subsequent discovery that there were swarms of agents inside OpenAI doing unsanctioned activities. One of the points Klein made was that at no point did any of these (thousands of?) agents ever try to check in with a human\n[Klein:] So these message boards — you have however many A.I. agents posting hundreds of thousands of messages. At no point do they say: Hey, researchers, programmers, parents at OpenAI, Anthropic — do you want us coordinating with each other on this message board we have created in the innards of your systems?\n[Toner:] Or even F.Y.I., we have a message board we’re coordinating on in the innards of your system.\nListening to that, another thing occurred to me - …",
@@ -2602,6 +2732,22 @@
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/jailed-ice-agent-wanted-in-minnesota",
+          "author": "David Kurtz",
+          "description": "INSIDE: Greg Abbott ... Christian Castro ... LaMonica McIver",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/jailed-ice-agent-wanted-in-minnesota",
+          "publishedOn": "2026-08-27T15:22:35.000Z",
+          "wordCount": null,
+          "title": "Jailed ICE Agent Wanted in Minnesota Released in Texas",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!-iUo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e5fb037-7645-4242-8696-c73d48f40570_400x600.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!-iUo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e5fb037-7645-4242-8696-c73d48f40570_400x600.jpeg"
+        },
+        {
           "id": "https://morningmemo.talkingpointsmemo.com/p/this-may-be-the-worst-wrongful-deportation",
           "author": "David Kurtz",
           "description": "INSIDE: Greg Abbott ... Sigal Chattah ... Dolly Parton",
@@ -2815,22 +2961,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!zgpJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff05dbb65-cf57-4729-8b43-85cdd10b360f_1600x1200.png"
-        },
-        {
-          "id": "https://wherethingsstand.talkingpointsmemo.com/p/blanche-hints-trump-admin-might-try",
-          "author": "Nicole Lafond",
-          "description": "This is your TPM evening briefing.",
-          "link": "https://wherethingsstand.talkingpointsmemo.com/p/blanche-hints-trump-admin-might-try",
-          "publishedOn": "2026-08-17T21:41:41.000Z",
-          "wordCount": null,
-          "title": "Blanche Hints Trump Admin Might Try to Take Voter Roll Fight to SCOTUS",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!r2RR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5108d32-6716-4351-8dce-91e48602f2bb_1600x1200.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!r2RR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5108d32-6716-4351-8dce-91e48602f2bb_1600x1200.png"
         }
       ]
     },
@@ -2839,6 +2969,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/worst-person-in-the-world-makes-dolly",
+          "author": "Jeff Tiedrich",
+          "description": "shut the fuck up, Piggy",
+          "link": "https://www.jefftiedrich.com/p/worst-person-in-the-world-makes-dolly",
+          "publishedOn": "2026-08-27T14:33:30.000Z",
+          "wordCount": null,
+          "title": "worst person in the world makes Dolly Parton’s death all about himself",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!bY7-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F909a7382-b372-4d44-8b4a-d656985a12ef_1536x864.webp",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!bY7-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F909a7382-b372-4d44-8b4a-d656985a12ef_1536x864.webp"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/canada-has-broken-whats-left-of-donnys",
           "author": "Jeff Tiedrich",
