@@ -41,16 +41,6 @@
           "wordCount": 283,
           "title": "For fun, I thought I'd revisit  baty.blog",
           "imageUrl": "https://baty.net/img/opengraph.jpg"
-        },
-        {
-          "id": "https://baty.net/journal/18Aug26/",
-          "author": null,
-          "description": "Self-portrait / Rolleiflex 2.8D\nSTATUS: Getting rid of something every day feels really good\nTODO: Decide about moving the external drives back to Linux\nREADING: \"Platform Decay\" by Martha Wells (Murderbot!)\nLISTENING: Everything by Zeal and Ardor\nI had a todo on my list for canceling my MagicPages subscription, so I went to do that. Seeing the Ghost version of this site running my custom theme gave me second thoughts. Remember how easy posting was with Ghost? Remember the comments, newsletters, and ActivityPub features? I caught myself before becoming too enamored with the idea, and canceled. If you use Ghost, MagicPages is a great service for hosting.\nMy writing isn't very good. I know that. It's probably because I don't worry much about how good it is. I just write, you know? One thing, though, is that I'm kind of proud that not a single word is generated using an LLM. What would be the point of doing that?\n✍️ Reply by email",
-          "link": "https://baty.net/journal/18Aug26/",
-          "publishedOn": "2026-08-18T09:50:36.000Z",
-          "wordCount": 227,
-          "title": "Tuesday, August 18, 2026",
-          "imageUrl": "https://baty.net/img/2026/20260818-alice-and-me.webp"
         }
       ]
     },
@@ -59,6 +49,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://chrismaiorana.com/dont-go-bankrupt-go-local/",
+          "author": null,
+          "description": "I saw an amusing Reddit post recently with an Emacs user thinking about declaring “Emacs bankruptcy” with a config file falling in the 800-900 line range. \n Many users in the replies were happy to point out that even 10-12K lines is nothing if you understand what’s going on, and it’s well-documented. \n This reminded me of something I’ve been experimenting with lately.  Instead of updating my config, I’m trying out directory-local variables per project. \n Having local configurations in a project avoids the extra cogitation of worrying about conflicts with other file types or projects down the line.  I like this.  Also makes settings easier to transfer to a similar project in the future. \nTable of Contents\nManage multiple project settings with ease\nWhat’s in the dir-locals.el file?\nHow to ke…",
+          "link": "https://chrismaiorana.com/dont-go-bankrupt-go-local/",
+          "publishedOn": "2026-08-27T19:32:08.000Z",
+          "wordCount": 1587,
+          "title": "Chris Maiorana: Don’t go bankrupt, go local",
+          "imageUrl": "https://chrismaiorana.com/wp-content/uploads/2026/08/emacs-dir-local.jpg"
+        },
         {
           "id": "https://www.chiply.dev/post-hyperbole-hyrolo",
           "author": null,
@@ -398,16 +398,6 @@
           "wordCount": 350,
           "title": "Charles Choi: Simplifying Setup for Casual",
           "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
-        },
-        {
-          "id": "https://irreal.org/blog/?p=14021",
-          "author": null,
-          "description": "announce the release of Emacs 31.1 RC1. This is the final step before the formal release of the Emacs 31 series. Whitton remarks that the developers are hoping that RC1 will be the only release candidate. I take that as a measure of their confidence in this trial release. Unless any breaking problems pop up, we can expect the official release of 31.1 imminently.\n\n\nAs always, we should offer up a word of thanks for the hard work of the maintainers and all the developers who have toiled so hard to bring us this latest release. If we find ourselves in the same bar as one of them, the drinks are on us.",
-          "link": "https://irreal.org/blog/?p=14021",
-          "publishedOn": "2026-08-18T15:05:43.000Z",
-          "wordCount": 1355,
-          "title": "Irreal: Emacs 31.1 RC1",
-          "imageUrl": null
         }
       ]
     },
@@ -416,6 +406,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=233683",
+          "author": "David Roth",
+          "description": "Generally you would not want to use a word like \"catharsis\" in relation to a podcast. That is just not what they are for, in my opinion, and it's not really in my range as a podcast co-host or guest to deliver that sort of experience. While last week's episode announcing the end of The Distraction was decently cathartic for me, that was never the point. Of course the final episode of the podcast would be significant for us, and inevitably include a decent amount of Looking Back At All We've Accomplished and such, but part of the reason we invited original co-host Tim Marchman back was to get back to basics before slipping the surly bonds forever. You already know what that means: free association, good-natured muttering, and heated takes about radishes. It's not catharsis; it's something much dumber and more powerful than that.\nWe got the nostalgia stuff out of the way in the first half of the episode, although there was still plenty of vintage nonsense in there between our precious memories of embarrassing moments, famous guests, barking dogs, and the janky prehistory of the podcast during its decade of neglect under our former corporate parents. We swapped stories about our encounters with a leather-encased Buzz Bissinger, and remembrances of Tim Curry, including both his escape to the one place that isn't corrupted by capitalism (space) and his legendary movie-demon performance. We also talked about the unfortunate impact that extended periods of podcasting can have on one's professional legacy and self-image, remembered Chris Bosh getting yoinked off his podcast appearance before things got too stupid, and addressed the Toilet Sandwich Question one last time. If you remember me at all, I hope it will be as I described myself in this segment.",
+          "link": "https://defector.com/just-a-minute-more-with-tim-marchman",
+          "publishedOn": "2026-08-27T19:19:12.000Z",
+          "wordCount": 5953,
+          "title": "Just A Minute More, With Tim Marchman",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-1192789955.jpg"
+        },
         {
           "id": "https://defector.com/?p=233703",
           "author": "Abigail Segel",
@@ -1115,26 +1115,6 @@
           "wordCount": 14591,
           "title": "What Is The Greatest TV House Of All Time?",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2276263129.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=232670",
-          "author": "Tom Ley",
-          "description": "Some transphobic dickheads were again wearing XX-XY shirts at Sunday's game between the Indiana Fever and Atlanta Dream. Everyone knows what the XX-XY shirt—a truly ugly piece of merchandise made by a brand that raises money for organizations that seek to strip trans people of their rights—means when worn in public. It tells everyone that the person wearing it sees trans people not as human beings, but as targets whose very existence must be protested. It is one of the oldest and most basic forms of bigotry, the equivalent of a big sign reading, \"Trans people not welcome.\"\nA league security staffer who was working the Dream game on Sunday asked the unfashionable bigots to cover their shirts, for the same reason they might ask a fan sporting the Confederate Stars and Bars to vacate the damn premises: The shirts are meant to target a specific group and make them feel unwelcome in the arena. The WNBA, however, could not abide one of its employees making this reasonable and necessary demand, and on Monday released a statement saying that the security staffer should not have asked for the shirts to be covered:\nThe WNBA is aware of interactions at last night's game in Atlanta in which fans were asked by league security to cover their shirts. This should not have happened.",
-          "link": "https://defector.com/atlanta-dream-and-wnba-embrace-anti-trans-losers",
-          "publishedOn": "2026-08-18T13:59:32.000Z",
-          "wordCount": 5182,
-          "title": "Atlanta Dream And WNBA Embrace Anti-Trans Losers",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2283451422.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=232573",
-          "author": "Mychal Denzel Smith",
-          "description": "In November 2018, 29-year-old Representative-elect Alexandria Ocasio-Cortez joined a group of 200 youth activists associated with the Sunrise Movement as they staged a protest at the office of then-House Minority Leader Nancy Pelosi. They were there to urge Democratic leadership to act more quickly on issues of climate change. The period between the election and swearing-in is normally when a newly elected legislator would be getting to know their future colleagues and angling for a good committee assignment. But there was Ocasio-Cortez, the improbable candidate, the member of Democratic Socialists of America who took no corporate donor money and had no major endorsements but still managed to unseat the 10-term incumbent Joe Crowley, shaking the table before taking her oath of office, aligning herself more with the activists than the politicians.\nOcasio-Cortez's win—along with those of Rashida Tlaib in Michigan, Ilhan Omar in Minnesota, and Ayanna Pressley in Massachusetts—served as a warning shot to establishment Democrats about the growing discontent with the party, especially among younger voters who yearned to see the party grow more progressive as the threats of climate disaster, student loan and healthcare debt, billionaire wealth hoarding, police violence, and MAGA Republicans loomed ever larger and put into question what kind of future they would be inheriting. \nEarlier this month during an interview on ABC’s This Week, 36-year-old Rep. Alexandria Ocasio-Cortez, now one of the country's most popular Democrats, who seems to be eyeing either a presidential or Senate run, was presented with a headline from The Hill which read: “Today's cautious AOC would not have endorsed the AOC of 2018.”",
-          "link": "https://defector.com/the-crazy-thing-about-woke-1-was-how-it-was-exploited",
-          "publishedOn": "2026-08-18T13:04:23.000Z",
-          "wordCount": 9610,
-          "title": "The Crazy Thing About “Woke 1” Was How It Was Exploited",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-1249837658_50-e1786989510208.jpg"
         }
       ]
     },
@@ -1166,6 +1146,26 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3264",
+          "author": "Schill",
+          "description": "The 1990s are often remembered for flannel shirts, grunge guitars, and alternative rock bands that embraced darker, more introspective sounds.",
+          "link": "https://stuffthatinterestsme.net/forgotten-band-spacehog-2/",
+          "publishedOn": "2026-08-28T03:17:06.000Z",
+          "wordCount": 2617,
+          "title": "Forgotten Band: Spacehog",
+          "imageUrl": null
+        },
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3247",
+          "author": "Schill",
+          "description": "Among the thousands of concerts Phish has performed, only a handful have achieved truly mythical status. One of the",
+          "link": "https://stuffthatinterestsme.net/phriday-phistory-gamehoist-show-6-26-94/",
+          "publishedOn": "2026-08-28T03:01:46.000Z",
+          "wordCount": 1989,
+          "title": "Phriday Phistory: GameHoist Show 6/26/94",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3409",
           "author": "Schill",
@@ -1312,18 +1312,7 @@
       "title": "Time Is Illmatic",
       "feedUrl": "https://timeisillmatic.me/feed/",
       "siteUrl": "https://timeisillmatic.me",
-      "articles": [
-        {
-          "id": "http://timeisillmatic.me/?p=13367",
-          "author": "deedub77",
-          "description": "Finally, we’ve made it through 1997! This is my final ’97 album review, but I plan on posting the best and worst of the year in the next few weeks. I hope you enjoy the read, and thanks for time … Continue reading →",
-          "link": "https://timeisillmatic.me/2026/08/18/various-artists-soundbombing-october-14-1997/",
-          "publishedOn": "2026-08-18T11:00:12.000Z",
-          "wordCount": 5897,
-          "title": "Various Artists – Soundbombing (October 14, 1997)",
-          "imageUrl": "https://timeisillmatic.me/wp-content/uploads/2026/08/soundbombing.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Amanda Marcotte - Salon.com",
@@ -1962,6 +1951,16 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73545368/ice-officer-greg-abbott-minnesotta-decision/",
+          "author": null,
+          "description": "An officer shot someone and likely lied about the circumstances of the shooting but isn’t going to face punishment? Only in America.",
+          "link": "https://www.esquire.com/news-politics/politics/a73545368/ice-officer-greg-abbott-minnesotta-decision/",
+          "publishedOn": "2026-08-27T19:37:40.000Z",
+          "wordCount": 22717,
+          "title": "A Federal Decision Just Left the Door Wide Open for ICE Agents to Do Whatever They Want Without Consequences",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/85973caa-3aa4-4630-a87c-1b40a73ca4c5.jpeg?crop=1xw:0.75xh;0xw,0.154xh&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73545037/guillotine-supreme-court-jeanine-pirro/",
           "author": null,
           "description": "You’re telling me that U.S. Attorney Jeanine Pirro’s crack prosecutors couldn’t even get remand on this dude?",
@@ -2140,16 +2139,6 @@
           "wordCount": 29249,
           "title": "Pittsburgh Might Just Be the Most Dynamic City in America",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/fb7a9a2c-1ab9-4074-8f1f-7e34c8ebe69f.jpeg?crop=1xw:0.75xh;0xw,0.204xh&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73463880/jon-ossoff-speech-natalie-trump-gop-reaction/",
-          "author": null,
-          "description": "During a recent speech, the George senator made one tiny mention of Trump’s favorite White House aide, and it clearly hit close to home",
-          "link": "https://www.esquire.com/news-politics/politics/a73463880/jon-ossoff-speech-natalie-trump-gop-reaction/",
-          "publishedOn": "2026-08-18T16:01:17.000Z",
-          "wordCount": 20451,
-          "title": "The MAGA Horde Accusing Jon Ossoff of  Sexism is a Bit Too on the Nose for Me",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/aa412c68-2bf3-46b7-9f54-06271928cfe4.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
         }
       ]
     },
@@ -2443,22 +2432,6 @@
             "type": "audio/mpeg"
           },
           "imageUrl": null
-        },
-        {
-          "id": "https://www.flowstate.fm/p/flow-state-episode-339",
-          "author": "Flow State",
-          "description": "Today’s mix opens with new ambient music from TUAWKI, Christopher Willits, Lara Somogyi & Rob Moose, and Cole Pulice.",
-          "link": "https://www.flowstate.fm/p/flow-state-episode-339",
-          "publishedOn": "2026-08-18T07:02:36.000Z",
-          "wordCount": null,
-          "title": "Flow State Episode 339",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://api.substack.com/feed/podcast/211662055/0ef225af30e2b7e409f815db5b8ff921.mp3",
-            "length": "0",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
@@ -2523,16 +2496,6 @@
           "wordCount": 1633,
           "title": "Practitioner Voice: The Writing Category Nobody has Named Yet",
           "imageUrl": "https://martinfowler.com/logo-sq.png"
-        },
-        {
-          "id": "https://martinfowler.com/fragments/2026-08-18.html",
-          "author": null,
-          "description": "Part of the reason why I’m at Thoughtworks is because I’d like to see a software development organization founded on technical excellence as an example for the rest of the industry. The trouble is that I have little aptitude or inclination for the hard work of building such an organization. So I rely on working with people who are prepared to actually put the effort in. A key partner in all of this is Rachel Laycock, who is the global CTO of Thoughtworks.\nNot just is she far better than me at running a technology organization, she’s also a keen observer and connector of ideas. I’ve been urging her to write these down, even if her busy schedule makes it difficult for her to compose them into something substantial.\nHappily she’s starting writing “Rachel’s Ramblings”\nFast, imperfect, thinking…",
-          "link": "https://martinfowler.com/fragments/2026-08-18.html",
-          "publishedOn": "2026-08-18T15:04:00.000Z",
-          "wordCount": 1872,
-          "title": "Fragments: August 18",
-          "imageUrl": "https://martinfowler.com/logo-sq.png"
         }
       ]
     },
@@ -2596,16 +2559,6 @@
           "wordCount": 6080,
           "title": "The spirit of giving",
           "imageUrl": "https://gomakethings.com/img/og.png"
-        },
-        {
-          "id": "https://gomakethings.com/articles/propaganda/",
-          "author": null,
-          "description": "The album Let’s Get Free by Dead Prez came out 26 years ago.\nAs a teen, it spoke to my angst. As a whole ass adult, its wild to look back on it and realize just how much nuance and bigger picture I missed in their lyrics.\nYesterday, their song “Propaganda” came on a random playlist I was listening to…\n  You can’t fool all the people all of the time",
-          "link": "https://gomakethings.com/articles/propaganda/",
-          "publishedOn": "2026-08-18T14:30:00.000Z",
-          "wordCount": 6102,
-          "title": "Propaganda",
-          "imageUrl": "https://gomakethings.com/img/og.png"
         }
       ]
     },
@@ -2614,6 +2567,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1556183",
+          "author": "Josh Marshall",
+          "description": "This is a touch meta. But indulge me because I think it could have real world effects. When real world...",
+          "link": "https://talkingpointsmemo.com/edblog/donald-trump-wants-to-get-to-the-bottom-of-who-screwed-up-the-midterms",
+          "publishedOn": "2026-08-27T21:39:41.000Z",
+          "wordCount": 1821,
+          "title": "Donald Trump Wants to Get to the Bottom of Who Screwed Up the Midterms",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/trump-hot-dog-suit.jpg?w=1200"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1556007",
           "author": "Josh Marshall",
@@ -2842,22 +2805,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!361H!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc048256e-47af-4ad8-bd17-27b8bae4534a_400x600.jpeg"
-        },
-        {
-          "id": "https://morningmemo.talkingpointsmemo.com/p/appeals-court-blocks-trump-scheme",
-          "author": "David Kurtz",
-          "description": "INSIDE: Sigal Chattah ... Stephen Miller ... Tina Peters",
-          "link": "https://morningmemo.talkingpointsmemo.com/p/appeals-court-blocks-trump-scheme",
-          "publishedOn": "2026-08-18T15:38:59.000Z",
-          "wordCount": null,
-          "title": "Appeals Court Blocks Trump Scheme on US Attorneys",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!pv_7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86464735-49ae-4471-8c9e-46ef9ed554f2_400x600.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!pv_7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86464735-49ae-4471-8c9e-46ef9ed554f2_400x600.jpeg"
         }
       ]
     },
@@ -2866,6 +2813,22 @@
       "feedUrl": "https://wherethingsstand.talkingpointsmemo.com/feed",
       "siteUrl": "https://wherethingsstand.talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://wherethingsstand.talkingpointsmemo.com/p/maybe-trumps-fraud-czar-should-be",
+          "author": "Nicole Lafond",
+          "description": "This is your TPM evening briefing.",
+          "link": "https://wherethingsstand.talkingpointsmemo.com/p/maybe-trumps-fraud-czar-should-be",
+          "publishedOn": "2026-08-27T21:41:31.000Z",
+          "wordCount": null,
+          "title": "Maybe Trump’s Fraud Czar Should Be Looking at Florida",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!lDJV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F777eea37-e393-470f-ac28-3b4f149bf653_1600x1200.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!lDJV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F777eea37-e393-470f-ac28-3b4f149bf653_1600x1200.png"
+        },
         {
           "id": "https://wherethingsstand.talkingpointsmemo.com/p/maine-gop-gov-nominee-tests-whether",
           "author": "Nicole Lafond",
@@ -3112,22 +3075,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!plXU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc51555b8-f9c6-4207-a7a9-1ffc1961888d_1200x630.webp"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/jon-ossoff-mentioned-diaper-nurse",
-          "author": "Jeff Tiedrich",
-          "description": "scenes from a performative meltdown",
-          "link": "https://www.jefftiedrich.com/p/jon-ossoff-mentioned-diaper-nurse",
-          "publishedOn": "2026-08-18T14:39:06.000Z",
-          "wordCount": null,
-          "title": "Jon Ossoff mentioned diaper nurse Natalie, and every Republican completely lost their shit",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!Xoqx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ae0e864-91f4-493c-9796-69ed876fa622_1456x819.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!Xoqx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ae0e864-91f4-493c-9796-69ed876fa622_1456x819.jpeg"
         }
       ]
     }
