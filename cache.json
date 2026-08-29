@@ -21,7 +21,18 @@
       "title": "baty.net",
       "feedUrl": "https://baty.net/index.xml",
       "siteUrl": "https://baty.net/index.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://baty.net/journal/29Aug26/",
+          "author": null,
+          "description": "Hey. It's been a spell since I've posted here. I'm currently infatuated with Pure Blog running at baty.blog, but I wanted to test my Emacs->11ty->VPS deployment on the newly-restored 2015 Thinkpad. If you're reading this, it worked.\n✍️ Reply by email",
+          "link": "https://baty.net/journal/29Aug26/",
+          "publishedOn": "2026-08-29T23:00:22.000Z",
+          "wordCount": 105,
+          "title": "Saturday, August 29, 2026",
+          "imageUrl": "https://baty.net/img/opengraph.jpg"
+        }
+      ]
     },
     {
       "title": "Planet Emacslife",
@@ -1153,6 +1164,16 @@
       "siteUrl": "https://www.reddit.com/r/DepthHub/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/DepthHub/comments/1w1xm8l/a_careful_selfcorrecting_essay_on_quantum/",
+          "author": null,
+          "description": "Posting this because it does something science writing rarely does well: it ranks its own evidence, steelmans the rival theory, admits what has not yet been demonstrated, and still lands a substantive claim without overreaching. The four-tier evidence structure (strong / strong-and-persuasive / suggestive / missing) is worth the read on its own as an example of how to write about underdetermined science honestly.\n The essay covers: the radical pair mechanism, the Mouritsen group's radio-frequency disruption experiments, the magnetite rival hypothesis and where its evidence has failed, Bell's theorem and what the 1972 Clauser–Freedman result actually settled, and the closing argument that quantum indeterminacy may be a biological resource rather than a nuisance to be engineered around.\n Ends with a line I've been thinking about for a week: \"The strangest thing available to us this week is a bird the size of a fist, sitting in a hedge, quietly doing something with the structure of reality that we have not finished explaining.\"\n    submitted by    /u/no3us  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DepthHub/comments/1w1xm8l/a_careful_selfcorrecting_essay_on_quantum/",
+          "publishedOn": "2026-08-29T20:48:18.000Z",
+          "wordCount": null,
+          "title": "A careful, self-correcting essay on quantum coherence in bird navigation — what's actually known, what isn't, and why the philosophical implications are stranger than the usual writeup",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/DepthHub/comments/1w1pmpo/ufordmister_explains_the_reasoning_behind_125/",
           "author": null,
           "description": "submitted by    /u/JohnSith  \n [link]   [comments]",
@@ -1168,24 +1189,33 @@
       "title": "alexwlchan",
       "feedUrl": "https://alexwlchan.net/atom.xml",
       "siteUrl": "https://alexwlchan.net/",
-      "articles": [
-        {
-          "id": "https://alexwlchan.net/2026/cat-confusion/",
-          "author": null,
-          "description": "To combine archives safely, I had to start by understanding the `tar` and `gzip` file formats. I learnt about tape drives, patent laws, and end-of-file markers.",
-          "link": "https://alexwlchan.net/2026/cat-confusion/",
-          "publishedOn": "2026-08-20T09:49:28.000Z",
-          "wordCount": 1217,
-          "title": "Why can’t you combine <code>.tar.gz</code> files with <code>cat</code>?",
-          "imageUrl": "https://alexwlchan.net/images/cards/2026/cat-confusion.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Stuff That Interests Me",
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3711",
+          "author": "Schill",
+          "description": "G.G. Allin was never interested in being a normal rock star. While most punk musicians built their reputations by rejecting",
+          "link": "https://stuffthatinterestsme.net/g-g-allin-the-most-notorious-punk-rocker-who-ever-lived/",
+          "publishedOn": "2026-08-29T22:52:54.000Z",
+          "wordCount": 2614,
+          "title": "G.G. Allin: The Most Notorious Punk Rocker Who Ever Lived",
+          "imageUrl": null
+        },
+        {
+          "id": "https://stuffthatinterestsme.net/?p=2946",
+          "author": "Schill",
+          "description": "The Bangles – “Manic Monday”: The Prince-Penned Hit That Became an ’80s Pop Classic Few songs capture the universal feeling",
+          "link": "https://stuffthatinterestsme.net/saturday-night-80s-jam-the-bangles-manic-monday/",
+          "publishedOn": "2026-08-29T20:58:32.000Z",
+          "wordCount": 2659,
+          "title": "Saturday Night 80s Jam: The Bangles – Manic Monday",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3704",
           "author": "Schill",
