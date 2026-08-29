@@ -29,6 +29,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.jamescherti.com/emacs-dired-configuration/",
+          "author": null,
+          "description": "This article presents a set of Emacs Dired configuration changes to enhance file management. The configurations sort directories before files for easier navigation, hide dotfiles, reduce unnecessary confirmation prompts, prevent UI lockups caused by network latency, among other improvements. Each configuration explains the behavior of the relevant setting, its benefits, and its tradeoffs, making it easier to determine which changes are appropriate.\nKeeping Dired clean by hiding dotfiles\nUsing dired-omit-mode helps hide hidden files and directories, such as .git or .DS_Store, by applying a specific regular expression. The tradeoff is that required configuration files are hidden by default, forcing you to toggle dired-omit-mode off to see them. Disabling dired-omit-verbose prevents the mode …",
+          "link": "https://www.jamescherti.com/emacs-dired-configuration/",
+          "publishedOn": "2026-08-29T15:45:17.000Z",
+          "wordCount": 3096,
+          "title": "James Cherti: Fixing Emacs Dired Defaults: 13 Settings for Better File Management",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=14046",
           "author": null,
           "description": "well shuffled card decks: no two are alike. But, as Arlo Guthrie famously sang, that’s “not what I came to tell you about”. Rather, this post is about differing organizations for those Emacs configurations.\n\n\nThe idea was suggested to me by a post from Andros Fenollosa on his own Emacs configuration. Fenollosa says that he doesn’t use any of the all-in-one configurations like Spacemacs or Doom because they include too much and are hard to understand and make changes to. He also doesn’t use the popular literate configuration method using Org mode because it’s just another layer of complexity that can go wrong.\n\n\nHis idea is to to have a separate file for each “area of responsibility” and to use init.el as a sort of index that loads them in order. I like that idea but don’t use separate files. I keep everything in init.el and just organize it in sections.\n\n\nStill, Fenollosa has a good argument for the separate files but I think I get the same benefits with a single file broken into sections. Actually, it’s not quite true that everything is in a single file. I run Emacs on several type of systems and keep the system/OS specific information in separate files that I load conditionally based on the system and OS type1. That way I don’t have a lot of conditionals dealing with system/OS type in init.el itself.\n\n\nThere aren’t as many ways of organizing your Emacs configuration as there are configurations but there are a lot of them. What principle do you use?\n\n\nFootnotes: \n1 \n\n\n\nIf you’re interested, here’s the code:\n\n\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;\n;; Pull in system and platform specific configurations                    ;;\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;\n\n;; Just keep on going if the requisite file isn't there.\n;; Manipulations in second load is for \"gnu/linux\" → \"linux\"\n\n(load (car (split-string (system-name) \"\\\\.\")) t)\n(load (car (reverse (split-string (symbol-name system-type) \"/\"))) t)",
@@ -1407,6 +1417,56 @@
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
         {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/07/28/the-odyssey-movie-box-office-accuracy/91077633007/-full",
+          "author": "Rex Huppke",
+          "description": "Like most normal, well-adjusted men, I have spent every waking moment since Christopher Nolan’s “The Odyssey” opened in theaters feeling apoplectically angry about Christopher Nolan’s “The Odyssey.”\nI have rage-posted online, noting that by casting people who are different than me, the director ruined a beloved epic poem I never actually read. I have blamed wokeness for creating a world in which an ancient work of absolute fiction can be sullied by what I, making perfect sense, angrily claim to be historical inaccuracies. \nYet despite all my productive and intellectual online shouting, the movie has made $652 million worldwide since its July 17 release. And even more frustratingly, I’m still single.\nI'm mad that a fictional movie is historically inaccurate\n\nI struggle to understand these d…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/07/28/the-odyssey-movie-box-office-accuracy/91077633007/",
+          "publishedOn": "2026-08-29T20:25:35.913Z",
+          "wordCount": 3800,
+          "title": "I'm so mad that a fictional movie is historically inaccurateRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/08/USAT/90845791007-ct-03414.jpg?crop=2298,1293,x406,y280&width=2298&height=1293&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/07/iran-missiles-trump-munitions-shortage/91199404007/-full",
+          "author": "Rex Huppke",
+          "description": "As America continues its on-again/off-again/on-again war with Iran – the one that has cost close to $40 billion and seems to be accomplishing nothing – there are widespread reports we’re running low on missiles and other things that go boom.\nMultiple sources told CNN: “The US military has exhausted nearly 80% of its interceptors for a key missile defense system as senior US military commanders are warning that the Pentagon’s munitions stockpile is ‘dangerously low.’ ”\nThe New York Times reported that “the war against Iran drained the Pentagon’s arsenal. The United States burned through around 1,100 long-range stealth cruise missiles built for a war with China, close to the total number remaining in the U.S. stockpile. The military has fired more than 1,000 Tomahawk cruise missiles, roughly…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/07/iran-missiles-trump-munitions-shortage/91199404007/",
+          "publishedOn": "2026-08-29T20:25:35.890Z",
+          "wordCount": 4495,
+          "title": "No munitions? No prob! Let's lob Reflecting Pool liner at Iran instead.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/30/USAT/91106408007-20260730-t-103635-z-958657427-rc-27-omawqqqd-rtrmadp-3-irancrisis.JPG?crop=5499,3093,x0,y550&width=3200&height=1800&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/09/republican-definition-extremism-democratic-socialist/91197531007/-full",
+          "author": "Rex Huppke",
+          "description": "Between now and the midterm elections, and probably well beyond that, you’ll hear endless chatter about “Democratic extremism,” and it will be Hilarious with a capital “H,” because it will all come from the mouths of Republicans.\n“The Democrats want to destroy America!” they’ll holler. \n“The Democrats are all socialists!” they’ll rail, unable to define socialism if their lives depended on it.\n“No, better yet,” they’ll scream, veins bulging in their furrowed brows, “the Democrats are COMMUNISTS!!”\nOh my, the horror! Someone pull up my fainting chair, I seem to have caught the vapors!\nThe party pushing 'Democratic extremism' needs to look in the mirror\n\nLet’s put this nonsensical rhetoric to bed right now. Republicans have spent the past decade worshiping the most extreme president in our na…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/09/republican-definition-extremism-democratic-socialist/91197531007/",
+          "publishedOn": "2026-08-29T20:25:35.877Z",
+          "wordCount": 4925,
+          "title": "Just how extreme are Republicans? Let us count the ways.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/07/USAT/91215367007-20260807-t-100036-z-1816052627-rc-2-nsmaf-54-wt-rtrmadp-3-usaelectionjustice.JPG?crop=6499,3655,x0,y0&width=3200&height=1800&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/07/30/trump-approval-rating-polling-record-low/91096762007/-full",
+          "author": "Rex Huppke",
+          "description": "It seems Donald Trump would make a better plumber than a president – his poll numbers are so far down the toilet they’re touching porcelain.\nIn a wave of new polling showing the width and breadth of Trump’s unpopularity, a Quinnipiac University national poll released July 29 found Trump with a 32% approval rating, an all-time low from that particular pollster.\nEarlier that same day, CNN reported on a new CNN/SSRS poll, noting: “Trump’s overall approval rating, 34%, matches the career low he last saw at the close of his first term, following the January 6, 2021, insurrection.”\nDo you know how bad things have to be for you to hit an “as bad as that time I fomented an insurrection” level of disapproval? Trump didn’t even need to coax his followers into ransacking the U.S. Capitol this time ar…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/07/30/trump-approval-rating-polling-record-low/91096762007/",
+          "publishedOn": "2026-08-29T20:25:35.838Z",
+          "wordCount": 4215,
+          "title": "Trump's poll numbers are hilariously badRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/29/USAT/91098530007-20260729-vpc-trump-on-fauci-5th-thumb-getty.jpg?crop=1917,1077,x0,y0&width=1917&height=1077&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/17/trump-oman-iran-war-strait-hormuz/91340715007/-full",
+          "author": "Rex Huppke",
+          "description": "I’m no military strategist, but it seems unwise that our flailing, 80-year-old president is threatening to “bomb the s---” out of our Middle Eastern ally Oman while America is failing to end its ongoing and wholly unnecessary war with Iran.\nThat’s a mouthful, but it accurately captures where we’re at in a war of President Donald Trump’s making. You know, the one that’s causing us to pay more than $4 a gallon for gas. The one Trump keeps finding new ways to make dumber.\nThe Aug. 17 stupidity augmentation came via a Fox News correspondent who spoke with Trump. The president said that if Oman gets in the way of his attempts to end the war, “we'll bomb the s--- out of them.”\nThere are a couple problems with that.\nMaybe Trump shouldn't threaten to bomb a US ally?\n\nFirst, Trump’s attempts to end…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/17/trump-oman-iran-war-strait-hormuz/91340715007/",
+          "publishedOn": "2026-08-29T20:25:35.635Z",
+          "wordCount": 3958,
+          "title": "Trump's decline is leading to disaster – for all of usRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/14/USAT/91310871007-20260814-t-201626-z-954804708-rc-2-kymajjp-6-g-rtrmadp-3-usatrump.JPG?crop=3659,2058,x0,y193&width=3200&height=1800&format=pjpg&auto=webp"
+        },
+        {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/06/james-talarico-texas-masculinity/90420159007/-full",
           "author": "Rex Huppke",
           "description": "Let’s try, for a moment, to remove politics from a discussion of James Talarico, the Democratic state representative from Texas running for the U.S. Senate.\nIt’s not an easy thing to do when talking about a politician, but let’s give it a whirl.\nSince Talarico’s Republican opponent, Texas Attorney General Ken Paxton, won the GOP primary on May 26, he and his party have pushed the issue of manliness and masculinity to the forefront.\nTalarico's opponents want you to believe name-calling is manly\n\nThe 37-year-old Democrat has been dubbed “Tofu Talarico” and “Low-T Talarico.” White House Deputy Chief of Staff Stephen Miller wrote of Talarico on social media: “The Democrats made history in Texas by nominating their first transgender senate candidate.”\nConservative commentator Todd Starnes sugge…",
@@ -1883,6 +1943,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/sfgate-drew-magary.xml",
       "siteUrl": "https://www.sfgate.com/author/drew-magary/",
       "articles": [
+        {
+          "id": "https://www.sfgate.com/49ers/article/why-49ers-suck-2026-22375619.php-full",
+          "author": null,
+          "description": "This story was originally published on Defector, an independent employee-owned media company and another of Drew’s employers. Subscribe at Defector.\n\nSome people are fans of the San Francisco 49ers. But many, many more people are NOT fans of the San Francisco 49ers. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far at Defector.\n\nYour team: San Francisco 49ers.\n\n\nAdvertisement\nArticle continues below this ad\n\n\nYour 2025 record: 12-5. You wanna get to the part about the owner being too horny for the law, so I’ll blow through this section as fast as is responsible. The 2025 49ers were a shining example of how a football team can prosper in the face of adversity. And by “adversity,” I mean half its roster tearing a ACL, its highest paid receiver…",
+          "link": "https://www.sfgate.com/49ers/article/why-49ers-suck-2026-22375619.php",
+          "publishedOn": "2026-08-29T20:25:55.374Z",
+          "wordCount": 177,
+          "title": "Why Your Team Sucks 2026: San Francisco 49ers",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sfgate.com/food/article/anthony-bourdain-burger-22403433.php-full",
           "author": null,
@@ -2496,22 +2566,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!Z5RV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42c2bca5-caab-4cb2-b666-d34d11533330_2142x1408.png"
-        },
-        {
-          "id": "https://www.flowstate.fm/p/duffy-x-uhlmann",
-          "author": "Flow State",
-          "description": "Today we’re listening to Duffy x Uhlmann, the duo of guitarists Meg Duffy and Gregory Uhlmann.",
-          "link": "https://www.flowstate.fm/p/duffy-x-uhlmann",
-          "publishedOn": "2026-08-20T07:02:29.000Z",
-          "wordCount": null,
-          "title": "Duffy x Uhlmann",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!vHYL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F509ed4aa-6a45-4ab0-a0d5-e40915f0aa2a_2282x1590.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!vHYL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F509ed4aa-6a45-4ab0-a0d5-e40915f0aa2a_2282x1590.png"
         }
       ]
     },
@@ -2617,6 +2671,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1556301",
+          "author": "Josh Marshall",
+          "description": "After the bruising Michigan Senate primary a new Fox News poll was published showing Abdul El-Sayed four points behind Mike...",
+          "link": "https://talkingpointsmemo.com/edblog/time-to-relax-about-whether-abdul-el-sayed-can-win-michigan",
+          "publishedOn": "2026-08-29T19:01:39.000Z",
+          "wordCount": 2731,
+          "title": "Time To Relax About Whether Abdul El-Sayed Can Win Michigan",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-2289132290.jpg?w=1200"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1556183",
           "author": "Josh Marshall",
