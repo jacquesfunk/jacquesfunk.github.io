@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-29T02:43:04.172Z</updated>
+    <updated>2026-08-29T10:48:44.255Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Meta Redux: Smarter Form Targeting Is Not Coming to CIDER]]></title>
+        <id>https://metaredux.com/posts/2026/08/29/smarter-form-targeting-is-not-coming-to-cider.html</id>
+        <link href="https://metaredux.com/posts/2026/08/29/smarter-form-targeting-is-not-coming-to-cider.html"/>
+        <updated>2026-08-29T06:37:00.000Z</updated>
+        <summary type="html"><![CDATA[A couple of days ago I wrote that smarter form targeting was coming to CIDER,
+and I ended that post by asking whether I’d got the resolution rules right and
+whether anything still surprised people. I got an answer. CIDER 2.1 will ship
+with the classic behaviour intact.
+This is not a sad story, though. The detour turned up a bug that was quietly
+mangling people’s comments, and CIDER came out of it better than it went in.
+What I was actually after
+The targeting change wasn’t really about cursor positions. What I wanted was
+for every CIDER command that operates on a form to behave the same way,
+without adding yet another command to get there. CIDER has an enormous surface
+of evaluation commands, and every “at point” variant I could have added would
+have made that worse. If the existing comman…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jim “The Hammer” Shapiro: Rochester’s Most Unforgettable TV Lawyer]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3704</id>
+        <link href="https://stuffthatinterestsme.net/jim-the-hammer-shapiro-rochesters-most-unforgettable-tv-lawyer/"/>
+        <updated>2026-08-29T04:20:17.000Z</updated>
+        <summary type="html"><![CDATA[If you grew up watching television in Rochester, New York, during the 1990s and early 2000s, there was a]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TV Ads in 1986]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3699</id>
+        <link href="https://stuffthatinterestsme.net/tv-ads-in-1986/"/>
+        <updated>2026-08-29T04:03:45.000Z</updated>
+        <summary type="html"><![CDATA[A few years ago, and by a few I mean probably well over 25.  There was a night The Infamous]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lake Ontario Has a 400-Year-Old History. Trump Apparently Doesn’t Know It.]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3695</id>
+        <link href="https://stuffthatinterestsme.net/lake-ontario-has-a-400-year-old-history-trump-apparently-doesnt-know-it/"/>
+        <updated>2026-08-29T03:16:33.000Z</updated>
+        <summary type="html"><![CDATA[Donald Trump has apparently decided that the next front in his ongoing battle with Canada is a Great Lake.]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2026 NFL Season Predictions: All 32 Teams, Every Record and My Super Bowl Pick]]></title>
         <id>https://stuffthatinterestsme.net/?p=3691</id>
@@ -3316,229 +3367,6 @@ productive.  Unlike most harnesses, hermes supports codex native
 compaction, which is the “killer” feature of cod…]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Report on Carr Communications With White House, Right-Wing Media Affirms What We’ve Know All Along]]></title>
-        <id>https://wherethingsstand.talkingpointsmemo.com/p/new-report-on-carr-communications</id>
-        <link href="https://wherethingsstand.talkingpointsmemo.com/p/new-report-on-carr-communications"/>
-        <updated>2026-08-19T21:26:44.000Z</updated>
-        <summary type="html"><![CDATA[This is your TPM evening briefing.]]></summary>
-        <author>
-            <name>Nicole Lafond</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sounds Like Trump Insiders Are Getting a Little Jealous of the President’s Weirdly Close Relationship with His Favorite Aide]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a73477557/trump-aide-natalie-harp/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a73477557/trump-aide-natalie-harp/"/>
-        <updated>2026-08-19T20:29:31.000Z</updated>
-        <summary type="html"><![CDATA[Maybe they’re just envious that Natalie Harp has the log-in to his Truth Social account.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Florida Is Poised to Become Way Less Insane After This Election Season—but Only if Its Democratic Candidates Work Together]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a73477351/florida-primary-results-before-midterms/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a73477351/florida-primary-results-before-midterms/"/>
-        <updated>2026-08-19T20:00:26.000Z</updated>
-        <summary type="html"><![CDATA[Senate candidate Angie Nixon has ties to Democratic Socialists. Gubernatorial candidate David Jolly is a former Republican. Can they play nice for the greater good?]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aboard Newsletter: Is AI Entering Its NFT Era?]]></title>
-        <id>https://mailchi.mp/aboard/zkd26k8jzm-10348483</id>
-        <link href="https://mailchi.mp/aboard/zkd26k8jzm-10348483"/>
-        <updated>2026-08-19T20:00:12.000Z</updated>
-        <summary type="html"><![CDATA[96
-
-
-
-
-
-
-Aboard Newsletter: Is AI Entering Its NFT Era?
-
-
-img{-ms-interpolation-mode:bicubic;}
-table, td{mso-table-lspace:0pt;mso-table-rspace:0pt;}
-.mceStandardButton, .mceStandardButton td, .mceStandardButton td a{mso-hide:all!important;}
-p, a, li, td, blockquote{mso-line-height-rule:exactly;}
-p, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
-.mcnPreviewText{display:none!important;}
-.bodyCell{margin:0 auto;padding:0;width:100%;}
-.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;}
-.ReadMsgBody, .ExternalClass{width:100%;}
-a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inherit!important;font-…]]></summary>
-        <author>
-            <name>Aboard Archive Feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Citizens Build, Agents Execute, Experts Govern]]></title>
-        <id>https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html</id>
-        <link href="https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html"/>
-        <updated>2026-08-19T18:30:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR
-Why building an app over the weekend isn't the same as building enterprise software
-
-I’ve noticed an interesting gap opening up over the last six months. It isn’t really a gap in technology. It’s a gap in what different people think software engineering actually is.
-The conversation usually starts the same way. A non-techie, maybe an executive, tells me about something they’ve built over the weekend. Sometimes it’s a chatbot. Sometimes it’s an internal workflow. Sometimes it’s a surprisingly polished application that solves a real business problem. They’re excited, and they should be. Twelve months ago they probably couldn’t have built it at all. Then comes the question.
-“If AI can do this now, why aren’t our engineering teams delivering ten times faster?”
-It’s a perfectly reasonable…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Your Team Sucks 2026: Green Bay Packers]]></title>
-        <id>https://defector.com/?p=232471</id>
-        <link href="https://defector.com/why-your-team-sucks-2026-green-bay-packers"/>
-        <updated>2026-08-19T18:22:04.000Z</updated>
-        <summary type="html"><![CDATA[Some people are fans of the Green Bay Packers. But many, many more people are NOT fans of the Green Bay Packers. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.
-Your team:]]></summary>
-        <author>
-            <name>Drew Magary</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Should You Ever Really Trust A Party Promoter?]]></title>
-        <id>https://defector.com/?p=232888</id>
-        <link href="https://defector.com/should-you-ever-really-trust-a-party-promoter"/>
-        <updated>2026-08-19T18:16:09.000Z</updated>
-        <summary type="html"><![CDATA[Time to drop a little summer recipe. Take some lesbian 20-somethings—like at least 60 of them—and drop them in a group chat. At the center of it all you’ll need a leader, someone who commands attention or fear, and could be the object of everyone's affection under the right circumstances. Next, you’ll need a heat wave and a stacked events calendar: think line dancing, body shots, and bottle service. Now is not the time to be afraid to go out three times over the course of a weekend.
-This all may sound intense, but maybe not inherently chaotic. Now ask yourself how liberal you could be with sharing your location with multiple people on an ongoing basis. Finally, what if being caught up in the whirlwind only made you come to the conclusion that the distinctions between platonic and romantic are a false binary, especially when it comes to smooching. Secrets and messes? That’s just part of plan. Get ready for one of the wildest stories in the history of Normal Gossip. Don’t be afraid to take notes!
-
-https://www.youtube.com/watch?v=ykuhbgkT54g]]></summary>
-        <author>
-            <name>Jae Towle Vieira</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practitioner Voice: The Writing Category Nobody has Named Yet]]></title>
-        <id>https://martinfowler.com/articles/practitioner-voice.html</id>
-        <link href="https://martinfowler.com/articles/practitioner-voice.html"/>
-        <updated>2026-08-19T18:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Jim Highsmith recognizes that effective writing from a practitioner is
-      a style distinct from academic writing or thought-leadership content. It's
-      a style that I advocate, and my contributors mostly follow. Jim decided it
-      was important to give it a name, and identify what makes it distinctive.
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[For fun, I thought I'd revisit  baty.blog]]></title>
-        <id>https://baty.net/posts/2026/08/for-fun-i-thought-i-d-revisit-my-pure-blog-blog/</id>
-        <link href="https://baty.net/posts/2026/08/for-fun-i-thought-i-d-revisit-my-pure-blog-blog/"/>
-        <updated>2026-08-19T18:10:44.000Z</updated>
-        <summary type="html"><![CDATA[I accidentally logged into baty.blog's admin and said, "SQUIRREL!", and spent time taking another look at the site. Who knows, I might start using it again.
-Baty.blog runs on Pure Blog, by Kev Quirk. When Kev first announced Pure Blog, I (of course) tried it immediately. We got along well, right off the bat. Pure Blog is written in PHP, so it's simple to install nearly anywhere. It uses plain-text Markdown files instead of a database. It did all the basics that a blogging CMS should do. It aimed to be simple-but-not-too-simple. At the time, I found it to be a little too simple, so I abandoned it, meaning to check on it again, later.
-It's later.
-A lot has changed since I last used v1.2.0. Kev's been busy! Anyway, things looked stable and it had gotten important fixes and updates, so I upgraded both Pure Blog and my Pure Comments instance. I wired up comment emails, since Pure Comments can now use regular ol' SMTP (it used to be only AWS SES, gross).
-I have cleaned up the layout I was using so it at least looks presentable. It seems I'm once again posting to baty.blog. For now. Don't forget, there's an RSS feed.
-✍️ Reply by email]]></summary>
-        <author>
-            <name>baty.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mariners Surely Reach Pinnacle Of Regular-Season Suffering]]></title>
-        <id>https://defector.com/?p=232839</id>
-        <link href="https://defector.com/mariners-surely-reach-pinnacle-of-regular-season-suffering"/>
-        <updated>2026-08-19T17:47:42.000Z</updated>
-        <summary type="html"><![CDATA[How many runs did the Seattle Mariners lose by in Tuesday night's game against Brewers in Milwaukee? And how many runs did the Mariners themselves score? Don't concern yourself with these matters, this silly fixation on who won the game, and by how much. The true connoisseur understands that witnessing something new every single day is a blessing, and boy did the Mariners—and Brewers, but mostly, if we are being honest, the Mariners—show everyone something unique and special.
-Because the Mariners are never the sort of team to leave their fans hanging for a prolonged period of time, they began delivering in the bottom of the first inning. With two outs, William Contreras hit a single to short left field. Milwaukee's third-base coach sent Jake Bauers to home from second, where, as slow-motion replay revealed, Bauers effectively, if not necessarily intentionally, executed a two-handed punch to remove the ball from Mariners catcher Cal Raleigh's mitt. Thus ensued a mad scramble back to the plate, conveyed here via freeze frame:
-The angles of approach, the potential energy captured in the players' body language, the catcher's match left strewn across the ground ... There is beauty in everything, even suffering.]]></summary>
-        <author>
-            <name>Kathryn Xu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LIV Golf Pros Meet Their New Investor Overlord At Season’s Sudden Conclusion]]></title>
-        <id>https://defector.com/?p=232850</id>
-        <link href="https://defector.com/liv-golf-pros-meet-their-new-investor-overlord-at-seasons-sudden-conclusion"/>
-        <updated>2026-08-19T17:18:31.000Z</updated>
-        <summary type="html"><![CDATA[The 2026 LIV Golf season will end this weekend at LIV Golf Indianapolis. The 4 Aces GC fellows have a narrow lead over Ripper GC in the team championship, which I guess they will uhh look to maintain or whatever. Don't worry about it. That team title was supposed to be decided the final weekend of August in Plymouth, Mich., but that event has now been officially cancelled, as was long anticipated. The stupid, broke league simply lacks the money to run it.
-The payouts for the finale will be significantly reduced. Without the outrageous support of the Saudi Public Investment Fund, LIV Golf cannot continue to dump huge prize money into its noisy, broadly three-quarter-assed events. The bonus pool for the player championship, per Golf Magazine, will be $10 million, down from $30 million in 2025. The bonus pool for the team championship—an utterly inconsequential competition to every living creature on Earth except for the handful of people in line to win a share of the prize—will be $30 million, down from $50 million in 2025. The bonus pool for the LIV Indianapolis event, separate from the championships it will decide, has also been cut in half. 
-That's still a lot of cash to hand out for 54 holes of golf. It's mighty expensive to run a golf promotion designed to compete directly with the PGA Tour. It made sense to pour grotesque sums into this mess when it was hoping to meaningfully disrupt men's professional golf; now that the PGA Tour has shrugged off the incursion and LIV Golf has settled in as nothing more than its own stupid tagline, $80 million in year-end bonuses starts to look more precisely like what it is, which is an enormous waste of money.]]></summary>
-        <author>
-            <name>Chris Thompson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Supreme Court Has Basically Allowed Racial Profiling, and Now ICE Is Having a Field Day]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a73467166/racial-profiling-ice-slurs/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a73467166/racial-profiling-ice-slurs/"/>
-        <updated>2026-08-19T17:05:56.000Z</updated>
-        <summary type="html"><![CDATA[So these psychos are allowed to just pull over anyone they want without facing any consequences?]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“No Dada!” How Do You Deal With A Toddler Who Clearly Prefers The Other Parent?]]></title>
-        <id>https://defector.com/?p=232668</id>
-        <link href="https://defector.com/no-dada-how-do-you-deal-with-a-toddler-who-clearly-prefers-the-other-parent"/>
-        <updated>2026-08-19T16:29:32.000Z</updated>
-        <summary type="html"><![CDATA[Welcome back to Minor Dilemmas, where a member of Defector's Parents Council will answer your questions on surviving family life. Have a question? Email us at minordilemmas@defector.com.
-This week, Chris answers a question about being summarily rejected by one's own flesh-and-blood.]]></summary>
-        <author>
-            <name>Chris Thompson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Switching To A Window In Another Frame]]></title>
-        <id>https://irreal.org/blog/?p=14023</id>
-        <link href="https://irreal.org/blog/?p=14023"/>
-        <updated>2026-08-19T16:11:32.000Z</updated>
-        <summary type="html"><![CDATA[Journelly and many other useful applications—a lot of them Emacs based—has a new post about a basic Emacs operation: changing focus to another window. Ramírez and I basically agree about things like this although he stubbornly refuses to admit the superiority of my method of indicating the window that has focus.
-
-
-Now he has a slightly different problem. For technical reasons that you can read about in his post, he wants to be able to switch to a window in another frame. The other-window command, bound to Ctrl+x o by default, doesn’t consider windows in other frames but, of course, there’s a command for that: next-window-any-frame. That turned out to be exactly what Ramírez needed and he simply bound it to Meta+o, which is where he had other-window bound.
-
-
-Like Ramírez, I seldom use more than one frame so I didn’t know about this command. If you often have more than one frame going, you may find it useful if you’re not already using it. If you’re an ace-window user, it will consider all frames by default but you can adjust this with aw-scope.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump Admin and Its Allies Throw Up Roadblocks to Prosecuting ICE Agents]]></title>
-        <id>https://morningmemo.talkingpointsmemo.com/p/trump-admin-and-its-allies-throw</id>
-        <link href="https://morningmemo.talkingpointsmemo.com/p/trump-admin-and-its-allies-throw"/>
-        <updated>2026-08-19T16:02:48.000Z</updated>
-        <summary type="html"><![CDATA[INSIDE: Angie Nixon ... Dan Sullivan(s) ... Harmeet Dhillon]]></summary>
-        <author>
-            <name>David Kurtz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The King Of The Robbers Returns]]></title>
-        <id>https://defector.com/?p=232832</id>
-        <link href="https://defector.com/the-king-of-the-robbers-returns"/>
-        <updated>2026-08-19T15:29:32.000Z</updated>
-        <summary type="html"><![CDATA[The bases are loaded in the bottom of the second. Mets shortstop Francisco Lindor, with his beautiful hair and crisp terrifying swing, is at the plate. The pitch from the Padres' Robbie Ray is a 92 mph sinker that he leaves up on the outer edge of the zone. Lindor stings it to the opposite field, and the ball towers up and out toward the right-field corner, where he is waiting. He is always waiting.
-Fernando Tatis Jr., the king of the Robbin' Padres, with his flowing hair and his big face, does not fear the long ball. He is its god. Already, in this game, he has hit a home run, but that does not mean he will allow others the pleasure. No, he is the home run's master. He sees the ball off Lindor's bat threatening to become a grand slam, and he tracks it.
-His legs race, his head craned toward the ball, his eyes on it. That is his ball. He knows it.]]></summary>
-        <author>
-            <name>Kelsey McKinney</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chamique Holdsclaw Made Headlines, Made Mistakes, And Made History]]></title>
-        <id>https://defector.com/?p=232793</id>
-        <link href="https://defector.com/chamique-holdsclaw-made-headlines-made-mistakes-and-made-history"/>
-        <updated>2026-08-19T14:48:15.000Z</updated>
-        <summary type="html"><![CDATA[On the cover of Slam magazine's October 1998 issue, Chamique Holdsclaw wore a New York Knicks jersey, NBA basketball in hand. Right next to the forward from Queens was a sneaky inversion of the more common question: "Is The NBA Ready For Chamique Holdsclaw?" She was the first female athlete to appear on the magazine's cover, and as former Slam editor-in-chief Tony Gervino would recall in a 2024 essay, the editors were intentionally being a little provocative. Reader reception was not as negative as expected, although Pat Summitt, Holdsclaw's college coach at the University of Tennessee, called Gervino to chew him out about how her player could have lost her NCAA eligibility if she had accepted the Knicks jersey she was wearing for the shoot.
-Growing up in Astoria Houses, Holdsclaw said she had to have her friends advocate for her to be able to play basketball at the local Boys and Girls Club. She went on to have a terrific high school career at Christ the King in Queens, followed by more of the same at the collegiate level. Holdsclaw was entering her fourth season with the Lady Volunteers at the time of the Slam cover, and had dominated the college game as the program won three consecutive championships. She remains the all-time leading scorer and rebounder in NCAA women's tournament history, recording totals of 470 points and 197 rebounds.
-For Holdsclaw, who was part of the 2026 class inducted into the Naismith Basketball Hall of Fame this past weekend, the Slam cover wasn’t actually asking if she would go play against the men. It didn’t really matter what the boys were doing. The WNBA was two years old and was looking for more star power. Slam, among others, predicted she would be the one to fill those shoes, calling her "the future of women's basketball."]]></summary>
-        <author>
-            <name>Nina Mandell</name>
         </author>
     </entry>
 </feed>
