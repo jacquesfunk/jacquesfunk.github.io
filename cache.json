@@ -29,6 +29,46 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=14046",
+          "author": null,
+          "description": "well shuffled card decks: no two are alike. But, as Arlo Guthrie famously sang, that’s “not what I came to tell you about”. Rather, this post is about differing organizations for those Emacs configurations.\n\n\nThe idea was suggested to me by a post from Andros Fenollosa on his own Emacs configuration. Fenollosa says that he doesn’t use any of the all-in-one configurations like Spacemacs or Doom because they include too much and are hard to understand and make changes to. He also doesn’t use the popular literate configuration method using Org mode because it’s just another layer of complexity that can go wrong.\n\n\nHis idea is to to have a separate file for each “area of responsibility” and to use init.el as a sort of index that loads them in order. I like that idea but don’t use separate files. I keep everything in init.el and just organize it in sections.\n\n\nStill, Fenollosa has a good argument for the separate files but I think I get the same benefits with a single file broken into sections. Actually, it’s not quite true that everything is in a single file. I run Emacs on several type of systems and keep the system/OS specific information in separate files that I load conditionally based on the system and OS type1. That way I don’t have a lot of conditionals dealing with system/OS type in init.el itself.\n\n\nThere aren’t as many ways of organizing your Emacs configuration as there are configurations but there are a lot of them. What principle do you use?\n\n\nFootnotes: \n1 \n\n\n\nIf you’re interested, here’s the code:\n\n\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;\n;; Pull in system and platform specific configurations                    ;;\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;\n\n;; Just keep on going if the requisite file isn't there.\n;; Manipulations in second load is for \"gnu/linux\" → \"linux\"\n\n(load (car (split-string (system-name) \"\\\\.\")) t)\n(load (car (reverse (split-string (symbol-name system-type) \"/\"))) t)",
+          "link": "https://irreal.org/blog/?p=14046",
+          "publishedOn": "2026-08-29T15:12:53.000Z",
+          "wordCount": 1570,
+          "title": "Irreal: Emacs Configuration Organization",
+          "imageUrl": null
+        },
+        {
+          "id": "https://sachachua.com/blog/2026/08/carnaval-d-emacs-d-aout-la-gestion-d-information-et-les-graphes-de-connaissances/",
+          "author": null,
+          "description": "Carnaval d'Emacs sur la recherche de connaissances. Merci à Charlie Holland pour son accueil ! C'est une bonne occasion de réfléchir à la gestion de mes notes, qui est un de mes intérêts forts.\n\n\n\nSaisir : Je souhaite saisir et publier ce que j'apprends autant que possible parce que ma mémoire n'est pas fiable. Je préfère le format texte brut car il est le plus consultable et le plus archivable à long terme. Je suis loin de mon ordinateur la plupart du temps, donc j'utilise Orgzly Revived sur mon téléphone pour saisir des notes courtes dans ma boîte de réception inbox.org ou mon fichier de brouillons posts.org. Une fois que je suis sur mon ordinateur, je développe mes notes en utilisant Org Mode sur Emacs. J'utilise org-refile pour déplacer des notes vers d'autres fichiers comme organizer.…",
+          "link": "https://sachachua.com/blog/2026/08/carnaval-d-emacs-d-aout-la-gestion-d-information-et-les-graphes-de-connaissances/",
+          "publishedOn": "2026-08-29T14:52:30.000Z",
+          "wordCount": 2227,
+          "title": "Sacha Chua: Carnaval d'Emacs d'août  : la gestion d'information et les graphes de connaissances",
+          "imageUrl": null
+        },
+        {
+          "id": "https://taonaw.com/2026/08/29/emacs-config-gems-part.html",
+          "author": null,
+          "description": "Being a text editor (among other things), Emacs has quite a few tricks up its sleeve for making writing not just easier but also fun and seemingly magical. I call this section in my config “Wordcraft.”\nEmacs Dictionary\nWhen we need a dictionary, Emacs got us covered and then some. After version 28, Emacs connects to a dictionary as a two-step process by default:\nIt tries to connect to a local host.\nIf it fails, it next connects to an online dictionary at www.dict.org,\nThis workflow remains in place as long as dictionary-server is nil, which is the default. It’s a bit confusing (to me anyway), since “nil” might indicate that no dictionary is set up, but here it means we simply didn’t introduce any configuration to it.\nThe online version at dict.org contains the Webster dictionary from 19131…",
+          "link": "https://taonaw.com/2026/08/29/emacs-config-gems-part.html",
+          "publishedOn": "2026-08-29T12:34:14.000Z",
+          "wordCount": 2479,
+          "title": "TAONAW - Emacs and Org Mode: Emacs Config Gems - Part 5",
+          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/08/29/5982160.png"
+        },
+        {
+          "id": "https://donovan-ratefison.mg/2026/08/29/My-way-of-handling-knowledge-Emacs-Carnival-The-Search-for-Knowledge/",
+          "author": null,
+          "description": "This post is my participation in this month’s Emacs Carnival, on the theme of The Search for Knowledge.\nAbout my current workflow\nMy way of handling notes and knowledge has evolved a lot over time. I’ve written about my note-taking journey in this blog post.\nAs of today, my knowledge management sauce is composed of Emacs and Vakana.mg. I’ve been using Logseq less and less over the past few months.\nIndoor\nIn my day-to-day computer usage, I have the Emacs client open all day long with a scratch buffer ready for anything. I dump everything into the scratch buffer, remove or add paragraphs as needed and use vundo for time traveling. I use no structure except some dashes as separation between topics.\nWhether it’s to capture fleeting insights or mold prompts for LLMs, the scratch buffer acts as …",
+          "link": "https://donovan-ratefison.mg/2026/08/29/My-way-of-handling-knowledge-Emacs-Carnival-The-Search-for-Knowledge/",
+          "publishedOn": "2026-08-29T12:00:00.000Z",
+          "wordCount": 771,
+          "title": "Donovan R.: My way of handling knowledge (Emacs Carnival - The Search for Knowledge)",
+          "imageUrl": "https://donovan-ratefison.mg/2026/08/29/My-way-of-handling-knowledge-Emacs-Carnival-The-Search-for-Knowledge/search-for-knowledge.png"
+        },
+        {
           "id": "https://metaredux.com/posts/2026/08/29/smarter-form-targeting-is-not-coming-to-cider.html",
           "author": null,
           "description": "A couple of days ago I wrote that smarter form targeting was coming to CIDER,\nand I ended that post by asking whether I’d got the resolution rules right and\nwhether anything still surprised people. I got an answer. CIDER 2.1 will ship\nwith the classic behaviour intact.\nThis is not a sad story, though. The detour turned up a bug that was quietly\nmangling people’s comments, and CIDER came out of it better than it went in.\nWhat I was actually after\nThe targeting change wasn’t really about cursor positions. What I wanted was\nfor every CIDER command that operates on a form to behave the same way,\nwithout adding yet another command to get there. CIDER has an enormous surface\nof evaluation commands, and every “at point” variant I could have added would\nhave made that worse. If the existing comman…",
@@ -37,6 +77,16 @@
           "wordCount": 1530,
           "title": "Meta Redux: Smarter Form Targeting Is Not Coming to CIDER",
           "imageUrl": "https://metaredux.com/assets/og-image.png"
+        },
+        {
+          "id": "https://protesilaos.com/codelog/2026-08-29-emacs-completion-preview-mode/",
+          "author": null,
+          "description": "Raw link: https://www.youtube.com/watch?v=8V4ZyEL_i-s\nThe built-in completion-preview-mode lets us expand what we type in\na minimalist, distraction-free way. It can also be combined with the\ndefault Completions buffer to show all the available options. The\nCompletions buffer has several nice features, starting with Emacs 31,\nwhich make this an excellent combination that does not require any\nthird party packages (though packages can still augment the overall\nexperience). I also mention the Emacs 31 ‘newcomers-presets’ theme,\nwhich configures some of these options as well: it is a great way to\nstart your Emacs configuration.\nSample configuration\n\n(use-package completion-preview\n  :ensure nil\n  :demand t\n  :bind\n  ( :map completion-preview-active-mode-map\n    (\"M-i\" . completion-preview-inser…",
+          "link": "https://protesilaos.com/codelog/2026-08-29-emacs-completion-preview-mode/",
+          "publishedOn": "2026-08-29T00:00:00.000Z",
+          "wordCount": 347,
+          "title": "Protesilaos: Emacs: completion-preview-mode and the Completions buffer (Emacs 31)",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         },
         {
           "id": "https://www.jamescherti.com/measuring-emacs-startup-time/",
@@ -376,16 +426,6 @@
           "publishedOn": "2026-08-20T14:06:19.000Z",
           "wordCount": 1220,
           "title": "Org Mode requests: [RFC] org-colview: Simplify column summary computation (with benchmarks)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://thanosapollo.org/posts/emacs-agentic-workflow/",
-          "author": null,
-          "description": "Two years ago I was a skeptic about GenAI.  Now Emacs has become my\nagent cockpit.\nHarness\nMy favorite harness right now is hermes-agent, which is probably the\n“emacs of agent harnesses” with how easy it is to configure\nand extend, while not being “just an agent harness.”  Hermes supports\nmessaging gateways, so you have first-class support for mobile as\nwell.  All you have to do is /handoff <platform> to continue your\nsession via a mobile messaging app.\n \n\n\nTo interact with hermes via emacs, I’m using emacs-hermes, which is\navailable via NonGNU ELPA.\nSometimes I also use codex via emacs-codex-ide.  But it’s not as\ntoken-efficient as my hermes setup, and it’s not where I am most\nproductive.  Unlike most harnesses, hermes supports codex native\ncompaction, which is the “killer” feature of cod…",
-          "link": "https://thanosapollo.org/posts/emacs-agentic-workflow/",
-          "publishedOn": "2026-08-20T00:00:00.000Z",
-          "wordCount": 1623,
-          "title": "Thanos Apollo: My Emacs Agentic Workflow",
           "imageUrl": null
         }
       ]
@@ -1101,7 +1141,18 @@
       "title": "DepthHub: A jumping-off point for deeply-involved subreddits",
       "feedUrl": "https://www.reddit.com/r/DepthHub/.rss",
       "siteUrl": "https://www.reddit.com/r/DepthHub/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.reddit.com/r/DepthHub/comments/1w1pmpo/ufordmister_explains_the_reasoning_behind_125/",
+          "author": null,
+          "description": "submitted by    /u/JohnSith  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DepthHub/comments/1w1pmpo/ufordmister_explains_the_reasoning_behind_125/",
+          "publishedOn": "2026-08-29T15:33:43.000Z",
+          "wordCount": null,
+          "title": "u/Fordmister explains the reasoning behind 1/2/5% milk, gets into the economics behind it, and why \"dairy industry is actually a cream industry that sells you milk as a byproduct\".",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "alexwlchan",
@@ -1293,26 +1344,6 @@
           "publishedOn": "2026-08-21T00:49:13.000Z",
           "wordCount": 4324,
           "title": "Top 10 Bands That Need to Give It Up and Retire",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3260",
-          "author": "Schill",
-          "description": "The alternative rock explosion of the 1990s produced an incredible number of memorable bands. Nirvana, Pearl Jam, Soundgarden, Hole, Garbage,",
-          "link": "https://stuffthatinterestsme.net/forgotten-band-veruca-salt/",
-          "publishedOn": "2026-08-20T03:14:32.000Z",
-          "wordCount": 2695,
-          "title": "Forgotten Band: Veruca Salt",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3339",
-          "author": "Schill",
-          "description": "There are certain songs that seem to define an entire musical attitude without ever becoming conventional radio hits in the",
-          "link": "https://stuffthatinterestsme.net/song-battle-where-is-my-mind-vs-blister-in-the-sun/",
-          "publishedOn": "2026-08-20T02:21:31.000Z",
-          "wordCount": 3741,
-          "title": "Song Battle: “Where Is My Mind?” vs. “Blister in the Sun”",
           "imageUrl": null
         }
       ]
@@ -2899,6 +2930,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/this-week-in-stupid-august-29-edition",
+          "author": "Jeff Tiedrich",
+          "description": "Natalie grins, Donny spins, and so much more...",
+          "link": "https://www.jefftiedrich.com/p/this-week-in-stupid-august-29-edition",
+          "publishedOn": "2026-08-29T14:28:37.000Z",
+          "wordCount": null,
+          "title": "this week in stupid: August 29 edition",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!S5Nh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbf848617-e941-4167-959c-332fbb006638_2520x1412.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!S5Nh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbf848617-e941-4167-959c-332fbb006638_2520x1412.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/welcome-to-lake-stupid-fucking-moron",
           "author": "Jeff Tiedrich",
