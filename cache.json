@@ -40,6 +40,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=14048",
+          "author": null,
+          "description": "useful post on directory local variables. The idea is that rather than putting a lot of context specific configuration in your init.el file, you can put those configurations in a .dir-locals.el file and they will be set only when you open a file in that directory.\n\n\nI really like the idea of directory local variables but it has never worked well for me. That’s mainly because I usually wanted to execute some code using the eval keyword. That always causes some problems involving a stack overflow, no matter how simple the code is. Lately, I’ve been using them a lot in conjunction with Jinx, which has the nice feature of adding words to the local file or local directory in addition to the other usual options.\n\n\nI find that really useful for my blogging. I can add post specific words to the post source file itself or I can add them to all posts in my blog directory. Maiorana uses then to set things like compilation settings, fill and wrap settings, and indentation styles.\n\n\nIf you have different workflows with different setting needs, directory local variables is a very nice way of dealing with them. Of course, not everything should go in a directory local variable. Some things apply to all your buffers and should go in your init.el but for those things that are specific to particular workflows, directory local variables are just what you need.",
+          "link": "https://irreal.org/blog/?p=14048",
+          "publishedOn": "2026-08-30T14:37:17.000Z",
+          "wordCount": 1492,
+          "title": "Irreal: Maiorana On Directory Local Variables",
+          "imageUrl": null
+        },
+        {
           "id": "http://alexott.blogspot.com/2008/12/one-more-time-about-cedet.html",
           "author": null,
           "description": "In latest versions of  Cedet support of GNU Global was introduced, and very useful command - semantic-symref, was implemented.  It allows to find places in source code (for C & C++ now) where given function is used. And if GTAGS database wasn't found, then this command tries to find occurrences with find-grep command.\nAs result, user gets something like this...",
@@ -436,6 +446,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=234041",
+          "author": "Brandy Jensen",
+          "description": "Most people think of the tits. That’s understandable, given they would enter a room some not-insignificant amount of time before the rest of her. But there was also the hair, often high enough to occupy a distinct micro-climate, or the rhinestones, which reflected enough light to obscure everything save the tits and the hair. \nSaying Dolly Parton had a signature look is a bit like saying water has a signature wetness. What she had was a constitutive way of being. What she had was a relationship to femininity that I found, in turns, inspiring and confounding. Inspiring because she was always in on the joke—“it costs a lot of money to look this cheap;” “I’m not offended by all the dumb blonde jokes because I know I’m not dumb… and I also know that I’m not blonde”—and confounding because I would find myself thinking doesn’t she ever get tired of having to be in on the joke?\nI’ve never had a particularly vexed relationship with my gender, but I do sometimes find the outward trappings tiring. Possibly this is because there are certain parts of it I’m just not very good at. Style has always been a thing that other people are able to have while I—no matter how much effort or money I expend—kind of just wear clothes. Every once in a while I’ll watch make-up tutorials on Instagram and get annoyed ping-ponging between the women showing me how to do a “no-makeup make-up look” who don’t actually need to wear any make-up and the ones who approach it with the kind of rigor one might more readily associate with big engineering projects. I realized years ago that having very long hair is an easy way to avoid ever having to learn what to do with it, and so when I tip my head back my hair touches my ass.",
+          "link": "https://defector.com/dont-forget-the-nails",
+          "publishedOn": "2026-08-30T18:05:28.000Z",
+          "wordCount": 5863,
+          "title": "Don’t Forget The Nails",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-519064534.jpg"
+        },
         {
           "id": "https://defector.com/?p=234035",
           "author": "Peter Coviello",
@@ -1294,16 +1314,6 @@
           "publishedOn": "2026-08-22T01:11:20.000Z",
           "wordCount": 5210,
           "title": "20 Old Bands and Artists Who Somehow Came Back in the ’80s",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3244",
-          "author": "Schill",
-          "description": "Phish’s performance on November 29, 1997, at the Worcester Centrum Centre in Worcester, Massachusetts, is widely regarded as one of",
-          "link": "https://stuffthatinterestsme.net/phriday-phistory-worcester-jim/",
-          "publishedOn": "2026-08-21T02:59:06.000Z",
-          "wordCount": 1759,
-          "title": "Phriday Phistory: Worcester Jim",
           "imageUrl": null
         }
       ]
@@ -2505,6 +2515,16 @@
       "siteUrl": "https://gomakethings.com/articles",
       "articles": [
         {
+          "id": "https://gomakethings.com/articles/ai-is-fucking-awful-the-guide/",
+          "author": null,
+          "description": "This weekend, I finished tending my guide on AI that I had planted a seed for in my digital garden.\nIt includes links to various articles on it’s roles in environmental destruction, labor exploitation, economic failure, degrading critical thinking skills, and fascist empowerment.\nI’ve also included my own personal thoughts, and links to various other thought pieces from other people that I’ve found useful or informative.\nYou can find the guide here.",
+          "link": "https://gomakethings.com/articles/ai-is-fucking-awful-the-guide/",
+          "publishedOn": "2026-08-30T14:30:00.000Z",
+          "wordCount": 5924,
+          "title": "AI is fucking awful (the guide)",
+          "imageUrl": "https://gomakethings.com/img/og.png"
+        },
+        {
           "id": "https://gomakethings.com/articles/the-best-of-us/",
           "author": null,
           "description": "I don’t particularly care for Dolly Parton’s music, but I loved Dolly Parton.\nShe was literally the best of us.\n Unapologetically herself whether people liked it or not. Did not give a single fuck about what was “expected” of her based on her age, gender, career aspirations, and so on. Could have been a billionaire, but chose to invest tremendous amounts of money in communities that were underserved instead. A highly visible counter-argument to the idea that older white cishetero folks can’t help being racist, sexist, and homophobic because of when and where they grew up.",
@@ -2812,6 +2832,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/milo-got-deported-and-maga-is-losing",
+          "author": "Jeff Tiedrich",
+          "description": "ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha",
+          "link": "https://www.jefftiedrich.com/p/milo-got-deported-and-maga-is-losing",
+          "publishedOn": "2026-08-30T14:57:18.000Z",
+          "wordCount": null,
+          "title": "Milo got deported, and MAGA is losing its fucking mind over it. try not to laugh.",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!CdH8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9afebbcd-7e51-41b9-96fc-2cf29f4cd3ab_1920x1080.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!CdH8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9afebbcd-7e51-41b9-96fc-2cf29f4cd3ab_1920x1080.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/this-week-in-stupid-august-29-edition",
           "author": "Jeff Tiedrich",

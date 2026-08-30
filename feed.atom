@@ -2,10 +2,64 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-30T14:41:11.838Z</updated>
+    <updated>2026-08-30T19:03:04.283Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Don’t Forget The Nails]]></title>
+        <id>https://defector.com/?p=234041</id>
+        <link href="https://defector.com/dont-forget-the-nails"/>
+        <updated>2026-08-30T18:05:28.000Z</updated>
+        <summary type="html"><![CDATA[Most people think of the tits. That’s understandable, given they would enter a room some not-insignificant amount of time before the rest of her. But there was also the hair, often high enough to occupy a distinct micro-climate, or the rhinestones, which reflected enough light to obscure everything save the tits and the hair. 
+Saying Dolly Parton had a signature look is a bit like saying water has a signature wetness. What she had was a constitutive way of being. What she had was a relationship to femininity that I found, in turns, inspiring and confounding. Inspiring because she was always in on the joke—“it costs a lot of money to look this cheap;” “I’m not offended by all the dumb blonde jokes because I know I’m not dumb… and I also know that I’m not blonde”—and confounding because I would find myself thinking doesn’t she ever get tired of having to be in on the joke?
+I’ve never had a particularly vexed relationship with my gender, but I do sometimes find the outward trappings tiring. Possibly this is because there are certain parts of it I’m just not very good at. Style has always been a thing that other people are able to have while I—no matter how much effort or money I expend—kind of just wear clothes. Every once in a while I’ll watch make-up tutorials on Instagram and get annoyed ping-ponging between the women showing me how to do a “no-makeup make-up look” who don’t actually need to wear any make-up and the ones who approach it with the kind of rigor one might more readily associate with big engineering projects. I realized years ago that having very long hair is an easy way to avoid ever having to learn what to do with it, and so when I tip my head back my hair touches my ass.]]></summary>
+        <author>
+            <name>Brandy Jensen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Milo got deported, and MAGA is losing its fucking mind over it. try not to laugh.]]></title>
+        <id>https://www.jefftiedrich.com/p/milo-got-deported-and-maga-is-losing</id>
+        <link href="https://www.jefftiedrich.com/p/milo-got-deported-and-maga-is-losing"/>
+        <updated>2026-08-30T14:57:18.000Z</updated>
+        <summary type="html"><![CDATA[ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha]]></summary>
+        <author>
+            <name>Jeff Tiedrich</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Irreal: Maiorana On Directory Local Variables]]></title>
+        <id>https://irreal.org/blog/?p=14048</id>
+        <link href="https://irreal.org/blog/?p=14048"/>
+        <updated>2026-08-30T14:37:17.000Z</updated>
+        <summary type="html"><![CDATA[useful post on directory local variables. The idea is that rather than putting a lot of context specific configuration in your init.el file, you can put those configurations in a .dir-locals.el file and they will be set only when you open a file in that directory.
+
+
+I really like the idea of directory local variables but it has never worked well for me. That’s mainly because I usually wanted to execute some code using the eval keyword. That always causes some problems involving a stack overflow, no matter how simple the code is. Lately, I’ve been using them a lot in conjunction with Jinx, which has the nice feature of adding words to the local file or local directory in addition to the other usual options.
+
+
+I find that really useful for my blogging. I can add post specific words to the post source file itself or I can add them to all posts in my blog directory. Maiorana uses then to set things like compilation settings, fill and wrap settings, and indentation styles.
+
+
+If you have different workflows with different setting needs, directory local variables is a very nice way of dealing with them. Of course, not everything should go in a directory local variable. Some things apply to all your buffers and should go in your init.el but for those things that are specific to particular workflows, directory local variables are just what you need.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI is fucking awful (the guide)]]></title>
+        <id>https://gomakethings.com/articles/ai-is-fucking-awful-the-guide/</id>
+        <link href="https://gomakethings.com/articles/ai-is-fucking-awful-the-guide/"/>
+        <updated>2026-08-30T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[This weekend, I finished tending my guide on AI that I had planted a seed for in my digital garden.
+It includes links to various articles on it’s roles in environmental destruction, labor exploitation, economic failure, degrading critical thinking skills, and fascist empowerment.
+I’ve also included my own personal thoughts, and links to various other thought pieces from other people that I’ve found useful or informative.
+You can find the guide here.]]></summary>
+        <author>
+            <name>Go Make Things</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Dolly, Josephine, And Me]]></title>
         <id>https://defector.com/?p=234035</id>
@@ -3176,16 +3230,6 @@ But that doesn’t mean ICE has given up on fulfilling Donald Trump and Stephen 
         <summary type="html"><![CDATA[Today we’re listening to K Wata, an American electronic musician from Seattle.]]></summary>
         <author>
             <name>Flow State</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Phriday Phistory: Worcester Jim]]></title>
-        <id>https://stuffthatinterestsme.net/?p=3244</id>
-        <link href="https://stuffthatinterestsme.net/phriday-phistory-worcester-jim/"/>
-        <updated>2026-08-21T02:59:06.000Z</updated>
-        <summary type="html"><![CDATA[Phish’s performance on November 29, 1997, at the Worcester Centrum Centre in Worcester, Massachusetts, is widely regarded as one of]]></summary>
-        <author>
-            <name>Schill</name>
         </author>
     </entry>
     <entry>
