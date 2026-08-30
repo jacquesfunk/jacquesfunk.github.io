@@ -428,26 +428,6 @@
           "wordCount": 298,
           "title": "Donovan R.: 💭 I Smell Emacs and Smalltalk on DSH (DeepSeek Harness)",
           "imageUrl": null
-        },
-        {
-          "id": "https://irreal.org/blog/?p=14027",
-          "author": null,
-          "description": "release of Casual 3.0. There are now 26 modules in the Casual suite but this release is about providing an easier setup for the suite. Prior to this release, each module had to be set up separately. As Choi says, that made sense when there were just a few modules but it has become increasingly burdensome as the number of modules grew.\n\n\nThe new procedure is simply to call casual-init and all the module’s you want to use are initialized. The modules you’re using is determined by a set of hook functions that can configured with the Emacs Customize utility. You simple check off which modules you want to use and call casual-init. That’s all there is to it. You can learn more about this in the Casual User Manual.\n\n\nIf you’ve been following along on Choi’s blog—or to a lessor extent on Irreal—you know that there are a lot of different types of modules, not all of which you might want installed. The Customize interface is an easy way to specify which ones you want.\n\n\nThe latest version is available on MELPA and NonGNU ELPA. The nice thing about the modules is that they are all invoked with the same key sequence, Ctrl+o by default, so you don’t have to remember a bunch of different bindings. Once you invoke it, Casual brings up a Transient menu appropriate for the current major mode\n\n\nCasual is a nice suite that make it easier to navigate Emacs applications that you don’t use often and for which you haven’t internalized all the bindings. Take a look at the user manual if you want to know more.",
-          "link": "https://irreal.org/blog/?p=14027",
-          "publishedOn": "2026-08-20T14:46:27.000Z",
-          "wordCount": 1538,
-          "title": "Irreal: Setup For The Casual Suite",
-          "imageUrl": null
-        },
-        {
-          "id": "https://list.orgmode.org/87bjawubs4.fsf@gmail.com",
-          "author": null,
-          "description": "[request] flags:--- replies:0 topic:org-colview",
-          "link": "https://list.orgmode.org/87bjawubs4.fsf@gmail.com",
-          "publishedOn": "2026-08-20T14:06:19.000Z",
-          "wordCount": 1220,
-          "title": "Org Mode requests: [RFC] org-colview: Simplify column summary computation (with benchmarks)",
-          "imageUrl": null
         }
       ]
     },
@@ -1135,26 +1115,6 @@
           "wordCount": 6763,
           "title": "The Tempo Have To Take Things At Their Own Pace",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2290507193-e1787171515209.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=232986",
-          "author": "Ray Ratto",
-          "description": "We had moderate hopes for Tugboat Wilkinson in his major-league debut, just because his nickname and carriage merge so harmoniously. But because the San Francisco Giants clearly hate all of you, we didn't get nearly enough tug, or boat.\nWilkinson, whose real name is Matt, is only the second Tugboat in major league history after Thurman Munson, and he comes by his nickname with the fullest honesty. He is listed at 6-foot-1, 250 pounds, and has the front porch to suggest that the second number may be only an estimate, but that's not the hook. It's not even the fact that his best pitch has the 1934-styled nickname \"invisiball.\" \n\nhttps://www.youtube.com/watch?v=nP2U7x_w7_k",
-          "link": "https://defector.com/tugboat-wilkinson-has-steamed-into-port",
-          "publishedOn": "2026-08-20T13:56:55.000Z",
-          "wordCount": 5938,
-          "title": "Tugboat Wilkinson Has Steamed Into Port",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2290616811.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=232970",
-          "author": "Tom Ley",
-          "description": "Olivia Miles made her first bucket of Wednesday night's game against the Golden State Valkyries early in the first quarter. It was a pull-up jumper from the left elbow, and the broadcast camera zoomed in on her face as she backpedaled down the court. After a moment of thought, she said something to herself: \"They can't fucking guard me.\"\nPerhaps it was a needed reminder. The Valkyries, after all, boast the WNBA's most ferocious defense, and just two nights previous had reminded everyone how disruptive they can be for a young, dynamic guard. Paige Bueckers left Monday night's game against the Valks with 21 points, but she needed 18 shots to get there, turned the ball over seven times, and was minus-10 in an eight-point loss. That's life playing against the Valks, who defend high up the court, never stop swarming, and can unleash Gabby Willams and Veronica Burton on any opposing guard who looks too comfortable.\nExcept for Miles. Aside from a twisted ankle that forced her to the bench for the game's final minutes, Miles was about as comfortable as someone enjoying a post-meal snooze in their favorite recliner. As soon as the ball was tipped she went about extracting all the drama from this highly anticipated game between the league's top seeds, controlling the game with her playmaking and scoring. The Lynx won, 77-66, and never trailed for a second. Miles missed two shots all game, finished with 20 points and seven assists in 30 minutes, and only turned it over twice.",
-          "link": "https://defector.com/were-still-looking-for-someone-who-can-guard-olivia-miles",
-          "publishedOn": "2026-08-20T12:58:43.000Z",
-          "wordCount": 5839,
-          "title": "We’re Still Looking For Someone Who Can Guard Olivia Miles",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2291219776.jpg"
         }
       ]
     },
@@ -1196,6 +1156,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=2964",
+          "author": "Schill",
+          "description": "When people think about valuable commodities, gold, diamonds, oil, and rare artwork usually come to mind. Maple syrup rarely makes",
+          "link": "https://stuffthatinterestsme.net/sunday-weird-history-lesson-the-great-canadian-maple-syrup-heist/",
+          "publishedOn": "2026-08-30T01:23:01.000Z",
+          "wordCount": 2776,
+          "title": "Sunday Weird History Lesson: The Great Canadian Maple Syrup Heist",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3711",
           "author": "Schill",
@@ -2309,16 +2279,6 @@
           "wordCount": 21201,
           "title": "A Moms for Liberty Cofounder Just Got Her Butt Kicked in a Florida School Board Race, and I Couldn’t Be Happier",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/40ffb29b-c386-4200-bdcc-a528609e4469.jpeg?crop=1xw:0.752xh;0xw,0.05xh&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73484188/greenhouse-gas-emissions-reporting-epa/",
-          "author": null,
-          "description": "You think these greedy crazies would actually do something good for the environment?",
-          "link": "https://www.esquire.com/news-politics/politics/a73484188/greenhouse-gas-emissions-reporting-epa/",
-          "publishedOn": "2026-08-20T14:28:40.000Z",
-          "wordCount": 19725,
-          "title": "Oil and Gas Companies Are Supporting Government Emissions Reporting—Just Not for the Reason We’d Hoped",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/07356646-252b-40e6-8ec9-8baed0eadcbd.jpeg?crop=1xw:0.762xh;0xw,0.238xh&resize=1200:*"
         }
       ]
     },
@@ -2683,16 +2643,6 @@
           "wordCount": 6000,
           "title": "How to apply CSS only if there are a certain number of nested elements",
           "imageUrl": "https://gomakethings.com/img/og.png"
-        },
-        {
-          "id": "https://gomakethings.com/articles/on-fresh-starts/",
-          "author": null,
-          "description": "Back in March, I shared a bit of a sad update on my unhoused friends.\nCops raided their camp and took everything they owned. Within the week…\n Mike had relapsed Manny got arrested for stealing copper Ron was all by himself  But last Friday, I got an amazing phone call from Mike!\nSometime over the winter, he checked himself into rehab. He’s several months clean now. He’s doing therapy to address the trauma that’s caused him to use.",
-          "link": "https://gomakethings.com/articles/on-fresh-starts/",
-          "publishedOn": "2026-08-20T14:30:00.000Z",
-          "wordCount": 6234,
-          "title": "On fresh starts",
-          "imageUrl": "https://gomakethings.com/img/og.png"
         }
       ]
     },
@@ -2913,22 +2863,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!C2WN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4b0fb820-2edb-4f35-be63-e4090261f536_400x600.jpeg"
-        },
-        {
-          "id": "https://morningmemo.talkingpointsmemo.com/p/a-disturbing-peek-into-trumps-kafkaesque",
-          "author": "David Kurtz",
-          "description": "INSIDE: Greg Abbott ... Christian Castro ... Joyce Beatty",
-          "link": "https://morningmemo.talkingpointsmemo.com/p/a-disturbing-peek-into-trumps-kafkaesque",
-          "publishedOn": "2026-08-20T15:06:52.000Z",
-          "wordCount": null,
-          "title": "A Disturbing Peek Into Trump’s Kafkaesque Immigration Courts",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!JrWM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0de9022-3754-477b-a0af-15693f31a2cd_400x600.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!JrWM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0de9022-3754-477b-a0af-15693f31a2cd_400x600.jpeg"
         }
       ]
     },
@@ -3167,22 +3101,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!_9Kz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc9bc6cf-99fa-4b2b-b3f7-a7545e0ab2b9_1612x918.jpeg"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/no-one-gives-a-shit-about-your-white",
-          "author": "Jeff Tiedrich",
-          "description": "fix the country you broke, asshole",
-          "link": "https://www.jefftiedrich.com/p/no-one-gives-a-shit-about-your-white",
-          "publishedOn": "2026-08-20T14:37:13.000Z",
-          "wordCount": null,
-          "title": "no one gives a shit about your White House helipad, you out-of-touch fuck",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!QAAE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc41c715b-b774-4d10-9942-f9225f0e192f_1245x700.avif",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!QAAE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc41c715b-b774-4d10-9942-f9225f0e192f_1245x700.avif"
         }
       ]
     }
