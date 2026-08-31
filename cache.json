@@ -23,6 +23,16 @@
       "siteUrl": "https://baty.net/index.xml",
       "articles": [
         {
+          "id": "https://baty.net/posts/2026/08/fixing-wifi-with-the-framework-cachyos-and-orbi/",
+          "author": null,
+          "description": "I spent several hours yesterday trying to get Wifi to remain up on the Framework after installing CachyOS. It was not easy. I had to drag Claude Code in to help. I'd have never been able to find and fix it, otherwise.\nFlaky Wifi is a commonly-reported problem with the Framework 13. In my case it was related to the Orbi mesh, so I don't know if this helps anyone else, but I'll leave it here, just in case. It's working for me.\nTL;DR is pin wifi to a 5 GHz BSSID so the 6 GHz band doesn't get in the way.\nHere's a slightly edited version of Claude Code's summary:\nThe fault. The Framework connects, gets a DHCP lease, and stops passing\ntraffic about two minutes later. The link never drops — =iw= says =Connected=\nthroughout, the AP keeps acking frames, signal is fine. What dies is ARP:\nping starts returning Destination Host Unreachable from the machine's own\naddress, which is the kernel giving up after its ARP entry expires at ~60s and\ncannot be refreshed. The \"two minutes\" is the ARP cache lifetime, not a\ncoincidence — and that is why every log looked healthy.\nThe cause. The Orbi's 6 GHz radio is the mesh backhaul. It accepts a client\nassociation and acknowledges frames but does not bridge that client to the LAN.\nThe MT7925 is Wi-Fi 7 and can see 6 GHz, so it sometimes anchors there and is\nthen deaf. Every Wi-Fi 5/6 device in the house is immune because it cannot see\nthe band — which is exactly why this ThinkPad sat on the same AP all day\nwithout a hiccup, the comparison that finally cracked it.\nMeasured, same machine, same AP, minutes apart:\n6 GHz primary — stalled in 21 seconds\n2.4 GHz — clean for 11 minutes\n5 GHz anchored — over an hour, and survived a suspend/resume, which had been a reliable trigger.\nThe fix. Pin 802-11-wireless.bssid to a 5 GHz BSSID so it can never anchor\non 6 GHz. MLO still attaches 6 GHz as link 2 and that is harmless; what matters\nis which band anchors the association. Costs roaming — the machine stays on one unit.\nHere's the wifi-pin.sh script.\n✍️ Reply by email",
+          "link": "https://baty.net/posts/2026/08/fixing-wifi-with-the-framework-cachyos-and-orbi/",
+          "publishedOn": "2026-08-31T11:34:09.000Z",
+          "wordCount": 451,
+          "title": "Fixing the Framework's Wifi on CachyOS and Orbi",
+          "imageUrl": "https://baty.net/img/opengraph.jpg"
+        },
+        {
           "id": "https://baty.net/journal/30Aug26/",
           "author": null,
           "description": "Busy day ahead, all self-inflicted:\nReplace Fedora with CachyOS on the Framework using the Runbook I made yesterday\nUpdate Emacs to 31 everywhere (it's default on Cachy, but macOS and Fedora need work\nProcess/Scan a roll of 35mm (test on both SilverFast/macOS and Vuescan/Linux)\nUPDATE: That took WAY longer than expected. The Framework's Wifi would drop every few minutes. Had to send Claude Code in to help. Even that took hours. I think we got it, finally. The trick was to pin the Wifi connection to a specific interface/channel and force it to use v5 first and ignore v6. Something to do with the Orbi mesh, I dunno, it works now.\n✍️ Reply by email",
@@ -49,6 +59,26 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://www.jamescherti.com/securing-emacs-dir-locals-el-local-variables/",
+          "author": null,
+          "description": "Emacs automatically applies project-specific configurations through file-local and directory-local (.dir-locals.el) variables when opening a file or directory. While this feature ensures consistent settings across environments, it can cause security risks and persistent prompt fatigue when editing source code. Malicious .dir-locals.el files or file-local variables containing eval forms can execute arbitrary Lisp code if Emacs is configured to evaluate them, or if the user approves the relevant prompt by mistake.\nThis article outlines configurations for securing file-local and directory-local variables while reducing prompts.\nAllowing safe local variables\nThe enable-local-variables variable controls how Emacs handles file-local variables. File-local variables are configurations embedded dir…",
+          "link": "https://www.jamescherti.com/securing-emacs-dir-locals-el-local-variables/",
+          "publishedOn": "2026-08-31T17:34:49.000Z",
+          "wordCount": 2353,
+          "title": "James Cherti: Securing and reducing prompts for Emacs .dir-locals.el and local variables",
+          "imageUrl": null
+        },
+        {
+          "id": "https://curtismchale.ca/2026/08/31/the-search-for-knowledge-emacs-carnival",
+          "author": null,
+          "description": "August Emacs carnival is about the search for knowledge. While I take notes and link them, I don't use Emacs. I've been on the Obsidian train pretty much since it came out with a short deviation into Craft.\nI've loved the plugins that Obsidian has, but those plugins are also it's downfall. I used the Long Form plugin for a while, but then stopped and move that writing to Emacs because the plugin was loosing my data any time I tried to use it. But despite my love for Emacs, I haven't moved my notes over to it and I have no plans on moving my notes over to Emacs.\nCurrently Obsidian has around 9,000 individual files across my notes and writing. It's saved in a portable markdown format. Obsidian's sync service works flawlessly all the time and the mobile apps are good.\nOn the Emacs side, every few weeks I have some issue with Syncthing that means I need to sort out some type of sync conflict and because of this I really only add content from my phone via Beorg to my inbox.org file. I don't edit other files if I can help it, the risk is simply to high that I'll have some huge mess to sort out when I get back to my desktop.\nThe main reason I don't switch is that I don't think that migrating tools is the big productivity boost that most people think it is. Yes the Emacs vim key bindings are better than what Obsidian provides. Yes I can very easily hack Emacs to do whatever I want, but Obsidian does everything I need already. So moving my notes to Emacs would most likely be me finding Emacs more fun right now than Obsidian because it's new.\nI've wondered about accessing Obsidian from Emacs so I have Emacs goodness in my Obisidian, but even that feels like me searching for a reason to use Emacs where I don't really need it.\nIf you want to read how I setup Obsidian, my 2026 walkthrough is still how I do it.",
+          "link": "https://curtismchale.ca/2026/08/31/the-search-for-knowledge-emacs-carnival",
+          "publishedOn": "2026-08-31T16:34:00.000Z",
+          "wordCount": 421,
+          "title": "Curtis McHale: The Search for Knowledge - Emacs Carnival",
+          "imageUrl": null
+        },
         {
           "id": "https://irreal.org/blog/?p=14048",
           "author": null,
@@ -428,26 +458,6 @@
           "wordCount": 1534,
           "title": "Irreal: HTML Preview For Org Mode",
           "imageUrl": null
-        },
-        {
-          "id": "https://emacs-apac.gitlab.io/announcements/august-2026/",
-          "author": null,
-          "description": "This month’s Emacs Asia-Pacific (APAC)\nvirtual meetup is scheduled for Saturday, August\n22, 2026 with BigBlueButton and #emacs\non Libera Chat IRC. The timing will be 1400 to 1500 IST.\nThe meetup might get extended by 30 minutes if there is any talk, this\npage will be updated accordingly.\nIf you would like to give a demo or talk (maximum 20 minutes) on GNU\nEmacs or any variant, please contact bhavin192 on Libera Chat with\nyour talk details:",
-          "link": "https://emacs-apac.gitlab.io/announcements/august-2026/",
-          "publishedOn": "2026-08-22T05:06:06.000Z",
-          "wordCount": 213,
-          "title": "Emacs APAC: Announcing Emacs Asia-Pacific (APAC) virtual meetup, Saturday, August 22, 2026",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.teachmaths.org/20260822-claude-code/",
-          "author": null,
-          "description": "It has been a while since I have written about how I use Emacs/LaTeX to generate lesson notes for my students. Quite a lot has happened during that time. One of the main game changers has been the advancements in “AI” technology. Over the next few articles I intend to describe my journey as I navigate this technology and apply it to my teaching practice.\nChat Bots\nHaving decided to dip my toe in the water, I signed up to two of the prevalent players in this space, being Google Gemini and Anthropic Claude. My early experiments with ChatGPT had led to some disappointing results, where it emphatically tried to convince me that the value of Euler’s constant is 1.5. Since then, the technology has advanced significantly, and I thought it worthwhile to try again.",
-          "link": "https://www.teachmaths.org/20260822-claude-code/",
-          "publishedOn": "2026-08-22T00:00:00.000Z",
-          "wordCount": 1871,
-          "title": "Matt Maguire: AI Agents Take Over Lesson Prep",
-          "imageUrl": "https://www.teachmaths.org/logo.png"
         }
       ]
     },
@@ -456,6 +466,76 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=234153",
+          "author": "Dave McKenna",
+          "description": "There are tired fighters, and then there’s Moses Itauma in the ninth round of Saturday night’s heavyweight title bout against Filip Hrgovic. \nWith about 30 seconds left in what would be the last round of this odd but completely fascinating fight in London, the gifted but inexperienced Itauma was suddenly so gassed that he seemed utterly incapable of raising his hands above his waist, let alone defending himself from the durable Croatian veteran who was suddenly swarming him with blows from hell. Referee Howard Foster rightly called the fight and shocked the boxing world. \n\nhttps://www.youtube.com/watch?v=QLGEoGQGXPg",
+          "link": "https://defector.com/the-future-face-of-the-heavyweight-division-gets-disfigured",
+          "publishedOn": "2026-08-31T18:28:05.000Z",
+          "wordCount": 6230,
+          "title": "The Future Face Of The Heavyweight Division Gets Disfigured",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2292700452.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234128",
+          "author": "Patrick Redford",
+          "description": "On Friday, the U.S. Ninth Circuit Court of Appeals issued a 3-0 ruling against Kalshi, a ruling that in theory gives states the power to regulate the \"prediction market\" platform. However strong that sounds, one can't fairly characterize the decision as authoritative. While the San Francisco–based court's unanimous ruling represents the most significant curtailment of the don't-call-it-gambling gambling platform, the fight between the Kalshian cohort of bloodsuckers and those who would regulate them is of a larger and stupider nature than even the biggest appeals court in the nation can handle.\nWe have to start with the odd fact that Kalshi, and the Polymarket prediction market, are presently regulated by the federal government. Not in any meaningful way, of course—befitting a pair of organizations that have each hired Donald Trump Jr. as a \"strategic advisor\"—but both are technically overseen by the Commodity Futures Trading Commission, a small agency, created in 1974, that typically governs futures markets and other forms of derivatives. The prediction markets' core argument in the case before the Ninth Circuit is that CFTC oversight is sufficient, which is to be expected given that the scope of that regulatory relationship has amounted to a big thumbs-up in exchange for whatever it costs to buy a Trump son or two. \nThe CFTC has become a critical arm of the Donald Trump financial crimes apparatus because it has statutory authority to regulate commodities and to classify all sorts of things that are not commodities, like cryptocurrency and online sports bets, as such. This designation lightens the regulatory burden. Securities, by contrast, are subject to stricter rules, which is part of why the Bitcoin people are obsessed with calling the obviously securitized asset digital gold.",
+          "link": "https://defector.com/kalshi-lawsuit-pits-states-against-trump-familys-corruption-machine",
+          "publishedOn": "2026-08-31T17:52:46.000Z",
+          "wordCount": 5945,
+          "title": "Kalshi Lawsuit Pits States Against Trump Family’s Corruption Machine",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2265177104.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234097",
+          "author": "Giri Nathan",
+          "description": "For the first time in over 20 years, Novak Djokovic lost his first-round match at a Slam. On Sunday he fell in five sets to world No. 49 Mariano Navone, a 25-year-old clay-court specialist appearing in just his third-ever U.S. Open main draw. In other words, the sort of opponent Djokovic has made a career of dispatching, even if it did sometimes take him a leisurely five sets to do it.\nIn this late period of his career, Djokovic has professed his love of the best-of-five format, which affords him time to recalibrate. His comeback after a hot start from a plucky youth has played out so many times that there's an air of inevitability in the stadium as he goes about his business, overcoming his aches and steadying the scoreboard. But this was not the Djokovic of matches past, and there was no air of inevitability Sunday night—just a gruesome scene. The 39-year-old labored, vomited, and cried en route to losing 7-6(5), 5-7, 4-6, 6-2, 6-1.\nNot since the 2006 Australian Open—a tournament he'd go on to win 10 times—has Djokovic exited a Slam in the first round. He'd also never lost in the U.S Open’s first round before. But this loss was not without recent precedent. Djokovic had struggled with the heat at the Cincinnati Open in mid-August, losing his first match there to Thiago Agustin Tirante: coincidentally, another 25-year-old Argentine then ranked around No. 50. During that match, Djokovic appeared to vomit and took a medical timeout. After that loss, he referenced an unspecified health condition \"that has been bothering me for the past couple of years,\" making it hard for him to play in hot and humid weather. To the best of my knowledge, that was his first-ever public reference to such a condition.",
+          "link": "https://defector.com/novak-djokovic-pukes-and-crumbles-at-the-u-s-open",
+          "publishedOn": "2026-08-31T17:33:41.000Z",
+          "wordCount": 7458,
+          "title": "Novak Djokovic Pukes And Crumbles  At The U.S. Open",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2292769135.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234098",
+          "author": "Luis Paez-Pumar",
+          "description": "Two matches into a new Premier League season is the perfect time to overreact. One match is a fluke; three matches feel too real. Two matches, however, give an overeager observer just enough pattern recognition to make claims that far exceed reality. This is doubly true if a club has shown quality and frailty in almost equal part. Therefore, after two barnstorming wins and/or two near-collapses to open the 2026-27 campaign, I feel confident in saying that Chelsea is great, doomed, and a work in progress.\n\nhttps://www.youtube.com/watch?v=mfN4qZtc5sk\n\n\nReally, how you feel about Chelsea will depend on how you feel about life. For an optimist, the club beating last year's 11th- and 8th-placed teams to start the season, the former away from home and the latter at Stamford Bridge, is a beautiful start to the Xabi Alonso era. On the flip side, Chelsea's inability to see out either game without letting the opponents back into them is a pessimist's fantasy, a red klaxon blaring over Chelsea's lopsided roster construction and a manager who, while highly regarded, is coming off of a high-profile flameout. The boring and most correct feeling is probably somewhere in the middle, of course, but that's no fun. What is fun is Chelsea Football Club as it stands after two matchweeks; similarly to last season's Liverpool, the Blues have declared themselves as the main event for neutrals, a must-watch whirlwind of chaos that might leave Chelsea fans needed heart medication.",
+          "link": "https://defector.com/chelsea-contains-thrilling-multitudes",
+          "publishedOn": "2026-08-31T16:22:22.000Z",
+          "wordCount": 7464,
+          "title": "Chelsea Contains Thrilling Multitudes",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2292702360.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234099",
+          "author": "Mike Tanier",
+          "description": "Some people are fans of the Houston Texans. But many, many more people are NOT fans of the Houston Texans. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.\nYour team: Houston Texans.\nYour 2025 record: The Texans won 12 games last year. Their defense stomped around like King Ghidorah ravaging Tokyo. Their offense puttered along like a dump truck with two flat tires and one square one.",
+          "link": "https://defector.com/why-your-team-sucks-2026-houston-texans",
+          "publishedOn": "2026-08-31T15:21:04.000Z",
+          "wordCount": 15441,
+          "title": "Why Your Team Sucks 2026: Houston Texans",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2256666978.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234105",
+          "author": "Maitreyi Anantharaman",
+          "description": "We're ending the month with a challenging themeless puzzle. Keep an eye out for tricky clues and fun wordplay. This week's puzzle was constructed by Greg Snitkin and Glenn Davis, and edited by Hoang-Kim Vu. Greg is a dad with three small kids and a hedge fund controller from South Orange, N.J. He's been in a fantasy football league with Glenn since 2013 and spanks him every year. Glenn is a reformed sports blogger now working in the non-profit space. He and his wife live in New Jersey with two human children and two cats. He won the league in 2018, so Greg is an unreliable narrator.\nDefector crosswords, launched in partnership with our friends at AVCX, run every Monday. If you’re interested in submitting a puzzle to us, you can read our guidelines HERE. The AVCX, an independent puzzles and games outlet, invites you to subscribe, or sample the goods with a two-month free trial: \"With an AVCX subscription, you get access to weekly themed and themeless crosswords, minis, cryptics, and trivia, by email or in your favorite app. We have no corporate overlord, and we publish top-flight stuff only. We also pay our people fairly, always. Check us out.\"",
+          "link": "https://defector.com/the-crossword-aug-31-prepare-for-trouble-and-make-it-double-themeless",
+          "publishedOn": "2026-08-31T15:00:00.000Z",
+          "wordCount": 4383,
+          "title": "The Crossword, Aug. 31:  Prepare For Trouble, And Make It Double (Themeless)",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2275730454.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234079",
+          "author": "Tom Ley",
+          "description": "Last week, the U.S. Department of Justice announced the arrests of two men in Portland, Ore. A 35-year-old man named Daejon Love and an 18-year-old man named Taylor Jamie Chan were charged with wire fraud and conspiracy to commit wire fraud. Those charges stem from Love and Chan running an alleged scam operation that involved defrauding various women through Love (unconvincingly) pretending to be a wide receiver for the San Francisco 49ers.\nProsecutors say Love and Chan stole a total of $1.3 million from several women between 2022 and 2026. Love would meet the women on dating apps, Chan would pose as his financial advisor, and then they would convince the women to send them money to be used in investment strategies. From the DoJ's press release:\nLove and Chan also exchanged investment-related electronic communications in which Chan pretended to be Love’s investment adviser. Chan sent Love messages purportedly encouraging Love to invest in new opportunities. Love then sent screenshots of those messages to numerous victims to further convince them to send money to either Love or Chan. Chan and Love also hosted three-way FaceTime calls in which they showed victims falsified investment gains and encouraged victims to part with their money. Victims sent Love and Chan money due to their belief that their money would be invested in legitimate investment vehicles on the victims’ behalf. Some victims also loaned Love large amounts of money, if victims did not have cash to invest, Love sometimes instructed them to take out personal loans in both scenarios Love assured the victims that they would quickly be repaid.",
+          "link": "https://defector.com/daejon-love-will-go-down-as-a-scammer-for-the-ages",
+          "publishedOn": "2026-08-31T13:03:50.000Z",
+          "wordCount": 5839,
+          "title": "Daejon Love Will Go Down As A Scammer For The Ages",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/DaejonLoveBeach.png"
+        },
         {
           "id": "https://defector.com/?p=234044",
           "author": "Rachelle Hampton",
@@ -1285,16 +1365,6 @@
           "wordCount": 2618,
           "title": "Saturday Night 80s Jam: Erasure – Chains of Love",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3389",
-          "author": "Schill",
-          "description": "The 1980s were supposed to be the decade of the new. MTV was exploding. Synthesizers were everywhere. New wave, punk,",
-          "link": "https://stuffthatinterestsme.net/20-old-bands-and-artists-who-somehow-came-back-in-the-80s/",
-          "publishedOn": "2026-08-22T01:11:20.000Z",
-          "wordCount": 5210,
-          "title": "20 Old Bands and Artists Who Somehow Came Back in the ’80s",
-          "imageUrl": null
         }
       ]
     },
@@ -1309,6 +1379,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/salon-amanda-marcotte.xml",
       "siteUrl": "https://www.salon.com/writer/amanda_marcotte",
       "articles": [
+        {
+          "id": "https://www.salon.com/2026/08/31/texas-and-georgia-races-show-voters-are-finally-sick-of-maga-corruption/-full",
+          "author": null,
+          "description": "It’s easy to see why Ken Paxton thought he could waltz right into the role of senator from Texas. Sure, the state’s Republican nominee and current attorney general is widely seen as one of the most corrupt men in politics, a man with so many scandals that even his fellow Republicans impeached him. (Sadly, the Texas Senate refused to convict him.) Still, Donald Trump won over 56% of the vote in Texas in 2024, despite the Jan. 6th riot and his felony convictions for fraud in New York, so it seemed voters don’t care about corruption. Paxton has been so sure it would be simple to beat his Democratic opponent, state Rep. James Talarico, that he even blew off campaigning over much of the summer in favor of a luxury European vacation with his alleged mistress, a conservative Christian influencer …",
+          "link": "https://www.salon.com/2026/08/31/texas-and-georgia-races-show-voters-are-finally-sick-of-maga-corruption/",
+          "publishedOn": "2026-08-31T10:45:32.000Z",
+          "wordCount": 2292,
+          "title": "Texas and Georgia races show voters are finally sick of MAGA corruption",
+          "imageUrl": "https://www.salon.com/app/uploads/2026/08/james-talarico-2291094164.jpg"
+        },
         {
           "id": "https://www.salon.com/2026/08/28/the-high-cost-of-maga-manhood/-full",
           "author": null,
@@ -2041,6 +2121,16 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73571184/marco-rubio-free-speech-lawsuit-federal-judge/",
+          "author": null,
+          "description": "Another L for the incredible shrinking secretary of state.",
+          "link": "https://www.esquire.com/news-politics/politics/a73571184/marco-rubio-free-speech-lawsuit-federal-judge/",
+          "publishedOn": "2026-08-31T17:28:48.000Z",
+          "wordCount": 18499,
+          "title": "A Federal Judge Just Kicked Marco Rubio’s Butt in a No-Brainer Decision About Protected Speech",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/9b2d344a-a3f5-4d15-a75e-3b6027c2fc7e.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73556367/ron-desantis-10-million-dollars-taxpayer-funds-scandal/",
           "author": null,
           "description": "A $10 million pickle, to be exact. Oh, and it involves multiple important people in Florida politics.",
@@ -2191,46 +2281,6 @@
           "publishedOn": "2026-08-24T23:53:04.000Z",
           "wordCount": null,
           "title": "The Ramones: The Band That Changed Rock & Roll Forever",
-          "imageUrl": null
-        },
-        {
-          "id": "https://historyofmusic.net/?p=5818",
-          "author": "schill",
-          "description": "The story of rock and roll does not begin in the 1950s. It doesn’t really begin in the 1940s either.",
-          "link": "https://historyofmusic.net/1930s/how-1920s-jazz-eventually-became-1950s-rock-and-roll/",
-          "publishedOn": "2026-08-22T03:54:57.000Z",
-          "wordCount": 3270,
-          "title": "How 1920s Jazz Eventually Became 1950s Rock and Roll",
-          "imageUrl": null
-        },
-        {
-          "id": "https://historyofmusic.net/?p=5815",
-          "author": "schill",
-          "description": "Led Zeppelin’s story is one of the most remarkable in rock music. It begins with a guitarist whose previous band",
-          "link": "https://historyofmusic.net/1960s/the-history-of-led-zeppelin/",
-          "publishedOn": "2026-08-22T03:45:22.000Z",
-          "wordCount": 5471,
-          "title": "The History of Led Zeppelin",
-          "imageUrl": null
-        },
-        {
-          "id": "https://historyofmusic.net/?p=5812",
-          "author": "schill",
-          "description": "There are plenty of great film composers. There are composers who can write beautiful melodies, composers who can create",
-          "link": "https://historyofmusic.net/1980s/the-genius-of-danny-elfman/",
-          "publishedOn": "2026-08-22T03:24:24.000Z",
-          "wordCount": 3555,
-          "title": "The Genius of Danny Elfman",
-          "imageUrl": null
-        },
-        {
-          "id": "https://historyofmusic.net/?p=5800",
-          "author": "schill",
-          "description": "The idea of a supergroup sounds better on paper than it usually does in practice. Take several famous musicians, put",
-          "link": "https://historyofmusic.net/folk/why-the-traveling-wilburys-are-the-greatest-supergroup-ever/",
-          "publishedOn": "2026-08-22T02:25:39.000Z",
-          "wordCount": 4105,
-          "title": "Why the Traveling Wilburys Are the Greatest Supergroup Ever",
           "imageUrl": null
         }
       ]
@@ -2652,6 +2702,22 @@
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/what-happened-to-promised-federal",
+          "author": "David Kurtz",
+          "description": "INSIDE: Kash Patel ... James Clyburn ... Pete Hegseth",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/what-happened-to-promised-federal",
+          "publishedOn": "2026-08-31T16:07:24.000Z",
+          "wordCount": null,
+          "title": "What Happened to Promised Federal Charges Against That Freed ICE Agent?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!fy1G!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F186e7b4f-8c04-4f1a-9cdc-db0cdf3f59cd_400x600.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!fy1G!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F186e7b4f-8c04-4f1a-9cdc-db0cdf3f59cd_400x600.jpeg"
+        },
+        {
           "id": "https://morningmemo.talkingpointsmemo.com/p/wyoming-gop-governor-decries-aggressive",
           "author": "David Kurtz",
           "description": "INSIDE: Roy Cohn ... Mark Carney ... Dolly Parton",
@@ -2809,6 +2875,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/all-hail-preznit-fuckwit-glorious",
+          "author": "Jeff Tiedrich",
+          "description": "it’s the skirmish that has never happened the most",
+          "link": "https://www.jefftiedrich.com/p/all-hail-preznit-fuckwit-glorious",
+          "publishedOn": "2026-08-31T14:44:27.000Z",
+          "wordCount": null,
+          "title": "all hail Preznit Fuckwit, glorious victor of the imaginary Battle of Kharg Island",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!FIDx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65a1256a-d064-4876-8857-3927adafef80_1130x648.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!FIDx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65a1256a-d064-4876-8857-3927adafef80_1130x648.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/milo-got-deported-and-maga-is-losing",
           "author": "Jeff Tiedrich",
