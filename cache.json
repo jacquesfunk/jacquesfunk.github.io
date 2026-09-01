@@ -60,6 +60,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://takeonrules.com/2026/09/01/how-im-feeling-emacs-package/",
+          "author": null,
+          "description": "In late April of this year, I’ve began experiencing a heightened anxiety.  I\nstarted therapy then later taking anti-anxiety medication.  I worked to change\nsome of my behaviors.  And started writing even more personal journal entries.\nLast Friday I found a list of feelings and responses that resonated with me:\nAngry: Lift weights\nStressed: Go for a walk\nProcrastinating: Set a 10-minute timer\nSad: Get sunlight\nCan’t focus: Clean your workspace\nNegative thoughts: Write 3 gratitudes\nStuck: Change your environment\nFinancial stress: Build an emergency fund\nLow energy: Fix your sleep\nOverthinking: Journal it out\nLonely: Call someone\nNo motivation: Start with 2 minutes\nAnxiety: Slow your breathing\nBrain fog: Drink water and move\nLow confidence: Keep small promises\nLost: Define one clear goal\nTwic…",
+          "link": "https://takeonrules.com/2026/09/01/how-im-feeling-emacs-package/",
+          "publishedOn": "2026-09-01T10:35:14.000Z",
+          "wordCount": 814,
+          "title": "Jeremy Friesen: How I’m Feeling Emacs Command",
+          "imageUrl": "https://takeonrules.com/images/takeonrules.wordpress.com-banner.jpg"
+        },
+        {
           "id": "https://ray-on-emacs.blogspot.com/2026/09/games-emacs-carnival-post-for-september.html",
           "author": null,
           "description": "I don't play games within Emacs.  Instead I enjoy learning about the\nmany functions and modes it has.  I even derived a Tip of the Day\nthat displays help on a randomly-chosen function.  I invoke it at\nstartup; there's a non-zero probability that I'll spend 15 minutes\nor so exploring the function it provides.\n\n\n\nI get the impression that I'm not the only one who enjoys Emacs this\nway.  When I read others' postings, I see references to \"customize,\"\n\"configure,\" \"init file,\" \"rabbit hole.\"  I'm pretty sure I also came\nacross a few posts that contained this: \"my ex-spouse made me chose\n    between him/her and Emacs.\"  Often, reading these posts is enjoyable\nin itself.\n\n\n\nI enjoy writing and blogging, too.  I started my first journal when\nI was 13 years old.  My answer to \"What book would you choose if\nstranded on an uninhabited island?1\" would be \"a blank notebook that\ncomes with a pencil.\"  I also enjoy interacting with the Emacs\ncommunity.  It's as if this \"Ray on Emacs\" blog provides\nentertainment squared.  This can be expressed mathematically as E2,\nwhere E is entertainment and 2 is two.\n\n\n\nWhile researching this topic, I was surprised at how many games we\ncan choose from, even in plain vanilla.  Naive folks might scoff at\nprogrammers who write games for Emacs.  But they don't understand\nthat games demonstrate Emacs' capabilities.  I suspect the\nunderlying motivation is that writing games for Emacs is fun.  It's\na challenge that leads to accomplishment.2\n\n\n\nI'm looking forward to reading submissions to Emacs Carnival September 2026 and trying\nsome games.  participate is Humor not to necessary.3\n\n\n\n  1 aka \"Desert Island\" see Uninhabited island on Wikipedia\n\n\n\n  2 Folks in the MS-DOS USENETs would joke about writing Batch Files\nthat could do calculus.  At least I think it was a joke.\n\n\n\n  3 \"Humor is not necessary to participate\" (as evidenced\n  by this post).",
@@ -438,26 +448,6 @@
           "wordCount": 626,
           "title": "Org Mode requests: [FR] Include :var expansion in expanded noweb references (was: ob-clojure :var header argument not work when src block is noweb called by another src block)",
           "imageUrl": null
-        },
-        {
-          "id": "https://monadicsheep.org/blog/an-introduction-to-canvas-in-emacs.html",
-          "author": null,
-          "description": "by Divya\n2026 August 23\n emacs canvas\n\nBad apple playing on the top right, a 2d rainbow growing box on the left. The bottom contains: dots 3d demo, pendulum, a bouncing ball.\n\n\n\nTable of Contents\n1. Frequently Asked Questions\n2. What Is a Canvas?\n3. Creating and Using A Canvas\n\n3.1. Canvas via Emacs Lisp Only\n3.2. Canvas via Dynamic Modules\n4. Demonstrations\n\n4.1. A Bouncing Ball\n4.2. Chaotic Double Pendulum\n4.3. Points in 3D Space\n5. Conclusion & Further Work\n6. Canvas Applications & Resources\nmerged to upstream GNU Emacs. If you have been following my Mastodon, this was a journey that took us ~8 months. But finally we have, in core Emacs, a feature that I desperately desired in early 2025 when I was starting the Emacs Reader project: a way to update and manipulate images in Emacs without…",
-          "link": "https://monadicsheep.org/blog/an-introduction-to-canvas-in-emacs.html",
-          "publishedOn": "2026-08-23T00:00:00.000Z",
-          "wordCount": 5124,
-          "title": "Monadic Sheep: An Introduction to Canvas in GNU Emacs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.teachmaths.org/20260823-gemma-goose/",
-          "author": null,
-          "description": "In my last article\n on AI agents I talked about using Claude Code AI agent. This is an easy-to-set-up commercial solution that gives excellent results. The risk is that the pricing may not remain as affordable as it is today, and as a result I wanted to find an alternative solution that insulates me from changing commercials.\nThere are a number of open-weight models that one may download and run locally on your home computer. Some of the benefits are:",
-          "link": "https://www.teachmaths.org/20260823-gemma-goose/",
-          "publishedOn": "2026-08-23T00:00:00.000Z",
-          "wordCount": 1701,
-          "title": "Matt Maguire: AI Agents and Local LLMs",
-          "imageUrl": "https://www.teachmaths.org/logo.png"
         }
       ]
     },
@@ -466,6 +456,46 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=234050",
+          "author": "Giri Nathan",
+          "description": "As Lauren Theisen pointed out last month, the ongoing, abstracted debate about trans inclusion in sports uses almost no proper nouns and lots of hypotheticals. Back in the late 1970s, there was a very real, very human example of a trans athlete playing at the highest level of a mainstream sport. Renée Richards competed in professional tennis, and her fascinating life is explored meticulously in Julie Kliegman's new biography, Finding Renée Richards. The book is an invaluable intervention in the tortured public discourse, which in recent weeks has been polluting the WNBA. Read this book and forget that Enes Kanter Freedom or Royce White exist.\nI led a Q&A with Julie for the book's launch last week, and have condensed and edited parts of our conversation below.",
+          "link": "https://defector.com/interview-julie-kliegman-finding-renee-richards",
+          "publishedOn": "2026-09-01T14:27:39.000Z",
+          "wordCount": 16305,
+          "title": "An Interview With A Biographer Of Renée Richards, An Actual Trans Pro Athlete",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/finding-renee-richards.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234049",
+          "author": "Kathryn Xu",
+          "description": "PHILADELPHIA — The Benjamin Franklin Parkway was designed in 1917 by French architect Jacques Gréber in the European style of boulevard, specifically inspired by the Champs-Élysées, which means it is a thematically apt and suitably picturesque locale for the end of a cycling race and a horrible—I mean absolutely dogshit, for all involved parties—road. On Aug. 30, the first Philadelphia Cycling Classic in a decade, by simple virtue of being a cycling race that necessitated mass closure of roads to their invasive predators (cars), rendered the Parkway back down to its theoretical beauty: a shaded, expansive corridor connecting City Hall to the Philadelphia Art Museum, one which happens to be flanked by flags.\nPedestrian traffic was dictated by volunteers in bright orange shirts. Sometimes the impending cyclists were well-telegraphed by the blaring horns of incoming organizer cars, but other stragglers were conveyed by word of mouth. \"Batter up!\" one volunteer yelled, before the whistling and cowbells commenced for a lone cyclist. When the volunteer waved a crowd of pedestrians by to the shaded side of the road, she directed us to pause halfway and look to the left for potential cyclists.\nI stood somewhere between India's and Iceland's flags to watch the final stretch of the women's race, mostly on a gigantic screen set in the middle of the road. The crowd was a mix of locals, legitimate enthusiasts of the sport of cycling, more general enthusiasts of cycling in general, and foreign tourists. To my left were three older men who had done some amateur bike races before. To my right, past India, was a crowd of spectators sitting on bleachers.",
+          "link": "https://defector.com/philly-is-the-star-of-the-philadelphia-cycling-classic",
+          "publishedOn": "2026-09-01T14:00:44.000Z",
+          "wordCount": 9817,
+          "title": "Philly Is The Star Of The Philadelphia Cycling Classic",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/phillyCyclingClassic2026.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234246",
+          "author": "Barry Petchesky",
+          "description": "They don't give style points in baseball, but if you were scoring Orioles-Rockies, you'd want to break out a second, third, maybe even a fourth color of pen to decorate the box with Colton Cowser's ninth-inning catch to save the game for Baltimore. Maybe some tempera as well. You can't make that \"F8\" pretty enough.\nAll home-run robberies are special, but they come in flavors. On most, the fielder is totally vertical—having had time to settle on the track for a towering fly ball, and lofting himself at the right moment to haul it in. On Cowser's grand larceny of Jake McCarthy, he had no time to plan it, no time to set. He was at a full sprint back, and hurled himself into the wall, and as he reeled in what would have been a game-winning home run, his legs were scissored outward, his momentum back instead of up. Barely controlled ballet. O's manager Craig Albernaz called it \"the best play I’ve ever seen.\" Dare you dissent?\n\nhttps://youtu.be/_LuMGPrkbZ0?t=707",
+          "link": "https://defector.com/holy-god-damn-colton-cowser",
+          "publishedOn": "2026-09-01T13:34:43.000Z",
+          "wordCount": 5373,
+          "title": "Holy God Damn, Colton Cowser",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2292934994.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234112",
+          "author": "Joel Pinckney",
+          "description": "If you haven’t yet encountered the cover story for the August issue of The Atlantic, I have some bad news to share: \"The End of Reading Is Here.\" It’s an intentionally provocative headline for a slightly less provocative story; while it may portend doom, Rose Horowitch’s piece makes a smaller claim than its headline. She speaks more of a “decline of reading,” and, in a nod to Marshall McLuhan, argues that the U.S. is “postliterate.” Certainly there are crises well-covered within the piece that represent real challenges to readers today: attacks on our capacity for attention, metrics that show marked declines in reading comprehension, the impacts of generative AI on readers and reading, and more.\nBut The Atlantic's framing places it firmly in a tradition with which the still-existing readin…",
+          "link": "https://defector.com/what-do-booksellers-make-of-the-end-of-reading",
+          "publishedOn": "2026-09-01T13:07:43.000Z",
+          "wordCount": 12224,
+          "title": "What Do Booksellers Make Of “The End Of Reading”?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/Reading.jpg"
+        },
         {
           "id": "https://defector.com/?p=234058",
           "author": "Diana Moskovitz",
@@ -1364,16 +1394,6 @@
           "publishedOn": "2026-08-24T01:57:21.000Z",
           "wordCount": 1246,
           "title": "Monday Meme Dump",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=2961",
-          "author": "Schill",
-          "description": "The Eiffel Tower is one of the most recognizable landmarks on Earth. Standing proudly above Paris since 1889, it attracts",
-          "link": "https://stuffthatinterestsme.net/sunday-weird-history-lesson-the-time-the-eiffel-tower-was-sold-twice/",
-          "publishedOn": "2026-08-23T01:19:00.000Z",
-          "wordCount": 2772,
-          "title": "Sunday Weird History Lesson: The Time the Eiffel Tower Was Sold Twice",
           "imageUrl": null
         }
       ]
