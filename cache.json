@@ -23,6 +23,16 @@
       "siteUrl": "https://baty.net/index.xml",
       "articles": [
         {
+          "id": "https://baty.net/journal/01Sep26/",
+          "author": null,
+          "description": "Charlevoix in the morning (2026). Leica MP.\nSorry, I can't right now. I'm too busy vetting every goddamned company even remotely attached to every single piece of software and hardware I use or am thinking of using. Why does everything have to suck, now?\nI'm sure everyone will be selling their MacBooks and iPhones and canceling all Apple services now that Ternus is on X. I wanted to post this on Mastodon but I really don't feel like starting a fight I don't have the energy to finish :)\n✍️ Reply by email",
+          "link": "https://baty.net/journal/01Sep26/",
+          "publishedOn": "2026-09-01T15:00:48.000Z",
+          "wordCount": 157,
+          "title": "Tuesday, September 1, 2026",
+          "imageUrl": "https://baty.net/img/2026/chair.webp"
+        },
+        {
           "id": "https://baty.net/posts/2026/08/fixing-wifi-with-the-framework-cachyos-and-orbi/",
           "author": null,
           "description": "I spent several hours yesterday trying to get Wifi to remain up on the Framework after installing CachyOS. It was not easy. I had to drag Claude Code in to help. I'd have never been able to find and fix it, otherwise.\nFlaky Wifi is a commonly-reported problem with the Framework 13. In my case it was related to the Orbi mesh, so I don't know if this helps anyone else, but I'll leave it here, just in case. It's working for me.\nTL;DR is pin wifi to a 5 GHz BSSID so the 6 GHz band doesn't get in the way.\nHere's a slightly edited version of Claude Code's summary:\nThe fault. The Framework connects, gets a DHCP lease, and stops passing\ntraffic about two minutes later. The link never drops — =iw= says =Connected=\nthroughout, the AP keeps acking frames, signal is fine. What dies is ARP:\nping starts returning Destination Host Unreachable from the machine's own\naddress, which is the kernel giving up after its ARP entry expires at ~60s and\ncannot be refreshed. The \"two minutes\" is the ARP cache lifetime, not a\ncoincidence — and that is why every log looked healthy.\nThe cause. The Orbi's 6 GHz radio is the mesh backhaul. It accepts a client\nassociation and acknowledges frames but does not bridge that client to the LAN.\nThe MT7925 is Wi-Fi 7 and can see 6 GHz, so it sometimes anchors there and is\nthen deaf. Every Wi-Fi 5/6 device in the house is immune because it cannot see\nthe band — which is exactly why this ThinkPad sat on the same AP all day\nwithout a hiccup, the comparison that finally cracked it.\nMeasured, same machine, same AP, minutes apart:\n6 GHz primary — stalled in 21 seconds\n2.4 GHz — clean for 11 minutes\n5 GHz anchored — over an hour, and survived a suspend/resume, which had been a reliable trigger.\nThe fix. Pin 802-11-wireless.bssid to a 5 GHz BSSID so it can never anchor\non 6 GHz. MLO still attaches 6 GHz as link 2 and that is harmless; what matters\nis which band anchors the association. Costs roaming — the machine stays on one unit.\nHere's the wifi-pin.sh script.\n✍️ Reply by email",
@@ -2241,6 +2251,16 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73585599/scott-bessent-canada-harsh-words/",
+          "author": null,
+          "description": "And it’s nothing useful, in case you were wondering.",
+          "link": "https://www.esquire.com/news-politics/politics/a73585599/scott-bessent-canada-harsh-words/",
+          "publishedOn": "2026-09-01T22:14:01.000Z",
+          "wordCount": 17448,
+          "title": "When It Comes to International Trade, Treasury Secretary Scott Bessent Is Extraordinarily Good at This One Thing",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/7a0cbc9f-a334-4aca-a183-057f15ebfc67.jpeg?crop=1xw:0.749633967789xh;center,top&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73572919/kash-patel-fbi-hiring-crisis/",
           "author": null,
           "description": "The FBI has lowered its employment standards, no doubt because the guy in charge is an absolute fool.",
@@ -2641,6 +2661,16 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/fragments/2026-09-01.html",
+          "author": null,
+          "description": "Like many readers, I’m wary of AI generated prose. Simon Wilison has written an LLM cliché highlighter - paste in some text, or a URL, and it will flag various patterns common to LLMs. It references a wikipedia page of signs of AI writing. That page points out that:\nHumans are notoriously bad at distinguishing human and LLM-generated text. While research on humans’ abilities to detect AI-generated text is still limited, a 2025 study has shown that human ability to distinguish LLM text from human is no better than random chance. Another 2025 study on German theses has shown that humans managed a “recognition rate of 57% for AI texts and 64% for human-generated texts”.[\nNot just do I find myself repelled by prose with an LLM-voice, I also wonder how accurate my reaction is. I’m old enough to…",
+          "link": "https://martinfowler.com/fragments/2026-09-01.html",
+          "publishedOn": "2026-09-01T19:50:00.000Z",
+          "wordCount": 1185,
+          "title": "Fragments: September  1",
+          "imageUrl": "https://martinfowler.com/fragments/fragments-thumb.png"
+        },
+        {
           "id": "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html",
           "author": null,
           "description": "Lots of organizations are excited about what AI can do to streamline\n      their processes, save money, and juice margins. But AI's capabilities are\n      founded on the data that AI accesses, and for many organizations that\n      foundation is little more than sand. Pramod Sadalage and\n      Prem Chandrasekaran write about how to build a reliable\n      foundation of data that can be accurate and trusted.\nmore…",
@@ -2720,6 +2750,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1556510",
+          "author": "Josh Marshall",
+          "description": "Over the last week, there have been a number of examples popping up on social media of Republicans, often very...",
+          "link": "https://talkingpointsmemo.com/edblog/does-trump-have-a-third-act",
+          "publishedOn": "2026-09-01T21:08:25.000Z",
+          "wordCount": 2120,
+          "title": "Does Trump Have a Third Act?",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-2192581073-e1786980604288.jpg?w=1200"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1556476",
           "author": "Josh Marshall",
@@ -2956,6 +2996,22 @@
       "feedUrl": "https://wherethingsstand.talkingpointsmemo.com/feed",
       "siteUrl": "https://wherethingsstand.talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://wherethingsstand.talkingpointsmemo.com/p/trump-calls-on-his-most-loyal-henchman",
+          "author": "Nicole Lafond",
+          "description": "This is your TPM evening briefing.",
+          "link": "https://wherethingsstand.talkingpointsmemo.com/p/trump-calls-on-his-most-loyal-henchman",
+          "publishedOn": "2026-09-01T20:57:49.000Z",
+          "wordCount": null,
+          "title": "Trump Calls on His Most Loyal Henchman to Shut Down Facts He Doesn’t Want Reported",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!1jlc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdcef12ab-27b7-4a46-ae75-e69ae773b4d6_1600x1200.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!1jlc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdcef12ab-27b7-4a46-ae75-e69ae773b4d6_1600x1200.png"
+        },
         {
           "id": "https://wherethingsstand.talkingpointsmemo.com/p/trump-picks-tech-friends-over-republicans",
           "author": "Nicole Lafond",
