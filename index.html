@@ -22,11 +22,44 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-31 datetime="2026-08-31T22:14:48.000Z">2026-08-31</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-31 datetime="2026-08-31T22:14:48.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-31 datetime="2026-09-01T00:27:10.000Z">2026-08-31</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-31 datetime="2026-09-01T00:27:10.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Stuff That Interests Me</button>
+                  <a class="source-heading__link" href="https://stuffthatinterestsme.net">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://stuffthatinterestsme.net/?p&#x3D;3358"
+                        open
+                      >
+                        <summary class="article-expander__title">Troma Tuesday: Class Of Nuke ‘Em High</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://stuffthatinterestsme.net/troma-tuesday-class-of-nuke-em-high/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>There are movies that try to be scary, movies that try to be funny, and movies that seem to have</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -138,6 +171,105 @@
                             <span class="media-object__text">
                               <span>Another L for the incredible shrinking secretary of state.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;62
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Emacslife</button>
+                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://sachachua.com/blog/2026/08/2026-08-31-emacs-news/"
+                        open
+                      >
+                        <summary class="article-expander__title">Sacha Chua: 2026-08-31 Emacs news</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://sachachua.com/blog/2026/08/2026-08-31-emacs-news/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>;;; -*- lexical-binding: t -*-
+
+(add-to-list &#x27;warning-suppress-types &#x27;(files missing-lexbind-cookie)). There are more details on lexical-binding in the Elisp info manual.
+
+
+
+Emacs Carnival: Check out the entries for August in &quot;The Search for Knowledge&quot; and stay tuned for September&#x27;s topic, &quot;Games.&quot;
+
+
+
+Emacs 31:
+
+Emacs 31.1 is released! (Reddit, HN, HN, HN, Irreal, lobste.rs) - including this again from last week
+Mickey Petersen: What&#x27;s New in Emacs 31.1? (Reddit, HN) - including this again from last week
+Android builds of Emacs 31.1 now available
+Emacs 31.1 binaries now available for Windows (Reddit)
+
+Upcoming events (iCal file, Org):
+
+EmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/316121976/ Thu Sep 3 1600 America/Vancouver - 1800 America/Chicago - 1900 America/Toronto - 23…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.jamescherti.com/securing-emacs-dir-locals-el-local-variables/"
+                        open
+                      >
+                        <summary class="article-expander__title">James Cherti: Securing and reducing prompts for Emacs .dir-locals.el and local variables</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.jamescherti.com/securing-emacs-dir-locals-el-local-variables/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Emacs automatically applies project-specific configurations through file-local and directory-local (.dir-locals.el) variables when opening a file or directory. While this feature ensures consistent settings across environments, it can cause security risks and persistent prompt fatigue when editing source code. Malicious .dir-locals.el files or file-local variables containing eval forms can execute arbitrary Lisp code if Emacs is configured to evaluate them, or if the user approves the relevant prompt by mistake.
+This article outlines configurations for securing file-local and directory-local variables while reducing prompts.
+Allowing safe local variables
+The enable-local-variables variable controls how Emacs handles file-local variables. File-local variables are configurations embedded dir…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://curtismchale.ca/2026/08/31/the-search-for-knowledge-emacs-carnival"
+                        open
+                      >
+                        <summary class="article-expander__title">Curtis McHale: The Search for Knowledge - Emacs Carnival</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://curtismchale.ca/2026/08/31/the-search-for-knowledge-emacs-carnival">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>August Emacs carnival is about the search for knowledge. While I take notes and link them, I don&#x27;t use Emacs. I&#x27;ve been on the Obsidian train pretty much since it came out with a short deviation into Craft.
+I&#x27;ve loved the plugins that Obsidian has, but those plugins are also it&#x27;s downfall. I used the Long Form plugin for a while, but then stopped and move that writing to Emacs because the plugin was loosing my data any time I tried to use it. But despite my love for Emacs, I haven&#x27;t moved my notes over to it and I have no plans on moving my notes over to Emacs.
+Currently Obsidian has around 9,000 individual files across my notes and writing. It&#x27;s saved in a portable markdown format. Obsidian&#x27;s sync service works flawlessly all the time and the mobile apps are good.
+On the Emacs side, every few weeks I have some issue with Syncthing that means I need to sort out some type of sync conflict and because of this I really only add content from my phone via Beorg to my inbox.org file. I don&#x27;t edit other files if I can help it, the risk is simply to high that I&#x27;ll have some huge mess to sort out when I get back to my desktop.
+The main reason I don&#x27;t switch is that I don&#x27;t think that migrating tools is the big productivity boost that most people think it is. Yes the Emacs vim key bindings are better than what Obsidian provides. Yes I can very easily hack Emacs to do whatever I want, but Obsidian does everything I need already. So moving my notes to Emacs would most likely be me finding Emacs more fun right now than Obsidian because it&#x27;s new.
+I&#x27;ve wondered about accessing Obsidian from Emacs so I have Emacs goodness in my Obisidian, but even that feels like me searching for a reason to use Emacs where I don&#x27;t really need it.
+If you want to read how I setup Obsidian, my 2026 walkthrough is still how I do it.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -331,67 +463,6 @@ Defector crosswords, launched in partnership with our friends at AVCX, run ever
 Prosecutors say Love and Chan stole a total of $1.3 million from several women between 2022 and 2026. Love would meet the women on dating apps, Chan would pose as his financial advisor, and then they would convince the women to send them money to be used in investment strategies. From the DoJ&#x27;s press release:
 Love and Chan also exchanged investment-related electronic communications in which Chan pretended to be Love’s investment adviser. Chan sent Love messages purportedly encouraging Love to invest in new opportunities. Love then sent screenshots of those messages to numerous victims to further convince them to send money to either Love or Chan. Chan and Love also hosted three-way FaceTime calls in which they showed victims falsified investment gains and encouraged victims to part with their money. Victims sent Love and Chan money due to their belief that their money would be invested in legitimate investment vehicles on the victims’ behalf. Some victims also loaned Love large amounts of money, if victims did not have cash to invest, Love sometimes instructed them to take out personal loans in both scenarios Love assured the victims that they would quickly be repaid.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Emacslife</button>
-                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.jamescherti.com/securing-emacs-dir-locals-el-local-variables/"
-                        open
-                      >
-                        <summary class="article-expander__title">James Cherti: Securing and reducing prompts for Emacs .dir-locals.el and local variables</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.jamescherti.com/securing-emacs-dir-locals-el-local-variables/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Emacs automatically applies project-specific configurations through file-local and directory-local (.dir-locals.el) variables when opening a file or directory. While this feature ensures consistent settings across environments, it can cause security risks and persistent prompt fatigue when editing source code. Malicious .dir-locals.el files or file-local variables containing eval forms can execute arbitrary Lisp code if Emacs is configured to evaluate them, or if the user approves the relevant prompt by mistake.
-This article outlines configurations for securing file-local and directory-local variables while reducing prompts.
-Allowing safe local variables
-The enable-local-variables variable controls how Emacs handles file-local variables. File-local variables are configurations embedded dir…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://curtismchale.ca/2026/08/31/the-search-for-knowledge-emacs-carnival"
-                        open
-                      >
-                        <summary class="article-expander__title">Curtis McHale: The Search for Knowledge - Emacs Carnival</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://curtismchale.ca/2026/08/31/the-search-for-knowledge-emacs-carnival">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>August Emacs carnival is about the search for knowledge. While I take notes and link them, I don&#x27;t use Emacs. I&#x27;ve been on the Obsidian train pretty much since it came out with a short deviation into Craft.
-I&#x27;ve loved the plugins that Obsidian has, but those plugins are also it&#x27;s downfall. I used the Long Form plugin for a while, but then stopped and move that writing to Emacs because the plugin was loosing my data any time I tried to use it. But despite my love for Emacs, I haven&#x27;t moved my notes over to it and I have no plans on moving my notes over to Emacs.
-Currently Obsidian has around 9,000 individual files across my notes and writing. It&#x27;s saved in a portable markdown format. Obsidian&#x27;s sync service works flawlessly all the time and the mobile apps are good.
-On the Emacs side, every few weeks I have some issue with Syncthing that means I need to sort out some type of sync conflict and because of this I really only add content from my phone via Beorg to my inbox.org file. I don&#x27;t edit other files if I can help it, the risk is simply to high that I&#x27;ll have some huge mess to sort out when I get back to my desktop.
-The main reason I don&#x27;t switch is that I don&#x27;t think that migrating tools is the big productivity boost that most people think it is. Yes the Emacs vim key bindings are better than what Obsidian provides. Yes I can very easily hack Emacs to do whatever I want, but Obsidian does everything I need already. So moving my notes to Emacs would most likely be me finding Emacs more fun right now than Obsidian because it&#x27;s new.
-I&#x27;ve wondered about accessing Obsidian from Emacs so I have Emacs goodness in my Obisidian, but even that feels like me searching for a reason to use Emacs where I don&#x27;t really need it.
-If you want to read how I setup Obsidian, my 2026 walkthrough is still how I do it.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -7596,88 +7667,12 @@ The other advantage of his method is the he arranges for the automatic removal o
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Go Make Things</button>
-                  <a class="source-heading__link" href="https://gomakethings.com/articles">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://gomakethings.com/articles/how-to-apply-css-only-if-there-are-a-certain-number-of-nested-elements/"
-                        open
-                      >
-                        <summary class="article-expander__title">How to apply CSS only if there are a certain number of nested elements</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://gomakethings.com/articles/how-to-apply-css-only-if-there-are-a-certain-number-of-nested-elements/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://gomakethings.com/img/og.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>This week, I had to write CSS for a design where a list of elements got a bit of extra design treatment if there were at least three nested items inside it.
- 
- Item 1
- Item 2
-   
- Item 1
- Item 2
- Item 3
- Item 4
-  
- I really wanted to avoid using JavaScript to add/remove an extra class, and the the :has() pseudo-class and the nth-* pseudo-class made it shockingly easy!</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >everyone is entitled to my own opinion</button>
-                  <a class="source-heading__link" href="https://www.jefftiedrich.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.jefftiedrich.com/p/this-week-in-stupid-august-22-edition"
-                        open
-                      >
-                        <summary class="article-expander__title">this week in stupid: August 22 edition</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.jefftiedrich.com/p/this-week-in-stupid-august-22-edition">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substackcdn.com/image/fetch/$s_!rFsR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52ef65fa-2d7a-4b96-b63a-cdbae34abdd8_2518x1410.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Natalie boards it, Dear Leader affords it, and so much more...</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/33451406017">
-        <time id="build-timestamp" datetime="2026-08-31T23:37:40.772Z">2026-08-31T23:37:40.772Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/33466941668">
+        <time id="build-timestamp" datetime="2026-09-01T03:39:28.137Z">2026-09-01T03:39:28.137Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

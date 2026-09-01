@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-08-31T23:37:40.803Z</updated>
+    <updated>2026-09-01T03:39:28.161Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Troma Tuesday: Class Of Nuke ‘Em High]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3358</id>
+        <link href="https://stuffthatinterestsme.net/troma-tuesday-class-of-nuke-em-high/"/>
+        <updated>2026-09-01T00:27:10.000Z</updated>
+        <summary type="html"><![CDATA[There are movies that try to be scary, movies that try to be funny, and movies that seem to have]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mysteries of Americana]]></title>
         <id>https://talkingpointsmemo.com/?p=1556388</id>
@@ -34,6 +44,35 @@
         <summary type="html"><![CDATA[The FBI has lowered its employment standards, no doubt because the guy in charge is an absolute fool.]]></summary>
         <author>
             <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sacha Chua: 2026-08-31 Emacs news]]></title>
+        <id>https://sachachua.com/blog/2026/08/2026-08-31-emacs-news/</id>
+        <link href="https://sachachua.com/blog/2026/08/2026-08-31-emacs-news/"/>
+        <updated>2026-08-31T19:23:36.000Z</updated>
+        <summary type="html"><![CDATA[;;; -*- lexical-binding: t -*-
+
+(add-to-list 'warning-suppress-types '(files missing-lexbind-cookie)). There are more details on lexical-binding in the Elisp info manual.
+
+
+
+Emacs Carnival: Check out the entries for August in "The Search for Knowledge" and stay tuned for September's topic, "Games."
+
+
+
+Emacs 31:
+
+Emacs 31.1 is released! (Reddit, HN, HN, HN, Irreal, lobste.rs) - including this again from last week
+Mickey Petersen: What's New in Emacs 31.1? (Reddit, HN) - including this again from last week
+Android builds of Emacs 31.1 now available
+Emacs 31.1 binaries now available for Windows (Reddit)
+
+Upcoming events (iCal file, Org):
+
+EmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/316121976/ Thu Sep 3 1600 America/Vancouver - 1800 America/Chicago - 1900 America/Toronto - 23…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -3505,27 +3544,6 @@ And that’s exactly the point. Ridenour has his own opinion on how his markup s
 The other advantage of his method is the he arranges for the automatic removal of the generated HTML file. The export dispatcher method requires that you delete the files manually. I do that periodically using Embark, which makes it easy but I still have to remember to do it. If you’re looking for a fast and easy way to preview an Org file in your browser, take a look at Ridenour’s post.]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to apply CSS only if there are a certain number of nested elements]]></title>
-        <id>https://gomakethings.com/articles/how-to-apply-css-only-if-there-are-a-certain-number-of-nested-elements/</id>
-        <link href="https://gomakethings.com/articles/how-to-apply-css-only-if-there-are-a-certain-number-of-nested-elements/"/>
-        <updated>2026-08-22T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[This week, I had to write CSS for a design where a list of elements got a bit of extra design treatment if there were at least three nested items inside it.
-<!-- Base design --> <ul class="magic-list"> <li>Item 1</li> <li>Item 2</li> </ul> <!-- Extra design --> <ul class="magic-list"> <li>Item 1</li> <li>Item 2</li> <li>Item 3</li> <li>Item 4</li> <!-- ... --> </ul> I really wanted to avoid using JavaScript to add/remove an extra class, and the the :has() pseudo-class and the nth-* pseudo-class made it shockingly easy!]]></summary>
-        <author>
-            <name>Go Make Things</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[this week in stupid: August 22 edition]]></title>
-        <id>https://www.jefftiedrich.com/p/this-week-in-stupid-august-22-edition</id>
-        <link href="https://www.jefftiedrich.com/p/this-week-in-stupid-august-22-edition"/>
-        <updated>2026-08-22T14:19:45.000Z</updated>
-        <summary type="html"><![CDATA[Natalie boards it, Dear Leader affords it, and so much more...]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
         </author>
     </entry>
 </feed>

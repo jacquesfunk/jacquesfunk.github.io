@@ -60,6 +60,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://sachachua.com/blog/2026/08/2026-08-31-emacs-news/",
+          "author": null,
+          "description": ";;; -*- lexical-binding: t -*-\n\n(add-to-list 'warning-suppress-types '(files missing-lexbind-cookie)). There are more details on lexical-binding in the Elisp info manual.\n\n\n\nEmacs Carnival: Check out the entries for August in \"The Search for Knowledge\" and stay tuned for September's topic, \"Games.\"\n\n\n\nEmacs 31:\n\nEmacs 31.1 is released! (Reddit, HN, HN, HN, Irreal, lobste.rs) - including this again from last week\nMickey Petersen: What's New in Emacs 31.1? (Reddit, HN) - including this again from last week\nAndroid builds of Emacs 31.1 now available\nEmacs 31.1 binaries now available for Windows (Reddit)\n\nUpcoming events (iCal file, Org):\n\nEmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/316121976/ Thu Sep 3 1600 America/Vancouver - 1800 America/Chicago - 1900 America/Toronto - 23…",
+          "link": "https://sachachua.com/blog/2026/08/2026-08-31-emacs-news/",
+          "publishedOn": "2026-08-31T19:23:36.000Z",
+          "wordCount": 1264,
+          "title": "Sacha Chua: 2026-08-31 Emacs news",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.jamescherti.com/securing-emacs-dir-locals-el-local-variables/",
           "author": null,
           "description": "Emacs automatically applies project-specific configurations through file-local and directory-local (.dir-locals.el) variables when opening a file or directory. While this feature ensures consistent settings across environments, it can cause security risks and persistent prompt fatigue when editing source code. Malicious .dir-locals.el files or file-local variables containing eval forms can execute arbitrary Lisp code if Emacs is configured to evaluate them, or if the user approves the relevant prompt by mistake.\nThis article outlines configurations for securing file-local and directory-local variables while reducing prompts.\nAllowing safe local variables\nThe enable-local-variables variable controls how Emacs handles file-local variables. File-local variables are configurations embedded dir…",
@@ -1186,6 +1196,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3358",
+          "author": "Schill",
+          "description": "There are movies that try to be scary, movies that try to be funny, and movies that seem to have",
+          "link": "https://stuffthatinterestsme.net/troma-tuesday-class-of-nuke-em-high/",
+          "publishedOn": "2026-09-01T00:27:10.000Z",
+          "wordCount": 3151,
+          "title": "Troma Tuesday: Class Of Nuke ‘Em High",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3345",
           "author": "Schill",
@@ -2596,16 +2616,6 @@
           "wordCount": 6369,
           "title": "Make Care Visible",
           "imageUrl": "https://gomakethings.com/img/og.png"
-        },
-        {
-          "id": "https://gomakethings.com/articles/how-to-apply-css-only-if-there-are-a-certain-number-of-nested-elements/",
-          "author": null,
-          "description": "This week, I had to write CSS for a design where a list of elements got a bit of extra design treatment if there were at least three nested items inside it.\n<!-- Base design --> <ul class=\"magic-list\"> <li>Item 1</li> <li>Item 2</li> </ul> <!-- Extra design --> <ul class=\"magic-list\"> <li>Item 1</li> <li>Item 2</li> <li>Item 3</li> <li>Item 4</li> <!-- ... --> </ul> I really wanted to avoid using JavaScript to add/remove an extra class, and the the :has() pseudo-class and the nth-* pseudo-class made it shockingly easy!",
-          "link": "https://gomakethings.com/articles/how-to-apply-css-only-if-there-are-a-certain-number-of-nested-elements/",
-          "publishedOn": "2026-08-22T14:30:00.000Z",
-          "wordCount": 6000,
-          "title": "How to apply CSS only if there are a certain number of nested elements",
-          "imageUrl": "https://gomakethings.com/img/og.png"
         }
       ]
     },
@@ -3064,22 +3074,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/25fb43c7-2c28-4690-9898-21f42fce1bf2_500x240.webp"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/this-week-in-stupid-august-22-edition",
-          "author": "Jeff Tiedrich",
-          "description": "Natalie boards it, Dear Leader affords it, and so much more...",
-          "link": "https://www.jefftiedrich.com/p/this-week-in-stupid-august-22-edition",
-          "publishedOn": "2026-08-22T14:19:45.000Z",
-          "wordCount": null,
-          "title": "this week in stupid: August 22 edition",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!rFsR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52ef65fa-2d7a-4b96-b63a-cdbae34abdd8_2518x1410.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!rFsR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52ef65fa-2d7a-4b96-b63a-cdbae34abdd8_2518x1410.jpeg"
         }
       ]
     }
