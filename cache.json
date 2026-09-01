@@ -60,6 +60,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.jamescherti.com/emacs-security-settings/",
+          "author": null,
+          "description": "Emacs ships with default settings intended for backward compatibility and convenience over strict security. The following settings enforce TLS certificate verification, reduce unintended ffap network lookups, restrict the evaluation of potentially unsafe local file, and directory variables, automated package review system, and protect authentication credentials stored by Emacs.\nNetwork and communication security\nBy default, Emacs prompts the user interactively if a connection appears untrustworthy. You can additionally require certificate validation to fail at the TLS library level, causing invalid certificates to result in a connection error.\nRequiring certificate validation at the TLS layer reduces the possibility of accidentally accepting an invalid certificate in response to an interac…",
+          "link": "https://www.jamescherti.com/emacs-security-settings/",
+          "publishedOn": "2026-09-01T14:53:19.000Z",
+          "wordCount": 2734,
+          "title": "James Cherti: The Emacs Security Settings that might Silently Compromise your System",
+          "imageUrl": null
+        },
+        {
+          "id": "https://irreal.org/blog/?p=14053",
+          "author": null,
+          "description": "lot of writing, almost all of it in Emacs so I’m always happy to see how other people use our editor of choice for writing. The latest example I’ve found is from JTR over at The Art Of Not Asking Why. His post considers some simple expansion functions in Emacs.\n\n\nHe starts off with dictionaries. As many of you know, I’ve been a Webster 1913 dictionary user ever since James Somers explained why I (and you) should be. I have gone through many iterations of integrating it into Emacs but have converged on the same solution that JTR uses: the built in dictionary-search function built into Emacs that we both have configured to use the online collection dict.org, although I still have a local copy from my previous iterations.\n\n\nThe dict.org collection is nice because it contains several dictionar…",
+          "link": "https://irreal.org/blog/?p=14053",
+          "publishedOn": "2026-09-01T14:29:01.000Z",
+          "wordCount": 1656,
+          "title": "Irreal: Wordcraft",
+          "imageUrl": null
+        },
+        {
           "id": "https://takeonrules.com/2026/09/01/how-im-feeling-emacs-package/",
           "author": null,
           "description": "In late April of this year, I’ve began experiencing a heightened anxiety.  I\nstarted therapy then later taking anti-anxiety medication.  I worked to change\nsome of my behaviors.  And started writing even more personal journal entries.\nLast Friday I found a list of feelings and responses that resonated with me:\nAngry: Lift weights\nStressed: Go for a walk\nProcrastinating: Set a 10-minute timer\nSad: Get sunlight\nCan’t focus: Clean your workspace\nNegative thoughts: Write 3 gratitudes\nStuck: Change your environment\nFinancial stress: Build an emergency fund\nLow energy: Fix your sleep\nOverthinking: Journal it out\nLonely: Call someone\nNo motivation: Start with 2 minutes\nAnxiety: Slow your breathing\nBrain fog: Drink water and move\nLow confidence: Keep small promises\nLost: Define one clear goal\nTwic…",
@@ -456,6 +476,56 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=234290",
+          "author": "Matt Ufford",
+          "description": "Some pathetic, frontrunning dorks are fans of the Rams. But many, many more people are NOT fans of the Rams. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.\nYour team: Los Angeles Rams.\nYour 2025 record: 12-5. Heh. Haha. MWAHAHAHAHAHAHA!!!!",
+          "link": "https://defector.com/why-your-team-sucks-2026-los-angeles-rams",
+          "publishedOn": "2026-09-01T18:32:04.000Z",
+          "wordCount": 25679,
+          "title": "Why Your Team Sucks 2026: Los Angeles Rams",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2258197549.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234240",
+          "author": "Drew Magary",
+          "description": "Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGATE, and buy Drew’s books while you’re at it. Today, we're talking about iPhone complaints, America’s infrastructure tragedy, changing clothes at the airport, and more.\nYour letters:\nMonte:",
+          "link": "https://defector.com/you-can-magically-ban-one-sports-injury-forever-what-do-you-pick",
+          "publishedOn": "2026-09-01T17:27:01.000Z",
+          "wordCount": 14608,
+          "title": "You Can Magically Ban One Sports Injury Forever. What Do You Pick?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2273581778.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234262",
+          "author": "Ray Ratto",
+          "description": "The Chicago Cubs have maintained an awfully low profile for a team that 1) wins often, and by a lot of runs, 2) homers more than anyone, and 3) has an increasingly sure-thing MVP patrolling center now that Shohei Ohtani is slumping through his ouchy season. The Cubs hit nine homers on Monday night in a full 17-3 clocking of the Milwaukee Brewers, the team with the best record in baseball, and it landed as quietly as something that inherently loud could land. That feat has been eclipsed only once in baseball history, but it was also eclipsed more or less instantaneously by one homer that very dramatically wasn't. \nThat the Cubs are the secret in plain sight may be for any number of reasons, starting with the fact that none of those nine dingers was hit by Pete Crow-Armstrong, the MVP we men…",
+          "link": "https://defector.com/the-chicago-cubs-would-like-your-attention",
+          "publishedOn": "2026-09-01T16:12:44.000Z",
+          "wordCount": 6425,
+          "title": "The Chicago Cubs Would Like Your Attention",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2292773006.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234266",
+          "author": "Brandy Jensen",
+          "description": "It did not take a lot of special insight to suspect that recently installed CBS News boss Bari Weiss played some role in the production of a story the outlet ran on Monday, headlined \"Michigan Democrat Abdul El-Sayed's deleted tweets on Sept. 11 attacks invite scrutiny of past remarks.\" If you know even a little bit about Weiss, you know that such a story combines two of her favorite things: talking about people's old tweets and blatant Islamophobia.\nThat suspicion was confirmed Monday night by Status News, which reported that Weiss was so impressed by the story she specifically praised it during the network's daily editorial meeting on Monday. She also personally directed a change in the headline to include explicit reference to El-Sayed, deleted posts, and 9/11, according to sources who spoke with Status.\nThis has apparently caused some outrage among CBS staffers who noted, along with many others who read the story, that the whole thing is stupid and shamelessly racist. The posts in question are completely anodyne, which is obvious even in the way the story describes them:",
+          "link": "https://defector.com/cbs-news-now-performing-oafish-racism-on-behalf-of-bari-weiss",
+          "publishedOn": "2026-09-01T15:40:04.000Z",
+          "wordCount": 5107,
+          "title": "CBS News Now Performing Oafish Racism On Behalf Of Bari Weiss",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2285516207.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234249",
+          "author": "Tom Ley",
+          "description": "It's been an eventful year for Ringer founder and podcast host Bill Simmons. He ended 2025 and began 2026 at a peak in popularity, thanks to his performance on a podcast titled \"Bill’s 50 Most Rewatchable Movies of the 21st Century,\" which earned him the kind of crossover appeal he's rarely enjoyed. Just before that, he signed a deal to have to have several Ringer podcasts licensed to Netflix. Then he got to tell the world about how the Jaylen Brown trade happened during his colonoscopy. For the last eight months or so, Simmons has been, to borrow a phrase, on Apex Mountain.\nBut mountains are slippery, and Simmons has been steadily sliding back to sea level over the last few months. Consider the following pieces of information:\nDuring episodes of The Rewatchables, Simmons established a new segment in which he uses ChatGPT to produce, in Roger Ebert's voice, a review of a movie that Ebert never got to write about, on account of him being dead. \nChatGPT recently became a presenting sponsor of The Bill Simmons Podcast, and during his first attempt at reading the ad copy he pronounced it \"ChatGBT.\"\nOn the Aug. 9 episode of his podcast, he once again brought up the fact that he does not wear a seatbelt when he drives.\nOn the Aug. 25 episode of a Ringer podcast about historic box-office flops, he wore an Anduril hat. Where one even acquires an Anduril hat is not a question that can be answered by a person in my tax bracket. \nOn the most recent episode of his podcast, he gave a detailed description of his participation in proxy betting. Because he lives in California, where sports gambling has not been legalized, he calls his daughter's boyfriend, who lives in a state where sports gambling is legal, gives him his FanDuel login information, and has the boyfriend place bets on his behalf. FanDuel, with whom The Ringer signed a lucrative sponsorship deal, explicitly prohibits proxy betting.",
+          "link": "https://defector.com/bill-simmons-is-de-apexing",
+          "publishedOn": "2026-09-01T15:20:36.000Z",
+          "wordCount": 5833,
+          "title": "Bill Simmons Is De-Apexing",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/Simmnons-anduril.png"
+        },
         {
           "id": "https://defector.com/?p=234050",
           "author": "Giri Nathan",
@@ -1456,6 +1526,26 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/09/01/supreme-court-white-house-ballroom-trump/91557432007/-full",
+          "author": "Rex Huppke",
+          "description": "I was working on putting our youngest child up for adoption and draining my retirement account so we could afford potentially tainted ground beef when I learned the joyous news: AMERICA IS GETTING ITS BALLROOM!\nOn Aug. 31, the U.S. Supreme Court gave President Donald Trump the green light to continue construction of the $400 million White House ballroom, a guaranteed morale boost for struggling Americans who value unnecessary government grandeur over food.\nTrump celebrated the ruling on Truth Social: “I am pleased to report that the United States Supreme Court has just ruled in favor of the Ballroom/Military Complex being built without any further contingency, doubt, or threat. We are living in the Golden Age of America, and this Building will be one of the Greatest ever constructed in Was…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/09/01/supreme-court-white-house-ballroom-trump/91557432007/",
+          "publishedOn": "2026-09-01T19:12:04.157Z",
+          "wordCount": 4231,
+          "title": "The ballroom will be built! Thank you, Supreme Court!Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/09/01/USAT/91561859007-2289960480.jpg?crop=1416,795,x0,y0&width=1416&height=795&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/31/ai-photos-trump-approval-rating-republicans-midterms/91489828007/-full",
+          "author": "Rex Huppke",
+          "description": "You guys remember back when Donald Trump and his Republican Party promised that, if elected, they would clean and regrout the granite at the White House’s north entrance and provide Americans with endless artificial intelligence slop on social media?\nRemember when they swore that, on day one, they would rant about “fake polls” and arbitrarily change the names of large bodies of water? \nYeah, I don’t remember that, either. What I recall hearing were promises to lower food and gas prices and usher in an economic Golden Age, along with a guarantee that Trump was “not going to start a war.”\nOops. The actual promises Trump and Republican lawmakers made haven’t panned out. At all. So now they have nothing to share with the American public beyond the grout and the growling and whatever fake conte…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/31/ai-photos-trump-approval-rating-republicans-midterms/91489828007/",
+          "publishedOn": "2026-09-01T19:12:04.125Z",
+          "wordCount": 4456,
+          "title": "GOP has accomplished so little Trump can't even brag about itRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/31/USAT/91546704007-20260828-t-225159-z-1384611149-rc-2-t-7-naqeftb-rtrmadp-3-usatrump.JPG?crop=2949,1660,x0,y153&width=2949&height=1660&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/30/great-american-state-fair-trump-attendance/90741971007/-full",
           "author": "Rex Huppke",
@@ -2542,16 +2632,6 @@
           "wordCount": 3497,
           "title": "Boiled Salad",
           "imageUrl": "https://foxtrot.com/wp-content/uploads/2026/08/ft260830-foxtrot-comics-bill-amend-boiled-salad-cyclosporiasis-food-sunday-comic-strip.png"
-        },
-        {
-          "id": "https://foxtrot.com/?p=6230",
-          "author": "Bill Amend",
-          "description": "FoxTrot by Bill Amend | August 23, 2026",
-          "link": "https://foxtrot.com/2026/08/23/clean-slate/?utm_source=rss&utm_medium=rss&utm_campaign=clean-slate",
-          "publishedOn": "2026-08-23T05:01:00.000Z",
-          "wordCount": 3552,
-          "title": "Clean Slate",
-          "imageUrl": "https://foxtrot.com/wp-content/uploads/2026/08/ft260823-foxtrot-comics-bill-amend-clean-slate-back-to-school-jason-fox-sunday-comic-strip.png"
         }
       ]
     },
@@ -2640,6 +2720,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1556476",
+          "author": "Josh Marshall",
+          "description": "I note Michigan Senate candidate Abdul El-Sayed in the title of this headline mostly because controversies tied to his campaign...",
+          "link": "https://talkingpointsmemo.com/edblog/abdul-el-sayed-zionism-and-american-civic-culture",
+          "publishedOn": "2026-09-01T17:56:56.000Z",
+          "wordCount": 2747,
+          "title": "Abdul El-Sayed, Zionism and American Civic Culture",
+          "imageUrl": "https://s3.amazonaws.com/tpm-media/images/tpm-logo_square.png"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1556388",
           "author": "Josh Marshall",
@@ -2747,6 +2837,22 @@
       "feedUrl": "https://morningmemo.talkingpointsmemo.com/feed",
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/scotus-congress-and-the-trump-ballroom",
+          "author": "David Kurtz",
+          "description": "INSIDE: Jim Comey ... Dan Driscoll ... Wendell Berry",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/scotus-congress-and-the-trump-ballroom",
+          "publishedOn": "2026-09-01T15:55:31.000Z",
+          "wordCount": null,
+          "title": "SCOTUS, Congress, and the Trump Ballroom Fiasco",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!rCSf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2c77a88-b091-4055-90bc-b1b2531043fa_600x450.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!rCSf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2c77a88-b091-4055-90bc-b1b2531043fa_600x450.jpeg"
+        },
         {
           "id": "https://morningmemo.talkingpointsmemo.com/p/what-happened-to-promised-federal",
           "author": "David Kurtz",
@@ -2937,6 +3043,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/google-maps-can-pretty-much-fuck",
+          "author": "Jeff Tiedrich",
+          "description": "what kind of bullshit is ‘Lake America’?",
+          "link": "https://www.jefftiedrich.com/p/google-maps-can-pretty-much-fuck",
+          "publishedOn": "2026-09-01T14:36:53.000Z",
+          "wordCount": null,
+          "title": "Google Maps can pretty much fuck all the way off",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!r1EU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9b9cc728-53c6-477f-b119-e1300b01609e_800x450.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!r1EU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9b9cc728-53c6-477f-b119-e1300b01609e_800x450.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/all-hail-preznit-fuckwit-glorious",
           "author": "Jeff Tiedrich",
