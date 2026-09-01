@@ -60,6 +60,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://ray-on-emacs.blogspot.com/2026/09/games-emacs-carnival-post-for-september.html",
+          "author": null,
+          "description": "I don't play games within Emacs.  Instead I enjoy learning about the\nmany functions and modes it has.  I even derived a Tip of the Day\nthat displays help on a randomly-chosen function.  I invoke it at\nstartup; there's a non-zero probability that I'll spend 15 minutes\nor so exploring the function it provides.\n\n\n\nI get the impression that I'm not the only one who enjoys Emacs this\nway.  When I read others' postings, I see references to \"customize,\"\n\"configure,\" \"init file,\" \"rabbit hole.\"  I'm pretty sure I also came\nacross a few posts that contained this: \"my ex-spouse made me chose\n    between him/her and Emacs.\"  Often, reading these posts is enjoyable\nin itself.\n\n\n\nI enjoy writing and blogging, too.  I started my first journal when\nI was 13 years old.  My answer to \"What book would you choose if\nstranded on an uninhabited island?1\" would be \"a blank notebook that\ncomes with a pencil.\"  I also enjoy interacting with the Emacs\ncommunity.  It's as if this \"Ray on Emacs\" blog provides\nentertainment squared.  This can be expressed mathematically as E2,\nwhere E is entertainment and 2 is two.\n\n\n\nWhile researching this topic, I was surprised at how many games we\ncan choose from, even in plain vanilla.  Naive folks might scoff at\nprogrammers who write games for Emacs.  But they don't understand\nthat games demonstrate Emacs' capabilities.  I suspect the\nunderlying motivation is that writing games for Emacs is fun.  It's\na challenge that leads to accomplishment.2\n\n\n\nI'm looking forward to reading submissions to Emacs Carnival September 2026 and trying\nsome games.  participate is Humor not to necessary.3\n\n\n\n  1 aka \"Desert Island\" see Uninhabited island on Wikipedia\n\n\n\n  2 Folks in the MS-DOS USENETs would joke about writing Batch Files\nthat could do calculus.  At least I think it was a joke.\n\n\n\n  3 \"Humor is not necessary to participate\" (as evidenced\n  by this post).",
+          "link": "https://ray-on-emacs.blogspot.com/2026/09/games-emacs-carnival-post-for-september.html",
+          "publishedOn": "2026-09-01T04:00:00.118Z",
+          "wordCount": 2891,
+          "title": "Raymond Zeitler: Games: The Emacs Carnival Post For September 2026",
+          "imageUrl": null
+        },
+        {
           "id": "https://sachachua.com/blog/2026/08/2026-08-31-emacs-news/",
           "author": null,
           "description": ";;; -*- lexical-binding: t -*-\n\n(add-to-list 'warning-suppress-types '(files missing-lexbind-cookie)). There are more details on lexical-binding in the Elisp info manual.\n\n\n\nEmacs Carnival: Check out the entries for August in \"The Search for Knowledge\" and stay tuned for September's topic, \"Games.\"\n\n\n\nEmacs 31:\n\nEmacs 31.1 is released! (Reddit, HN, HN, HN, Irreal, lobste.rs) - including this again from last week\nMickey Petersen: What's New in Emacs 31.1? (Reddit, HN) - including this again from last week\nAndroid builds of Emacs 31.1 now available\nEmacs 31.1 binaries now available for Windows (Reddit)\n\nUpcoming events (iCal file, Org):\n\nEmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/316121976/ Thu Sep 3 1600 America/Vancouver - 1800 America/Chicago - 1900 America/Toronto - 23…",
@@ -448,26 +458,6 @@
           "wordCount": 1701,
           "title": "Matt Maguire: AI Agents and Local LLMs",
           "imageUrl": "https://www.teachmaths.org/logo.png"
-        },
-        {
-          "id": "https://www.jamescherti.com/emacs-why-use-setq-instead-setopt/",
-          "author": null,
-          "description": "Every millisecond counts during Emacs initialization. A potential performance cost in modern Emacs configurations is defaulting to setopt, customize-set-variable, or the use-package :custom keyword when a direct assignment with setq is sufficient.\nWhat is the difference between setq, setopt, customize-set-variable, and use-package :custom?\nThe setq function directly assigns a value to a variable, making it the fastest way to set a variable. (FYI: This is one of the reasons why the author uses setq in the minimal-emacs.d project.)\nThe setopt, customize-set-variable, and use-package :custom functions can be slower than setq. Depending on the variable, they can:\nCall the variable’s defcustom :set function.\nValidate the value against the variable’s declared type.\nIn some cases, load the librar…",
-          "link": "https://www.jamescherti.com/emacs-why-use-setq-instead-setopt/",
-          "publishedOn": "2026-08-22T16:32:15.000Z",
-          "wordCount": 2681,
-          "title": "James Cherti: Emacs startup: Why setq beats setopt, customize-set-variable, and use-package :custom?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://irreal.org/blog/?p=14031",
-          "author": null,
-          "description": "interesting post about previewing an Org file in your browser. If you’re like me your first thought is probably, “That’s easy. Just export the Org file to HTML and display it right from the Org export dispatcher.” I do exactly that to preview my blog posts. I simply type Ctrl+c Ctrl+e h o and my post appears in my browser. Of course, it doesn’t look exactly like the final product because it uses the default Org CSS instead of the WordPress theme that you see on the Irreal site.\n\n\nAnd that’s exactly the point. Ridenour has his own opinion on how his markup should be formatted. Five years ago, I wrote about how to to add your own CSS formatting to an Org file when you export it to HTML but those methods all required adding some text to the Org file. Ridenour’s method does all that in a function that he can call to export his Org file to the browser. The process is pretty much the same as using the export dispatcher except that he gets to have his preferred CSS applied to the output.\n\n\nThe other advantage of his method is the he arranges for the automatic removal of the generated HTML file. The export dispatcher method requires that you delete the files manually. I do that periodically using Embark, which makes it easy but I still have to remember to do it. If you’re looking for a fast and easy way to preview an Org file in your browser, take a look at Ridenour’s post.",
-          "link": "https://irreal.org/blog/?p=14031",
-          "publishedOn": "2026-08-22T16:02:37.000Z",
-          "wordCount": 1534,
-          "title": "Irreal: HTML Preview For Org Mode",
-          "imageUrl": null
         }
       ]
     },
@@ -1384,16 +1374,6 @@
           "publishedOn": "2026-08-23T01:19:00.000Z",
           "wordCount": 2772,
           "title": "Sunday Weird History Lesson: The Time the Eiffel Tower Was Sold Twice",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=2943",
-          "author": "Schill",
-          "description": "Erasure – “Chains of Love”: The Joyful 1988 Anthem of Love, Freedom, and Acceptance Few synth-pop songs from the 1980s",
-          "link": "https://stuffthatinterestsme.net/saturday-night-80s-jam-erasure-chains-of-love/",
-          "publishedOn": "2026-08-22T20:53:49.000Z",
-          "wordCount": 2618,
-          "title": "Saturday Night 80s Jam: Erasure – Chains of Love",
           "imageUrl": null
         }
       ]
@@ -2415,6 +2395,22 @@
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
         {
+          "id": "https://www.flowstate.fm/p/flow-state-episode-342",
+          "author": "Flow State",
+          "description": "Today’s mix opens with a new track from harpist Lara Somogyi’s new album, a [time] patterned, which is a collaboration with cellist Clarice Jensen.",
+          "link": "https://www.flowstate.fm/p/flow-state-episode-342",
+          "publishedOn": "2026-09-01T07:02:57.000Z",
+          "wordCount": null,
+          "title": "Flow State Episode 342",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/213651894/ef405d55c5e65b255246ae49bc0d8fef.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
           "id": "https://www.flowstate.fm/p/toshphic",
           "author": "Flow State",
           "description": "Today we’re listening to Toshphic., a Japanese ambient musician from Tokyo.",
@@ -2723,16 +2719,6 @@
           "wordCount": 3311,
           "title": "The US-Canada Trainwreck and the Limits of American Power",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2019/04/GettyImages-1024551016.jpg?w=1200"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1555640",
-          "author": "Josh Marshall",
-          "description": "You’ve probably seen that Canadian PM Mark Carney has walked away from trade talks with the US. That has led...",
-          "link": "https://talkingpointsmemo.com/edblog/what-did-trump-do-that-made-carney-walk-away",
-          "publishedOn": "2026-08-22T18:15:13.000Z",
-          "wordCount": 2680,
-          "title": "What Did Trump Do That Made Carney Walk Away?",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/07/GettyImages-2239332758.jpg?w=1200"
         }
       ]
     },

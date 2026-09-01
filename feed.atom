@@ -2,10 +2,81 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-01T03:39:28.161Z</updated>
+    <updated>2026-09-01T09:10:56.272Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Flow State Episode 342]]></title>
+        <id>https://www.flowstate.fm/p/flow-state-episode-342</id>
+        <link href="https://www.flowstate.fm/p/flow-state-episode-342"/>
+        <updated>2026-09-01T07:02:57.000Z</updated>
+        <summary type="html"><![CDATA[Today’s mix opens with a new track from harpist Lara Somogyi’s new album, a [time] patterned, which is a collaboration with cellist Clarice Jensen.]]></summary>
+        <author>
+            <name>Flow State</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: Games: The Emacs Carnival Post For September 2026]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/09/games-emacs-carnival-post-for-september.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/09/games-emacs-carnival-post-for-september.html"/>
+        <updated>2026-09-01T04:00:00.118Z</updated>
+        <summary type="html"><![CDATA[I don't play games within Emacs.  Instead I enjoy learning about the
+many functions and modes it has.  I even derived a Tip of the Day
+that displays help on a randomly-chosen function.  I invoke it at
+startup; there's a non-zero probability that I'll spend 15 minutes
+or so exploring the function it provides.
+
+
+
+I get the impression that I'm not the only one who enjoys Emacs this
+way.  When I read others' postings, I see references to "customize,"
+"configure," "init file," "rabbit hole."  I'm pretty sure I also came
+across a few posts that contained this: "my ex-spouse made me chose
+    between him/her and Emacs."  Often, reading these posts is enjoyable
+in itself.
+
+
+
+I enjoy writing and blogging, too.  I started my first journal when
+I was 13 years old.  My answer to "What book would you choose if
+stranded on an uninhabited island?1" would be "a blank notebook that
+comes with a pencil."  I also enjoy interacting with the Emacs
+community.  It's as if this "Ray on Emacs" blog provides
+entertainment squared.  This can be expressed mathematically as E2,
+where E is entertainment and 2 is two.
+
+
+
+While researching this topic, I was surprised at how many games we
+can choose from, even in plain vanilla.  Naive folks might scoff at
+programmers who write games for Emacs.  But they don't understand
+that games demonstrate Emacs' capabilities.  I suspect the
+underlying motivation is that writing games for Emacs is fun.  It's
+a challenge that leads to accomplishment.2
+
+
+
+I'm looking forward to reading submissions to Emacs Carnival September 2026 and trying
+some games.  participate is Humor not to necessary.3
+
+
+
+  1 aka "Desert Island" see Uninhabited island on Wikipedia
+
+
+
+  2 Folks in the MS-DOS USENETs would joke about writing Batch Files
+that could do calculus.  At least I think it was a joke.
+
+
+
+  3 "Humor is not necessary to participate" (as evidenced
+  by this post).]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Troma Tuesday: Class Of Nuke ‘Em High]]></title>
         <id>https://stuffthatinterestsme.net/?p=3358</id>
@@ -3490,58 +3561,6 @@ merged to upstream GNU Emacs. If you have been following my Mastodon, this was a
         <summary type="html"><![CDATA[In my last article
  on AI agents I talked about using Claude Code AI agent. This is an easy-to-set-up commercial solution that gives excellent results. The risk is that the pricing may not remain as affordable as it is today, and as a result I wanted to find an alternative solution that insulates me from changing commercials.
 There are a number of open-weight models that one may download and run locally on your home computer. Some of the benefits are:]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Saturday Night 80s Jam: Erasure – Chains of Love]]></title>
-        <id>https://stuffthatinterestsme.net/?p=2943</id>
-        <link href="https://stuffthatinterestsme.net/saturday-night-80s-jam-erasure-chains-of-love/"/>
-        <updated>2026-08-22T20:53:49.000Z</updated>
-        <summary type="html"><![CDATA[Erasure – “Chains of Love”: The Joyful 1988 Anthem of Love, Freedom, and Acceptance Few synth-pop songs from the 1980s]]></summary>
-        <author>
-            <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Did Trump Do That Made Carney Walk Away?]]></title>
-        <id>https://talkingpointsmemo.com/?p=1555640</id>
-        <link href="https://talkingpointsmemo.com/edblog/what-did-trump-do-that-made-carney-walk-away"/>
-        <updated>2026-08-22T18:15:13.000Z</updated>
-        <summary type="html"><![CDATA[You’ve probably seen that Canadian PM Mark Carney has walked away from trade talks with the US. That has led...]]></summary>
-        <author>
-            <name>Josh Marshall</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[James Cherti: Emacs startup: Why setq beats setopt, customize-set-variable, and use-package :custom?]]></title>
-        <id>https://www.jamescherti.com/emacs-why-use-setq-instead-setopt/</id>
-        <link href="https://www.jamescherti.com/emacs-why-use-setq-instead-setopt/"/>
-        <updated>2026-08-22T16:32:15.000Z</updated>
-        <summary type="html"><![CDATA[Every millisecond counts during Emacs initialization. A potential performance cost in modern Emacs configurations is defaulting to setopt, customize-set-variable, or the use-package :custom keyword when a direct assignment with setq is sufficient.
-What is the difference between setq, setopt, customize-set-variable, and use-package :custom?
-The setq function directly assigns a value to a variable, making it the fastest way to set a variable. (FYI: This is one of the reasons why the author uses setq in the minimal-emacs.d project.)
-The setopt, customize-set-variable, and use-package :custom functions can be slower than setq. Depending on the variable, they can:
-Call the variable’s defcustom :set function.
-Validate the value against the variable’s declared type.
-In some cases, load the librar…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: HTML Preview For Org Mode]]></title>
-        <id>https://irreal.org/blog/?p=14031</id>
-        <link href="https://irreal.org/blog/?p=14031"/>
-        <updated>2026-08-22T16:02:37.000Z</updated>
-        <summary type="html"><![CDATA[interesting post about previewing an Org file in your browser. If you’re like me your first thought is probably, “That’s easy. Just export the Org file to HTML and display it right from the Org export dispatcher.” I do exactly that to preview my blog posts. I simply type Ctrl+c Ctrl+e h o and my post appears in my browser. Of course, it doesn’t look exactly like the final product because it uses the default Org CSS instead of the WordPress theme that you see on the Irreal site.
-
-
-And that’s exactly the point. Ridenour has his own opinion on how his markup should be formatted. Five years ago, I wrote about how to to add your own CSS formatting to an Org file when you export it to HTML but those methods all required adding some text to the Org file. Ridenour’s method does all that in a function that he can call to export his Org file to the browser. The process is pretty much the same as using the export dispatcher except that he gets to have his preferred CSS applied to the output.
-
-
-The other advantage of his method is the he arranges for the automatic removal of the generated HTML file. The export dispatcher method requires that you delete the files manually. I do that periodically using Embark, which makes it easy but I still have to remember to do it. If you’re looking for a fast and easy way to preview an Org file in your browser, take a look at Ridenour’s post.]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>
