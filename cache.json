@@ -448,36 +448,6 @@
           "wordCount": 1540,
           "title": "Irreal: Setq And The Others",
           "imageUrl": null
-        },
-        {
-          "id": "https://sachachua.com/blog/2026/08/20-aout-emacs-chat-abdallah-maouche/",
-          "author": null,
-          "description": "Abdallah Maouche (heiwiper) (heiwiper/emacs.d, Gitlab, Github) d'Emacs, de ses flux de travail, de sa configuration, et d'autres sujets en français. Je suis un peu intimidée, mais si vous posez vos questions dans le chat, je pense que nous pouvons survivre à mon faible niveau de français. =)\n\n\n\n\nWatch on YouTube\n\n\n\nJ'ai essayé de corriger la transcription, mais je crois qu'il y a encore beaucoup d'erreurs, donc n'hésitez pas à m'envoyer un message.\n\n\nLa transcription un peu corrigée\nDetails\n\n\n\n0:01 Introduction\n\nSacha:  Ok, vous êtes en direct. \nProt:  On a le nouveau lien ou c'est le même ? \nSacha:  C'est le même lien que Google Meet mais je vais copier le nouveau lien. C'est YouTube.com, sachactube... C'est difficile. Oui. \nProt:  Oui. \nSacha:  Je ne peux pas poster le chat. Donc, je vai…",
-          "link": "https://sachachua.com/blog/2026/08/20-aout-emacs-chat-abdallah-maouche/",
-          "publishedOn": "2026-08-23T13:53:00.000Z",
-          "wordCount": 6541,
-          "title": "Sacha Chua: Emacs Chat 29: Abdallah Maouche (en français)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.jamescherti.com/emacs-spell-checker-flyspell-ispell-aspell/",
-          "author": null,
-          "description": "The ispell package serves as the underlying interface in Emacs for communicating with external spell checking programs. Building upon this, the flyspell package is a built-in minor mode that provides on-the-fly spell checking. It highlights misspelled words as you type and offers interactive corrections. This article presents a practical configuration for Emacs that sets up ispell to use Aspell for both programming and standard text editing.\nAdditionally, it addresses a common issue for developers. While writing code, variables such as filepath or buffername in comments or docstrings are often flagged as errors, generating visual noise in your programming buffers. This article contains a specific configuration to prevent these false positives.\nSetting the backend and dictionary\nThe first s…",
-          "link": "https://www.jamescherti.com/emacs-spell-checker-flyspell-ispell-aspell/",
-          "publishedOn": "2026-08-23T13:00:26.000Z",
-          "wordCount": 2729,
-          "title": "James Cherti: Emacs Spell Checker: Configuring Flyspell, Ispell, and Aspell to Minimize False Positives in Source Code and Prose",
-          "imageUrl": null
-        },
-        {
-          "id": "https://list.orgmode.org/87v791m6be.fsf@localhost",
-          "author": null,
-          "description": "[request] flags:--- replies:0 role:maintainer",
-          "link": "https://list.orgmode.org/87v791m6be.fsf@localhost",
-          "publishedOn": "2026-08-23T11:21:10.000Z",
-          "wordCount": 626,
-          "title": "Org Mode requests: [FR] Include :var expansion in expanded noweb references (was: ob-clojure :var header argument not work when src block is noweb called by another src block)",
-          "imageUrl": null
         }
       ]
     },
@@ -1296,6 +1266,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3361",
+          "author": "Schill",
+          "description": "Anya Taylor-Joy is an Argentine-British actress known for her striking screen presence, distinctive voice, and ability to move effortlessly between",
+          "link": "https://stuffthatinterestsme.net/hump-day-hottie-anya-taylor-joy/",
+          "publishedOn": "2026-09-02T00:31:27.000Z",
+          "wordCount": 1470,
+          "title": "Hump Day Hottie: Anya Taylor Joy",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3358",
           "author": "Schill",
@@ -2251,6 +2231,16 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73585782/chief-justice-john-roberts-ballroom-dissent/",
+          "author": null,
+          "description": "You’ll never guess the decision on which he joined the liberal rear-guard, either.",
+          "link": "https://www.esquire.com/news-politics/politics/a73585782/chief-justice-john-roberts-ballroom-dissent/",
+          "publishedOn": "2026-09-01T23:58:18.000Z",
+          "wordCount": 17497,
+          "title": "Chief Justice John Roberts Just Summed Up His Entire Tenure in One Pathetic Dissent",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/af469a82-6fe1-4361-b3ea-7c1cde5b4d04.jpeg?crop=1xw:0.749633967789xh;center,top&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73585599/scott-bessent-canada-harsh-words/",
           "author": null,
           "description": "And it’s nothing useful, in case you were wondering.",
@@ -2859,16 +2849,6 @@
           "wordCount": 2064,
           "title": "Trump’s Wars of Whim, And How He Loses Them",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2025/01/GettyImages-1047703964.jpg?w=1200"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1555646",
-          "author": "Josh Marshall",
-          "description": "A few more thoughts on the collapse of US-Canadian trade negotiations and the over-the-top US predation that led to it....",
-          "link": "https://talkingpointsmemo.com/edblog/the-us-canada-trainwreck-and-the-limits-of-american-power",
-          "publishedOn": "2026-08-23T14:44:54.000Z",
-          "wordCount": 3311,
-          "title": "The US-Canada Trainwreck and the Limits of American Power",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2019/04/GettyImages-1024551016.jpg?w=1200"
         }
       ]
     },
@@ -3242,22 +3222,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!7n2C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F296b8f41-6111-4b20-b7e7-03a04dd223ce_1200x673.jpeg"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/canada-is-basically-now-just-farting",
-          "author": "Jeff Tiedrich",
-          "description": "a trade war, but with morons",
-          "link": "https://www.jefftiedrich.com/p/canada-is-basically-now-just-farting",
-          "publishedOn": "2026-08-23T14:31:07.000Z",
-          "wordCount": null,
-          "title": "Canada is basically now just farting in Preznit Fuckwit’s general direction",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/25fb43c7-2c28-4690-9898-21f42fce1bf2_500x240.webp",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/25fb43c7-2c28-4690-9898-21f42fce1bf2_500x240.webp"
         }
       ]
     }

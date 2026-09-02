@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-01T22:23:17.874Z</updated>
+    <updated>2026-09-02T02:58:03.231Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Hump Day Hottie: Anya Taylor Joy]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3361</id>
+        <link href="https://stuffthatinterestsme.net/hump-day-hottie-anya-taylor-joy/"/>
+        <updated>2026-09-02T00:31:27.000Z</updated>
+        <summary type="html"><![CDATA[Anya Taylor-Joy is an Argentine-British actress known for her striking screen presence, distinctive voice, and ability to move effortlessly between]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chief Justice John Roberts Just Summed Up His Entire Tenure in One Pathetic Dissent]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a73585782/chief-justice-john-roberts-ballroom-dissent/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a73585782/chief-justice-john-roberts-ballroom-dissent/"/>
+        <updated>2026-09-01T23:58:18.000Z</updated>
+        <summary type="html"><![CDATA[You’ll never guess the decision on which he joined the liberal rear-guard, either.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[When It Comes to International Trade, Treasury Secretary Scott Bessent Is Extraordinarily Good at This One Thing]]></title>
         <id>http://www.esquire.com/news-politics/politics/a73585599/scott-bessent-canada-harsh-words/</id>
@@ -3700,82 +3720,6 @@ Cherti also shows how even the :custom keyword in use-package can trigger the se
 
 
 Obsessing about startup times aside, it’s nice to have an explanation of what these commands do and how their use might affect run time. Cherti’s post is relatively short and well worth a minute or two to read.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The US-Canada Trainwreck and the Limits of American Power]]></title>
-        <id>https://talkingpointsmemo.com/?p=1555646</id>
-        <link href="https://talkingpointsmemo.com/edblog/the-us-canada-trainwreck-and-the-limits-of-american-power"/>
-        <updated>2026-08-23T14:44:54.000Z</updated>
-        <summary type="html"><![CDATA[A few more thoughts on the collapse of US-Canadian trade negotiations and the over-the-top US predation that led to it....]]></summary>
-        <author>
-            <name>Josh Marshall</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Canada is basically now just farting in Preznit Fuckwit’s general direction]]></title>
-        <id>https://www.jefftiedrich.com/p/canada-is-basically-now-just-farting</id>
-        <link href="https://www.jefftiedrich.com/p/canada-is-basically-now-just-farting"/>
-        <updated>2026-08-23T14:31:07.000Z</updated>
-        <summary type="html"><![CDATA[a trade war, but with morons]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sacha Chua: Emacs Chat 29: Abdallah Maouche (en français)]]></title>
-        <id>https://sachachua.com/blog/2026/08/20-aout-emacs-chat-abdallah-maouche/</id>
-        <link href="https://sachachua.com/blog/2026/08/20-aout-emacs-chat-abdallah-maouche/"/>
-        <updated>2026-08-23T13:53:00.000Z</updated>
-        <summary type="html"><![CDATA[Abdallah Maouche (heiwiper) (heiwiper/emacs.d, Gitlab, Github) d'Emacs, de ses flux de travail, de sa configuration, et d'autres sujets en français. Je suis un peu intimidée, mais si vous posez vos questions dans le chat, je pense que nous pouvons survivre à mon faible niveau de français. =)
-
-
-
-
-Watch on YouTube
-
-
-
-J'ai essayé de corriger la transcription, mais je crois qu'il y a encore beaucoup d'erreurs, donc n'hésitez pas à m'envoyer un message.
-
-
-La transcription un peu corrigée
-Details
-
-
-
-0:01 Introduction
-
-Sacha:  Ok, vous êtes en direct. 
-Prot:  On a le nouveau lien ou c'est le même ? 
-Sacha:  C'est le même lien que Google Meet mais je vais copier le nouveau lien. C'est YouTube.com, sachactube... C'est difficile. Oui. 
-Prot:  Oui. 
-Sacha:  Je ne peux pas poster le chat. Donc, je vai…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[James Cherti: Emacs Spell Checker: Configuring Flyspell, Ispell, and Aspell to Minimize False Positives in Source Code and Prose]]></title>
-        <id>https://www.jamescherti.com/emacs-spell-checker-flyspell-ispell-aspell/</id>
-        <link href="https://www.jamescherti.com/emacs-spell-checker-flyspell-ispell-aspell/"/>
-        <updated>2026-08-23T13:00:26.000Z</updated>
-        <summary type="html"><![CDATA[The ispell package serves as the underlying interface in Emacs for communicating with external spell checking programs. Building upon this, the flyspell package is a built-in minor mode that provides on-the-fly spell checking. It highlights misspelled words as you type and offers interactive corrections. This article presents a practical configuration for Emacs that sets up ispell to use Aspell for both programming and standard text editing.
-Additionally, it addresses a common issue for developers. While writing code, variables such as filepath or buffername in comments or docstrings are often flagged as errors, generating visual noise in your programming buffers. This article contains a specific configuration to prevent these false positives.
-Setting the backend and dictionary
-The first s…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Org Mode requests: [FR] Include :var expansion in expanded noweb references (was: ob-clojure :var header argument not work when src block is noweb called by another src block)]]></title>
-        <id>https://list.orgmode.org/87v791m6be.fsf@localhost</id>
-        <link href="https://list.orgmode.org/87v791m6be.fsf@localhost"/>
-        <updated>2026-08-23T11:21:10.000Z</updated>
-        <summary type="html"><![CDATA[[request] flags:--- replies:0 role:maintainer]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>
