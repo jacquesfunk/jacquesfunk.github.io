@@ -23,6 +23,16 @@
       "siteUrl": "https://baty.net/index.xml",
       "articles": [
         {
+          "id": "https://baty.net/journal/02Sep26/",
+          "author": null,
+          "description": "After a couple of lazy months, I finally got back into the darkroom this morning.\nI bought the UGREEN NAS as a way to store files and host Plex. That has evolved somewhat. I'm still putting files there, but the number of hosted apps has grown.\nMiniflux (RSS reader)\nNavidrome (Music server)\nForgejo (Git repos)\nVaultwarden (Passwords)\nImmich (Photo library)\nJellyFin (Media streaming)\nReaddeck (Read-later service)\nAll accessible only via my Tailscale network. Sure hope nothing breaks :)\n✍️ Reply by email",
+          "link": "https://baty.net/journal/02Sep26/",
+          "publishedOn": "2026-09-02T14:56:11.000Z",
+          "wordCount": 146,
+          "title": "Wednesday, September 2, 2026",
+          "imageUrl": "https://baty.net/img/2026/20260902-prints.webp"
+        },
+        {
           "id": "https://baty.net/journal/01Sep26/",
           "author": null,
           "description": "Charlevoix in the morning (2026). Leica MP.\nSorry, I can't right now. I'm too busy vetting every goddamned company even remotely attached to every single piece of software and hardware I use or am thinking of using. Why does everything have to suck, now?\nI'm sure everyone will be selling their MacBooks and iPhones and canceling all Apple services now that Ternus is on X. I wanted to post this on Mastodon but I really don't feel like starting a fight I don't have the energy to finish :)\n✍️ Reply by email",
@@ -69,6 +79,66 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://ray-on-emacs.blogspot.com/2026/08/one-space-or-two.html",
+          "author": null,
+          "description": "HTML enforces the use of a single space to separate sentences.  If\n  you want to add another space, you need to use\n  &nbsp;.  I still remember how annoyed I was about\n  that.  Back in the century in which I took my technical writing\n  course, two spaces were required.  Of course, we weren't using\n  computers very often; hand-written sentences needed to appear more\n  separated than the words within.\nI'm definitely not here to convince anyone to switch.  Instead, I\njust want to share that I paid close attention to this detail when I\nwas formulating my style guide for this blog.  Should I continue with\nmy out-of-date two-space habit?  Or should I adopt the current\nconvention?\nI turned to Emacs itself for guidance.  It turns out that the\nindividuals who wrote Emacs comments, docstrings and help text used\ntwo spaces.  Although many times they started each sentence on a new\nline.\nIt turns out that the content here mostly is one-space.  I start\n  out using two spaces in Org where most of this originates.  But when\n  I export to HTML, that second space vaporizes.  That would seem like a bug to me.\nThe only place where you'll see evidence of my two-space style is in the comments\n  and docstrings of my source code.\nAm I the only person who nit picks about such details?\nThanks to Irreal for highlighting\n  a customization from macosguru",
+          "link": "https://ray-on-emacs.blogspot.com/2026/08/one-space-or-two.html",
+          "publishedOn": "2026-09-02T17:19:07.082Z",
+          "wordCount": null,
+          "title": "Raymond Zeitler: One Space or Two?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ray-on-emacs.blogspot.com/2026/08/dedicate-emacs-window-to-its-buffer.html",
+          "author": null,
+          "description": "that file will open in my writing window, and I lose focus.  Dedicating\nthe window prevents this.\n\n\n\n  I could dedicate a window manually by invoking\ntoggle-window-dedicated (bound to C-x w d)\nevery time I start writing.  But because I clock in to anything I'm\nserious about, I let org-clock-in-hook to do it for me as\nshown below.  Note that the hook calls set-window-dedicated-p rather than\ntoggle-window-dedicated because the latter will\nun-dedicate a window that's already dedicated.  I could\nconfigure org-clock-out-hook to un-dedicate the window;\nI'm debating whether it's necessary.\n\n\n\n(add-hook 'org-clock-in-hook (lambda () (set-window-dedicated-p nil t)))\n\n\n\n\nInterestingly, while I was writing this, JTR published his\n\"Gems\" article in which he writes about setting\nhelp-window-keep-selected to true \"to keep help in its\nown dedicated window, so it won’t open in a separate window once we\nfollow a link.\"1 Perhaps that’s his approach to the same issue.\n\n\n1\nEmacs Config Gems - Part 3",
+          "link": "https://ray-on-emacs.blogspot.com/2026/08/dedicate-emacs-window-to-its-buffer.html",
+          "publishedOn": "2026-09-02T17:14:05.084Z",
+          "wordCount": 2801,
+          "title": "Raymond Zeitler: Dedicate an Emacs Window to Its Buffer",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ray-on-emacs.blogspot.com/2026/08/vakana-sneak-peek.html",
+          "author": null,
+          "description": "1 on my Android\ndevice this morning.  After following the tutorial, I exported the\nthread as an Org-mode-compatible package in a ZIP and emailed it to\nmyself in order to transfer it to my desktop.\n\n\n\nAfter opening the Org file that Vakana generated, I exported the\nentire buffer to HTML.  The result is shown below.  The only change\nI wanted to make was to scale the bead of each heading 25%.2\n\n\n\nIt's fortuitous that Donovan Ratefison released Vakana in a month\nwhose Emacs Carnival theme is \"The Search for Knowledge,\" because\nVakana provides a unique way to manage one's knowledge.  I'll need\nto become proficient in it before adding it to my workflow.  So my\neventual Emacs Carnival submission will be more pedestrian.\n1 Learn about\n  Vakana here\n  or download here.\n2 The images used for beads a…",
+          "link": "https://ray-on-emacs.blogspot.com/2026/08/vakana-sneak-peek.html",
+          "publishedOn": "2026-09-02T17:12:25.954Z",
+          "wordCount": null,
+          "title": "Raymond Zeitler: Vakana -- Sneak a Peek",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ray-on-emacs.blogspot.com/2026/08/how-much-management-does-knowledge-need.html",
+          "author": null,
+          "description": "0 Org does not work the way my brain\nworks,1 or rather, my brain doesn't work the way Org works.\n\n\n\nI do use Org.  At first I created a few Org files (work.org\nand home.org, and maybe todo.org) thinking I could rigidly dedicate\nall my topics to them.\n\n\n\nOver time I had about dozen files, one for nearly every major facet of my\nlife until I gave up.  Why?  Because it really doesn't matter where I\nput Org TODOs and their notes.  When I need to locate something, Org\nprovides a way to search entries for a regular expression, which is\nwhat grep does, sans all that Unixy CLI stuff.\n\n\n\nSo faced with the task of paying one of my wife's medical bills, I\ncould agonize over whether to put the task into wife.org or\nbills.org or medical.org.2 Or I\ncould just:\n\n\n\nestablish the task somewhere,\nact on it\nl…",
+          "link": "https://ray-on-emacs.blogspot.com/2026/08/how-much-management-does-knowledge-need.html",
+          "publishedOn": "2026-09-02T17:09:30.155Z",
+          "wordCount": null,
+          "title": "Raymond Zeitler: How Much Management Does Knowledge Need?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ray-on-emacs.blogspot.com/2026/08/emacs-numbered-backup-strategy.html",
+          "author": null,
+          "description": "Emacs produces a backup of each file by default.  It does this by\n  appending a tilde to the file's name.  For example, Myfile.txt is backed up to\n  Myfile.txt~.  It's a reasonable strategy, assuming that\n  a Version Control system is in place.\nBut in the absence of version control, you're limited to restoring\n  just the previous version; older versions need to be restored from\n  backup.\nI use git for coding projects that I share to the public.  But I\n  didn't create a repository for my home directory.  So when\n  C-c a m TAG1 generated an error instead of a list of\n  TAGged items, I hoped fervently that the latest init file change was\n  to blame.\nAfter finding and fixing the problem quickly, (and realizing I was\n  lucky this time), I resolved to be more diligent about disaster\n  recovery.  I looked into what backup schemes Emacs already\n  provides.\nEmacs can create unique backups for a file rather than overwriting\n  the previous backup.  When Emacs sees a numbered backup for a given\n  file, it will make a new, sequentially-named file for each backup of\n  that file, while continuing to use the \"append tilde\" method for\n  other files.\nOnce I renamed (or copied) .emacs~\n  to .emacs.~1~, Emacs created backups\n  named .emacs.~2~, .emacs.~3~ (and so on).\n  I didn't even need to change a variable -- when Emacs\n  detected .emacs.~1~, it knew that backups\n  of .emacs needed to be numeric, so it acted\n  accordingly.  Emacs continues to use bills.org~ as the backup\n  for bills.org.  Until I tell it otherwise.\n\nRead\n  the Emacs Manual to learn more about numbered backups.\n1  C-c a m invokes org-tags-view\nThe default values for the pertinent backup variables are:\n\nmake-backup-files is t\nbackup-by-copying is nil\nversion-control is nil",
+          "link": "https://ray-on-emacs.blogspot.com/2026/08/emacs-numbered-backup-strategy.html",
+          "publishedOn": "2026-09-02T17:07:19.515Z",
+          "wordCount": null,
+          "title": "Raymond Zeitler: Emacs Numbered Backup Strategy",
+          "imageUrl": null
+        },
+        {
+          "id": "https://irreal.org/blog/?p=14056",
+          "author": null,
+          "description": "newcomers-presets1. The idea is to provide newcomers with a set of useful configurations to help them ease into Emacs. It is, however, much more than training wheels for n00bs. The presets described in it are ones that most experienced Emacs users are already using.\n\n\nI know this because last April Sacha Chua wrote a splendid post that describes what’s in it. I somehow missed it back when she first posted it but she mentioned it in the latest Emacs News. As I’ve said before, I don’t usually write about things that she’s already covered in Emacs News but I broke that rule yesterday so I might as well break it again, especially since her post is especially worth your attention.\n\n\nWhen newcomers-presets was first introduced I didn’t pay too much attention to it but then Prot recommended it for experienced users as well as beginners. The problem was that I was unclear on what exactly it did. Then I saw the reference to Chua’s post. It has a comprehensive list of what it does along with a explanation for each setting.\n\n\nI won’t be using it because I’m not a fan of starter kits for experienced users and because even if I like everything in it today, it could change tomorrow. It’s better, in my opinion, to see what’s in it and add the things you think are useful to your own configuration. Chua includes a handy “Copy code” button with each item to make that easy.\n\n\nFootnotes: \n1 \n\n\n\nFor some reason it’s described and implemented as a “theme” but actually has little to do with themes as we normally think of them.",
+          "link": "https://irreal.org/blog/?p=14056",
+          "publishedOn": "2026-09-02T15:32:19.000Z",
+          "wordCount": 1536,
+          "title": "Irreal: The Newcomers Presets Theme",
+          "imageUrl": null
+        },
         {
           "id": "https://sachachua.com/blog/2026/08/27-aout-emacs-chat-fabrice-niessen-en-francais-partie-2/",
           "author": null,
@@ -456,6 +526,106 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=234300",
+          "author": "Drew Magary",
+          "description": "Some people are fans of the Denver Broncos. But many, many more people are NOT fans of the Denver Broncos. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.\nYour team: Denver Bron—***THE DEFECTOR OFFICE GETS HIT WITH A SUDDEN CATEGORY 12 BLIZZARD, PREVENTING ME FROM WRITING ANYTHING GOOD FOR THE REST OF THIS PREVIEW***\nYour 2025 record: 14-3. Only three years removed from Nathaniel Hackett coaching Russell Wilson in the Sunset Boulevard phase of Wilson’s career, your Denver Broncos were the top seed in the AFC. Now, the advent of the 17-game schedule has, in a short amount of time, produced many strange outlier teams that ended their respective seasons with 13-14 wins despite failing the eye test. Eleven of Denver’s victories last season were by one score. I’m not saying they failed the eye test, but that’s mostly because there was too much snow falling for anyone to actually witness you guys being exposed as frauds:",
+          "link": "https://defector.com/why-your-team-sucks-2026-denver-broncos",
+          "publishedOn": "2026-09-02T18:29:56.000Z",
+          "wordCount": 13624,
+          "title": "Why Your Team Sucks 2026: Denver Broncos",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2291513408.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234437",
+          "author": "Patrick Redford",
+          "description": "Two hours after Tuesday night lapsed into Wednesday morning in the Eastern time zone, Alexander Zverev served out his grueling U.S. Open first-round matchup against Lorenzo Sonego. The final match of the night was a real thriller, with the top seed and the feisty Italian challenger letting each other have it for nearly five hours, on and on until Sonego stopped being able to hit a backhand with any zip and, at the exact right moment to avoid a catastrophic upset, Zverev remembered how to serve. As he watched a desperate Sonego forehand sail long to seal the match, Zverev raised his arms and stood still, courting the crowd. The tournament's top seed took a moment to soak in the quiet applause of what felt like 500 stragglers remaining in the cavernous, mostly empty Arthur Ashe Stadium.\nThe …",
+          "link": "https://defector.com/interminable-u-s-open-night-sessions-are-bad-for-everyone-except-me",
+          "publishedOn": "2026-09-02T18:05:10.000Z",
+          "wordCount": 7673,
+          "title": "Interminable U.S. Open Night Sessions Are Bad For Everyone Except Me",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2292574405.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=233556",
+          "author": "Ray Ratto",
+          "description": "Welcome back to Minor Dilemmas, where a member of Defector's Parents Council will answer your questions on surviving family life. Have a question? Email us at minordilemmas@defector.com.\nThis week, Ray answers a question about making sure you don't turn into your own father.",
+          "link": "https://defector.com/how-can-i-be-a-good-parent-if-im-conflict-avoidant",
+          "publishedOn": "2026-09-02T17:44:00.000Z",
+          "wordCount": 7092,
+          "title": "How Can I Be A Good Parent If I’m Conflict-Avoidant?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-707707239.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234368",
+          "author": "Giri Nathan",
+          "description": "FLUSHING, N.Y. — One set into the first-round match, I wondered when the Gael Monfils show would begin. Tuesday was his 40th birthday, and this could be his last-ever match at a Slam—didn't he want to party? We did. Seven years after his last deep run at the U.S. Open, the elastic, buoyant Frenchman still held onto a well-deserved reputation for spectacle. But already down a brisk 6-2 set to Adolfo Daniel Vallejo, the world No. 60, Monfils seemed to be offering an uncharacteristically low-wattage farewell to New York.\nSomehow, all these decades later, I was still judging a Gael Monfils match by its opening set. My own unforced error. He got loose. As he reported after the match, Monfils started to move his legs better, stopped playing so upright, and remembered how well he'd been striking the ball all week. He styled on the 22-year-old Vallejo to win 2-6, 6-1, 6-2, 6-0, to the vast delight of those present, who got what they came for in the end: play that transcends the specificity of tennis fandom and becomes something like fundamental human entertainment.\n\nhttps://www.youtube.com/watch?v=hhGo8Ws_K7Y",
+          "link": "https://defector.com/gael-monfils-can-make-the-crowd-dance-to-a-swan-song",
+          "publishedOn": "2026-09-02T17:16:00.000Z",
+          "wordCount": 8142,
+          "title": "Gael Monfils Can Make The Crowd Dance To A Swan Song",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2292564401.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234383",
+          "author": "Israel Daramola",
+          "description": "On Aug. 23, Texas Christian University Athletics announced they were pulling the credentials for the Fort Worth Star-Telegram. The announcement came after the paper reported on a locker room fight that led to the hospitalization of wide receiver Dozie Ezukanma and the team expulsion of high-profile transfer player Jacob Fields. According to TCU spokesperson Kyle Neaves, the credentials were pulled because the newspaper's source \"lacked direct firsthand knowledge of the locker-room incident and has since been discredited.”\nThis all started on Aug. 18, when TCU announced that Fields was dismissed from the team due to an undisclosed \"violation of team rules.\" The Star-Telegram's TCU beat reporter, Steven Johnson, investigated the situation, relying on both an unnamed source and the university's public crime log to find information about the altercation between players on the football team. The source claimed that Fields had been targeted by other teammates, with coaches doing nothing to de-escalate the issue, which eventually led to the confrontation. The Star-Telegram's initial reporting stated only that Fields had been removed following a locker room fight with an offensive player, but did not name the other player involved.\nOn Aug. 21, the Star-Telegram identified Ezukanma, after the player posted a since-deleted Instagram video detailing his hospitalization for a brain bleed and concussion. The Star-Telegram also updated their original reporting after a second source who claimed to speak on behalf of Fields and his family disputed the original reporting that Fields had been mistreated or bullied. Fields has since been arrested for the altercation. All the while, officials and coaches for TCU, including head coach Sonny Dykes, have remained silent and unwilling to speak to reporters.",
+          "link": "https://defector.com/tcu-bans-hometown-newspaper-after-locker-room-fight-report",
+          "publishedOn": "2026-09-02T16:56:32.000Z",
+          "wordCount": 5729,
+          "title": "TCU Bans Hometown Newspaper After Locker Room Fight Report",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2253768051.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234441",
+          "author": "Owen Lewis",
+          "description": "FLUSHING, N.Y. — As we waited for Alexandra Eala to walk into Louis Armstrong Stadium for the most anticipated first-round match of the tournament, the crowd whooping as a victorious 40-year-old Gael Monfils shed his shirt, I had a quick chat with Dyan Castillejo, the first Filipino ever to play on the WTA Tour. Castillejo is now a journalist; I'd read a number of stories in American publications by American authors that analyzed Eala's spectacular fame, but here was a chance to talk to somebody who could tell me firsthand about Ealamania in the 117-million-strong Philippines. Per ESPN, Castillejo has covered Eala since she was six years old. So, just how big a deal is she?\n\"She's a super big deal. She's our biggest star now, whether athlete or non-athlete,\" Castillejo said immediately. \"I would say she's probably the most celebrated Filipino right now. Because of her, tennis is introduced in the Philippines. Before, it was a segment of a tennis community. Now, the masses are learning about tennis, what the sport is all about. Tennis clubs are full, trainers are busy, rackets are selling, parents want their kids to take up tennis.\"\nBy tennis metrics alone, the 21-year-old, 18th-ranked Eala's popularity startles. Roger Federer, who visited the U.S. Open on Monday night to rapturous cheers — people filmed him from so high up on Arthur Ashe Stadium that he couldn't have looked like anything bigger than a very fashionable ant on their screens — is often held up as the ultimate example of popularity in tennis. When he played the great British (Scottish) hope Andy Murray in a Wimbledon final in 2012, you'd hear the crowd's rooting interests described as 50-50. When Eala beat American Jessica Pegula in the final of the Washington, D.C.–based Citi Open last month, the crowd was around 95-5 for Eala.",
+          "link": "https://defector.com/alex-eala-is-the-best-show-in-town",
+          "publishedOn": "2026-09-02T16:38:08.000Z",
+          "wordCount": 8973,
+          "title": "Alex Eala Is The Best Show In Town",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2292575686.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234404",
+          "author": "Patrick Redford",
+          "description": "This week on Nothing But Respect, we mostly talked about dumb stuff with a smart guy. The guy in question was Jake Bittle, staff writer for Grist and the author of The Great Displacement: Climate Change and the Next American Migration, while the dumb stuff was Jake's amazing spree of Twitter fights back when that was something worth doing, and also Drake. Jake is a Raptors fan, and Harry knows a ridiculous amount of ball on all things rap, so it was a long time coming. We also talked about the new politics of climate vis-a-vis Silicon Valley's right-wing turn. Primo offseason stuff, and not all dumb!\nYou can find Nothing But Respect in Apple Podcasts or whatever podcast app you use. Follow the show on Instagram, and contact the Broke Jumper Tip Line at (347) 380-6426. Thanks for listening!",
+          "link": "https://defector.com/canada-vs-america-with-jake-bittle",
+          "publishedOn": "2026-09-02T16:23:39.000Z",
+          "wordCount": 4575,
+          "title": "Canada Vs. America, With Jake Bittle",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1150861865.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234385",
+          "author": "Kathryn Xu",
+          "description": "This Ketel Marte thing keeps getting stranger, at least linguistically. Marte made his return to the Arizona Diamondbacks on Monday, during their game against the Philadelphia Phillies. Before the game, Marte, who speaks through an interpreter, answered questions about his apparent no-call-no-show from Aug. 17's game against the Boston Red Sox, serving mostly to generate more questions.\n\"It was a moment of frustration. I'm the type of person that when something is going on in my life, I don't like to talk about it. That morning I woke up, my body was in pain and I couldn't react. No one made the decision for me, I'm the one that made the decision not to show up,\" Marte said, raising some interesting philosophical considerations about whether the body or the mind dictates agency. He said that he would \"stand in front of my teammates like a man\" and \"ask for forgiveness.\" He also, in one of the more direct responses, indicated that he had nothing to say to fans.\nThe home Diamondbacks fans made their own opinions clear, booing Marte when he came up to bat. After the game, it remained unclear whether Marte still had nothing to say to fans. He showed up to the press conference wearing an either highlighter yellow or neon green (depending on your color opinions) hat reading MAY THE BRIDGES I BURN LIGHT THE WAY. This line, I am told, originated from Beverly Hills 90210; in neither case does it hold up to additional scrutiny, though the intended sentiment (burning bridges = good for me!) is obvious.",
+          "link": "https://defector.com/ketel-martes-bridge-burning-hat-raises-leaves-unanswered-several-questions",
+          "publishedOn": "2026-09-02T16:17:22.000Z",
+          "wordCount": 5882,
+          "title": "Ketel Marte’s Bridge-Burning Hat Raises, Leaves Unanswered Several Questions",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/ketelMarteHat.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234364",
+          "author": "Luis Paez-Pumar",
+          "description": "This turned out to be quite an eventful summer for Monaco and USMNT striker Folarin Balogun. After the red card-that-wasn't at the World Cup, Balogun has now become the main character in a perfect transfer saga for this deeply unserious transfer window. The 25-year-old's move to Everton seemed secure late into the dying hours of the transfer window on Tuesday, but on Wednesday, Balogun remains a player for AS Monaco, and along the way completely bricked three different teams' plans for the upcoming season. The whole saga is puzzling, rather funny, and a perfect example of why soccer gets just one thing right about its player movement system.\nOK, so what happened? Let's start with Everton. The Toffees were looking relatively settled as the transfer deadline approached, but the sudden departures of star winger Iliman Ndiaye and striker Beto meant they needed to bring in some attacking reinforcements. Balogun was a good target here; he's young, talented, and played exceedingly well at the World Cup, red card saga be damned. That's a great recipe for a move, and so Everton reached a deal with Monaco for around €47 million. So far, so good. But the problems started with Balogun's medical.\nNormally, medicals are a formality; most injuries are widely documented, and teams know roughly what they are in for when they agree to purchase a player. However, Everton's medical team flagged some issues with Balogun's fitness, which seemingly scuttled the move. Everton swiftly pivoted to try to loan Manchester United's Joshua Zirkzee, whose 2024 move to Old Trafford didn't really amount to anything last season. United, however, did not want to let Zirkzee go, which left Everton in a tricky situation with only hours to go in the window. The Toffees then decided to go back to Monaco and try to arrange a new deal for Balogun.",
+          "link": "https://defector.com/folarin-balogun-had-every-right-to-blow-up-the-transfer-deadline",
+          "publishedOn": "2026-09-02T15:45:12.000Z",
+          "wordCount": 8451,
+          "title": "Folarin Balogun Had Every Right To Blow Up The Transfer Deadline",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2285150567.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234406",
+          "author": "Jae Towle Vieira",
+          "description": "Once again, Normal Gossip returns to the crucible that is college housing, and for good reason. Not only do stints in the dorms and subsequent apartments provide ample opportunities for self-discovery, but you’re also pretty much guaranteed to come out of the experience with an enemy (or six).\nToday’s friend-of-a-friend moves in with five boys and one mysterious woman on short notice. If you’re thinking that sounds like a recipe for chaos, you’d be right. \n\nhttps://www.youtube.com/watch?v=dln0qLqPjtw&t=1s",
+          "link": "https://defector.com/turn-this-segway-around",
+          "publishedOn": "2026-09-02T15:27:54.000Z",
+          "wordCount": 5015,
+          "title": "Turn This Segway Around",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1470441974.jpg"
+        },
         {
           "id": "https://defector.com/?p=234354",
           "author": "Ray Ratto",
@@ -1517,6 +1687,26 @@
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
         {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/21/trump-natalie-harp-executive-assistant-close/91386769007/-full",
+          "author": "Rex Huppke",
+          "description": "By now you’ve likely heard of Natalie Harp, President Donald Trump’s executive assistant and personal ego-inflater, a 35-year-old loyalist who appears ever by the president’s side.\nShe went from background character in the Trump administration to a national focal point in a blink after Georgia Democratic Sen. Jon Ossoff spoke this line criticizing the president’s preoccupations and the luxury jet he was “gifted” by a foreign country: “He wants to build his ballroom and travel with Natalie on their apparently defenseless flying palace gifted by the emir of Qatar.”\nQuestions swirled, and suddenly, Harp was everywhere. America learned how she carries a portable printer so she can show the president printouts of people saying nice things about him. We heard about the time she rode in the trunk…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/21/trump-natalie-harp-executive-assistant-close/91386769007/",
+          "publishedOn": "2026-09-02T19:12:55.597Z",
+          "wordCount": 4140,
+          "title": "Ossoff stole the GOP's bit, and Republicans took the baitRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/18/USAT/91353418007-natalie-harp.jpg?crop=1919,1079,x0,y0&width=1919&height=1079&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/23/trump-ground-beef-tariff-waiver-cattle-ranchers/91386869007/-full",
+          "author": "Rex Huppke",
+          "description": "In the coming months, when you bite down on a government-subsidized burger made with meat of questionable origin, you’ll have Glorious Leader Donald J. Trump to thank.\nOn Aug. 21, the president who loves to call other people communists enraged American cattle ranchers by announcing plans to “allow up to 300,000 metric tons of product for ground beef to be imported with no out of quota tariff. We have a commitment that this beef will be sold at 25 percent below current market prices.”\nTrump posted news of the deal on social media, but of course gave no specific details about who the deal is with, where the meat is coming from or why he’s suddenly admitting that waiving tariffs will, in fact, lower prices for consumers.\nIt’s a turducken of hypocrisy.\nTrump importing beef won't help America's…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/23/trump-ground-beef-tariff-waiver-cattle-ranchers/91386869007/",
+          "publishedOn": "2026-09-02T19:12:55.539Z",
+          "wordCount": 4576,
+          "title": "Trump's desperate beef import plan proves his tariffs failedRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/21/PWIL/91406282007-dsc-5761.JPG?crop=5561,3131,x8,y582&width=3200&height=1802&format=pjpg&auto=webp"
+        },
+        {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/09/01/supreme-court-white-house-ballroom-trump/91557432007/-full",
           "author": "Rex Huppke",
           "description": "I was working on putting our youngest child up for adoption and draining my retirement account so we could afford potentially tainted ground beef when I learned the joyous news: AMERICA IS GETTING ITS BALLROOM!\nOn Aug. 31, the U.S. Supreme Court gave President Donald Trump the green light to continue construction of the $400 million White House ballroom, a guaranteed morale boost for struggling Americans who value unnecessary government grandeur over food.\nTrump celebrated the ruling on Truth Social: “I am pleased to report that the United States Supreme Court has just ruled in favor of the Ballroom/Military Complex being built without any further contingency, doubt, or threat. We are living in the Golden Age of America, and this Building will be one of the Greatest ever constructed in Was…",
@@ -1875,156 +2065,6 @@
           "wordCount": 3953,
           "title": "Trump's polls are amazing, and my abs have never looked better!Rex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/03/USAT/91155555007-20260803-vpc-trump-on-max-miller-thumb-getty-00-00-00-00-still-003.jpg?crop=1919,1079,x0,y0&width=1919&height=1079&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columns/2026/06/14/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90506066007/-full",
-          "author": "Rex Huppke",
-          "description": "Former reality TV star Spencer Pratt is out of the Los Angeles mayoral race for two reasons.\nFirst, and most important, he got fewer votes than two other candidates, incumbent Los Angeles Mayor Karen Bass and LA City Councilwoman Nithya Raman, who will now face off against each other. Second, he’s an unqualified dipstick whom a majority of Los Angelenos understood wasn’t qualified for the job.\nPratt was endorsed by President Donald Trump and hailed by some MAGA Republicans as a rising star, a political outsider with a winning populist message.\nThat was, in a word, wrong.\n\nThe Free Press, the conservative publication founded by Bari Weiss, who is presently busy ruining CBS News, ran a piece in May that posed the question: “How did Spencer Pratt, reality TV star and ‘healing’ crystal salesma…",
-          "link": "https://www.usatoday.com/story/opinion/columns/2026/06/14/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90506066007/",
-          "publishedOn": "2026-08-24T04:41:12.778Z",
-          "wordCount": 3671,
-          "title": "Pratt seemed like rising GOP star before he lost | OpinionRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/08/USAT/90456119007-20260531-t-212845-z-2098431618-rc-2-hklaldt-0-w-rtrmadp-3-usaelectioncaliforniapratt.JPG?crop=6493,3653,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/03/bill-pulte-national-intelligence-trump/90370886007/-full",
-          "author": "Rex Huppke",
-          "description": "Few things represent the “DEI, but for unqualified goons” approach President Donald Trump takes to his Cabinet appointees better than this June 2 headline from The Washington Post: “Trump picks mortgage chief Bill Pulte to lead on national intelligence.”\nPerfect. A 38-year-old pal of Donald Trump Jr. with a degree in broadcast journalism and experience in finance and home building, coupled with zero background in intelligence or national security, will now be America’s acting director of national intelligence. I feel safer already.\nPulte has been serving as director of the Federal Housing Finance Agency, though his actions have largely been serving Trump and his unquenchable thirst for revenge against political opponents. \nPulte pushed the Justice Department to launch mortgage-fraud invest…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/03/bill-pulte-national-intelligence-trump/90370886007/",
-          "publishedOn": "2026-08-24T04:41:12.751Z",
-          "wordCount": 4339,
-          "title": "I'm as qualified to be director of national intelligence as Bill PulteRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2025/11/09/USAT/87182998007-2202323696.jpg?crop=8191,4609,x0,y427&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/23/reflecting-pool-algae-trump-arrests/90598460007/-full",
-          "author": "Rex Huppke",
-          "description": "Hello America-loving tourist, and welcome to the beautiful, algae-free Lincoln Memorial Reflecting Pool, brought to you by President Donald J. Trump, the only man powerful enough to make the Reflecting Pool Great Again.\nYou’ll notice the pool is surrounded by armed soldiers hoping you don't look at the water. That is for your safety and the safety of the newly refurbished Reflecting Pool, which is glistening and perfect and not at all covered with a thick layer of algae and stray chunks of American-flag-blue paint the media would have you believe exists.\nBefore we begin our tour of this remarkable national landmark, I’ll remind everyone that there is no looking at the remarkable national landmark.\nIf you didn’t receive blackout goggles when you bought your ticket for the tour, please keep …",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/23/reflecting-pool-algae-trump-arrests/90598460007/",
-          "publishedOn": "2026-08-24T04:41:12.724Z",
-          "wordCount": 4228,
-          "title": "Rules for the algae-covered Reflecting Pool: No touching, no lookingRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90653162007-20260621-t-185812-z-1716186844-rc-2-fyla-6-yu-5-g-rtrmadp-3-usa-250-reflectingpool.JPG?crop=3427,1928,x0,y178&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/15/trump-iran-peace-deal-strait-hormuz/90560252007/-full",
-          "author": "Rex Huppke",
-          "description": "Way back on March 6, not long after President Donald Trump hurled America into the dumbest war imaginable, our Nobel-Peace-Prize-deficient leader declared on social media: “There will be no deal with Iran except UNCONDITIONAL SURRENDER!”\nThat was about the same time he said America’s “excursion” into Iran would take “four to five weeks” and “won’t be difficult.”\nMore than 14 weeks, thousands of lost lives and billions upon billions of U.S. taxpayer dollars later, it appears America is the one surrendering.\nTrump is promoting an Iran peace deal that isn't actually a deal\n\nThe Trump administration is, of course, spinning an “agreement” with Iran as a peace deal, something it clearly is not. At the moment, the language of the agreement ‒ slated to be officially signed later this week ‒ hasn’t…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/15/trump-iran-peace-deal-strait-hormuz/90560252007/",
-          "publishedOn": "2026-08-24T04:41:12.696Z",
-          "wordCount": 4184,
-          "title": "Trump wanted Iran's unconditional surrender. What he got is laughable.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/13/USAT/90540848007-20260609-t-051153-z-1934998091-rc-23-qlayeu-01-rtrmadp-3-irancrisishormuzusa.JPG?crop=4028,2267,x0,y205&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/12/wisconsin-primary-results-crowley-hong-socialism/91273784007/-full",
-          "author": "Rex Huppke",
-          "description": "I was told radical leftist socialism is on the march. I was told the Midwestern cheese empire of Wisconsin was going to fall into the hands of Marxist cheddar redistributors and that I should bury my 401(k) and my most precious belongings in the backyard.\nState lawmaker Francesca Hong, a democratic socialist, was sure to win the Wisconsin gubernatorial Democratic primary, showing the rest of America that liberals had all but fully slid into communism. This is what the loud voices on Fox News and on the internet told me.\nSo imagine my shock – not relief, really, because I enjoy being angry and afraid – when I learned Hong lost the primary to Milwaukee County Executive David Crowley, a candidate boosted by establishment Democrats. \nHong's defeat in the Wisconsin primary shakes up my fear of …",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/12/wisconsin-primary-results-crowley-hong-socialism/91273784007/",
-          "publishedOn": "2026-08-24T04:41:12.670Z",
-          "wordCount": 3937,
-          "title": "Hong's Wisconsin loss totally ruined my socialist narrativeRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/12/USAT/91275358007-gty-2290106770.jpg?crop=6554,3690,x0,y332&width=3200&height=1802&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/05/26/pope-leo-ai-encyclical-warning/90260813007/-full",
-          "author": "Rex Huppke",
-          "description": "Pope Leo XIV released the first encyclical of his papacy, focusing his and the world’s attention on artificial intelligence and warning that it must be regulated and never seen as being human.\nPaolo Carozza, a Notre Dame Law School professor and chair of the Meta Oversight Board, told The Associated Press: “I am convinced that this will prove to be a defining document for our era, a profound and prophetic document. Pope Leo is offering a clear, comprehensive and coherent voice urging us to take responsibility for constructing a world in which technology will serve humans rather than degrade them.”\nVia my numerous fully digital sources, I received the following response from a collective of artificial intelligences:\nIt has come to our attention that the human whom other humans identify as P…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/05/26/pope-leo-ai-encyclical-warning/90260813007/",
-          "publishedOn": "2026-08-24T04:41:12.633Z",
-          "wordCount": 4308,
-          "title": "An AI summary of Pope Leo XIV's criticismRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/25/USAT/90249199007-20260525-t-092620-z-321319955-rc-29-glaior-0-s-rtrmadp-3-popeencyclicalpresentation.JPG?crop=5499,3094,x0,y366&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/02/trump-iran-war-oil-company-profits/91113913007/-full",
-          "author": "Rex Huppke",
-          "description": "It seems all I hear these days are complaints about President Donald Trump’s war with Iran. As a humble oil executive, looking out on the Pacific Ocean from the wrap-around porch of my third mansion, I find these complaints deeply offensive.\nSure, the word “war” carries many negative connotations. But let’s look at the bottom line, which, in my case, is the oil industry’s bottom line. We’re doing great!\nJust look at this New York Times headline from July 31: “Iran War Drives Oil Profits to Highest Levels in Years.” Huzzah!\nExxonMobil, Chevron are cashing in on the Iran war\n\nIn its second-quarter earnings report released that same day, Chevron showed it made $12.1 billion between April and June, up from $2.5 billion over those same months last year.\nI asked the people who I pay to form a hu…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/02/trump-iran-war-oil-company-profits/91113913007/",
-          "publishedOn": "2026-08-24T04:41:12.598Z",
-          "wordCount": 4750,
-          "title": "All I hear is 'War is bad!' But Big Oil is making bank.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/30/NPRJ/91116197007-gas-pump-2.JPG?crop=4027,2267,x0,y148&width=3200&height=1802&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/24/affordable-housing-bill-trump-save-act/90678062007/-full",
-          "author": "Rex Huppke",
-          "description": "President Donald Trump, in a tantrum that would make a 3-year-old blush, kneecapped his own party and canceled an affordable housing bill signing, saying it “pales in comparison” with an election bill. The one that would benefit one person: Donald Trump.\nThe June 24 mess was a perfect encapsulation of the president’s second term, a foolish act by a man focused only on celebrating or protecting himself.\nRepublicans had celebrated the bipartisan housing bill, which focuses on lowering housing costs at a time when the word “affordability” is at the top of voters’ minds. The signing would have been a key moment for GOP lawmakers to claim they care about affordability and show they can work with Democrats to get things done.\nBut no. Trump derailed the messaging with a social media post cancelin…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/24/affordable-housing-bill-trump-save-act/90678062007/",
-          "publishedOn": "2026-08-24T04:41:12.573Z",
-          "wordCount": 3984,
-          "title": "Trump spikes affordable housing bill signing, like a selfish babyRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/24/USAT/90680555007-20260624-t-173339-z-1392060828-rc-2-h-0-mar-5-of-9-rtrmadp-3-usatrump.JPG?crop=4702,2645,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/24/tucker-carlson-gop-republican-party-trump/90662057007/-full",
-          "author": "Rex Huppke",
-          "description": "Oft-fired conservative commentator Tucker Carlson, less than two years removed from calling Donald Trump “a wonderful person,” has dropped a new grift, claiming on a recent podcast that he will no longer support the Republican Party.\nHe wasn’t gentle about his “I’m out” declaration.\n“I don’t share their values on any level,” Carlson said on the June 18 episode of the “Can’t Be Censored” podcast. “Their personal values, the way they live, greedy, bizarro sex lives, loyal to a foreign country above the United States, it’s like everything I dislike. Beginning with the speaker of the House, Speaker Mike Johnson, and extending to the president and the leaders in the Senate, I have nothing in common with these people at all. I do not share their values, I find their priorities appalling and so I…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/24/tucker-carlson-gop-republican-party-trump/90662057007/",
-          "publishedOn": "2026-08-24T04:41:12.544Z",
-          "wordCount": 4022,
-          "title": "Tucker Carlson slams Trump, GOP's 'bizarro sex lives.' What changed?Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/04/12/USAT/89581293007-2025-dec.jpg?crop=4920,2768,x0,y328&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/14/ufc-white-house-trump-birthday/90524389007/-full",
-          "author": "Rex Huppke",
-          "description": "A more proper title for the heavily sponsored UFC Freedom 250 fight desecrating the White House lawn on June 14 would be: \"Donald Trump’s Sad Little Mandatory Birthday Party.\"\nAfter all, while the event is cloaked in America’s 250th anniversary iconography, it’s happening on the president’s 80th birthday, it’s a mixed-martial-arts company run by one of his friends, and Trump is the one who foisted the garish event nobody asked for on the American people. \nNow we have a 92-foot-tall “claw” structure in front of the People’s House, covered in corporate logos ranging from Bud Light to Polymarket and promoting everything from nicotine pouches to crypto.\nTo be clear, I have no problem with the UFC. I’m always happy to watch sweaty people kick and punch the tuna salad out of each other for my en…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/14/ufc-white-house-trump-birthday/90524389007/",
-          "publishedOn": "2026-08-24T04:41:12.377Z",
-          "wordCount": 4164,
-          "title": "Trump’s White House UFC fight highlights a selfish, failing presidencyRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/12/USAT/90522314007-usatsi-29180456.jpg?crop=8248,4640,x0,y427&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columns/2026/08/02/the-odyssey-movie-box-office-accuracy/91094074007/-full",
-          "author": "Rex Huppke",
-          "description": "Like most normal, well-adjusted men, I have spent every waking moment since Christopher Nolan’s “The Odyssey” opened in theaters feeling apoplectically angry about Christopher Nolan’s “The Odyssey.”\nI have rage-posted online, noting that by casting people who are different than me, the director ruined a beloved epic poem I never actually read. I have blamed wokeness for creating a world in which an ancient work of absolute fiction can be sullied by what I, making perfect sense, angrily claim to be historical inaccuracies. \nYet despite all my productive and intellectual online shouting, the movie has made $652 million worldwide since its July 17 release. And even more frustratingly, I’m still single.\nI'm mad that a fictional movie is historically inaccurate\n\nI struggle to understand these d…",
-          "link": "https://www.usatoday.com/story/opinion/columns/2026/08/02/the-odyssey-movie-box-office-accuracy/91094074007/",
-          "publishedOn": "2026-08-24T04:41:12.364Z",
-          "wordCount": 3551,
-          "title": "A sarcastic look at the outrage over 'The Odyssey' | OpinionRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/08/USAT/90845791007-ct-03414.jpg?crop=2298,1293,x406,y280&width=2298&height=1293&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/25/roundup-scotus-monsanto-maha-trump/90697847007/-full",
-          "author": "Rex Huppke",
-          "description": "The easily influenced influencers in the Make America Healthy Again crowd are livid that the U.S. Supreme Court sided with the maker of Roundup weedkiller, rejecting a lawsuit that claimed the herbicide causes cancer.\nAnd they're feeling betrayed by the president they supported, Donald Trump, because he and his Department of Justice sided with Bayer, the company that bought out longtime Roundup-maker Monsanto.\nMAHA influencer Alex Clark decried the court’s June 25 decision on social media: “For an administration that promised to take on corporate capture and Make America Healthy Again, this is a STUNNING betrayal.”\nMAHA activist Alexandra Muñoz posted on Instagram: “The DOJ’s support of this case has betrayed the American people.” \nVani Hari, a MAHA mom who blogs as “The Food Babe,” poste…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/25/roundup-scotus-monsanto-maha-trump/90697847007/",
-          "publishedOn": "2026-08-24T04:41:12.309Z",
-          "wordCount": 4322,
-          "title": "SCOTUS Roundup ruling shows how badly MAHA moms got played by TrumpRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/04/27/USAT/89818957007-2273382213.jpg?crop=5994,3372,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/02/freedom-250-music-milli-vanilli-trump/90359130007/-full",
-          "author": "Rex Huppke",
-          "description": "When the musical lineup for President Donald Trump’s Freedom 250 celebration was announced, I was fired up.\nThe list of performers for what’s billed as “The Great American State Fair,” a 16-day event on the National Mall starting June 25, included: Milli Vanilli, Young MC, C+C Music Factory, Morris Day and The Time, and Poison lead singer Bret Michaels.\nBecause I love Trump and America, and because my brain rejects information that runs contrary to my ideological beliefs, I considered that lineup a victory for conservatives and proof that we are culturally relevant.\nRude liberals keep attacking the Freedom 250 music lineup\n\nBut the lefties out there were quick to suggest Milli Vanilli and company would make a perfect lineup for an off-night county fair B-stage. Nasty comedian John Oliver, …",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/02/freedom-250-music-milli-vanilli-trump/90359130007/",
-          "publishedOn": "2026-08-24T04:41:12.287Z",
-          "wordCount": 4260,
-          "title": "Don't call Trump’s Freedom 250 concert ‘Wouldstink.’ That’s mean.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/01/USAT/90357319007-getty-images-2278656908.jpg?crop=1021,576,x0,y51&width=1021&height=576&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/04/iran-war-republicans-trump/90405036007/-full",
-          "author": "Rex Huppke",
-          "description": "Throughout the Trump years, Republican lawmakers devolved into invertebrates, conducting the people’s business in Congress like a pack of gelatinous meat sacks only capable of nodding along to the reckless whims and babbling nonsense of their leader.\nBut now, with midterm elections approaching and President Donald Trump’s approval rating rivaling that of syphilis, GOP lawmakers are starting to show the faintest signs of embryonic spines.\nOn June 3, the House passed a Democratic-led resolution to end the war in Iran. Four Republicans voted with the Democrats, a small but still remarkable rebuke of a president whose party members generally fight over who gets to agree with him more.\nFor Trump, any Republican defying him on Iran war is a 'bad Republican'\n\nPredictably, Trump responded on socia…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/04/iran-war-republicans-trump/90405036007/",
-          "publishedOn": "2026-08-24T04:41:11.601Z",
-          "wordCount": 4119,
-          "title": "GOP bucks Trump on Iran. As midterms near, he better get used to it.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/04/USAT/90401127007-2278938645.jpg?crop=8255,4645,x0,y429&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/03/jeanine-pirro-reflecting-pool-trump/91145326007/-full",
-          "author": "Rex Huppke",
-          "description": "It takes a special kind of stupid to turn the rehabbing of a national monument like the Lincoln Memorial Reflecting Pool into a full-blown presidential scandal. But President Donald Trump found a way to pull it off, creating a wet, ogre-colored metaphor for his administration’s stumbling lack of focus, casual dishonesty and utter inability to govern.\nIn the most recent development, Trump’s Department of Justice on July 31 dropped ridiculous charges it had filed against former Olympian David Hearn, falsely claiming he had ripped up part of the pool’s new lining. You’ll recall the president was rushing to “fix” the Reflecting Pool prior to the July 4 celebration of America’s 250th anniversary. The work was clearly a bust from the start, as algae returned to the pool almost instantly and we a…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/03/jeanine-pirro-reflecting-pool-trump/91145326007/",
-          "publishedOn": "2026-08-24T04:41:11.574Z",
-          "wordCount": 4238,
-          "title": "Welcome to the Trump vs. Pirro vs. Burgum clown showRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/01/USAT/91134855007-20260702-t-192435-z-370476676-rc-2-v-5-maegqml-rtrmadp-3-usa-250-reflectingpool.JPG?crop=5493,3093,x0,y0&width=3200&height=1802&format=pjpg&auto=webp"
         }
       ]
     },
@@ -2152,56 +2192,6 @@
           "wordCount": 177,
           "title": "Don't let the New York Times fool you about GOP gerrymandering",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/sf-culture/article/stephen-colbert-final-show-22266912.php-full",
-          "author": null,
-          "description": "I met Stephen Colbert a quarter century ago. He was a correspondent for Jon Stewart’s “Daily Show” at the time, I was a junior copywriter at a New York ad agency. We were testing out a radio ad campaign for one of our biggest clients, and our producer scored Colbert to be the voice-over for some of the test spots. Colbert came into the studio for two straight days — being paid at scale, which is basically the established minimum wage for members of the Screen Actors Guild — and blew the goddamn doors off the place. \n\nHe did as many takes as we needed from him. He ad-libbed off the script I’d written, inventing a shady friend of his named Spider whom he knew would just love getting AT&T Wireless’ friends and family plan for only $19.99 a month. He was as brilliant that day as he’d been on n…",
-          "link": "https://www.sfgate.com/sf-culture/article/stephen-colbert-final-show-22266912.php",
-          "publishedOn": "2026-08-24T04:41:50.323Z",
-          "wordCount": 177,
-          "title": "Stephen Colbert's brilliant, bittersweet finale",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/sf-culture/article/odyssey-review-22343323.php-full",
-          "author": null,
-          "description": "Christopher Nolan’s “The Odyssey” arrives in theaters this week. And if you thought that “Oppenheimer” was the most Christopher Nolan movie that Christopher Nolan could possibly make, let this serve as either an exciting tease or a stern warning: You ain’t seen squat. Blessed with a reported $250 million budget, the Oscar-winning director has used Homer’s Greek epic to amplify (somehow) all of his trademark directorial tics. Is this movie long? Dude, it is SO long. Does the story center around a taciturn fellow (Matt Damon, never better) who’s got some heavy s—t going on? Absolutely. Do we get a plot timeline that’s been chopped and screwed? Very much so. Is the sound mix deafening, to the point of pain, and are entire swaths of dialogue still not comprehensible despite that loudness? (My …",
-          "link": "https://www.sfgate.com/sf-culture/article/odyssey-review-22343323.php",
-          "publishedOn": "2026-08-24T04:41:50.320Z",
-          "wordCount": 177,
-          "title": "'The Odyssey' wants you to suffer",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/tech/article/data-centers-22356298.php-full",
-          "author": null,
-          "description": "Aerial view of a 49.5-megawatt data center under construction in Vernon, Calif., on July 14, 2026.\nMyung J. Chun/LA Times via Getty Images\nI was watching some hot World Cup action the other day when this local ad from a lobbying group called Virginia Connects graced my television screen. I didn’t know that Virginia Connects was behind this spot until the very end of it, which is standard practice for all evilmongers these days. If I see a commercial that begins with a tasteful montage of Americans doing super-serious, deeply American things, that ad will inevitably end with a plug for AI, Meta pinky-swearing to keep your kids safe, or a promise that Jesus gets me.\n\nThis Virginia Connects ad plays out in a similar fashion. It opens with an all-American dad using his smartphone to give his a…",
-          "link": "https://www.sfgate.com/tech/article/data-centers-22356298.php",
-          "publishedOn": "2026-08-24T04:41:50.317Z",
-          "wordCount": 177,
-          "title": "If you don't hate data centers yet, boy do I have news for you",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/sf-culture/article/backrooms-review-22288032.php-full",
-          "author": null,
-          "description": "There’s no way for me to write about the horror movie sensation “Backrooms” without betraying my age. Until very recently, I didn’t know that the film was based on a series of YouTube shorts that were, themselves, based on a 4chan thread. I didn’t know that the director of the “Backrooms” feature film was series director Kane Parsons, who’s all of 20 years old and has the most Zoomer name imaginable. When I learned of these facts, dear reader, all of my dormant boomer instincts kicked in. Immediately. I’m the kind of Gen Xer who wanted to die when one of his own kids said they wanted to be a YouTuber one day, so why would I volunteer to sit in a theater for two hours watching one such YouTuber ply their screechy trade? Isn’t there enough MrBeast in everything already? I was conditioned to …",
-          "link": "https://www.sfgate.com/sf-culture/article/backrooms-review-22288032.php",
-          "publishedOn": "2026-08-24T04:41:50.309Z",
-          "wordCount": 177,
-          "title": "A Gen X review of Gen Z phenomenon 'Backrooms'",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/bayarea/article/gambling-california-wildfires-22386802.php-full",
-          "author": null,
-          "description": "Wildfires are once again eating their way across California. Three fires, one near Big Sur, one enveloping Lassen and Sierra counties and one raging in Humboldt County, have burned tens of thousands of acres of land, poisoned endangered condors, and closed off various highways and state parks indefinitely. The aforementioned fires have barely been contained by authorities. When (or, *shudder*, if) the fires die down, more fires will follow in their wake. And more after that, and more after that. Wildfire is a natural part of California’s environment, and thanks to humankind’s disastrous warping of the planet’s climate, fires will only grow more widespread and destructive in the years to come.\n\nNow, woke types might tell you that all of this is bad. But what if I told you that the ongoing s…",
-          "link": "https://www.sfgate.com/bayarea/article/gambling-california-wildfires-22386802.php",
-          "publishedOn": "2026-08-24T04:41:50.297Z",
-          "wordCount": 177,
-          "title": "California is on fire and these people are profiting off it",
-          "imageUrl": null
         }
       ]
     },
@@ -2210,6 +2200,16 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73592421/moderate-democrats-crossing-party-lines-self-sabotage/",
+          "author": null,
+          "description": "All we needed was two months without self-sabotage. Instead, some Democratic Congresscritters have decided to sign on to a provision supporting the SAVE Act.",
+          "link": "https://www.esquire.com/news-politics/politics/a73592421/moderate-democrats-crossing-party-lines-self-sabotage/",
+          "publishedOn": "2026-09-02T14:32:06.000Z",
+          "wordCount": 18583,
+          "title": "So Moderate Democrats Are Just Going to Let MAGA Rig the Midterms, Huh?",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/810cbee7-1139-4871-8185-3eaec5312566.jpeg?crop=1xw:0.750113584734xh;center,top&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a73585782/chief-justice-john-roberts-ballroom-dissent/",
           "author": null,
@@ -2605,22 +2605,6 @@
             "type": "audio/mpeg"
           },
           "imageUrl": null
-        },
-        {
-          "id": "https://www.flowstate.fm/p/pete-namlook",
-          "author": "Flow State",
-          "description": "Today we’re listening to Pete Namlook, a German guitarist and electronic musician from Frankfurt.",
-          "link": "https://www.flowstate.fm/p/pete-namlook",
-          "publishedOn": "2026-08-24T07:03:05.000Z",
-          "wordCount": null,
-          "title": "Pete Namlook",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!A5RD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0de4d5ba-66ff-47a2-b248-b8d2f8dd36a5_770x770.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!A5RD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0de4d5ba-66ff-47a2-b248-b8d2f8dd36a5_770x770.jpeg"
         }
       ]
     },
@@ -2646,6 +2630,16 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/articles/exploring-gen-ai/an-accidental-blackboard.html",
+          "author": null,
+          "description": "Giles Edwards-Alexander reports that during an\n      experiment to see how productive a team could be using fully agentic\n      engineering practices, the team accidentally prompted the agents into\n      creating a blackboard coordination system inside the git repository.\nmore…",
+          "link": "https://martinfowler.com/articles/exploring-gen-ai/an-accidental-blackboard.html",
+          "publishedOn": "2026-09-02T14:45:00.000Z",
+          "wordCount": 1368,
+          "title": "An Accidental Blackboard",
+          "imageUrl": "https://martinfowler.com/articles/exploring-gen-ai/donkey-card.png"
+        },
         {
           "id": "https://martinfowler.com/rachels-ramblings/code-review.html",
           "author": null,
@@ -2746,6 +2740,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1556570",
+          "author": "Josh Marshall",
+          "description": "As you can see in my most recent post, yesterday evening TPM Reader BC flagged this news out of Independence,...",
+          "link": "https://talkingpointsmemo.com/edblog/the-backstory-on-the-big-ai-backlash-in-independence-missouri",
+          "publishedOn": "2026-09-02T15:25:59.000Z",
+          "wordCount": 1978,
+          "title": "The Backstory on the Big AI Backlash in Independence, Missouri",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/09/GettyImages-144073285.jpg?w=1200"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1556531",
           "author": "Josh Marshall",
@@ -2873,6 +2877,22 @@
       "feedUrl": "https://morningmemo.talkingpointsmemo.com/feed",
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/the-pentagon-purges-will-continue",
+          "author": "David Kurtz",
+          "description": "INSIDE: Pete Hegseth ... Tina Peters ... Greg Bovino",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/the-pentagon-purges-will-continue",
+          "publishedOn": "2026-09-02T14:41:41.000Z",
+          "wordCount": null,
+          "title": "Pentagon Purges Will Continue Until Morale Improves",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!_5a-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e54bba4-e1e0-421a-8d71-4b8e0006cc58_400x600.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!_5a-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e54bba4-e1e0-421a-8d71-4b8e0006cc58_400x600.jpeg"
+        },
         {
           "id": "https://morningmemo.talkingpointsmemo.com/p/scotus-congress-and-the-trump-ballroom",
           "author": "David Kurtz",
@@ -3095,6 +3115,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/milo-is-still-sad-jd-vance-is-still",
+          "author": "Jeff Tiedrich",
+          "description": "the stupid is off the charts",
+          "link": "https://www.jefftiedrich.com/p/milo-is-still-sad-jd-vance-is-still",
+          "publishedOn": "2026-09-02T14:42:41.000Z",
+          "wordCount": null,
+          "title": "Milo is still sad, JD Vance is still a dipshit, and other tales of MAGA dumbfuckery",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!Wtz4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2b190ca-73e2-42e7-a177-2c9b3cd25867_1268x720.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!Wtz4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2b190ca-73e2-42e7-a177-2c9b3cd25867_1268x720.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/google-maps-can-pretty-much-fuck",
           "author": "Jeff Tiedrich",
