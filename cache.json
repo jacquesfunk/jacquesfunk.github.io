@@ -70,6 +70,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://sachachua.com/blog/2026/08/27-aout-emacs-chat-fabrice-niessen-en-francais-partie-2/",
+          "author": null,
+          "description": "Fabrice Niessen d'Emacs pour la deuxième fois. Voici ses notes.\n\n\n\n\nWatch on YouTube\n\n\n\nCorrection : J'ai voulu dire Speaches (un serveur de reconnaissance vocale) au lieu de speechd (un serveur de synthèse vocale)\n\n\n\nVoici notre conversation précédente : Emacs Chat 28: Fabrice Niessen (en français)\n\n\nChapitres\n\n0:00 Introduction\n3:00 gptel\n13:42 diff\n17:52 gptel-commit-message\n23:30 docstrings\n24:03 hs-minor-mode - hideshow\n31:03 Super-whisper\n41:21 Dotfiler\n59:12 Enseignement d'Emacs\n\n\n\n\nLa transcription légèrement corrigée\nDetails\n\n\n\n0:00 Introduction\n\n\nProt:  Tu peux prendre le lien correct cette fois. \nFabrice:  Ah, voilà, je suis prêt avec. \nSacha:  Ah, ok. Ok. Nous sommes en direct. \nProt:  Ah, nous sommes en direct. Très bien. \nSacha:  Donc, je vais passer à vos notes. Bonjour à to…",
+          "link": "https://sachachua.com/blog/2026/08/27-aout-emacs-chat-fabrice-niessen-en-francais-partie-2/",
+          "publishedOn": "2026-09-01T15:58:31.000Z",
+          "wordCount": 8720,
+          "title": "Sacha Chua: Emacs Chat 30: Fabrice Niessen (en français, partie 2)",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.jamescherti.com/emacs-security-settings/",
           "author": null,
           "description": "Emacs ships with default settings intended for backward compatibility and convenience over strict security. The following settings enforce TLS certificate verification, reduce unintended ffap network lookups, restrict the evaluation of potentially unsafe local file, and directory variables, automated package review system, and protect authentication credentials stored by Emacs.\nNetwork and communication security\nBy default, Emacs prompts the user interactively if a connection appears untrustworthy. You can additionally require certificate validation to fail at the TLS library level, causing invalid certificates to result in a connection error.\nRequiring certificate validation at the TLS layer reduces the possibility of accidentally accepting an invalid certificate in response to an interac…",
@@ -438,16 +448,6 @@
           "wordCount": 36699,
           "title": "Mickey Petersen: What's New in Emacs 31.1?",
           "imageUrl": "https://www.masteringemacs.org/static/uploads/article-images/monochrome_gnu.jpg"
-        },
-        {
-          "id": "https://irreal.org/blog/?p=14034",
-          "author": null,
-          "description": "about the relative efficiency of setq, setq-default, setopt, and customize-set-variable. Cherti justifies this concern on their effect on Emacs startup time but according to well established Irreal dicta this doesn’t matter because we seldom restart Emacs so a few seconds more or less simply don’t matter.\n\n\nOddly, there are some people who pay no attention to Irreal dicta and who obsess about every millisecond—Cherti’s term—of Emacs startup time. For those people and those who worry about execution times in general, Cherti’s post is very useful and explains why some of those commands are faster than others.\n\n\nThe crux of the matter is that defcustom can include a setter method that can be arbitrarily complex. Cherti has a nice example of this that will help you understand what’s going on. Cherti says that very often there’s no reason to invoke that setter method during startup and that setq or setq-default is faster and just as useful. Commands like setopt and customize-set-variable always call the setter method so they may be slower. Cherti’s examples show how to avoid unnecessary bottlenecks.\n\n\nCherti also shows how even the :custom keyword in use-package can trigger the setter methods of those variables and gives some workarounds. The main problem is that it’s hard to know when you can avoid the setter method and when you can’t. Sometimes, you just have to read the source code to figure it out.\n\n\nObsessing about startup times aside, it’s nice to have an explanation of what these commands do and how their use might affect run time. Cherti’s post is relatively short and well worth a minute or two to read.",
-          "link": "https://irreal.org/blog/?p=14034",
-          "publishedOn": "2026-08-23T15:15:54.000Z",
-          "wordCount": 1540,
-          "title": "Irreal: Setq And The Others",
-          "imageUrl": null
         }
       ]
     },
@@ -1205,26 +1205,6 @@
           "wordCount": 3524,
           "title": "It’s Reds Week",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/REDS-WEEK_1-2.png"
-        },
-        {
-          "id": "https://defector.com/?p=233185",
-          "author": "David Roth",
-          "description": "There are a number of very obvious reasons why Cleveland Browns fans might boo Deshaun Watson, all of which are a matter of public record and none of which Watson can really afford to concern himself with. It is a requirement of his extremely difficult job that Watson must maintain a towering and preposterous level of self-belief, a load-bearing faith that must be strong enough, which is to say unreasonable and unreasoning enough, to withstand any and every possible failure or humiliation. Being a NFL quarterback is just too difficult to do with any other mindset, and while that work is not really made easier in any meaningful way when it follows the absolute certainty that the man under center is the protagonist of reality and the hero of every story in which he might figure, Watson is no…",
-          "link": "https://defector.com/deshaun-watson-booed-in-preseason-for-some-reason",
-          "publishedOn": "2026-08-23T19:49:38.000Z",
-          "wordCount": 7659,
-          "title": "Deshaun Watson: Very Telling That Browns Fans Would Boo Me For Being A Lousy Quarterback And Shitty Guy",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2290115630.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=233184",
-          "author": "Chris Thompson",
-          "description": "The Seattle Mariners have reached the stage of a busted season where they are just hunting around for reasons to smile. This was a 90-win team last season, one that came within a George Springer dinger of advancing to the franchise's first ever World Series. Now they are crud. More specifically they are stuck three games back of the resurgent Houston damned Astros in their division; a couple of games back of the final American League wild card with four teams ahead of them; six games below a .500 record, with a Mets-like run differential; and their best player is having a campaign every bit as remarkable for its historic suckitude as his 2025 breakout was for its excellence. The Mariners are alive, in a very technical sense, but it's a grim, degraded kind of life, one calling out for the s…",
-          "link": "https://defector.com/randy-arozarena-made-the-mariners-smile",
-          "publishedOn": "2026-08-23T16:07:18.000Z",
-          "wordCount": 6295,
-          "title": "Randy Arozarena Made The Mariners Smile",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2291081366.jpg"
         }
       ]
     },
@@ -2515,6 +2495,22 @@
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
         {
+          "id": "https://www.flowstate.fm/p/sarah-davachi-fba",
+          "author": "Flow State",
+          "description": "Today we’re listening to Sarah Davachi, a Canadian composer, organist, and keyboardist based in Los Angeles.",
+          "link": "https://www.flowstate.fm/p/sarah-davachi-fba",
+          "publishedOn": "2026-09-02T07:02:51.000Z",
+          "wordCount": null,
+          "title": "Sarah Davachi",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!d77t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69aa2e67-4bc1-446c-b1c7-757c9ceee94c_1600x930.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!d77t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69aa2e67-4bc1-446c-b1c7-757c9ceee94c_1600x930.jpeg"
+        },
+        {
           "id": "https://www.flowstate.fm/p/flow-state-episode-342",
           "author": "Flow State",
           "description": "Today’s mix opens with a new track from harpist Lara Somogyi’s new album, a [time] patterned, which is a collaboration with cellist Clarice Jensen.",
@@ -2740,6 +2736,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1556531",
+          "author": "Josh Marshall",
+          "description": "Tonight in Independence, Missouri, hometown of Harry Truman, city councilman John Perkins got absolutely rocked, losing a recall election with...",
+          "link": "https://talkingpointsmemo.com/edblog/local-pol-bounced-hard-over-data-center",
+          "publishedOn": "2026-09-02T02:18:30.000Z",
+          "wordCount": 1885,
+          "title": "Local Pol Bounced Hard Over Data Center",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/09/JohnPerkins-1_5x5_Print.jpg?w=325"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1556510",
           "author": "Josh Marshall",
