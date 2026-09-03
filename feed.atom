@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-03T08:33:39.583Z</updated>
+    <updated>2026-09-03T14:09:26.541Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Funniest Emails From The Kawhi  Leonard Investigation Are Also The Most Clarifying]]></title>
+        <id>https://defector.com/?p=234559</id>
+        <link href="https://defector.com/the-funniest-emails-from-the-kawhi-leonard-investigation-are-also-the-most-clarifying"/>
+        <updated>2026-09-03T13:58:24.000Z</updated>
+        <summary type="html"><![CDATA[The 35-page report released on Wednesday by the law firm Wachtell, Lipton, Rosen & Katz, which contains a great deal of evidence that Kawhi Leonard and the Los Angeles Clippers circumvented the NBA's salary-cap rules, makes for some surprisingly fun reading. It includes some juicy and/or embarrassing emails and text messages sent by some of the parties involved in the Clippers' scheme, and my favorite part of the report is this one:
+In December 2021, Mr. Sanberg discussed with senior Aspiration executives his desire for the company to enter into an endorsement agreement with Mr. Leonard on the terms described above. Mr. Sanberg did not have the authority to sign such an agreement on Aspiration’s behalf and, according to internal Aspiration emails, the reaction among its C-suite executives …]]></summary>
+        <author>
+            <name>Tom Ley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tom Dundon Isn’t Acting Alone]]></title>
+        <id>https://defector.com/?p=234245</id>
+        <link href="https://defector.com/tom-dundon-isnt-acting-alone"/>
+        <updated>2026-09-03T13:09:14.000Z</updated>
+        <summary type="html"><![CDATA[Tom Dundon and the Portland City Council remain in a standoff. In early August, the city approved a $120 million expenditure of public money for renovations of the Blazers' longtime home arena, located in the city's Rose Quarter entertainment district. The city's proposed terms included a new 20-year lease, a $3 million annual payment to the city (compensation for property taxes the team avoids by playing in a publicly owned arena), and for the team to commit to using unionized labor. Dundon's response, as delivered by underlings at a July public meeting, was a resounding hell no. Portland is too crummy a town, says Dundon, to expect those kinds of compromises. It is beset by a "stagnant business climate, high income taxes, and [a] divisive political environment," and Portland's civic lead…]]></summary>
+        <author>
+            <name>Chris Thompson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Patrick Gleeson]]></title>
         <id>https://www.flowstate.fm/p/patrick-gleeson</id>
@@ -848,6 +869,28 @@ more…]]></summary>
         <summary type="html"><![CDATA[All we needed was two months without self-sabotage. Instead, some Democratic Congresscritters have decided to sign on to a provision supporting the SAVE Act.]]></summary>
         <author>
             <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Emacs Redux: Working with Git Worktrees in Magit]]></title>
+        <id>https://emacsredux.com/blog/2026/09/02/working-with-git-worktrees-in-magit/</id>
+        <link href="https://emacsredux.com/blog/2026/09/02/working-with-git-worktrees-in-magit/"/>
+        <updated>2026-09-02T14:28:00.000Z</updated>
+        <summary type="html"><![CDATA[I’ll admit that until fairly recently I had no idea git worktrees existed.
+They’ve been part of git for a decade1 and I never once needed them. Feature
+branches did the job just fine - create a branch, do the work, merge it, delete
+it, and start over.
+What finally introduced me to worktrees was, of all things, AI coding agents.
+Tools like Claude Code create a worktree for each task, so several agents (or
+several sessions of the same agent) can work on the same repo in parallel
+without stepping on each other - or on you. Suddenly my projects directory was
+full of cider-this and cider-that siblings, and I figured I should
+understand what’s actually going on there.
+Worktrees vs Branches
+A branch is just a movable pointer to a commit, and making one is basically
+free. The catch is that a repos…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -3905,88 +3948,6 @@ But because that hasn't happened (yet), we can say that this genre pretty much t
         <summary type="html"><![CDATA[The 1980s produced an impressive number of hit songs that were difficult to describe using a single genre. Pop could]]></summary>
         <author>
             <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The History of Prog Rock: How Rock Music Learned to Think Bigger]]></title>
-        <id>https://historyofmusic.net/?p=5834</id>
-        <link href="https://historyofmusic.net/1960s/the-history-of-prog-rock-how-rock-music-learned-to-think-bigger/"/>
-        <updated>2026-08-25T01:08:10.000Z</updated>
-        <summary type="html"><![CDATA[Progressive rock, or prog rock, was one of the strangest and most ambitious musical movements to emerge from the]]></summary>
-        <author>
-            <name>schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[50 Most Recognizable Singers in Music History]]></title>
-        <id>https://stuffthatinterestsme.net/?p=3396</id>
-        <link href="https://stuffthatinterestsme.net/50-most-recognizable-singers-in-music-history/"/>
-        <updated>2026-08-25T00:53:09.000Z</updated>
-        <summary type="html"><![CDATA[Music has produced thousands of great singers, but greatness and recognizability are two very different things. There are singers with]]></summary>
-        <author>
-            <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Troma Tuesday: Christmas Evil]]></title>
-        <id>https://stuffthatinterestsme.net/?p=2925</id>
-        <link href="https://stuffthatinterestsme.net/troma-tuesday-christmas-evil/"/>
-        <updated>2026-08-25T00:22:25.000Z</updated>
-        <summary type="html"><![CDATA[Holiday horror has become a beloved subgenre, offering twisted takes on celebrations that are normally associated with warmth, family, and]]></summary>
-        <author>
-            <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Ramones: The Band That Changed Rock & Roll Forever]]></title>
-        <id>https://historyofmusic.net/?p=5823</id>
-        <link href="https://historyofmusic.net/1970s/the-ramones-the-band-that-changed-rock-roll-forever/"/>
-        <updated>2026-08-24T23:53:04.000Z</updated>
-        <summary type="html"><![CDATA[The Ramones did not look like the kind of band that was going to change music forever. They were four]]></summary>
-        <author>
-            <name>schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[More Proof That Christian Nationalism Is Ruining Religion for Everybody]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a73514579/christian-nationalism-wind-river-reservation/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a73514579/christian-nationalism-wind-river-reservation/"/>
-        <updated>2026-08-24T23:29:14.000Z</updated>
-        <summary type="html"><![CDATA[What does religious liberty even mean when the wing nuts won’t let anyone else follow their own beliefs and traditions?]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dems Prepare for Trump Corruption Investigation Blitz Should They Take House]]></title>
-        <id>https://wherethingsstand.talkingpointsmemo.com/p/dems-prepare-for-trump-corruption</id>
-        <link href="https://wherethingsstand.talkingpointsmemo.com/p/dems-prepare-for-trump-corruption"/>
-        <updated>2026-08-24T21:44:51.000Z</updated>
-        <summary type="html"><![CDATA[This is your TPM evening briefing.]]></summary>
-        <author>
-            <name>Nicole Lafond</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[America Needs to Look Backward Before We Can Look Forward, or We’re Doomed to Repeat Our Mistakes Forever]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a73514344/midterms-democrats-jared-kushner-hakeem-jeffries/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a73514344/midterms-democrats-jared-kushner-hakeem-jeffries/"/>
-        <updated>2026-08-24T21:05:20.000Z</updated>
-        <summary type="html"><![CDATA[The Democrats are already making moves in anticipation of a big midterm swing. They should be doing penance first.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Charles Choi: Announcing shazam.el]]></title>
-        <id>http://yummymelon.com/devnull/announcing-shazam-el.html</id>
-        <link href="http://yummymelon.com/devnull/announcing-shazam-el.html"/>
-        <updated>2026-08-24T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Continuing my explorations on malleable computing with Emacs is examining access to OS/Platform-specific resources, in this case with macOS. macOS provides a number of mechanisms for high-level inter-process communication, among them AppleScript & Automator Actions (now considered legacy but still maintained) and App Intents, Entities & Shortcuts (introduced in macOS 13 and considered by Apple a replacement for the former).
-This post both announces and covers the implementation of an Emacs integration with the Shazam music recognition service that is packaged with macOS. This Emacs integration is called shazam.el (https://github.com/kickingvegas/shazam) and is now available for installation via MELPA.
-To understand the shazam.el implementation, the following background information is provi…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>

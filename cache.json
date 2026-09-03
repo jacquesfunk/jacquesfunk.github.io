@@ -160,6 +160,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://emacsredux.com/blog/2026/09/02/working-with-git-worktrees-in-magit/",
+          "author": null,
+          "description": "I’ll admit that until fairly recently I had no idea git worktrees existed.\nThey’ve been part of git for a decade1 and I never once needed them. Feature\nbranches did the job just fine - create a branch, do the work, merge it, delete\nit, and start over.\nWhat finally introduced me to worktrees was, of all things, AI coding agents.\nTools like Claude Code create a worktree for each task, so several agents (or\nseveral sessions of the same agent) can work on the same repo in parallel\nwithout stepping on each other - or on you. Suddenly my projects directory was\nfull of cider-this and cider-that siblings, and I figured I should\nunderstand what’s actually going on there.\nWorktrees vs Branches\nA branch is just a movable pointer to a commit, and making one is basically\nfree. The catch is that a repos…",
+          "link": "https://emacsredux.com/blog/2026/09/02/working-with-git-worktrees-in-magit/",
+          "publishedOn": "2026-09-02T14:28:00.000Z",
+          "wordCount": 1292,
+          "title": "Emacs Redux: Working with Git Worktrees in Magit",
+          "imageUrl": "https://emacsredux.com/assets/og-image.png"
+        },
+        {
           "id": "https://oylenshpeegul.gitlab.io/blog/posts/20260902/",
           "author": null,
           "description": "I just installed Alpine Linux on an old laptop. Works great!\n Last year, I complained about all of the lightweight Linux distributions being based on Debian. Alpine is not based on Debian and is very lightweight indeed; it uses busybox in place of many GNU utilities, musl libc in place of glibc, and openrc in place of systemd. Alpine is so small that lots of folks use it for containers and things.",
@@ -478,16 +488,6 @@
           "wordCount": 484,
           "title": "TAONAW - Emacs and Org Mode:",
           "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/08/25/5979407.png"
-        },
-        {
-          "id": "http://yummymelon.com/devnull/announcing-shazam-el.html",
-          "author": null,
-          "description": "Continuing my explorations on malleable computing with Emacs is examining access to OS/Platform-specific resources, in this case with macOS. macOS provides a number of mechanisms for high-level inter-process communication, among them AppleScript & Automator Actions (now considered legacy but still maintained) and App Intents, Entities & Shortcuts (introduced in macOS 13 and considered by Apple a replacement for the former).\nThis post both announces and covers the implementation of an Emacs integration with the Shazam music recognition service that is packaged with macOS. This Emacs integration is called shazam.el (https://github.com/kickingvegas/shazam) and is now available for installation via MELPA.\nTo understand the shazam.el implementation, the following background information is provi…",
-          "link": "http://yummymelon.com/devnull/announcing-shazam-el.html",
-          "publishedOn": "2026-08-24T21:00:00.000Z",
-          "wordCount": 759,
-          "title": "Charles Choi: Announcing shazam.el",
-          "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
         }
       ]
     },
@@ -496,6 +496,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=234559",
+          "author": "Tom Ley",
+          "description": "The 35-page report released on Wednesday by the law firm Wachtell, Lipton, Rosen & Katz, which contains a great deal of evidence that Kawhi Leonard and the Los Angeles Clippers circumvented the NBA's salary-cap rules, makes for some surprisingly fun reading. It includes some juicy and/or embarrassing emails and text messages sent by some of the parties involved in the Clippers' scheme, and my favorite part of the report is this one:\nIn December 2021, Mr. Sanberg discussed with senior Aspiration executives his desire for the company to enter into an endorsement agreement with Mr. Leonard on the terms described above. Mr. Sanberg did not have the authority to sign such an agreement on Aspiration’s behalf and, according to internal Aspiration emails, the reaction among its C-suite executives …",
+          "link": "https://defector.com/the-funniest-emails-from-the-kawhi-leonard-investigation-are-also-the-most-clarifying",
+          "publishedOn": "2026-09-03T13:58:24.000Z",
+          "wordCount": 7511,
+          "title": "The Funniest Emails From The Kawhi  Leonard Investigation Are Also The Most Clarifying",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2255005175.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234245",
+          "author": "Chris Thompson",
+          "description": "Tom Dundon and the Portland City Council remain in a standoff. In early August, the city approved a $120 million expenditure of public money for renovations of the Blazers' longtime home arena, located in the city's Rose Quarter entertainment district. The city's proposed terms included a new 20-year lease, a $3 million annual payment to the city (compensation for property taxes the team avoids by playing in a publicly owned arena), and for the team to commit to using unionized labor. Dundon's response, as delivered by underlings at a July public meeting, was a resounding hell no. Portland is too crummy a town, says Dundon, to expect those kinds of compromises. It is beset by a \"stagnant business climate, high income taxes, and [a] divisive political environment,\" and Portland's civic lead…",
+          "link": "https://defector.com/tom-dundon-isnt-acting-alone",
+          "publishedOn": "2026-09-03T13:09:14.000Z",
+          "wordCount": 8587,
+          "title": "Tom Dundon Isn’t Acting Alone",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2269722331.jpg"
+        },
         {
           "id": "https://defector.com/?p=234535",
           "author": "Patrick Redford",
@@ -1475,26 +1495,6 @@
           "wordCount": 3835,
           "title": "Song Battle: “She Blinded Me with Science” vs. “One Night in Bangkok”",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3396",
-          "author": "Schill",
-          "description": "Music has produced thousands of great singers, but greatness and recognizability are two very different things. There are singers with",
-          "link": "https://stuffthatinterestsme.net/50-most-recognizable-singers-in-music-history/",
-          "publishedOn": "2026-08-25T00:53:09.000Z",
-          "wordCount": 6156,
-          "title": "50 Most Recognizable Singers in Music History",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=2925",
-          "author": "Schill",
-          "description": "Holiday horror has become a beloved subgenre, offering twisted takes on celebrations that are normally associated with warmth, family, and",
-          "link": "https://stuffthatinterestsme.net/troma-tuesday-christmas-evil/",
-          "publishedOn": "2026-08-25T00:22:25.000Z",
-          "wordCount": 2983,
-          "title": "Troma Tuesday: Christmas Evil",
-          "imageUrl": null
         }
       ]
     },
@@ -2429,26 +2429,6 @@
           "wordCount": 18799,
           "title": "Why the Supreme Court Is Using a Controversial Legal Principle to Cherry-Pick Mail-In Ballot Rulings",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/bea6ccee-f4e5-434d-9f6f-6a35aa443b7b.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73514579/christian-nationalism-wind-river-reservation/",
-          "author": null,
-          "description": "What does religious liberty even mean when the wing nuts won’t let anyone else follow their own beliefs and traditions?",
-          "link": "https://www.esquire.com/news-politics/politics/a73514579/christian-nationalism-wind-river-reservation/",
-          "publishedOn": "2026-08-24T23:29:14.000Z",
-          "wordCount": 19480,
-          "title": "More Proof That Christian Nationalism Is Ruining Religion for Everybody",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/545cbdfc-851a-410a-8d06-8276bd9b0873.jpeg?crop=1xw:0.75xh;0xw,0.152xh&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73514344/midterms-democrats-jared-kushner-hakeem-jeffries/",
-          "author": null,
-          "description": "The Democrats are already making moves in anticipation of a big midterm swing. They should be doing penance first.",
-          "link": "https://www.esquire.com/news-politics/politics/a73514344/midterms-democrats-jared-kushner-hakeem-jeffries/",
-          "publishedOn": "2026-08-24T21:05:20.000Z",
-          "wordCount": 19189,
-          "title": "America Needs to Look Backward Before We Can Look Forward, or We’re Doomed to Repeat Our Mistakes Forever",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/759b7918-906f-4a84-a967-799ff7311dd5.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
         }
       ]
     },
@@ -2462,28 +2442,7 @@
       "title": "History Of Music",
       "feedUrl": "https://historyofmusic.net/feed/",
       "siteUrl": "https://historyofmusic.net",
-      "articles": [
-        {
-          "id": "https://historyofmusic.net/?p=5834",
-          "author": "schill",
-          "description": "Progressive rock, or prog rock, was one of the strangest and most ambitious musical movements to emerge from the",
-          "link": "https://historyofmusic.net/1960s/the-history-of-prog-rock-how-rock-music-learned-to-think-bigger/",
-          "publishedOn": "2026-08-25T01:08:10.000Z",
-          "wordCount": 8525,
-          "title": "The History of Prog Rock: How Rock Music Learned to Think Bigger",
-          "imageUrl": null
-        },
-        {
-          "id": "https://historyofmusic.net/?p=5823",
-          "author": "schill",
-          "description": "The Ramones did not look like the kind of band that was going to change music forever. They were four",
-          "link": "https://historyofmusic.net/1970s/the-ramones-the-band-that-changed-rock-roll-forever/",
-          "publishedOn": "2026-08-24T23:53:04.000Z",
-          "wordCount": null,
-          "title": "The Ramones: The Band That Changed Rock & Roll Forever",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Awesome Terrible Movie",
@@ -3157,22 +3116,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!SnqW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F740e9c6a-4dca-44f2-927b-e8f8b321eb93_1600x1200.png"
-        },
-        {
-          "id": "https://wherethingsstand.talkingpointsmemo.com/p/dems-prepare-for-trump-corruption",
-          "author": "Nicole Lafond",
-          "description": "This is your TPM evening briefing.",
-          "link": "https://wherethingsstand.talkingpointsmemo.com/p/dems-prepare-for-trump-corruption",
-          "publishedOn": "2026-08-24T21:44:51.000Z",
-          "wordCount": null,
-          "title": "Dems Prepare for Trump Corruption Investigation Blitz Should They Take House",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!Wmk3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa81bee71-0226-4e29-b692-7750b10eff4d_1600x1200.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!Wmk3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa81bee71-0226-4e29-b692-7750b10eff4d_1600x1200.png"
         }
       ]
     },
