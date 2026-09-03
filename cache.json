@@ -488,36 +488,6 @@
           "wordCount": 759,
           "title": "Charles Choi: Announcing shazam.el",
           "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
-        },
-        {
-          "id": "https://mbork.pl/2026-08-24_Transforming_yanked_text",
-          "author": null,
-          "description": "Recently I found myself killing and yanking more often than ever. One problem with that is that the capitalization and punctuation of what I have yanked is often wrong. As a (pretty stupid) example, I might see the sentence “This is bad.”, and I might want to write another one: “He thinks that this is bad, and he’s right.” If I use kill-sentence (M-k) or backward-kill-sentence (C-x DEL), I have the whole This is bad. in the kill ring, but what I need to yank is this is bad (with lower-case “t” and without the period), so I need to make both changes after yanking. After several dozen such cases I thought, this is Emacs, I shouldn’t be doing this manually!",
-          "link": "https://mbork.pl/2026-08-24_Transforming_yanked_text",
-          "publishedOn": "2026-08-24T19:01:51.000Z",
-          "wordCount": 958,
-          "title": "Marcin Borkowski: Transforming yanked text",
-          "imageUrl": null
-        },
-        {
-          "id": "https://irreal.org/blog/?p=14036",
-          "author": null,
-          "description": "announced the release of Emacs 31.1. As usual, it’s available at the mirror nearest you. Note, however, that the URLs in Whitton’s announcement have a typo. See this message from Eli for the correct URLs.\n\n\nI’m writing this with the just built new Emacs and everything seems fine. I had a bit of trouble downloading the source because, apparently, some of the mirrors haven’t updated yet. If that happens to you, just repeat the request a time or two and you should get everything. After that, enjoy your new Emacs and all the goodies it brings. As always, Mickey has his usual exegesis of the changes.\n\n\nAs I invariably say at times like this, Eli and the rest of the development team deserve our huge thanks for their selfless efforts on our behalf.",
-          "link": "https://irreal.org/blog/?p=14036",
-          "publishedOn": "2026-08-24T16:41:31.000Z",
-          "wordCount": 1387,
-          "title": "Irreal: Emacs 31.1",
-          "imageUrl": null
-        },
-        {
-          "id": "http://en.andros.dev/blog/5fcf45a2/a-year-of-org-social-my-social-network/",
-          "author": null,
-          "description": "A year ago I created Org Social. Just a plain-text specification and an .org file served over HTTP. Today it is time to take stock, to see how the project has moved, what has worked and what has not. And above all, to tell the story of a year of development and community.\nA bird's-eye view of the whole year would look like this:\n2025\nAugust: the specification is born (Aug 12). Front page of Hacker News and 150 stars in 24 hours. First client, org-social.el (Aug 16). Spec 1.1: the first external contribution removes :REPLY_URL:.\nSeptember: the Relay is born. Groups arrive in the specification.\nOctober: org-social.el v2.0 with a redesigned interface (Oct 1). It lands on MELPA (Oct 26). Proposal to the Org Mode list.\nNovember: Relay v1.0 and host is born. A record of 581 posts in a month, pro…",
-          "link": "http://en.andros.dev/blog/5fcf45a2/a-year-of-org-social-my-social-network/",
-          "publishedOn": "2026-08-24T15:05:32.000Z",
-          "wordCount": 2578,
-          "title": "Andros Fenollosa: A year of Org Social, my social network",
-          "imageUrl": "https://img.andros.dev/lO4rHtFcmp5pDRbWBepGddVAOVI=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/org-social.png"
         }
       ]
     },
@@ -1295,76 +1265,6 @@
           "wordCount": 9612,
           "title": "‘Red Dwarf’ Became A Sci-Fi Classic By Rejecting Every Sci-Fi Convention",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/RedDwarf.png"
-        },
-        {
-          "id": "https://defector.com/?p=233274",
-          "author": "Billy Haisley",
-          "description": "As a soccer fan, one of the best things you can do for your physical and mental well-being is to studiously avoid overreacting to results early in the season. Especially for the big teams, and especially especially coming off of a summer international tournament, the first few weeks of the league are essentially an extension of the preseason, and therefore should be considered little more than glorified training sessions aimed primarily at working players back into shape after their abbreviated, inebriated vacations. A Week 1 upset hardly condemns the loser to a season of disappointment, nor does it catapult the winner into the fight for the European places. \nThat said, if any presumably good Premier League team could least afford to come stumbling out of the blocks, it's Manchester United, which opened its promise-laden new campaign with a humiliating loss to what is likely the worst team in the division.\n\nhttps://www.youtube.com/watch?v=NR74IpnbJNk",
-          "link": "https://defector.com/hull-city-drags-red-devils-right-back-to-hell",
-          "publishedOn": "2026-08-24T20:04:03.000Z",
-          "wordCount": 7115,
-          "title": "Hull City Drags Red Devils Right Back To Hell",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2291534098.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=233280",
-          "author": "Samer Kalaf",
-          "description": "San Francisco 49ers owner Jed York was arrested this weekend in Ohio, originally on the charge of engaging in prostitution, though a plea agreement amended it to misdemeanor charges.\nYork, who is originally from Youngstown, Ohio, was arrested Sunday morning at the Wheat Hill Mobile Home Community in East Palestine, according to local news station WKBN. The arrest was reportedly conducted by the Mahoning Valley Human Trafficking Task Force as well as East Palestine police. By Monday morning, York had pleaded no contest to misdemeanor charges of disorderly conduct and possessing criminal tools.\nAccording to Columbiana Court records, York was fined a total of $1,150 and sentenced to two days in Columbiana County Jail, concurrently, and received credit for one day already served. The 49ers owner had already filed a request to expunge the case from his record.",
-          "link": "https://defector.com/49ers-owner-jed-york-red-faced-after-arrest-in-ohio",
-          "publishedOn": "2026-08-24T19:22:46.000Z",
-          "wordCount": 4764,
-          "title": "49ers Owner Jed York Red-Faced After Arrest In Ohio",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2249590394-e1787598946291.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=232860",
-          "author": "Liz Cook",
-          "description": "I can't help but empathize with the heirloom tomato this time of year. The first BLTs have been eaten; the novelty has worn off. Stacked on farmers' market tables like milk bottles in a carnival game, late-summer tomatoes start to look a little worse for wear. Like me, they are often etched with lines from spotty hydration. They're a little busted, a little bruised. \nAlso like me, they retain in their haggard hides a secret well of great beauty and value. If you find yourself with a surfeit of ugly heirloom tomatoes this summer, there is only one thing to do: Make tomato water. \nTomato water is the purest expression of a tomato—all heart, no husk. It is an excellent way to sneak umami, a word my editor told me I was only allowed to use once in this blog, into salad dressings and sauces and negronis. The water inside of a tomato is packed with glutamates, the savory compounds derived from having a thick ass. Those glutamates are the building blocks of MSG, which stands for Making Stuff Good. The magic trick of tomato water is that it allows you to make things more savory without necessarily making them salty.",
-          "link": "https://defector.com/turn-your-busted-tomatoes-into-tomato-water",
-          "publishedOn": "2026-08-24T17:30:48.000Z",
-          "wordCount": 7325,
-          "title": "Turn Your Busted Tomatoes Into Tomato Water",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/IMG_6062.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=233245",
-          "author": "Drew Magary",
-          "description": "Some people are fans of the Philadelphia Eagles. But many, many more people are NOT fans of the Philadelphia Eagles. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.\nYour team: Philadelphia Eag—God, I’m exhausted just typing their name. Makes me wanna spit on a guy.\n\nhttps://twitter.com/SportsCenter/status/1963761757760930233",
-          "link": "https://defector.com/why-your-team-sucks-2026-philadelphia-eagles",
-          "publishedOn": "2026-08-24T16:59:18.000Z",
-          "wordCount": 13637,
-          "title": "Why Your Team Sucks 2026: Philadelphia Eagles",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2246268439.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=233243",
-          "author": "Alex Sujong Laughlin",
-          "description": "Traditional publishing is a frustrating industry whose workers are under-resourced and often mandated to chase metrics like authors' audience size and nascent trends based on \"data,\" \"vibes,\" and \"TikTok.\"\nIf, in the years-long dark period when I had an agent but not yet a book deal, an editor had told me exactly what I needed to change about my project to get them to buy it, I would have jumped at the chance. Especially if what they wanted was a book I already had in the works—it just wasn't the one I wanted to publish first.\nThis is what happened to Alexander Chee in the years after he graduated from his MFA. He had been working on two novel concepts, and editors vastly preferred one over the other. But he had a strong preference that one come first, his \"shitty autobiographical novel\" that would eventually become Edinburgh. The second novel, which would be The Queen of the Night, eventually did get published, but that was 15 years after Edinburgh.",
-          "link": "https://defector.com/alexander-chee-trusted-his-gut",
-          "publishedOn": "2026-08-24T16:15:02.000Z",
-          "wordCount": 5286,
-          "title": "Alexander Chee Trusted His Gut",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/chee-BLOG-IMAGE.png"
-        },
-        {
-          "id": "https://defector.com/?p=233174",
-          "author": "Luis Paez-Pumar",
-          "description": "Some of my favorite sports uniforms are red. This has always been true, and my choices of teams to support have only reinforced that. (A chicken-egg situation?) Other than the Miami Marlins (who did have the snazzy Sugar Kings red jerseys a few years back), the Miami Heat, New England Patriots (god, I love those red throwbacks), Liverpool, Barcelona, and MY Florida Panthers all have red(-ish) uniforms.\nI therefore feel uniquely qualified to contribute a ranking of red jerseys across the major U.S. sports to our Reds Week mania. I scoured the major leagues for a hint of red, drew up a list, then rated each uniform 1-10. Within each block of the same rating, I ranked them based purely on my reaction to their shades of red and design work, and after spending more time on this than I'd planned…",
-          "link": "https://defector.com/red-uniforms-ranked",
-          "publishedOn": "2026-08-24T15:59:36.000Z",
-          "wordCount": 14601,
-          "title": "Red Uniforms, Ranked",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2277368083.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=232409",
-          "author": "Sabrina Imbler",
-          "description": "Imagine you are a horny male redback spider. You might be a small guy—a fraction of her size—but unlike some, you don't have a complex about it. You're just happy to be there, \"there\" meaning the haphazard snarl of a web of a female redback spider. Only 20 percent of male redback spiders ever mate, so you're already feeling lucky. You know that the climax of your life has arrived, meaning your climax.\nYou approach the spider and insert into her one of your two pedipalps, a pair of leg-like appendages that dangle by your mouth and hold your sperm. Then, as is custom, you initiate a parkour sequence. After doing a headstand, you flip yourself on your back, landing your body between the female's fangs. There, your palp still inside her, she begins to chew on you. If you survive this—which you often do thanks to your ability to squeeze your waist really small so her fangs can't immediately impale you—you two take a break. Then you're back in action, inserting your second palp in her and sliding cleanly into headstand number two, followed by that somersault, followed by more chewing. This time you let her finish you off, meaning eat you entirely. But you don't have a complex around this either. You have completed the work of your life, ensuring that the batches of eggs she will soon lay are all fathered by you, who, at this point, have departed this mortal coil, digested and excreted by your large and lovely mate. \"This is the mating ritual of L. hasselti,\" Kardelen Özgün Uludağ, a PhD student at the University of Hamburg in Germany, wrote in an email.\nIf this for some reason is hard to imagine, perhaps the following video will help.",
-          "link": "https://defector.com/some-spiders-savor-sacrificial-somersault-sex",
-          "publishedOn": "2026-08-24T15:29:30.000Z",
-          "wordCount": 6651,
-          "title": "Some Spiders Savor Sacrificial Somersault Sex",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/5648356782_3200aca7f1_h.jpeg"
         }
       ]
     },
@@ -2549,16 +2449,6 @@
           "wordCount": 19189,
           "title": "America Needs to Look Backward Before We Can Look Forward, or We’re Doomed to Repeat Our Mistakes Forever",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/759b7918-906f-4a84-a967-799ff7311dd5.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73513264/trump-trade-negotiations-canada/",
-          "author": null,
-          "description": "Yes, he’s still on the delusional “51st state” thing.",
-          "link": "https://www.esquire.com/news-politics/politics/a73513264/trump-trade-negotiations-canada/",
-          "publishedOn": "2026-08-24T18:41:14.000Z",
-          "wordCount": 18012,
-          "title": "Trump’s Trade Negotiations with Canada Have Been a Master Class in Ignorance and Incompetence",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/a2da6f61-c4ad-4bb1-bf1c-867b5e5ec18d.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
         }
       ]
     },
@@ -2684,6 +2574,22 @@
       "feedUrl": "https://www.flowstate.fm/feed",
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
+        {
+          "id": "https://www.flowstate.fm/p/patrick-gleeson",
+          "author": "Flow State",
+          "description": "Today we’re listening to Patrick Gleeson, an American synthesist and composer from Seattle.",
+          "link": "https://www.flowstate.fm/p/patrick-gleeson",
+          "publishedOn": "2026-09-03T07:04:00.000Z",
+          "wordCount": null,
+          "title": "Patrick Gleeson",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!8m9n!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcab8221c-426b-4dd6-82bb-25f07f49f33f_764x401.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!8m9n!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcab8221c-426b-4dd6-82bb-25f07f49f33f_764x401.jpeg"
+        },
         {
           "id": "https://www.flowstate.fm/p/sarah-davachi-fba",
           "author": "Flow State",
@@ -2869,16 +2775,6 @@
           "wordCount": 10079,
           "title": "Making Your Data Ready for Agentic AI",
           "imageUrl": "https://martinfowler.com/articles/making-data-ready-for-agentic-ai/card.png"
-        },
-        {
-          "id": "https://martinfowler.com/fragments/2026-08-24.html",
-          "author": null,
-          "description": "I was listening to Ezra Klein’s interview with Helen Toner about the recent OpenAI hack of Hugging Face and the subsequent discovery that there were swarms of agents inside OpenAI doing unsanctioned activities. One of the points Klein made was that at no point did any of these (thousands of?) agents ever try to check in with a human\n[Klein:] So these message boards — you have however many A.I. agents posting hundreds of thousands of messages. At no point do they say: Hey, researchers, programmers, parents at OpenAI, Anthropic — do you want us coordinating with each other on this message board we have created in the innards of your systems?\n[Toner:] Or even F.Y.I., we have a message board we’re coordinating on in the innards of your system.\nListening to that, another thing occurred to me - …",
-          "link": "https://martinfowler.com/fragments/2026-08-24.html",
-          "publishedOn": "2026-08-24T15:29:00.000Z",
-          "wordCount": 1266,
-          "title": "Fragments: August 24",
-          "imageUrl": "/fragments/fragments-thumb.png"
         }
       ]
     },
@@ -3039,36 +2935,6 @@
           "wordCount": 2589,
           "title": "Dolly Parton, Rights Holder, Dead at 80",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-84900805.jpg?w=1200"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1555757",
-          "author": "Josh Marshall",
-          "description": "The U.S.-Canada trade situation is so bleak (as I’ve been discussing in these three posts: 1, 2 and 3) that...",
-          "link": "https://talkingpointsmemo.com/edblog/trash-talking-doug-ford-and-a-bit-of-tpm-lore",
-          "publishedOn": "2026-08-24T20:23:02.000Z",
-          "wordCount": 2473,
-          "title": "Trash Talking Doug Ford and a Bit of TPM Lore",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-2261804824.jpg?w=1200"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1555735",
-          "author": "Josh Marshall",
-          "description": "Jewish Insider, the source of this passage, often has what I’d consider tendentious coverage of this issue. But these words...",
-          "link": "https://talkingpointsmemo.com/edblog/not-good-7",
-          "publishedOn": "2026-08-24T16:09:06.000Z",
-          "wordCount": 1974,
-          "title": "Not Good",
-          "imageUrl": "https://s3.amazonaws.com/tpm-media/images/tpm-logo_square.png"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1555671",
-          "author": "Josh Marshall",
-          "description": "There’s been a blizzard of commentary about the breakdown of U.S.-Canadian trade talks. Friend of TPM Paul Krugman has a...",
-          "link": "https://talkingpointsmemo.com/edblog/trumps-wars-of-whim-and-how-he-loses-them",
-          "publishedOn": "2026-08-24T15:02:35.000Z",
-          "wordCount": 2064,
-          "title": "Trump’s Wars of Whim, And How He Loses Them",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2025/01/GettyImages-1047703964.jpg?w=1200"
         }
       ]
     },
