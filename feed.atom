@@ -2,10 +2,178 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-03T14:09:26.541Z</updated>
+    <updated>2026-09-03T19:06:13.292Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Andrew Luck is just another bureaucrat now]]></title>
+        <id>https://www.sfgate.com/collegesports/article/andrew-luck-stanford-bureaucrat-22414827.php</id>
+        <link href="https://www.sfgate.com/collegesports/article/andrew-luck-stanford-bureaucrat-22414827.php"/>
+        <updated>2026-09-03T19:06:00.706Z</updated>
+        <summary type="html"><![CDATA[error fetching full text: Reqwest client error: error sending request for url (https://www.sfgate.com/collegesports/article/andrew-luck-stanford-bureaucrat-22414827.php)]]></summary>
+        <author>
+            <name>Drew Magary, Columnist - SFGATE</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Your Team Sucks 2026: New England Patriots]]></title>
+        <id>https://defector.com/?p=234579</id>
+        <link href="https://defector.com/why-your-team-sucks-2026-new-england-patriots"/>
+        <updated>2026-09-03T18:47:52.000Z</updated>
+        <summary type="html"><![CDATA[Some people are fans of the New England Patriots. But many, many more people are NOT fans of the New England Patriots. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.
+Your team: The New England Patriots, who are just outside of the frame here. I swear it.
+Ishika Samant/Getty Images]]></summary>
+        <author>
+            <name>Drew Magary</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Breaking: Bartiromo Out at Fox]]></title>
+        <id>https://talkingpointsmemo.com/?p=1556725</id>
+        <link href="https://talkingpointsmemo.com/edblog/breaking-bartiromo-out-at-fox"/>
+        <updated>2026-09-03T17:48:08.000Z</updated>
+        <summary type="html"><![CDATA[Maria Bartiromo is out at Fox News and Fox Business. And apparently with so little advance warning that they barely...]]></summary>
+        <author>
+            <name>Josh Marshall</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Steve Ballmer Betrayed His Fellow Billionaires, And They Are Not Pleased]]></title>
+        <id>https://defector.com/?p=234571</id>
+        <link href="https://defector.com/steve-ballmer-betrayed-his-fellow-billionaires-and-they-are-not-pleased"/>
+        <updated>2026-09-03T16:44:35.000Z</updated>
+        <summary type="html"><![CDATA[For all the fulminations about the million-ton craphammer dropped on the Los Angeles Clippers and owner Steve Ballmer for trying to evade the NBA salary cap, almost nobody has yet identified the situation as the entertainment bonanza it is about to become.
+Yes, it's time for another edition of the game show to end all game shows, and maybe also to end everything else: Billionaires Eating Billionaires. You've seen it, because it airs reruns on basically every channel. A bunch of insanely wealthy people get in their feelings about another colossally wealthy person who has gone rogue on the herd, and lash out accordingly; the gameplay generally unfolds as a series of lawyergasms across the continent and ends with some competitors going home naked and battered, all of it richly deserved. It's Turbo Survivor, only with bloody retributions handed out to all the contestants, even the winners, as well as the hosts and production team; even the intrepid team of reporters and researchers who started all this hilarity a year ago will take home a black eye for their trouble.
+That last group is Team Torre, named for its front man, Pablo Torre, whose name is on the door of the Pablo Torre Finds Out podcast. It was that program's collective team of researchers and newsjackals who found a disgruntled insider willing not only to expose the salary-cap games being played by the Clippers, but to provide the first few documents of proof that ultimately led to Ballmer and the Clippers being publicly pantsed for paying Kawhi Leonard under multiple tables. They will be part of the legal mess about to unfold—the heated letter the Clippers sent to the league after Wednesday's punishment came down sniffily referred to the malfeasance Torre et al. exposed as "podcast allegations"—and unlike all the other combatants, don't necessarily have tens of millions of dollars on hand to pay for it. Their sponsors, Meadowlark Media and through them DraftKings, do. So that'll be a hoot, too.]]></summary>
+        <author>
+            <name>Ray Ratto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[James Cherti: Optimizing Emacs startup - Guide to deferred package loading with use-package]]></title>
+        <id>https://www.jamescherti.com/emacs-startup-defer-use-package-performance/</id>
+        <link href="https://www.jamescherti.com/emacs-startup-defer-use-package-performance/"/>
+        <updated>2026-09-03T16:36:20.000Z</updated>
+        <summary type="html"><![CDATA[As an Emacs user, your configuration can easily grow from a few lightweight adjustments to a massive, hundred-package IDE. Without careful management, Emacs startup time can degrade from sub-second execution to several seconds, or minutes, in the worst cases. Eager package loading is one common source of startup overhead. This guide explains how Emacs loads libraries, how use-package configures package loading, and how deferred loading can reduce startup time.
+Why does Emacs startup gets slow?
+A naive package declaration looks like this:
+;; The kirigami Emacs package provides a unified method to fold and unfold
+;; text in Emacs across a diverse set of Emacs modes.
+(use-package kirigami)
+By default, this causes use-package to load the package during initialization, unless the declaration co…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[There’s Too Much Football Happening]]></title>
+        <id>https://defector.com/?p=234314</id>
+        <link href="https://defector.com/theres-too-much-football-happening"/>
+        <updated>2026-09-03T16:21:25.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the Defector College Football Watch Guide, where Israel Daramola and Ray Ratto will tell you which of the weekend’s college football games are worth giving a crap about.
+Ray: Week 0 is behind us, as well you might want it to be if you watched South Carolina State beat Savannah State 87-0 in Saturday. There will be more of that this week, undoubtedly, and every one of those games will serve as blessed relief from the hailstorm of turgid analyses about North Carolina being 1-0 without Mike Lombardi and TCU being 0-1 without the Fort Worth Star-Telegram (and yes, there may be lessons in those disparate things for all of us). But we have miles and thousands of administrative outrages to go before we sleep, starting with five days of ball glut as the industry tries to keep up with the NFL's new promotional masterstroke of Extreme Calendar Glut. 
+But here's something to make your blood run cold this early in the year: Bill Belichick is the only coach who could conceivably win the season's opening and closing game, and if that happens, spring will next emerge in 2183, at which point Punxsutawney Phil will have been replaced by an eye-clawing psychobadger from the 11th dimension.]]></summary>
+        <author>
+            <name>Israel Daramola</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[There’s A New Loser In The Russini-Vrabel Scandal]]></title>
+        <id>https://defector.com/?p=234593</id>
+        <link href="https://defector.com/theres-a-new-loser-in-the-russini-vrabel-scandal"/>
+        <updated>2026-09-03T15:56:56.000Z</updated>
+        <summary type="html"><![CDATA[We can officially stick a fork in the fallout stage of former Athletic reporter Dianna Russini's long and handholdy relationship with Patriots head coach Mike Vrabel. Russini resigned in disgrace and remains unemployed, while Vrabel suffered absolutely no professional consequences. And now The Athletic has completed its five-month review to determine whether her work was up to the company's ethical standards. Spoiler alert: It was mostly fine.
+The review was published Thursday morning and conducted by Mike Semel, editorial director for standards and quality at The Athletic. There are few revelations in the details of Russini's relationship with Vrabel, but she was found "noncompliant" with the outlet's standard of conduct for employees for not disclosing the relationship to her editors. Most of her reporting was found to be sound and ethical. However, two of Russini's pieces have now had editors' notes attached: a video in which she speaks glowingly of Vrabel breaking up a fight in training camp, and an item in a notebook column that contained an unattributed but highly detailed description of Vrabel's thinking and also dinner order.
+How did Semel determine all this?]]></summary>
+        <author>
+            <name>Barry Petchesky</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘It Ends’ Is The Gen Z Horror Movie Of The Year]]></title>
+        <id>https://defector.com/?p=234216</id>
+        <link href="https://defector.com/it-ends-is-the-gen-z-horror-movie-of-the-year"/>
+        <updated>2026-09-03T15:03:42.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this year, Curry Barker and Kane Parsons became young Hollywood phenoms in quick succession. An actor and sketch comedian, the 26-year-old Barker wrote, edited, and directed Obsession, which is the story of a meek romantic who uses a magical novelty toy to make his crush fall in love with him with predictably disastrous results. Parsons, at 21, directed Backrooms, a feature-length adaptation of his own creepypasta-inspired web series about a labyrinthine extradimensional space that serves as a bizarre simulacrum of the real world.
+Both films were released two weeks apart in May and broke multiple commercial records. Having made half-a-billion dollars, Obsession is not just one of the highest-grossing movies of the year but one of the most successful horror films of all time. While Backrooms might trail Obsession as merely the second-highest grossing horror feature of 2026, it’s also the fifth most profitable independent feature in history; Parsons became the youngest director ever to helm a studio-backed film, besting even Orson Welles.
+Baker and Parsons got their start with popular YouTube channels, which has led agents and producers to scour the internet for the next young, digital-native filmmaker with a built-in following and an original story that might become an enormously profitable feature. That search is ongoing, but another twentysomething filmmaker with roots in the internet has recently released his debut feature, It Ends, a horror-ish film with a distinctly existentialist bent. His name is Alexander Ullom.]]></summary>
+        <author>
+            <name>Vikram Murthi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Irreal: The Vim UserGettingBored Autocmd]]></title>
+        <id>https://irreal.org/blog/?p=14058</id>
+        <link href="https://irreal.org/blog/?p=14058"/>
+        <updated>2026-09-03T15:02:23.000Z</updated>
+        <summary type="html"><![CDATA[amusing post about the Vim UserGettingBored autocmd. Autocmds in Vim are essentially like hook functions in Emacs. They get fired when certain events happen in the editor.
+
+
+Way back before Vim 6.0, Bram Moolenaar added the UserGettingBored autocmd to the Vim documentation. It was a joke and the command didn’t actually do anything—or rather, it was never invoked and didn’t really exist. It was like an Emacs hook that was documented but didn’t actually occur. The documentation said “When the user hits CTRL-C. Just Kidding.” In 2013 the documentation changed to  “When the user presses the same key 42 times. Just kidding! :-)” and, there were various other tweaks along the way. Finally, in 2022 an unofficial plugin was created by Mike Smith that actually implemented the autocmd and did something. You can read what it was in Hahn’s post.
+
+
+None of this matters at all, of course, except to provide evidence that Vim users can be as whimsical as us Emacs users. You probably won’t see anything like this in VSCode. It wouldn’t be “professional”.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You’re Trapped Under Rubble And These Guys Are Your EMTs. WYD?]]></title>
+        <id>https://defector.com/?p=234315</id>
+        <link href="https://defector.com/youre-trapped-under-rubble-and-these-guys-are-your-emts-wyd"/>
+        <updated>2026-09-03T14:52:03.000Z</updated>
+        <summary type="html"><![CDATA[A nightmare has happened. Maybe you were minding your own business in the office when an earthquake hit, or maybe you were spelunking in some wretched cave never meant for humans to enter. Yet regardless of how you got here, you are now trapped and in need of urgent medical attention. There's too much debris to clear before a paramedic would be able to reach you ... a human paramedic, that is. But this guy? This guy eats rubble for breakfast.
+
+
+This is a giant burrowing cockroach, and it is approximately as long as a lime. It lives and burrows in—you guessed it—Australia. In the wild, the giant burrowing cockroach mostly stick around their burrows. They can live up to 10 years. The roaches only come to the surface at night, gathering leaves, twigs, and bark from the forest floor to feast on later, back underground. In other words, regular giant burrowing cockroaches do not have jobs or any semblance of medical training. Regular giant burrowing cockroaches would be ill-equipped to save you in an emergency situation. But this is not a regular roach. It is a cyborg roach, the fusion of an actual insect and a robot. The researchers behind this creation have dubbed it the paraborg, per a paper recently published in the journal Advanced Science.]]></summary>
+        <author>
+            <name>Sabrina Imbler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[how about we call it the Strait of Shut the Fuck Up, You Lying Sack of Shit]]></title>
+        <id>https://www.jefftiedrich.com/p/how-about-we-call-it-the-strait-of</id>
+        <link href="https://www.jefftiedrich.com/p/how-about-we-call-it-the-strait-of"/>
+        <updated>2026-09-03T14:32:54.000Z</updated>
+        <summary type="html"><![CDATA[yeah, I like the sound of that]]></summary>
+        <author>
+            <name>Jeff Tiedrich</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First at TPM: Teen Deported TWICE This Year in Violation of Multiple Court Orders]]></title>
+        <id>https://morningmemo.talkingpointsmemo.com/p/first-at-tpm-teen-deported-twice</id>
+        <link href="https://morningmemo.talkingpointsmemo.com/p/first-at-tpm-teen-deported-twice"/>
+        <updated>2026-09-03T14:18:50.000Z</updated>
+        <summary type="html"><![CDATA[INSIDE: Stephanie Gallagher ... Christian Castro ... Gloria Steinem]]></summary>
+        <author>
+            <name>David Kurtz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dave Pearson: next-gh-pr.el v1.1.0]]></title>
+        <id>https://blog.davep.org/2026/09/03/next-gh-pr-el-v1-1-0.html</id>
+        <link href="https://blog.davep.org/2026/09/03/next-gh-pr-el-v1-1-0.html"/>
+        <updated>2026-09-03T14:17:17.000Z</updated>
+        <summary type="html"><![CDATA[A quick little update to
+next-gh-pr.el. Since writing
+the first version I've found it to
+be really useful, but I've also bumped into one small issue. Sometimes I'll
+create a draft PR before I remember to start the changelog entry, and so
+then I want to insert the current PR link rather than the next one.
+Now, sure, I can just go and copy the URL and create the link in the
+changelog, but where's the fun in that when I can solve the problem in
+Emacs Lisp? So, with this in mind, I've just updated the
+package so that, with a prefix argument to the command, it will include a
+link for the latest PR rather than for the next one.
+This does, of course, make the name a little less correct, but I'm not going
+to rename the package or the command for this one minor difference in
+intent.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Funniest Emails From The Kawhi  Leonard Investigation Are Also The Most Clarifying]]></title>
         <id>https://defector.com/?p=234559</id>
@@ -3938,57 +4106,6 @@ But because that hasn't happened (yet), we can say that this genre pretty much t
         <summary type="html"><![CDATA[Today’s mix opens with a track from Matthewdavid’s new ambient EP, Lysergic Snack Bar. That’s followed by some ambient classics by Chihei Hatakeyama, Oneohtrix Point Never, and Asmus Tietchens. There’s new music by Damian Dalla Torre, Total Blue’s Anthony Calonico, and Moola (h/t]]></summary>
         <author>
             <name>Flow State</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Song Battle: “She Blinded Me with Science” vs. “One Night in Bangkok”]]></title>
-        <id>https://stuffthatinterestsme.net/?p=3342</id>
-        <link href="https://stuffthatinterestsme.net/song-battle-she-blinded-me-with-science-vs-one-night-in-bangkok/"/>
-        <updated>2026-08-25T02:49:30.000Z</updated>
-        <summary type="html"><![CDATA[The 1980s produced an impressive number of hit songs that were difficult to describe using a single genre. Pop could]]></summary>
-        <author>
-            <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump's irresponsible Canada trade war might seal GOP's fateRex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/08/24/us-canada-trade-dispute-tariffs-republicans-midterms/91442611007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/08/24/us-canada-trade-dispute-tariffs-republicans-midterms/91442611007/"/>
-        <updated>2026-08-24T20:27:45.809Z</updated>
-        <summary type="html"><![CDATA[With the midterm elections looming and Americans plagued by the cost of virtually everything, President Donald Trump decided it’s a great time for a trade war with Canada.
-You all know Canada, right? It’s the big place just north of us. Our close ally. The country known for being incredibly nice. That Canada.
-Trump slapped 50% U.S. tariffs on a number of Canadian goods after trade negotiations fell apart Aug. 22. Then, on Aug. 24, Trump posted additional threats on social media, saying he’ll double tariffs on imported vehicles and auto parts from Canada and adding: “WE DON’T NEED CANADA, THEY NEED US!”
-If I didn’t know better, I’d say Trump is doing more than Democrats to guarantee a Republican electoral wipeout in the midterms.
-Trump's trade war with Canada will make the GOP's life more m…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Leavitt's leaving. Save $200K and let Trump lie for himself.Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/08/14/karoline-leavitt-successor-trump-press-secretary/91298787007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/08/14/karoline-leavitt-successor-trump-press-secretary/91298787007/"/>
-        <updated>2026-08-24T18:37:16.671Z</updated>
-        <summary type="html"><![CDATA[Now that White House Press Secretary Karoline Leavitt is stepping down to spend more time with her soulless penchant for dishonesty, President Donald Trump has an opportunity to save American taxpayers some money by not replacing her.
-After all, Trump promised to cut down on wasteful government spending, and I can’t imagine anything more wasteful than paying a press secretary to come out and lie on behalf of administration officials whose only skill is lying.
-Does anyone truly think the president needs an employee to amplify his frequent fabrications? The man never shuts up when cameras are around, and he owns his own social media platform. If someone’s going to try to hoodwink me, I prefer they spout their untruths directly and not via some highly paid federal flunky with a smile and an i…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump's polls are amazing, and my abs have never looked better!Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/08/04/trump-approval-polls-lies-truth-social/91156618007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/08/04/trump-approval-polls-lies-truth-social/91156618007/"/>
-        <updated>2026-08-24T18:37:16.642Z</updated>
-        <summary type="html"><![CDATA[Let’s take a moment to read some actual words posted on social media by the actual president of the United States of America.
-On Aug. 3, Donald Trump wrote on Truth Social: “My REAL Polling Numbers, not those made up by the Fake News Media, are the best they have ever been.”
-It’s an insult to fiction to call that fiction. I’m not sure what you call something more fabricated than fiction – maybe “ludicriction”? – but that’s what Trump’s words are.
-Trump has left reality behind and lives in a fantasy world of great polls
-
-As The New York Times recently reported, “The latest surveys indicate that Mr. Trump is now all but the most unpopular second-term president at this stage of their tenure in the history of polling going back to the 1940s. The only exception is not one that would give Mr. Tr…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
         </author>
     </entry>
 </feed>

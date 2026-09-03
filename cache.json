@@ -90,6 +90,36 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.jamescherti.com/emacs-startup-defer-use-package-performance/",
+          "author": null,
+          "description": "As an Emacs user, your configuration can easily grow from a few lightweight adjustments to a massive, hundred-package IDE. Without careful management, Emacs startup time can degrade from sub-second execution to several seconds, or minutes, in the worst cases. Eager package loading is one common source of startup overhead. This guide explains how Emacs loads libraries, how use-package configures package loading, and how deferred loading can reduce startup time.\nWhy does Emacs startup gets slow?\nA naive package declaration looks like this:\n;; The kirigami Emacs package provides a unified method to fold and unfold\n;; text in Emacs across a diverse set of Emacs modes.\n(use-package kirigami)\nBy default, this causes use-package to load the package during initialization, unless the declaration co…",
+          "link": "https://www.jamescherti.com/emacs-startup-defer-use-package-performance/",
+          "publishedOn": "2026-09-03T16:36:20.000Z",
+          "wordCount": 3504,
+          "title": "James Cherti: Optimizing Emacs startup - Guide to deferred package loading with use-package",
+          "imageUrl": null
+        },
+        {
+          "id": "https://irreal.org/blog/?p=14058",
+          "author": null,
+          "description": "amusing post about the Vim UserGettingBored autocmd. Autocmds in Vim are essentially like hook functions in Emacs. They get fired when certain events happen in the editor.\n\n\nWay back before Vim 6.0, Bram Moolenaar added the UserGettingBored autocmd to the Vim documentation. It was a joke and the command didn’t actually do anything—or rather, it was never invoked and didn’t really exist. It was like an Emacs hook that was documented but didn’t actually occur. The documentation said “When the user hits CTRL-C. Just Kidding.” In 2013 the documentation changed to  “When the user presses the same key 42 times. Just kidding! :-)” and, there were various other tweaks along the way. Finally, in 2022 an unofficial plugin was created by Mike Smith that actually implemented the autocmd and did something. You can read what it was in Hahn’s post.\n\n\nNone of this matters at all, of course, except to provide evidence that Vim users can be as whimsical as us Emacs users. You probably won’t see anything like this in VSCode. It wouldn’t be “professional”.",
+          "link": "https://irreal.org/blog/?p=14058",
+          "publishedOn": "2026-09-03T15:02:23.000Z",
+          "wordCount": 1428,
+          "title": "Irreal: The Vim UserGettingBored Autocmd",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.davep.org/2026/09/03/next-gh-pr-el-v1-1-0.html",
+          "author": null,
+          "description": "A quick little update to\nnext-gh-pr.el. Since writing\nthe first version I've found it to\nbe really useful, but I've also bumped into one small issue. Sometimes I'll\ncreate a draft PR before I remember to start the changelog entry, and so\nthen I want to insert the current PR link rather than the next one.\nNow, sure, I can just go and copy the URL and create the link in the\nchangelog, but where's the fun in that when I can solve the problem in\nEmacs Lisp? So, with this in mind, I've just updated the\npackage so that, with a prefix argument to the command, it will include a\nlink for the latest PR rather than for the next one.\nThis does, of course, make the name a little less correct, but I'm not going\nto rename the package or the command for this one minor difference in\nintent.",
+          "link": "https://blog.davep.org/2026/09/03/next-gh-pr-el-v1-1-0.html",
+          "publishedOn": "2026-09-03T14:17:17.000Z",
+          "wordCount": 374,
+          "title": "Dave Pearson: next-gh-pr.el v1.1.0",
+          "imageUrl": "https://blog.davep.org/static/images/auto_covers/posts-2026-09-2026-09-03-next-gh-pr-el-v1-1-0.webp"
+        },
+        {
           "id": "https://taonaw.com/2026/09/02/rsipinky-update.html",
           "author": null,
           "description": "I wanted to write a short update to my Emacs pinky / RSI situation.\nI am still using my Kinesis Freestyle Edge keyboard. I think I’ve decided on the Glove80 as a replacement, but the price and the inability to easily return it are giving me second thoughts. Its style is very different, and I know I will have a hard time adjusting. Still as someone pointed out to me it’s not like I’m forced to throw away my current keyboard, which is true. I see myself using my Kinesis for work on the Mac while trying the new Glove80 on Linux for blog posts and more leisure-time typing.\nI’ve made a few adjustments, however:\nFirst, the spread between the two halves is much wider. This is something I was considering when I first got this keyboard, but I didn’t follow through with it. I got used to the wider s…",
@@ -496,6 +526,66 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=234579",
+          "author": "Drew Magary",
+          "description": "Some people are fans of the New England Patriots. But many, many more people are NOT fans of the New England Patriots. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.\nYour team: The New England Patriots, who are just outside of the frame here. I swear it.\nIshika Samant/Getty Images",
+          "link": "https://defector.com/why-your-team-sucks-2026-new-england-patriots",
+          "publishedOn": "2026-09-03T18:47:52.000Z",
+          "wordCount": 16193,
+          "title": "Why Your Team Sucks 2026: New England Patriots",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2260194954.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234571",
+          "author": "Ray Ratto",
+          "description": "For all the fulminations about the million-ton craphammer dropped on the Los Angeles Clippers and owner Steve Ballmer for trying to evade the NBA salary cap, almost nobody has yet identified the situation as the entertainment bonanza it is about to become.\nYes, it's time for another edition of the game show to end all game shows, and maybe also to end everything else: Billionaires Eating Billionaires. You've seen it, because it airs reruns on basically every channel. A bunch of insanely wealthy people get in their feelings about another colossally wealthy person who has gone rogue on the herd, and lash out accordingly; the gameplay generally unfolds as a series of lawyergasms across the continent and ends with some competitors going home naked and battered, all of it richly deserved. It's Turbo Survivor, only with bloody retributions handed out to all the contestants, even the winners, as well as the hosts and production team; even the intrepid team of reporters and researchers who started all this hilarity a year ago will take home a black eye for their trouble.\nThat last group is Team Torre, named for its front man, Pablo Torre, whose name is on the door of the Pablo Torre Finds Out podcast. It was that program's collective team of researchers and newsjackals who found a disgruntled insider willing not only to expose the salary-cap games being played by the Clippers, but to provide the first few documents of proof that ultimately led to Ballmer and the Clippers being publicly pantsed for paying Kawhi Leonard under multiple tables. They will be part of the legal mess about to unfold—the heated letter the Clippers sent to the league after Wednesday's punishment came down sniffily referred to the malfeasance Torre et al. exposed as \"podcast allegations\"—and unlike all the other combatants, don't necessarily have tens of millions of dollars on hand to pay for it. Their sponsors, Meadowlark Media and through them DraftKings, do. So that'll be a hoot, too.",
+          "link": "https://defector.com/steve-ballmer-betrayed-his-fellow-billionaires-and-they-are-not-pleased",
+          "publishedOn": "2026-09-03T16:44:35.000Z",
+          "wordCount": 8137,
+          "title": "Steve Ballmer Betrayed His Fellow Billionaires, And They Are Not Pleased",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1930884061.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234314",
+          "author": "Israel Daramola",
+          "description": "Welcome to the Defector College Football Watch Guide, where Israel Daramola and Ray Ratto will tell you which of the weekend’s college football games are worth giving a crap about.\nRay: Week 0 is behind us, as well you might want it to be if you watched South Carolina State beat Savannah State 87-0 in Saturday. There will be more of that this week, undoubtedly, and every one of those games will serve as blessed relief from the hailstorm of turgid analyses about North Carolina being 1-0 without Mike Lombardi and TCU being 0-1 without the Fort Worth Star-Telegram (and yes, there may be lessons in those disparate things for all of us). But we have miles and thousands of administrative outrages to go before we sleep, starting with five days of ball glut as the industry tries to keep up with the NFL's new promotional masterstroke of Extreme Calendar Glut. \nBut here's something to make your blood run cold this early in the year: Bill Belichick is the only coach who could conceivably win the season's opening and closing game, and if that happens, spring will next emerge in 2183, at which point Punxsutawney Phil will have been replaced by an eye-clawing psychobadger from the 11th dimension.",
+          "link": "https://defector.com/theres-too-much-football-happening",
+          "publishedOn": "2026-09-03T16:21:25.000Z",
+          "wordCount": 15962,
+          "title": "There’s Too Much Football Happening",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1420866844.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234593",
+          "author": "Barry Petchesky",
+          "description": "We can officially stick a fork in the fallout stage of former Athletic reporter Dianna Russini's long and handholdy relationship with Patriots head coach Mike Vrabel. Russini resigned in disgrace and remains unemployed, while Vrabel suffered absolutely no professional consequences. And now The Athletic has completed its five-month review to determine whether her work was up to the company's ethical standards. Spoiler alert: It was mostly fine.\nThe review was published Thursday morning and conducted by Mike Semel, editorial director for standards and quality at The Athletic. There are few revelations in the details of Russini's relationship with Vrabel, but she was found \"noncompliant\" with the outlet's standard of conduct for employees for not disclosing the relationship to her editors. Most of her reporting was found to be sound and ethical. However, two of Russini's pieces have now had editors' notes attached: a video in which she speaks glowingly of Vrabel breaking up a fight in training camp, and an item in a notebook column that contained an unattributed but highly detailed description of Vrabel's thinking and also dinner order.\nHow did Semel determine all this?",
+          "link": "https://defector.com/theres-a-new-loser-in-the-russini-vrabel-scandal",
+          "publishedOn": "2026-09-03T15:56:56.000Z",
+          "wordCount": 5010,
+          "title": "There’s A New Loser In The Russini-Vrabel Scandal",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2260448353.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234216",
+          "author": "Vikram Murthi",
+          "description": "Earlier this year, Curry Barker and Kane Parsons became young Hollywood phenoms in quick succession. An actor and sketch comedian, the 26-year-old Barker wrote, edited, and directed Obsession, which is the story of a meek romantic who uses a magical novelty toy to make his crush fall in love with him with predictably disastrous results. Parsons, at 21, directed Backrooms, a feature-length adaptation of his own creepypasta-inspired web series about a labyrinthine extradimensional space that serves as a bizarre simulacrum of the real world.\nBoth films were released two weeks apart in May and broke multiple commercial records. Having made half-a-billion dollars, Obsession is not just one of the highest-grossing movies of the year but one of the most successful horror films of all time. While Backrooms might trail Obsession as merely the second-highest grossing horror feature of 2026, it’s also the fifth most profitable independent feature in history; Parsons became the youngest director ever to helm a studio-backed film, besting even Orson Welles.\nBaker and Parsons got their start with popular YouTube channels, which has led agents and producers to scour the internet for the next young, digital-native filmmaker with a built-in following and an original story that might become an enormously profitable feature. That search is ongoing, but another twentysomething filmmaker with roots in the internet has recently released his debut feature, It Ends, a horror-ish film with a distinctly existentialist bent. His name is Alexander Ullom.",
+          "link": "https://defector.com/it-ends-is-the-gen-z-horror-movie-of-the-year",
+          "publishedOn": "2026-09-03T15:03:42.000Z",
+          "wordCount": 11641,
+          "title": "‘It Ends’ Is The Gen Z Horror Movie Of The Year",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/ItEnds.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234315",
+          "author": "Sabrina Imbler",
+          "description": "A nightmare has happened. Maybe you were minding your own business in the office when an earthquake hit, or maybe you were spelunking in some wretched cave never meant for humans to enter. Yet regardless of how you got here, you are now trapped and in need of urgent medical attention. There's too much debris to clear before a paramedic would be able to reach you ... a human paramedic, that is. But this guy? This guy eats rubble for breakfast.\n\n\nThis is a giant burrowing cockroach, and it is approximately as long as a lime. It lives and burrows in—you guessed it—Australia. In the wild, the giant burrowing cockroach mostly stick around their burrows. They can live up to 10 years. The roaches only come to the surface at night, gathering leaves, twigs, and bark from the forest floor to feast on later, back underground. In other words, regular giant burrowing cockroaches do not have jobs or any semblance of medical training. Regular giant burrowing cockroaches would be ill-equipped to save you in an emergency situation. But this is not a regular roach. It is a cyborg roach, the fusion of an actual insect and a robot. The researchers behind this creation have dubbed it the paraborg, per a paper recently published in the journal Advanced Science.",
+          "link": "https://defector.com/youre-trapped-under-rubble-and-these-guys-are-your-emts-wyd",
+          "publishedOn": "2026-09-03T14:52:03.000Z",
+          "wordCount": 7246,
+          "title": "You’re Trapped Under Rubble And These Guys Are Your EMTs. WYD?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/eait-mda-2026-cyborg-cockroach-8.jpg"
+        },
         {
           "id": "https://defector.com/?p=234559",
           "author": "Tom Ley",
@@ -1485,16 +1575,6 @@
           "wordCount": 1576,
           "title": "Hump Day Hottie: Miley Cyrus",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3342",
-          "author": "Schill",
-          "description": "The 1980s produced an impressive number of hit songs that were difficult to describe using a single genre. Pop could",
-          "link": "https://stuffthatinterestsme.net/song-battle-she-blinded-me-with-science-vs-one-night-in-bangkok/",
-          "publishedOn": "2026-08-25T02:49:30.000Z",
-          "wordCount": 3835,
-          "title": "Song Battle: “She Blinded Me with Science” vs. “One Night in Bangkok”",
-          "imageUrl": null
         }
       ]
     },
@@ -2055,36 +2135,6 @@
           "wordCount": 4086,
           "title": "Canada raises tariffs, Trump threatens a lake. Guess who's winning?Rex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/25/USAT/91458473007-20260825-t-142155-z-1781528239-rc-2-i-0-mayywva-rtrmadp-3-usatrumpcanadalake.JPG?crop=5499,3093,x0,y161&width=3200&height=1800&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/24/us-canada-trade-dispute-tariffs-republicans-midterms/91442611007/-full",
-          "author": "Rex Huppke",
-          "description": "With the midterm elections looming and Americans plagued by the cost of virtually everything, President Donald Trump decided it’s a great time for a trade war with Canada.\nYou all know Canada, right? It’s the big place just north of us. Our close ally. The country known for being incredibly nice. That Canada.\nTrump slapped 50% U.S. tariffs on a number of Canadian goods after trade negotiations fell apart Aug. 22. Then, on Aug. 24, Trump posted additional threats on social media, saying he’ll double tariffs on imported vehicles and auto parts from Canada and adding: “WE DON’T NEED CANADA, THEY NEED US!”\nIf I didn’t know better, I’d say Trump is doing more than Democrats to guarantee a Republican electoral wipeout in the midterms.\nTrump's trade war with Canada will make the GOP's life more m…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/24/us-canada-trade-dispute-tariffs-republicans-midterms/91442611007/",
-          "publishedOn": "2026-08-24T20:27:45.809Z",
-          "wordCount": 4207,
-          "title": "Trump's irresponsible Canada trade war might seal GOP's fateRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/24/USAT/91440293007-20260822-t-170244-z-675973054-rc-2-r-3-nalrp-00-rtrmadp-3-usatrumptariffscanada.JPG?crop=5499,3093,x0,y277&width=3200&height=1800&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/14/karoline-leavitt-successor-trump-press-secretary/91298787007/-full",
-          "author": "Rex Huppke",
-          "description": "Now that White House Press Secretary Karoline Leavitt is stepping down to spend more time with her soulless penchant for dishonesty, President Donald Trump has an opportunity to save American taxpayers some money by not replacing her.\nAfter all, Trump promised to cut down on wasteful government spending, and I can’t imagine anything more wasteful than paying a press secretary to come out and lie on behalf of administration officials whose only skill is lying.\nDoes anyone truly think the president needs an employee to amplify his frequent fabrications? The man never shuts up when cameras are around, and he owns his own social media platform. If someone’s going to try to hoodwink me, I prefer they spout their untruths directly and not via some highly paid federal flunky with a smile and an i…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/14/karoline-leavitt-successor-trump-press-secretary/91298787007/",
-          "publishedOn": "2026-08-24T18:37:16.671Z",
-          "wordCount": 4187,
-          "title": "Leavitt's leaving. Save $200K and let Trump lie for himself.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/13/USAT/91288453007-20250715-t-174348-z-2033419486-rc-25-nfaj-2-n-15-rtrmadp-3-usatrump-1.JPG?crop=4499,2531,x0,y150&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/04/trump-approval-polls-lies-truth-social/91156618007/-full",
-          "author": "Rex Huppke",
-          "description": "Let’s take a moment to read some actual words posted on social media by the actual president of the United States of America.\nOn Aug. 3, Donald Trump wrote on Truth Social: “My REAL Polling Numbers, not those made up by the Fake News Media, are the best they have ever been.”\nIt’s an insult to fiction to call that fiction. I’m not sure what you call something more fabricated than fiction – maybe “ludicriction”? – but that’s what Trump’s words are.\nTrump has left reality behind and lives in a fantasy world of great polls\n\nAs The New York Times recently reported, “The latest surveys indicate that Mr. Trump is now all but the most unpopular second-term president at this stage of their tenure in the history of polling going back to the 1940s. The only exception is not one that would give Mr. Tr…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/04/trump-approval-polls-lies-truth-social/91156618007/",
-          "publishedOn": "2026-08-24T18:37:16.642Z",
-          "wordCount": 3953,
-          "title": "Trump's polls are amazing, and my abs have never looked better!Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/03/USAT/91155555007-20260803-vpc-trump-on-max-miller-thumb-getty-00-00-00-00-still-003.jpg?crop=1919,1079,x0,y0&width=1919&height=1079&format=pjpg&auto=webp"
         }
       ]
     },
@@ -2093,6 +2143,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/sfgate-drew-magary.xml",
       "siteUrl": "https://www.sfgate.com/author/drew-magary/",
       "articles": [
+        {
+          "id": "https://www.sfgate.com/collegesports/article/andrew-luck-stanford-bureaucrat-22414827.php",
+          "author": null,
+          "description": "error fetching full text: Reqwest client error: error sending request for url (https://www.sfgate.com/collegesports/article/andrew-luck-stanford-bureaucrat-22414827.php)",
+          "link": "https://www.sfgate.com/collegesports/article/andrew-luck-stanford-bureaucrat-22414827.php",
+          "publishedOn": "2026-09-03T19:06:00.706Z",
+          "wordCount": 177,
+          "title": "Andrew Luck is just another bureaucrat now",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sfgate.com/sf-culture/article/backrooms-review-22288032.php-full",
           "author": null,
@@ -2786,6 +2846,16 @@
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://talkingpointsmemo.com/?p=1556725",
+          "author": "Josh Marshall",
+          "description": "Maria Bartiromo is out at Fox News and Fox Business. And apparently with so little advance warning that they barely...",
+          "link": "https://talkingpointsmemo.com/edblog/breaking-bartiromo-out-at-fox",
+          "publishedOn": "2026-09-03T17:48:08.000Z",
+          "wordCount": 2194,
+          "title": "Breaking: Bartiromo Out at Fox",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2021/01/GettyImages-1189390246.jpg?w=1200"
+        },
+        {
           "id": "https://talkingpointsmemo.com/?p=1556632",
           "author": "Josh Marshall",
           "description": "In response to my post about this data center backlash outside of Kansas City (specifically Independence, Missouri), I’ve been fielding...",
@@ -2902,6 +2972,22 @@
       "feedUrl": "https://morningmemo.talkingpointsmemo.com/feed",
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/first-at-tpm-teen-deported-twice",
+          "author": "David Kurtz",
+          "description": "INSIDE: Stephanie Gallagher ... Christian Castro ... Gloria Steinem",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/first-at-tpm-teen-deported-twice",
+          "publishedOn": "2026-09-03T14:18:50.000Z",
+          "wordCount": null,
+          "title": "First at TPM: Teen Deported TWICE This Year in Violation of Multiple Court Orders",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!Y7wh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbfb58772-7cf3-48e7-bb03-c17fc2049258_400x600.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!Y7wh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbfb58772-7cf3-48e7-bb03-c17fc2049258_400x600.jpeg"
+        },
         {
           "id": "https://morningmemo.talkingpointsmemo.com/p/the-pentagon-purges-will-continue",
           "author": "David Kurtz",
@@ -3124,6 +3210,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/how-about-we-call-it-the-strait-of",
+          "author": "Jeff Tiedrich",
+          "description": "yeah, I like the sound of that",
+          "link": "https://www.jefftiedrich.com/p/how-about-we-call-it-the-strait-of",
+          "publishedOn": "2026-09-03T14:32:54.000Z",
+          "wordCount": null,
+          "title": "how about we call it the Strait of Shut the Fuck Up, You Lying Sack of Shit",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!eO8D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F54f4bc89-dd81-4fa1-85c9-c0e502df4942_1500x842.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!eO8D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F54f4bc89-dd81-4fa1-85c9-c0e502df4942_1500x842.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/milo-is-still-sad-jd-vance-is-still",
           "author": "Jeff Tiedrich",
