@@ -90,6 +90,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://taonaw.com/2026/09/02/rsipinky-update.html",
+          "author": null,
+          "description": "I wanted to write a short update to my Emacs pinky / RSI situation.\nI am still using my Kinesis Freestyle Edge keyboard. I think I’ve decided on the Glove80 as a replacement, but the price and the inability to easily return it are giving me second thoughts. Its style is very different, and I know I will have a hard time adjusting. Still as someone pointed out to me it’s not like I’m forced to throw away my current keyboard, which is true. I see myself using my Kinesis for work on the Mac while trying the new Glove80 on Linux for blog posts and more leisure-time typing.\nI’ve made a few adjustments, however:\nFirst, the spread between the two halves is much wider. This is something I was considering when I first got this keyboard, but I didn’t follow through with it. I got used to the wider s…",
+          "link": "https://taonaw.com/2026/09/02/rsipinky-update.html",
+          "publishedOn": "2026-09-02T21:36:31.000Z",
+          "wordCount": 1030,
+          "title": "TAONAW - Emacs and Org Mode: RSI/Pinky Update",
+          "imageUrl": "https://cdn.uploads.micro.blog/96826/2026/kinesis-gaming-split-setup.jpg"
+        },
+        {
           "id": "https://ray-on-emacs.blogspot.com/2026/08/one-space-or-two.html",
           "author": null,
           "description": "HTML enforces the use of a single space to separate sentences.  If\n  you want to add another space, you need to use\n  &nbsp;.  I still remember how annoyed I was about\n  that.  Back in the century in which I took my technical writing\n  course, two spaces were required.  Of course, we weren't using\n  computers very often; hand-written sentences needed to appear more\n  separated than the words within.\nI'm definitely not here to convince anyone to switch.  Instead, I\njust want to share that I paid close attention to this detail when I\nwas formulating my style guide for this blog.  Should I continue with\nmy out-of-date two-space habit?  Or should I adopt the current\nconvention?\nI turned to Emacs itself for guidance.  It turns out that the\nindividuals who wrote Emacs comments, docstrings and help text used\ntwo spaces.  Although many times they started each sentence on a new\nline.\nIt turns out that the content here mostly is one-space.  I start\n  out using two spaces in Org where most of this originates.  But when\n  I export to HTML, that second space vaporizes.  That would seem like a bug to me.\nThe only place where you'll see evidence of my two-space style is in the comments\n  and docstrings of my source code.\nAm I the only person who nit picks about such details?\nThanks to Irreal for highlighting\n  a customization from macosguru",
@@ -508,36 +518,6 @@
           "wordCount": 2578,
           "title": "Andros Fenollosa: A year of Org Social, my social network",
           "imageUrl": "https://img.andros.dev/lO4rHtFcmp5pDRbWBepGddVAOVI=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/org-social.png"
-        },
-        {
-          "id": "https://www.jamescherti.com/emacs-fix-org-mode-copy-paste-yank-bleed/",
-          "author": null,
-          "description": "When text is copied from an Org-mode buffer and pasted into another Emacs buffer, its visual formatting can sometimes follow it. For instance, text displayed with a particular color, background, or font weight in an Org buffer can retain that appearance after being inserted into a Python buffer.\nThis can be undesirable because the inserted text may then display with the source buffer's face text property instead of relying on the destination buffer's normal font-lock or syntax highlighting.\nUnderstanding the face text property\nIn Emacs, visual formatting can be represented by the face text property. Some major modes, including Org-mode, make extensive use of text properties, including face, to control how text is displayed. When text containing these properties is yanked (pasted), Emacs ca…",
-          "link": "https://www.jamescherti.com/emacs-fix-org-mode-copy-paste-yank-bleed/",
-          "publishedOn": "2026-08-24T12:39:53.000Z",
-          "wordCount": 2316,
-          "title": "James Cherti: Emacs: Copy-paste without org-mode formatting bleeding into other buffers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://sachachua.com/blog/2026/08/2026-08-24-emacs-news/",
-          "author": null,
-          "description": "An Introduction to Canvas in GNU Emacs is really cool and I'm looking forward to that becoming generally available in Emacs 32. =)\n\n\n\nEmacs 31:\n\nEmacs 31.1 is released! (Reddit, HN, HN, HN, Irreal)\nMickey Petersen: What's New in Emacs 31.1? (Reddit)\nEmacsWiki : Emacs Thirty One Highlights (@pkal@social.sdfeu.org)\n\nUpcoming events (iCal file, Org):\n\nEmacs Berlin: Emacs-Berlin Hybrid Meetup https://emacs-berlin.org/ Wed Aug 26 1000 America/Vancouver - 1200 America/Chicago - 1300 America/Toronto - 1700 Etc/UTC - 1900 Europe/Berlin - 2230 Asia/Kolkata – Thu Aug 27 0100 Asia/Singapore\nEmacsSF (in person): coffee.el in SF https://www.meetup.com/emacs-sf/events/316144053/ Sat Aug 29 1100 America/Los_Angeles\nEmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/316121976/ Thu Sep 3 1600 Am…",
-          "link": "https://sachachua.com/blog/2026/08/2026-08-24-emacs-news/",
-          "publishedOn": "2026-08-24T12:37:18.000Z",
-          "wordCount": 1008,
-          "title": "Sacha Chua: 2026-08-24 Emacs news",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.masteringemacs.org/article/whats-new-in-emacs-311?utm_source=newsletter&utm_medium=rss",
-          "author": null,
-          "description": "Emacs 31.1 is finally out! Unlike earlier Emacs versions, there is not a singular big-bang feature in this release. From what I could gather, the new garbage collector was possibly planned for inclusion in Emacs 31.1, but it has been postponed to Emacs 32. But more on that in a future post; it’s an interesting subject.\nSome of the more notable features in Emacs 31.1 are small, quality of life fixes, and one deprecation that marks the end of an era.\nAs always, my book, Mastering Emacs is 31% off for the next week to celebrate the release also.\nThe unexec/pdumper controversy and subsequent deprecation\nEmacs is… not a normal application. When you compile and link it, you get temacs which is the heart of Emacs but without most of the libraries that ship with it. It’s a bare-bones Emacs with li…",
-          "link": "https://www.masteringemacs.org/article/whats-new-in-emacs-311?utm_source=newsletter&utm_medium=rss",
-          "publishedOn": "2026-08-24T11:25:31.000Z",
-          "wordCount": 36699,
-          "title": "Mickey Petersen: What's New in Emacs 31.1?",
-          "imageUrl": "https://www.masteringemacs.org/static/uploads/article-images/monochrome_gnu.jpg"
         }
       ]
     },
@@ -546,6 +526,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=234535",
+          "author": "Patrick Redford",
+          "description": "The NBA has concluded its investigation of the Los Angeles Clippers and Kawhi Leonard, and the punishments are major. The league announced Wednesday that the independent probe, conducted by the law firm Wachtell, Lipton, Rosen & Katz, uncovered \"a pattern of misconduct and multiple significant rules violations by the Clippers organization, a prior offender of the salary cap circumvention rules,\" and as such the team will have to forfeit five first-round picks. The NBA also issued fines and suspensions to various members of the Clippers organization.\nThe NBA opened an investigation almost one year ago, after Pablo Torre reported on a bizarre arrangement between Leonard and the scam greenwashing company Aspiration, in which the NBA player seemingly had a no-show marketing deal designed to funnel money from Clippers owner Steve Ballmer to Leonard and avoid the salary cap in the process. The law firm's report can read in full here; it's a breezy 35 pages.\nAs a result, the NBA docked the Clippers five-first rounders, one in each draft from 2029 to 2033. The team is also fined $30 million; Ballmer and team president Gillian Zucker are both suspended for one year, Zucker without pay; Clips GM Lawrence Frank is suspended for six months without pay; the organization will be subject to an NBA compliance and monitoring program for five years; Leonard will have to pay $700,000 to the NBA; and Leonard's nefarious uncle Dennis Robertson has been banned from dealing with anyone or anything related to the NBA for five years.",
+          "link": "https://defector.com/nba-crushes-clippers-after-kawhi-leonard-investigation",
+          "publishedOn": "2026-09-02T22:26:32.000Z",
+          "wordCount": 6462,
+          "title": "NBA Crushes Clippers After Kawhi Leonard Investigation",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1164006728.jpg"
+        },
         {
           "id": "https://defector.com/?p=234300",
           "author": "Drew Magary",
@@ -1375,46 +1365,6 @@
           "wordCount": 6651,
           "title": "Some Spiders Savor Sacrificial Somersault Sex",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/5648356782_3200aca7f1_h.jpeg"
-        },
-        {
-          "id": "https://defector.com/?p=233235",
-          "author": "Maitreyi Anantharaman",
-          "description": "Just shut up and solve our Monday crossword already. This week's puzzle was constructed by Owen Bergstein and Nick Dent, and edited by Hoang-Kim Vu. Owen and Nick are longtime frenemies based in Boston. They met when Owen was a freshman in high school and Nick (aka \"Mr. Dent\") was a math teacher. Over the years, Nick served as the advisor for Owen's ever-growing Puzzle Club, one of the school's most popular clubs. By the time he graduated this May, Owen was spending all of his free time in Mr. Dent's room, annoying him with puns and music recommendations. Mr. Dent, in return, sends Owen gift links to Defector articles and fails to beat him at online Scrabble. This puzzle is the culmination of their four-year friendship/mentorship. This is Nick's first published crossword; for more by Owen, check out Dissonant Grids, the avant-garde crossword blog he ran for a year. \nDefector crosswords, launched in partnership with our friends at AVCX, run every Monday. If you’re interested in submitting a puzzle to us, you can read our guidelines HERE. The AVCX, an independent puzzles and games outlet, invites you to subscribe, or sample the goods with a two-month free trial: \"With an AVCX subscription, you get access to weekly themed and themeless crosswords, minis, cryptics, and trivia, by email or in your favorite app. We have no corporate overlord, and we publish top-flight stuff only. We also pay our people fairly, always. Check us out.\"",
-          "link": "https://defector.com/the-crossword-aug-24-bat-to-ball",
-          "publishedOn": "2026-08-24T15:00:00.000Z",
-          "wordCount": 4488,
-          "title": "The Crossword, Aug. 24: Bat To Ball",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2279409077.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=232919",
-          "author": "Lauren Theisen",
-          "description": "I won't dispute that I once had red hair. Back in 2019, just for kicks, I went with a bright Hayley Williams–esque red that petered out for obvious reasons the following year. Then in 2025, with a 30th birthday and a big trip on the horizon, I decided to freshen up my look with a new color that my stylist tells me is as light as I can go without using bleach. For full transparency purposes, here is what it looks like the day after the salon.\n\n\nI thought of this hair as simply a lighter version of my natural brunette, specifically because it paled in comparison to the unmistakably fiery hair I'd sported several years ago. But I quickly realized that other people—especially those I was meeting for the first time—perceived me differently. One red-haired guy initially saw me as a ginger peer before teasing me about my roots. A new acquaintance referenced knowing \"another Lauren with red hair.\" It came up consistently in catcalls and compliments, so, finally, I couldn't help but wonder: Is my hair red?",
-          "link": "https://defector.com/is-my-hair-red-a-defector-slack-investigation",
-          "publishedOn": "2026-08-24T13:54:25.000Z",
-          "wordCount": 10408,
-          "title": "Is My Hair Red? A Defector Slack Investigation",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/20260727_1658581.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=232182",
-          "author": "Vince Guerrieri",
-          "description": "For as long as baseball’s All-Star Game has been played—almost every year since 1933, including twice a year from 1959 to 1962—it’s been the ultimate in wish fulfillment for fans. Want to see a team of future Hall of Famers playing together? It’s got that. Want to see your favorite local players honored on a national stage? It’s possible. Poignant curtain calls and unexpected comedy? You bet.\nBut actual fan participation in selecting All-Star teams? That’s been a rockier road.\nIn this generation, when baseball fans are inundated with emails and in-stadium announcements encouraging All-Star Game voting, it’s hard to believe this wasn’t always the case. But after the first game in 1933 featured fan voting, team selections were done briefly by player vote and then entirely by managers.",
-          "link": "https://defector.com/how-cincinnati-ruined-all-star-voting-for-a-dozen-years",
-          "publishedOn": "2026-08-24T13:03:32.000Z",
-          "wordCount": 10207,
-          "title": "How Cincinnati Ruined All-Star Voting For A Dozen Years",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/reds57.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=233197",
-          "author": "Tom Ley",
-          "description": "Gaze into the eyes of Comrade Redlegs, and let the truth of the situation wash over you: It’s Reds Week. That’s right. You may have survived Senators Week, Rays Week, Wings Week, and Bills Week—but do you have what it takes to journey with us into our latest theme week? Over the next five days,…",
-          "link": "https://defector.com/its-reds-week",
-          "publishedOn": "2026-08-24T13:00:13.000Z",
-          "wordCount": 3524,
-          "title": "It’s Reds Week",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/REDS-WEEK_1-2.png"
         }
       ]
     },
@@ -1456,6 +1406,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3403",
+          "author": "Schill",
+          "description": "Ugly Kid Joe arrived at exactly the right moment to make fun of rock music while also being very good",
+          "link": "https://stuffthatinterestsme.net/forgotten-band-ugly-kid-joe/",
+          "publishedOn": "2026-09-03T00:50:46.000Z",
+          "wordCount": 2886,
+          "title": "Forgotten Band: Ugly Kid Joe",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3361",
           "author": "Schill",
@@ -1688,16 +1648,6 @@
           "wordCount": 2190,
           "title": "The Lindsay Clancy murder trial exposes MAGA lies",
           "imageUrl": "https://www.salon.com/app/uploads/2026/08/lindsay-clancy-trial-2289661751.jpg"
-        },
-        {
-          "id": "https://www.salon.com/2026/08/24/pete-hegseths-path-to-the-2028-gop-nomination-isnt-a-joke/-full",
-          "author": null,
-          "description": "Pete Hegseth may be the most hated man in Washington. According to a recent polling analysis by CNN’s Harry Enten, the defense secretary’s approval ratings have fallen below even the basement-level numbers of President Donald Trump and Vice President JD Vance. So when Hegseth took a trip to speak at the Iowa State Fair on Aug. 17 — a move traditionally seen as the soft launch of a presidential campaign — the response among much of the political chattering class was peals of laughter. Surely even Republicans wouldn’t sink so low as to nominate a thrice-married repeat adulterer who claims to be a Christian while engaging in very un-Christlike bullying, and whose only job real experience is being on TV a lot? Oh, wait.\nThe grim reality is that of the Republican names being floated for a 2028 …",
-          "link": "https://www.salon.com/2026/08/24/pete-hegseths-path-to-the-2028-gop-nomination-isnt-a-joke/",
-          "publishedOn": "2026-08-24T10:45:33.000Z",
-          "wordCount": 2132,
-          "title": "Pete Hegseth’s path to the 2028 GOP nomination isn’t a joke",
-          "imageUrl": "https://www.salon.com/app/uploads/2026/08/Pete-Hegseth-2290919357.jpg"
         }
       ]
     },
@@ -2972,16 +2922,6 @@
           "wordCount": 5981,
           "title": "The Best of Us",
           "imageUrl": "https://gomakethings.com/img/og.png"
-        },
-        {
-          "id": "https://gomakethings.com/articles/make-care-visible/",
-          "author": null,
-          "description": "There’s a rather popular flavor of social media content focused on helping unhoused people.\nThe creator will give out sleeping bags, socks, and care kits; sit down and have a meal; or take the unhoused person shopping. Sometimes they help them find work or start a GoFundMe to get them off the streets.\nIt does a lot of good. But it’s also gross AF! Imagine you’re cold, hungry, and desperate, and someone offers to get you all the things you need… if you consent to having a camera shoved in your face and the footage of you at your lowest blasted on the internet.",
-          "link": "https://gomakethings.com/articles/make-care-visible/",
-          "publishedOn": "2026-08-24T14:30:00.000Z",
-          "wordCount": 6369,
-          "title": "Make Care Visible",
-          "imageUrl": "https://gomakethings.com/img/og.png"
         }
       ]
     },
@@ -3248,22 +3188,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!D7i5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e37f46f-414e-4e93-a315-00600560450b_400x600.jpeg"
-        },
-        {
-          "id": "https://morningmemo.talkingpointsmemo.com/p/canada-sits-the-united-states-down",
-          "author": "David Kurtz",
-          "description": "INSIDE: Mark Carney ... Ed Martin ... John Roberts",
-          "link": "https://morningmemo.talkingpointsmemo.com/p/canada-sits-the-united-states-down",
-          "publishedOn": "2026-08-24T14:40:12.000Z",
-          "wordCount": null,
-          "title": "Canada Sits the United States Down for an Intervention",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!atkh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1cc378e9-f5d7-4aa5-9da5-f763e0733547_400x600.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!atkh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1cc378e9-f5d7-4aa5-9da5-f763e0733547_400x600.jpeg"
         }
       ]
     },
@@ -3534,22 +3458,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!EM3W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a225670-7474-4302-8aa2-d36a8cb39366_550x325.webp"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/nobody-gives-a-shit-about-your-grand",
-          "author": "Jeff Tiedrich",
-          "description": "fix the country you broke, imbecile",
-          "link": "https://www.jefftiedrich.com/p/nobody-gives-a-shit-about-your-grand",
-          "publishedOn": "2026-08-24T14:22:05.000Z",
-          "wordCount": null,
-          "title": "no one gives a shit about your Grand Prix race, you out-of-touch fuck",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!7n2C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F296b8f41-6111-4b20-b7e7-03a04dd223ce_1200x673.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!7n2C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F296b8f41-6111-4b20-b7e7-03a04dd223ce_1200x673.jpeg"
         }
       ]
     }
