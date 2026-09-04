@@ -100,6 +100,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://protesilaos.com/codelog/2026-09-04-doric-themes-1-3-0/",
+          "author": null,
+          "description": "These are my minimalist themes. They use few colours and will appear\nmostly monochromatic in many contexts. Styles involve the careful use\nof typography, such as italics and bold italics.\nIf you want maximalist themes in terms of colour, check my ef-themes\npackage. For something in-between, which I would consider the best\n“default theme” for a text editor, opt for my modus-themes.\nPackage name (GNU ELPA): doric-themes\nSample pictures: https://protesilaos.com/emacs/doric-themes-pictures\nGit repository: https://github.com/protesilaos/doric-themes\nBackronym: Doric Only Really Intensifies Conservatively … themes.\nBelow are the release notes.\nVersion 1.3.0 on 2026-09-04\nNew theme screenshots\nAll sample images are updated to the current version and cover all the\nDoric themes: https://protesilaos.com/emacs/doric-themes-pictures.\nNew doric-lilac and doric-borage themes\nI drew inspiration for both themes from plants that exist around my\nhouse. They both use the same colours in different shades and\nsequence. doric-lilac has a light background while doric-borage\nhas a dark background.\nMore commands to load a theme\nThe commands doric-themes-rotate-light and doric-themes-rotate-dark\nare convenience wrappers of doric-themes-rotate. As their name\nsuggests, they are restricted to one kind of theme in the collection.\nSimilarly, doric-themes-load-random-light and doric-themes-load-random-dark\nare variants of doric-themes-load-random.\nThanks to Lucas Jiménez for making this suggestion in issue 28:\nhttps://github.com/protesilaos/doric-themes/issues/28.\nBroader face coverage\nThe following packages have some new faces or I tweaked them to look\nbetter with the rest of the theme.\ncompletion-preview\nelfeed\nerc\nflymake\ngnus\nmu4e\nquery-replace\nMinor refinements to palette values\nI made several small tweaks to several themes. The changes are\nprobably too fine to notice or they should now look correct enough to\nbe unnoticeable.",
+          "link": "https://protesilaos.com/codelog/2026-09-04-doric-themes-1-3-0/",
+          "publishedOn": "2026-09-04T00:00:00.000Z",
+          "wordCount": 362,
+          "title": "Protesilaos: Emacs: doric-themes version 1.3.0",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
+        {
           "id": "https://www.jamescherti.com/emacs-startup-defer-use-package-performance/",
           "author": null,
           "description": "As an Emacs user, your configuration can easily grow from a few lightweight adjustments to a massive, hundred-package IDE. Without careful management, Emacs startup time can degrade from sub-second execution to several seconds, or minutes, in the worst cases. Eager package loading is one common source of startup overhead. This guide explains how Emacs loads libraries, how use-package configures package loading, and how deferred loading can reduce startup time.\nWhy does Emacs startup gets slow?\nA naive package declaration looks like this:\n;; The kirigami Emacs package provides a unified method to fold and unfold\n;; text in Emacs across a diverse set of Emacs modes.\n(use-package kirigami)\nBy default, this causes use-package to load the package during initialization, unless the declaration co…",
@@ -498,16 +508,6 @@
           "wordCount": 2387,
           "title": "Emacs Redux: Meet Utterson, my Jekyll blogging helper",
           "imageUrl": "https://emacsredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://metaredux.com/posts/2026/08/26/smarter-form-targeting-is-coming-to-cider.html",
-          "author": null,
-          "description": "If I had a dollar for every time someone asked on the Clojurians Slack in\n#cider why C-x C-e evaluated “the wrong thing”, I’d probably be writing this\npost from a yacht.  The answer was always the same: the cursor wasn’t where\nCIDER expected it to be. The upcoming CIDER 2.1 release changes that - the\nevaluation commands now figure out which form you mean from where your cursor\nactually is.\nA bit of history\nEmacs has a very particular tradition when it comes to evaluating code:\neval-last-sexp (the venerable C-x C-e) acts on the expression before the\ncursor. Not the one you’re looking at, not the one you’re inside of - the one\nthat ends exactly where your cursor stands. SLIME follows this tradition,\nEmacs Lisp itself follows it, and for the past 15+ years CIDER has followed it\ntoo.1 If you g…",
-          "link": "https://metaredux.com/posts/2026/08/26/smarter-form-targeting-is-coming-to-cider.html",
-          "publishedOn": "2026-08-26T09:18:00.000Z",
-          "wordCount": 1342,
-          "title": "Meta Redux: Smarter Form Targeting Is Coming to CIDER",
-          "imageUrl": "https://metaredux.com/assets/og-image.png"
         }
       ]
     },
@@ -2360,6 +2360,16 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73617613/john-fetterman-israel-fox-news/",
+          "author": null,
+          "description": "Rather than, you know, serving his constituents, the Pennsylvania senator is more interested in jumping on Fox News to yammer about Israel.",
+          "link": "https://www.esquire.com/news-politics/politics/a73617613/john-fetterman-israel-fox-news/",
+          "publishedOn": "2026-09-04T23:30:00.000Z",
+          "wordCount": 21552,
+          "title": "John Fetterman Is Making the Case for Worst Democratic Senator of All Time",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/12ddbee7-5222-46ee-9472-064fd0994593.jpeg?crop=1xw:0.750214408233xh;center,top&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a73607897/dan-sullivans-alaska-senate-race-republican/",
           "author": null,
