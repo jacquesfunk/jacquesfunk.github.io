@@ -2,10 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-03T22:21:24.542Z</updated>
+    <updated>2026-09-04T03:00:00.249Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Sacha Chua: Emacs Carnival September 2026: Games]]></title>
+        <id>https://sachachua.com/blog/2026/09/emacs-carnival-september-2026-games/</id>
+        <link href="https://sachachua.com/blog/2026/09/emacs-carnival-september-2026-games/"/>
+        <updated>2026-09-04T01:04:46.000Z</updated>
+        <summary type="html"><![CDATA[Games". Thanks to Raymond Zeitler for hosting!
+
+
+
+
+
+One of the things I love about the Emacs community is people's sense of humour and whimsy. There's a grand tradition of people hiding Easter eggs in software, a bit of hidden fun that might make someone smile.
+But isn't this just bloat and frivolity? One might argue that the code that lets us play M-x tetris, dunnet, or doctor in Emacs is a waste of time and space compared to More Serious Things, but on the other hand, the Tetris source code could be a good jumping-off point if you find yourself wanting to make an interactive real-time simulation that displays graphical results. Want something more modern? Maybe DOOM on Emacs!
+Besides, the code for games isn't actually loaded until you choose to play it. It's okay for something to be fun …]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Friday Funnies]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3413</id>
+        <link href="https://stuffthatinterestsme.net/friday-funnies/"/>
+        <updated>2026-09-04T00:46:06.000Z</updated>
+        <summary type="html"><![CDATA[You’re weekly dose of funny and silly pictures and memes.]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Phriday Phistory: The Clifford Ball]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3406</id>
+        <link href="https://stuffthatinterestsme.net/phriday-phistory-the-clifford-ball/"/>
+        <updated>2026-09-04T00:01:25.000Z</updated>
+        <summary type="html"><![CDATA[In August 1996, Phish did something that seemed completely unreasonable even by Phish standards. Instead of simply booking another arena]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Leavitt's leaving. Save $200K and let Trump lie for himself.Rex Huppke]]></title>
         <id>https://www.usatoday.com/story/opinion/columnist/2026/08/14/karoline-leavitt-successor-trump-press-secretary/91298787007/-full</id>
@@ -4124,60 +4162,6 @@ She kept a Nazi armband in a desk drawer in her house.
 She was an alcoholic, and was probably drunk when she took the field before Game 1 of the 1990 World Series and told the assembled crowd that she was dedicating the …]]></summary>
         <author>
             <name>Tom Ley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Preznit Fuckwit blunders into a trade war he can’t win. does that sound familiar?]]></title>
-        <id>https://www.jefftiedrich.com/p/preznit-fuckwit-blunders-into-a-trade</id>
-        <link href="https://www.jefftiedrich.com/p/preznit-fuckwit-blunders-into-a-trade"/>
-        <updated>2026-08-25T14:11:30.000Z</updated>
-        <summary type="html"><![CDATA[the dumbest history repeats itself]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TAONAW - Emacs and Org Mode:]]></title>
-        <id>https://taonaw.com/2026/08/25/a-quick-update-for-my.html</id>
-        <link href="https://taonaw.com/2026/08/25/a-quick-update-for-my.html"/>
-        <updated>2026-08-25T13:56:10.000Z</updated>
-        <summary type="html"><![CDATA[A quick update for my Emacs config Gems series:
-I am working on part 5, and I’m trying to finalize a few things first. Currently it’s Ispell (I’ve not been using it to its full capacity) and completion… more details soon.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump DOJ Colludes With Texas to Harbor Fugitive ICE Agent]]></title>
-        <id>https://morningmemo.talkingpointsmemo.com/p/trump-doj-colludes-with-texas-to</id>
-        <link href="https://morningmemo.talkingpointsmemo.com/p/trump-doj-colludes-with-texas-to"/>
-        <updated>2026-08-25T13:49:35.000Z</updated>
-        <summary type="html"><![CDATA[INSIDE: Greg Abbott ... Christian Castro ... Tulsi Gabbard]]></summary>
-        <author>
-            <name>David Kurtz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Red Dwarfs Are Super Stars]]></title>
-        <id>https://defector.com/?p=232550</id>
-        <link href="https://defector.com/red-dwarfs-are-super-stars"/>
-        <updated>2026-08-25T13:35:34.000Z</updated>
-        <summary type="html"><![CDATA[The last real star in the universe will be a red dwarf. This will not be for some time yet. The conditions are ripe for stars to be formed, to live out their lives, to burn out or explode, in cycles for the next 100 trillion years. The universe is, then,  unimaginably young, as far as things go, at just 13.8 billion years. If the lifespan of the so-called Stelliferous Era were a single 24-hour day, we'd be nearly 12 seconds in.
-But one day, all that stellar fuel will be used up, distributed, converted from delicious and powerful hydrogen to more complex elements useless for star formation. The day will come when no new stars are being born, and the ones that exist will start to go out, one by one, forever. Of the hydrogen-burning stars, red dwarfs will hang on the longest. G-type main-sequence stars like our Sun get a few billion years before they exhaust their fuel. Red dwarfs possess a lifespan of about 10 trillion years.
-We think. It's all theoretical, since we have yet to actually observe the death of a red dwarf star, because—again—the universe hasn't existed nearly long enough for any of them to die.]]></summary>
-        <author>
-            <name>Barry Petchesky</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[‘Red Dwarf’ Became A Sci-Fi Classic By Rejecting Every Sci-Fi Convention]]></title>
-        <id>https://defector.com/?p=232468</id>
-        <link href="https://defector.com/red-dwarf-became-a-sci-fi-classic-by-rejecting-every-sci-fi-convention"/>
-        <updated>2026-08-25T13:06:42.000Z</updated>
-        <summary type="html"><![CDATA[Post-apocalyptic comedies have not been in vogue since the notably less comic actual apocalypse has started filling our windscreens. Even moderately depraved cultural products like Survivor and Squid Game have stopped short of ritually killing and eating lesser characters as part of the competition. Then again, those shows don't pretend to be comedies, and so could easily make cannibalism part of the show without a sizable loss in audience. We bring that up to open your minds to the idea of the Survivor contestants rising up as one and finishing off Jeff Probst with a nice coconut chianti once and for all. Now that would be comedy.
-But because that hasn't happened (yet), we can say that this genre pretty much topped out with Red Dwarf, the hydraheaded British comedy of yesteryear that took…]]></summary>
-        <author>
-            <name>Ray Ratto</name>
         </author>
     </entry>
 </feed>

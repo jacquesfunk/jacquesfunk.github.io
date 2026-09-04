@@ -90,6 +90,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://sachachua.com/blog/2026/09/emacs-carnival-september-2026-games/",
+          "author": null,
+          "description": "Games\". Thanks to Raymond Zeitler for hosting!\n\n\n\n\n\nOne of the things I love about the Emacs community is people's sense of humour and whimsy. There's a grand tradition of people hiding Easter eggs in software, a bit of hidden fun that might make someone smile.\nBut isn't this just bloat and frivolity? One might argue that the code that lets us play M-x tetris, dunnet, or doctor in Emacs is a waste of time and space compared to More Serious Things, but on the other hand, the Tetris source code could be a good jumping-off point if you find yourself wanting to make an interactive real-time simulation that displays graphical results. Want something more modern? Maybe DOOM on Emacs!\nBesides, the code for games isn't actually loaded until you choose to play it. It's okay for something to be fun …",
+          "link": "https://sachachua.com/blog/2026/09/emacs-carnival-september-2026-games/",
+          "publishedOn": "2026-09-04T01:04:46.000Z",
+          "wordCount": 646,
+          "title": "Sacha Chua: Emacs Carnival September 2026: Games",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.jamescherti.com/emacs-startup-defer-use-package-performance/",
           "author": null,
           "description": "As an Emacs user, your configuration can easily grow from a few lightweight adjustments to a massive, hundred-package IDE. Without careful management, Emacs startup time can degrade from sub-second execution to several seconds, or minutes, in the worst cases. Eager package loading is one common source of startup overhead. This guide explains how Emacs loads libraries, how use-package configures package loading, and how deferred loading can reduce startup time.\nWhy does Emacs startup gets slow?\nA naive package declaration looks like this:\n;; The kirigami Emacs package provides a unified method to fold and unfold\n;; text in Emacs across a diverse set of Emacs modes.\n(use-package kirigami)\nBy default, this causes use-package to load the package during initialization, unless the declaration co…",
@@ -508,16 +518,6 @@
           "wordCount": 3097,
           "title": "James Cherti: Configuring Emacs Eglot for Optimal Performance",
           "imageUrl": null
-        },
-        {
-          "id": "https://taonaw.com/2026/08/25/a-quick-update-for-my.html",
-          "author": null,
-          "description": "A quick update for my Emacs config Gems series:\nI am working on part 5, and I’m trying to finalize a few things first. Currently it’s Ispell (I’ve not been using it to its full capacity) and completion… more details soon.",
-          "link": "https://taonaw.com/2026/08/25/a-quick-update-for-my.html",
-          "publishedOn": "2026-08-25T13:56:10.000Z",
-          "wordCount": 484,
-          "title": "TAONAW - Emacs and Org Mode:",
-          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/08/25/5979407.png"
         }
       ]
     },
@@ -1365,26 +1365,6 @@
           "wordCount": 15096,
           "title": "Marge Schott Was A Five-Tool Bigot Who Would Have Thrived In Any Era",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-579658284.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=232550",
-          "author": "Barry Petchesky",
-          "description": "The last real star in the universe will be a red dwarf. This will not be for some time yet. The conditions are ripe for stars to be formed, to live out their lives, to burn out or explode, in cycles for the next 100 trillion years. The universe is, then,  unimaginably young, as far as things go, at just 13.8 billion years. If the lifespan of the so-called Stelliferous Era were a single 24-hour day, we'd be nearly 12 seconds in.\nBut one day, all that stellar fuel will be used up, distributed, converted from delicious and powerful hydrogen to more complex elements useless for star formation. The day will come when no new stars are being born, and the ones that exist will start to go out, one by one, forever. Of the hydrogen-burning stars, red dwarfs will hang on the longest. G-type main-sequence stars like our Sun get a few billion years before they exhaust their fuel. Red dwarfs possess a lifespan of about 10 trillion years.\nWe think. It's all theoretical, since we have yet to actually observe the death of a red dwarf star, because—again—the universe hasn't existed nearly long enough for any of them to die.",
-          "link": "https://defector.com/red-dwarfs-are-super-stars",
-          "publishedOn": "2026-08-25T13:35:34.000Z",
-          "wordCount": 7524,
-          "title": "Red Dwarfs Are Super Stars",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/STScI-01EVT3JKAAG784PXXCNK95JD4E.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=232468",
-          "author": "Ray Ratto",
-          "description": "Post-apocalyptic comedies have not been in vogue since the notably less comic actual apocalypse has started filling our windscreens. Even moderately depraved cultural products like Survivor and Squid Game have stopped short of ritually killing and eating lesser characters as part of the competition. Then again, those shows don't pretend to be comedies, and so could easily make cannibalism part of the show without a sizable loss in audience. We bring that up to open your minds to the idea of the Survivor contestants rising up as one and finishing off Jeff Probst with a nice coconut chianti once and for all. Now that would be comedy.\nBut because that hasn't happened (yet), we can say that this genre pretty much topped out with Red Dwarf, the hydraheaded British comedy of yesteryear that took…",
-          "link": "https://defector.com/red-dwarf-became-a-sci-fi-classic-by-rejecting-every-sci-fi-convention",
-          "publishedOn": "2026-08-25T13:06:42.000Z",
-          "wordCount": 9612,
-          "title": "‘Red Dwarf’ Became A Sci-Fi Classic By Rejecting Every Sci-Fi Convention",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/RedDwarf.png"
         }
       ]
     },
@@ -1426,6 +1406,26 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3413",
+          "author": "Schill",
+          "description": "You’re weekly dose of funny and silly pictures and memes.",
+          "link": "https://stuffthatinterestsme.net/friday-funnies/",
+          "publishedOn": "2026-09-04T00:46:06.000Z",
+          "wordCount": 1264,
+          "title": "Friday Funnies",
+          "imageUrl": null
+        },
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3406",
+          "author": "Schill",
+          "description": "In August 1996, Phish did something that seemed completely unreasonable even by Phish standards. Instead of simply booking another arena",
+          "link": "https://stuffthatinterestsme.net/phriday-phistory-the-clifford-ball/",
+          "publishedOn": "2026-09-04T00:01:25.000Z",
+          "wordCount": 3116,
+          "title": "Phriday Phistory: The Clifford Ball",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3403",
           "author": "Schill",
@@ -3127,22 +3127,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!qIZJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbd9e01f-3903-431a-b57e-bd9ee9adcd86_400x600.jpeg"
-        },
-        {
-          "id": "https://morningmemo.talkingpointsmemo.com/p/trump-doj-colludes-with-texas-to",
-          "author": "David Kurtz",
-          "description": "INSIDE: Greg Abbott ... Christian Castro ... Tulsi Gabbard",
-          "link": "https://morningmemo.talkingpointsmemo.com/p/trump-doj-colludes-with-texas-to",
-          "publishedOn": "2026-08-25T13:49:35.000Z",
-          "wordCount": null,
-          "title": "Trump DOJ Colludes With Texas to Harbor Fugitive ICE Agent",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!D7i5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e37f46f-414e-4e93-a315-00600560450b_400x600.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!D7i5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e37f46f-414e-4e93-a315-00600560450b_400x600.jpeg"
         }
       ]
     },
@@ -3413,22 +3397,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!qTxP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd259cb2-93eb-4d1d-8cae-9dd17bde4d4b_710x399.webp"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/preznit-fuckwit-blunders-into-a-trade",
-          "author": "Jeff Tiedrich",
-          "description": "the dumbest history repeats itself",
-          "link": "https://www.jefftiedrich.com/p/preznit-fuckwit-blunders-into-a-trade",
-          "publishedOn": "2026-08-25T14:11:30.000Z",
-          "wordCount": null,
-          "title": "Preznit Fuckwit blunders into a trade war he can’t win. does that sound familiar?",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!EM3W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a225670-7474-4302-8aa2-d36a8cb39366_550x325.webp",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!EM3W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a225670-7474-4302-8aa2-d36a8cb39366_550x325.webp"
         }
       ]
     }
