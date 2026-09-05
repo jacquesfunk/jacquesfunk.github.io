@@ -80,6 +80,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=14062",
+          "author": null,
+          "description": "optimizing Emacs startup with use-package. The idea is that many configurations load a substantial number of packages and that this can cause a significant increase in startup time.\n\n\nMost of you know by now that we here at the Irreal bunker refuse to worry about that because, after all, we hardly ever restart Emacs. Still, plenty of people do worry about it and there’s nothing wrong with learning a few easy to implement principles that will speedup Emacs startup without having to obsess about tiny details.\n\n\nThe TL;DR is to get use-package to defer loading of packages until they are actually needed. Most Emacers who aren’t complete n00bs already know this. The question is, how exactly, to specify the use-package commands to achieve that.\n\n\nThe obvious answers aren’t the right ones. For example, the :defer keyword seems like the natural answer but Cherti explains why this isn’t usually necessary and that it doesn’t do what you probably think it does. It’s much better to use one of the commands that implicitly defer loading but also arrange for autoloading the required functions when they’re needed.\n\n\nCherti also explains how to get use-package to add logging information to the *Messages* buffer to help with understanding the load process. There’s a lot of information in Cherti’s post and it serves as a handy reference for how to use use-package to control the loading of packages at startup time. If you’re at all worried about startup time or just want to understand how to use use-package to control package loading, take a look at his post.",
+          "link": "https://irreal.org/blog/?p=14062",
+          "publishedOn": "2026-09-05T14:44:09.000Z",
+          "wordCount": 1533,
+          "title": "Irreal: Optimizing Startup With Use-package",
+          "imageUrl": null
+        },
+        {
           "id": "https://sachachua.com/blog/2026/09/emacs-carnival-september-2026-games/",
           "author": null,
           "description": "Games\". Thanks to Raymond Zeitler for hosting!\n\n\n\n\n\nOne of the things I love about the Emacs community is people's sense of humour and whimsy. There's a grand tradition of people hiding Easter eggs in software, a bit of hidden fun that might make someone smile.\nBut isn't this just bloat and frivolity? One might argue that the code that lets us play M-x tetris, dunnet, or doctor in Emacs is a waste of time and space compared to More Serious Things, but on the other hand, the Tetris source code could be a good jumping-off point if you find yourself wanting to make an interactive real-time simulation that displays graphical results. Want something more modern? Maybe DOOM on Emacs!\nBesides, the code for games isn't actually loaded until you choose to play it. It's okay for something to be fun …",
@@ -2408,85 +2418,13 @@
       "title": "Awesome Terrible Movie",
       "feedUrl": "https://awesometerriblemovie.com/feed/",
       "siteUrl": "https://awesometerriblemovie.com",
-      "articles": [
-        {
-          "id": "https://awesometerriblemovie.com/?p=1053",
-          "author": "admin",
-          "description": "There are superhero movies that become beloved classics, movies that become forgotten disappointments, and then there is Batman & Robin, a film so spectacularly committed to its own excess that it eventually became one of the most entertaining examples of Hollywood getting almost everything wrong. Released in 1997 and directed by Joel Schumacher, Batman &...",
-          "link": "https://awesometerriblemovie.com/action/batman-robin/",
-          "publishedOn": "2026-08-27T00:40:31.000Z",
-          "wordCount": 3063,
-          "title": "Batman & Robin",
-          "imageUrl": null
-        },
-        {
-          "id": "https://awesometerriblemovie.com/?p=1049",
-          "author": "admin",
-          "description": "There are movies that are remembered because they’re masterpieces, movies remembered because they’re disasters, and then there’s Mac and Me, a 1988 science-fiction family film that has achieved a strange kind of immortality by being both a genuine Hollywood movie and one of the most shameless pieces of product placement ever put on a screen....",
-          "link": "https://awesometerriblemovie.com/sci-fi/mac-and-me/",
-          "publishedOn": "2026-08-27T00:37:30.000Z",
-          "wordCount": 2979,
-          "title": "Mac and Me",
-          "imageUrl": null
-        },
-        {
-          "id": "https://awesometerriblemovie.com/?p=1045",
-          "author": "admin",
-          "description": "There are movies that fail because they don’t have enough money, movies that fail because they don’t have enough talent, and then there is Manos: The Hands of Fate, a 1966 horror film that somehow managed to turn almost every possible filmmaking limitation into part of its enduring charm. Directed by and starring Harold P....",
-          "link": "https://awesometerriblemovie.com/horror/manos-the-hands-of-fate/",
-          "publishedOn": "2026-08-27T00:34:40.000Z",
-          "wordCount": 3209,
-          "title": "Manos: The Hands of Fate",
-          "imageUrl": null
-        },
-        {
-          "id": "https://awesometerriblemovie.com/?p=1041",
-          "author": "admin",
-          "description": "There are bad movies, there are entertainingly bad movies, and then there is Birdemic: Shock and Terror. Released in 2010, James Nguyen’s low-budget horror film has become one of the most famous examples of a movie that is so spectacularly inept that watching it becomes an experience all its own. It has terrible special effects,...",
-          "link": "https://awesometerriblemovie.com/horror/birdemic-shock-and-terror/",
-          "publishedOn": "2026-08-27T00:29:09.000Z",
-          "wordCount": 3730,
-          "title": "Birdemic: Shock and Terror",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Old School Hop-Hop",
       "feedUrl": "https://oldschool-hiphop.com/feed/",
       "siteUrl": "https://oldschool-hiphop.com",
-      "articles": [
-        {
-          "id": "https://oldschool-hiphop.com/?p=889",
-          "author": "schill",
-          "description": "Before Run-DMC, LL Cool J, Public Enemy, Rakim, Ice-T, N.W.A. and the countless rap stars who followed, there was",
-          "link": "https://oldschool-hiphop.com/kurtis-blow/kurtis-blow-hip-hops-first-mainstream-superstar/",
-          "publishedOn": "2026-08-27T00:16:41.000Z",
-          "wordCount": 5992,
-          "title": "Kurtis Blow: Hip-Hop’s First Mainstream Superstar",
-          "imageUrl": null
-        },
-        {
-          "id": "https://oldschool-hiphop.com/?p=886",
-          "author": "schill",
-          "description": "The Party That Changed Music Forever On August 11, 1973, a back-to-school party was held in the recreation room of",
-          "link": "https://oldschool-hiphop.com/hiphop-history/the-night-hip-hop-was-born-dj-kool-herc-and-august-11-1973/",
-          "publishedOn": "2026-08-27T00:10:15.000Z",
-          "wordCount": 6036,
-          "title": "The Night Hip-Hop Was Born: DJ Kool Herc and August 11, 1973",
-          "imageUrl": null
-        },
-        {
-          "id": "https://oldschool-hiphop.com/?p=879",
-          "author": "schill",
-          "description": "In the summer of 1974, hip-hop was not an industry. It was not a genre neatly packaged into record-store bins,",
-          "link": "https://oldschool-hiphop.com/queen-latifah/1974-1990-the-15-years-that-took-hip-hop-from-bronx-block-parties-to-a-global-phenomenon/",
-          "publishedOn": "2026-08-26T23:32:54.000Z",
-          "wordCount": null,
-          "title": "1974–1990: The 15 Years That Took Hip-Hop From Bronx Block Parties to a Global Phenomenon",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Flow State",
@@ -3052,6 +2990,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/this-week-in-stupid-september-5-edition",
+          "author": "Jeff Tiedrich",
+          "description": "Jeanine Boxwine pumps it, Bobby Brainworms dumps it, and so much more...",
+          "link": "https://www.jefftiedrich.com/p/this-week-in-stupid-september-5-edition",
+          "publishedOn": "2026-09-05T14:50:24.000Z",
+          "wordCount": null,
+          "title": "this week in stupid: September 5 edition",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!63yP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a327c22-b473-4898-91d4-a042bbbda22d_1188x742.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!63yP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a327c22-b473-4898-91d4-a042bbbda22d_1188x742.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/stop-the-bullshit-even-maga-is-fed",
           "author": "Jeff Tiedrich",
