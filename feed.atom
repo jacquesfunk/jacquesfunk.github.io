@@ -2,10 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-05T19:57:30.108Z</updated>
+    <updated>2026-09-05T21:58:39.623Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Joar von Arndt: Emacs does not need LSP]]></title>
+        <id>https://joarvarndt.se/emacs-lsp.html</id>
+        <link href="https://joarvarndt.se/emacs-lsp.html"/>
+        <updated>2026-09-05T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Table of Contents
+In-buffer completion
+Jump to definition and references
+Syntax checking
+Conclusion
+lsp) is standard to communicate information about a
+current programming project to an editor integration, powered by a “language
+server” for the specific programming language. Emacs has two major
+implementations of this editor functionality: eglot (built-in) and lsp-mode.
+Getting this set up is usually one of the first things that new users will want
+to do, but in my experience one can get by for a surprisingly long time using
+Emacs without needing to reach for eglot or lsp-mode. That is because many of
+the functions that lsp-servers provide can be provided by Emacs through other
+means.
+
+
+
+As someone who quite often moves between different programming languages, I find
+the need to set up eac…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[this week in stupid: September 5 edition]]></title>
         <id>https://www.jefftiedrich.com/p/this-week-in-stupid-september-5-edition</id>
@@ -3823,17 +3851,6 @@ But no one’s really paying much attention to the Blazers players at the presen
 Under normal circumstances, these polls would presage the mythical blue wave, with Democrats seizing control of both the House and Senate in this fall’s midterms…]]></summary>
         <author>
             <name>Drew Magary, Columnist - SFGATE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lindsay Clancy murder trial exposes MAGA lies]]></title>
-        <id>https://www.salon.com/2026/08/26/the-lindsay-clancy-murder-trial-exposes-maga-lies/-full</id>
-        <link href="https://www.salon.com/2026/08/26/the-lindsay-clancy-murder-trial-exposes-maga-lies/"/>
-        <updated>2026-08-26T10:45:20.000Z</updated>
-        <summary type="html"><![CDATA[Having kids is easy, and anyone who says otherwise is an ugly feminist trying to scare other women out of their only true source of joy and fulfillment: This is the narrative that has grown up in the MAGA movement in recent years. The right has become increasingly obsessed with nostalgia for the imagined bliss of 1950s-era white families with housewives-in-aprons raising large broods. At the same time, they have become progressively vitriolic toward anyone who notes that the era’s realities were much harsher than what was shown on Nick at Nite sitcoms. Part of their story, then, is that it’s a vile myth that pregnancy and motherhood can be hard on women. 
-Before his death in September 2025, Turning Point USA founder Charlie Kirk regularly advised young people to “get married young and have…]]></summary>
-        <author>
-            <name>Amanda Marcotte - Salon.com</name>
         </author>
     </entry>
 </feed>

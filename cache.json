@@ -80,6 +80,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://joarvarndt.se/emacs-lsp.html",
+          "author": null,
+          "description": "Table of Contents\nIn-buffer completion\nJump to definition and references\nSyntax checking\nConclusion\nlsp) is standard to communicate information about a\ncurrent programming project to an editor integration, powered by a “language\nserver” for the specific programming language. Emacs has two major\nimplementations of this editor functionality: eglot (built-in) and lsp-mode.\nGetting this set up is usually one of the first things that new users will want\nto do, but in my experience one can get by for a surprisingly long time using\nEmacs without needing to reach for eglot or lsp-mode. That is because many of\nthe functions that lsp-servers provide can be provided by Emacs through other\nmeans.\n\n\n\nAs someone who quite often moves between different programming languages, I find\nthe need to set up eac…",
+          "link": "https://joarvarndt.se/emacs-lsp.html",
+          "publishedOn": "2026-09-05T16:00:00.000Z",
+          "wordCount": 1683,
+          "title": "Joar von Arndt: Emacs does not need LSP",
+          "imageUrl": "https://joarvarndt.se/post-images/emacs-lsp.png"
+        },
+        {
           "id": "https://irreal.org/blog/?p=14062",
           "author": null,
           "description": "optimizing Emacs startup with use-package. The idea is that many configurations load a substantial number of packages and that this can cause a significant increase in startup time.\n\n\nMost of you know by now that we here at the Irreal bunker refuse to worry about that because, after all, we hardly ever restart Emacs. Still, plenty of people do worry about it and there’s nothing wrong with learning a few easy to implement principles that will speedup Emacs startup without having to obsess about tiny details.\n\n\nThe TL;DR is to get use-package to defer loading of packages until they are actually needed. Most Emacers who aren’t complete n00bs already know this. The question is, how exactly, to specify the use-package commands to achieve that.\n\n\nThe obvious answers aren’t the right ones. For example, the :defer keyword seems like the natural answer but Cherti explains why this isn’t usually necessary and that it doesn’t do what you probably think it does. It’s much better to use one of the commands that implicitly defer loading but also arrange for autoloading the required functions when they’re needed.\n\n\nCherti also explains how to get use-package to add logging information to the *Messages* buffer to help with understanding the load process. There’s a lot of information in Cherti’s post and it serves as a handy reference for how to use use-package to control the loading of packages at startup time. If you’re at all worried about startup time or just want to understand how to use use-package to control package loading, take a look at his post.",
@@ -1518,16 +1528,6 @@
           "wordCount": 1964,
           "title": "The high cost of MAGA manhood",
           "imageUrl": "https://www.salon.com/app/uploads/2026/08/maga-masculinity-cost-illo.jpg"
-        },
-        {
-          "id": "https://www.salon.com/2026/08/26/the-lindsay-clancy-murder-trial-exposes-maga-lies/-full",
-          "author": null,
-          "description": "Having kids is easy, and anyone who says otherwise is an ugly feminist trying to scare other women out of their only true source of joy and fulfillment: This is the narrative that has grown up in the MAGA movement in recent years. The right has become increasingly obsessed with nostalgia for the imagined bliss of 1950s-era white families with housewives-in-aprons raising large broods. At the same time, they have become progressively vitriolic toward anyone who notes that the era’s realities were much harsher than what was shown on Nick at Nite sitcoms. Part of their story, then, is that it’s a vile myth that pregnancy and motherhood can be hard on women. \nBefore his death in September 2025, Turning Point USA founder Charlie Kirk regularly advised young people to “get married young and have…",
-          "link": "https://www.salon.com/2026/08/26/the-lindsay-clancy-murder-trial-exposes-maga-lies/",
-          "publishedOn": "2026-08-26T10:45:20.000Z",
-          "wordCount": 2190,
-          "title": "The Lindsay Clancy murder trial exposes MAGA lies",
-          "imageUrl": "https://www.salon.com/app/uploads/2026/08/lindsay-clancy-trial-2289661751.jpg"
         }
       ]
     },
