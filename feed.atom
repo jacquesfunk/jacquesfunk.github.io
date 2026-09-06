@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-05T23:41:55.790Z</updated>
+    <updated>2026-09-06T03:01:02.844Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Sunday Weird History Lesson: The Man Who Survived Two Atomic Bombs]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3730</id>
+        <link href="https://stuffthatinterestsme.net/sunday-weird-history-lesson-the-man-who-survived-two-atomic-bombs/"/>
+        <updated>2026-09-06T00:03:44.000Z</updated>
+        <summary type="html"><![CDATA[Few stories from the history of World War II sound as unbelievable as that of Tsutomu Yamaguchi, a Japanese]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Joar von Arndt: Emacs does not need LSP]]></title>
         <id>https://joarvarndt.se/emacs-lsp.html</id>
@@ -3651,106 +3661,6 @@ Now that I've had my red light mask for a year, I see that it works, I think? My
 Even scientists seemed to agree. In one 1989 paper, the biophysicist Tiina Karu, who studied the cellular mechanics of red light exposure, called the therapy "highly incredible and even mysterious." When I tried to learn about the science behind red light's dermatological dazzle, what I found were mostly affiliate-driven product recommendations, which taught me more about the luxuries of various masks but less about the science behind them. So I reached out to some actual dermatologists to see if they could unmask the secrets of my mask. Here is some of what I learned.]]></summary>
         <author>
             <name>Sabrina Imbler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An Ode To Redman, The Hip-Hop Court Jester]]></title>
-        <id>https://defector.com/?p=233539</id>
-        <link href="https://defector.com/an-ode-to-redman-the-hip-hop-court-jester"/>
-        <updated>2026-08-27T14:36:44.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to Listening Habits, a column where I share the music and musical topics I’ve been fixated on recently.
-In the music video for "Time 4 Sum Aksion," the second single from Redman's debut album, you don't really get much of the zany personality that would go on to make him a cultural icon over the ensuing decades. Redman emerged first as a hardcore rapper, combining street tales and golden-age hip-hop swagger with reggae and Parliament Funkadelic attributes. On 1992's Whut? Thee Album, the fresh-faced kid from Newark is full of outlandish, aggressive bravado, backed by one of rap's production heavyweights, Erick Sermon. It makes for an album that is sonically adventurous, sampling a range of artists that includes James Brown, Funkadelic, and the Mary Jane Girls, all the while bringing raw and punchy pulp fiction the whole time. He is every bit deserving of being prime Mike Tyson's ring entrance music.
-
-https://youtu.be/NiZMqVXVZgA?si=rAXI9UVOQuMZXMwb]]></summary>
-        <author>
-            <name>Israel Daramola</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[worst person in the world makes Dolly Parton’s death all about himself]]></title>
-        <id>https://www.jefftiedrich.com/p/worst-person-in-the-world-makes-dolly</id>
-        <link href="https://www.jefftiedrich.com/p/worst-person-in-the-world-makes-dolly"/>
-        <updated>2026-08-27T14:33:30.000Z</updated>
-        <summary type="html"><![CDATA[shut the fuck up, Piggy]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Tweaking Emacs Scrolling Behavior]]></title>
-        <id>https://irreal.org/blog/?p=14042</id>
-        <link href="https://irreal.org/blog/?p=14042"/>
-        <updated>2026-08-27T14:15:48.000Z</updated>
-        <summary type="html"><![CDATA[init.el almost from the beginning:
-
-
-(setq    ;set reasonable scrolling
- scroll-margin 0
- scroll-conservatively 100000
- scroll-preserve-screen-position 1)
-
-a really excellent post that expains all the fine points of configuring scrolling. He explains the above lines, which most people probably have in their configuration. If you want Emacs scrolling to behave as it does in every other application, you can leave them as is but you can tweak the behavior a bit if you like. Cherti has all the details.
-
-
-But wait. There’s more. There are similar settings for horizontal scrolling that you might like. I’ve never had any problem with horizontal scrolling—probably because I’ve always wrapped lines in one way or another—but they’re there if you need them.
-
-
-There are some other tweaks that you can apply to delay fontification during scrolling to speed things up a bit. Again, this is not something that I use but if you deal with large files, you may find it useful.
-
-
-In Emacs 29 and later you can set pixel-precise scrolling to make scrolling over images more pleasant. There are a few other tweaks in Cherti’s post so you should definitely take a look at it. There’s a lot of good content and even if you use only a bit of it, you will find his post worthwhile.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I Played Pat McAfee’s Album For Another Frequently Red-Faced, Sleeveless Baby]]></title>
-        <id>https://defector.com/?p=233524</id>
-        <link href="https://defector.com/pat-mcafee-music-review-frequently-red-faced-sleeveless-baby"/>
-        <updated>2026-08-27T14:09:20.000Z</updated>
-        <summary type="html"><![CDATA[If in the future my daughter develops some kind of Pavlovian response to the musical stylings of Pat McAfee, I'll blame the editors who "assigned" this review. But this outcome is unlikely. I almost wish it were a little more plausible. McAfee's debut album, though enticingly titled Diary of a Polarizing Figure, was not powerful enough to polarize any part of my household. If only it had been more stupid, or ugly, or idiosyncratic enough to spark emotion, because in the end it was the musical equivalent of A.J. Hawk's uncannily smooth face.
-In the same way that McAfee the ESPN commentator has risen to meet the exact needs of the cultural moment—reddish men yapping indefinitely about sports, gambling, and vaccines, to the detriment of traditional journalism and neurons nationwide—McAfee the musician also meets listeners right where they are. Though the former NFL player has claimed that the album he released earlier this month was culled from 20 years of songwriting in private, it is music perfectly matched to the sound of the moment: a congealed country-trap, with skittering snares, gospel touches and autotuned vocals—the soundtrack of Reels America.
-Sharp critics have tried to understand the genesis of this ubiquitous new genre, but thinking too hard about it makes me feel ill. I tend to see it as the algorithmic stream carving out the path of least resistance. It's music that does barely anything for anybody, but harmlessly rolls off everybody, and can be played anywhere across the land. It's the sound of getting heat stroke on someone's rented boat. It's the reason you know Jelly Roll as anything but a bakery treat. It's the music that's on in your pickup truck, but also at the pump where you stopped to get gas, and again inside the convenience store you entered to restock on Zyn, and then again as you resume driving on the interstate while swiping through short-form vertical video and betting the spread.]]></summary>
-        <author>
-            <name>Giri Nathan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Red Hot Chili Peppers Beyond Good And Evil]]></title>
-        <id>https://defector.com/?p=233570</id>
-        <link href="https://defector.com/the-red-hot-chili-peppers-beyond-good-and-evil"/>
-        <updated>2026-08-27T13:47:05.000Z</updated>
-        <summary type="html"><![CDATA[California: Perhaps you’ve heard of it? It is the edge of the continent, it is the apocalypse state, and it is the subject of many songs by the Red Hot Chili Peppers, though fewer than you might think. 
-California is one of Californian rock bands’ favorite things to sing about. The dreamy surface and its seedy underbelly, the all-consuming city and the bone-dry wastes of the valley, the homeless encampment outside the library-themed cocktail bar that is decorated with fake books: This is good material for rock music. See “Welcome to the Jungle”; see “California Uber Alles.” Even the songs that are supposed to highlight the sunny side end up saying something about the shitty side, if sometimes unintentionally. The sighing minor chords in Scott McKenzie’s “San Francisco” make the flower-power anthem sound a little like a funeral dirge for an already vanishing age, or like the song has a bad conscience about selling a dream it suspects might be false. Phantom Planet’s “California,” the theme song for The O.C., repeats its chorus—“California, here we coooooooooooooooome”—so many times that it starts to sound a little desperate, as though the band is trying to convince itself that the trip will be worthwhile. When you’re away, California evanesces into fantasy; when you’re there, you remember that it’s just a place.
-There is a special insularity to a lot of Californian music. California, the mythic land of cults and communes, perfected the art of rock-as-subculture. No region, with the possible exception of Manchester, has produced a higher volume of what I’ve taken to calling "You had to be there" bands. The biggest two are the Bay Area’s Grateful Dead and L.A.’s Black Flag.]]></summary>
-        <author>
-            <name>Mitch Therieau</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Making Your Data Ready for Agentic AI]]></title>
-        <id>https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html</id>
-        <link href="https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html"/>
-        <updated>2026-08-27T13:11:00.000Z</updated>
-        <summary type="html"><![CDATA[Lots of organizations are excited about what AI can do to streamline
-      their processes, save money, and juice margins. But AI's capabilities are
-      founded on the data that AI accesses, and for many organizations that
-      foundation is little more than sand. Pramod Sadalage and
-      Prem Chandrasekaran write about how to build a reliable
-      foundation of data that can be accurate and trusted.
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TAONAW - Emacs and Org Mode:]]></title>
-        <id>https://taonaw.com/2026/08/27/gcc-drive-error-on-macos.html</id>
-        <link href="https://taonaw.com/2026/08/27/gcc-drive-error-on-macos.html"/>
-        <updated>2026-08-27T12:51:50.000Z</updated>
-        <summary type="html"><![CDATA[GCC drive error on macOS: This seems to show up with almost every new Emacs package I’ve been trying recently on my Mac. I remember trying to dig into it, and I went in circles trying to install something from Homebrew. Has anyone fixed this? I’m on GNU Emacs plus 30.2.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>

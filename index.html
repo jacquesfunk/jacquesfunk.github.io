@@ -22,11 +22,63 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-09-05 datetime="2026-09-05T16:00:00.000Z">2026-09-05</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-09-05 datetime="2026-09-05T16:00:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-09-05 datetime="2026-09-06T00:03:44.000Z">2026-09-05</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-09-05 datetime="2026-09-06T00:03:44.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Stuff That Interests Me</button>
+                  <a class="source-heading__link" href="https://stuffthatinterestsme.net">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://stuffthatinterestsme.net/?p&#x3D;3730"
+                        open
+                      >
+                        <summary class="article-expander__title">Sunday Weird History Lesson: The Man Who Survived Two Atomic Bombs</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://stuffthatinterestsme.net/sunday-weird-history-lesson-the-man-who-survived-two-atomic-bombs/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Few stories from the history of World War II sound as unbelievable as that of Tsutomu Yamaguchi, a Japanese</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://stuffthatinterestsme.net/?p&#x3D;3771"
+                        open
+                      >
+                        <summary class="article-expander__title">The Real World on Investing</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://stuffthatinterestsme.net/the-real-world-on-investing/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>If you have been here through the years, through the monkey, and monkey’s den and to the site now,</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -166,39 +218,6 @@ Cherti also explains how to get use-package to add logging information to the *M
                             <span class="media-object__text">
                               <span>submitted by    /u/spryfigure  
  [link]   [comments]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Stuff That Interests Me</button>
-                  <a class="source-heading__link" href="https://stuffthatinterestsme.net">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://stuffthatinterestsme.net/?p&#x3D;3771"
-                        open
-                      >
-                        <summary class="article-expander__title">The Real World on Investing</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://stuffthatinterestsme.net/the-real-world-on-investing/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>If you have been here through the years, through the monkey, and monkey’s den and to the site now,</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -7452,62 +7471,6 @@ Historically, setting up this toolchain required wiring together a stack of indi
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://irreal.org/blog/?p&#x3D;14042"
-                        open
-                      >
-                        <summary class="article-expander__title">Irreal: Tweaking Emacs Scrolling Behavior</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;14042">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>init.el almost from the beginning:
-
-
-(setq    ;set reasonable scrolling
- scroll-margin 0
- scroll-conservatively 100000
- scroll-preserve-screen-position 1)
-
-a really excellent post that expains all the fine points of configuring scrolling. He explains the above lines, which most people probably have in their configuration. If you want Emacs scrolling to behave as it does in every other application, you can leave them as is but you can tweak the behavior a bit if you like. Cherti has all the details.
-
-
-But wait. There’s more. There are similar settings for horizontal scrolling that you might like. I’ve never had any problem with horizontal scrolling—probably because I’ve always wrapped lines in one way or another—but they’re there if you need them.
-
-
-There are some other tweaks that you can apply to delay fontification during scrolling to speed things up a bit. Again, this is not something that I use but if you deal with large files, you may find it useful.
-
-
-In Emacs 29 and later you can set pixel-precise scrolling to make scrolling over images more pleasant. There are a few other tweaks in Cherti’s post so you should definitely take a look at it. There’s a lot of good content and even if you use only a bit of it, you will find his post worthwhile.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://taonaw.com/2026/08/27/gcc-drive-error-on-macos.html"
-                        open
-                      >
-                        <summary class="article-expander__title">TAONAW - Emacs and Org Mode:</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://taonaw.com/2026/08/27/gcc-drive-error-on-macos.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://s3.amazonaws.com/micro.blog/opengraph/2026/08/27/5980882.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>GCC drive error on macOS: This seems to show up with almost every new Emacs package I’ve been trying recently on my Mac. I remember trying to dig into it, and I went in circles trying to install something from Homebrew. Has anyone fixed this? I’m on GNU Emacs plus 30.2.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7696,73 +7659,6 @@ Even scientists seemed to agree. In one 1989 paper, the biophysicist Tiina Karu,
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;233539"
-                        open
-                      >
-                        <summary class="article-expander__title">An Ode To Redman, The Hip-Hop Court Jester</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/an-ode-to-redman-the-hip-hop-court-jester">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-104603882_44f8ca.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Welcome to Listening Habits, a column where I share the music and musical topics I’ve been fixated on recently.
-In the music video for &quot;Time 4 Sum Aksion,&quot; the second single from Redman&#x27;s debut album, you don&#x27;t really get much of the zany personality that would go on to make him a cultural icon over the ensuing decades. Redman emerged first as a hardcore rapper, combining street tales and golden-age hip-hop swagger with reggae and Parliament Funkadelic attributes. On 1992&#x27;s Whut? Thee Album, the fresh-faced kid from Newark is full of outlandish, aggressive bravado, backed by one of rap&#x27;s production heavyweights, Erick Sermon. It makes for an album that is sonically adventurous, sampling a range of artists that includes James Brown, Funkadelic, and the Mary Jane Girls, all the while bringing raw and punchy pulp fiction the whole time. He is every bit deserving of being prime Mike Tyson&#x27;s ring entrance music.
-
-https://youtu.be/NiZMqVXVZgA?si&#x3D;rAXI9UVOQuMZXMwb</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;233524"
-                        open
-                      >
-                        <summary class="article-expander__title">I Played Pat McAfee’s Album For Another Frequently Red-Faced, Sleeveless Baby</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/pat-mcafee-music-review-frequently-red-faced-sleeveless-baby">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-1742993352-e1787753385715.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>If in the future my daughter develops some kind of Pavlovian response to the musical stylings of Pat McAfee, I&#x27;ll blame the editors who &quot;assigned&quot; this review. But this outcome is unlikely. I almost wish it were a little more plausible. McAfee&#x27;s debut album, though enticingly titled Diary of a Polarizing Figure, was not powerful enough to polarize any part of my household. If only it had been more stupid, or ugly, or idiosyncratic enough to spark emotion, because in the end it was the musical equivalent of A.J. Hawk&#x27;s uncannily smooth face.
-In the same way that McAfee the ESPN commentator has risen to meet the exact needs of the cultural moment—reddish men yapping indefinitely about sports, gambling, and vaccines, to the detriment of traditional journalism and neurons nationwide—McAfee the musician also meets listeners right where they are. Though the former NFL player has claimed that the album he released earlier this month was culled from 20 years of songwriting in private, it is music perfectly matched to the sound of the moment: a congealed country-trap, with skittering snares, gospel touches and autotuned vocals—the soundtrack of Reels America.
-Sharp critics have tried to understand the genesis of this ubiquitous new genre, but thinking too hard about it makes me feel ill. I tend to see it as the algorithmic stream carving out the path of least resistance. It&#x27;s music that does barely anything for anybody, but harmlessly rolls off everybody, and can be played anywhere across the land. It&#x27;s the sound of getting heat stroke on someone&#x27;s rented boat. It&#x27;s the reason you know Jelly Roll as anything but a bakery treat. It&#x27;s the music that&#x27;s on in your pickup truck, but also at the pump where you stopped to get gas, and again inside the convenience store you entered to restock on Zyn, and then again as you resume driving on the interstate while swiping through short-form vertical video and betting the spread.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;23
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;233570"
-                        open
-                      >
-                        <summary class="article-expander__title">The Red Hot Chili Peppers Beyond Good And Evil</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/the-red-hot-chili-peppers-beyond-good-and-evil">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2196891408.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>California: Perhaps you’ve heard of it? It is the edge of the continent, it is the apocalypse state, and it is the subject of many songs by the Red Hot Chili Peppers, though fewer than you might think. 
-California is one of Californian rock bands’ favorite things to sing about. The dreamy surface and its seedy underbelly, the all-consuming city and the bone-dry wastes of the valley, the homeless encampment outside the library-themed cocktail bar that is decorated with fake books: This is good material for rock music. See “Welcome to the Jungle”; see “California Uber Alles.” Even the songs that are supposed to highlight the sunny side end up saying something about the shitty side, if sometimes unintentionally. The sighing minor chords in Scott McKenzie’s “San Francisco” make the flower-power anthem sound a little like a funeral dirge for an already vanishing age, or like the song has a bad conscience about selling a dream it suspects might be false. Phantom Planet’s “California,” the theme song for The O.C., repeats its chorus—“California, here we coooooooooooooooome”—so many times that it starts to sound a little desperate, as though the band is trying to convince itself that the trip will be worthwhile. When you’re away, California evanesces into fantasy; when you’re there, you remember that it’s just a place.
-There is a special insularity to a lot of Californian music. California, the mythic land of cults and communes, perfected the art of rock-as-subculture. No region, with the possible exception of Manchester, has produced a higher volume of what I’ve taken to calling &quot;You had to be there&quot; bands. The biggest two are the Bay Area’s Grateful Dead and L.A.’s Black Flag.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;42
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7798,84 +7694,12 @@ There is a special insularity to a lot of Californian music. California, the myt
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >everyone is entitled to my own opinion</button>
-                  <a class="source-heading__link" href="https://www.jefftiedrich.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.jefftiedrich.com/p/worst-person-in-the-world-makes-dolly"
-                        open
-                      >
-                        <summary class="article-expander__title">worst person in the world makes Dolly Parton’s death all about himself</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.jefftiedrich.com/p/worst-person-in-the-world-makes-dolly">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substackcdn.com/image/fetch/$s_!bY7-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F909a7382-b372-4d44-8b4a-d656985a12ef_1536x864.webp" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>shut the fuck up, Piggy</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Martin Fowler</button>
-                  <a class="source-heading__link" href="https://martinfowler.com/feed.atom">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Making Your Data Ready for Agentic AI</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://martinfowler.com/articles/making-data-ready-for-agentic-ai/card.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Lots of organizations are excited about what AI can do to streamline
-      their processes, save money, and juice margins. But AI&#x27;s capabilities are
-      founded on the data that AI accesses, and for many organizations that
-      foundation is little more than sand. Pramod Sadalage and
-      Prem Chandrasekaran write about how to build a reliable
-      foundation of data that can be accurate and trusted.
-more…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;34
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/33999323591">
-        <time id="build-timestamp" datetime="2026-09-05T23:41:55.762Z">2026-09-05T23:41:55.762Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/34007875361">
+        <time id="build-timestamp" datetime="2026-09-06T03:01:02.814Z">2026-09-06T03:01:02.814Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

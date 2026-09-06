@@ -458,26 +458,6 @@
           "wordCount": 2529,
           "title": "James Cherti: Python Development in Emacs: Eglot, Pylsp, and Ruff Integration",
           "imageUrl": null
-        },
-        {
-          "id": "https://irreal.org/blog/?p=14042",
-          "author": null,
-          "description": "init.el almost from the beginning:\n\n\n(setq    ;set reasonable scrolling\n scroll-margin 0\n scroll-conservatively 100000\n scroll-preserve-screen-position 1)\n\na really excellent post that expains all the fine points of configuring scrolling. He explains the above lines, which most people probably have in their configuration. If you want Emacs scrolling to behave as it does in every other application, you can leave them as is but you can tweak the behavior a bit if you like. Cherti has all the details.\n\n\nBut wait. There’s more. There are similar settings for horizontal scrolling that you might like. I’ve never had any problem with horizontal scrolling—probably because I’ve always wrapped lines in one way or another—but they’re there if you need them.\n\n\nThere are some other tweaks that you can apply to delay fontification during scrolling to speed things up a bit. Again, this is not something that I use but if you deal with large files, you may find it useful.\n\n\nIn Emacs 29 and later you can set pixel-precise scrolling to make scrolling over images more pleasant. There are a few other tweaks in Cherti’s post so you should definitely take a look at it. There’s a lot of good content and even if you use only a bit of it, you will find his post worthwhile.",
-          "link": "https://irreal.org/blog/?p=14042",
-          "publishedOn": "2026-08-27T14:15:48.000Z",
-          "wordCount": 1577,
-          "title": "Irreal: Tweaking Emacs Scrolling Behavior",
-          "imageUrl": null
-        },
-        {
-          "id": "https://taonaw.com/2026/08/27/gcc-drive-error-on-macos.html",
-          "author": null,
-          "description": "GCC drive error on macOS: This seems to show up with almost every new Emacs package I’ve been trying recently on my Mac. I remember trying to dig into it, and I went in circles trying to install something from Homebrew. Has anyone fixed this? I’m on GNU Emacs plus 30.2.",
-          "link": "https://taonaw.com/2026/08/27/gcc-drive-error-on-macos.html",
-          "publishedOn": "2026-08-27T12:51:50.000Z",
-          "wordCount": 494,
-          "title": "TAONAW - Emacs and Org Mode:",
-          "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/08/27/5980882.png"
         }
       ]
     },
@@ -1195,36 +1175,6 @@
           "wordCount": 9452,
           "title": "Is My Red Light Mask Doing Anything Or Am I Delusional? An Investigation",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/red-light-mask.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=233539",
-          "author": "Israel Daramola",
-          "description": "Welcome to Listening Habits, a column where I share the music and musical topics I’ve been fixated on recently.\nIn the music video for \"Time 4 Sum Aksion,\" the second single from Redman's debut album, you don't really get much of the zany personality that would go on to make him a cultural icon over the ensuing decades. Redman emerged first as a hardcore rapper, combining street tales and golden-age hip-hop swagger with reggae and Parliament Funkadelic attributes. On 1992's Whut? Thee Album, the fresh-faced kid from Newark is full of outlandish, aggressive bravado, backed by one of rap's production heavyweights, Erick Sermon. It makes for an album that is sonically adventurous, sampling a range of artists that includes James Brown, Funkadelic, and the Mary Jane Girls, all the while bringing raw and punchy pulp fiction the whole time. He is every bit deserving of being prime Mike Tyson's ring entrance music.\n\nhttps://youtu.be/NiZMqVXVZgA?si=rAXI9UVOQuMZXMwb",
-          "link": "https://defector.com/an-ode-to-redman-the-hip-hop-court-jester",
-          "publishedOn": "2026-08-27T14:36:44.000Z",
-          "wordCount": 7702,
-          "title": "An Ode To Redman, The Hip-Hop Court Jester",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-104603882_44f8ca.png"
-        },
-        {
-          "id": "https://defector.com/?p=233524",
-          "author": "Giri Nathan",
-          "description": "If in the future my daughter develops some kind of Pavlovian response to the musical stylings of Pat McAfee, I'll blame the editors who \"assigned\" this review. But this outcome is unlikely. I almost wish it were a little more plausible. McAfee's debut album, though enticingly titled Diary of a Polarizing Figure, was not powerful enough to polarize any part of my household. If only it had been more stupid, or ugly, or idiosyncratic enough to spark emotion, because in the end it was the musical equivalent of A.J. Hawk's uncannily smooth face.\nIn the same way that McAfee the ESPN commentator has risen to meet the exact needs of the cultural moment—reddish men yapping indefinitely about sports, gambling, and vaccines, to the detriment of traditional journalism and neurons nationwide—McAfee the musician also meets listeners right where they are. Though the former NFL player has claimed that the album he released earlier this month was culled from 20 years of songwriting in private, it is music perfectly matched to the sound of the moment: a congealed country-trap, with skittering snares, gospel touches and autotuned vocals—the soundtrack of Reels America.\nSharp critics have tried to understand the genesis of this ubiquitous new genre, but thinking too hard about it makes me feel ill. I tend to see it as the algorithmic stream carving out the path of least resistance. It's music that does barely anything for anybody, but harmlessly rolls off everybody, and can be played anywhere across the land. It's the sound of getting heat stroke on someone's rented boat. It's the reason you know Jelly Roll as anything but a bakery treat. It's the music that's on in your pickup truck, but also at the pump where you stopped to get gas, and again inside the convenience store you entered to restock on Zyn, and then again as you resume driving on the interstate while swiping through short-form vertical video and betting the spread.",
-          "link": "https://defector.com/pat-mcafee-music-review-frequently-red-faced-sleeveless-baby",
-          "publishedOn": "2026-08-27T14:09:20.000Z",
-          "wordCount": 6759,
-          "title": "I Played Pat McAfee’s Album For Another Frequently Red-Faced, Sleeveless Baby",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-1742993352-e1787753385715.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=233570",
-          "author": "Mitch Therieau",
-          "description": "California: Perhaps you’ve heard of it? It is the edge of the continent, it is the apocalypse state, and it is the subject of many songs by the Red Hot Chili Peppers, though fewer than you might think. \nCalifornia is one of Californian rock bands’ favorite things to sing about. The dreamy surface and its seedy underbelly, the all-consuming city and the bone-dry wastes of the valley, the homeless encampment outside the library-themed cocktail bar that is decorated with fake books: This is good material for rock music. See “Welcome to the Jungle”; see “California Uber Alles.” Even the songs that are supposed to highlight the sunny side end up saying something about the shitty side, if sometimes unintentionally. The sighing minor chords in Scott McKenzie’s “San Francisco” make the flower-power anthem sound a little like a funeral dirge for an already vanishing age, or like the song has a bad conscience about selling a dream it suspects might be false. Phantom Planet’s “California,” the theme song for The O.C., repeats its chorus—“California, here we coooooooooooooooome”—so many times that it starts to sound a little desperate, as though the band is trying to convince itself that the trip will be worthwhile. When you’re away, California evanesces into fantasy; when you’re there, you remember that it’s just a place.\nThere is a special insularity to a lot of Californian music. California, the mythic land of cults and communes, perfected the art of rock-as-subculture. No region, with the possible exception of Manchester, has produced a higher volume of what I’ve taken to calling \"You had to be there\" bands. The biggest two are the Bay Area’s Grateful Dead and L.A.’s Black Flag.",
-          "link": "https://defector.com/the-red-hot-chili-peppers-beyond-good-and-evil",
-          "publishedOn": "2026-08-27T13:47:05.000Z",
-          "wordCount": 12590,
-          "title": "The Red Hot Chili Peppers Beyond Good And Evil",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2196891408.jpg"
         }
       ]
     },
@@ -1286,6 +1236,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3730",
+          "author": "Schill",
+          "description": "Few stories from the history of World War II sound as unbelievable as that of Tsutomu Yamaguchi, a Japanese",
+          "link": "https://stuffthatinterestsme.net/sunday-weird-history-lesson-the-man-who-survived-two-atomic-bombs/",
+          "publishedOn": "2026-09-06T00:03:44.000Z",
+          "wordCount": 2860,
+          "title": "Sunday Weird History Lesson: The Man Who Survived Two Atomic Bombs",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3771",
           "author": "Schill",
@@ -2510,16 +2470,6 @@
           "wordCount": 1185,
           "title": "Fragments: September  1",
           "imageUrl": "https://martinfowler.com/fragments/fragments-thumb.png"
-        },
-        {
-          "id": "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html",
-          "author": null,
-          "description": "Lots of organizations are excited about what AI can do to streamline\n      their processes, save money, and juice margins. But AI's capabilities are\n      founded on the data that AI accesses, and for many organizations that\n      foundation is little more than sand. Pramod Sadalage and\n      Prem Chandrasekaran write about how to build a reliable\n      foundation of data that can be accurate and trusted.\nmore…",
-          "link": "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html",
-          "publishedOn": "2026-08-27T13:11:00.000Z",
-          "wordCount": 10079,
-          "title": "Making Your Data Ready for Agentic AI",
-          "imageUrl": "https://martinfowler.com/articles/making-data-ready-for-agentic-ai/card.png"
         }
       ]
     },
@@ -3037,22 +2987,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!vzKc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc76b7dad-f771-40a2-a567-209d9ce11625_2000x1125.jpeg"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/worst-person-in-the-world-makes-dolly",
-          "author": "Jeff Tiedrich",
-          "description": "shut the fuck up, Piggy",
-          "link": "https://www.jefftiedrich.com/p/worst-person-in-the-world-makes-dolly",
-          "publishedOn": "2026-08-27T14:33:30.000Z",
-          "wordCount": null,
-          "title": "worst person in the world makes Dolly Parton’s death all about himself",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!bY7-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F909a7382-b372-4d44-8b4a-d656985a12ef_1536x864.webp",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!bY7-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F909a7382-b372-4d44-8b4a-d656985a12ef_1536x864.webp"
         }
       ]
     }
