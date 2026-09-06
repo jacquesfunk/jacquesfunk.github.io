@@ -23,6 +23,26 @@
       "siteUrl": "https://baty.net/index.xml",
       "articles": [
         {
+          "id": "https://baty.net/posts/2026/09/trying-a-new-emacs-config/",
+          "author": null,
+          "description": "I'm typing this in Emacs using a completely new config and it's so weird. I've been running Emacs v31 everywhere and thought I'd try leaning on more of the built-in completion behavior, and it spiraled out of control.\nI ended up looking at emacs-solo because it's a fancy configuration that only uses built-in packages. It was easy to try out, so I did. And I liked it. I added the necessary-for-me missing components of my old config.\nMy favorite part is that I went from 143 installed packages to 49 and got rid of hundreds of lines of config that I didn't really need. Also, my startup time was cut in half and is now under 1 second. Nice.\nIt'll take a minute for everything to burn in and shake out, but so far I don't hate it.\n✍️ Reply by email",
+          "link": "https://baty.net/posts/2026/09/trying-a-new-emacs-config/",
+          "publishedOn": "2026-09-06T19:38:20.000Z",
+          "wordCount": 212,
+          "title": "Trying a new Emacs config",
+          "imageUrl": "https://baty.net/img/opengraph.jpg"
+        },
+        {
+          "id": "https://baty.net/journal/03Sep26/",
+          "author": null,
+          "description": "Good catch. The blast radius is genuinely load-bearing, but let me confirm before guessing.\n...or...\nLet me verify the fix empirically rather than just assert it.\nReading Claude Code's output is exhausting.\nIf you think that unsubscribing from a few software services is \"fighting fascism\" then we're going to lose.\n✍️ Reply by email",
+          "link": "https://baty.net/journal/03Sep26/",
+          "publishedOn": "2026-09-03T11:05:16.000Z",
+          "wordCount": 118,
+          "title": "Thursday, September 3, 2026",
+          "imageUrl": "https://baty.net/img/opengraph.jpg"
+        },
+        {
           "id": "https://baty.net/journal/02Sep26/",
           "author": null,
           "description": "After a couple of lazy months, I finally got back into the darkroom this morning.\nI bought the UGREEN NAS as a way to store files and host Plex. That has evolved somewhat. I'm still putting files there, but the number of hosted apps has grown.\nMiniflux (RSS reader)\nNavidrome (Music server)\nForgejo (Git repos)\nVaultwarden (Passwords)\nImmich (Photo library)\nJellyFin (Media streaming)\nReaddeck (Read-later service)\nAll accessible only via my Tailscale network. Sure hope nothing breaks :)\n✍️ Reply by email",
@@ -79,6 +99,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://magnus.therning.org/2026-09-06-emacs-salmagundi,-2026-09-06.html",
+          "author": null,
+          "description": "Compilation commands by project type\nhaskell-ng-project-mode, to my Haskell mode.\nThe idea I had was that I could use it to add keybindings for running various\ntools (via compile), e.g. I bound cabal build and cabal test , p b and\n, p t respectively. Then I hooked in the minor mode in my haskell-ng-mode.\nSoon I realised it'd be nice to have those shortcuts available in dired too,\nso I hooked it in there as well. When I later wanted to re-run the tests after\nmodifying a JSON file that was part of a golden test I realised that this wasn't\na very nice solution at all.\n\n\n\nAfter looking around a bit I found emacs-multi-compile. I removed the minor mode\nand add this configuration instead\n\n\n\n(add-to-list 'multi-compile-alist\n             '((haskell-ng-is-project) . ((\"cabal build\" \"cabal build -j --semaphore\" (project-root (project-current)))\n                                          (\"cabal test\" \"cabal test\" (project-root (project-current)))\n                                          (\"fourmolu\" \"fourmolu -i $(fd .hs$)\" (project-root (project-current))))))\n\nemacs-multi-compile works very well for me so I'm\nvery happy with it.\n\n\n\n\nJumping between implementation and test, again\na while ago. At the time I came up with a way of bending\nff-find-other-file to my will, but soon after that I ran into a case where\nthere may be 2 \"other files\" – one of the Haskell projects at work put unit\ntests in files ending in Spec.hs and property tests in filed ending with\nProp.hs. Unfortunately this is a situation that ff-find-other-file can't\nhandle.\n\n\n\nI ended up hacking together consult-kith to deal with it. The configuration to\nhandle two kinds of test files looks like this\n\n\n\n(setq-local consult-kith-alist `((,(rx (seq \"Spec.hs\" eol)) (\".hs\"))\n                                 (,(rx (seq \"Prop.hs\" eol)) (\".hs\"))\n                                 (,(rx (seq \".hs\" eol)) (\"Prop.hs\" \"Spec.hs\")))\n            consult-kith-search-directories '(\"src\" \"test\"))\n\nSpec.hs for tests, but I'm\nsticking to consult-kith for now.\n\n\n\nTags: emacs",
+          "link": "https://magnus.therning.org/2026-09-06-emacs-salmagundi,-2026-09-06.html",
+          "publishedOn": "2026-09-06T16:33:00.000Z",
+          "wordCount": 341,
+          "title": "Magnus: Emacs salmagundi, 2026-09-06",
+          "imageUrl": null
+        },
         {
           "id": "https://irreal.org/blog/?p=14064",
           "author": null,
@@ -456,6 +486,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=234788",
+          "author": "Kathryn Xu",
+          "description": "Do you believe that Formula 1 can be romantic? Before immediately answering to the negative, at least consider Kimi Antonelli. He is freshly 20 years old, and just became the first Italian driver to win the Italian Grand Prix since Ludovico Scarfiotti did so in 1966. If your answer is still negative, and fair enough, at least consider that Antonelli achieved his victory by breaking the record for most overtakes during a Grand Prix in F1 history and after starting from P19 on the grid. Consider, too, that this is Monza we're talking about. If the answer is still negative, well. Have you ever considered becoming Italian and seeing how that changes your perspective on the matter?\nBefore getting to Sunday, we must first go through Saturday, a fact that is true of the passage of time more gener…",
+          "link": "https://defector.com/kimi-antonelli-pulled-off-a-miracle-at-monza",
+          "publishedOn": "2026-09-06T18:19:05.000Z",
+          "wordCount": 7294,
+          "title": "Kimi Antonelli Pulled Off A Miracle At Monza",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/kimiAntonelliMonzaOHMYGOD.jpg"
+        },
         {
           "id": "https://defector.com/?p=234786",
           "author": "Kathryn Xu",
@@ -2330,22 +2370,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!AAOR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4723127a-2c1b-48d9-9197-9a6481392197_1200x1200.jpeg"
-        },
-        {
-          "id": "https://www.flowstate.fm/p/carl-craig-8ee",
-          "author": "Flow State",
-          "description": "Today we’re listening to Carl Craig, an American electronic musician and DJ from Detroit.",
-          "link": "https://www.flowstate.fm/p/carl-craig-8ee",
-          "publishedOn": "2026-08-28T07:01:54.000Z",
-          "wordCount": null,
-          "title": "Carl Craig",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!bZsq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90bac63e-ce72-4825-bf3b-bc596e02f792_1135x891.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!bZsq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90bac63e-ce72-4825-bf3b-bc596e02f792_1135x891.jpeg"
         }
       ]
     },

@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-06T16:42:42.890Z</updated>
+    <updated>2026-09-06T20:00:49.919Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Trying a new Emacs config]]></title>
+        <id>https://baty.net/posts/2026/09/trying-a-new-emacs-config/</id>
+        <link href="https://baty.net/posts/2026/09/trying-a-new-emacs-config/"/>
+        <updated>2026-09-06T19:38:20.000Z</updated>
+        <summary type="html"><![CDATA[I'm typing this in Emacs using a completely new config and it's so weird. I've been running Emacs v31 everywhere and thought I'd try leaning on more of the built-in completion behavior, and it spiraled out of control.
+I ended up looking at emacs-solo because it's a fancy configuration that only uses built-in packages. It was easy to try out, so I did. And I liked it. I added the necessary-for-me missing components of my old config.
+My favorite part is that I went from 143 installed packages to 49 and got rid of hundreds of lines of config that I didn't really need. Also, my startup time was cut in half and is now under 1 second. Nice.
+It'll take a minute for everything to burn in and shake out, but so far I don't hate it.
+✍️ Reply by email]]></summary>
+        <author>
+            <name>baty.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kimi Antonelli Pulled Off A Miracle At Monza]]></title>
+        <id>https://defector.com/?p=234788</id>
+        <link href="https://defector.com/kimi-antonelli-pulled-off-a-miracle-at-monza"/>
+        <updated>2026-09-06T18:19:05.000Z</updated>
+        <summary type="html"><![CDATA[Do you believe that Formula 1 can be romantic? Before immediately answering to the negative, at least consider Kimi Antonelli. He is freshly 20 years old, and just became the first Italian driver to win the Italian Grand Prix since Ludovico Scarfiotti did so in 1966. If your answer is still negative, and fair enough, at least consider that Antonelli achieved his victory by breaking the record for most overtakes during a Grand Prix in F1 history and after starting from P19 on the grid. Consider, too, that this is Monza we're talking about. If the answer is still negative, well. Have you ever considered becoming Italian and seeing how that changes your perspective on the matter?
+Before getting to Sunday, we must first go through Saturday, a fact that is true of the passage of time more gener…]]></summary>
+        <author>
+            <name>Kathryn Xu</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Congratulations, the Reflecting Pool is now a swamp]]></title>
         <id>https://www.sfgate.com/politics/article/trump-reflecting-pool-22306630.php-full</id>
@@ -95,6 +120,69 @@ If one were to point to said match to support the case for "yea"—shown in the 
 Zheng Qinwen would not lose another game for the rest of the match; conversely, Madison Keys would not win another one. After Keys was broken for a third consecutive time to go down 6-5 in the final set, she smacked her head with her racket several times. On Zheng's own match point at 6-5, 40-30, she successfully wrestled a backhand down the line off a strong Keys return, and Keys hit a running forehand error. Game, set, match.]]></summary>
         <author>
             <name>Kathryn Xu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Magnus: Emacs salmagundi, 2026-09-06]]></title>
+        <id>https://magnus.therning.org/2026-09-06-emacs-salmagundi,-2026-09-06.html</id>
+        <link href="https://magnus.therning.org/2026-09-06-emacs-salmagundi,-2026-09-06.html"/>
+        <updated>2026-09-06T16:33:00.000Z</updated>
+        <summary type="html"><![CDATA[Compilation commands by project type
+haskell-ng-project-mode, to my Haskell mode.
+The idea I had was that I could use it to add keybindings for running various
+tools (via compile), e.g. I bound cabal build and cabal test , p b and
+, p t respectively. Then I hooked in the minor mode in my haskell-ng-mode.
+Soon I realised it'd be nice to have those shortcuts available in dired too,
+so I hooked it in there as well. When I later wanted to re-run the tests after
+modifying a JSON file that was part of a golden test I realised that this wasn't
+a very nice solution at all.
+
+
+
+After looking around a bit I found emacs-multi-compile. I removed the minor mode
+and add this configuration instead
+
+
+
+(add-to-list 'multi-compile-alist
+             '((haskell-ng-is-project) . (("cabal build" "cabal build -j --semaphore" (project-root (project-current)))
+                                          ("cabal test" "cabal test" (project-root (project-current)))
+                                          ("fourmolu" "fourmolu -i $(fd .hs$)" (project-root (project-current))))))
+
+emacs-multi-compile works very well for me so I'm
+very happy with it.
+
+
+
+
+Jumping between implementation and test, again
+a while ago. At the time I came up with a way of bending
+ff-find-other-file to my will, but soon after that I ran into a case where
+there may be 2 "other files" – one of the Haskell projects at work put unit
+tests in files ending in Spec.hs and property tests in filed ending with
+Prop.hs. Unfortunately this is a situation that ff-find-other-file can't
+handle.
+
+
+
+I ended up hacking together consult-kith to deal with it. The configuration to
+handle two kinds of test files looks like this
+
+
+
+(setq-local consult-kith-alist `((,(rx (seq "Spec.hs" eol)) (".hs"))
+                                 (,(rx (seq "Prop.hs" eol)) (".hs"))
+                                 (,(rx (seq ".hs" eol)) ("Prop.hs" "Spec.hs")))
+            consult-kith-search-directories '("src" "test"))
+
+Spec.hs for tests, but I'm
+sticking to consult-kith for now.
+
+
+
+Tags: emacs]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -810,6 +898,21 @@ In December 2021, Mr. Sanberg discussed with senior Aspiration executives his de
         <summary type="html"><![CDATA[Tom Dundon and the Portland City Council remain in a standoff. In early August, the city approved a $120 million expenditure of public money for renovations of the Blazers' longtime home arena, located in the city's Rose Quarter entertainment district. The city's proposed terms included a new 20-year lease, a $3 million annual payment to the city (compensation for property taxes the team avoids by playing in a publicly owned arena), and for the team to commit to using unionized labor. Dundon's response, as delivered by underlings at a July public meeting, was a resounding hell no. Portland is too crummy a town, says Dundon, to expect those kinds of compromises. It is beset by a "stagnant business climate, high income taxes, and [a] divisive political environment," and Portland's civic lead…]]></summary>
         <author>
             <name>Chris Thompson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thursday, September 3, 2026]]></title>
+        <id>https://baty.net/journal/03Sep26/</id>
+        <link href="https://baty.net/journal/03Sep26/"/>
+        <updated>2026-09-03T11:05:16.000Z</updated>
+        <summary type="html"><![CDATA[Good catch. The blast radius is genuinely load-bearing, but let me confirm before guessing.
+...or...
+Let me verify the fix empirically rather than just assert it.
+Reading Claude Code's output is exhausting.
+If you think that unsubscribing from a few software services is "fighting fascism" then we're going to lose.
+✍️ Reply by email]]></summary>
+        <author>
+            <name>baty.net</name>
         </author>
     </entry>
     <entry>
@@ -3588,16 +3691,6 @@ So, inside …]]></summary>
         <summary type="html"><![CDATA[If there’s one thing MAGA males believe deep in their bones, it’s that “real” men eat a lot of beef. Multiple members of Donald Trump’s Cabinet, including Defense Secretary Pete Hegseth and Health and Human Services Secretary Robert F. Kennedy Jr., are obsessed with men’s testosterone levels and are highly attuned to right-wing social media chatter that conflates eating red meat with being “high-T,” despite the fact that science doesn’t support this theory. Kennedy in particular has been invested in defending the honor of red meat, repeatedly arguing, against standard medical recommendations, that diets high in animal fat are good for you. But long before the popularity of this pseudoscientific nonsense, a rare steak or hamburger was treated as the icon of manhood, especially in conservati…]]></summary>
         <author>
             <name>Amanda Marcotte - Salon.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Carl Craig]]></title>
-        <id>https://www.flowstate.fm/p/carl-craig-8ee</id>
-        <link href="https://www.flowstate.fm/p/carl-craig-8ee"/>
-        <updated>2026-08-28T07:01:54.000Z</updated>
-        <summary type="html"><![CDATA[Today we’re listening to Carl Craig, an American electronic musician and DJ from Detroit.]]></summary>
-        <author>
-            <name>Flow State</name>
         </author>
     </entry>
 </feed>
