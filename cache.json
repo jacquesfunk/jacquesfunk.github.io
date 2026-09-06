@@ -80,6 +80,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://emacs.dyerdwelling.family/emacs/20260905090959-emacs--git-worktrees-and-branch-surgery-in-built-in-vc/",
+          "author": null,
+          "description": "vc stuff, and this week's rabbit hole was git worktrees (Bozhidar Batsov's Working with Git Worktrees in Magit is what sent me down this particular rabbit hole!).  It was an itch that manifested itself while reading this blog and mainly seeing that worktrees seemed to make a good deal of sense to me (especially as I am quite a subversion veteran). I have always felt uncomfortable with the default git in-situ branch switching and prefer to branch develop away from the mainline in a physical separate directory and this is just what worktrees facilitate.  So how to do this with built-in vc-mode tools?, well as always this requires a little work and yes, I could use Magit, but I'm seeing how far I can push the built in vc.\n\n\n\n\n\n\n\n\n\n\nThe funny thing is that vc already understands worktrees perf…",
+          "link": "https://emacs.dyerdwelling.family/emacs/20260905090959-emacs--git-worktrees-and-branch-surgery-in-built-in-vc/",
+          "publishedOn": "2026-09-06T12:31:24.404Z",
+          "wordCount": null,
+          "title": "James Dyer: Git Worktreess Without Leaving Built-in VC",
+          "imageUrl": null
+        },
+        {
           "id": "https://joarvarndt.se/emacs-lsp.html",
           "author": null,
           "description": "Table of Contents\nIn-buffer completion\nJump to definition and references\nSyntax checking\nConclusion\nlsp) is standard to communicate information about a\ncurrent programming project to an editor integration, powered by a “language\nserver” for the specific programming language. Emacs has two major\nimplementations of this editor functionality: eglot (built-in) and lsp-mode.\nGetting this set up is usually one of the first things that new users will want\nto do, but in my experience one can get by for a surprisingly long time using\nEmacs without needing to reach for eglot or lsp-mode. That is because many of\nthe functions that lsp-servers provide can be provided by Emacs through other\nmeans.\n\n\n\nAs someone who quite often moves between different programming languages, I find\nthe need to set up eac…",
@@ -2490,16 +2500,6 @@
           "wordCount": 2731,
           "title": "Time To Relax About Whether Abdul El-Sayed Can Win Michigan",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-2289132290.jpg?w=1200"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1556183",
-          "author": "Josh Marshall",
-          "description": "This is a touch meta. But indulge me because I think it could have real world effects. When real world...",
-          "link": "https://talkingpointsmemo.com/edblog/donald-trump-wants-to-get-to-the-bottom-of-who-screwed-up-the-midterms",
-          "publishedOn": "2026-08-27T21:39:41.000Z",
-          "wordCount": 1821,
-          "title": "Donald Trump Wants to Get to the Bottom of Who Screwed Up the Midterms",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/trump-hot-dog-suit.jpg?w=1200"
         }
       ]
     },
@@ -2674,22 +2674,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!dcyn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ade6418-3e05-4da1-9bc4-cd711bbfb6be_1600x1200.png"
-        },
-        {
-          "id": "https://wherethingsstand.talkingpointsmemo.com/p/maybe-trumps-fraud-czar-should-be",
-          "author": "Nicole Lafond",
-          "description": "This is your TPM evening briefing.",
-          "link": "https://wherethingsstand.talkingpointsmemo.com/p/maybe-trumps-fraud-czar-should-be",
-          "publishedOn": "2026-08-27T21:41:31.000Z",
-          "wordCount": null,
-          "title": "Maybe Trump’s Fraud Czar Should Be Looking at Florida",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!lDJV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F777eea37-e393-470f-ac28-3b4f149bf653_1600x1200.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!lDJV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F777eea37-e393-470f-ac28-3b4f149bf653_1600x1200.png"
         }
       ]
     },
