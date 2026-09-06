@@ -80,6 +80,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=14064",
+          "author": null,
+          "description": "Doric Themes. They’re sort of minimalist, like my non-theme theme but still very nice looking if you don’t want your Emacs screen to look like an arcade. The doric-almond variation is, in particular, very similar to my color scheme. Mine has a little more contrast: the foreground text is a bit darker and the keywords in my code buffers are a blue that’s slightly brighter than doric-almond’s light green. Still, it’s a theme that I’d be comfortable with if I hadn’t taken the easy way.\n\n\nSome people have multiple themes and change them according to the time of day, their mood, the phase of the moon, or whatever. I’d hate that probably for the same reason that I don’t do well with trying to use different editors: I’d always be confused as to what’s what.\n\n\nIf you’re looking for a minimalist theme and my method seems too minimal, take a look at Prot’s Doric Themes. There are several variations in both light and dark mode.",
+          "link": "https://irreal.org/blog/?p=14064",
+          "publishedOn": "2026-09-06T14:48:40.000Z",
+          "wordCount": 1553,
+          "title": "Irreal: Prot’s Doric Themes",
+          "imageUrl": null
+        },
+        {
           "id": "https://emacs.dyerdwelling.family/emacs/20260905090959-emacs--git-worktrees-and-branch-surgery-in-built-in-vc/",
           "author": null,
           "description": "vc stuff, and this week's rabbit hole was git worktrees (Bozhidar Batsov's Working with Git Worktrees in Magit is what sent me down this particular rabbit hole!).  It was an itch that manifested itself while reading this blog and mainly seeing that worktrees seemed to make a good deal of sense to me (especially as I am quite a subversion veteran). I have always felt uncomfortable with the default git in-situ branch switching and prefer to branch develop away from the mainline in a physical separate directory and this is just what worktrees facilitate.  So how to do this with built-in vc-mode tools?, well as always this requires a little work and yes, I could use Magit, but I'm seeing how far I can push the built in vc.\n\n\n\n\n\n\n\n\n\n\nThe funny thing is that vc already understands worktrees perf…",
@@ -446,6 +456,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=234786",
+          "author": "Kathryn Xu",
+          "description": "Given that tennis is effectively professionalized, legalized psychological torture, a choke and an epic comeback often go hand-in-hand. Take, say, when Zheng Qinwen faced Madison Keys at the U.S. Open on Saturday. Zheng won a match in which she was down 6-1, 6(3)-7, 5-1 and had to save a match point on her opponent's serve. A comeback, absolutely, but also, perhaps, a choke on Key's part. So: yea or nay?\nIf one were to point to said match to support the case for \"yea\"—shown in the extraordinarily meager and insufficient official highlights here at 2:18—it would not be because Keys lost that point but because of how she lost it. Viewed in isolation, the match point looks like it was lost after a good return on an 85 mph second serve. In context, it is worse: Keys caught her first ball toss, then decided to more or less just kick in an 85 mph first serve. Zheng made a backhand return that was deep but not necessarily unmanageable, but Keys's feet got stuck as she hit a backhand into the net. Deuce. Zheng returned a 105 mph first serve on the next point, then finished a brief rally by smashing an off backhand that hit the line. On break point, Zheng made a weak, shallow, return that Keys misread, hitting a weak forehand up the middle rather than a plus one winner. That limp forehand allowed Zheng to wrestle control of, and ultimately win, the point.\nZheng Qinwen would not lose another game for the rest of the match; conversely, Madison Keys would not win another one. After Keys was broken for a third consecutive time to go down 6-5 in the final set, she smacked her head with her racket several times. On Zheng's own match point at 6-5, 40-30, she successfully wrestled a backhand down the line off a strong Keys return, and Keys hit a running forehand error. Game, set, match.",
+          "link": "https://defector.com/zheng-qinwen-survived-a-near-death-experience-at-the-u-s-open",
+          "publishedOn": "2026-09-06T16:34:22.000Z",
+          "wordCount": 6300,
+          "title": "Zheng Qinwen Survived A Near Death Experience At The U.S. Open",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/zhengQinwenMadisonKeys.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234784",
+          "author": "David Roth",
+          "description": "Even before it slipped into janky comedy in its dying moments, you wouldn't necessarily say that Michigan's season opener against Western Michigan on Saturday was \"a good football game.\" But also just making such an assessment would be missing the point to an extent. It was certainly shaping up as a very specific type of college football game. It's one in which a power conference team playing poorly loses to a MAC team—it has to be a MAC team; that's the type of game it is—that makes fewer mistakes.\nThis is not necessarily a fun kind of game to watch, although if you're on social media at the moment it can be fun to watch other people watching it. But it is absolutely a type of game that happens, and one of the gnawing anxieties that would confront a FBS team—especially one fresh off a bun…",
+          "link": "https://defector.com/a-loss-would-have-been-less-embarrassing-than-michigans-win-over-western-michigan",
+          "publishedOn": "2026-09-06T16:01:28.000Z",
+          "wordCount": 7710,
+          "title": "A Loss Would Have Been Less Embarrassing Than Michigan’s Win Over Western Michigan",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2293736191.jpg"
+        },
         {
           "id": "https://defector.com/?p=234748",
           "author": "Patrick Redford",
@@ -1315,26 +1345,6 @@
           "wordCount": 7576,
           "title": "2026 NFL Season Predictions: All 32 Teams, Every Record and My Super Bowl Pick",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3264",
-          "author": "Schill",
-          "description": "The 1990s are often remembered for flannel shirts, grunge guitars, and alternative rock bands that embraced darker, more introspective sounds.",
-          "link": "https://stuffthatinterestsme.net/forgotten-band-spacehog-2/",
-          "publishedOn": "2026-08-28T03:17:06.000Z",
-          "wordCount": 2617,
-          "title": "Forgotten Band: Spacehog",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3247",
-          "author": "Schill",
-          "description": "Among the thousands of concerts Phish has performed, only a handful have achieved truly mythical status. One of the",
-          "link": "https://stuffthatinterestsme.net/phriday-phistory-gamehoist-show-6-26-94/",
-          "publishedOn": "2026-08-28T03:01:46.000Z",
-          "wordCount": 1989,
-          "title": "Phriday Phistory: GameHoist Show 6/26/94",
-          "imageUrl": null
         }
       ]
     },
@@ -1396,6 +1406,26 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/16/trump-socialism-republicans-islamophobia-midterms/91304727007/-full",
+          "author": "Rex Huppke",
+          "description": "Oh look, it’s a Republican lawmaker spouting Islamophobic rhetoric over a Democratic candidate who’s Muslim.\nAnd over there, it’s President Donald Trump mocking transgender athletes.\nThere’s another Republican on the television telling you the economy has never been better.\nAnd there’s Trump again on your phone screen saying America has full control of the Strait of Hormuz while you’re pumping $4-per-gallon gas.\nBlah. Blah. Blah.\nTrump and Republicans have nothing but lies and stale fearmongering\n\nWith high food and gas prices, a weak labor market and an unpopular war started by a wildly unpopular president, the Grand Old Party has little to talk about, save bigotry and bald-faced lies.\nAnd that routine, as evidenced by polling and low GOP primary turnout, has gotten old. Trump has become …",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/16/trump-socialism-republicans-islamophobia-midterms/91304727007/",
+          "publishedOn": "2026-09-06T16:42:07.521Z",
+          "wordCount": 4601,
+          "title": "GOP has nothing left but bigotry and lies. Rinse and repeat.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/11/USAT/91263696007-trump-pic.JPG?crop=6499,3656,x0,y339&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/09/06/labor-day-trump-iran-diesel-gas-prices/91613263007/-full",
+          "author": "Rex Huppke",
+          "description": "It’s Labor Day weekend, and I hope my fellow Americans enjoy laboring, because we’re all going to be doing a lot more of it in order to afford food. And gas. And pretty much everything.\nThe long weekend was ushered in by news that diesel fuel prices hit a record high in the United States on Sept. 4, averaging $5.85 per gallon. That’s what people who use diesel to fuel freight trucks and farm equipment call “a lot.”\nThe new price-tag-at-the-pump record will invariably translate to higher consumer costs, since the folks who grow and ship food and other goods will be spending more on both the growing and the shipping. (The math on this isn’t difficult.)\nEnjoy Labor Day. Life is about to get even more expensive under Trump.\n\nJaime Brito, executive director of refining and oil products for Dow …",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/09/06/labor-day-trump-iran-diesel-gas-prices/91613263007/",
+          "publishedOn": "2026-09-06T16:42:07.225Z",
+          "wordCount": 4636,
+          "title": "Happy Labor Day! Enjoy it while you can still afford to.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/09/03/USAT/91600480007-getty-images-2291635459.jpg?crop=1023,576,x0,y53&width=1023&height=576&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/25/us-canada-tariffs-trump-rename-lake-ontario/91456826007/-full",
           "author": "Rex Huppke",
@@ -1923,6 +1953,46 @@
       "feedUrl": "https://rss-funnel.onrender.com/sfgate-drew-magary.xml",
       "siteUrl": "https://www.sfgate.com/author/drew-magary/",
       "articles": [
+        {
+          "id": "https://www.sfgate.com/politics/article/trump-reflecting-pool-22306630.php-full",
+          "author": null,
+          "description": "The one thing that Washington, D.C., has always had going for it is its beauty. The people who run America from this town have always been an unsightly bunch, but they’ve done their nasty work in a city that has acquired, over the course of this country’s lifespan, an aesthetic like no other. No other major American city looks as regally beautiful as D.C. You and I have a long-standing federal law to thank for this, but we also have a collection of national landmarks clustered in the center of the district that the aforementioned law was written to both protect and to showcase. The Capitol. The Lincoln Memorial. The Washington Monument. These are gorgeous edifices, ones designed to outlast old generations and to inspire newer ones. They are the best of D.C., and therefore the best of Ameri…",
+          "link": "https://www.sfgate.com/politics/article/trump-reflecting-pool-22306630.php",
+          "publishedOn": "2026-09-06T16:42:42.860Z",
+          "wordCount": 177,
+          "title": "Congratulations, the Reflecting Pool is now a swamp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sfgate.com/tech/article/new-google-ai-22279112.php-full",
+          "author": null,
+          "description": "If you’re in my line of work, you know the phrase “search engine optimization” intimately. It haunts your dreams. It occupies space in every boring-ass PowerPoint presentation you’ve ever had to sit through. It might even be standing outside your bedroom window right now, blinking S-E-O in blinding, neon pink letters. SEO has quietly lorded over every internet writer’s work for decades now, forcing professionals like me to tailor our headlines, not to mention our very ideas, to its mysterious whims. \n\nIf you want people to read your work, and I do, you must pay tribute to the SEO gods if you want that writing to be easily discovered. And you must kneel before one SEO god in particular: Google. Google has ruled the search engine market for the entirety of this century, which is why every me…",
+          "link": "https://www.sfgate.com/tech/article/new-google-ai-22279112.php",
+          "publishedOn": "2026-09-06T16:42:42.858Z",
+          "wordCount": 177,
+          "title": "Google is about to make a big change and it's gonna suuuuuuck",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sfgate.com/sports/article/usmnt-world-cup-pulisic-22336246.php-full",
+          "author": null,
+          "description": "Much like our nation itself, the World Cup run for the U.S. men’s national soccer team started off promisingly, only to become a sick joke. The USMNT got eliminated from the 2026 Cup on Monday night after Belgium crushed it 4-1, in a game where the home team was thoroughly outplayed, outclassed and outcoached. But if the loss itself stung, the context in which it was played only made it feel that much worse.  \n\nYes, that backstory includes Donald Trump, but to a small degree, it also involves USMNT poster child and possible Trump fanboy Christian Pulisic. The first man disgraced the team off the field. The second man disgraced the team on it. How did all of this come to pass? Well, I suppose it’s my job to explain it, although the prospect of doing so excites about as much as having my leg…",
+          "link": "https://www.sfgate.com/sports/article/usmnt-world-cup-pulisic-22336246.php",
+          "publishedOn": "2026-09-06T16:42:42.854Z",
+          "wordCount": 177,
+          "title": "It's easy to blame the USMNT's World Cup crashout on one man. So I will.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sfgate.com/food/article/anthony-bourdain-burger-22403433.php-full",
+          "author": null,
+          "description": "This is not the correct time for me to be visiting Sam’s Burgers. It’s the middle of the afternoon here in North Beach, and finding a spot inside Sam’s tight confines isn’t much of a problem. If I were to walk in here 12 hours from now, just before the bars close and after patrons of all the nearby strip clubs have no more rain to make … well then, I probably wouldn’t be able to walk in here at all. There would probably be a line going outside the door. There would probably be an ass parked in every bright red leather stool at the counter and in the scant number of booths lining the wall. There would probably be dozens of hungry partiers, some of them quite famous, crowding into the place to eat a cheeseburger at the proper time to be eating a cheeseburger.\n\nThat’s when Anthony Bourdain wo…",
+          "link": "https://www.sfgate.com/food/article/anthony-bourdain-burger-22403433.php",
+          "publishedOn": "2026-09-06T16:42:42.849Z",
+          "wordCount": 177,
+          "title": "Anthony Bourdain loved this San Francisco burger and so do I",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sfgate.com/collegesports/article/andrew-luck-stanford-bureaucrat-22414827.php",
           "author": null,
@@ -2682,6 +2752,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/what-the-fuck-is-that-thing-on-donnys",
+          "author": "Jeff Tiedrich",
+          "description": "the Emperor’s new hair is just the latest in a lifetime of bad decisions",
+          "link": "https://www.jefftiedrich.com/p/what-the-fuck-is-that-thing-on-donnys",
+          "publishedOn": "2026-09-06T14:50:00.000Z",
+          "wordCount": null,
+          "title": "what the fuck is that thing on Donny’s head?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!f6Hx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2892238e-28f9-4661-8bd7-bfb5949ab1ab_1516x871.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!f6Hx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2892238e-28f9-4661-8bd7-bfb5949ab1ab_1516x871.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/this-week-in-stupid-september-5-edition",
           "author": "Jeff Tiedrich",
