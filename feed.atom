@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-07T15:30:48.530Z</updated>
+    <updated>2026-09-07T19:36:03.867Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Summer May Be Ending, But We’ll Always Have ‘Sterling Point’]]></title>
+        <id>https://defector.com/?p=234589</id>
+        <link href="https://defector.com/summer-may-be-ending-but-well-always-have-sterling-point"/>
+        <updated>2026-09-07T16:04:32.000Z</updated>
+        <summary type="html"><![CDATA[“I’m coming to the cottage,” Ilya Rozanov growled, and Canada has never been the same—at least the American film and TV industry’s depiction of it. The final episode of the first season of Heated Rivalry introduced the world to Canada’s cottage country, presenting the regions to the north of major cities where many families own second homes as a soft escape from the friction of urban life. In Heated Rivalry, as well as a slew of other recent shows, Canada’s rural expanses are not only lush, they’re sexy.
+There’s something about lakes, trees, and short shorts that loosens inhibitions, lest the summer be wasted. “A Canadian summer is fleeting and precious,” Every Year After author Carley Fortune said after her romance book was adapted into a British Columbia-based show in June. “That feels Canadian to me—it’s the lake, the dock, the boat, the mosquitoes.”
+As an American who’s lived in Canada for five years, I think the liberal American perception that Canada offers the American Dream without the facism has contributed a great deal to the country’s recent turn in the spotlight. The reality up here is less idyllic—Canada’s social programs are getting weaker, their discriminatory immigration system is simply less attention-seeking than the States’, and their right-wing figures are often just as repugnant. But Canada is nevertheless preferable to Trump’s America in many ways, and besides, romanticization has never relied on realism. Romance media set in rural Canada doesn’t look to be stopping anytime soon.]]></summary>
+        <author>
+            <name>Abigail Segel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lars Ingebrigtsen: Emacs Canz Spell Goodly Know]]></title>
+        <id>https://lars.ingebrigtsen.no/2026/09/07/emacs-canz-spell-goodly-know/</id>
+        <link href="https://lars.ingebrigtsen.no/2026/09/07/emacs-canz-spell-goodly-know/"/>
+        <updated>2026-09-07T15:41:27.000Z</updated>
+        <summary type="html"><![CDATA[Like many nerds, I feel so embarrassed whenever I see that I’ve misspelled something.  But some years back when I started producing text in huge amounts for things like the Eclipse Comics read-through I realised that my options were: 1) Remain neurotic about this stuff and produce one blog post per week, or 2) Start caring less and produce a lot of blog posts.
+I think I made the correct decision — I just don’t have time to proff-read all this stuff, so typos will abound.  It’s just not feasible to put as much work into that stuff as you’d do for a properly published article.  The reader gets what they pay for.
+But now there’s a way to have your delicious cake and eat it too — just ask an LLM for help.
+NOOOO! *audience runs in slow motion towards camera*
+I know, I know.  Whenever I read som…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Crossword, Sept. 7: Big Resemblance]]></title>
         <id>https://defector.com/?p=234819</id>
@@ -3286,47 +3312,6 @@ In my day-to-day computer usage, I have the Emacs client open all day long with 
 Whether it’s to capture fleeting insights or mold prompts for LLMs, the scratch buffer acts as …]]></summary>
         <author>
             <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta Redux: Smarter Form Targeting Is Not Coming to CIDER]]></title>
-        <id>https://metaredux.com/posts/2026/08/29/smarter-form-targeting-is-not-coming-to-cider.html</id>
-        <link href="https://metaredux.com/posts/2026/08/29/smarter-form-targeting-is-not-coming-to-cider.html"/>
-        <updated>2026-08-29T06:37:00.000Z</updated>
-        <summary type="html"><![CDATA[A couple of days ago I wrote that smarter form targeting was coming to CIDER,
-and I ended that post by asking whether I’d got the resolution rules right and
-whether anything still surprised people. I got an answer. CIDER 2.1 will ship
-with the classic behaviour intact.
-This is not a sad story, though. The detour turned up a bug that was quietly
-mangling people’s comments, and CIDER came out of it better than it went in.
-What I was actually after
-The targeting change wasn’t really about cursor positions. What I wanted was
-for every CIDER command that operates on a form to behave the same way,
-without adding yet another command to get there. CIDER has an enormous surface
-of evaluation commands, and every “at point” variant I could have added would
-have made that worse. If the existing comman…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jim “The Hammer” Shapiro: Rochester’s Most Unforgettable TV Lawyer]]></title>
-        <id>https://stuffthatinterestsme.net/?p=3704</id>
-        <link href="https://stuffthatinterestsme.net/jim-the-hammer-shapiro-rochesters-most-unforgettable-tv-lawyer/"/>
-        <updated>2026-08-29T04:20:17.000Z</updated>
-        <summary type="html"><![CDATA[If you grew up watching television in Rochester, New York, during the 1990s and early 2000s, there was a]]></summary>
-        <author>
-            <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TV Ads in 1986]]></title>
-        <id>https://stuffthatinterestsme.net/?p=3699</id>
-        <link href="https://stuffthatinterestsme.net/tv-ads-in-1986/"/>
-        <updated>2026-08-29T04:03:45.000Z</updated>
-        <summary type="html"><![CDATA[A few years ago, and by a few I mean probably well over 25.  There was a night The Infamous]]></summary>
-        <author>
-            <name>Schill</name>
         </author>
     </entry>
 </feed>

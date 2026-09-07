@@ -100,6 +100,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://lars.ingebrigtsen.no/2026/09/07/emacs-canz-spell-goodly-know/",
+          "author": null,
+          "description": "Like many nerds, I feel so embarrassed whenever I see that I’ve misspelled something.  But some years back when I started producing text in huge amounts for things like the Eclipse Comics read-through I realised that my options were: 1) Remain neurotic about this stuff and produce one blog post per week, or 2) Start caring less and produce a lot of blog posts.\nI think I made the correct decision — I just don’t have time to proff-read all this stuff, so typos will abound.  It’s just not feasible to put as much work into that stuff as you’d do for a properly published article.  The reader gets what they pay for.\nBut now there’s a way to have your delicious cake and eat it too — just ask an LLM for help.\nNOOOO! *audience runs in slow motion towards camera*\nI know, I know.  Whenever I read som…",
+          "link": "https://lars.ingebrigtsen.no/2026/09/07/emacs-canz-spell-goodly-know/",
+          "publishedOn": "2026-09-07T15:41:27.000Z",
+          "wordCount": 1644,
+          "title": "Lars Ingebrigtsen: Emacs Canz Spell Goodly Know",
+          "imageUrl": "https://lars.ingebrigtsen.no/wp-content/uploads/2026/09/2026-09-07-1.jpeg"
+        },
+        {
           "id": "https://magnus.therning.org/2026-09-06-emacs-salmagundi,-2026-09-06.html",
           "author": null,
           "description": "Compilation commands by project type\nhaskell-ng-project-mode, to my Haskell mode.\nThe idea I had was that I could use it to add keybindings for running various\ntools (via compile), e.g. I bound cabal build and cabal test , p b and\n, p t respectively. Then I hooked in the minor mode in my haskell-ng-mode.\nSoon I realised it'd be nice to have those shortcuts available in dired too,\nso I hooked it in there as well. When I later wanted to re-run the tests after\nmodifying a JSON file that was part of a golden test I realised that this wasn't\na very nice solution at all.\n\n\n\nAfter looking around a bit I found emacs-multi-compile. I removed the minor mode\nand add this configuration instead\n\n\n\n(add-to-list 'multi-compile-alist\n             '((haskell-ng-is-project) . ((\"cabal build\" \"cabal build -j --semaphore\" (project-root (project-current)))\n                                          (\"cabal test\" \"cabal test\" (project-root (project-current)))\n                                          (\"fourmolu\" \"fourmolu -i $(fd .hs$)\" (project-root (project-current))))))\n\nemacs-multi-compile works very well for me so I'm\nvery happy with it.\n\n\n\n\nJumping between implementation and test, again\na while ago. At the time I came up with a way of bending\nff-find-other-file to my will, but soon after that I ran into a case where\nthere may be 2 \"other files\" – one of the Haskell projects at work put unit\ntests in files ending in Spec.hs and property tests in filed ending with\nProp.hs. Unfortunately this is a situation that ff-find-other-file can't\nhandle.\n\n\n\nI ended up hacking together consult-kith to deal with it. The configuration to\nhandle two kinds of test files looks like this\n\n\n\n(setq-local consult-kith-alist `((,(rx (seq \"Spec.hs\" eol)) (\".hs\"))\n                                 (,(rx (seq \"Prop.hs\" eol)) (\".hs\"))\n                                 (,(rx (seq \".hs\" eol)) (\"Prop.hs\" \"Spec.hs\")))\n            consult-kith-search-directories '(\"src\" \"test\"))\n\nSpec.hs for tests, but I'm\nsticking to consult-kith for now.\n\n\n\nTags: emacs",
@@ -438,16 +448,6 @@
           "wordCount": 771,
           "title": "Donovan R.: My way of handling knowledge (Emacs Carnival - The Search for Knowledge)",
           "imageUrl": "https://donovan-ratefison.mg/2026/08/29/My-way-of-handling-knowledge-Emacs-Carnival-The-Search-for-Knowledge/search-for-knowledge.png"
-        },
-        {
-          "id": "https://metaredux.com/posts/2026/08/29/smarter-form-targeting-is-not-coming-to-cider.html",
-          "author": null,
-          "description": "A couple of days ago I wrote that smarter form targeting was coming to CIDER,\nand I ended that post by asking whether I’d got the resolution rules right and\nwhether anything still surprised people. I got an answer. CIDER 2.1 will ship\nwith the classic behaviour intact.\nThis is not a sad story, though. The detour turned up a bug that was quietly\nmangling people’s comments, and CIDER came out of it better than it went in.\nWhat I was actually after\nThe targeting change wasn’t really about cursor positions. What I wanted was\nfor every CIDER command that operates on a form to behave the same way,\nwithout adding yet another command to get there. CIDER has an enormous surface\nof evaluation commands, and every “at point” variant I could have added would\nhave made that worse. If the existing comman…",
-          "link": "https://metaredux.com/posts/2026/08/29/smarter-form-targeting-is-not-coming-to-cider.html",
-          "publishedOn": "2026-08-29T06:37:00.000Z",
-          "wordCount": 1530,
-          "title": "Meta Redux: Smarter Form Targeting Is Not Coming to CIDER",
-          "imageUrl": "https://metaredux.com/assets/og-image.png"
         }
       ]
     },
@@ -456,6 +456,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=234589",
+          "author": "Abigail Segel",
+          "description": "“I’m coming to the cottage,” Ilya Rozanov growled, and Canada has never been the same—at least the American film and TV industry’s depiction of it. The final episode of the first season of Heated Rivalry introduced the world to Canada’s cottage country, presenting the regions to the north of major cities where many families own second homes as a soft escape from the friction of urban life. In Heated Rivalry, as well as a slew of other recent shows, Canada’s rural expanses are not only lush, they’re sexy.\nThere’s something about lakes, trees, and short shorts that loosens inhibitions, lest the summer be wasted. “A Canadian summer is fleeting and precious,” Every Year After author Carley Fortune said after her romance book was adapted into a British Columbia-based show in June. “That feels Canadian to me—it’s the lake, the dock, the boat, the mosquitoes.”\nAs an American who’s lived in Canada for five years, I think the liberal American perception that Canada offers the American Dream without the facism has contributed a great deal to the country’s recent turn in the spotlight. The reality up here is less idyllic—Canada’s social programs are getting weaker, their discriminatory immigration system is simply less attention-seeking than the States’, and their right-wing figures are often just as repugnant. But Canada is nevertheless preferable to Trump’s America in many ways, and besides, romanticization has never relied on realism. Romance media set in rural Canada doesn’t look to be stopping anytime soon.",
+          "link": "https://defector.com/summer-may-be-ending-but-well-always-have-sterling-point",
+          "publishedOn": "2026-09-07T16:04:32.000Z",
+          "wordCount": 8589,
+          "title": "Summer May Be Ending, But We’ll Always Have ‘Sterling Point’",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/SterlingPoint.jpg"
+        },
         {
           "id": "https://defector.com/?p=234819",
           "author": "Maitreyi Anantharaman",
@@ -1224,26 +1234,6 @@
           "publishedOn": "2026-08-29T20:58:32.000Z",
           "wordCount": 2659,
           "title": "Saturday Night 80s Jam: The Bangles – Manic Monday",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3704",
-          "author": "Schill",
-          "description": "If you grew up watching television in Rochester, New York, during the 1990s and early 2000s, there was a",
-          "link": "https://stuffthatinterestsme.net/jim-the-hammer-shapiro-rochesters-most-unforgettable-tv-lawyer/",
-          "publishedOn": "2026-08-29T04:20:17.000Z",
-          "wordCount": 2468,
-          "title": "Jim “The Hammer” Shapiro: Rochester’s Most Unforgettable TV Lawyer",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3699",
-          "author": "Schill",
-          "description": "A few years ago, and by a few I mean probably well over 25.  There was a night The Infamous",
-          "link": "https://stuffthatinterestsme.net/tv-ads-in-1986/",
-          "publishedOn": "2026-08-29T04:03:45.000Z",
-          "wordCount": 1452,
-          "title": "TV Ads in 1986",
           "imageUrl": null
         }
       ]
