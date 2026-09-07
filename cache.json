@@ -458,26 +458,6 @@
           "wordCount": 347,
           "title": "Protesilaos: Emacs: completion-preview-mode and the Completions buffer (Emacs 31)",
           "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
-        },
-        {
-          "id": "https://www.jamescherti.com/measuring-emacs-startup-time/",
-          "author": null,
-          "description": "As an Emacs configuration grows, startup time can gradually increase. Measuring that increase accurately makes it easier to identify regressions. The majority of Emacs users use emacs-init-time. However, this built-in function does not measure all the work performed during startup.\nEmacs startup proceeds through several stages: it loads the early init and regular init files, processes command-line options, sets after-init-time, runs emacs-startup-hook, performs additional initial-frame setup such as applying frame parameters from the configuration, and then runs window-setup-hook after the initial frame parameters have been configured. This makes window-setup-hook a useful place to record a broader startup-time measurement.\nFor a more accurate startup-time measurement, add the following Em…",
-          "link": "https://www.jamescherti.com/measuring-emacs-startup-time/",
-          "publishedOn": "2026-08-28T14:38:01.000Z",
-          "wordCount": 2431,
-          "title": "James Cherti: Measuring Emacs Startup Time More Accurately than the Built-in emacs-init-time",
-          "imageUrl": null
-        },
-        {
-          "id": "http://en.andros.dev/blog/dc7db35a/how-i-organize-my-emacs-configuration/",
-          "author": null,
-          "description": "I am not going to share my Emacs configuration, but the way I keep it organized. I do not think I am discovering anything new, but it might be useful for someone who is starting to organize their configuration and does not know where to begin.\nI do not use any framework (neither Doom nor Spacemacs) nor the literate approach of Org mode. Everything is vanilla Emacs and each file is an area of responsibility, while init.el acts as the index.\nWhy vanilla and not a framework? Frameworks decide for you. They lend you a huge configuration that you do not understand and that is hard to tweak. For me, the literate approach of Org is one more layer where something can break. I prefer the simplicity of the file I edit being the file that runs. The less magic, the fewer things that break.\nSo, inside …",
-          "link": "http://en.andros.dev/blog/dc7db35a/how-i-organize-my-emacs-configuration/",
-          "publishedOn": "2026-08-28T13:28:41.000Z",
-          "wordCount": 1184,
-          "title": "Andros Fenollosa: How I organize my Emacs configuration",
-          "imageUrl": "https://img.andros.dev/nBgRNg17UB_JOm4H0xVbgc4r7Pg=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_94e69e19.png"
         }
       ]
     },
@@ -1125,36 +1105,6 @@
           "wordCount": 12627,
           "title": "Let’s Make Some Romesco, Not Only Because It’s Red, But Because It Rules",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/Finished-Romesco-1.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=233077",
-          "author": "Lauren Theisen",
-          "description": "A few different times when I was in my teens, my dad, my younger brother and I would go on a sports-themed road trip. This particular one 12 years ago took us from our home in suburban Detroit to baseball games in Cincinnati, Louisville, and finally St. Louis. I have good memories of this trip: watching on TV as Germany obliterated Brazil in the World Cup; seeing Matt Adams (I could tell it was Matt Adams) hit what I thought was a triple in Busch Stadium from way, way up in the Gateway Arch (turns out he was actually out at third); exchanging subtle low-fives with my brother as the Cardinals failed to win the game we went to the next day. Even the sheer nothingness that defined the drive through Southern Indiana and Illinois comforts me in retrospect. Most surreal of all these moments, though, was the sky on the night we saw the Reds play in Cincy.\nJuly 7, 2014, I went to the Reds game and the sky caught fire. As the Sun sank in right field, it lit up the low clouds with a riot of reds and oranges and the purple of an old bruise. Without looking it up, I couldn't have told you how the game went—my second-most prominent memory from my lone trip the Reds' ballpark was the fact that they had \"Teenage FBI\" by Guided By Voices on the pregame playlist, which rocked. But I'd never observed anything in person like that combination of mammatus clouds and blazing sunset before or since. You can see in the photos that the heavens looked like a scene out of an alien-invasion movie, and I recall the crowd being awestruck but also a little anxious, like maybe they should be feeling more urgency instead of continuing to watch a baseball game under a blood-red sky. I also never forgot that the website Deadspin, a future employer of mine, linked the pictures, which made me feel like I'd attended a special occasion.\n(In case you were wondering about the whole \"Red sky at night, sailor's delight\" proverb, there was recorded precipitation in Cincinnati each of the following two days after this game.)",
-          "link": "https://defector.com/i-went-to-a-reds-game-and-the-sky-was-red",
-          "publishedOn": "2026-08-28T14:53:58.000Z",
-          "wordCount": 6207,
-          "title": "I Went To A Reds Game And The Sky Was Red",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-4518236301.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=233569",
-          "author": "Luis Paez-Pumar",
-          "description": "There's a mission about halfway through Red Dead Revolver that I have not forgotten, even in the 22 years since I first played Rockstar's original Western. It's called \"The Traitor.\" In a flashback, the player takes over the villainous General Javier Diego of the Mexican Army, as he attempts to take control of a bridge at the border between Mexico and the United States. Your goal in the mission is simple: Stay alive long enough to wipe out the U.S. Army soldiers and cannon artillery. There's nothing simple about the mission, though. The game just obliterates you with garbage: Your two NPC partners can't hold up against a stiff breeze, the American soldiers are everywhere, and the fucking cannons will not stop barraging you. The cannon shots don't kill you, but they do send you flying and make you watch in agony as the General takes approximately nine hours to stand back up. All the while, the soldiers are whittling your health down and oh another cannon is shooting at you.\nIt's frustrating, it's unfair, it grinds the game's pace to a halt as you struggle for hours on end to complete \"The Traitor\" or just give up. I passed the mission on my own game back in 2004 relatively easily, but my best friend was so frustrated by it that he had me come over to beat it for him. I somehow lost all my skill on the walk to his place, and we couldn't beat it a second time; he never finished the game. \"The Traitor\" is everything that is brutal about video games, just a mess where you as the player fight the game as much as the gameplay. It also rocks. \"The Traitor\" feels truly epic as explosions go off around you while you dodge bullets, and the challenge becomes addicting; landing a perfect flare gun shot on a cannon while diving behind cover is a thrill not unlike those found in Bloodborne or Elden Ring. \"The Traitor\" is, without a doubt, one of the definitive video game experiences of my life.\n\nhttps://www.youtube.com/watch?v=PLYWlY2KeZE",
-          "link": "https://defector.com/before-red-dead-redemption-there-was-red-dead-revolver",
-          "publishedOn": "2026-08-28T14:23:33.000Z",
-          "wordCount": 7741,
-          "title": "Before ‘Red Dead Redemption,’ There Was ‘Red Dead Revolver’",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/rdrredsweek.png"
-        },
-        {
-          "id": "https://defector.com/?p=233253",
-          "author": "Kelsey McKinney",
-          "description": "Four movies about The Beatles are currently in production. There will be one movie for each Beatle, and director Sam Mendes has said that the four movies will be the \"first binge-able theatrical experience.\" No one has explained exactly what this means yet. Will all four be released to theaters at the exact same time in April 2028? On consecutive days? Weeks? It's unclear.\nBut we do have some sense of what these movies will look like. Last week, a picture from the set went viral. In it, Harris Dickinson as John Lennon, Paul Mescal as Paul McCartney, Joseph Quinn as George Harrison, and Barry Keoghan as Ringo Starr playfully flip off the camera. The attention, though, was not on the costumes, or the flipping off, or even the actors themselves. Everyone was focused on how wiggy the wigs looked. This is presumably an expensive production, so why does the hair look like that?",
-          "link": "https://defector.com/possible-red-card-the-beatles-movie-wigs",
-          "publishedOn": "2026-08-28T13:58:01.000Z",
-          "wordCount": 7655,
-          "title": "Possible Red Card: The Beatles Movie Wigs",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/beatleswigs.jpg"
         }
       ]
     },
@@ -1216,6 +1166,26 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3354",
+          "author": "Schill",
+          "description": "The 1990s ska revival produced plenty of songs that were loud, fast and impossible to take completely seriously. But two",
+          "link": "https://stuffthatinterestsme.net/sell-out-vs-the-impression-that-i-get-the-ultimate-ska-punk-showdown/",
+          "publishedOn": "2026-09-07T01:21:24.000Z",
+          "wordCount": 4024,
+          "title": "“Sell Out” vs. “The Impression That I Get”: The Ultimate Ska-Punk Showdown",
+          "imageUrl": null
+        },
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3776",
+          "author": "Schill",
+          "description": "Great playlists do not always need a theme. Sometimes the best ones are built around a simple idea: put together",
+          "link": "https://stuffthatinterestsme.net/sunday-night-playlist/",
+          "publishedOn": "2026-09-07T00:51:34.000Z",
+          "wordCount": 6910,
+          "title": "Sunday Night Playlist",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3730",
           "author": "Schill",
@@ -1438,16 +1408,6 @@
           "wordCount": 2292,
           "title": "Texas and Georgia races show voters are finally sick of MAGA corruption",
           "imageUrl": "https://www.salon.com/app/uploads/2026/08/james-talarico-2291094164.jpg"
-        },
-        {
-          "id": "https://www.salon.com/2026/08/28/the-high-cost-of-maga-manhood/-full",
-          "author": null,
-          "description": "If there’s one thing MAGA males believe deep in their bones, it’s that “real” men eat a lot of beef. Multiple members of Donald Trump’s Cabinet, including Defense Secretary Pete Hegseth and Health and Human Services Secretary Robert F. Kennedy Jr., are obsessed with men’s testosterone levels and are highly attuned to right-wing social media chatter that conflates eating red meat with being “high-T,” despite the fact that science doesn’t support this theory. Kennedy in particular has been invested in defending the honor of red meat, repeatedly arguing, against standard medical recommendations, that diets high in animal fat are good for you. But long before the popularity of this pseudoscientific nonsense, a rare steak or hamburger was treated as the icon of manhood, especially in conservati…",
-          "link": "https://www.salon.com/2026/08/28/the-high-cost-of-maga-manhood/",
-          "publishedOn": "2026-08-28T10:45:46.000Z",
-          "wordCount": 1964,
-          "title": "The high cost of MAGA manhood",
-          "imageUrl": "https://www.salon.com/app/uploads/2026/08/maga-masculinity-cost-illo.jpg"
         }
       ]
     },
@@ -2259,16 +2219,6 @@
           "wordCount": 23803,
           "title": "Ron DeSantis, America’s Favorite Meathead, Has Put Himself in Quite the Pickle",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/a94ad8d2-ec82-42a5-81fc-417d7d4aefcb.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73553091/trump-lake-ontario-rename/",
-          "author": null,
-          "description": "The president signed an executive order to rename the Great Lake, and now we’re going to have to buy our maps from Canada.",
-          "link": "https://www.esquire.com/news-politics/politics/a73553091/trump-lake-ontario-rename/",
-          "publishedOn": "2026-08-28T13:09:19.000Z",
-          "wordCount": 18015,
-          "title": "We Should Scorn Everyone Who Calls Lake Ontario by Its Ridiculous Trumpian Name",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/18bf6960-9338-413c-a386-2d860efebec0.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
         }
       ]
     },
@@ -2929,22 +2879,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!S5Nh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbf848617-e941-4167-959c-332fbb006638_2520x1412.jpeg"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/welcome-to-lake-stupid-fucking-moron",
-          "author": "Jeff Tiedrich",
-          "description": "guess who it is",
-          "link": "https://www.jefftiedrich.com/p/welcome-to-lake-stupid-fucking-moron",
-          "publishedOn": "2026-08-28T14:43:28.000Z",
-          "wordCount": null,
-          "title": "welcome to Lake Stupid Fucking Moron. population: one",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!vzKc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc76b7dad-f771-40a2-a567-209d9ce11625_2000x1125.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!vzKc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc76b7dad-f771-40a2-a567-209d9ce11625_2000x1125.jpeg"
         }
       ]
     }

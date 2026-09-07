@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-06T22:05:40.408Z</updated>
+    <updated>2026-09-07T02:59:02.671Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[“Sell Out” vs. “The Impression That I Get”: The Ultimate Ska-Punk Showdown]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3354</id>
+        <link href="https://stuffthatinterestsme.net/sell-out-vs-the-impression-that-i-get-the-ultimate-ska-punk-showdown/"/>
+        <updated>2026-09-07T01:21:24.000Z</updated>
+        <summary type="html"><![CDATA[The 1990s ska revival produced plenty of songs that were loud, fast and impossible to take completely seriously. But two]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sunday Night Playlist]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3776</id>
+        <link href="https://stuffthatinterestsme.net/sunday-night-playlist/"/>
+        <updated>2026-09-07T00:51:34.000Z</updated>
+        <summary type="html"><![CDATA[Great playlists do not always need a theme. Sometimes the best ones are built around a simple idea: put together]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Heartwarming: Preposterous Doug Eddings Umpshow Unites Cardinals And Rockies In Dislike Of Doug Eddings]]></title>
         <id>https://defector.com/?p=234781</id>
@@ -3610,97 +3630,6 @@ Is this question even more enticing? We have to be honest: no, of course not. No
 By the grace of God, romesco fits not only thematically but seasonally. It is a paste made of roasted tomatoes, nuts, and bread. Here where I am—and by that I mean literally inside of my property line, and possibly nowhere else—now is the very climax of Tomato Time. You …]]></summary>
         <author>
             <name>Chris Thompson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I Went To A Reds Game And The Sky Was Red]]></title>
-        <id>https://defector.com/?p=233077</id>
-        <link href="https://defector.com/i-went-to-a-reds-game-and-the-sky-was-red"/>
-        <updated>2026-08-28T14:53:58.000Z</updated>
-        <summary type="html"><![CDATA[A few different times when I was in my teens, my dad, my younger brother and I would go on a sports-themed road trip. This particular one 12 years ago took us from our home in suburban Detroit to baseball games in Cincinnati, Louisville, and finally St. Louis. I have good memories of this trip: watching on TV as Germany obliterated Brazil in the World Cup; seeing Matt Adams (I could tell it was Matt Adams) hit what I thought was a triple in Busch Stadium from way, way up in the Gateway Arch (turns out he was actually out at third); exchanging subtle low-fives with my brother as the Cardinals failed to win the game we went to the next day. Even the sheer nothingness that defined the drive through Southern Indiana and Illinois comforts me in retrospect. Most surreal of all these moments, though, was the sky on the night we saw the Reds play in Cincy.
-July 7, 2014, I went to the Reds game and the sky caught fire. As the Sun sank in right field, it lit up the low clouds with a riot of reds and oranges and the purple of an old bruise. Without looking it up, I couldn't have told you how the game went—my second-most prominent memory from my lone trip the Reds' ballpark was the fact that they had "Teenage FBI" by Guided By Voices on the pregame playlist, which rocked. But I'd never observed anything in person like that combination of mammatus clouds and blazing sunset before or since. You can see in the photos that the heavens looked like a scene out of an alien-invasion movie, and I recall the crowd being awestruck but also a little anxious, like maybe they should be feeling more urgency instead of continuing to watch a baseball game under a blood-red sky. I also never forgot that the website Deadspin, a future employer of mine, linked the pictures, which made me feel like I'd attended a special occasion.
-(In case you were wondering about the whole "Red sky at night, sailor's delight" proverb, there was recorded precipitation in Cincinnati each of the following two days after this game.)]]></summary>
-        <author>
-            <name>Lauren Theisen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[welcome to Lake Stupid Fucking Moron. population: one]]></title>
-        <id>https://www.jefftiedrich.com/p/welcome-to-lake-stupid-fucking-moron</id>
-        <link href="https://www.jefftiedrich.com/p/welcome-to-lake-stupid-fucking-moron"/>
-        <updated>2026-08-28T14:43:28.000Z</updated>
-        <summary type="html"><![CDATA[guess who it is]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[James Cherti: Measuring Emacs Startup Time More Accurately than the Built-in emacs-init-time]]></title>
-        <id>https://www.jamescherti.com/measuring-emacs-startup-time/</id>
-        <link href="https://www.jamescherti.com/measuring-emacs-startup-time/"/>
-        <updated>2026-08-28T14:38:01.000Z</updated>
-        <summary type="html"><![CDATA[As an Emacs configuration grows, startup time can gradually increase. Measuring that increase accurately makes it easier to identify regressions. The majority of Emacs users use emacs-init-time. However, this built-in function does not measure all the work performed during startup.
-Emacs startup proceeds through several stages: it loads the early init and regular init files, processes command-line options, sets after-init-time, runs emacs-startup-hook, performs additional initial-frame setup such as applying frame parameters from the configuration, and then runs window-setup-hook after the initial frame parameters have been configured. This makes window-setup-hook a useful place to record a broader startup-time measurement.
-For a more accurate startup-time measurement, add the following Em…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Before ‘Red Dead Redemption,’ There Was ‘Red Dead Revolver’]]></title>
-        <id>https://defector.com/?p=233569</id>
-        <link href="https://defector.com/before-red-dead-redemption-there-was-red-dead-revolver"/>
-        <updated>2026-08-28T14:23:33.000Z</updated>
-        <summary type="html"><![CDATA[There's a mission about halfway through Red Dead Revolver that I have not forgotten, even in the 22 years since I first played Rockstar's original Western. It's called "The Traitor." In a flashback, the player takes over the villainous General Javier Diego of the Mexican Army, as he attempts to take control of a bridge at the border between Mexico and the United States. Your goal in the mission is simple: Stay alive long enough to wipe out the U.S. Army soldiers and cannon artillery. There's nothing simple about the mission, though. The game just obliterates you with garbage: Your two NPC partners can't hold up against a stiff breeze, the American soldiers are everywhere, and the fucking cannons will not stop barraging you. The cannon shots don't kill you, but they do send you flying and make you watch in agony as the General takes approximately nine hours to stand back up. All the while, the soldiers are whittling your health down and oh another cannon is shooting at you.
-It's frustrating, it's unfair, it grinds the game's pace to a halt as you struggle for hours on end to complete "The Traitor" or just give up. I passed the mission on my own game back in 2004 relatively easily, but my best friend was so frustrated by it that he had me come over to beat it for him. I somehow lost all my skill on the walk to his place, and we couldn't beat it a second time; he never finished the game. "The Traitor" is everything that is brutal about video games, just a mess where you as the player fight the game as much as the gameplay. It also rocks. "The Traitor" feels truly epic as explosions go off around you while you dodge bullets, and the challenge becomes addicting; landing a perfect flare gun shot on a cannon while diving behind cover is a thrill not unlike those found in Bloodborne or Elden Ring. "The Traitor" is, without a doubt, one of the definitive video game experiences of my life.
-
-https://www.youtube.com/watch?v=PLYWlY2KeZE]]></summary>
-        <author>
-            <name>Luis Paez-Pumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Possible Red Card: The Beatles Movie Wigs]]></title>
-        <id>https://defector.com/?p=233253</id>
-        <link href="https://defector.com/possible-red-card-the-beatles-movie-wigs"/>
-        <updated>2026-08-28T13:58:01.000Z</updated>
-        <summary type="html"><![CDATA[Four movies about The Beatles are currently in production. There will be one movie for each Beatle, and director Sam Mendes has said that the four movies will be the "first binge-able theatrical experience." No one has explained exactly what this means yet. Will all four be released to theaters at the exact same time in April 2028? On consecutive days? Weeks? It's unclear.
-But we do have some sense of what these movies will look like. Last week, a picture from the set went viral. In it, Harris Dickinson as John Lennon, Paul Mescal as Paul McCartney, Joseph Quinn as George Harrison, and Barry Keoghan as Ringo Starr playfully flip off the camera. The attention, though, was not on the costumes, or the flipping off, or even the actors themselves. Everyone was focused on how wiggy the wigs looked. This is presumably an expensive production, so why does the hair look like that?]]></summary>
-        <author>
-            <name>Kelsey McKinney</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Andros Fenollosa: How I organize my Emacs configuration]]></title>
-        <id>http://en.andros.dev/blog/dc7db35a/how-i-organize-my-emacs-configuration/</id>
-        <link href="http://en.andros.dev/blog/dc7db35a/how-i-organize-my-emacs-configuration/"/>
-        <updated>2026-08-28T13:28:41.000Z</updated>
-        <summary type="html"><![CDATA[I am not going to share my Emacs configuration, but the way I keep it organized. I do not think I am discovering anything new, but it might be useful for someone who is starting to organize their configuration and does not know where to begin.
-I do not use any framework (neither Doom nor Spacemacs) nor the literate approach of Org mode. Everything is vanilla Emacs and each file is an area of responsibility, while init.el acts as the index.
-Why vanilla and not a framework? Frameworks decide for you. They lend you a huge configuration that you do not understand and that is hard to tweak. For me, the literate approach of Org is one more layer where something can break. I prefer the simplicity of the file I edit being the file that runs. The less magic, the fewer things that break.
-So, inside …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We Should Scorn Everyone Who Calls Lake Ontario by Its Ridiculous Trumpian Name]]></title>
-        <id>http://www.esquire.com/news-politics/politics/a73553091/trump-lake-ontario-rename/</id>
-        <link href="https://www.esquire.com/news-politics/politics/a73553091/trump-lake-ontario-rename/"/>
-        <updated>2026-08-28T13:09:19.000Z</updated>
-        <summary type="html"><![CDATA[The president signed an executive order to rename the Great Lake, and now we’re going to have to buy our maps from Canada.]]></summary>
-        <author>
-            <name>News-Politics - Esquire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The high cost of MAGA manhood]]></title>
-        <id>https://www.salon.com/2026/08/28/the-high-cost-of-maga-manhood/-full</id>
-        <link href="https://www.salon.com/2026/08/28/the-high-cost-of-maga-manhood/"/>
-        <updated>2026-08-28T10:45:46.000Z</updated>
-        <summary type="html"><![CDATA[If there’s one thing MAGA males believe deep in their bones, it’s that “real” men eat a lot of beef. Multiple members of Donald Trump’s Cabinet, including Defense Secretary Pete Hegseth and Health and Human Services Secretary Robert F. Kennedy Jr., are obsessed with men’s testosterone levels and are highly attuned to right-wing social media chatter that conflates eating red meat with being “high-T,” despite the fact that science doesn’t support this theory. Kennedy in particular has been invested in defending the honor of red meat, repeatedly arguing, against standard medical recommendations, that diets high in animal fat are good for you. But long before the popularity of this pseudoscientific nonsense, a rare steak or hamburger was treated as the icon of manhood, especially in conservati…]]></summary>
-        <author>
-            <name>Amanda Marcotte - Salon.com</name>
         </author>
     </entry>
 </feed>

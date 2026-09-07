@@ -22,11 +22,63 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-09-06 datetime="2026-09-06T20:26:44.000Z">2026-09-06</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-09-06 datetime="2026-09-06T20:26:44.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-09-06 datetime="2026-09-07T01:21:24.000Z">2026-09-06</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-09-06 datetime="2026-09-07T01:21:24.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Stuff That Interests Me</button>
+                  <a class="source-heading__link" href="https://stuffthatinterestsme.net">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://stuffthatinterestsme.net/?p&#x3D;3354"
+                        open
+                      >
+                        <summary class="article-expander__title">“Sell Out” vs. “The Impression That I Get”: The Ultimate Ska-Punk Showdown</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://stuffthatinterestsme.net/sell-out-vs-the-impression-that-i-get-the-ultimate-ska-punk-showdown/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>The 1990s ska revival produced plenty of songs that were loud, fast and impossible to take completely seriously. But two</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://stuffthatinterestsme.net/?p&#x3D;3776"
+                        open
+                      >
+                        <summary class="article-expander__title">Sunday Night Playlist</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://stuffthatinterestsme.net/sunday-night-playlist/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Great playlists do not always need a theme. Sometimes the best ones are built around a simple idea: put together</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;23
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -6930,50 +6982,6 @@ Sample configuration
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.jamescherti.com/measuring-emacs-startup-time/"
-                        open
-                      >
-                        <summary class="article-expander__title">James Cherti: Measuring Emacs Startup Time More Accurately than the Built-in emacs-init-time</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.jamescherti.com/measuring-emacs-startup-time/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>As an Emacs configuration grows, startup time can gradually increase. Measuring that increase accurately makes it easier to identify regressions. The majority of Emacs users use emacs-init-time. However, this built-in function does not measure all the work performed during startup.
-Emacs startup proceeds through several stages: it loads the early init and regular init files, processes command-line options, sets after-init-time, runs emacs-startup-hook, performs additional initial-frame setup such as applying frame parameters from the configuration, and then runs window-setup-hook after the initial frame parameters have been configured. This makes window-setup-hook a useful place to record a broader startup-time measurement.
-For a more accurate startup-time measurement, add the following Em…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://en.andros.dev/blog/dc7db35a/how-i-organize-my-emacs-configuration/"
-                        open
-                      >
-                        <summary class="article-expander__title">Andros Fenollosa: How I organize my Emacs configuration</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://en.andros.dev/blog/dc7db35a/how-i-organize-my-emacs-configuration/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://img.andros.dev/nBgRNg17UB_JOm4H0xVbgc4r7Pg&#x3D;/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_94e69e19.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I am not going to share my Emacs configuration, but the way I keep it organized. I do not think I am discovering anything new, but it might be useful for someone who is starting to organize their configuration and does not know where to begin.
-I do not use any framework (neither Doom nor Spacemacs) nor the literate approach of Org mode. Everything is vanilla Emacs and each file is an area of responsibility, while init.el acts as the index.
-Why vanilla and not a framework? Frameworks decide for you. They lend you a huge configuration that you do not understand and that is hard to tweak. For me, the literate approach of Org is one more layer where something can break. I prefer the simplicity of the file I edit being the file that runs. The less magic, the fewer things that break.
-So, inside …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7002,26 +7010,6 @@ So, inside …</span>
                             <span class="media-object__text">
                               <span>A $10 million pickle, to be exact. Oh, and it involves multiple important people in Florida politics.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;79
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.esquire.com/news-politics/politics/a73553091/trump-lake-ontario-rename/"
-                        open
-                      >
-                        <summary class="article-expander__title">We Should Scorn Everyone Who Calls Lake Ontario by Its Ridiculous Trumpian Name</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.esquire.com/news-politics/politics/a73553091/trump-lake-ontario-rename/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://hips.hearstapps.com/hmg-prod/images/18bf6960-9338-413c-a386-2d860efebec0.jpeg?crop&#x3D;1xw:0.75xh;center,top&amp;resize&#x3D;1200:*" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The president signed an executive order to rename the Great Lake, and now we’re going to have to buy our maps from Canada.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;60
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -7253,72 +7241,6 @@ Is this question even more enticing? We have to be honest: no, of course not. No
                               <span>When I learned that Defector would be running Reds Week for its random annual late-summer theme week, I had one thought: Man, I really wish I had another week of time off to spend. Every year, Tom Ley announces the theme of theme week, and people start kicking around story ideas, and I think to myself, OK, next year, no matter what, I have to remember to leave myself one full week of time off, so that I can skip theme week. And then I blow it. Blowing it is part of the tradition. Anyway, here I am. Let&#x27;s make some romesco.
 By the grace of God, romesco fits not only thematically but seasonally. It is a paste made of roasted tomatoes, nuts, and bread. Here where I am—and by that I mean literally inside of my property line, and possibly nowhere else—now is the very climax of Tomato Time. You …</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;42
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;233077"
-                        open
-                      >
-                        <summary class="article-expander__title">I Went To A Reds Game And The Sky Was Red</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/i-went-to-a-reds-game-and-the-sky-was-red">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-4518236301.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>A few different times when I was in my teens, my dad, my younger brother and I would go on a sports-themed road trip. This particular one 12 years ago took us from our home in suburban Detroit to baseball games in Cincinnati, Louisville, and finally St. Louis. I have good memories of this trip: watching on TV as Germany obliterated Brazil in the World Cup; seeing Matt Adams (I could tell it was Matt Adams) hit what I thought was a triple in Busch Stadium from way, way up in the Gateway Arch (turns out he was actually out at third); exchanging subtle low-fives with my brother as the Cardinals failed to win the game we went to the next day. Even the sheer nothingness that defined the drive through Southern Indiana and Illinois comforts me in retrospect. Most surreal of all these moments, though, was the sky on the night we saw the Reds play in Cincy.
-July 7, 2014, I went to the Reds game and the sky caught fire. As the Sun sank in right field, it lit up the low clouds with a riot of reds and oranges and the purple of an old bruise. Without looking it up, I couldn&#x27;t have told you how the game went—my second-most prominent memory from my lone trip the Reds&#x27; ballpark was the fact that they had &quot;Teenage FBI&quot; by Guided By Voices on the pregame playlist, which rocked. But I&#x27;d never observed anything in person like that combination of mammatus clouds and blazing sunset before or since. You can see in the photos that the heavens looked like a scene out of an alien-invasion movie, and I recall the crowd being awestruck but also a little anxious, like maybe they should be feeling more urgency instead of continuing to watch a baseball game under a blood-red sky. I also never forgot that the website Deadspin, a future employer of mine, linked the pictures, which made me feel like I&#x27;d attended a special occasion.
-(In case you were wondering about the whole &quot;Red sky at night, sailor&#x27;s delight&quot; proverb, there was recorded precipitation in Cincinnati each of the following two days after this game.)</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;233569"
-                        open
-                      >
-                        <summary class="article-expander__title">Before ‘Red Dead Redemption,’ There Was ‘Red Dead Revolver’</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/before-red-dead-redemption-there-was-red-dead-revolver">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/rdrredsweek.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>There&#x27;s a mission about halfway through Red Dead Revolver that I have not forgotten, even in the 22 years since I first played Rockstar&#x27;s original Western. It&#x27;s called &quot;The Traitor.&quot; In a flashback, the player takes over the villainous General Javier Diego of the Mexican Army, as he attempts to take control of a bridge at the border between Mexico and the United States. Your goal in the mission is simple: Stay alive long enough to wipe out the U.S. Army soldiers and cannon artillery. There&#x27;s nothing simple about the mission, though. The game just obliterates you with garbage: Your two NPC partners can&#x27;t hold up against a stiff breeze, the American soldiers are everywhere, and the fucking cannons will not stop barraging you. The cannon shots don&#x27;t kill you, but they do send you flying and make you watch in agony as the General takes approximately nine hours to stand back up. All the while, the soldiers are whittling your health down and oh another cannon is shooting at you.
-It&#x27;s frustrating, it&#x27;s unfair, it grinds the game&#x27;s pace to a halt as you struggle for hours on end to complete &quot;The Traitor&quot; or just give up. I passed the mission on my own game back in 2004 relatively easily, but my best friend was so frustrated by it that he had me come over to beat it for him. I somehow lost all my skill on the walk to his place, and we couldn&#x27;t beat it a second time; he never finished the game. &quot;The Traitor&quot; is everything that is brutal about video games, just a mess where you as the player fight the game as much as the gameplay. It also rocks. &quot;The Traitor&quot; feels truly epic as explosions go off around you while you dodge bullets, and the challenge becomes addicting; landing a perfect flare gun shot on a cannon while diving behind cover is a thrill not unlike those found in Bloodborne or Elden Ring. &quot;The Traitor&quot; is, without a doubt, one of the definitive video game experiences of my life.
-
-https://www.youtube.com/watch?v&#x3D;PLYWlY2KeZE</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;233253"
-                        open
-                      >
-                        <summary class="article-expander__title">Possible Red Card: The Beatles Movie Wigs</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/possible-red-card-the-beatles-movie-wigs">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/beatleswigs.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Four movies about The Beatles are currently in production. There will be one movie for each Beatle, and director Sam Mendes has said that the four movies will be the &quot;first binge-able theatrical experience.&quot; No one has explained exactly what this means yet. Will all four be released to theaters at the exact same time in April 2028? On consecutive days? Weeks? It&#x27;s unclear.
-But we do have some sense of what these movies will look like. Last week, a picture from the set went viral. In it, Harris Dickinson as John Lennon, Paul Mescal as Paul McCartney, Joseph Quinn as George Harrison, and Barry Keoghan as Ringo Starr playfully flip off the camera. The attention, though, was not on the costumes, or the flipping off, or even the actors themselves. Everyone was focused on how wiggy the wigs looked. This is presumably an expensive production, so why does the hair look like that?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -7634,78 +7556,12 @@ In quick succession, Paxton, 63, referred to the 37-year-old Democrat as “Tofu
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >everyone is entitled to my own opinion</button>
-                  <a class="source-heading__link" href="https://www.jefftiedrich.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.jefftiedrich.com/p/welcome-to-lake-stupid-fucking-moron"
-                        open
-                      >
-                        <summary class="article-expander__title">welcome to Lake Stupid Fucking Moron. population: one</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.jefftiedrich.com/p/welcome-to-lake-stupid-fucking-moron">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substackcdn.com/image/fetch/$s_!vzKc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc76b7dad-f771-40a2-a567-209d9ce11625_2000x1125.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>guess who it is</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Amanda Marcotte - Salon.com</button>
-                  <a class="source-heading__link" href="https://www.salon.com/writer/amanda_marcotte">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.salon.com/2026/08/28/the-high-cost-of-maga-manhood/-full"
-                        open
-                      >
-                        <summary class="article-expander__title">The high cost of MAGA manhood</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.salon.com/2026/08/28/the-high-cost-of-maga-manhood/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.salon.com/app/uploads/2026/08/maga-masculinity-cost-illo.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>If there’s one thing MAGA males believe deep in their bones, it’s that “real” men eat a lot of beef. Multiple members of Donald Trump’s Cabinet, including Defense Secretary Pete Hegseth and Health and Human Services Secretary Robert F. Kennedy Jr., are obsessed with men’s testosterone levels and are highly attuned to right-wing social media chatter that conflates eating red meat with being “high-T,” despite the fact that science doesn’t support this theory. Kennedy in particular has been invested in defending the honor of red meat, repeatedly arguing, against standard medical recommendations, that diets high in animal fat are good for you. But long before the popularity of this pseudoscientific nonsense, a rare steak or hamburger was treated as the icon of manhood, especially in conservati…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/34062940494">
-        <time id="build-timestamp" datetime="2026-09-06T22:05:40.386Z">2026-09-06T22:05:40.386Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/34078027521">
+        <time id="build-timestamp" datetime="2026-09-07T02:59:02.643Z">2026-09-07T02:59:02.643Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
