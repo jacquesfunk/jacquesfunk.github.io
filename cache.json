@@ -448,16 +448,6 @@
           "wordCount": 1530,
           "title": "Meta Redux: Smarter Form Targeting Is Not Coming to CIDER",
           "imageUrl": "https://metaredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-08-29-emacs-completion-preview-mode/",
-          "author": null,
-          "description": "Raw link: https://www.youtube.com/watch?v=8V4ZyEL_i-s\nThe built-in completion-preview-mode lets us expand what we type in\na minimalist, distraction-free way. It can also be combined with the\ndefault Completions buffer to show all the available options. The\nCompletions buffer has several nice features, starting with Emacs 31,\nwhich make this an excellent combination that does not require any\nthird party packages (though packages can still augment the overall\nexperience). I also mention the Emacs 31 ‘newcomers-presets’ theme,\nwhich configures some of these options as well: it is a great way to\nstart your Emacs configuration.\nSample configuration\n\n(use-package completion-preview\n  :ensure nil\n  :demand t\n  :bind\n  ( :map completion-preview-active-mode-map\n    (\"M-i\" . completion-preview-inser…",
-          "link": "https://protesilaos.com/codelog/2026-08-29-emacs-completion-preview-mode/",
-          "publishedOn": "2026-08-29T00:00:00.000Z",
-          "wordCount": 347,
-          "title": "Protesilaos: Emacs: completion-preview-mode and the Completions buffer (Emacs 31)",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         }
       ]
     },
@@ -466,6 +456,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=234819",
+          "author": "Maitreyi Anantharaman",
+          "description": "You'll have a grand time solving our Monday crossword. This week's puzzle was constructed by Katie Hoody, and edited by Hoang-Kim Vu. Katie lives in North Newton, Kansas, where she is enjoying the puzzle constructing era of her life. She grew up in northern Minnesota and won a middle school speech contest with a monologue describing the thrill of watching the Twins win the 1987 World Series.\nDefector crosswords, launched in partnership with our friends at AVCX, run every Monday. If you’re interested in submitting a puzzle to us, you can read our guidelines HERE. The AVCX, an independent puzzles and games outlet, invites you to subscribe, or sample the goods with a two-month free trial: \"With an AVCX subscription, you get access to weekly themed and themeless crosswords, minis, cryptics, and trivia, by email or in your favorite app. We have no corporate overlord, and we publish top-flight stuff only. We also pay our people fairly, always. Check us out.\"",
+          "link": "https://defector.com/the-crossword-sept-7-big-resemblance",
+          "publishedOn": "2026-09-07T15:22:19.000Z",
+          "wordCount": 4142,
+          "title": "The Crossword, Sept. 7: Big Resemblance",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2206068784.jpg"
+        },
         {
           "id": "https://defector.com/?p=234781",
           "author": "David Roth",
@@ -1245,26 +1245,6 @@
           "wordCount": 1452,
           "title": "TV Ads in 1986",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3695",
-          "author": "Schill",
-          "description": "Donald Trump has apparently decided that the next front in his ongoing battle with Canada is a Great Lake.",
-          "link": "https://stuffthatinterestsme.net/lake-ontario-has-a-400-year-old-history-trump-apparently-doesnt-know-it/",
-          "publishedOn": "2026-08-29T03:16:33.000Z",
-          "wordCount": 5512,
-          "title": "Lake Ontario Has a 400-Year-Old History. Trump Apparently Doesn’t Know It.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3691",
-          "author": "Schill",
-          "description": "The NFL is finally almost back. After months of free-agent signings, trades, draft speculation, training-camp battles and endless preseason",
-          "link": "https://stuffthatinterestsme.net/2026-nfl-season-predictions-all-32-teams-every-record-and-my-super-bowl-pick/",
-          "publishedOn": "2026-08-29T02:25:38.000Z",
-          "wordCount": 7576,
-          "title": "2026 NFL Season Predictions: All 32 Teams, Every Record and My Super Bowl Pick",
-          "imageUrl": null
         }
       ]
     },
@@ -1745,116 +1725,6 @@
           "wordCount": 3958,
           "title": "Trump's decline is leading to disaster – for all of usRex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/14/USAT/91310871007-20260814-t-201626-z-954804708-rc-2-kymajjp-6-g-rtrmadp-3-usatrump.JPG?crop=3659,2058,x0,y193&width=3200&height=1800&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/06/james-talarico-texas-masculinity/90420159007/-full",
-          "author": "Rex Huppke",
-          "description": "Let’s try, for a moment, to remove politics from a discussion of James Talarico, the Democratic state representative from Texas running for the U.S. Senate.\nIt’s not an easy thing to do when talking about a politician, but let’s give it a whirl.\nSince Talarico’s Republican opponent, Texas Attorney General Ken Paxton, won the GOP primary on May 26, he and his party have pushed the issue of manliness and masculinity to the forefront.\nTalarico's opponents want you to believe name-calling is manly\n\nThe 37-year-old Democrat has been dubbed “Tofu Talarico” and “Low-T Talarico.” White House Deputy Chief of Staff Stephen Miller wrote of Talarico on social media: “The Democrats made history in Texas by nominating their first transgender senate candidate.”\nConservative commentator Todd Starnes sugge…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/06/james-talarico-texas-masculinity/90420159007/",
-          "publishedOn": "2026-08-28T18:12:43.882Z",
-          "wordCount": 4409,
-          "title": "Talarico tells, and shows, Texans exactly what it means to be a manRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/05/USAT/90428519007-20260603-t-012102-z-687091461-rc-27-jladojip-rtrmadp-3-usaelectiondemocratsattacks.JPG?crop=5994,3372,x0,y310&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columns/2026/06/28/reflecting-pool-algae-trump-arrests/90707054007/-full",
-          "author": "Rex Huppke",
-          "description": "Hello America-loving tourist, and welcome to the beautiful, algae-free Lincoln Memorial Reflecting Pool, brought to you by President Donald J. Trump, the only man powerful enough to make the Reflecting Pool Great Again.\nYou’ll notice the pool is surrounded by armed soldiers hoping you don't look at the water. That is for your safety and the safety of the newly refurbished Reflecting Pool, which is glistening and perfect and not at all covered with a thick layer of algae and stray chunks of American-flag-blue paint the media would have you believe exists.\nBefore we begin our tour of this remarkable national landmark, I’ll remind everyone that there is no looking at the remarkable national landmark.\nIf you didn’t receive blackout goggles when you bought your ticket for the tour, please keep …",
-          "link": "https://www.usatoday.com/story/opinion/columns/2026/06/28/reflecting-pool-algae-trump-arrests/90707054007/",
-          "publishedOn": "2026-08-28T18:12:43.868Z",
-          "wordCount": 3550,
-          "title": "Rules for Reflecting Pool: Don't look, don't touch | OpinionRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90653162007-20260621-t-185812-z-1716186844-rc-2-fyla-6-yu-5-g-rtrmadp-3-usa-250-reflectingpool.JPG?crop=3427,1928,x0,y178&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/18/reflecting-pool-algae-green-trump/90595811007/-full",
-          "author": "Rex Huppke",
-          "description": "The good news about the Lincoln Memorial Reflecting Pool turning greener than Kermit the Frog’s keister is President Donald Trump finally has a swamp to drain.\nI’m kidding, there’s nothing funny about algae breaking out all over the Reflecting Pool immediately after President I’m-A-Builder dumped $14.2 million into beautifying the Washington, DC, landmark so it would appear “American Flag Blue.”\nIn fact, shame on the Reflecting Pool for allowing itself it to seem like a failure just as the president agrees to a deal with Iran that also sounds like a failure. Nobody likes a giant, shallow pool that understands how metaphors work.\nTrump should change America's colors to match the green Reflecting Pool\n\nThe pool does look less blue and more glow-in-the-dark Slurpee, but that was probably part…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/18/reflecting-pool-algae-green-trump/90595811007/",
-          "publishedOn": "2026-08-28T18:12:43.632Z",
-          "wordCount": 4140,
-          "title": "Trump's algae-rich Reflecting Pool smells of RFK Jr. to meRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/17/USAT/90588188007-2281921326.jpg?crop=4565,2568,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/28/centrist-democrat-mamdani-progressive-socialist/90681634007/-full",
-          "author": "Rex Huppke",
-          "description": "Hello, I am a centrist Democrat who is terrified that progressive liberal candidates keep winning primary elections.\nI am also terrified of my own shadow, but this is somehow worse.\nSuddenly, voters are being won over by liberal candidates ‒ even a few who are democratic socialists! ‒ who aren’t afraid to lean into populist messages with passion and an apparent drive to actually do things that will make people’s lives better. What is that all about? Since when did the things voters want become so important?\nFollowing the embrace of New York City’s popular democratic socialist Mayor Zohran Mamdani, two democratic socialist candidates and one progressive candidate won their recent congressional primary races. I immediately took to my living room's fainting couch. (Like most centrist Democrat…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/28/centrist-democrat-mamdani-progressive-socialist/90681634007/",
-          "publishedOn": "2026-08-28T18:12:43.607Z",
-          "wordCount": 4569,
-          "title": "Centrist Democrat: I fear my party is moving so far left it might winRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/24/USAT/90679404007-mamdani-6.JPG?crop=3995,2249,x3,y219&width=3200&height=1802&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/06/blanche-confirmation-cornyn-lame-duck-trump/91188258007/-full",
-          "author": "Rex Huppke",
-          "description": "I want all Americans to understand that I, a Republican lawmaker, can do nothing to rein in President Donald Trump.\nI am rendered powerless before the awesome strength of a lame-duck president with a 32% approval rating. My party might control both houses of Congress, and our job description might technically include reining in the executive branch, but still, it’s just not a thing we can do. His gaze alone makes our brains seize up.\nMy colleague Sen. John Cornyn, R-Poltroon, made it plain as day recently when he said of Republicans, “There’s nothing we can do to rein in the president.”\nSee, I told you so.\nCornyn, like all good Republicans, caved to Trump's demands\n\nThat came after Cornyn and other Republicans on the Senate Judiciary Committee voted to move acting Attorney General Todd Bla…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/06/blanche-confirmation-cornyn-lame-duck-trump/91188258007/",
-          "publishedOn": "2026-08-28T18:12:43.581Z",
-          "wordCount": 3837,
-          "title": "As a Republican lawmaker, there's nothing I can do to rein in TrumpRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/30/USAT/91112064007-20260730-t-134314-z-1686577338-rc-29-omamnpil-rtrmadp-3-usajusticeblanche.JPG?crop=5493,3093,x0,y280&width=3200&height=1802&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/27/trump-blame-republicans-midterms-loss/91489762007/-full",
-          "author": "Rex Huppke",
-          "description": "We’ve now seen the first sign of the inevitable: President Donald Trump, as the Republican Party limps toward a possible midterm election wipeout, will turn on the GOP.\nOn his Truth Social account on Aug. 26, Trump shared a profane post from a right-wing influencer that read in part: “I don’t think the GOP fully grasp how badly they are f---ing up right now.”\nThe post went on to suggest Republicans in Congress are responsible for undercutting Trump, claiming that “the GOP continues to slow-walk every reform people want.”\nThat’s an odd thing for the titular head of the Republican Party to share just a few months out from a pivotal election. Or at least it would be odd if we were dealing with anyone other than Donald Trump.\nDonald Trump will always blame others for his own failures\n\nTragical…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/27/trump-blame-republicans-midterms-loss/91489762007/",
-          "publishedOn": "2026-08-28T18:12:43.553Z",
-          "wordCount": 3841,
-          "title": "Trump is already hanging Republicans out to dryRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/20/USAT/91387445007-20260819-t-152922-z-1488525833-rc-2-r-1-nalvhpd-rtrmadp-3-usatrump.JPG?crop=3414,1920,x2514,y1200&width=3200&height=1800&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/17/paxton-talarico-senate-campaign-texas-barbecue/90568148007/-full",
-          "author": "Rex Huppke",
-          "description": "Texas Attorney General Ken Paxton seems hell-bent on making his race for a U.S. Senate seat against Democratic state Rep. James Talarico one of the dumbest spectacles in American political history.\nRather than focus on the needs of Texans he might represent, Paxton has zeroed in on impotent suggestions that Talarico isn’t masculine enough to represent the Lone Star State and false claims that the Democrat – GASP! – is somehow not carnivorous enough to serve.\nThat latter point is nonsense stemming from false claims that Talarico is a vegan. He has made it clear he’s not. But truth has no place in Paxton’s campaign, which apparently revolves around highlighting goofy Texas stereotypes, then accusing Talarico of not fitting the mold.\nMacho-man Ken Paxton challenges James Talarico to dinner\nTh…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/17/paxton-talarico-senate-campaign-texas-barbecue/90568148007/",
-          "publishedOn": "2026-08-28T18:12:43.248Z",
-          "wordCount": 4317,
-          "title": "Everything is bigger in Texas – including Paxton's dumb ideasRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/17/USAT/90583445007-20260612-t-175608-z-1267011608-rc-2-fmla-48-rbw-rtrmadp-3-usaelectiontexassenate.JPG?crop=2293,1290,x0,y119&width=2293&height=1290&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columns/2026/06/07/bill-pulte-national-intelligence-trump/90446444007/-full",
-          "author": "Rex Huppke",
-          "description": "Few things represent the “DEI, but for unqualified goons” approach President Donald Trump takes to his Cabinet appointees better than this June 2 headline from The Washington Post: “Trump picks mortgage chief Bill Pulte to lead on national intelligence.”\nPerfect. A 38-year-old pal of Donald Trump Jr. with a degree in broadcast journalism and experience in finance and home building, coupled with zero background in intelligence or national security, will now be America’s acting director of national intelligence. I feel safer already.\nPulte has been serving as director of the Federal Housing Finance Agency, though his actions have largely been serving Trump and his unquenchable thirst for revenge against political opponents. \nPulte pushed the Justice Department to launch mortgage-fraud invest…",
-          "link": "https://www.usatoday.com/story/opinion/columns/2026/06/07/bill-pulte-national-intelligence-trump/90446444007/",
-          "publishedOn": "2026-08-28T18:12:43.223Z",
-          "wordCount": 3799,
-          "title": "Bill Pulte unqualified as head of national intelligence | OpinionRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2025/11/09/USAT/87182998007-2202323696.jpg?crop=8191,4609,x0,y427&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/16/trump-white-house-ballroom-taxpayer-money/90575180007/-full",
-          "author": "Rex Huppke",
-          "description": "As a hardworking American who loves his country, I was honored to learn some of my tax dollars will contribute to the construction of President Donald Trump’s $200 million White House ballroom that is now going to cost $600 million.\nOn June 16, The Washington Post reported that the price tag on what Trump originally called a “taxpayer-free” ballroom that would be paid for “100% by me and some friends of mine” has patriotically ballooned to $600 million, with about half of that money coming from taxpayers. \nSome America-hating liberals out there will undoubtedly call that – and please imagine me using heavily sarcastic American-made air quotes here – “an outrageous amount of money to spend” when “high grocery prices” are “making it harder for people to make ends meet.” They’ll whine about h…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/16/trump-white-house-ballroom-taxpayer-money/90575180007/",
-          "publishedOn": "2026-08-28T18:12:43.201Z",
-          "wordCount": 3885,
-          "title": "Surprise! We're paying for Trump's ballroom after all.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/03/USAT/90394811007-trnd-what-trump-is-constructing-in-dc.jpg?crop=1264,711,x390,y363&width=1264&height=711&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/05/28/paxton-attacks-talarico-extreme-republicans/90278221007/-full",
-          "author": "Rex Huppke",
-          "description": "Republicans like newly minted U.S. Senate nominee Ken Paxton of Texas would like to you to know, in no uncertain terms, that Democrats are a pack of wild, tongue-wagging extremists out to destroy America.\nSetting aside the fact that Republicans presently in power seem to be doing a perfectly good job on the “destroying America” front – and on the “being tongue-wagging extremists” front, as well – let’s consider how Paxton spoke about his opponent, Democratic state Rep. James Talarico, following the Republican’s primary victory May 26.\nIn quick succession, Paxton, 63, referred to the 37-year-old Democrat as “Tofu Talarico,” “James Tala-freako” and “Low-T Talarico.” Paxton then added, ominously: “But no matter what you call him, let me tell you this, James Talarico is a threat to everything …",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/05/28/paxton-attacks-talarico-extreme-republicans/90278221007/",
-          "publishedOn": "2026-08-28T18:12:43.176Z",
-          "wordCount": 4276,
-          "title": "'I pray that God kills him' sounds pretty extreme to me, GOPRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/19/USAT/90160535007-20260501-t-220032-z-1684608837-rc-2-wdka-02-ghj-rtrmadp-3-actbluelawsuittexas.JPG?crop=5499,3093,x0,y0&width=3200&height=1800&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/videos/opinion/columnist/2026/08/27/trump-canada-tariffs-trade-war-republican-midterms/91482315007/-full",
-          "author": "Rex Huppke",
-          "description": "President Donald Trump decided it's a great time for a trade war with Canada.",
-          "link": "https://www.usatoday.com/videos/opinion/columnist/2026/08/27/trump-canada-tariffs-trade-war-republican-midterms/91482315007/",
-          "publishedOn": "2026-08-28T18:12:43.151Z",
-          "wordCount": 2264,
-          "title": "This is apparently how a mature president handles trade negotiationsRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/25/USAT/91461977007-20250212-t-205333-z-479792007-rc-20-tcaxpiz-5-rtrmadp-3-canadapoliticsfentanyl.JPG?crop=4387,2470,x0,y61&width=3200&height=1802&format=pjpg&auto=webp"
         }
       ]
     },
@@ -2109,16 +1979,6 @@
           "wordCount": 18499,
           "title": "A Federal Judge Just Kicked Marco Rubio’s Butt in a No-Brainer Decision About Protected Speech",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/9b2d344a-a3f5-4d15-a75e-3b6027c2fc7e.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73556367/ron-desantis-10-million-dollars-taxpayer-funds-scandal/",
-          "author": null,
-          "description": "A $10 million pickle, to be exact. Oh, and it involves multiple important people in Florida politics.",
-          "link": "https://www.esquire.com/news-politics/politics/a73556367/ron-desantis-10-million-dollars-taxpayer-funds-scandal/",
-          "publishedOn": "2026-08-28T22:23:54.000Z",
-          "wordCount": 23803,
-          "title": "Ron DeSantis, America’s Favorite Meathead, Has Put Himself in Quite the Pickle",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/a94ad8d2-ec82-42a5-81fc-417d7d4aefcb.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
         }
       ]
     },
@@ -2636,6 +2496,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/holy-shit-dear-leader-is-fucking",
+          "author": "Jeff Tiedrich",
+          "description": "another day, another shit-blizzard of posts",
+          "link": "https://www.jefftiedrich.com/p/holy-shit-dear-leader-is-fucking",
+          "publishedOn": "2026-09-07T14:42:00.000Z",
+          "wordCount": null,
+          "title": "holy shit, Dear Leader is fucking nuts",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!M71D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe172fa7-c35d-420b-b98d-2040299c4d15_1110x648.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!M71D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe172fa7-c35d-420b-b98d-2040299c4d15_1110x648.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/what-the-fuck-is-that-thing-on-donnys",
           "author": "Jeff Tiedrich",
