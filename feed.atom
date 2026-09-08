@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-08T19:15:48.493Z</updated>
+    <updated>2026-09-08T22:22:39.640Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Republicans Manufacture Hysteria About ‘Socialism’ — They Have Little Else to Talk About]]></title>
+        <id>https://wherethingsstand.talkingpointsmemo.com/p/republicans-manufacture-hysteria</id>
+        <link href="https://wherethingsstand.talkingpointsmemo.com/p/republicans-manufacture-hysteria"/>
+        <updated>2026-09-08T21:46:54.000Z</updated>
+        <summary type="html"><![CDATA[This is your TPM evening briefing.]]></summary>
+        <author>
+            <name>Nicole Lafond</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hrishikesh Hirway Learned To Live With Being Uncomfortable]]></title>
+        <id>https://defector.com/?p=234897</id>
+        <link href="https://defector.com/hrishikesh-hirway-learned-to-live-with-being-uncomfortable"/>
+        <updated>2026-09-08T19:50:51.000Z</updated>
+        <summary type="html"><![CDATA[What do you do when the gig you do on the side, that off-hours hustle to help pay the bills and keep busy in service of your real work, becomes the thing that attracts acclaim and recognition? Do you lean into the success? Does the side project become your life?
+Hrishikesh Hirway did not expect he would become a podcast guy, but the show he created and hosts, Song Exploder, took off, winning awards and making the leap to becoming a Netflix series. Then came other podcasts—maybe you know him from The West Wing Weekly, or as Samin Nosrat's buddy from the show Home Cooking.
+Yet all along the way, Hirway still felt the gravitational pull back to his original love of music as a singer/songwriter. This past spring, he released In The Last Hour Of Light, his first full-length album in 15 years. "The most central part of me is this music. It's my primary identity, and it's the thing that I am most passionate about and have been doing before I ever started making podcasts," Hirway said. "It's taken me a long time to get back here."]]></summary>
+        <author>
+            <name>Justin Ellis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Should College Football Have An Age Limit?]]></title>
         <id>https://defector.com/?p=234830</id>
@@ -3443,17 +3465,6 @@ First off, we know data centers are great because our U.S. president, Donald J. 
 Are you telling me you don’t want a strong,…]]></summary>
         <author>
             <name>Rex Huppke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alex Ott: One more time about Cedet]]></title>
-        <id>http://alexott.blogspot.com/2008/12/one-more-time-about-cedet.html</id>
-        <link href="http://alexott.blogspot.com/2008/12/one-more-time-about-cedet.html"/>
-        <updated>2026-08-30T08:46:50.803Z</updated>
-        <summary type="html"><![CDATA[In latest versions of  Cedet support of GNU Global was introduced, and very useful command - semantic-symref, was implemented.  It allows to find places in source code (for C & C++ now) where given function is used. And if GTAGS database wasn't found, then this command tries to find occurrences with find-grep command.
-As result, user gets something like this...]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>

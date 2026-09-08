@@ -428,16 +428,6 @@
           "wordCount": 1492,
           "title": "Irreal: Maiorana On Directory Local Variables",
           "imageUrl": null
-        },
-        {
-          "id": "http://alexott.blogspot.com/2008/12/one-more-time-about-cedet.html",
-          "author": null,
-          "description": "In latest versions of  Cedet support of GNU Global was introduced, and very useful command - semantic-symref, was implemented.  It allows to find places in source code (for C & C++ now) where given function is used. And if GTAGS database wasn't found, then this command tries to find occurrences with find-grep command.\nAs result, user gets something like this...",
-          "link": "http://alexott.blogspot.com/2008/12/one-more-time-about-cedet.html",
-          "publishedOn": "2026-08-30T08:46:50.803Z",
-          "wordCount": 1001,
-          "title": "Alex Ott: One more time about Cedet",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6VXn4nr0f_yM3OcqdLBtE-l93RckBlGpMJcTMTvV8XLt-9r2Cc05FHO6G1P7u7JueEB31oqk2AEzxHLkVpq5Q3SZt8I2nLcdSC1GwQMD7iL0E7gSzRaBy1H8Bs6ZI09an39Ch-sJIWyhxff9HBycOG0lxylPoGwfMeszFm07fx1h2zWYIGjZYfg/w1200-h630-p-k-no-nu/cedet-symref.png"
         }
       ]
     },
@@ -446,6 +436,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=234897",
+          "author": "Justin Ellis",
+          "description": "What do you do when the gig you do on the side, that off-hours hustle to help pay the bills and keep busy in service of your real work, becomes the thing that attracts acclaim and recognition? Do you lean into the success? Does the side project become your life?\nHrishikesh Hirway did not expect he would become a podcast guy, but the show he created and hosts, Song Exploder, took off, winning awards and making the leap to becoming a Netflix series. Then came other podcasts—maybe you know him from The West Wing Weekly, or as Samin Nosrat's buddy from the show Home Cooking.\nYet all along the way, Hirway still felt the gravitational pull back to his original love of music as a singer/songwriter. This past spring, he released In The Last Hour Of Light, his first full-length album in 15 years. \"The most central part of me is this music. It's my primary identity, and it's the thing that I am most passionate about and have been doing before I ever started making podcasts,\" Hirway said. \"It's taken me a long time to get back here.\"",
+          "link": "https://defector.com/hrishikesh-hirway-learned-to-live-with-being-uncomfortable",
+          "publishedOn": "2026-09-08T19:50:51.000Z",
+          "wordCount": 5149,
+          "title": "Hrishikesh Hirway Learned To Live With Being Uncomfortable",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/hrishikesh_tryhard.jpg"
+        },
         {
           "id": "https://defector.com/?p=234830",
           "author": "Drew Magary",
@@ -2547,6 +2547,22 @@
       "feedUrl": "https://wherethingsstand.talkingpointsmemo.com/feed",
       "siteUrl": "https://wherethingsstand.talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://wherethingsstand.talkingpointsmemo.com/p/republicans-manufacture-hysteria",
+          "author": "Nicole Lafond",
+          "description": "This is your TPM evening briefing.",
+          "link": "https://wherethingsstand.talkingpointsmemo.com/p/republicans-manufacture-hysteria",
+          "publishedOn": "2026-09-08T21:46:54.000Z",
+          "wordCount": null,
+          "title": "Republicans Manufacture Hysteria About ‘Socialism’ — They Have Little Else to Talk About",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!KrGq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe41d2db1-f18a-4e51-a620-e925b007e52d_1600x1200.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!KrGq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe41d2db1-f18a-4e51-a620-e925b007e52d_1600x1200.png"
+        },
         {
           "id": "https://wherethingsstand.talkingpointsmemo.com/p/trumps-big-beautiful-bill-cleared",
           "author": "Nicole Lafond",
