@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-07T22:30:53.579Z</updated>
+    <updated>2026-09-08T03:08:47.142Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Sacha Chua: 2026-09-07 Emacs news]]></title>
+        <id>https://sachachua.com/blog/2026/09/2026-09-07-emacs-news/</id>
+        <link href="https://sachachua.com/blog/2026/09/2026-09-07-emacs-news/"/>
+        <updated>2026-09-07T23:44:14.000Z</updated>
+        <summary type="html"><![CDATA[Games". Enjoy! Other really cool uses of graphics in Emacs: org-timegrid, poimap, canvas-minimap.
+
+
+
+Also, public service announcement: doomemacs.com is not affiliated with doomemacs.org (see this Github discussion). Just in case someone reading this happens to be the person who made doomemacs.com, please consider setting up a redirect to doomemacs.org for more awesomeness and less confusion. Thank you!
+
+
+
+And a reminder: EmacsConf - 2026 - Call for Participation target date for proposals Sept 18, conference is online Dec 12-13. Hope to see you there!
+
+
+
+Upcoming events (iCal file, Org):
+
+London Emacs (in person): Emacs London meetup https://www.meetup.com/london-emacs-hacking/events/316294538/ Tue Sep 8 1800 Europe/London
+Emacs Berlin: In-Person-Only Emacs-Berlin Stammtisch https://emacs-…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bill Pulte unqualified as head of national intelligence | OpinionRex Huppke]]></title>
         <id>https://www.usatoday.com/story/opinion/columns/2026/06/07/bill-pulte-national-intelligence-trump/90446444007/-full</id>
@@ -3402,62 +3427,6 @@ If you’re interested, here’s the code:
 
 (load (car (split-string (system-name) "\\.")) t)
 (load (car (reverse (split-string (symbol-name system-type) "/"))) t)]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sacha Chua: Carnaval d'Emacs d'août  : la gestion d'information et les graphes de connaissances]]></title>
-        <id>https://sachachua.com/blog/2026/08/carnaval-d-emacs-d-aout-la-gestion-d-information-et-les-graphes-de-connaissances/</id>
-        <link href="https://sachachua.com/blog/2026/08/carnaval-d-emacs-d-aout-la-gestion-d-information-et-les-graphes-de-connaissances/"/>
-        <updated>2026-08-29T14:52:30.000Z</updated>
-        <summary type="html"><![CDATA[Carnaval d'Emacs sur la recherche de connaissances. Merci à Charlie Holland pour son accueil ! C'est une bonne occasion de réfléchir à la gestion de mes notes, qui est un de mes intérêts forts.
-
-
-
-Saisir : Je souhaite saisir et publier ce que j'apprends autant que possible parce que ma mémoire n'est pas fiable. Je préfère le format texte brut car il est le plus consultable et le plus archivable à long terme. Je suis loin de mon ordinateur la plupart du temps, donc j'utilise Orgzly Revived sur mon téléphone pour saisir des notes courtes dans ma boîte de réception inbox.org ou mon fichier de brouillons posts.org. Une fois que je suis sur mon ordinateur, je développe mes notes en utilisant Org Mode sur Emacs. J'utilise org-refile pour déplacer des notes vers d'autres fichiers comme organizer.…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[this week in stupid: August 29 edition]]></title>
-        <id>https://www.jefftiedrich.com/p/this-week-in-stupid-august-29-edition</id>
-        <link href="https://www.jefftiedrich.com/p/this-week-in-stupid-august-29-edition"/>
-        <updated>2026-08-29T14:28:37.000Z</updated>
-        <summary type="html"><![CDATA[Natalie grins, Donny spins, and so much more...]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TAONAW - Emacs and Org Mode: Emacs Config Gems - Part 5]]></title>
-        <id>https://taonaw.com/2026/08/29/emacs-config-gems-part.html</id>
-        <link href="https://taonaw.com/2026/08/29/emacs-config-gems-part.html"/>
-        <updated>2026-08-29T12:34:14.000Z</updated>
-        <summary type="html"><![CDATA[Being a text editor (among other things), Emacs has quite a few tricks up its sleeve for making writing not just easier but also fun and seemingly magical. I call this section in my config “Wordcraft.”
-Emacs Dictionary
-When we need a dictionary, Emacs got us covered and then some. After version 28, Emacs connects to a dictionary as a two-step process by default:
-It tries to connect to a local host.
-If it fails, it next connects to an online dictionary at www.dict.org,
-This workflow remains in place as long as dictionary-server is nil, which is the default. It’s a bit confusing (to me anyway), since “nil” might indicate that no dictionary is set up, but here it means we simply didn’t introduce any configuration to it.
-The online version at dict.org contains the Webster dictionary from 19131…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Donovan R.: My way of handling knowledge (Emacs Carnival - The Search for Knowledge)]]></title>
-        <id>https://donovan-ratefison.mg/2026/08/29/My-way-of-handling-knowledge-Emacs-Carnival-The-Search-for-Knowledge/</id>
-        <link href="https://donovan-ratefison.mg/2026/08/29/My-way-of-handling-knowledge-Emacs-Carnival-The-Search-for-Knowledge/"/>
-        <updated>2026-08-29T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This post is my participation in this month’s Emacs Carnival, on the theme of The Search for Knowledge.
-About my current workflow
-My way of handling notes and knowledge has evolved a lot over time. I’ve written about my note-taking journey in this blog post.
-As of today, my knowledge management sauce is composed of Emacs and Vakana.mg. I’ve been using Logseq less and less over the past few months.
-Indoor
-In my day-to-day computer usage, I have the Emacs client open all day long with a scratch buffer ready for anything. I dump everything into the scratch buffer, remove or add paragraphs as needed and use vundo for time traveling. I use no structure except some dashes as separation between topics.
-Whether it’s to capture fleeting insights or mold prompts for LLMs, the scratch buffer acts as …]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>
