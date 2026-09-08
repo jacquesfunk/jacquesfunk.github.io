@@ -90,6 +90,36 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.jamescherti.com/emacs-consult-speed-async-searche-grep-ripgrep-fd-find/",
+          "author": null,
+          "description": "The consult Emacs package provides asynchronous search commands such as consult-fd, consult-find, consult-grep, consult-git-grep, and consult-ripgrep. For these commands, Consult does not necessarily start a new search for every change to the minibuffer input. Instead, it uses configurable debounce and throttle delays to control when asynchronous processes start, while a separate refresh delay controls how frequently asynchronous results are pushed to the completion UI.\nThe first time I tried Consult, I thought to myself: this feels slow compared to Counsel (I had a similar feeling about Emacs settings such as show-paren-delay). With Counsel, results updated immediately on every keystroke, while Consult seemed to hesitate for a fraction of a second before updating the list.\nAs it turns out…",
+          "link": "https://www.jamescherti.com/emacs-consult-speed-async-searche-grep-ripgrep-fd-find/",
+          "publishedOn": "2026-09-08T16:54:16.000Z",
+          "wordCount": 2438,
+          "title": "James Cherti: Why Emacs Consult async searches feel slow and how to speed them up? (consult-fd, consult-find, consult-grep, consult-ripgrep...)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://irreal.org/blog/?p=14068",
+          "author": null,
+          "description": "I first started, my main problem was that the selection procedure described in the documentation didn’t work for me. I was almost certain that was because of an interaction with Ivy; my commenters agreed and offered some things to try.\n\n\nAfter some experimentation, I still wasn’t able to get that aspect of Jinx working. I decided to wait for Emacs 31 to revisit the issue. Emacs 31 is here but I still haven’t addressed the problem. Most of the reason for that is that I’ve developed some efficient muscle memory for dealing with the problem. I have jinx-correct bound to Ctrl+; and when I call jinx-correct, I continue holding down Ctrl and can easily move down in the list of alternatives by pressing n. Usually the first choice is the one I want so it’s only a single press. Then I type Return to update the text.\n\n\nThat seems like a little more work than simply pressing a number but I don’t need to move my hands or reach to do it so it seems easy to me. I’ll probably do a bit more research and get the default method working when I get a chance but in the mean time, I’m pretty happy with how it’s working for me now.\n\n\nI’m really enjoying how easy it is to put an “unknown spelling” in a variety of places—the current file, the current directory, or in a personal global dictionary—and am happy I switched. If you haven’t tried it yet, you should give it a spin.",
+          "link": "https://irreal.org/blog/?p=14068",
+          "publishedOn": "2026-09-08T14:49:28.000Z",
+          "wordCount": 1536,
+          "title": "Irreal: Jinx Upate Number …",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lars.ingebrigtsen.no/2026/09/08/calendaring/",
+          "author": null,
+          "description": "The other week I made a calendrical display for the eink thing I have.  The problem is that I don’t really use a calendar — I guess the main reason is because I hate planning, but the other reason is because I really dislike all the calendar entry interfaces I’ve used.\nI haven’t used all that many, though, so I may well be missing some ingenious calendar out there.  But what I’ve been resentfully using is the standard Google calendar on Android.\nI filmed one of my interactions with this thing, and I swear — I didn’t try to make it more awkward than it is for me:\n\nI’d be climbing up the walls if I were to try to use it more than I do now — I just put the absolute bare necessities in there, like dentist appointments and Boris shows.  (One coming up in November!)\nBut now I have this calendar in the hall…  wouldn’t it be nice to have it display more stuff?  Stuff that I really should be remembering, anyway?\nThere’s also org-gcal, if you’re in the Org ecosystem…  but…  I’m not.\nDoes a command line interface to Google Calendar work?  Because I want to have the calendar in my pocket, too.  And…  Yes, there’s gcalcli.  (Which I noticed hasn’t been updated for two years and is probably going to be deprecated, but it works for now, so I haven’t bothered to redo my code.)\nAfter going through the byzantine process on Google Cloud Console to create an “application”:\n\nYes!  You have to create a logo!  Behold my magnificent logo!\nAnyway, after all that…  tada:\n\nYes!  The system works!\nIt does the normal Do What I Mean Thing — “fri 9” means “next Friday at 9am”, and “aug 11 1930” means “half past seven on August 11”, etc:\n\nI’m freee!  I never have to enter a calendar entry on the mobile phone ever again!\nI’ve put the resulting code on Microsoft Github.",
+          "link": "https://lars.ingebrigtsen.no/2026/09/08/calendaring/",
+          "publishedOn": "2026-09-08T14:48:46.000Z",
+          "wordCount": 1407,
+          "title": "Lars Ingebrigtsen: Calendaring",
+          "imageUrl": "https://lars.ingebrigtsen.no/wp-content/uploads/2026/09/DSC08680-scaled.jpg"
+        },
+        {
           "id": "https://sachachua.com/blog/2026/09/2026-09-07-emacs-news/",
           "author": null,
           "description": "Games\". Enjoy! Other really cool uses of graphics in Emacs: org-timegrid, poimap, canvas-minimap.\n\n\n\nAlso, public service announcement: doomemacs.com is not affiliated with doomemacs.org (see this Github discussion). Just in case someone reading this happens to be the person who made doomemacs.com, please consider setting up a redirect to doomemacs.org for more awesomeness and less confusion. Thank you!\n\n\n\nAnd a reminder: EmacsConf - 2026 - Call for Participation target date for proposals Sept 18, conference is online Dec 12-13. Hope to see you there!\n\n\n\nUpcoming events (iCal file, Org):\n\nLondon Emacs (in person): Emacs London meetup https://www.meetup.com/london-emacs-hacking/events/316294538/ Tue Sep 8 1800 Europe/London\nEmacs Berlin: In-Person-Only Emacs-Berlin Stammtisch https://emacs-…",
@@ -416,6 +446,66 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=234830",
+          "author": "Drew Magary",
+          "description": "Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGATE, and buy Drew’s books while you’re at it. Today, we're talking about sentence diagrams, proper oven temperature, forbidden urinals, and more.\nBefore we get to the business at hand, a quick reminder that All Ball, the Defector NFL podcast, debuts tomorrow morning. Co-host Arif Hasan and I are bringing you 100 percent football takes, with no added gambling or fantasy talk. Look for it in the organic podcast aisle!\nYour letters:",
+          "link": "https://defector.com/should-college-football-have-an-age-limit",
+          "publishedOn": "2026-09-08T19:07:04.000Z",
+          "wordCount": 14897,
+          "title": "Should College Football Have An Age Limit?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2292367040.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234893",
+          "author": "Owen Lewis",
+          "description": "The U.S. Open is a city in miniature. The food is expensive; wealthy people flock to the tallest vantage points while richer experiences on the outskirts are ignored; influencers bother the masses. Read enough about the tournament, or just walk around the grounds for a few days, and you could forget that tennis is played here. At its worst, the Open feels like a 15-day cocktail party where a couple hundred of the world's best tennis players happen to be present. Those players aren't going anywhere, though, no matter how high the ticket prices get or how muted the ambiance becomes. And they tend to play some great tennis while they're here.\nCarlos Alcaraz is back from a four-month layoff for a wrist injury, and so is his forehand. He hit a winner at 107 mph to get his first break of the tournament. The serve's still missing, but that's fine; he's playing at an all-world level even without it, and the forehand was always more synonymous with his abilities as an entertainer. Alcaraz spent his first two matches reviving the gonzo, inventive style that went extinct during his absence. Rather than crush short backhands down the line, he wafted them crosscourt, trying to hit the advertising boards along the sides of the court before his opponent could reach the ball. He tickled the forecourt with drop shots and let the area around the baseline feel the vertical plonk of a lob as well as the horizontal swipes of his forehand. \nTo some, though, Alcaraz's off-court movements are of more interest. During his first-round match, I inadvertently glanced at my media section neighbor's phone and caught an incoming text, printed here with neighbor's permission: \"Is Carlos a pussy hound?\"",
+          "link": "https://defector.com/theres-still-tennis-at-the-u-s-open",
+          "publishedOn": "2026-09-08T18:23:12.000Z",
+          "wordCount": 9885,
+          "title": "There’s Still Tennis At The U.S. Open",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2293428476.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234639",
+          "author": "Steven Goldman",
+          "description": "Defector has partnered with Baseball Prospectus to bring you a taste of their work. They write good shit that we think you’ll like. If you do like it, we encourage you to check out their site and subscribe.\nThis story was originally published at Baseball Prospectus on September 3.\nThere is a legacy of bare competence behind the Angels’ 65-year run of never losing 100 games that shouldn’t be taken for granted. If this year’s iteration finally uncorks that bottle of swill, it will be a fitting monument to outgoing owner Arte Moreno who, finally, mercifully, agreed to bow out this week. What Stan Kroenke’s ownership will be like beyond the inevitable shiny new sports palace and adjoining pre-fab “neighborhood” remains to be seen, but the bar is as low as it was after Bob Quinn’s stewardship of the Red Sox or Frank McCourt’s misuse of the Dodgers.",
+          "link": "https://defector.com/the-angels-are-just-passing-through",
+          "publishedOn": "2026-09-08T17:51:12.000Z",
+          "wordCount": 9351,
+          "title": "The Angels Are Just Passing Through",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2292770980.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234863",
+          "author": "Israel Daramola",
+          "description": "Pretty much from the moment the Florida State Seminoles decided to retain Mike Norvell as their coach for the 2026 season, the word out of the football program has been pain and misery. They lost three dozen players to either graduation or the transfer portal, they couldn't entice any of the better available quarterbacks, and they have been famously poor at recruiting throughout the Norvell era. Going into the season, the mood was dour, and an unimpressive victory over New Mexico State in Week 0 didn't improve the mood very much. When the big Labor Day weekend of games came to its conclusion with an FSU home matchup against SMU, and America was treated to a darkened stadium and an extended delay, it was hard for me personally to not sit there cackling like Max Cady at the status of my once-proud football school.\n\nhttps://twitter.com/awfulannouncing/status/2097114243921232359?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2097114243921232359%7Ctwgr%5E94ac4d061e8bfb73b0f3356d64113f29f0532308%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fawfulannouncing.com%2Fnews%2Fespn-power-outage-delay-florida-state-smu.html\n\n\nThat's right! SMU–FSU kicked off nearly two hours late thanks to an unexplained power outage at Doak Campbell Stadium. As a Tallahassee native, my first thought was: Of course, there must be a hurricane or thunderstorm involved. But no, the weather was perfect (except for the humidity, and that's normal). The lights would flicker on and off for a while. It seems to have been some kind of power drain at the stadium (not a metaphor) that caused problems. After the lights did come on, the game had already lost any juice it might've had, starting with our problematic mascot throwing the flaming spear onto midfield and having it fall with a lifeless thud rather than stick the landing (also not a metaphor).",
+          "link": "https://defector.com/the-lights-gone-out-at-florida-state",
+          "publishedOn": "2026-09-08T16:44:56.000Z",
+          "wordCount": 5974,
+          "title": "The Light’s Gone Out At Florida State",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2294059968.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234843",
+          "author": "Luis Paez-Pumar",
+          "description": "Four matches into the La Liga season, Barcelona has looked like one of the greatest attacking teams of all time. What other conclusion can I draw from the club's start? With Sunday's 5-0 whomping of Valencia away at the Mestalla, Barcelona has now played four matches, notched four decisive wins (5-0 vs. Elche, 2-0 vs. Athletic Bilbao, and 5-2 vs. Rayo Vallecano were the others), scored a ludicrous 17 goals, and conceded only two. The Barcelona monster has been gluttonous from the word go, and the way that the blaugrana has been performing is more than sustainable, even if the actual tallies are out-of-this-world unbelievable.\n\nhttps://www.youtube.com/watch?v=BVeuyol-th4\n\n\nAbout that Valencia match: The Bats are a disaster of a club, mired in last place domestically with just one point, and its fans are currently feuding openly with ownership. It's hard enough to keep up with Barcelona, never mind to actually beat the Catalan giant, and so there was little question about the result on Sunday. Lamine Yamal opened the scoring in the sixth minute with a feathered chip past Valencia goalie Stole Dimitrievski, and it went downhill for Valencia from there.",
+          "link": "https://defector.com/barcelona-is-the-greatest-show-on-european-soil",
+          "publishedOn": "2026-09-08T16:02:12.000Z",
+          "wordCount": 8016,
+          "title": "Barcelona Is The Greatest Show On European Soil",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2293872180.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=234840",
+          "author": "Barry Petchesky",
+          "description": "Did you forget about the Yankees? I know you did not because you are not allowed to. But New York has had a relatively quiet season by their flamboyant and national-TV-darling standards. A big part of this is that the AL East has looked pretty much the same for a while now: The Rays have maintained a comfortable but not secure division lead; the less said about what's happening down there with the bird teams, the better; and in the middle, the Red Sox have ended child hunger and positioned themselves for what feels like an inevitable three-game wild card series against New York. \nIf the Yankees have been invisible, it's because they've only been \"pretty good,\" and mostly because they can't hit for shit. Since June 1, they've slashed .227/.295/.385, rank 26th in MLB in runs scored, and 29th in wRC+. That they remain safely in playoff position is testament to their league-best pitching, but any self-respecting Bronx Bomber fan will tell you that's an unethical way to win ballgames. That's what the \"Milwaukee Brewers\" do. Yankees fans demand big boys! Big meaty boys swinging those big bats! Instead they got Trent Grisham.\nThat changes tonight. Why choose June 1 as the cutoff for the stats above? That's the day Aaron Judge went on the IL for a stress fracture in his rib, suffered more than a month earlier. “We’ve had long stretches where the offense has struggled. I think a big part of that is not having your guy,” manager Aaron Boone said. Their guy has now missed more than half the season, and as goes Judge so go the Yankees: They were a .610 team with him in the lineup, and a .536 team without him.",
+          "link": "https://defector.com/aaron-judge-back",
+          "publishedOn": "2026-09-08T14:23:44.000Z",
+          "wordCount": 6067,
+          "title": "Aaron Judge Back",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2293902813.jpg"
+        },
         {
           "id": "https://defector.com/?p=234829",
           "author": "Tom Ley",
@@ -993,6 +1083,16 @@
       "feedUrl": "https://www.reddit.com/r/DepthHub/.rss",
       "siteUrl": "https://www.reddit.com/r/DepthHub/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/DepthHub/comments/1waqkez/utea_and_biology_explains_how_wolves_and_coyotes/",
+          "author": null,
+          "description": "submitted by    /u/pr06lefs  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DepthHub/comments/1waqkez/utea_and_biology_explains_how_wolves_and_coyotes/",
+          "publishedOn": "2026-09-08T14:51:01.000Z",
+          "wordCount": null,
+          "title": "u/tea_and_biology/ explains how wolves and coyotes occupy different ecological niches",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/DepthHub/comments/1w7sjz9/uheartno621_explains_similarities_between/",
           "author": null,
@@ -2099,16 +2199,6 @@
           "wordCount": 3556,
           "title": "Most Unexpected",
           "imageUrl": "https://foxtrot.com/wp-content/uploads/2026/08/ft260906-foxtrot-comics-bill-amend-most-unexpected-water-boy-football-peter-fox-coach-sports-sunday-comic-strip.png"
-        },
-        {
-          "id": "https://foxtrot.com/?p=6239",
-          "author": "Bill Amend",
-          "description": "FoxTrot by Bill Amend | August 30, 2026",
-          "link": "https://foxtrot.com/2026/08/30/boiled-salad/?utm_source=rss&utm_medium=rss&utm_campaign=boiled-salad",
-          "publishedOn": "2026-08-30T05:01:00.000Z",
-          "wordCount": 3497,
-          "title": "Boiled Salad",
-          "imageUrl": "https://foxtrot.com/wp-content/uploads/2026/08/ft260830-foxtrot-comics-bill-amend-boiled-salad-cyclosporiasis-food-sunday-comic-strip.png"
         }
       ]
     },
@@ -2117,6 +2207,16 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/fragments/2026-09-08.html",
+          "author": null,
+          "description": "Christian Catalini says we’re in a situation where we are vastly reducing the cost of generating things, but not the cost of verifying them:.\nThis explains why the first major AI products appeared in chat, image generation, and code assistance. Not because these were the hardest human problems, but because their outputs were relatively easy to inspect. A user can judge the tone of a message, look at an image, or run a test on a piece of code.\n[…]\nThe old automation boundary was routine versus non-routine work. The new boundary is increasingly measurable versus non-measurable work.\nThe issue is then over how well you can measure something. In our profession, we know there’s a big difference between how many lines of code we write and how productive we are, and we’ve seen a regular failure t…",
+          "link": "https://martinfowler.com/fragments/2026-09-08.html",
+          "publishedOn": "2026-09-08T15:22:00.000Z",
+          "wordCount": 2125,
+          "title": "Fragments: September  8",
+          "imageUrl": "https://martinfowler.com/fragments/fragments-thumb.png"
+        },
         {
           "id": "https://martinfowler.com/articles/never-send-slides/need-presentation.html",
           "author": null,
@@ -2207,6 +2307,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1557014",
+          "author": "Josh Marshall",
+          "description": "The Israeli daily Haaretz published a big and consequential exposé today alleging that weeks before the October 7, 2023 massacres...",
+          "link": "https://talkingpointsmemo.com/edblog/making-sense-of-that-big-story-saying-netanyahu-was-warned-about-oct-7",
+          "publishedOn": "2026-09-08T17:49:04.000Z",
+          "wordCount": 3943,
+          "title": "Making Sense of That Big Story Saying Netanyahu Was Warned About Oct 7",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2023/10/GettyImages-1719693069-scaled.jpg?w=1200"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1556943",
           "author": "Josh Marshall",
@@ -2334,6 +2444,22 @@
       "feedUrl": "https://morningmemo.talkingpointsmemo.com/feed",
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/trump-launches-whole-of-government",
+          "author": "David Kurtz",
+          "description": "INSIDE: Todd Blanche ... Tony Fauci ... Christian Castro",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/trump-launches-whole-of-government",
+          "publishedOn": "2026-09-08T15:42:40.000Z",
+          "wordCount": null,
+          "title": "Trump Launches Whole-of-Government Attack on Midterm Elections",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!dGV6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65f0f3c4-446e-40ed-8eda-ec4ad99fd983_600x450.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!dGV6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65f0f3c4-446e-40ed-8eda-ec4ad99fd983_600x450.jpeg"
+        },
         {
           "id": "https://morningmemo.talkingpointsmemo.com/p/trump-doj-fires-prosecutor-in-ice",
           "author": "David Kurtz",
@@ -2492,6 +2618,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/preznit-fuckwit-and-republicans-apparently",
+          "author": "Jeff Tiedrich",
+          "description": "watch what they do, not what they say",
+          "link": "https://www.jefftiedrich.com/p/preznit-fuckwit-and-republicans-apparently",
+          "publishedOn": "2026-09-08T14:44:37.000Z",
+          "wordCount": null,
+          "title": "Preznit Fuckwit and Republicans apparently unclear on the concept of Labor Day",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!jli9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b372bb5-633e-49ab-a106-4f00f99d14d1_660x370.webp",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!jli9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b372bb5-633e-49ab-a106-4f00f99d14d1_660x370.webp"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/holy-shit-dear-leader-is-fucking",
           "author": "Jeff Tiedrich",
