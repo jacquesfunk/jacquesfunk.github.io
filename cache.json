@@ -33,6 +33,46 @@
       "siteUrl": "https://baty.net/index.xml",
       "articles": [
         {
+          "id": "https://baty.net/journal/10Sep26/",
+          "author": null,
+          "description": "Tailgating at Notre Dame (2015)\nI used to be entertained when I visited Mastodon. I sometimes still am, but more often lately I'm angry, disappointed, frustrated, and depressed. Not sure what to do about that, but I'm sure it's not more Mastodon.\nI'm addicted to my computer(s). It's unhealthy and I don't know how I'm going to fix it. For now, I'm going to a friend's cottage for a couple of days. Maybe that'll start something.\n✍️ Reply by email",
+          "link": "https://baty.net/journal/10Sep26/",
+          "publishedOn": "2026-09-10T12:31:56.000Z",
+          "wordCount": 144,
+          "title": "Thursday, September 10, 2026",
+          "imageUrl": "https://baty.net/img/2026/20260910T085026--feet-on-pavement.webp"
+        },
+        {
+          "id": "https://baty.net/posts/2026/09/i-just-need-to-pick-a-notebook-already/",
+          "author": null,
+          "description": "This is only 3 out of the five (soon to be 6[1]) notebooks I use regularly. I don't use all of them because I need them. I use them because I can't decide which notebook to use for which purpose.\nIn the photo are:\nTraveler's Notebook. This is nice for when I want to have options. I can throw all sorts of inserts in there, and I do. The cover feels great and has worn nicely.\nField Notes. I've carried a little Field Notes notebook for a long time. I'm not always sure why, as I seldom actually write anything in them. It's comforting to know it's there, though. Maybe one day I'll have a \"thought or idea\" while I'm out and about and I'll be ready.\nBaronfig Confidant Hardcover Notebook. My first Baronfig. It's nice, but I'm not sure I prefer it to my usual Leuchtturm. I use it for tasks, lists, etc. It's my version of a \"bullet journal\".\nOthers are: a Leuchtturm for a kind of scrapbook where I paste photos, receipts, etc. and write short notes about them. The other is a Midori MD Notebook, which is supposed to be a journal/diary. It would be, but I have too many other places to write things, so this one is only used occasionally. See what I mean?\nThese are just the ones I can reach from my desk\n\nI've been here a few times. See Three Notebooks from 2016.\nJust like with blogs, I'd prefer to have just one notebook for everything, but I'm not a person who can do that, apparently.\nI have a 2027 Hobonichi Techo on the way ↩︎\n✍️ Reply by email",
+          "link": "https://baty.net/posts/2026/09/i-just-need-to-pick-a-notebook-already/",
+          "publishedOn": "2026-09-10T10:56:16.000Z",
+          "wordCount": 355,
+          "title": "I just need to pick a notebook, already",
+          "imageUrl": "https://baty.net/img/2026/20260910-notebooks.jpg"
+        },
+        {
+          "id": "https://baty.net/journal/09Sep26/",
+          "author": null,
+          "description": "4x5 self portrait (2019). Blew the exposure so overdid the processing to compensate.\nI keep posting on baty.blog like it's my actual blog. It's got something to do with not feeling like being in Emacs for a minute. Emacs isn't required to post here, but I have a bunch of little helpful lisp functions that make it easy, so Emacs is the only place I do it. Baty.blog uses Pure Blog, which makes it even easier to post there. Also, baty.blog has comments and is now Webmention-capable, thanks to Kev's resent work on Pure Comments. Anyway, I'm not ready to bail on either blog, so you're stuck with two of them.\nThe left Control key on the Framework 13 stopped working this morning. I thought to myself, \"See!? I told you Linux was a bad idea!\" but Claude Code did 10 minutes of troubleshooting and found a change made by a recent (CachyOS) system update and it was fixed. Sometimes Claude is a miracle.\n✍️ Reply by email",
+          "link": "https://baty.net/journal/09Sep26/",
+          "publishedOn": "2026-09-09T19:21:07.000Z",
+          "wordCount": 232,
+          "title": "Wednesday, September 9, 2026",
+          "imageUrl": "https://baty.net/img/2026/20260909T153714--self-portrait-4x5.webp"
+        },
+        {
+          "id": "https://baty.net/journal/07Sep26/",
+          "author": null,
+          "description": "Lincoln with beach ball (2026). Leica MP\nI just learned about FerrumPix: Photo Management and RAW Editing for Linux, Windows, and macOS. It's very new and changing rapidly. It's an ambitious project.\n✍️ Reply by email",
+          "link": "https://baty.net/journal/07Sep26/",
+          "publishedOn": "2026-09-07T09:42:28.000Z",
+          "wordCount": 100,
+          "title": "Monday, September 7, 2026",
+          "imageUrl": "https://baty.net/img/2026/lincoln-with-beach-ball.webp"
+        },
+        {
           "id": "https://baty.net/posts/2026/09/trying-a-new-emacs-config/",
           "author": null,
           "description": "I'm typing this in Emacs using a completely new config and it's so weird. I've been running Emacs v31 everywhere and thought I'd try leaning on more of the built-in completion behavior, and it spiraled out of control.\nI ended up looking at emacs-solo because it's a fancy configuration that only uses built-in packages. It was easy to try out, so I did. And I liked it. I added the necessary-for-me missing components of my old config.\nMy favorite part is that I went from 143 installed packages to 49 and got rid of hundreds of lines of config that I didn't really need. Also, my startup time was cut in half and is now under 1 second. Nice.\nIt'll take a minute for everything to burn in and shake out, but so far I don't hate it.\n✍️ Reply by email",
@@ -79,6 +119,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://metaredux.com/posts/2026/09/10/clojurists-together-update-july-august-2026.html",
+          "author": null,
+          "description": "Time for another bi-monthly update on the work that Clojurists Together are funding this year - my\nmaintenance of nREPL, CIDER and friends. I published the previous one as a blog post for the first time\nand the feedback was good enough that I’ll keep doing it.\nLast time I said that I had plucked most of the low-hanging fruit and that the next two months were unlikely to be as productive. Well, I was wrong.\nCIDER 2.0 finally shipped, and once it was out the door I used the momentum to sweep through pretty much every corner of the nREPL/CIDER ecosystem.\nA few long-neglected projects got proper releases, and nREPL got a couple of brand new implementations in languages I play on the side from time to time.\nThe big highlights from my perspective:\nCIDER 2.0 (“Terceira”) is out, followed by 2.0.1…",
+          "link": "https://metaredux.com/posts/2026/09/10/clojurists-together-update-july-august-2026.html",
+          "publishedOn": "2026-09-10T09:30:00.000Z",
+          "wordCount": 2486,
+          "title": "Meta Redux: Clojurists Together Update: July and August 2026",
+          "imageUrl": "https://metaredux.com/assets/og-image.png"
+        },
         {
           "id": "https://lars.ingebrigtsen.no/2026/09/10/some-llm-spell-check-experiences/",
           "author": null,
@@ -396,6 +446,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=235032",
+          "author": "Post-Postdoc",
+          "description": "The science fiction author William Gibson's pithy observation that \"the future is already here—it's just not very evenly distributed\" has had different shades of meaning since it was first formulated. In its original context, Gibson meant it as a measure of technological progress: certain people have access to gizmos, gadgets, and virtual reality dugongs before that blessed day when those innovations trickle down to the rest of us.\nThere has always been an economic valence to this quote: its first full appearance includes a mention of the “elite.” Over time, though, what I might call the post-Gibson interpretation of this insight tended increasingly towards economic inequality and left the technological aspect behind, since economic security is the axis along which \"difference\" has seemed to vary the most meaningfully across society since, say, the dawn of the iPhone, and \"progress\" stopped feeling like the right way to describe how technology has been changing once we all started to pack more computational power in our pockets than what was necessary to take humans to the moon. The most salient ways the rich differ from us these days no longer seems to lie in the technological horsepower they can harness, but more in the privacy they can rely on, the laws they can break, the impunity with which they can disregard the social compact, the scorn they can have for the future of the planet, and more. Or so I've heard.\nBut the uneven temporal and spatial impact of technology qua technology is having its moment again. Your experience of driverless cars is a lot different if you live in the Bay Area or Boston; the quality of your drinking water and the size of your electric bill depends on your proximity to a data center; and so on at ever finer scales, intruding on the neighborhood level, depending on how down your neighbors are with Flock cameras.",
+          "link": "https://defector.com/what-gets-left-out-of-maths-new-era",
+          "publishedOn": "2026-09-10T13:25:26.000Z",
+          "wordCount": 11786,
+          "title": "What Gets Left Out Of Math’s New Era?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/navier-stokes-light-master.jpeg"
+        },
         {
           "id": "https://defector.com/?p=234969",
           "author": "Giri Nathan",
@@ -1214,16 +1274,6 @@
           "publishedOn": "2026-09-02T00:31:27.000Z",
           "wordCount": 1470,
           "title": "Hump Day Hottie: Anya Taylor Joy",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3358",
-          "author": "Schill",
-          "description": "There are movies that try to be scary, movies that try to be funny, and movies that seem to have",
-          "link": "https://stuffthatinterestsme.net/troma-tuesday-class-of-nuke-em-high/",
-          "publishedOn": "2026-09-01T00:27:10.000Z",
-          "wordCount": 3151,
-          "title": "Troma Tuesday: Class Of Nuke ‘Em High",
           "imageUrl": null
         }
       ]
@@ -2089,16 +2139,6 @@
           "wordCount": 17448,
           "title": "When It Comes to International Trade, Treasury Secretary Scott Bessent Is Extraordinarily Good at This One Thing",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/7a0cbc9f-a334-4aca-a183-057f15ebfc67.jpeg?crop=1xw:0.749633967789xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73572919/kash-patel-fbi-hiring-crisis/",
-          "author": null,
-          "description": "The FBI has lowered its employment standards, no doubt because the guy in charge is an absolute fool.",
-          "link": "https://www.esquire.com/news-politics/politics/a73572919/kash-patel-fbi-hiring-crisis/",
-          "publishedOn": "2026-08-31T20:53:15.000Z",
-          "wordCount": 17996,
-          "title": "Nobody Wants to Work for Kash Patel",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/099adca1-3a4b-49dd-b3f1-14587a3fc412.jpeg?crop=1xw:0.75xh;0xw,0.148xh&resize=1200:*"
         }
       ]
     },
@@ -2373,6 +2413,16 @@
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://talkingpointsmemo.com/?p=1557185",
+          "author": "Josh Marshall",
+          "description": "You’ve probably seen that Treasury Secretary Scott Bessent has now tried to knock down interest rates on US debt –...",
+          "link": "https://talkingpointsmemo.com/edblog/the-rising-cost-of-money",
+          "publishedOn": "2026-09-10T12:42:50.000Z",
+          "wordCount": 1959,
+          "title": "The Rising Cost of Money",
+          "imageUrl": "https://s3.amazonaws.com/tpm-media/images/tpm-logo_square.png"
+        },
+        {
           "id": "https://talkingpointsmemo.com/?p=1557054",
           "author": "Josh Marshall",
           "description": "On Tuesday the United Kingdom announced a series of sanctions against Israeli settlements in the West Bank. They were joined...",
@@ -2491,16 +2541,6 @@
           "wordCount": 2747,
           "title": "Abdul El-Sayed, Zionism and American Civic Culture",
           "imageUrl": "https://s3.amazonaws.com/tpm-media/images/tpm-logo_square.png"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1556388",
-          "author": "Josh Marshall",
-          "description": "Last week, after the death of Dolly Parton, I wrote about how Parton had aggressively and carefully preserved her various...",
-          "link": "https://talkingpointsmemo.com/edblog/mysteries-of-americana",
-          "publishedOn": "2026-08-31T22:14:48.000Z",
-          "wordCount": 2092,
-          "title": "Mysteries of Americana",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-50476771.jpg?w=1200"
         }
       ]
     },
@@ -2691,22 +2731,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!1jlc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdcef12ab-27b7-4a46-ae75-e69ae773b4d6_1600x1200.png"
-        },
-        {
-          "id": "https://wherethingsstand.talkingpointsmemo.com/p/trump-picks-tech-friends-over-republicans",
-          "author": "Nicole Lafond",
-          "description": "This is your TPM evening briefing.",
-          "link": "https://wherethingsstand.talkingpointsmemo.com/p/trump-picks-tech-friends-over-republicans",
-          "publishedOn": "2026-08-31T20:59:42.000Z",
-          "wordCount": null,
-          "title": "Trump Picks Tech Friends Over Republicans This Election Cycle",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!dcyn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ade6418-3e05-4da1-9bc4-cd711bbfb6be_1600x1200.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!dcyn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ade6418-3e05-4da1-9bc4-cd711bbfb6be_1600x1200.png"
         }
       ]
     },
