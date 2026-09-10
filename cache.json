@@ -80,6 +80,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://lars.ingebrigtsen.no/2026/09/10/some-llm-spell-check-experiences/",
+          "author": null,
+          "description": "A few days back, I hacked up a little minor mode for Emacs to use an LLM for spell checking.  (Before you get a heart attack — I did not say “editing”, “getting ideas” or “research”: Just spell checking.  Using an LLM for actual writing isn’t just a bad idea — it leads to abhorrent results.)\nI’ve been running a random selection of blog posts I wrote for the Comico read through blog to see whether the thing works well — and…  yes!  But also no.\nOK, positives first:\n1) For simple typos, it’s very good indeed — it finds them all.\nc) For word substitution errors, like “to” instead of “too”, it’s also very good.\nII) For grammar errors, it’s more mixed.  It’s good at, for instance, basic noun/verb agreement, so if I’ve written “they writes”, it fixes that.  But if the noun clause is long and com…",
+          "link": "https://lars.ingebrigtsen.no/2026/09/10/some-llm-spell-check-experiences/",
+          "publishedOn": "2026-09-10T08:14:38.000Z",
+          "wordCount": 1650,
+          "title": "Lars Ingebrigtsen: Some LLM spell check experiences",
+          "imageUrl": "https://lars.ingebrigtsen.no/wp-content/uploads/2026/09/2026-09-10-1.jpeg"
+        },
+        {
           "id": "https://www.jamescherti.com/emacs-consult-speed-async-searche-grep-ripgrep-fd-find/",
           "author": null,
           "description": "The consult Emacs package provides asynchronous search commands such as consult-fd, consult-find, consult-grep, consult-git-grep, and consult-ripgrep. For these commands, Consult does not necessarily start a new search for every change to the minibuffer input. Instead, it uses configurable debounce and throttle delays to control when asynchronous processes start, while a separate refresh delay controls how frequently asynchronous results are pushed to the completion UI.\nThe first time I tried Consult, I thought to myself: this feels slow compared to Counsel (I had a similar feeling about Emacs settings such as show-paren-delay). With Counsel, results updated immediately on every keystroke, while Consult seemed to hesitate for a fraction of a second before updating the list.\nAs it turns out…",
@@ -377,36 +387,6 @@
           "publishedOn": "2026-09-01T04:00:00.118Z",
           "wordCount": 2891,
           "title": "Raymond Zeitler: Games: The Emacs Carnival Post For September 2026",
-          "imageUrl": null
-        },
-        {
-          "id": "https://sachachua.com/blog/2026/08/2026-08-31-emacs-news/",
-          "author": null,
-          "description": ";;; -*- lexical-binding: t -*-\n\n(add-to-list 'warning-suppress-types '(files missing-lexbind-cookie)). There are more details on lexical-binding in the Elisp info manual.\n\n\n\nEmacs Carnival: Check out the entries for August in \"The Search for Knowledge\" and stay tuned for September's topic, \"Games.\"\n\n\n\nEmacs 31:\n\nEmacs 31.1 is released! (Reddit, HN, HN, HN, Irreal, lobste.rs) - including this again from last week\nMickey Petersen: What's New in Emacs 31.1? (Reddit, HN) - including this again from last week\nAndroid builds of Emacs 31.1 now available\nEmacs 31.1 binaries now available for Windows (Reddit)\n\nUpcoming events (iCal file, Org):\n\nEmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/316121976/ Thu Sep 3 1600 America/Vancouver - 1800 America/Chicago - 1900 America/Toronto - 23…",
-          "link": "https://sachachua.com/blog/2026/08/2026-08-31-emacs-news/",
-          "publishedOn": "2026-08-31T19:23:36.000Z",
-          "wordCount": 1264,
-          "title": "Sacha Chua: 2026-08-31 Emacs news",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.jamescherti.com/securing-emacs-dir-locals-el-local-variables/",
-          "author": null,
-          "description": "Emacs automatically applies project-specific configurations through file-local and directory-local (.dir-locals.el) variables when opening a file or directory. While this feature ensures consistent settings across environments, it can cause security risks and persistent prompt fatigue when editing source code. Malicious .dir-locals.el files or file-local variables containing eval forms can execute arbitrary Lisp code if Emacs is configured to evaluate them, or if the user approves the relevant prompt by mistake.\nThis article outlines configurations for securing file-local and directory-local variables while reducing prompts.\nAllowing safe local variables\nThe enable-local-variables variable controls how Emacs handles file-local variables. File-local variables are configurations embedded dir…",
-          "link": "https://www.jamescherti.com/securing-emacs-dir-locals-el-local-variables/",
-          "publishedOn": "2026-08-31T17:34:49.000Z",
-          "wordCount": 2353,
-          "title": "James Cherti: Securing and reducing prompts for Emacs .dir-locals.el and local variables",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curtismchale.ca/2026/08/31/the-search-for-knowledge-emacs-carnival",
-          "author": null,
-          "description": "August Emacs carnival is about the search for knowledge. While I take notes and link them, I don't use Emacs. I've been on the Obsidian train pretty much since it came out with a short deviation into Craft.\nI've loved the plugins that Obsidian has, but those plugins are also it's downfall. I used the Long Form plugin for a while, but then stopped and move that writing to Emacs because the plugin was loosing my data any time I tried to use it. But despite my love for Emacs, I haven't moved my notes over to it and I have no plans on moving my notes over to Emacs.\nCurrently Obsidian has around 9,000 individual files across my notes and writing. It's saved in a portable markdown format. Obsidian's sync service works flawlessly all the time and the mobile apps are good.\nOn the Emacs side, every few weeks I have some issue with Syncthing that means I need to sort out some type of sync conflict and because of this I really only add content from my phone via Beorg to my inbox.org file. I don't edit other files if I can help it, the risk is simply to high that I'll have some huge mess to sort out when I get back to my desktop.\nThe main reason I don't switch is that I don't think that migrating tools is the big productivity boost that most people think it is. Yes the Emacs vim key bindings are better than what Obsidian provides. Yes I can very easily hack Emacs to do whatever I want, but Obsidian does everything I need already. So moving my notes to Emacs would most likely be me finding Emacs more fun right now than Obsidian because it's new.\nI've wondered about accessing Obsidian from Emacs so I have Emacs goodness in my Obisidian, but even that feels like me searching for a reason to use Emacs where I don't really need it.\nIf you want to read how I setup Obsidian, my 2026 walkthrough is still how I do it.",
-          "link": "https://curtismchale.ca/2026/08/31/the-search-for-knowledge-emacs-carnival",
-          "publishedOn": "2026-08-31T16:34:00.000Z",
-          "wordCount": 421,
-          "title": "Curtis McHale: The Search for Knowledge - Emacs Carnival",
           "imageUrl": null
         }
       ]
@@ -1055,66 +1035,6 @@
           "wordCount": 12224,
           "title": "What Do Booksellers Make Of “The End Of Reading”?",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/Reading.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234058",
-          "author": "Diana Moskovitz",
-          "description": "Three NFL players were placed on the commissioner's exempt list this past weekend: Seattle Seahawks cornerback Terrion Arnold, Denver Broncos outside linebacker Jonathon Cooper, and Green Bay Packers running back Josh Jacobs. All three will be unable to play while they are on the list, but they still get their game checks. It's the NFL's version of paid leave.\nAll three have been charged in criminal court. For Cooper and Jacobs, the charges are in cases that include allegations of intimate-partner violence. Arnold is charged with playing a role in a violent robbery and kidnapping in Florida. \nThe commissioner's exempt list was a little-used tool until 2014, when video came out showing then–Baltimore Ravens running back Ray Rice hitting his fiancée in an Atlantic City elevator and fans were outraged that Rice had been suspended just two games for what happened. Since then, the list has become a tool used by the NFL to get players off the field before a full investigation can be done. It also usually involves a player getting a lot of negative media attention and typically, though not always, involves intimate-partner violence. As Mike Florio put it over at ProFootballTalk: \"The league regards the move as not punishment (even though it absolutely is).\"",
-          "link": "https://defector.com/nfl-puts-three-players-on-paid-leave",
-          "publishedOn": "2026-08-31T19:02:11.000Z",
-          "wordCount": 7227,
-          "title": "NFL Puts Three Players On Paid Leave",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2291230921-e1788142509627.jpeg"
-        },
-        {
-          "id": "https://defector.com/?p=234153",
-          "author": "Dave McKenna",
-          "description": "There are tired fighters, and then there’s Moses Itauma in the ninth round of Saturday night’s heavyweight title bout against Filip Hrgovic. \nWith about 30 seconds left in what would be the last round of this odd but completely fascinating fight in London, the gifted but inexperienced Itauma was suddenly so gassed that he seemed utterly incapable of raising his hands above his waist, let alone defending himself from the durable Croatian veteran who was suddenly swarming him with blows from hell. Referee Howard Foster rightly called the fight and shocked the boxing world. \n\nhttps://www.youtube.com/watch?v=QLGEoGQGXPg",
-          "link": "https://defector.com/the-future-face-of-the-heavyweight-division-gets-disfigured",
-          "publishedOn": "2026-08-31T18:28:05.000Z",
-          "wordCount": 6230,
-          "title": "The Future Face Of The Heavyweight Division Gets Disfigured",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2292700452.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234128",
-          "author": "Patrick Redford",
-          "description": "On Friday, the U.S. Ninth Circuit Court of Appeals issued a 3-0 ruling against Kalshi, a ruling that in theory gives states the power to regulate the \"prediction market\" platform. However strong that sounds, one can't fairly characterize the decision as authoritative. While the San Francisco–based court's unanimous ruling represents the most significant curtailment of the don't-call-it-gambling gambling platform, the fight between the Kalshian cohort of bloodsuckers and those who would regulate them is of a larger and stupider nature than even the biggest appeals court in the nation can handle.\nWe have to start with the odd fact that Kalshi, and the Polymarket prediction market, are presently regulated by the federal government. Not in any meaningful way, of course—befitting a pair of organizations that have each hired Donald Trump Jr. as a \"strategic advisor\"—but both are technically overseen by the Commodity Futures Trading Commission, a small agency, created in 1974, that typically governs futures markets and other forms of derivatives. The prediction markets' core argument in the case before the Ninth Circuit is that CFTC oversight is sufficient, which is to be expected given that the scope of that regulatory relationship has amounted to a big thumbs-up in exchange for whatever it costs to buy a Trump son or two. \nThe CFTC has become a critical arm of the Donald Trump financial crimes apparatus because it has statutory authority to regulate commodities and to classify all sorts of things that are not commodities, like cryptocurrency and online sports bets, as such. This designation lightens the regulatory burden. Securities, by contrast, are subject to stricter rules, which is part of why the Bitcoin people are obsessed with calling the obviously securitized asset digital gold.",
-          "link": "https://defector.com/kalshi-lawsuit-pits-states-against-trump-familys-corruption-machine",
-          "publishedOn": "2026-08-31T17:52:46.000Z",
-          "wordCount": 5945,
-          "title": "Kalshi Lawsuit Pits States Against Trump Family’s Corruption Machine",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2265177104.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234097",
-          "author": "Giri Nathan",
-          "description": "For the first time in over 20 years, Novak Djokovic lost his first-round match at a Slam. On Sunday he fell in five sets to world No. 49 Mariano Navone, a 25-year-old clay-court specialist appearing in just his third-ever U.S. Open main draw. In other words, the sort of opponent Djokovic has made a career of dispatching, even if it did sometimes take him a leisurely five sets to do it.\nIn this late period of his career, Djokovic has professed his love of the best-of-five format, which affords him time to recalibrate. His comeback after a hot start from a plucky youth has played out so many times that there's an air of inevitability in the stadium as he goes about his business, overcoming his aches and steadying the scoreboard. But this was not the Djokovic of matches past, and there was no air of inevitability Sunday night—just a gruesome scene. The 39-year-old labored, vomited, and cried en route to losing 7-6(5), 5-7, 4-6, 6-2, 6-1.\nNot since the 2006 Australian Open—a tournament he'd go on to win 10 times—has Djokovic exited a Slam in the first round. He'd also never lost in the U.S Open’s first round before. But this loss was not without recent precedent. Djokovic had struggled with the heat at the Cincinnati Open in mid-August, losing his first match there to Thiago Agustin Tirante: coincidentally, another 25-year-old Argentine then ranked around No. 50. During that match, Djokovic appeared to vomit and took a medical timeout. After that loss, he referenced an unspecified health condition \"that has been bothering me for the past couple of years,\" making it hard for him to play in hot and humid weather. To the best of my knowledge, that was his first-ever public reference to such a condition.",
-          "link": "https://defector.com/novak-djokovic-pukes-and-crumbles-at-the-u-s-open",
-          "publishedOn": "2026-08-31T17:33:41.000Z",
-          "wordCount": 7458,
-          "title": "Novak Djokovic Pukes And Crumbles  At The U.S. Open",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2292769135.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234098",
-          "author": "Luis Paez-Pumar",
-          "description": "Two matches into a new Premier League season is the perfect time to overreact. One match is a fluke; three matches feel too real. Two matches, however, give an overeager observer just enough pattern recognition to make claims that far exceed reality. This is doubly true if a club has shown quality and frailty in almost equal part. Therefore, after two barnstorming wins and/or two near-collapses to open the 2026-27 campaign, I feel confident in saying that Chelsea is great, doomed, and a work in progress.\n\nhttps://www.youtube.com/watch?v=mfN4qZtc5sk\n\n\nReally, how you feel about Chelsea will depend on how you feel about life. For an optimist, the club beating last year's 11th- and 8th-placed teams to start the season, the former away from home and the latter at Stamford Bridge, is a beautiful start to the Xabi Alonso era. On the flip side, Chelsea's inability to see out either game without letting the opponents back into them is a pessimist's fantasy, a red klaxon blaring over Chelsea's lopsided roster construction and a manager who, while highly regarded, is coming off of a high-profile flameout. The boring and most correct feeling is probably somewhere in the middle, of course, but that's no fun. What is fun is Chelsea Football Club as it stands after two matchweeks; similarly to last season's Liverpool, the Blues have declared themselves as the main event for neutrals, a must-watch whirlwind of chaos that might leave Chelsea fans needed heart medication.",
-          "link": "https://defector.com/chelsea-contains-thrilling-multitudes",
-          "publishedOn": "2026-08-31T16:22:22.000Z",
-          "wordCount": 7464,
-          "title": "Chelsea Contains Thrilling Multitudes",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2292702360.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234099",
-          "author": "Mike Tanier",
-          "description": "Some people are fans of the Houston Texans. But many, many more people are NOT fans of the Houston Texans. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.\nYour team: Houston Texans.\nYour 2025 record: The Texans won 12 games last year. Their defense stomped around like King Ghidorah ravaging Tokyo. Their offense puttered along like a dump truck with two flat tires and one square one.",
-          "link": "https://defector.com/why-your-team-sucks-2026-houston-texans",
-          "publishedOn": "2026-08-31T15:21:04.000Z",
-          "wordCount": 15441,
-          "title": "Why Your Team Sucks 2026: Houston Texans",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-2256666978.jpg"
         }
       ]
     },
@@ -2179,16 +2099,6 @@
           "wordCount": 17996,
           "title": "Nobody Wants to Work for Kash Patel",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/099adca1-3a4b-49dd-b3f1-14587a3fc412.jpeg?crop=1xw:0.75xh;0xw,0.148xh&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73571184/marco-rubio-free-speech-lawsuit-federal-judge/",
-          "author": null,
-          "description": "Another L for the incredible shrinking secretary of state.",
-          "link": "https://www.esquire.com/news-politics/politics/a73571184/marco-rubio-free-speech-lawsuit-federal-judge/",
-          "publishedOn": "2026-08-31T17:28:48.000Z",
-          "wordCount": 18499,
-          "title": "A Federal Judge Just Kicked Marco Rubio’s Butt in a No-Brainer Decision About Protected Speech",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/9b2d344a-a3f5-4d15-a75e-3b6027c2fc7e.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
         }
       ]
     },
@@ -2221,6 +2131,22 @@
       "feedUrl": "https://www.flowstate.fm/feed",
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
+        {
+          "id": "https://www.flowstate.fm/p/cephas-azariah-interview",
+          "author": "Flow State",
+          "description": "Today we’re listening to Cephas Azariah, an Indian-born British composer based in Brighton.",
+          "link": "https://www.flowstate.fm/p/cephas-azariah-interview",
+          "publishedOn": "2026-09-10T07:02:35.000Z",
+          "wordCount": null,
+          "title": "Cephas Azariah (Interview)",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!AHzD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70a06f22-15ff-40c8-a0a3-079024a943f5_1589x1589.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!AHzD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70a06f22-15ff-40c8-a0a3-079024a943f5_1589x1589.png"
+        },
         {
           "id": "https://www.flowstate.fm/p/across-the-horizon-ep-69-sarah-davachi",
           "author": "Flow State",
@@ -2678,22 +2604,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!rCSf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2c77a88-b091-4055-90bc-b1b2531043fa_600x450.jpeg"
-        },
-        {
-          "id": "https://morningmemo.talkingpointsmemo.com/p/what-happened-to-promised-federal",
-          "author": "David Kurtz",
-          "description": "INSIDE: Kash Patel ... James Clyburn ... Pete Hegseth",
-          "link": "https://morningmemo.talkingpointsmemo.com/p/what-happened-to-promised-federal",
-          "publishedOn": "2026-08-31T16:07:24.000Z",
-          "wordCount": null,
-          "title": "What Happened to Promised Federal Charges Against That Freed ICE Agent?",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!fy1G!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F186e7b4f-8c04-4f1a-9cdc-db0cdf3f59cd_400x600.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!fy1G!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F186e7b4f-8c04-4f1a-9cdc-db0cdf3f59cd_400x600.jpeg"
         }
       ]
     },
