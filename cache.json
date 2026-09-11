@@ -110,6 +110,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://bicycleforyourmind.com/traverse-through-outlines",
+          "author": null,
+          "description": "traverse icon\nTraverse | OPML Outliner for macOS\nPrice: Traverse Lifetime: $17.99. Annual Subscription: $9.99. Monthly Subscription: 0.99\nTL;DR::\nTraverse is a competent outliner which deals in OPML, Markdown and Fountain files. It is well-designed with a column view which is addictive.\nOPML All The Way\nTraverse saves its files in the OPML format. “OPML (Outline Processor Markup Language) is an XML format for outlines (defined as”a tree, where each node contains a set of named attributes with string values”). Originally developed by UserLand Software as a native file format for the outliner application in its Radio UserLand product, it has since been adopted for other uses, the most common being to exchange lists of web feeds between web feed aggregators.”[^https://en.wikipedia.org/wiki/OP…",
+          "link": "https://bicycleforyourmind.com/traverse-through-outlines",
+          "publishedOn": "2026-09-11T07:00:00.000Z",
+          "wordCount": null,
+          "title": "Bicycle for Your Mind: Traverse Through Outlines",
+          "imageUrl": null
+        },
+        {
           "id": "https://metaredux.com/posts/2026/09/10/clojurists-together-update-july-august-2026.html",
           "author": null,
           "description": "Time for another bi-monthly update on the work that Clojurists Together are funding this year - my\nmaintenance of nREPL, CIDER and friends. I published the previous one as a blog post for the first time\nand the feedback was good enough that I’ll keep doing it.\nLast time I said that I had plucked most of the low-hanging fruit and that the next two months were unlikely to be as productive. Well, I was wrong.\nCIDER 2.0 finally shipped, and once it was out the door I used the momentum to sweep through pretty much every corner of the nREPL/CIDER ecosystem.\nA few long-neglected projects got proper releases, and nREPL got a couple of brand new implementations in languages I play on the side from time to time.\nThe big highlights from my perspective:\nCIDER 2.0 (“Terceira”) is out, followed by 2.0.1…",
@@ -368,16 +378,6 @@
           "wordCount": 1292,
           "title": "Emacs Redux: Working with Git Worktrees in Magit",
           "imageUrl": "https://emacsredux.com/assets/og-image.png"
-        },
-        {
-          "id": "https://oylenshpeegul.gitlab.io/blog/posts/20260902/",
-          "author": null,
-          "description": "I just installed Alpine Linux on an old laptop. Works great!\n Last year, I complained about all of the lightweight Linux distributions being based on Debian. Alpine is not based on Debian and is very lightweight indeed; it uses busybox in place of many GNU utilities, musl libc in place of glibc, and openrc in place of systemd. Alpine is so small that lots of folks use it for containers and things.",
-          "link": "https://oylenshpeegul.gitlab.io/blog/posts/20260902/",
-          "publishedOn": "2026-09-02T00:00:00.000Z",
-          "wordCount": 443,
-          "title": "Tim Heaney: Alpine Linux",
-          "imageUrl": null
         }
       ]
     },
@@ -386,6 +386,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=235132",
+          "author": "Giri Nathan",
+          "description": "The quality of the average tennis broadcast has skyrocketed in recent years. Analysts assume far more curiosity and intelligence on the viewer’s part than I can ever remember, and they're no longer limited to tropes and cliches, recycled set after set. Instead the television audience receives tasty morsels of granular observation. Sure, you might still have to deal with a certain American legend entering the booth and freshly learning about the existence of any player ranked below No. 12, but a lot of bright minds are on the mic now, working hard to elucidate the game. Recently retired players like Andrea Petkovic and Chris Eubanks mesh wit with analysis, and former greats Andre Agassi and Andy Roddick get shockingly nitty-gritty about stroke production and point patterns. I feel heartened that some sizable audience cares about this stuff, and that networks like ESPN, TNT, and Tennis Channel have decided it’s worth investing in.\nMy current favorite commentator is Jim Courier, the former world No. 1 and four-time major champ, whose stateside employers are Tennis Channel and TNT, where he is especially adept at interpreting the interplay of variables in every tennis match: conditions, technique, tactics, fitness. You'll learn something new every time you hear him on the call. This past Monday at the Open, I sat down with Courier to talk about how he sees tennis, in hopes that it would help other fans see it better. Our conversation has been lightly edited for clarity.",
+          "link": "https://defector.com/how-tennis-channels-jim-courier-sees-the-sport",
+          "publishedOn": "2026-09-11T13:49:29.000Z",
+          "wordCount": 13216,
+          "title": "How Tennis Channel’s Jim Courier Sees The Sport",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2258464524.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235268",
+          "author": "Brian Feldman",
+          "description": "Name an iconic scene from the first Spider-Man movie, the one directed by Sam Raimi that came out in 2002. You’re saying it’s the upside-down kiss? Yeah, that’s fair.\nLet me ask my question in a different way: What’s the most iconic line from the first Spider—OK now that I’m saying it out loud, it’s definitely “With great power comes great responsibility.” Which I know is not a creation of the film but it did popularize it and … we’re already getting off-topic.\nLet me try this again: Hey, remember the part in the middle of Spider-Man that’s about 9/11?",
+          "link": "https://defector.com/how-an-unsubtle-9-11-tribute-was-added-to-sam-raimis-spider-man",
+          "publishedOn": "2026-09-11T13:05:55.000Z",
+          "wordCount": 10816,
+          "title": "How An Unsubtle 9/11 Tribute Was Added To Sam Raimi’s ‘Spider-Man’",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/Spider-Man-bridge.png"
+        },
         {
           "id": "https://defector.com/?p=234900",
           "author": "Giri Nathan",
@@ -1165,16 +1185,6 @@
           "wordCount": 2886,
           "title": "Forgotten Band: Ugly Kid Joe",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3361",
-          "author": "Schill",
-          "description": "Anya Taylor-Joy is an Argentine-British actress known for her striking screen presence, distinctive voice, and ability to move effortlessly between",
-          "link": "https://stuffthatinterestsme.net/hump-day-hottie-anya-taylor-joy/",
-          "publishedOn": "2026-09-02T00:31:27.000Z",
-          "wordCount": 1470,
-          "title": "Hump Day Hottie: Anya Taylor Joy",
-          "imageUrl": null
         }
       ]
     },
@@ -1236,6 +1246,26 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/09/01/supreme-court-white-house-ballroom-trump/91557432007/-full",
+          "author": "Rex Huppke",
+          "description": "I was working on putting our youngest child up for adoption and draining my retirement account so we could afford potentially tainted ground beef when I learned the joyous news: AMERICA IS GETTING ITS BALLROOM!\nOn Aug. 31, the U.S. Supreme Court gave President Donald Trump the green light to continue construction of the $400 million White House ballroom, a guaranteed morale boost for struggling Americans who value unnecessary government grandeur over food.\nTrump celebrated the ruling on Truth Social: “I am pleased to report that the United States Supreme Court has just ruled in favor of the Ballroom/Military Complex being built without any further contingency, doubt, or threat. We are living in the Golden Age of America, and this Building will be one of the Greatest ever constructed in Was…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/09/01/supreme-court-white-house-ballroom-trump/91557432007/",
+          "publishedOn": "2026-09-11T14:03:41.196Z",
+          "wordCount": 4236,
+          "title": "The ballroom will be built! Thank you, Supreme Court!Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/09/01/USAT/91561859007-2289960480.jpg?crop=1416,795,x0,y0&width=1416&height=795&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/31/ai-photos-trump-approval-rating-republicans-midterms/91489828007/-full",
+          "author": "Rex Huppke",
+          "description": "You guys remember back when Donald Trump and his Republican Party promised that, if elected, they would clean and regrout the granite at the White House’s north entrance and provide Americans with endless artificial intelligence slop on social media?\nRemember when they swore that, on day one, they would rant about “fake polls” and arbitrarily change the names of large bodies of water? \nYeah, I don’t remember that, either. What I recall hearing were promises to lower food and gas prices and usher in an economic Golden Age, along with a guarantee that Trump was “not going to start a war.”\nOops. The actual promises Trump and Republican lawmakers made haven’t panned out. At all. So now they have nothing to share with the American public beyond the grout and the growling and whatever fake conte…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/31/ai-photos-trump-approval-rating-republicans-midterms/91489828007/",
+          "publishedOn": "2026-09-11T14:03:41.138Z",
+          "wordCount": 4461,
+          "title": "GOP has accomplished so little Trump can't even brag about itRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/31/USAT/91546704007-20260828-t-225159-z-1384611149-rc-2-t-7-naqeftb-rtrmadp-3-usatrump.JPG?crop=2949,1660,x0,y153&width=2949&height=1660&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/10/taylor-farms-salsa-recall-salmonella-cyclospora-outbreak/91197607007/-full",
           "author": "Rex Huppke",
@@ -1764,6 +1794,16 @@
       "siteUrl": "https://www.sfgate.com/author/drew-magary/",
       "articles": [
         {
+          "id": "https://www.sfgate.com/local/article/san-francisco-market-ai-22424349.php-full",
+          "author": null,
+          "description": "You have heard about the two Anthropic employees who, this week, publicly informed America that artificial intelligence could eradicate the whole of humanity within a decade, which is less time than it takes for your average Seamless order to arrive. If these gentlemen, Jacob Coxon and Evan Hubinger, are correct in their assessment, the beginning of our destruction may well have commenced a month ago right here in San Francisco.\n\nThe first shot fired in this looming war happened at a seemingly innocuous Cow Hollow storefront known as Andon Market. Back in August, Luna, the AI bot that serves as that store’s manager, fired one of its own employees. The employee in question was dinged by their virtual boss for being late to work, abandoning their post once they got there, and charging snacks…",
+          "link": "https://www.sfgate.com/local/article/san-francisco-market-ai-22424349.php",
+          "publishedOn": "2026-09-11T14:03:31.566Z",
+          "wordCount": 177,
+          "title": "SF's AI-run store is losing money fast. After a visit, I'm not surprised.",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.sfgate.com/sf-culture/article/craig-newmark-interview-22377691.php",
           "author": null,
           "description": "error fetching full text: Reqwest client error: error sending request for url (https://www.sfgate.com/sf-culture/article/craig-newmark-interview-22377691.php)",
@@ -2029,26 +2069,6 @@
           "wordCount": 18583,
           "title": "So Moderate Democrats Are Just Going to Let MAGA Rig the Midterms, Huh?",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/810cbee7-1139-4871-8185-3eaec5312566.jpeg?crop=1xw:0.750113584734xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73585782/chief-justice-john-roberts-ballroom-dissent/",
-          "author": null,
-          "description": "You’ll never guess the decision on which he joined the liberal rear-guard, either.",
-          "link": "https://www.esquire.com/news-politics/politics/a73585782/chief-justice-john-roberts-ballroom-dissent/",
-          "publishedOn": "2026-09-01T23:58:18.000Z",
-          "wordCount": 17497,
-          "title": "Chief Justice John Roberts Just Summed Up His Entire Tenure in One Pathetic Dissent",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/af469a82-6fe1-4361-b3ea-7c1cde5b4d04.jpeg?crop=1xw:0.749633967789xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73585599/scott-bessent-canada-harsh-words/",
-          "author": null,
-          "description": "And it’s nothing useful, in case you were wondering.",
-          "link": "https://www.esquire.com/news-politics/politics/a73585599/scott-bessent-canada-harsh-words/",
-          "publishedOn": "2026-09-01T22:14:01.000Z",
-          "wordCount": 17448,
-          "title": "When It Comes to International Trade, Treasury Secretary Scott Bessent Is Extraordinarily Good at This One Thing",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/7a0cbc9f-a334-4aca-a183-057f15ebfc67.jpeg?crop=1xw:0.749633967789xh;center,top&resize=1200:*"
         }
       ]
     },
@@ -2313,6 +2333,16 @@
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://talkingpointsmemo.com/?p=1557342",
+          "author": "Josh Marshall",
+          "description": "We’re now flooded with articles about the threat of AI. Here’s another one from the Times op-ed page by a...",
+          "link": "https://talkingpointsmemo.com/edblog/monitoring-the-ai-apocalypse",
+          "publishedOn": "2026-09-11T13:04:22.000Z",
+          "wordCount": 2228,
+          "title": "Monitoring the AI Apocalypse",
+          "imageUrl": "https://s3.amazonaws.com/tpm-media/images/tpm-logo_square.png"
+        },
+        {
           "id": "https://talkingpointsmemo.com/?p=1557271",
           "author": "Josh Marshall",
           "description": "Following up on my previous post, I want to point your attention to this post by Gary Marcus, a highly...",
@@ -2441,16 +2471,6 @@
           "wordCount": 1885,
           "title": "Local Pol Bounced Hard Over Data Center",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/09/JohnPerkins-1_5x5_Print.jpg?w=325"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1556510",
-          "author": "Josh Marshall",
-          "description": "Over the last week, there have been a number of examples popping up on social media of Republicans, often very...",
-          "link": "https://talkingpointsmemo.com/edblog/does-trump-have-a-third-act",
-          "publishedOn": "2026-09-01T21:08:25.000Z",
-          "wordCount": 2120,
-          "title": "Does Trump Have a Third Act?",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-2192581073-e1786980604288.jpg?w=1200"
         }
       ]
     },
@@ -2641,22 +2661,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!0GZv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a3c3d9d-aa4f-456f-a22d-599c25c487f4_1600x1200.png"
-        },
-        {
-          "id": "https://wherethingsstand.talkingpointsmemo.com/p/trump-calls-on-his-most-loyal-henchman",
-          "author": "Nicole Lafond",
-          "description": "This is your TPM evening briefing.",
-          "link": "https://wherethingsstand.talkingpointsmemo.com/p/trump-calls-on-his-most-loyal-henchman",
-          "publishedOn": "2026-09-01T20:57:49.000Z",
-          "wordCount": null,
-          "title": "Trump Calls on His Most Loyal Henchman to Shut Down Facts He Doesn’t Want Reported",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!1jlc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdcef12ab-27b7-4a46-ae75-e69ae773b4d6_1600x1200.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!1jlc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdcef12ab-27b7-4a46-ae75-e69ae773b4d6_1600x1200.png"
         }
       ]
     },
