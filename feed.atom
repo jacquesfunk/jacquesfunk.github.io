@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-10T22:15:53.696Z</updated>
+    <updated>2026-09-11T03:05:30.794Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Friday Funnies]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3448</id>
+        <link href="https://stuffthatinterestsme.net/friday-funnies-2/"/>
+        <updated>2026-09-11T00:51:28.000Z</updated>
+        <summary type="html"><![CDATA[You’re weekly dose of funny and silly pictures and memes.]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jimmy Kimmel, James Talarico and the FCC’s Muzzling of the Media]]></title>
+        <id>https://wherethingsstand.talkingpointsmemo.com/p/jimmy-kimmel-james-talarico-and-the</id>
+        <link href="https://wherethingsstand.talkingpointsmemo.com/p/jimmy-kimmel-james-talarico-and-the"/>
+        <updated>2026-09-10T22:14:21.000Z</updated>
+        <summary type="html"><![CDATA[This is your TPM evening briefing.]]></summary>
+        <author>
+            <name>Nicole Lafond</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I Can’t Wait to Watch Congressional Republicans Tear Each Other to Shreds After the Midterms]]></title>
         <id>http://www.esquire.com/news-politics/politics/a73674815/midterms-congressional-republicans-jim-jordan-mike-johnson-minority-speaker/</id>
@@ -3479,135 +3499,6 @@ On the Aug. 25 episode of a Ringer podcast about historic box-office flops, he w
 On the most recent episode of his podcast, he gave a detailed description of his participation in proxy betting. Because he lives in California, where sports gambling has not been legalized, he calls his daughter's boyfriend, who lives in a state where sports gambling is legal, gives him his FanDuel login information, and has the boyfriend place bets on his behalf. FanDuel, with whom The Ringer signed a lucrative sponsorship deal, explicitly prohibits proxy betting.]]></summary>
         <author>
             <name>Tom Ley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tuesday, September 1, 2026]]></title>
-        <id>https://baty.net/journal/01Sep26/</id>
-        <link href="https://baty.net/journal/01Sep26/"/>
-        <updated>2026-09-01T15:00:48.000Z</updated>
-        <summary type="html"><![CDATA[Charlevoix in the morning (2026). Leica MP.
-Sorry, I can't right now. I'm too busy vetting every goddamned company even remotely attached to every single piece of software and hardware I use or am thinking of using. Why does everything have to suck, now?
-I'm sure everyone will be selling their MacBooks and iPhones and canceling all Apple services now that Ternus is on X. I wanted to post this on Mastodon but I really don't feel like starting a fight I don't have the energy to finish :)
-✍️ Reply by email]]></summary>
-        <author>
-            <name>baty.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[James Cherti: The Emacs Security Settings that might Silently Compromise your System]]></title>
-        <id>https://www.jamescherti.com/emacs-security-settings/</id>
-        <link href="https://www.jamescherti.com/emacs-security-settings/"/>
-        <updated>2026-09-01T14:53:19.000Z</updated>
-        <summary type="html"><![CDATA[Emacs ships with default settings intended for backward compatibility and convenience over strict security. The following settings enforce TLS certificate verification, reduce unintended ffap network lookups, restrict the evaluation of potentially unsafe local file, and directory variables, automated package review system, and protect authentication credentials stored by Emacs.
-Network and communication security
-By default, Emacs prompts the user interactively if a connection appears untrustworthy. You can additionally require certificate validation to fail at the TLS library level, causing invalid certificates to result in a connection error.
-Requiring certificate validation at the TLS layer reduces the possibility of accidentally accepting an invalid certificate in response to an interac…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Maps can pretty much fuck all the way off]]></title>
-        <id>https://www.jefftiedrich.com/p/google-maps-can-pretty-much-fuck</id>
-        <link href="https://www.jefftiedrich.com/p/google-maps-can-pretty-much-fuck"/>
-        <updated>2026-09-01T14:36:53.000Z</updated>
-        <summary type="html"><![CDATA[what kind of bullshit is ‘Lake America’?]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Wordcraft]]></title>
-        <id>https://irreal.org/blog/?p=14053</id>
-        <link href="https://irreal.org/blog/?p=14053"/>
-        <updated>2026-09-01T14:29:01.000Z</updated>
-        <summary type="html"><![CDATA[lot of writing, almost all of it in Emacs so I’m always happy to see how other people use our editor of choice for writing. The latest example I’ve found is from JTR over at The Art Of Not Asking Why. His post considers some simple expansion functions in Emacs.
-
-
-He starts off with dictionaries. As many of you know, I’ve been a Webster 1913 dictionary user ever since James Somers explained why I (and you) should be. I have gone through many iterations of integrating it into Emacs but have converged on the same solution that JTR uses: the built in dictionary-search function built into Emacs that we both have configured to use the online collection dict.org, although I still have a local copy from my previous iterations.
-
-
-The dict.org collection is nice because it contains several dictionar…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An Interview With A Biographer Of Renée Richards, An Actual Trans Pro Athlete]]></title>
-        <id>https://defector.com/?p=234050</id>
-        <link href="https://defector.com/interview-julie-kliegman-finding-renee-richards"/>
-        <updated>2026-09-01T14:27:39.000Z</updated>
-        <summary type="html"><![CDATA[As Lauren Theisen pointed out last month, the ongoing, abstracted debate about trans inclusion in sports uses almost no proper nouns and lots of hypotheticals. Back in the late 1970s, there was a very real, very human example of a trans athlete playing at the highest level of a mainstream sport. Renée Richards competed in professional tennis, and her fascinating life is explored meticulously in Julie Kliegman's new biography, Finding Renée Richards. The book is an invaluable intervention in the tortured public discourse, which in recent weeks has been polluting the WNBA. Read this book and forget that Enes Kanter Freedom or Royce White exist.
-I led a Q&A with Julie for the book's launch last week, and have condensed and edited parts of our conversation below.]]></summary>
-        <author>
-            <name>Giri Nathan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Philly Is The Star Of The Philadelphia Cycling Classic]]></title>
-        <id>https://defector.com/?p=234049</id>
-        <link href="https://defector.com/philly-is-the-star-of-the-philadelphia-cycling-classic"/>
-        <updated>2026-09-01T14:00:44.000Z</updated>
-        <summary type="html"><![CDATA[PHILADELPHIA — The Benjamin Franklin Parkway was designed in 1917 by French architect Jacques Gréber in the European style of boulevard, specifically inspired by the Champs-Élysées, which means it is a thematically apt and suitably picturesque locale for the end of a cycling race and a horrible—I mean absolutely dogshit, for all involved parties—road. On Aug. 30, the first Philadelphia Cycling Classic in a decade, by simple virtue of being a cycling race that necessitated mass closure of roads to their invasive predators (cars), rendered the Parkway back down to its theoretical beauty: a shaded, expansive corridor connecting City Hall to the Philadelphia Art Museum, one which happens to be flanked by flags.
-Pedestrian traffic was dictated by volunteers in bright orange shirts. Sometimes the impending cyclists were well-telegraphed by the blaring horns of incoming organizer cars, but other stragglers were conveyed by word of mouth. "Batter up!" one volunteer yelled, before the whistling and cowbells commenced for a lone cyclist. When the volunteer waved a crowd of pedestrians by to the shaded side of the road, she directed us to pause halfway and look to the left for potential cyclists.
-I stood somewhere between India's and Iceland's flags to watch the final stretch of the women's race, mostly on a gigantic screen set in the middle of the road. The crowd was a mix of locals, legitimate enthusiasts of the sport of cycling, more general enthusiasts of cycling in general, and foreign tourists. To my left were three older men who had done some amateur bike races before. To my right, past India, was a crowd of spectators sitting on bleachers.]]></summary>
-        <author>
-            <name>Kathryn Xu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Holy God Damn, Colton Cowser]]></title>
-        <id>https://defector.com/?p=234246</id>
-        <link href="https://defector.com/holy-god-damn-colton-cowser"/>
-        <updated>2026-09-01T13:34:43.000Z</updated>
-        <summary type="html"><![CDATA[They don't give style points in baseball, but if you were scoring Orioles-Rockies, you'd want to break out a second, third, maybe even a fourth color of pen to decorate the box with Colton Cowser's ninth-inning catch to save the game for Baltimore. Maybe some tempera as well. You can't make that "F8" pretty enough.
-All home-run robberies are special, but they come in flavors. On most, the fielder is totally vertical—having had time to settle on the track for a towering fly ball, and lofting himself at the right moment to haul it in. On Cowser's grand larceny of Jake McCarthy, he had no time to plan it, no time to set. He was at a full sprint back, and hurled himself into the wall, and as he reeled in what would have been a game-winning home run, his legs were scissored outward, his momentum back instead of up. Barely controlled ballet. O's manager Craig Albernaz called it "the best play I’ve ever seen." Dare you dissent?
-
-https://youtu.be/_LuMGPrkbZ0?t=707]]></summary>
-        <author>
-            <name>Barry Petchesky</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Do Booksellers Make Of “The End Of Reading”?]]></title>
-        <id>https://defector.com/?p=234112</id>
-        <link href="https://defector.com/what-do-booksellers-make-of-the-end-of-reading"/>
-        <updated>2026-09-01T13:07:43.000Z</updated>
-        <summary type="html"><![CDATA[If you haven’t yet encountered the cover story for the August issue of The Atlantic, I have some bad news to share: "The End of Reading Is Here." It’s an intentionally provocative headline for a slightly less provocative story; while it may portend doom, Rose Horowitch’s piece makes a smaller claim than its headline. She speaks more of a “decline of reading,” and, in a nod to Marshall McLuhan, argues that the U.S. is “postliterate.” Certainly there are crises well-covered within the piece that represent real challenges to readers today: attacks on our capacity for attention, metrics that show marked declines in reading comprehension, the impacts of generative AI on readers and reading, and more.
-But The Atlantic's framing places it firmly in a tradition with which the still-existing readin…]]></summary>
-        <author>
-            <name>Joel Pinckney</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jeremy Friesen: How I’m Feeling Emacs Command]]></title>
-        <id>https://takeonrules.com/2026/09/01/how-im-feeling-emacs-package/</id>
-        <link href="https://takeonrules.com/2026/09/01/how-im-feeling-emacs-package/"/>
-        <updated>2026-09-01T10:35:14.000Z</updated>
-        <summary type="html"><![CDATA[In late April of this year, I’ve began experiencing a heightened anxiety.  I
-started therapy then later taking anti-anxiety medication.  I worked to change
-some of my behaviors.  And started writing even more personal journal entries.
-Last Friday I found a list of feelings and responses that resonated with me:
-Angry: Lift weights
-Stressed: Go for a walk
-Procrastinating: Set a 10-minute timer
-Sad: Get sunlight
-Can’t focus: Clean your workspace
-Negative thoughts: Write 3 gratitudes
-Stuck: Change your environment
-Financial stress: Build an emergency fund
-Low energy: Fix your sleep
-Overthinking: Journal it out
-Lonely: Call someone
-No motivation: Start with 2 minutes
-Anxiety: Slow your breathing
-Brain fog: Drink water and move
-Low confidence: Keep small promises
-Lost: Define one clear goal
-Twic…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>
