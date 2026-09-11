@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-11T18:59:13.080Z</updated>
+    <updated>2026-09-11T22:16:18.825Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Trump Has Resorted to Openly Mocking His Supporters. So Why the Hell Do They Still Back Him?]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a73692979/trump-supporters-pledge-midterm-convention/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a73692979/trump-supporters-pledge-midterm-convention/"/>
+        <updated>2026-09-11T21:56:42.000Z</updated>
+        <summary type="html"><![CDATA[I guess brainwashing is a funny thing.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lars Ingebrigtsen: Spellchecking Total Eclipse with an AI]]></title>
+        <id>https://lars.ingebrigtsen.no/2026/09/11/spellchecking-total-eclipse-with-an-ai/</id>
+        <link href="https://lars.ingebrigtsen.no/2026/09/11/spellchecking-total-eclipse-with-an-ai/"/>
+        <updated>2026-09-11T20:46:21.000Z</updated>
+        <summary type="html"><![CDATA[I’ve spent a day test-driving that Emacs minor mode for spellchecking using an LLM that I wrote the other day.  I went through all the posts on the Total Eclipse blog (all 260 of them) to see whether the thing works or not.
+And, yes, it works now, but it took some tweaking.  Well, I rewrote the mode.
+Twice.
+My original approach was to give the LLM the entire text, and then ask it to return it to me verbatim, but with changed words tagged up specially.  This worked 90% of the time, but it would randomly decide to do something else…  and I was never totally sure that it actually returned the entire text.  That approach was a bit too nerve-racking.
+But Sacha Chua has done something along similar lines, and her approach is to ask the LLM to return just the changed parts:
+
+That sounds like a mu…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Trump’s Bizarre Reaction to the Ebola News Sure Doesn’t Inspire Confidence That He Could Handle a Stateside Outbreak]]></title>
         <id>http://www.esquire.com/news-politics/politics/a73688911/trump-congo-ebola-outbreak-2026/</id>
@@ -3461,16 +3487,6 @@ Roman's a strange bird by NASA standards. It came in under budget and ahead of s
 The amount of money being thrown around by tech oligarchs is staggering — however, it’s important to remember that this is a sign of w…]]></summary>
         <author>
             <name>Amanda Marcotte - Salon.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sarah Davachi]]></title>
-        <id>https://www.flowstate.fm/p/sarah-davachi-fba</id>
-        <link href="https://www.flowstate.fm/p/sarah-davachi-fba"/>
-        <updated>2026-09-02T07:02:51.000Z</updated>
-        <summary type="html"><![CDATA[Today we’re listening to Sarah Davachi, a Canadian composer, organist, and keyboardist based in Los Angeles.]]></summary>
-        <author>
-            <name>Flow State</name>
         </author>
     </entry>
 </feed>

@@ -110,6 +110,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://lars.ingebrigtsen.no/2026/09/11/spellchecking-total-eclipse-with-an-ai/",
+          "author": null,
+          "description": "I’ve spent a day test-driving that Emacs minor mode for spellchecking using an LLM that I wrote the other day.  I went through all the posts on the Total Eclipse blog (all 260 of them) to see whether the thing works or not.\nAnd, yes, it works now, but it took some tweaking.  Well, I rewrote the mode.\nTwice.\nMy original approach was to give the LLM the entire text, and then ask it to return it to me verbatim, but with changed words tagged up specially.  This worked 90% of the time, but it would randomly decide to do something else…  and I was never totally sure that it actually returned the entire text.  That approach was a bit too nerve-racking.\nBut Sacha Chua has done something along similar lines, and her approach is to ask the LLM to return just the changed parts:\n\nThat sounds like a mu…",
+          "link": "https://lars.ingebrigtsen.no/2026/09/11/spellchecking-total-eclipse-with-an-ai/",
+          "publishedOn": "2026-09-11T20:46:21.000Z",
+          "wordCount": 1693,
+          "title": "Lars Ingebrigtsen: Spellchecking Total Eclipse with an AI",
+          "imageUrl": "https://lars.ingebrigtsen.no/wp-content/uploads/2026/09/2026-09-11-5-scaled.jpeg"
+        },
+        {
           "id": "https://bicycleforyourmind.com/traverse-through-outlines",
           "author": null,
           "description": "traverse icon\nTraverse | OPML Outliner for macOS\nPrice: Traverse Lifetime: $17.99. Annual Subscription: $9.99. Monthly Subscription: 0.99\nTL;DR::\nTraverse is a competent outliner which deals in OPML, Markdown and Fountain files. It is well-designed with a column view which is addictive.\nOPML All The Way\nTraverse saves its files in the OPML format. “OPML (Outline Processor Markup Language) is an XML format for outlines (defined as”a tree, where each node contains a set of named attributes with string values”). Originally developed by UserLand Software as a native file format for the outliner application in its Radio UserLand product, it has since been adopted for other uses, the most common being to exchange lists of web feeds between web feed aggregators.”[^https://en.wikipedia.org/wiki/OP…",
@@ -2031,6 +2041,16 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73692979/trump-supporters-pledge-midterm-convention/",
+          "author": null,
+          "description": "I guess brainwashing is a funny thing.",
+          "link": "https://www.esquire.com/news-politics/politics/a73692979/trump-supporters-pledge-midterm-convention/",
+          "publishedOn": "2026-09-11T21:56:42.000Z",
+          "wordCount": 24054,
+          "title": "Trump Has Resorted to Openly Mocking His Supporters. So Why the Hell Do They Still Back Him?",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/057be6fc-8d07-488f-a8fc-4c9dd4b4a76d.jpeg?crop=1xw:0.75xh;0xw,0.25xh&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73688911/trump-congo-ebola-outbreak-2026/",
           "author": null,
           "description": "Thank God we’re still in good standing with the World Health Organization ... oh wait.",
@@ -2292,22 +2312,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!8m9n!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcab8221c-426b-4dd6-82bb-25f07f49f33f_764x401.jpeg"
-        },
-        {
-          "id": "https://www.flowstate.fm/p/sarah-davachi-fba",
-          "author": "Flow State",
-          "description": "Today we’re listening to Sarah Davachi, a Canadian composer, organist, and keyboardist based in Los Angeles.",
-          "link": "https://www.flowstate.fm/p/sarah-davachi-fba",
-          "publishedOn": "2026-09-02T07:02:51.000Z",
-          "wordCount": null,
-          "title": "Sarah Davachi",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!d77t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69aa2e67-4bc1-446c-b1c7-757c9ceee94c_1600x930.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!d77t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69aa2e67-4bc1-446c-b1c7-757c9ceee94c_1600x930.jpeg"
         }
       ]
     },
