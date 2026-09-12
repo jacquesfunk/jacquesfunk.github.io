@@ -14,16 +14,6 @@
           "wordCount": 2795,
           "title": "Aboard Newsletter: A Brand-New Archive for a Historical Treasure",
           "imageUrl": null
-        },
-        {
-          "id": "https://mailchi.mp/aboard/zkd26k8jzm-10348908",
-          "author": null,
-          "description": "96\n\n\n\n\n\n\nAboard Newsletter: About That $30 Trillion\n\n\nimg{-ms-interpolation-mode:bicubic;}\ntable, td{mso-table-lspace:0pt;mso-table-rspace:0pt;}\n.mceStandardButton, .mceStandardButton td, .mceStandardButton td a{mso-hide:all!important;}\np, a, li, td, blockquote{mso-line-height-rule:exactly;}\np, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}\n.mcnPreviewText{display:none!important;}\n.bodyCell{margin:0 auto;padding:0;width:100%;}\n.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;}\n.ReadMsgBody, .ExternalClass{width:100%;}\na[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inherit!important;font-weig…",
-          "link": "https://mailchi.mp/aboard/zkd26k8jzm-10348908",
-          "publishedOn": "2026-09-02T20:18:15.000Z",
-          "wordCount": 3828,
-          "title": "Aboard Newsletter: About That $30 Trillion",
-          "imageUrl": null
         }
       ]
     },
@@ -99,6 +89,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://mbork.pl/2026-09-12_Duplicating_lines_and_other_Emacs_miscellanea",
+          "author": null,
+          "description": "A few weeks ago I wrote about how I remapped yank to my command which allows to transform the yanked text. The whole setup – where I press C-y twice to trigger the transformation transient – has one drawback: I sometimes legitimately want to call yank twice in a row. This happens when I need to copy the current line and modify the copy so that I have two similar lines in a row. (I often need this when editing Ledger transactions, for example.) What I sometimes do in such a situation is basically a dance of C-a C-1 C-k C-y C-y. It turns out I don’t need to.",
+          "link": "https://mbork.pl/2026-09-12_Duplicating_lines_and_other_Emacs_miscellanea",
+          "publishedOn": "2026-09-12T06:11:40.000Z",
+          "wordCount": 512,
+          "title": "Marcin Borkowski: Duplicating lines and other Emacs miscellanea",
+          "imageUrl": null
+        },
         {
           "id": "https://lars.ingebrigtsen.no/2026/09/11/spellchecking-total-eclipse-with-an-ai/",
           "author": null,
@@ -308,66 +308,6 @@
           "wordCount": 1030,
           "title": "TAONAW - Emacs and Org Mode: RSI/Pinky Update",
           "imageUrl": "https://cdn.uploads.micro.blog/96826/2026/kinesis-gaming-split-setup.jpg"
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/08/one-space-or-two.html",
-          "author": null,
-          "description": "HTML enforces the use of a single space to separate sentences.  If\n  you want to add another space, you need to use\n  &nbsp;.  I still remember how annoyed I was about\n  that.  Back in the century in which I took my technical writing\n  course, two spaces were required.  Of course, we weren't using\n  computers very often; hand-written sentences needed to appear more\n  separated than the words within.\nI'm definitely not here to convince anyone to switch.  Instead, I\njust want to share that I paid close attention to this detail when I\nwas formulating my style guide for this blog.  Should I continue with\nmy out-of-date two-space habit?  Or should I adopt the current\nconvention?\nI turned to Emacs itself for guidance.  It turns out that the\nindividuals who wrote Emacs comments, docstrings and help text used\ntwo spaces.  Although many times they started each sentence on a new\nline.\nIt turns out that the content here mostly is one-space.  I start\n  out using two spaces in Org where most of this originates.  But when\n  I export to HTML, that second space vaporizes.  That would seem like a bug to me.\nThe only place where you'll see evidence of my two-space style is in the comments\n  and docstrings of my source code.\nAm I the only person who nit picks about such details?\nThanks to Irreal for highlighting\n  a customization from macosguru",
-          "link": "https://ray-on-emacs.blogspot.com/2026/08/one-space-or-two.html",
-          "publishedOn": "2026-09-02T17:19:07.082Z",
-          "wordCount": null,
-          "title": "Raymond Zeitler: One Space or Two?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/08/dedicate-emacs-window-to-its-buffer.html",
-          "author": null,
-          "description": "that file will open in my writing window, and I lose focus.  Dedicating\nthe window prevents this.\n\n\n\n  I could dedicate a window manually by invoking\ntoggle-window-dedicated (bound to C-x w d)\nevery time I start writing.  But because I clock in to anything I'm\nserious about, I let org-clock-in-hook to do it for me as\nshown below.  Note that the hook calls set-window-dedicated-p rather than\ntoggle-window-dedicated because the latter will\nun-dedicate a window that's already dedicated.  I could\nconfigure org-clock-out-hook to un-dedicate the window;\nI'm debating whether it's necessary.\n\n\n\n(add-hook 'org-clock-in-hook (lambda () (set-window-dedicated-p nil t)))\n\n\n\n\nInterestingly, while I was writing this, JTR published his\n\"Gems\" article in which he writes about setting\nhelp-window-keep-selected to true \"to keep help in its\nown dedicated window, so it won’t open in a separate window once we\nfollow a link.\"1 Perhaps that’s his approach to the same issue.\n\n\n1\nEmacs Config Gems - Part 3",
-          "link": "https://ray-on-emacs.blogspot.com/2026/08/dedicate-emacs-window-to-its-buffer.html",
-          "publishedOn": "2026-09-02T17:14:05.084Z",
-          "wordCount": 2801,
-          "title": "Raymond Zeitler: Dedicate an Emacs Window to Its Buffer",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/08/vakana-sneak-peek.html",
-          "author": null,
-          "description": "1 on my Android\ndevice this morning.  After following the tutorial, I exported the\nthread as an Org-mode-compatible package in a ZIP and emailed it to\nmyself in order to transfer it to my desktop.\n\n\n\nAfter opening the Org file that Vakana generated, I exported the\nentire buffer to HTML.  The result is shown below.  The only change\nI wanted to make was to scale the bead of each heading 25%.2\n\n\n\nIt's fortuitous that Donovan Ratefison released Vakana in a month\nwhose Emacs Carnival theme is \"The Search for Knowledge,\" because\nVakana provides a unique way to manage one's knowledge.  I'll need\nto become proficient in it before adding it to my workflow.  So my\neventual Emacs Carnival submission will be more pedestrian.\n1 Learn about\n  Vakana here\n  or download here.\n2 The images used for beads a…",
-          "link": "https://ray-on-emacs.blogspot.com/2026/08/vakana-sneak-peek.html",
-          "publishedOn": "2026-09-02T17:12:25.954Z",
-          "wordCount": null,
-          "title": "Raymond Zeitler: Vakana -- Sneak a Peek",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/08/how-much-management-does-knowledge-need.html",
-          "author": null,
-          "description": "0 Org does not work the way my brain\nworks,1 or rather, my brain doesn't work the way Org works.\n\n\n\nI do use Org.  At first I created a few Org files (work.org\nand home.org, and maybe todo.org) thinking I could rigidly dedicate\nall my topics to them.\n\n\n\nOver time I had about dozen files, one for nearly every major facet of my\nlife until I gave up.  Why?  Because it really doesn't matter where I\nput Org TODOs and their notes.  When I need to locate something, Org\nprovides a way to search entries for a regular expression, which is\nwhat grep does, sans all that Unixy CLI stuff.\n\n\n\nSo faced with the task of paying one of my wife's medical bills, I\ncould agonize over whether to put the task into wife.org or\nbills.org or medical.org.2 Or I\ncould just:\n\n\n\nestablish the task somewhere,\nact on it\nl…",
-          "link": "https://ray-on-emacs.blogspot.com/2026/08/how-much-management-does-knowledge-need.html",
-          "publishedOn": "2026-09-02T17:09:30.155Z",
-          "wordCount": null,
-          "title": "Raymond Zeitler: How Much Management Does Knowledge Need?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ray-on-emacs.blogspot.com/2026/08/emacs-numbered-backup-strategy.html",
-          "author": null,
-          "description": "Emacs produces a backup of each file by default.  It does this by\n  appending a tilde to the file's name.  For example, Myfile.txt is backed up to\n  Myfile.txt~.  It's a reasonable strategy, assuming that\n  a Version Control system is in place.\nBut in the absence of version control, you're limited to restoring\n  just the previous version; older versions need to be restored from\n  backup.\nI use git for coding projects that I share to the public.  But I\n  didn't create a repository for my home directory.  So when\n  C-c a m TAG1 generated an error instead of a list of\n  TAGged items, I hoped fervently that the latest init file change was\n  to blame.\nAfter finding and fixing the problem quickly, (and realizing I was\n  lucky this time), I resolved to be more diligent about disaster\n  recovery.  I looked into what backup schemes Emacs already\n  provides.\nEmacs can create unique backups for a file rather than overwriting\n  the previous backup.  When Emacs sees a numbered backup for a given\n  file, it will make a new, sequentially-named file for each backup of\n  that file, while continuing to use the \"append tilde\" method for\n  other files.\nOnce I renamed (or copied) .emacs~\n  to .emacs.~1~, Emacs created backups\n  named .emacs.~2~, .emacs.~3~ (and so on).\n  I didn't even need to change a variable -- when Emacs\n  detected .emacs.~1~, it knew that backups\n  of .emacs needed to be numeric, so it acted\n  accordingly.  Emacs continues to use bills.org~ as the backup\n  for bills.org.  Until I tell it otherwise.\n\nRead\n  the Emacs Manual to learn more about numbered backups.\n1  C-c a m invokes org-tags-view\nThe default values for the pertinent backup variables are:\n\nmake-backup-files is t\nbackup-by-copying is nil\nversion-control is nil",
-          "link": "https://ray-on-emacs.blogspot.com/2026/08/emacs-numbered-backup-strategy.html",
-          "publishedOn": "2026-09-02T17:07:19.515Z",
-          "wordCount": null,
-          "title": "Raymond Zeitler: Emacs Numbered Backup Strategy",
-          "imageUrl": null
-        },
-        {
-          "id": "https://irreal.org/blog/?p=14056",
-          "author": null,
-          "description": "newcomers-presets1. The idea is to provide newcomers with a set of useful configurations to help them ease into Emacs. It is, however, much more than training wheels for n00bs. The presets described in it are ones that most experienced Emacs users are already using.\n\n\nI know this because last April Sacha Chua wrote a splendid post that describes what’s in it. I somehow missed it back when she first posted it but she mentioned it in the latest Emacs News. As I’ve said before, I don’t usually write about things that she’s already covered in Emacs News but I broke that rule yesterday so I might as well break it again, especially since her post is especially worth your attention.\n\n\nWhen newcomers-presets was first introduced I didn’t pay too much attention to it but then Prot recommended it for experienced users as well as beginners. The problem was that I was unclear on what exactly it did. Then I saw the reference to Chua’s post. It has a comprehensive list of what it does along with a explanation for each setting.\n\n\nI won’t be using it because I’m not a fan of starter kits for experienced users and because even if I like everything in it today, it could change tomorrow. It’s better, in my opinion, to see what’s in it and add the things you think are useful to your own configuration. Chua includes a handy “Copy code” button with each item to make that easy.\n\n\nFootnotes: \n1 \n\n\n\nFor some reason it’s described and implemented as a “theme” but actually has little to do with themes as we normally think of them.",
-          "link": "https://irreal.org/blog/?p=14056",
-          "publishedOn": "2026-09-02T15:32:19.000Z",
-          "wordCount": 1536,
-          "title": "Irreal: The Newcomers Presets Theme",
-          "imageUrl": null
         }
       ]
     },
@@ -945,106 +885,6 @@
           "wordCount": 6462,
           "title": "NBA Crushes Clippers After Kawhi Leonard Investigation",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1164006728.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234300",
-          "author": "Drew Magary",
-          "description": "Some people are fans of the Denver Broncos. But many, many more people are NOT fans of the Denver Broncos. This 2026 Defector NFL team preview is for those in the latter group. Read all the previews so far here.\nYour team: Denver Bron—***THE DEFECTOR OFFICE GETS HIT WITH A SUDDEN CATEGORY 12 BLIZZARD, PREVENTING ME FROM WRITING ANYTHING GOOD FOR THE REST OF THIS PREVIEW***\nYour 2025 record: 14-3. Only three years removed from Nathaniel Hackett coaching Russell Wilson in the Sunset Boulevard phase of Wilson’s career, your Denver Broncos were the top seed in the AFC. Now, the advent of the 17-game schedule has, in a short amount of time, produced many strange outlier teams that ended their respective seasons with 13-14 wins despite failing the eye test. Eleven of Denver’s victories last season were by one score. I’m not saying they failed the eye test, but that’s mostly because there was too much snow falling for anyone to actually witness you guys being exposed as frauds:",
-          "link": "https://defector.com/why-your-team-sucks-2026-denver-broncos",
-          "publishedOn": "2026-09-02T18:29:56.000Z",
-          "wordCount": 13624,
-          "title": "Why Your Team Sucks 2026: Denver Broncos",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2291513408.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234437",
-          "author": "Patrick Redford",
-          "description": "Two hours after Tuesday night lapsed into Wednesday morning in the Eastern time zone, Alexander Zverev served out his grueling U.S. Open first-round matchup against Lorenzo Sonego. The final match of the night was a real thriller, with the top seed and the feisty Italian challenger letting each other have it for nearly five hours, on and on until Sonego stopped being able to hit a backhand with any zip and, at the exact right moment to avoid a catastrophic upset, Zverev remembered how to serve. As he watched a desperate Sonego forehand sail long to seal the match, Zverev raised his arms and stood still, courting the crowd. The tournament's top seed took a moment to soak in the quiet applause of what felt like 500 stragglers remaining in the cavernous, mostly empty Arthur Ashe Stadium.\nThe …",
-          "link": "https://defector.com/interminable-u-s-open-night-sessions-are-bad-for-everyone-except-me",
-          "publishedOn": "2026-09-02T18:05:10.000Z",
-          "wordCount": 7673,
-          "title": "Interminable U.S. Open Night Sessions Are Bad For Everyone Except Me",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2292574405.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=233556",
-          "author": "Ray Ratto",
-          "description": "Welcome back to Minor Dilemmas, where a member of Defector's Parents Council will answer your questions on surviving family life. Have a question? Email us at minordilemmas@defector.com.\nThis week, Ray answers a question about making sure you don't turn into your own father.",
-          "link": "https://defector.com/how-can-i-be-a-good-parent-if-im-conflict-avoidant",
-          "publishedOn": "2026-09-02T17:44:00.000Z",
-          "wordCount": 7092,
-          "title": "How Can I Be A Good Parent If I’m Conflict-Avoidant?",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/08/GettyImages-707707239.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234368",
-          "author": "Giri Nathan",
-          "description": "FLUSHING, N.Y. — One set into the first-round match, I wondered when the Gael Monfils show would begin. Tuesday was his 40th birthday, and this could be his last-ever match at a Slam—didn't he want to party? We did. Seven years after his last deep run at the U.S. Open, the elastic, buoyant Frenchman still held onto a well-deserved reputation for spectacle. But already down a brisk 6-2 set to Adolfo Daniel Vallejo, the world No. 60, Monfils seemed to be offering an uncharacteristically low-wattage farewell to New York.\nSomehow, all these decades later, I was still judging a Gael Monfils match by its opening set. My own unforced error. He got loose. As he reported after the match, Monfils started to move his legs better, stopped playing so upright, and remembered how well he'd been striking the ball all week. He styled on the 22-year-old Vallejo to win 2-6, 6-1, 6-2, 6-0, to the vast delight of those present, who got what they came for in the end: play that transcends the specificity of tennis fandom and becomes something like fundamental human entertainment.\n\nhttps://www.youtube.com/watch?v=hhGo8Ws_K7Y",
-          "link": "https://defector.com/gael-monfils-can-make-the-crowd-dance-to-a-swan-song",
-          "publishedOn": "2026-09-02T17:16:00.000Z",
-          "wordCount": 8142,
-          "title": "Gael Monfils Can Make The Crowd Dance To A Swan Song",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2292564401.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234383",
-          "author": "Israel Daramola",
-          "description": "On Aug. 23, Texas Christian University Athletics announced they were pulling the credentials for the Fort Worth Star-Telegram. The announcement came after the paper reported on a locker room fight that led to the hospitalization of wide receiver Dozie Ezukanma and the team expulsion of high-profile transfer player Jacob Fields. According to TCU spokesperson Kyle Neaves, the credentials were pulled because the newspaper's source \"lacked direct firsthand knowledge of the locker-room incident and has since been discredited.”\nThis all started on Aug. 18, when TCU announced that Fields was dismissed from the team due to an undisclosed \"violation of team rules.\" The Star-Telegram's TCU beat reporter, Steven Johnson, investigated the situation, relying on both an unnamed source and the university's public crime log to find information about the altercation between players on the football team. The source claimed that Fields had been targeted by other teammates, with coaches doing nothing to de-escalate the issue, which eventually led to the confrontation. The Star-Telegram's initial reporting stated only that Fields had been removed following a locker room fight with an offensive player, but did not name the other player involved.\nOn Aug. 21, the Star-Telegram identified Ezukanma, after the player posted a since-deleted Instagram video detailing his hospitalization for a brain bleed and concussion. The Star-Telegram also updated their original reporting after a second source who claimed to speak on behalf of Fields and his family disputed the original reporting that Fields had been mistreated or bullied. Fields has since been arrested for the altercation. All the while, officials and coaches for TCU, including head coach Sonny Dykes, have remained silent and unwilling to speak to reporters.",
-          "link": "https://defector.com/tcu-bans-hometown-newspaper-after-locker-room-fight-report",
-          "publishedOn": "2026-09-02T16:56:32.000Z",
-          "wordCount": 5729,
-          "title": "TCU Bans Hometown Newspaper After Locker Room Fight Report",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2253768051.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234441",
-          "author": "Owen Lewis",
-          "description": "FLUSHING, N.Y. — As we waited for Alexandra Eala to walk into Louis Armstrong Stadium for the most anticipated first-round match of the tournament, the crowd whooping as a victorious 40-year-old Gael Monfils shed his shirt, I had a quick chat with Dyan Castillejo, the first Filipino ever to play on the WTA Tour. Castillejo is now a journalist; I'd read a number of stories in American publications by American authors that analyzed Eala's spectacular fame, but here was a chance to talk to somebody who could tell me firsthand about Ealamania in the 117-million-strong Philippines. Per ESPN, Castillejo has covered Eala since she was six years old. So, just how big a deal is she?\n\"She's a super big deal. She's our biggest star now, whether athlete or non-athlete,\" Castillejo said immediately. \"I would say she's probably the most celebrated Filipino right now. Because of her, tennis is introduced in the Philippines. Before, it was a segment of a tennis community. Now, the masses are learning about tennis, what the sport is all about. Tennis clubs are full, trainers are busy, rackets are selling, parents want their kids to take up tennis.\"\nBy tennis metrics alone, the 21-year-old, 18th-ranked Eala's popularity startles. Roger Federer, who visited the U.S. Open on Monday night to rapturous cheers — people filmed him from so high up on Arthur Ashe Stadium that he couldn't have looked like anything bigger than a very fashionable ant on their screens — is often held up as the ultimate example of popularity in tennis. When he played the great British (Scottish) hope Andy Murray in a Wimbledon final in 2012, you'd hear the crowd's rooting interests described as 50-50. When Eala beat American Jessica Pegula in the final of the Washington, D.C.–based Citi Open last month, the crowd was around 95-5 for Eala.",
-          "link": "https://defector.com/alex-eala-is-the-best-show-in-town",
-          "publishedOn": "2026-09-02T16:38:08.000Z",
-          "wordCount": 8973,
-          "title": "Alex Eala Is The Best Show In Town",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2292575686.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234404",
-          "author": "Patrick Redford",
-          "description": "This week on Nothing But Respect, we mostly talked about dumb stuff with a smart guy. The guy in question was Jake Bittle, staff writer for Grist and the author of The Great Displacement: Climate Change and the Next American Migration, while the dumb stuff was Jake's amazing spree of Twitter fights back when that was something worth doing, and also Drake. Jake is a Raptors fan, and Harry knows a ridiculous amount of ball on all things rap, so it was a long time coming. We also talked about the new politics of climate vis-a-vis Silicon Valley's right-wing turn. Primo offseason stuff, and not all dumb!\nYou can find Nothing But Respect in Apple Podcasts or whatever podcast app you use. Follow the show on Instagram, and contact the Broke Jumper Tip Line at (347) 380-6426. Thanks for listening!",
-          "link": "https://defector.com/canada-vs-america-with-jake-bittle",
-          "publishedOn": "2026-09-02T16:23:39.000Z",
-          "wordCount": 4575,
-          "title": "Canada Vs. America, With Jake Bittle",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1150861865.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234385",
-          "author": "Kathryn Xu",
-          "description": "This Ketel Marte thing keeps getting stranger, at least linguistically. Marte made his return to the Arizona Diamondbacks on Monday, during their game against the Philadelphia Phillies. Before the game, Marte, who speaks through an interpreter, answered questions about his apparent no-call-no-show from Aug. 17's game against the Boston Red Sox, serving mostly to generate more questions.\n\"It was a moment of frustration. I'm the type of person that when something is going on in my life, I don't like to talk about it. That morning I woke up, my body was in pain and I couldn't react. No one made the decision for me, I'm the one that made the decision not to show up,\" Marte said, raising some interesting philosophical considerations about whether the body or the mind dictates agency. He said that he would \"stand in front of my teammates like a man\" and \"ask for forgiveness.\" He also, in one of the more direct responses, indicated that he had nothing to say to fans.\nThe home Diamondbacks fans made their own opinions clear, booing Marte when he came up to bat. After the game, it remained unclear whether Marte still had nothing to say to fans. He showed up to the press conference wearing an either highlighter yellow or neon green (depending on your color opinions) hat reading MAY THE BRIDGES I BURN LIGHT THE WAY. This line, I am told, originated from Beverly Hills 90210; in neither case does it hold up to additional scrutiny, though the intended sentiment (burning bridges = good for me!) is obvious.",
-          "link": "https://defector.com/ketel-martes-bridge-burning-hat-raises-leaves-unanswered-several-questions",
-          "publishedOn": "2026-09-02T16:17:22.000Z",
-          "wordCount": 5882,
-          "title": "Ketel Marte’s Bridge-Burning Hat Raises, Leaves Unanswered Several Questions",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/ketelMarteHat.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234364",
-          "author": "Luis Paez-Pumar",
-          "description": "This turned out to be quite an eventful summer for Monaco and USMNT striker Folarin Balogun. After the red card-that-wasn't at the World Cup, Balogun has now become the main character in a perfect transfer saga for this deeply unserious transfer window. The 25-year-old's move to Everton seemed secure late into the dying hours of the transfer window on Tuesday, but on Wednesday, Balogun remains a player for AS Monaco, and along the way completely bricked three different teams' plans for the upcoming season. The whole saga is puzzling, rather funny, and a perfect example of why soccer gets just one thing right about its player movement system.\nOK, so what happened? Let's start with Everton. The Toffees were looking relatively settled as the transfer deadline approached, but the sudden departures of star winger Iliman Ndiaye and striker Beto meant they needed to bring in some attacking reinforcements. Balogun was a good target here; he's young, talented, and played exceedingly well at the World Cup, red card saga be damned. That's a great recipe for a move, and so Everton reached a deal with Monaco for around €47 million. So far, so good. But the problems started with Balogun's medical.\nNormally, medicals are a formality; most injuries are widely documented, and teams know roughly what they are in for when they agree to purchase a player. However, Everton's medical team flagged some issues with Balogun's fitness, which seemingly scuttled the move. Everton swiftly pivoted to try to loan Manchester United's Joshua Zirkzee, whose 2024 move to Old Trafford didn't really amount to anything last season. United, however, did not want to let Zirkzee go, which left Everton in a tricky situation with only hours to go in the window. The Toffees then decided to go back to Monaco and try to arrange a new deal for Balogun.",
-          "link": "https://defector.com/folarin-balogun-had-every-right-to-blow-up-the-transfer-deadline",
-          "publishedOn": "2026-09-02T15:45:12.000Z",
-          "wordCount": 8451,
-          "title": "Folarin Balogun Had Every Right To Blow Up The Transfer Deadline",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2285150567.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234406",
-          "author": "Jae Towle Vieira",
-          "description": "Once again, Normal Gossip returns to the crucible that is college housing, and for good reason. Not only do stints in the dorms and subsequent apartments provide ample opportunities for self-discovery, but you’re also pretty much guaranteed to come out of the experience with an enemy (or six).\nToday’s friend-of-a-friend moves in with five boys and one mysterious woman on short notice. If you’re thinking that sounds like a recipe for chaos, you’d be right. \n\nhttps://www.youtube.com/watch?v=dln0qLqPjtw&t=1s",
-          "link": "https://defector.com/turn-this-segway-around",
-          "publishedOn": "2026-09-02T15:27:54.000Z",
-          "wordCount": 5015,
-          "title": "Turn This Segway Around",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1470441974.jpg"
         }
       ]
     },
@@ -2455,26 +2295,6 @@
           "wordCount": 2194,
           "title": "Breaking: Bartiromo Out at Fox",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2021/01/GettyImages-1189390246.jpg?w=1200"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1556632",
-          "author": "Josh Marshall",
-          "description": "In response to my post about this data center backlash outside of Kansas City (specifically Independence, Missouri), I’ve been fielding...",
-          "link": "https://talkingpointsmemo.com/edblog/is-the-data-center-backlash-just-nimby-run-amok",
-          "publishedOn": "2026-09-02T20:03:08.000Z",
-          "wordCount": 3003,
-          "title": "Is the Data Center Backlash Just NIMBY Run Amok?",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2025/11/GettyImages-2226710353.jpg?w=1200"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1556570",
-          "author": "Josh Marshall",
-          "description": "As you can see in my most recent post, yesterday evening TPM Reader BC flagged this news out of Independence,...",
-          "link": "https://talkingpointsmemo.com/edblog/the-backstory-on-the-big-ai-backlash-in-independence-missouri",
-          "publishedOn": "2026-09-02T15:25:59.000Z",
-          "wordCount": 1978,
-          "title": "The Backstory on the Big AI Backlash in Independence, Missouri",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/09/GettyImages-144073285.jpg?w=1200"
         }
       ]
     },
