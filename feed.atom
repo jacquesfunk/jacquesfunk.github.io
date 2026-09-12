@@ -2,10 +2,89 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-12T13:21:39.754Z</updated>
+    <updated>2026-09-12T16:46:08.007Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Irreal: Bedrock 2.0]]></title>
+        <id>https://irreal.org/blog/?p=14077</id>
+        <link href="https://irreal.org/blog/?p=14077"/>
+        <updated>2026-09-12T15:34:45.000Z</updated>
+        <summary type="html"><![CDATA[wrote about the Bedrock starter kit for Emacs by Ashton Wiersdorf. Now Wiersdorf has issued a new major release of the kit. It’s mainly an update for Emacs 31 and requires that version to run. I liked his announcement and description of Bedrock 2.0 and decided to write about it on Irreal. To be honest, I’d forgotten that I’d already written about Bedrock and didn’t discover that I had until I chose the obvious name for the post source file (bedrock.org) and found that such a file already existed.
+
+
+You should read what I wrote before; everything from that post applies to the new version. The TL;DR is that although I don’t generally care for starter kits, I do like Wiersdorf’s because it mainly concerns itself with simple variable settings rather than configuring a bunch of packages that a user may or may not want1. His init.el is well commented to explain what everything does and some items are commented out with an explanation of why you might want to enable them. You can see the file here.
+
+
+If you’re looking for a simple, minimal configuration for Emacs as a starting point or you know a n00b who is, take a look at Bedrock.
+
+
+Footnotes: 
+1 
+
+
+
+There are, as with the original version, some auxiliary files that bring in some packages that Wiersdorf finds particularly useful.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[James Cherti: Fixing Slow Scrolling in Emacs display-line-numbers-mode]]></title>
+        <id>https://www.jamescherti.com/emacs-display-line-numbers-mode-performance/</id>
+        <link href="https://www.jamescherti.com/emacs-display-line-numbers-mode-performance/"/>
+        <updated>2026-09-12T15:27:23.000Z</updated>
+        <summary type="html"><![CDATA[The display-line-numbers-mode and global-display-line-numbers-mode modes render line numbers in the margin of an Emacs window. Line-number display is implemented in the core C display engine, avoiding the overhead of legacy Elisp overlays like linum-mode. Despite the native C implementation, and even after configuring Emacs scrolling for better usability, specific configurations can still trigger expensive Lisp evaluations during the interactive command loop, vertical scrolling, and buffer initialization.
+This article outlines configurations that avoid unnecessary width calculations and initialization scans.
+Speed comparison across line-number types
+The display-line-numbers-type variable specifies the type of line numbers activated by display-line-numbers-mode and global-display-line-numbe…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[this week in stupid: September 12 edition]]></title>
+        <id>https://www.jefftiedrich.com/p/this-week-in-stupid-september-12</id>
+        <link href="https://www.jefftiedrich.com/p/this-week-in-stupid-september-12"/>
+        <updated>2026-09-12T14:41:48.000Z</updated>
+        <summary type="html"><![CDATA[Donny snoozes on 9/11, MAGA loses its way to heaven, and so much more...]]></summary>
+        <author>
+            <name>Jeff Tiedrich</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sacha Chua: Experimenting with Orukeet for speech recognition]]></title>
+        <id>https://sachachua.com/blog/2026/09/experimenting-with-orukeet-for-speech-recognition/</id>
+        <link href="https://sachachua.com/blog/2026/09/experimenting-with-orukeet-for-speech-recognition/"/>
+        <updated>2026-09-12T13:39:22.000Z</updated>
+        <summary type="html"><![CDATA[Watch on YouTube
+
+
+
+This is a quick demonstration of using Orukeet as a speech recognition model inside Emacs. I'm recording this in real time on a Lenovo P52 laptop using only CPU. I can replay just one part of my recording. I can switch languages in the middle of recording too. Par exemple, maintenant je parle français. Seems promising.
+
+
+
+Links/notes:
+
+
+
+oruk/orukeet · Hugging Face
+file:///home/sacha/vendor/orukeet/orukeet-server.py - I generated this with Google Gemini for a quick POC. It keeps the model in memory for slightly faster processing per segment.
+Run Orukeet locally: Python speech recognition | oruk
+
+https://oruk.ai/examples/orukeet-local.py - Python script you can run from the command line to transcribe files.
+
+file:///home/sacha/vendor/orukeet/orukeet-local.py
+sachac/whisper.el - my fork of natrys/whisper.el
+sacha-whisper-continue - This lets me cue transcriptions of previous segments while continuing to record new ones. I like it because I tend to pause while thinking out loud. I can define the chunk that will get transcribed so that I don't end up with incomplete chunks or lost context.
+View Org source for this post
+You can e-mail me at sacha@sachachua.com.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Marcin Borkowski: Duplicating lines and other Emacs miscellanea]]></title>
         <id>https://mbork.pl/2026-09-12_Duplicating_lines_and_other_Emacs_miscellanea</id>

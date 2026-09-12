@@ -90,6 +90,36 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=14077",
+          "author": null,
+          "description": "wrote about the Bedrock starter kit for Emacs by Ashton Wiersdorf. Now Wiersdorf has issued a new major release of the kit. It’s mainly an update for Emacs 31 and requires that version to run. I liked his announcement and description of Bedrock 2.0 and decided to write about it on Irreal. To be honest, I’d forgotten that I’d already written about Bedrock and didn’t discover that I had until I chose the obvious name for the post source file (bedrock.org) and found that such a file already existed.\n\n\nYou should read what I wrote before; everything from that post applies to the new version. The TL;DR is that although I don’t generally care for starter kits, I do like Wiersdorf’s because it mainly concerns itself with simple variable settings rather than configuring a bunch of packages that a user may or may not want1. His init.el is well commented to explain what everything does and some items are commented out with an explanation of why you might want to enable them. You can see the file here.\n\n\nIf you’re looking for a simple, minimal configuration for Emacs as a starting point or you know a n00b who is, take a look at Bedrock.\n\n\nFootnotes: \n1 \n\n\n\nThere are, as with the original version, some auxiliary files that bring in some packages that Wiersdorf finds particularly useful.",
+          "link": "https://irreal.org/blog/?p=14077",
+          "publishedOn": "2026-09-12T15:34:45.000Z",
+          "wordCount": 1475,
+          "title": "Irreal: Bedrock 2.0",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.jamescherti.com/emacs-display-line-numbers-mode-performance/",
+          "author": null,
+          "description": "The display-line-numbers-mode and global-display-line-numbers-mode modes render line numbers in the margin of an Emacs window. Line-number display is implemented in the core C display engine, avoiding the overhead of legacy Elisp overlays like linum-mode. Despite the native C implementation, and even after configuring Emacs scrolling for better usability, specific configurations can still trigger expensive Lisp evaluations during the interactive command loop, vertical scrolling, and buffer initialization.\nThis article outlines configurations that avoid unnecessary width calculations and initialization scans.\nSpeed comparison across line-number types\nThe display-line-numbers-type variable specifies the type of line numbers activated by display-line-numbers-mode and global-display-line-numbe…",
+          "link": "https://www.jamescherti.com/emacs-display-line-numbers-mode-performance/",
+          "publishedOn": "2026-09-12T15:27:23.000Z",
+          "wordCount": 2365,
+          "title": "James Cherti: Fixing Slow Scrolling in Emacs display-line-numbers-mode",
+          "imageUrl": null
+        },
+        {
+          "id": "https://sachachua.com/blog/2026/09/experimenting-with-orukeet-for-speech-recognition/",
+          "author": null,
+          "description": "Watch on YouTube\n\n\n\nThis is a quick demonstration of using Orukeet as a speech recognition model inside Emacs. I'm recording this in real time on a Lenovo P52 laptop using only CPU. I can replay just one part of my recording. I can switch languages in the middle of recording too. Par exemple, maintenant je parle français. Seems promising.\n\n\n\nLinks/notes:\n\n\n\noruk/orukeet · Hugging Face\nfile:///home/sacha/vendor/orukeet/orukeet-server.py - I generated this with Google Gemini for a quick POC. It keeps the model in memory for slightly faster processing per segment.\nRun Orukeet locally: Python speech recognition | oruk\n\nhttps://oruk.ai/examples/orukeet-local.py - Python script you can run from the command line to transcribe files.\n\nfile:///home/sacha/vendor/orukeet/orukeet-local.py\nsachac/whisper.el - my fork of natrys/whisper.el\nsacha-whisper-continue - This lets me cue transcriptions of previous segments while continuing to record new ones. I like it because I tend to pause while thinking out loud. I can define the chunk that will get transcribed so that I don't end up with incomplete chunks or lost context.\nView Org source for this post\nYou can e-mail me at sacha@sachachua.com.",
+          "link": "https://sachachua.com/blog/2026/09/experimenting-with-orukeet-for-speech-recognition/",
+          "publishedOn": "2026-09-12T13:39:22.000Z",
+          "wordCount": 285,
+          "title": "Sacha Chua: Experimenting with Orukeet for speech recognition",
+          "imageUrl": null
+        },
+        {
           "id": "https://mbork.pl/2026-09-12_Duplicating_lines_and_other_Emacs_miscellanea",
           "author": null,
           "description": "A few weeks ago I wrote about how I remapped yank to my command which allows to transform the yanked text. The whole setup – where I press C-y twice to trigger the transformation transient – has one drawback: I sometimes legitimately want to call yank twice in a row. This happens when I need to copy the current line and modify the copy so that I have two similar lines in a row. (I often need this when editing Ledger transactions, for example.) What I sometimes do in such a situation is basically a dance of C-a C-1 C-k C-y C-y. It turns out I don’t need to.",
@@ -2417,6 +2447,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/this-week-in-stupid-september-12",
+          "author": "Jeff Tiedrich",
+          "description": "Donny snoozes on 9/11, MAGA loses its way to heaven, and so much more...",
+          "link": "https://www.jefftiedrich.com/p/this-week-in-stupid-september-12",
+          "publishedOn": "2026-09-12T14:41:48.000Z",
+          "wordCount": null,
+          "title": "this week in stupid: September 12 edition",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!neDl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14824262-01a5-4568-821e-128320d00172_1278x736.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!neDl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14824262-01a5-4568-821e-128320d00172_1278x736.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/preznit-fuckwit-shits-the-bed-at-0e1",
           "author": "Jeff Tiedrich",

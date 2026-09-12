@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-09-12 datetime="2026-09-12T06:11:40.000Z">2026-09-12</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-09-12 datetime="2026-09-12T06:11:40.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-09-12 datetime="2026-09-12T15:34:45.000Z">2026-09-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-09-12 datetime="2026-09-12T15:34:45.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -42,6 +42,102 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://irreal.org/blog/?p&#x3D;14077"
+                        open
+                      >
+                        <summary class="article-expander__title">Irreal: Bedrock 2.0</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://irreal.org/blog/?p&#x3D;14077">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>wrote about the Bedrock starter kit for Emacs by Ashton Wiersdorf. Now Wiersdorf has issued a new major release of the kit. It’s mainly an update for Emacs 31 and requires that version to run. I liked his announcement and description of Bedrock 2.0 and decided to write about it on Irreal. To be honest, I’d forgotten that I’d already written about Bedrock and didn’t discover that I had until I chose the obvious name for the post source file (bedrock.org) and found that such a file already existed.
+
+
+You should read what I wrote before; everything from that post applies to the new version. The TL;DR is that although I don’t generally care for starter kits, I do like Wiersdorf’s because it mainly concerns itself with simple variable settings rather than configuring a bunch of packages that a user may or may not want1. His init.el is well commented to explain what everything does and some items are commented out with an explanation of why you might want to enable them. You can see the file here.
+
+
+If you’re looking for a simple, minimal configuration for Emacs as a starting point or you know a n00b who is, take a look at Bedrock.
+
+
+Footnotes: 
+1 
+
+
+
+There are, as with the original version, some auxiliary files that bring in some packages that Wiersdorf finds particularly useful.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.jamescherti.com/emacs-display-line-numbers-mode-performance/"
+                        open
+                      >
+                        <summary class="article-expander__title">James Cherti: Fixing Slow Scrolling in Emacs display-line-numbers-mode</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.jamescherti.com/emacs-display-line-numbers-mode-performance/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>The display-line-numbers-mode and global-display-line-numbers-mode modes render line numbers in the margin of an Emacs window. Line-number display is implemented in the core C display engine, avoiding the overhead of legacy Elisp overlays like linum-mode. Despite the native C implementation, and even after configuring Emacs scrolling for better usability, specific configurations can still trigger expensive Lisp evaluations during the interactive command loop, vertical scrolling, and buffer initialization.
+This article outlines configurations that avoid unnecessary width calculations and initialization scans.
+Speed comparison across line-number types
+The display-line-numbers-type variable specifies the type of line numbers activated by display-line-numbers-mode and global-display-line-numbe…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://sachachua.com/blog/2026/09/experimenting-with-orukeet-for-speech-recognition/"
+                        open
+                      >
+                        <summary class="article-expander__title">Sacha Chua: Experimenting with Orukeet for speech recognition</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://sachachua.com/blog/2026/09/experimenting-with-orukeet-for-speech-recognition/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Watch on YouTube
+
+
+
+This is a quick demonstration of using Orukeet as a speech recognition model inside Emacs. I&#x27;m recording this in real time on a Lenovo P52 laptop using only CPU. I can replay just one part of my recording. I can switch languages in the middle of recording too. Par exemple, maintenant je parle français. Seems promising.
+
+
+
+Links/notes:
+
+
+
+oruk/orukeet · Hugging Face
+file:///home/sacha/vendor/orukeet/orukeet-server.py - I generated this with Google Gemini for a quick POC. It keeps the model in memory for slightly faster processing per segment.
+Run Orukeet locally: Python speech recognition | oruk
+
+https://oruk.ai/examples/orukeet-local.py - Python script you can run from the command line to transcribe files.
+
+file:///home/sacha/vendor/orukeet/orukeet-local.py
+sachac/whisper.el - my fork of natrys/whisper.el
+sacha-whisper-continue - This lets me cue transcriptions of previous segments while continuing to record new ones. I like it because I tend to pause while thinking out loud. I can define the chunk that will get transcribed so that I don&#x27;t end up with incomplete chunks or lost context.
+View Org source for this post
+You can e-mail me at sacha@sachachua.com.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://mbork.pl/2026-09-12_Duplicating_lines_and_other_Emacs_miscellanea"
                         open
                       >
@@ -52,6 +148,38 @@
                               <span>A few weeks ago I wrote about how I remapped yank to my command which allows to transform the yanked text. The whole setup – where I press C-y twice to trigger the transformation transient – has one drawback: I sometimes legitimately want to call yank twice in a row. This happens when I need to copy the current line and modify the copy so that I have two similar lines in a row. (I often need this when editing Ledger transactions, for example.) What I sometimes do in such a situation is basically a dance of C-a C-1 C-k C-y C-y. It turns out I don’t need to.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >everyone is entitled to my own opinion</button>
+                  <a class="source-heading__link" href="https://www.jefftiedrich.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.jefftiedrich.com/p/this-week-in-stupid-september-12"
+                        open
+                      >
+                        <summary class="article-expander__title">this week in stupid: September 12 edition</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.jefftiedrich.com/p/this-week-in-stupid-september-12">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/$s_!neDl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14824262-01a5-4568-821e-128320d00172_1278x736.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Donny snoozes on 9/11, MAGA loses its way to heaven, and so much more...</span>
                             </span>
                           </div>
                         </a>
@@ -6407,8 +6535,8 @@ Trump importing beef won&#x27;t help America&#x27;s…</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/34696166898">
-        <time id="build-timestamp" datetime="2026-09-12T13:21:39.725Z">2026-09-12T13:21:39.725Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/34706184071">
+        <time id="build-timestamp" datetime="2026-09-12T16:46:07.983Z">2026-09-12T16:46:07.983Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
