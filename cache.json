@@ -23,6 +23,26 @@
       "siteUrl": "https://baty.net/index.xml",
       "articles": [
         {
+          "id": "https://baty.net/posts/2026/09/2026-roll-036-olympus-om-1n/",
+          "author": null,
+          "description": "Shot a roll in the Olympus OM-1n with the Zuiko 85mm f/2.0. I find long lenses nearly as challenging as wide ones.\nAdirondack chair on West Twin Lake\n\n\n\nLock on boat house door\n\n\n\nBryan's boat on the lift\n\n\n\nWeeds on the shore at Bryan's cottage\n\n\n\nStairs on Bryan's dock\n\n\n\nAlice's food and water dishes\n\n\n\nModel wooden boat\n\n\n\nFlowers on our deck wrapping around nearby lamp post\n\n\n\nKayaks\n\n\n\nPortrait of Jack by Bryan Lewis\n\n✍️ Reply by email",
+          "link": "https://baty.net/posts/2026/09/2026-roll-036-olympus-om-1n/",
+          "publishedOn": "2026-09-13T13:33:52.000Z",
+          "wordCount": 148,
+          "title": "2026 Roll-036 (Olympus OM-1n)",
+          "imageUrl": "https://baty.net/img/2026/2026-Roll-036_11.jpg"
+        },
+        {
+          "id": "https://baty.net/journal/12Sep26/",
+          "author": null,
+          "description": "Drinks with Eggleston\nA couple days at a cottage was good for me. Never opened the laptop once.\n\n\nBut then, I come home home, fire up the computer, and immediately regret it.\nI may just stop talking about the software and services I use, lest I'm suddenly labeled a supporter of fascism because one of them turns out to be built by an asshole or is friends with an asshole or once shared a quote by said asshole.\nOr maybe I'll quit the whole fucking show.\n✍️ Reply by email",
+          "link": "https://baty.net/journal/12Sep26/",
+          "publishedOn": "2026-09-12T11:54:00.000Z",
+          "wordCount": 154,
+          "title": "Saturday, September 12, 2026",
+          "imageUrl": "https://baty.net/img/2026/20260912T075146--west-twin-lake-bourbon.webp"
+        },
+        {
           "id": "https://baty.net/journal/10Sep26/",
           "author": null,
           "description": "Tailgating at Notre Dame (2015)\nI used to be entertained when I visited Mastodon. I sometimes still am, but more often lately I'm angry, disappointed, frustrated, and depressed. Not sure what to do about that, but I'm sure it's not more Mastodon.\nI'm addicted to my computer(s). It's unhealthy and I don't know how I'm going to fix it. For now, I'm going to a friend's cottage for a couple of days. Maybe that'll start something.\n✍️ Reply by email",
@@ -79,6 +99,26 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://irreal.org/blog/?p=14079",
+          "author": null,
+          "description": "post that discusses optimizing buffer line numbering. It explains the different line numbering schemes and their relative costs.\n\n\nI not a big user of line numbering. I usually turn it on for the Elfeed index but hardly every use it otherwise unless I have a specific need. In particular, I hardly ever use them in code buffers because I prefer to jump to a particular construct rather than a line number, which, irrationally, always seem to me to be ephemeral.\n\n\nWhen I do use line numbers, I like absolute line numbers rather than the two types of relative numbers. That turns out to the right choice as far as efficiency is concerned but many people—including Cherti—prefer relative numbering. That can be expensive, especially for long lines, but there are some settings that can speed things up.\n\n\nThe descriptions of those settings don’t really capture what they do and why you might prefer one value over another so Cherti’s post is especially helpful. If you’re one of the people who like having your buffers numbered in one way or another, take a look at Cherti’s post to see how to get the best possible performance for your choice of representation.",
+          "link": "https://irreal.org/blog/?p=14079",
+          "publishedOn": "2026-09-13T15:57:59.000Z",
+          "wordCount": 1462,
+          "title": "Irreal: Optimizing Line Numbering",
+          "imageUrl": null
+        },
+        {
+          "id": "https://einar.codeberg.page/an-apology-to-david-wilson-and-protesilaos-stavrou.html",
+          "author": null,
+          "description": "Tags: emacs",
+          "link": "https://einar.codeberg.page/an-apology-to-david-wilson-and-protesilaos-stavrou.html",
+          "publishedOn": "2026-09-13T14:53:00.000Z",
+          "wordCount": 536,
+          "title": "Einar Mostad: An apology to Protesilaos Stavrou and David Wilson",
+          "imageUrl": null
+        },
         {
           "id": "https://irreal.org/blog/?p=14077",
           "author": null,
@@ -276,6 +316,36 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=235410",
+          "author": "Ray Ratto",
+          "description": "How best to react to the latest news on the Los Angeles Rams? Easy. With complete abandon and logical recklessness. That's how the veterans do it.\nSaid latest news, that massive offseason signing Myles Garrett has fouled his knee, failed to will it healthy again, and now will have surgery that will take out all of September and a chunk of October as well. Garrett was the big swing of the summer, but the fact that it was the Rams that took it is no surprise. General manager Les Snead and head coach Sean McVay love acquisitional bat speed more than nearly any team not named Real Madrid or Barcelona, and between Garrett and veteran ace in the hole Aaron Donald, they surely constructed the most unsettling defensive front since their own Fearsome Foursome six decades ago.\nIn fact, they also apparently took another shot at cornering the pass-rush market by making a strenuous run at Las Vegas Raiders designated menace Maxx Crosby, one which failed in significant part because Crosby decided in the wake of his abortive trade to Baltimore that he wanted against all odds to remain a Raider, a choice we presume he will rue for the next six decades or so.",
+          "link": "https://defector.com/a-whole-lot-changed-in-one-week-for-the-rams",
+          "publishedOn": "2026-09-13T17:41:26.000Z",
+          "wordCount": 5898,
+          "title": "A Whole Lot Changed In One Week For The Rams",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2294592418.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235399",
+          "author": "Ray Ratto",
+          "description": "West Sacramento Athletics manager Mark Kotsay knew the drill from months of exercising it. Another game was on fire, and he needed someone who could at least let it burn itself out, so he went to Carlos Cortes in the bottom of the eighth inning, the bases loaded with Mariners and four runs already in.\nAnd Cortes did his duty, inducing Victor Robles to fly out modestly to right field to end the inning. Seattle still led, 16-1, but Cortes did the required work. Then he went out again for the ninth because it was still 16-1 and the A's didn't really need him to be the left fielder any more. And, predictably, he got kicked around the lot because that's what left fielders asked to pitch tend to do.\nHe walked Cal Raleigh. Then he walked Julio Rodriguez. Then he walked Brock Rodden. Then he gave up a two-run single to Cole Young and a sacrifice fly to Michael Arroyo. Eventually he did get out of the inning, though, because Carlos Cortes does the required work, even if it takes a bit. This was his ninth appearance as a pitcher this year, which truly is remarkable given that he is indeed an outfielder by trade. But the A's get beaten by a lot a lot. In his nine appearances, Cortes has entered games in which they trailed at the time by an aggregate score of 129-20, so he gets an extraordinary amount of mop duty. He is The Other Ohtani, or at least that's how he should be marketed.",
+          "link": "https://defector.com/theres-job-security-in-putting-out-fires-for-the-west-sacramento-arsonists",
+          "publishedOn": "2026-09-13T15:32:30.000Z",
+          "wordCount": 6410,
+          "title": "There’s Job Security In Putting Out Fires For The West Sacramento Arsonists",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2294980193.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235372",
+          "author": "Barry Petchesky",
+          "description": "It was supposed to be a day to remember Chris Johnson, and it still can be. The NFL's all-time single-season yards leader was scheduled to be honored today by the Tennessee Titans, for whom he starred from 2008–2013, at halftime of their game against the New York Jets, for whom he played in 2014. But the Titans announced Friday that Johnson won't be able to travel to Nashville to be inducted into the team's Ring of Honor, and the ceremony will be postponed to a later date.  I hope it does happen later. Johnson's appearance was canceled due to \"unforeseen circumstances,\" and it's hard not to assume that's health-related.\nJohnson, 40, revealed in June on Good Morning America that he's been diagnosed with Amyotrophic Lateral Sclerosis, a degenerative neurological disorder that is invariably fatal. It is cruel and it works quickly: The average time between onset and death is between two and four years. Johnson said he first noticed weakness in one hand in March 2025, and by the time of his GMA interview just 15 months later, he required a computerized speech-generating device that he controls with his eye movements. \nA few days ago, Johnson published \"A Letter to My Kids\" in The Players' Tribune; it felt like a goodbye. \"How can a man just be perfectly healthy one day,\" he wrote, \"running around with his kids in the yard, and then the next, your hand starts getting weak, and it just travels throughout your whole body until you can’t talk anymore?\"",
+          "link": "https://defector.com/they-dont-come-much-cooler-than-chris-johnson",
+          "publishedOn": "2026-09-13T14:44:38.000Z",
+          "wordCount": 6285,
+          "title": "They Don’t Come Much Cooler Than Chris Johnson",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-136231648.jpg"
+        },
         {
           "id": "https://defector.com/?p=235365",
           "author": "Ray Ratto",
@@ -764,6 +834,16 @@
       "siteUrl": "https://www.reddit.com/r/DepthHub/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/DepthHub/comments/1wfakq1/ucommodorecoco_clarifies_the_difference_between/",
+          "author": null,
+          "description": "submitted by    /u/DerekL1963  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DepthHub/comments/1wfakq1/ucommodorecoco_clarifies_the_difference_between/",
+          "publishedOn": "2026-09-13T15:22:39.000Z",
+          "wordCount": null,
+          "title": "u/CommodoreCoCo clarifies the difference between the academic and popular conceptions of rituals and how this applies to archeology.",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/DepthHub/comments/1waqkez/utea_and_biology_explains_how_wolves_and_coyotes/",
           "author": null,
           "description": "submitted by    /u/pr06lefs  \n [link]   [comments]",
@@ -986,6 +1066,36 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/04/trump-approval-polls-lies-truth-social/91156618007/-full",
+          "author": "Rex Huppke",
+          "description": "Let’s take a moment to read some actual words posted on social media by the actual president of the United States of America.\nOn Aug. 3, Donald Trump wrote on Truth Social: “My REAL Polling Numbers, not those made up by the Fake News Media, are the best they have ever been.”\nIt’s an insult to fiction to call that fiction. I’m not sure what you call something more fabricated than fiction – maybe “ludicriction”? – but that’s what Trump’s words are.\nTrump has left reality behind and lives in a fantasy world of great polls\n\nAs The New York Times recently reported, “The latest surveys indicate that Mr. Trump is now all but the most unpopular second-term president at this stage of their tenure in the history of polling going back to the 1940s. The only exception is not one that would give Mr. Tr…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/04/trump-approval-polls-lies-truth-social/91156618007/",
+          "publishedOn": "2026-09-13T18:32:33.521Z",
+          "wordCount": 3962,
+          "title": "Trump's polls are amazing, and my abs have never looked better!Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/03/USAT/91155555007-20260803-vpc-trump-on-max-miller-thumb-getty-00-00-00-00-still-003.jpg?crop=1919,1079,x0,y0&width=1919&height=1079&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/14/karoline-leavitt-successor-trump-press-secretary/91298787007/-full",
+          "author": "Rex Huppke",
+          "description": "Now that White House Press Secretary Karoline Leavitt is stepping down to spend more time with her soulless penchant for dishonesty, President Donald Trump has an opportunity to save American taxpayers some money by not replacing her.\nAfter all, Trump promised to cut down on wasteful government spending, and I can’t imagine anything more wasteful than paying a press secretary to come out and lie on behalf of administration officials whose only skill is lying.\nDoes anyone truly think the president needs an employee to amplify his frequent fabrications? The man never shuts up when cameras are around, and he owns his own social media platform. If someone’s going to try to hoodwink me, I prefer they spout their untruths directly and not via some highly paid federal flunky with a smile and an i…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/14/karoline-leavitt-successor-trump-press-secretary/91298787007/",
+          "publishedOn": "2026-09-13T18:32:33.497Z",
+          "wordCount": 4196,
+          "title": "Leavitt's leaving. Save $200K and let Trump lie for himself.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/13/USAT/91288453007-20250715-t-174348-z-2033419486-rc-25-nfaj-2-n-15-rtrmadp-3-usatrump-1.JPG?crop=4499,2531,x0,y150&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/24/us-canada-trade-dispute-tariffs-republicans-midterms/91442611007/-full",
+          "author": "Rex Huppke",
+          "description": "With the midterm elections looming and Americans plagued by the cost of virtually everything, President Donald Trump decided it’s a great time for a trade war with Canada.\nYou all know Canada, right? It’s the big place just north of us. Our close ally. The country known for being incredibly nice. That Canada.\nTrump slapped 50% U.S. tariffs on a number of Canadian goods after trade negotiations fell apart Aug. 22. Then, on Aug. 24, Trump posted additional threats on social media, saying he’ll double tariffs on imported vehicles and auto parts from Canada and adding: “WE DON’T NEED CANADA, THEY NEED US!”\nIf I didn’t know better, I’d say Trump is doing more than Democrats to guarantee a Republican electoral wipeout in the midterms.\nTrump's trade war with Canada will make the GOP's life more m…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/24/us-canada-trade-dispute-tariffs-republicans-midterms/91442611007/",
+          "publishedOn": "2026-09-13T18:32:33.470Z",
+          "wordCount": 4221,
+          "title": "Trump's irresponsible Canada trade war might seal GOP's fateRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/24/USAT/91440293007-20260822-t-170244-z-675973054-rc-2-r-3-nalrp-00-rtrmadp-3-usatrumptariffscanada.JPG?crop=5499,3093,x0,y277&width=3200&height=1800&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/15/trump-iran-peace-deal-strait-hormuz/90560252007/-full",
           "author": "Rex Huppke",
@@ -1483,6 +1593,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/sfgate-drew-magary.xml",
       "siteUrl": "https://www.sfgate.com/author/drew-magary/",
       "articles": [
+        {
+          "id": "https://www.sfgate.com/collegesports/article/andrew-luck-stanford-bureaucrat-22414827.php-full",
+          "author": null,
+          "description": "Come with me now to Palo Alto. We’re hopping in the car to make the more than 30-mile drive south of San Francisco to the bucolic campus of Stanford University, where former NFL star Andrew Luck awaits us. The Stanford campus remains as gorgeous, and sheltered, as ever. This is the ideal setting for gifted minds to construct their own realities, and Luck remains one of the more gifted minds that the sport of football has ever produced. Smart enough to read the most complicated defenses at a glance, and smart enough to leave the NFL when he realized that the life of a pro quarterback was making both him, and his wife Nicole, miserable. You could argue that Andrew Luck was too smart for the NFL. But is he smart enough to turn Stanford football into a national powerhouse? That’s what I’m here…",
+          "link": "https://www.sfgate.com/collegesports/article/andrew-luck-stanford-bureaucrat-22414827.php",
+          "publishedOn": "2026-09-13T18:32:51.291Z",
+          "wordCount": 177,
+          "title": "Andrew Luck is just another bureaucrat now",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sfgate.com/sf-culture/article/odyssey-review-22343323.php-full",
           "author": null,
@@ -1984,7 +2104,18 @@
       "title": "Go Make Things",
       "feedUrl": "https://gomakethings.com/feed/index.xml",
       "siteUrl": "https://gomakethings.com/articles",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://gomakethings.com/articles/abolish-patents/",
+          "author": null,
+          "description": "So many anarchist principles seems like they would “never work”… because they literally cannot under capitalism, but would work just fine under a different system.\nOne really good example of that is abolishing patents.\nPatents are silly, actually A patent says a person or company legally owns “an idea” or way of doing things, and no one else can use that idea or approach for many years. If you think about it for a bit, that seems really silly, doesn’t it?",
+          "link": "https://gomakethings.com/articles/abolish-patents/",
+          "publishedOn": "2026-09-13T14:30:00.000Z",
+          "wordCount": 6427,
+          "title": "Abolish patents",
+          "imageUrl": "https://gomakethings.com/img/og.png"
+        }
+      ]
     },
     {
       "title": "Josh Marshall – TPM – Talking Points Memo",
@@ -2240,6 +2371,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/dublin-gives-donny-the-welcome-he",
+          "author": "Jeff Tiedrich",
+          "description": "céad míle fáilte — now get the fuck out",
+          "link": "https://www.jefftiedrich.com/p/dublin-gives-donny-the-welcome-he",
+          "publishedOn": "2026-09-13T14:57:04.000Z",
+          "wordCount": null,
+          "title": "Dublin gives Donny the welcome he deserves",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!H2zI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17a9f74a-6f9d-4d86-9528-968264480326_600x337.gif",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!H2zI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17a9f74a-6f9d-4d86-9528-968264480326_600x337.gif"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/this-week-in-stupid-september-12",
           "author": "Jeff Tiedrich",
