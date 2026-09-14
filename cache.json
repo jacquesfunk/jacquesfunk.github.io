@@ -130,6 +130,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://sachachua.com/blog/2026/09/2026-09-14-emacs-news/",
+          "author": null,
+          "description": "Upcoming events (iCal file, Org):\n\nEmacs Paris https://emacs-doctor.com/ Tue Sep 15 0830 America/Vancouver - 1030 America/Chicago - 1130 America/Toronto - 1530 Etc/UTC - 1730 Europe/Berlin - 2100 Asia/Kolkata - 2330 Asia/Singapore\nPDX Emacs (in person) https://pdx.social/@howard/117147689957341583 - Tue Sept 15 6:00 pm in Portland, OR\nM-x Research: TBA https://m-x-research.github.io/ Wed Sep 16 0800 America/Vancouver - 1000 America/Chicago - 1100 America/Toronto - 1500 Etc/UTC - 1700 Europe/Berlin - 2030 Asia/Kolkata - 2300 Asia/Singapore\nOrgDevMeetup https://bbb.emacsverse.org/rooms/orgdevmeetup Sat Sep 19 0100 America/Vancouver - 0300 America/Chicago - 0400 America/Toronto - 0800 Etc/UTC - 1000 Europe/Berlin - 1330 Asia/Kolkata - 1600 Asia/Singapore\nEmacsSF (in person): coffee.el in SF h…",
+          "link": "https://sachachua.com/blog/2026/09/2026-09-14-emacs-news/",
+          "publishedOn": "2026-09-14T14:09:11.000Z",
+          "wordCount": 806,
+          "title": "Sacha Chua: 2026-09-14 Emacs news",
+          "imageUrl": null
+        },
+        {
           "id": "https://lars.ingebrigtsen.no/2026/09/14/emacs-movies-and-sqlite/",
           "author": null,
           "description": "Hey, it’s the…  *counts on fingers*…  22nd anniversary of me using Emacs to watch TV and movies!\n\nAnd in the start, it was a snappy, focused package that just listed directory contents and let me play the files…  but then it grew to take care of resuming where I left off, and fixing the frame rate of the TV to fit the video file, and lately it’s also automatically choosing the correct subtitles and audio track.\nThis means that it’s now calling mediainfo before playing the file to get all that data.  And since it’s accessing the files over nfs, and mediainfo apparently has to load the entire file (or large parts) to cough up that data, things have gotten slower:\n\nLook at that!  It’s horrible!  I have to wait, er, two seconds before I can watch Saturday Night Live?!  How can anybody live lik…",
@@ -366,6 +376,66 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=235540",
+          "author": "Tom Ley",
+          "description": "What does it mean for an NFL team to be \"AI-first?\" It's a question that football fans have been pondering ever since New York Jets Chief Analytics and Data Officer Iwao Fusillo revealed in May that the organization would be striving to \"to think AI-first.\" It was hard to detect the influence of AI in the Jets' 23-10 win over the Titans in Week 1, but maybe that's just because the paltry competition didn't require unleashing the awesome power of Microsoft Copilot on the gridiron. They might be saving that for Week 2 against the Packers. The organization did, however, find a novel use for AI away from the field.\nOn Aug. 23, a random Titans fan tweeted, \"If the #TitanUp lose to the Jets week 1 I will walk from MetLife Stadium all the way to Nissan Stadium non stop.\" This is the kind of post that yippy social media managers dream about, because it creates the opportunity to use the official team account to clap back, perhaps even epically, and thus earn a lot of replies that say, \"Yoooooo, admin snapped on this one [three fire emoji]\" from guys who have forgotten the password to their Robinhood account. This morning, whoever runs the official Jets Twitter account made their move, and quote-tweeted the Titans fans' tweet with this:",
+          "link": "https://defector.com/the-jets-may-want-to-reconsider-being-ai-first",
+          "publishedOn": "2026-09-14T20:20:06.000Z",
+          "wordCount": 4984,
+          "title": "The Jets May Want To Reconsider Being “AI-First”",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/jets-ai-map-1.png"
+        },
+        {
+          "id": "https://defector.com/?p=235492",
+          "author": "Kelsey McKinney",
+          "description": "On Monday morning, the rapper Macklemore posted a lengthy Instagram statement alleging that New England Patriots owner Robert Kraft and other NFL owners pitched a hissy-fit to get him dropped from the United States leg of Ed Sheeran's tour. Kraft, who has never shown much interest in music, allegedly called Ed Sheeran to tell him who was allowed to open his shows.\nAccording to Macklemore, \"Ed also told me that Kraft had rallied some of the other stadium owners and collectively they gave him an ultimatum: if Macklemore stays on the tour, you will not be allowed to play in our venues.\" Macklemore was set to play Gillette Stadium in Foxborough, Massachusetts, which is owned Kraft and his family, on September 25 and 26. Now, Sheeran will play there without him.\n\nhttps://www.instagram.com/p/DdRdsy0m2HK/?hl=en&img_index=4",
+          "link": "https://defector.com/robert-kraft-now-decides-who-tours-with-ed-sheeran",
+          "publishedOn": "2026-09-14T19:22:42.000Z",
+          "wordCount": 7176,
+          "title": "Robert Kraft Now Decides Who Tours With Ed Sheeran",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2292279246.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235460",
+          "author": "Giri Nathan",
+          "description": "How strange it is to watch a whole Slam and feel as though we learned almost nothing about the true power hierarchy at the top of the men's tour. In Sunday afternoon's U.S. Open final, Alexander Zverev beat Ben Shelton, 6-3, 7-6 (2), 5-7, 6-2. Check the box next to every single boring prediction: At least one tiebreak would be played; Shelton would struggle heroically to return serves; Zverev would play visibly nervy tennis in at least one juncture of the match and captivate viewers with his pre-serve ball-bouncing routines, but ultimately keep owning this matchup and lefties in general.\nWe got all of that. The match was neither an especially compelling spectacle nor particularly predictive of the future. I would be somewhere from surprised to gobsmacked if either one of these players won a Slam next season. The central thing I'll remember about this match is that Zverev did not initially realize he had won it.\n\nhttps://www.youtube.com/watch?v=9VQEluGKDF4",
+          "link": "https://defector.com/the-u-s-open-mens-final-changed-nothing",
+          "publishedOn": "2026-09-14T18:53:07.000Z",
+          "wordCount": 7424,
+          "title": "The U.S. Open Men’s Final Changed Nothing",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2295117113.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235486",
+          "author": "Dave McKenna",
+          "description": "Ryan Garcia, the often troubled and always magnetic Californian who to this point in his career seemed unsure if he’d rather be an influencer who fights or a fighter who influences, struck a blow for his fighter side on Saturday in Las Vegas. Garcia hit Conor Benn flush in the face with the mightiest right hand he’s capable of throwing early in the second round of their welterweight title bout, putting his outclassed British antagonist down shortly before putting him out. If Garcia’s not on top of the fight world already, he can at least see it from where he sits after his boffo performance. \nAs four-minute bouts go, this was a helluva fight.\nBenn’s father is Nigel Benn, a former world middleweight champion who was absolutely beloved in his native U.K. as his fight career peaked in the 1990s. Through those bloodlines and shrewd promotion, the younger Benn became wildly popular back home. Last year, he headlined two fight cards in front of sold-out Tottenham Hotspur Stadium in London with Chris Eubank Jr., whose father, Chris Eubank Sr., was the elder Benn’s main rival decades earlier. Eubank Jr. came out on top in the sons' first meeting, in April 2025, by a close but unanimous decision after 12 rounds. Their November 2025 rematch also went the distance, but Benn put Eubank Jr. down twice in the 12th round and the judges had him far ahead on all scorecards come the last bell.",
+          "link": "https://defector.com/conor-benn-wasnt-ready-for-ryan-garcia",
+          "publishedOn": "2026-09-14T18:08:58.000Z",
+          "wordCount": 7625,
+          "title": "Conor Benn Wasn’t Ready For Ryan Garcia",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2294975578.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235476",
+          "author": "Israel Daramola",
+          "description": "There's been a lot of clamoring for answers as to what happened in the fourth quarter of Sunday's unusually messy divisional matchup between the Green Bay Packers and the Minnesota Vikings. And yet for much of the game, and even into the fourth quarter, there was very little in terms of unanswered questions. When Trey Smack kicked a field goal to stretch Green Bay's lead to eight with 13:17 remaining in the fourth, all the juice was on the Packers' side and the game was, honestly, a little boring.\nBut the Vikings had jumped offside on the play, which made fourth-and-6 into fourth-and-1. Green Bay coach Matt LaFleur weighed his options and decided Fuck those points, opting to drive the nail into the coffin instead. Jordan Love got stuffed on the ensuing play, and the Packers never scored again. This is notable because the Vikings immediately went on a 22-point scoring run, and won by a final score of 39-22.\nIs it as simple as the Vikings finding a new gear in the fourth? The Packers and their analytics darling QB sputtering to a halt? Momentum plays? Those dastardly refs doing more of their ref chicanery against your favorite team, which is also their most mortal enemy?",
+          "link": "https://defector.com/something-is-wrong-with-the-green-bay-packers",
+          "publishedOn": "2026-09-14T17:46:47.000Z",
+          "wordCount": 6096,
+          "title": "Something Is Wrong With The Green Bay Packers",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2295125156.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235453",
+          "author": "Luis Paez-Pumar",
+          "description": "The Video Assistant Referee is supposed to get everything right. This is an incredibly high standard to hold any sort of officiating, but this is VAR's main selling point and raison d'être. All of the delays, ticky-tack calls, and general disruption to the flow of a soccer match are supposed to be worth it; after all, who doesn't want the correct call made when an incorrect call could decide a match, a season, a legacy? But of course, VAR is not perfect, and it will never be perfect, even when called to rule on supposedly cut-and-dry offside decisions. As soon as any sort of subjectivity is thrown into the mix, VAR is no better than a normal ref, and oftentimes worse. With that in mind, I submit into evidence Erling Haaland's 60th minute goal during Sunday's Manchester derby.\n\nhttps://www.youtube.com/watch?v=AKfkzSKDkHM\n\n\nAt first glance, this is exactly the type of goal decision that VAR should excel at sorting through. Haaland's back-post finish was ruled out on the field by the sideline referee for an offside, as he judged that Haaland was ahead of both the ball and the last defender when Josko Gvardiol struck the ball across. Since it was, even in live action, a very close decision, a VAR review was all but assured, and said review found that Haaland was actually onside at the time of Gvardiol's pass. The camera angle showed on replays didn't make that clear, but the lines as deployed by the VAR, which are more accurate than the TV cameras, did help decide that the Norwegian was just onside. Great, goal given.",
+          "link": "https://defector.com/the-premier-league-has-its-first-var-disaster-of-the-season",
+          "publishedOn": "2026-09-14T16:07:19.000Z",
+          "wordCount": 8446,
+          "title": "The Premier League Has Its First VAR Disaster Of The Season",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2295086919.jpg"
+        },
         {
           "id": "https://defector.com/?p=235274",
           "author": "Luisa Rollenhagen",
@@ -872,16 +942,6 @@
           "wordCount": null,
           "title": "u/tea_and_biology/ explains how wolves and coyotes occupy different ecological niches",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/DepthHub/comments/1w7sjz9/uheartno621_explains_similarities_between/",
-          "author": null,
-          "description": "submitted by    /u/spryfigure  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/DepthHub/comments/1w7sjz9/uheartno621_explains_similarities_between/",
-          "publishedOn": "2026-09-05T06:12:34.000Z",
-          "wordCount": null,
-          "title": "/u/HeartNo621 explains similarities between current-day Europe and late Qing dynasty China",
-          "imageUrl": null
         }
       ]
     },
@@ -1005,16 +1065,6 @@
           "wordCount": 2860,
           "title": "Sunday Weird History Lesson: The Man Who Survived Two Atomic Bombs",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3771",
-          "author": "Schill",
-          "description": "If you have been here through the years, through the monkey, and monkey’s den and to the site now,",
-          "link": "https://stuffthatinterestsme.net/the-real-world-on-investing/",
-          "publishedOn": "2026-09-05T05:45:27.000Z",
-          "wordCount": 3414,
-          "title": "The Real World on Investing",
-          "imageUrl": null
         }
       ]
     },
@@ -1056,6 +1106,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/25/us-canada-tariffs-trump-rename-lake-ontario/91456826007/-full",
+          "author": "Rex Huppke",
+          "description": "Borrowing from the playbook of all master negotiators, President Donald Trump has gained the upper hand in his ongoing trade war with Canada by … wait for it … threatening to rename a lake. \nOn Aug. 25, President Deals McDealington threw down the gauntlet and showed those barbaric Canadians the fate they’ll face if they don’t bend to America’s will: “The United States is giving serious consideration to changing the name of Lake Ontario to Lake America in that we don’t expect to be doing much business with Ontario any longer. Thank you for your attention to this matter!”\nBOOM! What say you now, callous Canucks? You didn’t expect our beloved MAGA president to go hyrdonymic on your a--, did you? The trade war Trump started for no particular reason – the one likely to harm Americans economical…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/25/us-canada-tariffs-trump-rename-lake-ontario/91456826007/",
+          "publishedOn": "2026-09-14T21:30:00.931Z",
+          "wordCount": 4145,
+          "title": "Canada raises tariffs, Trump threatens a lake. Guess who's winning?Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/25/USAT/91458473007-20260825-t-142155-z-1781528239-rc-2-i-0-mayywva-rtrmadp-3-usatrumpcanadalake.JPG?crop=5499,3093,x0,y161&width=3200&height=1800&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/04/trump-approval-polls-lies-truth-social/91156618007/-full",
           "author": "Rex Huppke",
@@ -1731,6 +1791,36 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73725396/trump-ireland-reunification/",
+          "author": null,
+          "description": "The man has a real gift for jumping on a country’s last political nerve, doesn’t he?",
+          "link": "https://www.esquire.com/news-politics/politics/a73725396/trump-ireland-reunification/",
+          "publishedOn": "2026-09-14T20:20:30.000Z",
+          "wordCount": 17270,
+          "title": "Trump’s Not Wrong on Irish Reunification, but He Sure Isn’t Helping",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/1234ab31-046f-43ad-8e98-a3d7a3817704.jpeg?crop=1xw:0.750137287205xh;center,top&resize=1200:*"
+        },
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73727393/donald-trump-jr-wedding-russia-oligarch/",
+          "author": null,
+          "description": "If you thought no Trump would want to be seen associating with a bald-headed buddy of Vladimir Putin, you’ve probably never been offered a discount on a private island.",
+          "link": "https://www.esquire.com/news-politics/politics/a73727393/donald-trump-jr-wedding-russia-oligarch/",
+          "publishedOn": "2026-09-14T19:39:00.000Z",
+          "wordCount": 18058,
+          "title": "Donald Trump Jr.’s Wedding Planner Was a Russian Oligarch",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/58f0d79a-9d78-4a4f-8a1e-dba4780405cc.jpeg?crop=1xw:0.75004675519xh;center,top&resize=1200:*"
+        },
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73725395/mike-johnson-brandon-herrera-fundraising/",
+          "author": null,
+          "description": "Even by the crude and stupid standards of modern conservatism, Brandon Herrera is uniquely crude and stupid.",
+          "link": "https://www.esquire.com/news-politics/politics/a73725395/mike-johnson-brandon-herrera-fundraising/",
+          "publishedOn": "2026-09-14T19:06:30.000Z",
+          "wordCount": 18541,
+          "title": "Why Is Mike Johnson Fundraising for a Misogynistic Troll in Texas?",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/62807827-d077-45e3-9f3c-af8405c7a97e.jpeg?crop=1xw:0.749857873792xh;center,top&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73692979/trump-supporters-pledge-midterm-convention/",
           "author": null,
           "description": "I guess brainwashing is a funny thing.",
@@ -2103,6 +2193,16 @@
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://talkingpointsmemo.com/?p=1557584",
+          "author": "Josh Marshall",
+          "description": "As you’ve likely seen, a strange and perhaps positive chain of events unfolded over the weekend in the world of...",
+          "link": "https://talkingpointsmemo.com/edblog/ai-frontier-labs-and-the-loving-hand-of-product-liability",
+          "publishedOn": "2026-09-14T19:54:25.000Z",
+          "wordCount": 2077,
+          "title": "AI Frontier Labs and the Loving Hand of Product Liability",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2025/11/GettyImages-2226710353.jpg?w=1200"
+        },
+        {
           "id": "https://talkingpointsmemo.com/?p=1557397",
           "author": "Josh Marshall",
           "description": "As you’ll see to the right (if you’re on a desktop or laptop) David Kurtz has a good run-down of...",
@@ -2199,6 +2299,22 @@
       "feedUrl": "https://morningmemo.talkingpointsmemo.com/feed",
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/what-trumps-very-fine-people-on-both",
+          "author": "David Kurtz",
+          "description": "INSIDE: Marshall Rawson ... Bo French ... Joe diGenova",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/what-trumps-very-fine-people-on-both",
+          "publishedOn": "2026-09-14T16:43:57.000Z",
+          "wordCount": null,
+          "title": "What Trump’s ‘Very Fine People, on Both Sides’ Has Wrought a Decade Later",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!XFUh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2e610ea-61e8-4ce9-8534-b5fc0f464867_400x600.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!XFUh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2e610ea-61e8-4ce9-8534-b5fc0f464867_400x600.jpeg"
+        },
         {
           "id": "https://morningmemo.talkingpointsmemo.com/p/10-thoughts-on-the-abrupt-resignation",
           "author": "David Kurtz",
