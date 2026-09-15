@@ -23,6 +23,36 @@
       "siteUrl": "https://baty.net/index.xml",
       "articles": [
         {
+          "id": "https://baty.net/journal/15Sep26/",
+          "author": null,
+          "description": "Boathouse door (2026)\nSTATUS: Considering a withdrawal from Mastodon\nTODO: Hang out with my grandson\nREADING: \"Thinking In Systems\" by Donella Meadows\nLISTENING: Various artists on cassette tape\nI sat down here today thinking I wanted a bunch of separate blogs, again. Then I came to my senses, but I still don't know how to handle the small posts. Are they still Notes? Does it make sense to separate them? Does it matter?\n✍️ Reply by email",
+          "link": "https://baty.net/journal/15Sep26/",
+          "publishedOn": "2026-09-15T13:25:34.000Z",
+          "wordCount": 141,
+          "title": "Tuesday, September 15, 2026",
+          "imageUrl": "https://baty.net/img/2026/20260915T072649--boathouse-door.webp"
+        },
+        {
+          "id": "https://baty.net/notes/2026/09/i-want-your-sex-2026/",
+          "author": null,
+          "description": "I have always had a thing for Olivia Wilde. I now have even more of a thing for Olivia Wilde.\n✍️ Reply by email",
+          "link": "https://baty.net/notes/2026/09/i-want-your-sex-2026/",
+          "publishedOn": "2026-09-15T13:22:22.000Z",
+          "wordCount": 95,
+          "title": "I Want Your Sex (2026) ★★★★",
+          "imageUrl": "https://baty.net/img/2026/20260915-i-want-your-sex-card.jpeg"
+        },
+        {
+          "id": "https://baty.net/posts/2026/09/gail-daughtry-and-the-celebrity-sex-pass-2026/",
+          "author": null,
+          "description": "I thought this was very funny.\n✍️ Reply by email",
+          "link": "https://baty.net/posts/2026/09/gail-daughtry-and-the-celebrity-sex-pass-2026/",
+          "publishedOn": "2026-09-14T09:01:04.000Z",
+          "wordCount": 87,
+          "title": "Gail Daughtry and the Celebrity Sex Pass (2026) ★★★★",
+          "imageUrl": "https://baty.net/img/2026/gail-daughtry-and-the-celebrity-sex-pass-card.jpg"
+        },
+        {
           "id": "https://baty.net/posts/2026/09/my-own-little-metadata-app/",
           "author": null,
           "description": "My Exif Manager app (Linux)\nAfter scanning a roll of film, I like to add camera make/model/lens exif data to the files. For years, I've done this via exiftool using the command line. It's not hard, but I thought I'd see if Claude Code could whip up something a little nicer to use. Turns out it could.\nLaunch the app, open a folder, choose from a pre-defined list of my cameras and lenses, and write the exif info to the files. It took Claude maybe 30 minutes from my prompt to a working app.\nThat's all I needed it to do, but I got a little fancy and added captioning, which many photo apps make more difficult than it should be.\nSpeaking of making things difficult, some apps (::cough Darktable::) don't deal well with metadata during export, so I have my app allow me to write the information to already-exported files based on file name. Let's say I have Darktable export a bunch of images to ~/Pictures/Export but those images lose their captions (it happens!). I tell my app where the exported files are and it matches file names and writes the metadata to those files.\nThe trouble with having an LLM at hand all the time is that now I want to work with it to build or extend little apps for everything. It's too easy, helpful, and fun to ignore.\n✍️ Reply by email",
@@ -109,6 +139,26 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://irreal.org/blog/?p=14085",
+          "author": null,
+          "description": "speeding up Emacs terminal emulators. As Cherti says, Emacs terminals can be slow especially when they get pounded with a lot of output. He offers some suggestions to help.\n\n\nThose changes are mostly what you’d expect. They turn off things like line wrapping that take extra cycles to calculate. Most of his post is his suggested code to remedy the slowness—although he does offer an explanations of what they’re doing—so rather than repeat what he’s already written, I’ll just send you to his post for the details.\n\n\nIf you’ve been bothered by slow Emacs terminal emulators, take at look at Cherti’s post.",
+          "link": "https://irreal.org/blog/?p=14085",
+          "publishedOn": "2026-09-15T15:23:44.000Z",
+          "wordCount": 1373,
+          "title": "Irreal: How To Speed Up Emacs Terminals",
+          "imageUrl": null
+        },
+        {
+          "id": "https://taonaw.com/2026/09/15/glove-first-impressions-the-typing.html",
+          "author": null,
+          "description": "I said I’ll do it, and I did. I got my Glove80 early! I looked at my emails yesterday afternoon, and there they were, waiting for me in the mailbox.\nI was surprised at how light the box felt, even though Xah mentioned it several times in his review. I knew it was made of plastic, but this light? Yep. The other thing that surprised me was the size: they are smaller than I thought, which in my case is excellent (I have small hands).\nI still need to pair it (or them? as in both parts? the gloves?) with Bluetooth to both my Mac and my Linux desktop, since I only used them connected (to charge them). There is a lot to like about this keyboard, but first the big caveat: getting used to it. Them. The thing. Ugh, take your pick.\nThankfully, this was not a surprise. It’s the big issue with this key…",
+          "link": "https://taonaw.com/2026/09/15/glove-first-impressions-the-typing.html",
+          "publishedOn": "2026-09-15T13:15:29.000Z",
+          "wordCount": 1258,
+          "title": "TAONAW - Emacs and Org Mode: Glove80: First Impressions — the Typing Reset",
+          "imageUrl": "https://cdn.uploads.micro.blog/96826/2026/glove80-side.jpg"
+        },
         {
           "id": "https://protesilaos.com/codelog/2026-09-15-emacs-reply-einar-mostad/",
           "author": null,
@@ -366,6 +416,46 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=235576",
+          "author": "Drew Magary",
+          "description": "Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGATE, and buy Drew’s books while you’re at it. Today, we're talking about college football, Reacher, unsalted snacks, and more.\nYour letters:\nElliott:",
+          "link": "https://defector.com/whats-the-best-time-to-start-a-concert",
+          "publishedOn": "2026-09-15T17:24:20.000Z",
+          "wordCount": 15209,
+          "title": "What’s The Best Time To Start A Concert?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2231914105.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235538",
+          "author": "Giri Nathan",
+          "description": "The 2026 U.S. Open is done, with Elena Rybakina and Alexander Zverev hoisting the trophies. The Defector tennis corps got together to talk about their impressions of the tournament, their feelings on players who didn't win either Final, and the hair situations of the ATP Nos. 3 and 7. Enjoy!\nPatrick: Lorenzo Sonego, I'm pouring vinegar on you, goat. Two points and all this could have been different. Instead, Alexander Zverev has won as many slams as Sincaraz combined this year and we had to talk about 20,000 ball bounces instead of Carlos Alcaraz's hair.\nKathryn: Which is tragic because it looked the best it's ever been, especially considering the, uh, previous situation, and that he was bald at this exact time last year. Between the Zverev slam count and the Alcaraz hair situation, change simply happens too quickly.",
+          "link": "https://defector.com/the-defector-tennis-desk-takes-stock-of-the-u-s-open",
+          "publishedOn": "2026-09-15T15:10:04.000Z",
+          "wordCount": 13849,
+          "title": "The Defector Tennis Desk Takes Stock Of The U.S. Open",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2294723956.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235383",
+          "author": "Patrick Redford",
+          "description": "In a time when the algorithmically determined social internet serves primarily to trick people into becoming hosts to various parasites or simply drive them mad, it might be perversely comforting to imagine that the people on the other side of the screen are knowing, cynical actors, free from the brain-shredding effects of life online. Noxious as it is, some sort of harmony or human logic would at least be familiar and capable of being understood. But no, those guys are the algorithm's subjects too.\nTwo of those guys are Hunter Biden and YouTube personality Andrew Callaghan, presently involved in what I'll call a crypto scam email whoopsie perpetrated by the former with the unwitting help of the latter. I find it quite instructive. You can see in the odd anti-collaboration something like the algorithm talking to itself. There are no good proper nouns here, only two people driven to make the world a little worse by the incentives of their platforms.\nPresumably you know who Biden is. The son of former president Joe Biden was a fascination of right-wing media for years, both for the salacious details of his years of addiction and for the various sinecures his father hooked him up with. In October 2020, the New York Post published a bunch of supposedly damning emails from a laptop the younger Biden inexplicably brought into a Wilmington computer repair shop. The laptop scandal was less interesting for its particulars than for the way it turned him into a sort of hyperobject among right-wingers. To them, Hunter Biden was the neat personification of both the personal moral decay and corrupt dealings of their opposition.",
+          "link": "https://defector.com/hunter-biden-andrew-callaghan-crypto-rug-pull",
+          "publishedOn": "2026-09-15T14:14:00.000Z",
+          "wordCount": 8155,
+          "title": "See The Algorithm’s Dark Gleam In The Hunter Biden-Andrew Callaghan Crypto Scam Email Whoopsie",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/callaghan.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235569",
+          "author": "Tom Ley",
+          "description": "Fair warning: This is a short blog post in which you are going to encounter exhausting behavior from some fellas who will leave you pining for the restoration of our culture's sense of shame.\nTexas beat Ohio State in dramatic fashion on Saturday night, and Texas head coach Steve Sarkisian was all jacked up after the final whistle. After having skipped out on his halftime sideline interview due to a technical delay, Sarkisian decided that he also did not want to talk to ESPN sideline reporter Holly Rowe at the conclusion of the game. As Rowe attempted to corral Sarkisian on the field, he shouted some stuff in her direction, threw up the horns sign, and then ran off. \n\nhttps://bsky.app/profile/awfulannouncing.bsky.social/post/3mvenpr4jw22n",
+          "link": "https://defector.com/arch-manning-room-full-of-dipshits-snicker-about-ai-video-of-steve-sarkisian-slapping-holly-rowe",
+          "publishedOn": "2026-09-15T13:55:01.000Z",
+          "wordCount": 5268,
+          "title": "Arch Manning, Room Full Of Dipshits, Snicker About AI Video Of Steve Sarkisian Slapping Holly Rowe",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2295260955.jpg"
+        },
         {
           "id": "https://defector.com/?p=235478",
           "author": "Chris Thompson",
@@ -1802,6 +1892,16 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73742482/supreme-court-mail-vote/",
+          "author": null,
+          "description": "The Supreme Court put an end to the president’s cockamamie scheme to have the USPS make mail-in voting a nightmare. Get ready for the tantrums.",
+          "link": "https://www.esquire.com/news-politics/politics/a73742482/supreme-court-mail-vote/",
+          "publishedOn": "2026-09-15T16:32:54.000Z",
+          "wordCount": 20083,
+          "title": "Trump’s Clumsy Plan to Suppress the Vote is Officially Dead",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/1d606376-a9c0-4188-b82b-c0872eb406fb.jpeg?crop=1xw:0.748491249246xh;center,top&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73725396/trump-ireland-reunification/",
           "author": null,
           "description": "The man has a real gift for jumping on a country’s last political nerve, doesn’t he?",
@@ -2171,16 +2271,6 @@
           "wordCount": 2753,
           "title": "JEGO®",
           "imageUrl": "https://foxtrot.com/wp-content/uploads/2026/08/ft260913-foxtrot-comics-bill-amend-jego-lego-sets-star-wars-lord-of-the-rings-harry-potter-jason-fox-sunday-comic-strip.png"
-        },
-        {
-          "id": "https://foxtrot.com/?p=6244",
-          "author": "Bill Amend",
-          "description": "FoxTrot by Bill Amend | September 6, 2026",
-          "link": "https://foxtrot.com/2026/09/06/most-unexpected/?utm_source=rss&utm_medium=rss&utm_campaign=most-unexpected",
-          "publishedOn": "2026-09-06T05:01:00.000Z",
-          "wordCount": 3556,
-          "title": "Most Unexpected",
-          "imageUrl": "https://foxtrot.com/wp-content/uploads/2026/08/ft260906-foxtrot-comics-bill-amend-most-unexpected-water-boy-football-peter-fox-coach-sports-sunday-comic-strip.png"
         }
       ]
     },
@@ -2189,6 +2279,16 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/articles/never-send-slides/nail-your-narrative.html",
+          "author": null,
+          "description": "Sumeet Gayathri Moghe finds many folks building\n      presentations get tangled in building slides without a coherent narrative.\n      He advises distilling the big idea, visualizing the audience, and\n      building a structured storyline. \nmore…",
+          "link": "https://martinfowler.com/articles/never-send-slides/nail-your-narrative.html",
+          "publishedOn": "2026-09-15T15:11:00.000Z",
+          "wordCount": 3024,
+          "title": "Nail the Narrative",
+          "imageUrl": "https://martinfowler.com/articles/never-send-slides/index/card.png"
+        },
         {
           "id": "https://martinfowler.com/articles/2026-social-traffic.html",
           "author": null,
@@ -2233,6 +2333,16 @@
       "siteUrl": "https://gomakethings.com/articles",
       "articles": [
         {
+          "id": "https://gomakethings.com/articles/the-most-influential-fictional-cat/",
+          "author": null,
+          "description": "Almost immediately after finishing the Dungeon Crawler Carl series, I started re-reading the books.\nI’m blown away by how much the series has pushed me even further into anarchist, community-oriented behavior.\nWe recently moved from MA back to Rhode Island. We were making a lot of trips back and forth between our old house and the storage unit we rented near our new place.\nAfter one particularly long day, I pulled off the highway for a quick bite to eat, and saw one of the homeless folks I know panhandling.",
+          "link": "https://gomakethings.com/articles/the-most-influential-fictional-cat/",
+          "publishedOn": "2026-09-15T14:30:00.000Z",
+          "wordCount": 6068,
+          "title": "The most influential fictional cat",
+          "imageUrl": "https://gomakethings.com/img/og.png"
+        },
+        {
           "id": "https://gomakethings.com/articles/depending-on-other-people/",
           "author": null,
           "description": "In countries outside of the US, “libertarianism” is often synonymous with anarchy. In the US, it typically refers to folks who are really into unrestrained capitalism without the social support.\nI was talking about this with a libertarian friend some time ago, and they said something along the lines of…\n What you’re describing means you’d have to really depend on other people.\n They meant it in a bad way.",
@@ -2259,6 +2369,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1557727",
+          "author": "Josh Marshall",
+          "description": "Conventional wisdom holds that a midterm election only fully comes into focus after Labor Day. That’s when a critical slice...",
+          "link": "https://talkingpointsmemo.com/edblog/yep-the-anti-trump-wave-is-building",
+          "publishedOn": "2026-09-15T17:13:37.000Z",
+          "wordCount": 2210,
+          "title": "Yep, the Anti-Trump Wave Is Building",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/08/GettyImages-2289373166.jpg?w=1200"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1557663",
           "author": "Josh Marshall",
@@ -2376,6 +2496,22 @@
       "feedUrl": "https://morningmemo.talkingpointsmemo.com/feed",
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/trump-ii-sends-democracy-worldwide",
+          "author": "David Kurtz",
+          "description": "INSIDE: Donald Trump ... Roberts Court ... Troy Meink",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/trump-ii-sends-democracy-worldwide",
+          "publishedOn": "2026-09-15T15:29:36.000Z",
+          "wordCount": null,
+          "title": "Trump II Sends Democracy Worldwide Into a Tailspin",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!s9cB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbdf22296-7a55-44e7-a20e-f55f658d1ca4_400x600.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!s9cB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbdf22296-7a55-44e7-a20e-f55f658d1ca4_400x600.jpeg"
+        },
         {
           "id": "https://morningmemo.talkingpointsmemo.com/p/what-trumps-very-fine-people-on-both",
           "author": "David Kurtz",
@@ -2518,6 +2654,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/holy-shit-glitch-mcconnell-is-kinda",
+          "author": "Jeff Tiedrich",
+          "description": "okay, the lights are clearly on. but is anyone home?",
+          "link": "https://www.jefftiedrich.com/p/holy-shit-glitch-mcconnell-is-kinda",
+          "publishedOn": "2026-09-15T14:42:53.000Z",
+          "wordCount": null,
+          "title": "holy shit, Glitch McConnell is kinda sorta somewhat almost alive!",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!2kf9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facf309ed-f4cd-40a2-ac56-d222945bd503_800x425.gif",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!2kf9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facf309ed-f4cd-40a2-ac56-d222945bd503_800x425.gif"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/why-the-fuck-were-millions-of-dollars",
           "author": "Jeff Tiedrich",
