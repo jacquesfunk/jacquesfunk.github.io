@@ -110,6 +110,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://protesilaos.com/codelog/2026-09-15-emacs-reply-einar-mostad/",
+          "author": null,
+          "description": "Hello Einar,\nI am writing this as a public letter in response to the blog post you\npublished on 2026-09-13 with the title An apology to Protesilaos\nStavrou and David Wilson.\nI accept the apology, though I think there is no need for one. I would\npersonally not delete anything. Instead, I would add a link on top to\npoint to the newer publication, plus some explanation. This teaches\neach of us to not take everything too seriously and to not pull the\ntrigger before considering the case.\nAt any rate, I am fine with your choice.\nText is an especially difficult medium of communication because we do\nnot exchange non-verbal cues. It is thus easy to imagine something\nwhich is not there and to then attribute bad intent to its author. For\nexample, I find myself laughing at the way I formulated a certa…",
+          "link": "https://protesilaos.com/codelog/2026-09-15-emacs-reply-einar-mostad/",
+          "publishedOn": "2026-09-15T00:00:00.000Z",
+          "wordCount": 542,
+          "title": "Protesilaos: Emacs: reply to Einar Mostad about reading the documentation",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
+        {
           "id": "https://www.jamescherti.com/emacs-terminal-performance-vterm-eat-ansi-term-ghostel/",
           "author": null,
           "description": "Emacs terminal buffers like eat, vterm, ghostel, term, and ansi-term can become slow when processing large volumes of standard output. Watching Emacs freeze while a build script dumps thousands of lines is frustrating, but terminal latency is not an unavoidable cost of living inside Emacs. Applying a few targeted configuration changes will eliminate scroll lag and restore immediate responsiveness. This article provides a configuration that speed up terminal buffers.\nBefore we begin, please consider sharing this article on your website, blog, Mastodon, Reddit, X, LinkedIn, Hacker News, or other social media platforms. Sharing it will help other Emacs users discover how to improve the performance of their terminal emulators.\nComplete configuration for high-performance terminal buffers\nThe fo…",
@@ -356,6 +366,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=235478",
+          "author": "Chris Thompson",
+          "description": "The new Polymarket ad spot opens with LeBron James stepping onto an elevator and pushing a button labeled \"SPORTS.\" This is not some AI-extruded, near-enough visual representation of a generic basketball player of the stature of LeBron James. It is the actual LeBron James, newly a paid endorser of Polymarket, the marginally less sneering and brazen—but still apocalyptically corrupt—of the two big prediction markets. To get to the SPORTS floor, in the ad, actual LeBron will pass betting floors for culture, economy, and weather; above the sports floor are floors for politics and cryptocurrency. Polymarket is working on all of these areas, you see.\nThe elevator doors open and LeBron steps into chaos. It's a scene yoinked visually and tonally from The Wolf of Wall Street—a trading floor baccha…",
+          "link": "https://defector.com/lebron-james-wants-your-paycheck-to-become-his-paycheck-by-way-of-polymarket",
+          "publishedOn": "2026-09-15T13:03:51.000Z",
+          "wordCount": 6526,
+          "title": "LeBron James Wants Your Paycheck To Become His Paycheck, By Way Of Polymarket",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2286413768.jpg"
+        },
         {
           "id": "https://defector.com/?p=235540",
           "author": "Tom Ley",
@@ -929,7 +949,18 @@
       "title": "alexwlchan",
       "feedUrl": "https://alexwlchan.net/atom.xml",
       "siteUrl": "https://alexwlchan.net/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://alexwlchan.net/2026/glancecast/",
+          "author": null,
+          "description": "Inserting a chapter with artwork every few seconds turns an MP3 file into an approximation of a video file. I can listen to videos as audio-first, and glance at my lock screen if I need some visual context.",
+          "link": "https://alexwlchan.net/2026/glancecast/",
+          "publishedOn": "2026-09-15T11:04:15.000Z",
+          "wordCount": 1304,
+          "title": "Abusing ID3 chapters to turn videos into glanceable podcasts",
+          "imageUrl": "https://alexwlchan.net/images/profile_green_sq.jpg"
+        }
+      ]
     },
     {
       "title": "Stuff That Interests Me",
@@ -1044,16 +1075,6 @@
           "publishedOn": "2026-09-07T00:51:34.000Z",
           "wordCount": 6910,
           "title": "Sunday Night Playlist",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3730",
-          "author": "Schill",
-          "description": "Few stories from the history of World War II sound as unbelievable as that of Tsutomu Yamaguchi, a Japanese",
-          "link": "https://stuffthatinterestsme.net/sunday-weird-history-lesson-the-man-who-survived-two-atomic-bombs/",
-          "publishedOn": "2026-09-06T00:03:44.000Z",
-          "wordCount": 2860,
-          "title": "Sunday Weird History Lesson: The Man Who Survived Two Atomic Bombs",
           "imageUrl": null
         }
       ]
