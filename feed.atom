@@ -2,10 +2,70 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-15T00:18:05.783Z</updated>
+    <updated>2026-09-15T07:12:47.265Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Flow State Ep. 343: Corntuth Premiere]]></title>
+        <id>https://www.flowstate.fm/p/flow-state-ep-343-corntuth-premiere</id>
+        <link href="https://www.flowstate.fm/p/flow-state-ep-343-corntuth-premiere"/>
+        <updated>2026-09-15T07:02:48.000Z</updated>
+        <summary type="html"><![CDATA[Today’s mix premieres the new Corntuth record, The Nightingale Floor, which comes out next week on Flow State Records and Aural Canyon.]]></summary>
+        <author>
+            <name>Flow State</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Marvin Gaye’s What’s Going On: The Album That Changed the Soul of America]]></title>
+        <id>https://historyofmusic.net/?p=5885</id>
+        <link href="https://historyofmusic.net/1970s/marvin-gayes-whats-going-on-the-album-that-changed-the-soul-of-america/"/>
+        <updated>2026-09-15T02:27:39.000Z</updated>
+        <summary type="html"><![CDATA[There are great albums, there are important albums, and then there are albums that permanently change the expectations placed on]]></summary>
+        <author>
+            <name>schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Outlaws, Honky-Tonks & Highway Dreams: The Wild History of Outlaw Country]]></title>
+        <id>https://historyofmusic.net/?p=5882</id>
+        <link href="https://historyofmusic.net/1960s/outlaws-honky-tonks-highway-dreams-the-wild-history-of-outlaw-country/"/>
+        <updated>2026-09-15T02:11:57.000Z</updated>
+        <summary type="html"><![CDATA[Outlaw Country is one of the most important movements in the history of American music because it changed what country]]></summary>
+        <author>
+            <name>schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Laurel Canyon: The Neighborhood That Changed American Music]]></title>
+        <id>https://historyofmusic.net/?p=5877</id>
+        <link href="https://historyofmusic.net/1960s/5877/"/>
+        <updated>2026-09-15T01:26:24.000Z</updated>
+        <summary type="html"><![CDATA[There are plenty of places that can claim to have played an important role in music history. Liverpool had the]]></summary>
+        <author>
+            <name>schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Frank Zappa: The Life, Music and Influence of a Musical Original]]></title>
+        <id>https://historyofmusic.net/?p=5874</id>
+        <link href="https://historyofmusic.net/1960s/frank-zappa-the-life-music-and-influence-of-a-musical-original/"/>
+        <updated>2026-09-15T00:52:28.000Z</updated>
+        <summary type="html"><![CDATA[Frank Zappa spent his entire career making sure nobody could comfortably put him in a box. He was a rock]]></summary>
+        <author>
+            <name>schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Troma Tuesday: Rabid Grannies]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3747</id>
+        <link href="https://stuffthatinterestsme.net/troma-tuesday-rabid-grannies/"/>
+        <updated>2026-09-15T00:27:12.000Z</updated>
+        <summary type="html"><![CDATA[There are plenty of horror movies about monsters, demons, zombies and possessed children. But Rabid Grannies asks a much more]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SCOTUS Shuts Down Trump Mail Takeover Plan]]></title>
         <id>https://talkingpointsmemo.com/?p=1557663</id>
@@ -2943,66 +3003,6 @@ The funny thing is that vc already understands worktrees perf…]]></summary>
         <summary type="html"><![CDATA[Few stories from the history of World War II sound as unbelievable as that of Tsutomu Yamaguchi, a Japanese]]></summary>
         <author>
             <name>Schill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Joar von Arndt: Emacs does not need LSP]]></title>
-        <id>https://joarvarndt.se/emacs-lsp.html</id>
-        <link href="https://joarvarndt.se/emacs-lsp.html"/>
-        <updated>2026-09-05T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Table of Contents
-In-buffer completion
-Jump to definition and references
-Syntax checking
-Conclusion
-lsp) is standard to communicate information about a
-current programming project to an editor integration, powered by a “language
-server” for the specific programming language. Emacs has two major
-implementations of this editor functionality: eglot (built-in) and lsp-mode.
-Getting this set up is usually one of the first things that new users will want
-to do, but in my experience one can get by for a surprisingly long time using
-Emacs without needing to reach for eglot or lsp-mode. That is because many of
-the functions that lsp-servers provide can be provided by Emacs through other
-means.
-
-
-
-As someone who quite often moves between different programming languages, I find
-the need to set up eac…]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[this week in stupid: September 5 edition]]></title>
-        <id>https://www.jefftiedrich.com/p/this-week-in-stupid-september-5-edition</id>
-        <link href="https://www.jefftiedrich.com/p/this-week-in-stupid-september-5-edition"/>
-        <updated>2026-09-05T14:50:24.000Z</updated>
-        <summary type="html"><![CDATA[Jeanine Boxwine pumps it, Bobby Brainworms dumps it, and so much more...]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Optimizing Startup With Use-package]]></title>
-        <id>https://irreal.org/blog/?p=14062</id>
-        <link href="https://irreal.org/blog/?p=14062"/>
-        <updated>2026-09-05T14:44:09.000Z</updated>
-        <summary type="html"><![CDATA[optimizing Emacs startup with use-package. The idea is that many configurations load a substantial number of packages and that this can cause a significant increase in startup time.
-
-
-Most of you know by now that we here at the Irreal bunker refuse to worry about that because, after all, we hardly ever restart Emacs. Still, plenty of people do worry about it and there’s nothing wrong with learning a few easy to implement principles that will speedup Emacs startup without having to obsess about tiny details.
-
-
-The TL;DR is to get use-package to defer loading of packages until they are actually needed. Most Emacers who aren’t complete n00bs already know this. The question is, how exactly, to specify the use-package commands to achieve that.
-
-
-The obvious answers aren’t the right ones. For example, the :defer keyword seems like the natural answer but Cherti explains why this isn’t usually necessary and that it doesn’t do what you probably think it does. It’s much better to use one of the commands that implicitly defer loading but also arrange for autoloading the required functions when they’re needed.
-
-
-Cherti also explains how to get use-package to add logging information to the *Messages* buffer to help with understanding the load process. There’s a lot of information in Cherti’s post and it serves as a handy reference for how to use use-package to control the loading of packages at startup time. If you’re at all worried about startup time or just want to understand how to use use-package to control package loading, take a look at his post.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
         </author>
     </entry>
 </feed>

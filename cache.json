@@ -348,26 +348,6 @@
           "wordCount": null,
           "title": "James Dyer: Git Worktreess Without Leaving Built-in VC",
           "imageUrl": null
-        },
-        {
-          "id": "https://joarvarndt.se/emacs-lsp.html",
-          "author": null,
-          "description": "Table of Contents\nIn-buffer completion\nJump to definition and references\nSyntax checking\nConclusion\nlsp) is standard to communicate information about a\ncurrent programming project to an editor integration, powered by a “language\nserver” for the specific programming language. Emacs has two major\nimplementations of this editor functionality: eglot (built-in) and lsp-mode.\nGetting this set up is usually one of the first things that new users will want\nto do, but in my experience one can get by for a surprisingly long time using\nEmacs without needing to reach for eglot or lsp-mode. That is because many of\nthe functions that lsp-servers provide can be provided by Emacs through other\nmeans.\n\n\n\nAs someone who quite often moves between different programming languages, I find\nthe need to set up eac…",
-          "link": "https://joarvarndt.se/emacs-lsp.html",
-          "publishedOn": "2026-09-05T16:00:00.000Z",
-          "wordCount": 1683,
-          "title": "Joar von Arndt: Emacs does not need LSP",
-          "imageUrl": "https://joarvarndt.se/post-images/emacs-lsp.png"
-        },
-        {
-          "id": "https://irreal.org/blog/?p=14062",
-          "author": null,
-          "description": "optimizing Emacs startup with use-package. The idea is that many configurations load a substantial number of packages and that this can cause a significant increase in startup time.\n\n\nMost of you know by now that we here at the Irreal bunker refuse to worry about that because, after all, we hardly ever restart Emacs. Still, plenty of people do worry about it and there’s nothing wrong with learning a few easy to implement principles that will speedup Emacs startup without having to obsess about tiny details.\n\n\nThe TL;DR is to get use-package to defer loading of packages until they are actually needed. Most Emacers who aren’t complete n00bs already know this. The question is, how exactly, to specify the use-package commands to achieve that.\n\n\nThe obvious answers aren’t the right ones. For example, the :defer keyword seems like the natural answer but Cherti explains why this isn’t usually necessary and that it doesn’t do what you probably think it does. It’s much better to use one of the commands that implicitly defer loading but also arrange for autoloading the required functions when they’re needed.\n\n\nCherti also explains how to get use-package to add logging information to the *Messages* buffer to help with understanding the load process. There’s a lot of information in Cherti’s post and it serves as a handy reference for how to use use-package to control the loading of packages at startup time. If you’re at all worried about startup time or just want to understand how to use use-package to control package loading, take a look at his post.",
-          "link": "https://irreal.org/blog/?p=14062",
-          "publishedOn": "2026-09-05T14:44:09.000Z",
-          "wordCount": 1533,
-          "title": "Irreal: Optimizing Startup With Use-package",
-          "imageUrl": null
         }
       ]
     },
@@ -956,6 +936,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3747",
+          "author": "Schill",
+          "description": "There are plenty of horror movies about monsters, demons, zombies and possessed children. But Rabid Grannies asks a much more",
+          "link": "https://stuffthatinterestsme.net/troma-tuesday-rabid-grannies/",
+          "publishedOn": "2026-09-15T00:27:12.000Z",
+          "wordCount": 2748,
+          "title": "Troma Tuesday: Rabid Grannies",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3756",
           "author": "Schill",
@@ -1914,6 +1904,46 @@
       "siteUrl": "https://historyofmusic.net",
       "articles": [
         {
+          "id": "https://historyofmusic.net/?p=5885",
+          "author": "schill",
+          "description": "There are great albums, there are important albums, and then there are albums that permanently change the expectations placed on",
+          "link": "https://historyofmusic.net/1970s/marvin-gayes-whats-going-on-the-album-that-changed-the-soul-of-america/",
+          "publishedOn": "2026-09-15T02:27:39.000Z",
+          "wordCount": 5412,
+          "title": "Marvin Gaye’s What’s Going On: The Album That Changed the Soul of America",
+          "imageUrl": null
+        },
+        {
+          "id": "https://historyofmusic.net/?p=5882",
+          "author": "schill",
+          "description": "Outlaw Country is one of the most important movements in the history of American music because it changed what country",
+          "link": "https://historyofmusic.net/1960s/outlaws-honky-tonks-highway-dreams-the-wild-history-of-outlaw-country/",
+          "publishedOn": "2026-09-15T02:11:57.000Z",
+          "wordCount": null,
+          "title": "Outlaws, Honky-Tonks & Highway Dreams: The Wild History of Outlaw Country",
+          "imageUrl": null
+        },
+        {
+          "id": "https://historyofmusic.net/?p=5877",
+          "author": "schill",
+          "description": "There are plenty of places that can claim to have played an important role in music history. Liverpool had the",
+          "link": "https://historyofmusic.net/1960s/5877/",
+          "publishedOn": "2026-09-15T01:26:24.000Z",
+          "wordCount": 12979,
+          "title": "Laurel Canyon: The Neighborhood That Changed American Music",
+          "imageUrl": null
+        },
+        {
+          "id": "https://historyofmusic.net/?p=5874",
+          "author": "schill",
+          "description": "Frank Zappa spent his entire career making sure nobody could comfortably put him in a box. He was a rock",
+          "link": "https://historyofmusic.net/1960s/frank-zappa-the-life-music-and-influence-of-a-musical-original/",
+          "publishedOn": "2026-09-15T00:52:28.000Z",
+          "wordCount": 9247,
+          "title": "Frank Zappa: The Life, Music and Influence of a Musical Original",
+          "imageUrl": null
+        },
+        {
           "id": "https://historyofmusic.net/?p=5870",
           "author": "schill",
           "description": "When Guns N’ Roses released Appetite for Destruction in 1987, there was little reason to believe it would become",
@@ -1992,6 +2022,22 @@
       "feedUrl": "https://www.flowstate.fm/feed",
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
+        {
+          "id": "https://www.flowstate.fm/p/flow-state-ep-343-corntuth-premiere",
+          "author": "Flow State",
+          "description": "Today’s mix premieres the new Corntuth record, The Nightingale Floor, which comes out next week on Flow State Records and Aural Canyon.",
+          "link": "https://www.flowstate.fm/p/flow-state-ep-343-corntuth-premiere",
+          "publishedOn": "2026-09-15T07:02:48.000Z",
+          "wordCount": null,
+          "title": "Flow State Ep. 343: Corntuth Premiere",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/215765169/db8811d0d8b00f25cc096298787e1936.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "https://www.flowstate.fm/p/john-carroll-kirby-interview",
           "author": "Flow State",
@@ -2594,22 +2640,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!f6Hx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2892238e-28f9-4661-8bd7-bfb5949ab1ab_1516x871.jpeg"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/this-week-in-stupid-september-5-edition",
-          "author": "Jeff Tiedrich",
-          "description": "Jeanine Boxwine pumps it, Bobby Brainworms dumps it, and so much more...",
-          "link": "https://www.jefftiedrich.com/p/this-week-in-stupid-september-5-edition",
-          "publishedOn": "2026-09-05T14:50:24.000Z",
-          "wordCount": null,
-          "title": "this week in stupid: September 5 edition",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!63yP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a327c22-b473-4898-91d4-a042bbbda22d_1188x742.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!63yP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a327c22-b473-4898-91d4-a042bbbda22d_1188x742.jpeg"
         }
       ]
     }
