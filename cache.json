@@ -6,6 +6,16 @@
       "siteUrl": "https://us14.campaign-archive.com/feed?u=4ee2a9d2f52c73075917bfd81&id=4db8417328",
       "articles": [
         {
+          "id": "https://mailchi.mp/aboard/zkd26k8jzm-10349252",
+          "author": null,
+          "description": "96\n\n\n\n\n\n\nAboard Newsletter: Humans Are the Only Real Agents\n\n\nimg{-ms-interpolation-mode:bicubic;}\ntable, td{mso-table-lspace:0pt;mso-table-rspace:0pt;}\n.mceStandardButton, .mceStandardButton td, .mceStandardButton td a{mso-hide:all!important;}\np, a, li, td, blockquote{mso-line-height-rule:exactly;}\np, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}\n.mcnPreviewText{display:none!important;}\n.bodyCell{margin:0 auto;padding:0;width:100%;}\n.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;}\n.ReadMsgBody, .ExternalClass{width:100%;}\na[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inherit!important;f…",
+          "link": "https://mailchi.mp/aboard/zkd26k8jzm-10349252",
+          "publishedOn": "2026-09-16T19:25:38.000Z",
+          "wordCount": 3012,
+          "title": "Aboard Newsletter: Humans Are the Only Real Agents",
+          "imageUrl": null
+        },
+        {
           "id": "https://mailchi.mp/aboard/zkd26k8jzm-10349087",
           "author": null,
           "description": "96\n\n\n\n\n\n\nAboard Newsletter: A Brand-New Archive for a Historical Treasure\n\n\nimg{-ms-interpolation-mode:bicubic;}\ntable, td{mso-table-lspace:0pt;mso-table-rspace:0pt;}\n.mceStandardButton, .mceStandardButton td, .mceStandardButton td a{mso-hide:all!important;}\np, a, li, td, blockquote{mso-line-height-rule:exactly;}\np, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}\n.mcnPreviewText{display:none!important;}\n.bodyCell{margin:0 auto;padding:0;width:100%;}\n.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;}\n.ReadMsgBody, .ExternalClass{width:100%;}\na[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inher…",
@@ -139,6 +149,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://ray-on-emacs.blogspot.com/2026/09/a-niftier-way-to-asciify-emacs-buffer.html",
+          "author": null,
+          "description": "Web page content\n  lately is littered with unusual Unicode characters that\n  resemble ASCII characters.  It's possible this is how an\n  author (whether human or AI) might \"sign\" work.\n\n\n\nI use a recorded keystroke macro to brute-force-edly replace such\nUnicode characters with their ASCII equivalents.  This allows me to\nmaintain ASCII-compatible files.  For example, to replace the right\nsingle quote character having a character code of #x2019, the macro\nreplays M-% ’ RET ' RET ! to replace all occurrences with\nthe straight apostrophe, #x27.\n\n\n\nI'm not trying to publish someone else's work as my own -- I do\nprovide a reference to source whenever possible.  I'm simply\ntrying to keep my content as unadulterated as possible.\n\n\n\nThere are at least three problems with my macro:\n\n\nIf #x2019 can't be found, an exclamation mark is placed at point.\nIt fails to replace other single-quote-like Unicode characters such as #x2018 or\n#x2032.\nThe method is clunky and inelegant to an obscene degree.\nreplace-char-fold, a very interesting custom variable.1\n\n\n\nAccording to its docstring, \"Non-nil means replacement commands should\ndo character folding in matches. This means, for instance,\nthat \\\\=' will match a large variety of Unicode quotes.\"\nThis is exactly what I need!\n\n\n\nNow I have Yet Another Fun Emacs Project (YAFEP), which is to create a\nsleek and robust ASCIIfy Lisp function.  And YAFEP aligns fortuitously\nwith this month's Emacs Carnival topic, which is Games.\n\n\nWhat's been your experience with quoting web content?\n1 For a deeper dive into character folding in Emacs,\nplease read the info node\non lax matching.\nThese pages on Wikipedia served as references for this article:\n  \n\n    \nRight\n  Single Quotation Mark\nGeneral\n    Punctuation",
+          "link": "https://ray-on-emacs.blogspot.com/2026/09/a-niftier-way-to-asciify-emacs-buffer.html",
+          "publishedOn": "2026-09-16T15:49:31.956Z",
+          "wordCount": 2857,
+          "title": "Raymond Zeitler: A Niftier Way To ASCIIfy An Emacs Buffer",
+          "imageUrl": null
+        },
         {
           "id": "https://irreal.org/blog/?p=14087",
           "author": null,
@@ -406,6 +426,56 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=235622",
+          "author": "Dave McKenna",
+          "description": "Welcome back to Minor Dilemmas, where a member of Defector's Parents Council will answer your questions on surviving family life. Have a question? Email us at minordilemmas@defector.com.\nThis week, Dave answers a question about holding your child back from school for a year.",
+          "link": "https://defector.com/should-i-hold-my-kid-back-from-school-for-a-year",
+          "publishedOn": "2026-09-16T19:36:04.000Z",
+          "wordCount": 7276,
+          "title": "Should I Hold My Kid Back From School  For A Year?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1031728108.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235438",
+          "author": "Lesley Ryder",
+          "description": "The NWSL received eight complaints about either sexual misconduct, sexual harassment, or retaliation during the first half of this year, according to documents obtained by Defector Media. The reports span multiple teams, and were received between February and June.  The conclusions of any resulting investigations are redacted. So are the names of the teams involved. …",
+          "link": "https://defector.com/docs-nwsl-received-eight-sexual-misconduct-sexual-harassment-or-retaliation-complaints-this-year",
+          "publishedOn": "2026-09-16T18:41:49.000Z",
+          "wordCount": 7013,
+          "title": "Docs: NWSL Received Eight Sexual Misconduct, Sexual Harassment, Or Retaliation Complaints This Year",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2291743080-e1789357795374.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235697",
+          "author": "Jae Towle Vieira",
+          "description": "Who doesn’t love a little Normal Gossip surprise? OK, yes, we said that last week’s episode was our season finale, but when you’re sitting on a mountain of gossip stories, it would be selfish to not share more, right? \nToday’s episode raises one of the ancient questions: Would you rather listen to the 10 hour version of \"They’re taking the hobbits to Isengard,\" or explain your dietary restrictions to a pedant? Maybe this question is just another way of getting at whether you’re antisocial or just a Scorpio? Regardless of your labels, I’m pouring myself a pint and settling in for some quality time with Orlando Bloom. \nToday’s gossip comes to us all the way from 2020, when circumstances conspired to put two young, mostly vegetarian van-dwellers and a retired academic in one house. There’s no escaping the questions, conversations, and dinner plans to come, though our little tumbleweeds will certainly try.",
+          "link": "https://defector.com/consider-the-emotional-lives-of-scallops",
+          "publishedOn": "2026-09-16T18:29:30.000Z",
+          "wordCount": 4784,
+          "title": "Consider The Emotional Lives Of Scallops",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1207345600.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235633",
+          "author": "Kelsey McKinney",
+          "description": "Ed Sheeran, perhaps best known for writing the kind of music that your second cousin chooses to play for the father-daughter dance at her wedding, cemented his status as a floppy-spine dummy this week by bending the knee to American billionaire idiot Robert Kraft. After rapper Macklemore's statement on Monday that he had been dropped from Sheeran's tour due to pressure from billionaire NFL owners over his vocal support for the Palestinian people, Sheeran further beclowned himself by opting to defer responsibility for the decision of who plays on his own tour.\n\"I was also involved in direct talks with promoters along with activists on both sides to try and find a mutual resolution for all,\" Sheeran wrote in a multi-bulleted Instagram statement defending his choice to allow rich guys to determine his line-up, \"but the venue's and promoter's decision was final.\"\nThere is no \"mutual resolution for all\" when you are being strong-armed like this. What's embarrassing about Sheeran's response here is that he does not seem to understand that his pants have been pulled down around his ankles. Instead of pulling them back up, or even saying that it's rude to have done this, he's tripping forward as if nothing has happened.",
+          "link": "https://defector.com/massive-own-goal-scored-by-ed-sheeran",
+          "publishedOn": "2026-09-16T17:22:03.000Z",
+          "wordCount": 5721,
+          "title": "Massive Own-Goal Scored By Ed Sheeran",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2251926091.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235646",
+          "author": "Luis Paez-Pumar",
+          "description": "On Tuesday, Tottenham did something that has been out of character since the start of the 2026-27 season: It scored a goal. The goal came in the 69th minute of its third-round League Cup match against Liverpool, it came from a corner, and it ultimately didn't matter all that much. Connor Gallagher capitalized on a weak run-out from backup Pool Boys goalkeeper Giorgi Mamardashvili and headed the ball in, giving Tottenham its first goal in any competition since its 5-1 pounding of Championship side Charlton Athletic in the previous round of the League Cup. Gallagher's header was a necessary tally, even if Tottenham eventually bowed out of the League Cup anyway by a score of 3-1, because the club has been afflicted with an offensive malaise in the Premier League never before seen in the 144-year history of Tottenham Hotspur. Maybe just seeing the ball hit the back of the net again will spark something for the club, and boy does it need a spark.\n\nhttps://www.youtube.com/watch?v=9oG66a7VmfY\n\n\nThrough four Premier League games, Tottenham has scored zero goals, and only by similarly impotent chance creation and finishing from Nottingham Forest and Everton does the North London side have any points domestically. Despite spending a lot of money this summer, Spurs are currently in exactly the same spot that they have finished the last two campaigns, 17th on the table and with more questions than answers. This is the first time in the club's history that it has started a season goalless across four games. It's a new low in the series of humiliations, postponed briefly by winning the 2024-25 Europa League, that has stricken Tottenham over the last two-plus seasons.",
+          "link": "https://defector.com/tottenhams-revamped-attack-is-an-overpriced-calamity",
+          "publishedOn": "2026-09-16T16:04:32.000Z",
+          "wordCount": 7998,
+          "title": "Tottenham’s Revamped Attack Is An Overpriced Calamity",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2294940680.jpg"
+        },
         {
           "id": "https://defector.com/?p=235640",
           "author": "Barry Petchesky",
@@ -1696,26 +1766,6 @@
           "wordCount": 2249,
           "title": "This is apparently how a mature president handles trade negotiationsRex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/25/USAT/91461977007-20250212-t-205333-z-479792007-rc-20-tcaxpiz-5-rtrmadp-3-canadapoliticsfentanyl.JPG?crop=4387,2470,x0,y61&width=3200&height=1802&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/16/trump-socialism-republicans-islamophobia-midterms/91304727007/-full",
-          "author": "Rex Huppke",
-          "description": "Oh look, it’s a Republican lawmaker spouting Islamophobic rhetoric over a Democratic candidate who’s Muslim.\nAnd over there, it’s President Donald Trump mocking transgender athletes.\nThere’s another Republican on the television telling you the economy has never been better.\nAnd there’s Trump again on your phone screen saying America has full control of the Strait of Hormuz while you’re pumping $4-per-gallon gas.\nBlah. Blah. Blah.\nTrump and Republicans have nothing but lies and stale fearmongering\n\nWith high food and gas prices, a weak labor market and an unpopular war started by a wildly unpopular president, the Grand Old Party has little to talk about, save bigotry and bald-faced lies.\nAnd that routine, as evidenced by polling and low GOP primary turnout, has gotten old. Trump has become …",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/16/trump-socialism-republicans-islamophobia-midterms/91304727007/",
-          "publishedOn": "2026-09-06T16:42:07.521Z",
-          "wordCount": 4601,
-          "title": "GOP has nothing left but bigotry and lies. Rinse and repeat.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/11/USAT/91263696007-trump-pic.JPG?crop=6499,3656,x0,y339&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/09/06/labor-day-trump-iran-diesel-gas-prices/91613263007/-full",
-          "author": "Rex Huppke",
-          "description": "It’s Labor Day weekend, and I hope my fellow Americans enjoy laboring, because we’re all going to be doing a lot more of it in order to afford food. And gas. And pretty much everything.\nThe long weekend was ushered in by news that diesel fuel prices hit a record high in the United States on Sept. 4, averaging $5.85 per gallon. That’s what people who use diesel to fuel freight trucks and farm equipment call “a lot.”\nThe new price-tag-at-the-pump record will invariably translate to higher consumer costs, since the folks who grow and ship food and other goods will be spending more on both the growing and the shipping. (The math on this isn’t difficult.)\nEnjoy Labor Day. Life is about to get even more expensive under Trump.\n\nJaime Brito, executive director of refining and oil products for Dow …",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/09/06/labor-day-trump-iran-diesel-gas-prices/91613263007/",
-          "publishedOn": "2026-09-06T16:42:07.225Z",
-          "wordCount": 4636,
-          "title": "Happy Labor Day! Enjoy it while you can still afford to.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/09/03/USAT/91600480007-getty-images-2291635459.jpg?crop=1023,576,x0,y53&width=1023&height=576&format=pjpg&auto=webp"
         }
       ]
     },
@@ -1832,46 +1882,6 @@
           "publishedOn": "2026-09-09T14:09:49.335Z",
           "wordCount": 177,
           "title": "Why Your Team Sucks 2026: San Francisco 49ers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/politics/article/trump-reflecting-pool-22306630.php-full",
-          "author": null,
-          "description": "The one thing that Washington, D.C., has always had going for it is its beauty. The people who run America from this town have always been an unsightly bunch, but they’ve done their nasty work in a city that has acquired, over the course of this country’s lifespan, an aesthetic like no other. No other major American city looks as regally beautiful as D.C. You and I have a long-standing federal law to thank for this, but we also have a collection of national landmarks clustered in the center of the district that the aforementioned law was written to both protect and to showcase. The Capitol. The Lincoln Memorial. The Washington Monument. These are gorgeous edifices, ones designed to outlast old generations and to inspire newer ones. They are the best of D.C., and therefore the best of Ameri…",
-          "link": "https://www.sfgate.com/politics/article/trump-reflecting-pool-22306630.php",
-          "publishedOn": "2026-09-06T16:42:42.860Z",
-          "wordCount": 177,
-          "title": "Congratulations, the Reflecting Pool is now a swamp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/tech/article/new-google-ai-22279112.php-full",
-          "author": null,
-          "description": "If you’re in my line of work, you know the phrase “search engine optimization” intimately. It haunts your dreams. It occupies space in every boring-ass PowerPoint presentation you’ve ever had to sit through. It might even be standing outside your bedroom window right now, blinking S-E-O in blinding, neon pink letters. SEO has quietly lorded over every internet writer’s work for decades now, forcing professionals like me to tailor our headlines, not to mention our very ideas, to its mysterious whims. \n\nIf you want people to read your work, and I do, you must pay tribute to the SEO gods if you want that writing to be easily discovered. And you must kneel before one SEO god in particular: Google. Google has ruled the search engine market for the entirety of this century, which is why every me…",
-          "link": "https://www.sfgate.com/tech/article/new-google-ai-22279112.php",
-          "publishedOn": "2026-09-06T16:42:42.858Z",
-          "wordCount": 177,
-          "title": "Google is about to make a big change and it's gonna suuuuuuck",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/sports/article/usmnt-world-cup-pulisic-22336246.php-full",
-          "author": null,
-          "description": "Much like our nation itself, the World Cup run for the U.S. men’s national soccer team started off promisingly, only to become a sick joke. The USMNT got eliminated from the 2026 Cup on Monday night after Belgium crushed it 4-1, in a game where the home team was thoroughly outplayed, outclassed and outcoached. But if the loss itself stung, the context in which it was played only made it feel that much worse.  \n\nYes, that backstory includes Donald Trump, but to a small degree, it also involves USMNT poster child and possible Trump fanboy Christian Pulisic. The first man disgraced the team off the field. The second man disgraced the team on it. How did all of this come to pass? Well, I suppose it’s my job to explain it, although the prospect of doing so excites about as much as having my leg…",
-          "link": "https://www.sfgate.com/sports/article/usmnt-world-cup-pulisic-22336246.php",
-          "publishedOn": "2026-09-06T16:42:42.854Z",
-          "wordCount": 177,
-          "title": "It's easy to blame the USMNT's World Cup crashout on one man. So I will.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/food/article/anthony-bourdain-burger-22403433.php-full",
-          "author": null,
-          "description": "This is not the correct time for me to be visiting Sam’s Burgers. It’s the middle of the afternoon here in North Beach, and finding a spot inside Sam’s tight confines isn’t much of a problem. If I were to walk in here 12 hours from now, just before the bars close and after patrons of all the nearby strip clubs have no more rain to make … well then, I probably wouldn’t be able to walk in here at all. There would probably be a line going outside the door. There would probably be an ass parked in every bright red leather stool at the counter and in the scant number of booths lining the wall. There would probably be dozens of hungry partiers, some of them quite famous, crowding into the place to eat a cheeseburger at the proper time to be eating a cheeseburger.\n\nThat’s when Anthony Bourdain wo…",
-          "link": "https://www.sfgate.com/food/article/anthony-bourdain-burger-22403433.php",
-          "publishedOn": "2026-09-06T16:42:42.849Z",
-          "wordCount": 177,
-          "title": "Anthony Bourdain loved this San Francisco burger and so do I",
           "imageUrl": null
         }
       ]
@@ -2335,22 +2345,6 @@
             "type": "audio/mpeg"
           },
           "imageUrl": null
-        },
-        {
-          "id": "https://www.flowstate.fm/p/william-orbit-78a",
-          "author": "Flow State",
-          "description": "Today we’re listening to and remembering William Orbit, an English keyboardist and producer from London.",
-          "link": "https://www.flowstate.fm/p/william-orbit-78a",
-          "publishedOn": "2026-09-07T07:04:14.000Z",
-          "wordCount": null,
-          "title": "William Orbit",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!LUNL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff332b23d-ad2c-410b-b938-feb83f4a0c04_600x600.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!LUNL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff332b23d-ad2c-410b-b938-feb83f4a0c04_600x600.jpeg"
         }
       ]
     },
@@ -2376,6 +2370,16 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/fragments/2026-09-16.html",
+          "author": null,
+          "description": "Reports of agentic hacking continue, in this case it happened back in May and it seems OpenAI did not disclose that they were responsible. Simon Willison sees two options:\nAfter the Hugging Face and Wiki attacks OpenAI were still unable to review their previous logs and determine that they had previously attacked RubyGems.\nThey knew about the attack on RubyGems and made the decision not to reach out to the RubyGems team about it.\nBoth of these are bad!\nGiven this incident, the Hugging Face situation, and the Wiki attack, the obvious question right now is how many more incidents like this are out there waiting to be discovered?\n ❄                ❄                ❄                ❄                ❄\nDave Farley:\nStop asking the sci-fi question: ‘Is it conscious?’ Start asking the engineering …",
+          "link": "https://martinfowler.com/fragments/2026-09-16.html",
+          "publishedOn": "2026-09-16T20:05:00.000Z",
+          "wordCount": 803,
+          "title": "Fragments: September 16",
+          "imageUrl": "https://martinfowler.com/fragments/fragments-thumb.png"
+        },
         {
           "id": "https://martinfowler.com/articles/never-send-slides/nail-your-narrative.html",
           "author": null,
@@ -2466,6 +2470,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1557872",
+          "author": "Josh Marshall",
+          "description": "I just noticed this Politico piece which contains a poll they just conducted about AI and the odds that AI...",
+          "link": "https://talkingpointsmemo.com/edblog/ai-isnt-conscious-but-are-its-feelings-getting-hurt",
+          "publishedOn": "2026-09-16T18:46:15.000Z",
+          "wordCount": 1968,
+          "title": "AI Isn’t Conscious But Are Its Feelings Getting Hurt?",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/09/GettyImages-2294735827.jpg?w=1200"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1557808",
           "author": "Josh Marshall",
