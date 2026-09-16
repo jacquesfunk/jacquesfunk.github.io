@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-15T23:58:16.200Z</updated>
+    <updated>2026-09-16T04:14:15.651Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Hump Day Hottie: Ana de Armas]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3587</id>
+        <link href="https://stuffthatinterestsme.net/hump-day-hottie-ana-de-armas/"/>
+        <updated>2026-09-16T01:44:03.000Z</updated>
+        <summary type="html"><![CDATA[Ana de Armas is a Cuban-Spanish actress who has built an international career across Spanish-language cinema and major Hollywood productions.]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Kash Patel’s FBI Recruiting Standards Have Gone to the Dogs]]></title>
         <id>http://www.esquire.com/news-politics/politics/a73746408/kash-patel-fbi-bestiality/</id>
@@ -3304,64 +3314,6 @@ sticking to consult-kith for now.
 
 
 Tags: emacs]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Loss Would Have Been Less Embarrassing Than Michigan’s Win Over Western Michigan]]></title>
-        <id>https://defector.com/?p=234784</id>
-        <link href="https://defector.com/a-loss-would-have-been-less-embarrassing-than-michigans-win-over-western-michigan"/>
-        <updated>2026-09-06T16:01:28.000Z</updated>
-        <summary type="html"><![CDATA[Even before it slipped into janky comedy in its dying moments, you wouldn't necessarily say that Michigan's season opener against Western Michigan on Saturday was "a good football game." But also just making such an assessment would be missing the point to an extent. It was certainly shaping up as a very specific type of college football game. It's one in which a power conference team playing poorly loses to a MAC team—it has to be a MAC team; that's the type of game it is—that makes fewer mistakes.
-This is not necessarily a fun kind of game to watch, although if you're on social media at the moment it can be fun to watch other people watching it. But it is absolutely a type of game that happens, and one of the gnawing anxieties that would confront a FBS team—especially one fresh off a bun…]]></summary>
-        <author>
-            <name>David Roth</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[what the fuck is that thing on Donny’s head?]]></title>
-        <id>https://www.jefftiedrich.com/p/what-the-fuck-is-that-thing-on-donnys</id>
-        <link href="https://www.jefftiedrich.com/p/what-the-fuck-is-that-thing-on-donnys"/>
-        <updated>2026-09-06T14:50:00.000Z</updated>
-        <summary type="html"><![CDATA[the Emperor’s new hair is just the latest in a lifetime of bad decisions]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Prot’s Doric Themes]]></title>
-        <id>https://irreal.org/blog/?p=14064</id>
-        <link href="https://irreal.org/blog/?p=14064"/>
-        <updated>2026-09-06T14:48:40.000Z</updated>
-        <summary type="html"><![CDATA[Doric Themes. They’re sort of minimalist, like my non-theme theme but still very nice looking if you don’t want your Emacs screen to look like an arcade. The doric-almond variation is, in particular, very similar to my color scheme. Mine has a little more contrast: the foreground text is a bit darker and the keywords in my code buffers are a blue that’s slightly brighter than doric-almond’s light green. Still, it’s a theme that I’d be comfortable with if I hadn’t taken the easy way.
-
-
-Some people have multiple themes and change them according to the time of day, their mood, the phase of the moon, or whatever. I’d hate that probably for the same reason that I don’t do well with trying to use different editors: I’d always be confused as to what’s what.
-
-
-If you’re looking for a minimalist theme and my method seems too minimal, take a look at Prot’s Doric Themes. There are several variations in both light and dark mode.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[James Dyer: Git Worktreess Without Leaving Built-in VC]]></title>
-        <id>https://emacs.dyerdwelling.family/emacs/20260905090959-emacs--git-worktrees-and-branch-surgery-in-built-in-vc/</id>
-        <link href="https://emacs.dyerdwelling.family/emacs/20260905090959-emacs--git-worktrees-and-branch-surgery-in-built-in-vc/"/>
-        <updated>2026-09-06T12:31:24.404Z</updated>
-        <summary type="html"><![CDATA[vc stuff, and this week's rabbit hole was git worktrees (Bozhidar Batsov's Working with Git Worktrees in Magit is what sent me down this particular rabbit hole!).  It was an itch that manifested itself while reading this blog and mainly seeing that worktrees seemed to make a good deal of sense to me (especially as I am quite a subversion veteran). I have always felt uncomfortable with the default git in-situ branch switching and prefer to branch develop away from the mainline in a physical separate directory and this is just what worktrees facilitate.  So how to do this with built-in vc-mode tools?, well as always this requires a little work and yes, I could use Magit, but I'm seeing how far I can push the built in vc.
-
-
-
-
-
-
-
-
-
-
-The funny thing is that vc already understands worktrees perf…]]></summary>
         <author>
             <name>Planet Emacslife</name>
         </author>

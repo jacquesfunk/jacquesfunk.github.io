@@ -408,26 +408,6 @@
           "wordCount": 341,
           "title": "Magnus: Emacs salmagundi, 2026-09-06",
           "imageUrl": null
-        },
-        {
-          "id": "https://irreal.org/blog/?p=14064",
-          "author": null,
-          "description": "Doric Themes. They’re sort of minimalist, like my non-theme theme but still very nice looking if you don’t want your Emacs screen to look like an arcade. The doric-almond variation is, in particular, very similar to my color scheme. Mine has a little more contrast: the foreground text is a bit darker and the keywords in my code buffers are a blue that’s slightly brighter than doric-almond’s light green. Still, it’s a theme that I’d be comfortable with if I hadn’t taken the easy way.\n\n\nSome people have multiple themes and change them according to the time of day, their mood, the phase of the moon, or whatever. I’d hate that probably for the same reason that I don’t do well with trying to use different editors: I’d always be confused as to what’s what.\n\n\nIf you’re looking for a minimalist theme and my method seems too minimal, take a look at Prot’s Doric Themes. There are several variations in both light and dark mode.",
-          "link": "https://irreal.org/blog/?p=14064",
-          "publishedOn": "2026-09-06T14:48:40.000Z",
-          "wordCount": 1553,
-          "title": "Irreal: Prot’s Doric Themes",
-          "imageUrl": null
-        },
-        {
-          "id": "https://emacs.dyerdwelling.family/emacs/20260905090959-emacs--git-worktrees-and-branch-surgery-in-built-in-vc/",
-          "author": null,
-          "description": "vc stuff, and this week's rabbit hole was git worktrees (Bozhidar Batsov's Working with Git Worktrees in Magit is what sent me down this particular rabbit hole!).  It was an itch that manifested itself while reading this blog and mainly seeing that worktrees seemed to make a good deal of sense to me (especially as I am quite a subversion veteran). I have always felt uncomfortable with the default git in-situ branch switching and prefer to branch develop away from the mainline in a physical separate directory and this is just what worktrees facilitate.  So how to do this with built-in vc-mode tools?, well as always this requires a little work and yes, I could use Magit, but I'm seeing how far I can push the built in vc.\n\n\n\n\n\n\n\n\n\n\nThe funny thing is that vc already understands worktrees perf…",
-          "link": "https://emacs.dyerdwelling.family/emacs/20260905090959-emacs--git-worktrees-and-branch-surgery-in-built-in-vc/",
-          "publishedOn": "2026-09-06T12:31:24.404Z",
-          "wordCount": null,
-          "title": "James Dyer: Git Worktreess Without Leaving Built-in VC",
-          "imageUrl": null
         }
       ]
     },
@@ -1025,16 +1005,6 @@
           "wordCount": 6300,
           "title": "Zheng Qinwen Survived A Near Death Experience At The U.S. Open",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/zhengQinwenMadisonKeys.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234784",
-          "author": "David Roth",
-          "description": "Even before it slipped into janky comedy in its dying moments, you wouldn't necessarily say that Michigan's season opener against Western Michigan on Saturday was \"a good football game.\" But also just making such an assessment would be missing the point to an extent. It was certainly shaping up as a very specific type of college football game. It's one in which a power conference team playing poorly loses to a MAC team—it has to be a MAC team; that's the type of game it is—that makes fewer mistakes.\nThis is not necessarily a fun kind of game to watch, although if you're on social media at the moment it can be fun to watch other people watching it. But it is absolutely a type of game that happens, and one of the gnawing anxieties that would confront a FBS team—especially one fresh off a bun…",
-          "link": "https://defector.com/a-loss-would-have-been-less-embarrassing-than-michigans-win-over-western-michigan",
-          "publishedOn": "2026-09-06T16:01:28.000Z",
-          "wordCount": 7710,
-          "title": "A Loss Would Have Been Less Embarrassing Than Michigan’s Win Over Western Michigan",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2293736191.jpg"
         }
       ]
     },
@@ -1087,6 +1057,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3587",
+          "author": "Schill",
+          "description": "Ana de Armas is a Cuban-Spanish actress who has built an international career across Spanish-language cinema and major Hollywood productions.",
+          "link": "https://stuffthatinterestsme.net/hump-day-hottie-ana-de-armas/",
+          "publishedOn": "2026-09-16T01:44:03.000Z",
+          "wordCount": 1402,
+          "title": "Hump Day Hottie: Ana de Armas",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3747",
           "author": "Schill",
@@ -2928,22 +2908,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!M71D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe172fa7-c35d-420b-b98d-2040299c4d15_1110x648.jpeg"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/what-the-fuck-is-that-thing-on-donnys",
-          "author": "Jeff Tiedrich",
-          "description": "the Emperor’s new hair is just the latest in a lifetime of bad decisions",
-          "link": "https://www.jefftiedrich.com/p/what-the-fuck-is-that-thing-on-donnys",
-          "publishedOn": "2026-09-06T14:50:00.000Z",
-          "wordCount": null,
-          "title": "what the fuck is that thing on Donny’s head?",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!f6Hx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2892238e-28f9-4661-8bd7-bfb5949ab1ab_1516x871.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!f6Hx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2892238e-28f9-4661-8bd7-bfb5949ab1ab_1516x871.jpeg"
         }
       ]
     }
