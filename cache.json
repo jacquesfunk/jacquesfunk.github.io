@@ -131,16 +131,6 @@
           "wordCount": 100,
           "title": "Monday, September 7, 2026",
           "imageUrl": "https://baty.net/img/2026/lincoln-with-beach-ball.webp"
-        },
-        {
-          "id": "https://baty.net/posts/2026/09/trying-a-new-emacs-config/",
-          "author": null,
-          "description": "I'm typing this in Emacs using a completely new config and it's so weird. I've been running Emacs v31 everywhere and thought I'd try leaning on more of the built-in completion behavior, and it spiraled out of control.\nI ended up looking at emacs-solo because it's a fancy configuration that only uses built-in packages. It was easy to try out, so I did. And I liked it. I added the necessary-for-me missing components of my old config.\nMy favorite part is that I went from 143 installed packages to 49 and got rid of hundreds of lines of config that I didn't really need. Also, my startup time was cut in half and is now under 1 second. Nice.\nIt'll take a minute for everything to burn in and shake out, but so far I don't hate it.\n✍️ Reply by email",
-          "link": "https://baty.net/posts/2026/09/trying-a-new-emacs-config/",
-          "publishedOn": "2026-09-06T19:38:20.000Z",
-          "wordCount": 212,
-          "title": "Trying a new Emacs config",
-          "imageUrl": "https://baty.net/img/opengraph.jpg"
         }
       ]
     },
@@ -398,16 +388,6 @@
           "wordCount": 1644,
           "title": "Lars Ingebrigtsen: Emacs Canz Spell Goodly Know",
           "imageUrl": "https://lars.ingebrigtsen.no/wp-content/uploads/2026/09/2026-09-07-1.jpeg"
-        },
-        {
-          "id": "https://magnus.therning.org/2026-09-06-emacs-salmagundi,-2026-09-06.html",
-          "author": null,
-          "description": "Compilation commands by project type\nhaskell-ng-project-mode, to my Haskell mode.\nThe idea I had was that I could use it to add keybindings for running various\ntools (via compile), e.g. I bound cabal build and cabal test , p b and\n, p t respectively. Then I hooked in the minor mode in my haskell-ng-mode.\nSoon I realised it'd be nice to have those shortcuts available in dired too,\nso I hooked it in there as well. When I later wanted to re-run the tests after\nmodifying a JSON file that was part of a golden test I realised that this wasn't\na very nice solution at all.\n\n\n\nAfter looking around a bit I found emacs-multi-compile. I removed the minor mode\nand add this configuration instead\n\n\n\n(add-to-list 'multi-compile-alist\n             '((haskell-ng-is-project) . ((\"cabal build\" \"cabal build -j --semaphore\" (project-root (project-current)))\n                                          (\"cabal test\" \"cabal test\" (project-root (project-current)))\n                                          (\"fourmolu\" \"fourmolu -i $(fd .hs$)\" (project-root (project-current))))))\n\nemacs-multi-compile works very well for me so I'm\nvery happy with it.\n\n\n\n\nJumping between implementation and test, again\na while ago. At the time I came up with a way of bending\nff-find-other-file to my will, but soon after that I ran into a case where\nthere may be 2 \"other files\" – one of the Haskell projects at work put unit\ntests in files ending in Spec.hs and property tests in filed ending with\nProp.hs. Unfortunately this is a situation that ff-find-other-file can't\nhandle.\n\n\n\nI ended up hacking together consult-kith to deal with it. The configuration to\nhandle two kinds of test files looks like this\n\n\n\n(setq-local consult-kith-alist `((,(rx (seq \"Spec.hs\" eol)) (\".hs\"))\n                                 (,(rx (seq \"Prop.hs\" eol)) (\".hs\"))\n                                 (,(rx (seq \".hs\" eol)) (\"Prop.hs\" \"Spec.hs\")))\n            consult-kith-search-directories '(\"src\" \"test\"))\n\nSpec.hs for tests, but I'm\nsticking to consult-kith for now.\n\n\n\nTags: emacs",
-          "link": "https://magnus.therning.org/2026-09-06-emacs-salmagundi,-2026-09-06.html",
-          "publishedOn": "2026-09-06T16:33:00.000Z",
-          "wordCount": 341,
-          "title": "Magnus: Emacs salmagundi, 2026-09-06",
-          "imageUrl": null
         }
       ]
     },
@@ -975,36 +955,6 @@
           "wordCount": 4142,
           "title": "The Crossword, Sept. 7: Big Resemblance",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2206068784.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234781",
-          "author": "David Roth",
-          "description": "The concept of A Cop On The Edge was once a disreputable film genre unto itself. This was not really a good thing in terms of what it indicated about where the culture was on the issue of vigilante violence, among other things. But its passing is also unworthy of much mourning because these movies were bad enough that one of the genre's signature moments was a twitchy and inexplicably be-gloved Sylvester Stallone cutting a slice of pizza with some desk scissors while wearing sunglasses indoors. All of the defects in our popular and political culture naturally flow in the direction of making the archetypal furious American dunce into a hero, and the fantasy of a man Taking Matters Into His Own Hands after being Pushed To The Limit, with maximal punishment exacted against everyone you'd expe…",
-          "link": "https://defector.com/heartwarming-preposterous-doug-eddings-umpshow-unites-cardinals-and-rockies-in-dislike-of-doug-eddings",
-          "publishedOn": "2026-09-06T20:26:44.000Z",
-          "wordCount": 7921,
-          "title": "Heartwarming: Preposterous Doug Eddings Umpshow Unites Cardinals And Rockies In Dislike Of Doug Eddings",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2293042126.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234788",
-          "author": "Kathryn Xu",
-          "description": "Do you believe that Formula 1 can be romantic? Before immediately answering to the negative, at least consider Kimi Antonelli. He is freshly 20 years old, and just became the first Italian driver to win the Italian Grand Prix since Ludovico Scarfiotti did so in 1966. If your answer is still negative, and fair enough, at least consider that Antonelli achieved his victory by breaking the record for most overtakes during a Grand Prix in F1 history and after starting from P19 on the grid. Consider, too, that this is Monza we're talking about. If the answer is still negative, well. Have you ever considered becoming Italian and seeing how that changes your perspective on the matter?\nBefore getting to Sunday, we must first go through Saturday, a fact that is true of the passage of time more gener…",
-          "link": "https://defector.com/kimi-antonelli-pulled-off-a-miracle-at-monza",
-          "publishedOn": "2026-09-06T18:19:05.000Z",
-          "wordCount": 7294,
-          "title": "Kimi Antonelli Pulled Off A Miracle At Monza",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/kimiAntonelliMonzaOHMYGOD.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234786",
-          "author": "Kathryn Xu",
-          "description": "Given that tennis is effectively professionalized, legalized psychological torture, a choke and an epic comeback often go hand-in-hand. Take, say, when Zheng Qinwen faced Madison Keys at the U.S. Open on Saturday. Zheng won a match in which she was down 6-1, 6(3)-7, 5-1 and had to save a match point on her opponent's serve. A comeback, absolutely, but also, perhaps, a choke on Key's part. So: yea or nay?\nIf one were to point to said match to support the case for \"yea\"—shown in the extraordinarily meager and insufficient official highlights here at 2:18—it would not be because Keys lost that point but because of how she lost it. Viewed in isolation, the match point looks like it was lost after a good return on an 85 mph second serve. In context, it is worse: Keys caught her first ball toss, then decided to more or less just kick in an 85 mph first serve. Zheng made a backhand return that was deep but not necessarily unmanageable, but Keys's feet got stuck as she hit a backhand into the net. Deuce. Zheng returned a 105 mph first serve on the next point, then finished a brief rally by smashing an off backhand that hit the line. On break point, Zheng made a weak, shallow, return that Keys misread, hitting a weak forehand up the middle rather than a plus one winner. That limp forehand allowed Zheng to wrestle control of, and ultimately win, the point.\nZheng Qinwen would not lose another game for the rest of the match; conversely, Madison Keys would not win another one. After Keys was broken for a third consecutive time to go down 6-5 in the final set, she smacked her head with her racket several times. On Zheng's own match point at 6-5, 40-30, she successfully wrestled a backhand down the line off a strong Keys return, and Keys hit a running forehand error. Game, set, match.",
-          "link": "https://defector.com/zheng-qinwen-survived-a-near-death-experience-at-the-u-s-open",
-          "publishedOn": "2026-09-06T16:34:22.000Z",
-          "wordCount": 6300,
-          "title": "Zheng Qinwen Survived A Near Death Experience At The U.S. Open",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/zhengQinwenMadisonKeys.jpg"
         }
       ]
     },
@@ -1190,6 +1140,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/salon-amanda-marcotte.xml",
       "siteUrl": "https://www.salon.com/writer/amanda_marcotte",
       "articles": [
+        {
+          "id": "https://www.salon.com/2026/09/16/white-house-doesnt-want-voters-to-see-the-real-trump/-full",
+          "author": null,
+          "description": "If there’s ever been anything Donald Trump loves more than gold, it’s a camera. The former reality TV host has willingly debased himself in a myriad of ways — doing an ad for Pizza Hut, shaving Vince McMahon’s head during a wrestling match, painful “acting” appearances in “Home Alone 2″ and “The Fresh Prince of Bel-Air” — all to get a sweet, sweet dose of video proof of his existence.\nRight now Trump can’t stop begging for attention, even though it’s immensely damaging to his party’s midterm prospects. He forced the Republicans to throw him a two-day fake convention so he could give lengthy prime-time speeches. He holds frequent on-camera events in the Oval Office, forgoing the work of actual governance so he can be photographed sitting behind the Resolute Desk.\n“Sitting” may be the operat…",
+          "link": "https://www.salon.com/2026/09/16/white-house-doesnt-want-voters-to-see-the-real-trump/",
+          "publishedOn": "2026-09-16T10:45:06.000Z",
+          "wordCount": 2365,
+          "title": "White House doesn’t want voters to see the real Trump",
+          "imageUrl": "https://www.salon.com/app/uploads/2026/09/Trump-Dallas-2294419035.jpg"
+        },
         {
           "id": "https://www.salon.com/2026/09/09/donald-trumps-emotional-support-convention/-full",
           "author": null,
@@ -2234,6 +2194,22 @@
       "feedUrl": "https://www.flowstate.fm/feed",
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
+        {
+          "id": "https://www.flowstate.fm/p/across-the-horizon-ep-70-sarah-davachi",
+          "author": "Flow State",
+          "description": "On today’s episode of Across the Horizon, host Bob Holmes from the band SUSS finishes his conversation with Sarah Davachi from last week.",
+          "link": "https://www.flowstate.fm/p/across-the-horizon-ep-70-sarah-davachi",
+          "publishedOn": "2026-09-16T07:03:59.000Z",
+          "wordCount": null,
+          "title": "Across the Horizon Ep. 70: Sarah Davachi (Pt. 2)",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://api.substack.com/feed/podcast/215888654/f9123b1c9bbc5ea537b5545741fb5751.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "https://www.flowstate.fm/p/flow-state-ep-343-corntuth-premiere",
           "author": "Flow State",
