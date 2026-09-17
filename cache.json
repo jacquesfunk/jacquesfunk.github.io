@@ -160,6 +160,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://protesilaos.com/codelog/2026-09-17-emacs-beframe-1-6-0/",
+          "author": null,
+          "description": "beframe enables a frame-oriented Emacs workflow where each frame has\naccess only to the list of buffers visited therein. In the interest of\nbrevity, we call buffers that belong to frames “beframed”.\nPackage name (GNU ELPA): beframe\nOfficial manual: https://protesilaos.com/emacs/beframe\nChange log: https://protesilaos.com/emacs/beframe-changelog\nGit repositories:\n    \nGitHub: https://github.com/protesilaos/beframe\nGitLab: https://gitlab.com/protesilaos/beframe\nVideo demo: https://protesilaos.com/codelog/2023-02-28-emacs-beframe-demo/\nBackronym: Buffers Encapsulated in Frames Realise Advanced\nManagement of Emacs.\nBelow are the release notes\nVersion 1.6.0 on 2026-09-17\nI rewrote large parts of beframe.el to make them more clear and/or\nto align them with the Elisp style I have developed over t…",
+          "link": "https://protesilaos.com/codelog/2026-09-17-emacs-beframe-1-6-0/",
+          "publishedOn": "2026-09-17T00:00:00.000Z",
+          "wordCount": 559,
+          "title": "Protesilaos: Emacs: beframe version 1.6.0",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
+        {
           "id": "https://ray-on-emacs.blogspot.com/2026/09/a-niftier-way-to-asciify-emacs-buffer.html",
           "author": null,
           "description": "Web page content\n  lately is littered with unusual Unicode characters that\n  resemble ASCII characters.  It's possible this is how an\n  author (whether human or AI) might \"sign\" work.\n\n\n\nI use a recorded keystroke macro to brute-force-edly replace such\nUnicode characters with their ASCII equivalents.  This allows me to\nmaintain ASCII-compatible files.  For example, to replace the right\nsingle quote character having a character code of #x2019, the macro\nreplays M-% ’ RET ' RET ! to replace all occurrences with\nthe straight apostrophe, #x27.\n\n\n\nI'm not trying to publish someone else's work as my own -- I do\nprovide a reference to source whenever possible.  I'm simply\ntrying to keep my content as unadulterated as possible.\n\n\n\nThere are at least three problems with my macro:\n\n\nIf #x2019 can't be found, an exclamation mark is placed at point.\nIt fails to replace other single-quote-like Unicode characters such as #x2018 or\n#x2032.\nThe method is clunky and inelegant to an obscene degree.\nreplace-char-fold, a very interesting custom variable.1\n\n\n\nAccording to its docstring, \"Non-nil means replacement commands should\ndo character folding in matches. This means, for instance,\nthat \\\\=' will match a large variety of Unicode quotes.\"\nThis is exactly what I need!\n\n\n\nNow I have Yet Another Fun Emacs Project (YAFEP), which is to create a\nsleek and robust ASCIIfy Lisp function.  And YAFEP aligns fortuitously\nwith this month's Emacs Carnival topic, which is Games.\n\n\nWhat's been your experience with quoting web content?\n1 For a deeper dive into character folding in Emacs,\nplease read the info node\non lax matching.\nThese pages on Wikipedia served as references for this article:\n  \n\n    \nRight\n  Single Quotation Mark\nGeneral\n    Punctuation",
@@ -406,6 +416,36 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=235823",
+          "author": "Diana Moskovitz",
+          "description": "Steve Belichick has resigned from his job as defensive coordinator at UNC following an investigation that found \"certain actions demonstrated a disregard for Carolina's values and standards of conduct,\" according to a statement released Thursday by the university. Belichick, the son of head coach Bill Belichick, already had been on medical leave.   \nThis follows Mike Lombardi resigning earlier this month from his job as general manager.\nLittle else has been made public by UNC about what led to Lombardi and Steve Belichick's resignations. The university's statement described \"a thorough and independent investigation into allegations related to culture and climate within the Carolina football program.\" It went on to say that the investigation found that what happened was \"isolated in scope and not a systemic failure.\"",
+          "link": "https://defector.com/steve-belichick-is-gone-from-unc",
+          "publishedOn": "2026-09-17T20:51:48.000Z",
+          "wordCount": 4822,
+          "title": "Steve Belichick Is Gone From UNC",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2244626191-e1789671076621.jpeg"
+        },
+        {
+          "id": "https://defector.com/?p=235830",
+          "author": "Abigail Segel",
+          "description": "Rory Dames—the women’s soccer coach currently banned for life from the NWSL, and who has been accused of abuse by more than a dozen former youth players—is no longer listed in the U.S. Center for SafeSport’s centralized disciplinary database.\nAccording to a document reviewed by Defector, Dames was removed from the database because a one-year suspension by SafeSport has ended. Per the document, he remains on probation for five years and under a no-contact directive, but those sanctions do not limit his involvement in soccer. The document did not say if his probation started after his suspension ended, or if it ran concurrently.\nA person who was interviewed for SafeSport’s investigation told Defector they were informed about the sanctions against Dames on July 28 of last year, at which point the former coach and SafeSport were already embroiled in a legal battle. The interviewee was therefore under the impression that the decision was not final, and that the one-year suspension had not started yet.",
+          "link": "https://defector.com/rory-damess-safesport-suspension-has-ended",
+          "publishedOn": "2026-09-17T19:43:54.000Z",
+          "wordCount": 5561,
+          "title": "Rory Dames’s SafeSport Suspension Has Ended",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1334592593.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235775",
+          "author": "Alex Sujong Laughlin",
+          "description": "Following this week's news that the brilliant writer Annie Dillard has died at age 81, some Defector staffers wrote about what her work and example have meant to them.\nMuch is made of Dillard’s genius, her wizardry with language, her talent. But the Dillardism that has stuck with me strongest over the years comes from Alexander Chee's essay \"The Writing Life,\" in which he describes taking an undergraduate course with her at Wesleyan in 1989: \"Talent isn't enough, [Dillard] had told us. Writing is work. Anyone can do this, anyone can learn this. It's not rocket science; it's habits of mind and habits of work.\"",
+          "link": "https://defector.com/annie-dillard-gave-it-all",
+          "publishedOn": "2026-09-17T19:14:11.000Z",
+          "wordCount": 8006,
+          "title": "Annie Dillard Gave It All",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/dillard.jpeg"
+        },
         {
           "id": "https://defector.com/?p=235606",
           "author": "Grace Byron",
@@ -1962,6 +2002,36 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73777781/mike-johnson-gas-tax-suspension-argument/",
+          "author": null,
+          "description": "I guess hell froze over.",
+          "link": "https://www.esquire.com/news-politics/politics/a73777781/mike-johnson-gas-tax-suspension-argument/",
+          "publishedOn": "2026-09-17T18:54:06.000Z",
+          "wordCount": 17507,
+          "title": "Only an Incompetent Leader Like Mike Johnson Could Cause Republicans to Fight Over—Wait for It—a Tax Cut",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/6f2a821b-33df-4f0b-88c5-ea7b98c7cfc1.jpeg?crop=1xw:0.748xh;0xw,0.041xh&resize=1200:*"
+        },
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73777135/kevin-warsh-inflation-rates-trump/",
+          "author": null,
+          "description": "It’s good to know that not everyone bows to our bumbling leader’s ego.",
+          "link": "https://www.esquire.com/news-politics/politics/a73777135/kevin-warsh-inflation-rates-trump/",
+          "publishedOn": "2026-09-17T18:50:04.000Z",
+          "wordCount": 17935,
+          "title": "Trump’s Handpicked Fed Chair Basically Gave the Finger to Absurd Inflation Demands",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/c55ab4bb-7c69-4798-8cae-8a94acb57d6e.jpeg?crop=1xw:0.74990727003xh;center,top&resize=1200:*"
+        },
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73762858/thomas-massie-pete-hegseth-impeachment-mike-johnson/",
+          "author": null,
+          "description": "The Kentucky representative tried his darnedest to impeach everyone’s least favorite Cabinet member—before Trumpian lapdog Mike Johnson put a stop to it.",
+          "link": "https://www.esquire.com/news-politics/politics/a73762858/thomas-massie-pete-hegseth-impeachment-mike-johnson/",
+          "publishedOn": "2026-09-17T18:12:55.000Z",
+          "wordCount": 18261,
+          "title": "If More Republicans Were Behaving Like Thomas Massie, Maybe We Wouldn’t Be So Mired in Sh*t Right Now",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/e1e3ca7b-5801-4cc6-b0f6-ec1e3369b646.jpeg?crop=1xw:0.750072907553xh;center,top&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73759159/state-department-golden-bull/",
           "author": null,
           "description": "Deputy Secretary of State Christopher Landau is on the lookout for statues of ancient Babylonian deities. No, really.",
@@ -2411,22 +2481,6 @@
           "itunes": {},
           "enclosure": {
             "url": "https://api.substack.com/feed/podcast/214797334/7e9a806da36bbc9c94f90221dce59efe.mp3",
-            "length": "0",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.flowstate.fm/p/flow-state-episode-342-735",
-          "author": "Flow State",
-          "description": "Today’s mix opens with Ludwig Göransson’s piece “Sirens” from The Odyssey. There’s new ambient by Francesca Heart, Exportion, Sarah Davachi, and Carmen Villain. We revisit a Harold Budd track from his score for",
-          "link": "https://www.flowstate.fm/p/flow-state-episode-342-735",
-          "publishedOn": "2026-09-08T07:02:09.000Z",
-          "wordCount": null,
-          "title": "Flow State Episode 342",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://api.substack.com/feed/podcast/214674179/445ea78eb942778b8efd39667c11ae0c.mp3",
             "length": "0",
             "type": "audio/mpeg"
           },
