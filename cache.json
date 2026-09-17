@@ -150,6 +150,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://www.jamescherti.com/prevent-emacs-freeze-so-long-files-very-long-lines/",
+          "author": null,
+          "description": "Emacs can slow down when opening files with exceptionally long lines, such as minified JavaScript or CSS, SQL dumps, or large JSON files. Emacs struggles with these files because it parses bi-directional text properties and applies complex regular expressions for syntax highlighting across thousands of characters on a single line.\nOne solution to prevent these files from slowing down Emacs is to use the built-in global-so-long-mode (or so-long-mode). When such files are visited, this mode detects abnormally long lines and automatically disables expensive features while applying display adjustments to prevent performance degradation.\nBelow is a configuration to improve how global-so-long-mode handles these files, balancing performance and usability.\nManaging syntax highlighting\nBy default, …",
+          "link": "https://www.jamescherti.com/prevent-emacs-freeze-so-long-files-very-long-lines/",
+          "publishedOn": "2026-09-17T16:17:07.000Z",
+          "wordCount": 2544,
+          "title": "James Cherti: Preventing Emacs from Freezing on Files with Very Long Lines (e.g, minified JavaScript or CSS, SQL dumps, large JSON files...)",
+          "imageUrl": null
+        },
+        {
           "id": "https://ray-on-emacs.blogspot.com/2026/09/a-niftier-way-to-asciify-emacs-buffer.html",
           "author": null,
           "description": "Web page content\n  lately is littered with unusual Unicode characters that\n  resemble ASCII characters.  It's possible this is how an\n  author (whether human or AI) might \"sign\" work.\n\n\n\nI use a recorded keystroke macro to brute-force-edly replace such\nUnicode characters with their ASCII equivalents.  This allows me to\nmaintain ASCII-compatible files.  For example, to replace the right\nsingle quote character having a character code of #x2019, the macro\nreplays M-% ’ RET ' RET ! to replace all occurrences with\nthe straight apostrophe, #x27.\n\n\n\nI'm not trying to publish someone else's work as my own -- I do\nprovide a reference to source whenever possible.  I'm simply\ntrying to keep my content as unadulterated as possible.\n\n\n\nThere are at least three problems with my macro:\n\n\nIf #x2019 can't be found, an exclamation mark is placed at point.\nIt fails to replace other single-quote-like Unicode characters such as #x2018 or\n#x2032.\nThe method is clunky and inelegant to an obscene degree.\nreplace-char-fold, a very interesting custom variable.1\n\n\n\nAccording to its docstring, \"Non-nil means replacement commands should\ndo character folding in matches. This means, for instance,\nthat \\\\=' will match a large variety of Unicode quotes.\"\nThis is exactly what I need!\n\n\n\nNow I have Yet Another Fun Emacs Project (YAFEP), which is to create a\nsleek and robust ASCIIfy Lisp function.  And YAFEP aligns fortuitously\nwith this month's Emacs Carnival topic, which is Games.\n\n\nWhat's been your experience with quoting web content?\n1 For a deeper dive into character folding in Emacs,\nplease read the info node\non lax matching.\nThese pages on Wikipedia served as references for this article:\n  \n\n    \nRight\n  Single Quotation Mark\nGeneral\n    Punctuation",
@@ -396,6 +406,76 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=235606",
+          "author": "Grace Byron",
+          "description": "There is a cottage industry in publishing dedicated to understanding Donald Trump and his followers. Since his election in 2016, a spate of books have attempted to contextualize, deconstruct, and analyze the President’s ascendency. The second Trump term has been no less prolific. This year alone has seen juggernaut bestsellers like Regime Change by Maggie Haberman and Jonathan Swan and the upcoming Profiles in Cowardice by Jacob Weisberg. “Trump 2.0 is all about this break with the stylistic norms, rules, and traditions that governed the Presidency in the past,” Susan B. Glasser wrote in a 2025 New Yorker column. \nOver the years, Trump’s been called a number of epithets. Cruel, heartless, old, stupid. There remains a collective nervousness around calling Trump a fascist, and few writers av…",
+          "link": "https://defector.com/a-new-book-examines-the-wickedness-of-trump-sort-of",
+          "publishedOn": "2026-09-17T17:00:27.000Z",
+          "wordCount": 6480,
+          "title": "A New Book Examines The Wickedness Of Trump. Sort Of.",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2286912459.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235811",
+          "author": "Patrick Redford",
+          "description": "This week on the show, Harry and I hung out with the hosts of the State of the League podcast for an hour of classic offseason nonsense. We talked about Paul Schrader getting really into AI, which aging stars should be allowed to do steroids, and Brice Sensabaugh. Oh, you're not familiar with Brice Sensabaugh, the fourth-year shooting guard for the Utah Jazz? Well, you're about to be, as I am confident no other NBA podcast has dedicated this much of its runtime to talking about Brice Sensabaugh.\nYou can find Nothing But Respect in Apple Podcasts or whatever podcast app you use. Follow the show on Instagram, and contact the Broke Jumper Tip Line at (347) 380-6426. Thanks for listening!",
+          "link": "https://defector.com/zoomer-cultural-exchange-hour-with-state-of-the-league",
+          "publishedOn": "2026-09-17T15:59:46.000Z",
+          "wordCount": 4407,
+          "title": "Zoomer Cultural Exchange Hour, With ‘State Of The League’",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2269132841.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235746",
+          "author": "Barry Petchesky",
+          "description": "The Moon got whacked. The Moon gets whacked a lot, honestly. You can just look at its beaten, cratered surface to see that. But these days we're pretty good at counting its scars. Since 2010, the Lunar Reconnaissance Orbiter has been circling the Moon and constantly imaging its surface, and both computers and humans check those images closely to see if there have been any new kablammos since the last photograph. There often are. The LRO can spot craters as small as 30 feet across, caused by space rocks roughly the size of a monster truck tire. (NASA's comparison, not mine! And honestly a helpful one.) Those happen about 140 times a year. While you wouldn't want to be under one when it impacted, those smaller collisions are basically lunar weather. \nBut every once in a while, something big comes in. Something big enough to get its own name. Say hello to McGetchin, the Moon's newest crater. It's large, and it's fresh—having been born at some point between April 11 and May 22, 2024, the two nearest passes of the LRO. A small bright spot that hadn't been there in the previous photo, according to McGetchin's discoverer, Robert Wagner. “It was by far the most obvious impact debris pattern I’ve ever seen in one of these images,” Wagner said. The bright patch was typical of previously buried regolith, lunar rock and dust scattered by the impact.\nWagner discovered the new crater in images taken by the LRO's wide-angle camera, which captures more of the surface at a time. After that it was time to point the spacecraft's narrow-angle camera at McGetchin to make out more detail, and McGetchin looks pretty rad in close-up. The before and after of the same spot on the Moon's surface:",
+          "link": "https://defector.com/theres-a-big-new-crater-on-the-moon",
+          "publishedOn": "2026-09-17T15:42:13.000Z",
+          "wordCount": 4960,
+          "title": "There’s A Big New Crater On The Moon",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/HSW_TFmX0AA6HWR.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235749",
+          "author": "Drew Magary",
+          "description": "Drew Magary’s Thursday Afternoon NFL Dick Joke Jamboroo runs every Thursday at Defector during the NFL season Got something you wanna contribute? Email the Roo. You can also read Drew over at SFGATE, and buy Drew’s books while you’re at it.\nI should never find myself in a position where I’m forced to cheer on Macklemore. In fact, we’re so far removed from Macklemore’s brief moment of cultural relevance that I shouldn’t even be forced to remember that this guy is even alive. Sometime around 2013, the whole world asked the hip-hop artist to mackle less, and he obliged (likely not of his own free will). That was a happy occasion. Alas, I now must demand that someone besides the artist born as Ben Haggerty mackle less, and that person is Patriots owner and bargain handjob enthusiast Robert Kraft.\nYou’ve perhaps heard about Kraft’s latest venture into senile billionaire fuckery, but I’ll give you the skinny just in case. British folk hobbit Ed Sheeran is doing a stadium tour of the U.S.—this is its own cultural crisis, but that’s for another rant—and booked Macklemore as one of his opening acts. This Normiepalooza tour was due to go off without a hitch (or a memorable hook) until, according to Macklemore, Kraft took umbrage with the rapper’s vocal support of Palestine during his opening set for Sheeran at Giants Stadium earlier this month.",
+          "link": "https://defector.com/everybody-hates-bob-kraft",
+          "publishedOn": "2026-09-17T15:19:29.000Z",
+          "wordCount": 12113,
+          "title": "Everybody Hates Bob Kraft",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2295084608.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235639",
+          "author": "Israel Daramola",
+          "description": "Welcome to Listening Habits, a column where I share the music and musical topics I’ve been fixated on recently.\nThe last few months I've been in the throes of reading and watching information about the murder-for-hire trial of rapper Lil Durk. It's a complete circus that seems to have it all from an entertainment standpoint: snitching gang members, rap lyrics and interviews with streamers used as evidence, Machiavellian defense attorneys, an audience of fanboys and stan armies drawing attention to themselves to the point where people think they might be paid actors and so, so many people treating actual human lives and deaths as fodder for the content machine. One of the worst offenders, a British white man named Trap Lore Ross, is a doofy acolyte of the DJ Akademiks school of cataloguing the violent sensationalism of gang activities and volatile rappers under the guise of “investigative journalism.” He has decided that the Durk trial is his star-making turn, like he’s the Woodward and Bernstein of gang rap.\n\nhttps://youtu.be/FNFL53i0WB0?si=Fg0QyiRCMkVvyfsf",
+          "link": "https://defector.com/feeling-sad-about-rap-again",
+          "publishedOn": "2026-09-17T14:40:32.000Z",
+          "wordCount": 7308,
+          "title": "Feeling Sad About Rap Again",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1762513086.png"
+        },
+        {
+          "id": "https://defector.com/?p=235742",
+          "author": "Tom Ley",
+          "description": "This week, five sports leagues (MLB, NBA, NFL, NHL, and MLS) and their associated players' unions sent letters to gambling regulators in 35 states requesting that something be done to curtail the increasing amount of harassment athletes are facing from angry gamblers. Their proposal: Give teams and players a way to report harassing behavior directly to regulators, and then have the offending bettors banned from placing future bets. \nIt would certainly be good to prevent antisocial losers who type \"kill yourself\" into an athlete's Instagram comments from ever loading up a betting app again, but the existence of these letters makes one wonder what else these leagues and their unions could be demanding, and why they are not. \nThe problem with sports gambling is not that it gives antisocial losers an excuse to harass athletes, but that it constantly creates new antisocial losers. The population of American sports bettors is not one in which there are just a few bad apples that need to be dealt with, but rather a self-replenishing orchard of bad apples. Legalized sports gambling is all but designed to produce the kind of behavior these athletes and leagues are decrying, and the sportsbooks will go on doing just that no matter how many bans are issued, so long as every year brings a fresh crop of impressionable 18–24 year olds for them to market their products to.",
+          "link": "https://defector.com/theres-always-more-angry-problem-gamblers-where-those-came-from",
+          "publishedOn": "2026-09-17T14:07:24.000Z",
+          "wordCount": 5187,
+          "title": "There’s Always More Angry Problem Gamblers Where Those Came From",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1244788310.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235740",
+          "author": "Ray Ratto",
+          "description": "Well, Pope Leo gave it a hell of a go, we'll give him that. The former Father Bob, or something, kept the Chicago White Sox in first place in the American League Central for 73 consecutive days, or at least supervised their work well enough to keep them there. The team gave fans souvenir pope hats, and then just kept on giving. Given how unholy the White Sox have been in recent years, the presence atop even this blighted division was hard to believe. As the Cleveland Guardians made their annual September push and the lead got narrower, it got only more so. \nBut the White Sox have provided, and on Wednesday even offered them their own prodigal son, the spectacularly traveled Tommy Pham. He has already been released by two different teams this year and was sold to the White Sox by a third, but after Pham literally cornered general manager Chris Getz in an elevator after Tuesday's game and all but shook the GM by the eyelids to get himself activated from the injured list, he delivered a three-run homer off a thigh-high curve ball from Cleveland's best pitcher, Parker Messick, to put the Sox ahead in Wednesday's vital game, 3-2.\nAt that point, Leo must have figured that any help more divinely inspired than that might resemble game-fixing, and stepped away—and soon enough, he found out that this is the American League, where no power is higher than the mean. Within an inning and a half, Cleveland's profoundly whelming Petey Halpin aired out a 3-1 sinker from White Sox lefty Sean Newcomb for his own three-run homer; prior to that, Halpin had been 1-for-35 against lefties this year. Cleveland held on to win, 6-3.",
+          "link": "https://defector.com/theres-nothing-like-september-in-the-american-league",
+          "publishedOn": "2026-09-17T13:51:14.000Z",
+          "wordCount": 6667,
+          "title": "There’s Nothing Like September In The American League",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2295044753.jpg"
+        },
         {
           "id": "https://defector.com/?p=235622",
           "author": "Dave McKenna",
@@ -1217,6 +1297,86 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/06/blanche-confirmation-cornyn-lame-duck-trump/91188258007/-full",
+          "author": "Rex Huppke",
+          "description": "I want all Americans to understand that I, a Republican lawmaker, can do nothing to rein in President Donald Trump.\nI am rendered powerless before the awesome strength of a lame-duck president with a 32% approval rating. My party might control both houses of Congress, and our job description might technically include reining in the executive branch, but still, it’s just not a thing we can do. His gaze alone makes our brains seize up.\nMy colleague Sen. John Cornyn, R-Poltroon, made it plain as day recently when he said of Republicans, “There’s nothing we can do to rein in the president.”\nSee, I told you so.\nCornyn, like all good Republicans, caved to Trump's demands\n\nThat came after Cornyn and other Republicans on the Senate Judiciary Committee voted to move acting Attorney General Todd Bla…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/06/blanche-confirmation-cornyn-lame-duck-trump/91188258007/",
+          "publishedOn": "2026-09-17T17:55:43.333Z",
+          "wordCount": 3842,
+          "title": "As a Republican lawmaker, there's nothing I can do to rein in TrumpRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/30/USAT/91112064007-20260730-t-134314-z-1686577338-rc-29-omamnpil-rtrmadp-3-usajusticeblanche.JPG?crop=5493,3093,x0,y280&width=3200&height=1802&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/18/reflecting-pool-algae-green-trump/90595811007/-full",
+          "author": "Rex Huppke",
+          "description": "The good news about the Lincoln Memorial Reflecting Pool turning greener than Kermit the Frog’s keister is President Donald Trump finally has a swamp to drain.\nI’m kidding, there’s nothing funny about algae breaking out all over the Reflecting Pool immediately after President I’m-A-Builder dumped $14.2 million into beautifying the Washington, DC, landmark so it would appear “American Flag Blue.”\nIn fact, shame on the Reflecting Pool for allowing itself it to seem like a failure just as the president agrees to a deal with Iran that also sounds like a failure. Nobody likes a giant, shallow pool that understands how metaphors work.\nTrump should change America's colors to match the green Reflecting Pool\n\nThe pool does look less blue and more glow-in-the-dark Slurpee, but that was probably part…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/18/reflecting-pool-algae-green-trump/90595811007/",
+          "publishedOn": "2026-09-17T17:55:43.292Z",
+          "wordCount": 4149,
+          "title": "Trump's algae-rich Reflecting Pool smells of RFK Jr. to meRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/17/USAT/90588188007-2281921326.jpg?crop=4565,2568,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/17/paxton-talarico-senate-campaign-texas-barbecue/90568148007/-full",
+          "author": "Rex Huppke",
+          "description": "Texas Attorney General Ken Paxton seems hell-bent on making his race for a U.S. Senate seat against Democratic state Rep. James Talarico one of the dumbest spectacles in American political history.\nRather than focus on the needs of Texans he might represent, Paxton has zeroed in on impotent suggestions that Talarico isn’t masculine enough to represent the Lone Star State and false claims that the Democrat – GASP! – is somehow not carnivorous enough to serve.\nThat latter point is nonsense stemming from false claims that Talarico is a vegan. He has made it clear he’s not. But truth has no place in Paxton’s campaign, which apparently revolves around highlighting goofy Texas stereotypes, then accusing Talarico of not fitting the mold.\nMacho-man Ken Paxton challenges James Talarico to dinner\nTh…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/17/paxton-talarico-senate-campaign-texas-barbecue/90568148007/",
+          "publishedOn": "2026-09-17T17:55:43.269Z",
+          "wordCount": 4322,
+          "title": "Everything is bigger in Texas – including Paxton's dumb ideasRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/17/USAT/90583445007-20260612-t-175608-z-1267011608-rc-2-fmla-48-rbw-rtrmadp-3-usaelectiontexassenate.JPG?crop=2293,1290,x0,y119&width=2293&height=1290&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/16/trump-white-house-ballroom-taxpayer-money/90575180007/-full",
+          "author": "Rex Huppke",
+          "description": "As a hardworking American who loves his country, I was honored to learn some of my tax dollars will contribute to the construction of President Donald Trump’s $200 million White House ballroom that is now going to cost $600 million.\nOn June 16, The Washington Post reported that the price tag on what Trump originally called a “taxpayer-free” ballroom that would be paid for “100% by me and some friends of mine” has patriotically ballooned to $600 million, with about half of that money coming from taxpayers. \nSome America-hating liberals out there will undoubtedly call that – and please imagine me using heavily sarcastic American-made air quotes here – “an outrageous amount of money to spend” when “high grocery prices” are “making it harder for people to make ends meet.” They’ll whine about h…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/16/trump-white-house-ballroom-taxpayer-money/90575180007/",
+          "publishedOn": "2026-09-17T17:55:43.241Z",
+          "wordCount": 3890,
+          "title": "Surprise! We're paying for Trump's ballroom after all.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/03/USAT/90394811007-trnd-what-trump-is-constructing-in-dc.jpg?crop=1264,711,x390,y363&width=1264&height=711&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/28/centrist-democrat-mamdani-progressive-socialist/90681634007/-full",
+          "author": "Rex Huppke",
+          "description": "Hello, I am a centrist Democrat who is terrified that progressive liberal candidates keep winning primary elections.\nI am also terrified of my own shadow, but this is somehow worse.\nSuddenly, voters are being won over by liberal candidates ‒ even a few who are democratic socialists! ‒ who aren’t afraid to lean into populist messages with passion and an apparent drive to actually do things that will make people’s lives better. What is that all about? Since when did the things voters want become so important?\nFollowing the embrace of New York City’s popular democratic socialist Mayor Zohran Mamdani, two democratic socialist candidates and one progressive candidate won their recent congressional primary races. I immediately took to my living room's fainting couch. (Like most centrist Democrat…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/28/centrist-democrat-mamdani-progressive-socialist/90681634007/",
+          "publishedOn": "2026-09-17T17:55:43.214Z",
+          "wordCount": 4574,
+          "title": "Centrist Democrat: I fear my party is moving so far left it might winRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/24/USAT/90679404007-mamdani-6.JPG?crop=3995,2249,x3,y219&width=3200&height=1802&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columns/2026/06/28/reflecting-pool-algae-trump-arrests/90707054007/-full",
+          "author": "Rex Huppke",
+          "description": "Hello America-loving tourist, and welcome to the beautiful, algae-free Lincoln Memorial Reflecting Pool, brought to you by President Donald J. Trump, the only man powerful enough to make the Reflecting Pool Great Again.\nYou’ll notice the pool is surrounded by armed soldiers hoping you don't look at the water. That is for your safety and the safety of the newly refurbished Reflecting Pool, which is glistening and perfect and not at all covered with a thick layer of algae and stray chunks of American-flag-blue paint the media would have you believe exists.\nBefore we begin our tour of this remarkable national landmark, I’ll remind everyone that there is no looking at the remarkable national landmark.\nIf you didn’t receive blackout goggles when you bought your ticket for the tour, please keep …",
+          "link": "https://www.usatoday.com/story/opinion/columns/2026/06/28/reflecting-pool-algae-trump-arrests/90707054007/",
+          "publishedOn": "2026-09-17T17:55:43.190Z",
+          "wordCount": 3555,
+          "title": "Rules for Reflecting Pool: Don't look, don't touch | OpinionRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90653162007-20260621-t-185812-z-1716186844-rc-2-fyla-6-yu-5-g-rtrmadp-3-usa-250-reflectingpool.JPG?crop=3427,1928,x0,y178&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/27/trump-blame-republicans-midterms-loss/91489762007/-full",
+          "author": "Rex Huppke",
+          "description": "We’ve now seen the first sign of the inevitable: President Donald Trump, as the Republican Party limps toward a possible midterm election wipeout, will turn on the GOP.\nOn his Truth Social account on Aug. 26, Trump shared a profane post from a right-wing influencer that read in part: “I don’t think the GOP fully grasp how badly they are f---ing up right now.”\nThe post went on to suggest Republicans in Congress are responsible for undercutting Trump, claiming that “the GOP continues to slow-walk every reform people want.”\nThat’s an odd thing for the titular head of the Republican Party to share just a few months out from a pivotal election. Or at least it would be odd if we were dealing with anyone other than Donald Trump.\nDonald Trump will always blame others for his own failures\n\nTragical…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/27/trump-blame-republicans-midterms-loss/91489762007/",
+          "publishedOn": "2026-09-17T17:55:43.166Z",
+          "wordCount": 3846,
+          "title": "Trump is already hanging Republicans out to dryRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/20/USAT/91387445007-20260819-t-152922-z-1488525833-rc-2-r-1-nalvhpd-rtrmadp-3-usatrump.JPG?crop=3414,1920,x2514,y1200&width=3200&height=1800&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/videos/opinion/columnist/2026/08/27/trump-canada-tariffs-trade-war-republican-midterms/91482315007/-full",
+          "author": "Rex Huppke",
+          "description": "President Donald Trump decided it's a great time for a trade war with Canada.",
+          "link": "https://www.usatoday.com/videos/opinion/columnist/2026/08/27/trump-canada-tariffs-trade-war-republican-midterms/91482315007/",
+          "publishedOn": "2026-09-17T17:55:43.132Z",
+          "wordCount": 2242,
+          "title": "This is apparently how a mature president handles trade negotiationsRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/25/USAT/91461977007-20250212-t-205333-z-479792007-rc-20-tcaxpiz-5-rtrmadp-3-canadapoliticsfentanyl.JPG?crop=4387,2470,x0,y61&width=3200&height=1802&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/16/trump-socialism-republicans-islamophobia-midterms/91304727007/-full",
           "author": "Rex Huppke",
@@ -2297,6 +2457,16 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+          "author": null,
+          "description": "I have a lot of mixed feelings about AI and LLM technology. I’m\nfascinated by its effect on our profession, excited by the potential gains\nin productivity - and thus the products we could rapidly build. On the other\nhand, I’m fearful of the damage AI might cause: agent swarms taking over our\nvirtual and physical infrastructure, designing bio weapons. But, back on my\nfirst hand, LLMs might also design miracle cures, and come up with clever\nways to raise our prosperity. Fundamentally I don’t think we have a choice\nabout riding on the AI technology train. It’s a wild ride and I just hope\nwe’ll get through it OK.\nBut as I mull on this more, I realize that among this mix of contrasting\nfeelings, there is one emotion that dominates - one that comes from my\ndirect interactions with LLMs. I don’t …",
+          "link": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+          "publishedOn": "2026-09-17T13:50:00.000Z",
+          "wordCount": 562,
+          "title": "I don't like LLMs",
+          "imageUrl": "https://martinfowler.com/logo-sq.png"
+        },
+        {
           "id": "https://martinfowler.com/fragments/2026-09-16.html",
           "author": null,
           "description": "Reports of agentic hacking continue, in this case it happened back in May and it seems OpenAI did not disclose that they were responsible. Simon Willison sees two options:\nAfter the Hugging Face and Wiki attacks OpenAI were still unable to review their previous logs and determine that they had previously attacked RubyGems.\nThey knew about the attack on RubyGems and made the decision not to reach out to the RubyGems team about it.\nBoth of these are bad!\nGiven this incident, the Hugging Face situation, and the Wiki attack, the obvious question right now is how many more incidents like this are out there waiting to be discovered?\n ❄                ❄                ❄                ❄                ❄\nDave Farley:\nStop asking the sci-fi question: ‘Is it conscious?’ Start asking the engineering …",
@@ -2544,6 +2714,22 @@
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/fugitive-ice-agent-arrested-in-minnesota",
+          "author": "David Kurtz",
+          "description": "INSIDE: Christian Castro ... Patrick Schiltz ... RFK Jr.",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/fugitive-ice-agent-arrested-in-minnesota",
+          "publishedOn": "2026-09-17T16:13:25.000Z",
+          "wordCount": null,
+          "title": "Fugitive ICE Agent Arrested in Minnesota",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!9glD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd38c8e16-edc3-44f2-9511-2d9e2677f2d2_400x600.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!9glD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd38c8e16-edc3-44f2-9511-2d9e2677f2d2_400x600.jpeg"
+        },
+        {
           "id": "https://morningmemo.talkingpointsmemo.com/p/trump-if-i-cant-have-the-kennedy",
           "author": "David Kurtz",
           "description": "INSIDE: James Comey ... Lindsey Halligan ... David Streever",
@@ -2717,6 +2903,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/mitch-glitches-holy-mike-wimps-out",
+          "author": "Jeff Tiedrich",
+          "description": "or, as we call it, Wednesday",
+          "link": "https://www.jefftiedrich.com/p/mitch-glitches-holy-mike-wimps-out",
+          "publishedOn": "2026-09-17T14:41:47.000Z",
+          "wordCount": null,
+          "title": "Mitch glitches, Holy Mike wimps out, and Dear Leader is a fucking moron",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!5FRt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F805f963e-6d5b-4cba-9b29-052f1e167613_2736x1400.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!5FRt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F805f963e-6d5b-4cba-9b29-052f1e167613_2736x1400.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/its-a-day-of-infantile-meltdowns",
           "author": "Jeff Tiedrich",
