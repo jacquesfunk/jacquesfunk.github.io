@@ -378,16 +378,6 @@
           "wordCount": 1650,
           "title": "Lars Ingebrigtsen: Some LLM spell check experiences",
           "imageUrl": "https://lars.ingebrigtsen.no/wp-content/uploads/2026/09/2026-09-10-1.jpeg"
-        },
-        {
-          "id": "https://www.jamescherti.com/emacs-consult-speed-async-searche-grep-ripgrep-fd-find/",
-          "author": null,
-          "description": "The consult Emacs package provides asynchronous search commands such as consult-fd, consult-find, consult-grep, consult-git-grep, and consult-ripgrep. For these commands, Consult does not necessarily start a new search for every change to the minibuffer input. Instead, it uses configurable debounce and throttle delays to control when asynchronous processes start, while a separate refresh delay controls how frequently asynchronous results are pushed to the completion UI.\nThe first time I tried Consult, I thought to myself: this feels slow compared to Counsel (I had a similar feeling about Emacs settings such as show-paren-delay). With Counsel, results updated immediately on every keystroke, while Consult seemed to hesitate for a fraction of a second before updating the list.\nAs it turns out…",
-          "link": "https://www.jamescherti.com/emacs-consult-speed-async-searche-grep-ripgrep-fd-find/",
-          "publishedOn": "2026-09-08T16:54:16.000Z",
-          "wordCount": 2438,
-          "title": "James Cherti: Why Emacs Consult async searches feel slow and how to speed them up? (consult-fd, consult-find, consult-grep, consult-ripgrep...)",
-          "imageUrl": null
         }
       ]
     },
@@ -1035,66 +1025,6 @@
           "wordCount": 9384,
           "title": "Callaway Golf Got Wrecked By YouTube Doofuses Because Everyone’s Out Of Ideas",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2275236289.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234897",
-          "author": "Justin Ellis",
-          "description": "What do you do when the gig you do on the side, that off-hours hustle to help pay the bills and keep busy in service of your real work, becomes the thing that attracts acclaim and recognition? Do you lean into the success? Does the side project become your life?\nHrishikesh Hirway did not expect he would become a podcast guy, but the show he created and hosts, Song Exploder, took off, winning awards and making the leap to becoming a Netflix series. Then came other podcasts—maybe you know him from The West Wing Weekly, or as Samin Nosrat's buddy from the show Home Cooking.\nYet all along the way, Hirway still felt the gravitational pull back to his original love of music as a singer/songwriter. This past spring, he released In The Last Hour Of Light, his first full-length album in 15 years. \"The most central part of me is this music. It's my primary identity, and it's the thing that I am most passionate about and have been doing before I ever started making podcasts,\" Hirway said. \"It's taken me a long time to get back here.\"",
-          "link": "https://defector.com/hrishikesh-hirway-learned-to-live-with-being-uncomfortable",
-          "publishedOn": "2026-09-08T19:50:51.000Z",
-          "wordCount": 5149,
-          "title": "Hrishikesh Hirway Learned To Live With Being Uncomfortable",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/hrishikesh_tryhard.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234830",
-          "author": "Drew Magary",
-          "description": "Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGATE, and buy Drew’s books while you’re at it. Today, we're talking about sentence diagrams, proper oven temperature, forbidden urinals, and more.\nBefore we get to the business at hand, a quick reminder that All Ball, the Defector NFL podcast, debuts tomorrow morning. Co-host Arif Hasan and I are bringing you 100 percent football takes, with no added gambling or fantasy talk. Look for it in the organic podcast aisle!\nYour letters:",
-          "link": "https://defector.com/should-college-football-have-an-age-limit",
-          "publishedOn": "2026-09-08T19:07:04.000Z",
-          "wordCount": 14897,
-          "title": "Should College Football Have An Age Limit?",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2292367040.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234893",
-          "author": "Owen Lewis",
-          "description": "The U.S. Open is a city in miniature. The food is expensive; wealthy people flock to the tallest vantage points while richer experiences on the outskirts are ignored; influencers bother the masses. Read enough about the tournament, or just walk around the grounds for a few days, and you could forget that tennis is played here. At its worst, the Open feels like a 15-day cocktail party where a couple hundred of the world's best tennis players happen to be present. Those players aren't going anywhere, though, no matter how high the ticket prices get or how muted the ambiance becomes. And they tend to play some great tennis while they're here.\nCarlos Alcaraz is back from a four-month layoff for a wrist injury, and so is his forehand. He hit a winner at 107 mph to get his first break of the tournament. The serve's still missing, but that's fine; he's playing at an all-world level even without it, and the forehand was always more synonymous with his abilities as an entertainer. Alcaraz spent his first two matches reviving the gonzo, inventive style that went extinct during his absence. Rather than crush short backhands down the line, he wafted them crosscourt, trying to hit the advertising boards along the sides of the court before his opponent could reach the ball. He tickled the forecourt with drop shots and let the area around the baseline feel the vertical plonk of a lob as well as the horizontal swipes of his forehand. \nTo some, though, Alcaraz's off-court movements are of more interest. During his first-round match, I inadvertently glanced at my media section neighbor's phone and caught an incoming text, printed here with neighbor's permission: \"Is Carlos a pussy hound?\"",
-          "link": "https://defector.com/theres-still-tennis-at-the-u-s-open",
-          "publishedOn": "2026-09-08T18:23:12.000Z",
-          "wordCount": 9885,
-          "title": "There’s Still Tennis At The U.S. Open",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2293428476.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234639",
-          "author": "Steven Goldman",
-          "description": "Defector has partnered with Baseball Prospectus to bring you a taste of their work. They write good shit that we think you’ll like. If you do like it, we encourage you to check out their site and subscribe.\nThis story was originally published at Baseball Prospectus on September 3.\nThere is a legacy of bare competence behind the Angels’ 65-year run of never losing 100 games that shouldn’t be taken for granted. If this year’s iteration finally uncorks that bottle of swill, it will be a fitting monument to outgoing owner Arte Moreno who, finally, mercifully, agreed to bow out this week. What Stan Kroenke’s ownership will be like beyond the inevitable shiny new sports palace and adjoining pre-fab “neighborhood” remains to be seen, but the bar is as low as it was after Bob Quinn’s stewardship of the Red Sox or Frank McCourt’s misuse of the Dodgers.",
-          "link": "https://defector.com/the-angels-are-just-passing-through",
-          "publishedOn": "2026-09-08T17:51:12.000Z",
-          "wordCount": 9351,
-          "title": "The Angels Are Just Passing Through",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2292770980.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234863",
-          "author": "Israel Daramola",
-          "description": "Pretty much from the moment the Florida State Seminoles decided to retain Mike Norvell as their coach for the 2026 season, the word out of the football program has been pain and misery. They lost three dozen players to either graduation or the transfer portal, they couldn't entice any of the better available quarterbacks, and they have been famously poor at recruiting throughout the Norvell era. Going into the season, the mood was dour, and an unimpressive victory over New Mexico State in Week 0 didn't improve the mood very much. When the big Labor Day weekend of games came to its conclusion with an FSU home matchup against SMU, and America was treated to a darkened stadium and an extended delay, it was hard for me personally to not sit there cackling like Max Cady at the status of my once-proud football school.\n\nhttps://twitter.com/awfulannouncing/status/2097114243921232359?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2097114243921232359%7Ctwgr%5E94ac4d061e8bfb73b0f3356d64113f29f0532308%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fawfulannouncing.com%2Fnews%2Fespn-power-outage-delay-florida-state-smu.html\n\n\nThat's right! SMU–FSU kicked off nearly two hours late thanks to an unexplained power outage at Doak Campbell Stadium. As a Tallahassee native, my first thought was: Of course, there must be a hurricane or thunderstorm involved. But no, the weather was perfect (except for the humidity, and that's normal). The lights would flicker on and off for a while. It seems to have been some kind of power drain at the stadium (not a metaphor) that caused problems. After the lights did come on, the game had already lost any juice it might've had, starting with our problematic mascot throwing the flaming spear onto midfield and having it fall with a lifeless thud rather than stick the landing (also not a metaphor).",
-          "link": "https://defector.com/the-lights-gone-out-at-florida-state",
-          "publishedOn": "2026-09-08T16:44:56.000Z",
-          "wordCount": 5974,
-          "title": "The Light’s Gone Out At Florida State",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2294059968.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234843",
-          "author": "Luis Paez-Pumar",
-          "description": "Four matches into the La Liga season, Barcelona has looked like one of the greatest attacking teams of all time. What other conclusion can I draw from the club's start? With Sunday's 5-0 whomping of Valencia away at the Mestalla, Barcelona has now played four matches, notched four decisive wins (5-0 vs. Elche, 2-0 vs. Athletic Bilbao, and 5-2 vs. Rayo Vallecano were the others), scored a ludicrous 17 goals, and conceded only two. The Barcelona monster has been gluttonous from the word go, and the way that the blaugrana has been performing is more than sustainable, even if the actual tallies are out-of-this-world unbelievable.\n\nhttps://www.youtube.com/watch?v=BVeuyol-th4\n\n\nAbout that Valencia match: The Bats are a disaster of a club, mired in last place domestically with just one point, and its fans are currently feuding openly with ownership. It's hard enough to keep up with Barcelona, never mind to actually beat the Catalan giant, and so there was little question about the result on Sunday. Lamine Yamal opened the scoring in the sixth minute with a feathered chip past Valencia goalie Stole Dimitrievski, and it went downhill for Valencia from there.",
-          "link": "https://defector.com/barcelona-is-the-greatest-show-on-european-soil",
-          "publishedOn": "2026-09-08T16:02:12.000Z",
-          "wordCount": 8016,
-          "title": "Barcelona Is The Greatest Show On European Soil",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2293872180.jpg"
         }
       ]
     },
@@ -1287,6 +1217,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/09/17/maria-elvira-salazar-trump-immigration-midterms/91810157007/-full",
+          "author": "Rex Huppke",
+          "description": "Somebody pinch me. I never thought I’d see the day when a Republican congressional candidate actually criticized President Donald Trump, the God-King, Lord of the MAGA Movement, He Who Must Not Be Scorned. \nBut on Sept. 17, with midterm elections closing in, there was Rep. Maria Elvira Salazar, a Florida Republican, staring straight into the camera for a campaign ad and saying: “Mr. President, some of your immigration enforcement efforts have gone too far.”\nSalazar added: “The same Hispanics who helped you get to the White House in 2024 feel betrayed today.”\nAfter briefly passing out at her hurling the b-word (betrayed) at Trump, I laughed and thought, “Oh, this is getting delicious.”\nSalazar is one of the first GOP candidates to publicly criticize Trump\n\nThe representative’s district in M…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/09/17/maria-elvira-salazar-trump-immigration-midterms/91810157007/",
+          "publishedOn": "2026-09-18T08:45:36.362Z",
+          "wordCount": 4140,
+          "title": "Florida Republican is shocked Trump did the cruel things he promisedRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/20/USAT/90176505007-20260520-t-143024-z-1095645271-rc-22-dla-54-tkq-rtrmadp-3-cubacrisisusacongress.JPG?crop=5549,3124,x0,y283&width=3200&height=1802&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/06/blanche-confirmation-cornyn-lame-duck-trump/91188258007/-full",
           "author": "Rex Huppke",
@@ -2335,6 +2275,22 @@
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
         {
+          "id": "https://www.flowstate.fm/p/professor-kazkaz",
+          "author": "Flow State",
+          "description": "Today we’re listening to Professor Kazkaz, a collaboration between German electronic musicians Gregor Tresher and Marcus Schmahl.",
+          "link": "https://www.flowstate.fm/p/professor-kazkaz",
+          "publishedOn": "2026-09-18T07:04:40.000Z",
+          "wordCount": null,
+          "title": "Professor Kazkaz",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!U8Hl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22f1cb74-adad-4984-8ae6-226132aea219_2382x1982.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!U8Hl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22f1cb74-adad-4984-8ae6-226132aea219_2382x1982.png"
+        },
+        {
           "id": "https://www.flowstate.fm/p/go-kurosawa-guest-rec-by-sofie-birch",
           "author": "Flow State",
           "description": "Today we have a guest recommendation from Sofie Birch, a sound artist and composer, whose newsletter Ambient Abracadabra we highly recommend.",
@@ -2509,16 +2465,6 @@
           "wordCount": 1329,
           "title": "Social Media Engagement: summer 2026",
           "imageUrl": "https://martinfowler.com/articles/2026-social-traffic/card.png"
-        },
-        {
-          "id": "https://martinfowler.com/fragments/2026-09-08.html",
-          "author": null,
-          "description": "Christian Catalini says we’re in a situation where we are vastly reducing the cost of generating things, but not the cost of verifying them:.\nThis explains why the first major AI products appeared in chat, image generation, and code assistance. Not because these were the hardest human problems, but because their outputs were relatively easy to inspect. A user can judge the tone of a message, look at an image, or run a test on a piece of code.\n[…]\nThe old automation boundary was routine versus non-routine work. The new boundary is increasingly measurable versus non-measurable work.\nThe issue is then over how well you can measure something. In our profession, we know there’s a big difference between how many lines of code we write and how productive we are, and we’ve seen a regular failure t…",
-          "link": "https://martinfowler.com/fragments/2026-09-08.html",
-          "publishedOn": "2026-09-08T15:22:00.000Z",
-          "wordCount": 2125,
-          "title": "Fragments: September  8",
-          "imageUrl": "https://martinfowler.com/fragments/fragments-thumb.png"
         }
       ]
     },
@@ -2699,16 +2645,6 @@
           "wordCount": 2165,
           "title": "Britain’s Sanctions on the West Bank Settlements Are the Right Step Forward",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2018/08/GettyImages-1023013166.jpg?w=1200"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1557014",
-          "author": "Josh Marshall",
-          "description": "The Israeli daily Haaretz published a big and consequential exposé today alleging that weeks before the October 7, 2023 massacres...",
-          "link": "https://talkingpointsmemo.com/edblog/making-sense-of-that-big-story-saying-netanyahu-was-warned-about-oct-7",
-          "publishedOn": "2026-09-08T17:49:04.000Z",
-          "wordCount": 3943,
-          "title": "Making Sense of That Big Story Saying Netanyahu Was Warned About Oct 7",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2023/10/GettyImages-1719693069-scaled.jpg?w=1200"
         }
       ]
     },
@@ -2828,22 +2764,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!YeXF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5de29ee8-5c2f-4ab6-a3d2-a08733dab019_600x450.jpeg"
-        },
-        {
-          "id": "https://morningmemo.talkingpointsmemo.com/p/trump-launches-whole-of-government",
-          "author": "David Kurtz",
-          "description": "INSIDE: Todd Blanche ... Tony Fauci ... Christian Castro",
-          "link": "https://morningmemo.talkingpointsmemo.com/p/trump-launches-whole-of-government",
-          "publishedOn": "2026-09-08T15:42:40.000Z",
-          "wordCount": null,
-          "title": "Trump Launches Whole-of-Government Attack on Midterm Elections",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!dGV6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65f0f3c4-446e-40ed-8eda-ec4ad99fd983_600x450.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!dGV6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65f0f3c4-446e-40ed-8eda-ec4ad99fd983_600x450.jpeg"
         }
       ]
     },
