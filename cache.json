@@ -170,6 +170,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=14091",
+          "author": null,
+          "description": "improving Emacs performance on files with long lines. As those of you who have to deal with long lines know, Emacs doesn’t handle them very well and is prone to freeze while trying to render them.\n\n\nOne good solution for this is Phil Sainty’s excellent so-long package. The idea is that so-long detects when when Emacs is dealing with long lines and turns off certain computationally expensive features such as syntax highlighting and font-lock mode. This is a big help in speeding up Emacs’ processing of long lines but it also disables some useful features.\n\n\nCherti’s idea to to provide more granular control. For example, while syntax highlight does impose a processing penalty, it also makes code easier to read for many people. Cherti shows how to get so-long to not disable syntax highlighting.\n\n\nCherti examines several other features that can be disabled, or not, by so-long and discusses the pros and cons of doing so. He shows you how, in effect, to fine tune so-long to achieve your desired balance between performance and utility.\n\n\nI really like this story because it’s a perfect example of how Emacs makes it easy to solve problems. First, there was the problem of Emacs freezing when dealing with long lines. Phil Sainty, who is not a member of the Emacs development team, helped ameliorate that problem with a third party package. Then James Cherti noticed that in certain situations you might want a less drastic effect than the default so-long action and showed how to achieve that. Even Cherti’s suggestions can be customized to suit the individual user. It’s Emacs at its best.",
+          "link": "https://irreal.org/blog/?p=14091",
+          "publishedOn": "2026-09-18T15:37:04.000Z",
+          "wordCount": 1545,
+          "title": "Irreal: Improving Emacs Long Lines Performance",
+          "imageUrl": null
+        },
+        {
+          "id": "https://protesilaos.com/codelog/2026-09-18-emacs-dired-preview-0-7-0/",
+          "author": null,
+          "description": "This is a simple package to automatically preview in a window the file\nat point in Dired buffers. Preview windows are closed when they are no\nlonger relevant, while preview buffers are killed if they have not\nbeen used for other purposes beside previewing. The package provides\nseveral customisation options to control its behaviour.\nPackage name (GNU ELPA): dired-preview\nOfficial manual: https://protesilaos.com/emacs/dired-preview\nGit repositories:\n    \nGitHub: https://github.com/protesilaos/dired-preview\nGitLab: https://gitlab.com/protesilaos/dired-preview\nBackronym: Directories Invariably Render Everything Decently …\npreview; dired … PDFs Require Extra Viewing Instructions for Emacs\nto Work.\nBelow are the release notes\nVersion 0.7.0 on 2026-09-18\nThis version introduces a few refinements …",
+          "link": "https://protesilaos.com/codelog/2026-09-18-emacs-dired-preview-0-7-0/",
+          "publishedOn": "2026-09-18T00:00:00.000Z",
+          "wordCount": 625,
+          "title": "Protesilaos: Emacs: dired-preview version 0.7.0",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
+        {
           "id": "https://www.jamescherti.com/prevent-emacs-freeze-so-long-files-very-long-lines/",
           "author": null,
           "description": "Emacs can slow down when opening files with exceptionally long lines, such as minified JavaScript or CSS, SQL dumps, or large JSON files. Emacs struggles with these files because it parses bi-directional text properties and applies complex regular expressions for syntax highlighting across thousands of characters on a single line.\nOne solution to prevent these files from slowing down Emacs is to use the built-in global-so-long-mode (or so-long-mode). When such files are visited, this mode detects abnormally long lines and automatically disables expensive features while applying display adjustments to prevent performance degradation.\nBelow is a configuration to improve how global-so-long-mode handles these files, balancing performance and usability.\nManaging syntax highlighting\nBy default, …",
@@ -406,6 +426,46 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=235849",
+          "author": "Justin Ellis",
+          "description": "The fourth season of Amazon's Reacher, which was based on Lee Child's book Gone Tomorrow and set largely in Philadelphia, came to a close earlier this week. Defector's elite Reacher Creature team was convened to discuss this unusually brutal and mostly quite good season of the show; you can find our discussions of previous seasons here and here. The post contains a bunch of spoilers.\nDavid: Reacher Creatures, how are we recovering from Reacher Season 4: Showdown At Hoagie Junction? I assume we are all leaving the hospital against medical advice after sustaining thousands of brutal wounds from a bladed weapon, tearing a wan cheesesteak in half on the subway to share with those in need, things of that nature?\nBrandy: After having a not great time with Season 3, for various reasons, I was thrilled to discover my love of Reacher was able to make a similarly miraculous recovery.",
+          "link": "https://defector.com/hell-take-the-elevator-defector-reacher-creatures-on-reacher-season-four",
+          "publishedOn": "2026-09-18T18:32:28.000Z",
+          "wordCount": 11168,
+          "title": "He’ll Take The Elevator: Defector Reacher Creatures On ‘Reacher’ Season Four",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/ReacherS4.png"
+        },
+        {
+          "id": "https://defector.com/?p=235604",
+          "author": "Israel Daramola",
+          "description": "Welcome to the Defector College Football Watch Guide, where Israel Daramola and Ray Ratto will tell you which of the weekend’s college football games are worth giving a crap about.\nIsrael: Sometime between showing college football's highest-rated games of all time, ESPN thought it necessary to bonk viewers over the head with fear-mongering over the sport on behalf of the Protect College Sports Act. We've written about it already, and it is all the talk in college sports: ESPN debased itself by putting Senator Ted Cruz on a television set—right where people can see him!—and teeing him up to shill shamelessly and shamefully on behalf of this bill. A bill, not to overdo it, that is not only being championed by the Nick Sabans and the Ted Cruzes of the world, but by President Donald Trump, a large number of athletic conference presidents and university presidents, and corporations like Disney.\nGiven all that, you won't be surprised that the bill is completely anti-labor. It is a bill that seeks to undo the last few years of college athletes grabbing some of the fruits of their labor and put the genie back into its bottle as much as possible, and to reinstall the NCAA atop college sports by federal law. And ESPN, which is now purely just a promotion arm for the many leagues it's in business with, is more than happy to pitch in. The cartel is striking back and hoping enough people are dumb enough, or just spiteful enough, to restore control to the parties whose wild selfishness led to amateurism's collapse.",
+          "link": "https://defector.com/lane-kiffin-and-espn-are-both-shilling-for-their-agendas",
+          "publishedOn": "2026-09-18T15:49:27.000Z",
+          "wordCount": 9920,
+          "title": "Lane Kiffin And ESPN Are Both Shilling For Their Agendas",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2293601352.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235857",
+          "author": "Barry Petchesky",
+          "description": "Alexander Ovechkin is probably the single most famous Russian athlete. He is also a supporter of Russian President Vladimir Putin, and not a particularly quiet or passive one. This, occasionally, has gotten him into some hot water with the rest of the world, given Putin's corruption and warmaking. In 2017, Ovechkin launched \"PutinTeam,\" a social media movement supporting Putin and his party in the following year's elections, which were widely decried as fixed. In 2022, following Russia's indefensible invasion of Ukraine, Ovechkin said he still supported Putin. \"He's my president,\" the Capitals star said.\nYou do not, in fact, have to support a particular politician just because he's in charge, not even in Russia. Plenty of Russian NHL players have said nothing. Some have even spoken out against Putin or Russia's attack on Ukraine, which weakens the constant refrain from Ovechkin defenders that he's only on Putin's side to protect his family. It's obviously more than expedience; they have each other's cell numbers.\nBut for the most part, Ovechkin has avoided real criticism for his political stances. Part of this is because he is one of the greatest players ever, and sports fans necessarily get very good at separating art from artist. But another part of it is that Ovechkin seems to have a sense of where the line is, and pulls back when public opinion indicates he's crossing it. Since his 2022 comments, Ovechkin has been near-totally silent on politics. Whether or not the rumors about the NHL telling him to clam up are true, his silence has served him well. The league and many fans were able to celebrate his chases of Wayne Gretzky and 1,000 goals without guilt. Ovechkin didn't face any questions tougher than ones about his favorite Italian restaurant.",
+          "link": "https://defector.com/alex-ovechkin-finally-faces-some-pushback-for-supporting-vladimir-putin",
+          "publishedOn": "2026-09-18T15:22:37.000Z",
+          "wordCount": 6019,
+          "title": "Alex Ovechkin Finally Faces Some Pushback For Supporting Vladimir Putin",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2224310245.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235855",
+          "author": "Tom Ley",
+          "description": "There are few scenarios for a struggling and injury-riddled defense more nightmarish than the one the Detroit Lions' unit had to face on Thursday night. Just four days after suffering through a 31-30 overtime win over the Saints, during which they were on the field for a grueling 90 snaps, they found themselves in Buffalo, dealing with Josh Allen and the Buffalo Bills in their home opener. And oh yeah, Kerby Joseph and Brian Branch are both still on the PUP list.\nSo it got bad quickly for the Lions on Thursday night, and it stayed bad. The Bills opened the game with a 10-play, 85-yard touchdown drive. The next possession resulted in eight plays, 79 yards, and another touchdown. And what of their third drive of the game? Surely they didn't score on that one, too? Unfortunately for the Lions that one also went for 57 yards and a touchdown on nine plays. The fourth drive was at least brief: four plays for 68 yards and another touchdown.\nThe Bills were up 27-7 by the tail end of the second quarter, and the cameras kept finding Lions stud pass-rusher Aidan Hutchinson on the sideline, gulping down huge breaths of air and spraying water down the front and back of his jersey. He looked like a guy who was being forced to run a marathon at gunpoint, which arguably would have probably been a more pleasant experience than the one he was living through. The Bills were being 12-personnel bullies, pushing the Lions around with their two tight ends and getting big chunks of yardage however they wanted. There were Josh Allen sprints for first downs, James Cook running for double digits seemingly every time he touched the ball, and wide open receivers sitting in every soft spot the Lions' defense offered up. The Bills ran 74 plays and finished with 34 first downs, meaning that the 41-31 final score flattered the Lions much more than they deserved. By the second half it was obvious to the Bills that they could score as many points as they needed to in order to win the game, and a 10-point margin suited them just fine.",
+          "link": "https://defector.com/the-lions-defense-is-dyin-out-there",
+          "publishedOn": "2026-09-18T14:06:25.000Z",
+          "wordCount": 5209,
+          "title": "The Lions’ Defense Is Dyin’ Out There",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2295840640.jpg"
+        },
         {
           "id": "https://defector.com/?p=235815",
           "author": "Patrick Redford",
@@ -1063,6 +1123,16 @@
       "feedUrl": "https://www.reddit.com/r/DepthHub/.rss",
       "siteUrl": "https://www.reddit.com/r/DepthHub/",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/DepthHub/comments/1wjxxnl/rwarcollege_explains_how_the_mig25s_role_as/",
+          "author": null,
+          "description": "submitted by    /u/skaaan  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DepthHub/comments/1wjxxnl/rwarcollege_explains_how_the_mig25s_role_as/",
+          "publishedOn": "2026-09-18T18:16:52.000Z",
+          "wordCount": null,
+          "title": "r/WarCollege explains how the MiG-25’s role as interceptor is generally misunderstood",
+          "imageUrl": null
+        },
         {
           "id": "https://www.reddit.com/r/DepthHub/comments/1wfakq1/ucommodorecoco_clarifies_the_difference_between/",
           "author": null,
@@ -2674,6 +2744,22 @@
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/kennedy-center-saved-from-demolition",
+          "author": "David Kurtz",
+          "description": "INSIDE: Todd Blanche ... Harmeet Dhillon ... Christian Castro",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/kennedy-center-saved-from-demolition",
+          "publishedOn": "2026-09-18T14:31:24.000Z",
+          "wordCount": null,
+          "title": "Kennedy Center Saved From Demolition — for Now",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!SOf7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20520322-8429-492b-941a-a8764dcb0a83_400x600.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!SOf7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20520322-8429-492b-941a-a8764dcb0a83_400x600.jpeg"
+        },
+        {
           "id": "https://morningmemo.talkingpointsmemo.com/p/fugitive-ice-agent-arrested-in-minnesota",
           "author": "David Kurtz",
           "description": "INSIDE: Christian Castro ... Patrick Schiltz ... RFK Jr.",
@@ -2831,6 +2917,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/none-of-this-shit-is-popular-b08",
+          "author": "Jeff Tiedrich",
+          "description": "Dear Leader fucking sucks, and Republicans are going to get crushed in the midterms",
+          "link": "https://www.jefftiedrich.com/p/none-of-this-shit-is-popular-b08",
+          "publishedOn": "2026-09-18T14:30:29.000Z",
+          "wordCount": null,
+          "title": "none of this shit is popular",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!MHmu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc1c42596-8ee4-48e4-8e3c-26df1b54fe04_1280x720.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!MHmu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc1c42596-8ee4-48e4-8e3c-26df1b54fe04_1280x720.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/mitch-glitches-holy-mike-wimps-out",
           "author": "Jeff Tiedrich",
