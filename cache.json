@@ -388,26 +388,6 @@
           "wordCount": 2438,
           "title": "James Cherti: Why Emacs Consult async searches feel slow and how to speed them up? (consult-fd, consult-find, consult-grep, consult-ripgrep...)",
           "imageUrl": null
-        },
-        {
-          "id": "https://irreal.org/blog/?p=14068",
-          "author": null,
-          "description": "I first started, my main problem was that the selection procedure described in the documentation didn’t work for me. I was almost certain that was because of an interaction with Ivy; my commenters agreed and offered some things to try.\n\n\nAfter some experimentation, I still wasn’t able to get that aspect of Jinx working. I decided to wait for Emacs 31 to revisit the issue. Emacs 31 is here but I still haven’t addressed the problem. Most of the reason for that is that I’ve developed some efficient muscle memory for dealing with the problem. I have jinx-correct bound to Ctrl+; and when I call jinx-correct, I continue holding down Ctrl and can easily move down in the list of alternatives by pressing n. Usually the first choice is the one I want so it’s only a single press. Then I type Return to update the text.\n\n\nThat seems like a little more work than simply pressing a number but I don’t need to move my hands or reach to do it so it seems easy to me. I’ll probably do a bit more research and get the default method working when I get a chance but in the mean time, I’m pretty happy with how it’s working for me now.\n\n\nI’m really enjoying how easy it is to put an “unknown spelling” in a variety of places—the current file, the current directory, or in a personal global dictionary—and am happy I switched. If you haven’t tried it yet, you should give it a spin.",
-          "link": "https://irreal.org/blog/?p=14068",
-          "publishedOn": "2026-09-08T14:49:28.000Z",
-          "wordCount": 1536,
-          "title": "Irreal: Jinx Upate Number …",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lars.ingebrigtsen.no/2026/09/08/calendaring/",
-          "author": null,
-          "description": "The other week I made a calendrical display for the eink thing I have.  The problem is that I don’t really use a calendar — I guess the main reason is because I hate planning, but the other reason is because I really dislike all the calendar entry interfaces I’ve used.\nI haven’t used all that many, though, so I may well be missing some ingenious calendar out there.  But what I’ve been resentfully using is the standard Google calendar on Android.\nI filmed one of my interactions with this thing, and I swear — I didn’t try to make it more awkward than it is for me:\n\nI’d be climbing up the walls if I were to try to use it more than I do now — I just put the absolute bare necessities in there, like dentist appointments and Boris shows.  (One coming up in November!)\nBut now I have this calendar in the hall…  wouldn’t it be nice to have it display more stuff?  Stuff that I really should be remembering, anyway?\nThere’s also org-gcal, if you’re in the Org ecosystem…  but…  I’m not.\nDoes a command line interface to Google Calendar work?  Because I want to have the calendar in my pocket, too.  And…  Yes, there’s gcalcli.  (Which I noticed hasn’t been updated for two years and is probably going to be deprecated, but it works for now, so I haven’t bothered to redo my code.)\nAfter going through the byzantine process on Google Cloud Console to create an “application”:\n\nYes!  You have to create a logo!  Behold my magnificent logo!\nAnyway, after all that…  tada:\n\nYes!  The system works!\nIt does the normal Do What I Mean Thing — “fri 9” means “next Friday at 9am”, and “aug 11 1930” means “half past seven on August 11”, etc:\n\nI’m freee!  I never have to enter a calendar entry on the mobile phone ever again!\nI’ve put the resulting code on Microsoft Github.",
-          "link": "https://lars.ingebrigtsen.no/2026/09/08/calendaring/",
-          "publishedOn": "2026-09-08T14:48:46.000Z",
-          "wordCount": 1407,
-          "title": "Lars Ingebrigtsen: Calendaring",
-          "imageUrl": "https://lars.ingebrigtsen.no/wp-content/uploads/2026/09/DSC08680-scaled.jpg"
         }
       ]
     },
@@ -1115,26 +1095,6 @@
           "wordCount": 8016,
           "title": "Barcelona Is The Greatest Show On European Soil",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2293872180.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234840",
-          "author": "Barry Petchesky",
-          "description": "Did you forget about the Yankees? I know you did not because you are not allowed to. But New York has had a relatively quiet season by their flamboyant and national-TV-darling standards. A big part of this is that the AL East has looked pretty much the same for a while now: The Rays have maintained a comfortable but not secure division lead; the less said about what's happening down there with the bird teams, the better; and in the middle, the Red Sox have ended child hunger and positioned themselves for what feels like an inevitable three-game wild card series against New York. \nIf the Yankees have been invisible, it's because they've only been \"pretty good,\" and mostly because they can't hit for shit. Since June 1, they've slashed .227/.295/.385, rank 26th in MLB in runs scored, and 29th in wRC+. That they remain safely in playoff position is testament to their league-best pitching, but any self-respecting Bronx Bomber fan will tell you that's an unethical way to win ballgames. That's what the \"Milwaukee Brewers\" do. Yankees fans demand big boys! Big meaty boys swinging those big bats! Instead they got Trent Grisham.\nThat changes tonight. Why choose June 1 as the cutoff for the stats above? That's the day Aaron Judge went on the IL for a stress fracture in his rib, suffered more than a month earlier. “We’ve had long stretches where the offense has struggled. I think a big part of that is not having your guy,” manager Aaron Boone said. Their guy has now missed more than half the season, and as goes Judge so go the Yankees: They were a .610 team with him in the lineup, and a .536 team without him.",
-          "link": "https://defector.com/aaron-judge-back",
-          "publishedOn": "2026-09-08T14:23:44.000Z",
-          "wordCount": 6067,
-          "title": "Aaron Judge Back",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2293902813.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234829",
-          "author": "Tom Ley",
-          "description": "Before the NFL season kicks off this weekend, it will kick off Wednesday night with a primetime game between the New England Patriots and Seattle Seahawks. And then on Thursday night it will kick off again, with a game between the San Francisco 49ers and Los Angeles Rams, except that game will actually be happening on Friday morning, on account of it being played in Melbourne, Australia. Probably nobody should ask the Rams what day it is when they arrive for the game, because they won't have much time to get acclimated. They aren't leaving Los Angeles until tonight.\nRams head coach Sean McVay made the team's travel plans known over the weekend, telling reporters that the team will be boarding a flight from Los Angeles to Melbourne on Tuesday night, and arriving in Australia roughly 24 hours before their game against the 49ers kicks off. The flight from L.A. to Melbourne is roughly 16 hours, which when combined with the 17-hour time difference between the two cities, means that it will be Thursday morning in Australia when the Rams finally land. The game starts at 10:35 a.m. local time on Friday, which leaves the players about a day to acclimate and rest before kickoff.\nThe 49ers left home almost a week ago, and have been practicing in Melbourne this whole time. The Rams are insistent that their plan is better, though, in part because of how they successfully navigated a game in London last season. After beating the Ravens in Week 6, the Rams stayed on the East Coast for a few days before flying to London the day before their Week 7 game against the Jaguars, which they won 35-7. Of course the potential destabilizing effects of a flight from the East Coast to London is nowhere near those presented by one from L.A. to Melbourne, but McVay told reporters that every player on the flight will have a lie-flat bed.",
-          "link": "https://defector.com/the-rams-play-in-australia-in-two-days-and-they-havent-left-yet",
-          "publishedOn": "2026-09-08T13:03:06.000Z",
-          "wordCount": 6364,
-          "title": "The Rams Play In Australia In Two Days And They Haven’t Left Yet",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2292699471.jpg"
         }
       ]
     },
@@ -1151,16 +1111,6 @@
           "publishedOn": "2026-09-13T15:22:39.000Z",
           "wordCount": null,
           "title": "u/CommodoreCoCo clarifies the difference between the academic and popular conceptions of rituals and how this applies to archeology.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.reddit.com/r/DepthHub/comments/1waqkez/utea_and_biology_explains_how_wolves_and_coyotes/",
-          "author": null,
-          "description": "submitted by    /u/pr06lefs  \n [link]   [comments]",
-          "link": "https://www.reddit.com/r/DepthHub/comments/1waqkez/utea_and_biology_explains_how_wolves_and_coyotes/",
-          "publishedOn": "2026-09-08T14:51:01.000Z",
-          "wordCount": null,
-          "title": "u/tea_and_biology/ explains how wolves and coyotes occupy different ecological niches",
           "imageUrl": null
         }
       ]
@@ -1187,6 +1137,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3485",
+          "author": "Schill",
+          "description": "You’re weekly dose of funny and silly pictures and memes.",
+          "link": "https://stuffthatinterestsme.net/friday-funnies-3/",
+          "publishedOn": "2026-09-18T00:11:41.000Z",
+          "wordCount": 1246,
+          "title": "Friday Funnies",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3587",
           "author": "Schill",
@@ -2559,16 +2519,6 @@
           "wordCount": 2125,
           "title": "Fragments: September  8",
           "imageUrl": "https://martinfowler.com/fragments/fragments-thumb.png"
-        },
-        {
-          "id": "https://martinfowler.com/articles/never-send-slides/need-presentation.html",
-          "author": null,
-          "description": "Like me, Sumeet Gayathri Moghe is tired of poor\n      presentations with bad slide decks. He's started to write a series of\n      posts on how to avoid these calamities, beginning with a post that questions\n      whether a presentation is needed at all. \nmore…",
-          "link": "https://martinfowler.com/articles/never-send-slides/need-presentation.html",
-          "publishedOn": "2026-09-08T13:42:00.000Z",
-          "wordCount": 2469,
-          "title": "Do you even need a presentation?",
-          "imageUrl": "https://martinfowler.com/articles/never-send-slides/index/card.png"
         }
       ]
     },
@@ -2759,16 +2709,6 @@
           "wordCount": 3943,
           "title": "Making Sense of That Big Story Saying Netanyahu Was Warned About Oct 7",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2023/10/GettyImages-1719693069-scaled.jpg?w=1200"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1556943",
-          "author": "Josh Marshall",
-          "description": "Yesterday I was kind of randomly rereading some details about Spain’s transition to democracy after the death of Francisco Franco...",
-          "link": "https://talkingpointsmemo.com/edblog/in-and-outside-of-history-at-once",
-          "publishedOn": "2026-09-08T13:46:44.000Z",
-          "wordCount": 1986,
-          "title": "In and Outside of History at Once",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/09/GettyImages-562665185.jpg?w=1200"
         }
       ]
     },
@@ -3110,22 +3050,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!sdRn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F249a938a-e6dd-47c9-a6b0-d7226c806880_1280x720.jpeg"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/preznit-fuckwit-and-republicans-apparently",
-          "author": "Jeff Tiedrich",
-          "description": "watch what they do, not what they say",
-          "link": "https://www.jefftiedrich.com/p/preznit-fuckwit-and-republicans-apparently",
-          "publishedOn": "2026-09-08T14:44:37.000Z",
-          "wordCount": null,
-          "title": "Preznit Fuckwit and Republicans apparently unclear on the concept of Labor Day",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!jli9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b372bb5-633e-49ab-a106-4f00f99d14d1_660x370.webp",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!jli9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b372bb5-633e-49ab-a106-4f00f99d14d1_660x370.webp"
         }
       ]
     }
