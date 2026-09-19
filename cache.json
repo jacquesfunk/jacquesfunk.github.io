@@ -150,6 +150,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://list.orgmode.org/87v7814la7.fsf@localhost",
+          "author": null,
+          "description": "[request] flags:--- replies:0 role:maintainer",
+          "link": "https://list.orgmode.org/87v7814la7.fsf@localhost",
+          "publishedOn": "2026-09-19T09:56:47.000Z",
+          "wordCount": 470,
+          "title": "Org Mode requests: [RFC] Org markup inside comments (was: [Bug] Confusing appearance of bracket link in comment)",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=14091",
           "author": null,
           "description": "improving Emacs performance on files with long lines. As those of you who have to deal with long lines know, Emacs doesn’t handle them very well and is prone to freeze while trying to render them.\n\n\nOne good solution for this is Phil Sainty’s excellent so-long package. The idea is that so-long detects when when Emacs is dealing with long lines and turns off certain computationally expensive features such as syntax highlighting and font-lock mode. This is a big help in speeding up Emacs’ processing of long lines but it also disables some useful features.\n\n\nCherti’s idea to to provide more granular control. For example, while syntax highlight does impose a processing penalty, it also makes code easier to read for many people. Cherti shows how to get so-long to not disable syntax highlighting.\n\n\nCherti examines several other features that can be disabled, or not, by so-long and discusses the pros and cons of doing so. He shows you how, in effect, to fine tune so-long to achieve your desired balance between performance and utility.\n\n\nI really like this story because it’s a perfect example of how Emacs makes it easy to solve problems. First, there was the problem of Emacs freezing when dealing with long lines. Phil Sainty, who is not a member of the Emacs development team, helped ameliorate that problem with a third party package. Then James Cherti noticed that in certain situations you might want a less drastic effect than the default so-long action and showed how to achieve that. Even Cherti’s suggestions can be customized to suit the individual user. It’s Emacs at its best.",
@@ -994,6 +1004,16 @@
       "siteUrl": "https://www.reddit.com/r/DepthHub/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/DepthHub/comments/1wkkotc/green_meklar_explains_several_theories_as_to_why/",
+          "author": null,
+          "description": "submitted by    /u/Kirikomori  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DepthHub/comments/1wkkotc/green_meklar_explains_several_theories_as_to_why/",
+          "publishedOn": "2026-09-19T12:15:38.000Z",
+          "wordCount": null,
+          "title": "Green_meklar explains several theories as to why humans took so long to transition from hunter gather lifestyle to agriculture",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/DepthHub/comments/1wjxxnl/rwarcollege_explains_how_the_mig25s_role_as/",
           "author": null,
           "description": "submitted by    /u/skaaan  \n [link]   [comments]",
@@ -1125,16 +1145,6 @@
           "publishedOn": "2026-09-11T00:51:28.000Z",
           "wordCount": 1246,
           "title": "Friday Funnies",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3726",
-          "author": "Schill",
-          "description": "Reverend Horton Heat is one of those bands that makes the word “forgotten” feel a little unfair. They were",
-          "link": "https://stuffthatinterestsme.net/forgotten-band-reverend-horton-heat/",
-          "publishedOn": "2026-09-10T01:07:27.000Z",
-          "wordCount": 2940,
-          "title": "Forgotten Band: Reverend Horton Heat",
           "imageUrl": null
         }
       ]
@@ -2000,16 +2010,6 @@
           "wordCount": 17750,
           "title": "Trump Better Pay Me That $5,000 Up Front in Cash",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/89dea4c0-33c2-4bb5-8884-0e30d023083c.jpeg?crop=1xw:0.75xh;0xw,0.027xh&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/a73654586/smithsonian-museum-american-history-trump-administration-propaganda/",
-          "author": null,
-          "description": "As Americans, we must reflect on our past to find answers for our future. What happens when the president prevents us from posing questions in the first place?",
-          "link": "https://www.esquire.com/news-politics/a73654586/smithsonian-museum-american-history-trump-administration-propaganda/",
-          "publishedOn": "2026-09-09T20:32:57.000Z",
-          "wordCount": 21599,
-          "title": "At Trump’s Smithsonian, the Line Between History and Propaganda Is Blurrier than Ever",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/dc8f456c-4eea-407e-9004-4e6c998ca043.jpg?crop=1xw:0.75xh;center,top&resize=1200:*"
         }
       ]
     },
@@ -2701,22 +2701,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!RG2r!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31e11d8b-92a7-4c38-9e8c-d3c1ea37c7b5_1600x1200.png"
-        },
-        {
-          "id": "https://wherethingsstand.talkingpointsmemo.com/p/states-second-guess-tax-breaks-for",
-          "author": "Nicole Lafond",
-          "description": "This is your TPM evening briefing.",
-          "link": "https://wherethingsstand.talkingpointsmemo.com/p/states-second-guess-tax-breaks-for",
-          "publishedOn": "2026-09-09T22:02:55.000Z",
-          "wordCount": null,
-          "title": "States Second Guess Tax Breaks for Data Centers As American Uproar Spreads",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!Kkf0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9c7edd5-c196-4759-ad98-a61d46d10a0c_1600x1200.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!Kkf0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9c7edd5-c196-4759-ad98-a61d46d10a0c_1600x1200.png"
         }
       ]
     },
