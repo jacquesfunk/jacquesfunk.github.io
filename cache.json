@@ -150,6 +150,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=14095",
+          "author": null,
+          "description": "Graphviz, which I always seem to end up using. It’s powerful and not too hard to use but I don’t use it enough to internalize its syntax. So I’m always on the lookout for a better way. I’ve tried a bunch of them but I always go back to Graphviz.\n\n\nI just saw this video by Skybert Hacks (Torstein Krause Johansen) about using D2 for this very problem. Its syntax seems reminiscent of Graphviz but a little simpler and easier to remember. It integrates beautifully with Org-mode so it’s just perfect for writing reports, papers, notes, or blog posts.\n\n\nD2 produces nice diagrams—see the Skybert Hacks’ video for some examples—and is worth trying out. I’m going to do just that the next time I need to embed some videos in one of my documents. I just saw the video so I’m not familiar with the ins and outs of the app yet but it seems worth a little effort to learn. Once I try it out, I’ll report back and let you know how it worked out.",
+          "link": "https://irreal.org/blog/?p=14095",
+          "publishedOn": "2026-09-20T15:45:50.000Z",
+          "wordCount": 1475,
+          "title": "Irreal: D2 For Diagrams In Emacs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://protesilaos.com/codelog/2026-09-20-emacs-spacious-padding-0-9-0/",
+          "author": null,
+          "description": "This package provides a global minor mode to increase the\nspacing/padding of Emacs windows and frames.  The idea is to make\nediting and reading feel more comfortable.  Enable the mode with M-x\nspacious-padding-mode.  Adjust the exact spacing values by modifying\nthe user option spacious-padding-widths.\nPackage name (GNU ELPA): spacious-padding\nOfficial manual: https://protesilaos.com/emacs/spacious-padding\nChange log: https://protesilaos.com/emacs/spacious-padding\nGit repositories:\n    \nGitHub: https://github.com/protesilaos/spacious-padding\nGitLab: https://gitlab.com/protesilaos/spacious-padding\nSample images:\n    \nhttps://protesilaos.com/codelog/2023-06-03-emacs-spacious-padding/\nhttps://protesilaos.com/codelog/2023-11-15-spacious-padding-extra-ui-dev/\nBackronyms: Space Perception Adjusted Consistently Impacts Overall\nUsability State … padding; Spacious … Precise Adjustments to\nDesktop Divider Internals Neatly Generated.\nVersion 0.9.0 on 2026-09-20\nThis is a small version that addresses a minor inconvenience with the\nEmacs daemon process reporting an unspecified-bg under certain\ncircumstances. The workaround I defined ensures that we always use a\nknown colour value.\nOther than that, the margin face, which was introduced in Emacs\nversion 31, is also handled by spacious-padding-mode.",
+          "link": "https://protesilaos.com/codelog/2026-09-20-emacs-spacious-padding-0-9-0/",
+          "publishedOn": "2026-09-20T00:00:00.000Z",
+          "wordCount": 238,
+          "title": "Protesilaos: Emacs: spacious-padding version 0.9.0",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
+        {
           "id": "https://irreal.org/blog/?p=14093",
           "author": null,
           "description": "some additional thoughts on Markdown. A year ago he wrote a post complaining about the ankle biters who claim you can’t do serious writing with Markdown. I responded positively to his post and noted that even though I’m all in on Org mode and use it for virtually everything I write—even iMessages through the wonderful emacs-everywhere—it’s not really a good solution unless you’re using Emacs (although some people like Karl Voit disagree).\n\n\nThese days, Martin is an Emacs user and does use Org mode a lot but he still prefers to write his documentation and prose in Markdown. The reason for that is partly that he’s used to it but also because he has tools to work with it and—at least in the case of documentation—has to worry about collaboration.\n\n\nIt’s hard to disagree with anything he says although, again, Karl Voit strongly disagrees with the assertion that neither is better than the other, even when considered solely as markup languages. Even Martin appears to agree that Org is the better tool when you can consider its normal environment.\n\n\nAs for the original question that got all this started, of course Markdown or Org mode can be used for serious writing as plenty of writers demonstrate everyday. It’s only the ankle biters—probably the same ones who claim em-dashes are used only by AIs—who say otherwise.",
@@ -2308,6 +2328,16 @@
       "siteUrl": "https://gomakethings.com/articles",
       "articles": [
         {
+          "id": "https://gomakethings.com/articles/weeds-cant-grow-where-they-cant-take-root/",
+          "author": null,
+          "description": "In native gardening, the most effective way to prevent unwanted plants (aka weeds) from growing is to crowd them out with plants you do want.\nRather than well-space plants with large gaps of mulch, you packed plants densely together, just like you’d find in nature.\nWithout the space to take root, weeds are (mostly) kept at bay.\nThis is a metaphor about life and social change.\nI spend a lot of time fighting against social injustice.",
+          "link": "https://gomakethings.com/articles/weeds-cant-grow-where-they-cant-take-root/",
+          "publishedOn": "2026-09-20T14:30:00.000Z",
+          "wordCount": 6058,
+          "title": "Weeds can't grow where they can't take root",
+          "imageUrl": "https://gomakethings.com/img/og.png"
+        },
+        {
           "id": "https://gomakethings.com/articles/running-a-business-made-me-hate-capitalism/",
           "author": null,
           "description": "Today, I realized that running my own business (successfully for a while) is a big part of what made me hate capitalism so damn much.\nFor nearly a decade, I grew a blog I started while learning to code into a tech education business and dev consultancy. First it was a hobby, then a side hustle, then a full time job.\nI loved having control of my work and my time.",
@@ -2570,6 +2600,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/what-kind-of-shithole-piss-baby-president",
+          "author": "Jeff Tiedrich",
+          "description": "I’ll give you one guess",
+          "link": "https://www.jefftiedrich.com/p/what-kind-of-shithole-piss-baby-president",
+          "publishedOn": "2026-09-20T14:32:05.000Z",
+          "wordCount": null,
+          "title": "what kind of shithole piss-baby president gets mad at reporters for reporting?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!wHMj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffdcc5868-50b3-4c4b-b387-487d2b63aff5_957x596.webp",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!wHMj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffdcc5868-50b3-4c4b-b387-487d2b63aff5_957x596.webp"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/this-week-in-stupid-september-19",
           "author": "Jeff Tiedrich",
