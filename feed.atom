@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-20T20:21:28.290Z</updated>
+    <updated>2026-09-20T22:16:19.362Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Hot Feet On Main Are Only One Part  Of The NFL’s Climate Problem]]></title>
+        <id>https://defector.com/?p=235913</id>
+        <link href="https://defector.com/hot-feet-on-main-are-only-one-part-of-the-nfls-climate-problem"/>
+        <updated>2026-09-20T21:50:45.000Z</updated>
+        <summary type="html"><![CDATA[If you found yourself tuning in late for Sunday's matchup between the Eagles and Titans in Nashville, you may have had a number of burning questions: Has Jalen Hurts been replaced with sack of flour? Is Cam Ward the truth? Why is my television showing me slow motion replays of someone getting their feet hosed down?
+
+https://twitter.com/NFLonFOX/status/2101736833084428667?s=20
+
+
+The heat was a problem for the Titans, as temperatures in Nashville hit the mid-90s and the region was under a heat advisory, with meteorologists citing a heat index up to 108 degrees. Fox's game crew reported that the turf at Nissan Stadium reached 157 degrees in the third quarter.]]></summary>
+        <author>
+            <name>Justin Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Caleb Williams Suffers Awful Injury At Awful Time In Awful Game]]></title>
+        <id>https://defector.com/?p=235914</id>
+        <link href="https://defector.com/caleb-williams-suffers-awful-injury-at-awful-time-in-awful-game"/>
+        <updated>2026-09-20T21:22:51.000Z</updated>
+        <summary type="html"><![CDATA[Caleb Williams was going to score a touchdown. Anyone watching from home, or inside of a thoroughly drenched Soldier Field, knew it was about to happen. The Chicago Bears were trailing Minnesota by an ugly score of 6-3 in the fourth quarter when Williams, boxed in all game by the Vikings’ defense, faked an outside zone handoff to running back Kyle Monangai and booted out to his left. The Vikings bit, and Williams found himself with a relatively easy scamper to the end zone ahead of him when he was suddenly and out of nowhere struck him down on the sodden turf:
+
+https://bsky.app/profile/insidenflnews.bsky.social/post/3mvxx2jsrc22s
+
+
+As of this writing, Williams is reported to have suffered a hamstring injury. If that’s the case, it appears to be pretty bad. Not only was Williams screaming in agony for an extended period after going down, he was seen crying hard tears on his cart ride back to the locker room. Those were not, "aw gee I’m gonna miss a couple of games" tears. Those were "Fuck my season might be over," tears. Awful. Shitty. Unfair.]]></summary>
+        <author>
+            <name>Drew Magary</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NC State Innovates Brand New Endgame Choking Strategy]]></title>
         <id>https://defector.com/?p=235886</id>
@@ -552,6 +582,31 @@ Are we ever going to tire of navel-gazing about algorithms and attention and "ki
         <summary type="html"><![CDATA[The Human League’s “Don’t You Want Me” is one of the defining songs of early-1980s synth-pop, a dramatic, catchy and]]></summary>
         <author>
             <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ashish Panigrahi: An upgraded workflow on reviewing finished tasks with org-agenda]]></title>
+        <id>https://ashishpanigrahi.com/blog/completed-org-items-since-date/</id>
+        <link href="https://ashishpanigrahi.com/blog/completed-org-items-since-date/"/>
+        <updated>2026-09-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In my last blogpost, I showcased how I
+review tasks finished over the last seven days. It implicitly
+assumes that I attend every group meeting[1] and that the group
+meeting happens during the same time every week[2].
+In a more practical sense, it would be nice to generalize this
+workflow. I would like to specify a date, since when completed tasks
+would be displayed until the current day. This way I would be able to
+review my finished agenda items since a particular day in the past.
+This date would typically be when the group meeting last occured, but
+we are not strictly bound to it.
+Implementation in emacs lisp
+We write an elisp snippet similar to the one in the previous blogpost.
+(defvar pani/last-group-meeting-date nil)
+
+(setq org-agenda-custom-commands
+      '(("v" "Finished tasks since…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>

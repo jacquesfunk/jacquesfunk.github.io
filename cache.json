@@ -190,6 +190,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://ashishpanigrahi.com/blog/completed-org-items-since-date/",
+          "author": null,
+          "description": "In my last blogpost, I showcased how I\nreview tasks finished over the last seven days. It implicitly\nassumes that I attend every group meeting[1] and that the group\nmeeting happens during the same time every week[2].\nIn a more practical sense, it would be nice to generalize this\nworkflow. I would like to specify a date, since when completed tasks\nwould be displayed until the current day. This way I would be able to\nreview my finished agenda items since a particular day in the past.\nThis date would typically be when the group meeting last occured, but\nwe are not strictly bound to it.\nImplementation in emacs lisp\nWe write an elisp snippet similar to the one in the previous blogpost.\n(defvar pani/last-group-meeting-date nil)\n\n(setq org-agenda-custom-commands\n      '((\"v\" \"Finished tasks since…",
+          "link": "https://ashishpanigrahi.com/blog/completed-org-items-since-date/",
+          "publishedOn": "2026-09-19T00:00:00.000Z",
+          "wordCount": 530,
+          "title": "Ashish Panigrahi: An upgraded workflow on reviewing finished tasks with org-agenda",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=14091",
           "author": null,
           "description": "improving Emacs performance on files with long lines. As those of you who have to deal with long lines know, Emacs doesn’t handle them very well and is prone to freeze while trying to render them.\n\n\nOne good solution for this is Phil Sainty’s excellent so-long package. The idea is that so-long detects when when Emacs is dealing with long lines and turns off certain computationally expensive features such as syntax highlighting and font-lock mode. This is a big help in speeding up Emacs’ processing of long lines but it also disables some useful features.\n\n\nCherti’s idea to to provide more granular control. For example, while syntax highlight does impose a processing penalty, it also makes code easier to read for many people. Cherti shows how to get so-long to not disable syntax highlighting.\n\n\nCherti examines several other features that can be disabled, or not, by so-long and discusses the pros and cons of doing so. He shows you how, in effect, to fine tune so-long to achieve your desired balance between performance and utility.\n\n\nI really like this story because it’s a perfect example of how Emacs makes it easy to solve problems. First, there was the problem of Emacs freezing when dealing with long lines. Phil Sainty, who is not a member of the Emacs development team, helped ameliorate that problem with a third party package. Then James Cherti noticed that in certain situations you might want a less drastic effect than the default so-long action and showed how to achieve that. Even Cherti’s suggestions can be customized to suit the individual user. It’s Emacs at its best.",
@@ -416,6 +426,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=235913",
+          "author": "Justin Ellis",
+          "description": "If you found yourself tuning in late for Sunday's matchup between the Eagles and Titans in Nashville, you may have had a number of burning questions: Has Jalen Hurts been replaced with sack of flour? Is Cam Ward the truth? Why is my television showing me slow motion replays of someone getting their feet hosed down?\n\nhttps://twitter.com/NFLonFOX/status/2101736833084428667?s=20\n\n\nThe heat was a problem for the Titans, as temperatures in Nashville hit the mid-90s and the region was under a heat advisory, with meteorologists citing a heat index up to 108 degrees. Fox's game crew reported that the turf at Nissan Stadium reached 157 degrees in the third quarter.",
+          "link": "https://defector.com/hot-feet-on-main-are-only-one-part-of-the-nfls-climate-problem",
+          "publishedOn": "2026-09-20T21:50:45.000Z",
+          "wordCount": 4839,
+          "title": "Hot Feet On Main Are Only One Part  Of The NFL’s Climate Problem",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2296277827.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235914",
+          "author": "Drew Magary",
+          "description": "Caleb Williams was going to score a touchdown. Anyone watching from home, or inside of a thoroughly drenched Soldier Field, knew it was about to happen. The Chicago Bears were trailing Minnesota by an ugly score of 6-3 in the fourth quarter when Williams, boxed in all game by the Vikings’ defense, faked an outside zone handoff to running back Kyle Monangai and booted out to his left. The Vikings bit, and Williams found himself with a relatively easy scamper to the end zone ahead of him when he was suddenly and out of nowhere struck him down on the sodden turf:\n\nhttps://bsky.app/profile/insidenflnews.bsky.social/post/3mvxx2jsrc22s\n\n\nAs of this writing, Williams is reported to have suffered a hamstring injury. If that’s the case, it appears to be pretty bad. Not only was Williams screaming in agony for an extended period after going down, he was seen crying hard tears on his cart ride back to the locker room. Those were not, \"aw gee I’m gonna miss a couple of games\" tears. Those were \"Fuck my season might be over,\" tears. Awful. Shitty. Unfair.",
+          "link": "https://defector.com/caleb-williams-suffers-awful-injury-at-awful-time-in-awful-game",
+          "publishedOn": "2026-09-20T21:22:51.000Z",
+          "wordCount": 4583,
+          "title": "Caleb Williams Suffers Awful Injury At Awful Time In Awful Game",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2296284266.jpg"
+        },
         {
           "id": "https://defector.com/?p=235886",
           "author": "Drew Magary",
