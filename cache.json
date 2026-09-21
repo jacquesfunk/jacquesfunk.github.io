@@ -170,6 +170,36 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "http://yummymelon.com/devnull/announcing-restlib.html",
+          "author": null,
+          "description": "In keeping with this blog’s recent interest in building REST clients in Emacs Lisp (Elisp), here’s a utility library I’ve assembled that covers some common tasks in doing so. I’ve named this package restlib (https://github.com/kickingvegas/restlib) and it is now available on MELPA. restlib is organized into the following three sections:\nNetwork (HTTP) requests\nURL components\nJSON processing\nFurther reading about these sections can be found in the restlib API Reference.\nTo get an idea of what you can do with restlib, explore the source code for a lightweight weather lookup client using https://wttr.in called wttr.el.\nAnecdotally, I’ve already created a number of internal REST clients using restlib, some of which I plan to publish on MELPA in the near future. As restlib is early in its development, there is always room for improvement. If you have any suggestions for improving restlib, feel free to submit an issue.",
+          "link": "http://yummymelon.com/devnull/announcing-restlib.html",
+          "publishedOn": "2026-09-21T17:25:00.000Z",
+          "wordCount": 228,
+          "title": "Charles Choi: Announcing restlib - a utility library for building Emacs REST clients",
+          "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
+        },
+        {
+          "id": "https://mbork.pl/2026-09-21_forward-paragraph_in_Magit",
+          "author": null,
+          "description": "As I’ve mentioned many times, I am a heavy Magit user. Pretty often I do code reviews from within Magit. There was one thing that has bothered me for a long time.",
+          "link": "https://mbork.pl/2026-09-21_forward-paragraph_in_Magit",
+          "publishedOn": "2026-09-21T16:36:27.000Z",
+          "wordCount": 370,
+          "title": "Marcin Borkowski: forward-paragraph in Magit",
+          "imageUrl": null
+        },
+        {
+          "id": "https://sachachua.com/blog/2026/09/2026-09-21-emacs-news/",
+          "author": null,
+          "description": "typewriter mode in the Fun category, but people might actually find the constraints useful for focused writing.\n\n\n\nUpcoming events (iCal file, Org):\n\nEmacs APAC: Emacs APAC meetup (virtual) https://emacs-apac.gitlab.io/announcements/ Sat Sep 26 0130 America/Vancouver - 0330 America/Chicago - 0430 America/Toronto - 0830 Etc/UTC - 1030 Europe/Berlin - 1400 Asia/Kolkata - 1630 Asia/Singapore\nEmacs Berlin: Emacs-Berlin Hybrid Meetup https://emacs-berlin.org/ Wed Sep 30 1000 America/Vancouver - 1200 America/Chicago - 1300 America/Toronto - 1700 Etc/UTC - 1900 Europe/Berlin - 2230 Asia/Kolkata – Thu Oct 1 0100 Asia/Singapore\nEmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/316464079/ Thu Oct 1 1600 America/Vancouver - 1800 America/Chicago - 1900 America/Toronto - 2300 Etc/UTC – Fri …",
+          "link": "https://sachachua.com/blog/2026/09/2026-09-21-emacs-news/",
+          "publishedOn": "2026-09-21T12:02:45.000Z",
+          "wordCount": 822,
+          "title": "Sacha Chua: 2026-09-21 Emacs news",
+          "imageUrl": null
+        },
+        {
           "id": "https://taonaw.com/2026/09/20/glove-and-emacs-retraining-my.html",
           "author": null,
           "description": "I’m still getting used to the Glove80. Writing text is doable but still painfully slow.\nI mentioned I use tangent, which integrates the Glove80 layout. One thing it doesn’t have though is a practice layer for Emacs, with Emacs key chords like C-c C-z, for example.\nSo I called Claude for help.\nI’m on the third version of this mod, adding the command names from Emacs, so that I know what the commands I’m retraining my fingers on are — because my fingers remembered these commands (and thus are now clueless), and now I need to commit them to memory again through my eyes. This here is the first post written fully with the Glove80. I’m getting there.",
@@ -428,16 +458,6 @@
           "wordCount": 285,
           "title": "Sacha Chua: Experimenting with Orukeet for speech recognition",
           "imageUrl": null
-        },
-        {
-          "id": "https://mbork.pl/2026-09-12_Duplicating_lines_and_other_Emacs_miscellanea",
-          "author": null,
-          "description": "A few weeks ago I wrote about how I remapped yank to my command which allows to transform the yanked text. The whole setup – where I press C-y twice to trigger the transformation transient – has one drawback: I sometimes legitimately want to call yank twice in a row. This happens when I need to copy the current line and modify the copy so that I have two similar lines in a row. (I often need this when editing Ledger transactions, for example.) What I sometimes do in such a situation is basically a dance of C-a C-1 C-k C-y C-y. It turns out I don’t need to.",
-          "link": "https://mbork.pl/2026-09-12_Duplicating_lines_and_other_Emacs_miscellanea",
-          "publishedOn": "2026-09-12T06:11:40.000Z",
-          "wordCount": 512,
-          "title": "Marcin Borkowski: Duplicating lines and other Emacs miscellanea",
-          "imageUrl": null
         }
       ]
     },
@@ -446,6 +466,56 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=236001",
+          "author": "Samer Kalaf",
+          "description": "This past weekend, Ed Sheeran performed his first concert since decrepit Patriots owner Robert Kraft stuck his hand up the singer's ass and made him respect Israel. The culturally Irish but politically English musician played with no openers and a new backing band Saturday night in Philadelphia, because all his previous supporting acts abandoned him after his craven decision to drop pro-Palestine rapper Macklemore from his U.S. tour, at the behest of Kraft and other NFL stadium owners. During Saturday's show, Sheeran read a prepared statement presented as an apology.\n\nhttps://www.youtube.com/watch?v=OInyzsqLvKg\n\n\nSheeran delivered everything you'd expect from a person in his position: equivocating, meaningless bullshit that was most likely written by someone else. A partial transcript:",
+          "link": "https://defector.com/ed-sheeran-delivers-pointless-statement-then-cries-during-latest-concert",
+          "publishedOn": "2026-09-21T20:17:05.000Z",
+          "wordCount": 5364,
+          "title": "Ed Sheeran Delivers Pointless Statement Then Cries During Latest Concert",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/ed-sheeran-crying.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236014",
+          "author": "Dave McKenna",
+          "description": "Gable Steveson, the hottest UFC prospect in years, who arrived at the promotion with a past marked by a sexual assault allegation, got knocked out by a nobody in 12 seconds on Saturday in Los Angeles. Dana White sure knows how to pick ‘em.\nSteveson, an NCAA legend and Olympic gold medalist in wrestling, was given a slot on the main card in just his second UFC fight. That fast-tracking now looks absolutely foolish. Mere moments into the fight, Steveson walked into a straight right hand to the chin from Sean Sharaf, previously winless as a UFC heavyweight, which was followed instantly by a nuclear left hook to the jaw. The precise and savage 1-2 left Steveson unconscious before he hit the mat. Steveson seemed on the verge of adopting the fencing response on the canvas before referee Frank Trigg jumped in to protect him. Steveson’s night, and his status as White's chosen one, were done. \n\nhttps://www.youtube.com/watch?v=4heWhQrQb4Y",
+          "link": "https://defector.com/dana-whites-latest-ufc-prodigy-gets-kod-in-12-seconds",
+          "publishedOn": "2026-09-21T19:12:08.000Z",
+          "wordCount": 5241,
+          "title": "Dana White’s Latest UFC Prodigy Gets KO’d  In 12 Seconds",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2296153078.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235988",
+          "author": "Patrick Redford",
+          "description": "On July 13, California state Attorney General Rob Bonta announced that he would lead a 12-state coalition in mounting a supposedly bold legal challenge to the proposed Paramount–Warner Bros. Discovery mega-merger. The deal had cleared every previous legal hurdle, but the states had to try and stop the Ellison family from gaining control over the plurality of American media production because, in Bonta's words, that consolidation would represent a \"death knell for the film and TV industry—and for our democracy.\" Two months later, the parties have settled the suit, with the states meekly submitting and getting nothing serious to show for it. What a waste of time.\nAfter a nine-month campaign, the Ellisons have won the right to dictate the future of American entertainment and media. It all began in December 2025, when Netflix agreed to pay WBD $72 billion in cash and stock for the latter's streaming and film-studio businesses. When WBD rejected Paramount's competing all-cash offer for everything it had, adding the TV arm to the assets in the Netflix deal, Paramount mounted a hostile takeover bid. The Ellisons' ominous pitch to WBD shareholders was: You better take our deal or our friend the President will reject your merger. \nIt worked. When the WBD board offered Netflix a chance to match Paramount's offer, the streaming giant instantly said no, and David Ellison had his prize. All he needed to do was jump over a few regulatory hurdles, most of which have been lowered or removed for people like him under the second Trump Administration. The Department of Justice approved the deal in June.",
+          "link": "https://defector.com/states-settle-paramount-wb-merger",
+          "publishedOn": "2026-09-21T18:06:00.000Z",
+          "wordCount": 5181,
+          "title": "States Roll Over And Show Bellies To Paramount, Will Allow Warner Bros. Merger",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2274329497.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235958",
+          "author": "Chris Thompson",
+          "description": "Laz Díaz has had enough of baseball. The veteran umpire will wrap up a three-decade career this week, will hang up the mask and the chest protector, and will bid good riddance to the sport. Major League Baseball offered buyouts to umpires earlier this season, and seven veterans, including Díaz and the dreaded C.B. Bucknor, raised their hands. Bucknor is already missing from the sport, having absorbed a deflected Jacob Misiorowski heater with his face mask back in May, and has not returned since. Díaz, meanwhile, has had the summer to make a farewell tour and reflect on his time in the game. His conclusion, per an interview with Bob Nightengale of USA Today: Baseball stinks now. Díaz will not miss it.\n\"There’s just so much scrutiny and negative stuff now,\" Díaz said. \"There are a lot of peo…",
+          "link": "https://defector.com/laz-diaz-and-modern-baseball-are-mutually-through-with-one-another",
+          "publishedOn": "2026-09-21T17:48:21.000Z",
+          "wordCount": 6838,
+          "title": "Laz Díaz And Modern Baseball Are Mutually Through With One Another",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2292140956.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235889",
+          "author": "Drew Magary",
+          "description": "Sometimes a recipe leads you astray. It happens to the best of us, myself included. Sometimes a bad recipe will leave you with no recourse. You simply have to accept that you wasted all of your time and all of those precious, precious ingredients, on someone else's poor handiwork. But other times, if you're both stubborn and resourceful enough, you can get yourself out of whatever jam a shit recipe has put you in. I have one such story for you.\nThe recipe in question was for a chocolate cream pie, which I will not link to here because it's a failed recipe. We were having my wife's parents over for dinner last night to celebrate my father-in-law's birthday. The plan was to make a key lime pie for dessert, which would be no trouble at all. I use a recipe for key lime that I found online that never fails. Plus, we already had a ready-made graham cracker pie crust on hand for it. Bingo bango, one pie down.\nBut my wife had also grabbed a ready-made chocolate pie crust at the store, and I had no go-to recipe to use with that one. So I did a lazy search and found a chocolate cream pie recipe that looked simple enough. All I had to do was beat a few ingredients together over a stovetop, pour it into the shell, stick it in the fridge, and that was it.",
+          "link": "https://defector.com/i-fought-a-pie-and-i-won",
+          "publishedOn": "2026-09-21T16:32:21.000Z",
+          "wordCount": 4817,
+          "title": "I Fought A Pie And I Won",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/pie.jpg"
+        },
         {
           "id": "https://defector.com/?p=235939",
           "author": "Luis Paez-Pumar",
@@ -1198,6 +1268,36 @@
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
         {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/31/ai-photos-trump-approval-rating-republicans-midterms/91489828007/-full",
+          "author": "Rex Huppke",
+          "description": "You guys remember back when Donald Trump and his Republican Party promised that, if elected, they would clean and regrout the granite at the White House’s north entrance and provide Americans with endless artificial intelligence slop on social media?\nRemember when they swore that, on day one, they would rant about “fake polls” and arbitrarily change the names of large bodies of water? \nYeah, I don’t remember that, either. What I recall hearing were promises to lower food and gas prices and usher in an economic Golden Age, along with a guarantee that Trump was “not going to start a war.”\nOops. The actual promises Trump and Republican lawmakers made haven’t panned out. At all. So now they have nothing to share with the American public beyond the grout and the growling and whatever fake conte…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/31/ai-photos-trump-approval-rating-republicans-midterms/91489828007/",
+          "publishedOn": "2026-09-21T21:42:57.973Z",
+          "wordCount": 4445,
+          "title": "GOP has accomplished so little Trump can't even brag about itRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/31/USAT/91546704007-20260828-t-225159-z-1384611149-rc-2-t-7-naqeftb-rtrmadp-3-usatrump.JPG?crop=2949,1660,x0,y153&width=2949&height=1660&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/09/01/supreme-court-white-house-ballroom-trump/91557432007/-full",
+          "author": "Rex Huppke",
+          "description": "I was working on putting our youngest child up for adoption and draining my retirement account so we could afford potentially tainted ground beef when I learned the joyous news: AMERICA IS GETTING ITS BALLROOM!\nOn Aug. 31, the U.S. Supreme Court gave President Donald Trump the green light to continue construction of the $400 million White House ballroom, a guaranteed morale boost for struggling Americans who value unnecessary government grandeur over food.\nTrump celebrated the ruling on Truth Social: “I am pleased to report that the United States Supreme Court has just ruled in favor of the Ballroom/Military Complex being built without any further contingency, doubt, or threat. We are living in the Golden Age of America, and this Building will be one of the Greatest ever constructed in Was…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/09/01/supreme-court-white-house-ballroom-trump/91557432007/",
+          "publishedOn": "2026-09-21T21:42:57.933Z",
+          "wordCount": 4220,
+          "title": "The ballroom will be built! Thank you, Supreme Court!Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/09/01/USAT/91561859007-2289960480.jpg?crop=1416,795,x0,y0&width=1416&height=795&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/09/21/trump-approval-rating-white-house-press-pool-gas-prices/91874948007/-full",
+          "author": "Rex Huppke",
+          "description": "Gas costs about $4.50 per gallon and Americans are struggling to afford meat, so it’s good to see President Donald Trump laser-focused on … wait for it … banning CNN, MS NOW and Politico from the White House because they hurt his precious feelings.\nThat should solve our affordability crisis!\nThe news outlets’ crime was accurately reporting the news, none of which is good for Trump, as his approval rating in one poll released Sept. 21 dropped below 30% for the first time.\nTrump can’t face the fact that Americans are mad because their president got us into an intractable war with Iran that spiked fuel prices, and because food prices make trips to the grocery store painful, and because that same president seems to only care about building ballrooms and arches and slapping his name on building…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/09/21/trump-approval-rating-white-house-press-pool-gas-prices/91874948007/",
+          "publishedOn": "2026-09-21T21:42:57.909Z",
+          "wordCount": 4062,
+          "title": "Emotional man can't handle hurt feelings. You pay more because of it.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/09/18/USAT/91832135007-20260918-t-203426-z-2035320037-rc-2-wlnaud-0-xy-rtrmadp-3-usatrump-1.JPG?crop=5499,3093,x0,y0&width=3200&height=1800&format=pjpg&auto=webp"
+        },
+        {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/09/20/kennedy-chemtrails-measles-deaths-midterms/91810287007/-full",
           "author": "Rex Huppke",
           "description": "With measles cases on the rise and midterm elections approaching, I’m sure the Republican Party is thrilled to see Health and Human Services Secretary Robert F. Kennedy Jr. showing his true anti-vaccine-kook colors.\nKennedy was the keynote speaker Sept. 17 at a convention held by the inaccurately named Children’s Health Defense, a rabidly anti-vaccine, pro-nonsense group Kennedy founded long before President Donald Trump put one of the nation’s leading conspiracy theorists in charge of America’s health.\nAs the chief of the HHS, Kennedy has largely stayed away from the group and tried, reportedly under some pressure from the White House, to cool his opposition to proven medical facts. But in his keynote speech, delivered as the nearly 3,500 measles cases this year are already at a 35-year h…",
@@ -1695,6 +1795,16 @@
       "siteUrl": "https://www.sfgate.com/author/drew-magary/",
       "articles": [
         {
+          "id": "https://www.sfgate.com/local/article/san-francisco-market-ai-22424349.php-full",
+          "author": null,
+          "description": "You have heard about the two Anthropic employees who, this week, publicly informed America that artificial intelligence could eradicate the whole of humanity within a decade, which is less time than it takes for your average Seamless order to arrive. If these gentlemen, Jacob Coxon and Evan Hubinger, are correct in their assessment, the beginning of our destruction may well have commenced a month ago right here in San Francisco.\n\nThe first shot fired in this looming war happened at a seemingly innocuous Cow Hollow storefront known as Andon Market. Back in August, Luna, the AI bot that serves as that store’s manager, fired one of its own employees. The employee in question was dinged by their virtual boss for being late to work, abandoning their post once they got there, and charging snacks…",
+          "link": "https://www.sfgate.com/local/article/san-francisco-market-ai-22424349.php",
+          "publishedOn": "2026-09-21T21:42:29.602Z",
+          "wordCount": 177,
+          "title": "SF's AI-run store is losing money fast. After a visit, I'm not surprised.",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.sfgate.com/sf-culture/article/disclosure-day-review-22298388.php-full",
           "author": null,
           "description": "I put a question to my SFGATE colleagues just the other day that had them mulling for a bit: What’s the last great movie that Steven Spielberg directed? I’m not talking about a merely good film. The old man can put together a competent picture anytime he likes. I’m talking about an all-timer of a Spielberg movie, something that belongs up there with his best work, which includes “Jaws,” “Raiders of the Lost Ark,” “E.T.,” “Schindler’s List” and … you get the idea. When you’re a director who’s made not just one of the greatest movies of all time but several of them, audience members like me hope for (and oftentimes expect) greatness from you with every subsequent project. Such is the standard that Spielberg, father of the modern blockbuster, set for himself. It’s also a standard that, in my …",
@@ -1841,6 +1951,26 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73826800/crypto-midterms-money-election-spending/",
+          "author": null,
+          "description": "Republicans have a whopping financial advantage, thanks in part to the We-Invented-New-Money crowd. Is that enough to overcome affiliation with an extremely unpopular president?",
+          "link": "https://www.esquire.com/news-politics/politics/a73826800/crypto-midterms-money-election-spending/",
+          "publishedOn": "2026-09-21T20:57:42.000Z",
+          "wordCount": 19426,
+          "title": "I Really Hope Crypto Doesn’t Play a Big Part in the Midterms—or in Anything Else Ever Again, for That Matter",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/a789510b-a005-4214-8974-31202c8c526c.jpeg?crop=1xw:0.749633967789xh;center,top&resize=1200:*"
+        },
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73825195/united-states-private-equity-farming-health-care/",
+          "author": null,
+          "description": "Greedy slicksters are scooping up farms and doctor’s offices and ruining them for profit. Only in America!",
+          "link": "https://www.esquire.com/news-politics/politics/a73825195/united-states-private-equity-farming-health-care/",
+          "publishedOn": "2026-09-21T19:04:15.000Z",
+          "wordCount": 18905,
+          "title": "The U.S. Is Becoming a Private Equity Hellscape. Can Anyone Save Us?",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/8da9cac8-9710-46c6-96ed-c6ea9863f343.jpeg?crop=1xw:0.88993923025xh;center,top&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a73794923/rfk-jr-speech-chemtrails/",
           "author": null,
@@ -2384,6 +2514,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1558292",
+          "author": "Josh Marshall",
+          "description": "One of the key arguments for a great power — other than the great power itself wanting to be one...",
+          "link": "https://talkingpointsmemo.com/edblog/things-fall-apart-in-the-middle-east-the-donald-trump-story",
+          "publishedOn": "2026-09-21T18:43:46.000Z",
+          "wordCount": 2238,
+          "title": "Things Fall Apart (in the Middle East): The Donald Trump Story",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2025/11/GettyImages-2246893536.jpg?w=1200"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1558171",
           "author": "Josh Marshall",
