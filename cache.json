@@ -160,6 +160,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://xenodium.com/agent-shell-0-78-updates",
+          "author": null,
+          "description": "Another month, another agent-shell update. If you missed the last post, have a look at the 0.73 update.\nAs usual, this post showcases highlights, but please check out the full list of changes if you're after the nitty-gritty.\nWhat's agent-shell?\nagent-shell is a native Emacs mode to interact with AI agents powered by ACP (Agent Client Protocol).\nNew supported agents\nTwo agents join the family, available as usual via M-x agent-shell, or explicitly as follows:\nAntigravity (Google), #795 by @tychoish. Start it with M-x agent-shell-start-antigravity-agent.\nQoder CLI, #831 by @unship. Start it with M-x agent-shell-start-qoder-agent.\nPrompt any time\nLikely the most impactful feature in the release. It's highly discoverable and plenty useful, so I'm expecting a fair amount of uptake.\nA typical sh…",
+          "link": "https://xenodium.com/agent-shell-0-78-updates",
+          "publishedOn": "2026-09-22T00:00:00.000Z",
+          "wordCount": 2062,
+          "title": "Alvaro Ramirez: agent-shell 0.78 updates",
+          "imageUrl": "https://xenodium.com/share.png"
+        },
+        {
           "id": "http://yummymelon.com/devnull/announcing-restlib.html",
           "author": null,
           "description": "In keeping with this blog’s recent interest in building REST clients in Emacs Lisp (Elisp), here’s a utility library I’ve assembled that covers some common tasks in doing so. I’ve named this package restlib (https://github.com/kickingvegas/restlib) and it is now available on MELPA. restlib is organized into the following three sections:\nNetwork (HTTP) requests\nURL components\nJSON processing\nFurther reading about these sections can be found in the restlib API Reference.\nTo get an idea of what you can do with restlib, explore the source code for a lightweight weather lookup client using https://wttr.in called wttr.el.\nAnecdotally, I’ve already created a number of internal REST clients using restlib, some of which I plan to publish on MELPA in the near future. As restlib is early in its development, there is always room for improvement. If you have any suggestions for improving restlib, feel free to submit an issue.",
@@ -426,6 +436,56 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=236149",
+          "author": "Drew Magary",
+          "description": "Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGATE, and buy Drew’s books while you’re at it. Today, we're talking about flawed domes, office condiments, life on one leg, and more.\nYour letters:\nBaron:",
+          "link": "https://defector.com/look-how-fanatics-massacred-this-simple-trading-card",
+          "publishedOn": "2026-09-22T15:59:10.000Z",
+          "wordCount": 11381,
+          "title": "Look How Fanatics Massacred This Simple Trading Card",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1417390194.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236167",
+          "author": "Patrick Redford",
+          "description": "This week on Nothing But Respect, Harry and I were joined by returning champion Eamon Whalen. Eamon just published a big profile of Nick Shirley in New York magazine, and we spent the first half of the show talking about the particulars of the story, the broader implications of letting 24-year-old prank YouTubers dictate policy decisions, and the uncomfortable position people like Shirley put supposed right-wing intellectuals like Chris Rufo into. We then transitioned into some Minnesota Timberwolves chat, with particular attention paid to the bizarre robot-driven ghost kitchens Marc Lore is investing in now that he's pumped and dumped an NBA franchise. This was a fun one!\nYou can find Nothing But Respect in Apple Podcasts or whatever podcast app you use. Follow the show on Instagram, and contact the Broke Jumper Tip Line at (347) 380-6426. Thanks for listening!",
+          "link": "https://defector.com/government-by-influencer-with-eamon-whalen",
+          "publishedOn": "2026-09-22T15:45:02.000Z",
+          "wordCount": 4617,
+          "title": "Government By Influencer, With Eamon Whalen",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2286240631.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235993",
+          "author": "Robert Rubsam",
+          "description": "Adam Wingard opens his new movie, Onslaught, with a brainrot history of the military industrial complex, a slipshod compilation of combat footage, political speechmaking, and behind-the-headlines conspiracizing that (semi-)convincingly situates the origins of the American century in Operation Paperclip and the importation of Nazi scientists at the end of the Second World War. It rules. Set to a pounding synth score and employing the kind of queasily associative quick-cuts that would make even a 9/11 truther blush, this sequence anticipates something hard-hitting and sharp-edged, the sort of action movie that weaponizes its gristly bad taste for subversive means.\nI wish I could see the movie that this credit sequence foretells. Instead, I saw Onslaught. The set-up is blessedly simple: Celes…",
+          "link": "https://defector.com/two-indie-action-films-one-clear-winner",
+          "publishedOn": "2026-09-22T15:03:11.000Z",
+          "wordCount": 7739,
+          "title": "Two Indie Action Films, One Clear Winner",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/Hope.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236129",
+          "author": "Barry Petchesky",
+          "description": "The Detroit Tigers announced Monday that their ballpark will henceforth and forever, or until the naming-rights deal runs out or some more banks merge, be known as Fifth Third Park. \"When you look around, it's so much more than where the Tigers play baseball,\" Ryan Gustafson, CEO of Ilitch Sports and Entertainment, said at the unveiling. So much more. It's not merely a \"Tiger\" \"stadium.\" It's Fifth Third Park.\nFifth Third! Ol' One and Two-Thirds Field. The Fraction. Hey, you wanna catch a game down at The 1.6̅? Tigers fans surely can't wait to embrace the new name for what used to be Comerica Park, which opened in 2000 but never truly felt like home because they could pronounce it without difficulty. Comerica was purchased by Fifth Third earlier this year, and now the branding has been set to rights.\n\"Many names were recommended to us by customers and citizens here in Detroit,\" said Tim Spence, chairman, CEO, and president of Fifth Third, and all of them were presumably ignored in favor of Fifth Third Park.",
+          "link": "https://defector.com/fifth-third-park-is-a-terrible-stadium-name",
+          "publishedOn": "2026-09-22T13:38:14.000Z",
+          "wordCount": 5085,
+          "title": "Fifth Third Park Is A Terrible Stadium Name",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2233115810.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=235805",
+          "author": "Josh Levin",
+          "description": "When I called up my grandfather Irwin Miller last fall, I asked him if he felt his age. “Uh, no, probably 94,” he said, laughing as he shaved off three years. “The body feels 97, the head doesn’t, thank goodness—I think my memory’s pretty good.”\nI call my grandfather Papa, and his memory was more than pretty good considering he was born before the Great Depression. Last November, I wanted to ask him about a big moment in his life: the year he graduated from his New Orleans high school and set out on his own.\n“Growing up in Louisiana, LSU was the only college I thought about,” he told me. His first day was unceremonious: “My folks drove me to Baton Rouge, they dropped me off and said, ‘Good luck and goodbye.’ That was the way things were in those days.”",
+          "link": "https://defector.com/how-one-trick-play-tells-the-history-of-football",
+          "publishedOn": "2026-09-22T13:00:06.000Z",
+          "wordCount": 14572,
+          "title": "How One Trick Play Tells The History Of Football",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/Sleepersmall.jpg"
+        },
         {
           "id": "https://defector.com/?p=236001",
           "author": "Samer Kalaf",
@@ -1745,6 +1805,16 @@
       "siteUrl": "https://www.sfgate.com/author/drew-magary/",
       "articles": [
         {
+          "id": "https://www.sfgate.com/food/article/butter-crumble-best-croissants-sf-22438825.php",
+          "author": null,
+          "description": "error fetching full text: Reqwest client error: error decoding response body",
+          "link": "https://www.sfgate.com/food/article/butter-crumble-best-croissants-sf-22438825.php",
+          "publishedOn": "2026-09-22T17:57:04.419Z",
+          "wordCount": 177,
+          "title": "I found one of America's best croissants in San Francisco",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.sfgate.com/food/article/butter-crumble-sf-22438825.php-full",
           "author": null,
           "description": "Quick: name the best croissant filling. If you’re a basic American like me, you only encounter basic croissant flavors: chocolate, almond, and ham and cheese. These are the norm, and they do the job well if you’re hungry and want to feel 10% more French. But surely, you’ve thought, there must be room for more fillings than that in the American croissant repertoire. Surely there must be a, like, fourth thing we can put into one. \n\nReader, I’m pleased to report that I have found one such worthy croissant filling, and it’s nothing you’d guess off the top of your head. But take one bite of it, and you’ll know I’m right. \n\nThe croissant in question is dubbed “brown butter cornmeal twice-baked,” and the bakery that sells it is San Francisco’s Butter & Crumble, owned by chef and self-dubbed “girl…",
@@ -1911,6 +1981,16 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73837903/trump-belarus-canada-fertilizer-potash/",
+          "author": null,
+          "description": "And it’s not because the product in question is fertilizer.",
+          "link": "https://www.esquire.com/news-politics/politics/a73837903/trump-belarus-canada-fertilizer-potash/",
+          "publishedOn": "2026-09-22T17:31:42.000Z",
+          "wordCount": 17156,
+          "title": "Trump’s Latest Deal with Belarus Sure Smells Like Sh*t",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/5a9c3b7b-9a15-4061-b86f-2626f3dcc06e.jpeg?crop=1xw:0.750853242321xh;center,top&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a73826800/crypto-midterms-money-election-spending/",
           "author": null,
@@ -2092,46 +2172,6 @@
           "publishedOn": "2026-09-15T00:52:28.000Z",
           "wordCount": 9247,
           "title": "Frank Zappa: The Life, Music and Influence of a Musical Original",
-          "imageUrl": null
-        },
-        {
-          "id": "https://historyofmusic.net/?p=5870",
-          "author": "schill",
-          "description": "When Guns N’ Roses released Appetite for Destruction in 1987, there was little reason to believe it would become",
-          "link": "https://historyofmusic.net/1980s/guns-n-roses-appetite-for-destruction-the-album-that-changed-hard-rock/",
-          "publishedOn": "2026-09-13T03:24:41.000Z",
-          "wordCount": 6518,
-          "title": "Guns N’ Roses – Appetite for Destruction: The Album That Changed Hard Rock",
-          "imageUrl": null
-        },
-        {
-          "id": "https://historyofmusic.net/?p=5867",
-          "author": "schill",
-          "description": "Disco had one of the most dramatic rises and falls in popular music history. For a genre whose period",
-          "link": "https://historyofmusic.net/1970s/the-brief-but-important-history-of-disco/",
-          "publishedOn": "2026-09-13T03:01:13.000Z",
-          "wordCount": 9155,
-          "title": "The Brief but Important History of Disco",
-          "imageUrl": null
-        },
-        {
-          "id": "https://historyofmusic.net/?p=5864",
-          "author": "schill",
-          "description": "There are bad albums, and then there is Metal Machine Music. Bad albums usually fail in recognizable ways. The",
-          "link": "https://historyofmusic.net/1970s/the-history-of-lou-reeds-metal-machine-music-perhaps-the-worst-album-ever-made/",
-          "publishedOn": "2026-09-13T02:19:13.000Z",
-          "wordCount": 8882,
-          "title": "The History of Lou Reed’s Metal Machine Music: Perhaps the Worst Album Ever Made",
-          "imageUrl": null
-        },
-        {
-          "id": "https://historyofmusic.net/?p=5861",
-          "author": "schill",
-          "description": "It is difficult to think of another band that changed the sound of modern music as profoundly as Kraftwerk.",
-          "link": "https://historyofmusic.net/1970s/how-kraftwerk-changed-music-forever/",
-          "publishedOn": "2026-09-13T01:30:45.000Z",
-          "wordCount": 8174,
-          "title": "How Kraftwerk Changed Music Forever",
           "imageUrl": null
         }
       ]
@@ -2352,16 +2392,6 @@
           "wordCount": 2746,
           "title": "Anti-Smart Glasses",
           "imageUrl": "https://foxtrot.com/wp-content/uploads/2026/09/ft260920-foxtrot-comics-bill-amend-anti-smart-glasses-meta-glasses-jason-fox-sunday-comic-strip.png"
-        },
-        {
-          "id": "https://foxtrot.com/?p=6248",
-          "author": "Bill Amend",
-          "description": "FoxTrot by Bill Amend | September 13, 2026",
-          "link": "https://foxtrot.com/2026/09/13/jego/?utm_source=rss&utm_medium=rss&utm_campaign=jego",
-          "publishedOn": "2026-09-13T05:01:00.000Z",
-          "wordCount": 2753,
-          "title": "JEGO®",
-          "imageUrl": "https://foxtrot.com/wp-content/uploads/2026/08/ft260913-foxtrot-comics-bill-amend-jego-lego-sets-star-wars-lord-of-the-rings-harry-potter-jason-fox-sunday-comic-strip.png"
         }
       ]
     },
@@ -2568,6 +2598,22 @@
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/lol-bill-pulte-examined-todd-blanches",
+          "author": "David Kurtz",
+          "description": "INSIDE: Susan Collins ... Don Jr. ... Natalie Harp",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/lol-bill-pulte-examined-todd-blanches",
+          "publishedOn": "2026-09-22T15:35:23.000Z",
+          "wordCount": null,
+          "title": "LOL: Bill Pulte ‘Examined’ Todd Blanche’s Mortgages",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!vbLs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ff05e39-78f3-4087-91ff-1f155b203843_400x600.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!vbLs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ff05e39-78f3-4087-91ff-1f155b203843_400x600.jpeg"
+        },
+        {
           "id": "https://morningmemo.talkingpointsmemo.com/p/ice-involved-in-two-violent-incidents",
           "author": "David Kurtz",
           "description": "INSIDE: Donald Trump ... Don Jr. ... Umar Kremlev",
@@ -2676,6 +2722,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/white-house-press-corps-fuck-yeah",
+          "author": "Jeff Tiedrich",
+          "description": "who knew that doing the right thing could feel so good?",
+          "link": "https://www.jefftiedrich.com/p/white-house-press-corps-fuck-yeah",
+          "publishedOn": "2026-09-22T14:29:14.000Z",
+          "wordCount": null,
+          "title": "White House press corps, fuck yeah!",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!ywxu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9316b926-05b0-47f4-8046-489d0f25b176_2630x1492.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!ywxu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9316b926-05b0-47f4-8046-489d0f25b176_2630x1492.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/some-fucked-up-militarized-sniper",
           "author": "Jeff Tiedrich",
