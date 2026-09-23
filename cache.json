@@ -133,6 +133,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://olddeuteronomy.github.io/post/running-emacs-in-microvm/",
+          "author": null,
+          "description": "Recently, I needed to test a full build of my C networking library\ntogether with the C build toolchain under NetBSD. Everything is fine\non GNU/Linux (Ubuntu) and macOS—I just want to confirm it works on\nNetBSD as well.\nWhy NetBSD? NetBSD is an open-source Unix-like operating system famous for\nits outstanding portability. It runs on an exceptionally wide range of\nhardware—from modern x86-64/aarch64 servers and desktops to embedded systems,\nhandheld devices, vintage machines (such as VAX and m68k), and even\nsome game consoles (see Platforms supported by NetBSD).\nIts long-standing motto is “Of course it runs NetBSD”.\nThis makes sense if you want maximum portability.\nAfter all, it’s essentially good old 4.3BSD, which adds a nice touch of nostalgia.\nMy home data center, as I call it, does not h…",
+          "link": "https://olddeuteronomy.github.io/post/running-emacs-in-microvm/",
+          "publishedOn": "2026-09-23T08:55:56.000Z",
+          "wordCount": 1473,
+          "title": "The Emacs Cat: Running Emacs in microVM",
+          "imageUrl": null
+        },
+        {
           "id": "https://protesilaos.com/codelog/2026-09-23-emacs-sxhkdrc-mode-1-3-0/",
           "author": null,
           "description": "This is a major mode for editing sxhkdrc files. SXHKD is the Simple\nX Hot Key Daemon which is commonly used in minimalist desktop sessions\non Xorg (I use it with bspwm, herbstluftwm, and i3wm). The sxhkdrc\nfile configures key chords, binding them to commands. For the\ntechnicalities, read the man page sxhkd(1).\nPackage name (GNU ELPA): sxhkdrc-mode\nGit repositories:\n    \nGitHub: https://github.com/protesilaos/sxhkdrc-mode\nGitLab: https://gitlab.com/protesilaos/sxhkdrc-mode\nBackronym: Such Xenotropic Hot Keys Demonstrate Robustness and\nConfigurability … mode.\n1.3.0 on 2026-09-23\nThis version makes quality-of-life refinements to an already stable package.\nFontification of key chord chains\nKey chord chains are written with the semicolon (;) or colon (:)\ncharacters. The former refers to one-shot operations while the latter\nis for continuous ones that exit only with Escape.\nThe corresponding faces are sxhkdrc-mode-chain-one-off-separator and\nsxhkdrc-mode-chain-continuous-separator.\nSupport for all command prefixes\nThe previous version only covered the ; in front of a command. The\nprefixes @ and ~ are now covered as well. They are all using teh\nface sxhkdrc-mode-command-prefix, which supersedes the deprecated\nsxhkdrc-mode-command-async.\nContinuation lines in commands are highlighted as well\nThis concerns the backslash character (\\) at the end of a line. The\napplicable face is sxhkdrc-mode-continuation-line.\nAll modifiers are covered\nThe updated manpage of SXHKD, sxhkd(1), mentions all the modifiers\nthat it supports. I have extended support for all of them in the order\nthey appear in the manual.",
@@ -399,6 +409,56 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=236200",
+          "author": "Giri Nathan",
+          "description": "Welcome back to Minor Dilemmas, where a member of Defector's Parents Council will answer your questions on surviving family life. Have a question? Email us at minordilemmas@defector.com.\nThis week, Giri answers a question about how to encourage your child to love your favorite sport.",
+          "link": "https://defector.com/how-do-i-get-my-kid-to-be-a-sports-sicko-without-turning-myself-into-a-vile-sports-parent",
+          "publishedOn": "2026-09-23T16:00:25.000Z",
+          "wordCount": 6404,
+          "title": "How Do I Get My Kid To Be A Sports Sicko Without Turning Myself Into A Vile Sports Parent?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-shelton-MD.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236231",
+          "author": "Drew Magary",
+          "description": "In the grand scheme of things, Week 1 of the NFL season means nothing. There are still 16 games to go afterward, and a lot of teams use that first game as a kind of unofficial preseason game to iron out all of the kinks. After just one week, it wouldn’t be fair to make such grand pronouncements as, “The Falcons may never win another game,” or “Boy, the Lions are kinda fucked,” or “Justin Herbert has gone from overrated to just plain sucking ass.”\nBut after two games? Well now, I think that’s a large enough sample size to make the kind of sweeping generalizations that make for good football radio. So that’s exactly what Arif Hasan and I do this week on All Ball.\n\nhttps://art19.com/shows/the-distraction/episodes/de74fc48-90f0-4703-b864-1530be9ac8bb",
+          "link": "https://defector.com/one-game-is-not-enough-to-deem-anyone-a-fraud-but-two-games-is",
+          "publishedOn": "2026-09-23T15:40:51.000Z",
+          "wordCount": 5060,
+          "title": "One Game Is Not Enough To Deem Anyone A Fraud … But Two Games Is",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2295806903_505151.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236230",
+          "author": "Tom Ley",
+          "description": "The Protect College Sports Act passed another procedural vote in the Senate yesterday, by a 70-21 margin. It will clear a few more procedural steps this week before going up for a final vote, at which point it is expected to pass and be sent to the House. In the meantime, it continues to mutate into a worse and more exploitative version of itself.\nMore than 35 amendments were added to the PCSA yesterday, and one in particular stands out. Republican senators Katie Britt and Tommy Tuberville amended the bill to sharpen its language on how NIL spending would interact with the proposed salary cap for players. The bill now explicitly states that vaguely defined NIL money earned by players would count against a given program's spending cap on players, which would be set at $48.8 million.\n\nhttps://twitter.com/RossDellenger/status/2102533363277910208",
+          "link": "https://defector.com/the-protect-college-sports-act-reveals-the-dark-heart-of-management",
+          "publishedOn": "2026-09-23T14:16:07.000Z",
+          "wordCount": 5808,
+          "title": "The Protect College Sports Act Reveals The Dark Heart Of Management",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2293023952.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236209",
+          "author": "Dave McKenna",
+          "description": "Ireland and Israel are, at least for now, set for some really weird soccer matches. Unfriendlies, you might say. Their national men’s teams have a home-and-home series scheduled to open this weekend, only there are no home games for either side. Both matches will be played in Central Europe: one in an empty stadium, the other with only Israeli fans. The top story in Ireland these days, sports or otherwise, is that the games will be played at all.  \n“I think we all agree we shouldn’t be in the position where we have to play the game,” John Martin, head of the Football Association of Ireland (FAI), said last week. \nAnd Ireland manager Heimir Hallgrimsson said he’d personally polled all his players, and \"none of us feel comfortable playing in these games.\"",
+          "link": "https://defector.com/ireland-going-ahead-with-israel-matches-against-everybodys-wishes",
+          "publishedOn": "2026-09-23T13:38:17.000Z",
+          "wordCount": 5972,
+          "title": "Ireland Going Ahead With Israel Matches Against Everybody’s Wishes",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2295317370.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=233648",
+          "author": "Chris Thompson",
+          "description": "Sisi is a Volvo Ocean 65 racing sailboat. She is fast as hell and built for sickos. She is not a comfortable luxury yacht, I assure you. Sisi is a frightening, angry, 72-foot, 12-ton sea monster. \nSisi, owned and operated by an Austrian company called Kora Yachts, is used for racing, her calendar divided between summers in the Mediterranean and winters in the Caribbean, or what the rest of us know as \"the life.\" In between all the racing, Sisi has to be delivered from port to port. To get to the starting mark of the Palermo–Montecarlo Regatta, she had to be sailed from the finishing mark of the Aegean600, in Sounion, Greece, to the port of Palermo. With roughly a month between the two races, Sisi's crew first delivered her to the top-of-the-line facilities at Marina Genova, adjacent to the…",
+          "link": "https://defector.com/i-spent-three-sweltering-days-shredding-the-high-seas-at-jogging-pace-and-it-ruled",
+          "publishedOn": "2026-09-23T12:59:20.000Z",
+          "wordCount": 16430,
+          "title": "I Spent Three Sweltering Days Shredding The High Seas At Jogging Pace, And It Ruled",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/IMG_1418.jpg"
+        },
         {
           "id": "https://defector.com/?p=236158",
           "author": "David Roth",
@@ -1149,16 +1209,6 @@
           "wordCount": 2748,
           "title": "Troma Tuesday: Rabid Grannies",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3756",
-          "author": "Schill",
-          "description": "Two songs. Two bands. Two completely different ideas of what punk rock could be. The Ramones’ “Blitzkrieg Bop” and",
-          "link": "https://stuffthatinterestsme.net/song-battle-ramones-blitzkrieg-bop-vs-sex-pistols-anarchy-in-the-u-k/",
-          "publishedOn": "2026-09-14T00:48:20.000Z",
-          "wordCount": 2448,
-          "title": "Song Battle: Ramones “Blitzkrieg Bop” vs. Sex Pistols “Anarchy in the U.K.”",
-          "imageUrl": null
         }
       ]
     },
@@ -1865,6 +1915,16 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73850377/trump-united-nations-speech-september-2026/",
+          "author": null,
+          "description": "The president said he’s leading the world into a future of “super intelligence,” but it sure sounded like the opposite.",
+          "link": "https://www.esquire.com/news-politics/politics/a73850377/trump-united-nations-speech-september-2026/",
+          "publishedOn": "2026-09-23T14:05:59.000Z",
+          "wordCount": 18590,
+          "title": "We’ll Be Lucky to Have Any Allies Left After Trump’s Idiotic and Insulting UN Speech",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/518c372a-8239-47af-9a3f-9fda83bf56a7.jpeg?crop=1xw:0.750250752257xh;center,top&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73841600/trump-department-of-justice-public-corruption-federal-bureau-of-investigation-cases/",
           "author": null,
           "description": "An investigation uncovered that Maine senator Susan Collins, among other politicians, have benefited from such lax enforcement.",
@@ -2239,6 +2299,16 @@
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://talkingpointsmemo.com/?p=1558446",
+          "author": "Josh Marshall",
+          "description": "This is the weekly, free edition of The Backchannel. If you’d like to receive the free edition of The Backchannel...",
+          "link": "https://talkingpointsmemo.com/edblog/are-the-polls-accurate-are-we-doing-this-again",
+          "publishedOn": "2026-09-23T14:07:34.000Z",
+          "wordCount": 3241,
+          "title": "Are the Polls Accurate? (Are We Doing This Again?)",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2024/12/GettyImages-2182438565.jpg?w=1200"
+        },
+        {
           "id": "https://talkingpointsmemo.com/?p=1558364",
           "author": "Josh Marshall",
           "description": "Daniel Drezner says we are now in the Wile E. Coyote phase of the 2026 midterm, the phase of six...",
@@ -2345,6 +2415,22 @@
       "feedUrl": "https://morningmemo.talkingpointsmemo.com/feed",
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/will-fords-theatre-of-all-places",
+          "author": "David Kurtz",
+          "description": "INSIDE: Rand Paul ... RFK Jr. ... Trent McCotter",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/will-fords-theatre-of-all-places",
+          "publishedOn": "2026-09-23T15:27:16.000Z",
+          "wordCount": null,
+          "title": "Will Ford’s Theatre of All Places Really Be Trump’s Next Renaming Project?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!q-5F!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F93b80a64-9708-4736-a22d-9df943776d57_400x600.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!q-5F!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F93b80a64-9708-4736-a22d-9df943776d57_400x600.jpeg"
+        },
         {
           "id": "https://morningmemo.talkingpointsmemo.com/p/lol-bill-pulte-examined-todd-blanches",
           "author": "David Kurtz",
@@ -2470,6 +2556,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/dear-leader-craps-the-bed-and-then",
+          "author": "Jeff Tiedrich",
+          "description": "he’s such a fucking embarrassment",
+          "link": "https://www.jefftiedrich.com/p/dear-leader-craps-the-bed-and-then",
+          "publishedOn": "2026-09-23T14:33:36.000Z",
+          "wordCount": null,
+          "title": "Dear Leader craps the bed — and then himself — at the UN",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!YasQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbd7bef1-2946-4514-9378-f1cf63f6b000_1280x720.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!YasQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbd7bef1-2946-4514-9378-f1cf63f6b000_1280x720.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/white-house-press-corps-fuck-yeah",
           "author": "Jeff Tiedrich",
