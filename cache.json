@@ -124,16 +124,6 @@
           "wordCount": 87,
           "title": "Gail Daughtry and the Celebrity Sex Pass (2026) ★★★★",
           "imageUrl": "https://baty.net/img/2026/gail-daughtry-and-the-celebrity-sex-pass-card.jpg"
-        },
-        {
-          "id": "https://baty.net/posts/2026/09/my-own-little-metadata-app/",
-          "author": null,
-          "description": "My Exif Manager app (Linux)\nAfter scanning a roll of film, I like to add camera make/model/lens exif data to the files. For years, I've done this via exiftool using the command line. It's not hard, but I thought I'd see if Claude Code could whip up something a little nicer to use. Turns out it could.\nLaunch the app, open a folder, choose from a pre-defined list of my cameras and lenses, and write the exif info to the files. It took Claude maybe 30 minutes from my prompt to a working app.\nThat's all I needed it to do, but I got a little fancy and added captioning, which many photo apps make more difficult than it should be.\nSpeaking of making things difficult, some apps (::cough Darktable::) don't deal well with metadata during export, so I have my app allow me to write the information to already-exported files based on file name. Let's say I have Darktable export a bunch of images to ~/Pictures/Export but those images lose their captions (it happens!). I tell my app where the exported files are and it matches file names and writes the metadata to those files.\nThe trouble with having an LLM at hand all the time is that now I want to work with it to build or extend little apps for everything. It's too easy, helpful, and fun to ignore.\n✍️ Reply by email",
-          "link": "https://baty.net/posts/2026/09/my-own-little-metadata-app/",
-          "publishedOn": "2026-09-13T18:51:35.000Z",
-          "wordCount": 311,
-          "title": "My own little photo metadata management app",
-          "imageUrl": "https://baty.net/img/2026/20260913T084350--exif-manager-app.jpg"
         }
       ]
     },
@@ -142,6 +132,16 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://protesilaos.com/codelog/2026-09-23-emacs-sxhkdrc-mode-1-3-0/",
+          "author": null,
+          "description": "This is a major mode for editing sxhkdrc files. SXHKD is the Simple\nX Hot Key Daemon which is commonly used in minimalist desktop sessions\non Xorg (I use it with bspwm, herbstluftwm, and i3wm). The sxhkdrc\nfile configures key chords, binding them to commands. For the\ntechnicalities, read the man page sxhkd(1).\nPackage name (GNU ELPA): sxhkdrc-mode\nGit repositories:\n    \nGitHub: https://github.com/protesilaos/sxhkdrc-mode\nGitLab: https://gitlab.com/protesilaos/sxhkdrc-mode\nBackronym: Such Xenotropic Hot Keys Demonstrate Robustness and\nConfigurability … mode.\n1.3.0 on 2026-09-23\nThis version makes quality-of-life refinements to an already stable package.\nFontification of key chord chains\nKey chord chains are written with the semicolon (;) or colon (:)\ncharacters. The former refers to one-shot operations while the latter\nis for continuous ones that exit only with Escape.\nThe corresponding faces are sxhkdrc-mode-chain-one-off-separator and\nsxhkdrc-mode-chain-continuous-separator.\nSupport for all command prefixes\nThe previous version only covered the ; in front of a command. The\nprefixes @ and ~ are now covered as well. They are all using teh\nface sxhkdrc-mode-command-prefix, which supersedes the deprecated\nsxhkdrc-mode-command-async.\nContinuation lines in commands are highlighted as well\nThis concerns the backslash character (\\) at the end of a line. The\napplicable face is sxhkdrc-mode-continuation-line.\nAll modifiers are covered\nThe updated manpage of SXHKD, sxhkd(1), mentions all the modifiers\nthat it supports. I have extended support for all of them in the order\nthey appear in the manual.",
+          "link": "https://protesilaos.com/codelog/2026-09-23-emacs-sxhkdrc-mode-1-3-0/",
+          "publishedOn": "2026-09-23T00:00:00.000Z",
+          "wordCount": 331,
+          "title": "Protesilaos: Emacs: sxhkdrc-mode version 1.3.0",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
         {
           "id": "https://xenodium.com/agent-shell-0-78-updates",
           "author": null,
@@ -1018,16 +1018,6 @@
           "wordCount": 7567,
           "title": "The Protect College Sports Act Finally Has Its Suitably Off-Putting Mascot",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2294050168.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=235410",
-          "author": "Ray Ratto",
-          "description": "How best to react to the latest news on the Los Angeles Rams? Easy. With complete abandon and logical recklessness. That's how the veterans do it.\nSaid latest news, that massive offseason signing Myles Garrett has fouled his knee, failed to will it healthy again, and now will have surgery that will take out all of September and a chunk of October as well. Garrett was the big swing of the summer, but the fact that it was the Rams that took it is no surprise. General manager Les Snead and head coach Sean McVay love acquisitional bat speed more than nearly any team not named Real Madrid or Barcelona, and between Garrett and veteran ace in the hole Aaron Donald, they surely constructed the most unsettling defensive front since their own Fearsome Foursome six decades ago.\nIn fact, they also apparently took another shot at cornering the pass-rush market by making a strenuous run at Las Vegas Raiders designated menace Maxx Crosby, one which failed in significant part because Crosby decided in the wake of his abortive trade to Baltimore that he wanted against all odds to remain a Raider, a choice we presume he will rue for the next six decades or so.",
-          "link": "https://defector.com/a-whole-lot-changed-in-one-week-for-the-rams",
-          "publishedOn": "2026-09-13T17:41:26.000Z",
-          "wordCount": 5898,
-          "title": "A Whole Lot Changed In One Week For The Rams",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2294592418.jpg"
         }
       ]
     },
@@ -1184,6 +1174,16 @@
       "siteUrl": "https://www.salon.com/writer/amanda_marcotte",
       "articles": [
         {
+          "id": "https://www.salon.com/2026/09/23/natalie-harp-isnt-a-joke-she-is-trumps-dangerous-enabler/-full",
+          "author": null,
+          "description": "Blame Natalie Harp. On Friday, seemingly out of nowhere, Donald Trump banned CNN, POLITICO and MS NOW from the White House after whining for the umpteenth time about “Fake News,” his decade-long catchphrase to demonize accurate but unflattering press coverage. (It remains unclear if the president, whose paternal grandfather was from Germany, knows the term is an English translation of the infamous Nazi term “lügenpresse.”) Trump has been complaining about the media’s insufficient reverence for him throughout his entire political career, but there seems to be no precipitating cause for this particular tantrum. To the contrary, POLITICO reported that “senior staff were surprised by the directive, which happened while chief of staff Susie Wiles was out of town.”\n“You get sick of it,” was all …",
+          "link": "https://www.salon.com/2026/09/23/natalie-harp-isnt-a-joke-she-is-trumps-dangerous-enabler/",
+          "publishedOn": "2026-09-23T10:45:10.000Z",
+          "wordCount": 2057,
+          "title": "Natalie Harp isn’t a joke — she is Trump’s dangerous enabler",
+          "imageUrl": "https://www.salon.com/app/uploads/2026/09/Natalie-Harp-2294908271.jpg"
+        },
+        {
           "id": "https://www.salon.com/2026/09/21/james-talaricos-campaign-could-do-lasting-damage-to-the-gop/-full",
           "author": null,
           "description": "All politics are identity politics. Republicans have long mocked this notion, treating the very concept of “identity politics” as a left-wing fixation. In reality, the GOP’s success is entirely due to the cheapest form of identity politics: For decades, but especially now, they have worked to distract voters from the party’s ruinous policies with appeals to their identity as white, provincial and, most importantly, Christian. This campaign has been enormously successful. White evangelicals have been the backbone of the GOP for decades not because they love tax cuts for the rich and environmental degradation, but because they have been told, repeatedly, that Democrats are demonic and there is no such thing as a liberal Christian. \nThis is why there’s a growing panic in the Republican ranks …",
@@ -1220,6 +1220,156 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/14/ufc-white-house-trump-birthday/90524389007/-full",
+          "author": "Rex Huppke",
+          "description": "A more proper title for the heavily sponsored UFC Freedom 250 fight desecrating the White House lawn on June 14 would be: \"Donald Trump’s Sad Little Mandatory Birthday Party.\"\nAfter all, while the event is cloaked in America’s 250th anniversary iconography, it’s happening on the president’s 80th birthday, it’s a mixed-martial-arts company run by one of his friends, and Trump is the one who foisted the garish event nobody asked for on the American people. \nNow we have a 92-foot-tall “claw” structure in front of the People’s House, covered in corporate logos ranging from Bud Light to Polymarket and promoting everything from nicotine pouches to crypto.\nTo be clear, I have no problem with the UFC. I’m always happy to watch sweaty people kick and punch the tuna salad out of each other for my en…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/14/ufc-white-house-trump-birthday/90524389007/",
+          "publishedOn": "2026-09-23T10:48:16.297Z",
+          "wordCount": 4155,
+          "title": "Trump’s White House UFC fight highlights a selfish, failing presidencyRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/12/USAT/90522314007-usatsi-29180456.jpg?crop=8248,4640,x0,y427&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/23/reflecting-pool-algae-trump-arrests/90598460007/-full",
+          "author": "Rex Huppke",
+          "description": "Hello America-loving tourist, and welcome to the beautiful, algae-free Lincoln Memorial Reflecting Pool, brought to you by President Donald J. Trump, the only man powerful enough to make the Reflecting Pool Great Again.\nYou’ll notice the pool is surrounded by armed soldiers hoping you don't look at the water. That is for your safety and the safety of the newly refurbished Reflecting Pool, which is glistening and perfect and not at all covered with a thick layer of algae and stray chunks of American-flag-blue paint the media would have you believe exists.\nBefore we begin our tour of this remarkable national landmark, I’ll remind everyone that there is no looking at the remarkable national landmark.\nIf you didn’t receive blackout goggles when you bought your ticket for the tour, please keep …",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/23/reflecting-pool-algae-trump-arrests/90598460007/",
+          "publishedOn": "2026-09-23T10:48:16.279Z",
+          "wordCount": 4219,
+          "title": "Rules for the algae-covered Reflecting Pool: No touching, no lookingRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90653162007-20260621-t-185812-z-1716186844-rc-2-fyla-6-yu-5-g-rtrmadp-3-usa-250-reflectingpool.JPG?crop=3427,1928,x0,y178&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columns/2026/06/14/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90506066007/-full",
+          "author": "Rex Huppke",
+          "description": "Former reality TV star Spencer Pratt is out of the Los Angeles mayoral race for two reasons.\nFirst, and most important, he got fewer votes than two other candidates, incumbent Los Angeles Mayor Karen Bass and LA City Councilwoman Nithya Raman, who will now face off against each other. Second, he’s an unqualified dipstick whom a majority of Los Angelenos understood wasn’t qualified for the job.\nPratt was endorsed by President Donald Trump and hailed by some MAGA Republicans as a rising star, a political outsider with a winning populist message.\nThat was, in a word, wrong.\n\nThe Free Press, the conservative publication founded by Bari Weiss, who is presently busy ruining CBS News, ran a piece in May that posed the question: “How did Spencer Pratt, reality TV star and ‘healing’ crystal salesma…",
+          "link": "https://www.usatoday.com/story/opinion/columns/2026/06/14/spencer-pratt-election-results-la-mayor-loss-conspiracy-theory/90506066007/",
+          "publishedOn": "2026-09-23T10:48:16.260Z",
+          "wordCount": 3662,
+          "title": "Pratt seemed like rising GOP star before he lost | OpinionRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/08/USAT/90456119007-20260531-t-212845-z-2098431618-rc-2-hklaldt-0-w-rtrmadp-3-usaelectioncaliforniapratt.JPG?crop=6493,3653,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columns/2026/08/02/the-odyssey-movie-box-office-accuracy/91094074007/-full",
+          "author": "Rex Huppke",
+          "description": "Like most normal, well-adjusted men, I have spent every waking moment since Christopher Nolan’s “The Odyssey” opened in theaters feeling apoplectically angry about Christopher Nolan’s “The Odyssey.”\nI have rage-posted online, noting that by casting people who are different than me, the director ruined a beloved epic poem I never actually read. I have blamed wokeness for creating a world in which an ancient work of absolute fiction can be sullied by what I, making perfect sense, angrily claim to be historical inaccuracies. \nYet despite all my productive and intellectual online shouting, the movie has made $652 million worldwide since its July 17 release. And even more frustratingly, I’m still single.\nI'm mad that a fictional movie is historically inaccurate\n\nI struggle to understand these d…",
+          "link": "https://www.usatoday.com/story/opinion/columns/2026/08/02/the-odyssey-movie-box-office-accuracy/91094074007/",
+          "publishedOn": "2026-09-23T10:48:16.237Z",
+          "wordCount": 3559,
+          "title": "A sarcastic look at the outrage over 'The Odyssey' | OpinionRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/08/USAT/90845791007-ct-03414.jpg?crop=2298,1293,x406,y280&width=2298&height=1293&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/25/roundup-scotus-monsanto-maha-trump/90697847007/-full",
+          "author": "Rex Huppke",
+          "description": "The easily influenced influencers in the Make America Healthy Again crowd are livid that the U.S. Supreme Court sided with the maker of Roundup weedkiller, rejecting a lawsuit that claimed the herbicide causes cancer.\nAnd they're feeling betrayed by the president they supported, Donald Trump, because he and his Department of Justice sided with Bayer, the company that bought out longtime Roundup-maker Monsanto.\nMAHA influencer Alex Clark decried the court’s June 25 decision on social media: “For an administration that promised to take on corporate capture and Make America Healthy Again, this is a STUNNING betrayal.”\nMAHA activist Alexandra Muñoz posted on Instagram: “The DOJ’s support of this case has betrayed the American people.” \nVani Hari, a MAHA mom who blogs as “The Food Babe,” poste…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/25/roundup-scotus-monsanto-maha-trump/90697847007/",
+          "publishedOn": "2026-09-23T10:48:16.224Z",
+          "wordCount": 4313,
+          "title": "SCOTUS Roundup ruling shows how badly MAHA moms got played by TrumpRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/04/27/USAT/89818957007-2273382213.jpg?crop=5994,3372,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/15/trump-iran-peace-deal-strait-hormuz/90560252007/-full",
+          "author": "Rex Huppke",
+          "description": "Way back on March 6, not long after President Donald Trump hurled America into the dumbest war imaginable, our Nobel-Peace-Prize-deficient leader declared on social media: “There will be no deal with Iran except UNCONDITIONAL SURRENDER!”\nThat was about the same time he said America’s “excursion” into Iran would take “four to five weeks” and “won’t be difficult.”\nMore than 14 weeks, thousands of lost lives and billions upon billions of U.S. taxpayer dollars later, it appears America is the one surrendering.\nTrump is promoting an Iran peace deal that isn't actually a deal\n\nThe Trump administration is, of course, spinning an “agreement” with Iran as a peace deal, something it clearly is not. At the moment, the language of the agreement ‒ slated to be officially signed later this week ‒ hasn’t…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/15/trump-iran-peace-deal-strait-hormuz/90560252007/",
+          "publishedOn": "2026-09-23T10:48:16.196Z",
+          "wordCount": 4175,
+          "title": "Trump wanted Iran's unconditional surrender. What he got is laughable.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/13/USAT/90540848007-20260609-t-051153-z-1934998091-rc-23-qlayeu-01-rtrmadp-3-irancrisishormuzusa.JPG?crop=4028,2267,x0,y205&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/24/tucker-carlson-gop-republican-party-trump/90662057007/-full",
+          "author": "Rex Huppke",
+          "description": "Oft-fired conservative commentator Tucker Carlson, less than two years removed from calling Donald Trump “a wonderful person,” has dropped a new grift, claiming on a recent podcast that he will no longer support the Republican Party.\nHe wasn’t gentle about his “I’m out” declaration.\n“I don’t share their values on any level,” Carlson said on the June 18 episode of the “Can’t Be Censored” podcast. “Their personal values, the way they live, greedy, bizarro sex lives, loyal to a foreign country above the United States, it’s like everything I dislike. Beginning with the speaker of the House, Speaker Mike Johnson, and extending to the president and the leaders in the Senate, I have nothing in common with these people at all. I do not share their values, I find their priorities appalling and so I…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/24/tucker-carlson-gop-republican-party-trump/90662057007/",
+          "publishedOn": "2026-09-23T10:48:16.183Z",
+          "wordCount": 4013,
+          "title": "Tucker Carlson slams Trump, GOP's 'bizarro sex lives.' What changed?Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/04/12/USAT/89581293007-2025-dec.jpg?crop=4920,2768,x0,y328&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/06/24/affordable-housing-bill-trump-save-act/90678062007/-full",
+          "author": "Rex Huppke",
+          "description": "President Donald Trump, in a tantrum that would make a 3-year-old blush, kneecapped his own party and canceled an affordable housing bill signing, saying it “pales in comparison” with an election bill. The one that would benefit one person: Donald Trump.\nThe June 24 mess was a perfect encapsulation of the president’s second term, a foolish act by a man focused only on celebrating or protecting himself.\nRepublicans had celebrated the bipartisan housing bill, which focuses on lowering housing costs at a time when the word “affordability” is at the top of voters’ minds. The signing would have been a key moment for GOP lawmakers to claim they care about affordability and show they can work with Democrats to get things done.\nBut no. Trump derailed the messaging with a social media post cancelin…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/06/24/affordable-housing-bill-trump-save-act/90678062007/",
+          "publishedOn": "2026-09-23T10:48:16.150Z",
+          "wordCount": 3975,
+          "title": "Trump spikes affordable housing bill signing, like a selfish babyRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/24/USAT/90680555007-20260624-t-173339-z-1392060828-rc-2-h-0-mar-5-of-9-rtrmadp-3-usatrump.JPG?crop=4702,2645,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/02/trump-iran-war-oil-company-profits/91113913007/-full",
+          "author": "Rex Huppke",
+          "description": "It seems all I hear these days are complaints about President Donald Trump’s war with Iran. As a humble oil executive, looking out on the Pacific Ocean from the wrap-around porch of my third mansion, I find these complaints deeply offensive.\nSure, the word “war” carries many negative connotations. But let’s look at the bottom line, which, in my case, is the oil industry’s bottom line. We’re doing great!\nJust look at this New York Times headline from July 31: “Iran War Drives Oil Profits to Highest Levels in Years.” Huzzah!\nExxonMobil, Chevron are cashing in on the Iran war\n\nIn its second-quarter earnings report released that same day, Chevron showed it made $12.1 billion between April and June, up from $2.5 billion over those same months last year.\nI asked the people who I pay to form a hu…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/02/trump-iran-war-oil-company-profits/91113913007/",
+          "publishedOn": "2026-09-23T10:48:16.112Z",
+          "wordCount": 4741,
+          "title": "All I hear is 'War is bad!' But Big Oil is making bank.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/30/NPRJ/91116197007-gas-pump-2.JPG?crop=4027,2267,x0,y148&width=3200&height=1802&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/12/wisconsin-primary-results-crowley-hong-socialism/91273784007/-full",
+          "author": "Rex Huppke",
+          "description": "I was told radical leftist socialism is on the march. I was told the Midwestern cheese empire of Wisconsin was going to fall into the hands of Marxist cheddar redistributors and that I should bury my 401(k) and my most precious belongings in the backyard.\nState lawmaker Francesca Hong, a democratic socialist, was sure to win the Wisconsin gubernatorial Democratic primary, showing the rest of America that liberals had all but fully slid into communism. This is what the loud voices on Fox News and on the internet told me.\nSo imagine my shock – not relief, really, because I enjoy being angry and afraid – when I learned Hong lost the primary to Milwaukee County Executive David Crowley, a candidate boosted by establishment Democrats. \nHong's defeat in the Wisconsin primary shakes up my fear of …",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/12/wisconsin-primary-results-crowley-hong-socialism/91273784007/",
+          "publishedOn": "2026-09-23T10:48:16.085Z",
+          "wordCount": 3928,
+          "title": "Hong's Wisconsin loss totally ruined my socialist narrativeRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/12/USAT/91275358007-gty-2290106770.jpg?crop=6554,3690,x0,y332&width=3200&height=1802&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/03/jeanine-pirro-reflecting-pool-trump/91145326007/-full",
+          "author": "Rex Huppke",
+          "description": "It takes a special kind of stupid to turn the rehabbing of a national monument like the Lincoln Memorial Reflecting Pool into a full-blown presidential scandal. But President Donald Trump found a way to pull it off, creating a wet, ogre-colored metaphor for his administration’s stumbling lack of focus, casual dishonesty and utter inability to govern.\nIn the most recent development, Trump’s Department of Justice on July 31 dropped ridiculous charges it had filed against former Olympian David Hearn, falsely claiming he had ripped up part of the pool’s new lining. You’ll recall the president was rushing to “fix” the Reflecting Pool prior to the July 4 celebration of America’s 250th anniversary. The work was clearly a bust from the start, as algae returned to the pool almost instantly and we a…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/03/jeanine-pirro-reflecting-pool-trump/91145326007/",
+          "publishedOn": "2026-09-23T10:48:16.057Z",
+          "wordCount": 4229,
+          "title": "Welcome to the Trump vs. Pirro vs. Burgum clown showRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/01/USAT/91134855007-20260702-t-192435-z-370476676-rc-2-v-5-maegqml-rtrmadp-3-usa-250-reflectingpool.JPG?crop=5493,3093,x0,y0&width=3200&height=1802&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/23/trump-ground-beef-tariff-waiver-cattle-ranchers/91386869007/-full",
+          "author": "Rex Huppke",
+          "description": "In the coming months, when you bite down on a government-subsidized burger made with meat of questionable origin, you’ll have Glorious Leader Donald J. Trump to thank.\nOn Aug. 21, the president who loves to call other people communists enraged American cattle ranchers by announcing plans to “allow up to 300,000 metric tons of product for ground beef to be imported with no out of quota tariff. We have a commitment that this beef will be sold at 25 percent below current market prices.”\nTrump posted news of the deal on social media, but of course gave no specific details about who the deal is with, where the meat is coming from or why he’s suddenly admitting that waiving tariffs will, in fact, lower prices for consumers.\nIt’s a turducken of hypocrisy.\nTrump importing beef won't help America's…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/23/trump-ground-beef-tariff-waiver-cattle-ranchers/91386869007/",
+          "publishedOn": "2026-09-23T10:48:16.035Z",
+          "wordCount": 4514,
+          "title": "Trump's desperate beef import plan proves his tariffs failedRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/21/PWIL/91406282007-dsc-5761.JPG?crop=5561,3131,x8,y582&width=3200&height=1802&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/09/02/iran-trump-strait-hormuz-us-deaths/91582244007/-full",
+          "author": "Rex Huppke",
+          "description": "As President Donald Trump’s folly of a war with Iran continues, it seems the whole thing has become a joke to him and his administration.\nOn Sept. 2, Trump posted this on his Truth Social account: “Now that we have it under U.S.A. control, should we change the name Hormuz Strait to TRUMP STRAIT??? Like America itself, it would be 'hotter' than ever before!”\nWhat the hell are you doing, man? This is a war, not the \"Washed-Up Reality Gameshow Star Comedy Hour.\" And maybe ask Americans struggling to afford gas and ground beef whether America is “hotter” than ever before. \nTrump and his White House act like the Iran war is funny\nThe official White House account on X quickly followed up, posting a fake map of the Middle East with the Strait of Hormuz labeled “Trump Strait,” which is a brain-mel…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/09/02/iran-trump-strait-hormuz-us-deaths/91582244007/",
+          "publishedOn": "2026-09-23T10:48:15.991Z",
+          "wordCount": 3925,
+          "title": "The Trump Strait? President laughs while sending soldiers to die.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/25/USAT/91045467007-20260310-t-035158-z-1780442678-rc-2-c-1-ka-00-dh-6-rtrmadp-3-irancrisistransferusa.JPG?crop=3178,1785,x0,y888&width=3178&height=1785&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/21/trump-natalie-harp-executive-assistant-close/91386769007/-full",
+          "author": "Rex Huppke",
+          "description": "By now you’ve likely heard of Natalie Harp, President Donald Trump’s executive assistant and personal ego-inflater, a 35-year-old loyalist who appears ever by the president’s side.\nShe went from background character in the Trump administration to a national focal point in a blink after Georgia Democratic Sen. Jon Ossoff spoke this line criticizing the president’s preoccupations and the luxury jet he was “gifted” by a foreign country: “He wants to build his ballroom and travel with Natalie on their apparently defenseless flying palace gifted by the emir of Qatar.”\nQuestions swirled, and suddenly, Harp was everywhere. America learned how she carries a portable printer so she can show the president printouts of people saying nice things about him. We heard about the time she rode in the trunk…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/21/trump-natalie-harp-executive-assistant-close/91386769007/",
+          "publishedOn": "2026-09-23T10:48:15.974Z",
+          "wordCount": 4078,
+          "title": "Ossoff stole the GOP's bit, and Republicans took the baitRex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/18/USAT/91353418007-natalie-harp.jpg?crop=1919,1079,x0,y0&width=1919&height=1079&format=pjpg&auto=webp"
+        },
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/09/13/trump-republican-convention-embarrassment-midterms/91695089007/-full",
+          "author": "Rex Huppke",
+          "description": "If you’re a sane Republican – and yes, I do believe such people exist – the past week had to be monumentally embarrassing.\nPresident Donald Trump, who’s terrible at pretending to be a conservative, tried to bribe U.S. voters by saying every adult would receive a $5,000 “Trump Dividend” if Republicans win the midterm elections. If it weren’t a complete con, that would cost about $1.3 trillion at a time when the national debt has surpassed $40 trillion.\nSo much for fiscal conservatism.\nA ludicrous and embarrassing GOP midterm convention\n\nThe president made the embarrassing kickback offer Sept. 9 during an equally embarrassing Republican midterm convention that centered around idolatry of Trump. At the event in Dallas, he implored GOP voters: “Pretend that I am on the ballot.” \nDoes that make…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/09/13/trump-republican-convention-embarrassment-midterms/91695089007/",
+          "publishedOn": "2026-09-23T10:48:15.939Z",
+          "wordCount": 4434,
+          "title": "Bribes for votes, a pledge to cheat? Trump's GOP hits new low.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/09/11/USAT/91702514007-20260911-t-033859-z-957102481-rc-2-rgnadrtzt-rtrmadp-3-usaelectionrepublicans.JPG?crop=3872,2179,x0,y201&width=3200&height=1801&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/09/22/fat-bear-week-beef-prices/91880162007/-full",
           "author": "Rex Huppke",
@@ -1569,36 +1719,6 @@
           "wordCount": 4145,
           "title": "Canada raises tariffs, Trump threatens a lake. Guess who's winning?Rex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/25/USAT/91458473007-20260825-t-142155-z-1781528239-rc-2-i-0-mayywva-rtrmadp-3-usatrumpcanadalake.JPG?crop=5499,3093,x0,y161&width=3200&height=1800&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/04/trump-approval-polls-lies-truth-social/91156618007/-full",
-          "author": "Rex Huppke",
-          "description": "Let’s take a moment to read some actual words posted on social media by the actual president of the United States of America.\nOn Aug. 3, Donald Trump wrote on Truth Social: “My REAL Polling Numbers, not those made up by the Fake News Media, are the best they have ever been.”\nIt’s an insult to fiction to call that fiction. I’m not sure what you call something more fabricated than fiction – maybe “ludicriction”? – but that’s what Trump’s words are.\nTrump has left reality behind and lives in a fantasy world of great polls\n\nAs The New York Times recently reported, “The latest surveys indicate that Mr. Trump is now all but the most unpopular second-term president at this stage of their tenure in the history of polling going back to the 1940s. The only exception is not one that would give Mr. Tr…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/04/trump-approval-polls-lies-truth-social/91156618007/",
-          "publishedOn": "2026-09-13T18:32:33.521Z",
-          "wordCount": 3962,
-          "title": "Trump's polls are amazing, and my abs have never looked better!Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/03/USAT/91155555007-20260803-vpc-trump-on-max-miller-thumb-getty-00-00-00-00-still-003.jpg?crop=1919,1079,x0,y0&width=1919&height=1079&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/14/karoline-leavitt-successor-trump-press-secretary/91298787007/-full",
-          "author": "Rex Huppke",
-          "description": "Now that White House Press Secretary Karoline Leavitt is stepping down to spend more time with her soulless penchant for dishonesty, President Donald Trump has an opportunity to save American taxpayers some money by not replacing her.\nAfter all, Trump promised to cut down on wasteful government spending, and I can’t imagine anything more wasteful than paying a press secretary to come out and lie on behalf of administration officials whose only skill is lying.\nDoes anyone truly think the president needs an employee to amplify his frequent fabrications? The man never shuts up when cameras are around, and he owns his own social media platform. If someone’s going to try to hoodwink me, I prefer they spout their untruths directly and not via some highly paid federal flunky with a smile and an i…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/14/karoline-leavitt-successor-trump-press-secretary/91298787007/",
-          "publishedOn": "2026-09-13T18:32:33.497Z",
-          "wordCount": 4196,
-          "title": "Leavitt's leaving. Save $200K and let Trump lie for himself.Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/13/USAT/91288453007-20250715-t-174348-z-2033419486-rc-25-nfaj-2-n-15-rtrmadp-3-usatrump-1.JPG?crop=4499,2531,x0,y150&width=3200&height=1801&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/24/us-canada-trade-dispute-tariffs-republicans-midterms/91442611007/-full",
-          "author": "Rex Huppke",
-          "description": "With the midterm elections looming and Americans plagued by the cost of virtually everything, President Donald Trump decided it’s a great time for a trade war with Canada.\nYou all know Canada, right? It’s the big place just north of us. Our close ally. The country known for being incredibly nice. That Canada.\nTrump slapped 50% U.S. tariffs on a number of Canadian goods after trade negotiations fell apart Aug. 22. Then, on Aug. 24, Trump posted additional threats on social media, saying he’ll double tariffs on imported vehicles and auto parts from Canada and adding: “WE DON’T NEED CANADA, THEY NEED US!”\nIf I didn’t know better, I’d say Trump is doing more than Democrats to guarantee a Republican electoral wipeout in the midterms.\nTrump's trade war with Canada will make the GOP's life more m…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/24/us-canada-trade-dispute-tariffs-republicans-midterms/91442611007/",
-          "publishedOn": "2026-09-13T18:32:33.470Z",
-          "wordCount": 4221,
-          "title": "Trump's irresponsible Canada trade war might seal GOP's fateRex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/24/USAT/91440293007-20260822-t-170244-z-675973054-rc-2-r-3-nalrp-00-rtrmadp-3-usatrumptariffscanada.JPG?crop=5499,3093,x0,y277&width=3200&height=1800&format=pjpg&auto=webp"
         }
       ]
     },
@@ -1913,6 +2033,22 @@
       "feedUrl": "https://www.flowstate.fm/feed",
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
+        {
+          "id": "https://www.flowstate.fm/p/corntuth-interview",
+          "author": "Flow State",
+          "description": "Today we’re listening to Corntuth, an American ambient musician based in Brooklyn.",
+          "link": "https://www.flowstate.fm/p/corntuth-interview",
+          "publishedOn": "2026-09-23T07:03:13.000Z",
+          "wordCount": null,
+          "title": "Corntuth (Interview)",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!KgzB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2799eee8-8687-40e7-97df-949cb7499552_1200x1200.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!KgzB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2799eee8-8687-40e7-97df-949cb7499552_1200x1200.jpeg"
+        },
         {
           "id": "https://www.flowstate.fm/p/flow-state-episode-344",
           "author": "Flow State",
