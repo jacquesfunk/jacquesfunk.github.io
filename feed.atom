@@ -2,10 +2,132 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-24T18:12:25.770Z</updated>
+    <updated>2026-09-24T23:00:50.550Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Voters care about gas prices. The GOP is focused on furries.Rex Huppke]]></title>
+        <id>https://www.usatoday.com/story/opinion/columnist/2026/09/24/trump-republicans-midterms-media-ban-gas-prices/91905826007/-full</id>
+        <link href="https://www.usatoday.com/story/opinion/columnist/2026/09/24/trump-republicans-midterms-media-ban-gas-prices/91905826007/"/>
+        <updated>2026-09-24T23:00:50.524Z</updated>
+        <summary type="html"><![CDATA[In America right now, the people are shouting, “Gas prices! Food prices! Health care costs!”
+And the Republican Party, six weeks out from the midterm elections, is responding: “What’s that? You want us to fight with the media? Or how about we get mad about this issue nobody has ever heard of because it’s something we made up?”
+It’s as if the words “read the room” never entered the GOP’s lexicon.
+This dynamic was writ large Sept. 23 when the face of the Republican Party, President Donald Trump, turned his attention and more of our taxpayer dollars to a U.S. District Court in Washington, DC. There, a judge heard arguments from CNN, MS NOW and Politico over Trump’s recent decision to ban the news organizations from the White House. 
+Trump, Republicans battle the media, but midterm voters don'…]]></summary>
+        <author>
+            <name>Rex Huppke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Racehorse Owner Told To Rename His Hitleresque Steed]]></title>
+        <id>https://defector.com/?p=236458</id>
+        <link href="https://defector.com/racehorse-owner-told-to-rename-his-hitleresque-steed"/>
+        <updated>2026-09-24T21:59:47.000Z</updated>
+        <summary type="html"><![CDATA[The Jockey Club, the leading sanctioning body in what’s left of the sport of horse racing in the U.S., sent out a clear message Wednesday to anybody thinking of naming their horse after Hitler: Don’t name your horse after Hitler. 
+The two-year-old colt Austrian Painter made his racing debut Monday with a win in the third race at Horseshoe Indianapolis Racecourse. Obligatory: He covered the 5 1/2 furlongs in 1:04.97, and paid $9.00. Afterward, the Jockey Club received objections about the victorious newcomer, but these weren't the standard post-race protests about a jockey’s obstructing or dangerous ride or a horse’s drug abuse. No, these complaints were about the horse’s name. Because, as reported by ESPN in its Austrian Painter story, “Hitler was born in Austria and was an artist.”
+He was indeed! Austrian Painter’s owner and breeder is Scott Herbertson, a 58-year-old California native now based in Texas. In 2014, he founded the Herbertson Racing Stable. I could find no Kentucky Derby horses or winners of any other graded stakes race in his barn. But while he’s not a major player in the sport and seems more likely to enter his animals at unglamorous tracks like Horseshoe Indianapolis than Saratoga, Herbertson has spent lots of time in winner's circles. In 2014, the Thoroughbred Owners of California named him to their Rookie of the Year roster. According to Herbertson's page in the racing database Equibase, his horses have finished in the money 351 times in 561 starts, with a very impressive 164 wins. Herbertson's total earnings are now just over $2.5 million. Alas, nothing his horses ever did on the track brought Herbertson anywhere near the attention that this has.]]></summary>
+        <author>
+            <name>Dave McKenna</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Charles Choi: Binding the SPC key in Dired and IBuffer]]></title>
+        <id>http://yummymelon.com/devnull/binding-the-spc-key-in-dired-and-ibuffer.html</id>
+        <link href="http://yummymelon.com/devnull/binding-the-spc-key-in-dired-and-ibuffer.html"/>
+        <updated>2026-09-24T21:05:00.000Z</updated>
+        <summary type="html"><![CDATA[A feature of macOS Finder that I enjoy using is Quick Look, where a preview of a selected file can be displayed by pressing the space bar. While “Quick Look” is not really a thing in Emacs (at least not out of the box), we can quasi-emulate this by taking advantage of commands that can open files in another Emacs window, all the while keeping the current Emacs window selected.
+In Dired, I’ve bound SPC to the command dired-display-file.
+
+
+1
+
+(keymap-set dired-mode-map "SPC" #'dired-display-file)
+
+
+
+
+
+A similar thing can be done for IBuffer:
+
+
+1
+
+(keymap-set ibuffer-mode-map "SPC" #'ibuffer-visit-buffer-other-window-noselect)
+
+
+
+
+
+This configuration is definitely a personal preference thing, so YMMV. That said, I’ve found these bindings to be quite useful, so perhaps you may as well.]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In a Supremely Righteous Decision, a Trump-Appointed Judge Smacked Down the President’s Ban on Media Outlets’ Access to the White House]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a73875379/media-white-house-access-decision-trump/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a73875379/media-white-house-access-decision-trump/"/>
+        <updated>2026-09-24T20:29:40.000Z</updated>
+        <summary type="html"><![CDATA[Needless to say, the administration had no case whatsoever.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Judge Declines To Seal Josh Jacobs Video,  But Cautions Against It Becoming Public]]></title>
+        <id>https://defector.com/?p=236423</id>
+        <link href="https://defector.com/judge-declines-to-seal-josh-jacobs-video-but-cautions-against-it-becoming-public"/>
+        <updated>2026-09-24T20:26:26.000Z</updated>
+        <summary type="html"><![CDATA[Brown County Circuit Judge Marc Hammer ended his temporary seal Thursday on records in Josh Jacobs's domestic-violence criminal case. But that doesn't mean the records, which includes video showing the Green Bay Packers running back throwing his ex-girlfriend to the ground, will immediately become public. Though Hammer unsealed the files, he also had strong words of caution for those who will decide what is released. 
+"Our [state] Constitution provides in part that crime victims are entitled to rights," Hammer said, "to be treated with dignity, respect, courtesy, sensitivity, and fairness." 
+Jacobs pleaded no contest earlier this month to one count of misdemeanor battery and one count of misdemeanor criminal damage to property. Police arrested him in May after they responded to a phone call reporting a disturbance between a man and a woman. When officers talked to the woman, she told them that she and Jacobs had been in a fight and, per police records, he "grabbed her and threw her to the ground and she struck her head, suffering an injury."]]></summary>
+        <author>
+            <name>Diana Moskovitz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How the Hell Did American Stealth-Fighter Parts “Inexplicably” Make Their Way to China?]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a73875058/f-35-stealth-fighter-parts-china/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a73875058/f-35-stealth-fighter-parts-china/"/>
+        <updated>2026-09-24T20:16:44.000Z</updated>
+        <summary type="html"><![CDATA[Pete Hegseth better make this explicable as quickly as possible, or we’re in for some serious trouble.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Citizens from Two Key States Are Trying to Change How Their Governments Work]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a73873992/montana-missouri-constitutional-amendments-popular-initiatives/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a73873992/montana-missouri-constitutional-amendments-popular-initiatives/"/>
+        <updated>2026-09-24T20:01:51.000Z</updated>
+        <summary type="html"><![CDATA[I respect it, but I’m not 100 percent sure it’ll work.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deep explanation of why humans have menstrual cycles, with some interesting side digressions]]></title>
+        <id>https://www.reddit.com/r/DepthHub/comments/1wpbzt4/deep_explanation_of_why_humans_have_menstrual/</id>
+        <link href="https://www.reddit.com/r/DepthHub/comments/1wpbzt4/deep_explanation_of_why_humans_have_menstrual/"/>
+        <updated>2026-09-24T20:01:21.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/LackingUtility  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>DepthHub: A jumping-off point for deeply-involved subreddits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Quick Poll Follow Up]]></title>
+        <id>https://talkingpointsmemo.com/?p=1558626</id>
+        <link href="https://talkingpointsmemo.com/edblog/a-quick-poll-follow-up"/>
+        <updated>2026-09-24T19:56:47.000Z</updated>
+        <summary type="html"><![CDATA[I promise not to be writing a post about every new theory or hot take about contemporary polling. And I’ll...]]></summary>
+        <author>
+            <name>Josh Marshall</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[It Sucks To Be Alex Bregman Right Now]]></title>
         <id>https://defector.com/?p=236418</id>
@@ -3148,28 +3270,6 @@ The elevator doors open and LeBron steps into chaos. It's a scene yoinked visual
         <summary type="html"><![CDATA[Inserting a chapter with artwork every few seconds turns an MP3 file into an approximation of a video file. I can listen to videos as audio-first, and glance at my lock screen if I need some visual context.]]></summary>
         <author>
             <name>alexwlchan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flow State Ep. 343: Corntuth Premiere]]></title>
-        <id>https://www.flowstate.fm/p/flow-state-ep-343-corntuth-premiere</id>
-        <link href="https://www.flowstate.fm/p/flow-state-ep-343-corntuth-premiere"/>
-        <updated>2026-09-15T07:02:48.000Z</updated>
-        <summary type="html"><![CDATA[Today’s mix premieres the new Corntuth record, The Nightingale Floor, which comes out next week on Flow State Records and Aural Canyon.]]></summary>
-        <author>
-            <name>Flow State</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Canada raises tariffs, Trump threatens a lake. Guess who's winning?Rex Huppke]]></title>
-        <id>https://www.usatoday.com/story/opinion/columnist/2026/08/25/us-canada-tariffs-trump-rename-lake-ontario/91456826007/-full</id>
-        <link href="https://www.usatoday.com/story/opinion/columnist/2026/08/25/us-canada-tariffs-trump-rename-lake-ontario/91456826007/"/>
-        <updated>2026-09-14T21:30:00.931Z</updated>
-        <summary type="html"><![CDATA[Borrowing from the playbook of all master negotiators, President Donald Trump has gained the upper hand in his ongoing trade war with Canada by … wait for it … threatening to rename a lake. 
-On Aug. 25, President Deals McDealington threw down the gauntlet and showed those barbaric Canadians the fate they’ll face if they don’t bend to America’s will: “The United States is giving serious consideration to changing the name of Lake Ontario to Lake America in that we don’t expect to be doing much business with Ontario any longer. Thank you for your attention to this matter!”
-BOOM! What say you now, callous Canucks? You didn’t expect our beloved MAGA president to go hyrdonymic on your a--, did you? The trade war Trump started for no particular reason – the one likely to harm Americans economical…]]></summary>
-        <author>
-            <name>Rex Huppke</name>
         </author>
     </entry>
 </feed>

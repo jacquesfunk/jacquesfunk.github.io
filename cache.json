@@ -143,6 +143,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "http://yummymelon.com/devnull/binding-the-spc-key-in-dired-and-ibuffer.html",
+          "author": null,
+          "description": "A feature of macOS Finder that I enjoy using is Quick Look, where a preview of a selected file can be displayed by pressing the space bar. While “Quick Look” is not really a thing in Emacs (at least not out of the box), we can quasi-emulate this by taking advantage of commands that can open files in another Emacs window, all the while keeping the current Emacs window selected.\nIn Dired, I’ve bound SPC to the command dired-display-file.\n\n\n1\n\n(keymap-set dired-mode-map \"SPC\" #'dired-display-file)\n\n\n\n\n\nA similar thing can be done for IBuffer:\n\n\n1\n\n(keymap-set ibuffer-mode-map \"SPC\" #'ibuffer-visit-buffer-other-window-noselect)\n\n\n\n\n\nThis configuration is definitely a personal preference thing, so YMMV. That said, I’ve found these bindings to be quite useful, so perhaps you may as well.",
+          "link": "http://yummymelon.com/devnull/binding-the-spc-key-in-dired-and-ibuffer.html",
+          "publishedOn": "2026-09-24T21:05:00.000Z",
+          "wordCount": 205,
+          "title": "Charles Choi: Binding the SPC key in Dired and IBuffer",
+          "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
+        },
+        {
           "id": "https://irreal.org/blog/?p=14104",
           "author": null,
           "description": "opines that since the advent of use-short-answers, confirm-kill-emacs should be a boolean. His idea is that confirm-kill-emacs should merely specify whether to ask for confirmation or not and let use-short-answers choose the the particular form of the question if one is requested.\n\n\n00-11 notes that Danrobi1 is misunderstanding the purpose of the confirm-kill-emacs variable: it was never about whether to call yes-or-no-p or y-or-n-p to ask if quitting Emacs is really what you want. What its purpose is and was is to specify a predicate that will decide whether to quit Emacs or not. There’s no reason it even has to communicate with the user. It just has to decide whether to quit or not based on whatever logic is coded into it.\n\n\nI’ve had it set to y-or-n-p for as long as I can remember and haven’t thought about it in all that time. But 00-11’s response got me thinking. I originally set it to y-or-n-p because I kept inadvertently quitting Emacs by fat fingering some other shortcut and I’ve never looked back but there is one problem.\n\n\nIf I don’t remember to quit Emacs before rebooting my MacBook Pro, the reboot will hang waiting for Emacs to quit. That usually happens when there’s an OS update that I start off when I go to bed expecting to have a new OS in the morning only to find the system still waiting for Emacs to quit.\n\n\nWhat if I could detect if my Mac is being rebooted? If I can, I can easily code up a predicate function that quits Emacs if so and calls y-or-n-p if not. The thought just popped into my mind so I haven’t had a chance to research it yet but it seems promising.",
@@ -379,6 +389,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=236458",
+          "author": "Dave McKenna",
+          "description": "The Jockey Club, the leading sanctioning body in what’s left of the sport of horse racing in the U.S., sent out a clear message Wednesday to anybody thinking of naming their horse after Hitler: Don’t name your horse after Hitler. \nThe two-year-old colt Austrian Painter made his racing debut Monday with a win in the third race at Horseshoe Indianapolis Racecourse. Obligatory: He covered the 5 1/2 furlongs in 1:04.97, and paid $9.00. Afterward, the Jockey Club received objections about the victorious newcomer, but these weren't the standard post-race protests about a jockey’s obstructing or dangerous ride or a horse’s drug abuse. No, these complaints were about the horse’s name. Because, as reported by ESPN in its Austrian Painter story, “Hitler was born in Austria and was an artist.”\nHe was indeed! Austrian Painter’s owner and breeder is Scott Herbertson, a 58-year-old California native now based in Texas. In 2014, he founded the Herbertson Racing Stable. I could find no Kentucky Derby horses or winners of any other graded stakes race in his barn. But while he’s not a major player in the sport and seems more likely to enter his animals at unglamorous tracks like Horseshoe Indianapolis than Saratoga, Herbertson has spent lots of time in winner's circles. In 2014, the Thoroughbred Owners of California named him to their Rookie of the Year roster. According to Herbertson's page in the racing database Equibase, his horses have finished in the money 351 times in 561 starts, with a very impressive 164 wins. Herbertson's total earnings are now just over $2.5 million. Alas, nothing his horses ever did on the track brought Herbertson anywhere near the attention that this has.",
+          "link": "https://defector.com/racehorse-owner-told-to-rename-his-hitleresque-steed",
+          "publishedOn": "2026-09-24T21:59:47.000Z",
+          "wordCount": 5223,
+          "title": "Racehorse Owner Told To Rename His Hitleresque Steed",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2276636300-e1790282442716.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236423",
+          "author": "Diana Moskovitz",
+          "description": "Brown County Circuit Judge Marc Hammer ended his temporary seal Thursday on records in Josh Jacobs's domestic-violence criminal case. But that doesn't mean the records, which includes video showing the Green Bay Packers running back throwing his ex-girlfriend to the ground, will immediately become public. Though Hammer unsealed the files, he also had strong words of caution for those who will decide what is released. \n\"Our [state] Constitution provides in part that crime victims are entitled to rights,\" Hammer said, \"to be treated with dignity, respect, courtesy, sensitivity, and fairness.\" \nJacobs pleaded no contest earlier this month to one count of misdemeanor battery and one count of misdemeanor criminal damage to property. Police arrested him in May after they responded to a phone call reporting a disturbance between a man and a woman. When officers talked to the woman, she told them that she and Jacobs had been in a fight and, per police records, he \"grabbed her and threw her to the ground and she struck her head, suffering an injury.\"",
+          "link": "https://defector.com/judge-declines-to-seal-josh-jacobs-video-but-cautions-against-it-becoming-public",
+          "publishedOn": "2026-09-24T20:26:26.000Z",
+          "wordCount": 5339,
+          "title": "Judge Declines To Seal Josh Jacobs Video,  But Cautions Against It Becoming Public",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2280737600-e1790279156180.jpg"
+        },
         {
           "id": "https://defector.com/?p=236418",
           "author": "Tom Ley",
@@ -1027,6 +1057,16 @@
       "siteUrl": "https://www.reddit.com/r/DepthHub/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/DepthHub/comments/1wpbzt4/deep_explanation_of_why_humans_have_menstrual/",
+          "author": null,
+          "description": "submitted by    /u/LackingUtility  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DepthHub/comments/1wpbzt4/deep_explanation_of_why_humans_have_menstrual/",
+          "publishedOn": "2026-09-24T20:01:21.000Z",
+          "wordCount": null,
+          "title": "Deep explanation of why humans have menstrual cycles, with some interesting side digressions",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/DepthHub/comments/1wp1f5k/ukellysouthpaw_explains_how_the_theranos/",
           "author": null,
           "description": "submitted by    /u/SorbettoAlcolico  \n [link]   [comments]",
@@ -1210,6 +1250,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/usatoday-rex-huppke.xml",
       "siteUrl": "https://www.usatoday.com/staff/6878775001/rex-huppke/",
       "articles": [
+        {
+          "id": "https://www.usatoday.com/story/opinion/columnist/2026/09/24/trump-republicans-midterms-media-ban-gas-prices/91905826007/-full",
+          "author": "Rex Huppke",
+          "description": "In America right now, the people are shouting, “Gas prices! Food prices! Health care costs!”\nAnd the Republican Party, six weeks out from the midterm elections, is responding: “What’s that? You want us to fight with the media? Or how about we get mad about this issue nobody has ever heard of because it’s something we made up?”\nIt’s as if the words “read the room” never entered the GOP’s lexicon.\nThis dynamic was writ large Sept. 23 when the face of the Republican Party, President Donald Trump, turned his attention and more of our taxpayer dollars to a U.S. District Court in Washington, DC. There, a judge heard arguments from CNN, MS NOW and Politico over Trump’s recent decision to ban the news organizations from the White House. \nTrump, Republicans battle the media, but midterm voters don'…",
+          "link": "https://www.usatoday.com/story/opinion/columnist/2026/09/24/trump-republicans-midterms-media-ban-gas-prices/91905826007/",
+          "publishedOn": "2026-09-24T23:00:50.524Z",
+          "wordCount": 4374,
+          "title": "Voters care about gas prices. The GOP is focused on furries.Rex Huppke",
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/09/20/USAT/91862874007-20260919-t-000307-z-1543419715-rc-2-wlna-3-uju-3-rtrmadp-3-usatrumpmigrationvisa.JPG?crop=5499,3093,x0,y0&width=3200&height=1800&format=pjpg&auto=webp"
+        },
         {
           "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/04/trump-approval-polls-lies-truth-social/91156618007/-full",
           "author": "Rex Huppke",
@@ -1729,16 +1779,6 @@
           "wordCount": 4611,
           "title": "Happy Labor Day! Enjoy it while you can still afford to.Rex Huppke",
           "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/09/03/USAT/91600480007-getty-images-2291635459.jpg?crop=1023,576,x0,y53&width=1023&height=576&format=pjpg&auto=webp"
-        },
-        {
-          "id": "https://www.usatoday.com/story/opinion/columnist/2026/08/25/us-canada-tariffs-trump-rename-lake-ontario/91456826007/-full",
-          "author": "Rex Huppke",
-          "description": "Borrowing from the playbook of all master negotiators, President Donald Trump has gained the upper hand in his ongoing trade war with Canada by … wait for it … threatening to rename a lake. \nOn Aug. 25, President Deals McDealington threw down the gauntlet and showed those barbaric Canadians the fate they’ll face if they don’t bend to America’s will: “The United States is giving serious consideration to changing the name of Lake Ontario to Lake America in that we don’t expect to be doing much business with Ontario any longer. Thank you for your attention to this matter!”\nBOOM! What say you now, callous Canucks? You didn’t expect our beloved MAGA president to go hyrdonymic on your a--, did you? The trade war Trump started for no particular reason – the one likely to harm Americans economical…",
-          "link": "https://www.usatoday.com/story/opinion/columnist/2026/08/25/us-canada-tariffs-trump-rename-lake-ontario/91456826007/",
-          "publishedOn": "2026-09-14T21:30:00.931Z",
-          "wordCount": 4145,
-          "title": "Canada raises tariffs, Trump threatens a lake. Guess who's winning?Rex Huppke",
-          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/25/USAT/91458473007-20260825-t-142155-z-1781528239-rc-2-i-0-mayywva-rtrmadp-3-usatrumpcanadalake.JPG?crop=5499,3093,x0,y161&width=3200&height=1800&format=pjpg&auto=webp"
         }
       ]
     },
@@ -1924,6 +1964,36 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73875379/media-white-house-access-decision-trump/",
+          "author": null,
+          "description": "Needless to say, the administration had no case whatsoever.",
+          "link": "https://www.esquire.com/news-politics/politics/a73875379/media-white-house-access-decision-trump/",
+          "publishedOn": "2026-09-24T20:29:40.000Z",
+          "wordCount": 18004,
+          "title": "In a Supremely Righteous Decision, a Trump-Appointed Judge Smacked Down the President’s Ban on Media Outlets’ Access to the White House",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/c40a1d29-9f46-4e0a-9e45-e44a6713ece2.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
+        },
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73875058/f-35-stealth-fighter-parts-china/",
+          "author": null,
+          "description": "Pete Hegseth better make this explicable as quickly as possible, or we’re in for some serious trouble.",
+          "link": "https://www.esquire.com/news-politics/politics/a73875058/f-35-stealth-fighter-parts-china/",
+          "publishedOn": "2026-09-24T20:16:44.000Z",
+          "wordCount": 17982,
+          "title": "How the Hell Did American Stealth-Fighter Parts “Inexplicably” Make Their Way to China?",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/bc3cb17e-8abb-4dab-9845-90df3ca3a122.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
+        },
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73873992/montana-missouri-constitutional-amendments-popular-initiatives/",
+          "author": null,
+          "description": "I respect it, but I’m not 100 percent sure it’ll work.",
+          "link": "https://www.esquire.com/news-politics/politics/a73873992/montana-missouri-constitutional-amendments-popular-initiatives/",
+          "publishedOn": "2026-09-24T20:01:51.000Z",
+          "wordCount": 19878,
+          "title": "Why Citizens from Two Key States Are Trying to Change How Their Governments Work",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/541590fd-9314-4570-984e-e8ac4deb12f9.jpeg?crop=1xw:0.74995095154xh;center,top&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a73867462/tommy-tuberville-senator-pilots-furries/",
           "author": null,
@@ -2224,22 +2294,6 @@
             "type": "audio/mpeg"
           },
           "imageUrl": null
-        },
-        {
-          "id": "https://www.flowstate.fm/p/flow-state-ep-343-corntuth-premiere",
-          "author": "Flow State",
-          "description": "Today’s mix premieres the new Corntuth record, The Nightingale Floor, which comes out next week on Flow State Records and Aural Canyon.",
-          "link": "https://www.flowstate.fm/p/flow-state-ep-343-corntuth-premiere",
-          "publishedOn": "2026-09-15T07:02:48.000Z",
-          "wordCount": null,
-          "title": "Flow State Ep. 343: Corntuth Premiere",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://api.substack.com/feed/podcast/215765169/db8811d0d8b00f25cc096298787e1936.mp3",
-            "length": "0",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
@@ -2308,6 +2362,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1558626",
+          "author": "Josh Marshall",
+          "description": "I promise not to be writing a post about every new theory or hot take about contemporary polling. And I’ll...",
+          "link": "https://talkingpointsmemo.com/edblog/a-quick-poll-follow-up",
+          "publishedOn": "2026-09-24T19:56:47.000Z",
+          "wordCount": 1998,
+          "title": "A Quick Poll Follow Up",
+          "imageUrl": "https://s3.amazonaws.com/tpm-media/images/tpm-logo_square.png"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1558522",
           "author": "Josh Marshall",
