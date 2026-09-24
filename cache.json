@@ -361,56 +361,6 @@
           "wordCount": 542,
           "title": "Protesilaos: Emacs: reply to Einar Mostad about reading the documentation",
           "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
-        },
-        {
-          "id": "https://www.jamescherti.com/emacs-terminal-performance-vterm-eat-ansi-term-ghostel/",
-          "author": null,
-          "description": "Emacs terminal buffers like eat, vterm, ghostel, term, and ansi-term can become slow when processing large volumes of standard output. Watching Emacs freeze while a build script dumps thousands of lines is frustrating, but terminal latency is not an unavoidable cost of living inside Emacs. Applying a few targeted configuration changes will eliminate scroll lag and restore immediate responsiveness. This article provides a configuration that speed up terminal buffers.\nBefore we begin, please consider sharing this article on your website, blog, Mastodon, Reddit, X, LinkedIn, Hacker News, or other social media platforms. Sharing it will help other Emacs users discover how to improve the performance of their terminal emulators.\nComplete configuration for high-performance terminal buffers\nThe fo…",
-          "link": "https://www.jamescherti.com/emacs-terminal-performance-vterm-eat-ansi-term-ghostel/",
-          "publishedOn": "2026-09-14T15:00:45.000Z",
-          "wordCount": 3372,
-          "title": "James Cherti: Why Your Emacs Terminal is Slow and the Configuration to Fix It (vterm, eat, ghostel, term, and ansi-term)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://irreal.org/blog/?p=14082",
-          "author": null,
-          "description": "Homebrew, a repository of easy to install apps and libraries. I use it all the time because it’s so much easier than hunting up all the dependencies required for compiling them yourself.\n\n\nIf you’re a Linux user, you may or may not be familiar with Homebrew. It provides the same services for Linux but my—possible wrong—impression is that its Linux take-up is not as great as it is in macOS.\n\n\nRegardless, if you’re on Linux or macOS, you should definitely check it out. The TL;DR of this post is that Homebrew has just released version 7.0.0, a major release. That probably wouldn’t be worth an Irreal post except for the “major release” part. On the macOS side, macOS 10.5 and earlier are no longer supported. Being a Mac-head, I didn’t check discontinued versions on Linux so if you’re using Homebrew on Linux you should check that out.\n\n\nThe other big change for Mac-heads is that Intel Macs are moved to Tier 3. You can check out the announcement for exactly what that means but basically it indicates that support is limited and end-of-life is approaching (in September of 2027).\n\n\nHomebrew is an excellent repository and well worth investigating if you’re not familiar with it. I still have an Intel Mac so it’s a bit of a pain that support is diminishing but I need to upgrade anyway so this is probably the push I need.",
-          "link": "https://irreal.org/blog/?p=14082",
-          "publishedOn": "2026-09-14T14:55:23.000Z",
-          "wordCount": 1499,
-          "title": "Irreal: PSA: Homebrew Updated To Version 7.0.0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://sachachua.com/blog/2026/09/2026-09-14-emacs-news/",
-          "author": null,
-          "description": "Upcoming events (iCal file, Org):\n\nEmacs Paris https://emacs-doctor.com/ Tue Sep 15 0830 America/Vancouver - 1030 America/Chicago - 1130 America/Toronto - 1530 Etc/UTC - 1730 Europe/Berlin - 2100 Asia/Kolkata - 2330 Asia/Singapore\nPDX Emacs (in person) https://pdx.social/@howard/117147689957341583 - Tue Sept 15 6:00 pm in Portland, OR\nM-x Research: TBA https://m-x-research.github.io/ Wed Sep 16 0800 America/Vancouver - 1000 America/Chicago - 1100 America/Toronto - 1500 Etc/UTC - 1700 Europe/Berlin - 2030 Asia/Kolkata - 2300 Asia/Singapore\nOrgDevMeetup https://bbb.emacsverse.org/rooms/orgdevmeetup Sat Sep 19 0100 America/Vancouver - 0300 America/Chicago - 0400 America/Toronto - 0800 Etc/UTC - 1000 Europe/Berlin - 1330 Asia/Kolkata - 1600 Asia/Singapore\nEmacsSF (in person): coffee.el in SF h…",
-          "link": "https://sachachua.com/blog/2026/09/2026-09-14-emacs-news/",
-          "publishedOn": "2026-09-14T14:09:11.000Z",
-          "wordCount": 806,
-          "title": "Sacha Chua: 2026-09-14 Emacs news",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lars.ingebrigtsen.no/2026/09/14/emacs-movies-and-sqlite/",
-          "author": null,
-          "description": "Hey, it’s the…  *counts on fingers*…  22nd anniversary of me using Emacs to watch TV and movies!\n\nAnd in the start, it was a snappy, focused package that just listed directory contents and let me play the files…  but then it grew to take care of resuming where I left off, and fixing the frame rate of the TV to fit the video file, and lately it’s also automatically choosing the correct subtitles and audio track.\nThis means that it’s now calling mediainfo before playing the file to get all that data.  And since it’s accessing the files over nfs, and mediainfo apparently has to load the entire file (or large parts) to cough up that data, things have gotten slower:\n\nLook at that!  It’s horrible!  I have to wait, er, two seconds before I can watch Saturday Night Live?!  How can anybody live lik…",
-          "link": "https://lars.ingebrigtsen.no/2026/09/14/emacs-movies-and-sqlite/",
-          "publishedOn": "2026-09-14T13:16:14.000Z",
-          "wordCount": 1691,
-          "title": "Lars Ingebrigtsen: Emacs, movies and SQLite",
-          "imageUrl": "https://lars.ingebrigtsen.no/wp-content/uploads/2026/09/2026-09-13-2.jpeg"
-        },
-        {
-          "id": "https://emacs.dyerdwelling.family/emacs/20260907140012-emacs--emacs-31-native-git-worktrees-vs-my-vc-setup/",
-          "author": null,
-          "description": "vc than I installed the bleeding edge and found Emacs 31 went and did it properly. Right there in the 31 NEWS: a whole C-x v w working-tree map. So before I get too attached to my own code I thought I had better do an honest head-to-head. Verdict up front: I am keeping mine, with one key moved. Here is why.\n\n\n\n\n\n\n\n\n\nFirst, what 31 actually ships under C-x v w:\n\n\n\nw c (vc-add-working-tree) prompts for a directory, then a branch, but you have to create a branch for yourself, where as my version and also Magit ask for the name of the branch to create, as when creating a new worktree, wouldn't you always want to create a branch?  Also with the built-in there is no placeholder initial name, with something involving the branch name, so this command currently feels a little disjointed.\nw w (vc-sw…",
-          "link": "https://emacs.dyerdwelling.family/emacs/20260907140012-emacs--emacs-31-native-git-worktrees-vs-my-vc-setup/",
-          "publishedOn": "2026-09-14T12:42:00.000Z",
-          "wordCount": null,
-          "title": "James Dyer: Emacs 31 Does Git Worktrees Natively: How My vc Setup Compares",
-          "imageUrl": null
         }
       ]
     },
@@ -1018,96 +968,6 @@
           "wordCount": 7176,
           "title": "Robert Kraft Now Decides Who Tours With Ed Sheeran",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2292279246.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=235460",
-          "author": "Giri Nathan",
-          "description": "How strange it is to watch a whole Slam and feel as though we learned almost nothing about the true power hierarchy at the top of the men's tour. In Sunday afternoon's U.S. Open final, Alexander Zverev beat Ben Shelton, 6-3, 7-6 (2), 5-7, 6-2. Check the box next to every single boring prediction: At least one tiebreak would be played; Shelton would struggle heroically to return serves; Zverev would play visibly nervy tennis in at least one juncture of the match and captivate viewers with his pre-serve ball-bouncing routines, but ultimately keep owning this matchup and lefties in general.\nWe got all of that. The match was neither an especially compelling spectacle nor particularly predictive of the future. I would be somewhere from surprised to gobsmacked if either one of these players won a Slam next season. The central thing I'll remember about this match is that Zverev did not initially realize he had won it.\n\nhttps://www.youtube.com/watch?v=9VQEluGKDF4",
-          "link": "https://defector.com/the-u-s-open-mens-final-changed-nothing",
-          "publishedOn": "2026-09-14T18:53:07.000Z",
-          "wordCount": 7424,
-          "title": "The U.S. Open Men’s Final Changed Nothing",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2295117113.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=235486",
-          "author": "Dave McKenna",
-          "description": "Ryan Garcia, the often troubled and always magnetic Californian who to this point in his career seemed unsure if he’d rather be an influencer who fights or a fighter who influences, struck a blow for his fighter side on Saturday in Las Vegas. Garcia hit Conor Benn flush in the face with the mightiest right hand he’s capable of throwing early in the second round of their welterweight title bout, putting his outclassed British antagonist down shortly before putting him out. If Garcia’s not on top of the fight world already, he can at least see it from where he sits after his boffo performance. \nAs four-minute bouts go, this was a helluva fight.\nBenn’s father is Nigel Benn, a former world middleweight champion who was absolutely beloved in his native U.K. as his fight career peaked in the 1990s. Through those bloodlines and shrewd promotion, the younger Benn became wildly popular back home. Last year, he headlined two fight cards in front of sold-out Tottenham Hotspur Stadium in London with Chris Eubank Jr., whose father, Chris Eubank Sr., was the elder Benn’s main rival decades earlier. Eubank Jr. came out on top in the sons' first meeting, in April 2025, by a close but unanimous decision after 12 rounds. Their November 2025 rematch also went the distance, but Benn put Eubank Jr. down twice in the 12th round and the judges had him far ahead on all scorecards come the last bell.",
-          "link": "https://defector.com/conor-benn-wasnt-ready-for-ryan-garcia",
-          "publishedOn": "2026-09-14T18:08:58.000Z",
-          "wordCount": 7625,
-          "title": "Conor Benn Wasn’t Ready For Ryan Garcia",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2294975578.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=235476",
-          "author": "Israel Daramola",
-          "description": "There's been a lot of clamoring for answers as to what happened in the fourth quarter of Sunday's unusually messy divisional matchup between the Green Bay Packers and the Minnesota Vikings. And yet for much of the game, and even into the fourth quarter, there was very little in terms of unanswered questions. When Trey Smack kicked a field goal to stretch Green Bay's lead to eight with 13:17 remaining in the fourth, all the juice was on the Packers' side and the game was, honestly, a little boring.\nBut the Vikings had jumped offside on the play, which made fourth-and-6 into fourth-and-1. Green Bay coach Matt LaFleur weighed his options and decided Fuck those points, opting to drive the nail into the coffin instead. Jordan Love got stuffed on the ensuing play, and the Packers never scored again. This is notable because the Vikings immediately went on a 22-point scoring run, and won by a final score of 39-22.\nIs it as simple as the Vikings finding a new gear in the fourth? The Packers and their analytics darling QB sputtering to a halt? Momentum plays? Those dastardly refs doing more of their ref chicanery against your favorite team, which is also their most mortal enemy?",
-          "link": "https://defector.com/something-is-wrong-with-the-green-bay-packers",
-          "publishedOn": "2026-09-14T17:46:47.000Z",
-          "wordCount": 6096,
-          "title": "Something Is Wrong With The Green Bay Packers",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2295125156.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=235453",
-          "author": "Luis Paez-Pumar",
-          "description": "The Video Assistant Referee is supposed to get everything right. This is an incredibly high standard to hold any sort of officiating, but this is VAR's main selling point and raison d'être. All of the delays, ticky-tack calls, and general disruption to the flow of a soccer match are supposed to be worth it; after all, who doesn't want the correct call made when an incorrect call could decide a match, a season, a legacy? But of course, VAR is not perfect, and it will never be perfect, even when called to rule on supposedly cut-and-dry offside decisions. As soon as any sort of subjectivity is thrown into the mix, VAR is no better than a normal ref, and oftentimes worse. With that in mind, I submit into evidence Erling Haaland's 60th minute goal during Sunday's Manchester derby.\n\nhttps://www.youtube.com/watch?v=AKfkzSKDkHM\n\n\nAt first glance, this is exactly the type of goal decision that VAR should excel at sorting through. Haaland's back-post finish was ruled out on the field by the sideline referee for an offside, as he judged that Haaland was ahead of both the ball and the last defender when Josko Gvardiol struck the ball across. Since it was, even in live action, a very close decision, a VAR review was all but assured, and said review found that Haaland was actually onside at the time of Gvardiol's pass. The camera angle showed on replays didn't make that clear, but the lines as deployed by the VAR, which are more accurate than the TV cameras, did help decide that the Norwegian was just onside. Great, goal given.",
-          "link": "https://defector.com/the-premier-league-has-its-first-var-disaster-of-the-season",
-          "publishedOn": "2026-09-14T16:07:19.000Z",
-          "wordCount": 8446,
-          "title": "The Premier League Has Its First VAR Disaster Of The Season",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2295086919.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=235274",
-          "author": "Luisa Rollenhagen",
-          "description": "Elon Musk loves them. Donald Trump thinks they’re “the best hope for Germany” and that they’ll “MGGA” (Make Germany Great Again). They’re an existential threat for fact-based reasoning, democracy, human rights, and multiculturalism. And they're in position to become the first far-right party to lead a German state since 1945.\nOver 77 percent of the eligible population of the German state of Saxony-Anhalt went to the polls on Sept. 6 in order to vote for their new state government. Alternative für Deutschland (AfD) was able to cruise to victory with a plurality 43.8 percent of the vote, slightly outperforming their polling. While the composition of the government has yet to be ironed out, it’s an unprecedented win for a party whose entire platform is based on hating immigrants and non-white Germans.\nFor anti-right activists in Saxony-Anhalt, the weeks and days leading up to the election had been marked by a mix of anxiety, defiance, and energy, as organizations set up pro-democracy rallies and events throughout the state. Bettina Wiengarn is a board member and spokesperson of the Zerbster Bündnis für Demokratie, a local association based in Zerbst, a small town in eastern Saxony-Anhalt. She and others had gathered to watch the results roll in.",
-          "link": "https://defector.com/the-far-right-had-its-biggest-electoral-win-in-germany-since-the-nazis-what-now",
-          "publishedOn": "2026-09-14T15:37:03.000Z",
-          "wordCount": 10515,
-          "title": "The Far Right Had Its Biggest Electoral Win In Germany Since The Nazis. What Now?",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2192503508.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=235465",
-          "author": "Maitreyi Anantharaman",
-          "description": "You can always count on our Monday crossword. This week's puzzle was constructed by Elijah Acquah, and edited by Hoang-Kim Vu. \nDefector crosswords, launched in partnership with our friends at AVCX, run every Monday. If you’re interested in submitting a puzzle to us, you can read our guidelines HERE. The AVCX, an independent puzzles and games outlet, invites you to subscribe, or sample the goods with a two-month free trial: \"With an AVCX subscription, you get access to weekly themed and themeless crosswords, minis, cryptics, and trivia, by email or in your favorite app. We have no corporate overlord, and we publish top-flight stuff only. We also pay our people fairly, always. Check us out.\"",
-          "link": "https://defector.com/the-crossword-sept-14-miscalculation",
-          "publishedOn": "2026-09-14T15:08:35.000Z",
-          "wordCount": 4066,
-          "title": "The Crossword, Sept. 14: Miscalculation",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2286790789.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=234874",
-          "author": "Chris Thompson",
-          "description": "If you've read Nicholas Russell, here or elsewhere, you've gathered that he is thoughtful, erudite, and extremely curious. In addition to approximately one million reviews and essays here at Defector, he's published more than a dozen interviews, and they've ranged all over: politics podcasters, a film critic, an indie musician, a veteran foreign correspondent, a cruciverbalist, an English professor and Toni Morrison scholar, and the retired WNBA journeywoman Carolyn Swords. By now, you have probably also picked up on the fact that he is uncommonly driven. Reporting is hard. Interviewing, or at least doing it well, is hard. Freelancing is hard as hell. Russell churns out excellent freelance work while holding down a day job as a bookseller, in addition to writing short fiction. \nNow he is a…",
-          "link": "https://defector.com/nicholas-russells-debut-novel-gets-weird-in-the-desert",
-          "publishedOn": "2026-09-14T14:44:01.000Z",
-          "wordCount": 20951,
-          "title": "Nicholas Russell’s Debut Novel Gets Weird In The Desert",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/Cover-Idea-2.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=235442",
-          "author": "Ray Ratto",
-          "description": "Nothing beats watching a billionaire eat filth in public, unless the chefs and waiters at Maison De Merde are all billionaires too. And so it is that Steve Ballmer's semi-abject capitulation to reality, and to the penalty he was handed in the face of overwhelming evidence of salary cap contravention in the guise of botanical fraud, arrives without either the proper level of humiliation or the burn-down-the-village revenge that would have satisfied us all infinitely more. The fun was in the extremes. The middle road stinks. No one pines for the inevitable.\nYet, there it was, conveniently dumped on an NFL Sunday night where only those people who were sick of Giants-Cowboys but couldn't yet fall asleep were paying attention. Ballmer took the knee with just a hint of middle finger behind the back, proclaiming that least defensible of legal positions, \"I'm clean but I'll do the time anyway.\"",
-          "link": "https://defector.com/steve-ballmer-is-just-going-to-have-to-take-it",
-          "publishedOn": "2026-09-14T13:56:15.000Z",
-          "wordCount": 6885,
-          "title": "Steve Ballmer Is Just Going To Have To Take It",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2259481648.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=235418",
-          "author": "Tom Ley",
-          "description": "College football fans who tuned into ESPN's College GameDay this Saturday were forced to encounter the alarming visage of Texas Senator Ted Cruz. To make matter worse, he monopolized nearly 10 minutes of air time in order to stump for the Protect College Sports Act (PCSA), a bill that is like a lot of things Ted Cruz stumps for, in that it is explicitly designed to make workers' lives worse.\nProponents of the PCSA rely on a familiar set of talking points when hyping up their pet bill, which could be voted on by the Senate this month. They are quick to point out that college sports are in \"chaos,\" and they have plenty of material to support their case. They can point to the ludicrous number of player transfers that happen every offseason, constant conference realignment, ballooning NIL budg…",
-          "link": "https://defector.com/the-protect-college-sports-act-finally-has-its-suitably-off-putting-mascot",
-          "publishedOn": "2026-09-14T13:00:33.000Z",
-          "wordCount": 7567,
-          "title": "The Protect College Sports Act Finally Has Its Suitably Off-Putting Mascot",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2294050168.jpg"
         }
       ]
     },
@@ -2183,16 +2043,6 @@
           "wordCount": 18058,
           "title": "Donald Trump Jr.’s Wedding Planner Was a Russian Oligarch",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/58f0d79a-9d78-4a4f-8a1e-dba4780405cc.jpeg?crop=1xw:0.75004675519xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73725395/mike-johnson-brandon-herrera-fundraising/",
-          "author": null,
-          "description": "Even by the crude and stupid standards of modern conservatism, Brandon Herrera is uniquely crude and stupid.",
-          "link": "https://www.esquire.com/news-politics/politics/a73725395/mike-johnson-brandon-herrera-fundraising/",
-          "publishedOn": "2026-09-14T19:06:30.000Z",
-          "wordCount": 18541,
-          "title": "Why Is Mike Johnson Fundraising for a Misogynistic Troll in Texas?",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/62807827-d077-45e3-9f3c-af8405c7a97e.jpeg?crop=1xw:0.749857873792xh;center,top&resize=1200:*"
         }
       ]
     },
@@ -2213,6 +2063,22 @@
       "feedUrl": "https://www.flowstate.fm/feed",
       "siteUrl": "https://www.flowstate.fm",
       "articles": [
+        {
+          "id": "https://www.flowstate.fm/p/egberto-gismonti",
+          "author": "Flow State",
+          "description": "Today we’re listening to Egberto Gismonti, a Brazilian composer, guitarist, and pianist from Carmo.",
+          "link": "https://www.flowstate.fm/p/egberto-gismonti",
+          "publishedOn": "2026-09-24T07:02:46.000Z",
+          "wordCount": null,
+          "title": "Egberto Gismonti",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!su5B!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb519531f-df13-46f5-9a6b-07ebe3c30259_4928x3264.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!su5B!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb519531f-df13-46f5-9a6b-07ebe3c30259_4928x3264.jpeg"
+        },
         {
           "id": "https://www.flowstate.fm/p/corntuth-interview",
           "author": "Flow State",
@@ -2384,16 +2250,6 @@
           "wordCount": 6068,
           "title": "The most influential fictional cat",
           "imageUrl": "https://gomakethings.com/img/og.png"
-        },
-        {
-          "id": "https://gomakethings.com/articles/depending-on-other-people/",
-          "author": null,
-          "description": "In countries outside of the US, “libertarianism” is often synonymous with anarchy. In the US, it typically refers to folks who are really into unrestrained capitalism without the social support.\nI was talking about this with a libertarian friend some time ago, and they said something along the lines of…\n What you’re describing means you’d have to really depend on other people.\n They meant it in a bad way.",
-          "link": "https://gomakethings.com/articles/depending-on-other-people/",
-          "publishedOn": "2026-09-14T14:30:00.000Z",
-          "wordCount": 6130,
-          "title": "Depending on other people",
-          "imageUrl": "https://gomakethings.com/img/og.png"
         }
       ]
     },
@@ -2402,6 +2258,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1558522",
+          "author": "Josh Marshall",
+          "description": "We don’t know what’s going to happen in the midterms. But we know for a fact that today you can...",
+          "link": "https://talkingpointsmemo.com/edblog/who-knows-what-the-midterms-will-bring-but-you-can-enjoy-the-gops-sweet-agony-today",
+          "publishedOn": "2026-09-23T21:35:46.000Z",
+          "wordCount": 2755,
+          "title": "Who Knows What the Midterms Will Bring: But You Can Enjoy the GOP’s Sweet Agony Today!",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/09/GettyImages-646855980.jpg?w=1200"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1558446",
           "author": "Josh Marshall",
@@ -2630,22 +2496,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!s9cB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbdf22296-7a55-44e7-a20e-f55f658d1ca4_400x600.jpeg"
-        },
-        {
-          "id": "https://morningmemo.talkingpointsmemo.com/p/what-trumps-very-fine-people-on-both",
-          "author": "David Kurtz",
-          "description": "INSIDE: Marshall Rawson ... Bo French ... Joe diGenova",
-          "link": "https://morningmemo.talkingpointsmemo.com/p/what-trumps-very-fine-people-on-both",
-          "publishedOn": "2026-09-14T16:43:57.000Z",
-          "wordCount": null,
-          "title": "What Trump’s ‘Very Fine People, on Both Sides’ Has Wrought a Decade Later",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!XFUh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2e610ea-61e8-4ce9-8534-b5fc0f464867_400x600.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!XFUh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2e610ea-61e8-4ce9-8534-b5fc0f464867_400x600.jpeg"
         }
       ]
     },
@@ -2803,22 +2653,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!2kf9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facf309ed-f4cd-40a2-ac56-d222945bd503_800x425.gif"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/why-the-fuck-were-millions-of-dollars",
-          "author": "Jeff Tiedrich",
-          "description": "everything Dear Leader got up to on his 48-hour vacation could have been done right here at home",
-          "link": "https://www.jefftiedrich.com/p/why-the-fuck-were-millions-of-dollars",
-          "publishedOn": "2026-09-14T14:44:22.000Z",
-          "wordCount": null,
-          "title": "why the fuck were millions of dollars wasted on Donny’s pointless Emotional Support Trip to Ireland?",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!6w_v!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbcca4dbc-cd65-461a-9ed2-fc7231d872a8_1436x760.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!6w_v!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbcca4dbc-cd65-461a-9ed2-fc7231d872a8_1436x760.jpeg"
         }
       ]
     }
