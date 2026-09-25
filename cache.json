@@ -113,6 +113,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://protesilaos.com/codelog/2026-09-25-emacs-live-sacha-pedro/",
+          "author": null,
+          "description": "Raw link: https://www.youtube.com/watch?v=aEnacESU-DU\n[ The event will be recorded. ]\nI will join Sacha Chua and Pedro A. Aranda Gutierrez to talk about\nEmacs. Specifically, Pedro will elaborate on work related to the Org\nLaTeX exporter. Pedro is doing some interesting work on that front.",
+          "link": "https://protesilaos.com/codelog/2026-09-25-emacs-live-sacha-pedro/",
+          "publishedOn": "2026-09-25T00:00:00.000Z",
+          "wordCount": 182,
+          "title": "Protesilaos: Emacs live with Sacha Chua and Pedro about Org LaTeX export on 2026-10-02 at 13:00 Europe/Athens",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
+        {
+          "id": "https://protesilaos.com/codelog/2026-09-25-emacs-denote-find-file/",
+          "author": null,
+          "description": "Because Denote files are standard files, we do not provide the\nequivalent of a find-file command to directly open a file in the\ndenote-directory. Though users may still want to have that\nfunctionality, which is easy to implement with what core Denote\nalready provides:\n\n(defun my-denote-find-file ()\n  \"Open a file in the variable `denote-directory'.\"\n  (declare (interactive-only t))\n  (interactive)\n  (when-let* ((file (denote-file-prompt)))\n    (find-file file)))\n\n\nThis can be extended to include commands that only match specific file\ntypes or regular expressions in general. For example, here is how we\nprompt only for files that include .pdf in their name and also\nmodify the minibuffer prompt to indicate what we are doing:\n\n(defun my-denote-find-file-pdf ()\n  \"Prompt for FILE in the variabl…",
+          "link": "https://protesilaos.com/codelog/2026-09-25-emacs-denote-find-file/",
+          "publishedOn": "2026-09-25T00:00:00.000Z",
+          "wordCount": 481,
+          "title": "Protesilaos: Emacs: find a file in the ‘denote-directory’",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
+        {
           "id": "https://sachachua.com/blog/2026/10/oct-2-emacs-chat-31-pedro-a-aranda-gutierrez/",
           "author": null,
           "description": "<2026-10-02 Fri 06:00-07:00> America/Toronto = Fri Oct 2 0600H EDT / 0500H CDT / 0400H MDT / 0300H PDT / 1000H UTC / 1200H CEST / 1300H EEST / 1530H IST / 1800H +08 / 1900H JST\n\n\n\n\nWatch on YouTube\n\nView Org source for this post\nYou can e-mail me at sacha@sachachua.com.",
@@ -339,6 +359,36 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=236521",
+          "author": "Alex Sujong Laughlin",
+          "description": "At midnight, Taylor Swift released a four-song update to her latest album, The Life of a Showgirl, which came out last October and had the cultural impact of a Skechers sneaker drop. Despite juicing its commercial success with several variants on the physical copies for sale, responses to the album from critics and fans alike have been lukewarm at best. Certainly nobody that I know liked hearing Travis Kelce’s dick compared to a redwood tree.\nOne might think that after reaching the economic pinnacle that was the Eras Tour, the accompanying concert film and Disney+ docuseries, three albums in four years, and a single for the billion-grossing Toy Story 5, Swift would maybe consider chilling for a second. But for better and for worse, this woman is a compulsive writer who must metabolize her …",
+          "link": "https://defector.com/taylor-swift-life-of-a-showgirl-encore-review",
+          "publishedOn": "2026-09-25T14:27:59.000Z",
+          "wordCount": 4826,
+          "title": "This Is A Cry For Help",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/swift-header.png"
+        },
+        {
+          "id": "https://defector.com/?p=236335",
+          "author": "Maitreyi Anantharaman",
+          "description": "The 2026 WNBA playoffs begin on Sunday, following the league’s longest-ever regular season, one in which it felt like any team could win on any given night. (Except the Connecticut Sun.) As an ethical and objective journalist with no real rooting interest, I could be excited on everyone’s behalf. Unfortunately, my objectivity manifests as being nervous on everyone’s behalf for the postseason. Here’s a reason for concern about each team, grouped by first-round matchup.\n(1) Minnesota Lynx: Is the Lynx defense OK?",
+          "link": "https://defector.com/eight-teams-eight-qualms-2026-wnba-playoffs-preview",
+          "publishedOn": "2026-09-25T13:57:41.000Z",
+          "wordCount": 9626,
+          "title": "Eight Teams, Eight Qualms: A Guide To The 2026 WNBA Playoffs",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2286055556.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236505",
+          "author": "Tom Ley",
+          "description": "There are certain early-season losses, even hefty ones, that you can write off. Especially if they happen overseas or on a Thursday night, where good teams can be afflicted by all sorts of rest/recovery issues that throw them off balance. But man, if you are a Green Bay Packers fan, I'm not sure how you even begin to cope with what happened last night.\nThe Packers lost to the Falcons—the same Falcons who lost their first two games to the Steelers and Panthers by a combined score of 54-16 and did not have a red-zone snap in either of those games—by a score of 35-14. This wasn't one of those games where the bad team wins by multiple scores thanks to fluky turnovers or special teams play, either. This was the Falcons, the Atlanta damn Falcons, the bozos with no good quarterbacks and an inability to get a first down, just destroying the Packers on their own field.\nAtlanta finished the game with 498 total yards, and gained 7.5 yards per play. Bijan Robinson ran for 194 yards on 29 carries. Michael Penix Jr., with his non-functional knees and a general lack of quarterbacking skills, spent his first start of the season just pumping the ball to Drake London, who finished with nine receptions for 194 yards. Kyle Pitts didn't do jack shit.",
+          "link": "https://defector.com/the-packers-are-all-fucked-up",
+          "publishedOn": "2026-09-25T13:11:45.000Z",
+          "wordCount": 5393,
+          "title": "The Packers Are All Fucked Up",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2296352013.jpg"
+        },
         {
           "id": "https://defector.com/?p=236458",
           "author": "Dave McKenna",
@@ -1068,16 +1118,6 @@
           "wordCount": 1246,
           "title": "Friday Funnies",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3587",
-          "author": "Schill",
-          "description": "Ana de Armas is a Cuban-Spanish actress who has built an international career across Spanish-language cinema and major Hollywood productions.",
-          "link": "https://stuffthatinterestsme.net/hump-day-hottie-ana-de-armas/",
-          "publishedOn": "2026-09-16T01:44:03.000Z",
-          "wordCount": 1402,
-          "title": "Hump Day Hottie: Ana de Armas",
-          "imageUrl": null
         }
       ]
     },
@@ -1092,6 +1132,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/salon-amanda-marcotte.xml",
       "siteUrl": "https://www.salon.com/writer/amanda_marcotte",
       "articles": [
+        {
+          "id": "https://www.salon.com/2026/09/25/claviculars-charges-shows-the-real-danger-of-maga-manhood/-full",
+          "author": null,
+          "description": "It wasn’t long after Braden Peters, better known as “Clavicular,” was arrested on suspicion of raping a 17-year-old girl at his family’s home in Massachusetts that his fellow MAGA influencers started complaining that he was the real victim. \n“Now we live in a climate where a 19-year-old can’t even sleep with a 16-year-old with a little alcohol involved. Absolutely insane,” said Nick Fuentes, the popular white nationalist podcaster, ignoring the fact that it has long been considered rape to have sex with someone unconscious and unable to consent, as alleged by the criminal complaint against Peters.  \nOthers floated conspiracy theories accusing the mysterious “they” of trying to “control” Clavicular, or claiming he is besieged with “women trying to ruin his life with rumors.” Brian Atlas of …",
+          "link": "https://www.salon.com/2026/09/25/claviculars-charges-shows-the-real-danger-of-maga-manhood/",
+          "publishedOn": "2026-09-25T10:45:22.000Z",
+          "wordCount": 2273,
+          "title": "Clavicular’s charges shows the real danger of MAGA manhood",
+          "imageUrl": "https://www.salon.com/app/uploads/2026/09/red-pill-clavicular.jpg"
+        },
         {
           "id": "https://www.salon.com/2026/09/23/natalie-harp-isnt-a-joke-she-is-trumps-dangerous-enabler/-full",
           "author": null,
@@ -2042,16 +2092,6 @@
           "wordCount": 18104,
           "title": "Don’t Worry, the State Department Won’t Let Our Government Dabble in Idol Worship",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/6a5d6be1-e216-4e8a-a1e4-8a6a9b65b92e.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73746408/kash-patel-fbi-bestiality/",
-          "author": null,
-          "description": "The bureau will no longer automatically disqualify applicants who’ve engaged in bestiality. And we’re not talking about the canine units.",
-          "link": "https://www.esquire.com/news-politics/politics/a73746408/kash-patel-fbi-bestiality/",
-          "publishedOn": "2026-09-15T23:38:43.000Z",
-          "wordCount": 17482,
-          "title": "Kash Patel’s FBI Recruiting Standards Have Gone to the Dogs",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/dc6430e9-ba2e-42ec-a7f1-d35879f95d57.jpeg?crop=1xw:0.75xh;0xw,0.035xh&resize=1200:*"
         }
       ]
     },
@@ -2336,16 +2376,6 @@
           "wordCount": 1968,
           "title": "AI Isn’t Conscious But Are Its Feelings Getting Hurt?",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/09/GettyImages-2294735827.jpg?w=1200"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1557808",
-          "author": "Josh Marshall",
-          "description": "If you’re a subscriber to Wired.com I want to suggest that you read this piece: Why the Postpandemic Tech Bust...",
-          "link": "https://talkingpointsmemo.com/edblog/back-inside-the-silicon-valley-class-war",
-          "publishedOn": "2026-09-15T21:36:57.000Z",
-          "wordCount": 2578,
-          "title": "Back Inside the Silicon Valley Class War",
-          "imageUrl": "https://s3.amazonaws.com/tpm-media/images/tpm-logo_square.png"
         }
       ]
     },
@@ -2479,6 +2509,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/we-could-all-use-a-good-news-friday",
+          "author": "Jeff Tiedrich",
+          "description": "so let’s have one",
+          "link": "https://www.jefftiedrich.com/p/we-could-all-use-a-good-news-friday",
+          "publishedOn": "2026-09-25T14:30:15.000Z",
+          "wordCount": null,
+          "title": "we could all use a Good News Friday",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!GXZz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5c7406a-14c2-4555-8a7d-7789fa5f53e5_1722x1004.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!GXZz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5c7406a-14c2-4555-8a7d-7789fa5f53e5_1722x1004.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/donny-winces-in-pain-melania-shuts",
           "author": "Jeff Tiedrich",
