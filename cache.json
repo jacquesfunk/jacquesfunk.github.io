@@ -331,16 +331,6 @@
           "wordCount": 2544,
           "title": "James Cherti: Preventing Emacs from Freezing on Files with Very Long Lines (e.g, minified JavaScript or CSS, SQL dumps, large JSON files...)",
           "imageUrl": null
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-09-17-emacs-beframe-1-6-0/",
-          "author": null,
-          "description": "beframe enables a frame-oriented Emacs workflow where each frame has\naccess only to the list of buffers visited therein. In the interest of\nbrevity, we call buffers that belong to frames “beframed”.\nPackage name (GNU ELPA): beframe\nOfficial manual: https://protesilaos.com/emacs/beframe\nChange log: https://protesilaos.com/emacs/beframe-changelog\nGit repositories:\n    \nGitHub: https://github.com/protesilaos/beframe\nGitLab: https://gitlab.com/protesilaos/beframe\nVideo demo: https://protesilaos.com/codelog/2023-02-28-emacs-beframe-demo/\nBackronym: Buffers Encapsulated in Frames Realise Advanced\nManagement of Emacs.\nBelow are the release notes\nVersion 1.6.0 on 2026-09-17\nI rewrote large parts of beframe.el to make them more clear and/or\nto align them with the Elisp style I have developed over t…",
-          "link": "https://protesilaos.com/codelog/2026-09-17-emacs-beframe-1-6-0/",
-          "publishedOn": "2026-09-17T00:00:00.000Z",
-          "wordCount": 559,
-          "title": "Protesilaos: Emacs: beframe version 1.6.0",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         }
       ]
     },
@@ -1835,46 +1825,6 @@
           "publishedOn": "2026-09-19T17:00:43.474Z",
           "wordCount": 177,
           "title": "Why Your Team Sucks 2026: San Francisco 49ers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/politics/article/trump-reflecting-pool-22306630.php",
-          "author": null,
-          "description": "error fetching full text: Reqwest client error: error decoding response body",
-          "link": "https://www.sfgate.com/politics/article/trump-reflecting-pool-22306630.php",
-          "publishedOn": "2026-09-17T00:05:55.074Z",
-          "wordCount": 177,
-          "title": "Congratulations, the Reflecting Pool is now a swamp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/tech/article/new-google-ai-22279112.php",
-          "author": null,
-          "description": "error fetching full text: Reqwest client error: error decoding response body",
-          "link": "https://www.sfgate.com/tech/article/new-google-ai-22279112.php",
-          "publishedOn": "2026-09-17T00:05:55.011Z",
-          "wordCount": 177,
-          "title": "Google is about to make a big change and it's gonna suuuuuuck",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/food/article/anthony-bourdain-burger-22403433.php",
-          "author": null,
-          "description": "error fetching full text: Reqwest client error: error decoding response body",
-          "link": "https://www.sfgate.com/food/article/anthony-bourdain-burger-22403433.php",
-          "publishedOn": "2026-09-17T00:05:55.006Z",
-          "wordCount": 177,
-          "title": "Anthony Bourdain loved this San Francisco burger and so do I",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/sports/article/usmnt-world-cup-pulisic-22336246.php",
-          "author": null,
-          "description": "error fetching full text: Reqwest client error: error decoding response body",
-          "link": "https://www.sfgate.com/sports/article/usmnt-world-cup-pulisic-22336246.php",
-          "publishedOn": "2026-09-17T00:05:54.999Z",
-          "wordCount": 177,
-          "title": "It's easy to blame the USMNT's World Cup crashout on one man. So I will.",
           "imageUrl": null
         }
       ]
