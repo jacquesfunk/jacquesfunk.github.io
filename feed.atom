@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-26T19:01:05.407Z</updated>
+    <updated>2026-09-26T22:22:44.434Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -71,6 +71,29 @@ I haven’t verified this but Dyer says he’s used it with Dired]]></summary>
         <summary type="html"><![CDATA[Wham!’s “Wake Me Up Before You Go-Go” is one of the most instantly recognizable pop songs of the 1980s,]]></summary>
         <author>
             <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Protesilaos: Emacs: I am experimenting with a Denote cache]]></title>
+        <id>https://protesilaos.com/codelog/2026-09-26-emacs-experiment-denote-cache/</id>
+        <link href="https://protesilaos.com/codelog/2026-09-26-emacs-experiment-denote-cache/"/>
+        <updated>2026-09-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Isee 724 on the denote.git issue tracker
+prompted me to start an experiment for an optional, in-memory cache
+for Denote. The cache can help speed up all sorts of operations.
+The goal is to explore what can be done and whether it makes sense to
+have that as a feature that users can enable, either directly in
+denote.el or as a separate package.
+For the time being, I have what I call denote-data:
+https://github.com/protesilaos/denote-data. This is not for users
+and does nothing useful right now. I have not written any
+documentation on purpose. I am making it available as a
+proof-of-concept in case there are interested parties who want to
+contribute to the project.
+What I have right now seems solid, though I suspect it will only be
+useful at scale if the caching is done asynchronously. I plan …]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
         </author>
     </entry>
     <entry>
@@ -2957,30 +2980,6 @@ But the White Sox have provided, and on Wednesday even offered them their own pr
 At that point, Leo must have figured that any help more divinely inspired than that might resemble game-fixing, and stepped away—and soon enough, he found out that this is the American League, where no power is higher than the mean. Within an inning and a half, Cleveland's profoundly whelming Petey Halpin aired out a 3-1 sinker from White Sox lefty Sean Newcomb for his own three-run homer; prior to that, Halpin had been 1-for-35 against lefties this year. Cleveland held on to win, 6-3.]]></summary>
         <author>
             <name>Ray Ratto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thursday, September 17, 2026]]></title>
-        <id>https://baty.net/journal/17Sep26/</id>
-        <link href="https://baty.net/journal/17Sep26/"/>
-        <updated>2026-09-17T10:12:44.000Z</updated>
-        <summary type="html"><![CDATA[Grand Haven (2026)
-I would quit all social media, Mastodon included, except that it makes me feel unseen. I don't mind being alone, but I don't enjoy being invisible. On the other hand, maybe being invisible is better than being angry and distracted all the time.
-It's my wife's birthday, so today will be spent doing everything and anything she wants to do, because I love her.
-Spending nearly all day away from computers is good for me.
-✍️ Reply by email]]></summary>
-        <author>
-            <name>baty.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go Kurosawa (Guest rec by Sofie Birch)]]></title>
-        <id>https://www.flowstate.fm/p/go-kurosawa-guest-rec-by-sofie-birch</id>
-        <link href="https://www.flowstate.fm/p/go-kurosawa-guest-rec-by-sofie-birch"/>
-        <updated>2026-09-17T07:02:50.000Z</updated>
-        <summary type="html"><![CDATA[Today we have a guest recommendation from Sofie Birch, a sound artist and composer, whose newsletter Ambient Abracadabra we highly recommend.]]></summary>
-        <author>
-            <name>Flow State</name>
         </author>
     </entry>
     <entry>

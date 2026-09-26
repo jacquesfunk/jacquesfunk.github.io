@@ -231,44 +231,43 @@ I haven’t verified this but Dyer says he’s used it with Dired</span>
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >News-Politics - Esquire</button>
-                  <a class="source-heading__link" href="https://www.esquire.com/news-politics/">Open</a>
+                  >Planet Emacslife</button>
+                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.esquire.com/news-politics/politics/a73894923/scotus-voting-rights-decision-online-system/"
+                        data-accordion-key="https://protesilaos.com/codelog/2026-09-26-emacs-experiment-denote-cache/"
                         open
                       >
-                        <summary class="article-expander__title">The Supreme Court Has Just Made a Horrendous Voting Rights Decision That Could Drastically Swing the Midterms</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.esquire.com/news-politics/politics/a73894923/scotus-voting-rights-decision-online-system/">
+                        <summary class="article-expander__title">Protesilaos: Emacs: I am experimenting with a Denote cache</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://protesilaos.com/codelog/2026-09-26-emacs-experiment-denote-cache/">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://hips.hearstapps.com/hmg-prod/images/d79b533c-3ac9-40e2-a2be-e566b6eed9cb.jpeg?crop&#x3D;1xw:0.749633967789xh;center,top&amp;resize&#x3D;1200:*" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://protesilaos.com/assets/images/brand/protesilaos-logo.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>Fair elections might soon become a thing of the past.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;74
+                              <span>Isee 724 on the denote.git issue tracker
+prompted me to start an experiment for an optional, in-memory cache
+for Denote. The cache can help speed up all sorts of operations.
+The goal is to explore what can be done and whether it makes sense to
+have that as a feature that users can enable, either directly in
+denote.el or as a separate package.
+For the time being, I have what I call denote-data:
+https://github.com/protesilaos/denote-data. This is not for users
+and does nothing useful right now. I have not written any
+documentation on purpose. I am making it available as a
+proof-of-concept in case there are interested parties who want to
+contribute to the project.
+What I have right now seems solid, though I suspect it will only be
+useful at scale if the caching is done asynchronously. I plan …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
                       </details>
                     </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Emacslife</button>
-                  <a class="source-heading__link" href="https://planet.emacslife.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
@@ -307,6 +306,40 @@ Choi likes the Quick Look functionality but, of course, would like to have it in
 
 If you like the idea of being able to peek at a file without abandoning your current window, take a look at Choi’s post for the details on how to do it from Dired and Ibuffer windows.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >News-Politics - Esquire</button>
+                  <a class="source-heading__link" href="https://www.esquire.com/news-politics/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.esquire.com/news-politics/politics/a73894923/scotus-voting-rights-decision-online-system/"
+                        open
+                      >
+                        <summary class="article-expander__title">The Supreme Court Has Just Made a Horrendous Voting Rights Decision That Could Drastically Swing the Midterms</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.esquire.com/news-politics/politics/a73894923/scotus-voting-rights-decision-online-system/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://hips.hearstapps.com/hmg-prod/images/d79b533c-3ac9-40e2-a2be-e566b6eed9cb.jpeg?crop&#x3D;1xw:0.749633967789xh;center,top&amp;resize&#x3D;1200:*" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Fair elections might soon become a thing of the past.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;74
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -6579,74 +6612,6 @@ Tragical…</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >baty.net</button>
-                  <a class="source-heading__link" href="https://baty.net/index.xml">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://baty.net/journal/17Sep26/"
-                        open
-                      >
-                        <summary class="article-expander__title">Thursday, September 17, 2026</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://baty.net/journal/17Sep26/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://baty.net/img/2026/20260917-2026-Roll-037_35.webp" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Grand Haven (2026)
-I would quit all social media, Mastodon included, except that it makes me feel unseen. I don&#x27;t mind being alone, but I don&#x27;t enjoy being invisible. On the other hand, maybe being invisible is better than being angry and distracted all the time.
-It&#x27;s my wife&#x27;s birthday, so today will be spent doing everything and anything she wants to do, because I love her.
-Spending nearly all day away from computers is good for me.
-✍️ Reply by email</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Flow State</button>
-                  <a class="source-heading__link" href="https://www.flowstate.fm">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.flowstate.fm/p/go-kurosawa-guest-rec-by-sofie-birch"
-                        open
-                      >
-                        <summary class="article-expander__title">Go Kurosawa (Guest rec by Sofie Birch)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.flowstate.fm/p/go-kurosawa-guest-rec-by-sofie-birch">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substackcdn.com/image/fetch/$s_!V8mC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3a582336-a6d7-4203-a0bf-21d7edf5a667_3130x2075.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Today we have a guest recommendation from Sofie Birch, a sound artist and composer, whose newsletter Ambient Abracadabra we highly recommend.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -6732,8 +6697,8 @@ Jaime Brito, executive director of refining and oil products for Dow …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/36264501769">
-        <time id="build-timestamp" datetime="2026-09-26T19:01:05.385Z">2026-09-26T19:01:05.385Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/36276019507">
+        <time id="build-timestamp" datetime="2026-09-26T22:22:44.405Z">2026-09-26T22:22:44.405Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
