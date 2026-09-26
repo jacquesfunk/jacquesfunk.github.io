@@ -103,6 +103,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=14108",
+          "author": null,
+          "description": "Emacs Dwelling, James Dyer has a nice post on capturing only the visible portion of a folded Org region. When you call kill-ring-save (Meta+w) on a folded region, it will capture everything to the kill ring—even the hidden text. As Dyer says, the folding is just a display hack. All the text is still there.\n\n\nBut sometimes Dyer wants to copy just the visible part. When I first read that, I couldn’t think of how to proceed without a lot of research and probably bit twiddling. That was just me overthinking the problem. It turns out to be pretty easy. The secret is org-copy-visible, which despite its name works outside of Org as well1.\n\n\nOnce you know that, the rest is easy. You need only call org-copy-visible instead of kill-ring-save. Dyer does that using the shortcut Ctrl+u Meta+w when he wants to copy only the visible part.\n\n\nTake a look at his post for the code if this sort of thing interests you. You can, of course, simply call org-copy-visible explicitly but if you do it a lot, a shortcut such as Dyer’s make sense.\n\n\nFootnotes: \n1 \n\n\n\nI haven’t verified this but Dyer says he’s used it with Dired",
+          "link": "https://irreal.org/blog/?p=14108",
+          "publishedOn": "2026-09-26T15:48:40.000Z",
+          "wordCount": 1383,
+          "title": "Irreal: Copy Only What You See",
+          "imageUrl": null
+        },
+        {
           "id": "https://emacs-apac.gitlab.io/announcements/september-2026/",
           "author": null,
           "description": "Emacs Asia-Pacific (APAC) virtual\nmeetup will not be happening this month. See you in the next meetup!\nStay updated: https://emacs-apac.gitlab.io/#stay-updated.",
@@ -2203,6 +2213,16 @@
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://talkingpointsmemo.com/?p=1558760",
+          "author": "Josh Marshall",
+          "description": "Yesterday, after a federal court forced the White House to readmit three news organizations to the White House, Donald Trump...",
+          "link": "https://talkingpointsmemo.com/edblog/your-moment-of-trump-zen",
+          "publishedOn": "2026-09-26T14:56:59.000Z",
+          "wordCount": 2106,
+          "title": "Your Moment of Trump Zen",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/09/GettyImages-2296442686-e1790174811901.jpg?w=1200"
+        },
+        {
           "id": "https://talkingpointsmemo.com/?p=1558708",
           "author": "Josh Marshall",
           "description": "Here is a short update on the so-called Broadview Six case — one of the high-profile prosecutorial abuse cases coming...",
@@ -2424,6 +2444,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/this-week-in-stupid-september-26",
+          "author": "Jeff Tiedrich",
+          "description": "furries fly it, Donny fries it, and so much more...",
+          "link": "https://www.jefftiedrich.com/p/this-week-in-stupid-september-26",
+          "publishedOn": "2026-09-26T14:40:27.000Z",
+          "wordCount": null,
+          "title": "this week in stupid: September 26 edition",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!Oiqj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6527bca6-72bb-4de2-a3bb-f760cb7c0482_1818x1032.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!Oiqj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6527bca6-72bb-4de2-a3bb-f760cb7c0482_1818x1032.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/we-could-all-use-a-good-news-friday",
           "author": "Jeff Tiedrich",
