@@ -22,6 +22,54 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-09-26 datetime="2026-09-26T08:43:00.000Z">2026-09-26</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-09-26 datetime="2026-09-26T08:43:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >alexwlchan</button>
+                  <a class="source-heading__link" href="https://alexwlchan.net/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://alexwlchan.net/2026/table-driven-rust/"
+                        open
+                      >
+                        <summary class="article-expander__title">Parametrised tests in Rust with named parameters</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://alexwlchan.net/2026/table-driven-rust/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://alexwlchan.net/images/profile_green_sq.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>I wrote a macro that lets me define test cases with labelled inputs and outputs, so I can reduce repetition without affecting readability.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-09-25 datetime="2026-09-26T00:04:41.000Z">2026-09-25</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-09-25 datetime="2026-09-26T00:04:41.000Z"></time>
           </button>
@@ -6701,271 +6749,6 @@ to align them with the Elisp style I have developed over t…</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://ray-on-emacs.blogspot.com/2026/09/a-niftier-way-to-asciify-emacs-buffer.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Raymond Zeitler: A Niftier Way To ASCIIfy An Emacs Buffer</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://ray-on-emacs.blogspot.com/2026/09/a-niftier-way-to-asciify-emacs-buffer.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Web page content
-  lately is littered with unusual Unicode characters that
-  resemble ASCII characters.  It&#x27;s possible this is how an
-  author (whether human or AI) might &quot;sign&quot; work.
-
-
-
-I use a recorded keystroke macro to brute-force-edly replace such
-Unicode characters with their ASCII equivalents.  This allows me to
-maintain ASCII-compatible files.  For example, to replace the right
-single quote character having a character code of #x2019, the macro
-replays M-% ’ RET &#x27; RET ! to replace all occurrences with
-the straight apostrophe, #x27.
-
-
-
-I&#x27;m not trying to publish someone else&#x27;s work as my own -- I do
-provide a reference to source whenever possible.  I&#x27;m simply
-trying to keep my content as unadulterated as possible.
-
-
-
-There are at least three problems with my macro:
-
-
-If #x2019 can&#x27;t be found, an exclamation mark is placed at point.
-It fails to replace other single-quote-like Unicode characters such as #x2018 or
-#x2032.
-The method is clunky and inelegant to an obscene degree.
-replace-char-fold, a very interesting custom variable.1
-
-
-
-According to its docstring, &quot;Non-nil means replacement commands should
-do character folding in matches. This means, for instance,
-that \\&#x3D;&#x27; will match a large variety of Unicode quotes.&quot;
-This is exactly what I need!
-
-
-
-Now I have Yet Another Fun Emacs Project (YAFEP), which is to create a
-sleek and robust ASCIIfy Lisp function.  And YAFEP aligns fortuitously
-with this month&#x27;s Emacs Carnival topic, which is Games.
-
-
-What&#x27;s been your experience with quoting web content?
-1 For a deeper dive into character folding in Emacs,
-please read the info node
-on lax matching.
-These pages on Wikipedia served as references for this article:
-  
-
-    
-Right
-  Single Quotation Mark
-General
-    Punctuation</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Defector</button>
-                  <a class="source-heading__link" href="https://defector.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;235622"
-                        open
-                      >
-                        <summary class="article-expander__title">Should I Hold My Kid Back From School  For A Year?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/should-i-hold-my-kid-back-from-school-for-a-year">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1031728108.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Welcome back to Minor Dilemmas, where a member of Defector&#x27;s Parents Council will answer your questions on surviving family life. Have a question? Email us at minordilemmas@defector.com.
-This week, Dave answers a question about holding your child back from school for a year.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;24
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;235438"
-                        open
-                      >
-                        <summary class="article-expander__title">Docs: NWSL Received Eight Sexual Misconduct, Sexual Harassment, Or Retaliation Complaints This Year</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/docs-nwsl-received-eight-sexual-misconduct-sexual-harassment-or-retaliation-complaints-this-year">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2291743080-e1789357795374.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The NWSL received eight complaints about either sexual misconduct, sexual harassment, or retaliation during the first half of this year, according to documents obtained by Defector Media. The reports span multiple teams, and were received between February and June.  The conclusions of any resulting investigations are redacted. So are the names of the teams involved. …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;23
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;235697"
-                        open
-                      >
-                        <summary class="article-expander__title">Consider The Emotional Lives Of Scallops</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/consider-the-emotional-lives-of-scallops">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1207345600.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Who doesn’t love a little Normal Gossip surprise? OK, yes, we said that last week’s episode was our season finale, but when you’re sitting on a mountain of gossip stories, it would be selfish to not share more, right? 
-Today’s episode raises one of the ancient questions: Would you rather listen to the 10 hour version of &quot;They’re taking the hobbits to Isengard,&quot; or explain your dietary restrictions to a pedant? Maybe this question is just another way of getting at whether you’re antisocial or just a Scorpio? Regardless of your labels, I’m pouring myself a pint and settling in for some quality time with Orlando Bloom. 
-Today’s gossip comes to us all the way from 2020, when circumstances conspired to put two young, mostly vegetarian van-dwellers and a retired academic in one house. There’s no escaping the questions, conversations, and dinner plans to come, though our little tumbleweeds will certainly try.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;235633"
-                        open
-                      >
-                        <summary class="article-expander__title">Massive Own-Goal Scored By Ed Sheeran</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/massive-own-goal-scored-by-ed-sheeran">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2251926091.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Ed Sheeran, perhaps best known for writing the kind of music that your second cousin chooses to play for the father-daughter dance at her wedding, cemented his status as a floppy-spine dummy this week by bending the knee to American billionaire idiot Robert Kraft. After rapper Macklemore&#x27;s statement on Monday that he had been dropped from Sheeran&#x27;s tour due to pressure from billionaire NFL owners over his vocal support for the Palestinian people, Sheeran further beclowned himself by opting to defer responsibility for the decision of who plays on his own tour.
-&quot;I was also involved in direct talks with promoters along with activists on both sides to try and find a mutual resolution for all,&quot; Sheeran wrote in a multi-bulleted Instagram statement defending his choice to allow rich guys to determine his line-up, &quot;but the venue&#x27;s and promoter&#x27;s decision was final.&quot;
-There is no &quot;mutual resolution for all&quot; when you are being strong-armed like this. What&#x27;s embarrassing about Sheeran&#x27;s response here is that he does not seem to understand that his pants have been pulled down around his ankles. Instead of pulling them back up, or even saying that it&#x27;s rude to have done this, he&#x27;s tripping forward as if nothing has happened.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://defector.com/?p&#x3D;235646"
-                        open
-                      >
-                        <summary class="article-expander__title">Tottenham’s Revamped Attack Is An Overpriced Calamity</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://defector.com/tottenhams-revamped-attack-is-an-overpriced-calamity">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2294940680.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>On Tuesday, Tottenham did something that has been out of character since the start of the 2026-27 season: It scored a goal. The goal came in the 69th minute of its third-round League Cup match against Liverpool, it came from a corner, and it ultimately didn&#x27;t matter all that much. Connor Gallagher capitalized on a weak run-out from backup Pool Boys goalkeeper Giorgi Mamardashvili and headed the ball in, giving Tottenham its first goal in any competition since its 5-1 pounding of Championship side Charlton Athletic in the previous round of the League Cup. Gallagher&#x27;s header was a necessary tally, even if Tottenham eventually bowed out of the League Cup anyway by a score of 3-1, because the club has been afflicted with an offensive malaise in the Premier League never before seen in the 144-year history of Tottenham Hotspur. Maybe just seeing the ball hit the back of the net again will spark something for the club, and boy does it need a spark.
-
-https://www.youtube.com/watch?v&#x3D;9oG66a7VmfY
-
-
-Through four Premier League games, Tottenham has scored zero goals, and only by similarly impotent chance creation and finishing from Nottingham Forest and Everton does the North London side have any points domestically. Despite spending a lot of money this summer, Spurs are currently in exactly the same spot that they have finished the last two campaigns, 17th on the table and with more questions than answers. This is the first time in the club&#x27;s history that it has started a season goalless across four games. It&#x27;s a new low in the series of humiliations, postponed briefly by winning the 2024-25 Europa League, that has stricken Tottenham over the last two-plus seasons.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Josh Marshall – TPM – Talking Points Memo</button>
-                  <a class="source-heading__link" href="https://talkingpointsmemo.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://talkingpointsmemo.com/?p&#x3D;1557872"
-                        open
-                      >
-                        <summary class="article-expander__title">AI Isn’t Conscious But Are Its Feelings Getting Hurt?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://talkingpointsmemo.com/edblog/ai-isnt-conscious-but-are-its-feelings-getting-hurt">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://talkingpointsmemo.com/wp-content/uploads/2026/09/GettyImages-2294735827.jpg?w&#x3D;1200" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I just noticed this Politico piece which contains a poll they just conducted about AI and the odds that AI...</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Morning Memo</button>
-                  <a class="source-heading__link" href="https://morningmemo.talkingpointsmemo.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://morningmemo.talkingpointsmemo.com/p/trump-if-i-cant-have-the-kennedy"
-                        open
-                      >
-                        <summary class="article-expander__title">Trump: If I Can’t Have the Kennedy Center, No One Can</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://morningmemo.talkingpointsmemo.com/p/trump-if-i-cant-have-the-kennedy">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substackcdn.com/image/fetch/$s_!xC-u!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F029ba9fc-00db-4ede-8f60-b12be42ecb9b_400x600.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>INSIDE: James Comey ... Lindsey Halligan ... David Streever</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -6973,8 +6756,8 @@ Through four Premier League games, Tottenham has scored zero goals, and only by 
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/36215314054">
-        <time id="build-timestamp" datetime="2026-09-26T03:37:13.341Z">2026-09-26T03:37:13.341Z</time>
+      <a class="footer-link" href="https://github.com/jacquesfunk/jacquesfunk.github.io/actions/runs/36231796732">
+        <time id="build-timestamp" datetime="2026-09-26T09:08:22.747Z">2026-09-26T09:08:22.747Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
