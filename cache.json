@@ -93,6 +93,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://protesilaos.com/codelog/2026-09-27-emacs-live-root-access-show/",
+          "author": null,
+          "description": "Raw link: https://www.youtube.com/watch?v=c0qZ6QzpcVc\nTonight I will join the livestream that @linkarzu hosts together with\nRumen and Ted. We will talk about Emacs. The discussion is open to the\naudience, so join us to write your questions and just hang out.\nI am looking forward to this!\nAbout ‘Root Access’\nRoot Access is a live conversation with Linkarzu, CEO members, and\ninvited guests about tech, tools, workflows, and what they’re\nbuilding. Guests can share their projects before we dive into the\ndiscussion. Everyone is welcome to watch live and join the chat; the\nfull replay stays public.\nSupport @linkarzu\nWhat’s the “Linkarzu CEOs Monthly Hangout” Podcast\n@linkarzu YouTube memembers\nAll the ‘Root Access’ episodes",
+          "link": "https://protesilaos.com/codelog/2026-09-27-emacs-live-root-access-show/",
+          "publishedOn": "2026-09-27T00:00:00.000Z",
+          "wordCount": 249,
+          "title": "Protesilaos: Emacs live at the ‘Root Access’ stream on 2026-09-27 at 21:00 Europe/Athens",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
+        {
           "id": "https://irreal.org/blog/?p=14108",
           "author": null,
           "description": "Emacs Dwelling, James Dyer has a nice post on capturing only the visible portion of a folded Org region. When you call kill-ring-save (Meta+w) on a folded region, it will capture everything to the kill ring—even the hidden text. As Dyer says, the folding is just a display hack. All the text is still there.\n\n\nBut sometimes Dyer wants to copy just the visible part. When I first read that, I couldn’t think of how to proceed without a lot of research and probably bit twiddling. That was just me overthinking the problem. It turns out to be pretty easy. The secret is org-copy-visible, which despite its name works outside of Org as well1.\n\n\nOnce you know that, the rest is easy. You need only call org-copy-visible instead of kill-ring-save. Dyer does that using the shortcut Ctrl+u Meta+w when he wants to copy only the visible part.\n\n\nTake a look at his post for the code if this sort of thing interests you. You can, of course, simply call org-copy-visible explicitly but if you do it a lot, a shortcut such as Dyer’s make sense.\n\n\nFootnotes: \n1 \n\n\n\nI haven’t verified this but Dyer says he’s used it with Dired",
@@ -331,16 +341,6 @@
           "wordCount": 625,
           "title": "Protesilaos: Emacs: dired-preview version 0.7.0",
           "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
-        },
-        {
-          "id": "https://www.jamescherti.com/prevent-emacs-freeze-so-long-files-very-long-lines/",
-          "author": null,
-          "description": "Emacs can slow down when opening files with exceptionally long lines, such as minified JavaScript or CSS, SQL dumps, or large JSON files. Emacs struggles with these files because it parses bi-directional text properties and applies complex regular expressions for syntax highlighting across thousands of characters on a single line.\nOne solution to prevent these files from slowing down Emacs is to use the built-in global-so-long-mode (or so-long-mode). When such files are visited, this mode detects abnormally long lines and automatically disables expensive features while applying display adjustments to prevent performance degradation.\nBelow is a configuration to improve how global-so-long-mode handles these files, balancing performance and usability.\nManaging syntax highlighting\nBy default, …",
-          "link": "https://www.jamescherti.com/prevent-emacs-freeze-so-long-files-very-long-lines/",
-          "publishedOn": "2026-09-17T16:17:07.000Z",
-          "wordCount": 2544,
-          "title": "James Cherti: Preventing Emacs from Freezing on Files with Very Long Lines (e.g, minified JavaScript or CSS, SQL dumps, large JSON files...)",
-          "imageUrl": null
         }
       ]
     },
@@ -848,56 +848,6 @@
           "wordCount": 5843,
           "title": "Cavan Sullivan And The USMNT’s Future Are Here",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2294236459.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=235823",
-          "author": "Diana Moskovitz",
-          "description": "Steve Belichick has resigned from his job as defensive coordinator at UNC following an investigation that found \"certain actions demonstrated a disregard for Carolina's values and standards of conduct,\" according to a statement released Thursday by the university. Belichick, the son of head coach Bill Belichick, already had been on medical leave.   \nThis follows Mike Lombardi resigning earlier this month from his job as general manager.\nLittle else has been made public by UNC about what led to Lombardi and Steve Belichick's resignations. The university's statement described \"a thorough and independent investigation into allegations related to culture and climate within the Carolina football program.\" It went on to say that the investigation found that what happened was \"isolated in scope and not a systemic failure.\"",
-          "link": "https://defector.com/steve-belichick-is-gone-from-unc",
-          "publishedOn": "2026-09-17T20:51:48.000Z",
-          "wordCount": 4822,
-          "title": "Steve Belichick Is Gone From UNC",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2244626191-e1789671076621.jpeg"
-        },
-        {
-          "id": "https://defector.com/?p=235830",
-          "author": "Abigail Segel",
-          "description": "Rory Dames—the women’s soccer coach currently banned for life from the NWSL, and who has been accused of abuse by more than a dozen former youth players—is no longer listed in the U.S. Center for SafeSport’s centralized disciplinary database.\nAccording to a document reviewed by Defector, Dames was removed from the database because a one-year suspension by SafeSport has ended. Per the document, he remains on probation for five years and under a no-contact directive, but those sanctions do not limit his involvement in soccer. The document did not say if his probation started after his suspension ended, or if it ran concurrently.\nA person who was interviewed for SafeSport’s investigation told Defector they were informed about the sanctions against Dames on July 28 of last year, at which point the former coach and SafeSport were already embroiled in a legal battle. The interviewee was therefore under the impression that the decision was not final, and that the one-year suspension had not started yet.",
-          "link": "https://defector.com/rory-damess-safesport-suspension-has-ended",
-          "publishedOn": "2026-09-17T19:43:54.000Z",
-          "wordCount": 5561,
-          "title": "Rory Dames’s SafeSport Suspension Has Ended",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1334592593.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=235775",
-          "author": "Alex Sujong Laughlin",
-          "description": "Following this week's news that the brilliant writer Annie Dillard has died at age 81, some Defector staffers wrote about what her work and example have meant to them.\nMuch is made of Dillard’s genius, her wizardry with language, her talent. But the Dillardism that has stuck with me strongest over the years comes from Alexander Chee's essay \"The Writing Life,\" in which he describes taking an undergraduate course with her at Wesleyan in 1989: \"Talent isn't enough, [Dillard] had told us. Writing is work. Anyone can do this, anyone can learn this. It's not rocket science; it's habits of mind and habits of work.\"",
-          "link": "https://defector.com/annie-dillard-gave-it-all",
-          "publishedOn": "2026-09-17T19:14:11.000Z",
-          "wordCount": 8006,
-          "title": "Annie Dillard Gave It All",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/dillard.jpeg"
-        },
-        {
-          "id": "https://defector.com/?p=235606",
-          "author": "Grace Byron",
-          "description": "There is a cottage industry in publishing dedicated to understanding Donald Trump and his followers. Since his election in 2016, a spate of books have attempted to contextualize, deconstruct, and analyze the President’s ascendency. The second Trump term has been no less prolific. This year alone has seen juggernaut bestsellers like Regime Change by Maggie Haberman and Jonathan Swan and the upcoming Profiles in Cowardice by Jacob Weisberg. “Trump 2.0 is all about this break with the stylistic norms, rules, and traditions that governed the Presidency in the past,” Susan B. Glasser wrote in a 2025 New Yorker column. \nOver the years, Trump’s been called a number of epithets. Cruel, heartless, old, stupid. There remains a collective nervousness around calling Trump a fascist, and few writers av…",
-          "link": "https://defector.com/a-new-book-examines-the-wickedness-of-trump-sort-of",
-          "publishedOn": "2026-09-17T17:00:27.000Z",
-          "wordCount": 6480,
-          "title": "A New Book Examines The Wickedness Of Trump. Sort Of.",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2286912459.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=235811",
-          "author": "Patrick Redford",
-          "description": "This week on the show, Harry and I hung out with the hosts of the State of the League podcast for an hour of classic offseason nonsense. We talked about Paul Schrader getting really into AI, which aging stars should be allowed to do steroids, and Brice Sensabaugh. Oh, you're not familiar with Brice Sensabaugh, the fourth-year shooting guard for the Utah Jazz? Well, you're about to be, as I am confident no other NBA podcast has dedicated this much of its runtime to talking about Brice Sensabaugh.\nYou can find Nothing But Respect in Apple Podcasts or whatever podcast app you use. Follow the show on Instagram, and contact the Broke Jumper Tip Line at (347) 380-6426. Thanks for listening!",
-          "link": "https://defector.com/zoomer-cultural-exchange-hour-with-state-of-the-league",
-          "publishedOn": "2026-09-17T15:59:46.000Z",
-          "wordCount": 4407,
-          "title": "Zoomer Cultural Exchange Hour, With ‘State Of The League’",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2269132841.jpg"
         }
       ]
     },
@@ -1923,46 +1873,6 @@
           "wordCount": 24019,
           "title": "RFK Jr., Who Should Be Running Out of Terrible Ideas By Now, Has Managed to Think Up Another Terrible Idea",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/b16b29c7-b040-4a0e-bf28-53cb136a88d6.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73780629/trump-administration-pfas-rollbacks-drinking-water/",
-          "author": null,
-          "description": "The Trump administration is cutting back limits on PFAS, which I think we can all agree is a very bad thing.",
-          "link": "https://www.esquire.com/news-politics/politics/a73780629/trump-administration-pfas-rollbacks-drinking-water/",
-          "publishedOn": "2026-09-17T21:24:23.000Z",
-          "wordCount": 20433,
-          "title": "Our President Wants Us to Drink Toxic Water",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/815edd42-11fb-4431-aa13-8a65414c32e4.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73777781/mike-johnson-gas-tax-suspension-argument/",
-          "author": null,
-          "description": "I guess hell froze over.",
-          "link": "https://www.esquire.com/news-politics/politics/a73777781/mike-johnson-gas-tax-suspension-argument/",
-          "publishedOn": "2026-09-17T18:54:06.000Z",
-          "wordCount": 17507,
-          "title": "Only an Incompetent Leader Like Mike Johnson Could Cause Republicans to Fight Over—Wait for It—a Tax Cut",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/6f2a821b-33df-4f0b-88c5-ea7b98c7cfc1.jpeg?crop=1xw:0.748xh;0xw,0.041xh&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73777135/kevin-warsh-inflation-rates-trump/",
-          "author": null,
-          "description": "It’s good to know that not everyone bows to our bumbling leader’s ego.",
-          "link": "https://www.esquire.com/news-politics/politics/a73777135/kevin-warsh-inflation-rates-trump/",
-          "publishedOn": "2026-09-17T18:50:04.000Z",
-          "wordCount": 17935,
-          "title": "Trump’s Handpicked Fed Chair Basically Gave the Finger to Absurd Inflation Demands",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/c55ab4bb-7c69-4798-8cae-8a94acb57d6e.jpeg?crop=1xw:0.74990727003xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73762858/thomas-massie-pete-hegseth-impeachment-mike-johnson/",
-          "author": null,
-          "description": "The Kentucky representative tried his darnedest to impeach everyone’s least favorite Cabinet member—before Trumpian lapdog Mike Johnson put a stop to it.",
-          "link": "https://www.esquire.com/news-politics/politics/a73762858/thomas-massie-pete-hegseth-impeachment-mike-johnson/",
-          "publishedOn": "2026-09-17T18:12:55.000Z",
-          "wordCount": 18261,
-          "title": "If More Republicans Were Behaving Like Thomas Massie, Maybe We Wouldn’t Be So Mired in Sh*t Right Now",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/e1e3ca7b-5801-4cc6-b0f6-ec1e3369b646.jpeg?crop=1xw:0.750072907553xh;center,top&resize=1200:*"
         }
       ]
     },
@@ -2086,6 +1996,16 @@
       "feedUrl": "https://foxtrot.com/feed/",
       "siteUrl": "https://foxtrot.com",
       "articles": [
+        {
+          "id": "https://foxtrot.com/?p=6301",
+          "author": "Bill Amend",
+          "description": "FoxTrot by Bill Amend | October 4, 2026",
+          "link": "https://foxtrot.com/2026/09/27/thirdback/?utm_source=rss&utm_medium=rss&utm_campaign=thirdback",
+          "publishedOn": "2026-09-27T05:01:00.000Z",
+          "wordCount": 2652,
+          "title": "Thirdback",
+          "imageUrl": "https://foxtrot.com/wp-content/uploads/2026/09/ft260927-foxtrot-comics-bill-amend-thirdback-football-nfl-sports-sunday-comic-strip.png"
+        },
         {
           "id": "https://foxtrot.com/?p=6251",
           "author": "Bill Amend",
@@ -2235,16 +2155,6 @@
           "wordCount": 2109,
           "title": "Notes on the Florida Senate Race",
           "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/09/GettyImages-2292601214.jpg?w=1200"
-        },
-        {
-          "id": "https://talkingpointsmemo.com/?p=1558065",
-          "author": "Josh Marshall",
-          "description": "As I’ve suggested in recent posts I’m finding it quite challenging to make sense of this roiling debate about AI...",
-          "link": "https://talkingpointsmemo.com/edblog/we-need-to-talk-about-the-rationalists-and-longtermism",
-          "publishedOn": "2026-09-17T21:48:10.000Z",
-          "wordCount": 2293,
-          "title": "We Need to Talk about AI, the ‘Rationalists’ and ‘Longtermism’",
-          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/09/GettyImages-2294578360.jpg?w=1200"
         }
       ]
     },
@@ -2348,22 +2258,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!SOf7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20520322-8429-492b-941a-a8764dcb0a83_400x600.jpeg"
-        },
-        {
-          "id": "https://morningmemo.talkingpointsmemo.com/p/fugitive-ice-agent-arrested-in-minnesota",
-          "author": "David Kurtz",
-          "description": "INSIDE: Christian Castro ... Patrick Schiltz ... RFK Jr.",
-          "link": "https://morningmemo.talkingpointsmemo.com/p/fugitive-ice-agent-arrested-in-minnesota",
-          "publishedOn": "2026-09-17T16:13:25.000Z",
-          "wordCount": null,
-          "title": "Fugitive ICE Agent Arrested in Minnesota",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!9glD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd38c8e16-edc3-44f2-9511-2d9e2677f2d2_400x600.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!9glD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd38c8e16-edc3-44f2-9511-2d9e2677f2d2_400x600.jpeg"
         }
       ]
     },
