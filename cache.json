@@ -133,6 +133,26 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://irreal.org/blog/?p=14110",
+          "author": null,
+          "description": "Les Misérables who are stuck in a corporate environment mandating the use of the horrific Outlook for email is that it’s very difficult or impossible to deal with it from within Emacs. For those of us who feel that doing any text oriented task outside of Emacs is an imposition, that’s intolerable.\n\n\nPatient_Chance_3795 over at the Emacs subreddit has a hint on how to deal with one aspect of the problem: registering an Azure app. Check out his post for a suggestion on how to deal with the issue.\n\n\nThe sad truth is that the main difficulty in dealing with Outlook is not the emails but the other functions such as calendar invites. As usual, Microsoft has made a point of ensuring that you have to use their software if you’re unlucky enough to be find yourself in their ecosphere.\n\n\nRegardless, every little bit of help in escaping their maw is welcome. If you’d like to at least deal with emails in an Outlook environment, take a look at Patient_Chance_3795’s post.",
+          "link": "https://irreal.org/blog/?p=14110",
+          "publishedOn": "2026-09-27T15:44:56.000Z",
+          "wordCount": 1357,
+          "title": "Irreal: Outlook To Emacs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://einar.codeberg.page/eww-in-emacs-31-would-not-use-browse-url-generic-as-browse-url-secondary-browser-function.html",
+          "author": null,
+          "description": "(use-package eww                        ; Web browser\n  :config\n  (setopt browse-url-browser-function 'eww-browse-url\n          browse-url-secondary-browser-function 'browse-url-generic\n          browse-url-generic-program \"librewolf\"\n  ; ...\n\n(use-package eww                        ; Web browser\n  :config\n  (setopt browse-url-browser-function 'eww-browse-url\n          browse-url-secondary-browser-function (lambda () (start-process \"librewolf\"))\n  ; ...\n\n(use-package eww                        ; Web browser\n  :config\n  (setopt browse-url-browser-function 'eww-browse-url\n          browse-url-secondary-browser-function (lambda () (browse-url-generic))\n          browse-url-generic-program \"librewolf\"\n  ; ...\n\n(defun eww-browse-with-external-browser (&optional url)\n  \"Browse the current URL wi…",
+          "link": "https://einar.codeberg.page/eww-in-emacs-31-would-not-use-browse-url-generic-as-browse-url-secondary-browser-function.html",
+          "publishedOn": "2026-09-27T12:00:00.000Z",
+          "wordCount": 1063,
+          "title": "Einar Mostad: EWW in Emacs 31 would not use browse-url-generic as browse-url-secondary-browser-function",
+          "imageUrl": null
+        },
+        {
           "id": "https://protesilaos.com/codelog/2026-09-27-emacs-live-root-access-show/",
           "author": null,
           "description": "Raw link: https://www.youtube.com/watch?v=c0qZ6QzpcVc\nTonight I will join the livestream that @linkarzu hosts together with\nRumen and Ted. We will talk about Emacs. The discussion is open to the\naudience, so join us to write your questions and just hang out.\nI am looking forward to this!\nAbout ‘Root Access’\nRoot Access is a live conversation with Linkarzu, CEO members, and\ninvited guests about tech, tools, workflows, and what they’re\nbuilding. Guests can share their projects before we dive into the\ndiscussion. Everyone is welcome to watch live and join the chat; the\nfull replay stays public.\nSupport @linkarzu\nWhat’s the “Linkarzu CEOs Monthly Hangout” Podcast\n@linkarzu YouTube memembers\nAll the ‘Root Access’ episodes",
@@ -379,6 +399,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=236607",
+          "author": "Ray Ratto",
+          "description": "When Amon Ra St. Brown scored a second-quarter touchdown today against the New York Jets, he did not simply drop the ball in the end zone and walk off the field without acknowledging any teammates, the crowd, or anyone else. But he should have. The National Football League has fined him nearly $60,000 for four incidences of rampant fun-having (miming smoking) in the Lions' 41-31 Week 2 loss to the Buffalo Bills, so he should deprive the league of that amount of fun in the future.\nChildish? You betcha. Then again, what better time to be snippy with the bosses than game day? You want bland? We'll give you bland. In fact every touchdown today and tomorrow night should be anti-celebrated the same way, just as a way to tell the owners to buy larger undergarments so there isn't much chafing and binding to ruin their days.\nWe assume this is an ownership thing, since the owners are the ones who typically decide when touchdown celebrations get too, well, what, exactly? Choreographed? Whimsical? Lurid? Evocative of historical massacres? Disturbing to the youth of America? But even if they're in the clear this time, someone in the league office has decided the players' gift for the terpsichore of muse must be restricted lest the nation become morally compromised any more than it already is as a matter of everyday commerce.",
+          "link": "https://defector.com/the-finings-will-continue-until-morale-worsens",
+          "publishedOn": "2026-09-27T18:44:21.000Z",
+          "wordCount": 5154,
+          "title": "The Finings Will Continue Until Morale Worsens",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/amon-ra.jpeg"
+        },
+        {
+          "id": "https://defector.com/?p=236604",
+          "author": "Ray Ratto",
+          "description": "There is a possibility that Austin Romaine will be a fine professional football player, make boatloads of money more than whatever he is taking in as a linebacker at Texas Tech, and maybe get drafted by an NFL team that isn't awful. Maybe he'll be known as more than just The Guy Named After A Lettuce.\nBut even if bad luck in the athlete business besets him and none of these things happen, he's still got Saturday, and if that isn't enough to get him free drinks in Lubbock for a decade, then shame on Lubbock for yet another thing.\nRomaine intercepted a pass from Sam Houston State University quarterback Brett Holloway and returned it 15 yards for a touchdown in the Red Raiders' 760-7 (okay, 49-14) win over SHSU on Saturday. Which of course is no big deal. Pick-sixes happen all the time. Most Texas citizens could do it in street clothes, or tell you they could.",
+          "link": "https://defector.com/austin-romaine-will-always-have-saturday",
+          "publishedOn": "2026-09-27T17:51:15.000Z",
+          "wordCount": 5326,
+          "title": "Austin Romaine Will Always Have Saturday",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/austin-romaine.jpeg"
+        },
         {
           "id": "https://defector.com/?p=236598",
           "author": "Ray Ratto",
@@ -2002,22 +2042,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!Pwjy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70e4ad81-a6b3-43c5-97e1-797cf1058a59_2558x1944.png"
-        },
-        {
-          "id": "https://www.flowstate.fm/p/professor-kazkaz",
-          "author": "Flow State",
-          "description": "Today we’re listening to Professor Kazkaz, a collaboration between German electronic musicians Gregor Tresher and Marcus Schmahl.",
-          "link": "https://www.flowstate.fm/p/professor-kazkaz",
-          "publishedOn": "2026-09-18T07:04:40.000Z",
-          "wordCount": null,
-          "title": "Professor Kazkaz",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!U8Hl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22f1cb74-adad-4984-8ae6-226132aea219_2382x1982.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!U8Hl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22f1cb74-adad-4984-8ae6-226132aea219_2382x1982.png"
         }
       ]
     },
