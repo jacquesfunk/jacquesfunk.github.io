@@ -6,6 +6,46 @@
       "siteUrl": "https://baty.net/index.xml",
       "articles": [
         {
+          "id": "https://baty.net/journal/27Sep26/",
+          "author": null,
+          "description": "Leeloo (2016)\nI'm back on my Mac and all-in with Bear again right now. Working on an Alfred workflow for daily notes and logging. So refreshing!\nWell, it looks like I may have a use for that \"extra\" Xteink X4 I bought: Snail — The screen you can read in the sun. (via Espresso Shots 9-27-26)\nSome of you may be disappointed to hear it, but I vibe-coded a CMS for this blog.\n✍️ Reply by email",
+          "link": "https://baty.net/journal/27Sep26/",
+          "publishedOn": "2026-09-27T13:05:10.000Z",
+          "wordCount": 141,
+          "title": "Sunday, September 27, 2026",
+          "imageUrl": "https://baty.net/img/2026/20260927-leeloo.webp"
+        },
+        {
+          "id": "https://baty.net/posts/2026/09/baty-net-editor/",
+          "author": null,
+          "description": "Usually, when I grow tired of editing blog posts using Markdown files in Emacs or whatever, I create a new blog using Ghost or something like it. This time, I did something different.\nAI Usage\nThis post is about vibe coding an app for myself. If you're put off by this, now's the time to stop reading.\nSometimes I just want a nice, easy, CMS for blogging. Emacs and a few lisp function are not that, so I asked Claude Code to make me a web app.\nAt 7:00 am I sent the following to Claude:\nMy blog at baty.net is managed locally using Eleventy. I would like to build a local web app that allows me to create new content. It should have  \"New Post\", \"New Journal\", \"New Page\", and \"New Note\" options. The editor should handle Markdown, but it doesn't necessarily have to be \"WYSIWYG\" . There's should be a way to start the local server (\"just serve\") and deploy (\"just deploy\"). The blog is currently in ~/sites/baty.net.\nI walked away and made breakfast.\nAt 7:27 am Claude said this:\n\nAnd gave me this:\nScreenshot of my new app\n\nI used it to write a test post, and it worked, first try. The app needed no edits. I later added a few niceties, but all-in  this first version took less than an hour to build and I'm using it to write this post.\n✍️ Reply by email",
+          "link": "https://baty.net/posts/2026/09/baty-net-editor/",
+          "publishedOn": "2026-09-27T12:18:47.000Z",
+          "wordCount": 304,
+          "title": "Baty.net Editor",
+          "imageUrl": "https://baty.net/img/opengraph.jpg"
+        },
+        {
+          "id": "https://baty.net/notes/2026/09/neil-peart-no-one-s-disciple/",
+          "author": null,
+          "description": "Such an amazing man and story. I've seen Rush three times: 1980, 1982, and 2012. They're my favorite.\n✍️ Reply by email",
+          "link": "https://baty.net/notes/2026/09/neil-peart-no-one-s-disciple/",
+          "publishedOn": "2026-09-27T11:28:39.000Z",
+          "wordCount": 93,
+          "title": "Neil Peart: No One's Disciple ★★★★★",
+          "imageUrl": "https://baty.net/img/2026/20260927-neil-peart--no-one-s-disciple-card.jpeg"
+        },
+        {
+          "id": "https://baty.net/journal/24Sep26/",
+          "author": null,
+          "description": "Leeloo watching the world go by (2016)\n✍️ Reply by email",
+          "link": "https://baty.net/journal/24Sep26/",
+          "publishedOn": "2026-09-24T14:49:34.000Z",
+          "wordCount": 75,
+          "title": "Thursday, September 24, 2026",
+          "imageUrl": "https://baty.net/img/2026/20260924-leeloo-at-window.webp"
+        },
+        {
           "id": "https://baty.net/notes/2026/09/llm-writing-for-you-isn-t-your-writing/",
           "author": null,
           "description": "I Don’t Want to Read What You Didn’t Write\nWhen you are the one who prompted the AI, the written output is often quite useful. But do not mistake this for effective writing.\nI am so tired of reading LLM-generated text, especially when it was prompted by someone else.\n✍️ Reply by email",
@@ -331,16 +371,6 @@
           "wordCount": 1545,
           "title": "Irreal: Improving Emacs Long Lines Performance",
           "imageUrl": null
-        },
-        {
-          "id": "https://protesilaos.com/codelog/2026-09-18-emacs-dired-preview-0-7-0/",
-          "author": null,
-          "description": "This is a simple package to automatically preview in a window the file\nat point in Dired buffers. Preview windows are closed when they are no\nlonger relevant, while preview buffers are killed if they have not\nbeen used for other purposes beside previewing. The package provides\nseveral customisation options to control its behaviour.\nPackage name (GNU ELPA): dired-preview\nOfficial manual: https://protesilaos.com/emacs/dired-preview\nGit repositories:\n    \nGitHub: https://github.com/protesilaos/dired-preview\nGitLab: https://gitlab.com/protesilaos/dired-preview\nBackronym: Directories Invariably Render Everything Decently …\npreview; dired … PDFs Require Extra Viewing Instructions for Emacs\nto Work.\nBelow are the release notes\nVersion 0.7.0 on 2026-09-18\nThis version introduces a few refinements …",
-          "link": "https://protesilaos.com/codelog/2026-09-18-emacs-dired-preview-0-7-0/",
-          "publishedOn": "2026-09-18T00:00:00.000Z",
-          "wordCount": 625,
-          "title": "Protesilaos: Emacs: dired-preview version 0.7.0",
-          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
         }
       ]
     },
@@ -349,6 +379,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=236598",
+          "author": "Ray Ratto",
+          "description": "Stephen Curry has proven himself yet again to be an enemy of the proletariat and an implacable foe of the Third American Dream. And this time, the cost to him and his burgeoning empire was a mere $20,000,000 (give or take the odd day trip to Monte Carlo), the difference between what he could have made over the next two seasons, $136.7 million, and what he'll get. What a sap.\nCurry just re-upped with Golden State The Corporate Name, formerly GSW Sports LLC, for two more years plus a player option that he would be a monumental berk not to exercise ahead of the season he'll turn 41. His 2026–27 salary of $62.6 million will drop to $55.7 million in 2027–28, and $60.2 million in the optional 2028–29 season, in an act that upholds two mostly discarded myths about team/player contracts in the modern age: one, that there is such a thing as a hometown discount, and two, that money can be left on the table without psychic damage to the payee.\nCurry's motivation, as he has stated too many times for cynical hyenas like you, is to leave the boys upstairs some salary-cap room to improve the level of his playmates. This is known as the Reverse Kawhi Leonard, in which someone does work for less money as opposed to doing less work for more money, and also the Backwards Ballmer, in which the salary cap is a thing to be heeded rather than used as loo roll. It's such an old-fashioned play that they may as well move the franchise to Hooterville Junction and make all the customers leave their shoes at the door.",
+          "link": "https://defector.com/stephen-curry-leaves-20-million-in-his-work-clothes",
+          "publishedOn": "2026-09-27T13:31:09.000Z",
+          "wordCount": 5675,
+          "title": "Stephen Curry Leaves $20 Million In His Work Clothes",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/steph.jpeg"
+        },
         {
           "id": "https://defector.com/?p=236550",
           "author": "Ray Ratto",
@@ -998,16 +1038,6 @@
           "publishedOn": "2026-09-19T01:00:53.000Z",
           "wordCount": 1508,
           "title": "Saturday Night 80s Jam: Human League – Don’t You Want Me",
-          "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3485",
-          "author": "Schill",
-          "description": "You’re weekly dose of funny and silly pictures and memes.",
-          "link": "https://stuffthatinterestsme.net/friday-funnies-3/",
-          "publishedOn": "2026-09-18T00:11:41.000Z",
-          "wordCount": 1246,
-          "title": "Friday Funnies",
           "imageUrl": null
         }
       ]
@@ -2272,6 +2302,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/rogue-nation-moron-president",
+          "author": "Jeff Tiedrich",
+          "description": "Preznit Fuckwit is why we can’t have nice things",
+          "link": "https://www.jefftiedrich.com/p/rogue-nation-moron-president",
+          "publishedOn": "2026-09-27T14:13:27.000Z",
+          "wordCount": null,
+          "title": "rogue nation, moron president",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!75br!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81bc2041-e8c2-4d77-a9c1-e45255f10b57_550x325.webp",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!75br!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81bc2041-e8c2-4d77-a9c1-e45255f10b57_550x325.webp"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/this-week-in-stupid-september-26",
           "author": "Jeff Tiedrich",
