@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-27T22:49:42.513Z</updated>
+    <updated>2026-09-28T03:45:30.331Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
@@ -2724,84 +2724,6 @@ Israel: Sometime between showing college football's highest-rated games of all t
 Given all that, you won't be surprised that the bill is completely anti-labor. It is a bill that seeks to undo the last few years of college athletes grabbing some of the fruits of their labor and put the genie back into its bottle as much as possible, and to reinstall the NCAA atop college sports by federal law. And ESPN, which is now purely just a promotion arm for the many leagues it's in business with, is more than happy to pitch in. The cartel is striking back and hoping enough people are dumb enough, or just spiteful enough, to restore control to the parties whose wild selfishness led to amateurism's collapse.]]></summary>
         <author>
             <name>Israel Daramola</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Irreal: Improving Emacs Long Lines Performance]]></title>
-        <id>https://irreal.org/blog/?p=14091</id>
-        <link href="https://irreal.org/blog/?p=14091"/>
-        <updated>2026-09-18T15:37:04.000Z</updated>
-        <summary type="html"><![CDATA[improving Emacs performance on files with long lines. As those of you who have to deal with long lines know, Emacs doesn’t handle them very well and is prone to freeze while trying to render them.
-
-
-One good solution for this is Phil Sainty’s excellent so-long package. The idea is that so-long detects when when Emacs is dealing with long lines and turns off certain computationally expensive features such as syntax highlighting and font-lock mode. This is a big help in speeding up Emacs’ processing of long lines but it also disables some useful features.
-
-
-Cherti’s idea to to provide more granular control. For example, while syntax highlight does impose a processing penalty, it also makes code easier to read for many people. Cherti shows how to get so-long to not disable syntax highlighting.
-
-
-Cherti examines several other features that can be disabled, or not, by so-long and discusses the pros and cons of doing so. He shows you how, in effect, to fine tune so-long to achieve your desired balance between performance and utility.
-
-
-I really like this story because it’s a perfect example of how Emacs makes it easy to solve problems. First, there was the problem of Emacs freezing when dealing with long lines. Phil Sainty, who is not a member of the Emacs development team, helped ameliorate that problem with a third party package. Then James Cherti noticed that in certain situations you might want a less drastic effect than the default so-long action and showed how to achieve that. Even Cherti’s suggestions can be customized to suit the individual user. It’s Emacs at its best.]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alex Ovechkin Finally Faces Some Pushback For Supporting Vladimir Putin]]></title>
-        <id>https://defector.com/?p=235857</id>
-        <link href="https://defector.com/alex-ovechkin-finally-faces-some-pushback-for-supporting-vladimir-putin"/>
-        <updated>2026-09-18T15:22:37.000Z</updated>
-        <summary type="html"><![CDATA[Alexander Ovechkin is probably the single most famous Russian athlete. He is also a supporter of Russian President Vladimir Putin, and not a particularly quiet or passive one. This, occasionally, has gotten him into some hot water with the rest of the world, given Putin's corruption and warmaking. In 2017, Ovechkin launched "PutinTeam," a social media movement supporting Putin and his party in the following year's elections, which were widely decried as fixed. In 2022, following Russia's indefensible invasion of Ukraine, Ovechkin said he still supported Putin. "He's my president," the Capitals star said.
-You do not, in fact, have to support a particular politician just because he's in charge, not even in Russia. Plenty of Russian NHL players have said nothing. Some have even spoken out against Putin or Russia's attack on Ukraine, which weakens the constant refrain from Ovechkin defenders that he's only on Putin's side to protect his family. It's obviously more than expedience; they have each other's cell numbers.
-But for the most part, Ovechkin has avoided real criticism for his political stances. Part of this is because he is one of the greatest players ever, and sports fans necessarily get very good at separating art from artist. But another part of it is that Ovechkin seems to have a sense of where the line is, and pulls back when public opinion indicates he's crossing it. Since his 2022 comments, Ovechkin has been near-totally silent on politics. Whether or not the rumors about the NHL telling him to clam up are true, his silence has served him well. The league and many fans were able to celebrate his chases of Wayne Gretzky and 1,000 goals without guilt. Ovechkin didn't face any questions tougher than ones about his favorite Italian restaurant.]]></summary>
-        <author>
-            <name>Barry Petchesky</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kennedy Center Saved From Demolition — for Now]]></title>
-        <id>https://morningmemo.talkingpointsmemo.com/p/kennedy-center-saved-from-demolition</id>
-        <link href="https://morningmemo.talkingpointsmemo.com/p/kennedy-center-saved-from-demolition"/>
-        <updated>2026-09-18T14:31:24.000Z</updated>
-        <summary type="html"><![CDATA[INSIDE: Todd Blanche ... Harmeet Dhillon ... Christian Castro]]></summary>
-        <author>
-            <name>David Kurtz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[none of this shit is popular]]></title>
-        <id>https://www.jefftiedrich.com/p/none-of-this-shit-is-popular-b08</id>
-        <link href="https://www.jefftiedrich.com/p/none-of-this-shit-is-popular-b08"/>
-        <updated>2026-09-18T14:30:29.000Z</updated>
-        <summary type="html"><![CDATA[Dear Leader fucking sucks, and Republicans are going to get crushed in the midterms]]></summary>
-        <author>
-            <name>Jeff Tiedrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lions’ Defense Is Dyin’ Out There]]></title>
-        <id>https://defector.com/?p=235855</id>
-        <link href="https://defector.com/the-lions-defense-is-dyin-out-there"/>
-        <updated>2026-09-18T14:06:25.000Z</updated>
-        <summary type="html"><![CDATA[There are few scenarios for a struggling and injury-riddled defense more nightmarish than the one the Detroit Lions' unit had to face on Thursday night. Just four days after suffering through a 31-30 overtime win over the Saints, during which they were on the field for a grueling 90 snaps, they found themselves in Buffalo, dealing with Josh Allen and the Buffalo Bills in their home opener. And oh yeah, Kerby Joseph and Brian Branch are both still on the PUP list.
-So it got bad quickly for the Lions on Thursday night, and it stayed bad. The Bills opened the game with a 10-play, 85-yard touchdown drive. The next possession resulted in eight plays, 79 yards, and another touchdown. And what of their third drive of the game? Surely they didn't score on that one, too? Unfortunately for the Lions that one also went for 57 yards and a touchdown on nine plays. The fourth drive was at least brief: four plays for 68 yards and another touchdown.
-The Bills were up 27-7 by the tail end of the second quarter, and the cameras kept finding Lions stud pass-rusher Aidan Hutchinson on the sideline, gulping down huge breaths of air and spraying water down the front and back of his jersey. He looked like a guy who was being forced to run a marathon at gunpoint, which arguably would have probably been a more pleasant experience than the one he was living through. The Bills were being 12-personnel bullies, pushing the Lions around with their two tight ends and getting big chunks of yardage however they wanted. There were Josh Allen sprints for first downs, James Cook running for double digits seemingly every time he touched the ball, and wide open receivers sitting in every soft spot the Lions' defense offered up. The Bills ran 74 plays and finished with 34 first downs, meaning that the 41-31 final score flattered the Lions much more than they deserved. By the second half it was obvious to the Bills that they could score as many points as they needed to in order to win the game, and a 10-point margin suited them just fine.]]></summary>
-        <author>
-            <name>Tom Ley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cavan Sullivan And The USMNT’s Future Are Here]]></title>
-        <id>https://defector.com/?p=235815</id>
-        <link href="https://defector.com/cavan-sullivan-and-the-usmnts-future-are-here"/>
-        <updated>2026-09-18T13:03:54.000Z</updated>
-        <summary type="html"><![CDATA[On Thursday morning, USMNT manager Mauricio Pochettino announced his roster for a forthcoming quartet of games. The first thing that leaps out is that Christian Pulisic's name is nowhere to be found. The story is that the U.S.'s best player will stay in Italy as he heals up from a pair of injuries sustained in his team's embarrassing loss to Belgium in the World Cup, though Pulisic isn't so injured that he couldn't help his team come back and salvage a draw against Lazio last weekend. 
-Per the sourced-up Doug McIntyre, Pulisic "has had a strained relationship with Pochettino" since skipping the 2025 Gold Cup. It's way too early to forecast Pulisic's medium-term future with the program, or the degree to which it will matter. In the opening days of the 2030 World Cup cycle, it's time to think about the future. It's time to welcome the reign of Cavan Sullivan.
-Sullivan is only 16 years old, but has been marked for future USMNT stardom since early 2024, when he signed the largest Homegrown Player deal in MLS history with the Philadelphia Union. That deal included a pre-transfer agreement to ship him off to Manchester City when he turned 18. Four years is a long time to have to wait, but City clearly felt someone of his talent was worth it, and he's only proven that decision wise in the two years since.]]></summary>
-        <author>
-            <name>Patrick Redford</name>
         </author>
     </entry>
     <entry>
