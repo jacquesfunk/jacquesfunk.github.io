@@ -6,6 +6,16 @@
       "siteUrl": "https://baty.net/index.xml",
       "articles": [
         {
+          "id": "https://baty.net/posts/2026/09/a-swift-wrapper-for-my-little-cms/",
+          "author": null,
+          "description": "I didn't want the Baty.net Editor to be just another tab buried in my browser, so I had Claude make me a real Mac app out of it.\nIn a normal world, the only way I'd be able to split a website into its own app would be \"Add to Dock\" via Safari. That would work, but it would mean that running the local Node server for Eleventy was a separate step from the app. It would also only have Safari's default menus.\nI wanted something nicer, so I had Claude build me a Swift wrapper. I suppose I could have used something like Electron, but my Mac Mini only has 16 GB of memory, so Electron would be too heavy.\nIt took Claude Code 15 minutes to wrap the thing, create the app, add an icon, write the readme, and commit all of it. What a world.\n\nWhen I launch the app, it starts the server automatically. Also, there are actual menus.\n\nIt's currently using only 99 MB of memory. This stuff makes me a little giddy.\n✍️ Reply by email",
+          "link": "https://baty.net/posts/2026/09/a-swift-wrapper-for-my-little-cms/",
+          "publishedOn": "2026-09-28T11:36:23.000Z",
+          "wordCount": 257,
+          "title": "A Swift wrapper for my little CMS",
+          "imageUrl": "https://baty.net/img/2026/20260928-baty-blog-editor.webp"
+        },
+        {
           "id": "https://baty.net/journal/27Sep26/",
           "author": null,
           "description": "Leeloo (2016)\nI'm back on my Mac and all-in with Bear again right now. Working on an Alfred workflow for daily notes and logging. So refreshing!\nWell, it looks like I may have a use for that \"extra\" Xteink X4 I bought: Snail — The screen you can read in the sun. (via Espresso Shots 9-27-26)\nSome of you may be disappointed to hear it, but I vibe-coded a CMS for this blog.\n✍️ Reply by email",
@@ -122,6 +132,46 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://mbork.pl/2026-09-28_How_many_screens_left",
+          "author": null,
+          "description": "One of the things I do in Emacs is reading. Sometimes it is an article copied from the internet using org-web-tools, sometimes it is a long answer to my question to an LLM, and sometimes it is an ebook I’m reading using nov.el. Either way, I often like to know how much I have left.",
+          "link": "https://mbork.pl/2026-09-28_How_many_screens_left",
+          "publishedOn": "2026-09-28T18:17:26.000Z",
+          "wordCount": 1270,
+          "title": "Marcin Borkowski: How many screens left",
+          "imageUrl": null
+        },
+        {
+          "id": "http://yummymelon.com/devnull/announcing-aqui.html",
+          "author": null,
+          "description": "One of my favorite Emacs commands is sunrise-sunset (Sunrise/Sunset (GNU Emacs Manual)) to get the day’s times for sunrise and sunset. For it to work right, you must have Emacs pre-configured with location information. This is done by setting three customizable variables:\ncalendar-latitude\ncalendar-longitude\ncalendar-location-name\nIf you run Emacs on a system that is fixed in location, manually setting the above variables is a one time task. However if you do a fair amount of traveling with Emacs on a laptop, a more programmatic solution might be desired using a location service, ideally an OS-native one. If you’re a macOS user, Aquí (aqui.el) does just that by invoking a Shortcut to query the OS-native location service.\nLeveraging Shortcuts gives Emacs access to a high-accuracy fused location update without need to build, install, and configure a separate macOS executable.\nOnce Aquí is installed, updating the location is done via the aqui command.\n\n\n1\n\nM-x aqui RET\n\n\n\n\n\nThis will update the above mentioned variables and message the current location in the mini-buffer.\nFor more information, refer to the Aquí User Guide.\nAquí is now available on MELPA.",
+          "link": "http://yummymelon.com/devnull/announcing-aqui.html",
+          "publishedOn": "2026-09-28T15:25:00.000Z",
+          "wordCount": 254,
+          "title": "Charles Choi: Announcing Aquí",
+          "imageUrl": "http://yummymelon.com/devnull/images/opengraph-default.jpg"
+        },
+        {
+          "id": "https://irreal.org/blog/?p=14112",
+          "author": null,
+          "description": "wrote back in July, although I’ve had Embark installed for some time, I’ve only just begun to really use it. Most of my uses involve following a link (of any type) and acting on a group of files, typically to delete several files at once. Of course, those uses are barely scratching the surface of Embark’s capabilities.\n\n\nThose capabilities are essentially open ended. By that I mean you can define your own Embark actions. Stefano Rodighiero has a nice example of this. It’s a nice example for two reasons. First, it’s simple and easy to follow even though—the second reason—I don’t know anything about what he’s trying to do.  The point is that Rodighiero has an obscure—to me—application that he wants to provide an action for but you don’t need to know the details of the application to follow the action.\n\n\nThis is incredibly powerful. Rodighiero let Embark do the hard work of identifying and parsing the target and merely wrote some simple glue to take that target reference and do something useful with it.\n\n\nIf, like me, you’re just beginning to feel your way around Embark, Rodighiero’s post is a useful read. You almost certainly won’t have a need to copy his action but it’s an excellent go by for your own.",
+          "link": "https://irreal.org/blog/?p=14112",
+          "publishedOn": "2026-09-28T15:20:10.000Z",
+          "wordCount": 1405,
+          "title": "Irreal: A Nice Example Of An Embark Action",
+          "imageUrl": null
+        },
+        {
+          "id": "https://sachachua.com/blog/2026/09/2026-09-28-emacs-news/",
+          "author": null,
+          "description": "nice long video about Org mode with plenty of tips for beginners. Also, it's the end of the month, so check out the submissions for the Emacs Carnival for September (\"Games\") and consider volunteering to host the next one!\n\n\n\nUpcoming events (iCal file, Org):\n\nEmacs Berlin: Emacs-Berlin Hybrid Meetup https://emacs-berlin.org/ Wed Sep 30 1000 America/Vancouver - 1200 America/Chicago - 1300 America/Toronto - 1700 Etc/UTC - 1900 Europe/Berlin - 2230 Asia/Kolkata – Thu Oct 1 0100 Asia/Singapore\nEmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/316464079/ Thu Oct 1 1600 America/Vancouver - 1800 America/Chicago - 1900 America/Toronto - 2300 Etc/UTC – Fri Oct 2 0100 Europe/Berlin - 0430 Asia/Kolkata - 0700 Asia/Singapore\nSacha Chua: Oct 2 - Emacs Chat 31: Pedro A. Aranda Gutierrez (Pr…",
+          "link": "https://sachachua.com/blog/2026/09/2026-09-28-emacs-news/",
+          "publishedOn": "2026-09-28T13:31:07.000Z",
+          "wordCount": 856,
+          "title": "Sacha Chua: 2026-09-28 Emacs news",
+          "imageUrl": null
+        },
         {
           "id": "https://irreal.org/blog/?p=14110",
           "author": null,
@@ -361,16 +411,6 @@
           "wordCount": 470,
           "title": "Org Mode requests: [RFC] Org markup inside comments (was: [Bug] Confusing appearance of bracket link in comment)",
           "imageUrl": null
-        },
-        {
-          "id": "https://ashishpanigrahi.com/blog/completed-org-items-since-date/",
-          "author": null,
-          "description": "In my last blogpost, I showcased how I\nreview tasks finished over the last seven days. It implicitly\nassumes that I attend every group meeting[1] and that the group\nmeeting happens during the same time every week[2].\nIn a more practical sense, it would be nice to generalize this\nworkflow. I would like to specify a date, since when completed tasks\nwould be displayed until the current day. This way I would be able to\nreview my finished agenda items since a particular day in the past.\nThis date would typically be when the group meeting last occured, but\nwe are not strictly bound to it.\nImplementation in emacs lisp\nWe write an elisp snippet similar to the one in the previous blogpost.\n(defvar pani/last-group-meeting-date nil)\n\n(setq org-agenda-custom-commands\n      '((\"v\" \"Finished tasks since…",
-          "link": "https://ashishpanigrahi.com/blog/completed-org-items-since-date/",
-          "publishedOn": "2026-09-19T00:00:00.000Z",
-          "wordCount": 530,
-          "title": "Ashish Panigrahi: An upgraded workflow on reviewing finished tasks with org-agenda",
-          "imageUrl": null
         }
       ]
     },
@@ -379,6 +419,106 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=236698",
+          "author": "Maitreyi Anantharaman",
+          "description": "It was many WNBA news cycles ago—but not that many human years ago!—that the league’s central power struggle was shaping up to be one between A’ja Wilson and Breanna Stewart. Since Wilson was drafted in 2018, the two stars have lived atop MVP ballots and together won six of eight WNBA championships. On this very website, in 2022, I anointed them as much:\nStewart and Wilson, anchors of the Olympic team and the new faces of their sport, should run this league for a while. \"Should\" is an important qualifier. It wasn't too long ago that WNBA fans imagined epic future playoff battles between Stewart and Elena Delle Donne, battles that have had to stay in the imagination thanks to an Achilles injury, a back injury, and a pandemic. But everyone's health permitting, this is The Rivalry We Care About Now, and it's so extremely awesome to watch.”\nOn Sunday, the two would-be rivals were miles away from each other and their games tipped off a few hours apart. Stewart’s 34 points and 12 rebounds carried the Liberty to an upset 91-75 win over the top seeded Lynx in Minnesota. Just as in the regular season and in playoffs past, the Lynx had troublingly few answers for opposing size; the Liberty might be the most aggravating team to watch in the WNBA, but maybe more importantly, they’re also the tallest. Stewart, so hard-nosed and rangy and lanky, almost personally magnifies Minnesota’s flaws. She attacks mismatches and swats shots—on Saturday, she even supplied some throwback threes for extra style points. Solid games from Leonie Fiebich and Han Xu were sufficient help; Stewart doesn’t need much of it. (No matter at all that her team’s lead guard continues to shoot springtime tour dates.)",
+          "link": "https://defector.com/breanna-stewart-and-aja-wilson-sit-at-the-grown-ups-table",
+          "publishedOn": "2026-09-28T18:31:25.000Z",
+          "wordCount": 5313,
+          "title": "Breanna Stewart And A’ja Wilson Sit At The Grown-Ups Table",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2226061487.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236665",
+          "author": "Patrick Redford",
+          "description": "Inside the hundred-meter mark, after 273.3 kilometers of racing, Brandon McNulty looked back one last time to see the chasing pack behind him sprinting it out for silver. He banged on his handlebars, put his hands to his head, and pumped his fist, not seeming quite sure how he should celebrate his country's first World Championship road race victory in 33 years and the biggest win of his career. McNulty's scattered exuberance tells part of the story, as does his teammate Quinn Simmons coasting in for fourth and Matteo Jorgenson celebrating as he crossed he line in eighth. The Americans raced a perfect race, delivering a shocker in the world's biggest one-day race thanks to one of the best tactical performances you'll ever see.\nAn unfortunate byproduct of Tadej Pogacar's typically thrilling dominance is that he obviates or at least neutralizes team tactics. It really doesn't matter how carefully you distribute satellite riders, gouge away at his teammates, or force him to do extra work because he's so much better than everyone in the world that he can almost always go win the races he wants on pure strength. What are you supposed to do nwhen Pogacar is simply riding alone off the front for 70 kilometers, faster than any one team's worth of riders could sanely chase? But Pogacar's recent crash at the Vuelta opened the door not only for Enric Mas to win a bike race instead of nobly and anonymously finish fifth, but for a new world champion for the first time since the Second Pogacar Inquisition began three years ago. There probably won't be many more good chances like this. So, who would step into the vaccuum?\n\nhttps://www.youtube.com/watch?v=obK7tbfw-dI",
+          "link": "https://defector.com/team-usa-won-brandon-mcnulty-a-world-championship-with-a-tactical-masterclass",
+          "publishedOn": "2026-09-28T17:33:23.000Z",
+          "wordCount": 6285,
+          "title": "Team USA Won Brandon McNulty A World Championship With A Tactical Masterclass",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2297437002.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236687",
+          "author": "Dave McKenna",
+          "description": "Call ‘em the Badwill Games. Ireland scored three early goals and cruised to a 3-0 win over Israel in the first of two matches between the teams that have already made everybody go ewwwwww. \nThe game, played in Debrecen, Hungary, was the first of two very controversial matches between the national teams as part of the UEFA Nations League competition. Ireland had requested that UEFA ban Israel from the tournament, but that was denied, as was a subsequent appeal to be moved out of the same bracket. \nA national campaign then formed in Ireland to prevent the matches from happening. A group of 160 Irish athletes signed a petition released late last week calling for the matches to be cancelled. RTE, the Irish national broadcasting network, announced that it would only have limited coverage of the matches. Heimir Hallgrímsson, the Iceland-born manager of the Irish team, defended fielding a squad by saying, \"We're not playing with genocide. We're playing against genocide.\"",
+          "link": "https://defector.com/ireland-beats-israel-3-0-in-game-nobody-wanted",
+          "publishedOn": "2026-09-28T17:06:11.000Z",
+          "wordCount": 5560,
+          "title": "Ireland Beats Israel 3-0 In Game Nobody Wanted",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2297042499.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236591",
+          "author": "Lucy Bloom",
+          "description": "You ever need something so badly it scares you to say it aloud, just because the universe might smell that stench of desperation about you and smite your ass back into the existential garbage time you deserve? The way I’ve been feeling about living in New York City qualifies. When I said goodbye to Lauren Theisen last summer, it was crushing. I had seen that sublime summit and would now regress back to the place I regrettably called home. There is, as it turns out, a reason why writers love New York, and my apartment in Tacoma would have given Julian of Norwich seasonal depression. I knew I had to get back no matter what, but as I’ve documented, my constitution is ill suited for the ‘or bust’ suffixes of life.\nLuckily, life decided to rub my nose in just how shitty stagnancy smelled. My apartment’s toilet exploded sewage everywhere, wafting the Tacoma aroma upon all of my belongings. In case I hadn’t yet gotten the message, my lazy scummy dirtbag fuckface of a property manager decided this was the right time to raise the rent, supplying me the ample spite that would spur the big move. No time like the present. I needed to get rid of everything I could stomach one day buying again, find every latent dime I was owed or could borrow, and claw my way back to the only city really worth getting bled dry to live in. Most importantly, I needed to sell the Lexus.\nIn 2004, my uncle made one of the smartest calls that anyone ever got to make on the car market: He bought a brand new Lexus GX 470. It was eye-wateringly expensive, about 80 grand in today’s money, but his construction business was going well, and anyway in his judgment it was sturdier and more comfortable than anything else he test drove. He fucking nailed that one. This was Toyota engineering at the absolute peak of their powers. That GX was no steal, but at few points in history has a family of cars been so utterly far ahead of the competing options in terms of quality as the Toyota SUVs of this era.",
+          "link": "https://defector.com/how-can-you-not-be-romantic-about-an-old-rusty-truck-almost-ruining-your-life",
+          "publishedOn": "2026-09-28T16:40:00.000Z",
+          "wordCount": 7451,
+          "title": "How Can You Not Be Romantic About An Old Rusty Truck Almost Ruining Your Life?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-4645060231.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236648",
+          "author": "Luis Paez-Pumar",
+          "description": "Progress in the NFL is not linear, past success doesn't guarantee future success, regression to the mean is normal and expected—all of the cliches in the world can't possibly rationalize whatever the hell is happening to Drake Maye and the New England Patriots so far this season. Currently sitting at 1-2 after Jacksonville laid down a 35-6 \"old-fashioned ass whooping,\" as Pats safety Kevin Byard III put it, New England is finding life after a division title and a shock Super Bowl run to be, somehow, even harder and more dispiriting that it seemed on paper. Some fall-off was to be expected after a season in which the Pats had the easiest schedule of the century, but what's become of Drake Maye, who looked like a perennial MVP candidate last season, is downright shocking. \nMaye has been absolute ass so far this season. The stats are bad enough—585 yards, one touchdown, a league-leading six interceptions, two fumbles, a QBR of 45.9—to set off the alarms, but Maye is failing the eye test even harder than that. After looking poised both in the pocket and moving the ball with his feet last season, Maye looks jittery and unsure of his throws so far in 2026, leading to mistakes so jarringly poor that it's becoming easier to write off last year as a fluke than it is to give him grace for a tough schedule and some key injuries.\nA.J. Brown going down for multiple weeks with an ankle injury in the season opener hasn't helped, and Maye didn't force the front office to give Romeo Doubs $17 million a year to fail to get open on almost every play. Meanwhile, the run game, already not a particular strength last season, has been atrocious this time around, with Rhamondre Stevenson and TreVeyon \"Just Asking Questions\" Henderson combining for 72 yards a game on 3.9 yards per carry.",
+          "link": "https://defector.com/drake-maye-looks-dazed-and-confused-out-there",
+          "publishedOn": "2026-09-28T15:21:59.000Z",
+          "wordCount": 5918,
+          "title": "Drake Maye Looks Dazed And Confused Out There",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2297449383.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236626",
+          "author": "Maitreyi Anantharaman",
+          "description": "It's time to wrap up the month with a challenging themeless. Keep an eye out for tricky clues and fun wordplay. This puzzle was constructed by Zachary Edward-Brown, and edited by Hoang-Kim Vu. Zach is a Chicagoan who enjoys playing soccer and basketball and rooting for the Bears. He's always open to collabs.\nDefector crosswords, launched in partnership with our friends at AVCX, run every Monday. If you’re interested in submitting a puzzle to us, you can read our guidelines HERE. The AVCX, an independent puzzles and games outlet, invites you to subscribe, or sample the goods with a two-month free trial: \"With an AVCX subscription, you get access to weekly themed and themeless crosswords, minis, cryptics, and trivia, by email or in your favorite app. We have no corporate overlord, and we publish top-flight stuff only. We also pay our people fairly, always. Check us out.\"",
+          "link": "https://defector.com/the-crossword-sept-28-you-gonna-remember-me-themeless",
+          "publishedOn": "2026-09-28T15:11:22.000Z",
+          "wordCount": 3856,
+          "title": "The Crossword, Sept. 28: You Gonna Remember Me (Themeless)",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2274181329.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236639",
+          "author": "Barry Petchesky",
+          "description": "Pitchers are a kooky breed: superstitious, hypercompetitive, quite often a little bit nuts. It's a personality type that shares a lot with kickers and goalies in other sports. The common threads? First, they have an awful lot of downtime to spend in their own heads. Second, they are, to an extent, competing with themselves—out there all alone, with nothing but their own limitations to battle. Deprived of the warmth of human interaction, sometimes they go downright feral. Whatever works.\nIt's worked for Max Scherzer, you'd have to say. Three Cy Youngs, eight all-star appearances, two championship rings, ninth all-time in strikeouts. He got all that hardware by being a real freak. Stalking around the mound after a strikeout like a caged tiger. Warning off managers who might even consider taking him out of a game by activating the threat display of an alarmed hagfish crossed with a territorial canid. \"He’s snarling, snot is coming out his mouth, he’s drooling and steam is coming out his ears, his eyes are bloodshot,\" recalls one teammate, \"and he goes: 'You better get in the fucking dugout right now. Don’t you fucking dare come out here.'\"\nScherzer finished off his 19th season on Sunday as a member of the Blue Jays, and if it was an atypical season for the future hall-of-famer, it was quite in line with what you'd expect from a 42-year-old. It was rough, in other words. Scherzer hasn't officially decided on retirement, but with a lockout looming he's talking about it like he has, and anyway he's not returning to Toronto. \"We had circled this one, if we were out of it, to still pitch Sunday. It gives me a chance to pitch in front of my kids one more time,\" he said. It didn't matter that Scherzer would have to throw on short rest. It did matter, though he wouldn't admit it, that he still had a puncher's chance of chasing down Justin Verlander on the all-time strikeout list, after Verlander had returned from six months on the shelf to make one last start the day before.",
+          "link": "https://defector.com/it-isnt-over-until-max-scherzer-says-it-is",
+          "publishedOn": "2026-09-28T14:32:51.000Z",
+          "wordCount": 5038,
+          "title": "It Isn’t Over Until Max Scherzer Says It Is",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2296927589.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236620",
+          "author": "Ray Ratto",
+          "description": "It is October-y enough to be October, even though October is still days away, which means it's time to find out how many of you weirdos can hold a grudge that isn't yours to hold. The Houston Astros, American League West champions at 81-81, are officially the worst team ever to make baseball's postseason after edging out two other teams that also would have been the worst teams ever to make baseball's postseason. Now you can all get all fever blistered all over again about Carlos Beltran's crimes against humanity nine years ago.\nThe Astros have turned over most of their roster and all of their front office since then, but they remain That Team for people who prize long memories and petty crimes, or just don't like the Astros. Before 2017, nobody really disliked the Astros, if only because you have to cast a shadow to make people feel your chill. They've been good enough since to have earned their enmity. They have the second best record in baseball over the last decade in both the regular and postseasons, and either despite that or because of it a certain segment of the baseball-speaking population seizes up northward from the seater remembering when the Astros beat out victory rhythms in their first championship season thanks to an array of friendly garbage cans and some sign-stealing players who apparently learned how to convey their thievery to each other from John Bradbury.\nIn the end, of course, it's all branding. The Astros have been marked as polyrhythmic brigands since their McKinsey Era, even though they only have one player left from the 2017 championship team; that one player is Jose Altuve, so it's the smallest surviving member at that. But hey, at least half of our politics is people trying to re-litigate the Civil War, and history is as toxic as you want to make it. So if you feel chapping down below when the Astros appear in your line of vision, well, get some Benadryl and bite down on the coffee table. They're back.",
+          "link": "https://defector.com/the-astros-and-white-sox-are-the-playoff-matchup-this-moment-deserves",
+          "publishedOn": "2026-09-28T14:11:31.000Z",
+          "wordCount": 5618,
+          "title": "The Astros And White Sox Are The Playoff Matchup This Moment Deserves",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2297327128.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236641",
+          "author": "Tom Ley",
+          "description": "Hello! Prepare to receive precious information. The information is arriving now. This week, the Defector staff will once again be convening in a top-secret and possibly flooded location to conduct our annual meetings and continue charting the future of the company. The only reason you need to know this is because we will be blogging…",
+          "link": "https://defector.com/programming-notes-8",
+          "publishedOn": "2026-09-28T13:32:28.000Z",
+          "wordCount": 3435,
+          "title": "Programming Notes",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2021/09/GettyImages-51105461.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236627",
+          "author": "Tom Ley",
+          "description": "The phrase \"road playoff game\" can have a variety of meanings depending on the circumstances, and the one that Paige Bueckers and her Dallas Wings teammates stepped into on Sunday night was about as daunting as they come. They had to enter Ballhalla, home to the WNBA's loudest fanbase, and take on the two-seeded Golden State Valkyries, owners of the league's most ferocious defense. No thanks.\n\"Home playoff game\" can have different meanings, too, as last year's Valkyries might tell you. Their surprisingly successful inaugural season ended with a playoff appearance, and the reward for so thoroughly exceeding expectations was an 0-2 sweep at the hands of the Lynx and one home playoff game, played in San Jose because a tennis tournament had dibs on their home arena. Any bitterness that arose from that experience did not carry over into this season, in which the Valks transformed from a plucky expansion squad playing over their heads into the team with the league's best net rating. Things are different, now, and even through the television screen one could sense how much the home crowd had been anticipating this chance to show what a playoff game in Ballhalla feels like.\nBueckers did her best. In the first quarter, the roar of the crowd was briefly quieted by the Wings' star, who seemed to understand that the best way to short-circuit the self-sustaining process of a locked-in defense drawing energy from and returning it to a locked-in crowd is to go out there and get some tough buckets. Call it a superstar's instinct. And so tough buckets were exactly what Bueckers spent the first quarter collecting. Despite being hounded up and down the court by Gabby Williams, she scored 11 of her team's 20 points in the first quarter on 4-of-5 shooting, and the Wings only trailed by one when it was over. At this point one could detect just the slightest trace of trepidation in the noise of the crowd. Bueckers wasn't actually going to spoil this party, was she?",
+          "link": "https://defector.com/ballhalla-got-the-playoff-christening-it-deserved",
+          "publishedOn": "2026-09-28T13:01:29.000Z",
+          "wordCount": 5596,
+          "title": "Ballhalla Got The Playoff Christening It Deserved",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2297471622.jpg"
+        },
         {
           "id": "https://defector.com/?p=236607",
           "author": "Ray Ratto",
@@ -989,16 +1129,6 @@
           "wordCount": 3007,
           "title": "Sunday Weird History Lesson: The Great Stork Trial",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3720",
-          "author": "Schill",
-          "description": "The Human League’s “Don’t You Want Me” is one of the defining songs of early-1980s synth-pop, a dramatic, catchy and",
-          "link": "https://stuffthatinterestsme.net/saturday-night-80s-jam-human-league-dont-you-want-me/",
-          "publishedOn": "2026-09-19T01:00:53.000Z",
-          "wordCount": 1508,
-          "title": "Saturday Night 80s Jam: Human League – Don’t You Want Me",
-          "imageUrl": null
         }
       ]
     },
@@ -1013,6 +1143,16 @@
       "feedUrl": "https://rss-funnel.onrender.com/salon-amanda-marcotte.xml",
       "siteUrl": "https://www.salon.com/writer/amanda_marcotte",
       "articles": [
+        {
+          "id": "https://www.salon.com/2026/09/28/wife-school-cant-fix-maga-husbands/-full",
+          "author": null,
+          "description": "How hard is it to enjoy your husband’s company? According to content made for Christian conservative women, the heaviest cross they may bear is learning to feel affection for their spouses — or at least fake it well enough to buy some peace at home. That’s what I learned perusing the growing field of influencers offering would-be tradwives advice on how to make MAGA marriages work. \n“Normalize liking your husband,” reads a T-shirt sold by Savanna Stone, a 21-year-old self-proclaimed marriage expert who has been selling content preaching marital submission with the backing of shady far-right funders. At first blush, that may seem like a trifling concept. But, as Stone makes clear in her video content, her definition of liking or even loving a husband is both laborious and ascetic to an extr…",
+          "link": "https://www.salon.com/2026/09/28/wife-school-cant-fix-maga-husbands/",
+          "publishedOn": "2026-09-28T10:45:09.000Z",
+          "wordCount": 2376,
+          "title": "Wife school can’t fix MAGA husbands",
+          "imageUrl": "https://www.salon.com/app/uploads/2026/09/wedding-cake-topper-divide-578201051.jpg"
+        },
         {
           "id": "https://www.salon.com/2026/09/25/claviculars-charges-shows-the-real-danger-of-maga-manhood/-full",
           "author": null,
@@ -1645,6 +1785,16 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73927931/rio-grande-water-war-texas/",
+          "author": null,
+          "description": "How will Americans react when they turn on the taps and nothing comes out?",
+          "link": "https://www.esquire.com/news-politics/politics/a73927931/rio-grande-water-war-texas/",
+          "publishedOn": "2026-09-28T16:53:16.000Z",
+          "wordCount": 19015,
+          "title": "I’m Terrified of What Will Happen to This Country When We Run Out of Water",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/f9d45631-7e52-4cf4-8638-6dca7f35eaf6.jpeg?crop=1xw:0.749633967789xh;center,top&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73894923/scotus-voting-rights-decision-online-system/",
           "author": null,
           "description": "Fair elections might soon become a thing of the past.",
@@ -1957,6 +2107,26 @@
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://talkingpointsmemo.com/?p=1558807",
+          "author": "Josh Marshall",
+          "description": "This has gotten very little attention, as far as I can tell. But it sounds quite sleazy and another example...",
+          "link": "https://talkingpointsmemo.com/edblog/us-tax-dollars-now-used-to-secure-deals-for-trump-family-cronies",
+          "publishedOn": "2026-09-28T17:11:09.000Z",
+          "wordCount": 2292,
+          "title": "US Tax Dollars Now Used to Secure Deals for Trump Family Cronies",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/09/GettyImages-2283479844.jpg?w=1200"
+        },
+        {
+          "id": "https://talkingpointsmemo.com/?p=1558777",
+          "author": "Josh Marshall",
+          "description": "Here’s our text for the day on the LLM/AI “boom”, which is now the center of the US economy and...",
+          "link": "https://talkingpointsmemo.com/edblog/losing-money-but-making-it-up-in-volume-more-news-from-the-ai-front",
+          "publishedOn": "2026-09-28T14:31:38.000Z",
+          "wordCount": 2668,
+          "title": "Losing Money But Making It Up in Volume? More News from the AI Front",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2025/11/GettyImages-2226710353.jpg?w=1200"
+        },
+        {
           "id": "https://talkingpointsmemo.com/?p=1558765",
           "author": "Josh Marshall",
           "description": "I want to flag your attention to this note written by computer scientist and AI researcher Yoshua Bengio. It was...",
@@ -2064,6 +2234,22 @@
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/judge-finds-trump-admin-in-contempt",
+          "author": "David Kurtz",
+          "description": "INSIDE: Katie Miller ... Chad Mizelle ... Kimberly Guilfoyle",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/judge-finds-trump-admin-in-contempt",
+          "publishedOn": "2026-09-28T15:28:45.000Z",
+          "wordCount": null,
+          "title": "Judge Finds Trump Admin in Contempt of Court Again for Wrongful Deportation",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!GOUP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ec00a0e-737f-4a4b-863e-2f115c983029_400x600.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!GOUP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ec00a0e-737f-4a4b-863e-2f115c983029_400x600.jpeg"
+        },
+        {
           "id": "https://morningmemo.talkingpointsmemo.com/p/dont-you-just-hate-seeing-aileen",
           "author": "David Kurtz",
           "description": "INSIDE: KBJ ... Sheri Mecklenburg ... Aileen Cannon",
@@ -2156,6 +2342,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/what-the-fuck-is-this-let-them-eat",
+          "author": "Jeff Tiedrich",
+          "description": "What thimble-brain thought this was a good idea?",
+          "link": "https://www.jefftiedrich.com/p/what-the-fuck-is-this-let-them-eat",
+          "publishedOn": "2026-09-28T14:26:52.000Z",
+          "wordCount": null,
+          "title": "What the fuck is this ‘let them eat cake’ bullshit from the White House?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!j2ac!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F33d0fd11-89bc-45da-876c-2dd76d11a599_948x648.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!j2ac!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F33d0fd11-89bc-45da-876c-2dd76d11a599_948x648.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/rogue-nation-moron-president",
           "author": "Jeff Tiedrich",
