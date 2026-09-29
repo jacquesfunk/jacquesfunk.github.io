@@ -6,6 +6,16 @@
       "siteUrl": "https://baty.net/index.xml",
       "articles": [
         {
+          "id": "https://baty.net/journal/29Sep26/",
+          "author": null,
+          "description": "Lincoln in tunnel\nI had a 7:00 AM appointment at the dentist. That's one way to start the day, I guess. At least my teeth are clean.\nI may  write more about it later, but I've been all-in with Bear recently and I can't tell you how calming it has been. It's the anti-Obsidian and that's a good thing.\n✍️ Reply by email",
+          "link": "https://baty.net/journal/29Sep26/",
+          "publishedOn": "2026-09-29T12:15:00.000Z",
+          "wordCount": 127,
+          "title": "Tuesday, September 29, 2026",
+          "imageUrl": "https://baty.net/img/2026/20260929-lincoln-tunnel.webp"
+        },
+        {
           "id": "https://baty.net/notes/2026/09/control-panel-for-youtube/",
           "author": null,
           "description": "Control Panel for YouTube\nControl Panel for YouTube is a browser extension which gives you more control over YouTube by adding missing options and UI improvements\nAfter only a few minutes, this has become my new favorite browser extension.\n✍️ Reply by email",
@@ -122,6 +132,26 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://irreal.org/blog/?p=14114",
+          "author": null,
+          "description": "Aquí, is sort of a niche application but is potentially useful for more than just its intended use.\n\n\nThe back story is that Choi really likes the sunrise-sunset command in Emacs that tells him the times that the sun rises and sets. The problem is that sunrise-sunset requires that you first specify the latitude and longitude of where you want to know the times. The standard way of doing that is to record them in your init.el, which is what I do. Choi, however, travels with his laptop but still wants to know when the sun is coming up or going down. There’s no automatic way of setting the information so he wrote Aquí to provide it. The only downside is that it works exclusively on the Mac platform.\n\n\nOnce installed, all you need do is call aqui to set all the appropriate information. I hardly ever travel these days so I wasn’t going to bother but it’s easy to use and can give you your current latitude and longitude as well as your address so I thought, “Why not?”. After I installed and ran it, it gave me my exact address as well as my latitude and longitude. That might sometimes vary a bit depending on the vagaries of GPS but it’s certain to be close.\n\n\nIf you decide to try it out, be sure to take a look at the user manual so see what commands are available. Mostly, though, you’ll just need to run aqui. Also be sure to check out the installation section because you need to install a shortcut. That’s just a matter of clicking on a link in the manual but Aquí won’t work until you do.",
+          "link": "https://irreal.org/blog/?p=14114",
+          "publishedOn": "2026-09-29T15:31:05.000Z",
+          "wordCount": 1489,
+          "title": "Irreal: Aquí Location Finder",
+          "imageUrl": null
+        },
+        {
+          "id": "https://protesilaos.com/codelog/2026-09-29-emacs-denote-data-status-update/",
+          "author": null,
+          "description": "A few days ago I announced\nthat I am working on denote-data. The goal is to provide an opt-in,\nin-memory cache for Denote. It can be used to speed up certain\ncomputationally expensive operations. It must be opt-in because there\nare many users, myself included, who do not need such functionality (I\nprogram because the challenge is fun, just how I did with denote-sequence, for example).\nI have a final update on this that I posted on denote.git issue 724 \nand am copying below. Any future changes will appear in the release\nnotes of the next version of Denote. In short: it is happening.\nThe status update on denote.git\nHello again folks!\nI have an update on the denote-data project. The code is in this denote.git branch for now: https://github.com/protesilaos/denote/tree/denote-data\nWhat I am doing:\nFind the computationaly heavy functions.\nWrite denote-data variants for them.\nIntroduce variables to funcall VAR instead of calling the heavy functions directly.\nMake the denote-data-mode set those variables.\nThis way we can have any extension do what denote-data does. And this way denote-data can be its own package as well.\nThe first big problem I see now is how to make the caching functions async. I will figure this out by studying list-packages and related.\nThen I want to study filenotify.el. @mentalisttraceur I have noted that your code is okay for copyright purposes, so I can check it out. Or you can send a PR, if you prefer.\nOtherwise, I think this is almost done.\nWith an opt-in cache we can support other workflows that people have been asking for, such as in-buffer completion.",
+          "link": "https://protesilaos.com/codelog/2026-09-29-emacs-denote-data-status-update/",
+          "publishedOn": "2026-09-29T00:00:00.000Z",
+          "wordCount": 392,
+          "title": "Protesilaos: Emacs: status update on the ‘denote-data’ cache for Denote",
+          "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
+        },
         {
           "id": "https://protesilaos.com/codelog/2026-09-29-comment-guilt-association-omarchy/",
           "author": null,
@@ -389,6 +419,26 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=236738",
+          "author": "Drew Magary",
+          "description": "Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGATE, and buy Drew’s books while you’re at it. Today, we're talking about overly chatty coworkers, Hunter S. Thompson, buying a new car, and more.\nYour letters:\nTodd:",
+          "link": "https://defector.com/lets-remember-some-daily-show-correspondents",
+          "publishedOn": "2026-09-29T16:57:55.000Z",
+          "wordCount": 10046,
+          "title": "Let’s Remember Some ‘Daily Show’ Correspondents",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-51648520.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236757",
+          "author": "Patrick Redford",
+          "description": "For nearly six years, I have been fascinated by the case of the Spine Collector. The publishing world came to the collective realization a few years before the pandemic that a thief was aggressively trying to steal unpublished books from everyone who had access to them for their jobs. What made the case so fascinating was the apparent lack of motive; their methods were explicable and not all that sophisticated, but their reasons for risking jail time were totally opaque, as the books never leaked or appeared on the black market. On this week's episode of Only If You Get Caught, we tackle the tricky question: Why were they doing this?\nTo help get an answer and tell the full story, I drafted in Reeves Wiedeman, who co-wrote the definitive series of Spine Collector stories for New York alongside Lila Shapiro. In the time since we recorded our interview, Wiedeman has moved on to The New Yorker, surely a recipient of the Only If You Get Caught bump.\nThe book thief's motivations are confusing and inexplicable unless you approach them from the right angle. Knowing what we know now about their identity and motivations, it's clear that the cloistered prestige of the publishing world explains the thefts. Publishing is a strange business riddled with contradictions. Jobs are highly coveted, yet often underpaid. The industry doesn't always know which books are going to sell or how to market them. The system forces authors to take on all manner of odd auxiliary roles, sometimes making it impossible for them to succeed. And yet, there's nothing cooler, to many people, than publishing a book or working on one's release. To understand why the book thief did it, you must understand publishing.",
+          "link": "https://defector.com/why-the-book-thief-risked-it-all-to-scam-the-publishing-world",
+          "publishedOn": "2026-09-29T16:15:50.000Z",
+          "wordCount": 4912,
+          "title": "Why The Book Thief Risked It All To Scam The Publishing World",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2236674080.jpg"
+        },
         {
           "id": "https://defector.com/?p=236583",
           "author": "Sarah Hagi",
@@ -1935,6 +1985,26 @@
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
         {
+          "id": "http://www.esquire.com/news-politics/politics/a73947918/sam-alito-scotus-decision-suncor-energy/",
+          "author": null,
+          "description": "Optimists are saying he’s stepping off the Trump train. Pessimists have a more realistic guess.",
+          "link": "https://www.esquire.com/news-politics/politics/a73947918/sam-alito-scotus-decision-suncor-energy/",
+          "publishedOn": "2026-09-29T20:21:32.000Z",
+          "wordCount": 18065,
+          "title": "Why the Hell Is Justice Alito Excused from a Key Supreme Court Decision Next Week?",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/5c651e2b-a305-4c24-86d9-aaede5d3796c.jpeg?crop=1xw:0.666666666667xh;center,top&resize=1200:*"
+        },
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73944812/jack-smith-hearing-hawkeyes-eric-schmitt/",
+          "author": null,
+          "description": "A ridiculous line of questioning left the former special counsel looking dazed and confused.",
+          "link": "https://www.esquire.com/news-politics/politics/a73944812/jack-smith-hearing-hawkeyes-eric-schmitt/",
+          "publishedOn": "2026-09-29T18:00:18.000Z",
+          "wordCount": 17612,
+          "title": "After an Obnoxious Tirade at the Jack Smith Hearing, This GOP Congressman Should Trade His Senate Seat for Clown School",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/3ae36264-2482-4a6e-9f62-f0ed436071c0.jpeg?crop=1xw:0.750052334101xh;center,top&resize=1200:*"
+        },
+        {
           "id": "http://www.esquire.com/news-politics/politics/a73939736/cold-case-tylenol-poisoining-new-theory/",
           "author": null,
           "description": "I’m just glad there’s someone out there trying to solve the unsolved.",
@@ -2241,16 +2311,6 @@
           "wordCount": 2652,
           "title": "Thirdback",
           "imageUrl": "https://foxtrot.com/wp-content/uploads/2026/09/ft260927-foxtrot-comics-bill-amend-thirdback-football-nfl-sports-sunday-comic-strip.png"
-        },
-        {
-          "id": "https://foxtrot.com/?p=6251",
-          "author": "Bill Amend",
-          "description": "FoxTrot by Bill Amend | September 20, 2026",
-          "link": "https://foxtrot.com/2026/09/20/anti-smart-glasses/?utm_source=rss&utm_medium=rss&utm_campaign=anti-smart-glasses",
-          "publishedOn": "2026-09-20T05:01:00.000Z",
-          "wordCount": 2746,
-          "title": "Anti-Smart Glasses",
-          "imageUrl": "https://foxtrot.com/wp-content/uploads/2026/09/ft260920-foxtrot-comics-bill-amend-anti-smart-glasses-meta-glasses-jason-fox-sunday-comic-strip.png"
         }
       ]
     },
@@ -2282,6 +2342,16 @@
       "feedUrl": "https://talkingpointsmemo.com/author/josh_m/feed",
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://talkingpointsmemo.com/?p=1558890",
+          "author": "Josh Marshall",
+          "description": "As I noted a week ago, we can’t know whether the current polls will be predictive of the November election...",
+          "link": "https://talkingpointsmemo.com/edblog/perfect-storm-brought-to-you-by-donald-trump",
+          "publishedOn": "2026-09-29T18:40:25.000Z",
+          "wordCount": 1974,
+          "title": "Perfect Storm, Brought to You by Donald Trump",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2026/09/GettyImages-2297724175.jpg?w=1200"
+        },
         {
           "id": "https://talkingpointsmemo.com/?p=1558840",
           "author": "Josh Marshall",
@@ -2419,6 +2489,22 @@
       "feedUrl": "https://morningmemo.talkingpointsmemo.com/feed",
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
+        {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/the-biggest-trump-retribution-scheme",
+          "author": "David Kurtz",
+          "description": "INSIDE: Kurt Olsen ... Joseph diGenova ... Andrew Bailey",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/the-biggest-trump-retribution-scheme",
+          "publishedOn": "2026-09-29T14:48:13.000Z",
+          "wordCount": null,
+          "title": "The Biggest Trump Retribution Scheme Is Coming Apart at the Seams",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!GE5H!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef4d4d54-78d0-4a6b-84e5-3df81412585a_400x600.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!GE5H!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef4d4d54-78d0-4a6b-84e5-3df81412585a_400x600.jpeg"
+        },
         {
           "id": "https://morningmemo.talkingpointsmemo.com/p/judge-finds-trump-admin-in-contempt",
           "author": "David Kurtz",
