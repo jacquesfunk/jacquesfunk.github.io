@@ -183,6 +183,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://christiantietze.de/posts/2026/09/watch-zettelkasten-for-regular-emacs-hackers/",
+          "author": null,
+          "description": "Last December, I gave a talk at EmacsConf 2025 called “Zettelkasten for Regular Emacs Hackers”. I announced it back then, but never pointed to the recording. Here it is.\n\nZettelkasten for Regular Emacs Hackers, EmacsConf 2025 (23 minutes)\n\nThe pitch: writing improves the quality and depth of thought, and a Zettelkasten is an environment for thinking through writing, not merely a place to store notes. Nobody can hand you a finished thinking environment the way they can hand you an email client. You have to build your own, and Emacs is the most moldable place to do it.\nIn 23 minutes, I walk through:\nthe three essential mechanics: write (with effort), connect (with links), and correct (improve notes as you learn more);\nthe habits that make it scale over decades: design for use, create structu…",
+          "link": "https://christiantietze.de/posts/2026/09/watch-zettelkasten-for-regular-emacs-hackers/",
+          "publishedOn": "2026-09-30T14:00:00.000Z",
+          "wordCount": 1656,
+          "title": "Christian Tietze: Watch My EmacsConf Talk: Zettelkasten for Regular Emacs Hackers",
+          "imageUrl": null
+        },
+        {
           "id": "https://irreal.org/blog/?p=14114",
           "author": null,
           "description": "Aquí, is sort of a niche application but is potentially useful for more than just its intended use.\n\n\nThe back story is that Choi really likes the sunrise-sunset command in Emacs that tells him the times that the sun rises and sets. The problem is that sunrise-sunset requires that you first specify the latitude and longitude of where you want to know the times. The standard way of doing that is to record them in your init.el, which is what I do. Choi, however, travels with his laptop but still wants to know when the sun is coming up or going down. There’s no automatic way of setting the information so he wrote Aquí to provide it. The only downside is that it works exclusively on the Mac platform.\n\n\nOnce installed, all you need do is call aqui to set all the appropriate information. I hardly ever travel these days so I wasn’t going to bother but it’s easy to use and can give you your current latitude and longitude as well as your address so I thought, “Why not?”. After I installed and ran it, it gave me my exact address as well as my latitude and longitude. That might sometimes vary a bit depending on the vagaries of GPS but it’s certain to be close.\n\n\nIf you decide to try it out, be sure to take a look at the user manual so see what commands are available. Mostly, though, you’ll just need to run aqui. Also be sure to check out the installation section because you need to install a shortcut. That’s just a matter of clicking on a link in the manual but Aquí won’t work until you do.",
@@ -409,6 +419,16 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=236930",
+          "author": "Arif Hasan",
+          "description": "I was trying to puzzle out how to plagiarize my new podcast best friend while simultaneously filling in for him for this week’s Jamboroo, and for all my skill in stealing other people’s takes, I couldn’t figure out how to effectively disguise it.\nSo instead, I’ll build off what Drew wrote last week while referencing research someone else did. I was trying to see why teams are blitzing more this year, even setting aside blitz maven Brian Flores (his Vikings defense is currently blitzing at a mind-boggling 76.9 percent for the season, according to PFF) and former Flores assistant Daronte Jones, now defensive coordinator at Washington (the Commanders are second in blitz rate at 52.1 percent).\nIn 2026, it turns out that teams that already loved to blitz are the ones blitzing more—median and bottom-fifth percentile blitz rates have not increased by any amount over the last few seasons. But it still invites the question: Why are blitz-happy teams blitzing more?",
+          "link": "https://defector.com/blitzing-is-more-common-because-formations-are-becoming-tighter",
+          "publishedOn": "2026-10-01T17:56:12.000Z",
+          "wordCount": 11042,
+          "title": "Blitzing Is More Common Because Formations Are Becoming Tighter",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/10/GettyImages-2296921898.jpg"
+        },
         {
           "id": "https://defector.com/?p=236762",
           "author": "Michael Waters",
@@ -1618,6 +1638,16 @@
       "siteUrl": "https://www.sfgate.com/author/drew-magary/",
       "articles": [
         {
+          "id": "https://www.sfgate.com/local/article/san-francisco-market-ai-22424349.php-full",
+          "author": null,
+          "description": "You have heard about the two Anthropic employees who, this week, publicly informed America that artificial intelligence could eradicate the whole of humanity within a decade, which is less time than it takes for your average Seamless order to arrive. If these gentlemen, Jacob Coxon and Evan Hubinger, are correct in their assessment, the beginning of our destruction may well have commenced a month ago right here in San Francisco.\n\nThe first shot fired in this looming war happened at a seemingly innocuous Cow Hollow storefront known as Andon Market. Back in August, Luna, the AI bot that serves as that store’s manager, fired one of its own employees. The employee in question was dinged by their virtual boss for being late to work, abandoning their post once they got there, and charging snacks…",
+          "link": "https://www.sfgate.com/local/article/san-francisco-market-ai-22424349.php",
+          "publishedOn": "2026-10-01T22:21:40.308Z",
+          "wordCount": 177,
+          "title": "SF's AI-run store is losing money fast. After a visit, I'm not surprised.",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.sfgate.com/49ers/article/brandon-aiyuk-career-over-22327356.php-full",
           "author": null,
           "description": "The NFL has had itself one miserable offseason. You may have been too busy watching America self-immolating to notice, but the football men have been behaving incredibly badly of late. Falcons edge rusher James Pearce got arrested for allegedly being a psycho boyfriend to Chicago Sky forward Rickea Jackson. The Denver Broncos have a sudden, and grotesque, DV problem on their hands. Terrion Arnold just got dropped by the Lions after being arrested on suspicion of kidnapping. And New England coach Mike Vrabel can’t seem to keep his little Pat Patriot in his trousers. All of it either has been ugly or has served as a portent of more ugliness to come. \n\nWhich brings us to the curious story of 49ers wideout Brandon Aiyuk, whose recent behavior has gone from maddening to outright frightening. Ju…",
@@ -1784,6 +1814,46 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73985111/doj-trump-vance-todd-blanche-nixon-watergate/",
+          "author": null,
+          "description": "Attorney general Todd Blanche will really do anything his puppeteers tell him, huh?",
+          "link": "https://www.esquire.com/news-politics/politics/a73985111/doj-trump-vance-todd-blanche-nixon-watergate/",
+          "publishedOn": "2026-10-01T21:26:28.000Z",
+          "wordCount": 18692,
+          "title": "Instead of Doing Anything Valuable, the DOJ Is Trying to Recast Richard Nixon as the Victim of Watergate",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/97d42ff9-f816-4101-a9e4-8385848728a2.jpeg?crop=1xw:0.75xh;center,top&resize=1200:*"
+        },
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73983994/trump-time-interview-unhinged-unstable/",
+          "author": null,
+          "description": "I’m now convinced that the president lives on an entirely different plane of reality than you and I.",
+          "link": "https://www.esquire.com/news-politics/politics/a73983994/trump-time-interview-unhinged-unstable/",
+          "publishedOn": "2026-10-01T20:12:29.000Z",
+          "wordCount": 20040,
+          "title": "Trump Has Just Given What Might Be His Most Unstable Interview Yet",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/06c01ed5-eacb-4aff-a378-b655cb96ee54.jpeg?crop=1xw:0.750065223063xh;center,top&resize=1200:*"
+        },
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73983115/maga-farms-ice-deportation-workforce/",
+          "author": null,
+          "description": "I can’t believe they’re only just realizing how much Trump’s anti-immigrant policies have cost them.",
+          "link": "https://www.esquire.com/news-politics/politics/a73983115/maga-farms-ice-deportation-workforce/",
+          "publishedOn": "2026-10-01T18:52:15.000Z",
+          "wordCount": 20299,
+          "title": "MAGA Farm Owners Are Finally Seeing the Consequences of Voting for a Deranged President Who Wants to Deport Their Workforce",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/01c2791f-f6fa-4df1-915e-fabd71b4be98.jpeg?crop=1xw:0.791666666667xh;center,top&resize=1200:*"
+        },
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73967876/white-house-ballroom-trump-russia/",
+          "author": null,
+          "description": "Surely, our president will face consequences for this insanity.",
+          "link": "https://www.esquire.com/news-politics/politics/a73967876/white-house-ballroom-trump-russia/",
+          "publishedOn": "2026-10-01T00:24:18.000Z",
+          "wordCount": 17574,
+          "title": "A Wealthy Russian Businessman Is Helping Fund Trump’s Stupid Ballroom. Nothing Sketchy About That, Right?",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/7e9e013b-9efb-4180-92cc-c048e81ccff9.jpeg?crop=1xw:0.749633967789xh;center,top&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/a73967876/white-house-ballroom-trump-russia/",
           "author": null,
@@ -1980,7 +2050,24 @@
       "title": "Grave Injustice",
       "feedUrl": "https://www.graveinjustice.news/feed",
       "siteUrl": "https://www.graveinjustice.news",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.graveinjustice.news/p/the-roberts-court-re-opens-but-its",
+          "author": "Lisa Graves",
+          "description": "Also, Does Alito’s Recusal from the Climate Case Mean Five Republican Justices Are Itching to Protect Big Oil?",
+          "link": "https://www.graveinjustice.news/p/the-roberts-court-re-opens-but-its",
+          "publishedOn": "2026-10-01T19:36:18.000Z",
+          "wordCount": null,
+          "title": "The Roberts Court Re-Opens But It’s Been Open for Business and Trump All Along",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!bvpk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9ac961a-8ffd-48d8-b725-96c9f73c07d9_1280x720.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!bvpk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9ac961a-8ffd-48d8-b725-96c9f73c07d9_1280x720.png"
+        }
+      ]
     },
     {
       "title": "Old School Hop-Hop",
@@ -2104,22 +2191,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!KgzB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2799eee8-8687-40e7-97df-949cb7499552_1200x1200.jpeg"
-        },
-        {
-          "id": "https://www.flowstate.fm/p/flow-state-episode-344",
-          "author": "Flow State",
-          "description": "Today’s mix opens with new ambient music by Hayes Bradley, Asio Silver, and The Black Dog.",
-          "link": "https://www.flowstate.fm/p/flow-state-episode-344",
-          "publishedOn": "2026-09-22T07:03:59.000Z",
-          "wordCount": null,
-          "title": "Flow State Episode 344",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://api.substack.com/feed/podcast/216846427/27b989be8590486a0f4eab59c1b57633.mp3",
-            "length": "0",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
