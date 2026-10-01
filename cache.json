@@ -143,6 +143,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "http://en.andros.dev/blog/782e8f3b/how-i-built-a-whatsapp-client-for-emacs-without-an-api/",
+          "author": null,
+          "description": "One of the most fun things you can do with Emacs is to build an interface for another piece of software. It is the Lisp version of running Doom on any device. It is also quite useful, because you can connect it to other tools in the gnu's editor and build more pleasant workflows.\nThe big question: can I chat on WhatsApp from Emacs? Spoiler: I made it, with some limitations.\nNo way in\nContext: I work on macOS. It matters, because the solution depends on it.\nMeta offers no API for this, and the macOS desktop app has no bridge at all: no open ports, no gRPC, no AppleScript dictionary. Nothing.\nThere are unofficial clients, like whatsmeow, that talk directly to WhatsApp's servers by pretending to be a device. They work, but your account ends up depending on software Meta does not authorize, an…",
+          "link": "http://en.andros.dev/blog/782e8f3b/how-i-built-a-whatsapp-client-for-emacs-without-an-api/",
+          "publishedOn": "2026-10-01T07:52:08.000Z",
+          "wordCount": 1603,
+          "title": "Andros Fenollosa: How I built a WhatsApp client for Emacs without an API",
+          "imageUrl": "https://img.andros.dev/IAvijQN1JKJJdxO-RHNOM0eF83U=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/dima-solomin-upBKRmHJrCI-unsplash.jpg"
+        },
+        {
           "id": "https://ray-on-emacs.blogspot.com/2026/09/now-org-toggle-timestamp-overlays-is.html",
           "author": null,
           "description": "org-todo is C-c\nC-t.  Today I learned about another command with a similar\nkeybinding (C-c C-x C-t) --\norg-toggle-timestamp-overlays.  Note the C-x\nin the middle.\n\n\n\nWhen I pressed that key combination (inadvertently), all the\nYYYY-MM-DD timestamps in the buffer were converted to the MM/DD/YYYY\nformat.  This was unacceptable -- I needed to change them back.\nHowever undo did not revert the timestamps; it just undid\nthe last edit.  Furthermore, these undesired timestamps couldn't be\nedited and were impervious to org-shiftright.  I was\nconfused yet again.\n\n\n\nI didn't even know how this happened.  So I\ninvoked view-lossage as a kind reader once suggested 1\nand discovered org-toggle-timestamp-overlays.\n\n\n\nThe docstring was no help – it's self-evident that it would \"Toggle\nthe use of custom time stamp formats.\"  Eager to clock out of my task,\nI didn't care to learn more.  All I wanted to do was undo the effect.\n\n\n\nI figured that since it toggles the timestamp, all I had to do was\ninvoke it again to toggle it back.  Nope.  Well, a nice message\nappears, saying \"Time stamp overlays removed.\"  Yet the timestamps\nlooked the same.\n\n\n\nUndaunted, I figured I'd reload the buffer with org-mode-restart.\nThat had no effect.  To finally fix this, I deleted the buffer and\nrevisited the file.\n\n\n\nA command like this surely is in the same category as upcase-region,\nwhich is disabled by default.  And so this is why I added\n  (put 'org-toggle-timestamp-overlays 'disabled t) to my init file.\n\n\n\n  1 See https://ray-on-emacs.blogspot.com/2026/05/emacs-view-commands.html",
@@ -391,16 +401,6 @@
           "wordCount": 331,
           "title": "Protesilaos: Emacs: sxhkdrc-mode version 1.3.0",
           "imageUrl": "https://protesilaos.com/assets/images/brand/protesilaos-logo.png"
-        },
-        {
-          "id": "https://xenodium.com/agent-shell-0-78-updates",
-          "author": null,
-          "description": "Another month, another agent-shell update. If you missed the last post, have a look at the 0.73 update.\nAs usual, this post showcases highlights, but please check out the full list of changes if you're after the nitty-gritty.\nWhat's agent-shell?\nagent-shell is a native Emacs mode to interact with AI agents powered by ACP (Agent Client Protocol).\nNew supported agents\nTwo agents join the family, available as usual via M-x agent-shell, or explicitly as follows:\nAntigravity (Google), #795 by @tychoish. Start it with M-x agent-shell-start-antigravity-agent.\nQoder CLI, #831 by @unship. Start it with M-x agent-shell-start-qoder-agent.\nPrompt any time\nLikely the most impactful feature in the release. It's highly discoverable and plenty useful, so I'm expecting a fair amount of uptake.\nA typical sh…",
-          "link": "https://xenodium.com/agent-shell-0-78-updates",
-          "publishedOn": "2026-09-22T00:00:00.000Z",
-          "wordCount": 2062,
-          "title": "Alvaro Ramirez: agent-shell 0.78 updates",
-          "imageUrl": "https://xenodium.com/share.png"
         }
       ]
     },
@@ -409,6 +409,66 @@
       "feedUrl": "https://defector.com/feed",
       "siteUrl": "https://defector.com/",
       "articles": [
+        {
+          "id": "https://defector.com/?p=236762",
+          "author": "Michael Waters",
+          "description": "It turns out you can trace America’s 2008 financial crash, in a roundabout way, to 18th-century Prussia. The Seven Years’ War left the kingdom in financial shambles: Just to afford the fighting, Prussia’s king, Frederick the Great, had hired private minters to ramp up currency production. So in 1769, Frederick the Great landed on a novel strategy to keep money flowing into his borders. He organized cash-poor nobles into cooperatives, and began offering, to the highest bidders, bonds based on the value of their land. European investors snapped them up, giving Prussia the injection of cash it needed. It was, as the journalist Robin Wigglesworth writes in his new book, A Fabulous Debt: The Epic History of How Bonds Built the Modern World, possibly the world’s first mortgage bond sale.\nA Fabul…",
+          "link": "https://defector.com/nation-of-bondholders",
+          "publishedOn": "2026-10-01T16:15:25.000Z",
+          "wordCount": 8219,
+          "title": "Nation Of Bondholders",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/Untitled-design-38.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236957",
+          "author": "Luis Paez-Pumar",
+          "description": "When former Pittsburgh Steelers head coach Mike Tomlin revealed that he had been working on a Minecraft city for 12 years, I brushed it off. The idea of an NFL coach—a Super Bowl-winning coach who never had a losing season—taking time over a decade-plus to truly lock into Minecraft city-planning just didn't seem realistic, or like the result would be particularly interesting. I doubted Tomlin's gamer credentials.\nWell, joke's on me:\n\nhttps://www.youtube.com/watch?v=_h_pQ1-5iQg",
+          "link": "https://defector.com/mike-tomlins-minecraft-city-is-a-delight",
+          "publishedOn": "2026-10-01T15:30:11.000Z",
+          "wordCount": 5672,
+          "title": "Mike Tomlin’s ‘Minecraft’ City Is A Delight",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/10/image-10.png"
+        },
+        {
+          "id": "https://defector.com/?p=236971",
+          "author": "Ray Ratto",
+          "description": "Hockey season has begun, and all teams are equal in the eyes of the creator. Hope springs triumphant for 32 collectives each striving as one, and the Stanley Cup lies shining before them, ready to be seized.\nIn rebuttal, there's this, from The Athletic's Kevin Kurz:\n\nhttps://twitter.com/KKurzNHL/status/2105504339452145902",
+          "link": "https://defector.com/its-already-code-orange-for-the-philadelphia-flyers",
+          "publishedOn": "2026-10-01T15:19:16.000Z",
+          "wordCount": 5696,
+          "title": "It’s Already Code Orange For The Philadelphia Flyers",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/10/GettyImages-2297433111.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236935",
+          "author": "Patrick Redford",
+          "description": "The WNBA playoffs are not about intricate offensive sets, squeezing efficiency from your ninth and 10th players, or winning the game on the margins—at least not as much as they are about Real Hoops. Arike Ogunbowale taught the Golden State Valkyries that painful lesson Wednesday night, gouging their would-be smothering defense for a WNBA playoff-record 45 points and forcing her Dallas Wings through to a deciding Game 3 in the process.\nThat Ogunbowale had both the talent and temperament for this sort of explosion should never have been in doubt. She's notched 41 before, and takes on the burden of volume scoring with a Waitersesque flair. It's impressive, yes, though not always part of a winning formula, and subject to wild variance depending on whether Ogunbowale makes or misses the bad shots she can't help but jack. This year, she's taken a relative backseat as Paige Bueckers has spent her sophomore campaign with the ball in her hands. Game 1 was their season in miniature: Bueckers poured in a hyper-efficient 21 points, while Ogunbowale took only seven shots and wound up a game-worst minus-31. The Valks won by 24. Something had to change. It was Ogunbowale's time.\nGame 2 was fantastic, a 108-100 overtime win for the Wings in which Dallas posed serious questions about the championship viability of the top remaining seed, dictated the tempo, and overcame both a career-high 36 points from Gabby Williams and a 3-for-13 night from Bueckers. It was all because of Ogunbowale.",
+          "link": "https://defector.com/arike-ogunbowale-knows-its-all-about-buckets",
+          "publishedOn": "2026-10-01T14:59:04.000Z",
+          "wordCount": 5698,
+          "title": "Arike Ogunbowale Knows It’s All About Buckets",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/10/GettyImages-2297989249.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236573",
+          "author": "Lauren Theisen",
+          "description": "The following is excerpted from Every Time a Bell Rings, a book of essays about It's A Wonderful Life by Lauren Theisen and Emily St. James. It is available for purchase now.\nThe bridge in Seneca Falls really does look just like the one that George and Clarence find themselves underneath in It’s a Wonderful Life. It’s short, accessible to pedestrians, made of steel beams that join together to form triangles, and stands just a little bit detached from the town’s main street. I knew when I started writing this book that Seneca Falls claimed to be the real-life inspiration for Bedford Falls, that this New York village with a famous feminist history hosted a festival for the movie every year, and as I started my work, I looked forward, specifically, to standing on that bridge. I knew, of course, that it wasn’t the real bridge, that any kind of location shooting was cost-prohibitive, and that the movie was filmed in California. But I was wondering if I might channel a little of George Bailey in myself, looking out onto the water, reenacting a great American moment of hope rediscovered.\nWhen I actually went to Seneca Falls and stood on that bridge, however, I found myself less interested in fiction and more attracted, instead, to a plaque that’s hung there for over a century, which commemorates a very real story.",
+          "link": "https://defector.com/a-search-for-movie-history-in-upstate-new-york",
+          "publishedOn": "2026-10-01T14:32:17.000Z",
+          "wordCount": 11977,
+          "title": "A Search For Movie History In Upstate New York",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/20250517_1526132.jpg"
+        },
+        {
+          "id": "https://defector.com/?p=236909",
+          "author": "Barry Petchesky",
+          "description": "Dear Mascot Manners,\nI have a lot of time on my hands now, so I figured I'd write you with an etiquette question. My team, the Boston Red Sox, just got beaten by our archrival New York Yankees. They beat us in two games, 9-0 and 9-2. But before we lost Game 2 Wednesday night, one of our guys, Nick, hit a home run. It got us within six runs. I think most of us would have rather just gotten out of there as quickly as possible.\nBut we have a tradition: When you hit a home run, you wear the Wally Head. One of our other guys, Jarren, came up with it last year. It's our \"thing.\" So we made Nick wear the Wally Head after his homer, but I don't think he wanted to. I don't think any of us were particularly into it. Frankly the whole ceremony felt kind of embarrassing.",
+          "link": "https://defector.com/when-is-it-ok-to-wear-the-wally-head",
+          "publishedOn": "2026-10-01T13:27:16.000Z",
+          "wordCount": 6237,
+          "title": "When Is It OK To Wear The Wally Head?",
+          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/10/GettyImages-2296961087.jpg"
+        },
         {
           "id": "https://defector.com/?p=236892",
           "author": "Drew Magary",
@@ -1119,16 +1179,6 @@
           "wordCount": 1406,
           "title": "Hump Day Hottie: Dua Lipa",
           "imageUrl": null
-        },
-        {
-          "id": "https://stuffthatinterestsme.net/?p=3750",
-          "author": "Schill",
-          "description": "Before Waitress! became the name of a completely different and much more famous movie, there was this wonderfully strange 1981",
-          "link": "https://stuffthatinterestsme.net/tuesday-troma-waitress/",
-          "publishedOn": "2026-09-22T00:30:52.000Z",
-          "wordCount": 2573,
-          "title": "Tuesday Troma: Waitress!",
-          "imageUrl": null
         }
       ]
     },
@@ -1726,16 +1776,6 @@
           "wordCount": 177,
           "title": "I found one of America's best croissants in SF",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/local/article/san-francisco-market-ai-22424349.php-full",
-          "author": null,
-          "description": "You have heard about the two Anthropic employees who, this week, publicly informed America that artificial intelligence could eradicate the whole of humanity within a decade, which is less time than it takes for your average Seamless order to arrive. If these gentlemen, Jacob Coxon and Evan Hubinger, are correct in their assessment, the beginning of our destruction may well have commenced a month ago right here in San Francisco.\n\nThe first shot fired in this looming war happened at a seemingly innocuous Cow Hollow storefront known as Andon Market. Back in August, Luna, the AI bot that serves as that store’s manager, fired one of its own employees. The employee in question was dinged by their virtual boss for being late to work, abandoning their post once they got there, and charging snacks…",
-          "link": "https://www.sfgate.com/local/article/san-francisco-market-ai-22424349.php",
-          "publishedOn": "2026-09-21T21:42:29.602Z",
-          "wordCount": 177,
-          "title": "SF's AI-run store is losing money fast. After a visit, I'm not surprised.",
-          "imageUrl": null
         }
       ]
     },
@@ -1933,16 +1973,6 @@
           "wordCount": 17156,
           "title": "Trump’s Latest Deal with Belarus Sure Smells Like Sh*t",
           "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/5a9c3b7b-9a15-4061-b86f-2626f3dcc06e.jpeg?crop=1xw:0.750853242321xh;center,top&resize=1200:*"
-        },
-        {
-          "id": "http://www.esquire.com/news-politics/politics/a73826800/crypto-midterms-money-election-spending/",
-          "author": null,
-          "description": "Republicans have a whopping financial advantage, thanks in part to the We-Invented-New-Money crowd. Is that enough to overcome affiliation with an extremely unpopular president?",
-          "link": "https://www.esquire.com/news-politics/politics/a73826800/crypto-midterms-money-election-spending/",
-          "publishedOn": "2026-09-21T20:57:42.000Z",
-          "wordCount": 19426,
-          "title": "I Really Hope Crypto Doesn’t Play a Big Part in the Midterms—or in Anything Else Ever Again, for That Matter",
-          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/a789510b-a005-4214-8974-31202c8c526c.jpeg?crop=1xw:0.749633967789xh;center,top&resize=1200:*"
         }
       ]
     },
@@ -2285,6 +2315,22 @@
       "siteUrl": "https://morningmemo.talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://morningmemo.talkingpointsmemo.com/p/trump-doj-doubles-down-on-attacking",
+          "author": "David Kurtz",
+          "description": "INSIDE: Todd Blanche … Aileen Cannon … Crista Pike",
+          "link": "https://morningmemo.talkingpointsmemo.com/p/trump-doj-doubles-down-on-attacking",
+          "publishedOn": "2026-10-01T16:39:35.000Z",
+          "wordCount": null,
+          "title": "Trump DOJ Doubles Down on Attacking Judges",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!hmUe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F180f8288-9ff7-4907-924b-881f30358fb7_400x600.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!hmUe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F180f8288-9ff7-4907-924b-881f30358fb7_400x600.jpeg"
+        },
+        {
           "id": "https://morningmemo.talkingpointsmemo.com/p/appeals-courts-slowly-awaken-to-trump",
           "author": "David Kurtz",
           "description": "INSIDE: James Boasberg ... Eric Schmitt ... Pete Hegseth",
@@ -2409,6 +2455,22 @@
       "feedUrl": "https://www.jefftiedrich.com/feed",
       "siteUrl": "https://www.jefftiedrich.com",
       "articles": [
+        {
+          "id": "https://www.jefftiedrich.com/p/lets-all-look-on-in-horror-as-a-racist",
+          "author": "Jeff Tiedrich",
+          "description": "also: Ken Paxton does a sad, and Piss-Drunk Pete does a transphobia.",
+          "link": "https://www.jefftiedrich.com/p/lets-all-look-on-in-horror-as-a-racist",
+          "publishedOn": "2026-10-01T14:27:47.000Z",
+          "wordCount": null,
+          "title": "Let’s all look on in horror as a racist game show host does a racism",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!a9pl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7cb003be-ae81-411e-a040-9ff219ebdff2_1280x720.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!a9pl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7cb003be-ae81-411e-a040-9ff219ebdff2_1280x720.jpeg"
+        },
         {
           "id": "https://www.jefftiedrich.com/p/are-you-smarter-than-the-white-houses",
           "author": "Jeff Tiedrich",
