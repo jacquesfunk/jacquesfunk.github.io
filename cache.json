@@ -134,16 +134,6 @@
           "wordCount": 250,
           "title": "Almost went back to my Mac",
           "imageUrl": "https://baty.net/img/opengraph.jpg"
-        },
-        {
-          "id": "https://baty.net/journal/21Sep26/",
-          "author": null,
-          "description": "Surfer and stumbler (2026)\nI'm not sure if \"Reduce & Simplify\" means Emacs with a browser and file manager on Linux, or macOS with the default apps. I am fully on Linux now, but I keep side-eyeing the MacBook Air as if it will somehow rescue me.\nHonestly, I'm burning out on computers and software. I'm addicted to farting around with things. I spent the weekend installing and using Lotus Agenda from, like, 1990. For a minute I considered trying to use it exclusively as my task/project manager for a month. I mean, it's cool and retro, but seriously? It's a terrible idea that swallowed a good bit of my weekend.\nToday I woke up and dreaded opening Emacs. My whole life has been in Emacs for years and today I thought maybe I no longer wanted it there. I'm typing this in Emacs in a Markdown file …",
-          "link": "https://baty.net/journal/21Sep26/",
-          "publishedOn": "2026-09-21T11:26:39.000Z",
-          "wordCount": 460,
-          "title": "Monday, September 21, 2026",
-          "imageUrl": "https://baty.net/img/2026/20260921-surfer-and-stumbler.webp"
         }
       ]
     },
@@ -152,6 +142,26 @@
       "feedUrl": "https://planet.emacslife.com/atom.xml",
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
+        {
+          "id": "https://ray-on-emacs.blogspot.com/2026/09/now-org-toggle-timestamp-overlays-is.html",
+          "author": null,
+          "description": "org-todo is C-c\nC-t.  Today I learned about another command with a similar\nkeybinding (C-c C-x C-t) --\norg-toggle-timestamp-overlays.  Note the C-x\nin the middle.\n\n\n\nWhen I pressed that key combination (inadvertently), all the\nYYYY-MM-DD timestamps in the buffer were converted to the MM/DD/YYYY\nformat.  This was unacceptable -- I needed to change them back.\nHowever undo did not revert the timestamps; it just undid\nthe last edit.  Furthermore, these undesired timestamps couldn't be\nedited and were impervious to org-shiftright.  I was\nconfused yet again.\n\n\n\nI didn't even know how this happened.  So I\ninvoked view-lossage as a kind reader once suggested 1\nand discovered org-toggle-timestamp-overlays.\n\n\n\nThe docstring was no help – it's self-evident that it would \"Toggle\nthe use of custom time stamp formats.\"  Eager to clock out of my task,\nI didn't care to learn more.  All I wanted to do was undo the effect.\n\n\n\nI figured that since it toggles the timestamp, all I had to do was\ninvoke it again to toggle it back.  Nope.  Well, a nice message\nappears, saying \"Time stamp overlays removed.\"  Yet the timestamps\nlooked the same.\n\n\n\nUndaunted, I figured I'd reload the buffer with org-mode-restart.\nThat had no effect.  To finally fix this, I deleted the buffer and\nrevisited the file.\n\n\n\nA command like this surely is in the same category as upcase-region,\nwhich is disabled by default.  And so this is why I added\n  (put 'org-toggle-timestamp-overlays 'disabled t) to my init file.\n\n\n\n  1 See https://ray-on-emacs.blogspot.com/2026/05/emacs-view-commands.html",
+          "link": "https://ray-on-emacs.blogspot.com/2026/09/now-org-toggle-timestamp-overlays-is.html",
+          "publishedOn": "2026-10-01T00:19:28.313Z",
+          "wordCount": 2803,
+          "title": "Raymond Zeitler: Now org-toggle-timestamp-overlays is Disabled",
+          "imageUrl": null
+        },
+        {
+          "id": "https://rahuljuliato.com/posts/emacs-rx-in-typescript",
+          "author": null,
+          "description": "Intro\nQuick, what does this match?\n/^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$/;\n\n// Take\n// your\n// time...\n//\n// ...still decoding?\n//\n// OK, keep reading :)\n\n\nThat's the official regexp from semver.org. It\nvalidates version numbers like:\n// matches\n\"1.2.3\"\n\"0.10.0\"\n\"2.0.0-rc.1\"\n\"1.0.0-alpha.1+build.5\"\n\"1.0.0+20260930\"\n\n// doesn't match\n\"01.2.3\"   // leading zero\n\"1.2\"      // missing patch\n\"v1.2.3\"   // no \"v\" prefix allowed\n\"1.0.0-01\" // numeric pre-release with a leading zero\n\"1.2.3-\"   // empty pre-release\n\n\nDon't get me wrong, I love regexps, but in practice you probably spend\na bunch of time writing one, testing it against some cases, and moving\no…",
+          "link": "https://rahuljuliato.com/posts/emacs-rx-in-typescript",
+          "publishedOn": "2026-09-30T23:00:00.000Z",
+          "wordCount": 17754,
+          "title": "Rahul Juliato: Readable Regular Expressions for JavaScript/TypeScript, Inspired by Emacs' rx",
+          "imageUrl": "/assets/blog/posts/emacs-rx-in-typescript-cover.png"
+        },
         {
           "id": "https://irreal.org/blog/?p=14116",
           "author": null,
@@ -410,16 +420,6 @@
           "publishedOn": "2026-09-21T16:36:27.000Z",
           "wordCount": 370,
           "title": "Marcin Borkowski: forward-paragraph in Magit",
-          "imageUrl": null
-        },
-        {
-          "id": "https://sachachua.com/blog/2026/09/2026-09-21-emacs-news/",
-          "author": null,
-          "description": "typewriter mode in the Fun category, but people might actually find the constraints useful for focused writing.\n\n\n\nUpcoming events (iCal file, Org):\n\nEmacs APAC: Emacs APAC meetup (virtual) https://emacs-apac.gitlab.io/announcements/ Sat Sep 26 0130 America/Vancouver - 0330 America/Chicago - 0430 America/Toronto - 0830 Etc/UTC - 1030 Europe/Berlin - 1400 Asia/Kolkata - 1630 Asia/Singapore\nEmacs Berlin: Emacs-Berlin Hybrid Meetup https://emacs-berlin.org/ Wed Sep 30 1000 America/Vancouver - 1200 America/Chicago - 1300 America/Toronto - 1700 Etc/UTC - 1900 Europe/Berlin - 2230 Asia/Kolkata – Thu Oct 1 0100 Asia/Singapore\nEmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/316464079/ Thu Oct 1 1600 America/Vancouver - 1800 America/Chicago - 1900 America/Toronto - 2300 Etc/UTC – Fri …",
-          "link": "https://sachachua.com/blog/2026/09/2026-09-21-emacs-news/",
-          "publishedOn": "2026-09-21T12:02:45.000Z",
-          "wordCount": 822,
-          "title": "Sacha Chua: 2026-09-21 Emacs news",
           "imageUrl": null
         }
       ]
@@ -1171,6 +1171,16 @@
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
         {
+          "id": "https://stuffthatinterestsme.net/?p=3787",
+          "author": "Schill",
+          "description": "There is a strange little corner of rock history occupied by bands that were important enough to change music but",
+          "link": "https://stuffthatinterestsme.net/forgotten-band-the-damned-2/",
+          "publishedOn": "2026-10-01T00:37:41.000Z",
+          "wordCount": 3959,
+          "title": "Forgotten Band: The Damned",
+          "imageUrl": null
+        },
+        {
           "id": "https://stuffthatinterestsme.net/?p=3652",
           "author": "Schill",
           "description": "Leni Klum is a German-American model who has developed her own career in fashion while growing up in the public",
@@ -1302,16 +1312,6 @@
           "wordCount": 2057,
           "title": "Natalie Harp isn’t a joke — she is Trump’s dangerous enabler",
           "imageUrl": "https://www.salon.com/app/uploads/2026/09/Natalie-Harp-2294908271.jpg"
-        },
-        {
-          "id": "https://www.salon.com/2026/09/21/james-talaricos-campaign-could-do-lasting-damage-to-the-gop/-full",
-          "author": null,
-          "description": "All politics are identity politics. Republicans have long mocked this notion, treating the very concept of “identity politics” as a left-wing fixation. In reality, the GOP’s success is entirely due to the cheapest form of identity politics: For decades, but especially now, they have worked to distract voters from the party’s ruinous policies with appeals to their identity as white, provincial and, most importantly, Christian. This campaign has been enormously successful. White evangelicals have been the backbone of the GOP for decades not because they love tax cuts for the rich and environmental degradation, but because they have been told, repeatedly, that Democrats are demonic and there is no such thing as a liberal Christian. \nThis is why there’s a growing panic in the Republican ranks …",
-          "link": "https://www.salon.com/2026/09/21/james-talaricos-campaign-could-do-lasting-damage-to-the-gop/",
-          "publishedOn": "2026-09-21T10:45:48.000Z",
-          "wordCount": 1989,
-          "title": "James Talarico’s campaign could do lasting damage to the GOP",
-          "imageUrl": "https://www.salon.com/app/uploads/2026/09/James-Talarico-2293972617.jpg"
         }
       ]
     },
@@ -1874,6 +1874,26 @@
       "feedUrl": "https://www.esquire.com/rss/news-politics.xml",
       "siteUrl": "https://www.esquire.com/news-politics/",
       "articles": [
+        {
+          "id": "http://www.esquire.com/news-politics/a73967876/white-house-ballroom-trump-russia/",
+          "author": null,
+          "description": "Surely, our president will face consequences for this insanity.",
+          "link": "https://www.esquire.com/news-politics/a73967876/white-house-ballroom-trump-russia/",
+          "publishedOn": "2026-10-01T00:24:18.000Z",
+          "wordCount": 17567,
+          "title": "A Wealthy Russian Businessman Is Helping Fund Trump’s Stupid Ballroom. Nothing Sketchy About That, Right?",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/7e9e013b-9efb-4180-92cc-c048e81ccff9.jpeg?crop=1xw:0.749633967789xh;center,top&resize=1200:*"
+        },
+        {
+          "id": "http://www.esquire.com/news-politics/politics/a73965542/protect-college-sports-act-ted-cruz/",
+          "author": null,
+          "description": "I’m afraid it’s nothing more than a sad attempt at allowing coaches and administrators to wrench back the control they lost when the old, unpaid-labor system collapsed.",
+          "link": "https://www.esquire.com/news-politics/politics/a73965542/protect-college-sports-act-ted-cruz/",
+          "publishedOn": "2026-09-30T20:52:05.000Z",
+          "wordCount": 18717,
+          "title": "The Protect College Sports Act Is a Complete Joke",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/f2aaf604-37c2-4a2f-ba9e-1e240cf687f5.jpeg?crop=1xw:0.749633967789xh;center,top&resize=1200:*"
+        },
         {
           "id": "http://www.esquire.com/news-politics/politics/a73959346/corporations-alec-big-tech-public-nuisance/",
           "author": null,

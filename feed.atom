@@ -2,10 +2,141 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jacquesfunk.github.io/index.html</id>
     <title>Fake News Echo Chamber</title>
-    <updated>2026-09-30T20:32:49.866Z</updated>
+    <updated>2026-10-01T01:04:09.049Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://jacquesfunk.github.io/index.html"/>
     <link rel="self" href="https://jacquesfunk.github.io/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Forgotten Band: The Damned]]></title>
+        <id>https://stuffthatinterestsme.net/?p=3787</id>
+        <link href="https://stuffthatinterestsme.net/forgotten-band-the-damned-2/"/>
+        <updated>2026-10-01T00:37:41.000Z</updated>
+        <summary type="html"><![CDATA[There is a strange little corner of rock history occupied by bands that were important enough to change music but]]></summary>
+        <author>
+            <name>Schill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Wealthy Russian Businessman Is Helping Fund Trump’s Stupid Ballroom. Nothing Sketchy About That, Right?]]></title>
+        <id>http://www.esquire.com/news-politics/a73967876/white-house-ballroom-trump-russia/</id>
+        <link href="https://www.esquire.com/news-politics/a73967876/white-house-ballroom-trump-russia/"/>
+        <updated>2026-10-01T00:24:18.000Z</updated>
+        <summary type="html"><![CDATA[Surely, our president will face consequences for this insanity.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raymond Zeitler: Now org-toggle-timestamp-overlays is Disabled]]></title>
+        <id>https://ray-on-emacs.blogspot.com/2026/09/now-org-toggle-timestamp-overlays-is.html</id>
+        <link href="https://ray-on-emacs.blogspot.com/2026/09/now-org-toggle-timestamp-overlays-is.html"/>
+        <updated>2026-10-01T00:19:28.313Z</updated>
+        <summary type="html"><![CDATA[org-todo is C-c
+C-t.  Today I learned about another command with a similar
+keybinding (C-c C-x C-t) --
+org-toggle-timestamp-overlays.  Note the C-x
+in the middle.
+
+
+
+When I pressed that key combination (inadvertently), all the
+YYYY-MM-DD timestamps in the buffer were converted to the MM/DD/YYYY
+format.  This was unacceptable -- I needed to change them back.
+However undo did not revert the timestamps; it just undid
+the last edit.  Furthermore, these undesired timestamps couldn't be
+edited and were impervious to org-shiftright.  I was
+confused yet again.
+
+
+
+I didn't even know how this happened.  So I
+invoked view-lossage as a kind reader once suggested 1
+and discovered org-toggle-timestamp-overlays.
+
+
+
+The docstring was no help – it's self-evident that it would "Toggle
+the use of custom time stamp formats."  Eager to clock out of my task,
+I didn't care to learn more.  All I wanted to do was undo the effect.
+
+
+
+I figured that since it toggles the timestamp, all I had to do was
+invoke it again to toggle it back.  Nope.  Well, a nice message
+appears, saying "Time stamp overlays removed."  Yet the timestamps
+looked the same.
+
+
+
+Undaunted, I figured I'd reload the buffer with org-mode-restart.
+That had no effect.  To finally fix this, I deleted the buffer and
+revisited the file.
+
+
+
+A command like this surely is in the same category as upcase-region,
+which is disabled by default.  And so this is why I added
+  (put 'org-toggle-timestamp-overlays 'disabled t) to my init file.
+
+
+
+  1 See https://ray-on-emacs.blogspot.com/2026/05/emacs-view-commands.html]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rahul Juliato: Readable Regular Expressions for JavaScript/TypeScript, Inspired by Emacs' rx]]></title>
+        <id>https://rahuljuliato.com/posts/emacs-rx-in-typescript</id>
+        <link href="https://rahuljuliato.com/posts/emacs-rx-in-typescript"/>
+        <updated>2026-09-30T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Intro
+Quick, what does this match?
+/^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/;
+
+// Take
+// your
+// time...
+//
+// ...still decoding?
+//
+// OK, keep reading :)
+
+
+That's the official regexp from semver.org. It
+validates version numbers like:
+// matches
+"1.2.3"
+"0.10.0"
+"2.0.0-rc.1"
+"1.0.0-alpha.1+build.5"
+"1.0.0+20260930"
+
+// doesn't match
+"01.2.3"   // leading zero
+"1.2"      // missing patch
+"v1.2.3"   // no "v" prefix allowed
+"1.0.0-01" // numeric pre-release with a leading zero
+"1.2.3-"   // empty pre-release
+
+
+Don't get me wrong, I love regexps, but in practice you probably spend
+a bunch of time writing one, testing it against some cases, and moving
+o…]]></summary>
+        <author>
+            <name>Planet Emacslife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Protect College Sports Act Is a Complete Joke]]></title>
+        <id>http://www.esquire.com/news-politics/politics/a73965542/protect-college-sports-act-ted-cruz/</id>
+        <link href="https://www.esquire.com/news-politics/politics/a73965542/protect-college-sports-act-ted-cruz/"/>
+        <updated>2026-09-30T20:52:05.000Z</updated>
+        <summary type="html"><![CDATA[I’m afraid it’s nothing more than a sad attempt at allowing coaches and administrators to wrench back the control they lost when the old, unpaid-labor system collapsed.]]></summary>
+        <author>
+            <name>News-Politics - Esquire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Am I Pushing My Kids Enough To Do The Right Extracurriculars?]]></title>
         <id>https://defector.com/?p=236892</id>
@@ -3067,48 +3198,6 @@ Users with below-average scores were deemed “inelastic” and marked for fewer
 Two other former employees told the Times that when they raised concerns that customer-targeting initiatives like the one Butts worked on could potentially exploit problem gamblers, they were told not to put any protections in place.]]></summary>
         <author>
             <name>Tom Ley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sacha Chua: 2026-09-21 Emacs news]]></title>
-        <id>https://sachachua.com/blog/2026/09/2026-09-21-emacs-news/</id>
-        <link href="https://sachachua.com/blog/2026/09/2026-09-21-emacs-news/"/>
-        <updated>2026-09-21T12:02:45.000Z</updated>
-        <summary type="html"><![CDATA[typewriter mode in the Fun category, but people might actually find the constraints useful for focused writing.
-
-
-
-Upcoming events (iCal file, Org):
-
-Emacs APAC: Emacs APAC meetup (virtual) https://emacs-apac.gitlab.io/announcements/ Sat Sep 26 0130 America/Vancouver - 0330 America/Chicago - 0430 America/Toronto - 0830 Etc/UTC - 1030 Europe/Berlin - 1400 Asia/Kolkata - 1630 Asia/Singapore
-Emacs Berlin: Emacs-Berlin Hybrid Meetup https://emacs-berlin.org/ Wed Sep 30 1000 America/Vancouver - 1200 America/Chicago - 1300 America/Toronto - 1700 Etc/UTC - 1900 Europe/Berlin - 2230 Asia/Kolkata – Thu Oct 1 0100 Asia/Singapore
-EmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/316464079/ Thu Oct 1 1600 America/Vancouver - 1800 America/Chicago - 1900 America/Toronto - 2300 Etc/UTC – Fri …]]></summary>
-        <author>
-            <name>Planet Emacslife</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Monday, September 21, 2026]]></title>
-        <id>https://baty.net/journal/21Sep26/</id>
-        <link href="https://baty.net/journal/21Sep26/"/>
-        <updated>2026-09-21T11:26:39.000Z</updated>
-        <summary type="html"><![CDATA[Surfer and stumbler (2026)
-I'm not sure if "Reduce & Simplify" means Emacs with a browser and file manager on Linux, or macOS with the default apps. I am fully on Linux now, but I keep side-eyeing the MacBook Air as if it will somehow rescue me.
-Honestly, I'm burning out on computers and software. I'm addicted to farting around with things. I spent the weekend installing and using Lotus Agenda from, like, 1990. For a minute I considered trying to use it exclusively as my task/project manager for a month. I mean, it's cool and retro, but seriously? It's a terrible idea that swallowed a good bit of my weekend.
-Today I woke up and dreaded opening Emacs. My whole life has been in Emacs for years and today I thought maybe I no longer wanted it there. I'm typing this in Emacs in a Markdown file …]]></summary>
-        <author>
-            <name>baty.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[James Talarico’s campaign could do lasting damage to the GOP]]></title>
-        <id>https://www.salon.com/2026/09/21/james-talaricos-campaign-could-do-lasting-damage-to-the-gop/-full</id>
-        <link href="https://www.salon.com/2026/09/21/james-talaricos-campaign-could-do-lasting-damage-to-the-gop/"/>
-        <updated>2026-09-21T10:45:48.000Z</updated>
-        <summary type="html"><![CDATA[All politics are identity politics. Republicans have long mocked this notion, treating the very concept of “identity politics” as a left-wing fixation. In reality, the GOP’s success is entirely due to the cheapest form of identity politics: For decades, but especially now, they have worked to distract voters from the party’s ruinous policies with appeals to their identity as white, provincial and, most importantly, Christian. This campaign has been enormously successful. White evangelicals have been the backbone of the GOP for decades not because they love tax cuts for the rich and environmental degradation, but because they have been told, repeatedly, that Democrats are demonic and there is no such thing as a liberal Christian. 
-This is why there’s a growing panic in the Republican ranks …]]></summary>
-        <author>
-            <name>Amanda Marcotte - Salon.com</name>
         </author>
     </entry>
     <entry>
