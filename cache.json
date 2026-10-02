@@ -143,6 +143,16 @@
       "siteUrl": "https://planet.emacslife.com/",
       "articles": [
         {
+          "id": "https://ray-on-emacs.blogspot.com/2026/10/what-is-spook.html",
+          "author": null,
+          "description": "What is spook?\n  The Emacs function spook is\n  not what you think it is.  It doesn't make creepy noises, draw scary\n  ASCII art or change the theme to orange on black.  In fact it has\n  nothing at all to do with Halloween, ghosts, monsters, pandemics or\n  IRS audits.\n\n\n\nWhat it does is insert words and phrases into the current buffer \"to\nhelp give your message ... attractiveness for automated keyword\nscanners.\"\n\n\n\nWhat kind of words or phrases might you expect to see?  To find out I\ninvoked spook while composing this content.  Here's what\nit added:\n\n\n\n\n    TELINT Drug North Korea Security Consulting Virii Abu Ghraib Fort\n    Hancock CUD AMEMB Vaccine MARTA racal E.O.D. Blizzard Nigeria\n  \n\n\n\n  It's easy1 to configure spook to insert an alternate set\n  of words and phrases -- just change the file name in the\n  variable spook-phrases-file from \"spook.lines\" to the\n  name of the alternate file.  Unfortunately it must reside in the\n  Emacs data directory; the file's location is fixed.  The variable\n  can be found in the Spook customization group, whose parent group is\n  Games.\n\n\n\n  Even with only 72 lines in its source code file,2 spook\ndemonstrates how to insert one or more random lines from a file into\nthe current buffer.\n\n\n\n  1 It's \"easy\" if you have Administrator permissions.\n\n\n\n  2 The 72 lines is the entire spook.el file; the first 48%\nof the file provides the usual comments that describe the GNU GPL,\nauthor, maintainer info as well as documentation.",
+          "link": "https://ray-on-emacs.blogspot.com/2026/10/what-is-spook.html",
+          "publishedOn": "2026-10-02T02:17:46.693Z",
+          "wordCount": 2778,
+          "title": "Raymond Zeitler: What is spook?",
+          "imageUrl": null
+        },
+        {
           "id": "http://en.andros.dev/blog/782e8f3b/how-i-built-a-whatsapp-client-for-emacs-without-an-api/",
           "author": null,
           "description": "One of the most fun things you can do with Emacs is to build an interface for another piece of software. It is the Lisp version of running Doom on any device. It is also quite useful, because you can connect it to other tools in the gnu's editor and build more pleasant workflows.\nThe big question: can I chat on WhatsApp from Emacs? Spoiler: I made it, with some limitations.\nNo way in\nContext: I work on macOS. It matters, because the solution depends on it.\nMeta offers no API for this, and the macOS desktop app has no bridge at all: no open ports, no gRPC, no AppleScript dictionary. Nothing.\nThere are unofficial clients, like whatsmeow, that talk directly to WhatsApp's servers by pretending to be a device. They work, but your account ends up depending on software Meta does not authorize, an…",
@@ -1018,56 +1028,6 @@
           "wordCount": 6514,
           "title": "It’s Totally Cool And Normal That Real Madrid And La Liga’s President Are Bickering Online",
           "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2275068961.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=236149",
-          "author": "Drew Magary",
-          "description": "Time for your weekly edition of the Defector Funbag. Got something on your mind? Email the Funbag. You can also read Drew over at SFGATE, and buy Drew’s books while you’re at it. Today, we're talking about flawed domes, office condiments, life on one leg, and more.\nYour letters:\nBaron:",
-          "link": "https://defector.com/look-how-fanatics-massacred-this-simple-trading-card",
-          "publishedOn": "2026-09-22T15:59:10.000Z",
-          "wordCount": 11381,
-          "title": "Look How Fanatics Massacred This Simple Trading Card",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-1417390194.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=236167",
-          "author": "Patrick Redford",
-          "description": "This week on Nothing But Respect, Harry and I were joined by returning champion Eamon Whalen. Eamon just published a big profile of Nick Shirley in New York magazine, and we spent the first half of the show talking about the particulars of the story, the broader implications of letting 24-year-old prank YouTubers dictate policy decisions, and the uncomfortable position people like Shirley put supposed right-wing intellectuals like Chris Rufo into. We then transitioned into some Minnesota Timberwolves chat, with particular attention paid to the bizarre robot-driven ghost kitchens Marc Lore is investing in now that he's pumped and dumped an NBA franchise. This was a fun one!\nYou can find Nothing But Respect in Apple Podcasts or whatever podcast app you use. Follow the show on Instagram, and contact the Broke Jumper Tip Line at (347) 380-6426. Thanks for listening!",
-          "link": "https://defector.com/government-by-influencer-with-eamon-whalen",
-          "publishedOn": "2026-09-22T15:45:02.000Z",
-          "wordCount": 4617,
-          "title": "Government By Influencer, With Eamon Whalen",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2286240631.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=235993",
-          "author": "Robert Rubsam",
-          "description": "Adam Wingard opens his new movie, Onslaught, with a brainrot history of the military industrial complex, a slipshod compilation of combat footage, political speechmaking, and behind-the-headlines conspiracizing that (semi-)convincingly situates the origins of the American century in Operation Paperclip and the importation of Nazi scientists at the end of the Second World War. It rules. Set to a pounding synth score and employing the kind of queasily associative quick-cuts that would make even a 9/11 truther blush, this sequence anticipates something hard-hitting and sharp-edged, the sort of action movie that weaponizes its gristly bad taste for subversive means.\nI wish I could see the movie that this credit sequence foretells. Instead, I saw Onslaught. The set-up is blessedly simple: Celes…",
-          "link": "https://defector.com/two-indie-action-films-one-clear-winner",
-          "publishedOn": "2026-09-22T15:03:11.000Z",
-          "wordCount": 7739,
-          "title": "Two Indie Action Films, One Clear Winner",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/Hope.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=236129",
-          "author": "Barry Petchesky",
-          "description": "The Detroit Tigers announced Monday that their ballpark will henceforth and forever, or until the naming-rights deal runs out or some more banks merge, be known as Fifth Third Park. \"When you look around, it's so much more than where the Tigers play baseball,\" Ryan Gustafson, CEO of Ilitch Sports and Entertainment, said at the unveiling. So much more. It's not merely a \"Tiger\" \"stadium.\" It's Fifth Third Park.\nFifth Third! Ol' One and Two-Thirds Field. The Fraction. Hey, you wanna catch a game down at The 1.6̅? Tigers fans surely can't wait to embrace the new name for what used to be Comerica Park, which opened in 2000 but never truly felt like home because they could pronounce it without difficulty. Comerica was purchased by Fifth Third earlier this year, and now the branding has been set to rights.\n\"Many names were recommended to us by customers and citizens here in Detroit,\" said Tim Spence, chairman, CEO, and president of Fifth Third, and all of them were presumably ignored in favor of Fifth Third Park.",
-          "link": "https://defector.com/fifth-third-park-is-a-terrible-stadium-name",
-          "publishedOn": "2026-09-22T13:38:14.000Z",
-          "wordCount": 5085,
-          "title": "Fifth Third Park Is A Terrible Stadium Name",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/GettyImages-2233115810.jpg"
-        },
-        {
-          "id": "https://defector.com/?p=235805",
-          "author": "Josh Levin",
-          "description": "When I called up my grandfather Irwin Miller last fall, I asked him if he felt his age. “Uh, no, probably 94,” he said, laughing as he shaved off three years. “The body feels 97, the head doesn’t, thank goodness—I think my memory’s pretty good.”\nI call my grandfather Papa, and his memory was more than pretty good considering he was born before the Great Depression. Last November, I wanted to ask him about a big moment in his life: the year he graduated from his New Orleans high school and set out on his own.\n“Growing up in Louisiana, LSU was the only college I thought about,” he told me. His first day was unceremonious: “My folks drove me to Baton Rouge, they dropped me off and said, ‘Good luck and goodbye.’ That was the way things were in those days.”",
-          "link": "https://defector.com/how-one-trick-play-tells-the-history-of-football",
-          "publishedOn": "2026-09-22T13:00:06.000Z",
-          "wordCount": 14572,
-          "title": "How One Trick Play Tells The History Of Football",
-          "imageUrl": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/09/Sleepersmall.jpg"
         }
       ]
     },
@@ -1120,6 +1080,16 @@
       "feedUrl": "https://stuffthatinterestsme.net/feed/",
       "siteUrl": "https://stuffthatinterestsme.net",
       "articles": [
+        {
+          "id": "https://stuffthatinterestsme.net/?p=3790",
+          "author": "Schill",
+          "description": "You’re weekly dose of funny and silly pictures and memes.",
+          "link": "https://stuffthatinterestsme.net/friday-funnies-5/",
+          "publishedOn": "2026-10-02T00:29:14.000Z",
+          "wordCount": 1250,
+          "title": "Friday Funnies",
+          "imageUrl": null
+        },
         {
           "id": "https://stuffthatinterestsme.net/?p=3787",
           "author": "Schill",
@@ -1796,16 +1766,6 @@
           "wordCount": 177,
           "title": "I found one of America's best croissants in San Francisco",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sfgate.com/food/article/butter-crumble-sf-22438825.php-full",
-          "author": null,
-          "description": "Quick: name the best croissant filling. If you’re a basic American like me, you only encounter basic croissant flavors: chocolate, almond, and ham and cheese. These are the norm, and they do the job well if you’re hungry and want to feel 10% more French. But surely, you’ve thought, there must be room for more fillings than that in the American croissant repertoire. Surely there must be a, like, fourth thing we can put into one. \n\nReader, I’m pleased to report that I have found one such worthy croissant filling, and it’s nothing you’d guess off the top of your head. But take one bite of it, and you’ll know I’m right. \n\nThe croissant in question is dubbed “brown butter cornmeal twice-baked,” and the bakery that sells it is San Francisco’s Butter & Crumble, owned by chef and self-dubbed “girl…",
-          "link": "https://www.sfgate.com/food/article/butter-crumble-sf-22438825.php",
-          "publishedOn": "2026-09-22T13:06:47.622Z",
-          "wordCount": 177,
-          "title": "I found one of America's best croissants in SF",
-          "imageUrl": null
         }
       ]
     },
@@ -2229,6 +2189,16 @@
       "siteUrl": "https://talkingpointsmemo.com",
       "articles": [
         {
+          "id": "https://talkingpointsmemo.com/?p=1559175",
+          "author": "Josh Marshall",
+          "description": "A friend sent me this new Bain Capital study on the growth required to match the current levels of capital...",
+          "link": "https://talkingpointsmemo.com/edblog/bain-capital-brainstorms-where-the-ai-revenues-gonna-come-from",
+          "publishedOn": "2026-10-01T22:44:34.000Z",
+          "wordCount": 1922,
+          "title": "Bain Capital Brainstorms Where The AI Revenue’s Gonna Come From",
+          "imageUrl": "https://talkingpointsmemo.com/wp-content/uploads/2025/06/GettyImages-2201424488.jpg?w=1200"
+        },
+        {
           "id": "https://talkingpointsmemo.com/?p=1559025",
           "author": "Josh Marshall",
           "description": "This is the weekly, free edition of The Backchannel. If you’d like to receive the free edition of The Backchannel...",
@@ -2496,22 +2466,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!q-5F!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F93b80a64-9708-4736-a22d-9df943776d57_400x600.jpeg"
-        },
-        {
-          "id": "https://morningmemo.talkingpointsmemo.com/p/lol-bill-pulte-examined-todd-blanches",
-          "author": "David Kurtz",
-          "description": "INSIDE: Susan Collins ... Don Jr. ... Natalie Harp",
-          "link": "https://morningmemo.talkingpointsmemo.com/p/lol-bill-pulte-examined-todd-blanches",
-          "publishedOn": "2026-09-22T15:35:23.000Z",
-          "wordCount": null,
-          "title": "LOL: Bill Pulte ‘Examined’ Todd Blanche’s Mortgages",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!vbLs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ff05e39-78f3-4087-91ff-1f155b203843_400x600.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!vbLs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ff05e39-78f3-4087-91ff-1f155b203843_400x600.jpeg"
         }
       ]
     },
@@ -2669,22 +2623,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!YasQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbd7bef1-2946-4514-9378-f1cf63f6b000_1280x720.jpeg"
-        },
-        {
-          "id": "https://www.jefftiedrich.com/p/white-house-press-corps-fuck-yeah",
-          "author": "Jeff Tiedrich",
-          "description": "who knew that doing the right thing could feel so good?",
-          "link": "https://www.jefftiedrich.com/p/white-house-press-corps-fuck-yeah",
-          "publishedOn": "2026-09-22T14:29:14.000Z",
-          "wordCount": null,
-          "title": "White House press corps, fuck yeah!",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!ywxu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9316b926-05b0-47f4-8046-489d0f25b176_2630x1492.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!ywxu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9316b926-05b0-47f4-8046-489d0f25b176_2630x1492.jpeg"
         }
       ]
     }
