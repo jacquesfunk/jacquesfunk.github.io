@@ -4,18 +4,18 @@
 # hosted as default page for the user 
 # (eg <username>.github.io), in that case it should be
 # set to '/'
-site_path = "/liveboat-github-runner/"
+site_path = "/"
 # Title of the site
-title = "Liveboat Demo"
+title = "Fake News Echo Chamber"
 # Update site url if you're planning on using aggregated OPML
 # channel Liveboat exposes.
-site_url = "https://konrad.website/liveboat-github-runner/"
+# site_url = "https://konrad.website/liveboat-github-runner/"
 # Maximum number of days for which Liveboat will include
 # articles for.
-time_threshold = 40
+time_threshold = 10
 # This denotes whether articles marked as read by Newsboat
 # should be included on the page.
-show_read_articles = true
+show_read_articles = false
 # Below variables define default directories 
 # and typically should not be changed.
 newsboat_urls_file = "./config/urls"
