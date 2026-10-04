@@ -60,6 +60,24 @@ jobs:
           sh -c "newsboat -u config/urls -C config/newsboat-config -c cache.db -x reload && liveboat --template-path templates/default --config-file config/liveboat-config.toml"
           sudo chown -R "$(id -u):$(id -g)" .
 
+      - name: Validate generated feed list
+        run: |
+          feeds_file=./docs/feeds/feeds.json
+          if [ ! -s "$feeds_file" ]; then
+              echo "::error file=${feeds_file}::${feeds_file} is missing or empty after the Liveboat build."
+              exit 1
+          fi
+          if ! feed_count=$(jq -er '.feeds | if type == "array" then length else error("feeds is not an array") end' "$feeds_file"); then
+              echo "::error file=${feeds_file}::${feeds_file} is not valid JSON or has no 'feeds' array."
+              exit 1
+          fi
+          if [ "$feed_count" -eq 0 ]; then
+              echo "::error file=${feeds_file}::Generated feed list is empty, refusing to publish. Check ./config/urls: a standalone '!' marks a feed as hidden in Newsboat syntax (use 'URL tag', not 'URL ! tag'), and make sure at least one feed or query feed is visible."
+              exit 1
+          fi
+          echo "Generated ${feed_count} visible feed(s)."
+        shell: bash
+
       - name: Truncate database
         run: |
           ./scripts/truncate_db ${{ env.NEWSBOAT_CACHE_RETENTION_DAYS }}
