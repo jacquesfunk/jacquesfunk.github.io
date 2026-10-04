@@ -109,6 +109,9 @@ http://blog.golang.org/feed.atom "~Golang Blog" ! dev
 
 This will result showing only `Dev News` feed on the page. 
 
+> [!WARNING]
+> `!` is not a separator between the URL and its tags, it hides the feed. If every feed is hidden (and no query feed is defined) the generated page will contain no feeds. To prevent publishing such a page, the build workflow fails before committing if `./docs/feeds/feeds.json` contains an empty feed list.
+
 You can also add additional filtering options to query feeds, for example to show only articles from last 2 days:
 
 ```
